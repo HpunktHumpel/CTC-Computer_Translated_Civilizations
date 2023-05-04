@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b957edad-a4f1-47f1-a2ac-36bbe701f1e4" version="1">
+  <Properties>
+    <Name>萨卡兹雇佣兵</Name>
+    <Description>W</Description>
+    <Created>1602830194</Created>
+    <Authors>xiaofu</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icons/Icon_Building.xml</File>
+      <File>Icons/Icon_Civilization.xml</File>
+      <File>Icons/Icon_Leader.xml</File>
+      <File>Icons/Icon_Unit.xml</File>
+      <File>Icons/Icon_District.xml</File>
+      <File>Icons/Icon_Project.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>萨卡兹雇佣兵.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>Color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="text">
+      <File>Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icons/Icon_Building.xml</File>
+      <File>Icons/Icon_Civilization.xml</File>
+      <File>Icons/Icon_Leader.xml</File>
+      <File>Icons/Icon_Unit.xml</File>
+      <File>Icons/Icon_District.xml</File>
+      <File>Icons/Icon_Project.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>萨卡兹雇佣兵.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="database">
+      <File>Unit.xml</File>
+      <File>Leader.xml</File>
+      <File>Civilization.xml</File>
+      <File>Modifiers/Trait_Civ.sql</File>
+      <File>Modifiers/Trait_Building.sql</File>
+      <File>Modifiers/Trait_Unit.sql</File>
+      <File>Modifiers/Trait_Leader.sql</File>
+      <File>Unit_promotions.xml</File>
+      <File>D12.xml</File>
+      <File>PROJECT_D12.xml</File>
+      <File>Districts.xml</File>
+      <File>Building.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Color.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Building.xml</File>
+    <File>Civilization.xml</File>
+    <File>Color.xml</File>
+    <File>Config.xml</File>
+    <File>D12.xml</File>
+    <File>Districts.xml</File>
+    <File>Icons/Icon_Building.xml</File>
+    <File>Icons/Icon_Civilization.xml</File>
+    <File>Icons/Icon_District.xml</File>
+    <File>Icons/Icon_Leader.xml</File>
+    <File>Icons/Icon_Project.xml</File>
+    <File>Icons/Icon_Unit.xml</File>
+    <File>Leader.xml</File>
+    <File>Modifiers/Trait_Building.sql</File>
+    <File>Modifiers/Trait_Civ.sql</File>
+    <File>Modifiers/Trait_Leader.sql</File>
+    <File>Modifiers/Trait_Unit.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SarkazDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SarkazDDS.blp</File>
+    <File>PROJECT_D12.xml</File>
+    <File>Text.xml</File>
+    <File>Unit.xml</File>
+    <File>Unit_promotions.xml</File>
+    <File>萨卡兹雇佣兵.dep</File>
+  </Files>
+</Mod>

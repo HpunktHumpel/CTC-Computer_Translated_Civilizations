@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri May  5 01:29:21 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_NAME" Language="ru_RU">
+			<Text>Голубь</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_BINOMIAL_DOVE_NAME" Language="ru_RU">
+			<Text>Голубь</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOVE_KINGDOM" Language="ru_RU">
+			<Text>голубиное королевство</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_DESCRIPTION" Language="ru_RU">
+			<Text>голубиное королевство</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_ADJECTIVE" Language="ru_RU">
+			<Text>Голубиный</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_NAME" Language="ru_RU">
+			<Text>Лес и земля свободы</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_DESCRIPTION" Language="ru_RU">
+			<Text>Клетки тундры +1 Производительность [ICON_PRODUCTION], +2 Еда [ICON_FOOD] Вера [ICON_FAITH]. Лес +2 Еда [ICON_FOOD], +3 Производительность [ICON_PRODUCTION] Вера [ICON_FAITH]. +2 удобства[ICON_AMENITIES] для всех городов, -4[ICON_PRODUCTION], +0[ICON_FAITH] для каждого гражданина[ICON_CITIZEN] в любое время. [NEWLINE]Специализированные участки можно строить только в лесах, и каждая соседняя клетка леса +1 соответствует соседнему бонусу. [NEWLINE] Строители получают +2 к движению [ICON_MOVEMENT], -1 время постройки [ICON_CHARGES].</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FRIENDLY_COMBAT_BONUS" Language="ru_RU">
+			<Text>на дружественной территории</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FOREST_DEFENSE_BONUS" Language="ru_RU">
+			<Text>защита в лесу</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_SCIENCE] Научная ценность исходит из соседних ячеек леса.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_CULTURE" Language="ru_RU">
+			<Text>+{1_num} [ICON_CULTURE] Значение культуры поступает из соседних ячеек леса.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_PRODUCTION] Продукция поступает из соседних ячеек леса.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_GOLD] Золото можно получить из соседних клеток леса.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_FAITH" Language="ru_RU">
+			<Text>+{1_num} [ICON_FAITH] Вера поступает из соседних клеток леса.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_NAME" Language="ru_RU">
+			<Text>голубиная колония</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_DESCRIPTION" Language="ru_RU">
+			<Text>Вместо «Священной земли», начального значения веры +4 [ICON_FAITH], после исследования технологии «Сталь» голубиные колонии в городах с 16 и более жителями [ICON_CITIZEN] будут производить дополнительную продукцию [ICON_PRODUCTION]. [NEWLINE]Граждан и здания можно купить за веру после того, как город будет построен.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_BASE" Language="ru_RU">
+			<Text>+{1_num} [ICON_FAITH] Вера.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_WONDER" Language="ru_RU">
+			<Text>+{1_num} [ICON_FAITH] Вера из соседних чудес.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_SCIENCE] Наука из соседних колоний голубей.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_CULTURE" Language="ru_RU">
+			<Text>+{1_num} [ICON_CULTURE] Культура из соседних колоний голубей.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_PRODUCTION] Производство соседних голубиных колоний.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_GOLD] Золотых монет из соседних колоний голубей.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_FAITH" Language="ru_RU">
+			<Text>+{1_num} [ICON_FAITH] Вера из соседних голубиных колоний.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_NAME" Language="ru_RU">
+			<Text>кукушка труд</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_SHORT_NAME" Language="ru_RU">
+			<Text>кукушка труд</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_DESCRIPTION" Language="ru_RU">
+			<Text>Нанимайте таланты для строительства города и получите 3 строителей [ICON_CHARGES] после завершения проекта.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CAPITAL" Language="ru_RU">
+			<Text>алтарь</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_1" Language="ru_RU">
+			<Text>Росарио горы</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_2" Language="ru_RU">
+			<Text>Большие Антильские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_3" Language="ru_RU">
+			<Text>флорида ключ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_4" Language="ru_RU">
+			<Text>Морроуз</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_5" Language="ru_RU">
+			<Text>Эспаньола</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_6" Language="ru_RU">
+			<Text>Техас</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_7" Language="ru_RU">
+			<Text>Малые Антильские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_8" Language="ru_RU">
+			<Text>Медельин</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_9" Language="ru_RU">
+			<Text>Кали</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_10" Language="ru_RU">
+			<Text>Тернер</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_11" Language="ru_RU">
+			<Text>Баньос-де-Агуа-Санта</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_12" Language="ru_RU">
+			<Text>Паракас</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_13" Language="ru_RU">
+			<Text>Кингстон</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_14" Language="ru_RU">
+			<Text>Каракас</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_15" Language="ru_RU">
+			<Text>Парамарибо</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_16" Language="ru_RU">
+			<Text>лима</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_17" Language="ru_RU">
+			<Text>Панама</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_18" Language="ru_RU">
+			<Text>манагуа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_19" Language="ru_RU">
+			<Text>Джорджтаун</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_20" Language="ru_RU">
+			<Text>Сан - Хосе</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_21" Language="ru_RU">
+			<Text>Бразилиа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_22" Language="ru_RU">
+			<Text>Нотр-Дам де Ла-Пас</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_23" Language="ru_RU">
+			<Text>Буэнос айрес</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_24" Language="ru_RU">
+			<Text>Сукре</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_25" Language="ru_RU">
+			<Text>Нукуалофа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_26" Language="ru_RU">
+			<Text>Меланезия</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_27" Language="ru_RU">
+			<Text>Джакарта</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_28" Language="ru_RU">
+			<Text>Сулавеси</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_29" Language="ru_RU">
+			<Text>Уоллес</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_30" Language="ru_RU">
+			<Text>Канберра</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_31" Language="ru_RU">
+			<Text>остров норфолк</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_32" Language="ru_RU">
+			<Text>Острова Санта-Крус</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_33" Language="ru_RU">
+			<Text>Нумеа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_34" Language="ru_RU">
+			<Text>Сува</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_35" Language="ru_RU">
+			<Text>Порт-Вила</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_36" Language="ru_RU">
+			<Text>Остров Говард</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_37" Language="ru_RU">
+			<Text>Острова Огасавара</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_38" Language="ru_RU">
+			<Text>вулканические острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_39" Language="ru_RU">
+			<Text>Южный остров птиц</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_40" Language="ru_RU">
+			<Text>Северные Марианские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_41" Language="ru_RU">
+			<Text>Хаггертнер</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_42" Language="ru_RU">
+			<Text>Новая Гвинея</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_43" Language="ru_RU">
+			<Text>Аарон</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_44" Language="ru_RU">
+			<Text>Банаба</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_45" Language="ru_RU">
+			<Text>Остров Уэйк</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_46" Language="ru_RU">
+			<Text>Маршалловы острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_47" Language="ru_RU">
+			<Text>Острова Гилберта</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_48" Language="ru_RU">
+			<Text>Южная Тарава</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_49" Language="ru_RU">
+			<Text>атолл джонстон</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_50" Language="ru_RU">
+			<Text>Острова Феникс</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_51" Language="ru_RU">
+			<Text>линейные острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_52" Language="ru_RU">
+			<Text>Хауленд я.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_53" Language="ru_RU">
+			<Text>Бейкер-Айленд</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_54" Language="ru_RU">
+			<Text>Джарвис И.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_55" Language="ru_RU">
+			<Text>Малдон Айл</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_56" Language="ru_RU">
+			<Text>Штубук И.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_57" Language="ru_RU">
+			<Text>Тувалу</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_58" Language="ru_RU">
+			<Text>острова Токелау</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_59" Language="ru_RU">
+			<Text>Остров</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_60" Language="ru_RU">
+			<Text>Пука Пука</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_61" Language="ru_RU">
+			<Text>Апиа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_62" Language="ru_RU">
+			<Text>матауту</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_63" Language="ru_RU">
+			<Text>Алофи</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_64" Language="ru_RU">
+			<Text>Аваруа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_65" Language="ru_RU">
+			<Text>Австралийские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_66" Language="ru_RU">
+			<Text>Острова Общества</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_67" Language="ru_RU">
+			<Text>туамотос есть.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_68" Language="ru_RU">
+			<Text>Адамстаун</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_69" Language="ru_RU">
+			<Text>Салас и остров Гомес</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_70" Language="ru_RU">
+			<Text>Остров Пасхи</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_71" Language="ru_RU">
+			<Text>Маркизские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_72" Language="ru_RU">
+			<Text>Гавайи</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_73" Language="ru_RU">
+			<Text>ревирагуидо есть.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_74" Language="ru_RU">
+			<Text>кокосы я.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_75" Language="ru_RU">
+			<Text>мальпело я.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_76" Language="ru_RU">
+			<Text>остров клиппертон</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_77" Language="ru_RU">
+			<Text>Галапагосские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_78" Language="ru_RU">
+			<Text>острова дес вентурадас</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_79" Language="ru_RU">
+			<Text>Острова Хуана Фернандеса</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_80" Language="ru_RU">
+			<Text>Тайвань</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_81" Language="ru_RU">
+			<Text>Остров Пемба</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_82" Language="ru_RU">
+			<Text>Нахито</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_83" Language="ru_RU">
+			<Text>Сингапур</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_84" Language="ru_RU">
+			<Text>Сурат Шани</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_85" Language="ru_RU">
+			<Text>Гуанчжоу</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_86" Language="ru_RU">
+			<Text>Наньнин</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_87" Language="ru_RU">
+			<Text>Макао</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_88" Language="ru_RU">
+			<Text>Маньярский район</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_89" Language="ru_RU">
+			<Text>Аддис-Абеба</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_90" Language="ru_RU">
+			<Text>Найроби</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_91" Language="ru_RU">
+			<Text>Претория</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_92" Language="ru_RU">
+			<Text>мыс полуостров</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_93" Language="ru_RU">
+			<Text>Блумфонтейн</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_94" Language="ru_RU">
+			<Text>Аравийский полуостров</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_95" Language="ru_RU">
+			<Text>Антананариву</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_96" Language="ru_RU">
+			<Text>Манила</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_97" Language="ru_RU">
+			<Text>Родригес</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_98" Language="ru_RU">
+			<Text>Виктория-Бонапарт</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_99" Language="ru_RU">
+			<Text>Земля Арнема</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_100" Language="ru_RU">
+			<Text>Лусон</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_101" Language="ru_RU">
+			<Text>динага есть.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_102" Language="ru_RU">
+			<Text>Минданао</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_103" Language="ru_RU">
+			<Text>Куско</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_104" Language="ru_RU">
+			<Text>Асунсьон</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_105" Language="ru_RU">
+			<Text>Порт Испании</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_106" Language="ru_RU">
+			<Text>сокорро я.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_107" Language="ru_RU">
+			<Text>Бермуды</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_108" Language="ru_RU">
+			<Text>инагуа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_109" Language="ru_RU">
+			<Text>Каймановы острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_110" Language="ru_RU">
+			<Text>Виргинские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_111" Language="ru_RU">
+			<Text>Мартиника</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_112" Language="ru_RU">
+			<Text>Тринидад</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_113" Language="ru_RU">
+			<Text>тумбе я.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_114" Language="ru_RU">
+			<Text>Скарборо</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_115" Language="ru_RU">
+			<Text>Монтевидео</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_116" Language="ru_RU">
+			<Text>Нариньо</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_117" Language="ru_RU">
+			<Text>серрадо</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_118" Language="ru_RU">
+			<Text>Сан-Сальвадор</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_119" Language="ru_RU">
+			<Text>город Гватемала</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_120" Language="ru_RU">
+			<Text>Тегусигальпа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_121" Language="ru_RU">
+			<Text>Анды</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_122" Language="ru_RU">
+			<Text>Карибский регион</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_123" Language="ru_RU">
+			<Text>Маскаренские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_124" Language="ru_RU">
+			<Text>Астана</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_125" Language="ru_RU">
+			<Text>Шри Джаяварденепура Котте</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_126" Language="ru_RU">
+			<Text>дельта Нила</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_127" Language="ru_RU">
+			<Text>Дакар</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_128" Language="ru_RU">
+			<Text>Баку</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_129" Language="ru_RU">
+			<Text>Улан-Батор</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_130" Language="ru_RU">
+			<Text>дамаск</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_131" Language="ru_RU">
+			<Text>Канарские острова</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_132" Language="ru_RU">
+			<Text>Хартум</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_133" Language="ru_RU">
+			<Text>Катманду</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_134" Language="ru_RU">
+			<Text>Душанбе</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_135" Language="ru_RU">
+			<Text>Лиссабон</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_136" Language="ru_RU">
+			<Text>Мороний</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_137" Language="ru_RU">
+			<Text>Гвинейский залив</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_138" Language="ru_RU">
+			<Text>Кампала</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_139" Language="ru_RU">
+			<Text>Додома</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_140" Language="ru_RU">
+			<Text>Святая Елена</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_141" Language="ru_RU">
+			<Text>Хогарские горы</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_142" Language="ru_RU">
+			<Text>воздушная гора</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_143" Language="ru_RU">
+			<Text>Джава</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_144" Language="ru_RU">
+			<Text>Сахель</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_145" Language="ru_RU">
+			<Text>Папуа</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_1" Language="ru_RU">
+			<Text>Лофолаймус</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_2" Language="ru_RU">
+			<Text>Макропигия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_3" Language="ru_RU">
+			<Text>Несоен</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_4" Language="ru_RU">
+			<Text>Рейнвардтоэна</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_5" Language="ru_RU">
+			<Text>Тонгоэнас</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_6" Language="ru_RU">
+			<Text>Эктописты</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_7" Language="ru_RU">
+			<Text>Пезофапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_8" Language="ru_RU">
+			<Text>Старноенас</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_9" Language="ru_RU">
+			<Text>Зенаида</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_10" Language="ru_RU">
+			<Text>Хеникофапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_11" Language="ru_RU">
+			<Text>Рафус</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_12" Language="ru_RU">
+			<Text>Гимнофапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_13" Language="ru_RU">
+			<Text>Гео игра</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_14" Language="ru_RU">
+			<Text>Уропелия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_15" Language="ru_RU">
+			<Text>Лептотил</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_16" Language="ru_RU">
+			<Text>Колумба</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_17" Language="ru_RU">
+			<Text>Птилинопус</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_18" Language="ru_RU">
+			<Text>Зентригон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_19" Language="ru_RU">
+			<Text>лейкосархия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_20" Language="ru_RU">
+			<Text>Делиафапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_21" Language="ru_RU">
+			<Text>Паракларавис</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_22" Language="ru_RU">
+			<Text>Трерон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_23" Language="ru_RU">
+			<Text>халкофапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_24" Language="ru_RU">
+			<Text>фапитрерон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_25" Language="ru_RU">
+			<Text>лептотригон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_26" Language="ru_RU">
+			<Text>Оцифапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_1" Language="ru_RU">
+			<Text>стрептопелия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_2" Language="ru_RU">
+			<Text>Микрогура</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_3" Language="ru_RU">
+			<Text>геофапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_4" Language="ru_RU">
+			<Text>жаворонки</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_5" Language="ru_RU">
+			<Text>Галликолумба</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_6" Language="ru_RU">
+			<Text>дисморопелия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_7" Language="ru_RU">
+			<Text>Патагиоэнас</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_8" Language="ru_RU">
+			<Text>Баунтифапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_9" Language="ru_RU">
+			<Text>Колумбина</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_10" Language="ru_RU">
+			<Text>Петрофасса</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_11" Language="ru_RU">
+			<Text>Дукула</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_12" Language="ru_RU">
+			<Text>Он</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_13" Language="ru_RU">
+			<Text>Витражи</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_14" Language="ru_RU">
+			<Text>Метропелия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_15" Language="ru_RU">
+			<Text>Отидифапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_16" Language="ru_RU">
+			<Text>Стирание</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_17" Language="ru_RU">
+			<Text>Спилопелия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_18" Language="ru_RU">
+			<Text>Черепаха</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_19" Language="ru_RU">
+			<Text>Туракоэна</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_20" Language="ru_RU">
+			<Text>Фапс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_21" Language="ru_RU">
+			<Text>Полуфаг</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_22" Language="ru_RU">
+			<Text>Геотригон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_23" Language="ru_RU">
+			<Text>Дидункулус</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_24" Language="ru_RU">
+			<Text>Гура</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_25" Language="ru_RU">
+			<Text>Калоенас</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_26" Language="ru_RU">
+			<Text>Криптофапы</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_27" Language="ru_RU">
+			<Text>Тругон</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_NAME" Language="ru_RU">
+			<Text>голубь</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_QUOTE" Language="ru_RU">
+			<Text>Жизнь коротка, наслаждайтесь вовремя.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_NAME" Language="ru_RU">
+			<Text>безнадзорный голубь</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_DESCRIPTION" Language="ru_RU">
+			<Text>Все города +2 к удобству [ICON_AMENITIES] (+4 к удобству [ICON_AMENITIES] после современности), боевая мощь всех юнитов -5 [ICON_STRENGTH]. Каждый гражданин [ICON_CITIZEN] -2 производства [ICON_PRODUCTION], -2 золота [ICON_GOLD] (-1 производства [ICON_PRODUCTION], если в городе есть губернатор).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_NAME" Language="ru_RU">
+			<Text>автор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_DESCRIPTION" Language="ru_RU">
+			<Text>-1 время постройки [ICON_CHARGES], может ускорить области и чудеса. [NEWLINE]Этот боец ​​может ворковать, что может дать Эврику [ICON_TECHBOOSTED] и вдохновение [ICON_CIVICBOOSTED].</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_NAME" Language="ru_RU">
+			<Text>Голубь мира</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_QUOTE" Language="ru_RU">
+			<Text>Я никогда не жаждал войны, кроме мира.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_NAME" Language="ru_RU">
+			<Text>посол мира</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_DESCRIPTION" Language="ru_RU">
+			<Text>Предметы, связанные с ядерным оружием, производят +100% [ICON_PRODUCTION], обслуживание ядерных установок -50% [ICON_GOLD].</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_NAME" Language="ru_RU">
+			<Text>завод по переработке урана</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет «Фабрику», производит дополнительную веру и устраняет дебафф производительности способности цивилизации. [NEWLINE]Стратегический запас ресурсов +20, давайте +4 урана [ICON_RESOURCE_URANIUM] каждый раунд.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Голуби — семейство птиц, состоящее из голубей и горлиц. Это единственное семейство в отряде Pigeoniformes. Эти птицы коренастые, с короткими шеями и короткими удлиненными клювами, которые у некоторых видов имеют мясистые надклювья. В основном они питаются семенами, фруктами и растениями. Это семейство распространено по всему миру, но больше всего сортов в Индонезии и Австралии.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>На английском языке более мелкие породы часто называют «голубями», а более крупные - «голубями». Однако это различие непоследовательно и не существует в большинстве других языков. Исторически сложилось так, что общие названия этих птиц сильно различались между терминами. Самая распространенная птица, известная только как «голубь», — это домашний голубь, а другой вид, распространенный во многих городах и называемый «голубем», — это дикий голубь.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Голуби обычно строят относительно непрочные гнезда на ветвях деревьев, подоконниках или на земле, используя ветки и другой мусор. Они откладывают по одному или два белых яйца за раз, и оба родителя заботятся о птенцах, которые покидают гнездо через 25-32 дня. Неоперенные молодые голуби и голуби называются голубятнями и обычно готовы к полету к 5-недельному возрасту. Звук этих молодых голубей незрелый, и после того, как они отняты от груди или запыхались, их называют пищалками. В отличие от большинства птиц, как самцы, так и самки голубей и голубей кормят своих детенышей, выделяя «зобное молоко», которое выделяется из заполненных жидкостью клеток, выстилающих зоб.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DOVE_CLUSTER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Населенные пункты, места совместного проживания людей, можно разделить на «городские поселения» (города) и «сельские поселения» (села). Поселения в основном используются в качестве концентрированных жилых районов после раннего заселения человеческого общества.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+			<Text>Голубь во многих случаях является символическим символом.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_DETAILED_BODY" Language="ru_RU">
+			<Text>Голуби, особенно домашние голуби с белым оперением, во многих случаях использовались как символы мира, свободы или любви.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Голуби часто ассоциируются с понятием мира и пацифизма. Их часто изображают в политических карикатурах, на баннерах и вывесках на мероприятиях, пропагандирующих мир (таких как Олимпийские игры, различные протесты против войны/против насилия и т. д.), а также в пацифистской литературе. Пацифиста иногда называют голубем (аналогично тому, кто в американской политике выступает за использование военных ресурсов, а не дипломатию, можно назвать ястребом).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Литография Пикассо «Голубь», традиционное реалистичное изображение голубя без оливковой ветви, была выбрана в качестве монограммы Всемирного совета мира, состоявшегося в Париже в апреле 1949 года. На Всемирной конференции мира в Шеффилде в 1950 году Пикассо сказал, что его отец научил его рисовать голубей, и наконец сказал: «Я представляю жизнь против смерти, я представляю мир против войны». Голуби изображены на баннерах над сценой. У антикоммунистов был свой взгляд на голубя: «Мир и свобода» распространяли плакаты под названием «La colombe qui fait BOUM» («Взорвавшийся голубь»), изображающие голубя, превращающегося в советский танк.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Разделение изотопов затруднено, потому что два изотопа одного и того же элемента имеют почти идентичные химические свойства и могут быть разделены только поэтапно с использованием небольшой разницы в массе. (235U всего на 1,26% легче 238U). Проблема усугубляется тем, что уран редко выделяют в атомарном виде, а в виде соединения (235UF6 всего на 0,852% легче 238UF6). Концентрации 235U, производимые каскадами, состоящими из одних и тех же ступеней, последовательно возрастают. Каждая стадия пропускает более концентрированный продукт на следующую стадию и отправляет менее концентрированный остаток обратно на предыдущую стадию.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>В настоящее время в мире широко используются два коммерческих метода обогащения: газодиффузионный метод (называемый первым поколением) и газовая центрифуга (второе поколение), энергопотребление последнего составляет всего от 2% до 2,5% газодиффузионного метода. (как минимум «в 20 раз эффективнее»). Ведутся некоторые работы, в которых будет использоваться ядерный резонанс, однако нет надежных доказательств того, что какой-либо ядерно-резонансный процесс был запущен в производство.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+			<Text>Голубь Ньянг относится к женскому образу голубей, обычно представленному в двухмерном изображении.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_DETAILED_BODY" Language="ru_RU">
+			<Text>Маскарад относится к методу художественного творчества, придающему внешности, характеру, одежде и т. д. женщине что угодно. Термин «девичья моэ» обычно относится к «девичьей моэ», выполненной в милой форме, также известной как «девичья моэ». Девичья мода Мо возникла с развитием современной субкультуры ACGN и милой культуры.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Кукушка.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Автор – автор книги, статьи, пьесы или другого письменного произведения. Широкое определение термина «автор»:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>«Автор — это тот, кто что-либо рождает или вызывает к жизни», чье авторство определяет ответственность за созданное».</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_146" Language="ru_RU">
+			<Text>Тегусигальпа</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

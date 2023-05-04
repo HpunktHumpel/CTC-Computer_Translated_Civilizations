@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri May  5 01:29:21 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_NAME" Language="ja_JP">
+			<Text>鳩</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_BINOMIAL_DOVE_NAME" Language="ja_JP">
+			<Text>鳩</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOVE_KINGDOM" Language="ja_JP">
+			<Text>鳩王国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_DESCRIPTION" Language="ja_JP">
+			<Text>鳩王国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_ADJECTIVE" Language="ja_JP">
+			<Text>ピジョンズ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_NAME" Language="ja_JP">
+			<Text>森と自由の国</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_DESCRIPTION" Language="ja_JP">
+			<Text>ツンドラ細胞 +1 生産性 [ICON_PRODUCTION]、+2 食物 [ICON_FOOD] 信仰 [ICON_FAITH]。森 +2 食料 [ICON_FOOD]、+3 生産性 [ICON_PRODUCTION] 信仰 [ICON_FAITH]。すべての都市のアメニティ[ICON_AMENITIES]+2、市民[ICON_CITIZEN]ごとに-4[ICON_PRODUCTION]、+0[ICON_FAITH]。 [NEWLINE]特化したエリアは森林内にのみ建設でき、隣接する各森林セル +1 は隣接するボーナスに対応します。 [NEWLINE] 大工の移動力は +2 [ICON_MOVEMENT]、建設時間は -1 [ICON_CHARGES] になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FRIENDLY_COMBAT_BONUS" Language="ja_JP">
+			<Text>友好国領内</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FOREST_DEFENSE_BONUS" Language="ja_JP">
+			<Text>森の防御</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_SCIENCE" Language="ja_JP">
+			<Text>+{1_num} [ICON_SCIENCE] 科学値は、隣接する森のセルから得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_CULTURE" Language="ja_JP">
+			<Text>+{1_num} [ICON_CULTURE] 文化値は隣接する森林セルから取得されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_PRODUCTION] 隣接する森林セルからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_GOLD" Language="ja_JP">
+			<Text>+{1_num} [ICON_GOLD] ゴールドは隣接する森のタイルから得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_FAITH" Language="ja_JP">
+			<Text>+{1_num} [ICON_FAITH] 信仰は隣接する森のセルから来ます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_NAME" Language="ja_JP">
+			<Text>鳩のコロニー</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_DESCRIPTION" Language="ja_JP">
+			<Text>「Sacred Land」の代わりに、最初の +4 [ICON_FAITH] 信仰値、「Steel」テクノロジーを研究した後、16 人以上の市民 [ICON_CITIZEN] を持つ都市のハトのコロニーは、追加の生産 [ICON_PRODUCTION] を生成します。 [NEWLINE]都市が建設された後、市民と建物は信仰で購入できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_BASE" Language="ja_JP">
+			<Text>+{1_num} [ICON_FAITH] 信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_WONDER" Language="ja_JP">
+			<Text>+{1_num} [ICON_FAITH] 隣接する不思議からの信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_SCIENCE" Language="ja_JP">
+			<Text>+{1_num} [ICON_SCIENCE] 隣接する鳩のコロニーからの科学。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_CULTURE" Language="ja_JP">
+			<Text>+{1_num} [ICON_CULTURE] 近隣の鳩のコロニーからの文化。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_PRODUCTION] 近隣の鳩のコロニーからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_GOLD" Language="ja_JP">
+			<Text>+{1_num} [ICON_GOLD] 近隣の鳩のコロニーからの金貨。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_FAITH" Language="ja_JP">
+			<Text>+{1_num} [ICON_FAITH] 近隣の鳩のコロニーからの信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_NAME" Language="ja_JP">
+			<Text>カッコウ労働</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_SHORT_NAME" Language="ja_JP">
+			<Text>カッコウ労働</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_DESCRIPTION" Language="ja_JP">
+			<Text>都市建設の才能を募集し、プロジェクトの完了後に 3 ビルダー [ICON_CHARGES] を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CAPITAL" Language="ja_JP">
+			<Text>祭壇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_1" Language="ja_JP">
+			<Text>ロザリオ山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_2" Language="ja_JP">
+			<Text>大アンティル諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_3" Language="ja_JP">
+			<Text>フロリダキー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_4" Language="ja_JP">
+			<Text>モローズ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_5" Language="ja_JP">
+			<Text>イスパニョーラ島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_6" Language="ja_JP">
+			<Text>テキサス州</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_7" Language="ja_JP">
+			<Text>小アンティル諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_8" Language="ja_JP">
+			<Text>メデジン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_9" Language="ja_JP">
+			<Text>カリ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_10" Language="ja_JP">
+			<Text>ターナー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_11" Language="ja_JP">
+			<Text>バニョス デ アグア サンタ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_12" Language="ja_JP">
+			<Text>パラカス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_13" Language="ja_JP">
+			<Text>キングストン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_14" Language="ja_JP">
+			<Text>カラカス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_15" Language="ja_JP">
+			<Text>パラマリボ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_16" Language="ja_JP">
+			<Text>リマ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_17" Language="ja_JP">
+			<Text>パナマ市</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_18" Language="ja_JP">
+			<Text>マナグア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_19" Language="ja_JP">
+			<Text>ジョージタウン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_20" Language="ja_JP">
+			<Text>サンノゼ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_21" Language="ja_JP">
+			<Text>ブラジリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_22" Language="ja_JP">
+			<Text>ラパスのノートルダム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_23" Language="ja_JP">
+			<Text>ブエノスアイレス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_24" Language="ja_JP">
+			<Text>スクレ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_25" Language="ja_JP">
+			<Text>ヌクアロファ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_26" Language="ja_JP">
+			<Text>メラネシア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_27" Language="ja_JP">
+			<Text>ジャカルタ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_28" Language="ja_JP">
+			<Text>スラウェシ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_29" Language="ja_JP">
+			<Text>ウォレス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_30" Language="ja_JP">
+			<Text>キャンベラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_31" Language="ja_JP">
+			<Text>ノーフォーク島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_32" Language="ja_JP">
+			<Text>サンタクルーズ諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_33" Language="ja_JP">
+			<Text>ヌメア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_34" Language="ja_JP">
+			<Text>スバ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_35" Language="ja_JP">
+			<Text>ポートビラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_36" Language="ja_JP">
+			<Text>ハワード島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_37" Language="ja_JP">
+			<Text>小笠原諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_38" Language="ja_JP">
+			<Text>火山島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_39" Language="ja_JP">
+			<Text>サウスバード島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_40" Language="ja_JP">
+			<Text>北マリアナ諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_41" Language="ja_JP">
+			<Text>ハガートナー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_42" Language="ja_JP">
+			<Text>ニューギニア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_43" Language="ja_JP">
+			<Text>アーロン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_44" Language="ja_JP">
+			<Text>バナバ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_45" Language="ja_JP">
+			<Text>ウェーク島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_46" Language="ja_JP">
+			<Text>マーシャル諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_47" Language="ja_JP">
+			<Text>ギルバート諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_48" Language="ja_JP">
+			<Text>南タラワ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_49" Language="ja_JP">
+			<Text>ジョンストン環礁</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_50" Language="ja_JP">
+			<Text>フェニックス諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_51" Language="ja_JP">
+			<Text>ラインアイルズ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_52" Language="ja_JP">
+			<Text>ハウランド I.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_53" Language="ja_JP">
+			<Text>ベイカー島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_54" Language="ja_JP">
+			<Text>ジャーヴィス I.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_55" Language="ja_JP">
+			<Text>マルドン島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_56" Language="ja_JP">
+			<Text>スタバック I.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_57" Language="ja_JP">
+			<Text>ツバル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_58" Language="ja_JP">
+			<Text>トケラウ諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_59" Language="ja_JP">
+			<Text>小島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_60" Language="ja_JP">
+			<Text>ぷかぷか</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_61" Language="ja_JP">
+			<Text>アピア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_62" Language="ja_JP">
+			<Text>マタトゥ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_63" Language="ja_JP">
+			<Text>アロフィ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_64" Language="ja_JP">
+			<Text>アバルア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_65" Language="ja_JP">
+			<Text>オーストラリア諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_66" Language="ja_JP">
+			<Text>ソシエテ諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_67" Language="ja_JP">
+			<Text>トゥアモトスです。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_68" Language="ja_JP">
+			<Text>アダムスタウン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_69" Language="ja_JP">
+			<Text>サラスとゴメス島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_70" Language="ja_JP">
+			<Text>イースター島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_71" Language="ja_JP">
+			<Text>マルケサス諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_72" Language="ja_JP">
+			<Text>ハワイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_73" Language="ja_JP">
+			<Text>レヴィラグイドです。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_74" Language="ja_JP">
+			<Text>ココス i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_75" Language="ja_JP">
+			<Text>マルペロ i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_76" Language="ja_JP">
+			<Text>クリッパートン島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_77" Language="ja_JP">
+			<Text>ガラパゴス諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_78" Language="ja_JP">
+			<Text>ベンチュラダ諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_79" Language="ja_JP">
+			<Text>フアン・フェルナンデス諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_80" Language="ja_JP">
+			<Text>台湾</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_81" Language="ja_JP">
+			<Text>ペンバ島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_82" Language="ja_JP">
+			<Text>内比都</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_83" Language="ja_JP">
+			<Text>シンガポール</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_84" Language="ja_JP">
+			<Text>スラト・シャニ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_85" Language="ja_JP">
+			<Text>広州</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_86" Language="ja_JP">
+			<Text>南寧</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_87" Language="ja_JP">
+			<Text>マカオ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_88" Language="ja_JP">
+			<Text>マニヤーラ地方</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_89" Language="ja_JP">
+			<Text>アディスアベバ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_90" Language="ja_JP">
+			<Text>ナイロビ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_91" Language="ja_JP">
+			<Text>プレトリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_92" Language="ja_JP">
+			<Text>ケープ半島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_93" Language="ja_JP">
+			<Text>ブルームフォンテーン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_94" Language="ja_JP">
+			<Text>アラビア半島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_95" Language="ja_JP">
+			<Text>アンタナナリボ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_96" Language="ja_JP">
+			<Text>マニラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_97" Language="ja_JP">
+			<Text>ロドリゲス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_98" Language="ja_JP">
+			<Text>ヴィクトリア・ボナパルト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_99" Language="ja_JP">
+			<Text>アーネムランド</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_100" Language="ja_JP">
+			<Text>ルソン島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_101" Language="ja_JP">
+			<Text>ディナーガです。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_102" Language="ja_JP">
+			<Text>ミンダナオ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_103" Language="ja_JP">
+			<Text>クスコ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_104" Language="ja_JP">
+			<Text>アスンシオン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_105" Language="ja_JP">
+			<Text>スペインの港</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_106" Language="ja_JP">
+			<Text>ソコロ i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_107" Language="ja_JP">
+			<Text>バミューダ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_108" Language="ja_JP">
+			<Text>イナグア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_109" Language="ja_JP">
+			<Text>ケイマン諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_110" Language="ja_JP">
+			<Text>バージン諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_111" Language="ja_JP">
+			<Text>マルティニーク</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_112" Language="ja_JP">
+			<Text>トリニダード</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_113" Language="ja_JP">
+			<Text>ツンベ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_114" Language="ja_JP">
+			<Text>スカボロー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_115" Language="ja_JP">
+			<Text>モンテビデオ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_116" Language="ja_JP">
+			<Text>ナリーニョ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_117" Language="ja_JP">
+			<Text>セラード</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_118" Language="ja_JP">
+			<Text>サンサルバドル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_119" Language="ja_JP">
+			<Text>グアテマラシティ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_120" Language="ja_JP">
+			<Text>テグシガルパ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_121" Language="ja_JP">
+			<Text>アンデス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_122" Language="ja_JP">
+			<Text>カリブ地域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_123" Language="ja_JP">
+			<Text>マスカリン諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_124" Language="ja_JP">
+			<Text>アスタナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_125" Language="ja_JP">
+			<Text>スリ ジャヤワル ダナプラ コッテ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_126" Language="ja_JP">
+			<Text>ナイルデルタ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_127" Language="ja_JP">
+			<Text>ダカール</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_128" Language="ja_JP">
+			<Text>バクー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_129" Language="ja_JP">
+			<Text>ウランバートル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_130" Language="ja_JP">
+			<Text>ダマスカス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_131" Language="ja_JP">
+			<Text>カナリア諸島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_132" Language="ja_JP">
+			<Text>ハルツーム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_133" Language="ja_JP">
+			<Text>カトマンズ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_134" Language="ja_JP">
+			<Text>ドゥシャンベ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_135" Language="ja_JP">
+			<Text>リスボン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_136" Language="ja_JP">
+			<Text>モロナイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_137" Language="ja_JP">
+			<Text>ギニア湾</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_138" Language="ja_JP">
+			<Text>カンパラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_139" Language="ja_JP">
+			<Text>ドドマ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_140" Language="ja_JP">
+			<Text>セントヘレナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_141" Language="ja_JP">
+			<Text>コガール山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_142" Language="ja_JP">
+			<Text>エアマウンテン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_143" Language="ja_JP">
+			<Text>ジャワ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_144" Language="ja_JP">
+			<Text>サヘル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_145" Language="ja_JP">
+			<Text>パプア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_1" Language="ja_JP">
+			<Text>ロフォライマス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_2" Language="ja_JP">
+			<Text>マクロピジア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_3" Language="ja_JP">
+			<Text>ねそえん</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_4" Language="ja_JP">
+			<Text>Reinwardtoena</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_5" Language="ja_JP">
+			<Text>トンゴエナス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_6" Language="ja_JP">
+			<Text>エクトピスト</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_7" Language="ja_JP">
+			<Text>ペゾファプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_8" Language="ja_JP">
+			<Text>スタルノエナス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_9" Language="ja_JP">
+			<Text>ゼナイダ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_10" Language="ja_JP">
+			<Text>へニコファプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_11" Language="ja_JP">
+			<Text>ラフス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_12" Language="ja_JP">
+			<Text>ギムノファプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_13" Language="ja_JP">
+			<Text>ジオゲーム</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_14" Language="ja_JP">
+			<Text>ウロペリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_15" Language="ja_JP">
+			<Text>レプトチル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_16" Language="ja_JP">
+			<Text>コルンバ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_17" Language="ja_JP">
+			<Text>プチリノプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_18" Language="ja_JP">
+			<Text>ゼントリゴン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_19" Language="ja_JP">
+			<Text>ロイコサルキー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_20" Language="ja_JP">
+			<Text>デリアファプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_21" Language="ja_JP">
+			<Text>パラクララビス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_22" Language="ja_JP">
+			<Text>トレロン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_23" Language="ja_JP">
+			<Text>カルコファプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_24" Language="ja_JP">
+			<Text>ファピトレロン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_25" Language="ja_JP">
+			<Text>レプトトリゴン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_26" Language="ja_JP">
+			<Text>オシファプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_1" Language="ja_JP">
+			<Text>ストレプトペリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_2" Language="ja_JP">
+			<Text>ミクログーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_3" Language="ja_JP">
+			<Text>ジオファプ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_4" Language="ja_JP">
+			<Text>ひばり</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_5" Language="ja_JP">
+			<Text>ガリコルンバ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_6" Language="ja_JP">
+			<Text>失調症</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_7" Language="ja_JP">
+			<Text>パタギオエナス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_8" Language="ja_JP">
+			<Text>バウンティファプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_9" Language="ja_JP">
+			<Text>コロンビーナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_10" Language="ja_JP">
+			<Text>ペトロファッサ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_11" Language="ja_JP">
+			<Text>デュキュラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_12" Language="ja_JP">
+			<Text>彼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_13" Language="ja_JP">
+			<Text>ステンド</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_14" Language="ja_JP">
+			<Text>メトリオペリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_15" Language="ja_JP">
+			<Text>オティディファプス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_16" Language="ja_JP">
+			<Text>消去</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_17" Language="ja_JP">
+			<Text>スピロペリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_18" Language="ja_JP">
+			<Text>カメ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_19" Language="ja_JP">
+			<Text>ツラコエナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_20" Language="ja_JP">
+			<Text>ファップス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_21" Language="ja_JP">
+			<Text>ヘミファガス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_22" Language="ja_JP">
+			<Text>ジオトライゴン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_23" Language="ja_JP">
+			<Text>ディドゥンクルス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_24" Language="ja_JP">
+			<Text>強羅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_25" Language="ja_JP">
+			<Text>カロエナス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_26" Language="ja_JP">
+			<Text>クリプトファプ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_27" Language="ja_JP">
+			<Text>トルゴン</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_NAME" Language="ja_JP">
+			<Text>ピジョンガール</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_QUOTE" Language="ja_JP">
+			<Text>人生は短いです、時間を楽しんでください。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_NAME" Language="ja_JP">
+			<Text>無人の鳩</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_DESCRIPTION" Language="ja_JP">
+			<Text>すべての都市の快適性 [ICON_AMENITIES] +2 (現代以降の快適さ [ICON_AMENITIES] +4)、すべてのユニットの戦闘力 [ICON_STRENGTH] -5。各市民 [ICON_CITIZEN] -2 生産 [ICON_PRODUCTION]、-2 ゴールド [ICON_GOLD] (都市に知事がいる場合は -1 生産 [ICON_PRODUCTION])。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_NAME" Language="ja_JP">
+			<Text>著者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_DESCRIPTION" Language="ja_JP">
+			<Text>-1 ビルド時間 [ICON_CHARGES]、エリアと不思議を高速化できます。 [NEWLINE]このユニットは、ユーレカ [ICON_TECHBOOSTED] とインスピレーション [ICON_CIVICBOOSTED] を与える可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_NAME" Language="ja_JP">
+			<Text>平和の鳩</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_QUOTE" Language="ja_JP">
+			<Text>平和を除いて、私は戦争を切望したことはありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_NAME" Language="ja_JP">
+			<Text>平和大使</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_DESCRIPTION" Language="ja_JP">
+			<Text>核兵器関連アイテムの生産量 +100% [ICON_PRODUCTION]、核施設のメンテナンス -50% [ICON_GOLD]。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_NAME" Language="ja_JP">
+			<Text>ウラン精錬所</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_DESCRIPTION" Language="ja_JP">
+			<Text>「工場」を置き換え、追加の信仰を生成し、文明能力の生産性デバフを取り除きます。 [NEWLINE]戦略的資源備蓄 +20、毎ラウンド +4 ウラン [ICON_RESOURCE_URANIUM] を提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ハトは、ハトとハトからなる鳥の家族です。鳩目の中で唯一の科です。これらの鳥はずんぐりしていて、短い首と短く細長いくちばしがあり、一部の種では肉付きの良いくちばしがあります。彼らは主に種子、果物、植物を食べます。この家族は世界中に分布していますが、最も多くの品種はインドネシアとオーストラリアにあります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>英語では、小型の品種は「鳩」と呼ばれることが多く、大型の品種は「鳩」として知られています.ただし、この区別は一貫しておらず、他のほとんどの言語には存在しません。歴史的に、これらの鳥の一般的な名前には、用語によって大きな違いがありました。 「鳩」としてのみ知られている最も一般的な鳥はイエバトですが、多くの都市で一般的で「鳩」と呼ばれる別の種はノバトです。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>ハトは通常、木の枝、窓辺、または小枝やその他のがれきを使用して地面に比較的壊れやすい巣を作ります。彼らは一度に 1 つか 2 つの白い卵を産み、両親は 25 日から 32 日後に巣を離れる若者の世話をします。羽毛のない若いハトとハトはスクワブと呼ばれ、通常、生後 5 週間で飛ぶ準備が整います。これらの若い鳩の鳴き声は未熟で、離乳したり息を切らしたりすると、鳴き声と呼ばれます。ほとんどの鳥とは異なり、オスとメスの両方のハトとハトは、作物の裏地を裏打ちする液体で満たされた細胞から流される「作物のミルク」を分泌することによって、若者に餌を与えます.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DOVE_CLUSTER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>人々が集う場所である集落は、「都市集落」（都市）と「農村集落」（村）に分けられます。集落は、人間社会の初期の定住の後、主に集中生活地域として使用されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>鳩は多くの場面で象徴的なシンボルです。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>ハト、特に羽が白い国内のハトは、平和、自由、または愛の象徴として多くの場面で使用されてきました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>鳩はしばしば平和と平和主義の概念に関連しています。彼らはしばしば、政治風刺画、平和を促進するイベント (オリンピック、さまざまな反戦/反暴力抗議など) の横断幕や標識、平和主義文学で取り上げられています。平和主義者は鳩と呼ばれることもあります（同様に、アメリカの政治では、外交よりも軍事資源の使用を提唱する人をタカと呼ぶことができます）.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>1949 年 4 月にパリで開催された世界平和評議会のモノグラムとして、オリーブの枝のない鳩の伝統的で写実的な絵であるピカソのリトグラフ「鳩」が選ばれました。 1950 年にシェフィールドで開催された世界平和会議で、ピカソは父親からハトの描き方を教わったと語り、最後に「私は死に対して生を表し、戦争に対して平和を表しています。」1952 年にベルリンで開催された世界平和会議で、ピカソの鳩はステージ上のバナーに描かれています。反共産主義者たちは、ハトについて独自の見解を持っていました。平和と自由は、ハトがソ連の戦車に変身する様子を描いた La colombe qui fait BOUM (爆発したハト) と呼ばれるポスターを配布しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>同じ元素の 2 つの同位体はほぼ同じ化学的性質を持ち、わずかな質量差を使用して段階的にしか分離できないため、同位体の分離は困難です。 (235U は 238U よりわずか 1.26% 軽量です)。この問題は、ウランが原子の形で分離されることはめったになく、化合物の形で分離されるという事実によって悪化します (235UF6 は 238UF6 よりわずか 0.852% 軽いだけです)。同じ段階からなるカスケードによって生成される 235U の濃度は、順次増加します。各段階では、わずかに濃縮された生成物が次の段階に渡され、濃縮されていない残留物が前の段階に戻されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>現在、世界で一般的に使用されている 2 つの商用濃縮方法があります。ガス拡散法 (第 1 世代と呼ばれます) とガス遠心分離機 (第 2 世代) です。後者のエネルギー消費は、ガス拡散法のわずか 2% から 2.5% です。 （少なくとも「20倍効率的」）。核共鳴を使用するいくつかの作業が進行中ですが、核共鳴プロセスが生産にスケールアップされたという信頼できる証拠はありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>Pigeon Niang は鳩の女性的なイメージを指し、通常は 2 次元のイメージで表現されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>仮面舞踏会とは、女性の外見、性格、服装などに何でも与える芸術的な作成方法を指します.一般的に「萌えガール化」とは、かわいらしく行う「萌えガール化」のことで、別名「萌えガール化」とも呼ばれます。萌えガール化は、現代の ACGN サブカルチャーとキュート カルチャーの発展とともに出現しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>カッコウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>著者とは、本、記事、戯曲、またはその他の著作物の著者を意味します。 「著者」という用語の大まかな定義は次のとおりです。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>「作者とは、『何かを生み出したり、それを形作ったりした人』であり、その作者が作成されたものに対する責任を決定する」.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_146" Language="ja_JP">
+			<Text>テグシガルパ</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

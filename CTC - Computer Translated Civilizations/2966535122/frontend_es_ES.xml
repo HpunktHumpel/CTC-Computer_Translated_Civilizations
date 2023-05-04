@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri May  5 01:29:21 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_NAME" Language="es_ES">
+			<Text>Paloma</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_BINOMIAL_DOVE_NAME" Language="es_ES">
+			<Text>Paloma</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOVE_KINGDOM" Language="es_ES">
+			<Text>reino de las palomas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_DESCRIPTION" Language="es_ES">
+			<Text>reino de las palomas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_ADJECTIVE" Language="es_ES">
+			<Text>Paloma</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_NAME" Language="es_ES">
+			<Text>El bosque y la tierra de la libertad</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_DESCRIPTION" Language="es_ES">
+			<Text>Células de tundra +1 Productividad [ICON_PRODUCTION], +2 Alimentos [ICON_FOOD] Fe [ICON_FAITH]. Bosque +2 Comida [ICON_FOOD], +3 Productividad [ICON_PRODUCTION] Fe [ICON_FAITH]. +2 Servicios[ICON_AMENITIES] para todas las ciudades, -4[ICON_PRODUCTION], +0[ICON_FAITH] para cada ciudadano[ICON_CITIZEN] en cualquier momento. [NEWLINE]Las áreas especializadas solo se pueden construir en bosques, y cada celda de bosque adyacente +1 corresponde a la bonificación adyacente. [NEWLINE] Los constructores obtienen +2 de movimiento [ICON_MOVEMENT], -1 veces de construcción [ICON_CHARGES].</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FRIENDLY_COMBAT_BONUS" Language="es_ES">
+			<Text>dentro de territorio amigo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FOREST_DEFENSE_BONUS" Language="es_ES">
+			<Text>defensa en el bosque</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_SCIENCE" Language="es_ES">
+			<Text>+{1_num} [ICON_SCIENCE] El valor científico proviene de las celdas de bosque adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_CULTURE" Language="es_ES">
+			<Text>+{1_num} [ICON_CULTURE] El valor cultural proviene de las celdas de bosque adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_PRODUCTION" Language="es_ES">
+			<Text>+{1_num} [ICON_PRODUCTION] La producción proviene de celdas de bosque adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_GOLD" Language="es_ES">
+			<Text>+{1_num} [ICON_GOLD] El oro proviene de las casillas de bosque adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_FAITH" Language="es_ES">
+			<Text>+{1_num} [ICON_FAITH] La fe proviene de las celdas de bosque adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_NAME" Language="es_ES">
+			<Text>colonia de palomas</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_DESCRIPTION" Language="es_ES">
+			<Text>En lugar de &quot;Tierra Sagrada&quot;, el valor de fe inicial de +4 [ICON_FAITH], después de investigar la tecnología &quot;Acero&quot;, las colonias de palomas en ciudades con 16 o más ciudadanos [ICON_CITIZEN] producirán producción adicional [ICON_PRODUCTION]. [NEWLINE]Los ciudadanos y los edificios se pueden comprar con Fe después de construir la ciudad.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_BASE" Language="es_ES">
+			<Text>+{1_num} [ICON_FAITH] Fe.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_WONDER" Language="es_ES">
+			<Text>+{1_num} [ICON_FAITH] Fe de maravillas adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_SCIENCE" Language="es_ES">
+			<Text>+{1_num} [ICON_SCIENCE] Ciencia de colonias de palomas adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_CULTURE" Language="es_ES">
+			<Text>+{1_num} [ICON_CULTURE] Cultivo de colonias de palomas vecinas.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_PRODUCTION" Language="es_ES">
+			<Text>+{1_num} [ICON_PRODUCTION] Producción de colonias de palomas vecinas.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_GOLD" Language="es_ES">
+			<Text>+{1_num} [ICON_GOLD] Monedas de oro de colonias de palomas vecinas.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_FAITH" Language="es_ES">
+			<Text>+{1_num} [ICON_FAITH] Fe de las colonias de palomas vecinas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_NAME" Language="es_ES">
+			<Text>trabajo de cuco</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_SHORT_NAME" Language="es_ES">
+			<Text>trabajo de cuco</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_DESCRIPTION" Language="es_ES">
+			<Text>Recluta talentos para la construcción de ciudades y obtén 3 constructores [ICON_CHARGES] después de completar el proyecto.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CAPITAL" Language="es_ES">
+			<Text>altar</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_1" Language="es_ES">
+			<Text>montañas del rosario</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_2" Language="es_ES">
+			<Text>Antillas Mayores</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_3" Language="es_ES">
+			<Text>llave de florida</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_4" Language="es_ES">
+			<Text>Mañanas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_5" Language="es_ES">
+			<Text>Hispaniola</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_6" Language="es_ES">
+			<Text>Texas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_7" Language="es_ES">
+			<Text>Antillas menores</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_8" Language="es_ES">
+			<Text>Medellín</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_9" Language="es_ES">
+			<Text>Cali</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_10" Language="es_ES">
+			<Text>Tornero</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_11" Language="es_ES">
+			<Text>baños de agua santa</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_12" Language="es_ES">
+			<Text>Paracas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_13" Language="es_ES">
+			<Text>Kingston</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_14" Language="es_ES">
+			<Text>Caracas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_15" Language="es_ES">
+			<Text>paramaribo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_16" Language="es_ES">
+			<Text>lima</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_17" Language="es_ES">
+			<Text>ciudad de Panama</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_18" Language="es_ES">
+			<Text>managua</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_19" Language="es_ES">
+			<Text>georgetown</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_20" Language="es_ES">
+			<Text>San Jose</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_21" Language="es_ES">
+			<Text>Brasília</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_22" Language="es_ES">
+			<Text>Notre Dame de La Paz</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_23" Language="es_ES">
+			<Text>Buenos Aires</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_24" Language="es_ES">
+			<Text>Sucre</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_25" Language="es_ES">
+			<Text>Nukualofa</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_26" Language="es_ES">
+			<Text>Melanesia</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_27" Language="es_ES">
+			<Text>Jacarta</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_28" Language="es_ES">
+			<Text>Célebes</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_29" Language="es_ES">
+			<Text>Wallace</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_30" Language="es_ES">
+			<Text>Canberra</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_31" Language="es_ES">
+			<Text>Isla Norfolk</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_32" Language="es_ES">
+			<Text>Islas Santa Cruz</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_33" Language="es_ES">
+			<Text>Numea</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_34" Language="es_ES">
+			<Text>Suva</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_35" Language="es_ES">
+			<Text>Port Vila</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_36" Language="es_ES">
+			<Text>Isla Howard</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_37" Language="es_ES">
+			<Text>Islas Ogasawara</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_38" Language="es_ES">
+			<Text>islas volcánicas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_39" Language="es_ES">
+			<Text>Isla del Sur de los Pájaros</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_40" Language="es_ES">
+			<Text>Islas Marianas del Norte</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_41" Language="es_ES">
+			<Text>Haggertner</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_42" Language="es_ES">
+			<Text>Nueva Guinea</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_43" Language="es_ES">
+			<Text>aarón</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_44" Language="es_ES">
+			<Text>Banaba</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_45" Language="es_ES">
+			<Text>Isla Wake</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_46" Language="es_ES">
+			<Text>Islas Marshall</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_47" Language="es_ES">
+			<Text>Islas Gilbert</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_48" Language="es_ES">
+			<Text>Tarawa del Sur</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_49" Language="es_ES">
+			<Text>atolón de johnston</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_50" Language="es_ES">
+			<Text>Islas Fénix</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_51" Language="es_ES">
+			<Text>islas de línea</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_52" Language="es_ES">
+			<Text>cómoland i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_53" Language="es_ES">
+			<Text>isla panadero</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_54" Language="es_ES">
+			<Text>jarvis i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_55" Language="es_ES">
+			<Text>isla maldon</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_56" Language="es_ES">
+			<Text>stubuck i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_57" Language="es_ES">
+			<Text>Tuvalu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_58" Language="es_ES">
+			<Text>islas tokelau</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_59" Language="es_ES">
+			<Text>Isla</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_60" Language="es_ES">
+			<Text>Puka Puka</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_61" Language="es_ES">
+			<Text>Apia</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_62" Language="es_ES">
+			<Text>matarutu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_63" Language="es_ES">
+			<Text>alofi</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_64" Language="es_ES">
+			<Text>Avarua</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_65" Language="es_ES">
+			<Text>islas australianas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_66" Language="es_ES">
+			<Text>Islas de la Sociedad</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_67" Language="es_ES">
+			<Text>Tuamotos es.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_68" Language="es_ES">
+			<Text>adamstown</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_69" Language="es_ES">
+			<Text>isla salas y gomez</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_70" Language="es_ES">
+			<Text>isla de Pascua</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_71" Language="es_ES">
+			<Text>islas marquesas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_72" Language="es_ES">
+			<Text>Hawai</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_73" Language="es_ES">
+			<Text>reviraguido es.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_74" Language="es_ES">
+			<Text>cocos i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_75" Language="es_ES">
+			<Text>malpelo i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_76" Language="es_ES">
+			<Text>isla clipperton</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_77" Language="es_ES">
+			<Text>Islas Galápagos</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_78" Language="es_ES">
+			<Text>islas des venturadas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_79" Language="es_ES">
+			<Text>Islas Juan Fernández</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_80" Language="es_ES">
+			<Text>Taiwán</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_81" Language="es_ES">
+			<Text>Isla Pemba</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_82" Language="es_ES">
+			<Text>nahito</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_83" Language="es_ES">
+			<Text>Singapur</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_84" Language="es_ES">
+			<Text>Surat Shani</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_85" Language="es_ES">
+			<Text>Cantón</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_86" Language="es_ES">
+			<Text>nanning</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_87" Language="es_ES">
+			<Text>Macao</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_88" Language="es_ES">
+			<Text>Región de Manyara</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_89" Language="es_ES">
+			<Text>Addis Abeba</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_90" Language="es_ES">
+			<Text>Nairobi</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_91" Language="es_ES">
+			<Text>Pretoria</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_92" Language="es_ES">
+			<Text>península del cabo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_93" Language="es_ES">
+			<Text>Bloemfontein</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_94" Language="es_ES">
+			<Text>Península Arabica</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_95" Language="es_ES">
+			<Text>Antananarivo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_96" Language="es_ES">
+			<Text>Manila</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_97" Language="es_ES">
+			<Text>Rodríguez</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_98" Language="es_ES">
+			<Text>victoria-bonaparte</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_99" Language="es_ES">
+			<Text>tierra de arnhem</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_100" Language="es_ES">
+			<Text>Luzón</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_101" Language="es_ES">
+			<Text>Dinaga es.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_102" Language="es_ES">
+			<Text>Mindanao</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_103" Language="es_ES">
+			<Text>Cuzco</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_104" Language="es_ES">
+			<Text>Asunción</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_105" Language="es_ES">
+			<Text>puerto de España</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_106" Language="es_ES">
+			<Text>socorro i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_107" Language="es_ES">
+			<Text>islas Bermudas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_108" Language="es_ES">
+			<Text>inagua</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_109" Language="es_ES">
+			<Text>Islas Caimán</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_110" Language="es_ES">
+			<Text>las islas vírgenes</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_111" Language="es_ES">
+			<Text>Martinica</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_112" Language="es_ES">
+			<Text>Trinidad</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_113" Language="es_ES">
+			<Text>tumbé i.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_114" Language="es_ES">
+			<Text>scarborough</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_115" Language="es_ES">
+			<Text>Montevideo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_116" Language="es_ES">
+			<Text>Nariño</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_117" Language="es_ES">
+			<Text>cerrado</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_118" Language="es_ES">
+			<Text>San Salvador</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_119" Language="es_ES">
+			<Text>Ciudad de Guatemala</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_120" Language="es_ES">
+			<Text>tegucigalpa</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_121" Language="es_ES">
+			<Text>Andes</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_122" Language="es_ES">
+			<Text>región del caribe</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_123" Language="es_ES">
+			<Text>Islas Mascareñas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_124" Language="es_ES">
+			<Text>Astaná</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_125" Language="es_ES">
+			<Text>Sri Jayawardenepura Kotte</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_126" Language="es_ES">
+			<Text>Delta del Nilo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_127" Language="es_ES">
+			<Text>Dakar</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_128" Language="es_ES">
+			<Text>Bakú</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_129" Language="es_ES">
+			<Text>Ulán Bator</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_130" Language="es_ES">
+			<Text>Damasco</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_131" Language="es_ES">
+			<Text>Islas Canarias</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_132" Language="es_ES">
+			<Text>Jartum</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_133" Language="es_ES">
+			<Text>Katmandú</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_134" Language="es_ES">
+			<Text>Dushanbe</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_135" Language="es_ES">
+			<Text>Lisboa</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_136" Language="es_ES">
+			<Text>Moroni</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_137" Language="es_ES">
+			<Text>Golfo de Guinea</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_138" Language="es_ES">
+			<Text>Kampala</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_139" Language="es_ES">
+			<Text>Dodoma</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_140" Language="es_ES">
+			<Text>Santa Elena</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_141" Language="es_ES">
+			<Text>Montañas Khogar</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_142" Language="es_ES">
+			<Text>montaña de aire</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_143" Language="es_ES">
+			<Text>Java</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_144" Language="es_ES">
+			<Text>Sahel</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_145" Language="es_ES">
+			<Text>Papuasia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_1" Language="es_ES">
+			<Text>Lopholaimus</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_2" Language="es_ES">
+			<Text>macropigia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_3" Language="es_ES">
+			<Text>Nesoen</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_4" Language="es_ES">
+			<Text>reinwardtoena</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_5" Language="es_ES">
+			<Text>Tongoenas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_6" Language="es_ES">
+			<Text>ectopistas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_7" Language="es_ES">
+			<Text>Pezophaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_8" Language="es_ES">
+			<Text>Starnoenas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_9" Language="es_ES">
+			<Text>zenaida</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_10" Language="es_ES">
+			<Text>henicofaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_11" Language="es_ES">
+			<Text>raphus</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_12" Language="es_ES">
+			<Text>gimnofaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_13" Language="es_ES">
+			<Text>juego geo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_14" Language="es_ES">
+			<Text>uropelia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_15" Language="es_ES">
+			<Text>leptotilo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_16" Language="es_ES">
+			<Text>Columba</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_17" Language="es_ES">
+			<Text>Ptilinopo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_18" Language="es_ES">
+			<Text>Zentrygon</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_19" Language="es_ES">
+			<Text>leucosarquía</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_20" Language="es_ES">
+			<Text>Deliaphaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_21" Language="es_ES">
+			<Text>Paraclaravis</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_22" Language="es_ES">
+			<Text>Treron</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_23" Language="es_ES">
+			<Text>calcofaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_24" Language="es_ES">
+			<Text>Phapitreron</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_25" Language="es_ES">
+			<Text>leptotrigón</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_26" Language="es_ES">
+			<Text>Ocyphaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_1" Language="es_ES">
+			<Text>estreptopelia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_2" Language="es_ES">
+			<Text>Microgoura</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_3" Language="es_ES">
+			<Text>Geofaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_4" Language="es_ES">
+			<Text>Claravios</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_5" Language="es_ES">
+			<Text>gallicolumba</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_6" Language="es_ES">
+			<Text>Dismoropelia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_7" Language="es_ES">
+			<Text>Patagioenas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_8" Language="es_ES">
+			<Text>Recompensas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_9" Language="es_ES">
+			<Text>Colombina</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_10" Language="es_ES">
+			<Text>petrofasa</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_11" Language="es_ES">
+			<Text>Dúcula</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_12" Language="es_ES">
+			<Text>Él</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_13" Language="es_ES">
+			<Text>Manchado</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_14" Language="es_ES">
+			<Text>metropelia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_15" Language="es_ES">
+			<Text>otidifaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_16" Language="es_ES">
+			<Text>Borradura</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_17" Language="es_ES">
+			<Text>Spilopelia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_18" Language="es_ES">
+			<Text>Tortuga</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_19" Language="es_ES">
+			<Text>Turacoena</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_20" Language="es_ES">
+			<Text>phaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_21" Language="es_ES">
+			<Text>hemífago</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_22" Language="es_ES">
+			<Text>geotrigon</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_23" Language="es_ES">
+			<Text>didúnculo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_24" Language="es_ES">
+			<Text>Goura</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_25" Language="es_ES">
+			<Text>Caloenas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_26" Language="es_ES">
+			<Text>Criptofaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_27" Language="es_ES">
+			<Text>trugón</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_NAME" Language="es_ES">
+			<Text>chica paloma</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_QUOTE" Language="es_ES">
+			<Text>La vida es corta, diviértete en el tiempo.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_NAME" Language="es_ES">
+			<Text>paloma desatendida</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_DESCRIPTION" Language="es_ES">
+			<Text>Todas las ciudades +2 servicios [ICON_AMENITIES] (+4 servicios [ICON_AMENITIES] después de los tiempos modernos), todas las unidades -5 fuerza de combate [ICON_STRENGTH]. Cada ciudadano [ICON_CITIZEN] -2 Producción [ICON_PRODUCTION], -2 Oro [ICON_GOLD] (-1 Producción [ICON_PRODUCTION] si la ciudad tiene Gobernador).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_NAME" Language="es_ES">
+			<Text>autor</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_DESCRIPTION" Language="es_ES">
+			<Text>-1 tiempos de construcción [ICON_CHARGES], puede acelerar áreas y maravillas. [NEWLINE]Esta unidad puede arrullar, lo que puede dar un Eureka [ICON_TECHBOOSTED] y una Inspiración [ICON_CIVICBOOSTED].</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_NAME" Language="es_ES">
+			<Text>paloma de la paz</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_QUOTE" Language="es_ES">
+			<Text>Nunca he deseado la guerra, excepto la paz.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_NAME" Language="es_ES">
+			<Text>embajador de la paz</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_DESCRIPTION" Language="es_ES">
+			<Text>Artículos relacionados con armas nucleares +100 % de producción [ICON_PRODUCTION], instalaciones nucleares -50 % de mantenimiento [ICON_GOLD].</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_NAME" Language="es_ES">
+			<Text>refinería de uranio</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza &quot;Fábrica&quot;, produce Fe adicional y elimina la desventaja de productividad de la habilidad de civilización. [NEWLINE]Reserva de recursos estratégicos +20, proporciona +4 de uranio [ICON_RESOURCE_URANIUM] en cada ronda.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Las palomas son una familia de aves que consiste en palomas y palomas. Es la única familia del orden Pigeoniformes. Estas aves son robustas, con cuellos cortos y picos cortos y alargados, que en algunas especies tienen picos carnosos. Se alimentan principalmente de semillas, frutos y plantas. Esta familia se distribuye por todo el mundo, pero la mayoría de las variedades se encuentran en Indonesia y Australia.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>En inglés, las razas más pequeñas a menudo se denominan &quot;palomas&quot;, mientras que las razas más grandes se conocen como &quot;palomas&quot;. Sin embargo, esta distinción no es consistente y no existe en la mayoría de los otros idiomas. Históricamente, los nombres comunes de estas aves han implicado una gran variación entre los términos. El ave más común conocida solo como &quot;paloma&quot; es la paloma doméstica, mientras que otra especie que es común en muchas ciudades y se llama &quot;paloma&quot; es la paloma salvaje.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_3" Language="es_ES">
+			<Text>Las palomas suelen construir nidos relativamente endebles en las ramas de los árboles, alféizares de las ventanas o en el suelo usando ramitas y otros desechos. Ponen uno o dos huevos blancos a la vez, y ambos padres cuidan de las crías, que abandonan el nido a los 25-32 días. Las palomas jóvenes sin plumas y las palomas se llaman pichones y generalmente están listas para volar a las 5 semanas de edad. El sonido de estos pichones es inmaduro, y una vez destetados o sin aliento, se les llama chirriadores. A diferencia de la mayoría de las aves, tanto las palomas como las palomas macho y hembra alimentan a sus crías secretando &quot;leche de buche&quot;, que se desprende de las células llenas de líquido que recubren el revestimiento del buche.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DOVE_CLUSTER_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Los asentamientos, lugares donde las personas viven juntas, se pueden dividir en &quot;asentamientos urbanos&quot; (ciudades) y &quot;asentamientos rurales&quot; (pueblos). Los asentamientos se utilizan principalmente como áreas de vida concentradas después de los primeros asentamientos de la sociedad humana.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_CAPSULE_BODY" Language="es_ES">
+			<Text>La paloma es un símbolo simbólico en muchas ocasiones.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_DETAILED_BODY" Language="es_ES">
+			<Text>Las palomas, especialmente las palomas domésticas de plumas blancas, se han utilizado en muchas ocasiones como símbolos de paz, libertad o amor.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Las palomas a menudo se asocian con el concepto de paz y pacifismo. A menudo aparecen en caricaturas políticas, pancartas y carteles en eventos que promueven la paz (como los Juegos Olímpicos, varias protestas contra la guerra y la violencia, etc.) y en la literatura pacifista. Un pacifista a veces se llama paloma (de manera similar, en la política estadounidense, alguien que aboga por el uso de recursos militares sobre la diplomacia puede llamarse halcón).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>La litografía de Picasso La paloma, una pintura tradicional y realista de una paloma sin rama de olivo, fue elegida como monograma del Consejo Mundial de la Paz celebrado en París en abril de 1949. En la Conferencia Mundial de la Paz en Sheffield en 1950, Picasso dijo que su padre le enseñó a dibujar palomas, y finalmente dijo: &quot;Represento la vida contra la muerte; represento la paz contra la guerra&quot;. Las palomas están representadas en pancartas sobre el escenario. Los anticomunistas tenían su propia versión de la paloma: Paz y Libertad distribuyó carteles llamados La colombe qui fait BOUM (La paloma que explotó) que mostraban a la paloma transformándose en un tanque soviético.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>La separación de isótopos es difícil porque dos isótopos del mismo elemento tienen propiedades químicas casi idénticas y solo se pueden separar paso a paso utilizando pequeñas diferencias de masa. (235U es solo un 1,26 % más ligero que 238U). El problema se agrava por el hecho de que el uranio rara vez se aísla en forma atómica, sino en forma compuesta (el 235UF6 es solo un 0,852 % más ligero que el 238UF6). Las concentraciones de 235U producidas por cascadas que consisten en las mismas etapas aumentan secuencialmente. Cada etapa pasa un producto ligeramente más concentrado a la siguiente etapa y envía un residuo menos concentrado de vuelta a la etapa anterior.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>En la actualidad, existen dos métodos comerciales de enriquecimiento de uso común en el mundo: el método de difusión de gas (llamado primera generación) y la centrífuga de gas (segunda generación), el consumo de energía de este último es solo del 2% al 2,5% del método de difusión de gas. (al menos &quot;20 veces más eficiente&quot;). Se están realizando algunos trabajos que utilizarán resonancia nuclear; sin embargo, no hay evidencia confiable de que algún proceso de resonancia nuclear se haya escalado hasta la producción.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_CAPSULE_BODY" Language="es_ES">
+			<Text>Pigeon Niang se refiere a la imagen femenina de las palomas, generalmente presentada en una imagen bidimensional.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_DETAILED_BODY" Language="es_ES">
+			<Text>Masquerade se refiere a un método de creación artística que le da algo a la apariencia, el carácter, el atuendo, etc. de una mujer. El término &quot;moe girlization&quot; generalmente se refiere a &quot;moe girlization&quot; realizada de una manera linda, también conocida como &quot;moe girlization&quot;. La feminización de Moe surgió con el desarrollo de la subcultura ACGN moderna y la cultura linda.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Cuco.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Autor significa el autor de un libro, artículo, obra de teatro u otra obra escrita. Una definición amplia del término &quot;autor&quot; es:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>&quot;Un autor es 'el que origina algo o lo hace ser', cuya autoría determina la responsabilidad por lo que se crea&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_146" Language="es_ES">
+			<Text>tegucigalpa</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

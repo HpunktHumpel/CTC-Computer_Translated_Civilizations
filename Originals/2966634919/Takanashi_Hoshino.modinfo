@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0347c3f3-824b-41f2-9f24-df6b0d8ae142" version="1">
+  <Properties>
+    <Name>타카나시 호시노의 아비도스 고등학교</Name>
+    <Description>일러스트의 저작권은 넥슨에 있습니다.</Description>
+    <Created>1682437344</Created>
+    <Teaser>블루 아카이브의 아비도스 고등학교</Teaser>
+    <Authors>홍명보센세#2002</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Data/BA_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Data/BA_ConfigText.xml</File>
+      <File>Data/BA_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Data/BA_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Natsume_Iroha.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>Data/BA_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Takanashi_Hoshino.Art.xml</File>
+      <File>Data/BA_Abydos.xml</File>
+      <File>Data/BA_Hoshino.xml</File>
+      <File>Data/BA_Raincloud.xml</File>
+      <File>Data/BA_Shibaseki_Ramen.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Data/BA_ConfigText.xml</File>
+      <File>Data/BA_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Data/BA_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Natsume_Iroha.dep</File>
+    </UpdateArt>
+    <ImportFiles id="Import">
+      <File>Textures/Abydos_Background.dds</File>
+    </ImportFiles>
+    <UpdateColors id="Color">
+      <File>Data/BA_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>Data/BA_Abydos.xml</File>
+    <File>Data/BA_Colors.xml</File>
+    <File>Data/BA_Config.xml</File>
+    <File>Data/BA_ConfigText.xml</File>
+    <File>Data/BA_Hoshino.xml</File>
+    <File>Data/BA_Icons.xml</File>
+    <File>Data/BA_Raincloud.xml</File>
+    <File>Data/BA_Shibaseki_Ramen.xml</File>
+    <File>Data/BA_Text.xml</File>
+    <File>Natsume_Iroha.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Textures/Abydos_Background.dds</File>
+    <File>Textures/BA_TAKANASHI_HOSHINO_NEUTRAL.dds</File>
+    <File>Textures/BA_TAKANASHI_HOSHINO_NEUTRAL.tex</File>
+    <File>Textures/CivAbydos22.dds</File>
+    <File>Textures/CivAbydos22.tex</File>
+    <File>Textures/CivAbydos256.dds</File>
+    <File>Textures/CivAbydos256.tex</File>
+    <File>Textures/CivAbydos30.dds</File>
+    <File>Textures/CivAbydos30.tex</File>
+    <File>Textures/CivAbydos32.dds</File>
+    <File>Textures/CivAbydos32.tex</File>
+    <File>Textures/CivAbydos36.dds</File>
+    <File>Textures/CivAbydos36.tex</File>
+    <File>Textures/CivAbydos44.dds</File>
+    <File>Textures/CivAbydos44.tex</File>
+    <File>Textures/CivAbydos45.dds</File>
+    <File>Textures/CivAbydos45.tex</File>
+    <File>Textures/CivAbydos48.dds</File>
+    <File>Textures/CivAbydos48.tex</File>
+    <File>Textures/CivAbydos50.dds</File>
+    <File>Textures/CivAbydos50.tex</File>
+    <File>Textures/CivAbydos64.dds</File>
+    <File>Textures/CivAbydos64.tex</File>
+    <File>Textures/CivAbydos80.dds</File>
+    <File>Textures/CivAbydos80.tex</File>
+    <File>Textures/FALLBACK_BA_TAKANASHI_HOSHINO.dds</File>
+    <File>Textures/FALLBACK_BA_TAKANASHI_HOSHINO.tex</File>
+    <File>Textures/LeaderHoshino256.dds</File>
+    <File>Textures/LeaderHoshino256.tex</File>
+    <File>Textures/LeaderHoshino32.dds</File>
+    <File>Textures/LeaderHoshino32.tex</File>
+    <File>Textures/LeaderHoshino45.dds</File>
+    <File>Textures/LeaderHoshino45.tex</File>
+    <File>Textures/LeaderHoshino48.dds</File>
+    <File>Textures/LeaderHoshino48.tex</File>
+    <File>Textures/LeaderHoshino50.dds</File>
+    <File>Textures/LeaderHoshino50.tex</File>
+    <File>Textures/LeaderHoshino55.dds</File>
+    <File>Textures/LeaderHoshino55.tex</File>
+    <File>Textures/LeaderHoshino64.dds</File>
+    <File>Textures/LeaderHoshino64.tex</File>
+    <File>Textures/LeaderHoshino80.dds</File>
+    <File>Textures/LeaderHoshino80.tex</File>
+  </Files>
+</Mod>

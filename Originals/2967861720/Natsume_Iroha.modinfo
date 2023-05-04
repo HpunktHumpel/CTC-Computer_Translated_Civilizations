@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="86cae015-a711-48d9-bb7c-404b24e209c3" version="1">
+  <Properties>
+    <Name>나츠메 이로하의 게헨나 학원</Name>
+    <Description>일러스트의 저작권은 넥슨에 있습니다.</Description>
+    <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
+    <Created>1682519560</Created>
+    <Teaser>일러스트의 저작권은 넥슨에 있습니다.</Teaser>
+    <Authors>홍명보센세#2002</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Data/BA_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Data/BA_ConfigText.xml</File>
+      <File>Data/BA_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <File>Data/BA_Icons.xml</File>
+      <File>Data/BA_Icons_Expansion1.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Natsume_Iroha.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>Data/BA_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Expansion1Icons">
+      <File>Data/Expansion1_Icons_District_Buildings.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Natsume_Iroha.Art.xml</File>
+      <File>Data/BA_Gehenna.xml</File>
+      <File>Data/BA_School_Lunch_Club.xml</File>
+      <File>Data/BA_Toramaru.xml</File>
+      <File>Data/BA_Iroha.xml</File>
+      <File>Data/BA_Improvements.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Data/BA_Text.xml</File>
+      <File>Data/BA_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <File>Data/BA_Icons.xml</File>
+      <File>Data/BA_Icons_Expansion1.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Natsume_Iroha.dep</File>
+    </UpdateArt>
+    <ImportFiles id="Import">
+      <File>Textures/FALLBACK_BA_NATSUME_IROHA.tex</File>
+    </ImportFiles>
+    <UpdateColors id="Color">
+      <File>Data/BA_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Expansion1Icons">
+      <File>Data/Expansion1_Icons_District_Buildings.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>Data/BA_Colors.xml</File>
+    <File>Data/BA_Config.xml</File>
+    <File>Data/BA_ConfigText.xml</File>
+    <File>Data/BA_Gehenna.xml</File>
+    <File>Data/BA_Icons.xml</File>
+    <File>Data/BA_Icons_Expansion1.xml</File>
+    <File>Data/BA_Improvements.xml</File>
+    <File>Data/BA_Iroha.xml</File>
+    <File>Data/BA_School_Lunch_Club.xml</File>
+    <File>Data/BA_Text.xml</File>
+    <File>Data/BA_Toramaru.xml</File>
+    <File>Data/Expansion1_Icons_District_Buildings.xml</File>
+    <File>Natsume_Iroha.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Textures/BA_NATSUME_IROHA_NEUTRAL.dds</File>
+    <File>Textures/BA_NATSUME_IROHA_NEUTRAL.tex</File>
+    <File>Textures/CivGehenna22.dds</File>
+    <File>Textures/CivGehenna22.tex</File>
+    <File>Textures/CivGehenna256.dds</File>
+    <File>Textures/CivGehenna256.tex</File>
+    <File>Textures/CivGehenna30.dds</File>
+    <File>Textures/CivGehenna30.tex</File>
+    <File>Textures/CivGehenna32.dds</File>
+    <File>Textures/CivGehenna32.tex</File>
+    <File>Textures/CivGehenna36.dds</File>
+    <File>Textures/CivGehenna36.tex</File>
+    <File>Textures/CivGehenna40.dds</File>
+    <File>Textures/CivGehenna40.tex</File>
+    <File>Textures/CivGehenna44.dds</File>
+    <File>Textures/CivGehenna44.tex</File>
+    <File>Textures/CivGehenna45.dds</File>
+    <File>Textures/CivGehenna45.tex</File>
+    <File>Textures/CivGehenna48.dds</File>
+    <File>Textures/CivGehenna48.tex</File>
+    <File>Textures/CivGehenna50.dds</File>
+    <File>Textures/CivGehenna50.tex</File>
+    <File>Textures/CivGehenna64.dds</File>
+    <File>Textures/CivGehenna64.tex</File>
+    <File>Textures/CivGehenna80.dds</File>
+    <File>Textures/CivGehenna80.tex</File>
+    <File>Textures/FALLBACK_BA_NATSUME_IROHA.dds</File>
+    <File>Textures/FALLBACK_BA_NATSUME_IROHA.tex</File>
+    <File>Textures/Gehenna_Background.dds</File>
+    <File>Textures/LeaderIroha256.dds</File>
+    <File>Textures/LeaderIroha256.tex</File>
+    <File>Textures/LeaderIroha32.dds</File>
+    <File>Textures/LeaderIroha32.tex</File>
+    <File>Textures/LeaderIroha45.dds</File>
+    <File>Textures/LeaderIroha45.tex</File>
+    <File>Textures/LeaderIroha48.dds</File>
+    <File>Textures/LeaderIroha48.tex</File>
+    <File>Textures/LeaderIroha50.dds</File>
+    <File>Textures/LeaderIroha50.tex</File>
+    <File>Textures/LeaderIroha55.dds</File>
+    <File>Textures/LeaderIroha55.tex</File>
+    <File>Textures/LeaderIroha64.dds</File>
+    <File>Textures/LeaderIroha64.tex</File>
+    <File>Textures/LeaderIroha80.dds</File>
+    <File>Textures/LeaderIroha80.tex</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+</Mod>

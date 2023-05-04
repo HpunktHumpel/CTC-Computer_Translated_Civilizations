@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri May  5 01:29:21 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_NAME" Language="zh_Hant_HK">
+			<Text>鴿子</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_BINOMIAL_DOVE_NAME" Language="zh_Hant_HK">
+			<Text>鳩鴿科</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOVE_KINGDOM" Language="zh_Hant_HK">
+			<Text>鴿子王國</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>鴿子王國</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>鴿子的</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_NAME" Language="zh_Hant_HK">
+			<Text>森與自由之國</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>凍土單元格+1生產力[ICON_PRODUCTION]，+2食物[ICON_FOOD]信仰[ICON_FAITH]。森林+2食物[ICON_FOOD]，+3生產力[ICON_PRODUCTION]信仰[ICON_FAITH]。所有城市+2宜居度[ICON_AMENITIES]，每位公民[ICON_CITIZEN]隨時代-4[ICON_PRODUCTION]，+0[ICON_FAITH]。 [NEWLINE]專業化區域只能建在樹林裡，每個相鄰森林單元格+1對應相鄰加成。 [NEWLINE]建造者+2移動力[ICON_MOVEMENT]，-1建造次數[ICON_CHARGES]。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FRIENDLY_COMBAT_BONUS" Language="zh_Hant_HK">
+			<Text>在友好領土以內</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FOREST_DEFENSE_BONUS" Language="zh_Hant_HK">
+			<Text>在森林中防禦</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_SCIENCE] 科技值來自於相鄰森林單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_CULTURE] 文化值來自於相鄰森林單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_PRODUCTION] 生產力來自於相鄰森林單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_GOLD] 金幣來自於相鄰森林單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_FAITH] 信仰值來自於相鄰森林單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_NAME" Language="zh_Hant_HK">
+			<Text>鴿子聚落</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代“聖地”，初始+4[ICON_FAITH]信仰值，在研發“鋼鐵”科技後，16位公民[ICON_CITIZEN]以上的城市中的鴿子聚落會產出額外的生產力[ICON_PRODUCTION]。 [NEWLINE]建成后城市可用信仰購買公民和建築。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_BASE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_FAITH] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_WONDER" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_FAITH] 信仰值來自相鄰奇觀。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_SCIENCE] 科技值來自於相鄰鴿子聚落。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_CULTURE] 文化值來自於相鄰鴿子聚落。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_PRODUCTION] 生產力來自於相鄰鴿子聚落。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_GOLD] 金幣來自於相鄰鴿子聚落。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_FAITH] 信仰值來自於相鄰鴿子聚落。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_NAME" Language="zh_Hant_HK">
+			<Text>咕咕勞動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>咕咕勞動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為城市建設招攬人材，項目完成後獲得3個建造者[ICON_CHARGES]。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CAPITAL" Language="zh_Hant_HK">
+			<Text>祭壇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_1" Language="zh_Hant_HK">
+			<Text>羅薩里奧山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_2" Language="zh_Hant_HK">
+			<Text>大安的列斯群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_3" Language="zh_Hant_HK">
+			<Text>佛羅里達群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_4" Language="zh_Hant_HK">
+			<Text>莫羅威斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_5" Language="zh_Hant_HK">
+			<Text>伊斯帕尼奧拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_6" Language="zh_Hant_HK">
+			<Text>德克薩斯州</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_7" Language="zh_Hant_HK">
+			<Text>小安的列斯群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_8" Language="zh_Hant_HK">
+			<Text>麥德林</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_9" Language="zh_Hant_HK">
+			<Text>卡利</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_10" Language="zh_Hant_HK">
+			<Text>特納</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_11" Language="zh_Hant_HK">
+			<Text>巴諾斯-德-阿瓜-桑塔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_12" Language="zh_Hant_HK">
+			<Text>帕拉卡斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_13" Language="zh_Hant_HK">
+			<Text>金斯敦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_14" Language="zh_Hant_HK">
+			<Text>加拉加斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_15" Language="zh_Hant_HK">
+			<Text>帕拉馬里博</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_16" Language="zh_Hant_HK">
+			<Text>利馬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_17" Language="zh_Hant_HK">
+			<Text>巴拿馬城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_18" Language="zh_Hant_HK">
+			<Text>馬那瓜</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_19" Language="zh_Hant_HK">
+			<Text>喬治敦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_20" Language="zh_Hant_HK">
+			<Text>聖何塞</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_21" Language="zh_Hant_HK">
+			<Text>巴西利亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_22" Language="zh_Hant_HK">
+			<Text>拉巴斯聖母院</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_23" Language="zh_Hant_HK">
+			<Text>布宜諾斯艾利斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_24" Language="zh_Hant_HK">
+			<Text>蘇克雷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_25" Language="zh_Hant_HK">
+			<Text>努庫阿洛法</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_26" Language="zh_Hant_HK">
+			<Text>美拉尼西亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_27" Language="zh_Hant_HK">
+			<Text>雅加達</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_28" Language="zh_Hant_HK">
+			<Text>蘇拉威西島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_29" Language="zh_Hant_HK">
+			<Text>華萊士</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_30" Language="zh_Hant_HK">
+			<Text>堪培拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_31" Language="zh_Hant_HK">
+			<Text>諾福克島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_32" Language="zh_Hant_HK">
+			<Text>聖克魯斯群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_33" Language="zh_Hant_HK">
+			<Text>努美阿</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_34" Language="zh_Hant_HK">
+			<Text>蘇瓦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_35" Language="zh_Hant_HK">
+			<Text>維拉港</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_36" Language="zh_Hant_HK">
+			<Text>豪爵島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_37" Language="zh_Hant_HK">
+			<Text>小笠原群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_38" Language="zh_Hant_HK">
+			<Text>火山群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_39" Language="zh_Hant_HK">
+			<Text>南鳥島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_40" Language="zh_Hant_HK">
+			<Text>北馬里亞納群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_41" Language="zh_Hant_HK">
+			<Text>哈格特納</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_42" Language="zh_Hant_HK">
+			<Text>新幾內亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_43" Language="zh_Hant_HK">
+			<Text>亞倫</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_44" Language="zh_Hant_HK">
+			<Text>巴納巴</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_45" Language="zh_Hant_HK">
+			<Text>威克島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_46" Language="zh_Hant_HK">
+			<Text>馬紹爾群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_47" Language="zh_Hant_HK">
+			<Text>吉爾伯特群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_48" Language="zh_Hant_HK">
+			<Text>南塔拉瓦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_49" Language="zh_Hant_HK">
+			<Text>約翰斯頓環礁</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_50" Language="zh_Hant_HK">
+			<Text>鳳凰群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_51" Language="zh_Hant_HK">
+			<Text>萊恩群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_52" Language="zh_Hant_HK">
+			<Text>豪蘭島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_53" Language="zh_Hant_HK">
+			<Text>貝克島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_54" Language="zh_Hant_HK">
+			<Text>賈維斯島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_55" Language="zh_Hant_HK">
+			<Text>馬爾登島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_56" Language="zh_Hant_HK">
+			<Text>斯塔布克島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_57" Language="zh_Hant_HK">
+			<Text>圖瓦盧</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_58" Language="zh_Hant_HK">
+			<Text>托克勞群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_59" Language="zh_Hant_HK">
+			<Text>庫克群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_60" Language="zh_Hant_HK">
+			<Text>普卡普卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_61" Language="zh_Hant_HK">
+			<Text>阿皮亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_62" Language="zh_Hant_HK">
+			<Text>馬塔烏圖</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_63" Language="zh_Hant_HK">
+			<Text>阿洛菲</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_64" Language="zh_Hant_HK">
+			<Text>阿瓦魯阿</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_65" Language="zh_Hant_HK">
+			<Text>澳大利亞群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_66" Language="zh_Hant_HK">
+			<Text>社會群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_67" Language="zh_Hant_HK">
+			<Text>圖阿莫托斯群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_68" Language="zh_Hant_HK">
+			<Text>亞當斯敦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_69" Language="zh_Hant_HK">
+			<Text>薩拉斯和戈麥斯島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_70" Language="zh_Hant_HK">
+			<Text>復活節島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_71" Language="zh_Hant_HK">
+			<Text>馬克薩斯群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_72" Language="zh_Hant_HK">
+			<Text>夏威夷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_73" Language="zh_Hant_HK">
+			<Text>雷維拉吉多群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_74" Language="zh_Hant_HK">
+			<Text>科科斯島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_75" Language="zh_Hant_HK">
+			<Text>馬爾佩洛島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_76" Language="zh_Hant_HK">
+			<Text>克利珀頓島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_77" Language="zh_Hant_HK">
+			<Text>加拉帕戈斯群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_78" Language="zh_Hant_HK">
+			<Text>德斯文圖拉達斯群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_79" Language="zh_Hant_HK">
+			<Text>胡安-費爾南德斯群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_80" Language="zh_Hant_HK">
+			<Text>台灣</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_81" Language="zh_Hant_HK">
+			<Text>奔巴島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_82" Language="zh_Hant_HK">
+			<Text>鳴人</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_83" Language="zh_Hant_HK">
+			<Text>新加坡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_84" Language="zh_Hant_HK">
+			<Text>蘇拉特沙尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_85" Language="zh_Hant_HK">
+			<Text>廣州</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_86" Language="zh_Hant_HK">
+			<Text>南寧</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_87" Language="zh_Hant_HK">
+			<Text>澳門</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_88" Language="zh_Hant_HK">
+			<Text>馬尼亞拉地區</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_89" Language="zh_Hant_HK">
+			<Text>亞的斯亞貝巴</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_90" Language="zh_Hant_HK">
+			<Text>內羅畢</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_91" Language="zh_Hant_HK">
+			<Text>比勒陀利亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_92" Language="zh_Hant_HK">
+			<Text>開普半島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_93" Language="zh_Hant_HK">
+			<Text>布隆方丹</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_94" Language="zh_Hant_HK">
+			<Text>阿拉伯半島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_95" Language="zh_Hant_HK">
+			<Text>塔那那利佛</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_96" Language="zh_Hant_HK">
+			<Text>馬尼拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_97" Language="zh_Hant_HK">
+			<Text>羅德里格斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_98" Language="zh_Hant_HK">
+			<Text>維多利亞-波拿巴</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_99" Language="zh_Hant_HK">
+			<Text>阿納姆地</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_100" Language="zh_Hant_HK">
+			<Text>呂宋島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_101" Language="zh_Hant_HK">
+			<Text>迪納加群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_102" Language="zh_Hant_HK">
+			<Text>棉蘭老島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_103" Language="zh_Hant_HK">
+			<Text>庫斯科</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_104" Language="zh_Hant_HK">
+			<Text>亞松森</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_105" Language="zh_Hant_HK">
+			<Text>西班牙港</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_106" Language="zh_Hant_HK">
+			<Text>索科羅島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_107" Language="zh_Hant_HK">
+			<Text>百慕大</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_108" Language="zh_Hant_HK">
+			<Text>伊納瓜</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_109" Language="zh_Hant_HK">
+			<Text>開曼群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_110" Language="zh_Hant_HK">
+			<Text>維爾京群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_111" Language="zh_Hant_HK">
+			<Text>馬提尼克島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_112" Language="zh_Hant_HK">
+			<Text>特立尼達</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_113" Language="zh_Hant_HK">
+			<Text>通貝島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_114" Language="zh_Hant_HK">
+			<Text>斯卡伯勒</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_115" Language="zh_Hant_HK">
+			<Text>蒙得維的亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_116" Language="zh_Hant_HK">
+			<Text>納里尼奧</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_117" Language="zh_Hant_HK">
+			<Text>塞拉多</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_118" Language="zh_Hant_HK">
+			<Text>聖薩爾瓦多</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_119" Language="zh_Hant_HK">
+			<Text>危地馬拉市</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_120" Language="zh_Hant_HK">
+			<Text>特古西加爾巴</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_121" Language="zh_Hant_HK">
+			<Text>安第斯山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_122" Language="zh_Hant_HK">
+			<Text>加勒比海地區</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_123" Language="zh_Hant_HK">
+			<Text>馬斯卡林群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_124" Language="zh_Hant_HK">
+			<Text>阿斯塔納</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_125" Language="zh_Hant_HK">
+			<Text>斯里賈亞瓦德納普拉科特</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_126" Language="zh_Hant_HK">
+			<Text>尼羅河三角洲</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_127" Language="zh_Hant_HK">
+			<Text>達喀爾</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_128" Language="zh_Hant_HK">
+			<Text>巴庫</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_129" Language="zh_Hant_HK">
+			<Text>烏蘭巴托</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_130" Language="zh_Hant_HK">
+			<Text>大馬士革</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_131" Language="zh_Hant_HK">
+			<Text>加那利群島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_132" Language="zh_Hant_HK">
+			<Text>喀土穆</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_133" Language="zh_Hant_HK">
+			<Text>加德滿都</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_134" Language="zh_Hant_HK">
+			<Text>杜尚別</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_135" Language="zh_Hant_HK">
+			<Text>里斯本</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_136" Language="zh_Hant_HK">
+			<Text>莫羅尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_137" Language="zh_Hant_HK">
+			<Text>幾內亞灣</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_138" Language="zh_Hant_HK">
+			<Text>坎帕拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_139" Language="zh_Hant_HK">
+			<Text>多多馬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_140" Language="zh_Hant_HK">
+			<Text>聖赫勒拿島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_141" Language="zh_Hant_HK">
+			<Text>霍加爾山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_142" Language="zh_Hant_HK">
+			<Text>空中山地</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_143" Language="zh_Hant_HK">
+			<Text>爪哇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_144" Language="zh_Hant_HK">
+			<Text>薩赫勒</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_145" Language="zh_Hant_HK">
+			<Text>巴布亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_1" Language="zh_Hant_HK">
+			<Text>鮎魚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_2" Language="zh_Hant_HK">
+			<Text>巨臀症</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_3" Language="zh_Hant_HK">
+			<Text>內森</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_4" Language="zh_Hant_HK">
+			<Text>內向腳趾</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_5" Language="zh_Hant_HK">
+			<Text>湯戈納斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_6" Language="zh_Hant_HK">
+			<Text>異位動物</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_7" Language="zh_Hant_HK">
+			<Text>殺蟲劑</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_8" Language="zh_Hant_HK">
+			<Text>斯塔諾納斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_9" Language="zh_Hant_HK">
+			<Text>澤奈達</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_10" Language="zh_Hant_HK">
+			<Text>豬瘟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_11" Language="zh_Hant_HK">
+			<Text>拉弗斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_12" Language="zh_Hant_HK">
+			<Text>裸子植物</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_13" Language="zh_Hant_HK">
+			<Text>地理遊戲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_14" Language="zh_Hant_HK">
+			<Text>烏羅佩利亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_15" Language="zh_Hant_HK">
+			<Text>樂妥</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_16" Language="zh_Hant_HK">
+			<Text>天鴿座</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_17" Language="zh_Hant_HK">
+			<Text>蕨類植物</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_18" Language="zh_Hant_HK">
+			<Text>Zentrygon</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_19" Language="zh_Hant_HK">
+			<Text>白細胞統治</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_20" Language="zh_Hant_HK">
+			<Text>Deliaphaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_21" Language="zh_Hant_HK">
+			<Text>梭子蟹屬</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_22" Language="zh_Hant_HK">
+			<Text>特倫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_23" Language="zh_Hant_HK">
+			<Text>銅礦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_24" Language="zh_Hant_HK">
+			<Text>phapitreron</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_25" Language="zh_Hant_HK">
+			<Text>細線蟲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_26" Language="zh_Hant_HK">
+			<Text>八爪魚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_1" Language="zh_Hant_HK">
+			<Text>鏈足類</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_2" Language="zh_Hant_HK">
+			<Text>微古拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_3" Language="zh_Hant_HK">
+			<Text>地質學</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_4" Language="zh_Hant_HK">
+			<Text>雲雀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_5" Language="zh_Hant_HK">
+			<Text>雞翅目</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_6" Language="zh_Hant_HK">
+			<Text>運動障礙</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_7" Language="zh_Hant_HK">
+			<Text>帕塔焦納斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_8" Language="zh_Hant_HK">
+			<Text>賞金計劃</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_9" Language="zh_Hant_HK">
+			<Text>哥倫比亞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_10" Language="zh_Hant_HK">
+			<Text>Petrophassa</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_11" Language="zh_Hant_HK">
+			<Text>杜庫拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_12" Language="zh_Hant_HK">
+			<Text>他</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_13" Language="zh_Hant_HK">
+			<Text>染色</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_14" Language="zh_Hant_HK">
+			<Text>蜾蠃</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_15" Language="zh_Hant_HK">
+			<Text>蟲草屬</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_16" Language="zh_Hant_HK">
+			<Text>擦除</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_17" Language="zh_Hant_HK">
+			<Text>螺旋藻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_18" Language="zh_Hant_HK">
+			<Text>龜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_19" Language="zh_Hant_HK">
+			<Text>鱉甲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_20" Language="zh_Hant_HK">
+			<Text>法普斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_21" Language="zh_Hant_HK">
+			<Text>半食人</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_22" Language="zh_Hant_HK">
+			<Text>地三角</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_23" Language="zh_Hant_HK">
+			<Text>蕨類植物</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_24" Language="zh_Hant_HK">
+			<Text>強羅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_25" Language="zh_Hant_HK">
+			<Text>卡羅納斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_26" Language="zh_Hant_HK">
+			<Text>密碼芯片</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_27" Language="zh_Hant_HK">
+			<Text>特魯貢</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_NAME" Language="zh_Hant_HK">
+			<Text>鴿子娘</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_QUOTE" Language="zh_Hant_HK">
+			<Text>人生苦短，及時行樂。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_NAME" Language="zh_Hant_HK">
+			<Text>無人看管的小鴿子</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有城市+2宜居度[ICON_AMENITIES](在現代以後則+4宜居度[ICON_AMENITIES])，所有單位-5戰鬥力[ICON_STRENGTH]。每位公民[ICON_CITIZEN] -2生產力[ICON_PRODUCTION]，-2金幣[ICON_GOLD](如果城市有總督則-1生產力[ICON_PRODUCTION])。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_NAME" Language="zh_Hant_HK">
+			<Text>作者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>-1建造次數[ICON_CHARGES]，能加速區域和奇觀。 [NEWLINE]該單位可能會咕掉，咕掉以後可能會給一個尤里卡[ICON_TECHBOOSTED]和一個鼓舞[ICON_CIVICBOOSTED]。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_NAME" Language="zh_Hant_HK">
+			<Text>和平鴿</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_QUOTE" Language="zh_Hant_HK">
+			<Text>我從未渴求過戰爭，除非是為了和平。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_NAME" Language="zh_Hant_HK">
+			<Text>和平大使</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>核武器相關項目+100%生產力[ICON_PRODUCTION]，核裝置-50%維護費[ICON_GOLD]。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_NAME" Language="zh_Hant_HK">
+			<Text>鈾礦提煉廠</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>替代“工廠”，產出額外的信仰值，消除文明能力的生產力減益。 [NEWLINE]戰略資源儲備+20，每回合提供+4鈾[ICON_RESOURCE_URANIUM]。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>鳩鴿科是一個由鴿子和鴿子組成的鳥科。它是鴿形目中唯一的科。這些鳥體型粗壯，頸部短小，喙短而細長，在某些種類中具有肉質的喙。它們主要以種子、水果和植物為食。該科分佈於世界各地，但品種最多的是印尼和澳大利亞地區。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>在英語中，較小的品種往往被稱為 &quot;鴿&quot;，而較大的品種則被稱為 &quot;鳩&quot;。然而，這種區分並不一致，而且在大多數其他語言中也不存在。從歷史上看，這些鳥類的通用名稱涉及到術語之間的巨大變化。最常見的只被稱為 &quot;鳩 &quot;的鳥是家鴿，而另一種在許多城市常見的則被稱為“鴿”的是野鴿子。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>鴿子通常在樹枝上，窗台，或地面上使用樹枝和其他雜物建造相對脆弱的巢。它們每次產一個或兩個白色的蛋，父母雙方都會照顧幼鴿，幼鴿在25-32天后離開巢穴。未羽化的小鴿子和小鴿子被稱為乳鴿，一般在5周大的時候就能飛了。這些雛鴿的聲音不成熟，一旦斷奶或斷氣，就被稱為吱吱叫。與大多數鳥類不同的是，鴿子和鴿子的雌雄都會分泌 &quot;嗉囊奶 &quot;來餵養牠們的幼崽，這種奶是由嗉囊內壁充滿液體的細胞脫落後分泌出來的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DOVE_CLUSTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>聚落，為人民聚居的地方，可分為“都市聚落”（城市）和“鄉村聚落”（村落）。聚落多用作人類社會的早期進入定居生活以後，集中居住的區域。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>鴿子在很多場合是一種象徵性的符號。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>鴿子，特別是白色羽毛的家鴿，在許多場合被用作和平、自由或愛的象徵。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>鴿子經常與和平和和平主義的概念聯繫在一起。它們經常出現在政治漫畫中，出現在促進和平的活動（如奧運會、各種反戰/反暴力抗議活動等）的橫幅和標誌上，也出現在和平主義文學中。和平主義者有時被稱為鴿派（同樣，在美國政治中，主張使用軍事資源而不是外交手段的人可以被稱為鷹派）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>畢加索的石版畫《鴿子》是一幅傳統的、寫實的鴿子畫，沒有橄欖枝，被選為1949年4月在巴黎舉行的世界和平理事會的會標。在1950年謝菲爾德的世界和平大會上，畢加索說他的父親教他畫鴿子，最後說：&quot;我代表生命反對死亡；我代表和平反對戰爭。&quot; 在1952年柏林的世界和平大會上，畢加索的鴿子被描繪在舞台上方的橫幅上。反共人士對和平鴿有自己的看法：和平與自由組織分發了名為La colombe qui fait BOUM（發出爆炸聲的鴿子）的海報，顯示和平鴿蛻變為蘇聯坦克。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>同位素分離是很困難的，因為同一元素的兩個同位素具有幾乎相同的化學性質，只能利用微小的質量差異來逐步分離。 (235U僅比238U輕1。26%）。這個問題變得更加複雜，因為鈾很少以原子形式分離，而是以化合物形式分離（235UF6僅比238UF6輕0。852%）。由相同階段組成的級聯產生的235U的濃度依次升高。每個階段都將濃度稍高的產品傳遞給下一個階段，並將濃度稍低的殘餘物送回上一個階段。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>目前國際上有兩種通用的商業濃縮方法：氣體擴散法（被稱為第一代）和氣體離心機（第二代），後者消耗的能量只有氣體擴散法的2%至2。5%（效率至少高 &quot;20倍&quot;）。一些工作正在進行，將使用核共振；然而，沒有可靠證據表明任何核共振過程已被擴大到生產。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>鴿子娘指的是鴿子的娘化形象，通常以二次元形象呈現。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>娘化指的是將任何事物賦予女性的外貌、性格、裝束等的一種藝術創作手法。現在所說的娘化，一般指以萌系手法進行的娘化，又稱萌娘化。萌娘化是隨著現代ACGN次文化和萌文化的發展而興起的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>咕咕咕。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>作者是指書籍、文章、戲劇或其他書面作品的作者。對 &quot;作者 &quot;一詞的廣義定義是：</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>“作者是‘起源於任何事物或使其存在的人’，其作者身份決定了對所創造事物的責任”。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_146" Language="zh_Hant_HK">
+			<Text>特古西加爾巴</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

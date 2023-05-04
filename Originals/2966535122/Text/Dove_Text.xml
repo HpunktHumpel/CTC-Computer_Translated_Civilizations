@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Civilization Dove. -->
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_DOVE_NAME" Language="en_US">
+			<Text>Dove</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BINOMIAL_DOVE_NAME" Language="en_US">
+			<Text>Columbidae</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DOVE_KINGDOM" Language="en_US">
+			<Text>Dove Kingdom</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DOVE_DESCRIPTION" Language="en_US">
+			<Text>The dove kingdom</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DOVE_ADJECTIVE" Language="en_US">
+			<Text>Dove's</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_NAME" Language="en_US">
+			<Text>Forest and Free Nation</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_DESCRIPTION" Language="en_US">
+			<Text>Tundra plots +1[ICON_PRODUCTION], +2[ICON_FOOD][ICON_FAITH]. Forests +2[ICON_FOOD], +3[ICON_PRODUCTION][ICON_FAITH]. All cities +2[ICON_AMENITIES], every [ICON_CITIZEN] -1[ICON_PRODUCTION](decreases over game progress), +2[ICON_FAITH](decreases over game progress).[NEWLINE]Specialized districts can only be built in forests, each adjacent forest provide +1 yield.[NEWLINE]Builders +2 [ICON_MOVEMENT], -1 [ICON_CHARGES].</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FRIENDLY_COMBAT_BONUS" Language="en_US">
+			<Text>In friendly terroity</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FOREST_DEFENSE_BONUS" Language="en_US">
+			<Text>Defense in forests</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DOVE_DISTRICT_FOREST_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Forest {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DOVE_DISTRICT_FOREST_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Forest {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DOVE_DISTRICT_FOREST_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_PRODUCTION] Production from the adjacent Forest {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DOVE_DISTRICT_FOREST_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_GOLD] Gold from the adjacent Forest {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DOVE_DISTRICT_FOREST_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_FAITH] Faith from the adjacent Forest {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DISTRICT_DOVE_CLUSTER_NAME" Language="en_US">
+			<Text>Dove Cluster</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DOVE_CLUSTER_DESCRIPTION" Language="en_US">
+			<Text>Replaces holy site, +4[ICON_FAITH] Faith, yields extra[ICON_PRODUCTION] when city has 'Steel' technology and 16[ICON_CITIZEN].[NEWLINE]When built, city can purchase buildings and civilians via faith.</Text>
+		</Row>
+		<Row Tag="LOC_ADJACENCY_DOVE_CLUSTER_BASE" Language="en_US">
+			<Text>+{1_num} [ICON_FAITH] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_ADJACENCY_DOVE_CLUSTER_WONDER" Language="en_US">
+			<Text>+{1_num} [ICON_FAITH] Faith from the adjacent {1_Num : plural 1?wonder; other?wonders;}.</Text>
+		</Row>
+		<!-- extra adjacency bonus. -->
+		<Row Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Dove {1_Num : plural 1?Cluster; other?Clusters;}.</Text>
+		</Row>
+		<Row Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Dove {1_Num : plural 1?Cluster; other?Clusters;}.</Text>
+		</Row>
+		<Row Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_PRODUCTION] Production from the adjacent Dove {1_Num : plural 1?Cluster; other?Clusters;}.</Text>
+		</Row>
+		<Row Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_GOLD] Gold from the adjacent Dove {1_Num : plural 1?Cluster; other?Clusters;}.</Text>
+		</Row>
+		<Row Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_FAITH] Faith from the adjacent Dove {1_Num : plural 1?Cluster; other?Clusters;}.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_NAME" Language="en_US">
+			<Text>Dove Workforce</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_SHORT_NAME" Language="en_US">
+			<Text>Dove Workforce</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_DESCRIPTION" Language="en_US">
+			<Text>Specially trained workers for improvements.</Text>
+		</Row>
+
+
+	</LocalizedText>
+
+	<!-- Citizen and City Names. -->
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CAPITAL" Language="en_US" Text="Altar"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_1" Language="en_US" Text="Sierra del Rosario"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_2" Language="en_US" Text="Greater Antilles"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_3" Language="en_US" Text="Florida Keys"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_4" Language="en_US" Text="Morovis"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_5" Language="en_US" Text="Hispaniola"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_6" Language="en_US" Text="Texas"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_7" Language="en_US" Text="Lesser Antilles"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_8" Language="en_US" Text="Medellin"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_9" Language="en_US" Text="Cali"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_10" Language="en_US" Text="Tena"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_11" Language="en_US" Text="Banos de Agua Santa"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_12" Language="en_US" Text="Paracas"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_13" Language="en_US" Text="Kingston"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_14" Language="en_US" Text="Caracas"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_15" Language="en_US" Text="Paramaribo"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_16" Language="en_US" Text="Lima"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_17" Language="en_US" Text="Panama City"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_18" Language="en_US" Text="Managua"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_19" Language="en_US" Text="Georgetown"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_20" Language="en_US" Text="San José"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_21" Language="en_US" Text="Brasília"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_22" Language="en_US" Text="Nuestra Señora de La Paz"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_23" Language="en_US" Text="Buenos Aires"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_24" Language="en_US" Text="Sucre"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_25" Language="en_US" Text="Nukuʻalofa"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_26" Language="en_US" Text="Melanesia"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_27" Language="en_US" Text="Jakarta"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_28" Language="en_US" Text="Sulawesi"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_29" Language="en_US" Text="Wallacea"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_30" Language="en_US" Text="Canberra"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_31" Language="en_US" Text="Norfolk Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_32" Language="en_US" Text="The Santa Cruz Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_33" Language="en_US" Text="Nouméa"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_34" Language="en_US" Text="Suva"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_35" Language="en_US" Text="Port Vila"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_36" Language="en_US" Text="Lord Howe's Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_37" Language="en_US" Text="Ogasawara Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_38" Language="en_US" Text="Volcano Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_39" Language="en_US" Text="Minamitorishima"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_40" Language="en_US" Text="Northern Mariana Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_41" Language="en_US" Text="Hagåtña"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_42" Language="en_US" Text="New Guinea"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_43" Language="en_US" Text="Yaren"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_44" Language="en_US" Text="Banaba"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_45" Language="en_US" Text="Wake Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_46" Language="en_US" Text="Marshall Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_47" Language="en_US" Text="Gilbert Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_48" Language="en_US" Text="South Tarawa"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_49" Language="en_US" Text="Johnston Atoll"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_50" Language="en_US" Text="Phoenix Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_51" Language="en_US" Text="Line Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_52" Language="en_US" Text="Howland Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_53" Language="en_US" Text="Baker Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_54" Language="en_US" Text="Jarvis Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_55" Language="en_US" Text="Malden Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_56" Language="en_US" Text="Starbuck Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_57" Language="en_US" Text="Tuvalu"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_58" Language="en_US" Text="Tokelau"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_59" Language="en_US" Text="Cook Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_60" Language="en_US" Text="Pukapuka"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_61" Language="en_US" Text="Apia"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_62" Language="en_US" Text="Mata Utu"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_63" Language="en_US" Text="Alofi"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_64" Language="en_US" Text="Avarua"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_65" Language="en_US" Text="Austral Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_66" Language="en_US" Text="Society Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_67" Language="en_US" Text="Tuamotus"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_68" Language="en_US" Text="Adamstown"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_69" Language="en_US" Text="Isla Salas y Gómez"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_70" Language="en_US" Text="Easter Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_71" Language="en_US" Text="Marquesas Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_72" Language="en_US" Text="Hawaii"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_73" Language="en_US" Text="Revillagigedo Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_74" Language="en_US" Text="Cocos Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_75" Language="en_US" Text="Malpelo Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_76" Language="en_US" Text="Clipperton Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_77" Language="en_US" Text="Galápagos Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_78" Language="en_US" Text="Desventuradas Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_79" Language="en_US" Text="Juan Fernández Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_80" Language="en_US" Text="Taiwan"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_81" Language="en_US" Text="Pemba Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_82" Language="en_US" Text="Naypyidaw"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_83" Language="en_US" Text="Singapore"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_84" Language="en_US" Text="Surat Thani"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_85" Language="en_US" Text="Guangzhou"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_86" Language="en_US" Text="Nanning"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_87" Language="en_US" Text="Macau"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_88" Language="en_US" Text="Manyara Region"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_89" Language="en_US" Text="Addis Ababa"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_90" Language="en_US" Text="Nairobi"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_91" Language="en_US" Text="Pretoria"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_92" Language="en_US" Text="Cape Peninsula"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_93" Language="en_US" Text="Bloemfontein"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_94" Language="en_US" Text="Arabian Peninsula"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_95" Language="en_US" Text="Antananarivo"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_96" Language="en_US" Text="Manila"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_97" Language="en_US" Text="Rodrigues"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_98" Language="en_US" Text="Victoria Bonaparte"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_99" Language="en_US" Text="Arnhem Land"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_100" Language="en_US" Text="Luzon"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_101" Language="en_US" Text="Dinagat Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_102" Language="en_US" Text="Mindoro"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_103" Language="en_US" Text="Cusco"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_104" Language="en_US" Text="Asunción"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_105" Language="en_US" Text="Port of Spain"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_106" Language="en_US" Text="Socorro Island"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_107" Language="en_US" Text="Bermuda"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_108" Language="en_US" Text="Inagua"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_109" Language="en_US" Text="Cayman Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_110" Language="en_US" Text="Virgin Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_111" Language="en_US" Text="Martinique"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_112" Language="en_US" Text="Trinidad"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_113" Language="en_US" Text="Tumbes"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_114" Language="en_US" Text="Scarborough"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_115" Language="en_US" Text="Montevideo"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_116" Language="en_US" Text="Nariño"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_117" Language="en_US" Text="Cerrado"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_118" Language="en_US" Text="San Salvador"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_119" Language="en_US" Text="Guatemala City"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_120" Language="en_US" Text="Tegucigalpa"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_121" Language="en_US" Text="Andes Mountains"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_122" Language="en_US" Text="Caribbean"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_123" Language="en_US" Text="Mascarene Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_124" Language="en_US" Text="Astana"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_125" Language="en_US" Text="Sri Jayawardenepura Kotte"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_126" Language="en_US" Text="Nile Delta"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_127" Language="en_US" Text="Dakar"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_128" Language="en_US" Text="Baku"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_129" Language="en_US" Text="Ulaanbaatar"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_130" Language="en_US" Text="Damascus"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_131" Language="en_US" Text="Canary Islands"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_132" Language="en_US" Text="Khartoum"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_133" Language="en_US" Text="Kathmandu"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_134" Language="en_US" Text="Dushanbe"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_135" Language="en_US" Text="Lisbon"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_136" Language="en_US" Text="Moroni"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_137" Language="en_US" Text="Gulf of Guinea"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_138" Language="en_US" Text="Kampala"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_139" Language="en_US" Text="Dodoma"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_140" Language="en_US" Text="Saint Helena"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_141" Language="en_US" Text="Hoggar Mountains"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_142" Language="en_US" Text="Air Massif"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_143" Language="en_US" Text="Java"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_144" Language="en_US" Text="Sahel"/>
+		<Row Tag="LOC_CIVILIZATION_DOVE_CITY_145" Language="en_US" Text="Papua"/>
+
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_1" Language="en_US" Text="Lopholaimus"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_2" Language="en_US" Text="Macropygia"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_3" Language="en_US" Text="Nesoenas"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_4" Language="en_US" Text="Reinwardtoena"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_5" Language="en_US" Text="Tongoenas"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_6" Language="en_US" Text="Ectopistes"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_7" Language="en_US" Text="Pezophaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_8" Language="en_US" Text="Starnoenas"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_9" Language="en_US" Text="Zenaida"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_10" Language="en_US" Text="Henicophaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_11" Language="en_US" Text="Raphus"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_12" Language="en_US" Text="Gymnophaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_13" Language="en_US" Text="Geopelia"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_14" Language="en_US" Text="Uropelia"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_15" Language="en_US" Text="Leptotila"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_16" Language="en_US" Text="Columba"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_17" Language="en_US" Text="Ptilinopus"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_18" Language="en_US" Text="Zentrygon"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_19" Language="en_US" Text="Leucosarcia"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_20" Language="en_US" Text="Deliaphaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_21" Language="en_US" Text="Paraclaravis"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_22" Language="en_US" Text="Treron"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_23" Language="en_US" Text="Chalcophaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_24" Language="en_US" Text="Phapitreron"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_25" Language="en_US" Text="Leptotrygon"/>
+		<Row Tag="LOC_CITIZEN_DOVE_MALE_26" Language="en_US" Text="Ocyphaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_1" Language="en_US" Text="Streptopelia"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_2" Language="en_US" Text="Microgoura"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_3" Language="en_US" Text="Geophaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_4" Language="en_US" Text="Claravis"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_5" Language="en_US" Text="Gallicolumba"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_6" Language="en_US" Text="Dysmoropelia"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_7" Language="en_US" Text="Patagioenas"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_8" Language="en_US" Text="Bountyphaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_9" Language="en_US" Text="Columbina"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_10" Language="en_US" Text="Petrophassa"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_11" Language="en_US" Text="Ducula"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_12" Language="en_US" Text="Oena"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_13" Language="en_US" Text="Natunaornis"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_14" Language="en_US" Text="Metriopelia"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_15" Language="en_US" Text="Otidiphaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_16" Language="en_US" Text="Pampusana"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_17" Language="en_US" Text="Spilopelia"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_18" Language="en_US" Text="Turtur"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_19" Language="en_US" Text="Turacoena"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_20" Language="en_US" Text="Phaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_21" Language="en_US" Text="Hemiphaga"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_22" Language="en_US" Text="Geotrygon"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_23" Language="en_US" Text="Didunculus"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_24" Language="en_US" Text="Goura"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_25" Language="en_US" Text="Caloenas"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_26" Language="en_US" Text="Cryptophaps"/>
+		<Row Tag="LOC_CITIZEN_DOVE_FEMALE_27" Language="en_US" Text="Trugon"/>
+	</LocalizedText>
+
+	<!-- Leader Pigeon. -->
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_PIGEON_GIRL_NAME" Language="en_US">
+			<Text>Pigeon Girl</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PIGEON_GIRL_QUOTE" Language="en_US">
+			<Text>Life is short, so enjoy it to the fullest.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_NAME" Language="en_US">
+			<Text>Without Supervision</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_DESCRIPTION" Language="en_US">
+			<Text>All cities +2[ICON_AMENITIES](+4[ICON_AMENITIES] if in modern era), all units -5[ICON_STRENGTH]. Every [ICON_CITIZEN] -2[ICON_PRODUCTION], -2[ICON_GOLD](-1[ICON_PRODUCTION] if city has governor).</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_DOVE_AUTHOR_NAME" Language="en_US">
+			<Text>Author</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DOVE_AUTHOR_DESCRIPTION" Language="en_US">
+			<Text>-1[ICON_CHARGES], can accelerate building progress of wonders and districts.[NEWLINE]This unit may release the doves, which probably grant a[ICON_TECHBOOSTED] and a[ICON_CIVICBOOSTED].</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- Leader PeaceDove. -->
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_PEACE_DOVE_NAME" Language="en_US">
+			<Text>Dove of Peace</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PEACE_DOVE_QUOTE" Language="en_US">
+			<Text>I have never advocated war except as a means of peace.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_NAME" Language="en_US">
+			<Text>Peace Ambassador</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_DESCRIPTION" Language="en_US">
+			<Text>+100%[ICON_PRODUCTION] towards WMD projects, nuclear devices -50% maintenance[ICON_GOLD].</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_URANIUM_REFINERY_NAME" Language="en_US">
+			<Text>Uranium Refinery</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_URANIUM_REFINERY_DESCRIPTION" Language="en_US">
+			<Text>Replaces factory, +4 influence points per turn, yields extra faith.[NEWLINE]Strategic Resource Stockpiles increase +20.[NEWLINE]Grants +4[ICON_RESOURCE_URANIUM] per turn.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- Pedia Text. -->
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Columbidae (/kəˈlʌmbɪdiː/) is a bird family consisting of doves and pigeons. It is the only family in the order Columbiformes. These are stout-bodied birds with short necks and short slender bills that in some species feature fleshy ceres. They primarily feed on seeds, fruits, and plants. The family occurs worldwide, but the greatest variety is in the Indomalayan and Australasian realms.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>In English, the smaller species tend to be called "doves" and the larger ones "pigeons". However, the distinction is not consistent, and does not exist in most other languages. Historically, the common names for these birds involve a great deal of variation among the terms. The bird most commonly referred to as just "pigeon" is the domestic pigeon, which is common in many cities as the feral pigeon.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Doves and pigeons build relatively flimsy nests, often using sticks and other debris, which may be placed on branches of trees, on ledges, or on the ground, depending on species. They lay one or (usually) two white eggs at a time, and both parents care for the young, which leave the nest after 25–32 days. Unfledged baby doves and pigeons are called squabs and are generally able to fly by 5 weeks of age. These fledglings, with their immature squeaking voices, are called squeakers once they are weaned or weaning. Unlike most birds, both sexes of doves and pigeons produce "crop milk" to feed to their young, secreted by a sloughing of fluid-filled cells from the lining of the crop.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DOVE_CLUSTER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Clusters are sites where people lives, which can be divided into "city cluster"(city) and "urban cluster"(village). Clusters are mostly used as areas of concentrated habitation after the early stages of human society entered settled life.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Doves are seen as symbols in many occassions.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Doves, typically domestic pigeons white in plumage, are used in many settings as symbols of peace, freedom, or love.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Doves are often associated with the concept of peace and pacifism. They often appear in political cartoons, on banners and signs at events promoting peace (such as the Olympic Games, at various anti-war/anti-violence protests, etc.), and in pacifist literature. A person who is a pacifist is sometimes referred to as a dove (similarly, in American politics, a person who advocates the use of military resources as opposed to diplomacy can be referred to as a hawk).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Picasso's lithograph, La Colombe (The Dove), a traditional, realistic picture of a pigeon, without an olive branch, was chosen as the emblem for the World Peace Council in Paris in April 1949. At the 1950 World Peace Congress in Sheffield, Picasso said that his father had taught him to paint doves, concluding, "I stand for life against death; I stand for peace against war." At the 1952 World Peace Congress in Berlin, Picasso's Dove was depicted in a banner above the stage. Anti-communists had their own take on the peace dove: the group Paix et Liberté distributed posters titled La colombe qui fait BOUM (the dove that goes BOOM), showing the peace dove metamorphosing into a Soviet tank.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Isotope separation is difficult because two isotopes of the same element have nearly identical chemical properties, and can only be separated gradually using small mass differences. (235U is only 1.26% lighter than 238U). This problem is compounded because uranium is rarely separated in its atomic form, but instead as a compound (235UF6 is only 0.852% lighter than 238UF6). A cascade of identical stages produces successively higher concentrations of 235U. Each stage passes a slightly more concentrated product to the next stage and returns a slightly less concentrated residue to the previous stage.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>There are currently two generic commercial methods employed internationally for enrichment: gaseous diffusion (referred to as first generation) and gas centrifuge (second generation), which consumes only 2% to 2.5% as much energy as gaseous diffusion (at least a "factor of 20" more efficient). Some work is being done that would use nuclear resonance; however there is no reliable evidence that any nuclear resonance processes have been scaled up to production. </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Pigeon Girl refers to the pigeon's girly image, usually presented in a comic style.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Girly image refers to an artistic creation technique that gives anything a female appearance, character, attire, etc. Nowadays, when we say sissification, we generally mean sissification with moe technique, also called moe sissification. Moe sissification has emerged with the development of modern ACGN subculture and moe culture.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Goo Goo Goo.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>An author is the writer of a book, article, play, or other written work. A broader definition of the word "author" states:</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>"An author is 'the person who originated or gave existence to anything' and whose authorship determines responsibility for what was created.'"</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

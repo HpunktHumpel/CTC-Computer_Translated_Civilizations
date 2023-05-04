@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ed336e0f-391e-4d9a-bdb0-f34d82dd2524" version="1">
+  <Properties>
+    <Name>罗德岛的华法琳Warfarin_Civilization</Name>
+    <Description>包含领袖华法琳
+数个项目与特色建筑、单位、区域
+根据反馈可能会在后续更新英文版本与其他功能
+
+Includes leader Warfarin,
+several projects and distinctive buildings, units, and regions. 
+Further updates to the English version and other features may be added based on feedback.</Description>
+    <Created>1683130054</Created>
+    <Teaser>华法琳warfarin</Teaser>
+    <Authors>erocal</Authors>
+    <SpecialThanks>Hemmelfort</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Warfarin_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Warfarin_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Warfarin_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>罗德岛的华法琳Warfarin_Civilization.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Warfarin_Civilization.xml</File>
+      <File>Warfarin_Leaders.xml</File>
+      <File>Warfarin_Units.xml</File>
+      <File>Warfarin_Buildings.xml</File>
+      <File>Warfarin_Resources.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Warfarin_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Warfarin_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>罗德岛的华法琳Warfarin_Civilization.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="modifers">
+      <File>Warfarin_Modifers.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="projects">
+      <File>Warfarin_Projects.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="districts">
+      <File>Warfarin_Districts.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="moments">
+      <File>Warfarin_Moment.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/WarfarinDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/WarfarinDDS.blp</File>
+    <File>Rodesland_Warfarin.Art.xml</File>
+    <File>Warfarin_Buildings.xml</File>
+    <File>Warfarin_Civilization.xml</File>
+    <File>Warfarin_Config.xml</File>
+    <File>Warfarin_Districts.xml</File>
+    <File>Warfarin_Icons.xml</File>
+    <File>Warfarin_Leaders.xml</File>
+    <File>Warfarin_Modifers.sql</File>
+    <File>Warfarin_Moment.xml</File>
+    <File>Warfarin_Projects.xml</File>
+    <File>Warfarin_Resources.xml</File>
+    <File>Warfarin_Text.xml</File>
+    <File>Warfarin_Units.xml</File>
+    <File>罗德岛的华法琳Warfarin_Civilization.dep</File>
+  </Files>
+</Mod>

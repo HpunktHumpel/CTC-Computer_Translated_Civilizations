@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri May  5 01:29:21 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_NAME" Language="ko_KR">
+			<Text>비둘기</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_BINOMIAL_DOVE_NAME" Language="ko_KR">
+			<Text>비둘기</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOVE_KINGDOM" Language="ko_KR">
+			<Text>비둘기 왕국</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_DESCRIPTION" Language="ko_KR">
+			<Text>비둘기 왕국</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_ADJECTIVE" Language="ko_KR">
+			<Text>비둘기</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_NAME" Language="ko_KR">
+			<Text>숲과 자유의 땅</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOREST_AND_FREE_NATION_DESCRIPTION" Language="ko_KR">
+			<Text>툰드라 세포 +1 생산성[ICON_PRODUCTION], +2 식량[ICON_FOOD] 신앙[ICON_FAITH]. 숲 +2 식량[ICON_FOOD], +3 생산성[ICON_PRODUCTION] 신앙[ICON_FAITH]. 언제든지 모든 도시에 대해 편의 시설[ICON_AMENITIES] +2, -4[ICON_PRODUCTION], 각 시민[ICON_CITIZEN]에 대해 +0[ICON_FAITH]. [NEWLINE]특수 지역은 숲에만 지을 수 있으며 인접한 각 숲 셀 +1은 인접한 보너스에 해당합니다. [NEWLINE] 건축자는 +2 이동[ICON_MOVEMENT], -1 건축 시간[ICON_CHARGES]을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FRIENDLY_COMBAT_BONUS" Language="ko_KR">
+			<Text>우호적 영토 내</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FOREST_AND_FREE_NATION_FOREST_DEFENSE_BONUS" Language="ko_KR">
+			<Text>숲의 방어</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_SCIENCE" Language="ko_KR">
+			<Text>+{1_num} [ICON_SCIENCE] 과학 값은 인접한 숲 세포에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_CULTURE" Language="ko_KR">
+			<Text>+{1_num} [ICON_CULTURE] 문화 가치는 인접한 숲 세포에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_PRODUCTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_PRODUCTION] 인접한 삼림 세포에서 생산이 이루어집니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_GOLD" Language="ko_KR">
+			<Text>+{1_num} [ICON_GOLD] 금은 인접한 숲 타일에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DOVE_DISTRICT_FOREST_FAITH" Language="ko_KR">
+			<Text>+{1_num} [ICON_FAITH] 신앙은 인접한 숲 셀에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_NAME" Language="ko_KR">
+			<Text>비둘기 식민지</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DOVE_CLUSTER_DESCRIPTION" Language="ko_KR">
+			<Text>초기 +4 [ICON_FAITH] 신앙 값인 &quot;신성한 땅&quot; 대신 &quot;강철&quot; 기술을 연구한 후 시민 [ICON_CITIZEN]이(가) 16명 이상인 도시의 비둘기 식민지에서 추가 생산 [ICON_PRODUCTION]을 생산합니다. [NEWLINE]도시가 건설된 후 시민과 건물을 신앙으로 구입할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_BASE" Language="ko_KR">
+			<Text>+{1_num} [ICON_FAITH] 신앙.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_WONDER" Language="ko_KR">
+			<Text>+{1_num} [ICON_FAITH] 인접 불가사의의 신앙.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_SCIENCE" Language="ko_KR">
+			<Text>+{1_num} [ICON_SCIENCE] 인접한 비둘기 서식지의 과학.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_CULTURE" Language="ko_KR">
+			<Text>+{1_num} [ICON_CULTURE] 이웃 비둘기 서식지의 문화.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_PRODUCTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_PRODUCTION] 인접한 비둘기 서식지에서 생산.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_GOLD" Language="ko_KR">
+			<Text>+{1_num} [ICON_GOLD] 이웃 비둘기 서식지의 금화.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_DOVE_CLUSTER_CLUSTER_FAITH" Language="ko_KR">
+			<Text>+{1_num} [ICON_FAITH] 이웃 비둘기 서식지의 신앙.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_NAME" Language="ko_KR">
+			<Text>뻐꾸기 노동</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_SHORT_NAME" Language="ko_KR">
+			<Text>뻐꾸기 노동</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOVE_DOVE_WORKFORCE_DESCRIPTION" Language="ko_KR">
+			<Text>도시 건설을 위한 인재를 모집하고 프로젝트가 완료된 후 3명의 건축업자[ICON_CHARGES]를 받으세요.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CAPITAL" Language="ko_KR">
+			<Text>제단</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_1" Language="ko_KR">
+			<Text>로사리오 산맥</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_2" Language="ko_KR">
+			<Text>대앤틸리스 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_3" Language="ko_KR">
+			<Text>플로리다 키</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_4" Language="ko_KR">
+			<Text>모로우스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_5" Language="ko_KR">
+			<Text>히스파니올라</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_6" Language="ko_KR">
+			<Text>텍사스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_7" Language="ko_KR">
+			<Text>소앤틸리스 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_8" Language="ko_KR">
+			<Text>메델린</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_9" Language="ko_KR">
+			<Text>칼리</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_10" Language="ko_KR">
+			<Text>돌리는 사람</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_11" Language="ko_KR">
+			<Text>바뇨스 데 아구아 산타</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_12" Language="ko_KR">
+			<Text>파라카스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_13" Language="ko_KR">
+			<Text>킹스턴</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_14" Language="ko_KR">
+			<Text>카라카스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_15" Language="ko_KR">
+			<Text>파라마리보</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_16" Language="ko_KR">
+			<Text>리마</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_17" Language="ko_KR">
+			<Text>파나마시티</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_18" Language="ko_KR">
+			<Text>마나과</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_19" Language="ko_KR">
+			<Text>조지타운</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_20" Language="ko_KR">
+			<Text>산호세</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_21" Language="ko_KR">
+			<Text>브라질리아</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_22" Language="ko_KR">
+			<Text>라파스의 노트르담</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_23" Language="ko_KR">
+			<Text>부에노스 아이레스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_24" Language="ko_KR">
+			<Text>수크레</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_25" Language="ko_KR">
+			<Text>누쿠알로파</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_26" Language="ko_KR">
+			<Text>멜라네시아</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_27" Language="ko_KR">
+			<Text>자카르타</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_28" Language="ko_KR">
+			<Text>술라웨시</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_29" Language="ko_KR">
+			<Text>월리스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_30" Language="ko_KR">
+			<Text>캔버라</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_31" Language="ko_KR">
+			<Text>노퍽 섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_32" Language="ko_KR">
+			<Text>산타 크루즈 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_33" Language="ko_KR">
+			<Text>누메아</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_34" Language="ko_KR">
+			<Text>수바</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_35" Language="ko_KR">
+			<Text>포트빌라</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_36" Language="ko_KR">
+			<Text>하워드 아일랜드</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_37" Language="ko_KR">
+			<Text>오가사와라 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_38" Language="ko_KR">
+			<Text>화산섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_39" Language="ko_KR">
+			<Text>사우스 버드 아일랜드</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_40" Language="ko_KR">
+			<Text>북마리아나 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_41" Language="ko_KR">
+			<Text>해거트너</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_42" Language="ko_KR">
+			<Text>뉴기니</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_43" Language="ko_KR">
+			<Text>아론</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_44" Language="ko_KR">
+			<Text>바나바</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_45" Language="ko_KR">
+			<Text>웨이크 아일랜드</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_46" Language="ko_KR">
+			<Text>마셜 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_47" Language="ko_KR">
+			<Text>길버트 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_48" Language="ko_KR">
+			<Text>사우스 타라와</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_49" Language="ko_KR">
+			<Text>존스턴 환초</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_50" Language="ko_KR">
+			<Text>피닉스 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_51" Language="ko_KR">
+			<Text>선 섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_52" Language="ko_KR">
+			<Text>하울랜드 나.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_53" Language="ko_KR">
+			<Text>베이커 아일랜드</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_54" Language="ko_KR">
+			<Text>자비스 나.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_55" Language="ko_KR">
+			<Text>말돈 섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_56" Language="ko_KR">
+			<Text>스투벅 나.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_57" Language="ko_KR">
+			<Text>투발루</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_58" Language="ko_KR">
+			<Text>토켈라우 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_59" Language="ko_KR">
+			<Text>섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_60" Language="ko_KR">
+			<Text>푸카푸카</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_61" Language="ko_KR">
+			<Text>아피아</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_62" Language="ko_KR">
+			<Text>마타우투</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_63" Language="ko_KR">
+			<Text>알로피</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_64" Language="ko_KR">
+			<Text>아바루아</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_65" Language="ko_KR">
+			<Text>호주 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_66" Language="ko_KR">
+			<Text>사회 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_67" Language="ko_KR">
+			<Text>투아모토스는.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_68" Language="ko_KR">
+			<Text>애덤스타운</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_69" Language="ko_KR">
+			<Text>살라스와 고메즈 섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_70" Language="ko_KR">
+			<Text>이스터 섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_71" Language="ko_KR">
+			<Text>마르퀘사스 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_72" Language="ko_KR">
+			<Text>하와이</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_73" Language="ko_KR">
+			<Text>레비라귀도입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_74" Language="ko_KR">
+			<Text>코코스 나.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_75" Language="ko_KR">
+			<Text>말펠로 나.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_76" Language="ko_KR">
+			<Text>클리퍼튼 섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_77" Language="ko_KR">
+			<Text>갈라파고스 섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_78" Language="ko_KR">
+			<Text>데스 벤투라다스 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_79" Language="ko_KR">
+			<Text>후안 페르난데즈 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_80" Language="ko_KR">
+			<Text>대만</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_81" Language="ko_KR">
+			<Text>펨바 섬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_82" Language="ko_KR">
+			<Text>내비도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_83" Language="ko_KR">
+			<Text>싱가포르</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_84" Language="ko_KR">
+			<Text>수랏 샤니</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_85" Language="ko_KR">
+			<Text>광저우</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_86" Language="ko_KR">
+			<Text>난닝</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_87" Language="ko_KR">
+			<Text>마카오</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_88" Language="ko_KR">
+			<Text>만야라 지역</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_89" Language="ko_KR">
+			<Text>아디스 아바바</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_90" Language="ko_KR">
+			<Text>나이로비</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_91" Language="ko_KR">
+			<Text>프리토리아</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_92" Language="ko_KR">
+			<Text>케이프 반도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_93" Language="ko_KR">
+			<Text>블룸폰테인</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_94" Language="ko_KR">
+			<Text>아라비아 반도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_95" Language="ko_KR">
+			<Text>안타나나리보</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_96" Language="ko_KR">
+			<Text>마닐라</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_97" Language="ko_KR">
+			<Text>로드리게스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_98" Language="ko_KR">
+			<Text>빅토리아-보나파르트</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_99" Language="ko_KR">
+			<Text>아넘 랜드</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_100" Language="ko_KR">
+			<Text>루손</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_101" Language="ko_KR">
+			<Text>디나가 입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_102" Language="ko_KR">
+			<Text>민다나오</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_103" Language="ko_KR">
+			<Text>쿠스코</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_104" Language="ko_KR">
+			<Text>아순시온</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_105" Language="ko_KR">
+			<Text>스페인의 항구</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_106" Language="ko_KR">
+			<Text>소코로 나.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_107" Language="ko_KR">
+			<Text>버뮤다</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_108" Language="ko_KR">
+			<Text>이나구아</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_109" Language="ko_KR">
+			<Text>케이맨 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_110" Language="ko_KR">
+			<Text>버진 아일랜드</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_111" Language="ko_KR">
+			<Text>마르티니크</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_112" Language="ko_KR">
+			<Text>트리니다드</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_113" Language="ko_KR">
+			<Text>텀베 나.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_114" Language="ko_KR">
+			<Text>스카버러</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_115" Language="ko_KR">
+			<Text>몬테비데오</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_116" Language="ko_KR">
+			<Text>나리뇨</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_117" Language="ko_KR">
+			<Text>세라도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_118" Language="ko_KR">
+			<Text>산살바도르</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_119" Language="ko_KR">
+			<Text>과테말라시티</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_120" Language="ko_KR">
+			<Text>테구시갈파</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_121" Language="ko_KR">
+			<Text>안데스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_122" Language="ko_KR">
+			<Text>카리브해 지역</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_123" Language="ko_KR">
+			<Text>마스카렌 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_124" Language="ko_KR">
+			<Text>아스타나</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_125" Language="ko_KR">
+			<Text>스리자야와르데네푸라코테</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_126" Language="ko_KR">
+			<Text>나일 삼각주</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_127" Language="ko_KR">
+			<Text>다카르</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_128" Language="ko_KR">
+			<Text>바쿠</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_129" Language="ko_KR">
+			<Text>울란바토르</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_130" Language="ko_KR">
+			<Text>다마스쿠스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_131" Language="ko_KR">
+			<Text>카나리아 제도</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_132" Language="ko_KR">
+			<Text>카르툼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_133" Language="ko_KR">
+			<Text>카트만두</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_134" Language="ko_KR">
+			<Text>두샨베</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_135" Language="ko_KR">
+			<Text>리스본</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_136" Language="ko_KR">
+			<Text>모로나이</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_137" Language="ko_KR">
+			<Text>기니 만</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_138" Language="ko_KR">
+			<Text>캄팔라</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_139" Language="ko_KR">
+			<Text>도도마</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_140" Language="ko_KR">
+			<Text>세인트 헬레나</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_141" Language="ko_KR">
+			<Text>코가르 산맥</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_142" Language="ko_KR">
+			<Text>에어 마운틴</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_143" Language="ko_KR">
+			<Text>자바</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_144" Language="ko_KR">
+			<Text>사헬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_145" Language="ko_KR">
+			<Text>파푸아</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_1" Language="ko_KR">
+			<Text>로포라이무스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_2" Language="ko_KR">
+			<Text>대식증</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_3" Language="ko_KR">
+			<Text>네소엔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_4" Language="ko_KR">
+			<Text>Reinwardtoena</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_5" Language="ko_KR">
+			<Text>통고에나</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_6" Language="ko_KR">
+			<Text>엑토피스트</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_7" Language="ko_KR">
+			<Text>페조팝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_8" Language="ko_KR">
+			<Text>스타노에나스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_9" Language="ko_KR">
+			<Text>제나이다</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_10" Language="ko_KR">
+			<Text>헤니코페이스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_11" Language="ko_KR">
+			<Text>라푸스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_12" Language="ko_KR">
+			<Text>체육관</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_13" Language="ko_KR">
+			<Text>지리 게임</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_14" Language="ko_KR">
+			<Text>유로펠리아</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_15" Language="ko_KR">
+			<Text>렙토틸</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_16" Language="ko_KR">
+			<Text>콜롬바</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_17" Language="ko_KR">
+			<Text>프틸리노푸스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_18" Language="ko_KR">
+			<Text>젠트리곤</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_19" Language="ko_KR">
+			<Text>백혈병</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_20" Language="ko_KR">
+			<Text>델리아포스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_21" Language="ko_KR">
+			<Text>파라클라라비스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_22" Language="ko_KR">
+			<Text>트레론</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_23" Language="ko_KR">
+			<Text>찰코팟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_24" Language="ko_KR">
+			<Text>파피트레론</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_25" Language="ko_KR">
+			<Text>렙토트리곤</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_MALE_26" Language="ko_KR">
+			<Text>옥시파프</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_1" Language="ko_KR">
+			<Text>스트렙토펠리아</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_2" Language="ko_KR">
+			<Text>마이크로구라</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_3" Language="ko_KR">
+			<Text>Geophaps</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_4" Language="ko_KR">
+			<Text>종달새</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_5" Language="ko_KR">
+			<Text>갈리콜룸바</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_6" Language="ko_KR">
+			<Text>이상증</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_7" Language="ko_KR">
+			<Text>파타지오에나스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_8" Language="ko_KR">
+			<Text>현상금</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_9" Language="ko_KR">
+			<Text>콜럼비나</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_10" Language="ko_KR">
+			<Text>페트로파사</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_11" Language="ko_KR">
+			<Text>두큘라</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_12" Language="ko_KR">
+			<Text>그</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_13" Language="ko_KR">
+			<Text>스테인드</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_14" Language="ko_KR">
+			<Text>메트로펠리아</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_15" Language="ko_KR">
+			<Text>오티디파스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_16" Language="ko_KR">
+			<Text>삭제 부분</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_17" Language="ko_KR">
+			<Text>Spilopelia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_18" Language="ko_KR">
+			<Text>거북이</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_19" Language="ko_KR">
+			<Text>투라코에나</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_20" Language="ko_KR">
+			<Text>팹스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_21" Language="ko_KR">
+			<Text>헤미파거스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_22" Language="ko_KR">
+			<Text>Geotrygon</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_23" Language="ko_KR">
+			<Text>디던쿨루스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_24" Language="ko_KR">
+			<Text>고우라</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_25" Language="ko_KR">
+			<Text>칼로에나스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_26" Language="ko_KR">
+			<Text>크립토팝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOVE_FEMALE_27" Language="ko_KR">
+			<Text>트루곤</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_NAME" Language="ko_KR">
+			<Text>비둘기 소녀</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PIGEON_GIRL_QUOTE" Language="ko_KR">
+			<Text>인생은 짧습니다. 시간을 즐기십시오.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_NAME" Language="ko_KR">
+			<Text>무인 비둘기</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WITHOUT_SUPERVISION_DESCRIPTION" Language="ko_KR">
+			<Text>모든 도시 +2 편의시설[ICON_AMENITIES](현대 이후 +4 편의시설[ICON_AMENITIES]), 모든 유닛 -5 전투력[ICON_STRENGTH]. 각 시민 [ICON_CITIZEN] -2 생산력[ICON_PRODUCTION], -2 금[ICON_GOLD](도시에 주지사가 있는 경우 -1 생산력[ICON_PRODUCTION]).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_NAME" Language="ko_KR">
+			<Text>작가</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOVE_AUTHOR_DESCRIPTION" Language="ko_KR">
+			<Text>-1 빌드 시간 [ICON_CHARGES], 지역과 불가사의 속도를 높일 수 있습니다. [NEWLINE]이 유닛은 유레카[ICON_TECHBOOSTED]와 영감[ICON_CIVICBOOSTED]을 줄 수 있는 옹알이를 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_NAME" Language="ko_KR">
+			<Text>평화의 비둘기</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PEACE_DOVE_QUOTE" Language="ko_KR">
+			<Text>나는 평화를 제외하고는 전쟁을 동경한 적이 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_NAME" Language="ko_KR">
+			<Text>평화 대사</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PEACE_AMBASSADOR_DESCRIPTION" Language="ko_KR">
+			<Text>핵무기 관련 항목 +100% 생산 [ICON_PRODUCTION], 핵 시설 -50% 유지보수 [ICON_GOLD].</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_NAME" Language="ko_KR">
+			<Text>우라늄 정제소</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_URANIUM_REFINERY_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;공장&quot;을 대체하고 추가 신앙을 생산하며 문명 능력의 생산성 디버프를 제거합니다. [NEWLINE]전략적 자원 비축 +20, 매 라운드마다 +4 우라늄[ICON_RESOURCE_URANIUM]을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>비둘기는 비둘기와 비둘기로 구성된 새과입니다. 비둘기목의 유일한 과이다. 이 새들은 땅딸막하고 짧은 목과 짧고 길쭉한 부리를 가지고 있으며 일부 종에서는 다육질의 부리를 가지고 있습니다. 그들은 주로 씨앗, 과일 및 식물을 먹습니다. 이 가족은 전 세계에 분포하지만 대부분의 품종은 인도네시아와 호주에 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text>영어에서는 작은 품종을 종종 &quot;pigeons&quot;라고 부르고 큰 품종을 &quot;doves&quot;라고 합니다. 그러나 이러한 구별은 일관성이 없으며 대부분의 다른 언어에는 존재하지 않습니다. 역사적으로 이 새들의 일반적인 이름은 용어 간에 큰 차이가 있었습니다. &quot;비둘기&quot;로만 알려진 가장 흔한 새는 집비둘기이며, 많은 도시에서 흔히 볼 수 있고 &quot;비둘기&quot;라고 불리는 또 다른 종은 야생 비둘기입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOVE_CHAPTER_HISTORY_PARA_3" Language="ko_KR">
+			<Text>비둘기는 일반적으로 나뭇가지, 창턱 또는 땅에 나뭇가지와 기타 파편을 사용하여 상대적으로 허술한 둥지를 만듭니다. 그들은 한 번에 하나 또는 두 개의 흰 알을 낳고 부모 모두 새끼를 돌보며 25-32일 후에 둥지를 떠납니다. 깃털이 없는 어린 비둘기와 비둘기는 스쿼브라고 하며 일반적으로 생후 5주가 되면 날 수 있습니다. 이 어린 비둘기의 소리는 미성숙하여 일단 젖을 떼거나 숨이 차면 끽끽거리는 소리라고 합니다. 대부분의 새와 달리 수컷과 암컷 비둘기와 비둘기는 모두 &quot;작물 우유&quot;를 분비하여 새끼를 먹입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DOVE_CLUSTER_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>사람들이 모여 사는 정착촌은 '도시'(도시)와 '농촌'(마을)로 나눌 수 있습니다. 정착지는 인간 사회의 초기 정착 이후 대부분 주거 밀집 지역으로 활용된다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+			<Text>비둘기는 많은 경우에 상징적인 상징입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_DETAILED_BODY" Language="ko_KR">
+			<Text>비둘기, 특히 흰 깃털을 가진 국내 비둘기는 평화, 자유 또는 사랑의 상징으로 여러 차례 사용되었습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>비둘기는 종종 평화와 평화주의의 개념과 관련이 있습니다. 정치 만화, 평화를 증진하는 행사(예: 올림픽, 다양한 반전/반폭력 시위 등)의 현수막과 표지판, 평화주의 문학에 자주 등장합니다. 평화주의자는 때때로 비둘기라고 불립니다(마찬가지로 미국 정치에서는 외교보다 군사 자원 사용을 옹호하는 사람을 매라고 부를 수 있습니다).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PEACE_DOVE_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text>1949년 4월 파리에서 열린 세계평화회의의 모노그램으로 선정된 피카소의 석판화 The Dove는 올리브 가지가 없는 비둘기를 그린 전통적이고 사실적인 그림입니다. 1950년 셰필드에서 열린 세계평화회의에서 피카소는 그의 아버지가 비둘기를 그리는 법을 가르쳤다고 말했고 마침내 &quot;나는 죽음에 대항하는 삶을 대표하고 전쟁에 대항하는 평화를 대표한다&quot;고 말했다. 비둘기는 무대 위의 배너에 그려져 있습니다. 반공산주의자들은 비둘기에 대해 나름의 견해를 가지고 있었습니다. 평화와 자유는 소비에트 탱크로 변신하는 비둘기를 보여주는 La colombe qui fait BOUM(폭발한 비둘기)라는 포스터를 배포했습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>동일한 원소의 두 동위 원소는 화학적 성질이 거의 동일하고 작은 질량 차이를 사용하여 단계적으로만 분리할 수 있기 때문에 동위 원소 분리가 어렵습니다. (235U는 238U보다 겨우 1.26% 가볍습니다). 문제는 우라늄이 원자 형태로는 거의 분리되지 않고 화합물 형태(235UF6는 238UF6보다 0.852% 가볍다)라는 사실에 의해 복잡해집니다. 동일한 단계로 구성된 캐스케이드에 의해 생성된 235U의 농도는 순차적으로 증가합니다. 각 단계는 약간 더 농축된 제품을 다음 단계로 전달하고 덜 농축된 잔류물을 이전 단계로 다시 보냅니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_URANIUM_REFINERY_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text>현재 세계에서 일반적으로 사용되는 두 가지 상업적 농축 방법이 있습니다: 가스 확산 방법(1세대라고 함)과 가스 원심 분리기(2세대), 후자의 에너지 소비는 가스 확산 방법의 2% ~ 2.5%에 불과합니다. (적어도 &quot;20배 더 효율적&quot;). 핵 공명을 사용하는 일부 작업이 진행 중이지만 핵 공명 프로세스가 생산 규모로 확장되었다는 신뢰할 수 있는 증거는 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+			<Text>Pigeon Niang은 일반적으로 2차원 이미지로 표현되는 비둘기의 여성적인 이미지를 말합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_DETAILED_BODY" Language="ko_KR">
+			<Text>매스커레이드는 여성의 외모, 성격, 옷차림 등 무엇이든 부여하는 예술적 창작 방식을 말합니다. &quot;모에 소녀화&quot;라는 용어는 일반적으로 &quot;모에 소녀화&quot;라고도 알려진 귀여운 방식으로 수행되는 &quot;모에 소녀화&quot;를 말합니다. 모에 소녀화는 현대 ACGN 서브컬처와 귀여운 문화의 발전과 함께 등장했다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PIGEON_GIRL_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>뻐꾸기.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>저자는 책, 기사, 희곡 또는 기타 저작물의 저자를 의미합니다. &quot;저자&quot;라는 용어의 광범위한 정의는 다음과 같습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOVE_AUTHOR_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text>&quot;저자는 '무엇이든 시작하거나 그것을 존재하게 하는 사람'이며, 그의 저자는 창조된 것에 대한 책임을 결정합니다.&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOVE_CITY_146" Language="ko_KR">
+			<Text>테구시갈파</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
