@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="71511387-2ed0-4b84-8a6e-aed7b3c7fde5" version="1">
+  <Properties>
+    <Name>东方project 番外之页——EX露米娅</Name>
+    <Description>此MOD启程于2022年的11月份，刚好是我开始做mod一年后。EX露米娅在我心中一直是一个很帅气而悲情的角色，但是由于种种原因，搁置到现在才完成。现在其拥有OP级别的强度，可能适合当boss吧。</Description>
+    <Created>1683113859</Created>
+    <Authors>Tanshou</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="DATA">
+      <File>EX_RUMIA_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="ART">
+      <File>东方project 番外之页——EX露米娅.dep</File>
+    </UpdateArt>
+    <UpdateText id="TXT">
+      <File>Text/EX_RUMIA_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON">
+      <File>EX_RUMIA_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="COL">
+      <File>EX_RUMIA_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DATA">
+      <File>EX_RUMIA_Civilizations.xml</File>
+      <File>EX_RUMIA_Leaders.xml</File>
+      <File>NEW_MODIFIER.sql</File>
+      <File>EX_RUMIA_Buildings.xml</File>
+      <File>SQL_MODIFIERS.sql</File>
+      <File>EX_RUMIA_Districts.xml</File>
+      <File>EX_RUMIA_Units.xml</File>
+      <File>EX_RUMIA_Units_Abilities.xml</File>
+      <File>EX_RUMIA_Units_Promotions.xml</File>
+      <File>EX_RUMIA_Projects.xml</File>
+      <File>EX_RUMIA_Policies.xml</File>
+      <File>EX_RUMIA_Agendas.xml</File>
+      <File>EX_RUMIA_Moments.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="ART">
+      <File>东方project 番外之页——EX露米娅.dep</File>
+    </UpdateArt>
+    <UpdateText id="TXT">
+      <File>Text/EX_RUMIA_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON">
+      <File>EX_RUMIA_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="COL">
+      <File>EX_RUMIA_Colors.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="MUSIC">
+      <File>Platforms/Windows/Audio/ShaRumia_SoundBank.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>EX_RUMIA.Art.xml</File>
+    <File>EX_RUMIA_Agendas.xml</File>
+    <File>EX_RUMIA_Buildings.xml</File>
+    <File>EX_RUMIA_Civilizations.xml</File>
+    <File>EX_RUMIA_Colors.xml</File>
+    <File>EX_RUMIA_Config.xml</File>
+    <File>EX_RUMIA_Districts.xml</File>
+    <File>EX_RUMIA_Icons.xml</File>
+    <File>EX_RUMIA_Leaders.xml</File>
+    <File>EX_RUMIA_Moments.xml</File>
+    <File>EX_RUMIA_Policies.xml</File>
+    <File>EX_RUMIA_Projects.xml</File>
+    <File>EX_RUMIA_Units.xml</File>
+    <File>EX_RUMIA_Units_Abilities.xml</File>
+    <File>EX_RUMIA_Units_Promotions.xml</File>
+    <File>NEW_MODIFIER.sql</File>
+    <File>Platforms/MacOS/BLPs/EX_Rumia_DDS.blp</File>
+    <File>Platforms/MacOS/BLPs/EX_RUMIA_TILES.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_PIL_B_null</File>
+    <File>Platforms/Windows/Audio/1007469472.wem</File>
+    <File>Platforms/Windows/Audio/1045545428.wem</File>
+    <File>Platforms/Windows/Audio/136041976.wem</File>
+    <File>Platforms/Windows/Audio/154789925.wem</File>
+    <File>Platforms/Windows/Audio/325194219.wem</File>
+    <File>Platforms/Windows/Audio/330762034.wem</File>
+    <File>Platforms/Windows/Audio/404894854.wem</File>
+    <File>Platforms/Windows/Audio/446418788.wem</File>
+    <File>Platforms/Windows/Audio/449768429.wem</File>
+    <File>Platforms/Windows/Audio/464275322.wem</File>
+    <File>Platforms/Windows/Audio/509730827.wem</File>
+    <File>Platforms/Windows/Audio/518332583.wem</File>
+    <File>Platforms/Windows/Audio/559952504.wem</File>
+    <File>Platforms/Windows/Audio/572353887.wem</File>
+    <File>Platforms/Windows/Audio/617150589.wem</File>
+    <File>Platforms/Windows/Audio/652012859.wem</File>
+    <File>Platforms/Windows/Audio/748744871.wem</File>
+    <File>Platforms/Windows/Audio/855532613.wem</File>
+    <File>Platforms/Windows/Audio/962756271.wem</File>
+    <File>Platforms/Windows/Audio/998054984.wem</File>
+    <File>Platforms/Windows/Audio/ShaRumia_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/ShaRumia_SoundBank.ini</File>
+    <File>Platforms/Windows/BLPs/EX_Rumia_DDS.blp</File>
+    <File>Platforms/Windows/BLPs/EX_RUMIA_TILES.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_PIL_B_null</File>
+    <File>SQL_MODIFIERS.sql</File>
+    <File>Text/EX_RUMIA_Text_CN.xml</File>
+    <File>XLPs/EX_Rumia_DDS.xlp</File>
+    <File>XLPs/EX_RUMIA_TILES.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>东方project 番外之页——EX露米娅.dep</File>
+  </Files>
+</Mod>
