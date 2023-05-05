@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="12e86c8a-d013-4f28-8784-7be4369f922e" version="1">
+  <Properties>
+    <Name>TouHou MOD河城荷取</Name>
+    <Description>这个就是我的第三个mod啦，是河城荷取，比较偏向于生产力的堆砌的感觉，各种能力也比较上次更加简洁，不过还是感觉少了点什么的样子。
+
+在这里再感谢一下帮助过我的朋友们吧！谢谢你们的支持才可以慢慢诞生这样的mod</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1675877791</Created>
+    <Teaser>TouHou MOD河城荷取</Teaser>
+    <Authors>Tanshou</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="TXT_OUT">
+      <File>KAWASIRO_NITORI_Text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="CONFIG_OUT">
+      <File>KAWASIRO_NITORI_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="ICON_OUT">
+      <File>KAWASIRO_NITORI_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ART_OUT">
+      <File>TouHou MOD河城荷取.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>KAWASIRO_NITORI_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="CIV_LEADER_OUT">
+      <File>KAWASIRO_NITORI_Civilization.xml</File>
+      <File>KAWASIRO_NITORI_Leader.xml</File>
+      <File>LEADER_ABILITY_02.sql</File>
+      <File>KAWASIRO_NITORI_Agendas.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DIS_IN">
+      <File>KAWASIRO_NITORI_Districts.xml</File>
+      <File>KAWASIRO_NITORI_Policies.xml</File>
+      <File>KAWASIRO_NITORI_Buildings.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TXT_IN">
+      <File>KAWASIRO_NITORI_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON_IN">
+      <File>KAWASIRO_NITORI_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="IMPROVEMENT_IN">
+      <File>KAWASIRO_NITORI_Improvement.xml</File>
+      <File>KAWASIRO_NITORI_Moments.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="ART_IN">
+      <File>TouHou MOD河城荷取.dep</File>
+    </UpdateArt>
+    <UpdateColors id="COLOR">
+      <File>KAWASIRO_NITORI_Colors.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="MUSIC">
+      <File>platforms/windows/audio/TANSHOU_Banks.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>KAWASIRO_NITORI_Agendas.xml</File>
+    <File>KAWASIRO_NITORI_Buildings.xml</File>
+    <File>KAWASIRO_NITORI_Civilization.xml</File>
+    <File>KAWASIRO_NITORI_Colors.xml</File>
+    <File>KAWASIRO_NITORI_Config.xml</File>
+    <File>KAWASIRO_NITORI_Districts.xml</File>
+    <File>KAWASIRO_NITORI_Icons.xml</File>
+    <File>KAWASIRO_NITORI_Improvement.xml</File>
+    <File>KAWASIRO_NITORI_Leader.xml</File>
+    <File>KAWASIRO_NITORI_Moments.xml</File>
+    <File>KAWASIRO_NITORI_Policies.xml</File>
+    <File>KAWASIRO_NITORI_Text.xml</File>
+    <File>LEADER_ABILITY_02.sql</File>
+    <File>platforms/MacOS/BLPs/ICONS_KAWASIRO_NITORI_TANSHOU.blp</File>
+    <File>platforms/MacOS/BLPs/KAWASIRO_NITORI_TANSHOU_LM.blp</File>
+    <File>platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>platforms/windows/audio/1044393152.wem</File>
+    <File>platforms/windows/audio/48410327.wem</File>
+    <File>platforms/windows/audio/815991304.wem</File>
+    <File>platforms/windows/audio/867699251.wem</File>
+    <File>platforms/windows/audio/887575031.wem</File>
+    <File>platforms/windows/audio/TANSHOU_Banks.ini</File>
+    <File>platforms/windows/audio/THE_KAWASIRO_NITORI_TANSHOU_Music_Bank.bnk</File>
+    <File>platforms/windows/audio/THE_KAWASIRO_NITORI_TANSHOU_Music_Bank.txt</File>
+    <File>platforms/windows/audio/THE_KAWASIRO_NITORI_TANSHOU_Music_Bank.xml</File>
+    <File>platforms/windows/BLPs/ICONS_KAWASIRO_NITORI_TANSHOU.blp</File>
+    <File>platforms/windows/BLPs/KAWASIRO_NITORI_TANSHOU_LM.blp</File>
+    <File>platforms/windows/BLPs/LeaderFallbacks.blp</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>TouHou MOD河城荷取.dep</File>
+    <File>XLPs/ICONS_KAWASIRO_NITORI_TANSHOU.xlp</File>
+    <File>XLPs/KAWASIRO_NITORI_TANSHOU_LM.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9de271d7-c0c5-4f5c-81bb-2a9b19971906" version="1">
+  <Properties>
+    <Name>[TOU HOU][COLOR_FLOAT_CULTURE]秘密结社-似梦幻想乡的启迪[ENDCOLOR]</Name>
+    <Description>这是秘密结社MOD
+新增了一个名为“似梦幻想乡的启迪”的结社，该结社各项升级解锁更快，通过探索村庄来解锁。其以地块魅力值，人口产出，宜居度为主来提升在游戏的各项能力。
+非常厉害的结社</Description>
+    <Created>1682145914</Created>
+    <Authors>Tanshou</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="SocietiesModeOn">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="DATA">
+      <Criteria>SocietiesModeOn</Criteria>
+      <File>TH_SC_Main.xml</File>
+      <File>TH_SC_Modifiers.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="ART">
+      <Criteria>SocietiesModeOn</Criteria>
+      <File>[TOU HOU]秘密结社.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="ICON">
+      <Criteria>SocietiesModeOn</Criteria>
+      <File>TH_SC_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="TXT">
+      <Criteria>SocietiesModeOn</Criteria>
+      <File>Text/Text_CN.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/CREAT.artdef</File>
+    <File>Platforms/MacOS/BLPs/THSCDDC.blp</File>
+    <File>Platforms/Windows/BLPs/THSCDDC.blp</File>
+    <File>Text/Text_CN.xml</File>
+    <File>TH_SC_Icon.xml</File>
+    <File>TH_SC_Main.xml</File>
+    <File>TH_SC_Modifiers.sql</File>
+    <File>XLPs/THSCDDS.xlp</File>
+    <File>[TOU HOU]秘密结社.dep</File>
+  </Files>
+</Mod>
