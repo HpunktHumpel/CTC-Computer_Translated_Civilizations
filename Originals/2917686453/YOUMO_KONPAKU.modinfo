@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="384df6b8-cc8f-4b2b-9aa3-ba9e6d97d9a7" version="1">
+  <Properties>
+    <Name>东方project MOD——[COLOR:Green]魂魄妖梦[ENDCOLOR]</Name>
+    <Description>魂魄妖梦mod[NEWLINE]
+将战斗与发展能力糅合在一起的文明及其领袖，强度自然是非常的高。[NEWLINE]
+也希望各位玩的快乐一点。[NEWLINE]
+下一个会做一个二创角色，也是强度非常的高的角色。[NEWLINE]
+特点是无尽的成长能力。</Description>
+    <Created>1679342052</Created>
+    <Authors>Tanshou</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="art">
+      <File>东方project 魂魄妖梦MOD.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="data">
+      <File>YOUMO_KONPAKU_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/Text_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>YOUMO_KONPAKU_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="colors">
+      <File>YOUMO_KONPAKU_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DATA">
+      <File>YOUMO_KONPAKU_Leader.xml</File>
+      <File>YOUMO_KONPAKU_Civilization.xml</File>
+      <File>exModifiers.sql</File>
+      <File>YOUMO_KONPAKU_Buildings.xml</File>
+      <File>YOUMO_KONPAKU_PROJECTS.xml</File>
+      <File>YOUMO_KONPAKU_Unit_Abilities.xml</File>
+      <File>YOUMO_KONPAKU_Policies.xml</File>
+      <File>YOUMO_KONPAKU_Districts.xml</File>
+      <File>YOUMO_KONPAKU_SQL.sql</File>
+      <File>YOUMO_KONPAKU_Units.xml</File>
+      <File>YOUMO_KONPAKU_MONMENTS.xml</File>
+      <File>YOUMO_KONPAKU_Agendas.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="ICON">
+      <File>YOUMO_KONPAKU_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="TEXT">
+      <File>Text/Text_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="ART">
+      <File>东方project 魂魄妖梦MOD.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="LUA">
+      <File>YOUMO_KONPAKU_LUA.lua</File>
+    </AddGameplayScripts>
+    <UpdateColors id="NewAction">
+      <File>YOUMO_KONPAKU_Colors.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="MUSIC">
+      <File>Platforms/Windows/Audio/ShaYoumu_Music_Bank.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>exModifiers.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/YOUMODDS.blp</File>
+    <File>Platforms/Windows/Audio/1012404695.wem</File>
+    <File>Platforms/Windows/Audio/1013733320.wem</File>
+    <File>Platforms/Windows/Audio/1072693086.wem</File>
+    <File>Platforms/Windows/Audio/111400502.wem</File>
+    <File>Platforms/Windows/Audio/133522810.wem</File>
+    <File>Platforms/Windows/Audio/261840092.wem</File>
+    <File>Platforms/Windows/Audio/27689658.wem</File>
+    <File>Platforms/Windows/Audio/313635719.wem</File>
+    <File>Platforms/Windows/Audio/362310944.wem</File>
+    <File>Platforms/Windows/Audio/366516068.wem</File>
+    <File>Platforms/Windows/Audio/378452630.wem</File>
+    <File>Platforms/Windows/Audio/468562106.wem</File>
+    <File>Platforms/Windows/Audio/485085506.wem</File>
+    <File>Platforms/Windows/Audio/511244972.wem</File>
+    <File>Platforms/Windows/Audio/54099616.wem</File>
+    <File>Platforms/Windows/Audio/566311473.wem</File>
+    <File>Platforms/Windows/Audio/571197566.wem</File>
+    <File>Platforms/Windows/Audio/590568755.wem</File>
+    <File>Platforms/Windows/Audio/661968902.wem</File>
+    <File>Platforms/Windows/Audio/685497121.wem</File>
+    <File>Platforms/Windows/Audio/73405389.wem</File>
+    <File>Platforms/Windows/Audio/781538399.wem</File>
+    <File>Platforms/Windows/Audio/837188446.wem</File>
+    <File>Platforms/Windows/Audio/837486073.wem</File>
+    <File>Platforms/Windows/Audio/916487330.wem</File>
+    <File>Platforms/Windows/Audio/ShaYoumu_Music_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/ShaYoumu_Music_Bank.ini</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/YOUMODDS.blp</File>
+    <File>Text/Text_CN.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/YOUMODDS.xlp</File>
+    <File>YOUMO_KONPAKU.Art.xml</File>
+    <File>YOUMO_KONPAKU_Agendas.xml</File>
+    <File>YOUMO_KONPAKU_Buildings.xml</File>
+    <File>YOUMO_KONPAKU_Civilization.xml</File>
+    <File>YOUMO_KONPAKU_Colors.xml</File>
+    <File>YOUMO_KONPAKU_Config.xml</File>
+    <File>YOUMO_KONPAKU_Districts.xml</File>
+    <File>YOUMO_KONPAKU_Icon.xml</File>
+    <File>YOUMO_KONPAKU_Leader.xml</File>
+    <File>YOUMO_KONPAKU_LUA.lua</File>
+    <File>YOUMO_KONPAKU_MONMENTS.xml</File>
+    <File>YOUMO_KONPAKU_Policies.xml</File>
+    <File>YOUMO_KONPAKU_PROJECTS.xml</File>
+    <File>YOUMO_KONPAKU_SQL.sql</File>
+    <File>YOUMO_KONPAKU_Units.xml</File>
+    <File>YOUMO_KONPAKU_Unit_Abilities.xml</File>
+    <File>东方project 魂魄妖梦MOD.dep</File>
+  </Files>
+</Mod>

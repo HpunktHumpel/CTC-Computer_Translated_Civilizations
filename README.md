@@ -25,6 +25,7 @@ Auto-generated translations for the following mods are currently included in thi
 | ID  | Name  | English  |
 |-----|-------|----------|
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | - |
+| [2917686453](https://steamcommunity.com/sharedfiles/filedetails/?id=2917686453) | [TOUHOU]东方project MOD——魂魄妖梦 | [TOUHOU] Oriental project mod - Soul Demon Dream |
 | [2919794042](https://steamcommunity.com/sharedfiles/filedetails/?id=2919794042) | [TouHou]东方project MOD 河城荷取 | [TouHou] Oriental project MOD River City Hotori |
 | [2964796539](https://steamcommunity.com/sharedfiles/filedetails/?id=2964796539) | Northern Union of Blue Line | - |
 | [2965547065](https://steamcommunity.com/sharedfiles/filedetails/?id=2965547065) | [TOU HOU]秘密结社-似梦幻想乡的启迪 | [TOU HOU] Secret Association - Enlightenment of Dream-like Fantasy Town |
