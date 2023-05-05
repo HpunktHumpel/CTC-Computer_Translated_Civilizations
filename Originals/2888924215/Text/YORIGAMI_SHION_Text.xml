@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: asus -->
+<!-- DateCreated: 8/7/2022 7:47:29 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 模组信息 -->
+		<Replace Tag="LOC_TANSHOU_YORIGAMI_SHION_MOD_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_SuzerainDark]东方Project领袖包[ENDCOLOR]———[COLOR_FLOAT_DIPLOMATIC]依神紫苑[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_TANSHOU_YORIGAMI_SHION_MOD_AUTHOR" Language="zh_Hans_CN">
+			<Text>古明地淡宵</Text>
+		</Replace>
+		<Replace Tag="LOC_TANSHOU_YORIGAMI_SHION_MOD_SPECIAL_THANK" Language="zh_Hans_CN">
+			<Text>姥鲨</Text>
+		</Replace>
+		<Replace Tag="LOC_TANSHOU_YORIGAMI_SHION_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>依神紫苑领导的文明——不幸神域</Text>
+		</Replace>
+		<Replace Tag="LOC_TANSHOU_YORIGAMI_SHION_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑领导的文明——不幸神域[NEWLINE]这就是我的第五个mod了，终于是完工啦，不过这次的mod实际上我并不是很喜欢，因为自己感觉没有以前写的那么有特色，就像是全是堆砌数值一样，感觉不是全时期都有事情可以做。[NEWLINE]这次也加上了音乐，不过没有弄多少。</Text>
+		</Replace>
+		<!-- 阵营，领袖名称 -->
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_NAME" Language="zh_Hans_CN">
+			<Text>不幸神域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不幸神域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>不幸神域</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CAPITAL" Language="zh_Hans_CN">
+			<Text>东方凭依华</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TANSHOU_YORIGAMI_SHION_NAME" Language="zh_Hans_CN">
+			<Text>依神紫苑</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANSHOU_YORIGAMI_SHION_QUOTE" Language="zh_Hans_CN">
+			<Text>万幸的是，你貌似已经不太会变得不幸了。</Text>
+		</Replace>
+		<Row Tag="LOC_LOADING_INFO_LEADER_TANSHOU_YORIGAMI_SHION" Language="zh_Hans_CN">
+			<Text>慈悲的依神紫苑，无尽的不幸笼罩着你，侵蚀周围的一切，如同天灾一般制造着灾厄，但你依旧不放弃任何一点希望，誓言要带领自己的人民摆脱永恒的诅咒。这次你或守护众生而承担一切，或化身天灾席卷大地，但人民们会一直跟随您，不停前进！</Text>
+		</Row>
+		<!-- 文明，领袖能力 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>贫穷神</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市+70% [ICON_FAITH] 信仰，-70% [ICON_GOLD] 金币产出。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TANSHOU_YORIGAMI_SHION_ABILITIES_NAME" Language="zh_Hans_CN">
+			<Text>最凶最恶的双子之姐</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TANSHOU_YORIGAMI_SHION_ABILITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以通过 [ICON_FAITH] 信仰购买建筑与单位（包含平民，近战，远程，飞行），购买所有建筑与单位的 [ICON_FAITH] 信仰与 [ICON_GOLD] 金币花费增加100%，建造商业中心时-200% [ICON_PRODUCTION] 生产力，每个单位产出2 [ICON_FAITH] 信仰。[NEWLINE]（解锁神学市政后会出现特色政策卡）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_LEADER_TANSHOU_YORIGAMI_SHION_UNITS_YIELD_CHANGE_FAITH_NAME" Language="zh_Hans_CN">
+			<Text>信徒</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_LEADER_TANSHOU_YORIGAMI_SHION_UNITS_YIELD_CHANGE_FAITH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2 [ICON_FAITH] 信仰</Text>
+		</Replace>
+		<!-- 区域 -->
+		<Replace Tag="LOC_DISTRICT_YORIGAMI_SHION_TANSHOU_GOD_PLACE_HOLY_SIDE_NAME" Language="zh_Hans_CN">
+			<Text>贫穷神具象化</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YORIGAMI_SHION_TANSHOU_GOD_PLACE_HOLY_SIDE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不幸神域的特色区域，代替圣地，占星术解锁。[NEWLINE]造价更低，周围没有区域时获得+5 [ICON_FAITH] 信仰区域相邻加成，周围每有一个区域-10 [ICON_FAITH] 信仰区域相邻加成。具有全新的相邻加成，当相邻人造奇观时+50%相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YORIGAMI_SHION_TANSHOU_GOD_PLACE_HOLY_SIDE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>收集和散布不幸的圣地，听起来是那么的讽刺，明明身为神明却只能给周围带来不幸，更加讽刺的是居然还有人信仰并且追随这样一个神明。[NEWLINE]这样一个位置并不适合与其他的重要地方相连，只会把聚集的不幸带给其他人，让信仰烟消云散，但是其占有的位置所聚集的灾厄和信仰却不得不让人心生敬畏。</Text>
+		</Replace>
+		<Replace Tag="DISTRICT_YORIGAMI_SHION_TANSHOU_GOD_PLACE_HOLY_SIDE_WONDER_NATURE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_FAITH] 信仰，来自相邻的每个自然奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YORIGAMI_SHION_TANSHOU_GOD_PLACE_HOLY_SIDE_FOREST" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_FAITH] 信仰，来自相邻的每个树林</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YORIGAMI_SHION_TANSHOU_GOD_PLACE_HOLY_SIDE_ADJ_WONDER_PEOPLE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_FAITH] 信仰，来自相邻的每个奇观</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YORIGAMI_SHION_TANSHOU_GOD_PLACE_HOLY_SIDE_ADJ_IT" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_FAITH] 信仰，来自周围没有区域</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YORIGAMI_SHION_TANSHOU_GOD_PLACE_HOLY_SIDE_ADJ_OTHER_DIS" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_FAITH] 信仰，来自相邻的每个区域</Text>
+		</Replace>
+		<!-- 建筑 -->
+		<Replace Tag="LOC_BUILDING_YORIGAMI_SHION_TANSHOU_QIONG_SHE_WAN_NAME" Language="zh_Hans_CN">
+			<Text>穷神碗</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YORIGAMI_SHION_TANSHOU_QIONG_SHE_WAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不幸神域的特色建筑，位于圣地内，需求神社，神学市政解锁。[NEWLINE]每有一座穷神碗，所有圣地相邻加成提高10%，并给予等同于圣地相邻加成的 [ICON_CULTURE] 文化值。建造后可以进行特色项目来消除文明能力的减益。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YORIGAMI_SHION_TANSHOU_QIONG_SHE_WAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>圣地当中对依神紫苑手上碗的仿品，虽然说是拙劣的模仿，却通过神奇的方式与紫苑的神力连接在了一起，并且在各个圣地之间相互增幅，汇集信仰的能力让人震惊。</Text>
+		</Replace>
+		<!-- 政策卡 -->
+		<Replace Tag="LOC_POLICY_YORIGAMI_SHION_TANSHOU_HOLY_SITE_ADD_S_P_NAME" Language="zh_Hans_CN">
+			<Text>冈崎梦美的神学演奏</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_YORIGAMI_SHION_TANSHOU_HOLY_SITE_ADD_S_P_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每有一座圣地，圣地相邻加成+10%，圣地产出等量于其相邻产出的 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_YORIGAMI_SHION_TANSHOU_HOLY_SITE_ADD_S_P_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>冈崎梦美从来都会认为一切是可以被科学解释的，她在与紫苑达成协议之后开始了对信仰等事务疯狂的研究，也许在我们普通人眼里只不过是一堆杂乱无章的数据，报告。但对不幸神域的人民来说这就是未来的希望，是音乐，治愈他们身躯，拯救他们灵魂的世上最好的音乐。[NEWLINE]变量，将改变世界的流向。</Text>
+		</Replace>
+		<!-- 项目 -->
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_01_NAME" Language="zh_Hans_CN">
+			<Text>神力萃取（1/7）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_01_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑专属项目[NEWLINE]“我可以帮你改变现状，要试试相信我吗？”[NEWLINE]自己所有城市+10% [ICON_FAITH] 信仰，使用 [ICON_FAITH] 信仰购买单位，建筑花费降低20%，文明能力金币减益减少10%。[NEWLINE]（下一阶段由 科技：数学 解锁）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_02_NAME" Language="zh_Hans_CN">
+			<Text>神力萃取（2/7）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_02_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑专属项目[NEWLINE]“看来我的研究方向是正确的。”[NEWLINE]自己所有城市+10% [ICON_FAITH] 信仰，使用 [ICON_FAITH] 信仰购买单位，建筑花费降低20%，文明能力金币减益减少10%。[NEWLINE]（下一阶段由 科技：教育 解锁）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_03_NAME" Language="zh_Hans_CN">
+			<Text>神力萃取（3/7）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_03_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑专属项目[NEWLINE]“果然幻想与科学有共通之处，魔力是存在的。”[NEWLINE]自己所有城市+10% [ICON_FAITH] 信仰，使用 [ICON_FAITH] 信仰购买单位，建筑花费降低20%，文明能力金币减益减少10%。[NEWLINE]（下一阶段由 科技：科学理论 解锁）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_04_NAME" Language="zh_Hans_CN">
+			<Text>神力萃取（4/7）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_04_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑专属项目[NEWLINE]“信仰，我需要更多的信仰，距离完成已经过半了。”[NEWLINE]自己所有城市+10% [ICON_FAITH] 信仰，使用 [ICON_FAITH] 信仰购买单位，建筑花费降低20%，文明能力金币减益减少10%。[NEWLINE]（下一阶段由 科技：化学 解锁）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_05_NAME" Language="zh_Hans_CN">
+			<Text>神力萃取（5/7）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_05_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑专属项目[NEWLINE]“好像最近的研究表明这会酿成一种灾祸，哼，不值得一提的东西罢了。”[NEWLINE]自己所有城市+10% [ICON_FAITH] 信仰，使用 [ICON_FAITH] 信仰购买单位，建筑花费降低20%，文明能力金币减益减少10%。[NEWLINE]（下一阶段由 科技：核裂变 解锁）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_06_NAME" Language="zh_Hans_CN">
+			<Text>神力萃取（6/7）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_06_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑专属项目[NEWLINE]“就要完成了，不过也意味着距离灾祸越来越近了，我该怎么解决这个呢。”[NEWLINE]自己所有城市+10% [ICON_FAITH] 信仰，使用 [ICON_FAITH] 信仰购买单位，建筑花费降低20%，文明能力金币减益减少10%。[NEWLINE]（下一阶段由 科技：核聚变 解锁）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_07_NAME" Language="zh_Hans_CN">
+			<Text>神力萃取（7/7）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_TAKE_GOD_07_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑专属项目[NEWLINE]“冈崎教授？厄运应该来说是相互的，不可能被消除啊，那之前的厄运都去哪里了？”[NEWLINE]自己所有城市+10% [ICON_FAITH] 信仰，使用 [ICON_FAITH] 信仰购买单位，建筑花费降低20%，文明能力金币减益减少10%。[NEWLINE]（下一阶段由 科技：高级能量电池 解锁）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_ALL_IS_RIGHT_BROKEN_NAME" Language="zh_Hans_CN">
+			<Text>厄运天灾——依神紫苑</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TANSHOU_YORIGAMI_SHION_GOD_PLACE_ALL_IS_RIGHT_BROKEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>依神紫苑专属项目[NEWLINE]“。。。” “教授？” “爆发给了所有对我们推动世界发展无利的人。”[NEWLINE]其他所有文明城市-100% [ICON_GOLD] 金币产出，所有文明+60% [ICON_FAITH] 信仰产出。</Text>
+		</Replace>
+		<!-- 城市，市民 -->
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_1" Language="zh_Hans_CN">
+			<Text>最凶最恶</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_2" Language="zh_Hans_CN">
+			<Text>贫穷神</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_3" Language="zh_Hans_CN">
+			<Text>寄宿凭依</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_4" Language="zh_Hans_CN">
+			<Text>命莲寺</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_5" Language="zh_Hans_CN">
+			<Text>博丽神社</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_6" Language="zh_Hans_CN">
+			<Text>天之凭依</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_7" Language="zh_Hans_CN">
+			<Text>万物灵气</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_8" Language="zh_Hans_CN">
+			<Text>完全凭依异变</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_9" Language="zh_Hans_CN">
+			<Text>身即灾厄</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_10" Language="zh_Hans_CN">
+			<Text>全人类的不幸</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_11" Language="zh_Hans_CN">
+			<Text>绝对的负面</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_12" Language="zh_Hans_CN">
+			<Text>雁过拔毛</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_13" Language="zh_Hans_CN">
+			<Text>粗衣粝食</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_14" Language="zh_Hans_CN">
+			<Text>今宵は飄逸なエゴイスト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CITY_15" Language="zh_Hans_CN">
+			<Text>解放的天灾</Text>
+		</Replace>
+		<!-- 文明百科 -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>这是一个以依神紫苑为中心的国家，这是一个充满不幸的国家，这是一个可悲的国家。[NEWLINE]但是无论在哪里，有着思想，有着生命存在的地方，就一定伴随着希望。[NEWLINE]所以这也是一个光明的国家，也是一个终会觉醒的国家。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>所有人都生活在贫穷当中，信仰着自己国家的神明，即使神明没有能力来带给他们富裕。神明的力量在不断增强，人们的财富却越来越少，就算这样也没有人选择逃离，他们相信有一天自己国家的神明能够拯救自己，坚信不疑。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TANSHOU_YORIGAMI_SHION_GOD_PLACE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>目前，只需要一个小小的变量，就能击碎这里的灾厄。[NEWLINE]她就快来了。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANSHOU_YORIGAMI_SHION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>被她凭依的话运气会下降，还会变得贫穷，所以是被所有人讨厌的贫穷神。[NEWLINE]性格阴沉又低三下四，喜欢坐享其成。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANSHOU_YORIGAMI_SHION_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>因为她无论去哪里，都没法让自己脱离贫穷，所以她本人也放弃了努力，整天无精打采。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANSHOU_YORIGAMI_SHION_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>因为她无论去哪里，都没法让自己脱离贫穷，所以她本人也放弃了努力，整天无精打采。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANSHOU_YORIGAMI_SHION_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>失去的财产，还有运气究竟去了哪里呢。实际上是财产会变为欠款，运气会变为不幸，不断地缓缓充盈在她的身体里。充盈到一定程度，就会定期爆发，让她变为超级贫穷神，一扫所有的不幸。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANSHOU_YORIGAMI_SHION_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>不过，实际上是藉由让他人陷入贫穷，来保护他人免受财祸之苦的守护神。但即便如此，她依然被人嫌弃着……。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANSHOU_YORIGAMI_SHION_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>（引自THBWiki）</Text>
+		</Replace>
+		<!-- 对话 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>朋友。。。。是吗？我们是朋友。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我们这边还没有完全接受你们，请再给我一点时间。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我们可以是朋友吗，可以吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我们这里，嗯，是对你们开放的，请随意。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>大家还是不怎么愿意的样子，我会尽量去试试交流。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>战斗，是最后我们一起做出的决定，这次，让你见识什么是灾厄。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>这样吗。。。那我不得不拼尽全力来证明我们自己了，来见识下灾厄的洪流吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>代表团，没听说过的名词，不过我相信是友好的意思，来玩吧，一起。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我们这边的人还没有准备好。。。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>这是礼物，嗯！礼物！请收下！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我本想试图接受你，但是事实并不能让我肯定我的想法，你，很讨厌。。。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>太坏了。。。你真的。。。太坏了，坏蛋。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我是依神紫苑，我负责给世间带来灾厄，不要不相信啦。。。是真的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>可以来我们这边玩玩嘛。。。来嘛。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>唔嗯，我明白了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我想知道这个世界更多美好的地方，想去美丽的地方玩，可以吗。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>你，你好，怎。。。怎么了。</Text>
+		</Replace>
+		<!--Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>多么宏伟的军队，仿佛整个世界都在自己的掌中！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>你国家的人民真是丧失了自己的血性，不堪为伍。</Text>
+		</Replace>-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>这个条约你看可以嘛，没事的，我有的是时间等你看。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>好吧，停战。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>还没有，还没有结束，我还不能够，还不能！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>灾厄就先这样吧，也许我们应该结束异变了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>想经过的话，就经过吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>大家跟我讲了好久的利害关系，听完之后我觉得这次不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我们只是路过，很快就会走的，好吗。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>好多人，我感觉到了不一样的气氛，不同于往常那样和平的气氛，我不建议你再向前了。 </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>我们有自己的想法，你们请回吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>对不起。。。。我们会走的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>最终，还是得离开这里吗。。。。好吧，再见。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>不行，我只是呆一点，不会做太多吃亏的事情的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_YORIGAMI_SHION_ANY" Language="zh_Hans_CN">
+			<Text>这样子的交易，好棒，我接受啦。</Text>
+		</Replace>
+		<!-- 议程 -->
+		<Replace Tag="LOC_AGENDA_XINREN_YORIGAMI_SHION_TANSHOU_NAME" Language="zh_Hans_CN">
+			<Text>无恶意的信任</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_XINREN_YORIGAMI_SHION_TANSHOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始好感度增加，此外没有任何效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_XINREN_YORIGAMI_SHION_TANSHOU_YES" Language="zh_Hans_CN">
+			<Text>紫苑信任你</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANSHOU_FLANDRE_SCARLET_ANY" Language="zh_Hans_CN">
+			<Text>我相信你，不会对我们做出过分的事情的，对吧。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
