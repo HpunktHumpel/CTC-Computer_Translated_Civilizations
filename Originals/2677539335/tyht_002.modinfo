@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1596b0ea-b292-4319-8de8-667bf4bd8667" version="1">
+  <Properties>
+    <Name>太阳花田-风见幽香（当老二了）</Name>
+    <Description>本mod新增了一个太阳花田文明，包含一个领袖风见幽香。是我第一次做的mod，可能各种方面并没有太好。也是在很多人的建议之下才做好这个mod，但是很开心！
+
+如果说有各种问题请联系我，包括但不限于改进建议，平衡性，bug等
+
+我要把姥鲨鲨的名字标在这里，姥鲨鲨帮了我很多！</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1649063577</Created>
+    <Teaser>太阳花田文明-风见幽香领袖</Teaser>
+    <Authors>komeiji_tanshou</Authors>
+    <SpecialThanks>姥鲨鲨，千古酱，711403691群里的大家</SpecialThanks>
+    <Homepage>http://https://steamcommunity.com/profiles/76561198837077129/</Homepage>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="Monopolies_Mode_gongsi">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Monopolies_Mode_mimi">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateArt id="ART">
+      <File>太阳花田-风见幽香（当老二了）.dep</File>
+    </UpdateArt>
+    <UpdateText id="TEXT">
+      <File>Garden_of_the_Sun_Text.xml</File>
+      <File>Garden_of_the_Sun_CITY_Text.xml</File>
+      <File>Garden_of_the_Sun_Leader_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON">
+      <File>Garden_of_the_Sun_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="CONFIG">
+      <File>Garden_of_the_Sun_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>Garden_of_the_Sun_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="atr">
+      <File>太阳花田-风见幽香（当老二了）.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="many">
+      <File>Garden_of_the_Sun_Units.xml</File>
+      <File>Garden_of_the_Sun_Buildings.xml</File>
+      <File>Garden_of_the_Sun_Improvements.xml</File>
+      <File>Garden_of_the_Sun_Civilizations.xml</File>
+      <File>Garden_of_the_Sun_Leaders.xml</File>
+      <File>Garden_of_the_Sun_Moments.xml</File>
+      <File>Modifiers.sql</File>
+      <File>Garden_of_the_Sun_District.xml</File>
+      <File>Garden_of_the_Sun_Projects.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <File>Garden_of_the_Sun_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Garden_of_the_Sun_Text.xml</File>
+      <File>Garden_of_the_Sun_CITY_Text.xml</File>
+      <File>Garden_of_the_Sun_Leader_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="COLORS">
+      <File>Garden_of_the_Sun_Colors.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="gongsi">
+      <Criteria>Monopolies_Mode_gongsi</Criteria>
+      <File>Garden_of_the_Sun_Improvements_02.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="mimi">
+      <Criteria>Monopolies_Mode_mimi</Criteria>
+      <File>Garden_of_the_Sun_District_02.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Criteria.sql</File>
+    <File>Garden_of_the_Sun_Buildings.xml</File>
+    <File>Garden_of_the_Sun_CITY_Text.xml</File>
+    <File>Garden_of_the_Sun_Civilizations.xml</File>
+    <File>Garden_of_the_Sun_Colors.xml</File>
+    <File>Garden_of_the_Sun_Config.xml</File>
+    <File>Garden_of_the_Sun_District.xml</File>
+    <File>Garden_of_the_Sun_District_02.xml</File>
+    <File>Garden_of_the_Sun_Icons.xml</File>
+    <File>Garden_of_the_Sun_Improvements.xml</File>
+    <File>Garden_of_the_Sun_Improvements_02.xml</File>
+    <File>Garden_of_the_Sun_Leaders.xml</File>
+    <File>Garden_of_the_Sun_Leader_Text.xml</File>
+    <File>Garden_of_the_Sun_Moments.xml</File>
+    <File>Garden_of_the_Sun_Projects.xml</File>
+    <File>Garden_of_the_Sun_Text.xml</File>
+    <File>Garden_of_the_Sun_Units.xml</File>
+    <File>Modifiers.sql</File>
+    <File>Modifiers_.xml</File>
+    <File>Platforms/MacOS/BLPs/ICON_GARDEN_OF_THE_SUN.blp</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MOMENTSIMG.blp</File>
+    <File>Platforms/Windows/BLPs/ICON_GARDEN_OF_THE_SUN.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MOMENTSIMG.blp</File>
+    <File>TextFile1.txt</File>
+    <File>TextFile2.txt</File>
+    <File>tyht_002.Art.xml</File>
+    <File>太阳花田-风见幽香（当老二了）.dep</File>
+  </Files>
+</Mod>

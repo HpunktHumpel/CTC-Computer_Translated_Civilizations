@@ -25,6 +25,7 @@ Auto-generated translations for the following mods are currently included in thi
 | ID  | Name  | English  |
 |-----|-------|----------|
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | - |
+| [2677539335](https://steamcommunity.com/sharedfiles/filedetails/?id=2677539335) | 【touhou mod】太阳花田-风见幽香 | 【touhou mod】Sun Flower Field-Kazemi Yuka |
 | [2888924215](https://steamcommunity.com/sharedfiles/filedetails/?id=2888924215) | [TOUHOU]东方Project领袖包———依神紫苑 | [TOUHOU] Oriental Project leader Bao ——— Yishen Aster |
 | [2917686453](https://steamcommunity.com/sharedfiles/filedetails/?id=2917686453) | [TOUHOU]东方project MOD——魂魄妖梦 | [TOUHOU] Oriental project mod - Soul Demon Dream |
 | [2919794042](https://steamcommunity.com/sharedfiles/filedetails/?id=2919794042) | [TouHou]东方project MOD 河城荷取 | [TouHou] Oriental project MOD River City Hotori |
