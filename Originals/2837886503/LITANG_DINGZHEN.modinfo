@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="804bfec4-2e67-4df0-a6b4-3ed405c2f9f8" version="6">
+  <Properties>
+    <Name>[COLOR:Civ6Yellow]丁真领导的理塘文明[ENDCOLOR]</Name>
+    <Description>这个MOD提供了一个新文明理塘，和它的领袖丁真。</Description>
+    <Created>1675591246</Created>
+    <Teaser>理塘文明与领袖包</Teaser>
+    <Authors>sunohara</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Gamedata/config.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="art">
+      <File>丁真领导的理塘文明.dep</File>
+    </UpdateArt>
+    <UpdateText id="text">
+      <File>Text/text_config.xml</File>
+      <File>Text/text_data.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon/icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color">
+      <File>Gamedata/color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="data">
+      <File>Gamedata/building.xml</File>
+      <File>Gamedata/civ.xml</File>
+      <File>Gamedata/district.xml</File>
+      <File>Gamedata/leader.xml</File>
+      <File>Gamedata/modifier_civ.sql</File>
+      <File>Gamedata/modifier_leader.xml</File>
+      <File>Gamedata/moment.xml</File>
+      <File>Gamedata/project.xml</File>
+      <File>Gamedata/unit.xml</File>
+      <File>Gamedata/unitability.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="art">
+      <File>丁真领导的理塘文明.dep</File>
+    </UpdateArt>
+    <UpdateText id="text">
+      <File>Text/text_config.xml</File>
+      <File>Text/text_data.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon/icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color">
+      <File>Gamedata/color.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Gamedata/building.xml</File>
+    <File>Gamedata/civ.xml</File>
+    <File>Gamedata/color.xml</File>
+    <File>Gamedata/config.xml</File>
+    <File>Gamedata/district.xml</File>
+    <File>Gamedata/leader.xml</File>
+    <File>Gamedata/modifier_civ.sql</File>
+    <File>Gamedata/modifier_leader.xml</File>
+    <File>Gamedata/moment.xml</File>
+    <File>Gamedata/project.xml</File>
+    <File>Gamedata/unit.xml</File>
+    <File>Gamedata/unitability.xml</File>
+    <File>Icon/icon.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/LITANGUITexture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LITANGUITexture.blp</File>
+    <File>Text/text_config.xml</File>
+    <File>Text/text_data.xml</File>
+    <File>丁真领导的理塘文明.dep</File>
+  </Files>
+</Mod>

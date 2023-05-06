@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1683373533</Created>
+    <Created>1683374770</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -113,6 +113,13 @@
     </Criteria>
     <Criteria id="2958957078_InGame">
       <ModInUse>090e50e2-90d9-466f-9862-2cf90c98bc33</ModInUse>
+    </Criteria>
+    <!-- 2837886503 - 丁真领导的理塘文明-->
+    <Criteria id="2837886503_FrontEnd">
+      <ModIsEnabled>804bfec4-2e67-4df0-a6b4-3ed405c2f9f8</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2837886503_InGame">
+      <ModInUse>804bfec4-2e67-4df0-a6b4-3ed405c2f9f8</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -342,6 +349,23 @@
       <File>2958957078/frontend_pl_PL.xml</File>
       <File>2958957078/frontend_ko_KR.xml</File>
       <File>2958957078/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2837886503 - 丁真领导的理塘文明-->
+    <UpdateText id="2837886503_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2837886503_FrontEnd</Criteria>
+      <File>2837886503/frontend_en_US.xml</File>
+      <File>2837886503/frontend_fr_FR.xml</File>
+      <File>2837886503/frontend_de_DE.xml</File>
+      <File>2837886503/frontend_it_IT.xml</File>
+      <File>2837886503/frontend_es_ES.xml</File>
+      <File>2837886503/frontend_ja_JP.xml</File>
+      <File>2837886503/frontend_ru_RU.xml</File>
+      <File>2837886503/frontend_pl_PL.xml</File>
+      <File>2837886503/frontend_ko_KR.xml</File>
+      <File>2837886503/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -582,6 +606,23 @@
       <File>2958957078/ingame_ko_KR.xml</File>
       <File>2958957078/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2837886503 - 丁真领导的理塘文明-->
+    <UpdateText id="2837886503_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2837886503_InGame</Criteria>
+      <File>2837886503/ingame_en_US.xml</File>
+      <File>2837886503/ingame_fr_FR.xml</File>
+      <File>2837886503/ingame_de_DE.xml</File>
+      <File>2837886503/ingame_it_IT.xml</File>
+      <File>2837886503/ingame_es_ES.xml</File>
+      <File>2837886503/ingame_ja_JP.xml</File>
+      <File>2837886503/ingame_ru_RU.xml</File>
+      <File>2837886503/ingame_pl_PL.xml</File>
+      <File>2837886503/ingame_ko_KR.xml</File>
+      <File>2837886503/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -624,6 +665,26 @@
     <File>2677539335/ingame_pl_PL.xml</File>
     <File>2677539335/ingame_ru_RU.xml</File>
     <File>2677539335/ingame_zh_Hant_HK.xml</File>
+    <File>2837886503/frontend_de_DE.xml</File>
+    <File>2837886503/frontend_en_US.xml</File>
+    <File>2837886503/frontend_es_ES.xml</File>
+    <File>2837886503/frontend_fr_FR.xml</File>
+    <File>2837886503/frontend_it_IT.xml</File>
+    <File>2837886503/frontend_ja_JP.xml</File>
+    <File>2837886503/frontend_ko_KR.xml</File>
+    <File>2837886503/frontend_pl_PL.xml</File>
+    <File>2837886503/frontend_ru_RU.xml</File>
+    <File>2837886503/frontend_zh_Hant_HK.xml</File>
+    <File>2837886503/ingame_de_DE.xml</File>
+    <File>2837886503/ingame_en_US.xml</File>
+    <File>2837886503/ingame_es_ES.xml</File>
+    <File>2837886503/ingame_fr_FR.xml</File>
+    <File>2837886503/ingame_it_IT.xml</File>
+    <File>2837886503/ingame_ja_JP.xml</File>
+    <File>2837886503/ingame_ko_KR.xml</File>
+    <File>2837886503/ingame_pl_PL.xml</File>
+    <File>2837886503/ingame_ru_RU.xml</File>
+    <File>2837886503/ingame_zh_Hant_HK.xml</File>
     <File>2888924215/frontend_de_DE.xml</File>
     <File>2888924215/frontend_en_US.xml</File>
     <File>2888924215/frontend_es_ES.xml</File>
