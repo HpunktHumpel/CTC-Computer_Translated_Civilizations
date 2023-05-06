@@ -27,6 +27,7 @@ Auto-generated translations for the following mods are currently included in thi
 | ID  | Name  | English  |
 |-----|-------|----------|
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | - |
+| [2640640037](https://steamcommunity.com/sharedfiles/filedetails/?id=2640640037) | 魔法纪录系列：调整屋与puella care | Magic Records Series: Adjustment House and puella care |
 | [2684671258](https://steamcommunity.com/sharedfiles/filedetails/?id=2684671258) | Ophidy's Allesino 科技之邦艾尔拉西诺 | Ophidy's Allesino |
 | [2677539335](https://steamcommunity.com/sharedfiles/filedetails/?id=2677539335) | 【touhou mod】太阳花田-风见幽香 | 【touhou mod】Sun Flower Field-Kazemi Yuka |
 | [2691736551](https://steamcommunity.com/sharedfiles/filedetails/?id=2691736551) | 魔法纪录系列：时女一族 | Magical Records Series: Time Ladies |
