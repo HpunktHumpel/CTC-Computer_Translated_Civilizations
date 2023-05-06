@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b92329f4-66e4-4337-a843-d3c4623c2291" version="1">
+  <Properties>
+    <Name>Kusunoki Mebuki</Name>
+    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <Created>1647185690</Created>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Authors>JIDONG QIANGU</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_MEBUKI,StandardPlayers::LEADER_YUMIKO,Expansion1_Players::LEADER_MEBUKI,Players:Expansion1_Players::LEADER_YUMIKO,Expansion2_Players::LEADER_MEBUKI,Players:Expansion2_Players::LEADER_YUMIKO</LeaderPlayable>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_MEBUKI,Players:Expansion1_Players::LEADER_YUMIKO</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion2">
+      <LeaderPlayable>Expansion2_PlayersLEADER_MEBUKI,Players:Expansion2_Players::LEADER_YUMIKO</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Kusunoki Mebuki.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>T4P_COLOR.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>building/building.xml</File>
+      <File>governor/YAYE.xml</File>
+      <File>unit/ability.xml</File>
+      <File>unit/chongjian.xml</File>
+      <File>unit/hudun.xml</File>
+      <File>unit/na.xml</File>
+      <File>unit/que.xml</File>
+      <File>unit/shenmu.xml</File>
+      <File>unit/unit_up.xml</File>
+      <File>unit/PRO.xml</File>
+      <File>civ_t4p.xml</File>
+      <File>leader_mebuki.xml</File>
+      <File>leader_yumiko.xml</File>
+      <File>leader_mod.xml</File>
+      <File>CIV_MOD.xml</File>
+      <File>ai.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>governor/Governor_Icons.xml</File>
+      <File>ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Kusunoki Mebuki.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>T4P_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="NewAction">
+      <File>platforms/windows/audio/T4P_SoundBank.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ai.xml</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>building/building.xml</File>
+    <File>CIV_MOD.xml</File>
+    <File>civ_t4p.xml</File>
+    <File>Config.xml</File>
+    <File>governor/Governor_Icons.xml</File>
+    <File>governor/YAYE.xml</File>
+    <File>ICON.xml</File>
+    <File>Kusunoki Mebuki.dep</File>
+    <File>leader_mebuki.xml</File>
+    <File>leader_mod.xml</File>
+    <File>leader_yumiko.xml</File>
+    <File>platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>platforms/windows/audio/274258457.wem</File>
+    <File>platforms/windows/audio/574233601.wem</File>
+    <File>platforms/windows/audio/800022617.wem</File>
+    <File>platforms/windows/audio/T4P_SoundBank.bnk</File>
+    <File>platforms/windows/audio/T4P_SoundBank.ini</File>
+    <File>platforms/windows/audio/T4P_SoundBank.txt</File>
+    <File>platforms/windows/BLPs/LeaderFallbacks.blp</File>
+    <File>platforms/windows/BLPs/UILeaders.blp</File>
+    <File>ResumeMusic.lua</File>
+    <File>ResumeMusic.xml</File>
+    <File>T4P_COLOR.xml</File>
+    <File>text.xml</File>
+    <File>unit/ability.xml</File>
+    <File>unit/chongjian.xml</File>
+    <File>unit/hudun.xml</File>
+    <File>unit/na.xml</File>
+    <File>unit/PRO.xml</File>
+    <File>unit/que.xml</File>
+    <File>unit/shenmu.xml</File>
+    <File>unit/unit_up.xml</File>
+  </Files>
+</Mod>
