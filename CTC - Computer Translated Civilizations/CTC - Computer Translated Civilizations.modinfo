@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1683381731</Created>
+    <Created>1683383374</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -155,6 +155,13 @@
     </Criteria>
     <Criteria id="2932334915_InGame">
       <ModInUse>d00ea502-6ad6-4856-bc60-de4842e3ace1</ModInUse>
+    </Criteria>
+    <!-- 2956947156 - touhou Cirno-->
+    <Criteria id="2956947156_FrontEnd">
+      <ModIsEnabled>db2d14a5-7b66-4a60-8c2a-58b51c4a8d7c</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2956947156_InGame">
+      <ModInUse>db2d14a5-7b66-4a60-8c2a-58b51c4a8d7c</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -486,6 +493,23 @@
       <File>2932334915/frontend_pl_PL.xml</File>
       <File>2932334915/frontend_ko_KR.xml</File>
       <File>2932334915/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2956947156 - touhou Cirno-->
+    <UpdateText id="2956947156_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2956947156_FrontEnd</Criteria>
+      <File>2956947156/frontend_en_US.xml</File>
+      <File>2956947156/frontend_fr_FR.xml</File>
+      <File>2956947156/frontend_de_DE.xml</File>
+      <File>2956947156/frontend_it_IT.xml</File>
+      <File>2956947156/frontend_es_ES.xml</File>
+      <File>2956947156/frontend_ja_JP.xml</File>
+      <File>2956947156/frontend_ru_RU.xml</File>
+      <File>2956947156/frontend_pl_PL.xml</File>
+      <File>2956947156/frontend_ko_KR.xml</File>
+      <File>2956947156/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -828,6 +852,23 @@
       <File>2932334915/ingame_ko_KR.xml</File>
       <File>2932334915/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2956947156 - touhou Cirno-->
+    <UpdateText id="2956947156_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2956947156_InGame</Criteria>
+      <File>2956947156/ingame_en_US.xml</File>
+      <File>2956947156/ingame_fr_FR.xml</File>
+      <File>2956947156/ingame_de_DE.xml</File>
+      <File>2956947156/ingame_it_IT.xml</File>
+      <File>2956947156/ingame_es_ES.xml</File>
+      <File>2956947156/ingame_ja_JP.xml</File>
+      <File>2956947156/ingame_ru_RU.xml</File>
+      <File>2956947156/ingame_pl_PL.xml</File>
+      <File>2956947156/ingame_ko_KR.xml</File>
+      <File>2956947156/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -1050,6 +1091,26 @@
     <File>2948711698/ingame_pl_PL.xml</File>
     <File>2948711698/ingame_ru_RU.xml</File>
     <File>2948711698/ingame_zh_Hant_HK.xml</File>
+    <File>2956947156/frontend_de_DE.xml</File>
+    <File>2956947156/frontend_en_US.xml</File>
+    <File>2956947156/frontend_es_ES.xml</File>
+    <File>2956947156/frontend_fr_FR.xml</File>
+    <File>2956947156/frontend_it_IT.xml</File>
+    <File>2956947156/frontend_ja_JP.xml</File>
+    <File>2956947156/frontend_ko_KR.xml</File>
+    <File>2956947156/frontend_pl_PL.xml</File>
+    <File>2956947156/frontend_ru_RU.xml</File>
+    <File>2956947156/frontend_zh_Hant_HK.xml</File>
+    <File>2956947156/ingame_de_DE.xml</File>
+    <File>2956947156/ingame_en_US.xml</File>
+    <File>2956947156/ingame_es_ES.xml</File>
+    <File>2956947156/ingame_fr_FR.xml</File>
+    <File>2956947156/ingame_it_IT.xml</File>
+    <File>2956947156/ingame_ja_JP.xml</File>
+    <File>2956947156/ingame_ko_KR.xml</File>
+    <File>2956947156/ingame_pl_PL.xml</File>
+    <File>2956947156/ingame_ru_RU.xml</File>
+    <File>2956947156/ingame_zh_Hant_HK.xml</File>
     <File>2958957078/frontend_de_DE.xml</File>
     <File>2958957078/frontend_en_US.xml</File>
     <File>2958957078/frontend_es_ES.xml</File>
