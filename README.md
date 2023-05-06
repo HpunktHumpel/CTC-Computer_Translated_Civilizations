@@ -1,5 +1,7 @@
 # CTC - Computer Translated Civilizations
 
+![Logo](Logo.jpg)
+
 Getting confused with all these 谁应该明白 ?  
 Don't know what all this 읽을 수 없는 텍스트 is about ?  
 Wishing there would be some kind of コンピュータ翻訳 ?  
