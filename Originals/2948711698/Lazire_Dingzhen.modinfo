@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="880213a5-12e9-4edb-a527-1ecb60cc57cc" version="1">
+  <Properties>
+    <Name>[COLOR:Civ6Yellow]丁真领导的理塘文明——役赢丁真，鉴定为义！乌！服人[ENDCOLOR]</Name>
+    <Description>为丁真领导的理塘文明添加了新领袖——丁真（大一统）</Description>
+    <Created>1680360866</Created>
+    <Teaser>丁真（大一统）</Teaser>
+    <Authors>Lazire</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>InGame/L_Dingzhen_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>InGame/L_Dingzhen_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>InGame/L_Dingzhen_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>丁真领导的理塘——大一统.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>InGame/L_Dingzhen_Color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>InGame/L_Dingzhen_Leaders.sql</File>
+      <File>InGame/L_Dingzhen_Modifiers.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>InGame/L_Dingzhen_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>InGame/L_Dingzhen_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>丁真领导的理塘——大一统.dep</File>
+    </UpdateArt>
+    <UpdateColors id="colors"><Properties><LoadOrder>300</LoadOrder></Properties>
+      <File>InGame/L_Dingzhen_Color.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>InGame/L_Dingzhen.lua</File>
+    <File>InGame/L_Dingzhen_Color.xml</File>
+    <File>InGame/L_Dingzhen_Config.sql</File>
+    <File>InGame/L_Dingzhen_Leaders.sql</File>
+    <File>InGame/L_Dingzhen_Modifiers.sql</File>
+    <File>InGame/L_Dingzhen_Text.xml</File>
+    <File>InGame/L_Dingzhen_Texture.xml</File>
+    <File>InGame/L_Dingzhen_Units.sql</File>
+    <File>Platforms/MacOS/BLPs/DingzhenWLTexture.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/DingzhenWLTexture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>丁真领导的理塘——大一统.dep</File>
+  </Files>
+</Mod>
