@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1683385233</Created>
+    <Created>1683387282</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -169,6 +169,13 @@
     </Criteria>
     <Criteria id="2931262824_InGame">
       <ModInUse>05017255-44e0-4b68-899b-4160ae2c4ebb</ModInUse>
+    </Criteria>
+    <!-- 2903392018 - Specter Civilization-->
+    <Criteria id="2903392018_FrontEnd">
+      <ModIsEnabled>6da837a6-a0d6-4d9f-9f62-b562161324ce</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2903392018_InGame">
+      <ModInUse>6da837a6-a0d6-4d9f-9f62-b562161324ce</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -534,6 +541,23 @@
       <File>2931262824/frontend_pl_PL.xml</File>
       <File>2931262824/frontend_ko_KR.xml</File>
       <File>2931262824/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2903392018 - Specter Civilization-->
+    <UpdateText id="2903392018_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2903392018_FrontEnd</Criteria>
+      <File>2903392018/frontend_en_US.xml</File>
+      <File>2903392018/frontend_fr_FR.xml</File>
+      <File>2903392018/frontend_de_DE.xml</File>
+      <File>2903392018/frontend_it_IT.xml</File>
+      <File>2903392018/frontend_es_ES.xml</File>
+      <File>2903392018/frontend_ja_JP.xml</File>
+      <File>2903392018/frontend_ru_RU.xml</File>
+      <File>2903392018/frontend_pl_PL.xml</File>
+      <File>2903392018/frontend_ko_KR.xml</File>
+      <File>2903392018/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -910,6 +934,23 @@
       <File>2931262824/ingame_ko_KR.xml</File>
       <File>2931262824/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2903392018 - Specter Civilization-->
+    <UpdateText id="2903392018_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2903392018_InGame</Criteria>
+      <File>2903392018/ingame_en_US.xml</File>
+      <File>2903392018/ingame_fr_FR.xml</File>
+      <File>2903392018/ingame_de_DE.xml</File>
+      <File>2903392018/ingame_it_IT.xml</File>
+      <File>2903392018/ingame_es_ES.xml</File>
+      <File>2903392018/ingame_ja_JP.xml</File>
+      <File>2903392018/ingame_ru_RU.xml</File>
+      <File>2903392018/ingame_pl_PL.xml</File>
+      <File>2903392018/ingame_ko_KR.xml</File>
+      <File>2903392018/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -1032,6 +1073,26 @@
     <File>2888924215/ingame_pl_PL.xml</File>
     <File>2888924215/ingame_ru_RU.xml</File>
     <File>2888924215/ingame_zh_Hant_HK.xml</File>
+    <File>2903392018/frontend_de_DE.xml</File>
+    <File>2903392018/frontend_en_US.xml</File>
+    <File>2903392018/frontend_es_ES.xml</File>
+    <File>2903392018/frontend_fr_FR.xml</File>
+    <File>2903392018/frontend_it_IT.xml</File>
+    <File>2903392018/frontend_ja_JP.xml</File>
+    <File>2903392018/frontend_ko_KR.xml</File>
+    <File>2903392018/frontend_pl_PL.xml</File>
+    <File>2903392018/frontend_ru_RU.xml</File>
+    <File>2903392018/frontend_zh_Hant_HK.xml</File>
+    <File>2903392018/ingame_de_DE.xml</File>
+    <File>2903392018/ingame_en_US.xml</File>
+    <File>2903392018/ingame_es_ES.xml</File>
+    <File>2903392018/ingame_fr_FR.xml</File>
+    <File>2903392018/ingame_it_IT.xml</File>
+    <File>2903392018/ingame_ja_JP.xml</File>
+    <File>2903392018/ingame_ko_KR.xml</File>
+    <File>2903392018/ingame_pl_PL.xml</File>
+    <File>2903392018/ingame_ru_RU.xml</File>
+    <File>2903392018/ingame_zh_Hant_HK.xml</File>
     <File>2917686453/frontend_de_DE.xml</File>
     <File>2917686453/frontend_en_US.xml</File>
     <File>2917686453/frontend_es_ES.xml</File>

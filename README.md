@@ -32,6 +32,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2724414725](https://steamcommunity.com/sharedfiles/filedetails/?id=2724414725) | Ophidy's Luxure 精灵国度拉克修尔 | Ophidy's Luxure |
 | [2837886503](https://steamcommunity.com/sharedfiles/filedetails/?id=2837886503) | 丁真领导的理塘文明 | Litang Civilization led by Ding Zhen |
 | [2888924215](https://steamcommunity.com/sharedfiles/filedetails/?id=2888924215) | [TOUHOU]东方Project领袖包———依神紫苑 | [TOUHOU] Oriental Project leader Bao ——— Yishen Aster |
+| [2903392018](https://steamcommunity.com/sharedfiles/filedetails/?id=2903392018) | 明日方舟 幽灵鲨 | Tomorrow's Ark Ghost Shark |
 | [2917686453](https://steamcommunity.com/sharedfiles/filedetails/?id=2917686453) | [TOUHOU]东方project MOD——魂魄妖梦 | [TOUHOU] Oriental project mod - Soul Demon Dream |
 | [2919794042](https://steamcommunity.com/sharedfiles/filedetails/?id=2919794042) | [TouHou]东方project MOD 河城荷取 | [TouHou] Oriental project MOD River City Hotori |
 | [2921739891](https://steamcommunity.com/sharedfiles/filedetails/?id=2921739891) | 东方PROJECT 比那名居天子 | Touhou Project Hinana Juten |
