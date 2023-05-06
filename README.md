@@ -27,6 +27,7 @@ Auto-generated translations for the following mods are currently included in thi
 | ID  | Name  | English  |
 |-----|-------|----------|
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | - |
+| [2684671258](https://steamcommunity.com/sharedfiles/filedetails/?id=2684671258) | Ophidy's Allesino 科技之邦艾尔拉西诺 | Ophidy's Allesino |
 | [2677539335](https://steamcommunity.com/sharedfiles/filedetails/?id=2677539335) | 【touhou mod】太阳花田-风见幽香 | 【touhou mod】Sun Flower Field-Kazemi Yuka |
 | [2724414725](https://steamcommunity.com/sharedfiles/filedetails/?id=2724414725) | Ophidy's Luxure 精灵国度拉克修尔 | Ophidy's Luxure |
 | [2837886503](https://steamcommunity.com/sharedfiles/filedetails/?id=2837886503) | 丁真领导的理塘文明 | Litang Civilization led by Ding Zhen |
