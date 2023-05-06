@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1683399388</Created>
+    <Created>1683400501</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -204,6 +204,13 @@
     </Criteria>
     <Criteria id="2662246825_InGame">
       <ModInUse>2268bc98-9e57-4add-8d46-20d4adc2ce16</ModInUse>
+    </Criteria>
+    <!-- 2656801909 - 神滨魔法联盟 南区-->
+    <Criteria id="2656801909_FrontEnd">
+      <ModIsEnabled>04bba3b9-8dac-4db7-b2aa-a03d1d66521b</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2656801909_InGame">
+      <ModInUse>04bba3b9-8dac-4db7-b2aa-a03d1d66521b</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -654,6 +661,23 @@
       <File>2662246825/frontend_pl_PL.xml</File>
       <File>2662246825/frontend_ko_KR.xml</File>
       <File>2662246825/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2656801909 - 神滨魔法联盟 南区-->
+    <UpdateText id="2656801909_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2656801909_FrontEnd</Criteria>
+      <File>2656801909/frontend_en_US.xml</File>
+      <File>2656801909/frontend_fr_FR.xml</File>
+      <File>2656801909/frontend_de_DE.xml</File>
+      <File>2656801909/frontend_it_IT.xml</File>
+      <File>2656801909/frontend_es_ES.xml</File>
+      <File>2656801909/frontend_ja_JP.xml</File>
+      <File>2656801909/frontend_ru_RU.xml</File>
+      <File>2656801909/frontend_pl_PL.xml</File>
+      <File>2656801909/frontend_ko_KR.xml</File>
+      <File>2656801909/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -1115,6 +1139,23 @@
       <File>2662246825/ingame_ko_KR.xml</File>
       <File>2662246825/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2656801909 - 神滨魔法联盟 南区-->
+    <UpdateText id="2656801909_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2656801909_InGame</Criteria>
+      <File>2656801909/ingame_en_US.xml</File>
+      <File>2656801909/ingame_fr_FR.xml</File>
+      <File>2656801909/ingame_de_DE.xml</File>
+      <File>2656801909/ingame_it_IT.xml</File>
+      <File>2656801909/ingame_es_ES.xml</File>
+      <File>2656801909/ingame_ja_JP.xml</File>
+      <File>2656801909/ingame_ru_RU.xml</File>
+      <File>2656801909/ingame_pl_PL.xml</File>
+      <File>2656801909/ingame_ko_KR.xml</File>
+      <File>2656801909/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -1157,6 +1198,26 @@
     <File>2640640037/ingame_pl_PL.xml</File>
     <File>2640640037/ingame_ru_RU.xml</File>
     <File>2640640037/ingame_zh_Hant_HK.xml</File>
+    <File>2656801909/frontend_de_DE.xml</File>
+    <File>2656801909/frontend_en_US.xml</File>
+    <File>2656801909/frontend_es_ES.xml</File>
+    <File>2656801909/frontend_fr_FR.xml</File>
+    <File>2656801909/frontend_it_IT.xml</File>
+    <File>2656801909/frontend_ja_JP.xml</File>
+    <File>2656801909/frontend_ko_KR.xml</File>
+    <File>2656801909/frontend_pl_PL.xml</File>
+    <File>2656801909/frontend_ru_RU.xml</File>
+    <File>2656801909/frontend_zh_Hant_HK.xml</File>
+    <File>2656801909/ingame_de_DE.xml</File>
+    <File>2656801909/ingame_en_US.xml</File>
+    <File>2656801909/ingame_es_ES.xml</File>
+    <File>2656801909/ingame_fr_FR.xml</File>
+    <File>2656801909/ingame_it_IT.xml</File>
+    <File>2656801909/ingame_ja_JP.xml</File>
+    <File>2656801909/ingame_ko_KR.xml</File>
+    <File>2656801909/ingame_pl_PL.xml</File>
+    <File>2656801909/ingame_ru_RU.xml</File>
+    <File>2656801909/ingame_zh_Hant_HK.xml</File>
     <File>2662246825/frontend_de_DE.xml</File>
     <File>2662246825/frontend_en_US.xml</File>
     <File>2662246825/frontend_es_ES.xml</File>
