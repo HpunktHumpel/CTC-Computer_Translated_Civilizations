@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ca9f0bf7-ada2-4a1b-abff-c4ed06a11959" version="1">
+  <Properties>
+    <Name>Ophidy's [COLOR:Civ6Yellow]拉克修尔[ENDCOLOR]</Name>
+    <Description>增加了文明——拉克修尔 以及它的领袖——卢克厄修·曼克奎斯[NEWLINE]本mod题材来源作者本人的小说框架，素材来源网络，侵删。</Description>
+    <Created>1680883263</Created>
+    <Teaser>Luxure and Mannk-Quzz</Teaser>
+    <Authors>Lazire</Authors>
+    <SpecialThanks>Han_Bin W</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateArt id="UpdateArt">
+      <File>Lazires_Luxure.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>InGame/Luxure_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>InGame/Luxure_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <File>InGame/Luxure_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="UpdateColors">
+      <File>InGame/Luxure_Color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>InGame/Luxure_Buildings.sql</File>
+      <File>InGame/Luxure_Civ.sql</File>
+      <File>InGame/Luxure_District.sql</File>
+      <File>InGame/Luxure_Leader.sql</File>
+      <File>InGame/Luxure_Units.xml</File>
+      <File>InGame/Luxure_Modifiers.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="UpdateArt">
+      <File>Lazires_Luxure.dep</File>
+    </UpdateArt>
+    <UpdateColors id="UpdateColors">
+      <File>InGame/Luxure_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="UpdateIcons">
+      <File>InGame/Luxure_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>InGame/Luxure_Text.xml</File>
+    </UpdateText>
+    <UpdateAudio id="UpdateAudio">
+      <File>Platforms/Windows/audio/LuxureSB.bnk</File>
+      <File>Platforms/Windows/audio/Luxure_audio.ini</File>
+      <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+    <AddUserInterfaces id="UI">
+		<Properties><Context>InGame</Context></Properties>
+		<File>Platforms/Windows/LuxureAudio.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>InGame/Luxure_Buildings.sql</File>
+    <File>InGame/Luxure_Civ.sql</File>
+    <File>InGame/Luxure_Color.xml</File>
+    <File>InGame/Luxure_Config.sql</File>
+    <File>InGame/Luxure_District.sql</File>
+    <File>InGame/Luxure_Leader.sql</File>
+    <File>InGame/Luxure_Modifiers.sql</File>
+    <File>InGame/Luxure_Text.xml</File>
+    <File>InGame/Luxure_Texture.xml</File>
+    <File>InGame/Luxure_Units.xml</File>
+    <File>Lazires_Luxure.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/LuxureTexture.blp</File>
+    <File>Platforms/Windows/audio/155089072.wem</File>
+    <File>Platforms/Windows/audio/601243858.wem</File>
+    <File>Platforms/Windows/audio/749200668.wem</File>
+    <File>Platforms/Windows/audio/860108361.wem</File>
+    <File>Platforms/Windows/audio/970366963.wem</File>
+    <File>Platforms/Windows/audio/LuxureSB.bnk</File>
+    <File>Platforms/Windows/audio/LuxureSB.txt</File>
+    <File>Platforms/Windows/audio/Luxure_audio.ini</File>
+    <File>Platforms/Windows/audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LuxureTexture.blp</File>
+    <File>Platforms/Windows/LuxureAudio.lua</File>
+    <File>Platforms/Windows/LuxureAudio.xml</File>
+  </Files>
+</Mod>
