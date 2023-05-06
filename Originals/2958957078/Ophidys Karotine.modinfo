@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="090e50e2-90d9-466f-9862-2cf90c98bc33" version="1">
+  <Properties>
+    <Name>Ophidy's [COLOR:Civ6Yellow]卡洛廷[ENDCOLOR]</Name>
+    <Description>增加了文明——卡洛廷 以及它的领袖——爱德华·马略和莫尔乌二世[NEWLINE]本mod题材来源作者本人的小说框架，素材来源网络，侵删。</Description>
+    <Created>1682612420</Created>
+    <Teaser>Karotine and Leaders</Teaser>
+    <Authors>Lazire</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="database"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_Text.xml</File>
+      <File>InGame/Karotine_InfoText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="texture"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>Ophidys Karotine.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_District.sql</File>
+      <File>InGame/Karotine_Leader.sql</File>
+      <File>InGame/Karotine_Unit.sql</File>
+      <File>InGame/Karotine_Civilization.sql</File>
+      <File>InGame/Karotine_Modifier.sql</File>
+      <File>InGame/Karotine_Ex2.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="color"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="texture"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_Text.xml</File>
+      <File>InGame/Karotine_InfoText.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="AddGameplayScripts"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>InGame/Karotine_CoreFunction.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="art"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>Ophidys Karotine.dep</File>
+    </UpdateArt>
+    <ImportFiles id="UI"><Properties><LoadOrder>2000</LoadOrder></Properties>
+      <File>UI/CityBannerManager.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>InGame/Karotine_Civilization.sql</File>
+    <File>InGame/Karotine_Color.xml</File>
+    <File>InGame/Karotine_Config.sql</File>
+    <File>InGame/Karotine_CoreFunction.lua</File>
+    <File>InGame/Karotine_District.sql</File>
+    <File>InGame/Karotine_Ex2.sql</File>
+    <File>InGame/Karotine_InfoText.xml</File>
+    <File>InGame/Karotine_Leader.sql</File>
+    <File>InGame/Karotine_Modifier.sql</File>
+    <File>InGame/Karotine_Text.xml</File>
+    <File>InGame/Karotine_Texture.xml</File>
+    <File>InGame/Karotine_Unit.sql</File>
+    <File>Ophidys Karotine.dep</File>
+    <File>Platforms/MacOS/BLPs/KarotineTexture.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/KarotineTexture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>UI/CityBannerManager.lua</File>
+  </Files>
+</Mod>
