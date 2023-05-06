@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="259df49f-9223-436e-9e83-adf92d925f99" version="1">
+  <Properties>
+    <Name>TOUHOU TENSHI</Name>
+    <Description>TOUHOU TENSHI</Description>
+    <Created>1674466222</Created>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Authors>JIDONG</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_JD_TENSHI,
+   	Players:Expansion1_Players::LEADER_JD_TENSHI,Players:Expansion2_Players::LEADER_JD_TENSHI</LeaderPlayable>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_JD_TENSHI</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_JD_TENSHI</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>tenshi_config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>tenshi_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>tenshi_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>TOUHOU TENSHI.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>tenshi_color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>tenshi_civilization.xml</File>
+      <File>tenshi_ability.xml</File>
+      <File>tenshi_building.xml</File>
+      <File>tenshi_district.xml</File>
+      <File>tenshi_improment.xml</File>
+      <File>tenshi_leader.xml</File>
+      <File>tenshi_moment.xml</File>
+      <File>tenshi_trait.xml</File>
+      <File>tenshi_unit.xml</File>
+      <File>tenshi_place.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>tenshi_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>tenshi_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>TOUHOU TENSHI.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>tenshi_color.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="NewAction">
+      <File>platforms/windows/audio/TENSHI_Banks.ini</File>
+    </UpdateAudio>
+    <AddUserInterfaces id="NewAction">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>JP_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="NewAction">
+      <File>JP_LUA.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>JP_LUA.lua</File>
+    <File>JP_UI.lua</File>
+    <File>JP_UI.xml</File>
+    <File>platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Mission_01_AO</File>
+    <File>platforms/MacOS/BLPs/TENSHI.blp</File>
+    <File>platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>platforms/windows/audio/1053218639.wem</File>
+    <File>platforms/windows/audio/145873186.wem</File>
+    <File>platforms/windows/audio/238250151.wem</File>
+    <File>platforms/windows/audio/365694230.wem</File>
+    <File>platforms/windows/audio/550234954.wem</File>
+    <File>platforms/windows/audio/782485673.wem</File>
+    <File>platforms/windows/audio/877331628.wem</File>
+    <File>platforms/windows/audio/881188345.wem</File>
+    <File>platforms/windows/audio/965470243.wem</File>
+    <File>platforms/windows/audio/TENSHI_Banks.ini</File>
+    <File>platforms/windows/audio/TENSHI_Music_Bank.bnk</File>
+    <File>platforms/windows/audio/TENSHI_Music_Bank.txt</File>
+    <File>platforms/windows/audio/TENSHI_Music_Bank.xml</File>
+    <File>platforms/windows/BLPs/LeaderFallbacks.blp</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_IMP_Mission_01_AO</File>
+    <File>platforms/windows/BLPs/TENSHI.blp</File>
+    <File>platforms/windows/BLPs/UILeaders.blp</File>
+    <File>ResumeMusic.lua</File>
+    <File>ResumeMusic.xml</File>
+    <File>tenshi_ability.xml</File>
+    <File>tenshi_building.xml</File>
+    <File>tenshi_civilization.xml</File>
+    <File>tenshi_color.xml</File>
+    <File>tenshi_config.xml</File>
+    <File>tenshi_district.xml</File>
+    <File>tenshi_icon.xml</File>
+    <File>tenshi_improment.xml</File>
+    <File>tenshi_leader.xml</File>
+    <File>tenshi_moment.xml</File>
+    <File>tenshi_place.xml</File>
+    <File>tenshi_text.xml</File>
+    <File>tenshi_trait.xml</File>
+    <File>tenshi_unit.xml</File>
+    <File>TOUHOU TENSHI.dep</File>
+    <File>XLPs/TENSHI.xlp</File>
+  </Files>
+</Mod>
