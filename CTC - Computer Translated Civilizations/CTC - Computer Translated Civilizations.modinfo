@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1683383374</Created>
+    <Created>1683385233</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -162,6 +162,13 @@
     </Criteria>
     <Criteria id="2956947156_InGame">
       <ModInUse>db2d14a5-7b66-4a60-8c2a-58b51c4a8d7c</ModInUse>
+    </Criteria>
+    <!-- 2931262824 - 诸葛亮领导的中国文明-->
+    <Criteria id="2931262824_FrontEnd">
+      <ModIsEnabled>05017255-44e0-4b68-899b-4160ae2c4ebb</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2931262824_InGame">
+      <ModInUse>05017255-44e0-4b68-899b-4160ae2c4ebb</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -510,6 +517,23 @@
       <File>2956947156/frontend_pl_PL.xml</File>
       <File>2956947156/frontend_ko_KR.xml</File>
       <File>2956947156/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2931262824 - 诸葛亮领导的中国文明-->
+    <UpdateText id="2931262824_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2931262824_FrontEnd</Criteria>
+      <File>2931262824/frontend_en_US.xml</File>
+      <File>2931262824/frontend_fr_FR.xml</File>
+      <File>2931262824/frontend_de_DE.xml</File>
+      <File>2931262824/frontend_it_IT.xml</File>
+      <File>2931262824/frontend_es_ES.xml</File>
+      <File>2931262824/frontend_ja_JP.xml</File>
+      <File>2931262824/frontend_ru_RU.xml</File>
+      <File>2931262824/frontend_pl_PL.xml</File>
+      <File>2931262824/frontend_ko_KR.xml</File>
+      <File>2931262824/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -869,6 +893,23 @@
       <File>2956947156/ingame_ko_KR.xml</File>
       <File>2956947156/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2931262824 - 诸葛亮领导的中国文明-->
+    <UpdateText id="2931262824_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2931262824_InGame</Criteria>
+      <File>2931262824/ingame_en_US.xml</File>
+      <File>2931262824/ingame_fr_FR.xml</File>
+      <File>2931262824/ingame_de_DE.xml</File>
+      <File>2931262824/ingame_it_IT.xml</File>
+      <File>2931262824/ingame_es_ES.xml</File>
+      <File>2931262824/ingame_ja_JP.xml</File>
+      <File>2931262824/ingame_ru_RU.xml</File>
+      <File>2931262824/ingame_pl_PL.xml</File>
+      <File>2931262824/ingame_ko_KR.xml</File>
+      <File>2931262824/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -1051,6 +1092,26 @@
     <File>2921739891/ingame_pl_PL.xml</File>
     <File>2921739891/ingame_ru_RU.xml</File>
     <File>2921739891/ingame_zh_Hant_HK.xml</File>
+    <File>2931262824/frontend_de_DE.xml</File>
+    <File>2931262824/frontend_en_US.xml</File>
+    <File>2931262824/frontend_es_ES.xml</File>
+    <File>2931262824/frontend_fr_FR.xml</File>
+    <File>2931262824/frontend_it_IT.xml</File>
+    <File>2931262824/frontend_ja_JP.xml</File>
+    <File>2931262824/frontend_ko_KR.xml</File>
+    <File>2931262824/frontend_pl_PL.xml</File>
+    <File>2931262824/frontend_ru_RU.xml</File>
+    <File>2931262824/frontend_zh_Hant_HK.xml</File>
+    <File>2931262824/ingame_de_DE.xml</File>
+    <File>2931262824/ingame_en_US.xml</File>
+    <File>2931262824/ingame_es_ES.xml</File>
+    <File>2931262824/ingame_fr_FR.xml</File>
+    <File>2931262824/ingame_it_IT.xml</File>
+    <File>2931262824/ingame_ja_JP.xml</File>
+    <File>2931262824/ingame_ko_KR.xml</File>
+    <File>2931262824/ingame_pl_PL.xml</File>
+    <File>2931262824/ingame_ru_RU.xml</File>
+    <File>2931262824/ingame_zh_Hant_HK.xml</File>
     <File>2932334915/frontend_de_DE.xml</File>
     <File>2932334915/frontend_en_US.xml</File>
     <File>2932334915/frontend_es_ES.xml</File>

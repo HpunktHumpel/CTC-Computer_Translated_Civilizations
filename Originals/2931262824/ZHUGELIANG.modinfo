@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="05017255-44e0-4b68-899b-4160ae2c4ebb" version="1">
+  <Properties>
+    <Name>诸葛亮领导的中国文明</Name>
+    <Description>添加了两个诸葛亮领袖（文韬武略）</Description>
+    <Created>1676251564</Created>
+    <Authors>千古歌，寄动战士</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_ZG_WU_KONGMING,Players:StandardPlayers::LEADER_ZG_WEN_KONGMING,
+    	Players:Expansion1_Players::LEADER_ZG_WU_KONGMING,Players:Expansion1_Players::LEADER_ZG_WEN_KONGMING,
+    	Players:Expansion2_Players::LEADER_ZG_WU_KONGMING,Players:Expansion2_Players::LEADER_ZG_WEN_KONGMING</LeaderPlayable>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion1">
+      <LeaderPlayable>
+    	Players:Expansion1_Players::LEADER_ZG_WU_KONGMING,Players:Expansion1_Players::LEADER_ZG_WEN_KONGMING</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion2">
+      <LeaderPlayable>
+    	Players:Expansion2_Players::LEADER_ZG_WU_KONGMING,Players:Expansion2_Players::LEADER_ZG_WEN_KONGMING</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Zhuge_config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Zhuge_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Zhuge_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>ZHUGELIANG.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>Zhuge_color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>999999</LoadOrder>
+      </Properties>
+      <Criteria>LeaderCriteria</Criteria>
+      <File>wenzhuge.sql</File>
+      <File>wuzhuge.sql</File>
+      <File>Zhuge_ability.xml</File>
+      <File>Zhuge_improment.xml</File>
+      <File>Zhuge_leader.xml</File>
+      <File>Zhuge_moment.xml</File>
+      <File>Zhuge_trait.xml</File>
+      <File>Zhuge_unit_muniu.xml</File>
+      <File>Zhuge_unit_zhugenu.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Zhuge_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Zhuge_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>ZHUGELIANG.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>Zhuge_color.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/ZHUGE.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/ZHUGE.blp</File>
+    <File>wenzhuge.sql</File>
+    <File>wuzhuge.sql</File>
+    <File>XLPs/ZHUGE.xlp</File>
+    <File>ZHUGELIANG.dep</File>
+    <File>Zhuge_ability.xml</File>
+    <File>Zhuge_color.xml</File>
+    <File>Zhuge_config.xml</File>
+    <File>Zhuge_icon.xml</File>
+    <File>Zhuge_improment.xml</File>
+    <File>Zhuge_leader.xml</File>
+    <File>Zhuge_moment.xml</File>
+    <File>Zhuge_text.xml</File>
+    <File>Zhuge_trait.xml</File>
+    <File>Zhuge_unit_muniu.xml</File>
+    <File>Zhuge_unit_zhugenu.xml</File>
+  </Files>
+</Mod>
