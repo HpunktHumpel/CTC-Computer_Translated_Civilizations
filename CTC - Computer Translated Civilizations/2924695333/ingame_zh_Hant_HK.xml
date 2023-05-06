@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May  7 00:47:35 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_LEADER_YAN_NIAN_NAME" Language="zh_Hant_HK">
+			<Text>年</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YAN_NAME" Language="zh_Hant_HK">
+			<Text>炎</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>炎</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YAN_NIAN_HONG_LU_NAME" Language="zh_Hant_HK">
+			<Text>天有烘爐</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YAN_NIAN_HONG_LU_NAME_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>執行城市項目時+50% [ICON_Production] 生產力[NEWLINE]提供一個特殊的區域-烘爐，該特殊區域會解鎖一系列特色項目[NEWLINE]（詳情可在百科—資源—戰略—辣椒老媽中查看）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YAN_WU_JING_NAME" Language="zh_Hant_HK">
+			<Text>地生五金</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YAN_WU_JING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>礦產資源提供額外+1 [ICON_Production] 生產力、+1 [ICON_Culture] 文化[NEWLINE]且屬於礦產資源的戰略資源解鎖對應科技後每回合免費獲得數份</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_NIAN_HONG_LU_NAME" Language="zh_Hant_HK">
+			<Text>烘爐</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_NIAN_HONG_LU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>初始解鎖，造價偏低，可為城市提供大量 [ICON_Production] 生產力[NEWLINE]建成後每回合提供+3 [ICON_RESOURCE_PEPPER_MOM] 辣椒老媽以執行特殊項目[NEWLINE]同時該區域建成后城市可無視 [ICON_Citizen] 人口額外建造一個區域。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_NIAN_FILM_NAME" Language="zh_Hant_HK">
+			<Text>年電影工作室</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_NIAN_FILM_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>替換劇院，造價是正常區域的一半，為相鄰單元格提供+1魅力[NEWLINE]年導的四部作品正準備首映：[NEWLINE]浮生聽風、夢源之地、零號特工、象限解構者[NEWLINE]（每個項目限執行一次）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FU_SHENG_TING_FENG_NAME" Language="zh_Hant_HK">
+			<Text>浮生聽風</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FU_SHENG_TING_FENG_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>放映過程中，提供少量 [ICON_Culture] 文化產出，放映結束後所有城市的 [ICON_DISTRICT_NIAN_FILM] 電影工作室+3 [ICON_Culture] 文化；完成該項目的城市+6 [ICON_Culture] 文化且 [ICON_Culture] 文化產出+10％，並獲得紀念品</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MENG_YUAN_ZHI_DI_NAME" Language="zh_Hant_HK">
+			<Text>夢源之地</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MENG_YUAN_ZHI_DI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>放映過程中，提供少量 [ICON_Culture] 文化產出，放映結束後獲得一名 [ICON_GreatWriter] 大作家、 [ICON_GreatArtist] 大藝術家以及一名 [ICON_GreatMusician] 大音樂家；所有城市獲得 [ICON_GreatPerson] 偉人點數+50%，同時你的文明贊助 [ICON_GreatPerson] 偉人所需的 [ICON_Gold] 花費減少20％，並獲得紀念品</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LING_HAO_TE_GONG_NAME" Language="zh_Hant_HK">
+			<Text>零號特工</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LING_HAO_TE_GONG_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>放映過程中，提供大量 [ICON_Gold] 金幣產出，放映結束後為近戰單位提供無視河流 [ICON_Movement] 與丘陵行動力 [ICON_Movement] 減益的效果並+5 [ICON_Strength] 攻擊力；間諜上限+5，且間諜初始便可晉升 [ICON_Promotion] 為探員，同時獲得紀念品</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XIANG_XIAN_JIE_GOU_ZHE_NAME" Language="zh_Hant_HK">
+			<Text>象限解構者</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XIANG_XIAN_JIE_GOU_ZHE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>放映過程中，提供少量 [ICON_Science] 科技產出，放映結束後所有城市的 [ICON_DISTRICT_NIAN_FILM] 電影工作室+6 [ICON_Production] 生產力與 [ICON_Science] 科技，分別使原子能、信息、未來時代的各3個隨機科技獲得 [ICON_TechBoosted] 尤里卡提升，人口達到10 [ICON_Citizen] 且有4個 [ICON_District] 專業化區域的城市+20％ [ICON_Science] 科技，並獲得紀念品</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>相傳在遙遠的過去，大炎浩大寬廣的疆土之內，有神明存在。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>某任大炎皇帝看著自己繁榮昌盛的國土，卻要飽受天災人禍之苦，為此深感悲憫，苦思良久。那位史上飽受爭議的真龍，當時正值青年，一腔熱血。身為大炎皇帝的他，對著自己的心腹重臣，說了這樣一段話——</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>既然普天之下，莫非王土，率土之濱，莫非王臣。那為何那些高高在上的蠻荒之物，不願聽從大炎子民的意願，不去維護大炎子民的國土？你應該知道，有些國家民俗傳說或歷史上的“神仙”並不是哲學概念上的虛指。但他們也並非真的那麼“高高在上”。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YAN_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>真龍就在群巒深潭之間找到了其中一位，一位傲慢、不屑的神明，傾全國之力，御駕親征。隨著真龍號令，多少驚世駭俗的江湖奇人也投入這場驚世駭俗的圍獵。出乎意料的是，真龍最初所見的那個崛起之物，它荒唐地背叛了自己的同族與親僚，它分化了自己的力量，參與了這場曠世罕見的狩獵。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YAN_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>大狩獵後，大炎誅殺了數匹膽敢觸怒真龍的“神”，驅逐了所有不願向真龍俯首的存在。血流成河，伏尸萬里，大炎付出了慘痛的代價。那位真龍的爭議，也由此開始。但他本人其實根本不在乎，這一事業持續了真龍的一生。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YAN_CHAPTER_HISTORY_PARA_6" Language="zh_Hant_HK">
+			<Text>等到他垂垂老矣，他找到了最後一隻尚停留在炎國土地上，那個曾經幫助過真龍，背叛過親族，最古老最高大的悠久之物。這個叛徒已經遭受了它應有的報應，同族們在離開大炎之前挫毀了它的氣焰，令它傲慢的本質暴露在帝王之師的面前——總之，功過相抵，真龍饒它不死，但它必須向大炎臣服。為天地立心，為生民立命，為往聖繼絕學，為萬世開太平。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YAN_CHAPTER_HISTORY_PARA_7" Language="zh_Hant_HK">
+			<Text>從此往後，大炎國祚，只在真龍之手，只在大炎子民之手。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YAN_CHAPTER_HISTORY_PARA_8" Language="zh_Hant_HK">
+			<Text>本模組的領袖角色來自鷹角網絡製作的遊戲《明日方舟》的角色，並使用了遊戲的部分美術素材。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_YAN_LOCATION" Language="zh_Hant_HK">
+			<Text>炎</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_YAN_SIZE" Language="zh_Hant_HK">
+			<Text>這個地方被抹去了</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_YAN_POPULATION" Language="zh_Hant_HK">
+			<Text>未知</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_YAN_CAPITAL" Language="zh_Hant_HK">
+			<Text>位於泰拉大陸最東邊的國家</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_YAN_NIAN" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_SUBTITLE}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>好，走哇，一起吃火鍋</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>什麼？在賭酒、搖骰、摔跤等比賽贏了我之後再說吧</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>看你一副很無聊的樣子......喏，這個玩具給你。在工作？工作不就是很無聊嗎？你可要看緊了，這個小偶人，一不注意就會消失掉哦。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>啊，好閒，我想去逛街......不管了，我要出門！ ......嗯？你怎麼還不換鞋？你當然要跟我走啊，不然呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>你怎麼又睡著了？起來起來，陪我去買點東西，快點快點。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>干戈之事，真是在哪個時代都避不過啊。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>生殺之機，焉能拱手相讓？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>以子之矛攻子之盾，就會產生大爆炸！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>不錯嘛！在你身上，我看到了你們的一線希望哦。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>這點小菜還不夠填牙縫的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>欸，不要啦。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>有人嗎？貴公司的員工和我說這裡生活條件很好，免費食宿，還有多種多樣的娛樂方式......閒雜人員不得入內？哎，別這樣，給個面子嘛。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>我為什麼要在你們這些低劣造物上浪費時間？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>打造武器的工匠，必須承擔它們帶來的血腥。 [NEWLINE]（譴責你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>有人嗎？貴公司的員工和我說這裡生活條件很好，免費食宿，還有多種多樣的娛樂方式......閒雜人員不得入內？哎，別這樣，給個面子嘛。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>不錯不錯，你很適合作為我電影中的演員預備役</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>你還算有點意思</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>你好啊，有興趣出演我的電影嗎？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>人和器物一樣，有著品格之分，你似乎值得我鑄把兵器。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YAN_NIAN_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（年對您的好感增加了）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>哦？要我親自動手嗎？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YAN_NIAN_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（年對您的好感減少了）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>我的劍能把敵人的存在價值連同肉體一起劃開。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>哎，真是麻煩</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>我的夢已經變得很模糊了</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>嗯，這些事情對我本就毫無意義</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>哈哈哈，當然可以了</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>哈哈哈，當然可以了</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>別亂動！在做掛飾呢，穩重點！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>走走走，逛街去咯</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>明王聖帝，誰能去兵哉？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>哈哈，和你相處還蠻愉快的</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>感覺這些東西給你，很浪費啊。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YAN_NIAN_ANY" Language="zh_Hant_HK">
+			<Text>我只有十一個兄弟姐妹。我也不是來尋求幫助的，這種情況下，有誰能幫得到我們？ [NEWLINE]（交換首都位置）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_TITLE" Language="zh_Hant_HK">
+			<Text>年</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_SUBTITLE" Language="zh_Hant_HK">
+			<Text>有獸如堊 腹若大釜 其數為九 角似赤銅 時久色遷 幾近日氣[NEWLINE]......[NEWLINE]語曰 天有洪爐 地生五金 人有十類 獸亦百種[NEWLINE]......[NEWLINE]伐謀百世 一朝毀之 國蝕器銹 如夢似電 無踪泡影[NEWLINE]許多部分已經模糊，沒法閱讀了</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_QUOTE" Language="zh_Hant_HK">
+			<Text>一把設計古樸的匕首。據說只要用來從事謀殺之類的事業，匕首的鋒刃就會消失。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>年，無業遊民，熟習各類金屬工藝，擁有與身份不符的淵博冶金知識。現憑訪客身份逗留於羅德島，偶爾為羅德島的金屬加工項目提供建議。聲稱自己擅長音像娛樂工作，經常提供一些羅德島幹員普遍不太喜愛的音像產品。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>年堅持以訪客身份進入羅德島，並且拒絕接受醫學檢測。在一系列賭酒、搖骰、摔跤等比賽之後，採集生理資料一事最終不了了之。 [NEWLINE][NEWLINE]“嘉維爾最後輸在攀岩上，太可惜了！差一點就可以逼她去體檢了。沒想到嘉維爾竟然真的能為醫療部做出貢獻，加油啊，嘉維爾！明年你能行的！”[NEWLINE]                                                            ——醫療幹員芙蓉</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>年究竟是什麼時候來到羅德島的，大多數幹員都已經記不太清了。令人意外的是，凱爾希醫生沒有像往常一樣趕走訪客。在丟下一句“隨她的便吧”之後，凱爾希醫生就匆匆前往手術室了。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>阿米婭和年有著友好的朋友關係，只是大多數時候，兩人也很少碰面。這可能是因為，阿米婭一直在工作，而年卻一直在休息，或者說放假，甚至是......整日無所事事。因為年並不是羅德島的僱員，所以羅德島的干員們也並不好評價她的行為。 [NEWLINE]幸而年並沒有乾擾他人工作的習慣，大多數時候也只是自樂自得，這使得許多幹員們都對她睜一隻眼閉一隻眼。 [NEWLINE][NEWLINE]“沒有乾擾他人工作的習慣”？她勸誘別人上班打麻將，有沒有人阻止一下？ [NEWLINE]                                                            ——羅德島幹員夜刀</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>雖然態度有些不好，但年依然算是個心地善良的人，工程幹員們面前的她甚至可以用熱心去形容。 [NEWLINE]年會十分投入地與工程幹員們討論各種材質的異同，參與新型合金的設計和實驗。一旦牽扯到結構性問題，她甚至會和工程幹員們一起熬夜好幾天。至少，在工程幹員們那裡，年是和“遊手好閒”這個詞絕緣的。 [NEWLINE][NEWLINE]看著年和武器設計師們對著圖紙激烈地辯論時，筆者推測，可能年只是更加習慣於把時間投入於興趣，而非普通日常的工作。但是，向她推薦羅德島工程幹員的崗位時，她還是拒絕了。 [NEWLINE]必須要指出，年對待金屬加工行業的從業者，比她對待其他人溫柔的多，一般只有她準備拍攝的所謂“獨立電影”中的演員預備役，才能享受這樣的待遇。究竟是為什麼呢？</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>年的鍛造技藝非常高超，在執行項目上無人能及，合理的使用年的鍛造技藝；與之對應，年同時也作為一名（爛片）導演，目前有四部新作在燃情放映中，利用這些優勢去獲得勝利吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>年的能力能為城市帶來大量[ICON_Production]生產力加成，合理規劃[ICON_District]區域，能讓年前期就獲得不菲的[ICON_Production]生產力，利用這些[ICON_Production]生產力執行年的特色項目，繼續擴大優勢，在高生產力的加持下，無論是征服勝利還是科技勝利都不在話下。同時作為一名知名（不是）導演，年在[ICON_Culture]文化方面也不容小視（心虛），或許好好開發一下，年導也是有文化勝利的可能的。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YAN_NIAN_QUOTE" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_YAN_NIAN_QUOTE}</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_YAN_NIAN_NAME" Language="zh_Hant_HK">
+			<Text>誰能去兵哉</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_YAN_NIAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡追求和平的文明，討厭發起戰爭的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_YAN_NAME_RHODESISLAND" Language="zh_Hant_HK">
+			<Text>羅德島</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_1" Language="zh_Hant_HK">
+			<Text>灰齊山</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_2" Language="zh_Hant_HK">
+			<Text>尚蜀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_3" Language="zh_Hant_HK">
+			<Text>勾吳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_4" Language="zh_Hant_HK">
+			<Text>傍晚的城堡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_5" Language="zh_Hant_HK">
+			<Text>姜齊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_6" Language="zh_Hant_HK">
+			<Text>玉門</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_7" Language="zh_Hant_HK">
+			<Text>羋楚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_8" Language="zh_Hant_HK">
+			<Text>諸華</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_YAN_NAME_9" Language="zh_Hant_HK">
+			<Text>龍門</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_1" Language="zh_Hant_HK">
+			<Text>夕</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_2" Language="zh_Hant_HK">
+			<Text>令</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_3" Language="zh_Hant_HK">
+			<Text>茂武</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_4" Language="zh_Hant_HK">
+			<Text>克洛斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_5" Language="zh_Hant_HK">
+			<Text>炎熔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_6" Language="zh_Hant_HK">
+			<Text>烏有</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_7" Language="zh_Hant_HK">
+			<Text>佐賀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_8" Language="zh_Hant_HK">
+			<Text>林雨霞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_9" Language="zh_Hant_HK">
+			<Text>陳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_10" Language="zh_Hant_HK">
+			<Text>槐琥</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_11" Language="zh_Hant_HK">
+			<Text>星熊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_12" Language="zh_Hant_HK">
+			<Text>詩懷雅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_13" Language="zh_Hant_HK">
+			<Text>泥岩</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_14" Language="zh_Hant_HK">
+			<Text>龍舌蘭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_15" Language="zh_Hant_HK">
+			<Text>傀影</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_16" Language="zh_Hant_HK">
+			<Text>阿米婭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_17" Language="zh_Hant_HK">
+			<Text>艾雅法拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_18" Language="zh_Hant_HK">
+			<Text>初雪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_19" Language="zh_Hant_HK">
+			<Text>琴柳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_20" Language="zh_Hant_HK">
+			<Text>萊恩哈特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_21" Language="zh_Hant_HK">
+			<Text>德克薩斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_22" Language="zh_Hant_HK">
+			<Text>白面鴞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_23" Language="zh_Hant_HK">
+			<Text>炎客</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_24" Language="zh_Hant_HK">
+			<Text>水月</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YAN_NAME_25" Language="zh_Hant_HK">
+			<Text>THRM-EX</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_Production_Extra1" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Science]  科技來自每兩個相鄰的區域。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_Production_Extra2" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每兩個相鄰的區域。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_CLOSE_HONG_LU" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每個相鄰的烘爐。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_CLOSE_INDUSTRIAL_ZONE" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每個相鄰的工業區。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_CLOSE_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每個相鄰的市政廣場。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_CLOSE_AQUEDUCT" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每個相鄰的水渠。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_IMPROVEMENT_MINE" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每個相鄰的礦山。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_IMPROVEMENT_QUARRY" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每個相鄰的採石場。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_FEATURE_GEOTHERMAL_FISSURE_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Science]  科技來自相每個鄰的地熱裂縫。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_FEATURE_GEOTHERMAL_FISSURE_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每個相鄰的地熱裂縫。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_FEATURE_VOLCANIC_SOIL_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Science]  科技來自每個相鄰的火山土。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_HONG_LU_FEATURE_VOLCANIC_SOIL_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Production]  生產力來自每個相鄰的火山土。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_NIAN_HONG_LU_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>天有烘爐,地生五金,暉冶寒淬照雲清。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_NIAN_FILM_CLOSE_NIAN_FILM" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Culture]  文化來自每個相鄰的年電影工作室。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_NIAN_FILM_CLOSE_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Culture]  文化來自每個相鄰的市政廣場。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NIAN_NIAN_FEATURE_PAMUKKALE" Language="zh_Hant_HK">
+			<Text>+{1_num}  [ICON_Culture]  文化來自每個相鄰的棉花堡單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_NIAN_FILM_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>各位觀眾朋友們，感謝大家一直對年電影工作室的關注與支持。 [NEWLINE]我們很榮幸，能在這裡宣布：年導的四部新作已經燃情放映中。 [NEWLINE]讓我們一起走進童話般的《夢源之地》，在松竹林畔《浮生聽風》；《象限解構者》穿過夜色的同時，《零號特工》的身影也將融入城市之中————我們的一切努力，只為將完美的藝術體驗奉至您的眼前。 [NEWLINE]來吧，千萬不要錯過。一切，盡在年電影工作室！</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_PEPPER_MOM_NAME" Language="zh_Hant_HK">
+			<Text>辣椒老媽</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PEPPER_MOM_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>老媽味道，真材實料，辣到霸道，試了還要，西南特產，匠心傳承————辣椒老媽！ [NEWLINE]來自炎國某個西南移動城邦的特色飲料，口味辛辣，據說也是一種調料。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_RARE_METALS_NAME" Language="zh_Hant_HK">
+			<Text>稀有金屬辨識</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_RARE_METALS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>項目進行時，每回合提供少量 [ICON_Gold] 金幣。完成項目後，所有礦產資源再額外+1 [ICON_Science] 科技，+1 [ICON_Gold] 金幣，+1 [ICON_Production] 生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_PLASTIC_WORKING_NAME" Language="zh_Hant_HK">
+			<Text>金屬塑性加工</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_PLASTIC_WORKING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>項目進行時，每回合提供少量 [ICON_Gold] 金幣。完成項目後，擁有 [ICON_DISTRICT_NIAN_HONG_LU] 烘爐的城市+15% [ICON_Production] 生產力，若該城市同時擁有 [ICON_DISTRICT_INDUSTRIAL_ZONE] 工業區，則再額外+10% [ICON_Production] 生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_FORGING_TEMPERATURE_NAME" Language="zh_Hant_HK">
+			<Text>提升鍛造溫度</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_FORGING_TEMPERATURE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>項目進行時，每回合提供少量 [ICON_Gold] 金幣。完成項目後，烘爐 [ICON_DISTRICT_NIAN_HONG_LU] 的相鄰加成+100%</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_METAL_CASTING_NAME" Language="zh_Hant_HK">
+			<Text>金屬澆鑄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_METAL_CASTING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>項目進行時，每回合提供少量 [ICON_Gold] 金幣。完成項目後，烘爐 [ICON_DISTRICT_NIAN_HONG_LU] 的相鄰加成也提供 [ICON_Gold] 金幣，執行城市項目時再額外+33% [ICON_Production] 生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_DUN_NAME" Language="zh_Hant_HK">
+			<Text>鑄盾</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_DUN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>完成項目後，城市獲得更強的 [ICON_Fortified] 外部防禦力，所有城市+4 [ICON_Culture] 文化，並解鎖後續項目</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_DUN_A_NOTIFICATION" Language="zh_Hant_HK">
+			<Text>+10 [ICON_Fortified] 外部防禦力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_DUN_A_NAME" Language="zh_Hant_HK">
+			<Text>鑄盾(單位 [ICON_Fortified] 防禦力）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_DUN_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每完成一次該項目，為所有戰鬥單位+3 [ICON_Fortified] 防禦力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_DUN_FY_A_NOTIFICATION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Fortified] 防禦力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_DUN_B_NAME" Language="zh_Hant_HK">
+			<Text>鑄盾(建築 [ICON_Production] 生產力）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_DUN_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每完成一次該項目，為所有城市建造建築+30% [ICON_Production] 生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_NAME" Language="zh_Hant_HK">
+			<Text>鑄物</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>完成項目後，提供2條 [ICON_VIEW_TRADE] 貿易線路與3000 [ICON_Gold] 金幣，並解鎖後續項目</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_A_NAME" Language="zh_Hant_HK">
+			<Text>鑄物(建造 [ICON_Charges] 次數）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>項目進行時，每回合提供少量 [ICON_Gold] 金幣。每完成一次該項目，便為建造者增加一次 [ICON_Charges] 使用次數</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_B_NAME" Language="zh_Hant_HK">
+			<Text>鑄物(城市 [ICON_Gold] 金幣產量）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>項目進行時，每回合提供大量 [ICON_Gold] 金幣。每完成一次該項目，該城市 [ICON_Gold] 金幣產量+15%</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_C_NAME" Language="zh_Hant_HK">
+			<Text>鑄物(城市 [ICON_Citizen] 發展速度）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每完成一次該項目，該城市 [ICON_Citizen] 人口增長速度與 [ICON_Food] 糧食+20%，並提供4 [ICON_Housing] 住房</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_D_NAME" Language="zh_Hant_HK">
+			<Text>鑄物(城市 [ICON_Amenities] 宜居度）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_WU_D_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每完成一次該項目，該城市+2 [ICON_Amenities] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_NAME" Language="zh_Hant_HK">
+			<Text>鑄兵</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>完成項目後，為所有單位提供+1 [ICON_Movement] 移動力與視野，並解鎖後續項目</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_A_NAME" Language="zh_Hant_HK">
+			<Text>鑄兵(單位 [ICON_Promotion] 升級）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>完成項目後，所有單位獲得1次 [ICON_Promotion] 晉升，限完成1次</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_B_NAME" Language="zh_Hant_HK">
+			<Text>鑄兵(單位 [ICON_Strength] 攻擊力）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每完成一次該項目，為所有戰鬥單位+3 [ICON_Strength] 攻擊力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_GJ_B_A_NOTIFICATION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Strength] 攻擊力（來自鑄兵）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_C_NAME" Language="zh_Hant_HK">
+			<Text>鑄兵(單位 [ICON_Production] 生產力）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_ZHU_BING_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每完成一次該項目，為所有城市生產戰鬥單位+20% [ICON_Production] 生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_FU_SHENG_TING_FENG_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR_LIGHTBLUE]浮生聽風[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_FU_SHENG_TING_FENG_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>放映過程中，提供少量 [ICON_Culture] 文化產出，放映結束後所有城市的 [ICON_DISTRICT_NIAN_FILM] 電影工作室+3 [ICON_Culture] 文化；完成該項目的城市+6 [ICON_Culture] 文化且 [ICON_Culture] 文化產出+10％，並獲得紀念品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_MENG_YUAN_ZHI_DI_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR:ResScienceLabelCS]夢源之地[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_MENG_YUAN_ZHI_DI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>放映過程中，提供少量 [ICON_Culture] 文化產出，放映結束後獲得一名 [ICON_GreatWriter] 大作家、 [ICON_GreatArtist] 大藝術家以及一名 [ICON_GreatMusician] 大音樂家；所有城市獲得 [ICON_GreatPerson] 偉人點數+50%，同時你的文明贊助 [ICON_GreatPerson] 偉人所需的 [ICON_Gold] 花費減少20％，並獲得紀念品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_LING_HAO_TE_GONG_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR:Red]零號特工[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_LING_HAO_TE_GONG_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>放映過程中，提供大量 [ICON_Gold] 金幣產出，放映結束後為近戰單位提供無視河流 [ICON_Movement] 與丘陵行動力 [ICON_Movement] 減益的效果並+5 [ICON_Strength] 攻擊力；間諜上限+5，且間諜初始便可晉升 [ICON_Promotion] 為探員，同時獲得紀念品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_XIANG_XIAN_JIE_GOU_ZHE_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR:ScienceDark]象限解構者[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIAN_XIANG_XIAN_JIE_GOU_ZHE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>放映過程中，提供少量 [ICON_Science] 科技產出，放映結束後所有城市的 [ICON_DISTRICT_NIAN_FILM] 電影工作室+6 [ICON_Production] 生產力與 [ICON_Science] 科技，分別使原子能、信息、未來時代的各3個隨機科技獲得 [ICON_TechBoosted] 尤里卡提升，人口達到10 [ICON_Citizen] 且有4個 [ICON_District] 專業化區域的城市+20％ [ICON_Science] 科技，並獲得紀念品</Text>
+		</Replace>
+		<Replace Tag="LOC_NIAN_LING_HAO_TE_GONG_C_STRENGTH_NOTIFICATION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Strength] 攻擊力（來自零號特工）</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

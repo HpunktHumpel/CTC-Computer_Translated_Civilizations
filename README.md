@@ -42,6 +42,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2917686453](https://steamcommunity.com/sharedfiles/filedetails/?id=2917686453) | [TOUHOU]东方project MOD——魂魄妖梦 | [TOUHOU] Oriental project mod - Soul Demon Dream |
 | [2919794042](https://steamcommunity.com/sharedfiles/filedetails/?id=2919794042) | [TouHou]东方project MOD 河城荷取 | [TouHou] Oriental project MOD River City Hotori |
 | [2921739891](https://steamcommunity.com/sharedfiles/filedetails/?id=2921739891) | 东方PROJECT 比那名居天子 | Touhou Project Hinana Juten |
+| [2924695333](https://steamcommunity.com/sharedfiles/filedetails/?id=2924695333) | 天有烘炉,地生五金 | There is an oven in the sky, hardware from the earth |
 | [2931262824](https://steamcommunity.com/sharedfiles/filedetails/?id=2931262824) | 诸葛亮领导的中国文明 | Chinese civilization led by Zhuge Liang |
 | [2932334915](https://steamcommunity.com/sharedfiles/filedetails/?id=2932334915) | 东方TOUHOU PROJECT  八云紫和八云蓝 | Touhou TOUHOU PROJECT Yakumo Purple and Yakumo Blue |
 | [2948711698](https://steamcommunity.com/sharedfiles/filedetails/?id=2948711698) | 丁真领导的理塘文明——役赢丁真，鉴定为以！武！服人 | The Litang Civilization led by Ding Zhen——Yong Ying Ding Zhen, appraised for it! Wu! convincing |
