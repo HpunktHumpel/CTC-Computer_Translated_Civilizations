@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d00ea502-6ad6-4856-bc60-de4842e3ace1" version="1">
+  <Properties>
+    <Name>TOUHOU YAKUMO</Name>
+    <Description>TOUHOU YAKUMO</Description>
+    <Created>1676212317</Created>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Authors>JIDONG</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_JD_YUKARI,Players:StandardPlayers::LEADER_JD_RAN,
+    	Players:Expansion1_Players::LEADER_JD_YUKARI,Players:Expansion1_Players::LEADER_JD_RAN,
+    	Players:Expansion2_Players::LEADER_JD_YUKARI,Players:Expansion2_Players::LEADER_JD_RAN</LeaderPlayable>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion1">
+      <LeaderPlayable>
+    	Players:Expansion1_Players::LEADER_JD_YUKARI,Players:Expansion1_Players::LEADER_JD_RAN</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion2">
+      <LeaderPlayable>
+    	Players:Expansion2_Players::LEADER_JD_YUKARI,Players:Expansion2_Players::LEADER_JD_RAN</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Yakumo_config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Yakumo_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Yakumo_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>TOUHOU YAKUMO.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>Yakumo_color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Yakumo_ability.xml</File>
+      <File>Yakumo_civilization.xml</File>
+      <File>Yakumo_improment.xml</File>
+      <File>Yakumo_leader.xml</File>
+      <File>Yakumo_trait.xml</File>
+      <File>Yakumo_Moment.xml</File>
+      <File>Yakumo_Place.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Yakumo_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Yakumo_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>TOUHOU YAKUMO.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>Yakumo_color.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="NewAction">
+      <File>platforms/windows/audio/YAKUMO_Bank.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>platforms/MacOS/BLPs/YAKUMO.blp</File>
+    <File>platforms/windows/audio/376312763.wem</File>
+    <File>platforms/windows/audio/528776565.wem</File>
+    <File>platforms/windows/audio/60700685.wem</File>
+    <File>platforms/windows/audio/651363231.wem</File>
+    <File>platforms/windows/audio/663344123.wem</File>
+    <File>platforms/windows/audio/875489488.wem</File>
+    <File>platforms/windows/audio/YAKUMO_Bank.ini</File>
+    <File>platforms/windows/audio/YAKUMO_Music_Bank.bnk</File>
+    <File>platforms/windows/audio/YAKUMO_Music_Bank.txt</File>
+    <File>platforms/windows/audio/YAKUMO_Music_Bank.xml</File>
+    <File>platforms/windows/audio/YAKUMO_RAN_Music_Bank.bnk</File>
+    <File>platforms/windows/audio/YAKUMO_RAN_Music_Bank.txt</File>
+    <File>platforms/windows/audio/YAKUMO_RAN_Music_Bank.xml</File>
+    <File>platforms/windows/BLPs/LeaderFallbacks.blp</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>platforms/windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>platforms/windows/BLPs/UILeaders.blp</File>
+    <File>platforms/windows/BLPs/YAKUMO.blp</File>
+    <File>ResumeMusic.lua</File>
+    <File>ResumeMusic.xml</File>
+    <File>TOUHOU YAKUMO.dep</File>
+    <File>XLPs/YAKUMO.xlp</File>
+    <File>Yakumo_ability.xml</File>
+    <File>Yakumo_civilization.xml</File>
+    <File>Yakumo_color.xml</File>
+    <File>Yakumo_config.xml</File>
+    <File>Yakumo_icon.xml</File>
+    <File>Yakumo_improment.xml</File>
+    <File>Yakumo_leader.xml</File>
+    <File>Yakumo_Moment.xml</File>
+    <File>Yakumo_Place.xml</File>
+    <File>Yakumo_text.xml</File>
+    <File>Yakumo_trait.xml</File>
+  </Files>
+</Mod>
