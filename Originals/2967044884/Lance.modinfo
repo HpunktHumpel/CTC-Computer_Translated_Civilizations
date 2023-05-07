@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7a69bda1-496e-4859-8b5c-f14850d4e1c2" version="1">
+  <Properties>
+    <Name>白吉康领导的lance帝国</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1682393589</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>HP</Authors>
+    <SpecialThanks>Lance</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>GameData/Lance_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/Config_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon/Lance_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>白吉康领导的lance帝国.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>GameData/Lance_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>GameData/Lance_Civilization.xml</File>
+      <File>GameData/Lance_Colors.xml</File>
+      <File>GameData/Lance_Districts.xml</File>
+      <File>GameData/Lance_Expansion1.xml</File>
+      <File>GameData/Lance_Expansion2.xml</File>
+      <File>GameData/Lance_Leaders.xml</File>
+      <File>GameData/Lance_Modifiers.xml</File>
+      <File>GameData/Lance_Moment.xml</File>
+      <File>GameData/Lance_Projects.xml</File>
+      <File>GameData/Lance_Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/InGame_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon/Lance_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>白吉康领导的lance帝国.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>GameData/Lance_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>GameData/Lance_Civilization.xml</File>
+    <File>GameData/Lance_Colors.xml</File>
+    <File>GameData/Lance_Config.xml</File>
+    <File>GameData/Lance_Districts.xml</File>
+    <File>GameData/Lance_Expansion1.xml</File>
+    <File>GameData/Lance_Expansion2.xml</File>
+    <File>GameData/Lance_Leaders.xml</File>
+    <File>GameData/Lance_Modifiers.xml</File>
+    <File>GameData/Lance_Moment.xml</File>
+    <File>GameData/Lance_Projects.xml</File>
+    <File>GameData/Lance_Units.xml</File>
+    <File>Icon/Lance_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/LanceDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LanceDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text/Config_zh_Hans_CN.xml</File>
+    <File>Text/InGame_zh_Hans_CN.xml</File>
+    <File>白吉康领导的lance帝国.dep</File>
+  </Files>
+</Mod>

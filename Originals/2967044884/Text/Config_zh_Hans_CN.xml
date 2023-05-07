@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Config_zh_Hans_CN -->
+<!-- Author: HP -->
+<!-- DateCreated: 3/27/2023 11:34:01 AM -->
+<GameData>
+	<LocalizedText>
+		<!-- 阵营名称 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LANCE_NAME"
+			Text="Lance"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LANCE_DESCRIPTION"
+			Text="lance帝国"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LANCE_ADJECTIVE"
+			Text="lance的"/>
+		<!-- 阵营设定 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_LANCE_NAME"
+			Text="啤酒之都"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_LANCE_DESCRIPTION"
+			Text="种植园和营地为啤酒广场提供大量相邻加成。人口10及以上的大型城市从娱乐设施获得的 [ICON_Amenities] 宜居度+1。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_BEERSQUARE_NAME"
+			Text="啤酒广场"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_BEERSQUARE_DESCRIPTION"
+			Text="Lance特色宗教活动区域，代替圣地，建造费用更低。[NEWLINE][NEWLINE]每个相邻区域为其提供1点 [ICON_Faith] 信仰值加成。此区域与山脉相邻时不再获得相邻加成。相邻 [ICON_Faith] 信仰加成也提供 [ICON_SCIENCE] 科技值，拥有神社的广场每回合提供+1 [ICON_GreatScientist] 大科学家点数。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_DRUNKARD_NAME"
+			Text="酒蒙子"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_DRUNKARD_DESCRIPTION"
+			Text="拥有3 [ICON_Movement] 移动力的Lance古典时期特色近战单位，拥有独特的武僧升级路线。击杀单位时获得等同于被击杀单位战斗力50%的 [ICON_SCIENCE] 科技值。战斗力会随着科技的解锁不断提升。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_BAIJIKANG_NAME"
+			Text="白吉康"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_BAIJIKANG_NAME"
+			Text="中心城区"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_BAIJIKANG_DESCRIPTION"
+			Text="国境内的每座啤酒广场为 [ICON_Capital] 首都+3% [ICON_SCIENCE] 科技。 [ICON_Capital] 首都6单元格范围内的非首都城市修建区域及开展城市项目时+30% [ICON_Production] 生产力；6单元格范围外9单元格范围内的非首都城市无减益；其他非首都城市的所有产出-10%。[NEWLINE]可在拥有啤酒广场的城市中开展“啤酒节”项目。"/>
+
+		<!-- 加载界面 -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BAIJIKANG" Language="zh_Hans_CN">
+			<Text>白吉康，举起酒杯吧！你对知识与信仰的强烈渴望是上天赐予的礼物。如能让人民幸福安康，便能激励他们创造伟业。你将带领人民走上康庄大道，用自己的聪明才智给国家带来光明而自由的未来。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
