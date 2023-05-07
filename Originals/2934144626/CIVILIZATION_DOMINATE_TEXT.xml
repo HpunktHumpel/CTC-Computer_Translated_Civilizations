@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- CIVILIZATION_DOMINATE_TEXT -->
+<!-- Author: 黑猫 -->
+<!-- DateCreated: 1/30/2023 6:58:54 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE" Language="zh_Hans_CN">
+			<Text>支配剧场</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_LOCATION" Language="zh_Hans_CN">
+			<Text>位置</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOMINATE_LOCATION" Language="zh_Hans_CN">
+			<Text>虚数空间</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_SIZE" Language="zh_Hans_CN">
+			<Text>规模</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOMINATE_SIZE" Language="zh_Hans_CN">
+			<Text>人心的黑暗有多大，支配剧场就有多大</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_POPULATION" Language="zh_Hans_CN">
+			<Text>人口</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOMINATE_POPULATION" Language="zh_Hans_CN">
+			<Text>一千（大概）</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_CAPITAL" Language="zh_Hans_CN">
+			<Text>首都</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DOMINATE_CAPITAL" Language="zh_Hans_CN">
+			<Text>支配剧场</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DOMINATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>邀您！共沉沦！[NewLine]人偶击杀单位会为文明提供10张演出票，达到100/300/600/1000的里程碑将会获得一个总督头衔并对除人偶外的单位施加不同的负面效果[NewLine]（空）/-3[ICON_STRENGTH]战斗力，-25%经验获取/-4[ICON_STRENGTH]战斗力，-1[ICON_RANGED]射程-1视野/-6[ICON_STRENGTH]战斗力，-1[ICON_MOVEMENT]移动力（具体阶段可根据首都名称了解）[NewLine]并且将解锁相应的“人偶·行动”项目，完成后根据当前装备的黑暗政策卡对其他所有文明施加永久性的负面效果[NewLine]修行制度：其他文明-5%/-8%/-12%/-20%[ICON_CULTURE]文化产出[NewLine]迟暮之勇：所有单位立即受到15/20/25/30伤害，（空）/无法在敌境恢复生命值/无法在中立地界恢复生命值/前者兼有并每次战斗扣除5生命值[NewLine]宗教审讯：其他文明-5%/-8%/-12%/-20%[ICON_SCIENCE]科技产出[NewLine]孤立主义：生产开拓者和建造者-10%/-15%/-20%/-25%[ICON_PRODUCTION]生产力[NewLine]私掠许可证：贸易路线收益-5%/-8%/-12%/-20%[NewLine]敛财大亨：大于10/7/4/0[ICON_Citizen]人口的城市-1[ICON_Amenities]宜居度[NewLine]精兵政策：单位晋升所需[ICON_GOLD]金币+100%/敌境单位维护费+1/受伤单位维护费+1/所有单位维护费+1[NewLine]集体主义：获取的[ICON_GreatPerson]伟人点数-5%/-8%/-12%/-20%[NewLine]无赖国家：每回合-1/-2/-3/-4影响力点数[NewLine]权力归花儿：生产单位[ICON_PRODUCTION]生产力-5%/-7%/-10%/-13%，购买单位所需[ICON_GOLD]金币+10%/+15%/+20%/+35%[NewLine]网络战：军事单位[ICON_PRODUCTION]生产力-10%/-15%/-20%/-25%[NewLine]自动化劳动力：使得叛乱城邦跳过自由城邦环节（自身），所有城市每回合-1/-2/-3/-4忠诚度，大于（空）/（空）/7/4[ICON_Citizen]人口的城市-1[ICON_Amenities]宜居度[NewLine]抹黑行动：其他文明[ICON_SCIENCE]科技[ICON_CULTURE]文化-2%/-4%/-6%/-13%</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DOMINATE_NAME" Language="zh_Hans_CN">
+			<Text>「支配剧场」演出票</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOMINATE_MALE_1" Language="zh_Hans_CN">
+			<Text>千古歌</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOMINATE_MALE_2" Language="zh_Hans_CN">
+			<Text>别来虚数天了</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOMINATE_MALE_3" Language="zh_Hans_CN">
+			<Text>AAA猫猫侠代购</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOMINATE_MALE_4" Language="zh_Hans_CN">
+			<Text>约翰·多伊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOMINATE_FEMALE_1" Language="zh_Hans_CN">
+			<Text>观子</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOMINATE_FEMALE_2" Language="zh_Hans_CN">
+			<Text>布伦达·吉尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOMINATE_FEMALE_3" Language="zh_Hans_CN">
+			<Text>米拉·里默</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DOMINATE_FEMALE_4" Language="zh_Hans_CN">
+			<Text>劳拉·斯图尔特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_1" Language="zh_Hans_CN">
+			<Text>序幕</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_2" Language="zh_Hans_CN">
+			<Text>第一场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_3" Language="zh_Hans_CN">
+			<Text>第二场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_4" Language="zh_Hans_CN">
+			<Text>第三场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_5" Language="zh_Hans_CN">
+			<Text>第四场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_6" Language="zh_Hans_CN">
+			<Text>第五场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_7" Language="zh_Hans_CN">
+			<Text>第六场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_8" Language="zh_Hans_CN">
+			<Text>第七场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_9" Language="zh_Hans_CN">
+			<Text>第八场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_10" Language="zh_Hans_CN">
+			<Text>第九场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_11" Language="zh_Hans_CN">
+			<Text>第十场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_12" Language="zh_Hans_CN">
+			<Text>第十一场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_13" Language="zh_Hans_CN">
+			<Text>第十二场</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOMINATE_14" Language="zh_Hans_CN">
+			<Text>第十三场</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOMINATE_NAME" Language="zh_Hans_CN">
+			<Text>支配剧场</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOMINATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支配剧场</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DOMINATE_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>永远的</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DOMINATE_MAGISTRATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>欢迎来到！支配剧场！[NewLine]建造城市时会提供一个人偶并为所有人偶+7经验[NewLine]所有单位能够献祭给支配之律者[NewLine]支配剧场在使用黑暗政策卡时，会将其负面效果同时施加给其他玩家，并把所有的外交槽转化为通用槽</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DOMINATE_MAGISTRATE_NAME" Language="zh_Hans_CN">
+			<Text>一人的剧场，千人的舞台</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_DOMINATE_MAGISTRATE_NAME" Language="zh_Hans_CN">
+			<Text>人偶·审判官</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOMINATE_IMAGE_NAME" Language="zh_Hans_CN">
+			<Text>人偶·刃</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOMINATE_IMAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无限增殖的可怖人偶，周身三格内每有一个人偶将为自身提供+2[ICON_STRENGTH]战斗力[NewLine]晋升时为所有人偶+1[ICON_STRENGTH]战斗力(存在时代上限)，并为其他人偶+1经验值，并使得时代分-1[NewLine]击杀单位会交替出现“为所有人偶恢复13生命值，+7经验”和“降低被杀单位文明1时代分，在原地创建一个同类型人偶”[NewLine]获得50%的夹击加成，击杀单位将扣除自身1点时代分</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOMINATE_IMAGE_RANGED_NAME" Language="zh_Hans_CN">
+			<Text>人偶·炮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOMINATE_IMAGE_RANGED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无限增殖的可怖人偶，周身三格内每有一个人偶将为自身提供+2[ICON_STRENGTH]战斗力[NewLine]晋升时为所有人偶+1[ICON_STRENGTH]战斗力(存在时代上限)，并为其他人偶+1经验值，并使得时代分-1[NewLine]击杀单位会交替出现“为所有人偶恢复13生命值，+7经验”和“降低被杀单位文明1时代分，在原地创建一个同类型人偶”[NewLine]获得50%的夹击加成，击杀单位将扣除自身1点时代分</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_QUOTE" Language="zh_Hans_CN">
+			<Text>面包屑洒在石头路，通往森林的糖果屋。欢迎！欢迎！</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DOMINATE_MAGISTRATE_UNIT_NAME" Language="zh_Hans_CN">
+			<Text>人偶</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DOMINATE_MAGISTRATE_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无限增殖的可怖人偶。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_DOMINATE_MAGISTRATE" Language="zh_Hans_CN">
+			<Text>通知，通知：请全体注意，本通知宣布，麻雀将受审判，在这次的法庭。</Text>
+		</Replace>
+		<Replace Tag="LOC_DOMINATE_IMAGE_ADJUST_STRENGTH" Language="zh_Hans_CN">
+			<Text>堆叠的绝望：人偶的诞生使其+1[ICON_STRENGTH]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_WUHEZHIZHONG_ADJUST_STRENGTH" Language="zh_Hans_CN">
+			<Text>堆叠的绝望：人偶的诞生使其+2[ICON_STRENGTH]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_DOMINATE_IMAGE_ATTACH_STRENGTH" Language="zh_Hans_CN">
+			<Text>支配：三格内的每个人偶将为自身提供+2[ICON_STRENGTH]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_WUHEZHIZHONG_STRENGTH" Language="zh_Hans_CN">
+			<Text>支配：为人偶提供+10[ICON_STRENGTH]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_1_STRENGTH" Language="zh_Hans_CN">
+			<Text>攻略研习：人偶的脑子表示已经会玩崩坏3rd了，+5[ICON_STRENGTH]战斗力，+1[ICON_MOVEMENT]移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_DOMINATE_IMAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>被支配：三格内的每个人偶将为自身提供+2[ICON_STRENGTH]战斗力[NewLine]人偶网络：人偶晋升时会为所有人偶+1经验值，回复13点生命值,-1时代分，获得+50%的夹击加成</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_DOMINATE_IMAGE_WUHEZHIZHONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支配：为三格的人偶提供+15[ICON_STRENGTH]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOMINATE_IMAGE_WUHEZHIZHONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>人偶的最终之作，唯有世间沉入最深邃的黑暗才会诞生，能为所有人偶提供巨额的+10[ICON_STRENGTH]战斗力加成与额外的1点[ICON_MOVEMENT]移动力以及50%的额外经验</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOMINATE_IMAGE_WUHEZHIZHONG_NAME" Language="zh_Hans_CN">
+			<Text>支配之律者·乌合之众</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_DOMINATE_IMAGE_NAME" Language="zh_Hans_CN">
+			<Text>人偶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_1_NAME" Language="zh_Hans_CN">
+			<Text>攻略研习</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>人偶的脑子表示已经会玩崩坏3rd了，+5[ICON_STRENGTH]战斗力，+1[ICON_MOVEMENT]移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_2_NAME" Language="zh_Hans_CN">
+			<Text>操作训练</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>人偶的手觉得还得再练练，获得+1攻击次数</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_3_NAME" Language="zh_Hans_CN">
+			<Text>攻略制作</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>这是操控方向，这是攻击键，这是闪避键，你已经学会怎么玩崩坏3rd啦，为所有城市提供1+1%的[ICON_SCIENCE]科技值产出</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_4_NAME" Language="zh_Hans_CN">
+			<Text>剧情赏析</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>快来玩崩坏3rd吧，剧情可甜了，为所有城市提供1+1%的[ICON_CULTURE]文化值产出</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_5_NAME" Language="zh_Hans_CN">
+			<Text>爱门</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_5_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>爱门（合十），为所有城市提供1+2%的[ICON_FAITH]信仰值产出</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_6_NAME" Language="zh_Hans_CN">
+			<Text>水帖</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DOMINATE_IMAGE_6_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>摸鱼才是第一生产力！（震声），为所有城市提供1+1%的[ICON_PRODUCTION]生产力产出</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_DIU_NAME" Language="zh_Hans_CN">
+			<Text>铥</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_DIU_TITLE" Language="zh_Hans_CN">
+			<Text>至高无上的版务</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_DIU_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>铥</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_DIU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你们别骂米哈游了，要骂就骂我吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_1_NAME" Language="zh_Hans_CN">
+			<Text>铥门</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>能够使用信仰购买人偶；铥不会受到间谍陷害；所任城市无视宗教压力[NewLine]圣地提供+2[ICON_FAITH]信仰值，为人偶解锁铥的祝福</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_2_NAME" Language="zh_Hans_CN">
+			<Text>公</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>学院的相邻科技值产出将额外提供等量的信仰值产出，学院提供+2[ICON_SCIENCE]科技值[NewLine]，为人偶解锁铥的教导</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_3_NAME" Language="zh_Hans_CN">
+			<Text>鸡</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>商业中心的相邻金币产出将额外提供等量的信仰值产出，商业中心提供+2[ICON_GOLD]金币[NewLine]，为人偶解锁铥的馈赠</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_4_NAME" Language="zh_Hans_CN">
+			<Text>伴</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>剧院的相邻文化值值产出将额外提供等量的信仰值产出，剧院提供+2[ICON_CULTURE]文化值[NewLine]，为人偶解锁铥的启示</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_5_NAME" Language="zh_Hans_CN">
+			<Text>舞</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_5_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工业区的相邻生产力产出将额外提供等量的信仰值产出，工业区+2[ICON_PRODUCTION]生产力[NewLine]，为人偶解锁铥的鼓舞</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_6_NAME" Language="zh_Hans_CN">
+			<Text>召唤轨道炮！</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DIU_6_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>能够用信仰购买区域，为人偶解锁铥的饭局</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_1_NAME" Language="zh_Hans_CN">
+			<Text>人偶·行动·起</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_1_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>人偶·行动·起</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_2_NAME" Language="zh_Hans_CN">
+			<Text>人偶·行动·承</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_2_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>人偶·行动·承</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_3_NAME" Language="zh_Hans_CN">
+			<Text>人偶·行动·转</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_3_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>人偶·行动·转</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_4_NAME" Language="zh_Hans_CN">
+			<Text>人偶·行动·合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_4_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>人偶·行动·合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOMINATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>人偶们各拿主意去做自己想做的事。[NewLine]“小孩被抢了棒棒糖，国家间发生武装冲突，总之，都是我们的功劳。”</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_DIU_FAITH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铥的祝福：晋升后为所有城市提供2%[ICON_FAITH]信仰值(存在时代上限)，存在时为圣地提供+5%的相邻产出</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIU_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铥的馈赠：晋升后为所有城市提供2%[ICON_GOLD]金币(存在时代上限)，存在时为商业中心提供+5%的相邻产出</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIU_PRODUCTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铥的鼓舞：晋升后为所有城市提供1%[ICON_PRODUCTION]生产力(存在时代上限)，存在时为工业区提供+5%的相邻产出</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIU_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铥的教导：晋升后为所有城市提供1%[ICON_SCIENCE]科技值(存在时代上限)，存在时为学院提供+5%的相邻产出</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIU_CULTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铥的启示：晋升后为所有城市提供1%[ICON_CULTURE]文化值(存在时代上限)，存在时为剧院提供+5%的相邻产出</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIU_FOOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铥的饭局：晋升后为所有城市提供2%[ICON_FOOD]食物(存在时代上限)</Text>
+		</Replace>
+		
+		<Replace Tag="IMAGE_STRENGTH_DOWN_3" Language="zh_Hans_CN">
+			<Text>「线」：金色的线让人动弹不得，-3[ICON_STRENGTH]战斗力</Text>
+		</Replace>
+		<Replace Tag="IMAGE_STRENGTH_DOWN_4" Language="zh_Hans_CN">
+			<Text>「线」：金色的线让人动弹不得，-4[ICON_STRENGTH]战斗力</Text>
+		</Replace>
+		<Replace Tag="IMAGE_STRENGTH_DOWN_6" Language="zh_Hans_CN">
+			<Text>「线」：金色的线让人动弹不得，-6[ICON_STRENGTH]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_IMAGE_POINTS_NAME" Language="zh_Hans_CN">
+			<Text>「演出票」</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMAGEActionGrid" Language="zh_Hans_CN">
+			<Text>献祭[NewLine]倘若并非人偶便根据其战斗力获得额外信仰,若是非战斗单位则创建一个人偶[NewLine]若是人偶便根据已有晋升获得以下效果[NewLine]攻略研习：为所有人偶+1[ICON_STRENGTH]战斗力(上限为5),1经验，恢复13生命值[NewLine]操作训练：重置所有人偶的移动力和攻击次数[NewLine]攻略制作/剧情解析：完成当前科技/市政10+10%的进度[NewLine]爱门：为所有城市+1[ICON_FAITH]信仰产出，对周围单位造成25伤害[NewLine]水帖：为所有城市+1[ICON_PRODUCTION]生产力，钻研如何制作乌合之众</Text>
+		</Replace>
+		
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>欢迎来到！支配剧场！</Text>
+		</Row>
+		<!-- 领袖外交信息: 当你对这个AI宣战 -->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>毁灭一切的是——人类自己的恶意</Text>
+		</Row>
+		<!-- 领袖外交信息: 当这个AI向你宣战 -->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>美好存在于人们心中，这些虚构的就很美好</Text>
+		</Row>
+		<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>我的朋友，想要试试这些线吗？</Text>
+		</Row>
+		<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>你这样的大好人一定会在剧场拿到最多的掌声哦。</Text>
+		</Row>
+		<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>无意义的挣扎。</Text>
+		</Row>
+		<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>无意义的生命。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当AI被其他AI击败会说这些话 -->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>我们是千人的意志，千人的绝望。[NewLine]绝望不会消失，我们不会消失。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当你击败AI他会说这些话-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>你们的理想不可能实现，世界，从来都不美好</Text>
+		</Row>
+		<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>当然~当然~我们的朋友，我们情比金坚不是吗？</Text>
+		</Row>
+		<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>哎呀哎呀，您还不在剧场的欢迎名单里哦。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>究竟是鱼儿咬上了钩，还是钩子亲上了鱼</Text>
+		</Row>
+		<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>哈哈哈，我的朋友，特等席随时等候您的到访。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>真遗憾啊，那么就期待下一次在舞台上相遇了。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当AI同意你的代表团-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>放心吧，他们一定会爱上剧场的表演永不离开的。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>他们似乎不适合成为我们的观众啊。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>您看看，这些金色的线可是我最好的宝贝呀。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当你公开指责AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>哎呀哎呀，随便你啦。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当AI公开指责你-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>果然呢，人心中的恶意永远都藏不住。（谴责你）</Text>
+		</Row>
+		<!-- 领袖外交信息: 初次见面，玩家提供最近的城市位置-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>哎呀真是大胆啊，我们可以去为您的国民表演一出好戏吗？</Text>
+		</Row>
+		<!-- 领袖外交信息: 初次见面，提供最近城市位置-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>有兴趣看看剧场的表演吗？我们随时欢迎哦。</Text>
+		</Row>
+		<!-- 领袖外交信息: 当你同意交换首都信息时-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>可以更多一点哦，我们很欢迎陌生人的。</Text>
+		</Row>
+		<!-- 领袖外交信息: 一般打招呼用-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>今天也是无事可做的一天啊。</Text>
+		</Row>
+		<!-- 领袖外交信息: AI允许你同盟-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>人类是由什么做的？虚伪和软弱，还有丑陋的灵魂。[NewLine]人偶是由什么做的？齿轮和关节，还有松木的香气。[NewLine]人偶远比人类可靠~</Text>
+		</Row>
+		<!-- 领袖外交信息: AI同意求和-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>看看这遍地哀嚎，我相信你能给出更好的礼物哦。</Text>
+		</Row>
+		<!-- 领袖外交信息: AI拒绝求和-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>可是你的国民看起来还挺幸福的嘛。</Text>
+		</Row>
+		<!--领袖外交信息: AI求和-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>求求你啦，我不过是一个普通的人偶罢了。</Text>
+		</Row>
+		<!-- 领袖外交信息: AI答应你通过他的领地-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>人多才热闹嘛，欢迎您的到访哦。</Text>
+		</Row>
+		<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>哈哈哈，真不好意思，现在是剧场的闭幕时间。</Text>
+		</Row>
+		<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>我的朋友，他们还可以让您看不少好戏哦。</Text>
+		</Row>
+		<!--领袖外交信息:要求移开边境军队-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>灾难没有击垮我们，身为人类的你想要做到吗？</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>再看看嘛，这样精妙绝伦的人偶[NewLine]拒绝的话不可惜吗？</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DOMINATE_MAGISTRATE_ANY" Language="zh_Hans_CN">
+			<Text>相信我，这些礼物一定是个大惊喜。</Text>
+		</Row>
+
+		<!--单位百科-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>人偶</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>支配之律者的衍生物，被诱导出内心中最深沉黑暗的人类。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>"创造我们的是——</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>毁灭一切的是——</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>人类自己的恶意！"</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_RANGED_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>人偶</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_RANGED_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>支配之律者的衍生物，被诱导出内心中最深沉黑暗的人类，不过他们换上了炮。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_RANGED_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>"你无法改变人心中的恶意，无法，改变这个丑陋的世界。"</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_WUHEZHIZHONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>支配之律者·乌合之众</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_WUHEZHIZHONG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>夺取了识之律者、理之律者权能，集合了一千个诡异人偶力量所构成的产物。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOMINATE_IMAGE_WUHEZHIZHONG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>"你们的理想不可能实现，因为世界，从来都不美好！"</Text>
+		</Row>
+
+		<!--晋升百科-->
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_1_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>攻略研习</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_1_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>人偶都是各行各业的优秀人才，尤其是在游玩崩坏3rd上天赋异禀（大概</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_2_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>操作训练</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_2_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>再强的天赋想出分也得练，给我练！不准开挂！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_3_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>攻略制作</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_3_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>人偶们总是无私分享自己的心得体会的，孤独求败！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_4_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>剧情解读</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_4_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>优秀的人偶要学会自己找刀吃，伥门</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_5_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>爱门</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_5_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>爱门有什么需要解释的吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_5_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>爱门</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_6_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>水帖</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_DOMINATE_IMAGE_6_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>交流得新知，交流创圣经</Text>
+		</Replace>
+		
+		<!--文明百科-->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOMINATE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>支配剧场</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOMINATE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>“这里是支配的剧场，千人的舞台！”</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOMINATE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>“绝望不会消失，我们不会消失！”</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOMINATE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>“金色的线，已经缠上你了！”</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOMINATE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>——实际上都是欢快的崩版老哥</Text>
+		</Replace>
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>人偶·审判官</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>人类文明的主审官</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>即便其他人偶并不承认他</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>"凭什么你在上面！给我下来！"</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>"这是哪？你是谁?"</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>"什么时候散会?"</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>人偶们的领头羊，人偶们的众望所归，人偶们的……</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DOMINATE_MAGISTRATE_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>支配剧场是一个充满进攻性的文明，可以通过搭配不同的黑暗政策卡执行人偶行动对其他文明造成极大的威胁，其特色单位人偶本身也是极其缠人的玩意儿。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

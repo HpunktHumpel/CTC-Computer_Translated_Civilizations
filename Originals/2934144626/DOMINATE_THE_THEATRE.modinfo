@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1f56ab56-f9fe-49de-9023-7533e1ffe9cc" version="1">
+  <Properties>
+    <Name>永不落幕的支配剧场</Name>
+    <Description>永不落幕的支配剧场</Description>
+    <Created>1678327687</Created>
+    <Teaser>永不落幕的支配剧场</Teaser>
+    <Authors>人偶</Authors>
+    <SpecialThanks>Molun、铥、懒羊羊……</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateColors id="DM_COLOR">
+      <File>CIVILIZATION_DOMINATE_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="DM_CONFIG">
+      <File>CIVILIZATION_DOMINATE_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="DM_TEXT">
+      <File>CIVILIZATION_DOMINATE_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="DM_ICON">
+      <File>CIVILIZATION_DOMINATE_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="DM_ART">
+      <File>永不落幕的支配剧场.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DM_DATE">
+      <File>CIVILIZATION_DOMINATE.xml</File>
+      <File>DOMINATE_ATTACH.xml</File>
+      <File>DOMINATE_LEADER.xml</File>
+      <File>DOMINATE_LEADER_TRAIT.xml</File>
+      <File>DOMINATE_MODSTRING.xml</File>
+      <File>DOMINATE_UNIT.xml</File>
+      <File>DOMINATE_UNIT_ABILITY.xml</File>
+      <File>DOMINATE_UNIT_PROMOTION.xml</File>
+      <File>GOVERNOR_DIU.xml</File>
+      <File>GOVERNOR_DIU_MODIFIER.xml</File>
+      <File>CIVILIZATION_DOMINATE_SETS.xml</File>
+      <File>CIVILIZATION_DOMINATE_TRAIT.xml</File>
+      <File>CIVILIZATION_DOMINATE_POLICY.xml</File>
+      <File>DOMINATE_PROJECT.xml</File>
+      <File>DOMINATE_POLICY_ATTACH.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="DM_IN_TEXT">
+      <File>CIVILIZATION_DOMINATE_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="DM_IN_ICON">
+      <File>CIVILIZATION_DOMINATE_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="DM_IN_COLOR">
+      <File>CIVILIZATION_DOMINATE_COLOR.xml</File>
+    </UpdateColors>
+    <AddGameplayScripts id="DM_LUA">
+      <File>CIVILIZATION_DOMINATE.lua</File>
+      <File>IMAGE_LOST_GAMEPLAY.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="DM_MUSIC">
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/DM_SOUNDBACKS.txt</File>
+      <File>Platforms/Windows/Audio/DM_SOUNDBACKS.bnk</File>
+      <File>Platforms/Windows/Audio/DM_SOUND.ini</File>
+    </UpdateAudio>
+    <UpdateArt id="DM_IN_ART">
+      <File>永不落幕的支配剧场.dep</File>
+    </UpdateArt>
+    <AddUserInterfaces id="DM_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>IMAGE_LOST.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>CIVILIZATION_DOMINATE.lua</File>
+    <File>CIVILIZATION_DOMINATE.xml</File>
+    <File>CIVILIZATION_DOMINATE_COLOR.xml</File>
+    <File>CIVILIZATION_DOMINATE_CONFIG.xml</File>
+    <File>CIVILIZATION_DOMINATE_ICON.xml</File>
+    <File>CIVILIZATION_DOMINATE_POLICY.xml</File>
+    <File>CIVILIZATION_DOMINATE_SETS.xml</File>
+    <File>CIVILIZATION_DOMINATE_TEXT.xml</File>
+    <File>CIVILIZATION_DOMINATE_TRAIT.xml</File>
+    <File>DOMINATE_ATTACH.xml</File>
+    <File>DOMINATE_LEADER.xml</File>
+    <File>DOMINATE_LEADER_TRAIT.xml</File>
+    <File>DOMINATE_MODSTRING.xml</File>
+    <File>DOMINATE_POLICY_ATTACH.xml</File>
+    <File>DOMINATE_PROJECT.xml</File>
+    <File>DOMINATE_UNIT.xml</File>
+    <File>DOMINATE_UNIT_ABILITY.xml</File>
+    <File>DOMINATE_UNIT_PROMOTION.xml</File>
+    <File>GOVERNOR_DIU.xml</File>
+    <File>GOVERNOR_DIU_MODIFIER.xml</File>
+    <File>IMAGE_LOST.lua</File>
+    <File>IMAGE_LOST.xml</File>
+    <File>IMAGE_LOST_GAMEPLAY.lua</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_DOMINATE.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MODE_FOR_DOMINATE.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AnimatedFlag_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ICON_FOR_IMAGE_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ICON_FOR_IMAGE_RANGED_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ICON_FOR_IMAGE_WUHEZHIZHONG_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Iron_M</File>
+    <File>Platforms/Windows/Audio/1052857619.wem</File>
+    <File>Platforms/Windows/Audio/232623311.wem</File>
+    <File>Platforms/Windows/Audio/366945156.wem</File>
+    <File>Platforms/Windows/Audio/3935305.wem</File>
+    <File>Platforms/Windows/Audio/443747659.wem</File>
+    <File>Platforms/Windows/Audio/458870919.wem</File>
+    <File>Platforms/Windows/Audio/528403065.wem</File>
+    <File>Platforms/Windows/Audio/627241031.wem</File>
+    <File>Platforms/Windows/Audio/639925676.wem</File>
+    <File>Platforms/Windows/Audio/818766094.wem</File>
+    <File>Platforms/Windows/Audio/DM_SOUND.ini</File>
+    <File>Platforms/Windows/Audio/DM_SOUNDBACKS.bnk</File>
+    <File>Platforms/Windows/Audio/DM_SOUNDBACKS.txt</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_DOMINATE.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MODE_FOR_DOMINATE.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AnimatedFlag_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ICON_FOR_IMAGE_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ICON_FOR_IMAGE_RANGED_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ICON_FOR_IMAGE_WUHEZHIZHONG_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Iron_M</File>
+    <File>永不落幕的支配剧场.dep</File>
+  </Files>
+</Mod>
