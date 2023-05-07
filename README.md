@@ -52,6 +52,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2956947156](https://steamcommunity.com/sharedfiles/filedetails/?id=2956947156) | Touhou东方Project 琪露诺 | Touhou Oriental Project |
 | [2957344985](https://steamcommunity.com/sharedfiles/filedetails/?id=2957344985) | 逆熵圣女·布洛妮娅·扎伊切克 | Anti-Entropy Saint Bronya Zajcek |
 | [2958957078](https://steamcommunity.com/sharedfiles/filedetails/?id=2958957078) | Ophidy's Karotine 荒漠长河卡洛廷 | Ophidy's Karotine |
+| [2962085297](https://steamcommunity.com/sharedfiles/filedetails/?id=2962085297) | 张禹领导的Addis帝国 | The Addis Empire led by Zhang Yu |
 | [2964796539](https://steamcommunity.com/sharedfiles/filedetails/?id=2964796539) | Northern Union of Blue Line | - |
 | [2965547065](https://steamcommunity.com/sharedfiles/filedetails/?id=2965547065) | [TOU HOU]秘密结社-似梦幻想乡的启迪 | [TOU HOU] Secret Association - Enlightenment of Dream-like Fantasy Town |
 | [2966535122](https://steamcommunity.com/sharedfiles/filedetails/?id=2966535122) | [GS] 鍜曞挄鐜嬪浗(EN/CN) | Shu Shu Qiao Qiu Qiao |

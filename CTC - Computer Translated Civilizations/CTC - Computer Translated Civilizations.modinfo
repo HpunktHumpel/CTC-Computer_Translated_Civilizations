@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1683477670</Created>
+    <Created>1683481529</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -260,6 +260,13 @@
     </Criteria>
     <Criteria id="2967044884_InGame">
       <ModInUse>7a69bda1-496e-4859-8b5c-f14850d4e1c2</ModInUse>
+    </Criteria>
+    <!-- 2962085297 - 张禹领导的Addis帝国-->
+    <Criteria id="2962085297_FrontEnd">
+      <ModIsEnabled>4fd3f709-27f2-4c6c-83d2-91a792d6262d</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2962085297_InGame">
+      <ModInUse>4fd3f709-27f2-4c6c-83d2-91a792d6262d</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -846,6 +853,23 @@
       <File>2967044884/frontend_pl_PL.xml</File>
       <File>2967044884/frontend_ko_KR.xml</File>
       <File>2967044884/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2962085297 - 张禹领导的Addis帝国-->
+    <UpdateText id="2962085297_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2962085297_FrontEnd</Criteria>
+      <File>2962085297/frontend_en_US.xml</File>
+      <File>2962085297/frontend_fr_FR.xml</File>
+      <File>2962085297/frontend_de_DE.xml</File>
+      <File>2962085297/frontend_it_IT.xml</File>
+      <File>2962085297/frontend_es_ES.xml</File>
+      <File>2962085297/frontend_ja_JP.xml</File>
+      <File>2962085297/frontend_ru_RU.xml</File>
+      <File>2962085297/frontend_pl_PL.xml</File>
+      <File>2962085297/frontend_ko_KR.xml</File>
+      <File>2962085297/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -1443,6 +1467,23 @@
       <File>2967044884/ingame_ko_KR.xml</File>
       <File>2967044884/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2962085297 - 张禹领导的Addis帝国-->
+    <UpdateText id="2962085297_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2962085297_InGame</Criteria>
+      <File>2962085297/ingame_en_US.xml</File>
+      <File>2962085297/ingame_fr_FR.xml</File>
+      <File>2962085297/ingame_de_DE.xml</File>
+      <File>2962085297/ingame_it_IT.xml</File>
+      <File>2962085297/ingame_es_ES.xml</File>
+      <File>2962085297/ingame_ja_JP.xml</File>
+      <File>2962085297/ingame_ru_RU.xml</File>
+      <File>2962085297/ingame_pl_PL.xml</File>
+      <File>2962085297/ingame_ko_KR.xml</File>
+      <File>2962085297/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -1965,6 +2006,26 @@
     <File>2958957078/ingame_pl_PL.xml</File>
     <File>2958957078/ingame_ru_RU.xml</File>
     <File>2958957078/ingame_zh_Hant_HK.xml</File>
+    <File>2962085297/frontend_de_DE.xml</File>
+    <File>2962085297/frontend_en_US.xml</File>
+    <File>2962085297/frontend_es_ES.xml</File>
+    <File>2962085297/frontend_fr_FR.xml</File>
+    <File>2962085297/frontend_it_IT.xml</File>
+    <File>2962085297/frontend_ja_JP.xml</File>
+    <File>2962085297/frontend_ko_KR.xml</File>
+    <File>2962085297/frontend_pl_PL.xml</File>
+    <File>2962085297/frontend_ru_RU.xml</File>
+    <File>2962085297/frontend_zh_Hant_HK.xml</File>
+    <File>2962085297/ingame_de_DE.xml</File>
+    <File>2962085297/ingame_en_US.xml</File>
+    <File>2962085297/ingame_es_ES.xml</File>
+    <File>2962085297/ingame_fr_FR.xml</File>
+    <File>2962085297/ingame_it_IT.xml</File>
+    <File>2962085297/ingame_ja_JP.xml</File>
+    <File>2962085297/ingame_ko_KR.xml</File>
+    <File>2962085297/ingame_pl_PL.xml</File>
+    <File>2962085297/ingame_ru_RU.xml</File>
+    <File>2962085297/ingame_zh_Hant_HK.xml</File>
     <File>2964796539/frontend_de_DE.xml</File>
     <File>2964796539/frontend_en_US.xml</File>
     <File>2964796539/frontend_es_ES.xml</File>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Config_zh_Hans_CN -->
+<!-- Author: HP -->
+<!-- DateCreated: 2/13/2023 8:24:26 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 阵营名称 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_ADDIS_NAME"
+			Text="Addis"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_ADDIS_DESCRIPTION"
+			Text="Addis帝国"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_ADDIS_ADJECTIVE"
+			Text="Addis的"/>
+		<!-- 阵营设定 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_ALL_HOME_NAME"
+			Text="四海为家"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_ALL_HOME_DESCRIPTION"
+			Text="忽略科技要求显示 [ICON_RESOURCE_Iron] 铁资源。无法生产开拓者，每当您清理一个蛮族哨站时，奖励一个开拓者。每征服一座城市获得+1 [ICON_TradeRoute] 贸易路线容量。首次建造兵工厂后获得“制图学”科技。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_RUJIA_NAME"
+			Text="民宿"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_RUJIA_DESCRIPTION"
+			Text="代替军营但非特色区域，建造费用更低。+1 [ICON_HOUSING] 住房。从此区域生产的抗骑兵单位+1 [ICON_Movement] 移动力。为所在城市每回合+3忠诚度。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_JLZ_NAME"
+			Text="劫掠者"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_JLZ_DESCRIPTION"
+			Text="张禹中世纪特色抗骑兵单位，取代长矛兵。在除您首都所在大陆以外的大陆作战时，+10 [ICON_Strength] 战斗力。可消耗1 [ICON_Movement] 移动力进行掠夺。升级为枪刺与射击方阵。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_FH_NAME"
+			Text="兵痞"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_FH_DESCRIPTION"
+			Text="Addis古典时期特色抗骑兵单位，取代枪兵，战斗力更强但维护费用更高。与蛮族作战时+10 [ICON_Strength] 战斗力。攻击区域防御时+5 [ICON_Strength] 战斗力。升级为劫掠者。"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_ZHANGYU_NAME"
+			Text="张禹"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ZHANGYU_NAME"
+			Text="精打细算"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ZHANGYU_DESCRIPTION"
+			Text="征服一个城市后，所有3个单元格内的单位都能获得额外经验值。战斗单位每拥有一个晋升便额外+2 [ICON_Strength] 战斗力。与主要文明交战时战斗单位每回合 [ICON_Gold] 维护费用-1。"/>
+
+		<!-- 加载界面 -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ZHANGYU" Language="zh_Hans_CN">
+			<Text>张禹，优秀的领导者！在你看来，大军的强弱不在乎数量，而是战士的健壮与装备的精良！你麾下的兵痞不惧险阻，将战场上的敌人悉数击溃！而你放眼四海，勇敢的劫掠者们会在遥远的土地上为你带回捷报！不必在意旁人的蜚语和诋毁，你终将建成举世惊叹的宏伟帝国！</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

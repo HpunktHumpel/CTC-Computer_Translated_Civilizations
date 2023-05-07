@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4fd3f709-27f2-4c6c-83d2-91a792d6262d" version="1">
+  <Properties>
+    <Name>张禹领导的Addis帝国</Name>
+    <Description>张禹领导的Addis帝国
+包含领袖张禹和新的文明Addis</Description>
+    <Created>1681387287</Created>
+    <Teaser>张禹领导的Addis帝国
+包含领袖张禹和新的文明Addis</Teaser>
+    <Authors>Harvey</Authors>
+    <SpecialThanks>Addis</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Gamedata/Addis_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/Config_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon/Addis_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>张禹领导的Addis帝国.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>Gamedata/Addis_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Gamedata/Addis_Civilization.xml</File>
+      <File>Gamedata/Addis_Districts.xml</File>
+      <File>Gamedata/Addis_Expansion2.xml</File>
+      <File>Gamedata/Addis_Leaders.xml</File>
+      <File>Gamedata/Addis_Moment.xml</File>
+      <File>Gamedata/Addis_Units.xml</File>
+      <File>Gamedata/Addis_Colors.xml</File>
+      <File>Gamedata/Addis_GoodyHuts.xml</File>
+      <File>Gamedata/Addis_Modifiers.sql</File>
+      <File>Gamedata/Addis_UnitsAbilities.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/InGame_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon/Addis_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>张禹领导的Addis帝国.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>Gamedata/Addis_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Gamedata/Addis_Civilization.xml</File>
+    <File>Gamedata/Addis_Colors.xml</File>
+    <File>Gamedata/Addis_Config.xml</File>
+    <File>Gamedata/Addis_Districts.xml</File>
+    <File>Gamedata/Addis_Expansion2.xml</File>
+    <File>Gamedata/Addis_GoodyHuts.xml</File>
+    <File>Gamedata/Addis_Leaders.xml</File>
+    <File>Gamedata/Addis_Modifiers.sql</File>
+    <File>Gamedata/Addis_Moment.xml</File>
+    <File>Gamedata/Addis_Units.xml</File>
+    <File>Gamedata/Addis_UnitsAbilities.xml</File>
+    <File>Icon/Addis_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/AddisDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/AddisDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text/Config_zh_Hans_CN.xml</File>
+    <File>Text/InGame_zh_Hans_CN.xml</File>
+    <File>张禹领导的Addis帝国.dep</File>
+  </Files>
+</Mod>
