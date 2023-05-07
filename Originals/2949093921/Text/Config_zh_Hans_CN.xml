@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Config_zh_Hans_CN -->
+<!-- Author: HP -->
+<!-- DateCreated: 3/10/2023 10:49:04 AM -->
+<GameData>
+	<LocalizedText>
+		<!-- 阵营名称 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BELL_NAME"
+			Text="Bell"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BELL_DESCRIPTION"
+			Text="Bell王国"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BELL_ADJECTIVE"
+			Text="Bell的"/>
+		<!-- 阵营设定 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_BIAO_NAME"
+			Text="富甲一方"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_BIAO_DESCRIPTION"
+			Text="国际贸易路线目的地城市中每个特色区域和奢侈品资源都能为Bell +2 [ICON_Gold] 金币。银行和工厂分别提供Bell +1 [ICON_GreatMerchant] 大商人点数与+1 [ICON_GreatEngineer] 大工程师点数。开发 [ICON_RESOURCE_OIL] 石油资源的油井和海上石油钻机每回合额外+3 [ICON_RESOURCE_OIL] 石油资源积累。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_GAS_STATION_NAME"
+			Text="加油站"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_GAS_STATION_DESCRIPTION"
+			Text="+5 [ICON_Gold] 金币，+1 [ICON_HOUSING] 住房。每相邻一个战略资源+1 [ICON_SCIENCE] 科技。必须建在平坦地形上。为所在城市+2 [ICON_Power] 电力供给。无法建在另一座加油站旁。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_BUILDING_PUTIAN_FACTORY_NAME"
+			Text="莆田工坊"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_BUILDING_PUTIAN_FACTORY_DESCRIPTION"
+			Text="代替工作坊，提供与工业区的相邻加成等量的 [ICON_Gold] 金币。从此城开始的国际贸易路线+4 [ICON_Gold] 金币，国内贸易路线+2 [ICON_Production] 生产力。"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_M4_NAME"
+			Text="宝马M4"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_M4_DESCRIPTION"
+			Text="Bell现代特色轻骑兵单位，拥有更广视野。可用高额移动力护送平民或支援单位。可建造一座加油站。升级为直升飞机。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_ZHENGJUNBIAO_NAME"
+			Text="郑俊飚"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ZHENGJUNBIAO_NAME"
+			Text="财源滚滚"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ZHENGJUNBIAO_DESCRIPTION"
+			Text="用 [ICON_Gold] 金币购买单位和建筑时费用减少20%。当前政体中的一个军事政策槽位转换为经济政策槽位。建造商业中心和工业区的时间减半。"/>
+
+		<!-- 加载界面 -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ZHENGJUNBIAO" Language="zh_Hans_CN">
+			<Text>啊?</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

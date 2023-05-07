@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- InGame_zh_Hans_CN -->
+<!-- Author: HP -->
+<!-- DateCreated: 3/12/2023 9:20:46 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 阵营名称 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BELL_NAME"
+			Text="Bell"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BELL_DESCRIPTION"
+			Text="Bell王国"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BELL_ADJECTIVE"
+			Text="Bell的"/>
+		<!-- 阵营设定 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_BIAO_NAME"
+			Text="富甲一方"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_BIAO_DESCRIPTION"
+			Text="国际贸易路线目的地城市中每个特色区域和奢侈品资源都能为Bell +2 [ICON_Gold] 金币。银行和工厂分别提供Bell +1 [ICON_GreatMerchant] 大商人点数与+1 [ICON_GreatEngineer] 大工程师点数。开发 [ICON_RESOURCE_OIL] 石油资源的油井和海上石油钻机每回合额外+3 [ICON_RESOURCE_OIL] 石油资源积累。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_GAS_STATION_NAME"
+			Text="加油站"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_GAS_STATION_DESCRIPTION"
+			Text="+5 [ICON_Gold] 金币，+1 [ICON_HOUSING] 住房。每相邻一个战略资源+1 [ICON_SCIENCE] 科技。必须建在平坦地形上。为所在城市+2 [ICON_Power] 电力供给。无法建在另一座加油站旁。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_BUILDING_PUTIAN_FACTORY_NAME"
+			Text="莆田工坊"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_BUILDING_PUTIAN_FACTORY_DESCRIPTION"
+			Text="代替工作坊，提供与工业区的相邻加成等量的 [ICON_Gold] 金币。从此城开始的国际贸易路线+4 [ICON_Gold] 金币，国内贸易路线+2 [ICON_Production] 生产力。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_M4_NAME"
+			Text="宝马M4"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_M4_DESCRIPTION"
+			Text="Bell现代特色轻骑兵单位，拥有更广视野。可用高额移动力护送平民或支援单位。可建造一座加油站。升级为直升飞机。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_ZHENGJUNBIAO_NAME"
+			Text="郑俊飚"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ZHENGJUNBIAO_NAME"
+			Text="财源滚滚"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ZHENGJUNBIAO_DESCRIPTION"
+			Text="用 [ICON_Gold] 金币购买单位和建筑时费用减少20%。当前政体中的一个军事政策槽位转换为经济政策槽位。建造商业中心和工业区的时间减半。"/>
+
+		<!-- 加载界面 -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ZHENGJUNBIAO" Language="zh_Hans_CN">
+			<Text>啊? 我还要说些什么嘛？差不多得嘞！</Text>
+		</Replace>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_TITLE" Language="zh_Hans_CN">
+			<Text>郑俊飚</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_SUBTITLE" Language="zh_Hans_CN">
+			<Text>郑俊飚，祝财源滚滚！</Text>
+		</Row>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>郑俊飚，买就完了。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>反正就是买。</Text>
+		</Row>
+
+		<!-- 领袖百科-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>1。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>2。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>3。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>4。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>5。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>6。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>7。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>8。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>9。（本文纯属虚构）</Text>
+		</Row>
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>Bell文明是纯虚构文明。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在游玩Bell文明时，就是买。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>前期快速起商业中心。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>买。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>还是买。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>一直买。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ZHENGJUNBIAO_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>赢！</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_M4_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>M4，凑分用的。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_M4_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>M4没啥用。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_BUILDING_PUTIAN_FACTORY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>莆田工坊，买的支柱。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_BELL_LOCATION" Language="zh_Hans_CN">
+			<Text>背倚戴云山脉，面对台湾海峡。</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BELL_SIZE" Language="zh_Hans_CN">
+			<Text>陆地面积4200平方千米，海域面积1.1万平方公里。</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BELL_POPULATION" Language="zh_Hans_CN">
+			<Text>常住人口3210714</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BELL_CAPITAL" Language="zh_Hans_CN">
+			<Text>莆田</Text>
+		</Row>
+
+		<!-- 城市名称 -->
+		<Row Tag="LOC_CITY_NAME_PUTIAN" Language="zh_Hans_CN">
+			<Text>莆田</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHENGXIANGQU" Language="zh_Hans_CN">
+			<Text>城厢区</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HANJIANGQU" Language="zh_Hans_CN">
+			<Text>涵江区</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LICEHNGQU" Language="zh_Hans_CN">
+			<Text>荔城区</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIUYUQU" Language="zh_Hans_CN">
+			<Text>秀屿区</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIANYOUXIAN" Language="zh_Hans_CN">
+			<Text>仙游县</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIALIN" Language="zh_Hans_CN">
+			<Text>霞林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HANDONG" Language="zh_Hans_CN">
+			<Text>涵东</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZHENHAI" Language="zh_Hans_CN">
+			<Text>镇海</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WUSHIZHEN" Language="zh_Hans_CN">
+			<Text>笏石镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LICHENG" Language="zh_Hans_CN">
+			<Text>鲤城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEIZHOU" Language="zh_Hans_CN">
+			<Text>湄洲</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JIULONGGU" Language="zh_Hans_CN">
+			<Text>九龙谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MULANBO" Language="zh_Hans_CN">
+			<Text>木兰陂</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PUYANG" Language="zh_Hans_CN">
+			<Text>莆阳</Text>
+		</Row>
+		<!-- 市民名称 -->
+		<Row Tag="LOC_CITIZEN_BELL_MALE_1" Language="zh_Hans_CN">
+			<Text>飚哥</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MALE_2" Language="zh_Hans_CN">
+			<Text>小萌</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MALE_3" Language="zh_Hans_CN">
+			<Text>小啸</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MALE_4" Language="zh_Hans_CN">
+			<Text>小文</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MALE_5" Language="zh_Hans_CN">
+			<Text>小泽</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>小坤</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>小霖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>小毅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>小康</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>小盖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_FEMALE_1" Language="zh_Hans_CN">
+			<Text>大盖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_FEMALE_2" Language="zh_Hans_CN">
+			<Text>老盖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_FEMALE_3" Language="zh_Hans_CN">
+			<Text>小只盖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_FEMALE_4" Language="zh_Hans_CN">
+			<Text>大只盖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_FEMALE_5" Language="zh_Hans_CN">
+			<Text>老只盖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>半套</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>全套</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>嘟嘟</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>哔哔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_BELL_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>啵啵</Text>
+		</Row>
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZHENGJUNBIAO_QUOTE" Language="zh_Hans_CN">
+			<Text>啊？</Text>
+		</Row>
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>走走走，海底捞！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>啊！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>你好你好！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>求求你求求你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>啊————</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>啊？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>我派了军队过来，别客气别客气！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>谢谢你谢谢你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>谢谢你。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>请别客气，接受我们使团的礼物吧。我们带来了莆田鞋。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>啊？？？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>啊！！（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>你好，我叫郑俊飚。走，我请你去吃海底捞。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>我们附近有一座城市。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>谢谢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>健身吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
+			<Text>你好你好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>好人啊。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>算了吧你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>我请客？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>哎呦。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>哈哈。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>咦。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>妥妥帖帖。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>不不不不不不。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>你在哪？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>你那些军队是想干嘛？别这样别这样！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>哎呦！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>谢谢你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ZHENGJUNBIAO_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>不可以。</Text>
+		</Row>
+		<!--特色单位-->
+		<Row Tag="LOC_ABILITY_M4_NAME" Language="zh_Hans_CN">
+			<Text>宝马M4</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_M4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可建造一座加油站。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_M4_SHARED_MOVEMENT_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可用高额移动力护送平民或支援单位。</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LEHUO_NAME" Language="zh_Hans_CN">
+			<Text>乐活</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LEHUO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢维持高宜居度且收入为正的文明，讨厌宜居度低且收入为负的文明</Text>
+		</Row>
+		<Row Tag="AGENDA_LEHUO_WARNING" Language="zh_Hans_CN">
+			<Text>你不快乐</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_POSITIVE_INCOME" Language="zh_Hans_CN">
+			<Text>他们为你的正收入感到高兴</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_NEGATIVE_INCOME" Language="zh_Hans_CN">
+			<Text>为你的负收入感到悲哀</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_POSITIVE_INCOME" Language="zh_Hans_CN">
+			<Text>（你的每回合收入为正。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_NEGATIVE_INCOME" Language="zh_Hans_CN">
+			<Text>（你的每回合收入为负。）</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

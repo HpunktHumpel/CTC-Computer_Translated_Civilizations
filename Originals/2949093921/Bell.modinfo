@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1c022130-4660-4001-95d9-9337cf07cae7" version="1">
+  <Properties>
+    <Name>郑俊飚领导的Bell王国</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1681464712</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>HP</Authors>
+    <SpecialThanks>Bell</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Gamedata/Bell_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/Config_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon/Bell_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>郑俊飚领导的Bell文明.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>Gamedata/Bell_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Gamedata/Bell_Buildings.xml</File>
+      <File>Gamedata/Bell_Civilization.xml</File>
+      <File>Gamedata/Bell_Expansion2.xml</File>
+      <File>Gamedata/Bell_Improvements.xml</File>
+      <File>Gamedata/Bell_Leaders.xml</File>
+      <File>Gamedata/Bell_Moment.xml</File>
+      <File>Gamedata/Bell_Units.xml</File>
+      <File>Gamedata/Bell_Colors.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/InGame_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon/Bell_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>郑俊飚领导的Bell文明.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>Gamedata/Bell_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Bell.Art.xml</File>
+    <File>Gamedata/Bell_Buildings.xml</File>
+    <File>Gamedata/Bell_Civilization.xml</File>
+    <File>Gamedata/Bell_Colors.xml</File>
+    <File>Gamedata/Bell_Config.xml</File>
+    <File>Gamedata/Bell_Expansion2.xml</File>
+    <File>Gamedata/Bell_Improvements.xml</File>
+    <File>Gamedata/Bell_Leaders.xml</File>
+    <File>Gamedata/Bell_Moment.xml</File>
+    <File>Gamedata/Bell_Units.xml</File>
+    <File>Icon/Bell_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/BellDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/BellDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text/Config_zh_Hans_CN.xml</File>
+    <File>Text/InGame_zh_Hans_CN.xml</File>
+    <File>郑俊飚领导的Bell文明.dep</File>
+  </Files>
+</Mod>
