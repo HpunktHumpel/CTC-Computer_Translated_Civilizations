@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Config_zh_Hans_CN -->
+<!-- Author: HP -->
+<!-- DateCreated: 2/4/2023 8:44:56 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 阵营名称 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GARY_NAME"
+			Text="Gary"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GARY_DESCRIPTION"
+			Text="Gary王国"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GARY_ADJECTIVE"
+			Text="Gary的"/>
+		<!-- 阵营设定 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_WORLD_GRANARY_NAME"
+			Text="舜帝之都"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_WORLD_GRANARY_DESCRIPTION"
+			Text="农场为商业中心提供标准相邻加成，为剧院广场提供少量相邻加成，对无主领土施放文化炸弹，并+1 [ICON_Production] 生产力，研究人文主义后+1 [ICON_Production] 生产力，研究电脑后+2 [ICON_Production] 生产力。城市获得边界的速度-50%。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_BILLIARDS_HALL_NAME"
+			Text="台球会馆"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_BILLIARDS_HALL_DESCRIPTION"
+			Text="Gary特色改良。由市政“人文主义”解锁。+2 [ICON_Amenities] 宜居度，+2 [ICON_Culture] 文化，+1魅力。如与娱乐区域相邻，则+1 [ICON_Culture] 文化；如与剧院广场相邻，则+1 [ICON_Culture] 文化；每与一座社区相邻则+2 [ICON_Gold] 金币；在解锁“飞行”科技后，可根据文化产出提供旅游业绩。每座城市仅可建造一个。无法建在泛滥平原，沙漠或沙漠丘陵地貌上。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_EZ_NAME"
+			Text="探索者"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_EZ_DESCRIPTION"
+			Text="Gary中世纪特色远程单位，代替弩手。+1 [ICON_Movement] 移动力， [ICON_Strength] 攻击力更高。在丘陵，森林和雨林中移动无移动力惩罚。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_FENGSHAN_NAME"
+			Text="冯杉（摆烂党）"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_DELICATE_BUT_SCATTERED_LIFE_NAME"
+			Text="精致但散漫的生活"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_DELICATE_BUT_SCATTERED_LIFE_DESCRIPTION"
+			Text="农场与商业中心相邻时，提供的 [ICON_Gold] 金币+2；与剧院广场相邻时，提供的 [ICON_Culture] 文化+1，并在拥有“飞行”科技后提供旅游业绩。建造建筑时-30% [ICON_PRODUCTION] 生产力。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_FENGSHAN_ALT_NAME"
+			Text="冯杉（赶工党）"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_FENGSHAN_ALT_NAME"
+			Text="开疆弓"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_FENGSHAN_ALT_DESCRIPTION"
+			Text="所有陆地远程单位+1视野与射程，所有远程单位战斗经验值+30%。与主要文明交战时所有陆地远程单位+7 [ICON_Strength] 攻击力。每次您训练一个远程单位，都可以再获得一个远程单位。"/>
+		<!-- 加载界面 -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_FENGSHAN" Language="zh_Hans_CN">
+			<Text>相信您的奇思妙想吧，冯杉。在您的领导下。万亩良田将变成令人惊叹的画卷。在探索世界的旅途中，您出色的人格魅力将助您广结盟友。在团结的力量下，您将带领人民走向辉煌，历史将会记住您的名字和丰功伟绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_FENGSHAN_ALT" Language="zh_Hans_CN">
+			<Text>冯杉将军，率领士兵们开疆拓土吧！在您的强弓劲旅面前，敌人的一切抵抗都是徒劳的。您的剑锋所指，便是将士们心之所向！为了打造更辉煌的国家而战！</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

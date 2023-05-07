@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- InGame_zh_Hans_CN -->
+<!-- Author: HP -->
+<!-- DateCreated: 2/4/2023 8:43:39 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 阵营名称 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GARY_NAME"
+			Text="Gary"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GARY_DESCRIPTION"
+			Text="Gary王国"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GARY_ADJECTIVE"
+			Text="Gary的"/>
+		<!-- 阵营设定 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_WORLD_GRANARY_NAME"
+			Text="舜帝之都"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_WORLD_GRANARY_DESCRIPTION"
+			Text="农场为商业中心提供标准相邻加成，为剧院广场提供少量相邻加成，对无主领土施放文化炸弹，并+1 [ICON_Production] 生产力，研究人文主义后+1 [ICON_Production] 生产力，研究电脑后+2 [ICON_Production] 生产力。城市获得边界的速度-50%。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_BILLIARDS_HALL_NAME"
+			Text="台球会馆"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_BILLIARDS_HALL_DESCRIPTION"
+			Text="Gary特色改良。由市政“人文主义”解锁。+2 [ICON_Amenities] 宜居度，+2 [ICON_Culture] 文化，+1魅力。如与娱乐区域相邻，则+1 [ICON_Culture] 文化；如与剧院广场相邻，则+1 [ICON_Culture] 文化；每与一座社区相邻则+2 [ICON_Gold] 金币；在解锁“飞行”科技后，可根据文化产出提供旅游业绩。每座城市仅可建造一个。无法建在泛滥平原，沙漠或沙漠丘陵地貌上。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_EZ_NAME"
+			Text="探索者"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_EZ_DESCRIPTION"
+			Text="Gary中世纪特色远程单位，代替弩手。+1 [ICON_Movement] 移动力， [ICON_Strength] 攻击力更高。在丘陵，森林和雨林中移动无移动力惩罚。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_FENGSHAN_NAME"
+			Text="冯杉（摆烂党）"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_DELICATE_BUT_SCATTERED_LIFE_NAME"
+			Text="精致但散漫的生活"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_DELICATE_BUT_SCATTERED_LIFE_DESCRIPTION"
+			Text="农场与商业中心相邻时，提供的 [ICON_Gold] 金币+2；与剧院广场相邻时，提供的 [ICON_Culture] 文化+1，并在拥有“飞行”科技后提供旅游业绩。建造建筑时-30% [ICON_PRODUCTION] 生产力。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_FENGSHAN_ALT_NAME"
+			Text="冯杉（赶工党）"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_FENGSHAN_ALT_NAME"
+			Text="开疆弓"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_FENGSHAN_ALT_DESCRIPTION"
+			Text="所有陆地远程单位+1视野与射程，所有远程单位战斗经验值+30%。与主要文明交战时所有陆地远程单位+7 [ICON_Strength] 攻击力。每次您训练一个远程单位，都可以再获得一个远程单位。"/>
+		<!-- 加载界面 -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_FENGSHAN" Language="zh_Hans_CN">
+			<Text>相信您的奇思妙想吧，冯杉。在您的领导下。万亩良田将变成令人惊叹的画卷。在探索世界的旅途中，您出色的人格魅力将助您广结盟友。在团结的力量下，您将带领人民走向辉煌，历史将会记住您的名字和丰功伟绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_FENGSHAN_ALT" Language="zh_Hans_CN">
+			<Text>冯杉将军，率领士兵们开疆拓土吧！在您的强弓劲旅面前，敌人的一切抵抗都是徒劳的。您的剑锋所指，便是将士们心之所向！为了打造更辉煌的国家而战！</Text>
+		</Replace>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_TITLE" Language="zh_Hans_CN">
+			<Text>冯杉</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_TITLE" Language="zh_Hans_CN">
+			<Text>冯杉</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_SUBTITLE" Language="zh_Hans_CN">
+			<Text>贤王冯杉，智慧无边</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_SUBTITLE" Language="zh_Hans_CN">
+			<Text>冯杉将军，封狼居胥</Text>
+		</Row>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>富有创造力的冯杉将奇思妙想变为现实。在他的领导下，万亩良田化作奇妙的画卷。在冯杉看来，高质量的农田是对领袖能力最好的认可，而冯杉也能让文化与经济在田垄间得以平衡。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>农场，Gary文明的核心与命脉。Gary们能在耕作中令商业和文化得到收益。沿河城市中的水磨允许冯杉在不建造圣地的情况下也有能力支付信仰购买。Gary们热爱和平，但如果必须进行战争，忠诚的探索者们必将不畏强敌，勇敢地战斗。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>冯杉将军不再拘泥于维持和平，转为锋芒毕露。他率领的强弓劲旅会扫平一切阻碍，征服更多的城市。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>农场，Gary文明的核心与命脉。Gary们能在耕作中令商业和文化得到收益。沿河城市中的水磨允许冯杉在不建造圣地的情况下也有能力支付信仰购买。一旦开战，火炮的交响宣告着又一场胜利。</Text>
+		</Row>
+
+		<!-- 领袖百科-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>冯杉，即便看上去身材高大，让人不禁联想到诸城暴龙，但他始终平易近人，有着一颗赤子之心。政治同盟和敌手对他的评价都颇高。很大程度上是因为他带领Gary渡过了诸多的饥苦，直面吃不饱饭的食堂与外卖。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>冯杉是土生土长的诸城人。由于深受家中老一辈的影响，他从小便心系世界。表现出对探索异域山河大川的热情。为了探寻何为青春，成年后他走出了家乡，周游世界，渴望了解生活的本质。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在义务教育期间，冯杉便表现出了在数学和英语方面他那异于常人的天赋。以至于无数次老师被他提出的问题问到，甚至在后来的答疑课上冯杉可以作为老师教导同龄人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>在高中生活结束后，冯杉以优异的成绩进入了理想的大学。从这以后，他逐渐痴迷于电子游戏。这导致他的才能疏于锻炼，久而久之，他的光辉被逐渐埋没。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>终有一天，他在桥下的小被中觉悟。他重整心态，决定回到初心，试着像探险家那样畅游世界。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>重拾初心以后，他首先来到了梦寐已久的加麻大。对于这里的景色他无比赞美，但同时他也注意到了这里政府的无能与人民的苦衷。这使得他迫切的想要回到家乡。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>经过游历后的冯杉认为，如果家乡贫血的话就无法改变现状。于是他勇敢地扛起振兴的旗号，历经阻挠成为了领导者。随后他开始大刀阔斧的改革，积极带领人民建设家园。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>冯杉的所作所为赢得了诸城人民的支持与忠心。终于，在我们所不知的某一年里，昔日小小的县城已然变为人人向往的超级大国屹立于世界中心。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>冯杉经历了民众士气的低谷、军事方面的胜利与失败，以及与急躁盟友的合作和协调。人人皆交口称赞他的睿智，他的人民骄傲地称自己为“Gary”。（本文纯属虚构）</Text>
+		</Row>
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GARY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>Gary文明是纯虚构文明。根据冯杉日常行为习惯和爱好编纂。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GARY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在游玩Gary文明时，要格外注意农场的建造位置。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GARY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>农场的文化炸弹可以令玩家在前期获得大量领土。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GARY_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>以冯杉为领袖时，要注意商业中心，剧院广场与农场的配合。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GARY_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>三者的组合可以让Gary商文两开花，此外，农场提供的生产力也可补足建造速度。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GARY_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>冯杉能力的特殊之处在于相邻剧院广场的农场可以提供旅游业绩。因此，越早研究“飞行”科技，Gary的优势就越大，越容易争取文化胜利。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GARY_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>但是，也不要过于依赖农场，玩家仍然需要其他改良与区域建筑均衡发展。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EZ_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>探索者，原型是冯杉喜欢的游戏《英雄联盟》中最擅长的AD英雄探险家伊泽瑞尔。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EZ_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>探索者擅长穿行于复杂地形而不受影响且拥有更强的自保能力，因此可以取缔散兵探索世界，与新文明建交。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_BILLIARDS_HALL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>冯杉喜爱的体育休闲项目之一。台球是球类运动项目之一。运动员在台球桌上，用超过91.4厘米长的球杆，按照一定的规则，通过击白色主球，使目标球入袋的一项体育休闲项目。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>冯杉，即便看上去身材高大，让人不禁联想到诸城暴龙，但他始终平易近人，有着一颗赤子之心。政治同盟和敌手对他的评价都颇高。很大程度上是因为他带领Gary渡过了诸多的饥苦，直面吃不饱饭的食堂与外卖。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>冯杉是土生土长的诸城人。由于深受家中老一辈的影响，他从小便心系世界。表现出对探索异域山河大川的热情。为了探寻何为青春，成年后他走出了家乡，周游世界，渴望了解生活的本质。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在义务教育期间，冯杉便表现出了在数学和英语方面他那异于常人的天赋。以至于无数次老师被他提出的问题问到，甚至在后来的答疑课上冯杉可以作为老师教导同龄人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>在高中生活结束后，冯杉以优异的成绩进入了理想的大学。从这以后，他逐渐痴迷于电子游戏。这导致他的才能疏于锻炼，久而久之，他的光辉被逐渐埋没。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>终有一天，他在桥下的小被中觉悟。他重整心态，决定回到初心，试着像探险家那样畅游世界。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>重拾初心以后，他首先来到了梦寐已久的加麻大。对于这里的景色他无比赞美，但同时他也注意到了这里政府的无能与人民的苦衷。这使得他迫切的想要回到家乡。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>经过游历后的冯杉认为，如果家乡贫血的话就无法改变现状。于是他勇敢地扛起振兴的旗号，历经阻挠成为了领导者。随后他开始大刀阔斧的改革，积极带领人民建设家园。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>冯杉的所作所为赢得了诸城人民的支持与忠心。终于，在我们所不知的某一年里，昔日小小的县城已然变为人人向往的超级大国屹立于世界中心。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>冯杉经历了民众士气的低谷、军事方面的胜利与失败，以及与急躁盟友的合作和协调。人人皆交口称赞他的睿智，他的人民骄傲地称自己为“Gary”。（本文纯属虚构）</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_GARY_LOCATION" Language="zh_Hans_CN">
+			<Text>山东半岛东南、泰沂山脉与胶潍平原交界处</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_GARY_SIZE" Language="zh_Hans_CN">
+			<Text>总面积2183平方千米</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_GARY_POPULATION" Language="zh_Hans_CN">
+			<Text>常住人口1078178</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_GARY_CAPITAL" Language="zh_Hans_CN">
+			<Text>诸城</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_RIVER_WEIHE_NAME" Language="zh_Hans_CN">
+			<Text>潍河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_FUQIHE_NAME" Language="zh_Hans_CN">
+			<Text>扶淇河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_JILIHE_NAME" Language="zh_Hans_CN">
+			<Text>吉利河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_JIAOLAIHE_NAME" Language="zh_Hans_CN">
+			<Text>胶莱河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_YOUYIHE_NAME" Language="zh_Hans_CN">
+			<Text>友谊河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_CUNHE_NAME" Language="zh_Hans_CN">
+			<Text>村河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_DAOYANGHE_NAME" Language="zh_Hans_CN">
+			<Text>倒漾河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_TAIGUZHUANGHE_NAME" Language="zh_Hans_CN">
+			<Text>太古庄河</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_VOLCANO_LONGKOUNAN_NAME" Language="zh_Hans_CN">
+			<Text>龙口南火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_YIMENG_NAME" Language="zh_Hans_CN">
+			<Text>沂蒙火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_ZHU_NAME" Language="zh_Hans_CN">
+			<Text>竹山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_ZHANGR_NAME" Language="zh_Hans_CN">
+			<Text>障日山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_LU_NAME" Language="zh_Hans_CN">
+			<Text>庐山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_DAER_NAME" Language="zh_Hans_CN">
+			<Text>大耳山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_WANGHAILOU_NAME" Language="zh_Hans_CN">
+			<Text>望海楼</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_DESERT_FENGSHI_NAME" Language="zh_Hans_CN">
+			<Text>冯氏沙漠</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_WENHUA_NAME" Language="zh_Hans_CN">
+			<Text>文化沙漠</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_WUDING_NAME" Language="zh_Hans_CN">
+			<Text>无定沙漠</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_BUDING_NAME" Language="zh_Hans_CN">
+			<Text>不定沙漠</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_WEIDING_NAME" Language="zh_Hans_CN">
+			<Text>未定沙漠</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_LAKE_LAKE_SANLIZHUANG_NAME" Language="zh_Hans_CN">
+			<Text>三里庄水库</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_YUANDU_NAME" Language="zh_Hans_CN">
+			<Text>鸢都湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_WUJIALOU_NAME" Language="zh_Hans_CN">
+			<Text>吴家楼水库</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_QINGDUN_NAME" Language="zh_Hans_CN">
+			<Text>青墩水库</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_SHIMEN_NAME" Language="zh_Hans_CN">
+			<Text>石门水库</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_GUOJIACUN_NAME" Language="zh_Hans_CN">
+			<Text>郭家村水库</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_QIANGKUANG_NAME" Language="zh_Hans_CN">
+			<Text>墙夼水库</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_SEA_HUANG_NAME" Language="zh_Hans_CN">
+			<Text>煌海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BO_NAME" Language="zh_Hans_CN">
+			<Text>博海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_PANGDA_NAME" Language="zh_Hans_CN">
+			<Text>胖大海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_XIADONG_NAME" Language="zh_Hans_CN">
+			<Text>夏东海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_FEILUN_NAME" Language="zh_Hans_CN">
+			<Text>飞轮海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_SHENME_NAME" Language="zh_Hans_CN">
+			<Text>什么海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_YIPIAN_NAME" Language="zh_Hans_CN">
+			<Text>一片海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_ZHEGE_NAME" Language="zh_Hans_CN">
+			<Text>这个海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_NEGE_NAME" Language="zh_Hans_CN">
+			<Text>那个海</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_MOUNTAIN_TAIYI_NAME" Language="zh_Hans_CN">
+			<Text>泰沂山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_CHANG_NAME" Language="zh_Hans_CN">
+			<Text>常山山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_MAER_NAME" Language="zh_Hans_CN">
+			<Text>马耳山山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_DAHOUYA_NAME" Language="zh_Hans_CN">
+			<Text>大后崖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_DULE_NAME" Language="zh_Hans_CN">
+			<Text>独乐山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_BAILONG_NAME" Language="zh_Hans_CN">
+			<Text>白龙山</Text>
+		</Row>
+		<!-- 市民名称 -->
+		<Row Tag="LOC_CITIZEN_GARY_MALE_1" Language="zh_Hans_CN">
+			<Text>张禹</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_2" Language="zh_Hans_CN">
+			<Text>李梓萌</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_3" Language="zh_Hans_CN">
+			<Text>赵啸</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_4" Language="zh_Hans_CN">
+			<Text>肖皓文</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_5" Language="zh_Hans_CN">
+			<Text>程明泽</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_6" Language="zh_Hans_CN">
+			<Text>白吉康</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_7" Language="zh_Hans_CN">
+			<Text>扎哥</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_8" Language="zh_Hans_CN">
+			<Text>汪霖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_9" Language="zh_Hans_CN">
+			<Text>赵煜坤</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MALE_10" Language="zh_Hans_CN">
+			<Text>冯杉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>甄牛马</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>贾鹰熊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>磨剪子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>戗菜刀</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>猛犸</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>雪豹</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>电鳗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>姬泰美</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>刀哥</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>虎哥</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_1" Language="zh_Hans_CN">
+			<Text>丽丽</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_2" Language="zh_Hans_CN">
+			<Text>讨口子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_3" Language="zh_Hans_CN">
+			<Text>giegie</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_4" Language="zh_Hans_CN">
+			<Text>乔碧萝</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_5" Language="zh_Hans_CN">
+			<Text>周淑怡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_6" Language="zh_Hans_CN">
+			<Text>东雪莲</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_7" Language="zh_Hans_CN">
+			<Text>嘉然</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_8" Language="zh_Hans_CN">
+			<Text>七海</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_9" Language="zh_Hans_CN">
+			<Text>骆歆</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_FEMALE_10" Language="zh_Hans_CN">
+			<Text>希维尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>几个爽</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>舒婷</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>谢大脚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>贾芊芊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>佩落稀</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>萨米拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>卡丽斯塔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>米娅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>奎因</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GARY_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>塞纳</Text>
+		</Row>
+		<!-- 城市名称 -->
+		<Row Tag="LOC_CITY_NAME_ZHUCHENG" Language="zh_Hans_CN">
+			<Text>诸城</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_KUIWEN" Language="zh_Hans_CN">
+			<Text>奎文</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_WEICHENG" Language="zh_Hans_CN">
+			<Text>潍城</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_HANTING" Language="zh_Hans_CN">
+			<Text>寒亭</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_FANGZI" Language="zh_Hans_CN">
+			<Text>坊子</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_QINGZHOU" Language="zh_Hans_CN">
+			<Text>青州</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SHOUGUANG" Language="zh_Hans_CN">
+			<Text>寿光</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ANQIU" Language="zh_Hans_CN">
+			<Text>安丘</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_GAOMI" Language="zh_Hans_CN">
+			<Text>高密</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_CHANGYI" Language="zh_Hans_CN">
+			<Text>昌邑</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_CHANGLE" Language="zh_Hans_CN">
+			<Text>昌乐</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LINQU" Language="zh_Hans_CN">
+			<Text>临朐</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_GAOXIN" Language="zh_Hans_CN">
+			<Text>高新</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_BINHAI" Language="zh_Hans_CN">
+			<Text>滨海</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_XIASHAN" Language="zh_Hans_CN">
+			<Text>峡山</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_JINGJI" Language="zh_Hans_CN">
+			<Text>经济</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ZICHUAN" Language="zh_Hans_CN">
+			<Text>淄川</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_BOSHAN" Language="zh_Hans_CN">
+			<Text>博山</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ZHANGDIAN" Language="zh_Hans_CN">
+			<Text>张店</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_YUNCHENG" Language="zh_Hans_CN">
+			<Text>郓城</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_HUANTAI" Language="zh_Hans_CN">
+			<Text>桓台</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_GAOQING" Language="zh_Hans_CN">
+			<Text>高庆</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_YIYUAN" Language="zh_Hans_CN">
+			<Text>沂源</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_HUANGDAO" Language="zh_Hans_CN">
+			<Text>黄岛</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LAOSHAN" Language="zh_Hans_CN">
+			<Text>崂山</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LICANG" Language="zh_Hans_CN">
+			<Text>李沧</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_CHENGYANG" Language="zh_Hans_CN">
+			<Text>澄阳</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_JIMO" Language="zh_Hans_CN">
+			<Text>即墨</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_JIAOZHOU" Language="zh_Hans_CN">
+			<Text>胶州</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_PINGDU" Language="zh_Hans_CN">
+			<Text>平度</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LAIXI" Language="zh_Hans_CN">
+			<Text>莱西</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ZIFU" Language="zh_Hans_CN">
+			<Text>淄福</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_MUPING" Language="zh_Hans_CN">
+			<Text>牟平</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_PENGLAI" Language="zh_Hans_CN">
+			<Text>蓬莱</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LONGKOU" Language="zh_Hans_CN">
+			<Text>龙口</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ZHAOYUAN" Language="zh_Hans_CN">
+			<Text>招远</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_HAIYANG" Language="zh_Hans_CN">
+			<Text>海阳</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_QIXIA" Language="zh_Hans_CN">
+			<Text>栖霞</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LAISHAN" Language="zh_Hans_CN">
+			<Text>莱山</Text>
+		</Row>
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_QUOTE" Language="zh_Hans_CN">
+			<Text>你可以说我人有问题，但你不能说我游戏打得菜！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FENGSHAN_ALT_QUOTE" Language="zh_Hans_CN">
+			<Text>我现在技术很好！</Text>
+		</Row>
+
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>太好了！再吃一碗！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>很抱歉，可我还没吃饱。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>走啊，一起洗澡去啊！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>太好了，今天破例下馆子去！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>哦，好吧，看来你还不饿。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>我看你纯纯吃饱了撑的！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>绝不能放任你欺压百姓了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>非常感谢！您应该不介意您的使节吃胖个几斤吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>不，我不想请你的人吃饭。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>请别客气，接受我们使团的礼物吧。我们带来了著名的潍河鲤鱼，黄樱桃和板栗。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>笑话，我吃过的米比你走过的路还多。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>你的人民食不饱穿不暖，你竟漠不关心！（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>你好，我叫冯杉。欢迎来我们国家品尝最优质的美食。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>我们附近有一座城市。想来拜访吗？祝您吃好喝好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>好！再加一碗！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>我能去你家吃饭吗？我就吃一口，真的，就一口。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
+			<Text>今天吃什么？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>您的人民真有口福，赞美您。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>那些家伙都快吃不上饭了，真希望我们不会发展成那种情况。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>你吃了吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>吃得好，穿得暖，方为上策。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>我们还有吃的，不怕你。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>差不多得了……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>啊，快来快来。我请你吃顿好的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>再等等，饭还没煮熟呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>我能来串门吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>你的人民还能吃得上饭吗？看样子你把粮食用在了错误的地方。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>嗝……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>好！今晚加餐！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FENGSHAN_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>抱歉，我要减肥。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>漂亮！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>我不同意。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>走啊，一起洗澡去啊！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>你真好！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>行吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>哈哈哈！不自量力！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>见识下我们的强弓劲旅！然后，臣服吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>很好！我会好好招待的！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>恕不待客。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>请拿好，我们带来了强弓与火炮作为礼物。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>聒噪之徒，不得长久。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>不思进取者，终将被淘汰！（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>你好，我是冯杉将军。你会是值得尊敬的强者，还是唯唯诺诺的鼠辈？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>我们附近有一座城市。想来拜访吗？祝您玩得开心。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>很划算！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>我们明人不说暗话，亮牌吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
+			<Text>今天想打谁？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>您是值得尊敬的强者，和我一样。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>终究是泛泛之辈啊。可怜，可笑。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>让我们歃血为盟，同仇敌忾吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>和为贵。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>誓不休战。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>点到为止……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>啊，欢迎欢迎。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>容我三思。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>让我看看！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>不要引发不必要的纠纷，这对你没好处。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>寄！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>明智的决策！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FENGSHAN_ALT_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>恕我拒绝。</Text>
+		</Row>
+		<!--议程-->
+		<Row Tag="LOC_AGENDA_BILAN_NAME" Language="zh_Hans_CN">
+			<Text>比烂</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_BILAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设法获得高 [ICON_Culture] 文化值，喜欢 [ICON_Culture] 文化值低于自己的文明，讨厌 [ICON_Culture] 文化值高于自己的文明。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FENGSHAN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的文化领先）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_BILAN_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>别卷了！是时候躺平了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FENGSHAN_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的文化落后）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_BILAN_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>你这样就挺好的，继续摆烂吧！</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_STRONG_BOW_NAME" Language="zh_Hans_CN">
+			<Text>强弓劲弩</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_STRONG_BOW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将打造大量远程单位，尊重追随其领导的文明。讨厌远程单位力量弱小的文明。</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_STRONG_BOW_RANGED_WARNING" Language="zh_Hans_CN">
+			<Text>你那花拳绣腿也好意思拿出来显摆？别哗众取丑了！</Text>
+		</Row>
+		<!--特色单位-->
+		<Row Tag="LOC_ABILITY_EZ_NAME" Language="zh_Hans_CN">
+			<Text>探索者</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_EZ_FOREST_MOVEMENT_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在森林和雨林中移动无移动力惩罚。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_EZ_IGNORE_HILLS_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在丘陵上移动无移动力惩罚。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_EZ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在丘陵，森林和雨林中移动无移动力惩罚。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FARM_1_GOLD" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Gold] 金币来自每个相邻农场。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FARM_1_CULTURE" Language="zh_Hans_CN">
+			<Text>+0.5 [ICON_Culture] 文化来自每个相邻农场。</Text>
+		</Row>
+		<Row Tag="LOC_FENGSHAN_ALT_WAR_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与主要文明交战时+7 [ICON_Strength] 战斗力。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

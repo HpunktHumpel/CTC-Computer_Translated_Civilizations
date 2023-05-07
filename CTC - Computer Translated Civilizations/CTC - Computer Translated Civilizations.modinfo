@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1683483225</Created>
+    <Created>1683485407</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -274,6 +274,13 @@
     </Criteria>
     <Criteria id="2949093921_InGame">
       <ModInUse>1c022130-4660-4001-95d9-9337cf07cae7</ModInUse>
+    </Criteria>
+    <!-- 2935800893 - 冯杉领导的Gary共和国2-->
+    <Criteria id="2935800893_FrontEnd">
+      <ModIsEnabled>82ea1193-31e2-4e11-87bd-895a4c707aa5</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2935800893_InGame">
+      <ModInUse>82ea1193-31e2-4e11-87bd-895a4c707aa5</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -894,6 +901,23 @@
       <File>2949093921/frontend_pl_PL.xml</File>
       <File>2949093921/frontend_ko_KR.xml</File>
       <File>2949093921/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2935800893 - 冯杉领导的Gary共和国2-->
+    <UpdateText id="2935800893_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2935800893_FrontEnd</Criteria>
+      <File>2935800893/frontend_en_US.xml</File>
+      <File>2935800893/frontend_fr_FR.xml</File>
+      <File>2935800893/frontend_de_DE.xml</File>
+      <File>2935800893/frontend_it_IT.xml</File>
+      <File>2935800893/frontend_es_ES.xml</File>
+      <File>2935800893/frontend_ja_JP.xml</File>
+      <File>2935800893/frontend_ru_RU.xml</File>
+      <File>2935800893/frontend_pl_PL.xml</File>
+      <File>2935800893/frontend_ko_KR.xml</File>
+      <File>2935800893/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -1525,6 +1549,23 @@
       <File>2949093921/ingame_ko_KR.xml</File>
       <File>2949093921/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2935800893 - 冯杉领导的Gary共和国2-->
+    <UpdateText id="2935800893_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2935800893_InGame</Criteria>
+      <File>2935800893/ingame_en_US.xml</File>
+      <File>2935800893/ingame_fr_FR.xml</File>
+      <File>2935800893/ingame_de_DE.xml</File>
+      <File>2935800893/ingame_it_IT.xml</File>
+      <File>2935800893/ingame_es_ES.xml</File>
+      <File>2935800893/ingame_ja_JP.xml</File>
+      <File>2935800893/ingame_ru_RU.xml</File>
+      <File>2935800893/ingame_pl_PL.xml</File>
+      <File>2935800893/ingame_ko_KR.xml</File>
+      <File>2935800893/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -1967,6 +2008,26 @@
     <File>2934144626/ingame_pl_PL.xml</File>
     <File>2934144626/ingame_ru_RU.xml</File>
     <File>2934144626/ingame_zh_Hant_HK.xml</File>
+    <File>2935800893/frontend_de_DE.xml</File>
+    <File>2935800893/frontend_en_US.xml</File>
+    <File>2935800893/frontend_es_ES.xml</File>
+    <File>2935800893/frontend_fr_FR.xml</File>
+    <File>2935800893/frontend_it_IT.xml</File>
+    <File>2935800893/frontend_ja_JP.xml</File>
+    <File>2935800893/frontend_ko_KR.xml</File>
+    <File>2935800893/frontend_pl_PL.xml</File>
+    <File>2935800893/frontend_ru_RU.xml</File>
+    <File>2935800893/frontend_zh_Hant_HK.xml</File>
+    <File>2935800893/ingame_de_DE.xml</File>
+    <File>2935800893/ingame_en_US.xml</File>
+    <File>2935800893/ingame_es_ES.xml</File>
+    <File>2935800893/ingame_fr_FR.xml</File>
+    <File>2935800893/ingame_it_IT.xml</File>
+    <File>2935800893/ingame_ja_JP.xml</File>
+    <File>2935800893/ingame_ko_KR.xml</File>
+    <File>2935800893/ingame_pl_PL.xml</File>
+    <File>2935800893/ingame_ru_RU.xml</File>
+    <File>2935800893/ingame_zh_Hant_HK.xml</File>
     <File>2948711698/frontend_de_DE.xml</File>
     <File>2948711698/frontend_en_US.xml</File>
     <File>2948711698/frontend_es_ES.xml</File>
