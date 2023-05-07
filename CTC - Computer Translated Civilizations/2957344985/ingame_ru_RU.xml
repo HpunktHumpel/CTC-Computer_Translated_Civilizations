@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May  7 14:45:12 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BRONYA_CREAT_BASE" Language="ru_RU">
+			<Text>Текущий прогресс исследования: [COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_50" Language="ru_RU">
+			<Text>недостаточно, чтобы сделать какие-либо мехи</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_100" Language="ru_RU">
+			<Text>Он будет потреблять [COLOR_LIGHTBLUE]50[ENDCOLOR] результатов исследований [NewLine], определенно сможет производить [COLOR_GREEN] базовый механизм [ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_200" Language="ru_RU">
+			<Text>Он потребляет [COLOR_LIGHTBLUE] 100[ENDCOLOR] результатов исследований. [NewLine] должен иметь возможность производить [COLOR_GREEN] базовый механизм [ENDCOLOR] и иметь определенный шанс производить [COLOR_FLOAT_SCIENCE] усовершенствованный механизм [ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_400" Language="ru_RU">
+			<Text>Он потребляет [COLOR_LIGHTBLUE] 200 [ENDCOLOR] результатов исследований. [NewLine] должен иметь возможность производить [COLOR_FLOAT_SCIENCE] усовершенствованный механизм [ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_800" Language="ru_RU">
+			<Text>Он будет потреблять [COLOR_LIGHTBLUE]400[ENDCOLOR] результатов исследований[NewLine] должен иметь возможность производить [COLOR_FLOAT_SCIENCE] передовые механизмы[ENDCOLOR] и иметь определенный шанс производить [COLOR_FLOAT_CULTURE] передовые механизмы[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_1600" Language="ru_RU">
+			<Text>Он потребует [COLOR_LIGHTBLUE]800[ENDCOLOR] результатов исследований[NewLine] должен иметь возможность производить [COLOR_FLOAT_CULTURE] ультрасовременный механизм[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_MAX" Language="ru_RU">
+			<Text>Он потребляет [COLOR_LIGHTBLUE]1600[ENDCOLOR] результатов исследований. [NewLine] должен иметь возможность производить [COLOR_FLOAT_CULTURE] ультрасовременный механизм[ENDCOLOR] и иметь определенный шанс производить [COLOR_RED] совершенный [ENDCOLOR] механизм.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_POINT" Language="ru_RU">
+			<Text>[NewLine]Текущее созданное время[COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_TOOLTIP" Language="ru_RU">
+			<Text>Решение Миротворца [NewLine] остывает, осталось количество раундов [COLOR_Civ6Yellow]</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_TOOLTIP" Language="ru_RU">
+			<Text>Ярость Хесфитоса[NewLine] остывает, осталось несколько патронов[COLOR_RED]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_ALL_READEY" Language="ru_RU">
+			<Text>[COLOR_Civ6Yellow]Резолюция миротворца[ENDCOLOR][NewLine] готова</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_ALL_READY" Language="ru_RU">
+			<Text>[COLOR_RED]Гнев Хесфитоса[ENDCOLOR][NewLine] готов</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_AROMORED_RABBIT_19C_DEEFEND" Language="ru_RU">
+			<Text>Heavy Bunny 19C: +10 [ICON_STRENGTH] к боевой мощи для Брони Зайчек при защите.</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_HERRSCHER_CORE_STRENGTH" Language="ru_RU">
+			<Text>Herrscher Core: +10 [ICON_STRENGTH] боевой мощи для Брони Зайчек.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_STRENGTH" Language="ru_RU">
+			<Text>Самоподрывная мина ударного типа: +5 [ICON_STRENGTH] к боевой мощи ядовитого робота-паука.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_STRENGTH" Language="ru_RU">
+			<Text>Mech Assault: +5 [ICON_STRENGTH] к боевой мощи Титана Меха.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_STRENGTH" Language="ru_RU">
+			<Text>Режим защиты: при защите от дальних атак боевая мощь Титана увеличивается на 10 [ICON_STRENGTH].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_STRENGTH" Language="ru_RU">
+			<Text>Воздействие землетрясения: +5 [ICON_STRENGTH] к боевой мощи Титана Меха.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DISTRICT" Language="ru_RU">
+			<Text>Воздействие землетрясения: +5 [ICON_STRENGTH] к боевой мощи Титана Меха при атаке по области.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_STRENGTH" Language="ru_RU">
+			<Text>Перегрев Перегрузка: +5 [ICON_STRENGTH] к боевой мощи Титана Меха.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_STRENGTH" Language="ru_RU">
+			<Text>Взмах: +5 [ICON_STRENGTH] к боевой мощи робота смерти.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_STRENGTH" Language="ru_RU">
+			<Text>Щит силового поля: +10 [ICON_STRENGTH] к боевой мощи меха смерти при защите от дальних атак.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_STRENGTH" Language="ru_RU">
+			<Text>Адаптивность: +5 [ICON_STRENGTH] к боевой мощи Death Mecha.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_STRENGTH" Language="ru_RU">
+			<Text>Destiny Shield: +5 [ICON_STRENGTH] к боевой мощи для Death Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_STRENGTH" Language="ru_RU">
+			<Text>Трамплинг: +5 [ICON_STRENGTH] к боевой мощи Громового меха.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_STRENGTH" Language="ru_RU">
+			<Text>Тяжелая броня: при защите от дальних атак молниеносная броня +10 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_STRENGTH" Language="ru_RU">
+			<Text>Blazing Missile: +5 [ICON_STRENGTH] к боевой мощи Громового меха и бонус поддержки +200%.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_A_STRENGTH" Language="ru_RU">
+			<Text>Усиленная позиция α: действует шаманская броня, боевая мощь +3 [ICON_STRENGTH].</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_B_STRENGTH" Language="ru_RU">
+			<Text>Усиленная позиция β: под влиянием меха колдуна, +4 [ICON_STRENGTH] боевой мощи</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_C_STRENGTH" Language="ru_RU">
+			<Text>Усиленная позиция γ: под действием механизма двойной змеи, боевая мощь +5 [ICON_STRENGTH].</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_STRENGTH" Language="ru_RU">
+			<Text>Power Charging Mech: +5 [ICON_STRENGTH] к боевой мощи при получении заряда энергии от Shaman Mecha.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_STRENGTH" Language="ru_RU">
+			<Text>Электрический заряд · Титан: получен электрический заряд шаманского меха, +5 [ICON_STRENGTH] боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_STRENGTH" Language="ru_RU">
+			<Text>Заряд энергии · Мертвый воин: получил заряд энергии меха шамана, при атаке раненого юнита +7 [ICON_STRENGTH] боевой мощи</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_B_STRENGTH" Language="ru_RU">
+			<Text>Небесный удар: при атаке добавьте +5 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_C_STRENGTH" Language="ru_RU">
+			<Text>Каменный удар: во время защиты добавьте +5 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_D_STRENGTH" Language="ru_RU">
+			<Text>Sky Slam: при атаке добавьте +7 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_E_STRENGTH" Language="ru_RU">
+			<Text>Тело повелителя: при защите увеличьте его боевую мощь на 7 [ICON_STRENGTH].</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_ATTACH_STRENGTH" Language="ru_RU">
+			<Text>Пространственно-временная позиция: +2 [ICON_STRENGTH] к боевой мощи всех механизмов в окружающем пространстве (можно наложить друг на друга) (получено из великой трансформации гениального доктора Теслы)</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEPHAESTUS_STRENGTH" Language="ru_RU">
+			<Text>Лянчжань Ихэ: Гефест +20 [ICON_STRENGTH] к боевой мощи</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_STRENGTH" Language="ru_RU">
+			<Text>«Реконструкция ангела»: частично разблокированная «Сила генезиса» дает Броне Зайчек +5 [ICON_STRENGTH] боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_BETTER_STRENGTH" Language="ru_RU">
+			<Text>«Сила Бытия»: полностью разблокированная «Сила Бытия» дает Броне Зайчек +15 [ICON_STRENGTH] боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_1_STRENGTH" Language="ru_RU">
+			<Text>«Прошлое»: добавьте +7 [ICON_STRENGTH] к боевой мощи Броне Зайчек.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_2_STRENGTH" Language="ru_RU">
+			<Text>«Сейчас»: добавьте +13 [ICON_STRENGTH] к боевой мощи Броне Зайчек.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_3_STRENGTH" Language="ru_RU">
+			<Text>«Будущее»: добавьте +20 [ICON_STRENGTH] к боевой мощи Броне Зайчек.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_1_STRENGTH" Language="ru_RU">
+			<Text>Большая карусель: увеличьте боевую мощь на 7 [ICON_STRENGTH] для Бога-Машины Хеймдалля.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_2_STRENGTH" Language="ru_RU">
+			<Text>Большая кольцевая развязка·Чэн: добавьте +7[ICON_STRENGTH]боевой мощи для Машины Бога·Хеймдалль</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_3_STRENGTH" Language="ru_RU">
+			<Text>Большая кольцевая развязка · ход: добавьте +7 [ICON_STRENGTH] боевой мощи волшебной машине Хеймдалля.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_4_STRENGTH" Language="ru_RU">
+			<Text>Большая кольцевая развязка·Комбинированный: +7[ICON_STRENGTH]боевой мощи для Машины бога·Хеймдалль</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DEEFEND" Language="ru_RU">
+			<Text>Экипировка водителя Ямабуки: при обороне дайте Броне Зайчек +20 [ICON_STRENGTH] боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="ru_RU">
+			<Text>разворот</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_NAME" Language="ru_RU">
+			<Text>разворот</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_DESCRIPTION" Language="ru_RU">
+			<Text>В антиэнтропийной цивилизации во главе с Броней Зайчек начальная Эврика [ICON_TechBoosted] составляет всего 20%, а каждая завершенная технология +2% Эврика [ICON_TechBoosted], до 80%. [NewLine] Когда [ICON_TechBoosted] достигнет 80% в Эврике, дайте 100% [ICON_PRODUCTION] Бонус производительности всем районам, зданиям и проектам [NewLine] После разблокировки технологического письма подарите уникального юнита Броня Жа в столице Айсек</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_NAME" Language="ru_RU">
+			<Text>во имя правды</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BRONYA_ZAYCHIK_NAME" Language="ru_RU">
+			<Text>Броня Зайчек</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_NAME" Language="ru_RU">
+			<Text>Броня Зайчек</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_DESCRIPTION" Language="ru_RU">
+			<Text>Девушка из Сибири, управляющая силой Герршера бренным телом, ее прошлый опыт станет краеугольным камнем для ее шаг за шагом к будущему Ядро разума дает ей способность «анализировать» и «реконструировать», а в одна мысль Превратите вдохновение в реальность, создайте набор космического оружия, способного уничтожить все армии, и уничтожить всех врагов, стоящих на вашем пути.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_NAME" Language="ru_RU">
+			<Text>Антиэнтропийный мех · Массовое производство</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_DESCRIPTION" Language="ru_RU">
+			<Text>Массовый механизм антиэнтропии используется для замены Валькирии в качестве основной силы против Хоукай.Его можно разделить на базовые модели, продвинутые модели и ультрасовременные модели, а также титаны, ядовитые пауки, шаманы, мертвые солдаты и модели Royal Thunder.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_NAME" Language="ru_RU">
+			<Text>Антиэнтропийная броня Ultimate</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_DESCRIPTION" Language="ru_RU">
+			<Text>Меха Anti-Entropy, выпущенная ограниченным тиражом, мощна и уникальна.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_DESCRIPTION" Language="ru_RU">
+			<Text>Низкая боеспособность, бросающаяся в глаза мобильность, смысл существования заключается в фейерверке, расцветающем в конце.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_NAME" Language="ru_RU">
+			<Text>Паук Робот</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_DESCRIPTION" Language="ru_RU">
+			<Text>Он еще слаб по боевой мощи, с бросающейся в глаза подвижностью и дополнительно оснащен диапазоном снижения подвижности после взрыва.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_NAME" Language="ru_RU">
+			<Text>Паук Меха</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_DESCRIPTION" Language="ru_RU">
+			<Text>Он еще слаб по боеспособности, с бросающейся в глаза подвижностью и дополнительно оснащен перманентным снижением дальности подвижности после взрыва.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_NAME" Language="ru_RU">
+			<Text>Ледяной мех</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_DESCRIPTION" Language="ru_RU">
+			<Text>Словом, по боевой мощи он пока слаб, а подвижность впечатляет.На этот раз и фейерверк ярче, и дальность взрыва увеличена вдвое.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_NAME" Language="ru_RU">
+			<Text>тлеющий уголь</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_DESCRIPTION" Language="ru_RU">
+			<Text>Базовая механика, чего еще от нее ожидать?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_NAME" Language="ru_RU">
+			<Text>Титан Меха</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_DESCRIPTION" Language="ru_RU">
+			<Text>Сила может поднять небо! Пусть они почувствуют ужас того, что над ними доминирует Папа Титан! (Внимание! Система прыжков не установлена!)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_NAME" Language="ru_RU">
+			<Text>Броня Динамо</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_DESCRIPTION" Language="ru_RU">
+			<Text>Скала! Пусть они почувствуют ужас того, что над ними доминирует Папа Титан! (Внимание! Система Super Body System не установлена!)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_NAME" Language="ru_RU">
+			<Text>каменная броня</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_DESCRIPTION" Language="ru_RU">
+			<Text>Сила ракеты Томагавк! (нисколько)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_NAME" Language="ru_RU">
+			<Text>томагавк</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_DESCRIPTION" Language="ru_RU">
+			<Text>Ты даже не хочешь называть меня крестным отцом!</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_NAME" Language="ru_RU">
+			<Text>крестный отец</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_DESCRIPTION" Language="ru_RU">
+			<Text>Никаких танцев, никаких мантр, никаких черепов на шее.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_NAME" Language="ru_RU">
+			<Text>Шаманский мех</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_DESCRIPTION" Language="ru_RU">
+			<Text>Нет необходимости в жертвоприношениях или синих полосах, и нет необходимости медитировать по ночам, чтобы подготовить слоты для заклинаний.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_NAME" Language="ru_RU">
+			<Text>Волшебный мех</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_DESCRIPTION" Language="ru_RU">
+			<Text>Эм? Ваше имя как-то связано с шаманизмом?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_NAME" Language="ru_RU">
+			<Text>двойная змея</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_DESCRIPTION" Language="ru_RU">
+			<Text>Остерегайтесь Гершера Неба!</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_NAME" Language="ru_RU">
+			<Text>Громовой Меха</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_DESCRIPTION" Language="ru_RU">
+			<Text>Ни в коем случае, ни в коем случае, никто не может управлять механизмом магнитной бури, верно? Обвинение было предъявлено мне.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_NAME" Language="ru_RU">
+			<Text>Броня магнитной бури</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_DESCRIPTION" Language="ru_RU">
+			<Text>Пепел! Однако функции возрождения нет, и не пытайтесь нажать и удерживать кнопку уклонения, чтобы стрелять из пулемета.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_NAME" Language="ru_RU">
+			<Text>Мех в огне</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_DESCRIPTION" Language="ru_RU">
+			<Text>Строго говоря, это Меха Судьбы, но кто такой Епископ Судьбы, я могу только сказать, что знаю все.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_NAME" Language="ru_RU">
+			<Text>Робот смерти</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_DESCRIPTION" Language="ru_RU">
+			<Text>Что случилось с Мехом Судьбы! Я говорю, что антиэнтропия есть антиэнтропия! Только судьбе позволено копировать антиэнтропию, а антиэнтропии не позволено украсть судьбу?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_NAME" Language="ru_RU">
+			<Text>Иберки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_DESCRIPTION" Language="ru_RU">
+			<Text>Это антиэнтропийная броня.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_NAME" Language="ru_RU">
+			<Text>Яшенджи Мистедтин</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SPIDER_NAME" Language="ru_RU">
+			<Text>ядовитый паук</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_TITAN_NAME" Language="ru_RU">
+			<Text>титан</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SUITS_NAME" Language="ru_RU">
+			<Text>мертвец</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SHAMAN_NAME" Language="ru_RU">
+			<Text>шаман</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_THUNDER_NAME" Language="ru_RU">
+			<Text>Ю Лэй</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_NAME" Language="ru_RU">
+			<Text>Штурмовая самоподрывная мина</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_DESCRIPTION" Language="ru_RU">
+			<Text>Позволяет роботу-пауку обнаруживать невидимые боевые единицы, +1 [ICON_MOVEMENT] к движению.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_NAME" Language="ru_RU">
+			<Text>Внедорожная самоподрывная мина</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_DESCRIPTION" Language="ru_RU">
+			<Text>Заставляет тарантула игнорировать контроль области и истощение плитки.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_NAME" Language="ru_RU">
+			<Text>Ударная мина</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_DESCRIPTION" Language="ru_RU">
+			<Text>Сделайте ядовитого паука +5 [ICON_STRENGTH] к боевой мощи, +5 к урону от взрыва.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_NAME" Language="ru_RU">
+			<Text>Меха Рейд</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм титана +5[ICON_STRENGTH] боевой мощи, +1[ICON_MOVEMENT] мощи передвижения</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_NAME" Language="ru_RU">
+			<Text>режим перегрузки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_DESCRIPTION" Language="ru_RU">
+			<Text>Титаны все еще могут двигаться после атаки и могут атаковать после движения, +1 время атаки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_NAME" Language="ru_RU">
+			<Text>режим защиты</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_DESCRIPTION" Language="ru_RU">
+			<Text>+10[ICON_STRENGTH] к боевой мощи, когда меха-титан защищается от дальних атак</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_NAME" Language="ru_RU">
+			<Text>Землетрясение</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм титана +5[ICON_STRENGTH] к боевой мощи и дополнительно +5[ICON_STRENGTH] к боевой мощи при атаке по области.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_NAME" Language="ru_RU">
+			<Text>Перегрев и перегрузка</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм Титана +5 [ICON_STRENGTH] к боевой мощи, не подвержен дебаффам повреждений</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_NAME" Language="ru_RU">
+			<Text>косая черта</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм смерти +5[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к силе передвижения</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_NAME" Language="ru_RU">
+			<Text>рубить обеими руками</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_DESCRIPTION" Language="ru_RU">
+			<Text>Death Mecha все еще может двигаться после атаки и все еще может атаковать после движения, +1 время атаки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_NAME" Language="ru_RU">
+			<Text>Силовой щит</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_STRENGTH] к боевой мощи, когда робот смерти защищается от дальних атак.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_NAME" Language="ru_RU">
+			<Text>приспособляемость</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм смерти +5 [ICON_STRENGTH] Боевая мощь, доход от мародерства +100%</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_NAME" Language="ru_RU">
+			<Text>Щит судьбы</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм смерти +5 [ICON_STRENGTH] к боевой мощи, все еще может восстанавливать HP после действия, восстанавливает 10 HP в нейтральной зоне, восстанавливает 7 HP во вражеской зоне.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_NAME" Language="ru_RU">
+			<Text>Механизм зарядки энергии</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="ru_RU">
+			<Text>Шаманская меха делает меха-юниты в сетке вокруг тела +5[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к силе движения.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_NAME" Language="ru_RU">
+			<Text>Силовой заряд Титана</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм шамана увеличивает боевую мощь титана в блоке тела на 5 [ICON_STRENGTH].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_NAME" Language="ru_RU">
+			<Text>Электрическая перезарядка · Ядовитый паук</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм шамана делает робота ядовитого паука внутри блока тела +1 к движению [ICON_MOVEMENT].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_NAME" Language="ru_RU">
+			<Text>Перезарядка · Удар молнии</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="ru_RU">
+			<Text>Механизм шамана делает механизм грома в пределах одного блока от тела +1 к полю зрения, +1 к дальности [ICON_RANGED].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_NAME" Language="ru_RU">
+			<Text>Электрическая перезарядка · Воин смерти</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="ru_RU">
+			<Text>Шаманский меха делает боевую силу мертвого меха в пределах одного блока вокруг тела +7 [ICON_STRENGTH] при атаке поврежденных юнитов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_NAME" Language="ru_RU">
+			<Text>топтать</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_DESCRIPTION" Language="ru_RU">
+			<Text>Громовой меха +5[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к силе передвижения</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_NAME" Language="ru_RU">
+			<Text>рассеивающая бомба</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_DESCRIPTION" Language="ru_RU">
+			<Text>Громовой мех все еще может двигаться после атаки и может атаковать после движения, +1 время атаки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_NAME" Language="ru_RU">
+			<Text>Тяжелая броня</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_STRENGTH] к боевой мощи, когда молниеносная броня защищает от дальних атак.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_NAME" Language="ru_RU">
+			<Text>Бомба-приманка</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_DESCRIPTION" Language="ru_RU">
+			<Text>Громовой Меха +1 к обзору, +1 к дальности [ICON_RANGED]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_NAME" Language="ru_RU">
+			<Text>Пылающая ракета</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_DESCRIPTION" Language="ru_RU">
+			<Text>Thunder Mecha +5 [ICON_STRENGTH] боевой мощи, получите бонус поддержки 200%.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_ATTACH_DESCRIPTION" Language="ru_RU">
+			<Text>Улучшенное силовое поле α: меха-шаман заставляет меха-юниты с сеткой вокруг них получать +3 [ICON_STRENGTH] к боевой мощи, +1 [ICON_MOVEMENT] к силе движения</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_ATTACH_DESCRIPTION" Language="ru_RU">
+			<Text>Усиленное силовое поле β: меха шамана заставляет меха с сеткой вокруг него получать +4[ICON_STRENGTH]боевую силу, +1[ICON_MOVEMENT]движение</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_ATTACH_DESCRIPTION" Language="ru_RU">
+			<Text>Усиленное силовое поле γ: меха шамана заставляет механические юниты с сеткой вокруг них получать +5 [ICON_STRENGTH] к боевой мощи, +75% к получаемому опыту.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_DESCRIPTION" Language="ru_RU">
+			<Text>Улучшенное силовое поле α: действует шаманская броня, +3[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к силе передвижения</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_DESCRIPTION" Language="ru_RU">
+			<Text>Улучшенное силовое поле β: действует шаманская броня, +4[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к силе передвижения</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_DESCRIPTION" Language="ru_RU">
+			<Text>Усиленное силовое поле γ: под действием шаманской брони, +5 [ICON_STRENGTH] к боевой мощи, +75% к получаемому опыту.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="ru_RU">
+			<Text>Power Charging Mecha: под влиянием Shaman Mecha, +5[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к мобильности</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="ru_RU">
+			<Text>Power Charge Titan: под действием шаманской брони +5 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="ru_RU">
+			<Text>Электрический заряд · Ядовитый паук: действует Шаманская меха, +1 [ICON_MOVEMENT] к движению</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="ru_RU">
+			<Text>Power Charge · Thunder Control: под влиянием Shaman Mech, +1 к обзору, +1 [ICON_RANGED] к дальности</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="ru_RU">
+			<Text>Power Charging Death Warrior: под влиянием шаманской брони, +7 [ICON_STRENGTH] к боевой мощи при атаке поврежденных юнитов.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_A_DESCRIPTION" Language="ru_RU">
+			<Text>Самовзрывная мина: при убийстве наносит 20 единиц урона окружающим юнитам.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_B_DESCRIPTION" Language="ru_RU">
+			<Text>Липкая самовзрывная мина: при убийстве она наносит 30 единиц урона окружающим юнитам и уменьшает их скорость передвижения на 5 [ICON_MOVEMENT] в этом раунде.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_DESCRIPTION" Language="ru_RU">
+			<Text>Самовзрывная мина, привязанная к земле: при убийстве она наносит 40 единиц урона окружающим юнитам и навсегда снижает скорость передвижения на 1 [ICON_MOVEMENT].</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_D_DESCRIPTION" Language="ru_RU">
+			<Text>Взрывная самоподрывная мина: при убийстве наносит 40 единиц урона юнитам в пределах двух клеток вокруг себя.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_ATTACH_DESCRIPTION" Language="ru_RU">
+			<Text>Привязанный к земле: под действием ледяной брони постоянно -1 [ICON_MOVEMENT] к силе передвижения.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_A_DESCRIPTION" Language="ru_RU">
+			<Text>Очистка: грабеж потребляет только 1 [ICON_MOVEMENT] силы движения.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_B_DESCRIPTION" Language="ru_RU">
+			<Text>Ни травинки не растет: мародерство потребляет только 1 [ICON_MOVEMENT] силы движения и дает 10% текущего прогресса технологических исследований.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_C_DESCRIPTION" Language="ru_RU">
+			<Text>Очистите землю на три фута: мародерство потребляет только 1 [ICON_MOVEMENT] силы движения и дает 12,5% текущего прогресса технологических исследований.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_A_DESCRIPTION" Language="ru_RU">
+			<Text>Юлей: Это меха Юлей, не более того.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_B_DESCRIPTION" Language="ru_RU">
+			<Text>Магнитная буря: это мех магнитной бури, вот и все</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_C_DESCRIPTION" Language="ru_RU">
+			<Text>В огне: это огненный механизм, вот и все... о, +1 время атаки</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_B_DESCRIPTION" Language="ru_RU">
+			<Text>Небесный удар: при атаке добавьте +5 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_C_DESCRIPTION" Language="ru_RU">
+			<Text>Каменный удар: во время защиты добавьте +5 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_D_DESCRIPTION" Language="ru_RU">
+			<Text>Sky Slam: при атаке добавьте +7 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_E_DESCRIPTION" Language="ru_RU">
+			<Text>Тело повелителя: при защите увеличьте его боевую мощь на 7 [ICON_STRENGTH].</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_NAME" Language="ru_RU">
+			<Text>какао</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_TITLE" Language="ru_RU">
+			<Text>антиэнтропийный исполнитель</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_SHORT_TITLE" Language="ru_RU">
+			<Text>ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_DESCRIPTION" Language="ru_RU">
+			<Text>Лидер фракции антиэнтропийных преобразований, основатель приюта Коколия и вечный злодей (независимо от того, в каком мире он находится).</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_NAME" Language="ru_RU">
+			<Text>Коколия приют</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_DESCRIPTION" Language="ru_RU">
+			<Text>Сделайте всю вечную мерзлоту +1 [ICON_CULTURE] культурное значение +1 [ICON_SCIENCE] технологическое значение +1 [ICON_FOOD] еда +1 [ICON_PRODUCTION] производительность, каждый дополнительный партнер Cocolia Orphanage даст всем городам +5% [ICON_CULTURE] культура +5% [ICON_SCIENCE]Технологии +5%[ICON_FOOD]еда +5%[ICON_PRODUCTION]производительность</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_NAME" Language="ru_RU">
+			<Text>Fantasy Sea Dream Butterfly Xier</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_DESCRIPTION" Language="ru_RU">
+			<Text>Дать Броне Зайцеку тяжелого кролика 19С, для всех клеток океана +1[ICON_SCIENCE]Технологическая ценность+1[ICON_CULTURE]Культурная ценность+1[ICON_PRODUCTION]Производительность, озера и берега рек +2[ ICON_SCIENCE] Технология +1 [ICON_CULTURE] Культура + 1 [ICON_PRODUCTION] Производительность</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_NAME" Language="ru_RU">
+			<Text>Вишневая бомба Розалия</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_DESCRIPTION" Language="ru_RU">
+			<Text>Построить развлекательные центры +100%[ICON_PRODUCTION]производительность, сделать все города с развлекательными центрами +3[ICON_Amenities]жилищность, +2[ICON_Housing]жилье, в восторженных городах +25%[ICON_PRODUCTION]производительность, мехи Юниты получают дополнительные 25% опыта</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_NAME" Language="ru_RU">
+			<Text>Близнецы с другой стороны · Seele</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_DESCRIPTION" Language="ru_RU">
+			<Text>Получите ключ от мотоцикла для Брони Зайчек, +1 Харизма ко всем участкам в Золотом веке, +50% [ICON_PRODUCTION]Производство для постройки Чудес, +50%[ICON_PRODUCTION]Производство воинских частей в Темном веке</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_NAME" Language="ru_RU">
+			<Text>Черничная атака Лилии</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый город получает дополнительную площадь, так что все города с развлекательными центрами имеют +5 лояльности за ход, +2 [ICON_Housing] жилья, +25% [ICON_CULTURE] культурной ценности в восторженных городах, а броненосцы получают дополнительные 25% опыта.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_NAME" Language="ru_RU">
+			<Text>Кошмарная Звездная Бездна Сьер</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_DESCRIPTION" Language="ru_RU">
+			<Text>Помогите Броне Зайчек вернуть ядро ​​Herrscher, +100% [ICON_PRODUCTION] производительности после объявления войны, длится 5 раундов</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_NAME" Language="ru_RU">
+			<Text>Часы Chaos Абрикос</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_DESCRIPTION" Language="ru_RU">
+			<Text>Когда механический юнит убивает юнит, он уменьшает очки эры Цивилизации 2 убитого юнита, так что эта цивилизация также может использовать карту политики Темного века в обычной эпохе Золотого века, а усталость от войны будет уменьшена на -50%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_AROMORED_RABBIT_19C_DESCRIPTION" Language="ru_RU">
+			<Text>Heavy Bunny 19C: +10 [ICON_STRENGTH] к боевой мощи для Брони Зайчек при защите.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_VEHICLE_KEY_DESCRIPTION" Language="ru_RU">
+			<Text>Ключ от машины: +2 для Брони Зайчек [ICON_MOVEMENT] «Сестра Броня, не выходи за девушками, если у тебя нет машины».</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_HERRSCHER_CORE_DESCRIPTION" Language="ru_RU">
+			<Text>Herrscher Core: +1 к времени атаки, +1[ICON_RANGED] к дальности, +10[ICON_STRENGTH] к боевой мощи для Брони Зайчек.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ROSALIA_DESCRIPTION" Language="ru_RU">
+			<Text>Розалия: Играй!</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LILIA_DESCRIPTION" Language="ru_RU">
+			<Text>Лилия: спать~</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIN_MAL_CHAOTIC_DESCRIPTION" Language="ru_RU">
+			<Text>Жестокая алебарда: после убийства юнита уменьшите количество очков эпохи Civilization 2, в которой юнит был убит.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_JOYCE_NAME" Language="ru_RU">
+			<Text>антиэнтропийный ученый</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_YOUNG_NAME" Language="ru_RU">
+			<Text>антиэнтропийный ученый</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_PLANK_NAME" Language="ru_RU">
+			<Text>антиэнтропийный ученый</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_TESLA_NAME" Language="ru_RU">
+			<Text>антиэнтропийный ученый</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EINSTEIN_NAME" Language="ru_RU">
+			<Text>антиэнтропийный ученый</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_SCHRODINGER_NAME" Language="ru_RU">
+			<Text>антиэнтропийный ученый</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EDISON_NAME" Language="ru_RU">
+			<Text>антиэнтропийный ученый</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_JOYCE_NAME" Language="ru_RU">
+			<Text>Уолтер Джойс</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_YOUNG_NAME" Language="ru_RU">
+			<Text>Уолтер Янг</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLANK_NAME" Language="ru_RU">
+			<Text>Эмма Планк</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TESLA_NAME" Language="ru_RU">
+			<Text>Фредерика Никола Тесла</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EINSTEIN_NAME" Language="ru_RU">
+			<Text>Лизель Альберт Эйнштейн</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCHRODINGER_NAME" Language="ru_RU">
+			<Text>Эрвин Риана Шредингер</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDISON_NAME" Language="ru_RU">
+			<Text>Нэнси Эдисон</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_EINSTEIN_DESCRIPTION" Language="ru_RU">
+			<Text>Эйнс: каждый существующий антиэнтропийный механизм даст цивилизации +1 [ICON_SCIENCE] технологическую ценность и обеспечит +[ICON_PRODUCTION]2 продуктивности для всех городов.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SCHRODINGER_DESCRIPTION" Language="ru_RU">
+			<Text>Квантовый скачок: +1 [ICON_MOVEMENT] к силе передвижения.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SPIDER_DESCRIPTION" Language="ru_RU">
+			<Text>Великая модификация гениального доктора Теслы: количество атак ядовитого меха паука +1, он еще может атаковать после перемещения, и он невидим</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_TITAN_DESCRIPTION" Language="ru_RU">
+			<Text>Великая модификация гениального доктора Теслы: Титан Меха может пересекать стены ниже Средневековья, наносить полный урон стенам и может атаковать отряды поддержки, сформированные путем пересечения боевых отрядов.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SHAMAN_DESCRIPTION" Language="ru_RU">
+			<Text>Великая модификация гениального доктора Теслы: шаманский меха может сделать меха юнитов вокруг тела +2 [ICON_STRENGTH] к боевой мощи (можно накладывать)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_DESCRIPTION" Language="ru_RU">
+			<Text>Отличная модификация гениального доктора Теслы: Thunder Mecha +1 [ICON_RANGED] дальность, вторая атака нанесет урон по дальности</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SUITS_DESCRIPTION" Language="ru_RU">
+			<Text>Великая модификация гениального доктора Теслы: Робот Смерти игнорирует потерю силы движения любого сюжета</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_RANGE_DESCRIPTION" Language="ru_RU">
+			<Text>Великая модификация гениального доктора Теслы: Thunder Mech, готовый к бомбардировке</Text>
+		</Replace>
+		<Replace Tag="LOC_SCHRODINGER_MOVE" Language="ru_RU">
+			<Text>Квантовый скачок: возможность немедленно вернуться в столицу и сбросить мобильность, сбросить время атаки, восстановить все здоровье</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_NAME" Language="ru_RU">
+			<Text>Уолтер Джойс</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_DESCRIPTION" Language="ru_RU">
+			<Text>Антиэнтропийный ученый с особой способностью отступать</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_NAME" Language="ru_RU">
+			<Text>Уолтер Янг</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_DESCRIPTION" Language="ru_RU">
+			<Text>Антиэнтропийный ученый с особой способностью отступать</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANK_NAME" Language="ru_RU">
+			<Text>Эмма Планк</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANKE_DESCRIPTION" Language="ru_RU">
+			<Text>Антиэнтропийный ученый с особой способностью отступать</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_NAME" Language="ru_RU">
+			<Text>Фредерика Никола Тесла</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_DESCRIPTION" Language="ru_RU">
+			<Text>Антиэнтропийный ученый с особой способностью отступать</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_NAME" Language="ru_RU">
+			<Text>Лизель Альберт Эйнштейн</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_DESCRIPTION" Language="ru_RU">
+			<Text>Антиэнтропийный ученый с особой способностью отступать</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_NAME" Language="ru_RU">
+			<Text>Эрвин Риана Шредингер</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_DESCRIPTION" Language="ru_RU">
+			<Text>Антиэнтропийный ученый с особой способностью отступать</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_NAME" Language="ru_RU">
+			<Text>Нэнси Эдисон</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_DESCRIPTION" Language="ru_RU">
+			<Text>Антиэнтропийный ученый с особой способностью отступать</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_JOYCE_ACTION_NAME_RETIRE" Language="ru_RU">
+			<Text>Сделайте каждое [ICON_CITIZEN] население +1 [ICON_SCIENCE] технологической ценностью для города, +1 [ICON_PRODUCTION] производительности [NewLine] разблокируйте «Реконструкцию ангела» Брони Зайчек, купите великого человека и верните 15%[ ICON_GreatPerson] очки великого человека</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_YOUNG_ACTION_NAME_RETIRE" Language="ru_RU">
+			<Text>Увеличьте все города на 7%[ICON_SCIENCE]Технологии +7%[ICON_PRODUCTION]Производство[NewLine]Броня Зайчек будет получать меха ближнего боя из серии Титанов того же уровня каждый раз, когда она использует «Инициативную силу», и разблокирует Антиэнтропию·Абсолютный механизм , купите великого человека, чтобы вернуть 15% [ICON_GreatPerson] баллов великого человека</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PLANK_ACTION_NAME_RETIRE" Language="ru_RU">
+			<Text>Сделайте все города +7%[ICON_SCIENCE]Значение технологий+7%[ICON_CULTURE]Культурное значение[NewLine] Немедленно получите титул губернатора, и все города [ICON_GreatPerson] принесут +50% очков великого человека, каждый город +2[ICON_GreatScientist] Великий Очки ученого +2 [ICON_GreatEngineer] Очки великого инженера</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TESLA_ACTION_NAME_RETIRE" Language="ru_RU">
+			<Text>Сделать все города +14%[ICON_PRODUCTION]производительность[NewLine]Заставить все антиэнтропийные мехи получить великую модификацию гениального доктора Теслы, построить промзоны +50%[ICON_PRODUCTION]производительность, промзоны +2[ICON_PRODUCTION]производительность</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EINSTEIN_ACTION_NAME_RETIRE" Language="ru_RU">
+			<Text>Увеличьте все города на 14%[ICON_SCIENCE]Значение технологий[NewLine]Каждый существующий антиэнтропийный механизм даст цивилизации +1[ICON_SCIENCE]Значение технологий, повысит производительность всех городов на 1[ICON_PRODUCTION], строительную академию +50% [ICON_PRODUCTION ] Производительность, Академия +3 [ICON_SCIENCE] Технологическая ценность</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCHRODINGER_ACTION_NAME_RETIRE" Language="ru_RU">
+			<Text>Сделайте все города +14% [ICON_SCIENCE] значение науки и техники [NewLine] Сделайте так, чтобы каждое механическое подразделение имело возможность мгновенно вернуться в столицу и восстановить жизненную ценность сбросить движение сбросить время атаки (уже указано) и +1 [ICON_MOVEMENT] мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EDISON_ACTION_NAME_RETIRE" Language="ru_RU">
+			<Text>Сделайте все города +7%[ICON_PRODUCTION]производительность+14%[ICON_GOLD]золотыми монетами[NewLine] сделайте так, чтобы все колледжи и фабрики получали [ICON_GOLD]производство золотых монет, равное соседнему бонусу, и немедленно получите такое же значение технологии, как текущее [ ICON_SCIENCE] В десять раз больше [ICON_GOLD] золотых монет, с этого момента используйте [ICON_GOLD] золотых монет, чтобы купить [ICON_GreatScientist] Великого ученого и [ICON_GreatEngineer] Великого инженера со скидкой 30%</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_DESCRIPTION" Language="ru_RU">
+			<Text>Массово выпускаемый антиэнтропийный абсолютный механизм, он наносит двойной урон по области при атаке и имеет дополнительную атаку.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_NAME" Language="ru_RU">
+			<Text>Искандар</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_DESCRIPTION" Language="ru_RU">
+			<Text>Массово выпускаемый антиэнтропийный абсолютный механизм имеет шанс нанести критический урон при атаке, а атака получит +7 [ICON_STRENGTH] боевой мощи.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_NAME" Language="ru_RU">
+			<Text>Геракл</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_DESCRIPTION" Language="ru_RU">
+			<Text>Массово выпускаемый антиэнтропийный ультимейт меха, юниты с дальностью атаки 1 будут наносить колющий урон, а мародерство получит 12,5% от текущего прогресса исследований</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_NAME" Language="ru_RU">
+			<Text>Бог-Машина Бадр</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_DESCRIPTION" Language="ru_RU">
+			<Text>Серийно выпускаемый антиэнтропийный абсолютный механизм, мощная летающая единица.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_NAME" Language="ru_RU">
+			<Text>PRC_6626</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_DESCRIPTION" Language="ru_RU">
+			<Text>Серийно выпускаемый антиэнтропийный абсолютный механизм, чрезвычайно мощный наземный юнит.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_NAME" Language="ru_RU">
+			<Text>MSR_7</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_DESCRIPTION" Language="ru_RU">
+			<Text>Ограниченный выпуск антиэнтропийного ультимативного механизма может запускать ядерные бомбы и может активно высвобождать навыки, чтобы заставить окружающие юниты терять свою мобильность в этом раунде, а также сбрасывать их мобильность и время атаки, остывать на 5 раундов и иметь 1 дополнительную атаку.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_NAME" Language="ru_RU">
+			<Text>посол мира</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_DESCRIPTION" Language="ru_RU">
+			<Text>Ограниченный выпуск антиэнтропийного ультимативного меха может активно перегреваться и входить в состояние непрерывного измельчения, во время которого +20 [ICON_STRENGTH] боевой мощи, +3 [ICON_MOVEMENT] силы движения, +1 время атаки, немедленно сбрасывает силу движения и атаки. раз, остыть на 3 раунда</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_NAME" Language="ru_RU">
+			<Text>Гефест</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_DESCRIPTION" Language="ru_RU">
+			<Text>Ограниченный выпуск антиэнтропийного конечного меха, каждая атака будет накладываться на боевую мощь и наносить веерообразный всплеск урона.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_NAME" Language="ru_RU">
+			<Text>Бог-машина Хеймдалля</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ISKANDAR_DESCRIPTION" Language="ru_RU">
+			<Text>Возмездие Искандара: Атака нанесет двойной урон от брызг, внутренний круг составляет 50% от первоначального урона, внешний круг составляет 25% от исходного урона, и в начале имеет +1 время атаки.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HERACLES_DESCRIPTION" Language="ru_RU">
+			<Text>Великая сила Геркулеса: Атака нанесет критический урон, 30% шанс — 120% исходного урона, 30% шанс — 125% исходного урона + 5 фиксированных повреждений, 30% шанс — 133,3% исходного урона + 10 фиксированных повреждений , 10 Шанс 150% от исходного урона + 15 фиксированного урона</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_BADER_DESCRIPTION" Language="ru_RU">
+			<Text>Суд Бальдра: Когда расстояние до атакуемого равно 1, он нанесет 50% исходного урона юнитам позади него как проникающий урон, а при разграблении даст 12,5% текущего прогресса исследования технологий</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_PRC_6626_DESCRIPTION" Language="ru_RU">
+			<Text>PRC_6626: Ее сила не вызывает сомнений</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MSR_7_DESCRIPTION" Language="ru_RU">
+			<Text>MSR_7: Ее сила не вызывает сомнений</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MHT_PEACE_DESCRIPTION" Language="ru_RU">
+			<Text>Решение Миротворца: заставить юнитов в пределах трех клеток вокруг потерять свою мобильность и получить 10 единиц фиксированного урона в этом раунде, сбросить их мобильность и время атаки, атаковать 1 дополнительное время и перезарядиться на 6 раундов.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_DESCRIPTION" Language="ru_RU">
+			<Text>Ярость Хесфитоса: Войти в состояние непрерывной рубки, немедленно сбросить силу движения и время атаки, в этот период +20[ICON_STRENGTH] боевой мощи, +3[ICON_MOVEMENT] силы движения, +1 время атаки, время восстановления 4 раунда.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_DESCRIPTION" Language="ru_RU">
+			<Text>Суд Божественной Машины Хеймдалля: каждая атака будет накладываться на усиленное состояние, каждый слой усиленного состояния будет давать +7 [ICON_STRENGTH] боевой мощи, +1 [ICON_MOVEMENT] силы движения и веерообразного брызга в размере 25% от исходного урона.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_FIRE_DESCRIPTION" Language="ru_RU">
+			<Text>Ярость Гесфитоса: активирована, +20 [ICON_STRENGTH] к боевой мощи, +3 [ICON_MOVEMENT] к силе передвижения, +1 к количеству атак</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_1_DESCRIPTION" Language="ru_RU">
+			<Text>Большая круговая атака: Бог-Машина Хеймдалля +7 [ICON_STRENGTH] боевой мощи, +1 [ICON_MOVEMENT] силы движения, +25% веерообразного урона от брызг.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_2_DESCRIPTION" Language="ru_RU">
+			<Text>Гигантский взмах · Ченг: Божественная машина · Хеймдалль +7[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к силе передвижения, +25% к урону от веерообразных брызг</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_3_DESCRIPTION" Language="ru_RU">
+			<Text>Большой круговой поворот: Бог-Машина Хеймдалля +7 [ICON_STRENGTH] к боевой мощи, +1 [ICON_MOVEMENT] к силе движения, +25% урона от веерообразных брызг.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_4_DESCRIPTION" Language="ru_RU">
+			<Text>Большая кольцевая и комбинированная: God Machine Heimdall +7 [ICON_STRENGTH] боевой мощи, +1 [ICON_MOVEMENT] силы движения, +25% веерообразного урона от брызг.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY" Language="ru_RU">
+			<Text>разворот</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="ru_RU">
+			<Text>Все города изначально получают +15% [ICON_SCIENCE] значение технологии +15% [ICON_PRODUCTION] производительность +1 [ICON_Great Scientist] очки великого ученого [NewLine] имеют характеристику великий антиэнтропийный ученый, при получении антиэнтропийного ученого текущий Технология будет завершена немедленно, получите В то же время Эмма Планк немедленно завершит текущий муниципальный [NewLine] Методы приобретения антиэнтропийного ученого следующие: [NewLine] Уолтер Джойс: Получите [ICON_GreatScientist] Великий ученый [NewLine] Уолтер Янг: после получения «После Уолтера Джойса» достигните индустриальной эры [NewLine] Нэнси Эдисон: заработайте 328 золотых монет за раунд [ICON_GOLD] [NewLine] Эмма Планк: приобретите Нэнси Эдисон и [ICON_SCIENCE] ценность технологии &gt; 128, культурная ценность [ICON_CULTURE] &gt; 68 [NewLine] Эрвин Риана Шрёдингер: после приобретения Эммы Планк можно наблюдать [NewLine] Фредерика Тесла: после приобретения можно получить Нэнси Эдисон и создать мех определенное количество раз [NewLine] Лизель Альберт: можно получить Эмму Планк и создать мех определенное количество раз</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_NAME" Language="ru_RU">
+			<Text>известный в мире</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_1" Language="ru_RU">
+			<Text>Киана Каслана</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_2" Language="ru_RU">
+			<Text>Райден Мэй</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_3" Language="ru_RU">
+			<Text>Шейл Флер</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_4" Language="ru_RU">
+			<Text>Бесконечная Та Химэко</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_5" Language="ru_RU">
+			<Text>Тереза ​​Апокалипсис</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_6" Language="ru_RU">
+			<Text>Розалия Арлин</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_7" Language="ru_RU">
+			<Text>Лилия Арлин</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_8" Language="ru_RU">
+			<Text>Абрикос Марр</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_1" Language="ru_RU">
+			<Text>относительно естественный объем</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_2" Language="ru_RU">
+			<Text>Синус двойной хвост</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_3" Language="ru_RU">
+			<Text>обидчик кошек</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_4" Language="ru_RU">
+			<Text>квантовая девушка</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_5" Language="ru_RU">
+			<Text>изобретатель</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_6" Language="ru_RU">
+			<Text>Три закона механики</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_7" Language="ru_RU">
+			<Text>Дублинская прогулка</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_8" Language="ru_RU">
+			<Text>Антиэнтропийный шар</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_9" Language="ru_RU">
+			<Text>Антиэнтропийная полоса</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_10" Language="ru_RU">
+			<Text>Барабанщик против энтропии</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_11" Language="ru_RU">
+			<Text>Антиэнтропийное Рождество</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_12" Language="ru_RU">
+			<Text>большой взрыв</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_13" Language="ru_RU">
+			<Text>Квантовый вальс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_14" Language="ru_RU">
+			<Text>законодатель неба</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_15" Language="ru_RU">
+			<Text>звездный исследователь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_16" Language="ru_RU">
+			<Text>элементальный провидец</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_17" Language="ru_RU">
+			<Text>звездочет</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_18" Language="ru_RU">
+			<Text>исследователь материалов</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_19" Language="ru_RU">
+			<Text>наблюдатель</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_20" Language="ru_RU">
+			<Text>естественная классификация</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_ADJECTIVE" Language="ru_RU">
+			<Text>разворот</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BRONYA_ZAYCHIK_QUOTE" Language="ru_RU">
+			<Text>«Не склоняйся перед крахом, не сдавайся богам».</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_NAME" Language="ru_RU">
+			<Text>Антиэнтропийная броня</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_DESCRIPTION" Language="ru_RU">
+			<Text>Серийно выпускаемый механизм антиэнтропии используется для замены Валькирии в качестве основной силы против Хокая.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BRONYA_ZAYCHIK" Language="ru_RU">
+			<Text>Для Гершера Разума на самом деле нет разницы между «одним» и «тремстами тысячами» [NewLine] Уолтер Джойс, Иоахим Янг, Броня Зайчек... Они Любой из них на самом деле не только один из 300 000 человек, но и все 300 000 человек. Причина, по которой имя «Герршер разума» может быть передано по сей день, заключается в том, что его «сила» и «воля» уже давно объединены. защищая мир[NewLine] Но желание защитить мир может быть у каждого[NewLine] В конце концов…единственная неизменная «истина» человека состоит в том, что «правда человека неизбежно изменится»</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_DESCRIPTION" Language="ru_RU">
+			<Text>«Могущество одного человека может быть недостаточно сильным. Мысли 300 000 человек могут быть недостаточно богатыми. Но Броня в этот момент — настоящий Гершер Разума!»</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_NAME" Language="ru_RU">
+			<Text>Броня Зайчек</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_DESCRIPTION" Language="ru_RU">
+			<Text>Бесподобная снежная страна: Броня Зайчек полностью невосприимчива к ядерным взрывам и радиационным поражениям</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_DESCRIPTION" Language="ru_RU">
+			<Text>Реконструкция Бездны Бабочки Тени: Броня Зайчек освоила «Реконструкцию Ангела», которая дает всем городам +3 [ICON_SCIENCE] значение технологии +3 [ICON_PRODUCTION] производительности, Броня Зайчек +5[ICON_STRENGTH] Боевой Мощи, +1[ICON_MOVEMENT] Подвижности , +1[ICON_RANGED] Радиус действия, +1 Обзор</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_BETTER_DESCRIPTION" Language="ru_RU">
+			<Text>Измените мир будущего: Броня Зайчек кастует «Сила инициативы», +15 [ICON_STRENGTH] к боевой мощи, +2 [ICON_MOVEMENT] к силе передвижения, +1 [ICON_RANGED] к дальности, +1 к полю зрения</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MACHINE_DESCRIPTION" Language="ru_RU">
+			<Text>Антиэнтропийная броня: иммунитет к большинству ядерных взрывов и радиационного урона.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_1_DESCRIPTION" Language="ru_RU">
+			<Text>«Прошлое»: Броня Зайчек +7[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к силе передвижения, +1[ICON_RANGED] к дальности, +1 к обзору.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_2_DESCRIPTION" Language="ru_RU">
+			<Text>«Сейчас»: Броня Зайчек +13[ICON_STRENGTH] к боевой мощи, +1[ICON_MOVEMENT] к силе передвижения, +1[ICON_RANGED] к дальности, +1 к обзору.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_3_DESCRIPTION" Language="ru_RU">
+			<Text>«Будущее»: Броня Зайчек +20[ICON_STRENGTH] боевой мощи, +1[ICON_MOVEMENT] силы передвижения, +1[ICON_RANGED] дальности, +1 обзор, +1 время атаки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_ZAYCHIK_NAME" Language="ru_RU">
+			<Text>Эхо</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_NAME" Language="ru_RU">
+			<Text>снежный снайпер</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_DESCRIPTION" Language="ru_RU">
+			<Text>В начале раунда находится в мерзлой земле, боевая мощь +10 [ICON_STRENGTH], дальность +1 [ICON_RANGED], поле зрения +1; дополнительный урон будет нанесен в зависимости от расстояния между двумя сторонами и сила движения будет сброшена, если он будет слишком близко</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_NAME" Language="ru_RU">
+			<Text>Валькирия Колесница</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_MOVEMENT] к силе передвижения, независимо от потери земли, сбросить силу передвижения и время атаки после атаки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_NAME" Language="ru_RU">
+			<Text>Эрозия черного ядра инопланетян</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_DESCRIPTION" Language="ru_RU">
+			<Text>Невидимость, не потеряет боевую мощь из-за ранения, при дистанции до вражеского юнита 2, атака имеет шанс нанести крит и нанести дополнительный урон</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_NAME" Language="ru_RU">
+			<Text>Установка драйвера · Ямабуки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DESCRIPTION" Language="ru_RU">
+			<Text>При защите +20 [ICON_STRENGTH] боевой мощи, +1 время атаки, когда расстояние равно 1, атака нанесет колющий урон</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_NAME" Language="ru_RU">
+			<Text>кометный двигатель</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_DESCRIPTION" Language="ru_RU">
+			<Text>Вы по-прежнему можете атаковать после перемещения, вы по-прежнему можете двигаться после атаки, и вы по-прежнему можете восстанавливать свое здоровье после совершения действия, отражая 50% полученного урона и восстанавливая 25% полученного урона.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

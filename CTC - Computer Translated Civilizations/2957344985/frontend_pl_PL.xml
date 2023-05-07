@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May  7 14:45:12 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BRONYA_CREAT_BASE" Language="pl_PL">
+			<Text>Bieżący postęp badań to [COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_50" Language="pl_PL">
+			<Text>za mało, żeby zrobić jakieś mechy</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_100" Language="pl_PL">
+			<Text>Pochłonie [COLOR_LIGHTBLUE]50[ENDCOLOR] postępu badań [NewLine] z pewnością będzie w stanie wyprodukować [COLOR_GREEN] podstawowego mecha [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_200" Language="pl_PL">
+			<Text>Pochłonie [COLOR_LIGHTBLUE] 100[ENDCOLOR] postępu badań [NewLine] musi być w stanie wyprodukować [COLOR_GREEN] podstawowego mecha [ENDCOLOR] i mieć pewną szansę na wyprodukowanie [COLOR_FLOAT_SCIENCE] zaawansowanego mecha [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_400" Language="pl_PL">
+			<Text>Pochłonie [COLOR_LIGHTBLUE] 200 [ENDCOLOR] postępu badań [NewLine] musi być w stanie wyprodukować [COLOR_FLOAT_SCIENCE] zaawansowanego mecha [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_800" Language="pl_PL">
+			<Text>Pochłonie [COLOR_LIGHTBLUE]400[ENDCOLOR] postępu badań[NewLine] musi być w stanie wyprodukować [COLOR_FLOAT_SCIENCE] zaawansowanego mecha[ENDCOLOR] i mieć pewną szansę na wyprodukowanie [COLOR_FLOAT_CULTURE] najnowocześniejszego mecha[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_1600" Language="pl_PL">
+			<Text>Pochłonie [COLOR_LIGHTBLUE]800[ENDCOLOR] postępów w badaniach[NewLine] musi być w stanie wyprodukować [COLOR_FLOAT_CULTURE] najnowocześniejszego mecha[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_MAX" Language="pl_PL">
+			<Text>Pochłonie [COLOR_LIGHTBLUE]1600[ENDCOLOR] postępu badań [NewLine] musi być w stanie wyprodukować [COLOR_FLOAT_CULTURE] najnowocześniejszego mecha[ENDCOLOR] i mieć pewną szansę na wyprodukowanie [COLOR_RED] ostatecznego [ENDCOLOR] mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_POINT" Language="pl_PL">
+			<Text>[NewLine]Obecnie utworzone czasy[COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_TOOLTIP" Language="pl_PL">
+			<Text>Decyzja rozjemcy [NewLine] stygnie, liczba pozostałych rund [COLOR_Civ6Yellow]</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_TOOLTIP" Language="pl_PL">
+			<Text>Gniew Hesfitosa [Nowa Linia] stygnie, pozostała liczba rund [COLOR_RED]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_ALL_READEY" Language="pl_PL">
+			<Text>[COLOR_Civ6Yellow]Rezolucja rozjemcy[ENDCOLOR][NewLine] jest gotowy</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_ALL_READY" Language="pl_PL">
+			<Text>[COLOR_RED]Gniew Hesfitosa[ENDCOLOR][NewLine] jest gotowy</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_AROMORED_RABBIT_19C_DEEFEND" Language="pl_PL">
+			<Text>Heavy Bunny 19C: +10 [ICON_STRENGTH] siły bojowej Bronyi Zajcek podczas obrony</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_HERRSCHER_CORE_STRENGTH" Language="pl_PL">
+			<Text>Rdzeń Herrschera: +10 [ICON_STRENGTH] siły bojowej Broni Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_STRENGTH" Language="pl_PL">
+			<Text>Mina samowybuchowa typu rażenia: +5 [ICON_STRENGTH] siły bojowej dla jadowitego pajęczego mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_STRENGTH" Language="pl_PL">
+			<Text>Mech Atak: +5 [ICON_STRENGTH] siły bojowej mecha tytana</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_STRENGTH" Language="pl_PL">
+			<Text>Tryb obrony: podczas obrony przed atakami z dużej odległości Tytan Mech +10 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_STRENGTH" Language="pl_PL">
+			<Text>Wpływ trzęsienia ziemi: +5 [ICON_STRENGTH] siły bojowej mecha tytana</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DISTRICT" Language="pl_PL">
+			<Text>Wpływ trzęsienia ziemi: +5 [ICON_STRENGTH] siły bojowej mecha tytana podczas atakowania obszaru</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_STRENGTH" Language="pl_PL">
+			<Text>Przeciążenie przegrzaniem: +5 [ICON_STRENGTH] siły bojowej mecha tytana</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_STRENGTH" Language="pl_PL">
+			<Text>Zamach: +5 [ICON_STRENGTH] siły bojowej Mecha Śmierci</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_STRENGTH" Language="pl_PL">
+			<Text>Tarcza pola siłowego: +10 [ICON_STRENGTH] siły bojowej mecha śmierci podczas obrony przed atakami z dużej odległości</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_STRENGTH" Language="pl_PL">
+			<Text>Adaptacyjność: +5 [ICON_STRENGTH] siły bojowej Mecha Śmierci</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_STRENGTH" Language="pl_PL">
+			<Text>Tarcza Przeznaczenia: +5 [ICON_STRENGTH] siły bojowej mecha śmierci</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_STRENGTH" Language="pl_PL">
+			<Text>Trampling: +5 [ICON_STRENGTH] siły bojowej dla mecha grzmotu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_STRENGTH" Language="pl_PL">
+			<Text>Ciężki pancerz: Podczas obrony przed atakami z dużej odległości Pancerz Błyskawicy +10 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_STRENGTH" Language="pl_PL">
+			<Text>Płonący pocisk: +5 [ICON_STRENGTH] siły bojowej mecha grzmotu i zyskaj +200% premii za wsparcie</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_A_STRENGTH" Language="pl_PL">
+			<Text>Wzmocniona pozycja α: pod wpływem pancerza szamana, +3 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_B_STRENGTH" Language="pl_PL">
+			<Text>Wzmocniona pozycja β: wpływ mecha czarnoksiężnika, +4 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_C_STRENGTH" Language="pl_PL">
+			<Text>Wzmocniona pozycja γ: pod wpływem mecha podwójnego węża, +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_STRENGTH" Language="pl_PL">
+			<Text>Mech ładujący moc: +5 [ICON_STRENGTH] siły bojowej, gdy otrzymuje ładowanie mocy od mecha szamana</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_STRENGTH" Language="pl_PL">
+			<Text>Ładunek elektryczny · Tytan: Otrzymał ładunek elektryczny mecha szamana, +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_STRENGTH" Language="pl_PL">
+			<Text>Ładunek mocy · Martwy wojownik: Otrzymał ładunek mocy mecha szamana, gdy atakował ranną jednostkę, +7 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_B_STRENGTH" Language="pl_PL">
+			<Text>Podniebny Uderzenie: podczas ataku daj mu +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_C_STRENGTH" Language="pl_PL">
+			<Text>Kamienne Uderzenie: Podczas obrony daj mu +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_D_STRENGTH" Language="pl_PL">
+			<Text>Sky Slam: Podczas ataku daj mu +7 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_E_STRENGTH" Language="pl_PL">
+			<Text>Ciało mrocznego władcy: podczas obrony daj mu +7 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_ATTACH_STRENGTH" Language="pl_PL">
+			<Text>Pozycja czasoprzestrzenna: +2 [ICON_STRENGTH] siły bojowej dla wszystkich mechów w otaczającej przestrzeni (można nałożyć) (pochodzi z wielkiej przemiany genialnego doktora Tesli)</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEPHAESTUS_STRENGTH" Language="pl_PL">
+			<Text>Lianzhan Ihe: Hefajstos +20 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_STRENGTH" Language="pl_PL">
+			<Text>„Anielski Rekonstrukcja”: Częściowo odblokowana „Moc Genezy” zapewnia Broni Zajcek +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_BETTER_STRENGTH" Language="pl_PL">
+			<Text>„Moc Genesis”: W pełni odblokowana „Moc Genesis” zapewnia Broni Zajcek +15 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_1_STRENGTH" Language="pl_PL">
+			<Text>„Przeszłość”: Zapewnij Broni Zajcek +7 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_2_STRENGTH" Language="pl_PL">
+			<Text>„Teraz”: Zapewnij Broni Zajcek +13 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_3_STRENGTH" Language="pl_PL">
+			<Text>„Przyszłość”: Zapewnij Broni Zajcek +20 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_1_STRENGTH" Language="pl_PL">
+			<Text>Duże rondo: zapewnij +7 [ICON_STRENGTH] mocy bojowej Boskiej Machinie Heimdalla</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_2_STRENGTH" Language="pl_PL">
+			<Text>Duże rondo·Cheng: zapewnia +7[ICON_STRENGTH]siły bojowej Boskiej Maszynie·Heimdalla</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_3_STRENGTH" Language="pl_PL">
+			<Text>Duże rondo · zakręt: zapewnij +7 [ICON_STRENGTH] mocy bojowej magicznej maszynie Heimdall</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_4_STRENGTH" Language="pl_PL">
+			<Text>Duże rondo·Łącznie: Zapewnij +7[ICON_STRENGTH]siły bojowej Boskiej Maszynie·Heimdall</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DEEFEND" Language="pl_PL">
+			<Text>Strój kierowcy Yamabuki: Broniąc się, zapewnij Broni Zajcek +20 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="pl_PL">
+			<Text>odwrócenie</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_NAME" Language="pl_PL">
+			<Text>odwrócenie</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_DESCRIPTION" Language="pl_PL">
+			<Text>W cywilizacji antyentropii prowadzonej przez Bronię Zajcek początkowa Eureka [ICON_TechBoosted] to tylko 20%, a każda ukończona technologia +2% Eureka [ICON_TechBoosted], aż do 80%. [NewLine] Kiedy [ICON_TechBoosted] osiągnie 80% w Eurece, zapewnij 100% [ICON_PRODUCTION] Premia do Produktywności dla wszystkich obszarów, budynków i projektów [NewLine] Po odblokowaniu pisania technologii, zaprezentuj unikalną jednostkę Bronya Zha w stołecznym Iceku</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_NAME" Language="pl_PL">
+			<Text>w imię prawdy</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BRONYA_ZAYCHIK_NAME" Language="pl_PL">
+			<Text>Broni Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_NAME" Language="pl_PL">
+			<Text>Broni Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_DESCRIPTION" Language="pl_PL">
+			<Text>Dziewczyna z Syberii, która za pomocą śmiertelnego ciała kontroluje moc Herrschera, jej przeszłe doświadczenia staną się dla niej kamieniem węgielnym krok po kroku ku przyszłości. Rdzeń rozumu daje jej umiejętność „analizowania” i „rekonstruowania”, a w jedna myśl Zamień inspirację w rzeczywistość, stwórz szereg kosmicznej broni, która może zniszczyć wszystkie armie i wyeliminować wszystkich wrogów, którzy staną Ci na drodze.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_NAME" Language="pl_PL">
+			<Text>Anty-entropia Mech·Produkcja masowa</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_DESCRIPTION" Language="pl_PL">
+			<Text>Masowo produkowany mecha antyentropii jest używany do zastąpienia Walkirii jako głównej siły przeciwko Houkai.Można go podzielić na modele podstawowe, modele zaawansowane i najnowocześniejsze, a także Tytani, jadowite pająki, szamani, martwe żołnierze i modele Royal Thunder.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_NAME" Language="pl_PL">
+			<Text>Pancerz Anty-Entropii Ostateczny</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_DESCRIPTION" Language="pl_PL">
+			<Text>Limitowana edycja mecha Anti-entropy jest potężna i wyjątkowa.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_DESCRIPTION" Language="pl_PL">
+			<Text>Słaba skuteczność bojowa, rzucająca się w oczy mobilność, sens istnienia tkwi w fajerwerkach, które rozkwitają na końcu.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_NAME" Language="pl_PL">
+			<Text>Pajęczy Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_DESCRIPTION" Language="pl_PL">
+			<Text>Nadal jest słaby w sile bojowej, z przykuwającą wzrok mobilnością, a dodatkowo wyposażony jest w szereg redukcji mobilności po wybuchu.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_NAME" Language="pl_PL">
+			<Text>Pająk Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_DESCRIPTION" Language="pl_PL">
+			<Text>Nadal jest słaba w skuteczności bojowej, z przykuwającą wzrok mobilnością, a dodatkowo wyposażona jest w trwałe zmniejszenie zasięgu mobilności po wybuchu.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_NAME" Language="pl_PL">
+			<Text>Lodowy Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_DESCRIPTION" Language="pl_PL">
+			<Text>Krótko mówiąc, wciąż jest słaby w sile bojowej, a jego mobilność robi wrażenie.Tym razem są jaśniejsze fajerwerki, a zasięg eksplozji jest podwojony.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_NAME" Language="pl_PL">
+			<Text>niedopałek</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_DESCRIPTION" Language="pl_PL">
+			<Text>Podstawowy mech, czego jeszcze możemy się po nim spodziewać?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_NAME" Language="pl_PL">
+			<Text>Tytan Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_DESCRIPTION" Language="pl_PL">
+			<Text>Moc może podnieść niebo! Niech poczują horror bycia zdominowanym przez Papa Titan! (Uwaga! System skoków nie jest zainstalowany!)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_NAME" Language="pl_PL">
+			<Text>Pancerz dynama</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_DESCRIPTION" Language="pl_PL">
+			<Text>Twardy jak skała! Niech poczują horror bycia zdominowanym przez Papa Titan! (Ostrzeżenie! System Super Body nie jest zainstalowany!)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_NAME" Language="pl_PL">
+			<Text>kamienna zbroja</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_DESCRIPTION" Language="pl_PL">
+			<Text>Moc pocisku Tomahawk! (zupełnie nie)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_NAME" Language="pl_PL">
+			<Text>tomahawk</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_DESCRIPTION" Language="pl_PL">
+			<Text>Nawet nie chcesz nazywać mnie ojcem chrzestnym!</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_NAME" Language="pl_PL">
+			<Text>ojciec chrzestny</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_DESCRIPTION" Language="pl_PL">
+			<Text>Żadnych tańców, żadnych mantr, żadnych czaszek na szyjach.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_NAME" Language="pl_PL">
+			<Text>Szaman Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_DESCRIPTION" Language="pl_PL">
+			<Text>Nie ma potrzeby składania ofiar ani niebieskich pasków i nie ma potrzeby nocnej medytacji, aby przygotować miejsca na zaklęcia.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_NAME" Language="pl_PL">
+			<Text>Mech czarnoksiężnika</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_DESCRIPTION" Language="pl_PL">
+			<Text>Um? Czy twoje imię ma coś wspólnego z szamanizmem?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_NAME" Language="pl_PL">
+			<Text>podwójny wąż</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_DESCRIPTION" Language="pl_PL">
+			<Text>Strzeż się Herrschera Nieba!</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_NAME" Language="pl_PL">
+			<Text>Grzmot Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_DESCRIPTION" Language="pl_PL">
+			<Text>Nie ma mowy, nie ma mowy, nikt nie może być naprawdę kontrolowany przez mecha burzy magnetycznej, prawda? To ja zostałem oskarżony. W porządku.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_NAME" Language="pl_PL">
+			<Text>Magnetyczna zbroja burzowa</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_DESCRIPTION" Language="pl_PL">
+			<Text>Proch! Nie ma jednak funkcji odradzania się i nie próbuj naciskać i przytrzymywać przycisku uniku, aby strzelać z karabinu maszynowego.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_NAME" Language="pl_PL">
+			<Text>Mech w ogniu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_DESCRIPTION" Language="pl_PL">
+			<Text>Ściśle mówiąc, to jest Mecha Przeznaczenia, ale teraz, kto jest Biskupem Przeznaczenia, mogę tylko powiedzieć, że wiem wszystko.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_NAME" Language="pl_PL">
+			<Text>Mech śmierci</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_DESCRIPTION" Language="pl_PL">
+			<Text>Co się stało z Mechem Przeznaczenia! To, co mówię, że anty-entropia, jest anty-entropią! Tylko przeznaczenie może skopiować antyentropię, a antyentropia nie może ukraść przeznaczenia?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_NAME" Language="pl_PL">
+			<Text>Iberki</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_DESCRIPTION" Language="pl_PL">
+			<Text>To zbroja przeciw entropii.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_NAME" Language="pl_PL">
+			<Text>Jashenji Mistedtin</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SPIDER_NAME" Language="pl_PL">
+			<Text>jadowity pająk</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_TITAN_NAME" Language="pl_PL">
+			<Text>tytan</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SUITS_NAME" Language="pl_PL">
+			<Text>martwy człowiek</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SHAMAN_NAME" Language="pl_PL">
+			<Text>szaman</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_THUNDER_NAME" Language="pl_PL">
+			<Text>Yu Lei</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_NAME" Language="pl_PL">
+			<Text>Zaatakuj minę samowybuchową</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_DESCRIPTION" Language="pl_PL">
+			<Text>Pozwala Spider-Mechowi dostrzec niewidzialne jednostki, +1 [ICON_MOVEMENT] ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_NAME" Language="pl_PL">
+			<Text>Mina samowybuchowa terenowa</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_DESCRIPTION" Language="pl_PL">
+			<Text>Sprawia, że ​​Tarantula ignoruje kontrolę obszaru i ścieranie pól</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_NAME" Language="pl_PL">
+			<Text>Mina uderzeniowa</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_DESCRIPTION" Language="pl_PL">
+			<Text>Spraw, by jadowity pająk miał +5 [ICON_STRENGTH] siły bojowej, +5 obrażeń od eksplozji</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_NAME" Language="pl_PL">
+			<Text>Rajd Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha tytana +5[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_NAME" Language="pl_PL">
+			<Text>tryb przeciążenia</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_DESCRIPTION" Language="pl_PL">
+			<Text>Tytani nadal mogą się poruszać po zaatakowaniu i nadal mogą atakować po ruchu, +1 do czasu ataku</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_NAME" Language="pl_PL">
+			<Text>tryb obrony</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_DESCRIPTION" Language="pl_PL">
+			<Text>+10[ICON_STRENGTH] Siły Bojowej, gdy Tytan Mecha broni się przed atakami z dużej odległości</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_NAME" Language="pl_PL">
+			<Text>Trzęsienie ziemi</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha tytana +5[ICON_STRENGTH] siły bojowej i dodatkowe +5[ICON_STRENGTH] siły bojowej podczas atakowania obszaru</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_NAME" Language="pl_PL">
+			<Text>Przegrzanie i przeciążenie</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_DESCRIPTION" Language="pl_PL">
+			<Text>Tytan Mecha +5 [ICON_STRENGTH] siły bojowej, na którą nie mają wpływu uszkodzone debuffy</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_NAME" Language="pl_PL">
+			<Text>ciąć</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha śmierci +5[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_NAME" Language="pl_PL">
+			<Text>ciąć obiema rękami</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha Śmierci wciąż może się poruszać po zaatakowaniu i nadal może atakować po ruchu, +1 do czasu ataku</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_NAME" Language="pl_PL">
+			<Text>Tarcza Mocy</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_DESCRIPTION" Language="pl_PL">
+			<Text>+10 [ICON_STRENGTH] siły bojowej, gdy Mech Śmierci broni się przed atakami z dużej odległości</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_NAME" Language="pl_PL">
+			<Text>zdolność adaptacji</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha śmierci +5 [ICON_STRENGTH] siła bojowa, dochód z grabieży +100%</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_NAME" Language="pl_PL">
+			<Text>Tarcza Przeznaczenia</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_DESCRIPTION" Language="pl_PL">
+			<Text>Mech śmierci +5 [ICON_STRENGTH] siły bojowej, nadal może odzyskać HP po wykonaniu akcji, przywrócić 10 HP w obszarze neutralnym, przywrócić 7 HP w obszarze wroga</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_NAME" Language="pl_PL">
+			<Text>Mecha ładowania mocy</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="pl_PL">
+			<Text>Mech szamana sprawia, że ​​jednostki mecha w siatce wokół ciała +5[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_NAME" Language="pl_PL">
+			<Text>Power Charge Titan</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha szamana sprawia, że ​​mecha Tytana w obrębie bloku ciała otrzymuje +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_NAME" Language="pl_PL">
+			<Text>Ładowanie elektryczne · Trujący pająk</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="pl_PL">
+			<Text>Mech szamana sprawia, że ​​jadowity mech pająka znajduje się w bloku od ciała +1 [ICON_MOVEMENT] ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_NAME" Language="pl_PL">
+			<Text>Ładowanie energii · Piorun</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="pl_PL">
+			<Text>Mech szamana sprawia, że ​​mech grzmotu znajduje się w odległości jednej przecznicy od ciała +1 pole widzenia, +1 zasięg [ICON_RANGED]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_NAME" Language="pl_PL">
+			<Text>Ładowanie elektryczne · Wojownik Śmierci</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha szamana sprawia, że ​​martwy mech w promieniu jednej przecznicy wokół ciała +7 [ICON_STRENGTH] siły bojowej podczas atakowania uszkodzonych jednostek</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_NAME" Language="pl_PL">
+			<Text>deptać</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha grzmotu +5[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_NAME" Language="pl_PL">
+			<Text>bomba rozpryskowa</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha grzmotu może nadal się poruszać po wykonaniu ataku i nadal może atakować po ruchu, +1 do czasu ataku</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_NAME" Language="pl_PL">
+			<Text>Ciężka zbroja</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_DESCRIPTION" Language="pl_PL">
+			<Text>+10 [ICON_STRENGTH] siły bojowej, gdy Pancerz Błyskawic chroni przed atakami z dużej odległości</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_NAME" Language="pl_PL">
+			<Text>Bomba wabiąca</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha grzmotu +1 widzenie, +1 [ICON_RANGED] zasięgu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_NAME" Language="pl_PL">
+			<Text>Płonący pocisk</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha grzmotu +5 [ICON_STRENGTH] siły bojowej, otrzymujesz 200% premii za wsparcie</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_ATTACH_DESCRIPTION" Language="pl_PL">
+			<Text>Wzmocnione pole siłowe α: mech szamana sprawia, że ​​jednostki mecha otoczone siatką zyskują +3 [ICON_STRENGTH] siły bojowej, +1 [ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_ATTACH_DESCRIPTION" Language="pl_PL">
+			<Text>Wzmocnione pole siłowe β: Mecha szamana sprawia, że ​​jednostka mecha otoczona siatką zyskuje +4[ICON_STRENGTH]siły bojowej, +1[ICON_MOVEMENT]ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_ATTACH_DESCRIPTION" Language="pl_PL">
+			<Text>Ulepszone pole siłowe γ: mecha szamana sprawia, że ​​jednostki mecha otoczone siatką zyskują +5 [ICON_STRENGTH] siły bojowej, +75% zdobywania doświadczenia</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_DESCRIPTION" Language="pl_PL">
+			<Text>Wzmocnione pole siłowe α: pod wpływem pancerza szamana, +3[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_DESCRIPTION" Language="pl_PL">
+			<Text>Wzmocnione pole siłowe β: Pod wpływem pancerza szamana, +4[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_DESCRIPTION" Language="pl_PL">
+			<Text>Wzmocnione pole siłowe γ: Pod wpływem pancerza szamana, +5 [ICON_STRENGTH] siły bojowej, +75% doświadczenia</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="pl_PL">
+			<Text>Mecha ładowania mocy: Pod wpływem mecha szamana, +5[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] mobilności</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="pl_PL">
+			<Text>Power Charge Titan: Pod wpływem pancerza szamana, +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="pl_PL">
+			<Text>Ładunek elektryczny · Trujący Pająk: pod wpływem Mecha Szamana, +1 [ICON_MOVEMENT] ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="pl_PL">
+			<Text>Ładunek mocy · Kontrola piorunów: Pod wpływem mecha szamana, wizja +1, zasięg +1 [ICON_RANGED]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="pl_PL">
+			<Text>Ładujący Moc Wojownik Śmierci: Pod wpływem pancerza szamana, +7 [ICON_STRENGTH] siły bojowej podczas atakowania uszkodzonych jednostek</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_A_DESCRIPTION" Language="pl_PL">
+			<Text>Mina samowybuchowa: po zabiciu zadaje 20 obrażeń pobliskim jednostkom</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_B_DESCRIPTION" Language="pl_PL">
+			<Text>Lepka mina samowybuchowa: po zabiciu zadaje 30 pkt. obrażeń pobliskim jednostkom i powoduje, że są one -5 [ICON_MOVEMENT] ruchu w tej rundzie</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_DESCRIPTION" Language="pl_PL">
+			<Text>Naziemna mina samowybuchowa: po zabiciu zadaje 40 obrażeń pobliskim jednostkom i na stałe zmniejsza ruch o 1 [ICON_MOVEMENT]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_D_DESCRIPTION" Language="pl_PL">
+			<Text>Wybuchowa mina samowybuchowa: po zabiciu zadaje 40 obrażeń jednostkom w promieniu dwóch pól wokół niej</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_ATTACH_DESCRIPTION" Language="pl_PL">
+			<Text>Ziemny: Pod wpływem lodowej zbroi, na stałe -1 [ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_A_DESCRIPTION" Language="pl_PL">
+			<Text>Sprzątanie: Grabieże zużywają tylko 1 [ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_B_DESCRIPTION" Language="pl_PL">
+			<Text>Ani źdźbło trawy nie rośnie: grabieże zużywają tylko 1 [ICON_MOVEMENT] siły ruchu i zapewniają 10% obecnego postępu badań technologicznych</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_C_DESCRIPTION" Language="pl_PL">
+			<Text>Zdrap ziemię na trzy stopy: grabieże zużywają tylko 1 [ICON_MOVEMENT] siły ruchu i zapewniają 12,5% obecnego postępu badań technologicznych</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_A_DESCRIPTION" Language="pl_PL">
+			<Text>Yulei: To mecha Yulei, nic więcej</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_B_DESCRIPTION" Language="pl_PL">
+			<Text>Magnetic Storm: To magnetyczny Storm Mech, to wszystko</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_C_DESCRIPTION" Language="pl_PL">
+			<Text>On Fire: To Ognisty Mecha, to wszystko... och, +1 do czasu ataku</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_B_DESCRIPTION" Language="pl_PL">
+			<Text>Podniebny Uderzenie: podczas ataku daj mu +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_C_DESCRIPTION" Language="pl_PL">
+			<Text>Kamienne Uderzenie: Podczas obrony daj mu +5 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_D_DESCRIPTION" Language="pl_PL">
+			<Text>Sky Slam: Podczas ataku daj mu +7 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_E_DESCRIPTION" Language="pl_PL">
+			<Text>Ciało mrocznego władcy: podczas obrony daj mu +7 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_NAME" Language="pl_PL">
+			<Text>kakao</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_TITLE" Language="pl_PL">
+			<Text>egzekutor anty-entropii</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_SHORT_TITLE" Language="pl_PL">
+			<Text>czarownica</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_DESCRIPTION" Language="pl_PL">
+			<Text>Przywódca frakcji anty-entropijnej reformacji, założyciel sierocińca Cocolia i wieczny złoczyńca (bez względu na to, w jakim świecie się znajduje).</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_NAME" Language="pl_PL">
+			<Text>sierociniec Cocolia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_DESCRIPTION" Language="pl_PL">
+			<Text>Spraw, aby cała wieczna zmarzlina +1 [ICON_CULTURE] wartość kultury +1 [ICON_SCIENCE] wartość technologii +1 [ICON_FOOD] żywność +1 [ICON_PRODUCTION] produktywność, każdy dodatkowy partner sierocińca Cocolia da wszystkim miastom +5% [ICON_CULTURE] Kultura +5% [ICON_SCIENCE]Technologia +5%[ICON_FOOD]żywność +5%[ICON_PRODUCTION]produktywność</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_NAME" Language="pl_PL">
+			<Text>Fantasy Sea Dream Butterfly Xier</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_DESCRIPTION" Language="pl_PL">
+			<Text>Podaruj Broni Zajcek ciężkiego króliczka 19C, dla wszystkich komórek oceanów +1[ICON_SCIENCE]Wartość technologiczna+1[ICON_CULTURE]Wartość kulturowa+1[ICON_PRODUCTION]Produktywność, jeziora i brzegi rzek +2[ ICON_SCIENCE] Technologia +1 [ICON_CULTURE] Kultura + 1 [ICON_PRODUCTION] Produktywność</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_NAME" Language="pl_PL">
+			<Text>Rosalia Wiśniowa Bomba</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_DESCRIPTION" Language="pl_PL">
+			<Text>Buduj centra rozrywki +100%[ICON_PRODUCTION]produktywności, spraw, aby wszystkie miasta z centrami rozrywki +3[ICON_Amenities]żywotność, +2[ICON_Housing]mieszkania, w ekstatycznych miastach +25%[ICON_PRODUCTION]produktywności, mechy Jednostki zyskują dodatkowe 25% doświadczenia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_NAME" Language="pl_PL">
+			<Text>Bliźniaczki z drugiej strony · Seele</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_DESCRIPTION" Language="pl_PL">
+			<Text>Odzyskaj klucz do motocykla dla Broni Zajcek, +1 Charyzma do wszystkich działek w Złotym Wieku, +50% [ICON_PRODUCTION]Produkcja do budowy cudów; +50%[ICON_PRODUCTION]Produkcja do Jednostek Wojskowych w Ciemnym Wieku</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_NAME" Language="pl_PL">
+			<Text>Lilia Atak Borówki</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_DESCRIPTION" Language="pl_PL">
+			<Text>Każde miasto otrzymuje dodatkowy obszar, dzięki czemu wszystkie miasta z centrami rozrywki mają +5 lojalności na turę, +2 [ICON_Housing] mieszkań, +25% [ICON_CULTURE] wartości kultury w ekstatycznych miastach, a jednostki opancerzone otrzymują dodatkowe 25% doświadczenia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_NAME" Language="pl_PL">
+			<Text>Xier z Otchłani Gwiazdy Koszmaru</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_DESCRIPTION" Language="pl_PL">
+			<Text>Pomóż Broni Zajcek odzyskać rdzeń Herrschera, +100% produktywności [ICON_PRODUCTION] po wypowiedzeniu jej wojny, trwa 5 rund</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_NAME" Language="pl_PL">
+			<Text>Zegarek Chaos w kolorze morelowym</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_DESCRIPTION" Language="pl_PL">
+			<Text>Kiedy jednostka mecha zabije jednostkę, zmniejszy to liczbę punktów ery Cywilizacji 2 zabitej jednostki, dzięki czemu ta cywilizacja może również używać karty zasady Ciemny Wiek w normalnej erze Złotego Wieku, a zmęczenie wojną zostanie zmniejszone o -50%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_AROMORED_RABBIT_19C_DESCRIPTION" Language="pl_PL">
+			<Text>Heavy Bunny 19C: +10 [ICON_STRENGTH] siły bojowej Bronyi Zajcek podczas obrony</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_VEHICLE_KEY_DESCRIPTION" Language="pl_PL">
+			<Text>Kluczyk do samochodu: +2 dla Broni Zajcek [ICON_MOVEMENT] „Siostro Broniu, nie podjeżdżaj podrywać dziewczyny, jeśli nie masz samochodu”.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_HERRSCHER_CORE_DESCRIPTION" Language="pl_PL">
+			<Text>Rdzeń Herrschera: +1 do czasu ataku, +1[ICON_RANGED] zasięgu, +10[ICON_STRENGTH] siły bojowej dla Bronyi Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ROSALIA_DESCRIPTION" Language="pl_PL">
+			<Text>Rozalia: Graj!</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LILIA_DESCRIPTION" Language="pl_PL">
+			<Text>Lilia: spać~</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIN_MAL_CHAOTIC_DESCRIPTION" Language="pl_PL">
+			<Text>Brutalna Halabarda: Po zabiciu jednostki zmniejsz wynik ery Civilization 2, w której jednostka została zabita</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_JOYCE_NAME" Language="pl_PL">
+			<Text>naukowiec zajmujący się antyentropią</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_YOUNG_NAME" Language="pl_PL">
+			<Text>naukowiec zajmujący się antyentropią</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_PLANK_NAME" Language="pl_PL">
+			<Text>naukowiec zajmujący się antyentropią</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_TESLA_NAME" Language="pl_PL">
+			<Text>naukowiec zajmujący się antyentropią</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EINSTEIN_NAME" Language="pl_PL">
+			<Text>naukowiec zajmujący się antyentropią</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_SCHRODINGER_NAME" Language="pl_PL">
+			<Text>naukowiec zajmujący się antyentropią</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EDISON_NAME" Language="pl_PL">
+			<Text>naukowiec zajmujący się antyentropią</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_JOYCE_NAME" Language="pl_PL">
+			<Text>Waltera Joyce'a</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_YOUNG_NAME" Language="pl_PL">
+			<Text>Waltera Younga</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLANK_NAME" Language="pl_PL">
+			<Text>Emma Plank</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TESLA_NAME" Language="pl_PL">
+			<Text>Frederica Nikola Tesla</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EINSTEIN_NAME" Language="pl_PL">
+			<Text>Liesel Albert Einstein</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCHRODINGER_NAME" Language="pl_PL">
+			<Text>Erwin Riana Schrödinger</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDISON_NAME" Language="pl_PL">
+			<Text>nancy edison</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_EINSTEIN_DESCRIPTION" Language="pl_PL">
+			<Text>Eins: Każdy istniejący mech antyentropijny zapewni cywilizacji +1 wartości technologii [ICON_SCIENCE] i zapewni +[ICON_PRODUCTION]2 produktywności wszystkim miastom</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SCHRODINGER_DESCRIPTION" Language="pl_PL">
+			<Text>Skok kwantowy: +1 [ICON_MOVEMENT] siły ruchu</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SPIDER_DESCRIPTION" Language="pl_PL">
+			<Text>Świetna modyfikacja genialnego doktora Tesli: liczba ataków jadowitego pająka mecha +1, wciąż może atakować po ruchu i jest niewidoczny</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_TITAN_DESCRIPTION" Language="pl_PL">
+			<Text>Wspaniała modyfikacja genialnego dr Tesli: Tytan Mecha może przekraczać mury poniżej średniowiecza, powodować pełne uszkodzenia murów i atakować jednostki wsparcia utworzone przez przekraczanie jednostek bojowych</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SHAMAN_DESCRIPTION" Language="pl_PL">
+			<Text>Świetna modyfikacja genialnego doktora Tesli: szaman mecha może sprawić, że jednostki mecha wokół ciała +2 [ICON_STRENGTH] siły bojowej (można nałożyć)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_DESCRIPTION" Language="pl_PL">
+			<Text>Świetna modyfikacja genialnego doktora Tesli: Thunder Mecha +1 zasięgu [ICON_RANGED], drugi atak zada obrażenia zasięgowe</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SUITS_DESCRIPTION" Language="pl_PL">
+			<Text>Świetna modyfikacja genialnego doktora Tesli: Mech Śmierci ignoruje utratę mocy ruchu dowolnej fabuły</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_RANGE_DESCRIPTION" Language="pl_PL">
+			<Text>Świetna modyfikacja genialnego doktora Tesli: Thunder Mech, gotowa do bombardowania</Text>
+		</Replace>
+		<Replace Tag="LOC_SCHRODINGER_MOVE" Language="pl_PL">
+			<Text>Quantum Leap: Możliwość natychmiastowego powrotu do stolicy i zresetowania mobilności, zresetowania czasu ataku, przywrócenia całego zdrowia</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_NAME" Language="pl_PL">
+			<Text>Waltera Joyce'a</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_DESCRIPTION" Language="pl_PL">
+			<Text>Naukowiec zajmujący się antyentropią ze specjalną zdolnością do odwrotu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_NAME" Language="pl_PL">
+			<Text>Waltera Younga</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_DESCRIPTION" Language="pl_PL">
+			<Text>Naukowiec zajmujący się antyentropią ze specjalną zdolnością do odwrotu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANK_NAME" Language="pl_PL">
+			<Text>Emma Plank</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANKE_DESCRIPTION" Language="pl_PL">
+			<Text>Naukowiec zajmujący się antyentropią ze specjalną zdolnością do odwrotu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_NAME" Language="pl_PL">
+			<Text>Frederica Nikola Tesla</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_DESCRIPTION" Language="pl_PL">
+			<Text>Naukowiec zajmujący się antyentropią ze specjalną zdolnością do odwrotu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_NAME" Language="pl_PL">
+			<Text>Liesel Albert Einstein</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_DESCRIPTION" Language="pl_PL">
+			<Text>Naukowiec zajmujący się antyentropią ze specjalną zdolnością do odwrotu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_NAME" Language="pl_PL">
+			<Text>Erwin Riana Schrödinger</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_DESCRIPTION" Language="pl_PL">
+			<Text>Naukowiec zajmujący się antyentropią ze specjalną zdolnością do odwrotu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_NAME" Language="pl_PL">
+			<Text>nancy edison</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_DESCRIPTION" Language="pl_PL">
+			<Text>Naukowiec zajmujący się antyentropią ze specjalną zdolnością do odwrotu</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_JOYCE_ACTION_NAME_RETIRE" Language="pl_PL">
+			<Text>Spraw, by każda populacja [ICON_CITIZEN] +1 wartość technologii [ICON_SCIENCE] dla miasta, +1 [ICON_PRODUCTION] produktywność [NewLine] odblokowała „Rekonstrukcję anioła” Broni Zajcek, kup wielkiego człowieka i zwróć 15%[ ICON_GreatPerson] Punkty wielkiej osoby</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_YOUNG_ACTION_NAME_RETIRE" Language="pl_PL">
+			<Text>Zwiększ wszystkie miasta o 7%[ICON_SCIENCE]Technologia +7%[ICON_PRODUCTION]Produkcja[NewLine]Bronya Zajcek otrzyma mecha do walki w zwarciu z serii Tytan o tym samym poziomie za każdym razem, gdy użyje „Siła inicjatywy” i odblokuje anty-Entropię·Superumiejętność mecha , kup wspaniałą osobę, aby zwrócić 15% [ICON_GreatPerson] punktów świetnej osoby</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PLANK_ACTION_NAME_RETIRE" Language="pl_PL">
+			<Text>Zwiększ wszystkie miasta o 7%[ICON_SCIENCE]Wartość technologiczna+7%[ICON_CULTURE]Wartość kulturowa[NewLine] Natychmiast zdobądź tytuł gubernatora, a wszystkie miasta [ICON_GreatPerson] punktacja wielkiej osoby +50%, każde miasto +2[ICON_GreatScientist] Świetnie Punkty Naukowca +2 [ICON_GreatEngineer] Punkty Wielkiego Inżyniera</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TESLA_ACTION_NAME_RETIRE" Language="pl_PL">
+			<Text>Spraw, aby wszystkie miasta miały +14%[ICON_PRODUCTION]produktywności[NewLine]Spraw, aby wszystkie mechy antyentropijne otrzymały wspaniałą modyfikację genialnego doktora Tesli, buduj strefy przemysłowe +50%[ICON_PRODUCTION]produktywności, strefy przemysłowe +2[ICON_PRODUCTION]produktywności</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EINSTEIN_ACTION_NAME_RETIRE" Language="pl_PL">
+			<Text>Spraw, aby wszystkie miasta miały +14%[ICON_SCIENCE]Wartość technologiczna[NewLine]Każda istniejąca mecha antyentropijna zapewni cywilizacji +1[ICON_SCIENCE]Wartość technologiczna, zapewni wszystkim miastom +1[ICON_PRODUCTION]produktywności, akademia konstrukcyjna +50% [ICON_PRODUCTION ] Produktywność, Akademia +3 [ICON_SCIENCE] Wartość technologii</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCHRODINGER_ACTION_NAME_RETIRE" Language="pl_PL">
+			<Text>Spraw, aby wszystkie miasta miały +14% [ICON_SCIENCE] wartości nauki i technologii [NewLine] Spraw, aby każda jednostka mecha miała możliwość natychmiastowego powrotu do stolicy i odzyskania wartości życia.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EDISON_ACTION_NAME_RETIRE" Language="pl_PL">
+			<Text>Spraw, aby wszystkie miasta miały +7%[ICON_PRODUCTION]produktywności+14%[ICON_GOLD]złotych monet[NewLine] spraw, aby wszystkie uczelnie i fabryki otrzymywały [ICON_GOLD]produkcję złotych monet równą sąsiedniej premii i natychmiast uzyskały taką samą wartość technologiczną jak obecna [ ICON_SCIENCE] Dziesięciokrotność [ICON_GOLD] złotych monet, od tej pory używaj [ICON_GOLD] złotych monet, aby kupować [ICON_GreatScientist] Wielkiego Naukowca i [ICON_GreatEngineer] Wielkiego Inżyniera 30% taniej</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_DESCRIPTION" Language="pl_PL">
+			<Text>Produkowany masowo supermecha przeciw entropii, zadaje podwójne obrażenia obszarowe podczas ataku i ma dodatkowy atak</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_NAME" Language="pl_PL">
+			<Text>Iskandar</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_DESCRIPTION" Language="pl_PL">
+			<Text>Produkowany masowo supermecha przeciw entropii ma szansę zadać obrażenia krytyczne podczas ataku, a atak zyska +7 [ICON_STRENGTH] siły bojowej</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_NAME" Language="pl_PL">
+			<Text>Herkules</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_DESCRIPTION" Language="pl_PL">
+			<Text>Produkowany masowo supermecha przeciw entropii, jednostki o zasięgu ataku 1 zadają obrażenia przebijające, a grabieże zapewnią 12,5% obecnego postępu badań</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_NAME" Language="pl_PL">
+			<Text>God Machine Badr</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_DESCRIPTION" Language="pl_PL">
+			<Text>Produkowany masowo supermecha przeciw entropii, potężna jednostka latająca</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_NAME" Language="pl_PL">
+			<Text>PRC_6626</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_DESCRIPTION" Language="pl_PL">
+			<Text>Produkowany masowo supermecha przeciw entropii, niezwykle potężna jednostka naziemna</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_NAME" Language="pl_PL">
+			<Text>MSR_7</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_DESCRIPTION" Language="pl_PL">
+			<Text>Supermecha przeciw entropii z limitowanej edycji może wystrzelić bomby nuklearne i może aktywnie uwalniać umiejętności, aby otaczające jednostki utraciły mobilność w tej rundzie, zresetować ich mobilność i czas ataku, ochłodzić się na 5 rund i mieć 1 dodatkowy atak</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_NAME" Language="pl_PL">
+			<Text>ambasador pokoju</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_DESCRIPTION" Language="pl_PL">
+			<Text>Limitowana edycja anty-entropijnego ostatecznego mecha może się aktywnie przegrzewać i wchodzić w stan ciągłego siekania, podczas którego +20 [ICON_STRENGTH] siły bojowej, +3 [ICON_MOVEMENT] siły ruchu, +1 czasu ataku, natychmiast resetuje siłę ruchu i atak razy, schłodzić przez 3 rundy</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_NAME" Language="pl_PL">
+			<Text>Hefajstos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_DESCRIPTION" Language="pl_PL">
+			<Text>Limitowana edycja anty-entropijnego ostatecznego mecha, każdy atak nałoży siłę bojową i spowoduje rozpryskowe obrażenia w kształcie wachlarza</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_NAME" Language="pl_PL">
+			<Text>Bóg Maszyna Heimdalla</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ISKANDAR_DESCRIPTION" Language="pl_PL">
+			<Text>Zemsta Iskandara: Atak spowoduje podwójne obrażenia rozpryskowe, wewnętrzny krąg stanowi 50% pierwotnych obrażeń, zewnętrzny krąg wynosi 25% pierwotnych obrażeń, a na początku ma czas ataku +1</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HERACLES_DESCRIPTION" Language="pl_PL">
+			<Text>Wielka moc Herkulesa: Atak spowoduje obrażenia krytyczne, 30% szans to 120% pierwotnych obrażeń, 30% szans to 125% pierwotnych obrażeń + 5 stałych obrażeń, 30% szans to 133,3% pierwotnych obrażeń + 10 stałych obrażeń , 10 % szans wynosi 150% pierwotnych obrażeń + 15 stałych obrażeń</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_BADER_DESCRIPTION" Language="pl_PL">
+			<Text>God Machine Baldr's Judgement: Gdy odległość do atakowanego wynosi 1, zada 50% pierwotnych obrażeń jednostkom za nim jako obrażenia penetrujące, a podczas plądrowania da 12,5% obecnego postępu w badaniach technologii</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_PRC_6626_DESCRIPTION" Language="pl_PL">
+			<Text>PRC_6626: Jej siła nie budzi wątpliwości</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MSR_7_DESCRIPTION" Language="pl_PL">
+			<Text>MSR_7: Jej siła nie budzi wątpliwości</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MHT_PEACE_DESCRIPTION" Language="pl_PL">
+			<Text>Decyzja Rozjemcy: Spraw, aby jednostki w obrębie trzech pól wokół straciły mobilność i otrzymały 10 punktów stałych obrażeń w tej rundzie, zresetuj ich mobilność i czasy ataku, zaatakuj 1 dodatkowy czas i ochłodź się na 6 rund</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_DESCRIPTION" Language="pl_PL">
+			<Text>Szał Hesfitosa: Wejdź w stan ciągłego siekania, natychmiast zresetuj siłę ruchu i czas ataku, w tym okresie +20[ICON_STRENGTH] siły bojowej, +3[ICON_MOVEMENT] siły ruchu, +1 czasu ataku, czas odnowienia wynosi 4 rundy</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_DESCRIPTION" Language="pl_PL">
+			<Text>Osąd Boskiej Machiny Heimdalla: każdy atak nałoży ulepszony stan, każda warstwa ulepszonego stanu zapewni +7 [ICON_STRENGTH] siły bojowej, +1 [ICON_MOVEMENT] siły ruchu i obrażenia rozpryskowe w kształcie wachlarza w wysokości 25% pierwotnych obrażeń</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_FIRE_DESCRIPTION" Language="pl_PL">
+			<Text>Gniew Hesphitosa: aktywowany, +20 [ICON_STRENGTH] siły bojowej, +3 [ICON_MOVEMENT] siły ruchu, +1 liczby ataków</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_1_DESCRIPTION" Language="pl_PL">
+			<Text>Wielki atak okrężny: God Machine Heimdall +7 [ICON_STRENGTH] siły bojowej, +1 [ICON_MOVEMENT] siły ruchu, +25% obrażeń rozpryskowych w kształcie wachlarza</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_2_DESCRIPTION" Language="pl_PL">
+			<Text>Olbrzymia Huśtawka·Cheng: Boska Machina·Heimdall +7[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu, +25% obrażeń rozpryskowych w kształcie wachlarza</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_3_DESCRIPTION" Language="pl_PL">
+			<Text>Duży zakręt: God Machine Heimdall +7 [ICON_STRENGTH] siły bojowej, +1 [ICON_MOVEMENT] siły ruchu, +25% obrażeń rozpryskowych w kształcie wachlarza</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_4_DESCRIPTION" Language="pl_PL">
+			<Text>Duże rondo i kombinacja: God Machine Heimdall +7 [ICON_STRENGTH] siły bojowej, +1 [ICON_MOVEMENT] siły ruchu, +25% obrażeń rozpryskowych w kształcie wachlarza</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY" Language="pl_PL">
+			<Text>odwrócenie</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="pl_PL">
+			<Text>Wszystkie miasta otrzymują początkowo +15% [ICON_SCIENCE] wartość technologii +15% [ICON_PRODUCTION] produktywność +1 [ICON_Great Scientist] punkty wielkiego naukowca [NewLine] mają charakterystycznego wielkiego naukowca zajmującego się antyentropią, przy pozyskiwaniu naukowca zajmującego się antyentropią aktualny technologia zostanie ukończona natychmiast, zdobądź W tym samym czasie Emma Planck natychmiast ukończy obecną miejską [Nowa Linia] Metody zdobywania naukowca antyentropii są następujące: [Nowa Linia] Walter Joyce: Zdobądź [ICON_GreatScientist] Wielkiego Naukowca [NewLine] Walter Young: Po zdobyciu Po ​​Walterze Joyce, wejdź w erę przemysłową [NewLine] Nancy Edison: Zarób 328 złotych monet na rundę [ICON_GOLD] [NewLine] Emma Plank: Zdobądź Nancy Edison i [ICON_SCIENCE] wartość technologii &gt; 128, [ICON_CULTURE] wartość kulturowa &gt; 68 [NewLine] Erwin Riana Schrödinger: Po zdobyciu Emmy Planck można być obserwowanym [NewLine] Frederica Tesla: Po zdobyciu Możesz zdobyć Nancy Edison i stworzyć mecha określoną liczbę razy [NewLine] Liesel Albert: możesz zdobądź Emmę Plank i stwórz mecha określoną liczbę razy</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_NAME" Language="pl_PL">
+			<Text>sławny na świecie</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_1" Language="pl_PL">
+			<Text>Kiana Kasłana</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_2" Language="pl_PL">
+			<Text>Raidena Mei</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_3" Language="pl_PL">
+			<Text>Sheil Fleur</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_4" Language="pl_PL">
+			<Text>Nieskończona Ta Himeko</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_5" Language="pl_PL">
+			<Text>Teresy Apokalipsa</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_6" Language="pl_PL">
+			<Text>Rozalia Arlena</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_7" Language="pl_PL">
+			<Text>Lilia Arlene</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_8" Language="pl_PL">
+			<Text>Morela Marr</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_1" Language="pl_PL">
+			<Text>stosunkowo naturalna objętość</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_2" Language="pl_PL">
+			<Text>Sinusoidalny podwójny kucyk</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_3" Language="pl_PL">
+			<Text>znęcający się nad kotami</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_4" Language="pl_PL">
+			<Text>kwantowa dziewczyna</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_5" Language="pl_PL">
+			<Text>wynalazca</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_6" Language="pl_PL">
+			<Text>Trzy prawa mechaniki</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_7" Language="pl_PL">
+			<Text>dubliński spacer</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_8" Language="pl_PL">
+			<Text>Kula Anty-Entropii</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_9" Language="pl_PL">
+			<Text>Zespół anty-entropii</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_10" Language="pl_PL">
+			<Text>Perkusista anty-entropii</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_11" Language="pl_PL">
+			<Text>Boże Narodzenie anty-entropijne</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_12" Language="pl_PL">
+			<Text>Wielki Wybuch</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_13" Language="pl_PL">
+			<Text>Walc kwantowy</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_14" Language="pl_PL">
+			<Text>ustawodawca nieba</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_15" Language="pl_PL">
+			<Text>odkrywca gwiazd</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_16" Language="pl_PL">
+			<Text>elementarny jasnowidz</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_17" Language="pl_PL">
+			<Text>obserwator gwiazd</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_18" Language="pl_PL">
+			<Text>eksplorator materiałów</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_19" Language="pl_PL">
+			<Text>obserwator</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_20" Language="pl_PL">
+			<Text>klasyfikacja naturalna</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_ADJECTIVE" Language="pl_PL">
+			<Text>odwrócenie</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BRONYA_ZAYCHIK_QUOTE" Language="pl_PL">
+			<Text>„Nie kłaniaj się upadkowi, nie poddawaj się bogom”.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_NAME" Language="pl_PL">
+			<Text>Pancerz przeciw entropii</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_DESCRIPTION" Language="pl_PL">
+			<Text>Masowo produkowany mecha antyentropii jest używany do zastąpienia Walkirii jako głównej siły przeciwko Houkai.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BRONYA_ZAYCHIK" Language="pl_PL">
+			<Text>Dla Herrschera Rozumu w rzeczywistości nie ma różnicy między „jednym” a „trzysta tysiącami” [NewLine] Walter Joyce, Joachim Young, Bronya Zajcek… oni Każdy z nich jest w rzeczywistości nie tylko jednym z 300 000 ludzi, ale także wszystkich z 300 000 ludzi. Powodem, dla którego nazwa „The Herrscher of Reason” może być przekazywana do dziś, jest to, że jej „moc” i „wola” od dawna są zintegrowane. [NewLine] Żadna osoba nigdy nie była w stanie wziąć na siebie ciężkiej odpowiedzialności za chronić świat[NewLine] Ale każdy może mieć pragnienie ochrony świata[NewLine] W końcu… jedyną niezmienną „prawdą” o istotach ludzkich jest to, że „prawda o istotach ludzkich nieuchronnie się zmieni”</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_DESCRIPTION" Language="pl_PL">
+			<Text>„Moc jednej osoby może nie być wystarczająco silna. Myśli 300 000 ludzi mogą nie być wystarczająco bogate. Ale Bronya w tej chwili jest prawdziwym Herrscherem Rozumu!”</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_NAME" Language="pl_PL">
+			<Text>Broni Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_DESCRIPTION" Language="pl_PL">
+			<Text>Niezrównana śnieżna kraina: Bronya Zajcek jest całkowicie odporna na wybuchy jądrowe i uszkodzenia spowodowane promieniowaniem</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_DESCRIPTION" Language="pl_PL">
+			<Text>Rekonstrukcja Otchłani Motylego Cienia: Bronya Zajcek opanowała „Anielską Rekonstrukcję”, która daje wszystkim miastom +3 [ICON_SCIENCE] wartość technologiczną +3 [ICON_PRODUCTION] produktywność, Bronya Zajcek +5[ICON_STRENGTH] Siła bojowa, +1[ICON_MOVEMENT] Mobilność , +1[ICON_RANGED] Zasięg, +1 Wizja</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_BETTER_DESCRIPTION" Language="pl_PL">
+			<Text>Zmień świat przyszłości: Bronya Zajcek rzuca „Siła inicjatywy”, +15 [ICON_STRENGTH] siły bojowej, +2 [ICON_MOVEMENT] siły ruchu, +1 [ICON_RANGED] zasięgu, +1 pola widzenia</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MACHINE_DESCRIPTION" Language="pl_PL">
+			<Text>Pancerz przeciw entropii: odporny na większość eksplozji jądrowych i uszkodzeń spowodowanych promieniowaniem</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_1_DESCRIPTION" Language="pl_PL">
+			<Text>„Przeszłość”: Bronya Zajcek +7[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu, +1[ICON_RANGED] zasięgu, +1 wizji</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_2_DESCRIPTION" Language="pl_PL">
+			<Text>„Teraz”: Bronya Zajcek +13[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu, +1[ICON_RANGED] zasięgu, +1 wizji</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_3_DESCRIPTION" Language="pl_PL">
+			<Text>„Przyszłość”: Bronya Zajcek +20[ICON_STRENGTH] siły bojowej, +1[ICON_MOVEMENT] siły ruchu, +1[ICON_RANGED] zasięgu, +1 wizji, +1 czasu ataku</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_ZAYCHIK_NAME" Language="pl_PL">
+			<Text>Echo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_NAME" Language="pl_PL">
+			<Text>snajper śnieżny</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_DESCRIPTION" Language="pl_PL">
+			<Text>Na początku rundy znajduje się w zamarzniętej glebie, +10 [ICON_STRENGTH] siły bojowej, +1 [ICON_RANGED] zasięgu, +1 pole widzenia; dodatkowe uszkodzenia zostaną spowodowane w zależności od odległości między obiema stronami i siła ruchu zostanie zresetowana, jeśli będzie zbyt blisko</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_NAME" Language="pl_PL">
+			<Text>Rydwan Walkirii</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_DESCRIPTION" Language="pl_PL">
+			<Text>+1 [ICON_MOVEMENT] siły ruchu, niezależnie od utraty lądu, resetuje siłę ruchu i czas ataku po ataku</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_NAME" Language="pl_PL">
+			<Text>Erozja czarnego rdzenia obcych</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_DESCRIPTION" Language="pl_PL">
+			<Text>Niewidzialność, nie straci mocy bojowej z powodu obrażeń, gdy odległość od wrogiej jednostki wynosi 2, atak ma szansę na trafienie krytyczne i zadanie dodatkowych obrażeń</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_NAME" Language="pl_PL">
+			<Text>Instalacja sterownika · Yamabuki</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DESCRIPTION" Language="pl_PL">
+			<Text>Podczas obrony +20 [ICON_STRENGTH] siły bojowej, +1 do czasu ataku, gdy odległość wynosi 1, atak spowoduje obrażenia kłute</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_NAME" Language="pl_PL">
+			<Text>napęd komety</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_DESCRIPTION" Language="pl_PL">
+			<Text>Nadal możesz atakować po ruchu, nadal możesz się poruszać po ataku i nadal możesz odzyskać zdrowie po wykonaniu akcji, odzwierciedlając 50% otrzymanych obrażeń i odzyskując 25% otrzymanych obrażeń</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

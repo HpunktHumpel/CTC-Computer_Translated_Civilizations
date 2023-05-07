@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May  7 14:45:12 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BRONYA_CREAT_BASE" Language="zh_Hant_HK">
+			<Text>當前研究進度為[COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_50" Language="zh_Hant_HK">
+			<Text>不足以製造任何機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_100" Language="zh_Hant_HK">
+			<Text>將消耗[COLOR_LIGHTBLUE]50[ENDCOLOR]研究進度[NewLine]必定能製造[COLOR_GREEN]基礎型機甲[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_200" Language="zh_Hant_HK">
+			<Text>將消耗[COLOR_LIGHTBLUE]100[ENDCOLOR]研究進度[NewLine]必定能製造[COLOR_GREEN]基礎型機甲[ENDCOLOR]，並有一定機率製造[COLOR_FLOAT_SCIENCE]進階型機甲[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_400" Language="zh_Hant_HK">
+			<Text>將消耗[COLOR_LIGHTBLUE]200[ENDCOLOR]研究進度[NewLine]必定能製造[COLOR_FLOAT_SCIENCE]進階型機甲[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_800" Language="zh_Hant_HK">
+			<Text>將消耗[COLOR_LIGHTBLUE]400[ENDCOLOR]研究進度[NewLine]必定能製造[COLOR_FLOAT_SCIENCE]進階型機甲[ENDCOLOR]，並有一定機率製造[COLOR_FLOAT_CULTURE]尖端型機甲[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_1600" Language="zh_Hant_HK">
+			<Text>將消耗[COLOR_LIGHTBLUE]800[ENDCOLOR]研究進度[NewLine]必定能製造[COLOR_FLOAT_CULTURE]尖端型機甲[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_MAX" Language="zh_Hant_HK">
+			<Text>將消耗[COLOR_LIGHTBLUE]1600[ENDCOLOR]研究進度[NewLine]必定能製造[COLOR_FLOAT_CULTURE]尖端型機甲[ENDCOLOR]，並有一定機率製造[COLOR_RED]終極[ENDCOLOR]機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_POINT" Language="zh_Hant_HK">
+			<Text>[NewLine]當前已創構次數[COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_TOOLTIP" Language="zh_Hant_HK">
+			<Text>和平使者的決斷[NewLine]正在冷卻，剩餘回合數[COLOR_Civ6Yellow]</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_TOOLTIP" Language="zh_Hant_HK">
+			<Text>赫斯菲托斯的怒火[NewLine]正在冷卻，剩餘回合數[COLOR_RED]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_ALL_READEY" Language="zh_Hant_HK">
+			<Text>[COLOR_Civ6Yellow]和平使者的決斷[ENDCOLOR][NewLine]已就緒</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_ALL_READY" Language="zh_Hant_HK">
+			<Text>[COLOR_RED]赫斯菲托斯的怒火[ENDCOLOR][NewLine]已就緒</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_AROMORED_RABBIT_19C_DEEFEND" Language="zh_Hant_HK">
+			<Text>重裝小兔19C：防禦時為布洛妮婭·扎伊切克+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_HERRSCHER_CORE_STRENGTH" Language="zh_Hant_HK">
+			<Text>律者核心：為布洛妮婭·扎伊切克+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_STRENGTH" Language="zh_Hant_HK">
+			<Text>衝擊式自爆雷：為毒蛛機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_STRENGTH" Language="zh_Hant_HK">
+			<Text>機甲突襲：為泰坦機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_STRENGTH" Language="zh_Hant_HK">
+			<Text>防禦模式：防禦遠程攻擊時為泰坦機甲+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_STRENGTH" Language="zh_Hant_HK">
+			<Text>震地衝擊：為泰坦機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DISTRICT" Language="zh_Hant_HK">
+			<Text>震地衝擊：進攻區域時為泰坦機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_STRENGTH" Language="zh_Hant_HK">
+			<Text>過熱超載：為泰坦機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_STRENGTH" Language="zh_Hant_HK">
+			<Text>橫掃：為死士機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_STRENGTH" Language="zh_Hant_HK">
+			<Text>力場護盾：防禦遠程攻擊時為死士機甲+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_STRENGTH" Language="zh_Hant_HK">
+			<Text>適應力：為死士機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_STRENGTH" Language="zh_Hant_HK">
+			<Text>天命護盾：為死士機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_STRENGTH" Language="zh_Hant_HK">
+			<Text>踐踏：為御雷機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_STRENGTH" Language="zh_Hant_HK">
+			<Text>重裝機甲：防禦遠程攻擊時為御雷機甲+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_STRENGTH" Language="zh_Hant_HK">
+			<Text>熾熱飛彈：為御雷機甲+5[ICON_STRENGTH]戰鬥力，並獲得+200%的支援加成</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_A_STRENGTH" Language="zh_Hant_HK">
+			<Text>強化立場α：受到薩滿機甲的影響，+3[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_B_STRENGTH" Language="zh_Hant_HK">
+			<Text>強化立場β：受到巫士機甲的影響，+4[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_C_STRENGTH" Language="zh_Hant_HK">
+			<Text>強化立場γ：受到雙蛇機甲的影響，+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_STRENGTH" Language="zh_Hant_HK">
+			<Text>電力充能·機甲：受到薩滿機甲的電力充能，+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_STRENGTH" Language="zh_Hant_HK">
+			<Text>電力充能·泰坦：受到薩滿機甲的電力充能，+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_STRENGTH" Language="zh_Hant_HK">
+			<Text>電力充能·死士：受到薩滿機甲的電力充能，攻擊受傷單位時，+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_B_STRENGTH" Language="zh_Hant_HK">
+			<Text>擎天一擊：進攻時，為其+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_C_STRENGTH" Language="zh_Hant_HK">
+			<Text>磐岩一擊：防禦時，為其+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_D_STRENGTH" Language="zh_Hant_HK">
+			<Text>擎天猛擊：進攻時，為其+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_E_STRENGTH" Language="zh_Hant_HK">
+			<Text>霸體：防禦時，為其+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_ATTACH_STRENGTH" Language="zh_Hant_HK">
+			<Text>時空立場：為周圍一格所有機甲+2[ICON_STRENGTH]戰鬥力（可疊加）（來源於天才特斯拉博士的偉大改造）</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEPHAESTUS_STRENGTH" Language="zh_Hant_HK">
+			<Text>連斬居合：赫菲斯托斯+20[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_STRENGTH" Language="zh_Hant_HK">
+			<Text>「天使重構」：部分解鎖的「創啟權能」為布洛妮婭·扎伊切克提供+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_BETTER_STRENGTH" Language="zh_Hant_HK">
+			<Text>「創啟權能」：完全解鎖的「創啟權能」為布洛妮婭·扎伊切克提供+15[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_1_STRENGTH" Language="zh_Hant_HK">
+			<Text>「過去」：為布洛妮婭·扎伊切克提供+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_2_STRENGTH" Language="zh_Hant_HK">
+			<Text>「現在」：為布洛妮婭·扎伊切克提供+13[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_3_STRENGTH" Language="zh_Hant_HK">
+			<Text>「未來」：為布洛妮婭·扎伊切克提供+20[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_1_STRENGTH" Language="zh_Hant_HK">
+			<Text>大迴旋斬·起：為神機·海姆達爾提供+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_2_STRENGTH" Language="zh_Hant_HK">
+			<Text>大迴旋斬·承：為神機·海姆達爾提供+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_3_STRENGTH" Language="zh_Hant_HK">
+			<Text>大迴旋斬·轉：為神機·海姆達爾提供+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_4_STRENGTH" Language="zh_Hant_HK">
+			<Text>大迴旋斬·合：為神機·海姆達爾提供+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DEEFEND" Language="zh_Hant_HK">
+			<Text>驅動裝·山吹：防禦時，為布洛妮婭·扎伊切克提供+20[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>反轉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_NAME" Language="zh_Hant_HK">
+			<Text>反轉</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>由布洛妮婭·扎伊切克領導的逆熵文明，初始尤里卡[ICON_TechBoosted]僅有20%，每完成一個科技+2%尤里卡[ICON_TechBoosted]，最高80%。 [NewLine]在尤里卡[ICON_TechBoosted]達到80%時，為所有區域、建築、項目提供100%[ICON_PRODUCTION]生產力加成[NewLine]在解鎖科技寫作後於首都贈送特色單位布洛妮婭·扎伊切克</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_NAME" Language="zh_Hant_HK">
+			<Text>名以真理</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BRONYA_ZAYCHIK_NAME" Language="zh_Hant_HK">
+			<Text>布洛妮婭·扎伊切克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_NAME" Language="zh_Hant_HK">
+			<Text>布洛妮婭·扎伊切克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>起於微末以凡人之軀掌控律者力量的西伯利亞女孩，過往的經歷將成為她一步步邁向未來的基石，理之核心令她擁有「解析」與「重構」的能力，在一念之間將靈感化作現實，製造破滅萬軍的天基武器陣列，肅清所有擋路的敵人。</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_NAME" Language="zh_Hant_HK">
+			<Text>逆熵機甲·量產</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵的量產機甲，用於代替女武神作為對抗崩壞的主要力量，可分為基礎款、進階款、尖端款，並存在泰坦、毒蛛、薩滿、死士、御雷多種型號。</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_NAME" Language="zh_Hant_HK">
+			<Text>逆熵機甲·終極</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵的限量款機甲，實力強勁，獨一無二。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>貧弱的戰鬥力，堪可入眼的機動力，存在的意義在於終末之時綻放的煙火。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_NAME" Language="zh_Hant_HK">
+			<Text>毒蛛機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>依舊是貧弱的戰鬥力，堪可入眼的機動力，額外加裝了爆炸後的範圍行動力削減。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_NAME" Language="zh_Hant_HK">
+			<Text>蛛王機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>仍然是貧弱的戰鬥力，堪可入眼的機動力，額外加裝了爆炸後的永久性範圍行動力削減。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_NAME" Language="zh_Hant_HK">
+			<Text>寒冰機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>總之還是貧弱的戰鬥力，堪可入眼的機動力，這回有更加璀璨的煙火，爆炸範圍翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_NAME" Language="zh_Hant_HK">
+			<Text>餘燼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>基礎款機甲，還能對它有什麼指望呢？</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_NAME" Language="zh_Hant_HK">
+			<Text>泰坦機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>力可擎天！讓他們感受一下被泰坦爸爸所支配的恐懼吧！ （警告！並未加裝躍遷系統！）</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_NAME" Language="zh_Hant_HK">
+			<Text>擎天機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>堅如磐岩！讓他們感受一下被泰坦爸爸所支配的恐懼吧！ （警告！並未加裝霸體系統！）</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_NAME" Language="zh_Hant_HK">
+			<Text>磐岩機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>戰斧式導彈般的威力！ （並沒有）</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_NAME" Language="zh_Hant_HK">
+			<Text>戰斧</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>你甚至不願意叫我一聲教父！</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_NAME" Language="zh_Hant_HK">
+			<Text>教父</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>不需要跳舞也不需要念咒，更不需要在脖子上掛頭骨。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_NAME" Language="zh_Hant_HK">
+			<Text>薩滿機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>不需要祭品也不需要藍條，更不需要在晚上冥想準備法術位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_NAME" Language="zh_Hant_HK">
+			<Text>巫士機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>嗯？你的名字跟薩滿有半點聯繫嗎？</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_NAME" Language="zh_Hant_HK">
+			<Text>雙蛇</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>小心空之律者！</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_NAME" Language="zh_Hant_HK">
+			<Text>御雷機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>不會吧不會吧不會真有人能被磁暴機甲控住吧？被控住的是我啊那沒事了。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_NAME" Language="zh_Hant_HK">
+			<Text>磁暴機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>浴火！然而並沒有重生功能，也不要試圖長按閃避鍵使用機槍掃射。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_NAME" Language="zh_Hant_HK">
+			<Text>浴火機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>嚴格意義上來說這是天命的機甲，但是現在天命主教是誰，我只能說懂得都懂。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_NAME" Language="zh_Hant_HK">
+			<Text>死士機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>天命機甲怎麼了！我說是逆熵的就是逆熵的！只許天命抄逆熵不許逆熵搶天命？</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_NAME" Language="zh_Hant_HK">
+			<Text>伊伯基</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>是逆熵機甲。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_NAME" Language="zh_Hant_HK">
+			<Text>亞神機·米斯特汀</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SPIDER_NAME" Language="zh_Hant_HK">
+			<Text>毒蛛</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_TITAN_NAME" Language="zh_Hant_HK">
+			<Text>泰坦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SUITS_NAME" Language="zh_Hant_HK">
+			<Text>死士</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SHAMAN_NAME" Language="zh_Hant_HK">
+			<Text>薩滿</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_THUNDER_NAME" Language="zh_Hant_HK">
+			<Text>御雷</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_NAME" Language="zh_Hant_HK">
+			<Text>突襲式自爆雷</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>使得毒蛛機甲能夠發現隱身單位，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_NAME" Language="zh_Hant_HK">
+			<Text>越野式自爆雷</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>使得毒蛛機甲無視區域控制和地塊損耗</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_NAME" Language="zh_Hant_HK">
+			<Text>衝擊式自爆雷</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>使得毒蛛機甲+5[ICON_STRENGTH]戰鬥力，+5爆炸傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_NAME" Language="zh_Hant_HK">
+			<Text>機甲突襲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>泰坦機甲+5[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_NAME" Language="zh_Hant_HK">
+			<Text>超載模式</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>泰坦機甲進攻後仍然可以移動，移動後仍然可以攻擊，+1攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_NAME" Language="zh_Hant_HK">
+			<Text>防禦模式</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>泰坦機甲防禦遠程攻擊時，+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_NAME" Language="zh_Hant_HK">
+			<Text>震地衝擊</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>泰坦機甲+5[ICON_STRENGTH]戰鬥力，進攻區域時額外+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_NAME" Language="zh_Hant_HK">
+			<Text>過熱超載</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>泰坦機甲+5[ICON_STRENGTH]戰鬥力，不受受損減益影響</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_NAME" Language="zh_Hant_HK">
+			<Text>斬擊</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>死士機甲+5[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_NAME" Language="zh_Hant_HK">
+			<Text>雙手揮砍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>死士機甲進攻後仍然可以移動，移動後仍然可以攻擊，+1攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_NAME" Language="zh_Hant_HK">
+			<Text>力場護盾</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>死士機甲防禦遠程攻擊時，+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_NAME" Language="zh_Hant_HK">
+			<Text>適應力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>死士機甲+5[ICON_STRENGTH]戰鬥力，掠奪收益+100%</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_NAME" Language="zh_Hant_HK">
+			<Text>天命護盾</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>死士機甲+5[ICON_STRENGTH]戰鬥力，行動後依舊可恢復生命值，在中立區域恢復10生命值，在敵境區域恢復7生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_NAME" Language="zh_Hant_HK">
+			<Text>電力充能·機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>薩滿機甲使得周身一格內的機甲單位+5[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_NAME" Language="zh_Hant_HK">
+			<Text>電力充能·泰坦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>薩滿機甲使得周身一格內的泰坦機甲+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_NAME" Language="zh_Hant_HK">
+			<Text>電力充能·毒蛛</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>薩滿機甲使得周身一格內的毒蛛機甲+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_NAME" Language="zh_Hant_HK">
+			<Text>電力充能·御雷</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>薩滿機甲使得周身一格內的御雷機甲+1視野，+1[ICON_RANGED]射程</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_NAME" Language="zh_Hant_HK">
+			<Text>電力充能·死士</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>薩滿機甲使得周身一格內的死士機甲在進攻受損單位時+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_NAME" Language="zh_Hant_HK">
+			<Text>踐踏</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>御雷機甲+5[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_NAME" Language="zh_Hant_HK">
+			<Text>散射彈</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>御雷機甲進攻後仍然可以移動，移動後仍然可以攻擊，+1攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_NAME" Language="zh_Hant_HK">
+			<Text>重裝機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>御雷機甲防禦遠程攻擊時，+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_NAME" Language="zh_Hant_HK">
+			<Text>誘導彈</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>御雷機甲+1視野，+1[ICON_RANGED]射程</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_NAME" Language="zh_Hant_HK">
+			<Text>熾熱飛彈</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>御雷機甲+5[ICON_STRENGTH]戰鬥力，獲得200%的支援加成</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_ATTACH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強化力場α：薩滿機甲使得周身一格的機甲單位獲得+3[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_ATTACH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強化力場β：薩滿機甲使得周身一格的機甲單位獲得+4[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_ATTACH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強化力場γ：薩滿機甲使得周身一格的機甲單位獲得+5[ICON_STRENGTH]戰鬥力，+75%經驗獲取</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強化力場α：受薩滿機甲影響，+3[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強化力場β：受薩滿機甲影響，+4[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強化力場γ：受薩滿機甲影響，+5[ICON_STRENGTH]戰鬥力，+75%經驗獲取</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>電力充能·機甲：受薩滿機甲影響，+5[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>電力充能·泰坦：受薩滿機甲影響，+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>電力充能·毒蛛：受薩滿機甲影響，+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>電力充能·御雷：受薩滿機甲影響，+1視野，+1[ICON_RANGED]射程</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>電力充能·死士：受薩滿機甲影響，在進攻受損單位時+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>自爆雷：遇害時對周圍單位造成20傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>粘性自爆雷：遇害時對周圍單位造成30傷害，並使其本回合-5[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>地縛自爆雷：遇害時對周圍單位造成40傷害，並使其永久-1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_D_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>爆裂自爆雷：遇害時對周圍兩格範圍內的單位造成40傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_ATTACH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>地縛：受寒冰機甲影響，永久-1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>大掃除：掠奪僅消耗1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>寸草不生：掠奪僅消耗1[ICON_MOVEMENT]移動力，贈予當前科技研究進度的10%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>刮地三尺：掠奪僅消耗1[ICON_MOVEMENT]移動力，贈予當前科技研究進度的12.5%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_A_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>御雷：它是一架御雷機甲，僅此而已</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>磁暴：它是一架磁暴機甲，僅此而已</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>浴火：它是一架浴火機甲，僅此而……哦，+1攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_B_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擎天一擊：進攻時，為其+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>磐岩一擊：防禦時，為其+5[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_D_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擎天猛擊：進攻時，為其+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_E_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>霸體：防禦時，為其+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_NAME" Language="zh_Hant_HK">
+			<Text>可可利亞</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_TITLE" Language="zh_Hant_HK">
+			<Text>逆熵執行者</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_SHORT_TITLE" Language="zh_Hant_HK">
+			<Text>巫婆</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵革新派領袖，可可利亞孤兒院的創建者，永遠的反派（無論在哪個世界）。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_NAME" Language="zh_Hant_HK">
+			<Text>可可利亞孤兒院</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>使境內所有凍土+1[ICON_CULTURE]文化值+1[ICON_SCIENCE]科技值+1[ICON_FOOD]食物+1[ICON_PRODUCTION]生產力，可可利亞孤兒院每增添一個夥伴為所有城市+5%[ICON_CULTURE]文化值+5%[ICON_SCIENCE]科技值+5%[ICON_FOOD]食物+5%[ICON_PRODUCTION]生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_NAME" Language="zh_Hant_HK">
+			<Text>幻海夢蝶·希兒</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>贈予布洛妮婭·扎伊切克重裝小兔19C，為所有的海洋格+1[ICON_SCIENCE]科技值+1[ICON_CULTURE]文化值+1[ICON_PRODUCTION]生產力，湖泊和河岸則+2[ICON_SCIENCE]科技值+1[ICON_CULTURE]文化值+1[ICON_PRODUCTION]生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_NAME" Language="zh_Hant_HK">
+			<Text>櫻桃炸彈·蘿莎莉婭</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建造娛樂中心+100%[ICON_PRODUCTION]生產力，使所有存在娛樂中心的城市+3[ICON_Amenities]宜居度，+2[ICON_Housing]住房，處於欣喜若狂的城市+25%[ICON_PRODUCTION]生產力，機甲單位額外獲得25%經驗值</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_NAME" Language="zh_Hant_HK">
+			<Text>彼岸雙生·希兒</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為布洛妮婭·扎伊切克找回摩托車鑰匙，在黃金時代所有地塊+1魅力，建造奇觀+50%[ICON_PRODUCTION]生產力；在黑暗時代生產軍事單位+50%[ICON_PRODUCTION]生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_NAME" Language="zh_Hant_HK">
+			<Text>藍莓特攻·莉莉婭</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每個城市獲得一個額外區域，使所有存在娛樂中心的城市每回合+5忠誠度，+2[ICON_Housing]住房，處於欣喜若狂的城市+25%[ICON_CULTURE]文化值，機甲單位額外獲得25%經驗值</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_NAME" Language="zh_Hant_HK">
+			<Text>魘夜星淵·希兒</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>幫布洛妮婭·扎伊切克搶回律者核心，被宣戰後+100%[ICON_PRODUCTION]生產力，持續5回合</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_NAME" Language="zh_Hant_HK">
+			<Text>混亂時計·杏</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>機甲單位擊殺單位時將降低被殺單位所在文明2時代分，使得本文明在黃金時代普通時代也可使用黑暗時代政策卡，產生厭戰情緒降低-50%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_AROMORED_RABBIT_19C_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>重裝小兔19C：防禦時為為布洛妮婭·扎伊切克+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_VEHICLE_KEY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>車車鑰匙：為布洛妮婭·扎伊切克+2[ICON_MOVEMENT] “布洛妮婭姐姐，沒車就不要出來泡妹了。”</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_HERRSCHER_CORE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>律者核心：為布洛妮婭·扎伊切克+1攻擊次數，+1[ICON_RANGED]射程，+10[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ROSALIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>蘿莎莉婭：玩！</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LILIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>莉莉婭：睡~</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIN_MAL_CHAOTIC_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>殘暴之戟：擊殺單位後，降低被擊殺單位所在文明2時代分</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_JOYCE_NAME" Language="zh_Hant_HK">
+			<Text>逆熵科學家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_YOUNG_NAME" Language="zh_Hant_HK">
+			<Text>逆熵科學家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_PLANK_NAME" Language="zh_Hant_HK">
+			<Text>逆熵科學家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_TESLA_NAME" Language="zh_Hant_HK">
+			<Text>逆熵科學家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EINSTEIN_NAME" Language="zh_Hant_HK">
+			<Text>逆熵科學家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_SCHRODINGER_NAME" Language="zh_Hant_HK">
+			<Text>逆熵科學家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EDISON_NAME" Language="zh_Hant_HK">
+			<Text>逆熵科學家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_JOYCE_NAME" Language="zh_Hant_HK">
+			<Text>瓦爾特·喬伊斯</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_YOUNG_NAME" Language="zh_Hant_HK">
+			<Text>瓦爾特·楊</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLANK_NAME" Language="zh_Hant_HK">
+			<Text>埃瑪·普朗克</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TESLA_NAME" Language="zh_Hant_HK">
+			<Text>芙蕾德莉卡·尼古拉·特斯拉</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EINSTEIN_NAME" Language="zh_Hant_HK">
+			<Text>麗瑟爾·阿爾伯特·愛因斯坦</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCHRODINGER_NAME" Language="zh_Hant_HK">
+			<Text>埃爾溫·蕾安娜·薛定諤</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDISON_NAME" Language="zh_Hant_HK">
+			<Text>南希·愛迪生</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_EINSTEIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>Eins:每個存在的逆熵機甲將為文明提供+1[ICON_SCIENCE]科技值為所有城市提供+[ICON_PRODUCTION]2生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SCHRODINGER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>量子遷躍：+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SPIDER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>天才特斯拉博士的偉大改裝：毒蛛機甲攻擊次數+1，移動後仍然可以攻擊，隱身</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_TITAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>天才特斯拉博士的偉大改裝：泰坦機甲可以越過中世紀以下的城牆，對城牆造成全額傷害，能夠越過戰鬥單位對已編隊的支援單位進行攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SHAMAN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>天才特斯拉博士的偉大改裝：薩滿機甲能夠使得周身機甲單位+2[ICON_STRENGTH]戰鬥力（可疊加）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>天才特斯拉博士的偉大改裝：御雷機甲+1[ICON_RANGED]射程，第二次攻擊將造成範圍傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SUITS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>天才特斯拉博士的偉大改裝：死士機甲無視任何地塊的移動力損耗</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_RANGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>天才特斯拉博士的偉大改裝：御雷機甲，轟炸已就緒</Text>
+		</Replace>
+		<Replace Tag="LOC_SCHRODINGER_MOVE" Language="zh_Hant_HK">
+			<Text>量子遷躍：能夠立刻回到首都並重置移動力重置攻擊次數恢復所有生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_NAME" Language="zh_Hant_HK">
+			<Text>瓦爾特·喬伊斯</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵科學家，擁有其特殊的隱退能力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_NAME" Language="zh_Hant_HK">
+			<Text>瓦爾特·楊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵科學家，擁有其特殊的隱退能力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANK_NAME" Language="zh_Hant_HK">
+			<Text>埃瑪·普朗克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANKE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵科學家，擁有其特殊的隱退能力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_NAME" Language="zh_Hant_HK">
+			<Text>芙蕾德莉卡·尼古拉·特斯拉</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵科學家，擁有其特殊的隱退能力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_NAME" Language="zh_Hant_HK">
+			<Text>麗瑟爾·阿爾伯特·愛因斯坦</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵科學家，擁有其特殊的隱退能力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_NAME" Language="zh_Hant_HK">
+			<Text>埃爾溫·蕾安娜·薛定諤</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵科學家，擁有其特殊的隱退能力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_NAME" Language="zh_Hant_HK">
+			<Text>南希·愛迪生</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵科學家，擁有其特殊的隱退能力</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_JOYCE_ACTION_NAME_RETIRE" Language="zh_Hant_HK">
+			<Text>使每個[ICON_CITIZEN]人口為所在城市+1[ICON_SCIENCE]科技值，+1[ICON_PRODUCTION]生產力[NewLine]解鎖布洛妮婭·扎伊切克的「天使重構」，購買偉人返還15%[ICON_GreatPerson]偉人點數</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_YOUNG_ACTION_NAME_RETIRE" Language="zh_Hant_HK">
+			<Text>使所有城市+7%[ICON_SCIENCE]科技值+7%[ICON_PRODUCTION]生產力[NewLine]布洛妮婭·扎伊切克每次使用「創啟權能」將附贈一個同等級的泰坦系列近戰機甲，並解鎖逆熵·終極機甲，購買偉人返還15%[ICON_GreatPerson]偉人點數</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PLANK_ACTION_NAME_RETIRE" Language="zh_Hant_HK">
+			<Text>使所有城市+7%[ICON_SCIENCE]科技值+7%[ICON_CULTURE]文化值[NewLine]立即獲得一個總督頭銜，並所有城市[ICON_GreatPerson]偉人點數產出+50%，每座城市+2[ICON_GreatScientist]大科學家點數+2[ICON_GreatEngineer]大工程師點數</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TESLA_ACTION_NAME_RETIRE" Language="zh_Hant_HK">
+			<Text>使所有城市+14%[ICON_PRODUCTION]生產力[NewLine]使得所有逆熵機甲獲得天才特斯拉博士的偉大改裝，建造工業區+50%[ICON_PRODUCTION]生產力，工業區+2[ICON_PRODUCTION]生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EINSTEIN_ACTION_NAME_RETIRE" Language="zh_Hant_HK">
+			<Text>使所有城市+14%[ICON_SCIENCE]科技值[NewLine]每個存在的逆熵機甲將為文明提供+1[ICON_SCIENCE]科技值，為所有城市提供+1[ICON_PRODUCTION]生產力，建造學院+50%[ICON_PRODUCTION]生產力，學院+3[ICON_SCIENCE]科技值</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCHRODINGER_ACTION_NAME_RETIRE" Language="zh_Hant_HK">
+			<Text>使所有城市+14%[ICON_SCIENCE]科技值[NewLine]使得每一個機甲單位具有一次瞬間回到首都並恢復生命值重置移動重置攻擊次數的能力(已給予)，並+1[ICON_MOVEMENT]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EDISON_ACTION_NAME_RETIRE" Language="zh_Hant_HK">
+			<Text>使所有城市+7%[ICON_PRODUCTION]生產力+14%[ICON_GOLD]金幣[NewLine]使得所有學院和工廠獲得等同相鄰加成的[ICON_GOLD]金幣產出，並立刻獲得等同於當前[ICON_SCIENCE]科技值十倍的[ICON_GOLD]金幣，自此用[ICON_GOLD]金幣購買[ICON_GreatScientist]大科學家和[ICON_GreatEngineer]大工程師七折</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>量產型逆熵終極機甲，攻擊時會造成雙倍的範圍傷害，並且擁有一次額外攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_NAME" Language="zh_Hant_HK">
+			<Text>伊斯坎達爾</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>量產型逆熵終極機甲，攻擊時有機率造成暴擊傷害，進攻將獲得+7[ICON_STRENGTH]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_NAME" Language="zh_Hant_HK">
+			<Text>赫拉克勒斯</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>量產型逆熵終極機甲，攻擊距離為1的單位會造成造成貫穿傷害，掠奪會獲得當前研究進度的12.5%</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_NAME" Language="zh_Hant_HK">
+			<Text>神機·巴德爾</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>量產型逆熵終極機甲，強大的飛行單位</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_NAME" Language="zh_Hant_HK">
+			<Text>PRC_6626</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>量產型逆熵終極機甲，極端強大的地面單位</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_NAME" Language="zh_Hant_HK">
+			<Text>MSR_7</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>限量版逆熵終極機甲，可以發射核彈，可以主動釋放技能使得周圍單位本回合清空移動力，自身則重置移動力和攻擊次數，冷卻5回合，並擁有1次額外攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_NAME" Language="zh_Hant_HK">
+			<Text>和平使者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>限量版逆熵終極機甲，能夠主動過熱進入連斬居合狀態，期間+20[ICON_STRENGTH]戰鬥力，+3[ICON_MOVEMENT]移動力，+1攻擊次數，立即重置移動力和攻擊次數，冷卻3回合</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_NAME" Language="zh_Hant_HK">
+			<Text>赫菲斯托斯</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>限量版逆熵終極機甲，每次攻擊將疊加戰鬥力，並造成扇形濺射傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_NAME" Language="zh_Hant_HK">
+			<Text>神機·海姆達爾·</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ISKANDAR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>伊斯坎達爾的懲戒：攻擊將造成雙倍濺射傷害，內圈為原傷害的50%，外圈為原傷害的25%，初始便擁有+1攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HERACLES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>赫拉克勒斯的偉力：攻擊將造成暴擊傷害，30%機率為120%原傷害，30%機率為125%原傷害+5固定傷害，30%機率為133.3%原傷害+10固定傷害，10%機率為150%原傷害+15固定傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_BADER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>神機·巴德爾的裁決：同被攻擊者之間的距離為1時，將對其身後的單位造成50%原傷害的貫穿傷害，掠奪時將贈予當前科技研究進度的12.5%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_PRC_6626_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>PRC_6626：她的強大毋庸置疑</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MSR_7_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>MSR_7：她的強大毋庸置疑</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MHT_PEACE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>和平使者的決斷：使得周圍三格內的單位本回合清空移動力並受到10點固定傷害，自身則重置移動力和攻擊次數，額外攻擊1次，冷卻為6回合</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>赫斯菲托斯的怒火：進入連斬居合狀態，立即重置移動力和攻擊次數，期間+20[ICON_STRENGTH]戰鬥力，+3[ICON_MOVEMENT]移動力，+1攻擊次數，冷卻為4回合</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>神機·海姆達爾的審判：每次攻擊將為其疊加強化狀態，每層強化狀態將提供+7[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力和25%原傷害的扇形濺射傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_FIRE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>赫斯菲托斯的怒火：已激活，+20[ICON_STRENGTH]戰鬥力，+3[ICON_MOVEMENT]移動力，+1攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>大迴旋斬·起：神機·海姆達爾+7[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力，+25%扇形濺射傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>大迴旋斬·承：神機·海姆達爾+7[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力，+25%扇形濺射傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>大迴旋斬·轉：神機·海姆達爾+7[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力，+25%扇形濺射傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>大迴旋斬·合：神機·海姆達爾+7[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力，+25%扇形濺射傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY" Language="zh_Hant_HK">
+			<Text>反轉</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有城市初始便獲得+15%[ICON_SCIENCE]科技值+15%[ICON_PRODUCTION]生產力+1[ICON_GreatScientist]大科學家點數[NewLine]擁有特色偉人逆熵科學家，獲取逆熵科學家時將立刻完成當前科技，獲取埃瑪·普朗克的同時會立刻完成當前市政[NewLine]逆熵科學家獲取方式如下：[NewLine]瓦爾特·喬伊斯：獲得一個[ICON_GreatScientist]大科學家[NewLine]瓦爾特·楊：在獲得瓦爾特·喬伊斯後，到達工業時代[NewLine]南希·愛迪生：每回合金幣收入達到328[ICON_GOLD][NewLine]埃瑪·普朗克：已獲取南希·愛迪生並且[ICON_SCIENCE]科技值＞128，[ICON_CULTURE]文化值＞68[NewLine]埃爾溫·蕾安娜·薛定諤：在獲取埃瑪·普朗克後有可能被觀測[NewLine]芙蕾德莉卡·特斯拉：在獲取南希·愛迪生並進行一定次數創構機甲後可獲得[NewLine]麗瑟爾·阿爾伯特：在獲取埃瑪·普朗克並進行一定次數創構機甲後可獲得</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_NAME" Language="zh_Hant_HK">
+			<Text>名以世界</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_1" Language="zh_Hant_HK">
+			<Text>琪亞娜·卡斯蘭娜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_2" Language="zh_Hant_HK">
+			<Text>雷電芽衣</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_3" Language="zh_Hant_HK">
+			<Text>希兒·芙樂艾</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_4" Language="zh_Hant_HK">
+			<Text>無量塔姬子</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_5" Language="zh_Hant_HK">
+			<Text>德麗莎·阿波卡利斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_6" Language="zh_Hant_HK">
+			<Text>蘿莎莉婭·阿琳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_7" Language="zh_Hant_HK">
+			<Text>莉莉婭·阿琳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_8" Language="zh_Hant_HK">
+			<Text>杏·瑪爾</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_1" Language="zh_Hant_HK">
+			<Text>相對天然卷</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_2" Language="zh_Hant_HK">
+			<Text>正弦雙馬尾</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_3" Language="zh_Hant_HK">
+			<Text>虐貓狂魔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_4" Language="zh_Hant_HK">
+			<Text>量子少女</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_5" Language="zh_Hant_HK">
+			<Text>發明家</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_6" Language="zh_Hant_HK">
+			<Text>力學三定律</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_7" Language="zh_Hant_HK">
+			<Text>都柏林漫步</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_8" Language="zh_Hant_HK">
+			<Text>逆熵舞會</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_9" Language="zh_Hant_HK">
+			<Text>逆熵樂隊</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_10" Language="zh_Hant_HK">
+			<Text>逆熵鼓手</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_11" Language="zh_Hant_HK">
+			<Text>逆熵聖誕</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_12" Language="zh_Hant_HK">
+			<Text>大爆炸</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_13" Language="zh_Hant_HK">
+			<Text>量子圓舞曲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_14" Language="zh_Hant_HK">
+			<Text>天空立法者</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_15" Language="zh_Hant_HK">
+			<Text>星空探索者</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_16" Language="zh_Hant_HK">
+			<Text>元素預見者</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_17" Language="zh_Hant_HK">
+			<Text>星空觀察者</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_18" Language="zh_Hant_HK">
+			<Text>物質探究者</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_19" Language="zh_Hant_HK">
+			<Text>觀察者</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_20" Language="zh_Hant_HK">
+			<Text>自然分類</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>反轉</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BRONYA_ZAYCHIK_QUOTE" Language="zh_Hant_HK">
+			<Text>“不要向崩壞低頭，不要向神明屈服。”</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_NAME" Language="zh_Hant_HK">
+			<Text>逆熵機甲</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵的量產機甲，用於代替女武神作為對抗崩壞的主要力量。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BRONYA_ZAYCHIK" Language="zh_Hant_HK">
+			<Text>對理之律者來說，「一」和「三十萬」其實並無區別[NewLine]瓦爾特·喬伊斯、約阿希姆·楊、布洛妮婭·扎伊切克……他們中的任何一個，其實都不僅僅是那三十萬人之一 ，也同樣是三十萬人的全部。 「理之律者」的名字之所以能夠傳承至今，就在於它的「力量」與「意志」早已融會貫通[NewLine]從來沒有哪一個人能夠承擔起守護世界的重任[NewLine]但每個人都可以擁有守護世界的願望[NewLine]畢竟…人類唯一不變的「真理」，就是「人類的真理必然會發生改變」</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>“一個人的力量，或許不夠強大。三十萬人的思想，或許也不夠豐富。但此刻的布洛妮婭，是真正的理之律者！”</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_NAME" Language="zh_Hant_HK">
+			<Text>布洛妮婭·扎伊切克</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>無悖災異的雪域：布洛妮婭·扎伊切克完全免疫核爆以及輻射傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>重構蝶影的海淵：布洛妮婭·扎伊切克掌握「天使重構」，為所有城市+3[ICON_SCIENCE]科技值+3[ICON_PRODUCTION]生產力，布洛妮婭·扎伊切克+5[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力，+1[ICON_RANGED]射程，+1視野</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_BETTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>推變未來的世界：布洛妮婭·扎伊切克施展「創啟權能」，+15[ICON_STRENGTH]戰鬥力，+2[ICON_MOVEMENT]移動力，+1[ICON_RANGED]射程，+1視野</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MACHINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>逆熵機甲：免疫大部分核爆以及輻射傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>「過去」：布洛妮婭·扎伊切克+7[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力，+1[ICON_RANGED]射程，+1視野</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>「現在」：布洛妮婭·扎伊切克+13[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力，+1[ICON_RANGED]射程，+1視野</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>「未來」：布洛妮婭·扎伊切克+20[ICON_STRENGTH]戰鬥力，+1[ICON_MOVEMENT]移動力，+1[ICON_RANGED]射程，+1視野，+1攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_ZAYCHIK_NAME" Language="zh_Hant_HK">
+			<Text>異日迴響</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_NAME" Language="zh_Hant_HK">
+			<Text>雪地狙擊</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>回合開始時地處凍土，+10[ICON_STRENGTH]戰鬥力，+1[ICON_RANGED]射程，+1視野；根據雙方距離造成額外傷害，過近則重置移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_NAME" Language="zh_Hant_HK">
+			<Text>女武神·戰車</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1[ICON_MOVEMENT]移動力，無視地塊損耗，被攻擊後重置移動力和攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_NAME" Language="zh_Hant_HK">
+			<Text>異度黑核侵蝕</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>隱身，不會因為受傷損耗戰鬥力，同敵方單位距離為2時，攻擊有機率暴擊並造成額外傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_NAME" Language="zh_Hant_HK">
+			<Text>驅動裝·山吹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>防禦時+20[ICON_STRENGTH]戰鬥力，+1攻擊次數，距離為1時攻擊造成貫穿傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_NAME" Language="zh_Hant_HK">
+			<Text>彗星驅動</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>移動後依然可以攻擊，攻擊後依然可以移動，行動後依舊可以恢復生命值，反彈所受傷害的50%，並恢復所受傷害的25%</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

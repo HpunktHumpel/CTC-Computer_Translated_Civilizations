@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May  7 14:45:12 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BRONYA_CREAT_BASE" Language="ko_KR">
+			<Text>현재 연구 진행 상황은 [COLOR_LIGHTBLUE]입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_50" Language="ko_KR">
+			<Text>기계를 만들기에 충분하지 않습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_100" Language="ko_KR">
+			<Text>[COLOR_LIGHTBLUE]50[ENDCOLOR] 연구 진행[NewLine]을 소모합니다. 확실히 [COLOR_GREEN] 기본 메카[ENDCOLOR]를 제조할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_200" Language="ko_KR">
+			<Text>[COLOR_LIGHTBLUE] 100[ENDCOLOR] 연구 진행률[NewLine]이 [COLOR_GREEN] 기본 메카[ENDCOLOR]를 제조할 수 있어야 하며 특정 확률로 [COLOR_FLOAT_SCIENCE] 고급 메카[ENDCOLOR]를 제조할 수 있어야 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_400" Language="ko_KR">
+			<Text>[COLOR_LIGHTBLUE] 200 [ENDCOLOR] 연구 진행 [NewLine]이 [COLOR_FLOAT_SCIENCE] 고급 메카 [ENDCOLOR]를 제조할 수 있어야 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_800" Language="ko_KR">
+			<Text>[COLOR_LIGHTBLUE]400[ENDCOLOR] 연구 진행률[NewLine]이 [COLOR_FLOAT_SCIENCE] 고급 메카[ENDCOLOR]를 제조할 수 있어야 하며 일정 확률로 [COLOR_FLOAT_CULTURE] 최첨단 메카[ENDCOLOR]를 제조할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_1600" Language="ko_KR">
+			<Text>[COLOR_LIGHTBLUE]800[ENDCOLOR] 연구 진행[NewLine]이 [COLOR_FLOAT_CULTURE] 최첨단 메카[ENDCOLOR]를 제조할 수 있어야 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_MAX" Language="ko_KR">
+			<Text>[COLOR_LIGHTBLUE]1600[ENDCOLOR] 연구 진행[NewLine]이 [COLOR_FLOAT_CULTURE]개의 최첨단 기계[ENDCOLOR]를 제조할 수 있어야 하며 일정 확률로 [COLOR_RED] 궁극의 [ENDCOLOR] 기계를 제조할 수 있어야 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_POINT" Language="ko_KR">
+			<Text>[NewLine]현재 생성된 시간[COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_TOOLTIP" Language="ko_KR">
+			<Text>피스메이커의 결정[NewLine]이 식고 있으며 남은 라운드 수는 [COLOR_Civ6Yellow]</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_TOOLTIP" Language="ko_KR">
+			<Text>헤스피토스의 분노[NewLine]가 식고 있습니다. 남은 라운드 수[COLOR_RED]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_ALL_READEY" Language="ko_KR">
+			<Text>[COLOR_Civ6Yellow]피스메이커의 결의안[ENDCOLOR][NewLine] 준비 완료</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_ALL_READY" Language="ko_KR">
+			<Text>[COLOR_RED]헤스피토스의 분노[ENDCOLOR][NewLine]가 준비되었습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_AROMORED_RABBIT_19C_DEEFEND" Language="ko_KR">
+			<Text>Heavy Bunny 19C: 방어 시 Bronya Zajcek의 전투력 +10 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_HERRSCHER_CORE_STRENGTH" Language="ko_KR">
+			<Text>Herrscher Core: Bronya Zajcek의 전투력 +10 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_STRENGTH" Language="ko_KR">
+			<Text>충격형 자폭 지뢰: 독거미 메카의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_STRENGTH" Language="ko_KR">
+			<Text>메크 어썰트: 타이탄 메카의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_STRENGTH" Language="ko_KR">
+			<Text>방어 모드: 장거리 공격을 방어할 때 Titan Mech +10 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_STRENGTH" Language="ko_KR">
+			<Text>지진 영향: 타이탄 메카의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DISTRICT" Language="ko_KR">
+			<Text>지진 영향: 지역 공격 시 타이탄 메카의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_STRENGTH" Language="ko_KR">
+			<Text>과열 과부하: 타이탄 메카의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_STRENGTH" Language="ko_KR">
+			<Text>휩쓸기: 데스 메크의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_STRENGTH" Language="ko_KR">
+			<Text>포스 필드 실드: 장거리 공격을 방어할 때 데스 메카의 [ICON_STRENGTH] 전투력 +10</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_STRENGTH" Language="ko_KR">
+			<Text>적응성: 데스 메카의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_STRENGTH" Language="ko_KR">
+			<Text>데스티니 쉴드: 데스 메카의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_STRENGTH" Language="ko_KR">
+			<Text>짓밟기: 썬더 메카의 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_STRENGTH" Language="ko_KR">
+			<Text>헤비 아머: 원거리 공격 방어 시 라이트닝 아머 +10 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_STRENGTH" Language="ko_KR">
+			<Text>블레이징 미사일: 썬더 메카의 [ICON_STRENGTH] 전투력 +5, 지원 보너스 +200%</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_A_STRENGTH" Language="ko_KR">
+			<Text>강화된 포지션 α: 주술사 갑옷의 영향을 받음, +3 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_B_STRENGTH" Language="ko_KR">
+			<Text>강화된 포지션 β: 소서러 메카의 영향, +4 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_C_STRENGTH" Language="ko_KR">
+			<Text>강화 위치 γ: 더블 스네이크 메카의 영향, +5 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_STRENGTH" Language="ko_KR">
+			<Text>파워 차징 메크: 샤먼 메카로부터 파워 차징을 받을 때 전투력 +5 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_STRENGTH" Language="ko_KR">
+			<Text>전하 · 타이탄: 샤먼 메카의 전하를 받음, +5 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_STRENGTH" Language="ko_KR">
+			<Text>파워 차지 · 데드 워리어: 샤먼 메카의 파워 차지를 받음, 부상당한 유닛을 공격할 때 +7 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_B_STRENGTH" Language="ko_KR">
+			<Text>스카이 스트라이크: 공격 시 +5 [ICON_STRENGTH] 전투력 부여</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_C_STRENGTH" Language="ko_KR">
+			<Text>록 스트라이크: 방어 시 +5 [ICON_STRENGTH] 전투력 부여</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_D_STRENGTH" Language="ko_KR">
+			<Text>스카이 슬램: 공격 시 +7 [ICON_STRENGTH] 전투력 부여</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_E_STRENGTH" Language="ko_KR">
+			<Text>오버로드 바디: 방어 시 +7 [ICON_STRENGTH] 전투력 부여</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_ATTACH_STRENGTH" Language="ko_KR">
+			<Text>시공간 위치: 주변 공간의 모든 메카에 대해 +2 [ICON_STRENGTH] 전투력(중첩 가능) (천재 박사 테슬라의 대변신에서 파생)</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEPHAESTUS_STRENGTH" Language="ko_KR">
+			<Text>Lianzhan Ihe: 헤파이스토스 +20 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_STRENGTH" Language="ko_KR">
+			<Text>&quot;Angel Reconstruction&quot;: 부분적으로 잠금 해제된 &quot;Genesis Power&quot;는 Bronya Zajcek에게 +5 [ICON_STRENGTH] 전투력을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_BETTER_STRENGTH" Language="ko_KR">
+			<Text>&quot;제네시스 파워&quot;: 완전히 잠금 해제된 &quot;제네시스 파워&quot;는 Bronya Zajcek에게 +15 [ICON_STRENGTH] 전투력을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_1_STRENGTH" Language="ko_KR">
+			<Text>&quot;과거&quot;: Bronya Zajcek에게 +7 [ICON_STRENGTH] 전투력 제공</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_2_STRENGTH" Language="ko_KR">
+			<Text>&quot;지금&quot;: Bronya Zajcek에게 +13 [ICON_STRENGTH] 전투력 제공</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_3_STRENGTH" Language="ko_KR">
+			<Text>&quot;미래&quot;: Bronya Zajcek에게 +20 [ICON_STRENGTH] 전투력 제공</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_1_STRENGTH" Language="ko_KR">
+			<Text>큰 원형 교차로: God Machine Heimdall에 +7 [ICON_STRENGTH] 전투력 제공</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_2_STRENGTH" Language="ko_KR">
+			<Text>큰 로터리·쳉: God Machine·Heimdall에 +7[ICON_STRENGTH]전투력 제공</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_3_STRENGTH" Language="ko_KR">
+			<Text>큰 원형 교차로 · 회전: 마법 기계 Heimdall에 +7 [ICON_STRENGTH] 전투력 제공</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_4_STRENGTH" Language="ko_KR">
+			<Text>Big Roundabout·Combined: God Machine·Heimdall에 +7[ICON_STRENGTH] 전투력 제공</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DEEFEND" Language="ko_KR">
+			<Text>드라이버 복장 Yamabuki: 방어 시 Bronya Zajcek에게 +20 [ICON_STRENGTH] 전투력을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="ko_KR">
+			<Text>리버스</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_NAME" Language="ko_KR">
+			<Text>리버스</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_DESCRIPTION" Language="ko_KR">
+			<Text>Bronya Zajcek이 이끄는 반 엔트로피 문명에서 초기 유레카[ICON_TechBoosted]는 20%에 불과하고 각 완성된 기술은 +2% 유레카[ICON_TechBoosted], 최대 80%입니다. [NewLine] 유레카에서 [ICON_TechBoosted]가 80%에 도달하면 모든 지역, 건물 및 프로젝트에 100% [ICON_PRODUCTION] 생산성 보너스 제공 [NewLine] 기술 쓰기를 잠금 해제한 후 수도 Icek에서 고유 유닛 Bronya Zha를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_NAME" Language="ko_KR">
+			<Text>진실의 이름으로</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BRONYA_ZAYCHIK_NAME" Language="ko_KR">
+			<Text>브로냐 자이첵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_NAME" Language="ko_KR">
+			<Text>브로냐 자이첵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_DESCRIPTION" Language="ko_KR">
+			<Text>필멸의 몸으로 헤르셔의 힘을 조종하는 시베리아 소녀는 과거의 경험이 미래를 향한 한 걸음 한 걸음의 초석이 된다. 단 하나의 생각 영감을 현실로 바꾸고, 모든 군대를 파괴할 수 있는 일련의 우주 기반 무기를 만들고, 앞을 가로막는 모든 적을 제거하십시오.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_NAME" Language="ko_KR">
+			<Text>반엔트로피 메카·대량생산</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_DESCRIPTION" Language="ko_KR">
+			<Text>반엔트로피의 양산형 메카는 발키리를 대체하여 호카이에 대항하는 주력부대로 사용하는 것으로 기본형, 고급형, 첨단형으로 나눌 수 있으며 타이탄, 독거미, 무당, 데드가 있다. 군인 및 Royal Thunder 모델.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_NAME" Language="ko_KR">
+			<Text>안티 엔트로피 아머 얼티밋</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_DESCRIPTION" Language="ko_KR">
+			<Text>Anti-entropy의 한정판 메카는 강력하고 독특합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_DESCRIPTION" Language="ko_KR">
+			<Text>빈약한 전투 효율성, 눈길을 끄는 기동성, 존재의 의미는 마지막에 피어나는 불꽃에 있다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_NAME" Language="ko_KR">
+			<Text>스파이더 메크</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_DESCRIPTION" Language="ko_KR">
+			<Text>아직 전투력은 약하고, 눈에 띄는 기동성, 폭발 후 기동성 감소 범위가 추가로 장착되어 있다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_NAME" Language="ko_KR">
+			<Text>스파이더 메카</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_DESCRIPTION" Language="ko_KR">
+			<Text>여전히 전투력은 미약하고, 눈에 띄는 기동성으로 폭발 후 영구적인 기동 범위 감소를 추가로 장착한다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_NAME" Language="ko_KR">
+			<Text>아이스 메카</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_DESCRIPTION" Language="ko_KR">
+			<Text>요컨대 아직 전투력이 약하고 기동성이 인상적이지만 이번에는 더 밝은 불꽃이 나오고 폭발 범위가 두 배가되었습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_NAME" Language="ko_KR">
+			<Text>타다 남은 것</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_DESCRIPTION" Language="ko_KR">
+			<Text>기본 메카, 그 외에 무엇을 기대할 수 있습니까?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_NAME" Language="ko_KR">
+			<Text>타이탄 메카</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_DESCRIPTION" Language="ko_KR">
+			<Text>힘은 하늘을 들어올릴 수 있다! 그들이 파파 타이탄에게 지배당하는 공포를 느끼게 해주세요! (경고! 점프 시스템이 설치되어 있지 않습니다!)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_NAME" Language="ko_KR">
+			<Text>다이나모 아머</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_DESCRIPTION" Language="ko_KR">
+			<Text>바위처럼 단단한! 그들이 파파 타이탄에게 지배당하는 공포를 느끼게 해주세요! (경고! Super Body System이 설치되어 있지 않습니다!)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_NAME" Language="ko_KR">
+			<Text>바위 갑옷</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_DESCRIPTION" Language="ko_KR">
+			<Text>토마호크 미사일의 위력! (별말씀을요)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_NAME" Language="ko_KR">
+			<Text>큰 도끼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_DESCRIPTION" Language="ko_KR">
+			<Text>날 대부라고 부르고 싶지도 않잖아!</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_NAME" Language="ko_KR">
+			<Text>대부</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_DESCRIPTION" Language="ko_KR">
+			<Text>춤도, 만트라도, 목에 해골도 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_NAME" Language="ko_KR">
+			<Text>주술사 기계</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_DESCRIPTION" Language="ko_KR">
+			<Text>제물이나 파란 막대가 필요하지 않으며, 스펠 슬롯을 준비하기 위해 밤에 명상할 필요가 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_NAME" Language="ko_KR">
+			<Text>소서러 기계</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_DESCRIPTION" Language="ko_KR">
+			<Text>음? 당신의 이름은 샤머니즘과 관련이 있습니까?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_NAME" Language="ko_KR">
+			<Text>이중 뱀</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_DESCRIPTION" Language="ko_KR">
+			<Text>하늘의 헤르셔를 조심하세요!</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_NAME" Language="ko_KR">
+			<Text>썬더 메카</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_DESCRIPTION" Language="ko_KR">
+			<Text>설마 설마 자기폭풍 메카에 조종당하는 사람은 아무도 없겠죠? 기소된 건 나야 괜찮아.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_NAME" Language="ko_KR">
+			<Text>마그네틱 스톰 아머</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_DESCRIPTION" Language="ko_KR">
+			<Text>재! 그러나 리스폰 기능이 없으며 기관총을 발사하기 위해 회피 버튼을 길게 누르지 마십시오.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_NAME" Language="ko_KR">
+			<Text>메크 온 파이어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_DESCRIPTION" Language="ko_KR">
+			<Text>엄밀히 말하면 이것은 운명의 메카이지만 지금은 운명의 주교가 누구인지 모든 것을 알고 있다고 말할 수밖에 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_NAME" Language="ko_KR">
+			<Text>데스 메크</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_DESCRIPTION" Language="ko_KR">
+			<Text>Destiny Mech에게 무슨 일이 일어났습니까! 내가 반 엔트로피라고 말하는 것은 반 엔트로피입니다! 운명만이 반엔트로피를 복제할 수 있고, 반엔트로피는 운명을 훔칠 수 없다?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_NAME" Language="ko_KR">
+			<Text>이베르키</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_DESCRIPTION" Language="ko_KR">
+			<Text>안티 엔트로피 갑옷입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_NAME" Language="ko_KR">
+			<Text>야센지 미스테틴</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SPIDER_NAME" Language="ko_KR">
+			<Text>유독한 거미</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_TITAN_NAME" Language="ko_KR">
+			<Text>타이탄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SUITS_NAME" Language="ko_KR">
+			<Text>죽은 사람</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SHAMAN_NAME" Language="ko_KR">
+			<Text>무녀</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_THUNDER_NAME" Language="ko_KR">
+			<Text>레이 유</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_NAME" Language="ko_KR">
+			<Text>자폭 지뢰 공격</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_DESCRIPTION" Language="ko_KR">
+			<Text>Spider Mech가 보이지 않는 유닛을 발견할 수 있도록 허용하고 +1 [ICON_MOVEMENT] 이동</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_NAME" Language="ko_KR">
+			<Text>오프로드 자폭 광산</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_DESCRIPTION" Language="ko_KR">
+			<Text>Tarantula가 영역 제어 및 타일 감소를 무시하도록 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_NAME" Language="ko_KR">
+			<Text>충격 광산</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_DESCRIPTION" Language="ko_KR">
+			<Text>독거미의 전투력 +5 [ICON_STRENGTH], 폭발 피해 +5</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_NAME" Language="ko_KR">
+			<Text>메카레이드</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_DESCRIPTION" Language="ko_KR">
+			<Text>타이탄 메카 +5[ICON_STRENGTH] 전투력, +1[ICON_MOVEMENT] 이동력</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_NAME" Language="ko_KR">
+			<Text>과부하 모드</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_DESCRIPTION" Language="ko_KR">
+			<Text>타이탄은 공격 후에도 여전히 움직일 수 있고, 이동 후에도 계속 공격할 수 있습니다. +1 공격 시간</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_NAME" Language="ko_KR">
+			<Text>방어 모드</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_DESCRIPTION" Language="ko_KR">
+			<Text>타이탄 메카가 장거리 공격을 방어할 때 +10[ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_NAME" Language="ko_KR">
+			<Text>지진</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DESCRIPTION" Language="ko_KR">
+			<Text>타이탄 메카 전투력 +5[ICON_STRENGTH], 해당 지역 공격 시 추가 전투력 +5[ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_NAME" Language="ko_KR">
+			<Text>과열 및 과부하</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_DESCRIPTION" Language="ko_KR">
+			<Text>타이탄 메카 +5 [ICON_STRENGTH] 전투력, 손상된 디버프의 영향을 받지 않음</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_NAME" Language="ko_KR">
+			<Text>삭감</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_DESCRIPTION" Language="ko_KR">
+			<Text>데스 메카 +5[ICON_STRENGTH] 전투력, +1[ICON_MOVEMENT] 이동력</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_NAME" Language="ko_KR">
+			<Text>양손으로 베기</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_DESCRIPTION" Language="ko_KR">
+			<Text>데스 메카는 공격 후에도 여전히 움직일 수 있고, 이동 후에도 여전히 공격할 수 있으며, +1 공격 시간</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_NAME" Language="ko_KR">
+			<Text>포스 실드</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_DESCRIPTION" Language="ko_KR">
+			<Text>데스 메크가 장거리 공격을 방어할 때 +10 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_NAME" Language="ko_KR">
+			<Text>적응성</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_DESCRIPTION" Language="ko_KR">
+			<Text>데스 메카 +5 [ICON_STRENGTH] 전투력, 약탈 수입 +100%</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_NAME" Language="ko_KR">
+			<Text>운명의 방패</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_DESCRIPTION" Language="ko_KR">
+			<Text>데스 메크 +5 [ICON_STRENGTH] 전투력, 행동을 취한 후에도 HP를 회복할 수 있음, 중립 지역에서 HP 10 회복, 적 지역에서 HP 7 회복</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_NAME" Language="ko_KR">
+			<Text>파워 충전 메카</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="ko_KR">
+			<Text>샤먼 메카는 몸 주위의 그리드 내에 있는 메카 유닛을 +5[ICON_STRENGTH] 전투력, +1[ICON_MOVEMENT] 이동력으로 만듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_NAME" Language="ko_KR">
+			<Text>파워 차지 타이탄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="ko_KR">
+			<Text>샤먼 메카는 신체 블록 내의 타이탄 메카를 +5 [ICON_STRENGTH] 전투력으로 만듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_NAME" Language="ko_KR">
+			<Text>일렉트릭 리차지 · 독거미</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="ko_KR">
+			<Text>주술사 기계는 신체 블록 내에서 독거미 기계를 +1 [ICON_MOVEMENT] 이동으로 만듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_NAME" Language="ko_KR">
+			<Text>전원 충전 · 썬더볼트</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="ko_KR">
+			<Text>샤먼 기계는 몸의 한 블록 내에서 +1 시야, +1 [ICON_RANGED] 범위 내에서 천둥 메카를 만듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_NAME" Language="ko_KR">
+			<Text>일렉트릭 리차지·데스 워리어</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="ko_KR">
+			<Text>샤먼 메카는 손상된 유닛을 공격할 때 몸 주위 한 블록 내에 있는 데드 메카를 +7 [ICON_STRENGTH] 전투력으로 만듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_NAME" Language="ko_KR">
+			<Text>짓밟다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_DESCRIPTION" Language="ko_KR">
+			<Text>썬더 메카 전투력 +5[ICON_STRENGTH], 이동력 +1[ICON_MOVEMENT]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_NAME" Language="ko_KR">
+			<Text>살포 폭탄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_DESCRIPTION" Language="ko_KR">
+			<Text>썬더 메카는 공격 후에도 여전히 움직일 수 있고, 이동 후에도 여전히 공격할 수 있으며, +1 공격 시간</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_NAME" Language="ko_KR">
+			<Text>중갑</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_DESCRIPTION" Language="ko_KR">
+			<Text>라이트닝 아머가 장거리 공격을 방어할 때 +10 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_NAME" Language="ko_KR">
+			<Text>미끼 폭탄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_DESCRIPTION" Language="ko_KR">
+			<Text>Thunder Mecha +1 시야, +1 [ICON_RANGED] 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_NAME" Language="ko_KR">
+			<Text>블레이징 미사일</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_DESCRIPTION" Language="ko_KR">
+			<Text>Thunder Mecha +5 [ICON_STRENGTH] 전투력, 200% 지원 보너스 받기</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_ATTACH_DESCRIPTION" Language="ko_KR">
+			<Text>강화된 역장 α: 샤먼 메카는 주위에 그리드가 있는 메카 유닛이 +3 [ICON_STRENGTH] 전투력, +1 [ICON_MOVEMENT] 이동력을 얻도록 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_ATTACH_DESCRIPTION" Language="ko_KR">
+			<Text>강화된 포스 필드 β: 샤먼 메카는 주위에 그리드가 있는 메카 유닛이 +4[ICON_STRENGTH]전투력,+1[ICON_MOVEMENT]이동을 얻도록 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_ATTACH_DESCRIPTION" Language="ko_KR">
+			<Text>향상된 역장 γ: 샤먼 메카는 주위에 그리드가 있는 메카 유닛이 +5 [ICON_STRENGTH] 전투력, +75% 경험치 획득을 얻도록 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_DESCRIPTION" Language="ko_KR">
+			<Text>인핸스드 포스필드α : 주술사 갑옷의 영향을 받아 전투력 +3[ICON_STRENGTH], 이동력 +1[ICON_MOVEMENT]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_DESCRIPTION" Language="ko_KR">
+			<Text>Enhanced Force Field β: 주술사 갑옷의 영향을 받아 전투력 +4[ICON_STRENGTH], 이동력 +1[ICON_MOVEMENT]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_DESCRIPTION" Language="ko_KR">
+			<Text>Enhanced Force Field γ: 주술사 갑옷의 영향, +5 [ICON_STRENGTH] 전투력, +75% 경험치 획득</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="ko_KR">
+			<Text>파워 차징 메카: 샤먼 메카의 영향을 받음, +5[ICON_STRENGTH] 전투력, +1[ICON_MOVEMENT] 기동성</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="ko_KR">
+			<Text>파워 차지 타이탄: 주술사 갑옷의 영향을 받아 +5 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="ko_KR">
+			<Text>전하 · 독거미: 샤먼 메카의 영향을 받음, +1 [ICON_MOVEMENT] 이동</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="ko_KR">
+			<Text>Power Charge · Thunder Control: Shaman Mech의 영향을 받음, +1 시야, +1 [ICON_RANGED] 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="ko_KR">
+			<Text>파워 차지 데스 워리어: 주술사 갑옷의 영향을 받음, 손상된 유닛 공격 시 전투력 +7 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_A_DESCRIPTION" Language="ko_KR">
+			<Text>자폭 지뢰 : 죽으면 주변 유닛에 20의 피해를 줍니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_B_DESCRIPTION" Language="ko_KR">
+			<Text>끈적끈적한 자폭 지뢰: 죽으면 주변 유닛에 30의 피해를 입히고 이번 라운드에 -5 [ICON_MOVEMENT] 이동을 하게 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_DESCRIPTION" Language="ko_KR">
+			<Text>지상 자폭형 지뢰: 죽으면 주변 유닛에 40의 피해를 입히고 영구적으로 -1 [ICON_MOVEMENT] 이동을 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_D_DESCRIPTION" Language="ko_KR">
+			<Text>폭발성 자폭 지뢰: 사망 시 주변 2칸 내의 유닛에 40의 피해를 입힙니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_ATTACH_DESCRIPTION" Language="ko_KR">
+			<Text>어스바운드: 얼음 갑옷의 영향을 받음, 영구적으로 [ICON_MOVEMENT] 이동력 -1</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_A_DESCRIPTION" Language="ko_KR">
+			<Text>청소: 약탈 시 이동력이 [ICON_MOVEMENT] 1만 소모됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_B_DESCRIPTION" Language="ko_KR">
+			<Text>풀 한 포기 자라지 않음: 약탈 시 이동력이 [ICON_MOVEMENT] 1만 소모되며, 현재 기술 연구 진행도의 10%를 부여합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_C_DESCRIPTION" Language="ko_KR">
+			<Text>지면 3피트 긁기: 약탈 시 이동력이 [ICON_MOVEMENT] 1만 소모되며, 현재 기술 연구 진행도의 12.5%를 부여합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_A_DESCRIPTION" Language="ko_KR">
+			<Text>Yulei: Yulei 메카입니다. 더 이상은 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_B_DESCRIPTION" Language="ko_KR">
+			<Text>마그네틱 스톰: 마그네틱 스톰 기계, 그게 다야</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_C_DESCRIPTION" Language="ko_KR">
+			<Text>On Fire: Fire Mecha, 그게 다야... 오, +1 공격 시간</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_B_DESCRIPTION" Language="ko_KR">
+			<Text>스카이 스트라이크: 공격 시 +5 [ICON_STRENGTH] 전투력 부여</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_C_DESCRIPTION" Language="ko_KR">
+			<Text>록 스트라이크: 방어 시 +5 [ICON_STRENGTH] 전투력 부여</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_D_DESCRIPTION" Language="ko_KR">
+			<Text>스카이 슬램: 공격 시 +7 [ICON_STRENGTH] 전투력 부여</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_E_DESCRIPTION" Language="ko_KR">
+			<Text>오버로드 바디: 방어 시 +7 [ICON_STRENGTH] 전투력 부여</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_NAME" Language="ko_KR">
+			<Text>코코아</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_TITLE" Language="ko_KR">
+			<Text>엔트로피 방지 실행기</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_SHORT_TITLE" Language="ko_KR">
+			<Text>마녀</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_DESCRIPTION" Language="ko_KR">
+			<Text>반엔트로피 개혁파의 리더이자 코콜리아 고아원의 창시자이자 영원한 악당(그가 어느 세계에 있든).</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_NAME" Language="ko_KR">
+			<Text>코콜리아 고아원</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_DESCRIPTION" Language="ko_KR">
+			<Text>모든 영구 동토층 +1 [ICON_CULTURE] 문화 가치 +1 [ICON_SCIENCE] 기술 가치 +1 [ICON_FOOD] 식량 +1 [ICON_PRODUCTION] 생산성, Cocolia Orphanage의 각 추가 파트너는 모든 도시에 +5% [ICON_CULTURE] 문화 +5%를 제공합니다. [ICON_SCIENCE]기술 +5%[ICON_FOOD]식품 +5%[ICON_PRODUCTION]생산성</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_NAME" Language="ko_KR">
+			<Text>판타지 바다 꿈 나비 Xier</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_DESCRIPTION" Language="ko_KR">
+			<Text>Bronya Zajcek에게 무거운 토끼 19C 제공, 모든 해양 세포 +1[ICON_SCIENCE]기술 가치+1[ICON_CULTURE]문화적 가치+1[ICON_PRODUCTION]생산성, 호수 및 강둑 +2[ ICON_SCIENCE] 기술 +1 [ICON_CULTURE] 문화 + 1 [ICON_PRODUCTION] 생산성</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_NAME" Language="ko_KR">
+			<Text>체리밤 로살리아</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_DESCRIPTION" Language="ko_KR">
+			<Text>엔터테인먼트 센터 건설 +100%[ICON_PRODUCTION]생산성, 엔터테인먼트 센터가 있는 모든 도시 만들기 +3[ICON_Amenities]거주 용이성, +2[ICON_Housing]주택, 황홀한 도시에서 +25%[ICON_PRODUCTION]생산성, 기계 유닛은 25% 추가 경험치를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_NAME" Language="ko_KR">
+			<Text>저편에서 온 쌍둥이 · Seele</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_DESCRIPTION" Language="ko_KR">
+			<Text>Bronya Zajcek의 오토바이 열쇠 회수, 황금 시대의 모든 부지에 +1 매력, 불가사의 건설을 위한 +50% [ICON_PRODUCTION]생산, +50%[ICON_PRODUCTION]암흑 시대의 군사 유닛 생산</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_NAME" Language="ko_KR">
+			<Text>블루베리 어택 릴리아</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_DESCRIPTION" Language="ko_KR">
+			<Text>각 도시는 추가 지역을 가지므로 엔터테인먼트 센터가 있는 모든 도시는 턴당 +5 충성도, +2 [ICON_Housing] 주택, 황홀한 도시에서 +25% [ICON_CULTURE] 문화 가치, 갑옷 유닛은 추가로 25% 경험치를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_NAME" Language="ko_KR">
+			<Text>악몽의 별 어비스 시에르</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_DESCRIPTION" Language="ko_KR">
+			<Text>Bronya Zajcek이 Herrscher의 핵심을 되찾도록 도와주세요. 전쟁 선포 후 [ICON_PRODUCTION] 생산성이 100% 증가하고 5라운드 동안 지속됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_NAME" Language="ko_KR">
+			<Text>카오스 타임피스 살구</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_DESCRIPTION" Language="ko_KR">
+			<Text>메카 유닛이 유닛을 죽이면 죽인 유닛의 문명 2 시대 포인트가 줄어들어 이 문명도 황금 시대의 일반 시대에 암흑 시대 정책 카드를 사용할 수 있으며 전쟁 피로도가 다음과 같이 감소합니다. -50%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_AROMORED_RABBIT_19C_DESCRIPTION" Language="ko_KR">
+			<Text>Heavy Bunny 19C: 방어 시 Bronya Zajcek의 전투력 +10 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_VEHICLE_KEY_DESCRIPTION" Language="ko_KR">
+			<Text>자동차 키: Bronya Zajcek의 경우 +2 [ICON_MOVEMENT] &quot;Bronya 자매님, 차가 없으면 여자를 데리러 나오지 마세요.&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_HERRSCHER_CORE_DESCRIPTION" Language="ko_KR">
+			<Text>허셔 코어: +1 공격 시간, +1[ICON_RANGED] 범위, +10[ICON_STRENGTH] Bronya Zajcek 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ROSALIA_DESCRIPTION" Language="ko_KR">
+			<Text>로잘리아: 플레이!</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LILIA_DESCRIPTION" Language="ko_KR">
+			<Text>릴리아: 자~</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIN_MAL_CHAOTIC_DESCRIPTION" Language="ko_KR">
+			<Text>Brutal Halberd: 유닛을 죽인 후 유닛이 죽은 문명 2 시대의 점수를 줄입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_JOYCE_NAME" Language="ko_KR">
+			<Text>반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_YOUNG_NAME" Language="ko_KR">
+			<Text>반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_PLANK_NAME" Language="ko_KR">
+			<Text>반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_TESLA_NAME" Language="ko_KR">
+			<Text>반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EINSTEIN_NAME" Language="ko_KR">
+			<Text>반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_SCHRODINGER_NAME" Language="ko_KR">
+			<Text>반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EDISON_NAME" Language="ko_KR">
+			<Text>반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_JOYCE_NAME" Language="ko_KR">
+			<Text>월터 조이스</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_YOUNG_NAME" Language="ko_KR">
+			<Text>월터 영</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLANK_NAME" Language="ko_KR">
+			<Text>엠마 플랭크</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TESLA_NAME" Language="ko_KR">
+			<Text>프레데리카 니콜라 테슬라</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EINSTEIN_NAME" Language="ko_KR">
+			<Text>리젤 알버트 아인슈타인</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCHRODINGER_NAME" Language="ko_KR">
+			<Text>에르빈 리아나 슈뢰딩거</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDISON_NAME" Language="ko_KR">
+			<Text>낸시 에디슨</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_EINSTEIN_DESCRIPTION" Language="ko_KR">
+			<Text>아인스: 기존의 모든 엔트로피 방지 메카는 문명에 +1 [ICON_SCIENCE] 기술 가치를 제공하고 모든 도시에 +[ICON_PRODUCTION]2 생산성을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SCHRODINGER_DESCRIPTION" Language="ko_KR">
+			<Text>양자 도약: +1 [ICON_MOVEMENT] 이동력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SPIDER_DESCRIPTION" Language="ko_KR">
+			<Text>천재 닥터 테슬라의 대변형: 독거미 메카의 공격 횟수 +1, 이동 후에도 계속 공격 가능, 보이지 않음</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_TITAN_DESCRIPTION" Language="ko_KR">
+			<Text>천재 닥터 테슬라의 대변형: 타이탄 메카는 중세 시대 이하의 성벽을 넘을 수 있어 성벽 전체에 데미지를 줄 수 있고, 전투부대를 넘어 편성된 지원 유닛을 공격할 수 있다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SHAMAN_DESCRIPTION" Language="ko_KR">
+			<Text>천재 박사 테슬라의 위대한 변형: 샤먼 메카는 몸 주변의 메카 유닛을 +2 [ICON_STRENGTH] 전투력(중첩 가능)으로 만들 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_DESCRIPTION" Language="ko_KR">
+			<Text>천재 박사 테슬라의 위대한 변형: 썬더 메카 +1 [ICON_RANGED] 범위, 두 번째 공격은 범위 피해를 입힐 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SUITS_DESCRIPTION" Language="ko_KR">
+			<Text>천재 Dr. Tesla의 대대적인 수정: Death Mech는 어떤 플롯의 이동력 손실도 무시합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_RANGE_DESCRIPTION" Language="ko_KR">
+			<Text>천재 Dr. Tesla의 대대적인 수정: 폭격 준비가 된 Thunder Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_SCHRODINGER_MOVE" Language="ko_KR">
+			<Text>Quantum Leap : 수도로 즉시 복귀하여 기동성 초기화, 공격시간 초기화, 모든 체력 회복</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_NAME" Language="ko_KR">
+			<Text>월터 조이스</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_DESCRIPTION" Language="ko_KR">
+			<Text>후퇴할 수 있는 특별한 능력을 가진 반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_NAME" Language="ko_KR">
+			<Text>월터 영</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_DESCRIPTION" Language="ko_KR">
+			<Text>후퇴할 수 있는 특별한 능력을 가진 반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANK_NAME" Language="ko_KR">
+			<Text>엠마 플랭크</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANKE_DESCRIPTION" Language="ko_KR">
+			<Text>후퇴할 수 있는 특별한 능력을 가진 반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_NAME" Language="ko_KR">
+			<Text>프레데리카 니콜라 테슬라</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_DESCRIPTION" Language="ko_KR">
+			<Text>후퇴할 수 있는 특별한 능력을 가진 반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_NAME" Language="ko_KR">
+			<Text>리젤 알버트 아인슈타인</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_DESCRIPTION" Language="ko_KR">
+			<Text>후퇴할 수 있는 특별한 능력을 가진 반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_NAME" Language="ko_KR">
+			<Text>에르빈 리아나 슈뢰딩거</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_DESCRIPTION" Language="ko_KR">
+			<Text>후퇴할 수 있는 특별한 능력을 가진 반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_NAME" Language="ko_KR">
+			<Text>낸시 에디슨</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_DESCRIPTION" Language="ko_KR">
+			<Text>후퇴할 수 있는 특별한 능력을 가진 반 엔트로피 과학자</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_JOYCE_ACTION_NAME_RETIRE" Language="ko_KR">
+			<Text>각 [ICON_CITIZEN] 인구가 도시에 대한 [ICON_SCIENCE] 기술 가치 +1, [ICON_PRODUCTION] 생산성 [NewLine]이 Bronya Zajcek의 &quot;Angel Reconstruction&quot; 잠금 해제, 위인 구매 및 15%[ ICON_GreatPerson] 위인 포인트 반환</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_YOUNG_ACTION_NAME_RETIRE" Language="ko_KR">
+			<Text>모든 도시 +7% 만들기[ICON_SCIENCE]기술 +7%[ICON_PRODUCTION]생산[NewLine]브로냐 자이첵은 &quot;이니셔티브 파워&quot;를 사용할 때마다 같은 레벨의 타이탄 시리즈 근접 메카를 받고 안티 엔트로피·얼티밋 ​​메카를 잠금 해제합니다. , 위인 구매 시 [ICON_GreatPerson] 위인 포인트 15% 환급</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PLANK_ACTION_NAME_RETIRE" Language="ko_KR">
+			<Text>모든 도시 만들기 +7%[ICON_SCIENCE]기술 가치 +7%[ICON_CULTURE]문화적 가치[NewLine] 즉시 주지사 칭호 획득, 모든 도시 [ICON_GreatPerson] 위인 포인트 출력 +50%, 각 도시 +2[ICON_GreatScientist] Great 과학자 포인트 +2 [ICON_GreatEngineer] 위대한 엔지니어 포인트</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TESLA_ACTION_NAME_RETIRE" Language="ko_KR">
+			<Text>모든 도시를 +14%[ICON_PRODUCTION]생산성[NewLine]만들기 모든 엔트로피 방지 기계가 천재적인 테슬라 박사의 훌륭한 개조를 받도록 만들고, 산업 구역을 +50%[ICON_PRODUCTION]생산성, 산업 구역을 +2[ICON_PRODUCTION]생산성으로 건설하십시오.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EINSTEIN_ACTION_NAME_RETIRE" Language="ko_KR">
+			<Text>모든 도시를 +14%[ICON_SCIENCE]기술 가치[NewLine]각각의 기존 엔트로피 방지 메카는 문명에 +1[ICON_SCIENCE]기술 가치를 제공하고, 모든 도시에 +1[ICON_PRODUCTION]생산성을 제공하며, 건설 아카데미는 +50% [ICON_PRODUCTION ] 생산성, 아카데미 +3 [ICON_SCIENCE] 기술 가치</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCHRODINGER_ACTION_NAME_RETIRE" Language="ko_KR">
+			<Text>모든 도시를 +14% [ICON_SCIENCE] 과학 및 기술 가치 [NewLine] 각 메카 유닛이 즉시 수도로 돌아가 생명 가치 재설정 이동 재설정 공격 시간(이미 부여됨)을 회복하고 +1 [ICON_MOVEMENT] 이동성을 갖게 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EDISON_ACTION_NAME_RETIRE" Language="ko_KR">
+			<Text>모든 도시를 +7%[ICON_PRODUCTION]생산성+14%[ICON_GOLD]금화[NewLine]로 만들어 모든 대학과 공장이 인접 보너스와 동일한 [ICON_GOLD]금화 생산량을 얻고 즉시 현재 [ ICON_SCIENCE] [ICON_GOLD] 금화의 10배, 그때부터 [ICON_GOLD] 금화를 사용하여 [ICON_GreatScientist] Great Scientist 및 [ICON_GreatEngineer] Great Engineer 구매 30% 할인</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_DESCRIPTION" Language="ko_KR">
+			<Text>안티 엔트로피 궁극기 양산형, 공격 시 2배 범위 피해, 추가 공격 가능</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_NAME" Language="ko_KR">
+			<Text>이스칸다르</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_DESCRIPTION" Language="ko_KR">
+			<Text>양산형 안티 엔트로피 궁극 메카는 공격 시 일정 확률로 치명타 피해를 입히며 공격 시 전투력이 +7 [ICON_STRENGTH] 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_NAME" Language="ko_KR">
+			<Text>헤라클레스</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_DESCRIPTION" Language="ko_KR">
+			<Text>안티 엔트로피 궁극 메카 대량 생산, 공격 범위 1인 유닛은 관통 피해 발생, 약탈 시 현재 연구 진행도의 12.5% ​​획득</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_NAME" Language="ko_KR">
+			<Text>갓 머신 바드르</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_DESCRIPTION" Language="ko_KR">
+			<Text>강력한 비행 유닛인 안티 엔트로피 궁극의 메카 양산</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_NAME" Language="ko_KR">
+			<Text>PRC_6626</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_DESCRIPTION" Language="ko_KR">
+			<Text>양산형 안티 엔트로피 궁극의 메카, 초강력 지상 유닛</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_NAME" Language="ko_KR">
+			<Text>MSR_7</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_DESCRIPTION" Language="ko_KR">
+			<Text>한정판 안티 엔트로피 얼티밋 메카는 핵폭탄을 발사할 수 있으며, 이번 라운드에서 주변 유닛이 이동성을 잃게 만드는 스킬을 적극적으로 방출하고, 이동성과 공격 시간을 재설정하고, 5라운드 동안 쿨다운하고, 추가 공격을 1회 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_NAME" Language="ko_KR">
+			<Text>평화의 대사</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_DESCRIPTION" Language="ko_KR">
+			<Text>한정판 안티 엔트로피 궁극의 메카는 능동적으로 과열되어 지속적인 절단 상태에 들어갈 수 있으며, 그 동안 +20 [ICON_STRENGTH] 전투력, +3 [ICON_MOVEMENT] 이동력, +1 공격 시간, 즉시 이동력 및 공격력이 재설정됩니다. 시간, 3라운드 동안 쿨다운</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_NAME" Language="ko_KR">
+			<Text>헤파이스토스</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_DESCRIPTION" Language="ko_KR">
+			<Text>한정판 안티 엔트로피 궁극의 메카, 공격할 때마다 전투력이 중첩되어 부채꼴 스플래쉬 데미지를 입힙니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_NAME" Language="ko_KR">
+			<Text>갓 머신 헤임달</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ISKANDAR_DESCRIPTION" Language="ko_KR">
+			<Text>이스칸다르의 응징 : 공격 시 스플래쉬 데미지 2배, 안쪽 원은 원래 데미지의 50%, 바깥쪽 원은 원래 데미지의 25%, 초반 공격 횟수 +1</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HERACLES_DESCRIPTION" Language="ko_KR">
+			<Text>헤라클레스의 위대한 힘 : 공격 시 크리티컬 데미지 발생, 30% 확률로 원본 데미지의 120%, 30% 확률로 오리지널 데미지의 125% + 고정 데미지 5, 30% 확률로 오리지널 데미지의 133.3% + 고정 데미지 10 , 10% 확률은 원래 데미지의 150% + 고정 데미지 15</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_BADER_DESCRIPTION" Language="ko_KR">
+			<Text>갓 머신 발드르의 심판 : 공격 대상과의 거리가 1일 때 뒤에 있는 유닛에게 원래 데미지의 50%를 관통 데미지로 입히고, 약탈 시 현재 기술 연구 진행도의 12.5%를 준다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_PRC_6626_DESCRIPTION" Language="ko_KR">
+			<Text>PRC_6626: 그녀의 힘은 의심의 여지가 없습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MSR_7_DESCRIPTION" Language="ko_KR">
+			<Text>MSR_7: 그녀의 힘은 의심의 여지가 없습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MHT_PEACE_DESCRIPTION" Language="ko_KR">
+			<Text>피스메이커의 결단: 이번 라운드 주변 3칸 내 유닛의 기동력 상실 및 고정 데미지 10점 부여, 기동력 및 공격 시간 초기화, 1회 추가 공격, 6라운드 쿨다운</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_DESCRIPTION" Language="ko_KR">
+			<Text>헤스피토스의 분노: 지속 베기 상태 진입, 즉시 이동력 및 공격 시간 초기화, 이 기간 동안 전투력 +20[ICON_STRENGTH], 이동력 +3[ICON_MOVEMENT], 공격 횟수 +1, 재사용 대기시간은 4라운드</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_DESCRIPTION" Language="ko_KR">
+			<Text>디바인 머신 헤임달의 심판: 각 공격은 강화 상태를 중첩하며, 각 강화 상태는 +7 [ICON_STRENGTH] 전투력, +1 [ICON_MOVEMENT] 이동력 및 원래 데미지의 25%에 해당하는 부채꼴 스플래쉬 데미지를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_FIRE_DESCRIPTION" Language="ko_KR">
+			<Text>Rage of Hesphitos: 활성화, +20 [ICON_STRENGTH] 전투력, +3 [ICON_MOVEMENT] 이동력, +1 공격 횟수</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_1_DESCRIPTION" Language="ko_KR">
+			<Text>대규모 회전교차로 공격: God Machine Heimdall +7 [ICON_STRENGTH] 전투력, +1 [ICON_MOVEMENT] 이동력, +25% 부채꼴 스플래쉬 데미지</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_2_DESCRIPTION" Language="ko_KR">
+			<Text>자이언트 스윙·청 : 디바인 머신·헤임달 전투력 +7[ICON_STRENGTH], 이동력 +1[ICON_MOVEMENT], 부채형 스플래쉬 데미지 +25%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_3_DESCRIPTION" Language="ko_KR">
+			<Text>큰 회전 교차로: God Machine Heimdall +7 [ICON_STRENGTH] 전투력, +1 [ICON_MOVEMENT] 이동력, +25% 부채꼴 스플래쉬 데미지</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_4_DESCRIPTION" Language="ko_KR">
+			<Text>큰 원형 교차로와 조합: God Machine Heimdall +7 [ICON_STRENGTH] 전투력, +1 [ICON_MOVEMENT] 이동력, +25% 부채꼴 스플래쉬 데미지</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY" Language="ko_KR">
+			<Text>리버스</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="ko_KR">
+			<Text>모든 도시는 처음에 +15% [ICON_SCIENCE] 기술 가치 +15% [ICON_PRODUCTION] 생산성 +1 [ICON_Great Scientist] 위대한 과학자 포인트를 받습니다. 동시에 Emma Planck는 현재 시립 [NewLine] Anti-entropy 과학자 획득 방법은 다음과 같습니다. [NewLine] Walter Joyce: Get a [ICON_GreatScientist] Great Scientist [NewLine] Walter Young: After Walter Joyce 획득 후 산업 시대 도달 [NewLine] Nancy Edison: 라운드당 328 금화 획득 [ICON_GOLD] [NewLine] Emma Plank: Nancy Edison 획득 및 [ICON_SCIENCE] 기술 가치 &gt; 128, [ICON_CULTURE] 문화적 가치 &gt; 68 [NewLine] Erwin Riana Schrödinger: Emma Planck 획득 후 관찰 가능 [NewLine] Frederica Tesla: 획득 후 Nancy Edison을 획득하여 일정 횟수 기계를 생성할 수 있습니다. [NewLine] Liesel Albert: 할 수 있습니다. 엠마 플랭크를 얻고 기계를 일정 횟수 생성하십시오.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_NAME" Language="ko_KR">
+			<Text>세계적으로 유명한</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_1" Language="ko_KR">
+			<Text>키아나 카슬라나</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_2" Language="ko_KR">
+			<Text>라이덴 메이</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_3" Language="ko_KR">
+			<Text>쉴 플뢰르</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_4" Language="ko_KR">
+			<Text>인피니트 타 히메코</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_5" Language="ko_KR">
+			<Text>테레사 묵시록</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_6" Language="ko_KR">
+			<Text>로잘리아 알린</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_7" Language="ko_KR">
+			<Text>릴리아 알린</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_8" Language="ko_KR">
+			<Text>살구 마르</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_1" Language="ko_KR">
+			<Text>상대적으로 자연스러운 볼륨</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_2" Language="ko_KR">
+			<Text>사인 더블 포니테일</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_3" Language="ko_KR">
+			<Text>고양이 학대자</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_4" Language="ko_KR">
+			<Text>양자 소녀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_5" Language="ko_KR">
+			<Text>발명자</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_6" Language="ko_KR">
+			<Text>역학의 세 가지 법칙</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_7" Language="ko_KR">
+			<Text>더블린 워크</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_8" Language="ko_KR">
+			<Text>안티 엔트로피 볼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_9" Language="ko_KR">
+			<Text>엔트로피 방지 밴드</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_10" Language="ko_KR">
+			<Text>안티 엔트로피 드러머</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_11" Language="ko_KR">
+			<Text>엔트로피 방지 크리스마스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_12" Language="ko_KR">
+			<Text>빅뱅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_13" Language="ko_KR">
+			<Text>양자 왈츠</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_14" Language="ko_KR">
+			<Text>하늘 입법자</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_15" Language="ko_KR">
+			<Text>별 탐험가</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_16" Language="ko_KR">
+			<Text>엘리멘탈 시어</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_17" Language="ko_KR">
+			<Text>몽상가</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_18" Language="ko_KR">
+			<Text>재료 탐색기</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_19" Language="ko_KR">
+			<Text>관찰자</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_20" Language="ko_KR">
+			<Text>자연분류</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_ADJECTIVE" Language="ko_KR">
+			<Text>리버스</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BRONYA_ZAYCHIK_QUOTE" Language="ko_KR">
+			<Text>&quot;붕괴에 절하지 말고 신에게 항복하지 마십시오.&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_NAME" Language="ko_KR">
+			<Text>안티 엔트로피 갑옷</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_DESCRIPTION" Language="ko_KR">
+			<Text>안티 엔트로피의 대량 생산 메카는 Houkai에 대한 주력으로 Valkyrie를 ​​대체하는 데 사용됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BRONYA_ZAYCHIK" Language="ko_KR">
+			<Text>이성의 Herrscher의 경우 실제로 &quot;1&quot;과 &quot;30만&quot; 사이에는 차이가 없습니다. 뿐만 아니라 300,000명 모두. '이성의 전령사'라는 이름이 지금까지 이어지고 있는 이유는 그 '권력'과 '의지'가 하나로 합쳐진 지 오래됐기 때문이다. 세상을 지킨다[뉴라인] 그러나 누구나 세상을 지키려는 마음을 가질 수 있다[뉴라인] 결국... 인간의 변하지 않는 유일한 &quot;진실&quot;은 &quot;인간의 진실은 변할 수밖에 없다&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;한 사람의 힘은 강하지 않을 수 있습니다. 300,000명의 생각은 충분히 풍부하지 않을 수 있습니다. 하지만 지금 이 순간 Bronya는 진정한 이성의 Herrscher입니다!&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_NAME" Language="ko_KR">
+			<Text>브로냐 자이첵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_DESCRIPTION" Language="ko_KR">
+			<Text>비교할 수 없는 눈밭: Bronya Zajcek은 핵폭발과 방사능 손상에 완전히 면역입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_DESCRIPTION" Language="ko_KR">
+			<Text>나비 그림자의 심연 재건: Bronya Zajcek은 모든 도시에 +3 [ICON_SCIENCE] 기술 가치 +3 [ICON_PRODUCTION] 생산성, Bronya Zajcek +5[ICON_STRENGTH] 전투력, +1[ICON_MOVEMENT] 이동성을 제공하는 &quot;Angel Reconstruction&quot;을 마스터했습니다. , +1[ICON_RANGED] 범위, +1 비전</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_BETTER_DESCRIPTION" Language="ko_KR">
+			<Text>미래의 세계를 바꾸십시오: Bronya Zajcek는 &quot;이니셔티브 파워&quot;, +15 [ICON_STRENGTH] 전투력, +2 [ICON_MOVEMENT] 이동력, +1 [ICON_RANGED] 범위, +1 시야</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MACHINE_DESCRIPTION" Language="ko_KR">
+			<Text>안티 엔트로피 갑옷: 대부분의 핵폭발과 방사능 손상에 면역</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_1_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;과거&quot;: Bronya Zajcek +7[ICON_STRENGTH] 전투력, +1[ICON_MOVEMENT] 이동력, +1[ICON_RANGED] 범위, +1 시야</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_2_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;현재&quot;: Bronya Zajcek +13[ICON_STRENGTH] 전투력, +1[ICON_MOVEMENT] 이동력, +1[ICON_RANGED] 범위, +1 시야</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_3_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;미래&quot;: Bronya Zajcek +20[ICON_STRENGTH] 전투력, +1[ICON_MOVEMENT] 이동력, +1[ICON_RANGED] 범위, +1 시야, +1 공격 시간</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_ZAYCHIK_NAME" Language="ko_KR">
+			<Text>에코</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_NAME" Language="ko_KR">
+			<Text>스노우 스나이퍼</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_DESCRIPTION" Language="ko_KR">
+			<Text>라운드 시작 시 얼어붙은 땅에 있으며 전투력 +10 [ICON_STRENGTH], +1 [ICON_RANGED] 범위, +1 시야, 양측 거리에 따라 추가 피해가 발생하며, 너무 가까워지면 이동력이 재설정됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_NAME" Language="ko_KR">
+			<Text>발키리 전차</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_DESCRIPTION" Language="ko_KR">
+			<Text>+1 [ICON_MOVEMENT] 이동력, 토지 손실에 관계없이 공격을 받은 후 이동력 및 공격 시간 재설정</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_NAME" Language="ko_KR">
+			<Text>에일리언 블랙 코어 침식</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_DESCRIPTION" Language="ko_KR">
+			<Text>인비지빌리티, 부상으로 인한 전투력 저하 없음, 적 유닛과의 거리가 2일 때 공격 시 일정 확률로 치명타 발생 및 추가 데미지 발생</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_NAME" Language="ko_KR">
+			<Text>드라이버 설치 · 야마부키</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DESCRIPTION" Language="ko_KR">
+			<Text>방어 시 +20 [ICON_STRENGTH] 전투력, +1 공격 횟수, 거리가 1일 때 공격 시 관통 피해 발생</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_NAME" Language="ko_KR">
+			<Text>혜성 드라이브</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_DESCRIPTION" Language="ko_KR">
+			<Text>이동 후 공격 가능, 공격 후 이동 가능, 행동 후 체력 회복 가능, 받은 데미지의 50% 반사, 받은 데미지의 25% 회복</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

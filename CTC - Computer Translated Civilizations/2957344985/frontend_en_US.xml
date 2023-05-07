@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May  7 14:45:12 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BRONYA_CREAT_BASE" Language="en_US">
+			<Text>Current research progress is [COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_50" Language="en_US">
+			<Text>not enough to make any mechs</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_100" Language="en_US">
+			<Text>It will consume [COLOR_LIGHTBLUE]50[ENDCOLOR] research progress [NewLine] will be able to manufacture [COLOR_GREEN] basic mecha [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_200" Language="en_US">
+			<Text>It will consume [COLOR_LIGHTBLUE] 100[ENDCOLOR] research progress [NewLine] must be able to manufacture [COLOR_GREEN] basic mecha [ENDCOLOR], and have a certain chance to manufacture [COLOR_FLOAT_SCIENCE] advanced mecha [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_400" Language="en_US">
+			<Text>It will consume [COLOR_LIGHTBLUE] 200 [ENDCOLOR] research progress [NewLine] must be able to manufacture [COLOR_FLOAT_SCIENCE] advanced mecha [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_800" Language="en_US">
+			<Text>It will consume [COLOR_LIGHTBLUE]400[ENDCOLOR] research progress[NewLine] must be able to manufacture [COLOR_FLOAT_SCIENCE] advanced mecha[ENDCOLOR], and have a certain chance to manufacture [COLOR_FLOAT_CULTURE] cutting-edge mecha[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_1600" Language="en_US">
+			<Text>It will consume [COLOR_LIGHTBLUE]800[ENDCOLOR] research progress[NewLine] must be able to manufacture [COLOR_FLOAT_CULTURE] cutting-edge mecha[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_MAX" Language="en_US">
+			<Text>It will consume [COLOR_LIGHTBLUE]1600[ENDCOLOR] research progress [NewLine] must be able to manufacture [COLOR_FLOAT_CULTURE] cutting-edge mecha[ENDCOLOR], and have a certain chance to manufacture [COLOR_RED] ultimate [ENDCOLOR] mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_POINT" Language="en_US">
+			<Text>[NewLine]Currently created times[COLOR_LIGHTBLUE]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_TOOLTIP" Language="en_US">
+			<Text>Peacemaker's decision [NewLine] is cooling down, the number of rounds left [COLOR_Civ6Yellow]</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_TOOLTIP" Language="en_US">
+			<Text>Hesfitos' Rage[NewLine] is cooling down, number of rounds left[COLOR_RED]</Text>
+		</Replace>
+		<Replace Tag="LOC_MHT_ALL_READEY" Language="en_US">
+			<Text>[COLOR_Civ6Yellow]The Peacemaker's Resolution[ENDCOLOR][NewLine] is ready</Text>
+		</Replace>
+		<Replace Tag="LOC_HEPHAESTUS_ALL_READY" Language="en_US">
+			<Text>[COLOR_RED]Hesfitos' Wrath[ENDCOLOR][NewLine] is ready</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_AROMORED_RABBIT_19C_DEEFEND" Language="en_US">
+			<Text>Heavy Bunny 19C: +10 [ICON_STRENGTH] Combat Power for Bronya Zajcek when defending</Text>
+		</Replace>
+		<Replace Tag="LOC_SEELE_HERRSCHER_CORE_STRENGTH" Language="en_US">
+			<Text>Herrscher Core: +10 [ICON_STRENGTH] combat power for Bronya Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_STRENGTH" Language="en_US">
+			<Text>Shock-type self-detonation mine: +5 [ICON_STRENGTH] combat power for poisonous spider mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_STRENGTH" Language="en_US">
+			<Text>Mecha Assault: +5 [ICON_STRENGTH] Combat Strength for Titan Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_STRENGTH" Language="en_US">
+			<Text>Defense Mode: When defending against long-range attacks, the Titan Mech +10 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_STRENGTH" Language="en_US">
+			<Text>Earthquake impact: +5 [ICON_STRENGTH] combat power for Titan Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DISTRICT" Language="en_US">
+			<Text>Earthquake Impact: +5 [ICON_STRENGTH] Combat Power for Titan Mecha when attacking the area</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_STRENGTH" Language="en_US">
+			<Text>Overheating Overload: +5 [ICON_STRENGTH] Combat Strength for Titan Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_STRENGTH" Language="en_US">
+			<Text>Sweep: +5 [ICON_STRENGTH] combat power for the Death Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_STRENGTH" Language="en_US">
+			<Text>Force Field Shield: +10 [ICON_STRENGTH] Combat Power for Death Mecha when defending against long-range attacks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_STRENGTH" Language="en_US">
+			<Text>Adaptability: +5 [ICON_STRENGTH] combat power for the Death Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_STRENGTH" Language="en_US">
+			<Text>Destiny Shield: +5 [ICON_STRENGTH] Combat Power for Death Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_STRENGTH" Language="en_US">
+			<Text>Trampling: +5 [ICON_STRENGTH] combat power for the Thunder Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_STRENGTH" Language="en_US">
+			<Text>Heavy Armor: When defending against long-range attacks, the Lightning Armor +10 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_STRENGTH" Language="en_US">
+			<Text>Blazing Missile: +5 [ICON_STRENGTH] combat power for the Thunder Mecha, and get +200% support bonus</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_A_STRENGTH" Language="en_US">
+			<Text>Strengthened position α: affected by the shaman armor, +3 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_B_STRENGTH" Language="en_US">
+			<Text>Strengthened stance β: affected by the sorcerer mecha, +4 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_C_STRENGTH" Language="en_US">
+			<Text>Strengthened position γ: affected by the double snake mecha, +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_STRENGTH" Language="en_US">
+			<Text>Power Charging Mech: +5 [ICON_STRENGTH] Combat Power when receiving power charging from Shaman Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_STRENGTH" Language="en_US">
+			<Text>Electric Charge · Titan: Received the electric charge of the shaman mecha, +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_STRENGTH" Language="en_US">
+			<Text>Power Charge · Dead Warrior: Received the power charge of the shaman mecha, when attacking the injured unit, +7 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_B_STRENGTH" Language="en_US">
+			<Text>Sky Strike: When attacking, give it +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_C_STRENGTH" Language="en_US">
+			<Text>Rock Strike: When defending, give it +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_D_STRENGTH" Language="en_US">
+			<Text>Sky Slam: When attacking, give it +7 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_TITAN_E_STRENGTH" Language="en_US">
+			<Text>Overlord body: When defending, give it +7 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SHAMAN_ATTACH_STRENGTH" Language="en_US">
+			<Text>Space-time position: +2 [ICON_STRENGTH] combat power for all mechas in the surrounding space (can be superimposed) (derived from the great transformation of the genius Dr. Tesla)</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEPHAESTUS_STRENGTH" Language="en_US">
+			<Text>Lianzhan Ihe: Hephaestus +20 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_STRENGTH" Language="en_US">
+			<Text>&quot;Angel Reconstruction&quot;: The partially unlocked &quot;Genesis Power&quot; provides Bronya Zajcek with +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_CREAT_BETTER_STRENGTH" Language="en_US">
+			<Text>&quot;Genesis Power&quot;: The fully unlocked &quot;Genesis Power&quot; provides Bronya Zajcek with +15 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_1_STRENGTH" Language="en_US">
+			<Text>&quot;Past&quot;: Provide +7 [ICON_STRENGTH] Combat Strength to Bronya Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_2_STRENGTH" Language="en_US">
+			<Text>&quot;Now&quot;: Provide +13 [ICON_STRENGTH] Combat Strength to Bronya Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_ZAYCHIK_LEVEL_3_STRENGTH" Language="en_US">
+			<Text>&quot;Future&quot;: Provide +20 [ICON_STRENGTH] Combat Strength to Bronya Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_1_STRENGTH" Language="en_US">
+			<Text>Big roundabout: Provide +7 [ICON_STRENGTH] combat power for God Machine Heimdall</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_2_STRENGTH" Language="en_US">
+			<Text>Big roundabout·Cheng: provide +7[ICON_STRENGTH]combat power for Divine Machine·Heimdall</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_3_STRENGTH" Language="en_US">
+			<Text>Big roundabout · turn: provide +7 [ICON_STRENGTH] combat power for the magic machine Heimdall</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_HEIMDAL_LEVEL_4_STRENGTH" Language="en_US">
+			<Text>Big Roundabout: Combine: provide +7 [ICON_STRENGTH] combat power for God Machine Heimdall</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DEEFEND" Language="en_US">
+			<Text>Driver outfit Yamabuki: When defending, provide Bronya Zajcek with +20 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="en_US">
+			<Text>reversal</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_NAME" Language="en_US">
+			<Text>reversal</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_DESCRIPTION" Language="en_US">
+			<Text>In the anti-entropy civilization led by Bronya Zajcek, the initial Eureka [ICON_TechBoosted] is only 20%, and each completed technology +2% Eureka [ICON_TechBoosted], up to 80%. [NewLine] When [ICON_TechBoosted] reaches 80% in Eureka, provide 100% [ICON_PRODUCTION] Productivity Bonus to all areas, buildings, and projects [NewLine] After unlocking the technology writing, present the unique unit Bronya Zha in the capital Icek</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_NAME" Language="en_US">
+			<Text>in the name of truth</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BRONYA_ZAYCHIK_NAME" Language="en_US">
+			<Text>Bronya Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_NAME" Language="en_US">
+			<Text>Bronya Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_DESCRIPTION" Language="en_US">
+			<Text>A girl from Siberia who controls the power of Herrscher with a mortal body, her past experience will become the cornerstone for her step by step towards the future. The core of reason gives her the ability to &quot;analyze&quot; and &quot;reconstruct&quot;, in a single thought Turn inspiration into reality, create an array of space-based weapons that can destroy all armies, and eliminate all enemies that stand in your way.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_NAME" Language="en_US">
+			<Text>Anti-entropy Mech·Mass Production</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_BASE_MACHINE_DESCRIPTION" Language="en_US">
+			<Text>The mass-produced mecha of anti-entropy is used to replace the Valkyrie as the main force against Houkai. It can be divided into basic models, advanced models, and cutting-edge models. models.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_NAME" Language="en_US">
+			<Text>Anti-Entropy Armor Ultimate</Text>
+		</Replace>
+		<Replace Tag="LOC_BRONYA_SPECIAL_MACHINE_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy's limited-edition mecha is powerful and unique.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_DESCRIPTION" Language="en_US">
+			<Text>Poor combat effectiveness, eye-catching mobility, the meaning of existence lies in the fireworks that bloom at the end.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_A_NAME" Language="en_US">
+			<Text>Spider Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_DESCRIPTION" Language="en_US">
+			<Text>It is still weak in combat power, with eye-catching mobility, and it is additionally equipped with a range of mobility reduction after the explosion.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_B_NAME" Language="en_US">
+			<Text>Spider Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_DESCRIPTION" Language="en_US">
+			<Text>It is still weak in combat effectiveness, with eye-catching mobility, and it is additionally equipped with a permanent reduction in range of mobility after the explosion.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_C_NAME" Language="en_US">
+			<Text>Ice Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_DESCRIPTION" Language="en_US">
+			<Text>In short, it is still weak in combat power, and its mobility is impressive. This time, there are brighter fireworks, and the explosion range is doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SPIDER_D_NAME" Language="en_US">
+			<Text>ember</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_DESCRIPTION" Language="en_US">
+			<Text>Basic mecha, what else can we expect from it?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_A_NAME" Language="en_US">
+			<Text>Titan Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_DESCRIPTION" Language="en_US">
+			<Text>Power can lift the sky! Let them feel the horror of being dominated by Papa Titan! (Warning! The jump system is not installed!)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_B_NAME" Language="en_US">
+			<Text>Dynamo Armor</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_DESCRIPTION" Language="en_US">
+			<Text>Rock solid! Let them feel the horror of being dominated by Papa Titan! (Warning! Hegemony system is not installed!)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_C_NAME" Language="en_US">
+			<Text>rock armor</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_DESCRIPTION" Language="en_US">
+			<Text>The power of a Tomahawk missile! (not at all)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_D_NAME" Language="en_US">
+			<Text>tomahawk</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_DESCRIPTION" Language="en_US">
+			<Text>You don't even want to call me Godfather!</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_TITAN_E_NAME" Language="en_US">
+			<Text>godfather</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_DESCRIPTION" Language="en_US">
+			<Text>No dancing, no mantras, no skulls around your necks.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_A_NAME" Language="en_US">
+			<Text>Shaman Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_DESCRIPTION" Language="en_US">
+			<Text>There is no need for sacrifices or blue bars, and there is no need to meditate at night to prepare spell slots.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_B_NAME" Language="en_US">
+			<Text>Sorcerer Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_DESCRIPTION" Language="en_US">
+			<Text>Um? Does your name have anything to do with shamanism?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SHAMAN_C_NAME" Language="en_US">
+			<Text>double snake</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_DESCRIPTION" Language="en_US">
+			<Text>Beware the Herrscher of the Sky!</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_A_NAME" Language="en_US">
+			<Text>Thunder Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_DESCRIPTION" Language="en_US">
+			<Text>No way, no way, no one can really be controlled by the magnetic storm mecha, right? It was me who was charged. That's fine.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_B_NAME" Language="en_US">
+			<Text>Magnetic Storm Armor</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_DESCRIPTION" Language="en_US">
+			<Text>Ashes! However, there is no respawn function, and don't try to press and hold the dodge button to use the machine gun to fire.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_THUNDER_C_NAME" Language="en_US">
+			<Text>Mech on Fire</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_DESCRIPTION" Language="en_US">
+			<Text>Strictly speaking, this is the Mecha of Destiny, but now who is the Bishop of Destiny, I can only say that I know everything.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_A_NAME" Language="en_US">
+			<Text>Death Mech</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_DESCRIPTION" Language="en_US">
+			<Text>What happened to the Destiny Mech! What I say is anti-entropy is anti-entropy! Only the destiny is allowed to copy the anti-entropy, and the anti-entropy is not allowed to steal the destiny?</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_B_NAME" Language="en_US">
+			<Text>Iberki</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_DESCRIPTION" Language="en_US">
+			<Text>It's an anti-entropy armor.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_SUITS_C_NAME" Language="en_US">
+			<Text>Yashenji Mistedtin</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SPIDER_NAME" Language="en_US">
+			<Text>poisonous spider</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_TITAN_NAME" Language="en_US">
+			<Text>titan</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SUITS_NAME" Language="en_US">
+			<Text>dead man</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_SHAMAN_NAME" Language="en_US">
+			<Text>shaman</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_THUNDER_NAME" Language="en_US">
+			<Text>Yu Lei</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_NAME" Language="en_US">
+			<Text>Assault self-explosive mine</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_1_DESCRIPTION" Language="en_US">
+			<Text>Allows the Spider Mech to spot invisible units, +1 [ICON_MOVEMENT] movement</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_NAME" Language="en_US">
+			<Text>Off-road self-explosive mine</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_2_DESCRIPTION" Language="en_US">
+			<Text>Causes the Tarantula to ignore area control and tile attrition</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_NAME" Language="en_US">
+			<Text>Impact mine</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SPIDER_3_DESCRIPTION" Language="en_US">
+			<Text>Make the poisonous spider mech +5 [ICON_STRENGTH] combat power, +5 explosion damage</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_NAME" Language="en_US">
+			<Text>Mecha Raid</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_1_DESCRIPTION" Language="en_US">
+			<Text>Titan mecha +5[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_NAME" Language="en_US">
+			<Text>overload mode</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_2_DESCRIPTION" Language="en_US">
+			<Text>Titans can still move after attacking, and can still attack after moving, +1 attack times</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_NAME" Language="en_US">
+			<Text>defense mode</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_3_DESCRIPTION" Language="en_US">
+			<Text>+10[ICON_STRENGTH] Combat Power when the Titan Mecha defends against long-range attacks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_NAME" Language="en_US">
+			<Text>Earthquake</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_4_DESCRIPTION" Language="en_US">
+			<Text>Titan mecha +5[ICON_STRENGTH] combat power, and an additional +5[ICON_STRENGTH] combat power when attacking the area</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_NAME" Language="en_US">
+			<Text>Overheating and overloading</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_TITAN_5_DESCRIPTION" Language="en_US">
+			<Text>Titan Mecha +5 [ICON_STRENGTH] combat power, not affected by damaged debuffs</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_NAME" Language="en_US">
+			<Text>slash</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_1_DESCRIPTION" Language="en_US">
+			<Text>Death mecha +5[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_NAME" Language="en_US">
+			<Text>Slash with both hands</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_2_DESCRIPTION" Language="en_US">
+			<Text>The Death Mecha can still move after attacking, and can still attack after moving, +1 attack times</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_NAME" Language="en_US">
+			<Text>Force Shield</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_3_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_STRENGTH] Combat Power when the Death Mech defends against long-range attacks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_NAME" Language="en_US">
+			<Text>adaptability</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_4_DESCRIPTION" Language="en_US">
+			<Text>Death Mecha +5 [ICON_STRENGTH] Combat Strength, Looting Income +100%</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_NAME" Language="en_US">
+			<Text>Shield of Destiny</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SUITS_5_DESCRIPTION" Language="en_US">
+			<Text>Death mech +5 [ICON_STRENGTH] combat power, can still recover HP after taking action, restore 10 HP in neutral area, restore 7 HP in enemy area</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_NAME" Language="en_US">
+			<Text>Power Charging Mecha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="en_US">
+			<Text>The shaman mecha makes the mecha units within a grid around the body +5[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_NAME" Language="en_US">
+			<Text>Power Charge Titan</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="en_US">
+			<Text>The shaman mecha makes the Titan mech within a block of the body +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_NAME" Language="en_US">
+			<Text>Electric Recharge · Poisonous Spider</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="en_US">
+			<Text>The shaman mech makes the poisonous spider mech within a block of the body +1 [ICON_MOVEMENT] movement</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_NAME" Language="en_US">
+			<Text>Power Recharging · Thunderbolt</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="en_US">
+			<Text>The shaman mech makes the thunder mecha within one block of the body +1 field of vision, +1 [ICON_RANGED] range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_NAME" Language="en_US">
+			<Text>Electric Recharge·Death Warrior</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="en_US">
+			<Text>The shaman mecha makes the dead mecha within one block around the body +7 [ICON_STRENGTH] combat strength when attacking damaged units</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_NAME" Language="en_US">
+			<Text>trample</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_1_DESCRIPTION" Language="en_US">
+			<Text>Thunder Mecha +5[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_NAME" Language="en_US">
+			<Text>scatter bomb</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_2_DESCRIPTION" Language="en_US">
+			<Text>The Thunder Mecha can still move after attacking, and can still attack after moving, +1 attack times</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_NAME" Language="en_US">
+			<Text>Heavy Armor</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_3_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_STRENGTH] Combat Strength when the Thunder Mecha defends against long-range attacks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_NAME" Language="en_US">
+			<Text>Decoy bomb</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_4_DESCRIPTION" Language="en_US">
+			<Text>Thunder Mecha +1 vision, +1 [ICON_RANGED] range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_NAME" Language="en_US">
+			<Text>Blazing Missile</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_THUNDER_5_DESCRIPTION" Language="en_US">
+			<Text>Thunder Mecha +5 [ICON_STRENGTH] combat power, get 200% support bonus</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_ATTACH_DESCRIPTION" Language="en_US">
+			<Text>Enhanced force field α: the shaman mecha makes the mecha units with a grid around them gain +3 [ICON_STRENGTH] combat power, +1 [ICON_MOVEMENT] movement power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_ATTACH_DESCRIPTION" Language="en_US">
+			<Text>Enhanced Force Field β: Shaman mecha makes the mecha unit with a grid around it get +4[ICON_STRENGTH]combat strength,+1[ICON_MOVEMENT]movement</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_ATTACH_DESCRIPTION" Language="en_US">
+			<Text>Enhanced Force Field γ: Shaman mecha makes the mecha unit with a grid around it get +5 [ICON_STRENGTH] combat power, +75% experience gain</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_A_DESCRIPTION" Language="en_US">
+			<Text>Enhanced Force Field α: Affected by the shaman armor, +3[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_B_DESCRIPTION" Language="en_US">
+			<Text>Enhanced Force Field β: Affected by the shaman armor, +4[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SHAMAN_C_DESCRIPTION" Language="en_US">
+			<Text>Enhanced Force Field γ: Affected by the shaman armor, +5 [ICON_STRENGTH] combat power, +75% experience gain</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_1_DESCRIPTION" Language="en_US">
+			<Text>Power Charging Mecha: Affected by Shaman Mecha, +5[ICON_STRENGTH] Combat Power, +1[ICON_MOVEMENT] Mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_2_DESCRIPTION" Language="en_US">
+			<Text>Power Charge Titan: Affected by the shaman armor, +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_3_DESCRIPTION" Language="en_US">
+			<Text>Electric Charge · Poisonous Spider: affected by Shaman Mecha, +1 [ICON_MOVEMENT] movement</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_4_DESCRIPTION" Language="en_US">
+			<Text>Power Charge · Thunder Control: Affected by Shaman Mecha, +1 vision, +1 [ICON_RANGED] range</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PROMOTION_BRONYA_SHAMAN_5_DESCRIPTION" Language="en_US">
+			<Text>Power Charging Death Warrior: Affected by the shaman armor, +7 [ICON_STRENGTH] combat power when attacking damaged units</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_A_DESCRIPTION" Language="en_US">
+			<Text>Self-explosive mine: When killed, it causes 20 damage to surrounding units</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_B_DESCRIPTION" Language="en_US">
+			<Text>Sticky self-explosive mine: When killed, it will cause 30 damage to the surrounding units and make them -5 [ICON_MOVEMENT] movement this round</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_DESCRIPTION" Language="en_US">
+			<Text>Ground-bound self-explosive mine: When killed, it will cause 40 damage to surrounding units, and make it permanently -1 [ICON_MOVEMENT] movement</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_D_DESCRIPTION" Language="en_US">
+			<Text>Explosive self-explosive mine: When killed, it will cause 40 damage to the units within two squares around it</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SPIDER_C_ATTACH_DESCRIPTION" Language="en_US">
+			<Text>Earthbound: Affected by the ice armor, permanent -1 [ICON_MOVEMENT] movement force</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_A_DESCRIPTION" Language="en_US">
+			<Text>Cleaning: Plunder only consumes 1 [ICON_MOVEMENT] movement power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_B_DESCRIPTION" Language="en_US">
+			<Text>Not a blade of grass grows: Looting only consumes 1 [ICON_MOVEMENT] movement power, and grants 10% of the current technological research progress</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SUITS_C_DESCRIPTION" Language="en_US">
+			<Text>Scrape the ground three feet: Looting only consumes 1 [ICON_MOVEMENT] movement power, and grants 12.5% ​​of the current technological research progress</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_A_DESCRIPTION" Language="en_US">
+			<Text>Yulei: It's a Yulei mecha, nothing more</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_B_DESCRIPTION" Language="en_US">
+			<Text>Magnetic Storm: It's a Magnetic Storm Mech, nothing more</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_THUNDER_C_DESCRIPTION" Language="en_US">
+			<Text>On Fire: It's a Fire Mecha, that's all... oh, +1 attack times</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_B_DESCRIPTION" Language="en_US">
+			<Text>Sky Strike: When attacking, give it +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_C_DESCRIPTION" Language="en_US">
+			<Text>Rock Strike: When defending, give it +5 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_D_DESCRIPTION" Language="en_US">
+			<Text>Sky Slam: When attacking, give it +7 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TITAN_E_DESCRIPTION" Language="en_US">
+			<Text>Overlord body: When defending, give it +7 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_NAME" Language="en_US">
+			<Text>cocoa</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_TITLE" Language="en_US">
+			<Text>anti-entropy executor</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_SHORT_TITLE" Language="en_US">
+			<Text>witch</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_COREA_DESCRIPTION" Language="en_US">
+			<Text>The leader of the anti-entropy reformation faction, the founder of the Cocolia Orphanage, and the eternal villain (no matter which world he is in).</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_NAME" Language="en_US">
+			<Text>Cocolia Orphanage</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_1_DESCRIPTION" Language="en_US">
+			<Text>Make all permafrost +1 [ICON_CULTURE] culture value +1 [ICON_SCIENCE] technology value +1 [ICON_FOOD] food +1 [ICON_PRODUCTION] productivity, each additional partner of Cocolia Orphanage will give all cities +5% [ICON_CULTURE] Culture +5%[ICON_SCIENCE]Technology +5%[ICON_FOOD]food +5%[ICON_PRODUCTION]productivity</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_NAME" Language="en_US">
+			<Text>Fantasy Sea Dream Butterfly Xier</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_2_DESCRIPTION" Language="en_US">
+			<Text>Gift Bronya Zajcek to reload the bunny 19C, for all ocean grids +1 [ICON_SCIENCE] technology value +1 [ICON_CULTURE] culture value +1 [ICON_PRODUCTION] productivity, lakes and river banks +2[ ICON_SCIENCE] Technology +1 [ICON_CULTURE] Culture +1 [ICON_PRODUCTION] Productivity</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_NAME" Language="en_US">
+			<Text>Cherry Bomb Rosalia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_3_DESCRIPTION" Language="en_US">
+			<Text>Build entertainment centers +100%[ICON_PRODUCTION]productivity, make all cities with entertainment centers +3[ICON_Amenities]livability, +2[ICON_Housing]housing, in ecstatic cities +25%[ICON_PRODUCTION]productivity, mechs Units gain an additional 25% experience</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_NAME" Language="en_US">
+			<Text>Twins from the Other Side · Seele</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_4_DESCRIPTION" Language="en_US">
+			<Text>Retrieve the motorcycle key for Bronya Zajcek, +1 Charisma to all plots in the Golden Age, +50% [ICON_PRODUCTION]Production to build wonders; +50%[ICON_PRODUCTION]Production to military units in the Dark Age</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_NAME" Language="en_US">
+			<Text>Blueberry Attack Lilia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_5_DESCRIPTION" Language="en_US">
+			<Text>Each city gets an extra area, so that all cities with entertainment centers have +5 loyalty per turn, +2 [ICON_Housing] housing, +25% [ICON_CULTURE] culture value in ecstatic cities, and armor units get an extra 25 %Experience</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_NAME" Language="en_US">
+			<Text>Nightmare Star Abyss Xier</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_6_DESCRIPTION" Language="en_US">
+			<Text>Help Bronya Zajcek take back the core of Herrscher, +100% [ICON_PRODUCTION] productivity after being declared war, last for 5 rounds</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_NAME" Language="en_US">
+			<Text>Chaos Timepiece Apricot</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_COREA_7_DESCRIPTION" Language="en_US">
+			<Text>When a mecha unit kills a unit, it will reduce the Civilization 2 era points of the killed unit, so that this civilization can also use the Dark Age policy card in the normal era of the Golden Age, and the war weariness will be reduced by -50%</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_AROMORED_RABBIT_19C_DESCRIPTION" Language="en_US">
+			<Text>Heavy Bunny 19C: +10 [ICON_STRENGTH] Combat Power for Bronya Zajcek when defending</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_VEHICLE_KEY_DESCRIPTION" Language="en_US">
+			<Text>Car key: +2 for Bronya Zajcek [ICON_MOVEMENT] &quot;Sister Bronya, don't come out to pick up girls if you don't have a car.&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEELE_HERRSCHER_CORE_DESCRIPTION" Language="en_US">
+			<Text>Herrscher Core: +1 attack times, +1[ICON_RANGED] range, +10[ICON_STRENGTH] combat strength for Bronya Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ROSALIA_DESCRIPTION" Language="en_US">
+			<Text>Rosalia: Play!</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LILIA_DESCRIPTION" Language="en_US">
+			<Text>Lilia: sleep~</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIN_MAL_CHAOTIC_DESCRIPTION" Language="en_US">
+			<Text>Brutal Halberd: After killing a unit, reduce the score of the Civilization 2 era where the unit is killed</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_JOYCE_NAME" Language="en_US">
+			<Text>anti-entropy scientist</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_WALTER_YOUNG_NAME" Language="en_US">
+			<Text>anti-entropy scientist</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_PLANK_NAME" Language="en_US">
+			<Text>anti-entropy scientist</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_TESLA_NAME" Language="en_US">
+			<Text>anti-entropy scientist</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EINSTEIN_NAME" Language="en_US">
+			<Text>anti-entropy scientist</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_SCHRODINGER_NAME" Language="en_US">
+			<Text>anti-entropy scientist</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_EDISON_NAME" Language="en_US">
+			<Text>anti-entropy scientist</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_JOYCE_NAME" Language="en_US">
+			<Text>walter joyce</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WALTER_YOUNG_NAME" Language="en_US">
+			<Text>Walter Young</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PLANK_NAME" Language="en_US">
+			<Text>Emma Plank</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TESLA_NAME" Language="en_US">
+			<Text>Frederica Nikola Tesla</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EINSTEIN_NAME" Language="en_US">
+			<Text>Liesel Albert Einstein</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCHRODINGER_NAME" Language="en_US">
+			<Text>Erwin Riana Schrödinger</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDISON_NAME" Language="en_US">
+			<Text>nancy edison</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_EINSTEIN_DESCRIPTION" Language="en_US">
+			<Text>Eins: Every existing anti-entropy mecha will provide civilization with +1 [ICON_SCIENCE] technology value and provide +[ICON_PRODUCTION]2 productivity for all cities</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_SCHRODINGER_DESCRIPTION" Language="en_US">
+			<Text>Quantum Leap: +1 [ICON_MOVEMENT] movement force</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SPIDER_DESCRIPTION" Language="en_US">
+			<Text>The great modification of the genius Dr. Tesla: the number of attacks of the poisonous spider mecha +1, it can still attack after moving, and it is invisible</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_TITAN_DESCRIPTION" Language="en_US">
+			<Text>The great modification of the genius Dr. Tesla: the Titan Mecha can cross the walls below the Middle Ages, cause full damage to the walls, and can attack the support units that have been formed by crossing the combat units</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SHAMAN_DESCRIPTION" Language="en_US">
+			<Text>The great modification of the genius Dr. Tesla: the shaman mecha can make the mecha units around the body +2 [ICON_STRENGTH] combat power (can be superimposed)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_DESCRIPTION" Language="en_US">
+			<Text>The great modification of the genius Dr. Tesla: Thunder Mecha +1 [ICON_RANGED] range, the second attack will cause range damage</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_SUITS_DESCRIPTION" Language="en_US">
+			<Text>The great modification of the genius Dr. Tesla: the Death Mech ignores the loss of movement power of any plot</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_TESLA_THUNDER_RANGE_DESCRIPTION" Language="en_US">
+			<Text>The great modification of the genius Dr. Tesla: Thunder Mech, ready for bombing</Text>
+		</Replace>
+		<Replace Tag="LOC_SCHRODINGER_MOVE" Language="en_US">
+			<Text>Quantum Leap: Ability to return to the capital immediately and reset mobility, reset attack times, restore all health</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_NAME" Language="en_US">
+			<Text>walter joyce</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_JOYCE_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy scientist with special ability to retreat</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_NAME" Language="en_US">
+			<Text>Walter Young</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WALTER_YOUNG_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy scientist with special ability to retreat</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANK_NAME" Language="en_US">
+			<Text>Emma Plank</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PLANKE_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy scientist with special ability to retreat</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_NAME" Language="en_US">
+			<Text>Frederica Nikola Tesla</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TESLA_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy scientist with special ability to retreat</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_NAME" Language="en_US">
+			<Text>Liesel Albert Einstein</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EINSTEIN_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy scientist with special ability to retreat</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_NAME" Language="en_US">
+			<Text>Erwin Riana Schrödinger</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCHRODINGER_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy scientist with special ability to retreat</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_NAME" Language="en_US">
+			<Text>nancy edison</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EDISON_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy scientist with special ability to retreat</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_JOYCE_ACTION_NAME_RETIRE" Language="en_US">
+			<Text>Make each [ICON_CITIZEN] population +1 [ICON_SCIENCE] technology value for the city, +1 [ICON_PRODUCTION] productivity [NewLine] unlock Bronya Zajcek's &quot;Angel Reconstruction&quot;, buy a great man and return 15%[ ICON_GreatPerson] Great Person Points</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WALTER_YOUNG_ACTION_NAME_RETIRE" Language="en_US">
+			<Text>Make all cities +7%[ICON_SCIENCE]Technology +7%[ICON_PRODUCTION]Production[NewLine]Bronya Zajcek will receive a Titan series melee mecha of the same level every time she uses &quot;Initiative Power&quot; , and unlock Anti-Entropy·Ultimate Mecha, buy a great person to return 15% [ICON_GreatPerson] great person points</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PLANK_ACTION_NAME_RETIRE" Language="en_US">
+			<Text>Make all cities +7%[ICON_SCIENCE]Technology value+7%[ICON_CULTURE]Cultural value[NewLine] Immediately get a governor title, and all cities [ICON_GreatPerson] great person point output +50%, each city +2[ICON_GreatScientist] Great Scientist Points +2 [ICON_GreatEngineer] Great Engineer Points</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TESLA_ACTION_NAME_RETIRE" Language="en_US">
+			<Text>Make all cities +14%[ICON_PRODUCTION]productivity[NewLine]Make all anti-entropy mechs get the great modification of the genius Dr. Tesla, build industrial zones +50%[ICON_PRODUCTION]productivity, industrial zones +2[ICON_PRODUCTION]productivity</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EINSTEIN_ACTION_NAME_RETIRE" Language="en_US">
+			<Text>Make all cities +14%[ICON_SCIENCE]Technology value[NewLine]Each existing anti-entropy mecha will provide civilization with +1[ICON_SCIENCE]Technology value, provide all cities with +1[ICON_PRODUCTION]productivity, construction academy +50% [ICON_PRODUCTION] Productivity, Academy +3 [ICON_SCIENCE] Technology Value</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCHRODINGER_ACTION_NAME_RETIRE" Language="en_US">
+			<Text>Make all cities +14% [ICON_SCIENCE] science and technology value [NewLine] Make each mecha unit have the ability to return to the capital instantly and recover life value reset movement reset attack times (already given), and +1 [ICON_MOVEMENT] Mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EDISON_ACTION_NAME_RETIRE" Language="en_US">
+			<Text>Make all cities +7%[ICON_PRODUCTION]productivity+14%[ICON_GOLD]gold coins[NewLine] make all colleges and factories get [ICON_GOLD]gold coin output equal to the adjacent bonus, and immediately get the same technology value as the current [ICON_SCIENCE] Ten times the [ICON_GOLD] gold coins, from now on [ICON_GOLD] gold coins to buy [ICON_GreatScientist] Great Scientist and [ICON_GreatEngineer] Great Engineer 30% off</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced anti-entropy ultimate mecha, it will cause double area damage when attacking, and has an extra attack</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ISKANDAR_NAME" Language="en_US">
+			<Text>Iskandar</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_DESCRIPTION" Language="en_US">
+			<Text>The mass-produced anti-entropy ultimate mecha has a chance to cause critical damage when attacking, and the attack will gain +7 [ICON_STRENGTH] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HERACLES_NAME" Language="en_US">
+			<Text>Hercules</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced anti-entropy ultimate mecha, units with an attack range of 1 will cause piercing damage, and looting will get 12.5% ​​of the current research progress</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_BADER_NAME" Language="en_US">
+			<Text>God Machine Badr</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced anti-entropy ultimate mecha, a powerful flying unit</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_PRC_6626_NAME" Language="en_US">
+			<Text>PRC_6626</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced anti-entropy ultimate mecha, extremely powerful ground unit</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MSR_7_NAME" Language="en_US">
+			<Text>MSR_7</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_DESCRIPTION" Language="en_US">
+			<Text>The limited edition anti-entropy ultimate mecha can launch nuclear bombs, and can actively release skills to make the surrounding units lose their mobility in this round, and reset their mobility and attack times, cool down for 5 rounds, and have 1 additional attack</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_MHT_PEACE_NAME" Language="en_US">
+			<Text>ambassador of peace</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_DESCRIPTION" Language="en_US">
+			<Text>The limited-edition anti-entropy ultimate mecha can actively overheat and enter the state of continuous chopping. During this period, +20 [ICON_STRENGTH] combat power, +3 [ICON_MOVEMENT] movement power, +1 attack times, reset movement power and attack times immediately, cool down for 3 rounds</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEPHAESTUS_NAME" Language="en_US">
+			<Text>Hephaestus</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_DESCRIPTION" Language="en_US">
+			<Text>The limited edition anti-entropy ultimate mecha, each attack will superimpose combat power and cause fan-shaped splash damage</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_HEIMDAL_NAME" Language="en_US">
+			<Text>God Machine Heimdall</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ISKANDAR_DESCRIPTION" Language="en_US">
+			<Text>Iskandar's Retribution: The attack will cause double splash damage, the inner circle is 50% of the original damage, the outer circle is 25% of the original damage, and it has +1 attack times at the beginning</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HERACLES_DESCRIPTION" Language="en_US">
+			<Text>The Great Power of Hercules: The attack will cause critical damage, 30% chance is 120% of original damage, 30% chance is 125% of original damage + 5 fixed damage, 30% chance is 133.3% of original damage + 10 fixed damage, 10 The % chance is 150% of the original damage + 15 fixed damage</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_BADER_DESCRIPTION" Language="en_US">
+			<Text>God Machine Baldr's Judgment: When the distance to the attacked is 1, it will cause 50% of the original damage to the units behind it as penetrating damage, and when plundering, it will give 12.5% ​​of the current technology research progress</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_PRC_6626_DESCRIPTION" Language="en_US">
+			<Text>PRC_6626: Her strength is beyond doubt</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MSR_7_DESCRIPTION" Language="en_US">
+			<Text>MSR_7: Her strength is beyond doubt</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MHT_PEACE_DESCRIPTION" Language="en_US">
+			<Text>The Peacemaker's Decision: Make the units within three cells around lose their mobility and receive 10 points of fixed damage this round, reset their mobility and attack times, attack 1 extra time, and cool down for 6 rounds</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_DESCRIPTION" Language="en_US">
+			<Text>Hesfitos' Rage: Enter the state of continuous chopping, reset the movement power and attack times immediately, during this period +20[ICON_STRENGTH] combat power, +3[ICON_MOVEMENT] movement power, +1 attack times, cooldown is 4 rounds</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_DESCRIPTION" Language="en_US">
+			<Text>Divine Machine Heimdall's Judgment: each attack will superimpose the enhanced state, each layer of enhanced state will provide +7 [ICON_STRENGTH] combat power, +1 [ICON_MOVEMENT] movement power and fan-shaped splash damage of 25% of the original damage</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEPHAESTUS_FIRE_DESCRIPTION" Language="en_US">
+			<Text>Rage of Hesphitos: Activated, +20 [ICON_STRENGTH] combat power, +3 [ICON_MOVEMENT] movement power, +1 attack count</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_1_DESCRIPTION" Language="en_US">
+			<Text>Giant Swing · Start: God Machine Heimdall +7 [ICON_STRENGTH] combat power, +1 [ICON_MOVEMENT] movement power, +25% fan-shaped splash damage</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_2_DESCRIPTION" Language="en_US">
+			<Text>Giant Swing·Cheng: Divine Machine·Heimdall +7[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power, +25% fan-shaped splash damage</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_3_DESCRIPTION" Language="en_US">
+			<Text>Big roundabout turn: God Machine Heimdall +7 [ICON_STRENGTH] combat power, +1 [ICON_MOVEMENT] movement power, +25% fan-shaped splash damage</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_HEIMDAL_LEVEL_4_DESCRIPTION" Language="en_US">
+			<Text>Big roundabout and combined: God Machine Heimdall +7 [ICON_STRENGTH] combat power, +1 [ICON_MOVEMENT] movement power, +25% fan-shaped splash damage</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY" Language="en_US">
+			<Text>reversal</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_DESCRIPTION" Language="en_US">
+			<Text>All cities initially get +15% [ICON_SCIENCE] technology value +15% [ICON_PRODUCTION] productivity +1 [ICON_Great Scientist] great scientist points [NewLine] have a characteristic great anti-entropy scientist, when obtaining an anti-entropy scientist, the current technology will be completed immediately, get At the same time, Emma Planck will immediately complete the current municipal [NewLine] Anti-entropy scientist acquisition methods are as follows: [NewLine] Walter Joyce: Get a [ICON_GreatScientist] Great Scientist [NewLine] Walter Young: After getting After Walter Joyce, reach the Industrial Age [NewLine] Nancy Edison: Earn 328 gold coins per round [ICON_GOLD] [NewLine] Emma Plank: Acquire Nancy Edison and [ICON_SCIENCE] technology value &gt; 128, [ICON_CULTURE] cultural value &gt; 68 [NewLine] Erwin Riana Schrödinger: After acquiring Emma Planck, it is possible to be observed [NewLine] Frederica Tesla: After acquiring You can get Nancy Edison and create a mech a certain number of times [NewLine] Liesel Albert: you can get Emma Plank and create a mech a certain number of times</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ANTI_ENTROPY_NAME" Language="en_US">
+			<Text>world famous</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_1" Language="en_US">
+			<Text>Kiana Kaslana</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_2" Language="en_US">
+			<Text>Raiden Mei</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_3" Language="en_US">
+			<Text>Sheil Fleur</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_4" Language="en_US">
+			<Text>Infinite Ta Himeko</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_5" Language="en_US">
+			<Text>Teresa Apocalypse</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_6" Language="en_US">
+			<Text>Rosalia Arlene</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_7" Language="en_US">
+			<Text>Lilia Arlene</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ANTI_ENTROPY_FEMALE_8" Language="en_US">
+			<Text>Apricot Marr</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_1" Language="en_US">
+			<Text>relatively natural volume</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_2" Language="en_US">
+			<Text>Sine Double Ponytail</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_3" Language="en_US">
+			<Text>cat abuser</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_4" Language="en_US">
+			<Text>quantum girl</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_5" Language="en_US">
+			<Text>inventor</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_6" Language="en_US">
+			<Text>Three Laws of Mechanics</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_7" Language="en_US">
+			<Text>dublin walk</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_8" Language="en_US">
+			<Text>Anti-Entropy Ball</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_9" Language="en_US">
+			<Text>Anti-Entropy Band</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_10" Language="en_US">
+			<Text>Anti-Entropy Drummer</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_11" Language="en_US">
+			<Text>Anti-entropy Christmas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_12" Language="en_US">
+			<Text>big Bang</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_13" Language="en_US">
+			<Text>Quantum Waltz</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_14" Language="en_US">
+			<Text>sky legislator</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_15" Language="en_US">
+			<Text>star explorer</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_16" Language="en_US">
+			<Text>elemental seer</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_17" Language="en_US">
+			<Text>sky watcher</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_18" Language="en_US">
+			<Text>material explorer</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_19" Language="en_US">
+			<Text>observer</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTI_ENTROPY_20" Language="en_US">
+			<Text>natural classification</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTI_ENTROPY_ADJECTIVE" Language="en_US">
+			<Text>reversal</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BRONYA_ZAYCHIK_QUOTE" Language="en_US">
+			<Text>&quot;Don't bow to the collapse, don't surrender to the gods.&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_NAME" Language="en_US">
+			<Text>Anti-entropy armor</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BRONYA_ZAYCHIK_UNIT_DESCRIPTION" Language="en_US">
+			<Text>The mass-produced mecha of anti-entropy is used to replace Valkyrie as the main force against Houkai.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BRONYA_ZAYCHIK" Language="en_US">
+			<Text>For the Herrscher of Reason, there is actually no difference between &quot;one&quot; and &quot;three hundred thousand&quot; [NewLine] Walter Joyce, Joachim Young, Bronya Zajcek...they Any one of them is actually not only one of the 300,000 people, but also all of the 300,000 people. The reason why the name of &quot;The Herrscher of Reason&quot; can be passed down to this day is that its &quot;power&quot; and &quot;will&quot; have long been integrated[NewLine] No single person has ever been able to take on the heavy responsibility of protecting the world[NewLine] But everyone can Have the desire to protect the world[NewLine] After all...the only unchanging &quot;truth&quot; of human beings is &quot;the truth of human beings will inevitably change&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_DESCRIPTION" Language="en_US">
+			<Text>&quot;The power of one person may not be strong enough. The thoughts of 300,000 people may not be rich enough. But Bronya at this moment is the real Herrscher of Reason!&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRONYA_ZAYCHIK_UPGRADE_NAME" Language="en_US">
+			<Text>Bronya Zajcek</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_DESCRIPTION" Language="en_US">
+			<Text>Unparalleled Snowland: Bronya Zajcek is completely immune to nuclear explosions and radiation damage</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_DESCRIPTION" Language="en_US">
+			<Text>Reconstructing the Abyss of Butterfly Shadow: Bronya Zajcek has mastered &quot;Angel Reconstruction&quot;, which gives all cities +3 [ICON_SCIENCE] technology value +3 [ICON_PRODUCTION] productivity, Bronya Zajcek +5[ICON_STRENGTH] Combat Strength, +1[ICON_MOVEMENT] Movement Strength, +1[ICON_RANGED] Range, +1 Vision</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_CREAT_BETTER_DESCRIPTION" Language="en_US">
+			<Text>Change the world of the future: Bronya Zajcek casts &quot;Initiative Power&quot;, +15 [ICON_STRENGTH] combat power, +2 [ICON_MOVEMENT] movement power, +1 [ICON_RANGED] range, +1 field of vision</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_MACHINE_DESCRIPTION" Language="en_US">
+			<Text>Anti-entropy armor: Immune to most nuclear explosions and radiation damage</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_1_DESCRIPTION" Language="en_US">
+			<Text>&quot;Past&quot;: Bronya Zajcek +7[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power, +1[ICON_RANGED] range, +1 vision</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_2_DESCRIPTION" Language="en_US">
+			<Text>&quot;Now&quot;: Bronya Zajcek +13[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power, +1[ICON_RANGED] range, +1 vision</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BRONYA_ZAYCHIK_LEVEL_3_DESCRIPTION" Language="en_US">
+			<Text>&quot;Future&quot;: Bronya Zajcek +20[ICON_STRENGTH] combat power, +1[ICON_MOVEMENT] movement power, +1[ICON_RANGED] range, +1 vision, +1 attack times</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_BRONYA_ZAYCHIK_NAME" Language="en_US">
+			<Text>Echo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_NAME" Language="en_US">
+			<Text>snow sniper</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_1_DESCRIPTION" Language="en_US">
+			<Text>At the beginning of the round, it is in the frozen soil, +10 [ICON_STRENGTH] combat power, +1 [ICON_RANGED] range, +1 field of vision; extra damage will be caused according to the distance between the two sides, and the movement power will be reset if it is too close</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_NAME" Language="en_US">
+			<Text>Valkyrie Chariot</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_2_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_MOVEMENT] movement power, regardless of land loss, reset movement power and attack times after being attacked</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_NAME" Language="en_US">
+			<Text>Alien black core erosion</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_3_DESCRIPTION" Language="en_US">
+			<Text>Invisibility, will not lose combat power due to injury, when the distance from the enemy unit is 2, the attack has a chance to crit and cause additional damage</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_NAME" Language="en_US">
+			<Text>Driver installation · Yamabuki</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_4_DESCRIPTION" Language="en_US">
+			<Text>+20[ICON_STRENGTH] combat strength when defending, +1 attack times, when the distance is 1, the attack will cause penetrating damage</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_NAME" Language="en_US">
+			<Text>comet drive</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BRONYA_ZAYCHIK_5_DESCRIPTION" Language="en_US">
+			<Text>You can still attack after moving, you can still move after attacking, and you can still recover your health after taking action, reflecting 50% of the damage received and recovering 25% of the damage received</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
