@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b5a95737-1782-489f-b981-87519b8944ed" version="1">
+  <Properties>
+    <Name>归离原·归离集·归终</Name>
+    <Description>“今我离民，皆安居乐业，几同归乡，莫如名之归离原。”</Description>
+    <Created>1675413546</Created>
+    <Teaser>“今我离民，皆安居乐业，几同归乡，莫如名之归离原。”</Teaser>
+    <Authors>AAA猫猫侠代购</Authors>
+    <SpecialThanks>千古歌</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="GL_DATE">
+      <File>CIVILIZATION_GUILI_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="GL_ICON">
+      <File>CIVILIZATION_GUILI_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="GL_COLOR">
+      <File>CIVILIZATION_GUILI_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="GL_TEXT">
+      <File>CIVILIZATION_GUILI_TEXT.xml</File>
+    </UpdateText>
+    <UpdateArt id="GL_ART">
+      <File>归离原·归离集·归终.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="IN_GL_DATE">
+      <File>CIVILIZATION_GUILI.xml</File>
+      <File>CIVILIZATION_GUILI_ATTACH.xml</File>
+      <File>CIVILIZATION_GUILI_DISTRICT.xml</File>
+      <File>CIVILIZATION_GUILI_LEADER.xml</File>
+      <File>CIVILIZATION_GUILI_TRAIT.xml</File>
+      <File>CIVILIZATION_GUILI_UNIT.xml</File>
+      <File>CIVILIZATION_GUILI_UNIT_ABILITY.xml</File>
+      <File>CIVILIZATION_GUILI_UNIT_PROMOTION.xml</File>
+      <File>CIVILIZATION_GUILI_UNIT_PROMOTION_MODIFIER.xml</File>
+      <File>CIVILIZATION_GUILI_MODIFIER_SETS.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="IN_GL_COLOR">
+      <File>CIVILIZATION_GUILI_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="IN_GL_TEXT">
+      <File>CIVILIZATION_GUILI_TEXT.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="IN_GL_GAMEPLAY">
+      <File>CIVILIZATION_GUILI_GAMEPLAY.lua</File>
+      <File>CIVILIZATION_GUILI.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="IN_GL_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>CIVILIZATION_GUILI_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateIcons id="IN_GL_ICON">
+      <File>CIVILIZATION_GUILI_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="IN_GL_ART">
+      <File>归离原·归离集·归终.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="IN_GL_MUSIC">
+      <File>Platforms/Windows/Audio/GL_MUSIC.bnk</File>
+      <File>Platforms/Windows/Audio/GL_MUSIC.txt</File>
+      <File>Platforms/Windows/Audio/GL_SOUND.ini</File>
+      <File>Platforms/Windows/Audio/GL_SOUNDS.bnk</File>
+      <File>Platforms/Windows/Audio/GL_SOUNDS.txt</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>CIVILIZATION_GUILI.lua</File>
+    <File>CIVILIZATION_GUILI.xml</File>
+    <File>CIVILIZATION_GUILI_ATTACH.xml</File>
+    <File>CIVILIZATION_GUILI_COLOR.xml</File>
+    <File>CIVILIZATION_GUILI_CONFIG.xml</File>
+    <File>CIVILIZATION_GUILI_DISTRICT.xml</File>
+    <File>CIVILIZATION_GUILI_GAMEPLAY.lua</File>
+    <File>CIVILIZATION_GUILI_ICON.xml</File>
+    <File>CIVILIZATION_GUILI_LEADER.xml</File>
+    <File>CIVILIZATION_GUILI_MODIFIER_SETS.xml</File>
+    <File>CIVILIZATION_GUILI_TEXT.xml</File>
+    <File>CIVILIZATION_GUILI_TRAIT.xml</File>
+    <File>CIVILIZATION_GUILI_UI.lua</File>
+    <File>CIVILIZATION_GUILI_UI.xml</File>
+    <File>CIVILIZATION_GUILI_UNIT.xml</File>
+    <File>CIVILIZATION_GUILI_UNIT_ABILITY.xml</File>
+    <File>CIVILIZATION_GUILI_UNIT_PROMOTION.xml</File>
+    <File>CIVILIZATION_GUILI_UNIT_PROMOTION_MODIFIER.xml</File>
+    <File>Platforms/MacOS/BLPs/CIVILIZATION_GL_GUIZHONG_ICON.blp</File>
+    <File>Platforms/MacOS/BLPs/DISTRICT_GL_SHENHAI_X_MODE.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MODE_FOR_GL_UNIT.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AnimatedFlag_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_REL_Base_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_MODE_DISTRICT_GL_SHENHAI_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_MODE_UNIT_GL_GUIZHONGJI_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_MODE_UNIT_GL_LIUYUN_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_MODE_UNIT_GL_PING_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Iron_M</File>
+    <File>Platforms/Windows/Audio/1060937629.wem</File>
+    <File>Platforms/Windows/Audio/117480818.wem</File>
+    <File>Platforms/Windows/Audio/129408708.wem</File>
+    <File>Platforms/Windows/Audio/207229347.wem</File>
+    <File>Platforms/Windows/Audio/220054319.wem</File>
+    <File>Platforms/Windows/Audio/251020905.wem</File>
+    <File>Platforms/Windows/Audio/267745132.wem</File>
+    <File>Platforms/Windows/Audio/291160867.wem</File>
+    <File>Platforms/Windows/Audio/32043269.wem</File>
+    <File>Platforms/Windows/Audio/33179900.wem</File>
+    <File>Platforms/Windows/Audio/387400053.wem</File>
+    <File>Platforms/Windows/Audio/655829578.wem</File>
+    <File>Platforms/Windows/Audio/682631837.wem</File>
+    <File>Platforms/Windows/Audio/72679342.wem</File>
+    <File>Platforms/Windows/Audio/750924735.wem</File>
+    <File>Platforms/Windows/Audio/862102026.wem</File>
+    <File>Platforms/Windows/Audio/873144681.wem</File>
+    <File>Platforms/Windows/Audio/941940702.wem</File>
+    <File>Platforms/Windows/Audio/956237757.wem</File>
+    <File>Platforms/Windows/Audio/GL_MUSIC.bnk</File>
+    <File>Platforms/Windows/Audio/GL_MUSIC.txt</File>
+    <File>Platforms/Windows/Audio/GL_SOUND.ini</File>
+    <File>Platforms/Windows/Audio/GL_SOUNDS.bnk</File>
+    <File>Platforms/Windows/Audio/GL_SOUNDS.txt</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/CIVILIZATION_GL_GUIZHONG_ICON.blp</File>
+    <File>Platforms/Windows/BLPs/DISTRICT_GL_SHENHAI_X_MODE.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MODE_FOR_GL_UNIT.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AnimatedFlag_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_REL_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_MODE_DISTRICT_GL_SHENHAI_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_MODE_UNIT_GL_GUIZHONGJI_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_MODE_UNIT_GL_LIUYUN_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_MODE_UNIT_GL_PING_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Iron_M</File>
+    <File>归离原·归离集·归终.dep</File>
+  </Files>
+</Mod>
