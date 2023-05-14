@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May 14 12:47:06 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_NAME" Language="ja_JP">
+			<Text>嫉妬深い魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_DESCRIPTION" Language="ja_JP">
+			<Text>＜嫉妬の魔女＞シャティラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_ADJECTIVE" Language="ja_JP">
+			<Text>嫉妬深い魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ENVY_NAME" Language="ja_JP">
+			<Text>死の帰還</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ENVY_DESCRIPTION" Language="ja_JP">
+			<Text>都市の人口が毎回 8 [ICON_Citizen] に達すると、都市で生産されるすべての建築業者はさらに +1 [ICON_Charges] の建設時間を獲得します。 [ICON_Citizen] の人口が 8 に達すると、都市 [ICON_Citizen] の人口は 1 に減ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_SATELLA_NAME" Language="ja_JP">
+			<Text>シャティラ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_SATELLA_NAME" Language="ja_JP">
+			<Text>見えざる手</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_SATELLA_DESCRIPTION" Language="ja_JP">
+			<Text>ビルダーのビルド数は +1 [ICON_Charges] になります。都市 [ICON_Citizen] の人口が 8 人に達すると、都市には建設者が 1 人加わります。都市 [ICON_Citizen] の人口が 1 の場合、都市のすべての生産量は +100% になります。 [改行]
+都市の人口が1[ICON_Citizen]の場合、[ICON_Production]生産性と[ICON_Food]食料+15%、都市の人口が5[ICON_Citizen]に達すると、[ICON_Science]技術値と[ICON_Culture]文化値に変更されます+10%。都市の人口が 8 [ICON_Citizen] に達するたびに、上記の都市の生産量が +5% 増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_SATELLA_NAME" Language="ja_JP">
+			<Text>恋慕的全域</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_SATELLA_DESCRIPTION" Language="ja_JP">
+			<Text>人口の多い都市が建設されます。周囲の都市 [ICON_Citizen] の人口密度の高い文明が好きです。周囲に小さな都市領土を持ち、忠誠心が弱い住民を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SHADOW_ZONE_NAME" Language="ja_JP">
+			<Text>シャドウランズ</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SHADOW_ZONE_DESCRIPTION" Language="ja_JP">
+			<Text>羨望の魔女には、工業ゾーンに代わる産業活動ゾーンが登場します。 [NEWLINE]+4 [ICON_Production] 「見習い」のロックを解除した後の生産。都市の [ICON_Citizen] 人口が毎回 8 人に達すると、都市内のすべての工業用建物の生産能力が追加で +2 [ICON_Production] になります。都市の [ICON_Citizen] 人口が 1 の場合、その地域の生産量は +4 [ICON_Production] になります。 [NEWLINE]セル チャームに基づいた [ICON_Housing] 住宅、[COLOR:Red] を提供しますが、近隣とは相互に排他的であり、近隣と同じ都市に建設することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_ATELIER_NAME" Language="ja_JP">
+			<Text>魔女のワークショップ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_ATELIER_DESCRIPTION" Language="ja_JP">
+			<Text>羨望の魔女のユニークな建物が工場を置き換えます。 [NEWLINE]+4 [ICON_Production] 6 タイル内のすべての都市の生産。 「電気」技術を研究した後、建物はその都市に +4 [ICON_Culture] 文化価値を加えることができます。このボーナスは同じ都市内で 1 回のみ適用でき、都市中心部の 6 マス以内にこのタイプの建物を複数建築しても追加のボーナスは得られません。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_NAME" Language="ja_JP">
+			<Text>欲望の魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_DESCRIPTION" Language="ja_JP">
+			<Text>＜強欲の魔女＞エキドナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_ADJECTIVE" Language="ja_JP">
+			<Text>欲望の魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_GREED_NAME" Language="ja_JP">
+			<Text>知恵の本</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_GREED_DESCRIPTION" Language="ja_JP">
+			<Text>まずは「占星術」[ICON_TechBoosted] エウレカから。 「サンクチュアリ」を持つ都市には次の効果があります:[NEWLINE]大学と産業の建物は[ICON_Faith]信仰で購入できます。都市はターンごとに獲得する[ICON_Faith]の30%に等しい[ICON_Production]生産力をターンごとに獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_ECHIDNA_NAME" Language="ja_JP">
+			<Text>エキドナ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_ECHIDNA_NAME" Language="ja_JP">
+			<Text>愛、夢、希望</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_ECHIDNA_DESCRIPTION" Language="ja_JP">
+			<Text>「聖域」のある都市には次の効果があります: 鉱山が鉱山に隣接するたびに、「聖域」の生産量は -1 [ICON_Production] になります; 鉱山が「聖域」に隣接するたびに、鉱山は -1 [ICON_Production] します。 +1 [ICON_Production] プロダクションと [ICON_Culture] カルチャーが追加されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_ECHIDNA_NAME" Language="ja_JP">
+			<Text>拒絶に対する欲望</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_ECHIDNA_DESCRIPTION" Language="ja_JP">
+			<Text>産業の創出に努め、[ICON_Production] の生産にも注力する市民を優先します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAJO_SANTUARY_NAME" Language="ja_JP">
+			<Text>サンクチュアリ</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAJO_SANTUARY_DESCRIPTION" Language="ja_JP">
+			<Text>占星術によって解き明かされた、工業地帯に代わる、より安価に建設できる貪欲な魔女の特徴的な産業活動エリア。 [NEWLINE] エリアの [ICON_Production] 生産隣接ボーナスも [ICON_Faith] 信仰を与えます。 [NEWLINE][ICON_GreatProphet] 大預言者はサンクチュアリに宗教を創設できます。文化爆弾を引き起こす可能性があります。 [COLOR:Red]は聖地と相互排他的であり、聖地と同じ都市に建設することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_WORKSHOP_NAME" Language="ja_JP">
+			<Text>魔女のワークショップ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_WORKSHOP_DESCRIPTION" Language="ja_JP">
+			<Text>ワークショップに代わるラストウィッチのユニークな建物。 [NEWLINE]宣教師の購入は許可されています。 [ICON_Faith] 信仰でのみ購入できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_FACTORY_NAME" Language="ja_JP">
+			<Text>魔女工場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_FACTORY_DESCRIPTION" Language="ja_JP">
+			<Text>Lust Witch のユニークな建物が工場に置き換わります。 [NEWLINE]その [ICON_Production] 生産ボーナスは、この建物タイプ ボーナスを受け取っていない 6 タイル以内のすべての都市中心部に適用されます。 [NEWLINE]使徒、教祖、異端審問官、および対応する信仰の場合は僧侶の購入を許可します。これらのユニットは、[ICON_Faith] 信仰でのみ購入できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_MINE_PRODUCTION_DEBUFF" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する鉱山タイルからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_NATURALWONDER_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する自然の驚異からの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_MOUNTAIN_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する山のタイルからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_FOREST_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 生産、隣接する森林タイルから。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_NAME" Language="ja_JP">
+			<Text>怒っている魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_DESCRIPTION" Language="ja_JP">
+			<Text>＜憤怒の魔女＞ミネルヴァ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_ADJECTIVE" Language="ja_JP">
+			<Text>アングリーウィッチズ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ANGER_NAME" Language="ja_JP">
+			<Text>世界再生</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ANGER_DESCRIPTION" Language="ja_JP">
+			<Text>宣戦布告された場合、[ICON_Production] 生産量 +165% (3 ターンごとに 33% 減少)。 [NEWLINE]どの文明とも戦争状態にない場合、Fists of Wrath の建物は +2 [ICON_Production] 生産を獲得し、都市に +10% [ICON_Production] 生産を与えます。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_MINERVA_NAME" Language="ja_JP">
+			<Text>ミネルバ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_MINERVA_NAME" Language="ja_JP">
+			<Text>オッド・ラグナル</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_MINERVA_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘が発生すると、すべてのダメージを回復し、ダメージに比例して[ICON_Faith]信仰を消費します。キュア効果が発動すると一定の確率で様々な天災が発生する。 [NEWLINE]ユニットは自然災害の影響を受けません。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_MINERVA_NAME" Language="ja_JP">
+			<Text>怒りの電撃</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_MINERVA_DESCRIPTION" Language="ja_JP">
+			<Text>この戦争のせいで好戦的な烙印を押されるとしても、彼は決して宣戦布告せず、平和を守る人々を助けようとするだろう。過激派を憎む。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RAGE_FIST_NAME" Language="ja_JP">
+			<Text>怒りの拳</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RAGE_FIST_DESCRIPTION" Language="ja_JP">
+			<Text>工業地域に代わる怒りの魔女の特徴的な産業活動地域は、より早くロックが解除され、コストが低くなります。 [NEWLINE]隣接するユニットの健康回復を増加させることができます。他のユニットが怒りの拳から移動を開始すると、[ICON_Movement] ポイントの移動ボーナスを獲得できます。 [NEWLINE]怒りの拳は遠距離攻撃能力を備えた防御エリア[カラー:レッド]ですが、キャンプとは相互排他的であり、キャンプと同じ都市に建設することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_PLANT_NAME" Language="ja_JP">
+			<Text>怒りの炉</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_PLANT_DESCRIPTION" Language="ja_JP">
+			<Text>ラースウィッチの発電所に代わるユニークな建物。通常の技術要件を無視し、[ICON_RESOURCE_URANIUM] のウラン資源を表示します。 [NEWLINE]任意の量の [ICON_RESOURCE_URANIUM] ウランを [ICON_Power] 電力に自動的に変換し、次の速度で 6 セル内の都市に電力を供給します:[NEWLINE][ICON_Bullet]1[ICON_RESOURCE_URANIUM]ウラン[ICON_PowerRight]16 [ICON_Power] 電力。 [NEWLINE][ICON_Bullet] は大気中に微量の CO2 を排出します[NEWLINE]その [ICON_Production] 生産性ボーナスと [ICON_Science] 科学ボーナスは、発電所建設ボーナスを受けていない 6 タイル以内のすべての都市中心部に適用されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_BASE_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] の生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_VOLCANO_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する火山タイルからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_VOLCANO_SCIENCE" Language="ja_JP">
+			<Text>+{1_num} [ICON_Science] 科学値、隣接する火山タイルから。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_RIVER_FOOD" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 隣接する川からの食料。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_RIVER_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する川からの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_COAST_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する海岸と湖のタイルからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_COAST_CULTURE" Language="ja_JP">
+			<Text>+{1_num} [ICON_Culture] 隣接する海岸と湖のタイルからの文化値。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_GRASS_GOLD" Language="ja_JP">
+			<Text>隣接する草原タイルからゴールドが {1_num}[ICON_Gold] 増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_PLAIN_GOLD" Language="ja_JP">
+			<Text>隣接する平原タイルから [ICON_Gold] 個のゴールドを獲得。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_NAME" Language="ja_JP">
+			<Text>フリーズウィッチ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_DESCRIPTION" Language="ja_JP">
+			<Text>＜氷の魔女＞エミリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_ADJECTIVE" Language="ja_JP">
+			<Text>フリーズウィッチ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_FROZEN_NAME" Language="ja_JP">
+			<Text>凍った絆</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_FROZEN_DESCRIPTION" Language="ja_JP">
+			<Text>+5 [ICON_Strength] 軍事ユニットが凍結または雪室で戦闘している場合の戦闘力。負傷しても戦闘デバフを受けません。 [NEWLINE]敵ユニット -1 [ICON_Strength] 敵ユニットとの戦闘後の戦闘力。 3 回ごとに [ICON_Movement] の動きがさらに -1 されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_BLESS_NAME" Language="ja_JP">
+			<Text>契約</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_BLESS_DESCRIPTION" Language="ja_JP">
+			<Text>+5 [ICON_Strength] 凍結または雪室で戦闘する場合の戦闘力。負傷しても戦闘デバフを受けません。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_EMILIA_COMBAT_BY_PROPERTY_DESCRIPTION" Language="ja_JP">
+			<Text>+{Property}、偉大なエルフからの契約</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_EMILIA_NAME" Language="ja_JP">
+			<Text>エミリア</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_EMILIA_NAME" Language="ja_JP">
+			<Text>マイクロピクシーの力</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_EMILIA_DESCRIPTION" Language="ja_JP">
+			<Text>永久凍土と雪上の地域に対する [ICON_Production] 生産隣接ボーナスは、[ICON_Science] 科学も提供します。都市の領土の 3 タイル以内にある各ツンドラまたはツンドラ ヒルズ タイルは、都市に +1 [ICON_Faith] 信仰と +1 [ICON_Production] 生産を与えます。 上の雪または雪丘タイルごとに、生産量が 2 倍になり、+1 [ICON_Science] 技術値と +1 が提供されます。 1 [ICON_Culture] カルチャー値。 [NEWLINE]吹雪に遭遇すると、一定の確率で、あなたが所属する都市の凍土と雪のセルが+1 [ICON_Food]食料、+1 [ICON_Faith]信仰、または+1 [ICON_Culture]文化を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_EMILIA_NAME" Language="ja_JP">
+			<Text>雪の下での誓い</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_EMILIA_DESCRIPTION" Language="ja_JP">
+			<Text>相手国が外交上の約束を守らない限り、率先して近隣諸国を攻撃することはないでしょう。隣人と平和に暮らす文明を好み、隣人と戦争をする文明を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RE0_GAKUEN_NAME" Language="ja_JP">
+			<Text>異世界学園</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RE0_GAKUEN_DESCRIPTION" Language="ja_JP">
+			<Text>工業地帯に代わる凍てついた魔女の特徴的な産業活動エリアは、より早くロックが解除され、コストが低くなります。 [NEWLINE]アカデミー内の建物は、[ICON_Production]生産量に等しい[ICON_Science]サイエンスを獲得し、街の各雪または雪の丘タイルから+1 [ICON_Science]サイエンスを獲得します。[COLOR:Red]ただし、これは大学と相互排他的です。大学と同じ都市に建てることはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_TUNDRA_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 生産、隣接するツンドラ タイルから。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_TUNDRAHILL_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接するタンドラ ヒルズ タイルからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_BARRIER_REEF_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する自然の驚異、グレート バリア リーフからの生産物。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_PAMUKKALE_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する自然の驚異パムッカレからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_JUNGLE_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する熱帯雨林タイルからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_GEOTHERMAL_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する地熱亀裂セルからの生産量。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_REEF_PRODUCTIONE" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 生産、隣接するサンゴ礁タイルから。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EMILIA_NAME" Language="ja_JP">
+			<Text>フリーズウィッチ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EMILIA_DESCRIPTION" Language="ja_JP">
+			<Text>エミリアの特徴的なヒーローユニットで、一度に1体しか所有できず、独自の強化ツリーを持っている。 [ICON_Faith] 信仰でのみ購入できます。 [NEWLINE]パーカー最高経営責任者の称号が強化されているため、経験値を獲得できません。 [NEWLINE]3回攻撃するごとに[ICON_Strength]戦闘力が+1されます。この効果による戦闘力は時代ごとに最大15です。 [NEWLINE] 攻撃時に十分な信仰ポイント (時代パラメータ × 200) がある場合、一定の確率で信仰ポイントを消費してブリザードを召喚します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_NAME" Language="ja_JP">
+			<Text>大霊の力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_DESCRIPTION" Language="ja_JP">
+			<Text>3 回攻撃するごとに [ICON_Strength] 戦闘力が +1 獲得され​​、時代ごとにこの効果により最大 15 戦闘力が得られます。ブーストを取得するたびに攻撃回数がさらに+1されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_EMILIA_NAME" Language="ja_JP">
+			<Text>フリーズウィッチ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_1_2_NAME" Language="ja_JP">
+			<Text>大霊の力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_1_2_DESCRIPTION" Language="ja_JP">
+			<Text>エリアの制御方法を学び、隣接する敵ユニットの戦闘力 -5 [ICON_Strength] と -1 [ICON_Movement] の移動力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_NAME" Language="ja_JP">
+			<Text>大地の精霊の力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>近接ユニットからの攻撃を防御する場合、+10 [ICON_Strength] 戦闘力。 +7 [ICON_Strength] 遠距離攻撃または側面攻撃から防御する場合の戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_PREVIEW_TEXT" Language="ja_JP">
+			<Text>+{1_Amount} アース スピリット パワー</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_3_NAME" Language="ja_JP">
+			<Text>水の精霊の力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_3_DESCRIPTION" Language="ja_JP">
+			<Text>隣接する敵ユニットのみがこのユニットを発見できます。敵ユニットを倒した後、その基本 [ICON_Strength] 戦闘力の 50% に等しい [ICON_Faith] 信仰を獲得します。 (標準ゲーム速度で)</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_1_NAME" Language="ja_JP">
+			<Text>風の精霊の力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_1_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Range] 範囲。 +1 [ICON_Movement] の移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_3_NAME" Language="ja_JP">
+			<Text>火の精霊の力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_3_DESCRIPTION" Language="ja_JP">
+			<Text>遠距離から都市やキャンプを攻撃する場合の効率は 100%、ダメージを受けた場合の戦闘デバフはありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PUCK_NAME" Language="ja_JP">
+			<Text>永久凍土の最後の獣</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PUCK_DESCRIPTION" Language="ja_JP">
+			<Text>[COLOR_RED] 凍てついた魔女が殺されると、彼女は死の現場に現れ、敵味方関係なく攻撃します。 [エンドカラー]。 Last Beast of Permafrostがプレイされている間は、新しいIce Witchを購入することはできません。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_BLIZZARD" Language="ja_JP">
+			<Text>吹雪：</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_LOWFAITH" Language="ja_JP">
+			<Text>[ICON_Faith][COLOR:Red]信仰が足りません[ENDCOLOR]（{1_iAmount}が必要です）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_COOLDOWN" Language="ja_JP">
+			<Text>[COLOR:Red] は冷却中です[ENDCOLOR] (あと {1_iAmount} ラウンド必要です)。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_MOVEMENT" Language="ja_JP">
+			<Text>[ICON_Movement][COLOR:Red]の動きが不十分です[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_DESCRIPTION" Language="ja_JP">
+			<Text>現在の位置に吹雪を召喚します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PUCK_NAME" Language="ja_JP">
+			<Text>パーカー</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PUCK_TITLE" Language="ja_JP">
+			<Text>大きなエルフ</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PUCK_DESCRIPTION" Language="ja_JP">
+			<Text>外交官のように外国の都市国家に赴任できるエミリアの特徴的な最高責任者。エリアをデバフして都市の防衛を支援し、凍った土と雪のセルの出力を強化する能力があります。専用ユニット「氷の魔女」が用意されており、アップグレード時に「氷の魔女」の該当ポジションも同時に強化できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_0_1_NAME" Language="ja_JP">
+			<Text>「永久凍土の最後の獣」</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_0_1_DESCRIPTION" Language="ja_JP">
+			<Text>市内中心部から 3 タイル以内の敵ユニットの戦闘力 -5 [ICON_Strength] と -1 [ICON_Movement] 移動力。 [NEWLINE]スノー、ツンドラ、スノー ヒルズ、およびツンドラ ヒルズの地形でこの都市のタイルを購入するコストが半分になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_1_1_NAME" Language="ja_JP">
+			<Text>契約</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>「永久凍土の最後の獣」のハロー効果は3セル分延長され、範囲内のユニットは改善施設やエリアを略奪すると追加の[ICON_Faith]信仰ポイントを獲得できます。 [NEWLINE]凍土または雪のタイル上またはそれに隣接する地域は、雪のタイル上または隣接している場合、食料と [ICON_Production] の生産量が +2 [ICON_Food] になり、文化の [ICON_Culture] が +2 獲得され​​ます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_0_NAME" Language="ja_JP">
+			<Text>熱制御</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_0_DESCRIPTION" Language="ja_JP">
+			<Text>「永久凍土の最後の獣」のオーラ効果が 3 セル延長されます。範囲内のユニットの攻撃は、城壁に完全なダメージを与える可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_0_NAME" Language="ja_JP">
+			<Text>凍った世界</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_0_DESCRIPTION" Language="ja_JP">
+			<Text>「永久凍土の最後の獣」のオーラ効果が2倍になる。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_2_NAME" Language="ja_JP">
+			<Text>輝石の結晶</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_2_DESCRIPTION" Language="ja_JP">
+			<Text>この都市の資源を含む凍土と雪のセルは、資源に対応するボーナスが 2 倍になり、[ICON_Faith] 信仰値が +1 されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_2_NAME" Language="ja_JP">
+			<Text>氷の破片</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>この都市の改良された凍土と雪のタイルは、対応する改良ボーナスの 2 倍を獲得します。都市の 3 タイル以内に 6 つの凍った土または雪のタイルがあり、それらがすべてプレイヤーの領土内にある場合、都市は +10% [ICON_Production] 生産量を獲得します。雪の場合、+10% [ICON_Culture] 文化値を追加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_NAME" Language="ja_JP">
+			<Text>[COLOR:ResGoldLabelCS]Re:ゼロから始める異世界生活[ENDCOLOR]-[COLOR_RED]魔女のお茶会[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_TEASER" Language="ja_JP">
+			<Text>『Re:ゼロから始める異世界生活 大罪の魔女+α』から指導者と文明を追加</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_DESCRIPTION" Language="ja_JP">
+			<Text>『Re:ゼロから始める異世界生活 大罪の魔女+α』から指導者と文明を追加</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_SPECIAL_THANK" Language="ja_JP">
+			<Text>Hemmelfort の B ステーション シリーズの教育ビデオと MOD 補助ツールは大きな恩恵を受けています</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_SATELLA_DOM_TEXT" Language="ja_JP">
+			<Text>私はあなたを愛しています - 私に光を与えてくれるのはあなたです、暗闇の中で私の手を握って外の世界を見せてくれるのはあなたです、私の孤独で臆病な夜に私の手を握って私と一緒にいてくれるのはあなたです。それはあなたです、私が一人になったことがないことをキスで教えてください。私は意図的にあなたから多くのものをもらいすぎました...だから、私はあなたを愛しています、なぜならあなたが私にすべてをくれたからです。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_ECHIDNA_DOM_TEXT" Language="ja_JP">
+			<Text>私は魔女、時々良いことをする邪悪な魔女です。 ——ああ、なぜ愛情が減ってしまうのでしょう？</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_MINERVA_DOM_TEXT" Language="ja_JP">
+			<Text>我が拳で世界は再生できる！私の怒りが世界を浄化する！ ！私の怒り！この拳の癒し！それが私の答えです――！ ！</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_EMILIA_DOM_TEXT" Language="ja_JP">
+			<Text>――私の名前はエミリア、ただのエミリア。 —</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_1" Language="ja_JP">
+			<Text>リーマス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_2" Language="ja_JP">
+			<Text>アルヴィン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_3" Language="ja_JP">
+			<Text>カーズ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_4" Language="ja_JP">
+			<Text>ショーン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_5" Language="ja_JP">
+			<Text>レオ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_6" Language="ja_JP">
+			<Text>アレックス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_7" Language="ja_JP">
+			<Text>オスカー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_8" Language="ja_JP">
+			<Text>セバスチャン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_9" Language="ja_JP">
+			<Text>エイデン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_10" Language="ja_JP">
+			<Text>ネイサン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_1" Language="ja_JP">
+			<Text>リリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_2" Language="ja_JP">
+			<Text>アイシャ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_3" Language="ja_JP">
+			<Text>サラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_4" Language="ja_JP">
+			<Text>エイバ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_5" Language="ja_JP">
+			<Text>ティナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_6" Language="ja_JP">
+			<Text>ベラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_7" Language="ja_JP">
+			<Text>クレア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_8" Language="ja_JP">
+			<Text>フィオナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_9" Language="ja_JP">
+			<Text>レナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_10" Language="ja_JP">
+			<Text>ソフィア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_0" Language="ja_JP">
+			<Text>「影の庭園」</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_1" Language="ja_JP">
+			<Text>アリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_2" Language="ja_JP">
+			<Text>バーティア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_3" Language="ja_JP">
+			<Text>カノス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_4" Language="ja_JP">
+			<Text>デラビア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_5" Language="ja_JP">
+			<Text>エリーゼ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_6" Language="ja_JP">
+			<Text>フェルナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_7" Language="ja_JP">
+			<Text>グラシア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_8" Language="ja_JP">
+			<Text>サイラス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_9" Language="ja_JP">
+			<Text>ウィルニア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_10" Language="ja_JP">
+			<Text>ゾーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_0" Language="ja_JP">
+			<Text>「夢の街」</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_1" Language="ja_JP">
+			<Text>アルベルト</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_2" Language="ja_JP">
+			<Text>ビスカ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_3" Language="ja_JP">
+			<Text>クロ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_4" Language="ja_JP">
+			<Text>ダビオ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_5" Language="ja_JP">
+			<Text>イグナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_6" Language="ja_JP">
+			<Text>フェリックス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_7" Language="ja_JP">
+			<Text>グロット</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_8" Language="ja_JP">
+			<Text>セビリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_9" Language="ja_JP">
+			<Text>ビクター</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_10" Language="ja_JP">
+			<Text>ゾール</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_0" Language="ja_JP">
+			<Text>「シティ・オブ・レイジ」</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_1" Language="ja_JP">
+			<Text>レストリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_2" Language="ja_JP">
+			<Text>アルバレス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_3" Language="ja_JP">
+			<Text>ベルカスター</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_4" Language="ja_JP">
+			<Text>レクストン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_5" Language="ja_JP">
+			<Text>ナルディア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_6" Language="ja_JP">
+			<Text>フィルグレイブ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_7" Language="ja_JP">
+			<Text>マリアナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_8" Language="ja_JP">
+			<Text>タルシス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_9" Language="ja_JP">
+			<Text>セレステ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_10" Language="ja_JP">
+			<Text>ルノワール</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_0" Language="ja_JP">
+			<Text>「精霊の森」</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_1" Language="ja_JP">
+			<Text>アンドリュー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_2" Language="ja_JP">
+			<Text>アイサード</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_3" Language="ja_JP">
+			<Text>ケルトの</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_4" Language="ja_JP">
+			<Text>ノヴァ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_5" Language="ja_JP">
+			<Text>ひな</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_6" Language="ja_JP">
+			<Text>フレイヤ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_7" Language="ja_JP">
+			<Text>グラシア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_8" Language="ja_JP">
+			<Text>ソラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_9" Language="ja_JP">
+			<Text>エスカ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_10" Language="ja_JP">
+			<Text>ミラ</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_SATELLA_QUOTE" Language="ja_JP">
+			<Text>スラリとした体型、滝のように流れる美しい銀髪、そして青紫の瞳。彼女は影でできた黒いドレスを着ており、心臓の鼓動に合わせてわずかに揺れているように見えます。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_ECHIDNA_QUOTE" Language="ja_JP">
+			<Text>その外観は白と黒を組み合わせたもので、厳しさと優雅さの美しさがありありと表れています。彼女は腰まで届く白い髪と真っ白な肌を持ち、常に純黒のスカートを着ており、よりカジュアルな服装を選ぶことはほとんどありません、彼女はしばしば黒い蝶の形をしたヘアピンを付けています、彼女の瞳孔は濃い黒で、人間の目が輝いています。持つことのできない知性。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_MINERVA_QUOTE" Language="ja_JP">
+			<Text>すらっとした美しい女の子として描かれています。彼女の光沢のあるブロンドのポニーテールは頬の片側に垂れていました。透き通るようなブルー​​の澄んだ瞳。動きやすい短いスカートと白ベースのチュニックを着ています。ミネルヴァは身長は低いですが、胸もヒップも豊かで魅力的な体型でした。健康的で活力のある印象を与えます。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_EMILIA_QUOTE" Language="ja_JP">
+			<Text>長いストレートの銀髪とチアノーゼの瞳を持つ美少女。銀髪の容姿と半分妖精の血を引く彼女は、「嫉妬深い」魔女・シャティーラと同じイメージを持つため、ルグニカの人々から恐れられている。</Text>
+		</Replace>
+		<Replace Tag="LOC_ERA_MAJO_SATELLA" Language="ja_JP">
+			<Text>『大罪の魔女』における「嫉妬」の代表格。</Text>
+		</Replace>
+		<Replace Tag="LOC_ERA_MAJO_ECHIDNA" Language="ja_JP">
+			<Text>この世のあらゆる知恵を追い求め、死んでもなお諦めずにあらゆる知識を追い求める「強欲の魔女」。</Text>
+		</Replace>
+		<Replace Tag="LOC_ERA_MAJO_MINERVA" Language="ja_JP">
+			<Text>能力は治癒であり、因果を歪めて傷つける原理であり、それにより世界のマナのバランスが崩れ、天変地異が起こりやすくなる。したがって、人が治癒するたびに、世界は少しずつ滅びに近づいていると言えます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ERA_MAJO_EMILIA" Language="ja_JP">
+			<Text>エルフの魔法使いとして優れた資質を持ち、偉大なエルフのパーカーと契約を結び、同時に多くのマイクロエルフの力を利用することになる。熱を操りアイスコーンや氷の壁などを作り出して戦う火属性の魔法を得意とする。しかし、マイクロエルフの助けを借りて、地、水、火、風の四大要素のすべての魔法を使用できるようになります。</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_WITCHCULT_NAME" Language="ja_JP">
+			<Text>魔女教団</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WITCHCULT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>世界から『羨望の魔女』を崇拝する教団とされ、400年前に創立された。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WITCHCULT_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>傲慢、怒り、怠惰、色欲、暴食、色欲などと呼ばれる大罪の大司教たちがいます。しかし今、【傲慢】の席は空いている。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WITCHCULT_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>【福音】の指示に従って行動する。目的は『嫉妬の魔女』を降臨させることであり、適切な容器を常に探している。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WITCHCULT_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
+			<Text>目的を達成するには手段を選ばず、罪のない人々の命を奪い、多数の死傷者を出すことが多いため、世界では悪意の象徴とされている。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

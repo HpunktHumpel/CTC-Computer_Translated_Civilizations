@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May 14 12:47:06 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_NAME" Language="ru_RU">
+			<Text>ревнивая ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_DESCRIPTION" Language="ru_RU">
+			<Text>＜Ведьма ревности＞Шатила</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_ADJECTIVE" Language="ru_RU">
+			<Text>ревнивая ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ENVY_NAME" Language="ru_RU">
+			<Text>возвращение смерти</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ENVY_DESCRIPTION" Language="ru_RU">
+			<Text>Когда население города каждый раз достигает 8 [ICON_Citizen], все строители, произведенные в городе, получают дополнительно +1 [ICON_Charges] к времени строительства. При достижении 8 жителей [ICON_Citizen] население города [ICON_Citizen] уменьшается до 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_SATELLA_NAME" Language="ru_RU">
+			<Text>Шатила</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_SATELLA_NAME" Language="ru_RU">
+			<Text>невидимая рука</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_SATELLA_DESCRIPTION" Language="ru_RU">
+			<Text>Строители получают +1 [ICON_Charges] к количеству построек. Когда население города [ICON_Citizen] достигает 8 человек, в городе появляется строитель. Когда население города [ICON_Citizen] равно 1, вся продукция города будет +100%. [НОВАЯ ЛИНИЯ]
+[ICON_Production] Производительность и [ICON_Food] еда +15%, когда население города составляет 1 [ICON_Citizen], если город достигает 5 [ICON_Citizen] населения, значение технологии изменится на [ICON_Science] и значение культуры [ICON_Culture]. +10%. Когда население города достигает 8 [ICON_Citizen] каждый раз, производство вышеуказанного города будет увеличено на + 5%.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_SATELLA_NAME" Language="ru_RU">
+			<Text>вся область любви</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_SATELLA_DESCRIPTION" Language="ru_RU">
+			<Text>Будут построены города с большим населением. Нравится густонаселенная цивилизация в окружающем городе [ICON_Citizen]. Не любит цивилизации с небольшими городскими территориями и уязвимой лояльностью.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SHADOW_ZONE_NAME" Language="ru_RU">
+			<Text>Земли теней</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SHADOW_ZONE_DESCRIPTION" Language="ru_RU">
+			<Text>В «Ведьме зависти» есть зона промышленной деятельности, заменяющая промышленную зону. [NEWLINE]+4 [ICON_Production] Производство после разблокировки «Ученик». Когда население города [ICON_Citizen] достигает 8 каждый раз, все промышленные здания в городе будут иметь дополнительную производственную мощность +2 [ICON_Production]. Когда население города [ICON_Citizen] равно 1, производство в этой области увеличивается на 4 [ICON_Production]. [NEWLINE]Предоставляет [ICON_Housing] жилье на основе очарования клетки,[COLOR:Red], но оно взаимоисключающее с районами и не может быть построено в том же городе, что и районы. [КОНЕЦЦВЕТ]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_ATELIER_NAME" Language="ru_RU">
+			<Text>мастерская ведьмы</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_ATELIER_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание Ведьмы Зависти, заменяет Фабрику. [NEWLINE]+4 [ICON_Production] Производство для всех городов в пределах 6 клеток. После исследования технологии «Электричество» здание может добавить +4 [ICON_Culture] к культурной ценности города, в котором оно находится. Этот бонус можно применить только один раз в одном городе, и строительство нескольких зданий этого типа в пределах 6 клеток от центра города не даст дополнительных бонусов.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_NAME" Language="ru_RU">
+			<Text>похоть ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_DESCRIPTION" Language="ru_RU">
+			<Text>＜Жадная ведьма＞Ехидна</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_ADJECTIVE" Language="ru_RU">
+			<Text>похоть ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_GREED_NAME" Language="ru_RU">
+			<Text>книга мудрости</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_GREED_DESCRIPTION" Language="ru_RU">
+			<Text>Начните с «Астрологии» [ICON_TechBoosted] Эврика. Города со «Святилищем» будут иметь следующие эффекты:[NEWLINE]Здания колледжа и промышленности можно приобрести за [ICON_Faith] Веру. Город получает [ICON_Production] производство за ход, равное 30% от [ICON_Faith], которое он получает за ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_ECHIDNA_NAME" Language="ru_RU">
+			<Text>Ехидна</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_ECHIDNA_NAME" Language="ru_RU">
+			<Text>любовь, мечта, надежда</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_ECHIDNA_DESCRIPTION" Language="ru_RU">
+			<Text>Город со «святилищем» будет иметь следующие эффекты: каждый раз, когда шахта примыкает к шахте, «святилище» будет иметь -1 [ICON_Production] производства; каждый раз, когда шахта примыкает к «святилищу», шахта будет иметь +1 [ICON_Production] производство и [ICON_Culture] культуру.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_ECHIDNA_NAME" Language="ru_RU">
+			<Text>жажда отказа</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_ECHIDNA_DESCRIPTION" Language="ru_RU">
+			<Text>Стремление создавать отрасли, отдавая предпочтение цивилизациям, которые также сосредоточены на производстве [ICON_Production].</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAJO_SANTUARY_NAME" Language="ru_RU">
+			<Text>Святилище</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAJO_SANTUARY_DESCRIPTION" Language="ru_RU">
+			<Text>Характерная зона промышленной деятельности Жадной Ведьмы, которая заменяет промышленную зону и дешевле в строительстве, разблокируется астрологией. Бонус смежности производства [ICON_Production] в области [NEWLINE] также дает [ICON_Faith] веру. [NEWLINE][ICON_GreatProphet] Великий пророк может создать религию в Санктуарии. Может активировать культурную бомбу. [ЦВЕТ: красный] несовместим со Святой землей и не может быть построен в том же городе, что и Святая земля. [КОНЕЦЦВЕТ]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_WORKSHOP_NAME" Language="ru_RU">
+			<Text>мастерская ведьмы</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_WORKSHOP_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание Lust Witch, которое заменяет Мастерскую. [NEWLINE]Покупка миссионеров разрешена. Можно купить только за [ICON_Faith] Веру.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_FACTORY_NAME" Language="ru_RU">
+			<Text>фабрика ведьм</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_FACTORY_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание Lust Witch, заменяет Factory. [NEWLINE]Его бонус производства [ICON_Production] распространяется на все центры города в пределах 6 клеток, которые не получают бонус этого типа здания. [NEWLINE]Позволяет покупать Апостолов, Гуру, Инквизиторов и монахов соответствующей веры. Эти юниты можно приобрести только за веру [ICON_Faith].</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_MINE_PRODUCTION_DEBUFF" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство на соседних участках шахты.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_NATURALWONDER_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство соседних природных чудес.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_MOUNTAIN_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство из соседних тайлов гор.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_FOREST_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство из соседних тайлов леса.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_NAME" Language="ru_RU">
+			<Text>злая ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_DESCRIPTION" Language="ru_RU">
+			<Text>＜Ведьма гнева＞ Минерва</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_ADJECTIVE" Language="ru_RU">
+			<Text>Злая ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ANGER_NAME" Language="ru_RU">
+			<Text>регенерация мира</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ANGER_DESCRIPTION" Language="ru_RU">
+			<Text>Если война объявлена, производство [ICON_Production] +165% (уменьшается на 33% каждые три хода). [NEWLINE]Здания в Fists of Wrath получают +2 [ICON_Production] к производству и дают городам +10% [ICON_Production] к производству, когда вы не воюете ни с одной цивилизацией.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_MINERVA_NAME" Language="ru_RU">
+			<Text>Минерва</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_MINERVA_NAME" Language="ru_RU">
+			<Text>Странный Рагнар</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_MINERVA_DESCRIPTION" Language="ru_RU">
+			<Text>Когда происходит битва, лечите все повреждения и расходуйте [ICON_Faith] Веры пропорционально урону. Всякий раз, когда срабатывает эффект лечения, есть определенный шанс, что произойдут различные стихийные бедствия. [NEWLINE]Боевые единицы невосприимчивы к стихийным бедствиям.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_MINERVA_NAME" Language="ru_RU">
+			<Text>гневный блиц</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_MINERVA_DESCRIPTION" Language="ru_RU">
+			<Text>Если бы его заклеймили воюющим из-за этой войны, он бы никогда не объявил войну и не попытался бы помочь тем, кто поддерживает мир. Ненавижу боевиков.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RAGE_FIST_NAME" Language="ru_RU">
+			<Text>кулак ярости</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RAGE_FIST_DESCRIPTION" Language="ru_RU">
+			<Text>Характерная зона промышленной деятельности Wrathful Witch, которая заменяет промышленную зону, открывается раньше и стоит меньше. [NEWLINE]Может увеличить восстановление здоровья соседних юнитов. Если другие юниты начинают двигаться из Кулака Гнева, они могут получить 1 очко бонуса движения [ICON_Movement]. [NEWLINE]Кулак гнева — это оборонительная зона с возможностью дальней атаки, [ЦВЕТ:красный], но она несовместима с лагерем и не может быть построена в том же городе, что и лагерь. [КОНЕЦЦВЕТ]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_PLANT_NAME" Language="ru_RU">
+			<Text>Печь гнева</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_PLANT_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальное здание Ведьмы Гнева, заменяющее Электростанцию. Игнорирует обычные технические требования, показывает ресурсы урана [ICON_RESOURCE_URANIUM]. [NEWLINE]Автоматическое преобразование любого количества [ICON_RESOURCE_URANIUM] урана в [ICON_Power] электроэнергию и электроэнергию в городах в пределах 6 ячеек со скоростью:[NEWLINE][ICON_Bullet]1[ICON_RESOURCE_URANIUM]урана[ICON_PowerRight]16 [ICON_Power] электроэнергии. [NEWLINE][ICON_Bullet] выбрасывает в атмосферу небольшое количество CO2[NEWLINE]Его бонусы [ICON_Production] к производительности и [ICON_Science] к науке распространяются на все центры городов в пределах 6 клеток, которые не получают бонусы от строительства электростанций.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_BASE_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_VOLCANO_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство из соседних тайлов вулкана.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_VOLCANO_SCIENCE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Science] Значение науки от соседних плиток вулкана.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_RIVER_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда из соседних рек.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_RIVER_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Добыча из соседних рек.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_COAST_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство из соседних тайлов побережья и озера.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_COAST_CULTURE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Culture] Значение культуры соседних участков побережья и озера.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_GRASS_GOLD" Language="ru_RU">
+			<Text>+{1_num}[ICON_Gold] Золота за соседние клетки пастбищ.</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_PLAIN_GOLD" Language="ru_RU">
+			<Text>+{1_num}[ICON_Gold] золота с соседних клеток равнин.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_NAME" Language="ru_RU">
+			<Text>Замораживающая ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_DESCRIPTION" Language="ru_RU">
+			<Text>＜Замороженная Ведьма＞Эмилия</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_ADJECTIVE" Language="ru_RU">
+			<Text>Заморозить Ведьму</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_FROZEN_NAME" Language="ru_RU">
+			<Text>Замороженная связь</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_FROZEN_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] Боевая мощь, когда воинская часть сражается в ледяной или снежной ячейке. Не получает боевые дебаффы при ранении. [NEWLINE]Вражеский отряд -1 [ICON_Strength] к боевой мощи после сражения с вражеским отрядом. Дополнительные -1 [ICON_Movement] движения каждые три раза.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_BLESS_NAME" Language="ru_RU">
+			<Text>договор</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_BLESS_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] Боевая сила при сражении в ледяной или снежной клетке. Не получает боевые дебаффы при ранении.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_EMILIA_COMBAT_BY_PROPERTY_DESCRIPTION" Language="ru_RU">
+			<Text>+{Property}, контракт с Великим Эльфом</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_EMILIA_NAME" Language="ru_RU">
+			<Text>Эмилия</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_EMILIA_NAME" Language="ru_RU">
+			<Text>Сила микро-пикси</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_EMILIA_DESCRIPTION" Language="ru_RU">
+			<Text>Бонус смежности производства [ICON_Production] для областей на вечной мерзлоте и снегу также обеспечивает науку [ICON_Science]. Каждый тайл тундры или тундровых холмов в пределах 3 тайлов от территории города дает городу +1 [ICON_Faith] веры и +1 [ICON_Production] производства за каждый тайл Snow или Snow Hills выше. Удваивает производительность и дает +1 [ICON_Science] значение технологии и + 1 значение культуры [ICON_Culture]. [NEWLINE]При столкновении со снежной бурей есть определенный шанс, что мерзлая почва и снежные клетки города, к которому вы принадлежите, получат +1 [ICON_Food] еды, +1 [ICON_Faith] веры или +1 [ICON_Culture] культуры.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_EMILIA_NAME" Language="ru_RU">
+			<Text>клятва под снегом</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_EMILIA_DESCRIPTION" Language="ru_RU">
+			<Text>Если другая сторона не выполнит своих дипломатических обязательств, она не возьмет на себя инициативу нападения на своих соседей. Любит цивилизации, которые живут в мире со своими соседями, и не любит цивилизации, которые воюют со своими соседями.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RE0_GAKUEN_NAME" Language="ru_RU">
+			<Text>Академия другого мира</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RE0_GAKUEN_DESCRIPTION" Language="ru_RU">
+			<Text>Характерная зона промышленной деятельности Frozen Witch, которая заменяет промышленную зону, открывается раньше и стоит меньше. [NEWLINE]Здания в академии получают [ICON_Science] науку, равную [ICON_Production] производству, +1 [ICON_Science] науку от каждого тайла снега или снежного холма в городе, [COLOR:Red]. Однако это взаимоисключающее значение для колледжа. и не может быть построен в том же городе, что и колледж. [КОНЕЦЦВЕТ]</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_TUNDRA_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство из соседних тайлов тундры.</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_TUNDRAHILL_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство на соседних клетках Tundra Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_BARRIER_REEF_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Добыча соседнего чуда природы Большого Барьерного рифа.</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_PAMUKKALE_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство соседнего природного чуда Памуккале.</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_JUNGLE_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство из соседних тайлов тропического леса.</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_GEOTHERMAL_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство из соседних ячеек геотермальной трещины.</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_REEF_PRODUCTIONE" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство из соседних плиток рифа.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EMILIA_NAME" Language="ru_RU">
+			<Text>Замораживающая ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EMILIA_DESCRIPTION" Language="ru_RU">
+			<Text>Характерный герой-юнит Эмилии, одновременно может быть только один, и у него есть уникальное дерево усиления. Можно купить только за [ICON_Faith] Веру. [NEWLINE]Невозможно получить очки опыта, так как звание исполнительного директора Паркера повышается. [NEWLINE]Повышайте боевую мощь на 1 [ICON_Strength] за каждую третью атаку, вплоть до максимума в 15 единиц боевой мощи от этого эффекта за каждую эпоху. [NEWLINE] При атаке, если у вас достаточно очков веры (параметры эпохи × 200), есть определенный шанс израсходовать очки веры для призыва Blizzard.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_NAME" Language="ru_RU">
+			<Text>Сила Великого Духа</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_DESCRIPTION" Language="ru_RU">
+			<Text>Получите +1 [ICON_Strength] к боевой мощи за каждую третью атаку, вплоть до 15 боевой мощи от этого эффекта за каждую эпоху. Получите дополнительный счетчик атак +1 каждый раз, когда приобретается ускорение.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_EMILIA_NAME" Language="ru_RU">
+			<Text>Замораживающая ведьма</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_1_2_NAME" Language="ru_RU">
+			<Text>Сила Великого Духа</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_1_2_DESCRIPTION" Language="ru_RU">
+			<Text>Научитесь контролировать территорию, соседние отряды противника -5 [ICON_Strength] боевой мощи и -1 [ICON_Movement] мощи движения.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_NAME" Language="ru_RU">
+			<Text>Сила Земного Духа</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Strength] к боевой мощи при защите от атак юнитов ближнего боя. +7 [ICON_Strength] Боевая мощь при защите от дальних или фланговых атак.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_PREVIEW_TEXT" Language="ru_RU">
+			<Text>+{1_Amount} сила духа земли</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_3_NAME" Language="ru_RU">
+			<Text>Сила Водяного Духа</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_3_DESCRIPTION" Language="ru_RU">
+			<Text>Только соседние вражеские юниты могут обнаружить этот юнит. После победы над вражеским отрядом получите [ICON_Faith] Веру, равную 50% от его базовой [ICON_Strength] боевой силы. (на стандартной скорости игры)</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_1_NAME" Language="ru_RU">
+			<Text>Сила Духа Ветра</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_1_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Range] диапазон. +1 [ICON_Movement] Движение.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_3_NAME" Language="ru_RU">
+			<Text>Сила огненного духа</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_3_DESCRIPTION" Language="ru_RU">
+			<Text>100% эффективность при атаке городов и лагерей на расстоянии, отсутствие боевых дебаффов при повреждении.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PUCK_NAME" Language="ru_RU">
+			<Text>Последний зверь вечной мерзлоты</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PUCK_DESCRIPTION" Language="ru_RU">
+			<Text>[COLOR_RED] Когда Ледяная Ведьма будет убита, она появится на месте смерти, атакуя независимо от того, друг это или враг. [КОНЕЦЦВЕТ]. Новых ледяных ведьм нельзя купить, пока в игре находится «Последний зверь вечной мерзлоты».</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_BLIZZARD" Language="ru_RU">
+			<Text>метель:</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_LOWFAITH" Language="ru_RU">
+			<Text>[ICON_Faith][COLOR:Red] недостаточно веры[ENDCOLOR] (необходимо {1_iAmount}).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_COOLDOWN" Language="ru_RU">
+			<Text>[COLOR:Red] остывает[ENDCOLOR] (требуется еще {1_iAmount} раундов).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_MOVEMENT" Language="ru_RU">
+			<Text>[ICON_Movement][COLOR:Red] недостаточно двигается[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_DESCRIPTION" Language="ru_RU">
+			<Text>Вызывает метель в текущей локации.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PUCK_NAME" Language="ru_RU">
+			<Text>Паркер</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PUCK_TITLE" Language="ru_RU">
+			<Text>большой эльф</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PUCK_DESCRIPTION" Language="ru_RU">
+			<Text>Характерный исполнительный директор Эмилии, которого можно назначать в иностранные города-государства, как дипломата. Имеет способность ослаблять область, чтобы помочь в защите города и увеличить выход мерзлой почвы и снежных клеток. Предусмотрен специальный юнит «Ледяная ведьма», и соответствующую позицию «Ледяной ведьмы» можно усилить одновременно с ее улучшением.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_0_1_NAME" Language="ru_RU">
+			<Text>«Последний зверь вечной мерзлоты»</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_0_1_DESCRIPTION" Language="ru_RU">
+			<Text>-5 [ICON_Strength] к боевой мощи и -1 [ICON_Movement] к силе передвижения для вражеских юнитов в пределах 3 клеток от центра города. [NEWLINE]Стоимость покупки тайлов для этого города в Снежных, Тундровых, Снежных Холмах и Тундровых Холмах уменьшена вдвое.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_1_1_NAME" Language="ru_RU">
+			<Text>договор</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_1_1_DESCRIPTION" Language="ru_RU">
+			<Text>Эффект ореола «Последнего зверя вечной мерзлоты» расширяется на три ячейки, и юниты в радиусе действия могут получать дополнительные [ICON_Faith] очки веры, когда грабят объекты и области улучшений. [NEWLINE]Регионы на замороженной почве или снежных участках или рядом с ними получают +2 [ICON_Food] еды и [ICON_Production] производства, а также +2 [ICON_Culture] культуры, если они находятся на снежных участках или рядом с ними.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_0_NAME" Language="ru_RU">
+			<Text>термоконтроль</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_0_DESCRIPTION" Language="ru_RU">
+			<Text>Эффект ауры «Последнего зверя вечной мерзлоты» расширяется на три ячейки. Атаки юнитов в пределах досягаемости могут нанести полный урон городским стенам.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_0_NAME" Language="ru_RU">
+			<Text>замороженный мир</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_0_DESCRIPTION" Language="ru_RU">
+			<Text>Эффект ауры «Последнего зверя вечной мерзлоты» удваивается.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_2_NAME" Language="ru_RU">
+			<Text>кристалл пироксена</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_2_DESCRIPTION" Language="ru_RU">
+			<Text>Замерзшая земля и снежные ячейки с ресурсами в этом городе получают удвоенные бонусы, соответствующие ресурсам, и +1 значение веры [ICON_Faith].</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_2_NAME" Language="ru_RU">
+			<Text>Осколки льда</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_2_DESCRIPTION" Language="ru_RU">
+			<Text>Улучшенный мерзлый грунт и снежные тайлы в этом городе получают удвоенный соответствующий бонус улучшений. Если в пределах 3 клеток от города есть 6 тайлов замороженной земли или снега, и все они находятся на территории игрока, город получает +10% [ICON_Production] к производству. Если это снег, добавьте культурную ценность +10% [ICON_Culture].</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_NAME" Language="ru_RU">
+			<Text>[COLOR:ResGoldLabelCS]Re: Жизнь в другом мире с нуля[ENDCOLOR]–[COLOR_RED]Ведьминское чаепитие[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_TEASER" Language="ru_RU">
+			<Text>Добавлены лидеры и цивилизации из Re:ZERO -Starting Life in Another World: The Great Sin Witch+α</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_DESCRIPTION" Language="ru_RU">
+			<Text>Добавлены лидеры и цивилизации из Re:ZERO -Starting Life in Another World: The Great Sin Witch+α</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_SPECIAL_THANK" Language="ru_RU">
+			<Text>Серия учебных видеороликов Hemmelfort B station и вспомогательные инструменты MOD принесли большую пользу.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_SATELLA_DOM_TEXT" Language="ru_RU">
+			<Text>Я люблю тебя - это ты даришь мне свет, это ты держишь меня за руку в темноте и покажешь мне мир снаружи, это ты держишь меня за руку и остаешься со мной в мои одинокие и робкие ночи. Это ты, скажи мне поцелуем, что я никогда не был один. Я умышленно получил от тебя слишком много... Итак, я люблю тебя, потому что, потому что ты дал мне все.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_ECHIDNA_DOM_TEXT" Language="ru_RU">
+			<Text>Я ведьма, злая ведьма, которая иногда делает добро. -- Ах, почему любовь убывает?</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_MINERVA_DOM_TEXT" Language="ru_RU">
+			<Text>Мой кулак может регенерировать мир! Мой гнев очистит мир! ! мой гнев! Успокаивающий этот кулак! Это мой ответ --! !</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_EMILIA_DOM_TEXT" Language="ru_RU">
+			<Text>— Меня зовут Эмилия, просто Эмилия. —</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_1" Language="ru_RU">
+			<Text>Ремус</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_2" Language="ru_RU">
+			<Text>Элвин</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_3" Language="ru_RU">
+			<Text>Карс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_4" Language="ru_RU">
+			<Text>Шон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_5" Language="ru_RU">
+			<Text>Лео</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_6" Language="ru_RU">
+			<Text>Алекс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_7" Language="ru_RU">
+			<Text>Оскар</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_8" Language="ru_RU">
+			<Text>Себастьян</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_9" Language="ru_RU">
+			<Text>Эйден</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_MALE_10" Language="ru_RU">
+			<Text>Натан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_1" Language="ru_RU">
+			<Text>лилия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_2" Language="ru_RU">
+			<Text>Аиша</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_3" Language="ru_RU">
+			<Text>Сара</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_4" Language="ru_RU">
+			<Text>ава</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_5" Language="ru_RU">
+			<Text>Тина</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_6" Language="ru_RU">
+			<Text>Белла</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_7" Language="ru_RU">
+			<Text>Клэр</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_8" Language="ru_RU">
+			<Text>Фиона</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_9" Language="ru_RU">
+			<Text>Лена</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_RE0_MAJO_FEMALE_10" Language="ru_RU">
+			<Text>София</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_0" Language="ru_RU">
+			<Text>«Сад теней»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_1" Language="ru_RU">
+			<Text>Арья</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_2" Language="ru_RU">
+			<Text>Бертия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_3" Language="ru_RU">
+			<Text>Канос</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_4" Language="ru_RU">
+			<Text>Делавия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_5" Language="ru_RU">
+			<Text>Элиза</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_6" Language="ru_RU">
+			<Text>Ферна</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_7" Language="ru_RU">
+			<Text>Грасия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_8" Language="ru_RU">
+			<Text>Сайлас</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_9" Language="ru_RU">
+			<Text>Вильня</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ENVY_10" Language="ru_RU">
+			<Text>Золя</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_0" Language="ru_RU">
+			<Text>&quot;Город мечты&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_1" Language="ru_RU">
+			<Text>Альберто</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_2" Language="ru_RU">
+			<Text>Биска</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_3" Language="ru_RU">
+			<Text>Куро</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_4" Language="ru_RU">
+			<Text>Давио</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_5" Language="ru_RU">
+			<Text>Игна</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_6" Language="ru_RU">
+			<Text>Феликс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_7" Language="ru_RU">
+			<Text>Глот</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_8" Language="ru_RU">
+			<Text>Севилья</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_9" Language="ru_RU">
+			<Text>Виктор</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_GREED_10" Language="ru_RU">
+			<Text>зор</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_0" Language="ru_RU">
+			<Text>«Город ярости»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_1" Language="ru_RU">
+			<Text>Рестория</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_2" Language="ru_RU">
+			<Text>Альварес</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_3" Language="ru_RU">
+			<Text>Белкастер</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_4" Language="ru_RU">
+			<Text>Рекстон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_5" Language="ru_RU">
+			<Text>Нардия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_6" Language="ru_RU">
+			<Text>Филгрейв</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_7" Language="ru_RU">
+			<Text>Мариана</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_8" Language="ru_RU">
+			<Text>Тарсис</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_9" Language="ru_RU">
+			<Text>Селеста</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_ANGER_10" Language="ru_RU">
+			<Text>Ренуар</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_0" Language="ru_RU">
+			<Text>«Лес духов»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_1" Language="ru_RU">
+			<Text>Андрей</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_2" Language="ru_RU">
+			<Text>исард</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_3" Language="ru_RU">
+			<Text>кельтская</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_4" Language="ru_RU">
+			<Text>Новая звезда</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_5" Language="ru_RU">
+			<Text>хина</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_6" Language="ru_RU">
+			<Text>Фрейя</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_7" Language="ru_RU">
+			<Text>Грасия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_8" Language="ru_RU">
+			<Text>сола</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_9" Language="ru_RU">
+			<Text>Эска</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_RE0_FROZEN_10" Language="ru_RU">
+			<Text>Мира</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_SATELLA_QUOTE" Language="ru_RU">
+			<Text>У нее стройная фигура, красивые серебристые волосы, ниспадающие водопадом, и сине-фиолетовые глаза. На ней черное платье из теней, которое, кажется, слегка колеблется в зависимости от биения ее сердца.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_ECHIDNA_QUOTE" Language="ru_RU">
+			<Text>Внешний вид представляет собой сочетание белого и черного, а красота суровости и элегантности проявляется почти ярко. У нее белые волосы до талии и белоснежный цвет лица, и она всегда носит чисто черную юбку, редко выбирая более повседневную одежду; она часто носит черную заколку в виде бабочки; ее зрачки темно-черные, с человеческими глазами сияющими. интеллекта, которым нельзя обладать.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_MINERVA_QUOTE" Language="ru_RU">
+			<Text>Описывается как красивая, стройная девушка. Ее блестящий белокурый хвост упал на одну сторону ее щеки. Ее ясные глаза почти прозрачно-голубого цвета. Она носит короткую юбку для легкости движений и тунику на белой основе. Минерва была невысокого роста, но обладала пышной грудью и бедрами, что делало ее фигуру привлекательной. Она производит впечатление здоровья и жизненной силы.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RE0_EMILIA_QUOTE" Language="ru_RU">
+			<Text>Красивая девушка с длинными прямыми серебристыми волосами и синюшными глазами. Седовласая внешность и полуволшебная кровь имеют тот же образ, что и «завистливая» ведьма-Шатила, поэтому ее боятся жители Лугницы.</Text>
+		</Replace>
+		<Replace Tag="LOC_ERA_MAJO_SATELLA" Language="ru_RU">
+			<Text>Представитель «ревности» в «Ведьме смертного греха».</Text>
+		</Replace>
+		<Replace Tag="LOC_ERA_MAJO_ECHIDNA" Language="ru_RU">
+			<Text>В погоне за всей мудростью мира, даже после смерти, она не хочет сдаваться и преследует все знания «Ведьмы Жадности».</Text>
+		</Replace>
+		<Replace Tag="LOC_ERA_MAJO_MINERVA" Language="ru_RU">
+			<Text>Способность исцелять, а принцип состоит в том, чтобы исказить причину и следствие причинения вреда, что сделает ману в мире несбалансированной и сделает более вероятными стихийные бедствия и изменения. Поэтому можно сказать, что каждый раз, когда человек излечивается, мир немного приближается к гибели.</Text>
+		</Replace>
+		<Replace Tag="LOC_ERA_MAJO_EMILIA" Language="ru_RU">
+			<Text>Обладает отличными качествами эльфа-чернокнижника, подписал контракт с великим эльфом Паркером и при этом будет использовать силу многих микроэльфов. Он хорош в использовании магии огненных атрибутов, которая манипулирует теплом для создания ледяных конусов, ледяных стен и т. Д. Для борьбы. Но с помощью микроэльфов можно использовать всю магию четырех стихий земли, воды, огня и ветра.</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_WITCHCULT_NAME" Language="ru_RU">
+			<Text>Культ Ведьмы</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WITCHCULT_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Секта, которую мир считает поклоняющейся [Ведьме Зависти], была основана 400 лет назад.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WITCHCULT_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Есть архиепископы великого греха, которые называются высокомерием, гневом, леностью, похотью, чревоугодием и вожделением. Но теперь место [Высокомерия] вакантно.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WITCHCULT_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Действуйте согласно наставлениям [Евангелия]. Цель состоит в том, чтобы позволить [Ведьме ревности] спуститься, и я постоянно ищу подходящий контейнер.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WITCHCULT_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>Для достижения цели любыми средствами часто уносит жизни невинных людей и вызывает большое количество человеческих жертв, поэтому считается в мире символом злобы.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

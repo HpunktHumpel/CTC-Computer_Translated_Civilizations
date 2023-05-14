@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_NAME" Language="zh_Hant_HK">
+			<Text>嫉妒魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>＜嫉妒魔女＞莎緹拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ENVY_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>嫉妒魔女的</Text>
+		</Replace>
+		
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ENVY_NAME" Language="zh_Hant_HK">
+			<Text>死亡回歸</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ENVY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當城市人口每次達到8 [ICON_Citizen] 人口時，則該城市生產的所有建造者額外獲得+1 [ICON_Charges] 建造次數。當達到8 [ICON_Citizen] 人口時，城市 [ICON_Citizen] 人口減少到1。</Text>
+		</Replace>
+		
+		<!-- 領袖 -->
+		<Replace Tag="LOC_LEADER_RE0_SATELLA_NAME" Language="zh_Hant_HK">
+			<Text>莎緹拉</Text>
+		</Replace>
+		
+		<!-- 領袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_SATELLA_NAME" Language="zh_Hant_HK">
+			<Text>不可視之手</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_SATELLA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				建造者獲得+1 [ICON_Charges] 建造次數。當城市 [ICON_Citizen] 人口達到8時，該城市獲得一名建造者。當城市 [ICON_Citizen] 人口為1時，該城市全部產出+100%。[NEWLINE]
+				城市人口1 [ICON_Citizen] 人口以上時 [ICON_Production] 生產力與 [ICON_Food] 食物+15%，若城市達到5 [ICON_Citizen] 人口時，則改為 [ICON_Science] 科技值與 [ICON_Culture] 文化值+10%。當城市人口每次達到8 [ICON_Citizen] 人口時，則該城市以上產出額外+5%。
+			</Text>
+		</Replace>
+		
+		<!-- 領袖議程 -->
+		<Replace Tag="LOC_AGENDA_RE0_SATELLA_NAME" Language="zh_Hant_HK">
+			<Text>戀慕的全域</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_SATELLA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>會建造人口眾多的城市。喜歡在周邊城市 [ICON_Citizen] 人口密集的文明。不喜歡周邊城市領土較小且忠誠度易受影響的文明。</Text>
+		</Replace>
+
+		<!-- 特色區域 -->
+		<Replace Tag="LOC_DISTRICT_SHADOW_ZONE_NAME" Language="zh_Hant_HK">
+			<Text>影之域</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SHADOW_ZONE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>嫉妒魔女特色工業活動區，取代工業區。[NEWLINE]解鎖「學徒」後，+4 [ICON_Production] 生產力。當城市 [ICON_Citizen] 人口每次達到8時，該城市所有工業區建築額外+2 [ICON_Production] 生產力。當城市 [ICON_Citizen] 人口為1時，該區域+4 [ICON_Production] 生產力。[NEWLINE]基於單元格魅力提供 [ICON_Housing] 住房，[COLOR:Red]但與社區互斥，無法和社區建在同一城市中。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_ATELIER_NAME" Language="zh_Hant_HK">
+			<Text>魔女工坊</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_ATELIER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>嫉妒魔女特色建築，取代工廠。[NEWLINE]6個單元格以內的所有城市+4 [ICON_Production] 生產力。研究「電力」科技後，該建築能為所在城市額外+4 [ICON_Culture] 文化值。此加成僅能在同座城市內施用一次，在市中心6單元格範圍內建造多座此建築並不會提供額外加成。</Text>
+		</Replace>
+		
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_NAME" Language="zh_Hant_HK">
+			<Text>強欲魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>＜強欲魔女＞艾姬多娜</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_GREED_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>強欲魔女的</Text>
+		</Replace>
+
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_GREED_NAME" Language="zh_Hant_HK">
+			<Text>睿智之書</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_GREED_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>開局獲得「占星術」 [ICON_TechBoosted] 尤里卡。擁有「聖域」的城市將擁有以下效果：[NEWLINE]可用 [ICON_Faith] 信仰值購買學院和工業區建築。城市每回合獲得等同於其每回合所獲 [ICON_Faith] 信仰值30%的 [ICON_Production] 生產力。</Text>
+		</Replace>
+
+		<!-- 領袖 -->
+		<Replace Tag="LOC_LEADER_RE0_ECHIDNA_NAME" Language="zh_Hant_HK">
+			<Text>艾姬多娜</Text>
+		</Replace>
+
+		<!-- 領袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_ECHIDNA_NAME" Language="zh_Hant_HK">
+			<Text>愛、夢、希望</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_ECHIDNA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擁有「聖域」的城市將擁有以下效果：每與一個礦山相鄰，則「聖域」-1 [ICON_Production] 生產力；礦山每與一座「聖域」相鄰，則礦山+1 [ICON_Production] 生產力和 [ICON_Culture] 文化。</Text>
+		</Replace>
+
+		<!-- 領袖議程 -->
+		<Replace Tag="LOC_AGENDA_RE0_ECHIDNA_NAME" Language="zh_Hant_HK">
+			<Text>拒絕的強欲</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_ECHIDNA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>努力建立工業，喜歡同樣專注於 [ICON_Production] 生產力的文明。</Text>
+		</Replace>
+
+		<!-- 特色區域 -->
+		<Replace Tag="LOC_DISTRICT_MAJO_SANTUARY_NAME" Language="zh_Hant_HK">
+			<Text>聖域</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAJO_SANTUARY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強欲魔女特色工業活動區，取代工業區且造價更為低廉，占星術解鎖。[NEWLINE]區域的 [ICON_Production] 生產力相鄰加成也提供 [ICON_Faith] 信仰值。[NEWLINE][ICON_GreatProphet] 大預言家可在聖域創建一個宗教。可觸發文化炸彈。[COLOR:Red]但與聖地互斥，無法和聖地建在同一城市中。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_WORKSHOP_NAME" Language="zh_Hant_HK">
+			<Text>魔女工坊</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_WORKSHOP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強欲魔女特色建築，取代工作坊。[NEWLINE]允許購買傳教士。只能使用 [ICON_Faith] 信仰值進行購買。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_FACTORY_NAME" Language="zh_Hant_HK">
+			<Text>魔女工廠</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_FACTORY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>強欲魔女特色建築，取代工廠。[NEWLINE]其 [ICON_Production] 生產力加成可延展至6單元格範圍內所有未獲得此建築類型加成之市中心。[NEWLINE]允許購買使徒、上師和審判官，如果擁有相應信仰還可購買武僧。這些單位僅能透過 [ICON_Faith] 信仰值購買。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREED_DISTRICT_MINE_PRODUCTION_DEBUFF" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰礦山單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_NATURALWONDER_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰自然奇觀。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_MOUNTAIN_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰山脈單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREED_DISTRICT_FOREST_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰的樹林單元格。</Text>
+		</Replace>
+
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_NAME" Language="zh_Hant_HK">
+			<Text>憤怒魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>＜憤怒魔女＞密涅瓦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_ANGER_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>憤怒魔女的</Text>
+		</Replace>
+
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ANGER_NAME" Language="zh_Hant_HK">
+			<Text>世界再生</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_ANGER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>若遭到宣戰，則+165% [ICON_Production] 生產力（每三回合衰減33%）。[NEWLINE]每當你不與任何文明發生戰爭時，憤怒之拳中的建築獲得+2 [ICON_Production] 生產力，並為城市提供+10% [ICON_Production] 生產力。</Text>
+		</Replace>
+
+		<!-- 領袖 -->
+		<Replace Tag="LOC_LEADER_RE0_MINERVA_NAME" Language="zh_Hant_HK">
+			<Text>密涅瓦</Text>
+		</Replace>
+
+		<!-- 領袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_MINERVA_NAME" Language="zh_Hant_HK">
+			<Text>歐德·拉格納</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_MINERVA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>發生戰鬥時，治癒所有傷害並消耗與傷害等比例之 [ICON_Faith] 信仰值。每當觸發治療效果時，有一定機率發生各種自然災害。[NEWLINE]單位不會受到自然災害傷害。</Text>
+		</Replace>
+
+		<!-- 領袖議程 -->
+		<Replace Tag="LOC_AGENDA_RE0_MINERVA_NAME" Language="zh_Hant_HK">
+			<Text>憤怒的閃擊</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_MINERVA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>如果會因為這場戰爭而被打上好戰者的標籤，那他絕不會宣戰，試圖幫助那些維持和平的人。討厭好戰份子。</Text>
+		</Replace>
+
+		<!-- 特色區域 -->
+		<Replace Tag="LOC_DISTRICT_RAGE_FIST_NAME" Language="zh_Hant_HK">
+			<Text>憤怒之拳</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RAGE_FIST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>憤怒魔女特色工業活動區，取代工業區，更早解鎖且造價更為低廉。[NEWLINE]能增加相鄰單位的生命值回復。若其他單位從憤怒之拳周圍開始移動，則可獲得1點[ICON_Movement]移動力加成。[NEWLINE]憤怒之拳為防禦性區域且具有遠程攻擊能力，[COLOR:Red]但與營地互斥，無法和營地建在同一城市中。[ENDCOLOR]</Text>
+		</Replace>
+
+		<!-- 特色建築 -->
+		<Replace Tag="LOC_BUILDING_MAJO_PLANT_NAME" Language="zh_Hant_HK">
+			<Text>憤怒熔爐</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAJO_PLANT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>憤怒魔女特色建築，取代發電廠。忽略普通科技要求，顯示 [ICON_RESOURCE_URANIUM] 鈾資源。[NEWLINE]自動將任何數量的 [ICON_RESOURCE_URANIUM] 鈾轉化為 [ICON_Power] 電力，並為6單元格範圍內的城市供電，比率為：[NEWLINE][ICON_Bullet]1點 [ICON_RESOURCE_URANIUM] 鈾 [ICON_PowerRight] 16點 [ICON_Power] 電力。[NEWLINE][ICON_Bullet]會排放微量二氧化碳至大氣中[NEWLINE]其 [ICON_Production] 生產力和 [ICON_Science] 科技值加成可延展至6單元格範圍內所有未獲得發電廠建築加成之市中心。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_ANGER_DISTRICT_BASE_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_VOLCANO_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰火山單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_VOLCANO_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Science] 科學值，來自相鄰火山單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_RIVER_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物，來自相鄰河流。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_RIVER_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰河流。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_COAST_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰海岸與湖泊單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_COAST_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Culture] 文化值，來自相鄰海岸與湖泊單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_GRASS_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Gold] 金幣，來自相鄰草原單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_ANGER_DISTRICT_PLAIN_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Gold] 金幣，來自相鄰平原單元格。</Text>
+		</Replace>
+
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_NAME" Language="zh_Hant_HK">
+			<Text>冰結魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>＜冰結魔女＞愛蜜莉雅</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RE0_FROZEN_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>冰結魔女的</Text>
+		</Replace>
+
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_FROZEN_NAME" Language="zh_Hant_HK">
+			<Text>冰結之絆</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_RE0_FROZEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>軍事單位位於凍土或雪地單元格作戰時，+5 [ICON_Strength] 戰鬥力。受傷後不會遭受戰鬥力減益。[NEWLINE]與敵方單位戰鬥後使敵方單位-1 [ICON_Strength] 戰鬥力。每三次再額外-1 [ICON_Movement] 移動力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_BLESS_NAME" Language="zh_Hant_HK">
+			<Text>契約</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_BLESS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>位於凍土或雪地單元格作戰時，+5 [ICON_Strength] 戰鬥力。受傷後不會遭受戰鬥力減益。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_EMILIA_COMBAT_BY_PROPERTY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{Property}，來自大精靈的契約</Text>
+		</Replace>
+
+		<!-- 領袖 -->
+		<Replace Tag="LOC_LEADER_RE0_EMILIA_NAME" Language="zh_Hant_HK">
+			<Text>愛蜜莉雅</Text>
+		</Replace>
+
+		<!-- 領袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_EMILIA_NAME" Language="zh_Hant_HK">
+			<Text>微精靈之力</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RE0_EMILIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>凍土與雪地上的區域的 [ICON_Production] 生產力相鄰加成也提供 [ICON_Science] 科技值。所有城市的領土中距離3單元格範圍內的每個凍土或凍土丘陵單元格提供城市+1 [ICON_Faith] 信仰值與+1 [ICON_Production] 生產力，每個雪地或雪地丘陵單元格上述產出加倍再額外提供+1 [ICON_Science] 科技值與+1 [ICON_Culture] 文化值。[NEWLINE]當遭遇暴風雪時，有一定機率使所屬城市的凍土與雪地單元格獲得+1 [ICON_Food] 食物、+1 [ICON_Faith] 信仰值或+1 [ICON_Culture] 文化值。</Text>
+		</Replace>
+
+		<!-- 領袖議程 -->
+		<Replace Tag="LOC_AGENDA_RE0_EMILIA_NAME" Language="zh_Hant_HK">
+			<Text>雪下的誓言</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RE0_EMILIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>除非對方無法遵守外交承諾，否則不會主動攻擊鄰國。喜歡和鄰國和平相處的文明，不喜歡和鄰國開戰的文明。</Text>
+		</Replace>
+
+		<!-- 特色區域 -->
+		<Replace Tag="LOC_DISTRICT_RE0_GAKUEN_NAME" Language="zh_Hant_HK">
+			<Text>異世界學園</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RE0_GAKUEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>冰結魔女特色工業活動區，取代工業區，更早解鎖且造價更為低廉。[NEWLINE]學園中的建築獲得等同於 [ICON_Production] 生產力的 [ICON_Science] 科技值，從城市中的每個雪地或雪地丘陵單元格獲得+1 [ICON_Science] 科技值，[COLOR:Red]但與學院互斥，無法和學院建在同一城市中。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_TUNDRA_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰凍土單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_TUNDRAHILL_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰凍土丘陵單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_BARRIER_REEF_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰自然奇觀大堡礁。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_PAMUKKALE_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰自然奇觀棉堡。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_JUNGLE_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰雨林單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_GEOTHERMAL_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰地熱裂隙單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_FROZEN_DISTRICT_REEF_PRODUCTIONE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力，來自相鄰礁石單元格。</Text>
+		</Replace>
+
+		<!-- 特色單位 -->
+		<Replace Tag="LOC_UNIT_EMILIA_NAME" Language="zh_Hant_HK">
+			<Text>冰結魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EMILIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>愛蜜莉雅特色英雄單位，同時間僅能擁有一個，擁有獨特強化樹。僅可使用 [ICON_Faith] 信仰值購買。[NEWLINE]無法獲得經驗值，隨著行政長官帕克的職稱獲得強化。[NEWLINE]每進行三次攻擊獲得+1 [ICON_Strength] 戰鬥力，每時代至多由此效果獲得15戰鬥力。[NEWLINE]攻擊時，若擁有足夠的信仰值(時代參數×200)，有一定機率消耗信仰值招喚暴風雪。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_NAME" Language="zh_Hant_HK">
+			<Text>大精靈之力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMILIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每進行三次攻擊獲得+1 [ICON_Strength] 戰鬥力，每時代至多由此效果獲得15戰鬥力。每次獲得一個強化時額外獲得+1攻擊次數。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_CLASS_EMILIA_NAME" Language="zh_Hant_HK">
+			<Text>冰結魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_1_2_NAME" Language="zh_Hant_HK">
+			<Text>大精靈之力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_1_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>學會控制區，相鄰敵方單位-5 [ICON_Strength] 戰鬥力與-1 [ICON_Movement] 移動力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_NAME" Language="zh_Hant_HK">
+			<Text>土精靈之力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>防禦近戰系單位攻擊時+10 [ICON_Strength] 戰鬥力。防禦遠程攻擊或側翼攻擊時+7 [ICON_Strength] 戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_1_PREVIEW_TEXT" Language="zh_Hant_HK">
+			<Text>+{1_Amount} 土精靈之力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_3_NAME" Language="zh_Hant_HK">
+			<Text>水精靈之力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_2_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>只有相鄰敵軍單位能發現該單位。擊敗敵方單位後，可獲得等於其基本 [ICON_Strength] 戰鬥力50%的 [ICON_Faith] 信仰值。（在標準遊戲速度下）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_1_NAME" Language="zh_Hant_HK">
+			<Text>風精靈之力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1 [ICON_Range] 射程。+1 [ICON_Movement] 移動力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_3_NAME" Language="zh_Hant_HK">
+			<Text>火精靈之力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMILIA_3_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>遠程攻擊城市和營地時為100%效率，受到損傷時無戰鬥減益。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PUCK_NAME" Language="zh_Hant_HK">
+			<Text>永久凍土的終焉之獸</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PUCK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[COLOR_RED]冰結魔女遭到擊殺時，於死亡現場出現，不分敵我攻擊。[ENDCOLOR]。當永久凍土的終焉之獸在場時，無法購買新的冰結魔女。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_BLIZZARD" Language="zh_Hant_HK">
+			<Text>暴風雪：</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_LOWFAITH" Language="zh_Hant_HK">
+			<Text>[ICON_Faith][COLOR:Red]信仰值不足[ENDCOLOR]（需要{1_iAmount}）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_COOLDOWN" Language="zh_Hant_HK">
+			<Text>[COLOR:Red]冷卻中[ENDCOLOR]（還需要{1_iAmount}回合）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_MOVEMENT" Language="zh_Hant_HK">
+			<Text>[ICON_Movement][COLOR:Red]移動力不足[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_EMILIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>於當前位置招喚一場暴風雪。</Text>
+		</Replace>
+
+		<!-- 特色總督 -->
+		<Replace Tag="LOC_GOVERNOR_PUCK_NAME" Language="zh_Hant_HK">
+			<Text>帕克</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PUCK_TITLE" Language="zh_Hant_HK">
+			<Text>大精靈</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PUCK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>愛蜜莉雅特色行政長官，如同外交官可指派至外國城邦。擁有範圍減益能力藉以輔助防守城市和增強凍土與雪地單元格的產出。提供特色單位「冰結魔女」，升級時可同時提供「冰結魔女」對應位置之強化。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_0_1_NAME" Language="zh_Hant_HK">
+			<Text>『永久凍土的終焉之獸』</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_0_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>距離市中心三格內的敵方單位-5 [ICON_Strength] 戰鬥力與-1 [ICON_Movement] 移動力。[NEWLINE]此城市於雪地、凍土、雪地丘陵及凍土丘陵地形中購買單元格的花費減半。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_1_1_NAME" Language="zh_Hant_HK">
+			<Text>契約</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_1_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>『永久凍土的終焉之獸』的光環效果延長三單元格，範圍內的單位掠奪改良設施與區域可獲得額外 [ICON_Faith] 信仰值。[NEWLINE]位於或相鄰於凍土或雪地單元格的區域+2 [ICON_Food] 食物和 [ICON_Production] 生產力，若位於或相鄰於雪地，再+2 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_0_NAME" Language="zh_Hant_HK">
+			<Text>熱量控制</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_0_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>『永久凍土的終焉之獸』的光環效果延長三單元格。範圍內單位的攻擊能對城市城牆造成完整傷害。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_0_NAME" Language="zh_Hant_HK">
+			<Text>冰封世界</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_0_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>『永久凍土的終焉之獸』的光環效果翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_2_NAME" Language="zh_Hant_HK">
+			<Text>輝石結晶</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_2_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城市中擁有資源的凍土與雪地單元格獲得翻倍的資源對應加成，以及+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_2_NAME" Language="zh_Hant_HK">
+			<Text>冰之碎片</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PUCK_3_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此城市中已改良的凍土與雪地單元格獲得翻倍的改良設施對應加成。若在距離城市3單元格的範圍內有6個凍土或雪地單元格，且皆位於此玩家的領土內，則城市+10% [ICON_Production] 生產力。若是雪地再額外+10% [ICON_Culture] 文化值。</Text>
+		</Replace>
+
+		<!-- 模組說明 -->
+		<Replace Tag="LOC_RE0_MAJODACHI_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR:ResGoldLabelCS]Re:從零開始的異世界生活[ENDCOLOR]-[COLOR_RED]魔女茶會[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_TEASER" Language="zh_Hant_HK">
+			<Text>新增了來自Re:從零開始的異世界生活的大罪魔女＋α的領袖與文明</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>新增了來自Re:從零開始的異世界生活的大罪魔女＋α的領袖與文明</Text>
+		</Replace>
+		<Replace Tag="LOC_RE0_MAJODACHI_SPECIAL_THANK" Language="zh_Hant_HK">
+			<Text>Hemmelfort大佬的B站系列教學視頻、MOD輔助工具，獲益良多</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
