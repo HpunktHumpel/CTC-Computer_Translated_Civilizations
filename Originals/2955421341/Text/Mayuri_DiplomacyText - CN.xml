@@ -1,0 +1,2564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 7/29/2021 12:34:43 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_MAYURI_AGENDA_JOAO_HIGH_EXPLORATION" Language="zh_Hans_CN">
+			<Text>万由里喜欢会探索世界的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_MAYURI_AGENDA_JOAO_LOW_EXPLORATION" Language="zh_Hans_CN">
+			<Text>万由里不喜欢不探索的文明</Text>
+		</Replace>
+		
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（邀请你拜访）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（接受你的邀请）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI，交换地图信息-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（交换首都的位置）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（发表了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里寻求与你的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（发表了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里公开宣战。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里公开宣战。）</Text>
+		</Replace>
+		<!-- 败北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>我和雷霆圣堂的任务结束了，接着我的存在就会逐渐分解，归化於无。（万由里被打败了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>没什麽理由，做出了判断就消失，我就是被这样设计出来的，仅仅如此。（万由里被打败了。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI同意你的代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（已接受特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里请求特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（被接受特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（被拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你公开指责AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI公开指责你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 大使馆 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（允许设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝设立大使馆。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文化值重视”（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“幸福重视”（满意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_INCOME" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“喜欢金币”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“重工业主义者”（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦同盟”（不与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“人数主义”（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“技术追随者”（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“常备军”（军事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“战狂”（活跃於战争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“伟人代言者”（伟人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“爱惜遗产者”（奇观很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“空军力”（空军力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文明国”（击退蛮族营地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“环保人士”（致力于自然维护和国家公园建设）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“开发主义者”（热衷于伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“理想主义体质”（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“核武器带来的快乐”（积极使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_FAITH" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“虔诚”（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“探险家”（地图完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“偏执狂”（缺乏军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文化值重视”（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“幸福重视”（满意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_INCOME" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“喜欢金币”（金币収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦同盟”（与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“重工业主义者”（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_POPULATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“人数主义”（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“技术追随者”（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“常备军”（军事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“偏执狂”（充满军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“伟人代言者”（伟人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“爱惜遗产者”（奇观很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“空军力”（空军力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文明国”（放置蛮族营地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“环保人士”（破坏自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“开发主义者”（热衷于自然维护）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“理想主义体质”（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“核武器带来的快乐”（不愿使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_FAITH" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“虔诚”（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“探险家”（地图完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（已同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI允许你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（联盟谈判开始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（交易被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对条款和条件感到满意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（接受了万由里的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的索取。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里拒绝了和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI主动提出和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里许可边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里要求边境开放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被允许开放边境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被拒绝开放边境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止在边境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续在边境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的军队展开 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不采取军事行动。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、寻求军事行动的机会。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不派遣间谍。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>你不用太在意我喔，快去找别人吧。（万由里无视警告、继续从事间谍活动。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不盗挖秘宝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续盗挖秘宝。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止传教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续传教活动。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止在边境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI警告国境的军队 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不要在边境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止派遣间谍</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不盗挖秘宝</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止传教活动</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想延续同盟关系。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（许可万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被许可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被拒绝。）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“好奇心强”（积极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“好奇心强”（消极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“逢迎拍马”（迎来黄金时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“逢迎拍马”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“同情心泛滥”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“同情心泛滥”（迎来黄金时代）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“扩张主义者”（领土广阔）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“扩张主义者”（领土狭小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“地平说信徒”（消极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“地平说信徒”（积极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“大白舰队”（海军很强大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“大白舰队”（海军很贫弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_FAVOR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“煽动者”（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“煽动者”（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_TOURISM" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“观光立国”（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“观光立国”（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“宗教不寛容”（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“宗教不寛容”（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“自由主义者”（外交胜利点数很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“自由主义者”（外交胜利点数很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“略夺者”（掠夺的单元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“略夺者”（掠夺的单元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“穴熊围”（没有征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“穴熊围”（征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“狂信徒”（信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“狂信徒”（不信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“守财奴”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“守财奴”（金币収入很少）</Text>
+		</Replace>
+		
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（邀请你拜访）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（接受你的邀请）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI，交换地图信息-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（交换首都的位置）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（发表了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里寻求与你的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（发表了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里公开宣战。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里公开宣战。）</Text>
+		</Replace>
+		<!-- 败北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>我和雷霆圣堂的任务结束了，接着我的存在就会逐渐分解，归化於无。（万由里被打败了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>没什麽理由，做出了判断就消失，我就是被这样设计出来的，仅仅如此。（万由里被打败了。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI同意你的代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（已接受特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里请求特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（被接受特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（被拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你公开指责AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI公开指责你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 大使馆 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（允许设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝设立大使馆。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文化值重视”（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“幸福重视”（满意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_INCOME" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“喜欢金币”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“重工业主义者”（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦同盟”（不与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“人数主义”（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“技术追随者”（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“常备军”（军事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“战狂”（活跃於战争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“伟人代言者”（伟人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“爱惜遗产者”（奇观很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“空军力”（空军力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文明国”（击退蛮族营地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“环保人士”（致力于自然维护和国家公园建设）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“开发主义者”（热衷于伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“理想主义体质”（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“核武器带来的快乐”（积极使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_FAITH" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“虔诚”（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“探险家”（地图完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“偏执狂”（缺乏军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文化值重视”（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“幸福重视”（满意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_INCOME" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“喜欢金币”（金币収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦同盟”（与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“重工业主义者”（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_POPULATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“人数主义”（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“技术追随者”（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“常备军”（军事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“偏执狂”（充满军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“伟人代言者”（伟人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“爱惜遗产者”（奇观很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“空军力”（空军力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文明国”（放置蛮族营地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“环保人士”（破坏自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“开发主义者”（热衷于自然维护）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“理想主义体质”（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“核武器带来的快乐”（不愿使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_FAITH" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“虔诚”（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“探险家”（地图完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（已同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI允许你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（联盟谈判开始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（交易被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对条款和条件感到满意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（接受了万由里的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的索取。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里拒绝了和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI主动提出和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里许可边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里要求边境开放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被允许开放边境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被拒绝开放边境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止在边境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续在边境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的军队展开 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不采取军事行动。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、寻求军事行动的机会。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不派遣间谍。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>你不用太在意我喔，快去找别人吧。（万由里无视警告、继续从事间谍活动。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不盗挖秘宝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续盗挖秘宝。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止传教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续传教活动。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止在边境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI警告国境的军队 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不要在边境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止派遣间谍</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不盗挖秘宝</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止传教活动</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想延续同盟关系。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（许可万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被许可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_DAWN_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被拒绝。）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“好奇心强”（积极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“好奇心强”（消极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“逢迎拍马”（迎来黄金时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“逢迎拍马”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“同情心泛滥”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“同情心泛滥”（迎来黄金时代）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“扩张主义者”（领土广阔）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“扩张主义者”（领土狭小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“地平说信徒”（消极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“地平说信徒”（积极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“大白舰队”（海军很强大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“大白舰队”（海军很贫弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_FAVOR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“煽动者”（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“煽动者”（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_TOURISM" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“观光立国”（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“观光立国”（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“宗教不寛容”（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“宗教不寛容”（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“自由主义者”（外交胜利点数很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“自由主义者”（外交胜利点数很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“略夺者”（掠夺的单元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“略夺者”（掠夺的单元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“穴熊围”（没有征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“穴熊围”（征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“狂信徒”（信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“狂信徒”（不信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“守财奴”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_DAWN_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“守财奴”（金币収入很少）</Text>
+		</Replace>
+
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（邀请你拜访）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（接受你的邀请）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI，交换地图信息-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（交换首都的位置）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（发表了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里寻求与你的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（发表了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里公开宣战。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里公开宣战。）</Text>
+		</Replace>
+		<!-- 败北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>我和雷霆圣堂的任务结束了，接着我的存在就会逐渐分解，归化於无。（万由里被打败了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>没什麽理由，做出了判断就消失，我就是被这样设计出来的，仅仅如此。（万由里被打败了。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI同意你的代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（已接受特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里请求特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（被接受特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（被拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你公开指责AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI公开指责你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 大使馆 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（允许设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝设立大使馆。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文化值重视”（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“幸福重视”（满意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_INCOME" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“喜欢金币”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“重工业主义者”（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦同盟”（不与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“人数主义”（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“技术追随者”（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“常备军”（军事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“战狂”（活跃於战争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“伟人代言者”（伟人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“爱惜遗产者”（奇观很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“空军力”（空军力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文明国”（击退蛮族营地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“环保人士”（致力于自然维护和国家公园建设）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“开发主义者”（热衷于伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“理想主义体质”（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“核武器带来的快乐”（积极使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_FAITH" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“虔诚”（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“探险家”（地图完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“偏执狂”（缺乏军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文化值重视”（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“幸福重视”（满意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_INCOME" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“喜欢金币”（金币収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦同盟”（与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“重工业主义者”（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_POPULATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“人数主义”（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“技术追随者”（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“常备军”（军事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“偏执狂”（充满军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“伟人代言者”（伟人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“爱惜遗产者”（奇观很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“空军力”（空军力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文明国”（放置蛮族营地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“环保人士”（破坏自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“开发主义者”（热衷于自然维护）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“理想主义体质”（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“核武器带来的快乐”（不愿使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_FAITH" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“虔诚”（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“探险家”（地图完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（已同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI允许你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（联盟谈判开始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（交易被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对条款和条件感到满意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（接受了万由里的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的索取。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里拒绝了和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI主动提出和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里许可边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里要求边境开放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被允许开放边境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被拒绝开放边境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止在边境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续在边境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的军队展开 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不采取军事行动。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、寻求军事行动的机会。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不派遣间谍。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>你不用太在意我喔，快去找别人吧。（万由里无视警告、继续从事间谍活动。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不盗挖秘宝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续盗挖秘宝。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止传教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续传教活动。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止在边境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI警告国境的军队 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不要在边境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止派遣间谍</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不盗挖秘宝</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止传教活动</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想延续同盟关系。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（许可万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被许可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_MIKO_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被拒绝。）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“好奇心强”（积极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“好奇心强”（消极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“逢迎拍马”（迎来黄金时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“逢迎拍马”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“同情心泛滥”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“同情心泛滥”（迎来黄金时代）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“扩张主义者”（领土广阔）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“扩张主义者”（领土狭小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“地平说信徒”（消极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“地平说信徒”（积极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“大白舰队”（海军很强大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“大白舰队”（海军很贫弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_FAVOR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“煽动者”（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“煽动者”（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_TOURISM" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“观光立国”（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“观光立国”（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“宗教不寛容”（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“宗教不寛容”（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“自由主义者”（外交胜利点数很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“自由主义者”（外交胜利点数很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“略夺者”（掠夺的单元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“略夺者”（掠夺的单元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“穴熊围”（没有征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“穴熊围”（征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“狂信徒”（信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“狂信徒”（不信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“守财奴”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_MIKO_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“守财奴”（金币収入很少）</Text>
+		</Replace>
+
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（邀请你拜访）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（接受你的邀请）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI，交换地图信息-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（交换首都的位置）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（发表了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里寻求与你的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（发表了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里公开宣战。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里公开宣战。）</Text>
+		</Replace>
+		<!-- 败北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>我和雷霆圣堂的任务结束了，接着我的存在就会逐渐分解，归化於无。（万由里被打败了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>没什麽理由，做出了判断就消失，我就是被这样设计出来的，仅仅如此。（万由里被打败了。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI同意你的代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（已接受特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里请求特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（被接受特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（被拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你公开指责AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI公开指责你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 大使馆 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（允许设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝设立大使馆。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文化值重视”（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“幸福重视”（满意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_INCOME" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“喜欢金币”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“重工业主义者”（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦同盟”（不与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“人数主义”（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“技术追随者”（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“常备军”（军事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“战狂”（活跃於战争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“伟人代言者”（伟人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“爱惜遗产者”（奇观很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“空军力”（空军力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文明国”（击退蛮族营地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“环保人士”（致力于自然维护和国家公园建设）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“开发主义者”（热衷于伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“理想主义体质”（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“核武器带来的快乐”（积极使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_FAITH" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“虔诚”（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“探险家”（地图完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“偏执狂”（缺乏军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文化值重视”（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“幸福重视”（满意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_INCOME" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“喜欢金币”（金币収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦同盟”（与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“重工业主义者”（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_POPULATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“人数主义”（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“技术追随者”（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“常备军”（军事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“偏执狂”（充满军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“伟人代言者”（伟人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“爱惜遗产者”（奇观很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“空军力”（空军力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文明国”（放置蛮族营地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“环保人士”（破坏自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“开发主义者”（热衷于自然维护）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“理想主义体质”（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“核武器带来的快乐”（不愿使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_FAITH" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“虔诚”（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“探险家”（地图完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（已同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI允许你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（联盟谈判开始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（交易被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对条款和条件感到满意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（接受了万由里的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的索取。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里拒绝了和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI主动提出和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里许可边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里要求边境开放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被允许开放边境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被拒绝开放边境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止在边境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续在边境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的军队展开 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不采取军事行动。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、寻求军事行动的机会。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不派遣间谍。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>你不用太在意我喔，快去找别人吧。（万由里无视警告、继续从事间谍活动。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不盗挖秘宝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续盗挖秘宝。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止传教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续传教活动。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止在边境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI警告国境的军队 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不要在边境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止派遣间谍</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不盗挖秘宝</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止传教活动</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想延续同盟关系。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（许可万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被许可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_XMAS_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被拒绝。）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“好奇心强”（积极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“好奇心强”（消极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“逢迎拍马”（迎来黄金时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“逢迎拍马”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“同情心泛滥”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“同情心泛滥”（迎来黄金时代）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“扩张主义者”（领土广阔）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“扩张主义者”（领土狭小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“地平说信徒”（消极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“地平说信徒”（积极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“大白舰队”（海军很强大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“大白舰队”（海军很贫弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_FAVOR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“煽动者”（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“煽动者”（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_TOURISM" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“观光立国”（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“观光立国”（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“宗教不寛容”（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“宗教不寛容”（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“自由主义者”（外交胜利点数很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“自由主义者”（外交胜利点数很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“略夺者”（掠夺的单元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“略夺者”（掠夺的单元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“穴熊围”（没有征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“穴熊围”（征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“狂信徒”（信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“狂信徒”（不信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“守财奴”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_XMAS_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“守财奴”（金币収入很少）</Text>
+		</Replace>
+
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（邀请你拜访）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（接受你的邀请）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你第一次遇到AI，交换地图信息-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（交换首都的位置）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（发表了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里寻求与你的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（发表了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了和万由里的友谊宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里公开宣战。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里公开宣战。）</Text>
+		</Replace>
+		<!-- 败北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>我和雷霆圣堂的任务结束了，接着我的存在就会逐渐分解，归化於无。（万由里被打败了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>没什麽理由，做出了判断就消失，我就是被这样设计出来的，仅仅如此。（万由里被打败了。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI同意你的代表团-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（已接受特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里请求特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（被接受特使参访。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（被拒绝特使参访。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当你公开指责AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（对万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: 当AI公开指责你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里发表了责备声明。）</Text>
+		</Replace>
+		<!-- 大使馆 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（大使馆的设立被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（允许设立大使馆。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝设立大使馆。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文化值重视”（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“幸福重视”（满意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_INCOME" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“喜欢金币”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“重工业主义者”（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦同盟”（不与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“人数主义”（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“技术追随者”（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“常备军”（军事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“战狂”（活跃於战争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“伟人代言者”（伟人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“爱惜遗产者”（奇观很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“空军力”（空军力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“城邦保护者”（积极保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“文明国”（击退蛮族营地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“环保人士”（致力于自然维护和国家公园建设）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“开发主义者”（热衷于伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“理想主义体质”（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“核武器带来的快乐”（积极使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_FAITH" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“虔诚”（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“探险家”（地图完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“偏执狂”（缺乏军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文化值重视”（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“幸福重视”（满意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_INCOME" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“喜欢金币”（金币収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦同盟”（与城邦宗主权冲突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“重工业主义者”（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_POPULATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“人数主义”（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“技术追随者”（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“常备军”（军事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_PARANOID" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“偏执狂”（充满军事力量和扩张领土的动力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“伟人代言者”（伟人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“爱惜遗产者”（奇观很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“空军力”（空军力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“城邦保护者”（没有保护城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“文明国”（放置蛮族营地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_ENVIRONMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“环保人士”（破坏自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_EXPLOITATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“开发主义者”（热衷于自然维护）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“理想主义体质”（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“核武器带来的快乐”（不愿使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_FAITH" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“虔诚”（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“探险家”（地图完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（已同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（已拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI允许你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（联盟谈判开始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（同意缔结联盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝缔结联盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（交易被拒绝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对条款和条件感到满意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（接受了万由里的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的索取。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（被万由里拒绝了和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI主动提出和平的请求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（和万由里缔结和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝了万由里的和平交涉。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI答应你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里许可边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里拒绝边境开放。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里要求边境开放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被允许开放边境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里被拒绝开放边境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止在边境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续在边境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的军队展开 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不采取军事行动。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、寻求军事行动的机会。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不派遣间谍。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>你不用太在意我喔，快去找别人吧。（万由里无视警告、继续从事间谍活动。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺不盗挖秘宝。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续盗挖秘宝。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里对你承诺停止传教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里无视警告、继续传教活动。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止在边境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 领袖外交信息: AI警告国境的军队 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不要在边境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止派遣间谍</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：不盗挖秘宝</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活动 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>万由里对你要求：停止传教活动</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（同意万由里的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（万由里想延续同盟关系。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（许可万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（拒绝万由里的联盟延续。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被许可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_MAYURI_JUDGMENT_SEIFUKU_ANY" Language="zh_Hans_CN">
+			<Text>（联盟的延续已被拒绝。）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“好奇心强”（积极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“好奇心强”（消极宣示友好、开放边界、派遣使节、设立使馆）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“逢迎拍马”（迎来黄金时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“逢迎拍马”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“同情心泛滥”（陷入黑暗时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“同情心泛滥”（迎来黄金时代）</Text>
+		</Replace>
+		<!-- アジェンダ适合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“扩张主义者”（领土广阔）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“扩张主义者”（领土狭小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“地平说信徒”（消极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“地平说信徒”（积极参与太空开发竞争）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“大白舰队”（海军很强大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“大白舰队”（海军很贫弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_FAVOR" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“煽动者”（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“煽动者”（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_TOURISM" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“观光立国”（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“观光立国”（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“宗教不寛容”（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“宗教不寛容”（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“自由主义者”（外交胜利点数很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“自由主义者”（外交胜利点数很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“略夺者”（掠夺的单元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“略夺者”（掠夺的单元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“穴熊围”（没有征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“穴熊围”（征服过另一个文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“狂信徒”（信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_ZEALOT" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“狂信徒”（不信仰值所创立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>符合万由里的议程“守财奴”（金币收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MAYURI_JUDGMENT_SEIFUKU_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
+			<Text>违背万由里的议程“守财奴”（金币収入很少）</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
