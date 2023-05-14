@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun May 14 13:44:57 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DESCRIPTION" Language="en_US">
+			<Text>[NEWLINE]Build a city on the current cell, and convert the adjacent ocean cell to a coastal cell</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_CITY" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red] is too close to another city[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISTRICT" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red] Unable to build city in area[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_IMPROVEMENT" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red]Can't build city at improvement[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_LAKE" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red]Cannot build city on lake[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_WONDER" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red] Unable to build city at natural wonder[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAL_TRADER_NAME" Language="en_US">
+			<Text>reindeer trader</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAL_TRADER_DESCRIPTION" Language="en_US">
+			<Text>Unique merchant unit. [NEWLINE]Ability to create and maintain an [ICON_TradeRoute] trade route. Automatically build roads and acquire cells as the journey progresses.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_NAME" Language="en_US">
+			<Text>Loot immunity</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TradeRoute] Trade routes cannot be pillaged by enemy units. The first time you move within 9 tiles of a city, the unowned tile will fall under your control.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_NAME" Language="en_US">
+			<Text>trick or treat</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>Adjacent enemy units -1 [ICON_Strength] combat strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_MOD_DESCRIPTION" Language="en_US">
+			<Text>{1_Amount}[ICON_Strength] Combat Strength</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_NAME" Language="en_US">
+			<Text>trick or treat</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_DESCRIPTION" Language="en_US">
+			<Text>Adjacent enemy cities have -1 [ICON_Loyalty] loyalty per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_NAME" Language="en_US">
+			<Text>Charisma</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>The [ICON_Strength] combat strength of a unit increases or decreases according to the charm of the cell it is in.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESC" Language="en_US">
+			<Text>+{Amount} from the charm of the cell it is in</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_UNIT" Language="en_US">
+			<Text>+{Property} from nearby dead units</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_BARB" Language="en_US">
+			<Text>+{Property} from nearby dead barbarians</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_COMBAT_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="en_US">
+			<Text>+3 Combat Strength</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RELIGIOUS_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="en_US">
+			<Text>+3 Religious Combat Strength</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_NAME" Language="en_US">
+			<Text>super soldier</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_DESCRIPTION" Language="en_US">
+			<Text>After being injured, it will not suffer from combat debuffs, can resist large-scale lethal weapons, and can move after attacking.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_NAME" Language="en_US">
+			<Text>hyperspace</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>The unit's [ICON_Strength] combat strength changes with the times.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_STRENGTH_DESC" Language="en_US">
+			<Text>+{Amount} from</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_NAME" Language="en_US">
+			<Text>reverse time and space</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when fighting more advanced units.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_COUNTER_DESC" Language="en_US">
+			<Text>+{Amount} from fighting advanced units</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_NAME" Language="en_US">
+			<Text>strategic maintenance</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_DESCRIPTION" Language="en_US">
+			<Text>This unit consumes no strategic resources when it is created and when it is maintained.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_NAME" Language="en_US">
+			<Text>robot hunter</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_DESCRIPTION" Language="en_US">
+			<Text>+40 [ICON_Strength] Combat Strength when defending against Giant Killer Robots</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_PREV" Language="en_US">
+			<Text>+40[ICON_Strength] Combat strength from defending against giant killer robots</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_NAME" Language="en_US">
+			<Text>halloween carnival</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_DESCRIPTION" Language="en_US">
+			<Text>The witch's characteristic item can increase the loyalty pressure that this city spreads to itself and surrounding cities. [NEWLINE]When activated, each [ICON_Citizen] citizen has +3 loyalty pressure for this city each turn. This effect will also affect other cities within a range of 9 cells, but the effect will be weakened by 10% every 1 cell. After the completion of the project, the [ICON_Loyalty] loyalty of the location and the adjacent [ICON_Loyalty] loyalty [ICON_Loyalty] loyalty increase, and the foreign city [ICON_Loyalty] loyalty decreases (decreasing according to the distance).</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_NAME" Language="en_US">
+			<Text>move the capital</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_DESCRIPTION" Language="en_US">
+			<Text>Witch featured item. After completion, the [ICON_Capital] capital will be moved to this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_GOLD_AGE_NAME" Language="en_US">
+			<Text>golden memory</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_GOLD_AGE_DESCRIPTION" Language="en_US">
+			<Text>Gramophone Featured Items. Let the people recall the glorious past time, the era score +10.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_DARK_AGE_NAME" Language="en_US">
+			<Text>dark memories</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_DARK_AGE_DESCRIPTION" Language="en_US">
+			<Text>Gramophone Featured Items. Let the people recall the gloomy past, the era score -10.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_NAME" Language="en_US">
+			<Text>move mountains</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_DESCRIPTION" Language="en_US">
+			<Text>Turns the cell it is in into a Hills cell. [NEWLINE]Mountains can only be transformed if they are not volcanoes.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_NAME" Language="en_US">
+			<Text>reclamation</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_DESCRIPTION" Language="en_US">
+			<Text>Convert the cell it is in to a plain cell. [NEWLINE]Only transform lakes and coasts that have no resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_NAME" Language="en_US">
+			<Text>make land</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_DESCRIPTION" Language="en_US">
+			<Text>Convert the existing cell and adjacent cells to plain cells. [NEWLINE]Only transform lakes, coasts and oceans that have no resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS" Language="en_US">
+			<Text>Building a city on the sea</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_SCIENCE" Language="en_US">
+			<Text>+{1_num}[ICON_Science] science and technology value comes from the city in the sea.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_CULTURE" Language="en_US">
+			<Text>+{1_num}[ICON_Culture] culture value comes from the sea city.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_PRODUCTION" Language="en_US">
+			<Text>+{1_num}[ICON_Production] Production comes from the sea city.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FAITH" Language="en_US">
+			<Text>+{1_num}[ICON_Faith] Faith value comes from the sea city.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FOOD" Language="en_US">
+			<Text>+{1_num}[ICON_GFOOD]The food comes from the sea city.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold] gold coins from the sea city.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CITYCENTER_FOOD" Language="en_US">
+			<Text>+{1_num}[ICON_Food] food from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SEARESOURCE_FOOD" Language="en_US">
+			<Text>+{1_num}[ICON_Food] Food comes from adjacent ocean resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_SCIENCE" Language="en_US">
+			<Text>+{1_num}[ICON_Science] science from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold] coins from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_CULTURE" Language="en_US">
+			<Text>+{1_num}[ICON_Culture] culture value from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_PRODUCTION" Language="en_US">
+			<Text>+{1_num}[ICON_Production] Production comes from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_FAITH" Language="en_US">
+			<Text>+{1_num}[ICON_Faith] Faith from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_DAL_GOLD_NAME" Language="en_US">
+			<Text>gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_DAL_GOLD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Gold is a metal discovered and utilized by humans earlier. Because gold is rare, special and precious, it has the title of &quot;King of Metals&quot;. It enjoys a reputation unmatched by other metals, and its prominent status is almost eternal. Because gold has this &quot;noble&quot; status, gold used to be a symbol of wealth and luxury. With the development of society, the economic status and application level of gold are constantly changing, but it still occupies a place in the international reserves of various countries. It is a special commodity with currency attributes, commodity attributes and financial attributes.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_DAL_GOLD] Gold Enterprise: Create new products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_SHORT_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_DAL_GOLD] Create new gold products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_DESCRIPTION" Language="en_US">
+			<Text>[ICON_RESOURCE_DAL_GOLD] Create new products for the world based on gold resources. {LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_1_NAME" Language="en_US">
+			<Text>Zhenjindian</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_2_NAME" Language="en_US">
+			<Text>Chow Tai Fook Jewelry</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_3_NAME" Language="en_US">
+			<Text>Jin Changshan</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_4_NAME" Language="en_US">
+			<Text>Ji Yu Jewelry</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_5_NAME" Language="en_US">
+			<Text>Gold Jewelry</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED]Tokisaki Kurumi[ENDCOLOR] - [COLOR:ResGoldLabelCS]Ke Kedi[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, from Date A Live's Kurumi Tokisaki</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED] Tokisaki Kuangsan: Expansion 1[ENDCOLOR] - [COLOR:ResGoldLabelCS] Ke Kedi &lt;Scarlet Nightmare&gt;[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Kurumi Tokisaki from Date A Live, expanded with more looks</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED] (Red Black New Chapter)[COLOR:ResGoldLabelCS]White Queen - [COLOR_RED]Third Realm[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, the White Queen from the new chapter of Date A Live Scarlet Black</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED] Tobiichi Origami[ENDCOLOR] - [COLOR:ResGoldLabelCS]Extinct Angel[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Tobiichi Origami from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join the Battle'[COLOR_RED] Erya of this article - [COLOR:ResGoldLabelCS] Announcements[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization From Date A Live Nia Honjo</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED]Ice Megawa Yoshino[ENDCOLOR] - [COLOR:ResGoldLabelCS]Icy Puppet[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization From Date A Live's Yoshino Hikagawa</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join War'[COLOR_RED] Wuhe Qinli[ENDCOLOR] - [COLOR:ResGoldLabelCS]Burning and Killing Ghosts[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, from Kotori Itsuka of Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED]Six Palaces[ENDCOLOR] - [COLOR:ResGoldLabelCS]Sealing Master[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, from Date A Live's six scorpions</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYONO_NATSUMI_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED]The Seven Crimes of Kagano[ENDCOLOR] - [COLOR:ResGoldLabelCS]Fake Witch[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYONO_NATSUMI_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization From Date A Live's Kagamino Seven Sins</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED]Yawu Sisters[ENDCOLOR] - [COLOR:ResGoldLabelCS]Hurricane Knight[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_DESCRIPTION" Language="en_US">
+			<Text>A new civilization from Yamai Yaguya &amp; Yamai Yuzuru from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join the Battle'[COLOR_RED]Inducing Xiao Meijiu[ENDCOLOR] - [COLOR:ResGoldLabelCS]Breaking the Army Singer[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, from Miku Miku from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED] Yatogami Tohka/Tianxiang - [COLOR:ResGoldLabelCS] Fierce Killer/Tyrannist[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization From Date A Live's Yatogami Tohka</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED] Beast Ten Fragrance - [COLOR:ResGoldLabelCS]Beast[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_DESCRIPTION" Language="en_US">
+			<Text>A new civilization from Date A Live's [COLOR_RED] Beast Tohka[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join War'[COLOR_RED] Wan Yuli - [COLOR:ResGoldLabelCS]Thunder Temple[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, from Date A Live's Mayuri</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED] Garden God Rinne/Rin Xu - [COLOR:ResGoldLabelCS]Disaster Paradise[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, from Rinne/Rino, the Garden God of Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join War'[COLOR_RED] or Shumiya/Junai - [COLOR:ResGoldLabelCS] Uktra Hill/Ned Hogg[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_DESCRIPTION" Language="en_US">
+			<Text>A new civilization from Dating A Live's Ormoriya and Ormorina</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED] Nibeco/Ailian/Artemisia - [COLOR:ResGoldLabelCS]D.E.M[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, from the D.E.M Corporation of Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join War'[COLOR_RED]Lian - [COLOR:ResGoldLabelCS]Miasma Poison Pure Land[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization From Dating A Live's Lian</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]'Join Battle'[COLOR_RED] Wuhe Shiori - [COLOR:ResGoldLabelCS]Extreme Maid[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization From Date A Live's Itsuka Shiori</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

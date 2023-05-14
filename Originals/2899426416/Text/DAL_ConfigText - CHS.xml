@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 传闻 -->
+		<Replace Tag="LOC_VIZSOURCE_DAL_RATZIEL" Language="zh_Hans_CN">
+			<Text>嗫告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_KURUMI_SISTER" Language="zh_Hans_CN">
+			<Text>使用嗫告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_DAL_RATZIEL" Language="zh_Hans_CN">
+			<Text>您从嗫告篇帙中得知</Text>
+		</Replace>
+
+		<!-- 特色技能 -->
+		<Replace Tag="LOC_UNIT_DAL_TRADER_NAME" Language="zh_Hans_CN">
+			<Text>驯鹿行商</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAL_TRADER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色商人单位。[NEWLINE]能创建和维护一条[ICON_TradeRoute]贸易路线。随着旅途行进自动修建道路并获取单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_NAME" Language="zh_Hans_CN">
+			<Text>掠夺豁免</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_TradeRoute]贸易路线无法被敌方单位掠夺。首次移动到城市9个单元格范围内时，无主的单元格将落入你的控制之下。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>捣蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>相邻敌人单位-1[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{1_Amount}[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_NAME" Language="zh_Hans_CN">
+			<Text>不给糖就捣蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>邻近的敌方城市每回合-1[ICON_Loyalty]忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>领袖魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位的[ICON_Strength]战斗力随着所在单元格的魅力增减。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESC" Language="zh_Hans_CN">
+			<Text>+{Amount}来自所在单元格的魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_UNIT" Language="zh_Hans_CN">
+			<Text>+{Property}来自周遭死去的单位</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_BARB" Language="zh_Hans_CN">
+			<Text>+{Property}来自周遭死去的蛮族</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_COMBAT_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RELIGIOUS_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3宗教战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_NAME" Language="zh_Hans_CN">
+			<Text>超级士兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>受伤後不会遭受战斗力减益，能抵抗大槼模杀伤性武器，攻击後可以移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>超时空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位的[ICON_Strength]战斗力随着时代变动。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_STRENGTH_DESC" Language="zh_Hans_CN">
+			<Text>+{Amount}来自</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_NAME" Language="zh_Hans_CN">
+			<Text>逆转时空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当与较先进的单位作战时，+7[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_COUNTER_DESC" Language="zh_Hans_CN">
+			<Text>+{Amount}来自对抗先进单位</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_NAME" Language="zh_Hans_CN">
+			<Text>战略维护</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此单位被创造时和维护时都不消耗战略资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_NAME" Language="zh_Hans_CN">
+			<Text>机器人猎手</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当防御巨型杀戮机器人时+40[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_PREV" Language="zh_Hans_CN">
+			<Text>+40[ICON_Strength]战斗力来自防御巨型杀戮机器人</Text>
+		</Replace>
+
+		<!-- 特色项目 -->
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_NAME" Language="zh_Hans_CN">
+			<Text>万圣节狂欢</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>魔女特色项目，能增加此城市向自身与周遭城市传播的忠诚度压力。[NEWLINE]激活後，每个[ICON_Citizen]公民每回合为此城市+3忠诚度压力。此效果也会影响9个单元格范围内的其他城市，但每隔1个单元格效果减弱10%。项目完成后所在[ICON_Loyalty]忠诚度与邻近我方[ICON_Loyalty]忠诚度[ICON_Loyalty]忠诚度上升、外邦城市[ICON_Loyalty]忠诚度下降（根据距离递减）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_NAME" Language="zh_Hans_CN">
+			<Text>迁都</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>魔女特色项目。完成后，[ICON_Capital]首都将会迁都至此城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_GOLD_AGE_NAME" Language="zh_Hans_CN">
+			<Text>黄金记忆</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_GOLD_AGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>留声机特色项目。让人民回想起辉煌的往日时光，时代分数+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_DARK_AGE_NAME" Language="zh_Hans_CN">
+			<Text>黑暗回忆</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_DARK_AGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>留声机特色项目。让人民回想起灰黯的往日时光，时代分数-10。</Text>
+		</Replace>
+
+		<!-- 改变地形 -->
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_NAME" Language="zh_Hans_CN">
+			<Text>移山</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将所处的单元格转变为丘陵单元格。[NEWLINE]只能转变不是火山的山脉。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_NAME" Language="zh_Hans_CN">
+			<Text>填海</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将所处的单元格转变为平原单元格。[NEWLINE]只能转变没有资源的湖泊和海岸。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_NAME" Language="zh_Hans_CN">
+			<Text>造陆</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将所处的单元格与相邻单元格转变为平原单元格。[NEWLINE]只能转变没有资源的湖泊、海岸和海洋。</Text>
+		</Replace>
+
+		<!-- 海上建城 -->
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS" Language="zh_Hans_CN">
+			<Text>海上建城</Text>
+		</Replace>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[NEWLINE]於所处单元格建城，并且将相邻海洋单元格转变为海岸单元格</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_CITY" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]距离其他城市太近了[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISTRICT" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]无法在区域建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_IMPROVEMENT" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]无法在改良设施建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_LAKE" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]无法在湖泊建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_WONDER" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]无法在自然奇观建城[ENDCOLOR]</Text>
+		</Row>
+
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Science]科技值来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Culture]文化值来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Production]生产力来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_GFOOD]食物来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CITYCENTER_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Food]食物来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SEARESOURCE_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Food]食物来自相邻海洋资源。</Text>
+		</Replace>
+
+		<!-- 海滨 -->
+		<Replace Tag="LOC_DAL_COAST_NAME" Language="zh_Hans_CN">
+			<Text>海滨</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>创建在海岸单元格上的区域，</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC2" Language="zh_Hans_CN">
+			<Text>无法建造在拥有“</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC3" Language="zh_Hans_CN">
+			<Text>”的城市内。无法建造在礁石单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC4" Language="zh_Hans_CN">
+			<Text>中的</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Science]科技值来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Culture]文化值来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Production]生产力来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值来自相邻城市中心。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_XMAS_GOODY_HUT" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]部落村庄刷新！[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_DAL_SECRETSOCIETY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢{LOC_TOOLTIP_SAMPLE_DIPLOMACY_SAME_SECRET_SOCIETY}。[NEWLINE]厌恶{LOC_TOOLTIP_SAMPLE_DIPLOMACY_DIFFERENT_SECRET_SOCIETY}。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_DAL_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>黄金</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_DAL_GOLD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>黄金是人类较早发现并利用的金属。由于黄金罕有丶特殊和珍贵，因此有“金属之王”的称号，享有其它金属品种无法比拟的盛誉，其显赫的地位近乎永恒。正因为黄金具有这一“贵族”地位，黄金曾经是财富和华贵的象征。随着社会的发展，黄金的经济地位和应用层面不断发生变化，但当前仍然在各国的国际储备中占有一席之地，是一种同时具有货币属性丶商品属性和金融属性的特殊商品。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_DAL_GOLD]黄金企业：创造新产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_DAL_GOLD]创造新黄金产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_DAL_GOLD]黄金资源为基础，为全世界创造新产品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_1_NAME" Language="zh_Hans_CN">
+			<Text>镇金店</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_2_NAME" Language="zh_Hans_CN">
+			<Text>周大福珠宝</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_3_NAME" Language="zh_Hans_CN">
+			<Text>金长山</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_4_NAME" Language="zh_Hans_CN">
+			<Text>集羽珠宝</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_5_NAME" Language="zh_Hans_CN">
+			<Text>今生金饰</Text>
+		</Replace>
+
+		<!-- 行政长官 -->
+		<Replace Tag="LOC_GOVERNOR_THE_DEFENDER_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_CARDINAL_NAME" Language="zh_Hans_CN">
+			<Text>鸢一折纸</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_BUILDER_NAME" Language="zh_Hans_CN">
+			<Text>风待八舞</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME" Language="zh_Hans_CN">
+			<Text>诱宵美九</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_MERCHANT_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME" Language="zh_Hans_CN">
+			<Text>镜野七罪</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_IBRAHIM_NAME" Language="zh_Hans_CN">
+			<Text>五河士织</Text>
+		</Replace>
+
+		<!-- 模块说明 -->
+		<Replace Tag="LOC_DAL_CORE_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]核心代码[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CORE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战系列核心代码</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CORE_SPECIAL_THANK" Language="zh_Hans_CN">
+			<Text>Hemmelfort大佬的B站系列教学视频、MOD辅助工具，获益良多</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]时崎狂三[ENDCOLOR] - [COLOR:ResGoldLabelCS]刻刻帝[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的时崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]时崎狂三:扩充1[ENDCOLOR] - [COLOR:ResGoldLabelCS]刻刻帝〈猩红梦魇〉[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的时崎狂三，扩充更多造型</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]（赤黑新章）[COLOR:ResGoldLabelCS]白之女王 - [COLOR_RED]第三领域[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战赤黑新章的白之女王</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]鸢一折纸[ENDCOLOR] - [COLOR:ResGoldLabelCS]绝灭天使[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的鸢一折纸</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]本条二亚 - [COLOR:ResGoldLabelCS]嗫告篇帙[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的本条二亚</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]冰芽川四糸乃[ENDCOLOR] - [COLOR:ResGoldLabelCS]冰结傀儡[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的冰芽川四糸乃</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]五河琴里[ENDCOLOR] - [COLOR:ResGoldLabelCS]灼烂歼鬼[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]星宫六喰[ENDCOLOR] - [COLOR:ResGoldLabelCS]封解主[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的星宫六喰</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYONO_NATSUMI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]镜野七罪[ENDCOLOR] - [COLOR:ResGoldLabelCS]赝造魔女[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYONO_NATSUMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的镜野七罪</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]八舞姊妹[ENDCOLOR] - [COLOR:ResGoldLabelCS]飓风骑士[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的八舞耶俱矢＆八舞夕弦</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]诱宵美九[ENDCOLOR] - [COLOR:ResGoldLabelCS]破军歌姬[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的诱宵美九</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]夜刀神十香/天香 - [COLOR:ResGoldLabelCS]鏖杀公/暴虐公[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]兽十香 - [COLOR:ResGoldLabelCS]兽[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的[COLOR_RED]兽十香[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]万由里 - [COLOR:ResGoldLabelCS]雷霆圣堂[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的万由里</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]园神凛祢/凛绪 - [COLOR:ResGoldLabelCS]凶祸乐园[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的园神凛祢/凛绪</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]或守鞠亚/鞠奈 - [COLOR:ResGoldLabelCS]尤克特拉希尔/尼德霍格[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的或守鞠亚与或守鞠奈</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]妮贝可/艾莲/阿尔提米西亚 - [COLOR:ResGoldLabelCS]D.E.M[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的D.E.M公司</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]莲 - [COLOR:ResGoldLabelCS]瘴毒净土[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的莲</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]五河士织 - [COLOR:ResGoldLabelCS]究极侍女[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的五河士织</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

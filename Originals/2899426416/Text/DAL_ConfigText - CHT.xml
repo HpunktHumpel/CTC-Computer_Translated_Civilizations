@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>		
+		<!-- 傳聞 -->
+		<Replace Tag="LOC_VIZSOURCE_DAL_RATZIEL" Language="zh_Hant_HK">
+			<Text>囁告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_KURUMI_SISTER" Language="zh_Hant_HK">
+			<Text>使用囁告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_DAL_RATZIEL" Language="zh_Hant_HK">
+			<Text>您從囁告篇帙中得知</Text>
+		</Replace>
+
+		<!-- 特色技能 -->
+		<Replace Tag="LOC_UNIT_DAL_TRADER_NAME" Language="zh_Hant_HK">
+			<Text>馴鹿行商</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAL_TRADER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>特色商人單位。[NEWLINE]能創建和維護一條[ICON_TradeRoute]貿易路線。隨著旅途行進自動修建道路並獲取單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_NAME" Language="zh_Hant_HK">
+			<Text>掠奪豁免</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_TradeRoute]貿易路線無法被敵方單位掠奪。首次移動到城市9個單元格範圍內時，無主的單元格將落入你的控制之下。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_NAME" Language="zh_Hant_HK">
+			<Text>搗蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>相鄰敵人單位-1[ICON_Strength]戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_MOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{1_Amount}[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_NAME" Language="zh_Hant_HK">
+			<Text>不給糖就搗蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>鄰近的敵方城市每回合-1[ICON_Loyalty]忠誠度。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_NAME" Language="zh_Hant_HK">
+			<Text>領袖魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位的[ICON_Strength]戰鬥力隨著所在單元格的魅力增減。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESC" Language="zh_Hant_HK">
+			<Text>+{Amount}來自所在單元格的魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_UNIT" Language="zh_Hant_HK">
+			<Text>+{Property}來自周遭死去的單位</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_BARB" Language="zh_Hant_HK">
+			<Text>+{Property}來自周遭死去的蠻族</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_COMBAT_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+3戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RELIGIOUS_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+3宗教戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_NAME" Language="zh_Hant_HK">
+			<Text>超級士兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>受傷後不會遭受戰鬥力減益，能抵抗大規模殺傷性武器，攻擊後可以移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_NAME" Language="zh_Hant_HK">
+			<Text>超時空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位的[ICON_Strength]戰鬥力隨著時代變動。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_STRENGTH_DESC" Language="zh_Hant_HK">
+			<Text>+{Amount}來自</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_NAME" Language="zh_Hant_HK">
+			<Text>逆轉時空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當與較先進的單位作戰時，+7[ICON_Strength]戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_COUNTER_DESC" Language="zh_Hant_HK">
+			<Text>+{Amount}來自對抗先進單位</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_NAME" Language="zh_Hant_HK">
+			<Text>戰略維護</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此單位被創造時和維護時都不消耗戰略資源。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_NAME" Language="zh_Hant_HK">
+			<Text>機器人獵手</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當防禦巨型殺戮機器人時+40[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_PREV" Language="zh_Hant_HK">
+			<Text>+40[ICON_Strength]戰鬥力來自防禦巨型殺戮機器人</Text>
+		</Replace>
+	
+		<!-- 特色項目 -->
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_NAME" Language="zh_Hant_HK">
+			<Text>萬聖節狂歡</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>魔女特色項目，能增加此城市向自身與周遭城市傳播的忠誠度壓力。[NEWLINE]啟用後，每個[ICON_Citizen]公民每回合為此城市+3忠誠度壓力。此效果也會影響9個單元格範圍內的其他城市，但每隔1個單元格效果減弱10%。項目完成後所在[ICON_Loyalty]忠誠度與鄰近我方[ICON_Loyalty]忠誠度[ICON_Loyalty]忠誠度上升、外邦城市[ICON_Loyalty]忠誠度下降（根據距離遞減）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_NAME" Language="zh_Hant_HK">
+			<Text>遷都</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>魔女特色項目。完成後，[ICON_Capital]首都將會遷都至此城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_GOLD_AGE_NAME" Language="zh_Hant_HK">
+			<Text>黃金記憶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_GOLD_AGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>留聲機特色項目。讓人民回想起輝煌的往日時光，時代分數+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_DARK_AGE_NAME" Language="zh_Hant_HK">
+			<Text>黑暗回憶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_DARK_AGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>留聲機特色項目。讓人民回想起灰黯的往日時光，時代分數-10。</Text>
+		</Replace>
+		
+		<!-- 改變地形 -->
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_NAME" Language="zh_Hant_HK">
+			<Text>移山</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>將所處的單元格轉變為丘陵單元格。[NEWLINE]只能轉變不是火山的山脈。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_NAME" Language="zh_Hant_HK">
+			<Text>填海</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>將所處的單元格轉變為平原單元格。[NEWLINE]只能轉變沒有資源的湖泊和海岸。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_NAME" Language="zh_Hant_HK">
+			<Text>造陸</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>將所處的單元格與相鄰單元格轉變為平原單元格。[NEWLINE]只能轉變沒有資源的湖泊、海岸和海洋。</Text>
+		</Replace>
+		
+		<!-- 海上建城 -->
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS" Language="zh_Hant_HK">
+			<Text>海上建城</Text>
+		</Replace>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[NEWLINE]於所處單元格建城，並且將相鄰海洋單元格轉變為海岸單元格</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_CITY" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]距離其他城市太近了[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISTRICT" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]無法在區域建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_IMPROVEMENT" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]無法在改良設施建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_LAKE" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]無法在湖泊建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_WONDER" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]無法在自然奇觀建城[ENDCOLOR]</Text>
+		</Row>
+
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Science]科技值來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Culture]文化值來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Production]生產力來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Faith]信仰值來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_GFOOD]食物來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CITYCENTER_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Food]食物來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SEARESOURCE_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Food]食物來自相鄰海洋資源。</Text>
+		</Replace>
+
+		<!-- 海濱 -->
+		<Replace Tag="LOC_DAL_COAST_NAME" Language="zh_Hant_HK">
+			<Text>海濱</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建立在海岸單元格上的區域，</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC2" Language="zh_Hant_HK">
+			<Text>無法建造在擁有「</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC3" Language="zh_Hant_HK">
+			<Text>」的城市內。無法建造在礁石單元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC4" Language="zh_Hant_HK">
+			<Text>中的</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Science]科技值來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Culture]文化值來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Production]生產力來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Faith]信仰值來自相鄰城市中心。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_XMAS_GOODY_HUT" Language="zh_Hant_HK">
+			<Text>[COLOR_RED]部落村莊刷新！[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_DAL_SECRETSOCIETY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡{LOC_TOOLTIP_SAMPLE_DIPLOMACY_SAME_SECRET_SOCIETY}。[NEWLINE]厭惡{LOC_TOOLTIP_SAMPLE_DIPLOMACY_DIFFERENT_SECRET_SOCIETY}。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_DAL_GOLD_NAME" Language="zh_Hant_HK">
+			<Text>黃金</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_DAL_GOLD_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>黃金是人類較早發現並利用的金屬。由於黃金罕有丶特殊和珍貴，因此有「金屬之王」的稱號，享有其它金屬品種無法比擬的盛譽，其顯赫的地位近乎永恆。正因為黃金具有這一「貴族」地位，黃金曾經是財富和華貴的象徵。隨著社會的發展，黃金的經濟地位和應用層面不斷發生變化，但目前仍然在各國的國際儲備中佔有一席之地，是一種同時具有貨幣屬性丶商品屬性和金融屬性的特殊商品。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_DAL_GOLD]黃金企業：創造新產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_DAL_GOLD]創造新黃金產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_DAL_GOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_DAL_GOLD]黃金資源為基礎，為全世界創造新產品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_1_NAME" Language="zh_Hant_HK">
+			<Text>鎮金店</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_2_NAME" Language="zh_Hant_HK">
+			<Text>周大福珠寶</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_3_NAME" Language="zh_Hant_HK">
+			<Text>金長山</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_4_NAME" Language="zh_Hant_HK">
+			<Text>集羽珠寶</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_DAL_GOLD_5_NAME" Language="zh_Hant_HK">
+			<Text>今生金飾</Text>
+		</Replace>
+		
+		<!-- 行政長官 -->
+		<Replace Tag="LOC_GOVERNOR_THE_DEFENDER_NAME" Language="zh_Hant_HK">
+			<Text>夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_CARDINAL_NAME" Language="zh_Hant_HK">
+			<Text>鳶一折紙</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_BUILDER_NAME" Language="zh_Hant_HK">
+			<Text>風待八舞</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME" Language="zh_Hant_HK">
+			<Text>誘宵美九</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME" Language="zh_Hant_HK">
+			<Text>時崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_MERCHANT_NAME" Language="zh_Hant_HK">
+			<Text>五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME" Language="zh_Hant_HK">
+			<Text>鏡野七罪</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_IBRAHIM_NAME" Language="zh_Hant_HK">
+			<Text>五河士織</Text>
+		</Replace>
+
+		<!-- 模組說明 -->
+		<Replace Tag="LOC_DAL_CORE_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]核心代碼[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CORE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰系列核心代碼</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CORE_SPECIAL_THANK" Language="zh_Hant_HK">
+			<Text>Hemmelfort大佬的B站系列教學視頻、MOD輔助工具，獲益良多</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]時崎狂三[ENDCOLOR] - [COLOR:ResGoldLabelCS]刻刻帝[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的時崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]時崎狂三:擴充1[ENDCOLOR] - [COLOR:ResGoldLabelCS]刻刻帝〈猩紅夢魘〉[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的時崎狂三，擴充更多造型</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]（赤黑新章）[COLOR:ResGoldLabelCS]白之女王 - [COLOR_RED]第三領域[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰赤黑新章的白之女王</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]鳶一折紙[ENDCOLOR] - [COLOR:ResGoldLabelCS]絕滅天使[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的鳶一折紙</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]本條二亞 - [COLOR:ResGoldLabelCS]囁告篇帙[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的本條二亞</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]冰芽川四糸乃[ENDCOLOR] - [COLOR:ResGoldLabelCS]冰結傀儡[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的冰芽川四糸乃</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]五河琴里[ENDCOLOR] - [COLOR:ResGoldLabelCS]灼爛殲鬼[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]星宮六喰[ENDCOLOR] - [COLOR:ResGoldLabelCS]封解主[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的星宮六喰</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYONO_NATSUMI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]鏡野七罪[ENDCOLOR] - [COLOR:ResGoldLabelCS]贗造魔女[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYONO_NATSUMI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的鏡野七罪</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]八舞姊妹[ENDCOLOR] - [COLOR:ResGoldLabelCS]颶風騎士[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的八舞耶俱矢＆八舞夕弦</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]誘宵美九[ENDCOLOR] - [COLOR:ResGoldLabelCS]破軍歌姬[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的誘宵美九</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]夜刀神十香/天香 - [COLOR:ResGoldLabelCS]鏖殺公/暴虐公[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]獸十香 - [COLOR:ResGoldLabelCS]獸[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的[COLOR_RED]獸十香[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]萬由里 - [COLOR:ResGoldLabelCS]雷霆聖堂[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的萬由里</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]園神凜禰/凜緒 - [COLOR:ResGoldLabelCS]兇禍樂園[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的園神凜禰/凜緒</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]或守鞠亞/鞠奈 - [COLOR:ResGoldLabelCS]尤克特拉希爾/尼德霍格[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的或守鞠亞與或守鞠奈</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]妮貝可/艾蓮/阿爾提米西亞 - [COLOR:ResGoldLabelCS]D.E.M[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的D.E.M公司</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]蓮 - [COLOR:ResGoldLabelCS]瘴毒淨土[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的蓮</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]五河士織 - [COLOR:ResGoldLabelCS]究極侍女[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的五河士織</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

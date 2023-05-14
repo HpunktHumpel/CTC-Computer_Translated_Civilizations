@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0fc54588-0cb8-44eb-bad2-3f4f1a53883e" version="1">
+  <Properties>
+    <Name>LOC_DAL_CORE_NAME</Name>
+    <Description>LOC_DAL_CORE_DESCRIPTION</Description>
+    <Created>1683994095</Created>
+    <Teaser>LOC_DAL_CORE_DESCRIPTION</Teaser>
+    <Authors>IthildinX</Authors>
+    <SpecialThanks>LOC_DAL_CORE_SPECIAL_THANK</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+    <Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
+    <Mod id="1F367231-A040-4793-BDBB-088816853683" title="DLC: Khmer and Indonesia Civilization Pack" />
+    <Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="DLC: Nubia Civilization Pack" />
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+    <Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+    <Mod id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" title="DLC: Vikings Content" />
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="DLC: Kublaikhan Vietnam Pack" />
+  </References>
+  <Blocks>
+    <Mod id="27d18088-eebc-4638-8b3a-43a0a793dda6" title="LOC_DAL_GOVERNOR_TITLE" />
+    <Mod id="ae974162-a925-4e40-99c6-3c1821c58e94" title="xxx" />
+  </Blocks>
+  <ActionCriteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Hero_Mode">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="TowerDefense_Mode">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_TOWERDEFENSE</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SecretSocieties_Mode">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Monopoly_Mode">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Apocalypse_Mode">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_APOCALYPSE</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Core/DAL_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <File>Text/DAL_ConfigText.xml</File>
+      <File>Text/DAL_ConfigText - CHS.xml</File>
+      <File>Text/DAL_ConfigText - CHT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Core/DAL_Icons.xml</File>
+      <File>Core/DAL_Icon_Config.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>LOC_DAL_CORE_NAME.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>Expansion2</Criteria>
+      <File>Core/DAL_Data.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Modifier">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+      <File>Core/DAL_Requirement.sql</File>
+      <File>Core/DAL_Modifiers.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Text/DAL_ConfigText.xml</File>
+      <File>Text/DAL_DiplomacyText.xml</File>
+      <File>Text/DAL_Text.xml</File>
+      <File>Text/DAL_ConfigText - CHS.xml</File>
+      <File>Text/DAL_DiplomacyText - CHS.xml</File>
+      <File>Text/DAL_Text - CHS.xml</File>
+      <File>Text/DAL_ConfigText - CHT.xml</File>
+      <File>Text/DAL_DiplomacyText - CHT.xml</File>
+      <File>Text/DAL_Text - CHT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <File>Core/DAL_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>LOC_DAL_CORE_NAME.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="GameplayScripts">
+      <Properties>
+        <LoadOrder>99999</LoadOrder>
+      </Properties>
+      <File>Core/DAL_Modifiers.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="UserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>99999</LoadOrder>
+      </Properties>
+      <File>Core/DAL_Modifiers_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateAudio id="UpdateAudio">
+      <File>Platforms/Windows/Audio/DAL_SoundBank.ini</File>
+    </UpdateAudio>
+    <UpdateDatabase id="SecretSocieties">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <Criteria>SecretSocieties_Mode</Criteria>
+      <File>Core/DAL_SS.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TowerDenense">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <Criteria>TowerDefense_Mode</Criteria>
+      <File>Core/DAL_TD.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Hero">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <Criteria>Hero_Mode</Criteria>
+      <File>Core/DAL_Hero.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Monopoly">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <Criteria>Monopoly_Mode</Criteria>
+      <File>Core/DAL_Monopoly.xml</File>
+      <File>Core/DAL_Monopoly.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="MonopolyIcon">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <Criteria>Monopoly_Mode</Criteria>
+      <File>Core/DAL_Monopoly_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="Disaster">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <Criteria>Apocalypse_Mode</Criteria>
+      <File>Core/DAL_Disaster.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/CityGenerators.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/Resources.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/Walls.artdef</File>
+    <File>Core/DAL_Config.sql</File>
+    <File>Core/DAL_Data.xml</File>
+    <File>Core/DAL_Disaster.sql</File>
+    <File>Core/DAL_Hero.sql</File>
+    <File>Core/DAL_Icons.xml</File>
+    <File>Core/DAL_Icon_Config.xml</File>
+    <File>Core/DAL_Modifiers.lua</File>
+    <File>Core/DAL_Modifiers.sql</File>
+    <File>Core/DAL_Modifiers_UI.lua</File>
+    <File>Core/DAL_Modifiers_UI.xml</File>
+    <File>Core/DAL_Monopoly.sql</File>
+    <File>Core/DAL_Monopoly.xml</File>
+    <File>Core/DAL_Monopoly_Icon.xml</File>
+    <File>Core/DAL_Requirement.sql</File>
+    <File>Core/DAL_SS.sql</File>
+    <File>Core/DAL_TD.sql</File>
+    <File>DateAliveCore.Art.xml</File>
+    <File>LOC_DAL_CORE_NAME.dep</File>
+    <File>MacOS/BLPs/Units/Viking.blp</File>
+    <File>Platforms/MacOS/BLPs/Landmarks/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Rail_Tracks_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Rail_Tracks_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Rail_Tracks_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Rail_Tracks_S</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decal_Mine_Hole_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decal_Mine_Hole_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decal_Mine_Hole_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_biomatrixNESTtexture_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Rail_Tracks_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decal_Mine_Hole_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_Ancient_Filler_B_DIS_Ancient_Filler_T</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_PRD_Pile_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_underwaterfiber2_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CMP_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/strategicview/StrategicView.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/Unit.blp</File>
+    <File>Platforms/MacOS/BLPs/Units/Viking.blp</File>
+    <File>Platforms/MacOS/SHARED_DATA/TEXTURE_Reindeer_ao</File>
+    <File>Platforms/MacOS/SHARED_DATA/TEXTURE_Reindeer_g</File>
+    <File>Platforms/MacOS/SHARED_DATA/TEXTURE_Reindeer_m</File>
+    <File>Platforms/MacOS/SHARED_DATA/TEXTURE_Reindeer_n0</File>
+    <File>Platforms/MacOS/SHARED_DATA/TEXTURE_Reindeer_n1</File>
+    <File>Platforms/Windows/Audio/274306323.wem</File>
+    <File>Platforms/Windows/Audio/320261684.wem</File>
+    <File>Platforms/Windows/Audio/34097246.wem</File>
+    <File>Platforms/Windows/Audio/370034555.wem</File>
+    <File>Platforms/Windows/Audio/410965220.wem</File>
+    <File>Platforms/Windows/Audio/415787826.wem</File>
+    <File>Platforms/Windows/Audio/636793041.wem</File>
+    <File>Platforms/Windows/Audio/767342829.wem</File>
+    <File>Platforms/Windows/Audio/824240879.wem</File>
+    <File>Platforms/Windows/Audio/871464947.wem</File>
+    <File>Platforms/Windows/Audio/944531191.wem</File>
+    <File>Platforms/Windows/Audio/978683756.wem</File>
+    <File>Platforms/Windows/Audio/DAL_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/DAL_SoundBank.ini</File>
+    <File>Platforms/Windows/Audio/DAL_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/DAL_SoundBank.xml</File>
+    <File>Platforms/Windows/BLPs/Landmarks/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Rail_Tracks_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Rail_Tracks_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Rail_Tracks_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Rail_Tracks_S</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decal_Mine_Hole_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decal_Mine_Hole_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decal_Mine_Hole_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_biomatrixNESTtexture_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Rail_Tracks_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decal_Mine_Hole_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_Ancient_Filler_B_DIS_Ancient_Filler_T</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_PRD_Pile_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_underwaterfiber2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Ancient_Filler_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CMP_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/strategicview/StrategicView.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/Unit.blp</File>
+    <File>Platforms/Windows/BLPs/Units/Viking.blp</File>
+    <File>Platforms/Windows/SHARED_DATA/TEXTURE_Reindeer_ao</File>
+    <File>Platforms/Windows/SHARED_DATA/TEXTURE_Reindeer_g</File>
+    <File>Platforms/Windows/SHARED_DATA/TEXTURE_Reindeer_m</File>
+    <File>Platforms/Windows/SHARED_DATA/TEXTURE_Reindeer_n0</File>
+    <File>Platforms/Windows/SHARED_DATA/TEXTURE_Reindeer_n1</File>
+    <File>Text/DAL_ConfigText - CHS.xml</File>
+    <File>Text/DAL_ConfigText - CHT.xml</File>
+    <File>Text/DAL_ConfigText.xml</File>
+    <File>Text/DAL_DiplomacyText - CHS.xml</File>
+    <File>Text/DAL_DiplomacyText - CHT.xml</File>
+    <File>Text/DAL_DiplomacyText.xml</File>
+    <File>Text/DAL_Text - CHS.xml</File>
+    <File>Text/DAL_Text - CHT.xml</File>
+    <File>Text/DAL_Text.xml</File>
+    <File>Windows/BLPs/Units/Viking.blp</File>
+  </Files>
+</Mod>
