@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_ZADKIEL_NAME" Language="zh_Hans_CN">
+			<Text>冰结傀儡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZADKIEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>＜隐居者＞冰芽川四糸乃</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZADKIEL_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>冰结傀儡的</Text>
+		</Replace>
+		
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZADKIEL_NAME" Language="zh_Hans_CN">
+			<Text>极寒领域</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZADKIEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无法宣布突袭与正式战争；其他文明仅能对你声明{LOC_LIBERATION_WAR_NAME}、{LOC_RECONQUEST_WAR_NAME}、{LOC_PROTECTORATE_WAR_NAME}、{LOC_EMERGENCY_WAR_NAME}以及{LOC_HOLY_WAR_NAME}。驱散蛮族哨站时，你将获得部落村庄奖励及经验值。所有城市创建时带有一个额外的生产力花费最低的市中心建筑。每座城市都能比平时多建造一个的区域。建成市政广场外的专业区域时，一定几率带有该区域中当前可建且生产力花费最低的建筑。[NEWLINE]单位不会受到暴风雪伤害。交战方在帝国领土受到加倍暴风雪伤害。区域和奇观可以在冰上建筑。雪地、冻土、雪地丘陵、冻土丘陵+1[ICON_Food]食物。允许在冻土地貌上建造农场、解锁“土木工程”後可在冻土丘陵上建造农场。公民可改良雪地与冻土山脉，雪地与冻土山脉单元格提供+1[ICON_Production]生产力与+1[ICON_Faith]信仰值，起源城市中的每个雪地与冻土山脉单元格将为国内[ICON_TradeRoute]贸易路线+1[ICON_Faith]信仰值，工业时代后加成翻倍。在雪地、冻土、雪地丘陵、冻土丘陵、雪地山脉和冻土山脉上购买单元格的花费减半。</Text>
+		</Replace>
+		
+		<!-- 领袖 -->
+		<Replace Tag="LOC_LEADER_HIMEKAWA_YOSHINO_NAME" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HIMEKAWA_YOSHINO_PRINCESS_NAME" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃(冰雪公主)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HIMEKAWA_YOSHINO_SIRYON_NAME" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃(冰铠)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HIMEKAWA_YOSHINO_LION_NAME" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃(御狮万福)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HIMEKAWA_YOSHINO_SWIM_NAME" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃(泳装)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HIMEKAWA_YOSHINO_WITCH_NAME" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃(女巫)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HIMEKAWA_YOSHINO_INVERSE_NAME" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃(反转)</Text>
+		</Replace>
+		
+		<!-- 领袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·四番</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>交战的文明获得双倍厌战情绪。每当你不与任何文明发生战争时，你的城市+10%[ICON_Production]生产力，首都的雪地、冻土、雪地丘陵、冻土丘陵地形获得额外[ICON_Production]生产力。当与另一个区域相邻时，当前区域获得一个额外的标准相邻地域加成。[NEWLINE]进入新时代时，获得随机[ICON_TechBoosted]尤里卡和[ICON_CivicBoosted]天启。[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_PRINCESS_NAME" Language="zh_Hans_CN">
+			<Text>凛冬降临</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·四番”之外，每当你不与任何文明发生战争时，你的城市+10%[ICON_Science]科技值与[ICON_Culture]文化值。交战的文明全单位[ICON_Movement]移动力-1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_SIRYON_NAME" Language="zh_Hans_CN">
+			<Text>寒霜落定</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_SIRYON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·四番”之外，不再受到无法宣战的限制并且宣布突袭战争的[ICON_STAT_GRIEVANCE]怨气和好战性与正式战争相同。各城市不会生成厌战情绪。被征服的城市不会失去[ICON_Citizen]人口。[NEWLINE]所有单位对蛮族额外+4[ICON_Strength]战斗力、每个军事政策再额外+1[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_LION_NAME" Language="zh_Hans_CN">
+			<Text>福星高照</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_LION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·四番”之外，每个进入一个时代+1[ICON_TradeRoute]贸易路线，所有城市一开始就拥有贸易站，[ICON_Capital]首都贸易路线距离内的城市自动开辟贸易路线。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_SWIM_NAME" Language="zh_Hans_CN">
+			<Text>泡泡</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_SWIM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·四番”之外，游戏开场时位于海洋单元格中，陆地单位可以上船并具备进入海洋单元格的能力，开拓者可以在海域建造城市。在开拓第一座城市前每回合+2[ICON_Science]科技值且+2[ICON_Culture]文化值。[NEWLINE]不会受到洪灾损害。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_WITCH_NAME" Language="zh_Hans_CN">
+			<Text>糖果？捣蛋！</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_WITCH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·四番”之外，本国城市的市民[ICON_Loyalty]忠诚度系数上升，盟友获得部分收益、外邦城市的市民[ICON_Loyalty]忠诚度系数下降，敌方城市效果翻倍。[NEWLINE]若其他文明的城市因[ICON_Loyalty]忠诚度降低而脱离文明，且每回合对你的[ICON_Loyalty]忠诚度最高，则该城市会直接跳过自由城市阶段，直接加入你的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_INVERSE_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·四番·反转</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIMEKAWA_YOSHINO_INVERSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·四番”之外，拥有所有换装四糸乃的特性。</Text>
+		</Replace>
+		
+		<!-- 领袖议程 -->
+		<Replace Tag="LOC_AGENDA_HIMEKAWA_YOSHINO_NAME" Language="zh_Hans_CN">
+			<Text>和平爱好者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HIMEKAWA_YOSHINO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果会因为这场战争而被打上好战者的标签，那他绝不会宣战，试图帮助那些维持和平的人。讨厌好战份子。[NEWLINE]重视保卫城邦战争。钦佩进行保卫城邦战争的文明。讨厌攻击城邦的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HIMEKAWA_YOSHINO_INVERSE_NAME" Language="zh_Hans_CN">
+			<Text>战狂</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HIMEKAWA_YOSHINO_INVERSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢拥有强大武力的文明，并试图与他们结盟以躲避战争。讨厌武力弱小的文明。[NEWLINE]喜欢和城邦没有来往的文明。讨厌城邦宗主国，或征服城邦的文明。</Text>
+		</Replace>
+
+		<!-- 特色单位 -->
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_NAME" Language="zh_Hans_CN">
+			<Text>冰结傀儡</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色支持单位。[NEWLINE]所有相邻的敌方单位[ICON_Movement]移动力下降。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_ANCIENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色远古时代支持单位，取代破城槌。[NEWLINE]所有相邻的敌方单位[ICON_Movement]移动力下降。[NEWLINE]靠近敌方城市时，进攻的近战及抗骑兵单位能对城市城墙造成完整伤害。[NEWLINE]不影响装有中世纪或文艺复兴城墙的城市。对城市防御无效。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_MEDIEVAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色中世纪支持单位，取代攻城塔。[NEWLINE]所有相邻的敌方单位[ICON_Movement]移动力下降。[NEWLINE]靠近敌方城市时，进攻的近战及抗骑兵单位无视城墙直接突击城市。[NEWLINE]不影响装有文艺复兴城墙的城市。对城市防御无效。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_RENAISSANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色文艺复兴时期支持单位。[NEWLINE]所有相邻的敌方单位[ICON_Movement]移动力下降。[NEWLINE]邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_MODERN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色现代支持单位，取代观测气球。[NEWLINE]所有相邻的敌方单位[ICON_Movement]移动力下降。[NEWLINE]邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。[NEWLINE]为1单元格范围内的攻城单位+1[ICON_Range]射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_ATOMIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色原子能时代的防空支持单位，取代防空炮。[NEWLINE]所有相邻的敌方单位[ICON_Movement]移动力下降。[NEWLINE]邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。[NEWLINE]为1单元格范围内的攻城单位+1[ICON_Range]射程和+5[ICON_Bombard]炮击攻击力。[NEWLINE]为一个格位内的单位提供掩护躲避空袭。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_INFORMATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色信息时代的防空支持单位，取代防空导弹车。[NEWLINE]所有相邻的敌方单位[ICON_Movement]移动力下降。[NEWLINE]邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。[NEWLINE]为1单元格范围内的攻城单位+1[ICON_Range]射程和+5[ICON_Bombard]炮击攻击力。[NEWLINE]若其他单位从周围开始移动，则可获得1点[ICON_Movement]移动力加成。[NEWLINE]为一个格位以内的单位提供掩护躲避空袭和核攻击。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_YOSHINO_ZADKIEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合自动恢复生命。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YOSHINO_ZADKIEL_SIEGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_R_NAME" Language="zh_Hans_CN">
+			<Text>断钢傀儡</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色支持单位。[NEWLINE]能够运用控制区影响。所有相邻的敌方单位[ICON_Movement]移动力和[ICON_Strength]战斗力下降。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_R_ANCIENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色远古时代支持单位，取代破城槌。[NEWLINE]能够运用控制区影响。所有相邻的敌方单位[ICON_Movement]移动力下降，-5[ICON_Strength]战斗力。[NEWLINE]靠近敌方城市时，进攻的近战及抗骑兵单位能对城市城墙造成完整伤害。[NEWLINE]不影响装有中世纪或文艺复兴城墙的城市。对城市防御无效。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_R_MEDIEVAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色中世纪支持单位，取代攻城塔。[NEWLINE]能够运用控制区影响。所有相邻的敌方单位[ICON_Movement]移动力下降，-5[ICON_Strength]战斗力。[NEWLINE]靠近敌方城市时，进攻的近战及抗骑兵单位无视城墙直接突击城市。[NEWLINE]不影响装有文艺复兴城墙的城市。对城市防御无效。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_R_RENAISSANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色文艺复兴时期支持单位。[NEWLINE]能够运用控制区影响。所有相邻的敌方单位[ICON_Movement]移动力下降，-5[ICON_Strength]战斗力。[NEWLINE]邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_R_MODERN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色现代支持单位，取代观测气球。[NEWLINE]能够运用控制区影响。所有相邻的敌方单位[ICON_Movement]移动力下降，-5[ICON_Strength]战斗力。[NEWLINE]邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。[NEWLINE]为1单元格范围内的攻城单位+1[ICON_Range]射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_R_ATOMIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色原子能时代的防空支持单位，取代防空炮。[NEWLINE]能够运用控制区影响。所有相邻的敌方单位[ICON_Movement]移动力下降，-10[ICON_Strength]战斗力。[NEWLINE]邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。[NEWLINE]为1单元格范围内的攻城单位+1[ICON_Range]射程和+5[ICON_Bombard]炮击攻击力。[NEWLINE]为一个格位内的单位提供掩护躲避空袭。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ZADKIEL_R_INFORMATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色信息时代的防空支持单位，取代防空导弹车。[NEWLINE]能够运用控制区影响。所有相邻的敌方单位[ICON_Movement]移动力下降，-10[ICON_Strength]战斗力。[NEWLINE]邻近的近战单位和抗骑兵单位的攻击能对城市城墙造成完整伤害。[NEWLINE]为1单元格范围内的攻城单位+1[ICON_Range]射程和+5[ICON_Bombard]炮击攻击力。[NEWLINE]若其他单位从周围开始移动，则可获得1点[ICON_Movement]移动力加成。[NEWLINE]为一个格位以内的单位提供掩护躲避空袭和核攻击。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_CLASS_ZADKIEL_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_1_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气I</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_2_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气II</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_3_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气III</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_4_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气IV</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_5_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气V</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_6_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气VI</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_7_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气VII</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_8_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气VIII</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_9_NAME" Language="zh_Hans_CN">
+			<Text>冰冻灵气IX</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZADKIEL_ICEYAURA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1[ICON_Movement]移动力；所有相邻的敌方单位[ICON_Movement]移动力下降。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_YOSHINO_ICEBREAKER_NAME" Language="zh_Hans_CN">
+			<Text>冰结破冰船</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ICEBREAKER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色支持单位。可在冰区域块移动，可护送其他单位一同移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_URAN_ICEBREAKER_NAME" Language="zh_Hans_CN">
+			<Text>冰结核子破冰船</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_URAN_ICEBREAKER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>泳装四糸乃特色支持单位。可在冰区域块移动，可护送其他单位一同移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ICEBREAKER_R_NAME" Language="zh_Hans_CN">
+			<Text>断钢破冰船</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ICEBREAKER_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色支持单位。可在冰区域块移动，可护送其他单位一同移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_URAN_ICEBREAKER_R_NAME" Language="zh_Hans_CN">
+			<Text>断钢核子破冰船</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_URAN_ICEBREAKER_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色支持单位。可在冰区域块移动，可护送其他单位一同移动。</Text>
+		</Replace>
+		<Row Tag="LOC_ABILITY_YOSHINO_ESCORT_MOBILITY_NAME" Language="zh_Hans_CN">
+			<Text>护送</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YOSHINO_ESCORT_MOBILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可护送其他单位一同移动。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YOSHINO_IGNORE_ICE_NAME" Language="zh_Hans_CN">
+			<Text>破冰</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YOSHINO_IGNORE_ICE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可在冰区域块移动。</Text>
+		</Row>
+
+		<Replace Tag="LOC_UNIT_YOSHINO_ARMY_NAME" Language="zh_Hans_CN">
+			<Text>冰结重甲兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ARMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰铠四糸乃特色中世纪反装甲单位，取代长矛兵。[NEWLINE]如果与至少1个重甲兵单位相邻，+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ARMY_R_NAME" Language="zh_Hans_CN">
+			<Text>断钢重甲兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_ARMY_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色中世纪反装甲单位，取代长矛兵。[NEWLINE]如果与至少1个重甲兵单位相邻，+10[ICON_Strength]战斗力。[NEWLINE]每个相邻受征集单位为其+3[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YOSHINO_ARMY_NEIGHBOR_NAME" Language="zh_Hans_CN">
+			<Text>方阵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YOSHINO_ARMY_NEIGHBOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果附近至少有一名重甲兵，+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YOSHINO_ARMY_NEIGHBOR_PREVIEW" Language="zh_Hans_CN">
+			<Text>与另一个重甲兵相邻时+{1_Amount}[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_YOSHINO_CAROLEAN_NAME" Language="zh_Hans_CN">
+			<Text>冰结陆军</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_CAROLEAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>御狮四糸乃特色文艺复兴时期反装甲单位，取代枪刺与射击方阵。[NEWLINE]移动速度较快。具有较高的侧翼攻击加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_CAROLEAN_R_NAME" Language="zh_Hans_CN">
+			<Text>断钢陆军</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_CAROLEAN_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色文艺复兴时期反装甲单位，取代枪刺与射击方阵。[NEWLINE]移动速度较快。具有较高的侧翼攻击加成。每点未使用的[ICON_Movement]移动力将提供+3[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YOSHINO_FLANKING_BONUS_NAME" Language="zh_Hans_CN">
+			<Text>侧翼攻击</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YOSHINO_FLANKING_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+100%侧翼攻击加成。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNIT_YOSHINO_REDCOAT_NAME" Language="zh_Hans_CN">
+			<Text>冰结禁卫军</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_REDCOAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>泳装四糸乃特色工业时代近战单位，取代战列步兵。[NEWLINE]下船不消耗移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YOSHINO_REDCOAT_NAME" Language="zh_Hans_CN">
+			<Text>全球性军队</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YOSHINO_REDCOAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Bullet]下船时不消耗[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_REDCOAT_R_NAME" Language="zh_Hans_CN">
+			<Text>断钢禁卫军</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_REDCOAT_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色工业时代近战单位，取代战列步兵。[NEWLINE]在本方首都以外的大陆作战时+10[ICON_Strength]战斗力。下船不消耗移动力。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNIT_YOSHINO_COSSACK_NAME" Language="zh_Hans_CN">
+			<Text>冰结骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_COSSACK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>女巫四糸乃特色工业时代轻骑兵单位，取代骑兵。[NEWLINE]位于或靠近领土作战时，+5[ICON_Strength]战斗力。如有剩余[ICON_Movement]移动力，可在攻击後移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_COSSACK_R_NAME" Language="zh_Hans_CN">
+			<Text>断钢骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSHINO_COSSACK_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色工业时代轻骑兵单位，取代骑兵。[NEWLINE]位于或靠近领土作战时，+5[ICON_Strength]战斗力。如有剩余[ICON_Movement]移动力，可在攻击後移动，并提供+3[ICON_Strength]战斗力。</Text>
+		</Replace>
+
+		<!-- 特色区域 -->
+		<Replace Tag="LOC_DISTRICT_ZADKIEL_SKI_RESORT_NAME" Language="zh_Hans_CN">
+			<Text>冰结渡假村</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ZADKIEL_SKI_RESORT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰结傀儡特色区域，取代社区，只能建在雪地、冻土、雪地丘陵、冻土丘陵里，并提供上述地形[ICON_Production]生产力增益。随着市政演进提供额外娱乐值，但无法建造在拥有“娱乐中心”或“水上乐园”的城市中。[NEWLINE]{LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION}</Text>
+		</Replace>
+		
+		<!-- 特色改良设施 -->
+		<Replace Tag="LOC_IMPROVEMENT_YOSHINO_ICE_HOCKEY_RINK_NAME" Language="zh_Hans_CN">
+			<Text>冰结球场</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YOSHINO_ICE_HOCKEY_RINK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰芽川四糸乃特色建筑。[NEWLINE][NEWLINE]+1[ICON_Amenities]满意度。每个相邻冻土、冻土丘陵、雪地和雪地丘陵单元格+1[ICON_Culture]文化值。解锁“飞行”科技後能从文化值获得[ICON_Tourism]旅游业绩。解锁“职业体育”市政後+2[ICON_Food]食物和[ICON_Production]生产力。若相邻於体育场或水上运动中心建筑则+4[ICON_Culture]文化值。可以建造在冻土、冻土丘陵、雪地和雪地丘陵上。+2[ICON_Appeal]魅力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YOSHINO_ICE_HOCKEY_RINK_R_NAME" Language="zh_Hans_CN">
+			<Text>断钢球场</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YOSHINO_ICE_HOCKEY_RINK_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反转四糸乃特色建筑。[NEWLINE][NEWLINE]+1[ICON_Amenities]满意度。每个相邻冻土、冻土丘陵、雪地和雪地丘陵单元格+1[ICON_Culture]文化值。解锁“飞行”科技後能从文化值获得[ICON_Tourism]旅游业绩。解锁“职业体育”市政後+2[ICON_Food]食物和[ICON_Production]生产力。若相邻於体育场或水上运动中心建筑则+4[ICON_Culture]文化值。可以建造在冻土、冻土丘陵、雪地和雪地丘陵上。+3[ICON_Appeal]魅力。邻近敌方单位[ICON_Movement]移动力下降。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ZADKIEL_SKI_RESORT_NAME" Language="zh_Hans_CN">
+			<Text>玩偶滑雪场</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ZADKIEL_SKI_RESORT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冰结傀儡特色改良设施。[NEWLINE][NEWLINE]提供1点[ICON_Amenities]满意度。[NEWLINE]提供等同于[ICON_Gold]金币产量的[ICON_Tourism]旅游业绩。[NEWLINE]仅能建造在山脉上（平原、草原、雪地、冻土）。无法建在其他滑雪场旁，亦无法被掠夺、改良或移除。</Text>
+		</Replace>
+
+		<!-- 城邦 -->
+		<Row Tag="LOC_CIVILIZATION_MINOR_YOSHINON_NAME" Language="zh_Hans_CN">
+			<Text>四糸奈</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MINOR_YOSHINON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>四糸乃手中样子很滑稽的兔子手偶，由她所创造出来的另一人格，只在戴上手偶时才会浮现。</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MINOR_YOSHINON_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>四糸奈的</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MINOR_YOSHINON_NAME" Language="zh_Hans_CN">
+			<Text>冰结傀儡</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MINOR_YOSHINON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位不会受到暴风雪伤害。交战方在帝国领土受到加倍暴风雪伤害。在首都获得一个冰结傀儡。[NEWLINE]若宗主国不是四糸乃，解锁建造破冰船，但是全单位[ICON_Movement]移动力-1。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_MINOR_YOSHINON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>四糸乃手中样子很滑稽的兔子手偶，由她所创造出来的另一人格，只在戴上手偶时才会浮现。是四糸乃理想中的自己，也是她的朋友。但如果本人没有注意到手偶丢失的话，似乎并不影响四糸奈人格的出现。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

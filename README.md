@@ -44,6 +44,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2917686453](https://steamcommunity.com/sharedfiles/filedetails/?id=2917686453) | [TOUHOU]东方project MOD——魂魄妖梦 | [TOUHOU] Oriental project mod - Soul Demon Dream |
 | [2919794042](https://steamcommunity.com/sharedfiles/filedetails/?id=2919794042) | [TouHou]东方project MOD 河城荷取 | [TouHou] Oriental project MOD River City Hotori |
 | [2921739891](https://steamcommunity.com/sharedfiles/filedetails/?id=2921739891) | 东方PROJECT 比那名居天子 | Touhou Project Hinana Juten |
+| [2924196884](https://steamcommunity.com/sharedfiles/filedetails/?id=2924196884) | Date.a.Live Himekawa Yoshino Reloaded | Date.a.Live Himekawa Yoshino Reloaded |
 | [2924636331](https://steamcommunity.com/sharedfiles/filedetails/?id=2924636331) | 归离原·归离集·归终 | Return to the original · Return to the collection · Return to the end |
 | [2924695333](https://steamcommunity.com/sharedfiles/filedetails/?id=2924695333) | 天有烘炉,地生五金 | There is an oven in the sky, hardware from the earth |
 | [2928173382](https://steamcommunity.com/sharedfiles/filedetails/?id=2928173382) | Date.A.Live-Sonogami Rinne, Rio Reloaded | Date.A.Live-Sonogami Rinne, Rio Reloaded |

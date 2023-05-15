@@ -1,0 +1,3578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Ithildin -->
+<!-- DateCreated: 7/29/2021 12:34:43 AM -->
+<GameData>
+	<LocalizedText>
+		<!-- 待更新 -->
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>你也是來欺負四糸乃的嗎……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>您好……要來我家看看嗎……（邀請你拜訪）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>好的……那麼就打擾了……（接受你的邀請）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI，交換地圖資訊-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>來交換……聯絡方式……好嗎？（交換首都的位置）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我不喜歡疼痛，也討厭恐怖的東西，我想那些人也不喜歡疼痛和恐怖，這也是……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼允許的時候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>看起來……非常厲害的樣子呢？（發表了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼被拒絕的時候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……對不起……（拒絕了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI對你宣佈友誼的時候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>那個……能跟我一起做雪人嗎？（冰芽川四糸乃尋求與你的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你同意AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（發表了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你拒絕AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（拒絕了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>那個……請……請不要弄疼我……（對冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>四糸奈……是、我的、英雄。（被冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<!-- 敗北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI同意你的代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>感覺有點怪怪的……但也不……討厭……（已接受特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI拒絕你的代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>……哎？啊……那個，不要……（已拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI派遣代表團的時候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>不、不好意思……打擾了……（冰芽川四糸乃請求特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>遊樂園、很開心……謝謝你……（被接受特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係……（被拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你公開指責AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>不要欺負我！！（對冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI公開指責你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>滾開！！（被冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 大使館 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我很樂意……（大使館的設立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（大使館的設立被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……我可以……建立大使館嗎？（冰芽川四糸乃想設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>請、請讓我來吧！會摔倒？……肯、肯定不會的！（允許設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>啊……這樣嗎……（拒絕設立大使館。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……繼續努力。</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文化值重視」（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「幸福重視」（滿意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_INCOME" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「喜歡金幣」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「重工業主義者」（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦同盟」（不與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「人數主義」（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「技術追隨者」（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「常備軍」（軍事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「戰狂」（活躍於戰爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偉人代言者」（偉人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「愛惜遺產者」（奇觀很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「空軍力」（空軍力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文明國」（擊退蠻族營地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「環保人士」（致力於自然維護和國家公園建設）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「開發主義者」（熱衷於伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「理想主義體質」（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「核武器帶來的快樂」（積極使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_FAITH" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「虔誠」（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「探險家」（地圖完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偏執狂」（缺乏軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>警察叔叔！就是這個人！</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文化值重視」（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「幸福重視」（滿意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_INCOME" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「喜歡金幣」（金幣収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦同盟」（與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「重工業主義者」（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_POPULATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「人數主義」（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「技術追隨者」（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「常備軍」（軍事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偏執狂」（充滿軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偉人代言者」（偉人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「愛惜遺產者」（奇觀很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「空軍力」（空軍力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文明國」（放置蠻族營地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「環保人士」（破壞自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「開發主義者」（熱衷於自然維護）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「理想主義體質」（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「核武器帶來的快樂」（不願使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_FAITH" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「虔誠」（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「探險家」（地圖完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>嗯……我在想……你說的話，是值得相信的。（已同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我、我討厭你！（已拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI允許你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>能……能夠……一起去約會嗎？（聯盟談判開始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒關係的……（拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>是、是的……這樣很好……（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>……沒、沒什麼……特別的……（拒絕交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>謝、謝謝你……（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>這樣子不可以……（交易被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>……謝謝……謝謝你……（冰芽川四糸乃對條款和條件感到滿意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我才不要！（冰芽川四糸乃拒絕了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>真、真的適合我嗎……（接受了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>好吧……那就這樣……（拒絕了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>跟太陽一樣……好溫暖、好漂亮。（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>色狼！我不相信你！警察叔叔！！（被冰芽川四糸乃拒絕了和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI主動提出和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>漫長的假期，要和我們，一起去旅行嗎？（冰芽川四糸乃提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>溫、溫泉？我、我也可以一起去嗎……？（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>真是可惜……（拒絕了冰芽川四糸乃的和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>好的……歡迎來玩……（冰芽川四糸乃許可邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI拒絕你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>不要……（冰芽川四糸乃拒絕邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI詢問你是否願意讓他的部隊通過你的領地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>能……借過嗎……（冰芽川四糸乃要求邊境開放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>謝……謝謝……（冰芽川四糸乃被允許開放邊境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃被拒絕開放邊境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止在邊境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續在邊境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不採取軍事行動。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、尋求軍事行動的機會。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不派遣間諜。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續從事間諜活動。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不盜挖秘寶。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續盜挖秘寶。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止傳教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續傳教活動。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止在邊境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI警告國境的軍隊 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不要在邊境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止派遣間諜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不盜挖秘寶</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止傳教活動</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>那個……還能在一起嗎……（冰芽川四糸乃想延續同盟關係。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>真、真的嗎……（許可冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>唔……（拒絕冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>很開心……謝謝你……（聯盟的延續已被許可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……好吧……（聯盟的延續已被拒絕。）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「好奇心強」（積極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「好奇心強」（消極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「逢迎拍馬」（迎來黃金時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「逢迎拍馬」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「同情心氾濫」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「同情心氾濫」（迎來黃金時代）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「擴張主義者」（領土廣闊）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「擴張主義者」（領土狹小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「地平說信徒」（消極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「地平說信徒」（積極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「大白艦隊」（海軍很強大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「大白艦隊」（海軍很貧弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_FAVOR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「煽動者」（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「煽動者」（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_TOURISM" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「觀光立國」（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「觀光立國」（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「宗教不寛容」（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「宗教不寛容」（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「自由主義者」（外交勝利點數很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「自由主義者」（外交勝利點數很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「略奪者」（掠奪的單元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「略奪者」（掠奪的單元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「穴熊圍」（沒有征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「穴熊圍」（征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「狂信徒」（信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「狂信徒」（不信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「守財奴」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「守財奴」（金幣収入很少）</Text>
+		</Replace>
+
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>你也是來欺負四糸乃的嗎……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>您好……要來我家看看嗎……（邀請你拜訪）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>好的……那麼就打擾了……（接受你的邀請）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI，交換地圖資訊-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>來交換……聯絡方式……好嗎？（交換首都的位置）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我不喜歡疼痛，也討厭恐怖的東西，我想那些人也不喜歡疼痛和恐怖，這也是……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼允許的時候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>看起來……非常厲害的樣子呢？（發表了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼被拒絕的時候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……對不起……（拒絕了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI對你宣佈友誼的時候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>那個……能跟我一起做雪人嗎？（冰芽川四糸乃尋求與你的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你同意AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（發表了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你拒絕AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（拒絕了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>那個……請……請不要弄疼我……（對冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>四糸奈……是、我的、英雄。（被冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<!-- 敗北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI同意你的代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>感覺有點怪怪的……但也不……討厭……（已接受特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI拒絕你的代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>……哎？啊……那個，不要……（已拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI派遣代表團的時候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>不、不好意思……打擾了……（冰芽川四糸乃請求特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>遊樂園、很開心……謝謝你……（被接受特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係……（被拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你公開指責AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>不要欺負我！！（對冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI公開指責你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>滾開！！（被冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 大使館 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我很樂意……（大使館的設立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（大使館的設立被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……我可以……建立大使館嗎？（冰芽川四糸乃想設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>請、請讓我來吧！會摔倒？……肯、肯定不會的！（允許設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>啊……這樣嗎……（拒絕設立大使館。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……繼續努力。</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文化值重視」（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「幸福重視」（滿意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_INCOME" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「喜歡金幣」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「重工業主義者」（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦同盟」（不與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「人數主義」（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「技術追隨者」（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「常備軍」（軍事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「戰狂」（活躍於戰爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偉人代言者」（偉人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「愛惜遺產者」（奇觀很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「空軍力」（空軍力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文明國」（擊退蠻族營地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「環保人士」（致力於自然維護和國家公園建設）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「開發主義者」（熱衷於伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「理想主義體質」（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「核武器帶來的快樂」（積極使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_FAITH" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「虔誠」（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「探險家」（地圖完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偏執狂」（缺乏軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>警察叔叔！就是這個人！</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文化值重視」（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「幸福重視」（滿意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_INCOME" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「喜歡金幣」（金幣収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦同盟」（與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「重工業主義者」（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_POPULATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「人數主義」（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「技術追隨者」（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「常備軍」（軍事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偏執狂」（充滿軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偉人代言者」（偉人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「愛惜遺產者」（奇觀很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「空軍力」（空軍力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文明國」（放置蠻族營地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「環保人士」（破壞自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「開發主義者」（熱衷於自然維護）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「理想主義體質」（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「核武器帶來的快樂」（不願使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_FAITH" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「虔誠」（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「探險家」（地圖完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>嗯……我在想……你說的話，是值得相信的。（已同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我、我討厭你！（已拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI允許你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>能……能夠……一起去約會嗎？（聯盟談判開始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒關係的……（拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>是、是的……這樣很好……（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>……沒、沒什麼……特別的……（拒絕交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>謝、謝謝你……（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>這樣子不可以……（交易被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>……謝謝……謝謝你……（冰芽川四糸乃對條款和條件感到滿意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我才不要！（冰芽川四糸乃拒絕了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>真、真的適合我嗎……（接受了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>好吧……那就這樣……（拒絕了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>跟太陽一樣……好溫暖、好漂亮。（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>色狼！我不相信你！警察叔叔！！（被冰芽川四糸乃拒絕了和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI主動提出和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>漫長的假期，要和我們，一起去旅行嗎？（冰芽川四糸乃提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>溫、溫泉？我、我也可以一起去嗎……？（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>真是可惜……（拒絕了冰芽川四糸乃的和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>好的……歡迎來玩……（冰芽川四糸乃許可邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI拒絕你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>不要……（冰芽川四糸乃拒絕邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI詢問你是否願意讓他的部隊通過你的領地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>能……借過嗎……（冰芽川四糸乃要求邊境開放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>謝……謝謝……（冰芽川四糸乃被允許開放邊境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃被拒絕開放邊境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止在邊境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續在邊境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不採取軍事行動。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、尋求軍事行動的機會。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不派遣間諜。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續從事間諜活動。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不盜挖秘寶。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續盜挖秘寶。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止傳教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續傳教活動。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止在邊境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI警告國境的軍隊 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不要在邊境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止派遣間諜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不盜挖秘寶</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止傳教活動</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>那個……還能在一起嗎……（冰芽川四糸乃想延續同盟關係。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>真、真的嗎……（許可冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>唔……（拒絕冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>很開心……謝謝你……（聯盟的延續已被許可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_PRINCESS_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……好吧……（聯盟的延續已被拒絕。）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「好奇心強」（積極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「好奇心強」（消極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「逢迎拍馬」（迎來黃金時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「逢迎拍馬」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「同情心氾濫」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「同情心氾濫」（迎來黃金時代）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「擴張主義者」（領土廣闊）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「擴張主義者」（領土狹小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「地平說信徒」（消極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「地平說信徒」（積極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「大白艦隊」（海軍很強大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「大白艦隊」（海軍很貧弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_FAVOR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「煽動者」（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「煽動者」（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_TOURISM" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「觀光立國」（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「觀光立國」（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「宗教不寛容」（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「宗教不寛容」（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「自由主義者」（外交勝利點數很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「自由主義者」（外交勝利點數很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「略奪者」（掠奪的單元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「略奪者」（掠奪的單元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「穴熊圍」（沒有征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「穴熊圍」（征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「狂信徒」（信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「狂信徒」（不信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「守財奴」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_PRINCESS_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「守財奴」（金幣収入很少）</Text>
+		</Replace>
+
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>你也是來欺負四糸乃的嗎……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>您好……要來我家看看嗎……（邀請你拜訪）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>好的……那麼就打擾了……（接受你的邀請）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI，交換地圖資訊-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>來交換……聯絡方式……好嗎？（交換首都的位置）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我不喜歡疼痛，也討厭恐怖的東西，我想那些人也不喜歡疼痛和恐怖，這也是……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼允許的時候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>看起來……非常厲害的樣子呢？（發表了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼被拒絕的時候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……對不起……（拒絕了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI對你宣佈友誼的時候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>那個……能跟我一起做雪人嗎？（冰芽川四糸乃尋求與你的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你同意AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（發表了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你拒絕AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（拒絕了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>那個……請……請不要弄疼我……（對冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>四糸奈……是、我的、英雄。（被冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<!-- 敗北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI同意你的代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>感覺有點怪怪的……但也不……討厭……（已接受特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI拒絕你的代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>……哎？啊……那個，不要……（已拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI派遣代表團的時候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>不、不好意思……打擾了……（冰芽川四糸乃請求特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>遊樂園、很開心……謝謝你……（被接受特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係……（被拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你公開指責AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>不要欺負我！！（對冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI公開指責你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>滾開！！（被冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 大使館 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我很樂意……（大使館的設立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（大使館的設立被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……我可以……建立大使館嗎？（冰芽川四糸乃想設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>請、請讓我來吧！會摔倒？……肯、肯定不會的！（允許設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>啊……這樣嗎……（拒絕設立大使館。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……繼續努力。</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文化值重視」（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「幸福重視」（滿意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_INCOME" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「喜歡金幣」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「重工業主義者」（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦同盟」（不與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「人數主義」（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「技術追隨者」（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「常備軍」（軍事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「戰狂」（活躍於戰爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偉人代言者」（偉人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「愛惜遺產者」（奇觀很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「空軍力」（空軍力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文明國」（擊退蠻族營地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「環保人士」（致力於自然維護和國家公園建設）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「開發主義者」（熱衷於伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「理想主義體質」（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「核武器帶來的快樂」（積極使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_FAITH" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「虔誠」（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「探險家」（地圖完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偏執狂」（缺乏軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>警察叔叔！就是這個人！</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文化值重視」（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「幸福重視」（滿意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_INCOME" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「喜歡金幣」（金幣収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦同盟」（與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「重工業主義者」（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_POPULATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「人數主義」（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「技術追隨者」（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「常備軍」（軍事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偏執狂」（充滿軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偉人代言者」（偉人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「愛惜遺產者」（奇觀很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「空軍力」（空軍力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文明國」（放置蠻族營地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「環保人士」（破壞自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「開發主義者」（熱衷於自然維護）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「理想主義體質」（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「核武器帶來的快樂」（不願使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_FAITH" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「虔誠」（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「探險家」（地圖完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>嗯……我在想……你說的話，是值得相信的。（已同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我、我討厭你！（已拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI允許你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>能……能夠……一起去約會嗎？（聯盟談判開始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒關係的……（拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>是、是的……這樣很好……（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>……沒、沒什麼……特別的……（拒絕交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>謝、謝謝你……（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>這樣子不可以……（交易被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>……謝謝……謝謝你……（冰芽川四糸乃對條款和條件感到滿意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我才不要！（冰芽川四糸乃拒絕了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>真、真的適合我嗎……（接受了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>好吧……那就這樣……（拒絕了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>跟太陽一樣……好溫暖、好漂亮。（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>色狼！我不相信你！警察叔叔！！（被冰芽川四糸乃拒絕了和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI主動提出和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>漫長的假期，要和我們，一起去旅行嗎？（冰芽川四糸乃提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>溫、溫泉？我、我也可以一起去嗎……？（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>真是可惜……（拒絕了冰芽川四糸乃的和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>好的……歡迎來玩……（冰芽川四糸乃許可邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI拒絕你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>不要……（冰芽川四糸乃拒絕邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI詢問你是否願意讓他的部隊通過你的領地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>能……借過嗎……（冰芽川四糸乃要求邊境開放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>謝……謝謝……（冰芽川四糸乃被允許開放邊境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃被拒絕開放邊境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止在邊境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續在邊境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不採取軍事行動。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、尋求軍事行動的機會。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不派遣間諜。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續從事間諜活動。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不盜挖秘寶。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續盜挖秘寶。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止傳教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續傳教活動。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止在邊境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI警告國境的軍隊 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不要在邊境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止派遣間諜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不盜挖秘寶</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止傳教活動</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>那個……還能在一起嗎……（冰芽川四糸乃想延續同盟關係。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>真、真的嗎……（許可冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>唔……（拒絕冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>很開心……謝謝你……（聯盟的延續已被許可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SIRYON_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……好吧……（聯盟的延續已被拒絕。）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「好奇心強」（積極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「好奇心強」（消極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「逢迎拍馬」（迎來黃金時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「逢迎拍馬」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「同情心氾濫」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「同情心氾濫」（迎來黃金時代）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「擴張主義者」（領土廣闊）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「擴張主義者」（領土狹小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「地平說信徒」（消極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「地平說信徒」（積極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「大白艦隊」（海軍很強大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「大白艦隊」（海軍很貧弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_FAVOR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「煽動者」（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「煽動者」（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_TOURISM" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「觀光立國」（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「觀光立國」（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「宗教不寛容」（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「宗教不寛容」（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「自由主義者」（外交勝利點數很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「自由主義者」（外交勝利點數很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「略奪者」（掠奪的單元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「略奪者」（掠奪的單元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「穴熊圍」（沒有征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「穴熊圍」（征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「狂信徒」（信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「狂信徒」（不信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「守財奴」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SIRYON_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「守財奴」（金幣収入很少）</Text>
+		</Replace>
+
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>你也是來欺負四糸乃的嗎……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>您好……要來我家看看嗎……（邀請你拜訪）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>好的……那麼就打擾了……（接受你的邀請）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI，交換地圖資訊-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>來交換……聯絡方式……好嗎？（交換首都的位置）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我不喜歡疼痛，也討厭恐怖的東西，我想那些人也不喜歡疼痛和恐怖，這也是……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼允許的時候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>看起來……非常厲害的樣子呢？（發表了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼被拒絕的時候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……對不起……（拒絕了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI對你宣佈友誼的時候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>那個……能跟我一起做雪人嗎？（冰芽川四糸乃尋求與你的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你同意AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（發表了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你拒絕AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（拒絕了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>那個……請……請不要弄疼我……（對冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>四糸奈……是、我的、英雄。（被冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<!-- 敗北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI同意你的代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>感覺有點怪怪的……但也不……討厭……（已接受特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI拒絕你的代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>……哎？啊……那個，不要……（已拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI派遣代表團的時候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>不、不好意思……打擾了……（冰芽川四糸乃請求特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>遊樂園、很開心……謝謝你……（被接受特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係……（被拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你公開指責AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>不要欺負我！！（對冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI公開指責你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>滾開！！（被冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 大使館 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我很樂意……（大使館的設立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（大使館的設立被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……我可以……建立大使館嗎？（冰芽川四糸乃想設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>請、請讓我來吧！會摔倒？……肯、肯定不會的！（允許設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>啊……這樣嗎……（拒絕設立大使館。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……繼續努力。</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文化值重視」（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「幸福重視」（滿意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_INCOME" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「喜歡金幣」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「重工業主義者」（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦同盟」（不與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「人數主義」（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「技術追隨者」（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「常備軍」（軍事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「戰狂」（活躍於戰爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偉人代言者」（偉人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「愛惜遺產者」（奇觀很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「空軍力」（空軍力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文明國」（擊退蠻族營地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「環保人士」（致力於自然維護和國家公園建設）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「開發主義者」（熱衷於伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「理想主義體質」（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「核武器帶來的快樂」（積極使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_FAITH" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「虔誠」（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「探險家」（地圖完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偏執狂」（缺乏軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>警察叔叔！就是這個人！</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文化值重視」（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「幸福重視」（滿意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_INCOME" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「喜歡金幣」（金幣収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦同盟」（與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「重工業主義者」（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_POPULATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「人數主義」（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「技術追隨者」（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「常備軍」（軍事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偏執狂」（充滿軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偉人代言者」（偉人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「愛惜遺產者」（奇觀很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「空軍力」（空軍力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文明國」（放置蠻族營地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「環保人士」（破壞自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「開發主義者」（熱衷於自然維護）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「理想主義體質」（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「核武器帶來的快樂」（不願使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_FAITH" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「虔誠」（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「探險家」（地圖完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>嗯……我在想……你說的話，是值得相信的。（已同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我、我討厭你！（已拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI允許你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>能……能夠……一起去約會嗎？（聯盟談判開始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒關係的……（拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>是、是的……這樣很好……（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>……沒、沒什麼……特別的……（拒絕交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>謝、謝謝你……（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>這樣子不可以……（交易被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>……謝謝……謝謝你……（冰芽川四糸乃對條款和條件感到滿意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我才不要！（冰芽川四糸乃拒絕了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>真、真的適合我嗎……（接受了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>好吧……那就這樣……（拒絕了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>跟太陽一樣……好溫暖、好漂亮。（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>色狼！我不相信你！警察叔叔！！（被冰芽川四糸乃拒絕了和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI主動提出和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>漫長的假期，要和我們，一起去旅行嗎？（冰芽川四糸乃提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>溫、溫泉？我、我也可以一起去嗎……？（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>真是可惜……（拒絕了冰芽川四糸乃的和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>好的……歡迎來玩……（冰芽川四糸乃許可邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI拒絕你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>不要……（冰芽川四糸乃拒絕邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI詢問你是否願意讓他的部隊通過你的領地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>能……借過嗎……（冰芽川四糸乃要求邊境開放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>謝……謝謝……（冰芽川四糸乃被允許開放邊境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃被拒絕開放邊境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止在邊境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續在邊境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不採取軍事行動。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、尋求軍事行動的機會。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不派遣間諜。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續從事間諜活動。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不盜挖秘寶。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續盜挖秘寶。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止傳教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續傳教活動。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止在邊境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI警告國境的軍隊 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不要在邊境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止派遣間諜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不盜挖秘寶</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止傳教活動</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>那個……還能在一起嗎……（冰芽川四糸乃想延續同盟關係。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>真、真的嗎……（許可冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>唔……（拒絕冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>很開心……謝謝你……（聯盟的延續已被許可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_LION_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……好吧……（聯盟的延續已被拒絕。）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「好奇心強」（積極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「好奇心強」（消極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「逢迎拍馬」（迎來黃金時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「逢迎拍馬」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「同情心氾濫」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「同情心氾濫」（迎來黃金時代）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「擴張主義者」（領土廣闊）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「擴張主義者」（領土狹小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「地平說信徒」（消極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「地平說信徒」（積極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「大白艦隊」（海軍很強大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「大白艦隊」（海軍很貧弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_FAVOR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「煽動者」（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「煽動者」（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_TOURISM" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「觀光立國」（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「觀光立國」（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「宗教不寛容」（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「宗教不寛容」（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「自由主義者」（外交勝利點數很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「自由主義者」（外交勝利點數很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「略奪者」（掠奪的單元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「略奪者」（掠奪的單元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「穴熊圍」（沒有征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「穴熊圍」（征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「狂信徒」（信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「狂信徒」（不信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「守財奴」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_LION_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「守財奴」（金幣収入很少）</Text>
+		</Replace>
+
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>你也是來欺負四糸乃的嗎……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>您好……要來我家看看嗎……（邀請你拜訪）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>好的……那麼就打擾了……（接受你的邀請）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI，交換地圖資訊-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>來交換……聯絡方式……好嗎？（交換首都的位置）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我不喜歡疼痛，也討厭恐怖的東西，我想那些人也不喜歡疼痛和恐怖，這也是……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼允許的時候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>看起來……非常厲害的樣子呢？（發表了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼被拒絕的時候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……對不起……（拒絕了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI對你宣佈友誼的時候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>那個……能跟我一起做雪人嗎？（冰芽川四糸乃尋求與你的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你同意AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（發表了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你拒絕AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（拒絕了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>那個……請……請不要弄疼我……（對冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>四糸奈……是、我的、英雄。（被冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<!-- 敗北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI同意你的代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>感覺有點怪怪的……但也不……討厭……（已接受特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI拒絕你的代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>……哎？啊……那個，不要……（已拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI派遣代表團的時候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>不、不好意思……打擾了……（冰芽川四糸乃請求特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>遊樂園、很開心……謝謝你……（被接受特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係……（被拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你公開指責AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>不要欺負我！！（對冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI公開指責你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>滾開！！（被冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 大使館 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我很樂意……（大使館的設立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（大使館的設立被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……我可以……建立大使館嗎？（冰芽川四糸乃想設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>請、請讓我來吧！會摔倒？……肯、肯定不會的！（允許設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>啊……這樣嗎……（拒絕設立大使館。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……繼續努力。</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文化值重視」（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「幸福重視」（滿意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_INCOME" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「喜歡金幣」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「重工業主義者」（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦同盟」（不與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「人數主義」（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「技術追隨者」（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「常備軍」（軍事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「戰狂」（活躍於戰爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偉人代言者」（偉人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「愛惜遺產者」（奇觀很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「空軍力」（空軍力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文明國」（擊退蠻族營地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「環保人士」（致力於自然維護和國家公園建設）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「開發主義者」（熱衷於伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「理想主義體質」（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「核武器帶來的快樂」（積極使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_FAITH" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「虔誠」（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「探險家」（地圖完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偏執狂」（缺乏軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>警察叔叔！就是這個人！</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文化值重視」（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「幸福重視」（滿意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_INCOME" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「喜歡金幣」（金幣収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦同盟」（與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「重工業主義者」（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_POPULATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「人數主義」（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「技術追隨者」（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「常備軍」（軍事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偏執狂」（充滿軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偉人代言者」（偉人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「愛惜遺產者」（奇觀很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「空軍力」（空軍力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文明國」（放置蠻族營地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「環保人士」（破壞自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「開發主義者」（熱衷於自然維護）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「理想主義體質」（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「核武器帶來的快樂」（不願使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_FAITH" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「虔誠」（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「探險家」（地圖完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>嗯……我在想……你說的話，是值得相信的。（已同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我、我討厭你！（已拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI允許你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>能……能夠……一起去約會嗎？（聯盟談判開始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒關係的……（拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>是、是的……這樣很好……（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>……沒、沒什麼……特別的……（拒絕交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>謝、謝謝你……（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>這樣子不可以……（交易被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>……謝謝……謝謝你……（冰芽川四糸乃對條款和條件感到滿意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我才不要！（冰芽川四糸乃拒絕了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>真、真的適合我嗎……（接受了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>好吧……那就這樣……（拒絕了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>跟太陽一樣……好溫暖、好漂亮。（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>色狼！我不相信你！警察叔叔！！（被冰芽川四糸乃拒絕了和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI主動提出和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>漫長的假期，要和我們，一起去旅行嗎？（冰芽川四糸乃提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>溫、溫泉？我、我也可以一起去嗎……？（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>真是可惜……（拒絕了冰芽川四糸乃的和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>好的……歡迎來玩……（冰芽川四糸乃許可邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI拒絕你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>不要……（冰芽川四糸乃拒絕邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI詢問你是否願意讓他的部隊通過你的領地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>能……借過嗎……（冰芽川四糸乃要求邊境開放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>謝……謝謝……（冰芽川四糸乃被允許開放邊境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃被拒絕開放邊境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止在邊境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續在邊境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不採取軍事行動。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、尋求軍事行動的機會。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不派遣間諜。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續從事間諜活動。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不盜挖秘寶。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續盜挖秘寶。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止傳教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續傳教活動。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止在邊境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI警告國境的軍隊 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不要在邊境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止派遣間諜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不盜挖秘寶</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止傳教活動</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>那個……還能在一起嗎……（冰芽川四糸乃想延續同盟關係。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>真、真的嗎……（許可冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>唔……（拒絕冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>很開心……謝謝你……（聯盟的延續已被許可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_SWIM_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……好吧……（聯盟的延續已被拒絕。）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「好奇心強」（積極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「好奇心強」（消極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「逢迎拍馬」（迎來黃金時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「逢迎拍馬」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「同情心氾濫」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「同情心氾濫」（迎來黃金時代）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「擴張主義者」（領土廣闊）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「擴張主義者」（領土狹小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「地平說信徒」（消極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「地平說信徒」（積極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「大白艦隊」（海軍很強大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「大白艦隊」（海軍很貧弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_FAVOR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「煽動者」（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「煽動者」（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_TOURISM" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「觀光立國」（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「觀光立國」（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「宗教不寛容」（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「宗教不寛容」（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「自由主義者」（外交勝利點數很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「自由主義者」（外交勝利點數很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「略奪者」（掠奪的單元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「略奪者」（掠奪的單元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「穴熊圍」（沒有征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「穴熊圍」（征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「狂信徒」（信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「狂信徒」（不信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「守財奴」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_SWIM_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「守財奴」（金幣収入很少）</Text>
+		</Replace>
+
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>你也是來欺負四糸乃的嗎……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>您好……要來我家看看嗎……（邀請你拜訪）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>好的……那麼就打擾了……（接受你的邀請）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI，交換地圖資訊-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>來交換……聯絡方式……好嗎？（交換首都的位置）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我不喜歡疼痛，也討厭恐怖的東西，我想那些人也不喜歡疼痛和恐怖，這也是……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼允許的時候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>看起來……非常厲害的樣子呢？（發表了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼被拒絕的時候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……對不起……（拒絕了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI對你宣佈友誼的時候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>那個……能跟我一起做雪人嗎？（冰芽川四糸乃尋求與你的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你同意AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（發表了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你拒絕AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（拒絕了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>那個……請……請不要弄疼我……（對冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>四糸奈……是、我的、英雄。（被冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<!-- 敗北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI同意你的代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>感覺有點怪怪的……但也不……討厭……（已接受特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI拒絕你的代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>……哎？啊……那個，不要……（已拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI派遣代表團的時候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>不、不好意思……打擾了……（冰芽川四糸乃請求特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>遊樂園、很開心……謝謝你……（被接受特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係……（被拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你公開指責AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>不要欺負我！！（對冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI公開指責你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>滾開！！（被冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 大使館 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我很樂意……（大使館的設立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（大使館的設立被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……我可以……建立大使館嗎？（冰芽川四糸乃想設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>請、請讓我來吧！會摔倒？……肯、肯定不會的！（允許設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>啊……這樣嗎……（拒絕設立大使館。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……繼續努力。</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文化值重視」（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「幸福重視」（滿意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_INCOME" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「喜歡金幣」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「重工業主義者」（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦同盟」（不與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「人數主義」（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「技術追隨者」（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「常備軍」（軍事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「戰狂」（活躍於戰爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偉人代言者」（偉人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「愛惜遺產者」（奇觀很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「空軍力」（空軍力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文明國」（擊退蠻族營地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「環保人士」（致力於自然維護和國家公園建設）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「開發主義者」（熱衷於伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「理想主義體質」（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「核武器帶來的快樂」（積極使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_FAITH" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「虔誠」（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「探險家」（地圖完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偏執狂」（缺乏軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>警察叔叔！就是這個人！</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文化值重視」（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「幸福重視」（滿意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_INCOME" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「喜歡金幣」（金幣収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦同盟」（與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「重工業主義者」（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_POPULATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「人數主義」（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「技術追隨者」（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「常備軍」（軍事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偏執狂」（充滿軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偉人代言者」（偉人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「愛惜遺產者」（奇觀很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「空軍力」（空軍力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文明國」（放置蠻族營地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「環保人士」（破壞自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「開發主義者」（熱衷於自然維護）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「理想主義體質」（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「核武器帶來的快樂」（不願使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_FAITH" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「虔誠」（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「探險家」（地圖完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>嗯……我在想……你說的話，是值得相信的。（已同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我、我討厭你！（已拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI允許你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>能……能夠……一起去約會嗎？（聯盟談判開始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒關係的……（拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>是、是的……這樣很好……（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>……沒、沒什麼……特別的……（拒絕交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>謝、謝謝你……（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>這樣子不可以……（交易被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>……謝謝……謝謝你……（冰芽川四糸乃對條款和條件感到滿意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我才不要！（冰芽川四糸乃拒絕了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>真、真的適合我嗎……（接受了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>好吧……那就這樣……（拒絕了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>跟太陽一樣……好溫暖、好漂亮。（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>色狼！我不相信你！警察叔叔！！（被冰芽川四糸乃拒絕了和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI主動提出和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>漫長的假期，要和我們，一起去旅行嗎？（冰芽川四糸乃提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>溫、溫泉？我、我也可以一起去嗎……？（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>真是可惜……（拒絕了冰芽川四糸乃的和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>好的……歡迎來玩……（冰芽川四糸乃許可邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI拒絕你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>不要……（冰芽川四糸乃拒絕邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI詢問你是否願意讓他的部隊通過你的領地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>能……借過嗎……（冰芽川四糸乃要求邊境開放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>謝……謝謝……（冰芽川四糸乃被允許開放邊境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃被拒絕開放邊境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止在邊境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續在邊境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不採取軍事行動。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、尋求軍事行動的機會。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不派遣間諜。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續從事間諜活動。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不盜挖秘寶。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續盜挖秘寶。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止傳教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續傳教活動。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止在邊境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI警告國境的軍隊 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不要在邊境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止派遣間諜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不盜挖秘寶</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止傳教活動</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>那個……還能在一起嗎……（冰芽川四糸乃想延續同盟關係。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>真、真的嗎……（許可冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>唔……（拒絕冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>很開心……謝謝你……（聯盟的延續已被許可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_WITCH_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……好吧……（聯盟的延續已被拒絕。）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「好奇心強」（積極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「好奇心強」（消極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「逢迎拍馬」（迎來黃金時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「逢迎拍馬」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「同情心氾濫」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「同情心氾濫」（迎來黃金時代）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「擴張主義者」（領土廣闊）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「擴張主義者」（領土狹小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「地平說信徒」（消極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「地平說信徒」（積極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「大白艦隊」（海軍很強大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「大白艦隊」（海軍很貧弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_FAVOR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「煽動者」（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「煽動者」（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_TOURISM" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「觀光立國」（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「觀光立國」（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「宗教不寛容」（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「宗教不寛容」（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「自由主義者」（外交勝利點數很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「自由主義者」（外交勝利點數很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「略奪者」（掠奪的單元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「略奪者」（掠奪的單元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「穴熊圍」（沒有征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「穴熊圍」（征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「狂信徒」（信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「狂信徒」（不信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「守財奴」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_WITCH_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「守財奴」（金幣収入很少）</Text>
+		</Replace>
+
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>你也是來欺負四糸乃的嗎……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>您好……要來我家看看嗎……（邀請你拜訪）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>好的……那麼就打擾了……（接受你的邀請）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你第一次遇到AI，交換地圖資訊-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>來交換……聯絡方式……好嗎？（交換首都的位置）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 一般打招呼用-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我不喜歡疼痛，也討厭恐怖的東西，我想那些人也不喜歡疼痛和恐怖，這也是……</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼允許的時候 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>看起來……非常厲害的樣子呢？（發表了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 你對AI宣佈友誼被拒絕的時候 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……對不起……（拒絕了友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI對你宣佈友誼的時候 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>那個……能跟我一起做雪人嗎？（冰芽川四糸乃尋求與你的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你同意AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（發表了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你拒絕AI對你的宣佈友誼 -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（拒絕了和冰芽川四糸乃的友誼宣言。）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>那個……請……請不要弄疼我……（對冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>四糸奈……是、我的、英雄。（被冰芽川四糸乃公開宣戰。）</Text>
+		</Replace>
+		<!-- 敗北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>噝……！四、四糸奈……救命……（冰芽川四糸乃被打敗了。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI同意你的代表團-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>感覺有點怪怪的……但也不……討厭……（已接受特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI拒絕你的代表團-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>……哎？啊……那個，不要……（已拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI派遣代表團的時候-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>不、不好意思……打擾了……（冰芽川四糸乃請求特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>遊樂園、很開心……謝謝你……（被接受特使參訪。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係……（被拒絕特使參訪。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當你公開指責AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>不要欺負我！！（對冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: 當AI公開指責你-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>滾開！！（被冰芽川四糸乃發表了責備聲明。）</Text>
+		</Replace>
+		<!-- 大使館 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我很樂意……（大使館的設立被接受。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……有點困擾……（大使館的設立被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……我可以……建立大使館嗎？（冰芽川四糸乃想設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>請、請讓我來吧！會摔倒？……肯、肯定不會的！（允許設立大使館。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>啊……這樣嗎……（拒絕設立大使館。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的前置-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……繼續努力。</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感增加了的描述-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文化值重視」（文化值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_HAPPINESS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「幸福重視」（滿意度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_INCOME" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「喜歡金幣」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「重工業主義者」（生産值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦同盟」（不與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「人數主義」（人口很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「技術追隨者」（科技值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「常備軍」（軍事力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_ENJOYS_WAR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「戰狂」（活躍於戰爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偉人代言者」（偉人很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「愛惜遺產者」（奇觀很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「空軍力」（空軍力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_PROTECTS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「城邦保護者」（積極保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「文明國」（擊退蠻族營地）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「環保人士」（致力於自然維護和國家公園建設）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「開發主義者」（熱衷於伐木和地形改善）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_SAME_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「理想主義體質」（政府相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「核武器帶來的快樂」（積極使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_FAITH" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「虔誠」（信仰值很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_EXPLORATION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「探險家」（地圖完成度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「偏執狂」（缺乏軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的前置-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>警察叔叔！就是這個人！</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI對你的好感減少了的描述-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文化值重視」（文化值力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_HAPPINESS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「幸福重視」（滿意度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_INCOME" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「喜歡金幣」（金幣収入很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦同盟」（與城邦宗主權衝突）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「重工業主義者」（生産值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_POPULATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「人數主義」（人口很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「技術追隨者」（科技值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「常備軍」（軍事力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_PARANOID" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偏執狂」（充滿軍事力量和擴張領土的動力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「偉人代言者」（偉人很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「愛惜遺產者」（奇觀很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「空軍力」（空軍力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_ATTACKS_CITY_STATES" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「城邦保護者」（沒有保護城邦）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「文明國」（放置蠻族營地不管）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_ENVIRONMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「環保人士」（破壞自然）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_EXPLOITATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「開發主義者」（熱衷於自然維護）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「理想主義體質」（政府不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「核武器帶來的快樂」（不願使用核武器）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_FAITH" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「虔誠」（信仰值很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_EXPLORATION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「探險家」（地圖完成度很高）</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>嗯……我在想……你說的話，是值得相信的。（已同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我、我討厭你！（已拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI允許你同盟-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>能……能夠……一起去約會嗎？（聯盟談判開始）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>好、好的……我會努力的。（同意締結聯盟。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒關係的……（拒絕締結聯盟。）</Text>
+		</Replace>
+		<!-- 交易 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>是、是的……這樣很好……（同意交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>……沒、沒什麼……特別的……（拒絕交易。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>謝、謝謝你……（交易已成立。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>這樣子不可以……（交易被拒絕。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>……謝謝……謝謝你……（冰芽川四糸乃對條款和條件感到滿意。）</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我才不要！（冰芽川四糸乃拒絕了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃接受了索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>真、真的適合我嗎……（接受了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>好吧……那就這樣……（拒絕了冰芽川四糸乃的索取。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>跟太陽一樣……好溫暖、好漂亮。（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>色狼！我不相信你！警察叔叔！！（被冰芽川四糸乃拒絕了和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI主動提出和平的請求-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>漫長的假期，要和我們，一起去旅行嗎？（冰芽川四糸乃提案和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>溫、溫泉？我、我也可以一起去嗎……？（和冰芽川四糸乃締結和平交涉。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>真是可惜……（拒絕了冰芽川四糸乃的和平交涉。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI答應你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>好的……歡迎來玩……（冰芽川四糸乃許可邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI拒絕你通過他的領地-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>不要……（冰芽川四糸乃拒絕邊境開放。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI詢問你是否願意讓他的部隊通過你的領地-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>能……借過嗎……（冰芽川四糸乃要求邊境開放。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>謝……謝謝……（冰芽川四糸乃被允許開放邊境。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>好吧……（冰芽川四糸乃被拒絕開放邊境。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止在邊境附近定居。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續在邊境附近定居。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：国境地帯へ的軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不採取軍事行動。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、尋求軍事行動的機會。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不派遣間諜。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續從事間諜活動。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾不盜挖秘寶。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續盜挖秘寶。）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>我也想變得像四糸奈一樣。（冰芽川四糸乃對你承諾停止傳教工作。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒、沒事……不用太在意我……（冰芽川四糸乃無視警告、繼續傳教活動。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：国境地帯へ的入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止在邊境附近殖民</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 領袖外交資訊: AI警告國境的軍隊 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不要在邊境附近出兵</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止派遣間諜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：不盜挖秘寶</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- AIからプレイヤーへ的警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>冰芽川四糸乃對你要求：停止傳教活動</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>太好了……（同意冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>沒……沒關係的……（拒絕冰芽川四糸乃的要求。）</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>那個……還能在一起嗎……（冰芽川四糸乃想延續同盟關係。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>真、真的嗎……（許可冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>唔……（拒絕冰芽川四糸乃的聯盟延續。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>很開心……謝謝你……（聯盟的延續已被許可。）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_HIMEKAWA_YOSHINO_INVERSE_ANY" Language="zh_Hant_HK">
+			<Text>那、那個……好吧……（聯盟的延續已被拒絕。）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「好奇心強」（積極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「好奇心強」（消極宣示友好、開放邊界、派遣使節、設立使館）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「逢迎拍馬」（迎來黃金時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「逢迎拍馬」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「同情心氾濫」（陷入黑暗時代）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「同情心氾濫」（迎來黃金時代）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「擴張主義者」（領土廣闊）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_EXPANSIONIST" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「擴張主義者」（領土狹小）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「地平說信徒」（消極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_FLAT_EARTHER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「地平說信徒」（積極參與太空開發競爭）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「大白艦隊」（海軍很強大）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「大白艦隊」（海軍很貧弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_FAVOR" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「煽動者」（外交的支持度很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「煽動者」（外交的支持度很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_TOURISM" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「觀光立國」（観光力很低）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「觀光立國」（観光力很高）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「宗教不寛容」（宗教相同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「宗教不寛容」（宗教不同）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「自由主義者」（外交勝利點數很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「自由主義者」（外交勝利點數很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_HIGH_PILLAGE" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「略奪者」（掠奪的單元格很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_LOW_PILLAGE" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「略奪者」（掠奪的單元格很少）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「穴熊圍」（沒有征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_TURTLER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「穴熊圍」（征服過另一個文明的首都）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「狂信徒」（信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_ZEALOT" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「狂信徒」（不信仰值所創立的宗教）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>符合冰芽川四糸乃的議程「守財奴」（金幣收入很多）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HIMEKAWA_YOSHINO_INVERSE_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hant_HK">
+			<Text>違背冰芽川四糸乃的議程「守財奴」（金幣収入很少）</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
