@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Tue May 16 00:23:09 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_NAME" Language="ja_JP">
+			<Text>ケケディ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_DESCRIPTION" Language="ja_JP">
+			<Text>「ナイトメア」時崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_ADJECTIVE" Language="ja_JP">
+			<Text>ずっと</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZAFKIEL_NAME" Language="ja_JP">
+			<Text>ケケディ ポインター</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZAFKIEL_DESCRIPTION" Language="ja_JP">
+			<Text>特別な戦略的リソース [ICON_Resource_Kurumi_Time] 時間をロック解除し、[ICON_Resource_Kurumi_Time] 時間を使用して一連の特別なプロジェクトをアンロックします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_NAME" Language="ja_JP">
+			<Text>ナイトメアキャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_DESCRIPTION" Language="ja_JP">
+			<Text>トキサキ クアンサンの特徴的なエリア。キャンプに代わる [ICON_Citizen] 人口の制限を受けません。 [NEWLINE]ナイトメアキャンプとそのエリアの建物が建設されると、ナイトメアシャドウを獲得します。このエリアによって付与されたユニットの維持にはリソースがかかりません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_NAME" Language="ja_JP">
+			<Text>ケケディ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_DESCRIPTION" Language="ja_JP">
+			<Text>時崎 クロの 3 つの特別なアイテムには次の効果があります: [NEWLINE][NEWLINE]
+最初の箇条書き: {LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION}[NEWLINE]
+第 2 ラウンド: {LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION}[NEWLINE]
+3 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_GIMEL_DESCRIPTION}[NEWLINE]
+4 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_DALET_DESCRIPTION}[NEWLINE]
+5 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_HEI_DESCRIPTION}[NEWLINE]
+第 6 弾: {LOC_PROJECT_ZAFKIEL_VAV_DESCRIPTION}[NEWLINE]
+第 7 弾: {LOC_PROJECT_ZAFKIEL_ZAYIN_DESCRIPTION}[NEWLINE]
+第 8 弾: {LOC_PROJECT_ZAFKIEL_HET_DESCRIPTION}[NEWLINE]
+9 つの箇条書き: {LOC_PROJECT_ZAFKIEL_TET_DESCRIPTION}[NEWLINE]
+10 個の箇条書き: {LOC_PROJECT_ZAFKIEL_YUD_DESCRIPTION}[NEWLINE]
+11 の箇条書き: {LOC_PROJECT_ZAFKIEL_YUD_ALEPH_DESCRIPTION}[NEWLINE]
+12 の箇条書き: {LOC_PROJECT_ZAFKIEL_YUD_BET_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_KURUMI_TIME_NAME" Language="ja_JP">
+			<Text>時間</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZAFKIEL_SHADOW_NAME" Language="ja_JP">
+			<Text>悪夢の影</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZAFKIEL_SHADOW_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三は独自の強化ツリーを持った個性的な部隊です。 [NEWLINE][ICON_Strength]戦闘力は時代とともに変化し、ナイトメアキャンプと隣接するナイトメアシャドウから追加の[ICON_Strength]戦闘力を獲得します。 [NEWLINE]ナイトメア シャドウを訓練するには、都市に少なくとも 2 人の [ICON_Citizen] 人口が必要です。ナイトメア シャドウがケケディによって設立された都市で訓練された場合、その都市は [ICON_Citizen] 人の人口を 1 人失います。 [NEWLINE]エアドロップ能力により、このユニットは味方タイルから 7 タイル離れた位置に移動できます。戦闘ユニットを破壊せずに支援ユニットを直接攻撃します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_NAME" Language="ja_JP">
+			<Text>時崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NAME" Language="ja_JP">
+			<Text>シェンウェイ・リンヂュアン・サンバン</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘でユニットを倒すと、[ICON_Resource_Kurumi_Time] 時間が 3 増加します。 [ICON_Capital] 首都の [ICON_District] 地域では、追加の [ICON_Resource_Kurumi_Time] 時間が提供されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NAME" Language="ja_JP">
+			<Text>アリュールバラージ</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_DESCRIPTION" Language="ja_JP">
+			<Text>人口の多い都市が建設されます。周囲の都市 [ICON_Citizen] の人口密度の高い文明が好きです。周囲の小さな都市と[ICON_Loyalty]の忠誠心が弱い住民を嫌います。 [NEWLINE] は国民の幸福と [ICON_忠誠心] を維持します。これを優先している都市のように、特にその都市にさまざまなプレイヤーの都市がある場合はそうです。幸福度や[ICON_Loyalty]忠誠度に問題がある都市や、占有都市数が少なすぎる都市は好きではありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_BET_DESCRIPTION" Language="ja_JP">
+			<Text>-1 [ICON_Movement] で移動します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_LORD_NAME" Language="ja_JP">
+			<Text>時崎狂三（女王様）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LORD_NAME" Language="ja_JP">
+			<Text>シェンウェイ・リンヂュアン・サンファン・リベレーション</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LORD_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘でユニットを倒すと、[ICON_Resource_Kurumi_Time] 時間が 3 増加します。 [ICON_Capital] 首都の [ICON_District] 地域では、追加の [ICON_Resource_Kurumi_Time] 時間が提供されます。さらに、作成した都市では追加の [ICON_Resource_Kurumi_Time] 時間を提供することもできます。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_REVERSE_NAME" Language="ja_JP">
+			<Text>時崎狂三（リバース）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_REVERSE_NAME" Language="ja_JP">
+			<Text>Shenwei Lingzhuang・スリーファン・リバース</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_REVERSE_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘でユニットを倒すと、[ICON_Resource_Kurumi_Time] 時間が 3 増加します。 [ICON_Capital] 首都の [ICON_District] 地域では、追加の [ICON_Resource_Kurumi_Time] 時間が提供されます。さらに、征服した都市では追加の [ICON_Resource_Kurumi_Time] 時間を提供することもできます。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_REVERSE_NAME" Language="ja_JP">
+			<Text>魔王軍</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_REVERSE_DESCRIPTION" Language="ja_JP">
+			<Text>可能な限りすべてのセルを略奪しようとします。略奪を好む他の文明を尊重してください。 [NEWLINE]まだ隣接していない文明と同様に、近隣の文明を征服しようとします。隣国が嫌い。 [NEWLINE]自分を脅かさない文明を好みます。強力な軍隊を持っていたり、近くに都市がある文明を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_NIGHTMARE_NAME" Language="ja_JP">
+			<Text>時崎狂三(スカーレットナイトメア)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NIGHTMARE_NAME" Language="ja_JP">
+			<Text>シェンウェイ・リン荘・三番・ナイトメア</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NIGHTMARE_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘でユニットを倒すと、[ICON_Resource_Kurumi_Time] 時間が 3 増加します。 [ICON_Capital] 首都の [ICON_District] 地域では、追加の [ICON_Resource_Kurumi_Time] 時間が提供されます。さらに、残りの都市でも追加の [ICON_Resource_Kurumi_Time] 時間を提供できます。 [NEWLINE][NEWLINE][COLOR_RED]には、[COLOR:ResGoldLabelCS]デート・ア・ライブ[ENDCOLOR]シリーズのすべての機能が含まれています。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NIGHTMARE_NAME" Language="ja_JP">
+			<Text>世界の征服者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NIGHTMARE_DESCRIPTION" Language="ja_JP">
+			<Text>何も真実ではなく、すべてが可能です。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_BUNNY_NAME" Language="ja_JP">
+			<Text>時崎狂三（バニーガール）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_BUNNY_NAME" Language="ja_JP">
+			<Text>カジノのディーラー</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_BUNNY_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三帆」を除くすべての都市+10% [ICON_Gold] 金貨、[ICON_Capital] 資本+10% [ICON_Gold] 金貨。すべての [ICON_TradeRoute] 交易ルート +1 [ICON_Gold] ゴールド コイン。同盟 [ICON_TradeRoute] 交易ルートには追加の +1 [ICON_Gold] ゴールド コインがあります。高級リソース + [ICON_Gold] ゴールド コイン 2 枚、ボーナス リソース +1 [ICON_Gold] ゴールド コイン。 [ICON_Gold] コインを使用してリージョンを購入できるようになります。 [ICON_GreatMerchant] 大商人ポイント獲得 +50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_BUNNY_NAME" Language="ja_JP">
+			<Text>カジノの花</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_BUNNY_DESCRIPTION" Language="ja_JP">
+			<Text>都市と[ICON_TradeRoute]貿易ルートからの[ICON_Gold]金生産量を最大化しようとします。同じようなことをする文明を尊重し、そうでない文明を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BUNNYKURUMI_CASINO_NAME" Language="ja_JP">
+			<Text>ナイトメア カジノ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BUNNYKURUMI_CASINO_DESCRIPTION" Language="ja_JP">
+			<Text>バニーガールクレイジー 3つの特徴的な建物、銀行を置き換えます。 [NEWLINE]この都市のすべての商業センター、港、空港から [ICON_Gold] コインを 1 枚増加させます。 +1 [ICON_Tourism] この都市に建てられたすべてのワンダーまたはコースト タイルからの観光。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CASINO_NAME" Language="ja_JP">
+			<Text>ナイトメア カジノ</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CASINO_DESCRIPTION" Language="ja_JP">
+			<Text>バニーガール クレイジー 3 では、商業センターに代わって金融および貿易エリアが登場します。 [NEWLINE]隣接する各不思議とエリアには、標準の [ICON_Gold] ゴールド ボーナスが提供されます。隣接する都市中心部には標準 [ICON_Gold] ボーナスが与えられます。 [ICON_GREATMERCHANT] グレート マーチャント ポイントを獲得します。地区、建物、ユニットを購入する場合は 20% オフになります。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_CAT_NAME" Language="ja_JP">
+			<Text>时崎狂三（猫娘）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CAT_NAME" Language="ja_JP">
+			<Text>ラブナイトメアキャット</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CAT_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三帆」を除く、農場と農園の[ICON_Food]食料+1。都市人口増加率 +50%。 [ICON_TradeRoute] 交易路 +2 [ICON_Food] 食料、同盟国 [ICON_TradeRoute] 交易路で二国間追加 +1 [ICON_Food] 食料。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_CAT_NAME" Language="ja_JP">
+			<Text>猫娘同盟</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_CAT_DESCRIPTION" Language="ja_JP">
+			<Text>友好関係を発表する文明を好む。背後から攻撃したり、襲撃戦争を宣言したりする文明を憎みます。同盟を作成した文明を尊重し、複数の同盟を作成しようとします。同盟の少ない文明を嫌う。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CATKURUMI_CAFE_NAME" Language="ja_JP">
+			<Text>猫カフェ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CATKURUMI_CAFE_DESCRIPTION" Language="ja_JP">
+			<Text>猫娘は水車小屋に代わって3つの特徴的な建物を狂わせます。 [NEWLINE]+1 [ICON_Housing] ハウジング。 [ICON_RESOURCE_KURUMI_CAT] の猫弁当を 1 個手に入れましょう。農場を建設することで改善されるボーナス資源はそれぞれ+1 [ICON_Food]です。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CATKURUMI_CAFE_PLUS_NAME" Language="ja_JP">
+			<Text>猫カフェ・Refit</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CATKURUMI_CAFE_PLUS_DESCRIPTION" Language="ja_JP">
+			<Text>猫娘マニアの3つの特徴的な建物のアップグレード。 [NEWLINE]淡水タイルの食料 [ICON_Food] が 1 個増加します。関連リソース (砂糖、牛乳、ココア、コーヒー、紅茶、蜂蜜) [ICON_Amenities] 満足度 +1。</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_KURUMI_CAT_NAME" Language="ja_JP">
+			<Text>猫弁当</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CATKURUMI_HOUSING_NAME" Language="ja_JP">
+			<Text>猫マニア</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CATKURUMI_HOUSING_DESCRIPTION" Language="ja_JP">
+			<Text>Catgirl Crazy 3 の特徴的なアイテム、都市の +1 [ICON_Housing] ハウジングです。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_CHINADRESS_NAME" Language="ja_JP">
+			<Text>時崎狂三（チャイナドレス）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CHINADRESS_NAME" Language="ja_JP">
+			<Text>夢</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CHINADRESS_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三帆」を除く全ての[ICON_TradeRoute]交易路の[ICON_Production]生産性+1し、[ICON_TradeRoute]交易路の味方への効果が2倍になります。 [NEWLINE]他の文明の[ICON_TradeRoute]をケケディに与えると、食料+2[ICON_Food]が与えられ、ケケディには金貨+2[ICON_Gold]が与えられます。 [NEWLINE] 時代に入るたびに [ICON_TradeRoute] 交易路が 1 つ増加し、他の文明に遭遇するたびに [ICON_TradeRoute] 交易路が 1 つ増加します。 [NEWLINE][ICON_TradeRoute]交易ルートを作成すると、目的地の都市に[ICON_TradingPost]交易所が即座に作成されます。作成または占領したすべての都市は[ICON_TradingPost]交易所から始まります。 [NEWLINE][ICON_Capital] 首都から交易路の距離内にある都市は自動的にルート設定されます。 [NEWLINE] 商人が初めて都市の 3 タイル以内に移動すると、所有されていないタイルは帝国の管理下に置かれます。 [NEWLINE]国内道路のクラスが一つ上がります。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_CHINADRESS_NAME" Language="ja_JP">
+			<Text>シルクロード</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_CHINADRESS_DESCRIPTION" Language="ja_JP">
+			<Text>可能な限り領土を拡大しようとします。狭い領土を支配する文明を嫌う。 [NEWLINE]できるだけ多くの [ICON_TradeRoute] 交易ルートを拡張します。取引する市民を好み、取引しない市民を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_WALL_NAME" Language="ja_JP">
+			<Text>ナイトメアウォール</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_WALL_DESCRIPTION" Language="ja_JP">
+			<Text>+2 [ICON_Gold] ゴールド コイン。 [ICON_Strength]の防御力を向上させます。他のセグメントと隣接している場合、[ICON_Gold]金貨ボーナスを獲得できます。科学技術の進歩により、万里の長城の隣接する部分は、追加の [ICON_Culture] 文化的価値または [ICON_Science] 技術的価値、および [ICON_Tourism] の観光パフォーマンスを獲得します。自然災害によってのみ略奪できます（自然災害によって破壊されることはありません）。文化爆弾を引き起こす可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_DOME_NAME" Language="ja_JP">
+			<Text>ナイトメアトレーディングポスト</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_DOME_DESCRIPTION" Language="ja_JP">
+			<Text>+4 [ICON_Gold] ゴールド コインと +1 [ICON_Production] 生産性を提供します。この都市に接続されている [ICON_TradeRoute] 貿易ルートは、+4 [ICON_Gold] ゴールドと +1 [ICON_Production] 生産量を獲得します。プレイヤーとオープンな国境関係を持つ文明または都市国家の領土内でのみ建設でき、その領土内の高級資源またはボーナス資源の隣に建設する必要があります。他の貿易ステーションの隣に建設することはできません。ストアは削除できません。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_IDOL_NAME" Language="ja_JP">
+			<Text>時崎狂三 (アイドル)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_IDOL_NAME" Language="ja_JP">
+			<Text>パパ・カルッチャ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_IDOL_DESCRIPTION" Language="ja_JP">
+			<Text>「Shenwei Lingzhuang Sanfan」に加えて、幸福度は幸福な都市では +10% [ICON_Culture] 文化価値、幸福な都市の劇場広場ごとに +2 [ICON_GreatMusician] 偉大な音楽家ポイントです。恍惚とした幸福を感じている都市はボーナスが 2 倍になります。 [NEWLINE][ICON_CivicBoosted] アポカリプスでは公民の割合が 40% ではなく 50% になります。 [NEWLINE][ICON_GreatWork_Music] 音楽傑作の [ICON_Tourism] 観光パフォーマンス +200%。都市で働く[ICON_Governor]最高責任者は、強化されるたびに+3%の[ICON_Culture]文化値を提供できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_IDOL_NAME" Language="ja_JP">
+			<Text>アイドル文化</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_IDOL_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Culture]に特化したcivのように、[ICON_Culture]を獲得してください。高い文化的[ICON_Loyalty]忠誠心を築き、維持しようと努めます。国民の[ICON_Loyalty]忠誠心を維持できないために都市を失う文明を嫌い、[ICON_Loyalty]忠誠心によって都市を獲得できる文明を好みます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_STAGE_NAME" Language="ja_JP">
+			<Text>悪夢のステージ</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_STAGE_DESCRIPTION" Language="ja_JP">
+			<Text>劇場広場に代わるアイドルマニア3の特徴的な文化拠点エリア。 [NEWLINE][ICON_GREATMUSICIAN] 偉大なミュージシャン/[ICON_GREATWRITER] 偉大な作家/[ICON_GREATARTIST] 偉大なアーティスト ポイントを獲得します。文化爆弾が発射される可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IDOLKURUMI_LIVE_NAME" Language="ja_JP">
+			<Text>コンサート</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IDOLKURUMI_LIVE_DESCRIPTION" Language="ja_JP">
+			<Text>地域ベースのプロジェクト、コンサート開催時に毎ラウンド[ICON_Culture]文化価値と[ICON_Gold]金貨を獲得し、コンサート終了時に特定の[ICON_GREATMUSICIAN]偉大なミュージシャンと[ICON_GREATARTIST]偉大なアーティストポイントを獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_KIMONO_NAME" Language="ja_JP">
+			<Text>時崎狂三（着物）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_KIMONO_NAME" Language="ja_JP">
+			<Text>大和抚子</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_KIMONO_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三帆」を除く全都市[ICON_Science]技術値+10%、[ICON_Capital]首都さらに[ICON_Science]技術値+10%。戦時中のボーナスは2倍。 [NEWLINE]幸せな都市は、アカデミーがあるごとに [ICON_GreatScientist] 偉大な科学者ポイント +1 を獲得します。恍惚とした幸福を感じている都市はボーナスが 2 倍になります。戦略的資源の改善 +2 [ICON_Science] テクノロジー値。都市で働く [ICON_Governor] 最高責任者は、強化を取得するたびに +3% の [ICON_Science] 技術価値を提供できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_KIMONO_NAME" Language="ja_JP">
+			<Text>瞻星台</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_KIMONO_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Science] テクノロジーの獲得を試み、同様に [ICON_Science] テクノロジー開発に注力する文明を好みます。後進的なテクノロジーを備えた[ICON_Science]文明を憎みます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KURUMI_ELECTRONICS_FACTORY_NAME" Language="ja_JP">
+			<Text>ナイトメア電子工場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KURUMI_ELECTRONICS_FACTORY_DESCRIPTION" Language="ja_JP">
+			<Text>着物マニアの工場に代わって特徴的な3つの建物。 [NEWLINE]「電気」技術を研究した後、この建物は都市に追加の +4 [ICON_Science] 技術価値を与えることができます。 [ICON_Production] 生産ボーナスは、この建物タイプ ボーナスを受け取らない 6 セル以内のすべての都市中心部に拡張できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_LINGERIE_NAME" Language="ja_JP">
+			<Text>時崎狂三（ランジェリー）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LINGERIE_NAME" Language="ja_JP">
+			<Text>ゴージャスでクレイジー</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LINGERIE_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三番」を除く、城セルの魅力[ICON_Appeal]+2。セルの魅力[ICON_Appeal]によってエリアの出力が変化し、セルの魅力[ICON_Appeal]によって軍事ユニットの戦闘力[ICON_Strength]が変化します。 [NEWLINE]影響力ポイントがさらに 50% 増加します。都市国家ユニットの採用コストは半分になり、+2 [ICON_Movement] の機動力と +5 [ICON_Strength] の戦闘力が与えられます。 [ICON_Gold] ユニットのアップグレードを収集する際に消費されるゴールドとリソース -75%。都市国家から軍隊を募集する場合、都市国家から 2 人の [ICON_Envoy] 特使を獲得できます。各都市国家に送信された最初の [ICON_Envoy] 特使は 2 つの [ICON_Envoy] 特使としてカウントされます。宗主国として、あなたの各都市国家はあなたに+5%の[ICON_Culture]文化価値と[ICON_Science]技術価値を与えます。 [NEWLINE]同性のリーダーはあなたを少し嫌いますが、異性のリーダーはあなたのことがとても好きです。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_LINGERIE_NAME" Language="ja_JP">
+			<Text>遊女</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_LINGERIE_DESCRIPTION" Language="ja_JP">
+			<Text>相手国が外交上の約束を守らない限り、率先して近隣諸国を攻撃することはないでしょう。 [NEWLINE] 隣人と平和に暮らす文明を好み、隣人と戦争状態にある文明を嫌います。 [NEWLINE]都市を創造し、故郷の大陸で平和を追求することを好む文明。都市国家に対して戦争を仕掛けたり、自分の大陸に対して戦争を主張したりする文明を憎んでいます。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_PARK_NAME" Language="ja_JP">
+			<Text>ウィッチド・パーク</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_PARK_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Appeal]チャーム2ポイントと[ICON_Culture]文化価値1ポイントを提供します。 「公園とレクリエーション」強化を備えた「測量士」幹部がいる都市に建設すると、+3 [ICON_Culture] 文化。 1都市につき1つまでとさせていただきます。セルの [ICON_Appeal] チャームの 100% に等しい [ICON_Gold] 金貨を提供します。セルの [ICON_Appeal] アピールは、少なくとも素晴らしいものでなければなりません。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_PARK_O_NAME" Language="ja_JP">
+			<Text>海外パーク</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_PARK_O_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Appeal]チャームを3点プレゼント。他の外国の公園に隣接して建設することはできません。セルの [ICON_Appeal] チャームの 50% に相当する [ICON_Gold] 金貨を提供します。帝国外の軍事技術者によって建造可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_MAID_NAME" Language="ja_JP">
+			<Text>時崎狂三（メイド）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_MAID_NAME" Language="ja_JP">
+			<Text>メイドさんの体験談</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_MAID_DESCRIPTION" Language="ja_JP">
+			<Text>&quot;Shenwei Lingzhuang Sanfan&quot; に加えて、[ICON_Capital] 資本 +2% [ICON_Production] 生産性。 +10% [ICON_Production] 地区、建物、ユニットを建設する際の生産量。ビルダータイムを使用すると、驚異やエリアの建設の進行を 20% スピードアップできます。 +1 [ICON_Production] 戦略的リソースの鉱山の生産; +2 [ICON_Production] ボーナスおよび高級リソースの鉱山の生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_MAID_NAME" Language="ja_JP">
+			<Text>愛と平和</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_MAID_DESCRIPTION" Language="ja_JP">
+			<Text>この戦争のせいで好戦的な烙印を押されるとしても、彼は決して宣戦布告せず、平和を守る人々を助けようとするだろう。過激派を憎む。 [NEWLINE]屈辱的な和平条件には決して署名しません。そのスタイルに適合する文明を好みます。武力に屈する文明、あるいは武力を決して行使しない文明を憎む。このリーダーによって生成された恨みは 2 倍の割合で軽減されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KURUMI_MAID_NAME" Language="ja_JP">
+			<Text>ナイトメアメイド</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KURUMI_MAID_DESCRIPTION" Language="ja_JP">
+			<Text>Maid Mania III のユニークな構築ユニットで、ビルダーを置き換えます。 [NEWLINE]追加生産数が利用可能です。捕らえられたら撤退する。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_CHATEAU_NAME" Language="ja_JP">
+			<Text>悪夢の城</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_CHATEAU_DESCRIPTION" Language="ja_JP">
+			<Text>Maid Mania 3 にはユニークな基本建物があり、ビルダーはボーナスまたは豪華なリソースに隣接する見事なタイル上に構築する必要があります。 +2 [ICON_Culture] 文化値 +1 [ICON_Gold] 金貨 +1 [ICON_Food] 食べ物 +3 [ICON_Appeal] 魅力。高級資源に隣接すると金貨 [ICON_Gold] が 2 枚増加し、驚異に隣接すると文化的価値が [ICON_Culture] 増加します。フライトの研究と開発後、[ICON_tourism] の観光実績を提供します。 +1 [ICON_Production] 城に隣接するセルの生産量。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_NURSE_NAME" Language="ja_JP">
+			<Text>時崎狂三（看護師）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NURSE_NAME" Language="ja_JP">
+			<Text>白衣の天使</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NURSE_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三帆」に加えて、軍事ユニットは移動または維新を攻撃した後でも、戦闘後に追加で 25 ポイントのライフを回復でき、[ICON_Capital] 首都が位置する大陸では各ラウンドで追加で 15 ポイントのライフを回復できます。 ; 帝国領土内でターンごとに追加の 90 ヘルスを回復します。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NURSE_NAME" Language="ja_JP">
+			<Text>片側に固執する</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NURSE_DESCRIPTION" Language="ja_JP">
+			<Text>志を同じくする文明を尊重し、都市の周囲に高レベルの壁を築こうとするだろう。都市を強化しない文明を憎む。 [NEWLINE]安全で征服されないでいたい。他のプレイヤーの[ICON_Capital]の元の首都を征服する文明を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NIGHTMARE_OBELISK_NAME" Language="ja_JP">
+			<Text>ナイトメアのオベリスク</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NIGHTMARE_OBELISK_DESCRIPTION" Language="ja_JP">
+			<Text>モニュメントに代わる時崎狂三の特徴的な建物。 [NEWLINE]さまざまな種類のグレート ワークを保持できるグレート ワーク スロットが 1 つ含まれています。毎ターンこの都市への[ICON_Loyalty]忠誠度が+1されます。都市の [ICON_Loyalty] 忠誠度が満タンの場合、+1 [ICON_Culture] 文化値が提供されます。都市によって訓練された軍事ユニットはオベリスクの祝福を受けます（都市によって訓練された軍事ユニットはラウンド終了時にライフを回復できます）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIGHTMARE_OBELISK_HEAL_NAME" Language="ja_JP">
+			<Text>オベリスクの祝福</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIGHTMARE_OBELISK_HEAL_DESCRIPTION" Language="ja_JP">
+			<Text>都市によって訓練された軍事ユニットはターン終了時にライフを回復します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_SISTER_NAME" Language="ja_JP">
+			<Text>時崎狂三（修道女）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SISTER_NAME" Language="ja_JP">
+			<Text>暴言を吐く</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SISTER_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_VisLimited] 「Shenwei Lingzhuang Sanfan」を除く他のすべての文明に対する外交可視性+1レベル。 Diplomatic Visibility の戦闘力ボーナスが 2 倍になります。 [NEWLINE]敵の使徒や宣教師は領土に侵入できず、都市は自分たちが設立した宗教以外の宗教からの宗教的圧力を無視します。すべてのカルトの建物のロックを解除すると、30% 割引を受けられます。フォロワー数に応じて満足度が上がります。 [ICON_TradeRoute] 貿易ルートは二重の宗教的圧力を引き起こします。隣接する都市が文化爆弾によってタイルを失った場合、創設された宗教がその都市で支配的な宗教になります。建物とユニットは信仰で購入できますが、軍事ユニットの生産は 33% 減少します。国際貿易ルートは +4 [ICON_Faith] を獲得しますが、-3 [ICON_Gold] ゴールドを獲得します。信仰によって作成された宗教の都市ごとに +1 [ICON_Faith] 信仰値。 [NEWLINE]文明が宗教を創設するたびに、宗教を創設していない場合は大預言者が得られ、宗教を創設した場合は使徒が得られます。 [NEWLINE]各聖なる都市はあなたの宗教に改宗し（あなた自身の聖なる都市を含む）、すべてのユニットは戦闘力 [ICON_Strength] または [ICON_Religion] の宗教戦闘力 +3 を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_SISTER_NAME" Language="ja_JP">
+			<Text>私は興味がある</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_SISTER_DESCRIPTION" Language="ja_JP">
+			<Text>友情、開かれた国境、代表団、大使館を通じて世界で何が起こっているのかを知りたい。情報を共有したくない文明を憎む。 [NEWLINE][ICON_Faith] 信仰を作成しようとしています。[ICON_Faith] 信仰にも重点を置いている都市が気に入っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_LAVRA_NAME" Language="ja_JP">
+			<Text>ナイトメア・アビー</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_LAVRA_DESCRIPTION" Language="ja_JP">
+			<Text>Nun Madness III では、聖地に代わる特別な宗教活動が特徴です。 [NEWLINE]都市は[ICON_TradeRoute]交易路で+3[ICON_Faith]信仰を獲得します。都市によって訓練された軍事ユニットは異端を破壊する能力を獲得します（異端に対する戦闘力+5、都市占領時に主流宗教を自動的に改宗します）。文化爆弾を引き起こす可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KURUMI_WARS_OF_RELIGION_NAME" Language="ja_JP">
+			<Text>異教の殲滅</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KURUMI_WARS_OF_RELIGION_DESCRIPTION" Language="ja_JP">
+			<Text>都市で訓練された軍事ユニットは異教徒に対する戦闘力+5を持ち、軍事ユニットが都市を占領すると自動的に主流宗教に改宗します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SISTERKURUMI_RATZIEL_NAME" Language="ja_JP">
+			<Text>暴言を吐く</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SISTERKURUMI_RATZIEL_DESCRIPTION" Language="ja_JP">
+			<Text>エリアベースのアイテム、[ICON_VisLimited]外交可視性+1、宗教拡散圧力+2%、[ICON_CivicBoosted]アポカリプスと[ICON_TechBoosted]エウレカを獲得、既存ユニットのビジョン+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ZAFKIEL_YOD" Language="ja_JP">
+			<Text>ケケ皇帝: 十の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_ZAFKIEL_YOD" Language="ja_JP">
+			<Text>ケケディを使用: 10 個の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_ZAFKIEL_YOD" Language="ja_JP">
+			<Text>Kekedi: The Bullet of Ten でご存知でしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_SWIMSUIT_NAME" Language="ja_JP">
+			<Text>時崎狂三（水着）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SWIMSUIT_NAME" Language="ja_JP">
+			<Text>サマーウォーズ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SWIMSUIT_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三番」に加えて、ゲームは最初に海洋セルに位置し、陸上ユニットは船に乗って海洋セルに入ることができ、開拓者は海域に都市を建設できます。最初の都市を開く前に、ラウンドごとに +2 [ICON_Science] 技術値と +2 [ICON_Culture] 文化値。 +3 [ICON_Housing] 沿岸都市向けの洪水被害を受けない住宅。 [NEWLINE]運河のロックを解除するにはレンガを研究してください。 Sea Homes は追加の +1 [ICON_Food] 食料を提供し、隣接するセルに培養爆弾をキャストします。 [NEWLINE]国際 [ICON_TradeRoute] 交易路は海岸沿いまたは港のある都市にのみつながりますが、すべての交易路の収益率は +50% です。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_SWIMSUIT_NAME" Language="ja_JP">
+			<Text>海の王国</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_SWIMSUIT_DESCRIPTION" Language="ja_JP">
+			<Text>強い海軍を作ることを好み、それに倣う文明を尊敬する。海軍が弱い文明を嫌う。 [NEWLINE]海岸沿いの都市を開発したいと考えています。内陸の都市を植民地化する文明を好む。ほとんどの都市が海岸沿いに植民地化されている文明を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CARNIVAL_NAME" Language="ja_JP">
+			<Text>ナイトメアカーニバル</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CARNIVAL_DESCRIPTION" Language="ja_JP">
+			<Text>水着クレイジー3の目玉エリア。ウォーターパークの代わりになります。 [NEWLINE]満足度が[ICON_Amenities]+2。同時に「カーニバル」プロジェクトがアンロックされ、プロジェクト期間中、都市の満足度[ICON_Amenities]が+1され、完了後は様々な[ICON_Greatperson]偉人ポイントを獲得できます。 「ストリートカーニバル」や「レクリエーションセンター」がある都市には建設できません。サンゴ礁タイルの上には建てられません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIGHTMARE_CARNIVAL_NAME" Language="ja_JP">
+			<Text>カーニバル</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIGHTMARE_CARNIVAL_DESCRIPTION" Language="ja_JP">
+			<Text>有効化すると +1 [ICON_Amenities] の満足度を提供するエリアベースのアイテム。完了すると、[ICON_GreatEngineer] 偉大なエンジニア、[ICON_GreatMerchant] 偉大な商人、[ICON_GreatWriter] 偉大な作家、[ICON_GreatArtist] 偉大なアーティスト、および [ICON_GreatMusician] 偉大な音楽家 [ICON_Greatperson] が提供されます。 】偉人ポイント。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KURUMI_SETTLER_NAME" Language="ja_JP">
+			<Text>ナイトメア・トレイルブレイザー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KURUMI_SETTLER_DESCRIPTION" Language="ja_JP">
+			<Text>先駆者に代わる時崎光山の特色ある開発部隊。ナイトメア・トレイルブレイザーがケケディによって設立された都市で訓練された場合、都市は[ICON_Citizen]の人口を1人失うことになります。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_WARRIOR_NAME" Language="ja_JP">
+			<Text>時崎狂三（戦士）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WARRIOR_NAME" Language="ja_JP">
+			<Text>ビキニ爆発</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WARRIOR_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三帆」を除いて、各都市は戦争疲労を生成しません。征服された都市は [ICON_Citizen] の人口を失わず、ターンごとに +1 [ICON_Amenities] の満足度と +4 [ICON_Loyalty] を獲得します。守備隊ユニットのある都市はターンごとに追加の[ICON_Loyalty]を獲得します。敵都市の境界内で敵ユニットを倒すと、都市は[ICON_Loyalty]を失います。 [NEWLINE]軍事ユニットは負傷しても戦闘力デバフを受けず、野蛮人に対してさらに +4 [ICON_Strength] 戦闘力を持ち、アップグレードまたは攻撃後も移動できます。スロットに軍事政策が挿入されるたびに、+1 [ICON_Strength] の戦闘力が得られます。 [NEWLINE] ユニットを殺害すると、戦闘力の 100% に相当する [ICON_Gold] 個の金貨を獲得します。殺害したユニットが前時代のものであれば、報酬は 2 倍になります。 [NEWLINE]すべてのユニットは[ICON_Nuclear]核爆発ダメージに耐性があり、[ICON_Resource_Uranium]核放射線ダメージには耐性があります。 [ICON_Power] 電力が十分なときに収入を得る建物は、追加の収入を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_WARRIOR_NAME" Language="ja_JP">
+			<Text>ドリームレギオン</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_WARRIOR_DESCRIPTION" Language="ja_JP">
+			<Text>強大な軍事力を持つ文明を好み、戦争を避けるためにそれらと同盟を持とうとする。武器の弱い文明を嫌う。 [NEWLINE]志を同じくする文明を尊重し、多数の連隊や軍団を創設しようと試みます。軍団や怠惰な軍隊を作ることができない文明を憎む。 [NEWLINE]都市国家から軍隊が結成されます。都市国家の軍隊も使用する文明を好み、傭兵に献身的でない文明を嫌います。 [NEWLINE]このリーダーによって生成された恨みは 2 倍の速さで軽減されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME" Language="ja_JP">
+			<Text>ナイトメア・リアクター</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_DESCRIPTION" Language="ja_JP">
+			<Text>戦士の狂気の 3 つの特徴的な建物。 [NEWLINE]戦略的リソースを消費することなく、9 タイル以内の都市に十分な電力を供給します。 [ICON_Production] 生産性ボーナスと [ICON_Science] 技術価値ボーナスは、発電所建設ボーナスを受け取っていない 9 セル以内のすべての都市中心部に拡張できます。 [NEWLINE]市内の建設地域、建物、驚異の[ICON_Production]生産量が 10% 増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPACE_DEATH_ROBOT_NAME" Language="ja_JP">
+			<Text>悪夢のような殺人ロボット</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPACE_DEATH_ROBOT_DESCRIPTION" Language="ja_JP">
+			<Text>ウォリアークレイジーIIIの特徴的なスーパーユニット。水中でも移動、戦闘が可能。大量破壊兵器の攻撃に耐えることができます。未来のテクノロジーを研究することで戦闘能力をアップグレードできます。空中攻撃も可能。核兵器を運ぶことができる。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_CONVERT_THERMONUCLEAR_NAME" Language="ja_JP">
+			<Text>ナイトメアリアクターに切り替え</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_CONVERT_THERMONUCLEAR_DESCRIPTION" Language="ja_JP">
+			<Text>この都市が現在使用している発電所を廃止し、{LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME} に置き換えます。 [NEWLINE][NEWLINE]{LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME}: [NEWLINE]{LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_XDISK_NAME" Language="ja_JP">
+			<Text>時崎狂三（イエローボイス）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XDISK_NAME" Language="ja_JP">
+			<Text>古い思い出</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XDISK_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三帆」を除く、軍ユニットがより上級のユニットと戦闘する場合、戦闘力+7[ICON_Strength]。エラポイントを増減させる注目のアイテムのロックを解除します。 [NEWLINE]2つ以上の時代スコアで歴史的瞬間のロックを解除し、[ICON_TechBoosted]エウレカまたは[ICON_CivicBoosted]アポカリプスを取得すると、追加の時代スコアを1つ獲得します。 [NEWLINE]暗黒時代ポリシーは、[ICON_Glory_Dark_Age]暗黒時代でなくても使用できます。 [NEWLINE] [ICON_Glory_Golden_Age] 黄金時代または [ICON_Glory_Super_Golden_Age] 英雄時代に専念すると、他のオリジナル ボーナスに加えて、年齢スコアを増加させることができる [ICON_Glory_Normal_Age] 通常年齢ボーナスも獲得できます。 [NEWLINE]建物または不思議の素晴らしい作品スロットをすべて埋めるとすぐに、すべての作品に自動的にテーマが設定されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_XDISK_NAME" Language="ja_JP">
+			<Text>黄金の記憶</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_XDISK_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Glory_Golden_Age]黄金時代に入った文明を羨ましく思っています。 [ICON_Glory_Dark_Age]暗黒時代に突入する文明を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_XMAS_NAME" Language="ja_JP">
+			<Text>時崎狂三（Candy Queen）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XMAS_NAME" Language="ja_JP">
+			<Text>真夏のクリスマスイブ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XMAS_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘：三帆」に加えて、蛮族の前哨基地を解散させると、部族の村の報酬と経験値を獲得できます。すべての都市は、最も低いダウンタウンの建物の追加生産コストで作成されます。各都市は通常よりも 1 つ多くの地区を建設できます。自治体の広場の外側にある専門エリアが建設される場合、現在建設可能でそのエリア内で最も生産コストが低い建物が含まれる可能性が一定あります。 [NEWLINE]ユニットは吹雪によってダメージを受けることはありません。帝国領土内で交戦派は吹雪による2倍のダメージを受ける。雪、凍土、雪の丘、凍てついた丘の戦略資源の蓄積率が+100%になり、ユニット購入コストが半分になります。 [NEWLINE][ICON_TechBoosted] Eureka と [ICON_CivicBoosted] Apocalypse では、公民とテクノロジーが 40% ではなく 50% になります。驚異が建設されると、驚異の時代からランダムな [ICON_TechBoosted] エウレカと [ICON_CivicBoosted] アポカリプスを入手できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_XMAS_NAME" Language="ja_JP">
+			<Text>クリスマスプレゼント</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_XMAS_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Science]技術価値と[ICON_Culture]価値が自分よりも優れている文明に対して友好的です。 [ICON_Science] テクノロジーと [ICON_Culture] 文化を欠いた文明を憎みます。産業の創造に努め、[ICON_Production]の生産にも重点を置いた文明を好みます。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_HALLOWEEN_NAME" Language="ja_JP">
+			<Text>時崎狂三（魔女）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_HALLOWEEN_NAME" Language="ja_JP">
+			<Text>トリック・オア・トリート</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_HALLOWEEN_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘サンファン」を除き、隣接するすべての敵ユニットの戦闘力は-1[ICON_Strength]です。注目のユニットに隣接する敵都市の忠誠度は毎ターン-1[ICON_Loyalty]です。 [NEWLINE]自国の都市の住民の[ICON_Loyalty]忠誠度係数が増加し、同盟国は何らかの恩恵を受けますが、外国の都市の住民の[ICON_Loyalty]忠誠度係数は減少し、敵都市の効果は2倍になります。帝国の首都[ICON_Capital]と同じ大陸にある都市の場合、効果は2倍になります。ホーム都市の周囲の他の国内都市の [ICON_Loyalty] 忠誠度は毎ターン増加し、外国都市の [ICON_Loyalty] 忠誠度は毎ターン減少します (距離に応じて減少し、[ICON_Capital] は首都の周囲の影響力を 2 倍にします)。都市で展示された各偉大な作品は、9 セル内のすべての異邦人の都市に対するターンごとの [ICON_Loyalty] 忠誠度 -1 をもたらします。敵都市のグリッドを略奪すると、その都市は [ICON_Loyalty] 5 ポイントを失います。 [ICON_Loyalty] 忠誠度の低下により他の文明の都市が文明から離脱し、各ラウンドであなたに対する [ICON_Loyalty] 忠誠度が最も高い場合、その都市は自由都市ステージを直接スキップしてあなたの文明に直接参加します。 [NEWLINE]あなたの領土にいる間、敵のスパイレベルは2減少します。攻撃的なアクションを行うと、スパイ レベルが 1 増加します。 Castle Tech のロックを解除すると、追加のスパイ (および追加のスパイ能力) が 1 人追加されます。すべての Spy は、Agent への無料アップグレードから始まります。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_HALLOWEEN_NAME" Language="ja_JP">
+			<Text>いたずらな小悪魔</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_HALLOWEEN_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Capital]首都近郊の都市を開発します。遠く離れた都市を発展させた文明を好む。帝国領に押し入る文明を嫌う。 [NEWLINE]できるだけ多くのスパイと外交へのアクセスを獲得します。スパイ行為に目をつぶる文明を憎む。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_WEDDING_NAME" Language="ja_JP">
+			<Text>時崎狂三（ウェディングドレス）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WEDDING_NAME" Language="ja_JP">
+			<Text>神聖な誓い</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WEDDING_DESCRIPTION" Language="ja_JP">
+			<Text>「神威霊荘三番」を除く、同盟レベルごとに対応する生産量が2%増加します。味方も効果の半分を分け合います。 [NEWLINE] すべての味方の同盟ポイントはラウンドごとに 0.25 ポイントずつ増加し、味方が追加されるごとに効果は 2 倍になり、すべての種類の味方が追加の効果を得ることができます。味方とトレードして味方ポイントを2倍獲得します。 [NEWLINE][ICON_Stat_Grievance] あなたと戦争中の国々からの苦情は減りません。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_WEDDING_NAME" Language="ja_JP">
+			<Text>神聖な同盟</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_WEDDING_DESCRIPTION" Language="ja_JP">
+			<Text>長期的な同盟関係を築こうとする文明を好みます。自分の同盟国や同盟を非難したり攻撃したりする人々を憎みます。 [NEWLINE]同盟を創設した文明を尊重し、複数の同盟を創設しようとします。同盟の少ない文明を嫌う。相手国が外交上の約束を守らない限り、率先して近隣諸国を攻撃することはないでしょう。隣人と平和に暮らす文明を好み、隣人と戦争をする文明を嫌います。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_NIGHTMARE_NAME" Language="ja_JP">
+			<Text>ケケ皇帝&lt;スカーレットナイトメア&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_NIGHTMARE_DESCRIPTION" Language="ja_JP">
+			<Text>『スカーレットナイトメア』時崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_NIGHTMARE_ADJECTIVE" Language="ja_JP">
+			<Text>ケケ皇帝&lt;スカーレットナイトメア&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_ALEPH_NAME" Language="ja_JP">
+			<Text>ケケディ: ザ・バレット・オブ・ワン</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別プロジェクトには [ICON_Resource_Kurumi_Time] 時間が必要で、現在都市の領土に位置する軍事ユニットの移動力は +1 [ICON_Movement] です。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_ALEPH_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Movement] の移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_BET_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: 第二弾</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別プロジェクト、所要時間は[ICON_Resource_Kurumi_Time]、現在この街の領土にいる敵軍ユニットの移動力は-1[ICON_Movement]です。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_GIMEL_NAME" Language="ja_JP">
+			<Text>ケケディ: 3 人の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_GIMEL_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別なアイテム、[ICON_Resource_Kurumi_Time] 時間がかかり、現在この都市の領土にいる軍事ユニットは追加の戦闘経験値を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_GIMEL_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘から得られる経験値 +33%。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_DALET_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: 第四の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_DALET_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別なアイテムで、[ICON_Resource_Kurumi_Time] 時間がかかり、現在都市の領土にいる軍事ユニットを毎ラウンド回復できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_DALET_DESCRIPTION" Language="ja_JP">
+			<Text>このユニットは毎ターン回復します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_HEI_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: 五人の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_HEI_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別プロジェクト、[ICON_Resource_Kurumi_Time] 時間がかかり、現在この都市の領土に配置されている軍事ユニットの視力が +1 されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_HEI_DESCRIPTION" Language="ja_JP">
+			<Text>ビジョン+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_VAV_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: 六人の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_VAV_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特性アイテムで、[ICON_Resource_Kurumi_Time]時間がかかり、現在この街の領土にいる敵軍ユニットの視力は-1されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_VAV_DESCRIPTION" Language="ja_JP">
+			<Text>視野 -1。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_ZAYIN_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: 第七の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_ZAYIN_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別プロジェクトには [ICON_Resource_Kurumi_Time] 時間がかかり、他のプレイヤーの現在の部隊の移動力 [ICON_Movement] が 3 ラウンドにわたって大幅に低下します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_ZAYIN_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] 動きが大幅に低下しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_HET_NAME" Language="ja_JP">
+			<Text>ケケディ:第8の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_HET_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別なアイテムは、[ICON_Citizen] の人口を消費せずにナイトメア シャドウを取得するのに [ICON_Resource_Kurumi_Time] 時間が必要です。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_TET_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: ナインの弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_TET_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別プロジェクト。すべての都市と都市国家の一時的なビジョンを取得するには [ICON_Resource_Kurumi_Time] 時間がかかります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: 十の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の特別プロジェクト。外交上の可視性が最も低い [ICON_VisLimited] オブジェクトの可視性レベルを 1 レベル上げるには [ICON_Resource_Kurumi_Time] 時間がかかります。すべての文明に対する外交可視性が最大の場合、[COLOR_Civ6Red] 費やした [ICON_Resource_Kurumi_Time] 時間を払い戻します[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_ALEPH_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: 第11の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_ALEPH_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の3つの特性アイテムには[ICON_Resource_Kurumi_Time]時間が必要で、あなたの帝国は都市の生産性に比例して[ICON_Science]科学価値、[ICON_Culture]文化価値、[ICON_Gold]金貨、[ICON_Faith]信仰を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_BET_NAME" Language="ja_JP">
+			<Text>ケケ皇帝: 十二の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_BET_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の3つの特別なアイテムには[ICON_Resource_Kurumi_Time]時間がかかり、他の帝国は3ラウンドで生み出される[ICON_Science]科学値、[ICON_Culture]文化値、[ICON_Gold]金貨、[ICON_Faith]信念を失います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} ポイントの [ICON_Production] 生産量。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_GOLD" Language="ja_JP">
+			<Text>+{1_num} [ICON_Gold] 枚の金貨。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_SHADOW_NAME" Language="ja_JP">
+			<Text>影の力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_SHADOW_DESCRIPTION" Language="ja_JP">
+			<Text>ナイトメアキャンプと隣接するナイトメアシャドウから追加の[ICON_Strength]戦闘力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_KURUMI_STRENGTH_FROM_IKANDA_PREVIEW" Language="ja_JP">
+			<Text>ナイトメアキャンプから+{Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_KURUMI_STRENGTH_FROM_SHADOW_PREVIEW" Language="ja_JP">
+			<Text>隣接するナイトメア シャドウから +{Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_1_1_NAME" Language="ja_JP">
+			<Text>弾丸一発</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Movement] の移動。地形と地形の [ICON_Movement] 移動コストを無視します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_1_3_NAME" Language="ja_JP">
+			<Text>第 2 弾</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_1_3_DESCRIPTION" Language="ja_JP">
+			<Text>隣接する敵ユニットの移動量 -1[ICON_Movement]。隣接する敵ユニットのみがこのユニットを発見できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_2_1_NAME" Language="ja_JP">
+			<Text>スペースショック</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>遠距離から都市やキャンプを攻撃する場合は100%効果的です。戦闘でユニットを倒すと、隣接するすべての敵戦闘ユニットの体力が [ICON_Damages] 失われます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_2_3_NAME" Language="ja_JP">
+			<Text>日食</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_2_3_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットを1体破壊すると、[ICON_Resource_Kurumi_Time]時間が追加で獲得されます。都市を攻撃すると、人口が減少し、[ICON_Resource_Kurumi_Time] 時間が得られる可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_3_2_NAME" Language="ja_JP">
+			<Text>痛みが倍増する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>負傷したユニットを攻撃すると、戦闘力が [ICON_Strength] +5 されます。ユニット1体破壊時、HPを最大30回復できる。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_4_1_NAME" Language="ja_JP">
+			<Text>流通の領域</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_4_1_DESCRIPTION" Language="ja_JP">
+			<Text>各ラウンドで受ける最初の非致死ダメージをブロックします。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_4_3_NAME" Language="ja_JP">
+			<Text>時のダンス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_4_3_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] の機動力が許せば、ラウンドごとに追加攻撃力が 1 増加します。戦闘でユニットを倒すと[ICON_Movement]の移動数と攻撃数を回復するチャンス。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOKI_HAMI_NO_SHIRO_NAME" Language="ja_JP">
+			<Text>エクリプスシティ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOKI_HAMI_NO_SHIRO_DESCRIPTION" Language="ja_JP">
+			<Text>時崎狂三の 3 つの特別なアイテムは、[ICON_Resource_Kurumi_Time] 時間と引き換えに 1 人の [ICON_Citizen] 人口を消費し、都市の忠誠心 [ICON_Loyalty] がわずかに減少します。 [NEWLINE][COLOR_RED] 都市に [ICON_Citizen] の人口が 1 人だけ残っている場合、その都市は自由都市になります。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOKI_HAMI_NO_SHIRO" Language="ja_JP">
+			<Text>[ICON_Resource_Kurumi_Time] 時間で {1_iAmount} ポイントを獲得</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KURUMI_WALL_DEBUFF_DESCRIPTION" Language="ja_JP">
+			<Text>-1 [ICON_Movement] 移動 (ナイトメア ウォール)。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

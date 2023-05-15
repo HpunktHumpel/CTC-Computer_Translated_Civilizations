@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_ZAFKIEL_NAME">
+			<Text>Nightmare Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ZAFKIEL_DESCRIPTION">
+			<Text>(Nightmare) Kurumi Tokizaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ZAFKIEL_ADJECTIVE">
+			<Text>Nightmare Empire's</Text>
+		</Row>
+		<!-- Civilization Characteristics -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ZAFKIEL_NAME">
+			<Text>City of Devouring of Time</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ZAFKIEL_DESCRIPTION">
+			<Text>All[ICON_Citizen]Citizens in every city provide +0.1[ICON_Gold]Gold,[ICON_Production]Production,[ICON_Science]Science,[ICON_Culture]Culture,  and[ICON_Faith]Faith but -0.2 Loyalty. Access to a new strategic resource called[ICON_RESOURCE_KURUMI_TIME]"Time." Obtained through your citizens and the feautured project "City of Devouring of Time." Time is used to maintain unique units.</Text>
+		</Row>
+		<!-- Featured District -->
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_NAME">
+			<Text>Nightmare Camp</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_DESCRIPTION">
+			<Text>A unique district to the Nightmare Empire that replaces the Encampment.Used to build legions and armies faster.</Text>
+		</Row>
+		<!-- Featured Projects -->
+		<Row Tag="LOC_PROJECT_KURUMI_ZAFKIEL_NAME">
+			<Text>City of Devouring of Time</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_KURUMI_ZAFKIEL_DESCRIPTION">
+			<Text>Kurumi Tokisaki's unique featured project, upon completion you gain 30[ICON_RESOURCE_KURUMI_TIME]"Time", however the city suffers -5 loyality.</Text>
+		</Row>
+		<!-- Featured Resources -->
+		<Row Tag="LOC_RESOURCE_KURUMI_TIME_NAME">
+			<Text>Time</Text>
+		</Row>
+		<!-- Featured Units -->
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOW_NAME">
+			<Text>Nightmare Stone Slinger</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOW_DESCRIPTION">
+			<Text>Nightmare Empire unique Ancient Era ranged unit. Has the ability of Zafkiel, unit requires[ICON_RESOURCE_KURUMI_TIME]Time to maintain.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOWI_NAME">
+			<Text>Nightmare Archer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOWI_DESCRIPTION">
+			<Text>Nightmare Empire unique Ancient Era ranged unit. Has the ability of Zafkiel, unit requires[ICON_RESOURCE_KURUMI_TIME]Time to maintain.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOWII_NAME">
+			<Text>Nightmare Crossbowmen</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOWII_DESCRIPTION">
+			<Text>Nightmare Empire unique Medieval Era ranged unit. Has the ability of Zafkiel, unit requires[ICON_RESOURCE_KURUMI_TIME]Time to maintain.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOWV_NAME">
+			<Text>Nightmare Field Cannon</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOWV_DESCRIPTION">
+			<Text>Nightmare Empire unique Industrial Era ranged unit. Has the ability of Zafkiel, unit requires[ICON_RESOURCE_KURUMI_TIME]Time to maintain.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOW_V_NAME">
+			<Text>Nightmare Machine Gun</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZAFKIEL_SHADOW_V_DESCRIPTION">
+			<Text>Nightmare Empire unique Atomic Era ranged unit. Has the ability of Zafkiel, unit requires[ICON_RESOURCE_KURUMI_TIME]Time to maintain.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ZAFKIEL_NAME">
+			<Text>Zafkiel</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ZAFKIEL_DESCRIPTION">
+			<Text>First bullet: Unit has +1[ICON_Movement].[NEWLINE]Second bullet: Enemy military units in the unit's vicinty suffer -1[ICON_Movement].[NEWLINE]Third Bullet: Unit gains 33% more experience.[NEWLINE]Fourth bullet: Unit restores 10 HP at the end of each turn.[NEWLINE]Fifth Bullet: Unit has +1 vision range.</Text>
+		</Row>
+
+		<!-- Leader -->
+		<!-- Basic -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_NAME">
+			<Text>Kurumi Tokisaki</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NAME">
+			<Text>Zafkiel</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DESCRIPTION">
+			<Text>First bullet: +1[ICON_Movement]for all units.[NEWLINE]Second bullet: Enemy military units suffer -1[ICON_Movement]when adjacent to yours.  [NEWLINE]Third Bullet: Units gain 33% more experience.[NEWLINE]Fourth bullet: All units restores 10 HP at the end of each turn.[NEWLINE]Fifth Bullet: All units gain +1 vision.[NEWLINE]Seventh bullet: Enemy units in adjacent Nightmare camps suffer -2 movement.[NEWLINE]Eighth bullet: Gain extra[ICON_RESOURCE_KURUMI_TIME]Time.[NEWLINE]Ninth bullet: All ally types provide shared visibility.[NEWLINE]Tenth bullet: +1 diplomatic visibility.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_NAME">
+			<Text>Legislative Empire</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_DESCRIPTION">
+			<Text>Kurumi Tokisaki focuses on building cities with large populations while maintaining the happiness and loyalty of her citizens. She prefers civilizations who also prioritize the citizens of their cities, especially when that civilization has cities from other civilizations. She dislikes civilizations that have smaller neighboring cities, who have too few cities, or whose cities loyalty and or happiness is low.</Text>
+		</Row>
+		<!-- Featured Skills -->
+		<Row Tag="LOC_ABILITY_ZAFKIEL_BET_NAME">
+			<Text>Second bullet</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ZAFKIEL_BET_DESCRIPTION">
+			<Text>Enemy military units adjacent to yours suffer -1[ICON_Movement].</Text>
+		</Row>
+
+		<!-- Release -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_LORD_NAME">
+			<Text>Kurumi Tokisaki (Release)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LORD_NAME">
+			<Text>Zafkiel (Release)</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LORD_DESCRIPTION">
+			<Text>Release I: All units +1[ICON_Movement]mobility; units gain another +1[ICON_Movement]mobility in friendly territory.[NEWLINE]Release II: Enemy military units adjacent to yours suffer -1[ICON_Movement]mobility; enemy military units within your border also suffer -1[ICON_Movement]mobility.[NEWLINE]Release III: Units gain 33% more experience. The amount of[ICON_Gold]gold required to upgrade is reduced.[NEWLINE]Release IV: Units may restore health at the end of each turn with a boost to recovery.[NEWLINE]Release V: All units gain +1 vision.[NEWLINE]Release VII : Enemy units in adjacent Nightmare camps suffer -3 movement.[NEWLINE]Release VIII: Gain extra[ICON_RESOURCE_KURUMI_TIME]Time[NEWLINE]Release IX: All ally types provide shared visibility.[NEWLINE]Release X: +2 diplomatic visibility.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_LORD_NAME">
+			<Text>Legislative Empire</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_LORD_DESCRIPTION">
+			<Text>Kurumi Tokisaki focuses on building cities with large populations while maintaining the happiness and loyalty of her citizens. She prefers civilizations who also prioritize the citizens of their cities, especially when that civilization has cities from other civilizations. She dislikes civilizations that have smaller neighboring cities, who have too few cities, or whose cities loyalty and or happiness is low. </Text>
+		</Row>
+
+		<!-- Doppelganger -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_DRESS_NAME">
+			<Text>Kurumi Tokisaki (Date A Bullet)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DRESS_NAME">
+			<Text>Zafkiel (Restricted)</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DRESS_DESCRIPTION">
+			<Text>First bullet: +1[ICON_Movement]for all units.[NEWLINE]Second bullet: Enemy military units adjacent to yours suffer -1[ICON_Movement].[NEWLINE]Third Bullet: Units gain 33% more experience.[NEWLINE]Fourth bullet: All units restores 10 HP at the end of each turn.[NEWLINE]Fifth Bullet: All units gain +1 vision. </Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_DRESS_NAME">
+			<Text>Legislative Empire</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_DRESS_DESCRIPTION">
+			<Text>Kurumi Tokisaki focuses on building cities with large populations while maintaining the happiness and loyalty of her citizens. She prefers civilizations who also prioritize the citizens of their cities, especially when that civilization has cities from other civilizations. She dislikes civilizations that have smaller neighboring cities, who have too few cities, or whose cities loyalty and or happiness is low. </Text>
+		</Row>
+
+		<!-- Inversed -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_REVERSE_NAME">
+			<Text>Kurumi Tokisaki(Inversed)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_REVERSE_NAME">
+			<Text>Zafkiel (Inversed)</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_REVERSE_DESCRIPTION">
+			<Text>Reversal I: All units +2[ICON_Movement]mobility; units gain another +1[ICON_Movement]mobility in friendly territory.[NEWLINE]Reversal II: Enemy military units adjacent to yours suffer -2[ICON_Movement]mobility; enemy military units within your border also suffer -1[ICON_Movement]mobility.[NEWLINE]Reversal III: Units gain 33% more experience. The amount of[ICON_Gold]gold required to upgrade is reduced. Units get promoted each time a new era occurs.[NEWLINE]Reversal IV: Units may restore health at the end of each turn with a significant boost to recovery.[NEWLINE]Reversal V: All units gain +1 vision, ranged units also gain +1[ICON_Range]range.[NEWLINE]Reversal VII : Enemy units in adjacent Nightmare camps suffer -4 movement.[NEWLINE]Reversal VIII: Gain extra[ICON_RESOURCE_KURUMI_TIME]Time[NEWLINE]Reversal IX: All ally types provide shared visibility.[NEWLINE]Reversal X: Highest diplomatic visibility.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_REVERSE_NAME">
+			<Text>Demon Queen Army</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_REVERSE_DESCRIPTION">
+			<Text>Kurumi Tokisaki feels the need to loot all tiles as much as she can. She respects other civilizations that like to pillage, she also likes when other civilizations cities aren't close too her own. Kurumi dislikes any civilization who settles their cities too close to hers. She also hates civilizations with super strong armies.</Text>
+		</Row>
+
+		<!-- Scarlet Nightmare -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_NIGHTMARE_NAME">
+			<Text>Kurumi Tokisaki (Scarlet Nightmare)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NIGHTMARE_NAME">
+			<Text>Dance of Crimson</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NIGHTMARE_DESCRIPTION">
+			<Text>Shares the abilities of each and every version of Kurumi Tokisaki.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_NIGHTMARE_NAME">
+			<Text>Otherworldly Conqueror</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_NIGHTMARE_DESCRIPTION">
+			<Text>Kurumi Tokisaki feels the need to loot all tiles as much as she can. She respects other civilizations that like to pillage, she also likes when other civilizations cities aren't close too her own. Kurumi dislikes any civilization who settles their cities too close to hers. She also hates civilizations with super strong armies.</Text>
+		</Row>
+
+		<!-- Bunny Girl -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_BUNNY_NAME">
+			<Text>Kurumi Tokisaki (Bunny Girl)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_BUNNY_NAME">
+			<Text>Casino Lotus</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_BUNNY_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), every city under her control gains +20%[ICON_Gold]Gold. Every extra capital in her possession gains +80%[ICON_Gold]Gold. Both her and her allies trade routes gain +4[ICON_Gold]Gold. All luxury resources she has gains +4[ICON_Gold]Gold; each strategic and bonus resource gains +2[ICON_Gold]Gold. Allowed to buy districts with[ICON_Gold]Gold. Also gains +50% more[ICON_GreatMerchant]Great Merchant points.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_BUNNY_NAME">
+			<Text>The Flower of the Casino</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_BUNNY_DESCRIPTION">
+			<Text>Kurumi will try to increase the[ICON_Gold]gold output of its cities and[ICON_TradeRoute]trade routes to the maximum. Respects civilizations that do something similar, and dislikes civilizations that do not.</Text>
+		</Row>
+		<!-- Featured Buildings -->
+		<Row Tag="LOC_BUILDING_BUNNYKURUMI_CASINO_NAME">
+			<Text>Nightmare Casino</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BUNNYKURUMI_CASINO_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire. Produces an additional +1[ICON_Gold]Gold from each commercial center, port, and airport in the city; also +1[ICON_Tourism]Tourism from each constructed wonder or coast tile in this city.</Text>
+		</Row>
+		<!-- Featured Area -->
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CASINO_NAME">
+			<Text>Nightmare Financial Center</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CASINO_DESCRIPTION">
+			<Text>A district unique to the Nightmare Empire. which replaces the commercial district. Each adjacent spectacle and district provides a standard[ICON_Gold]Gold bonus. Adjacent city centers receive a standard[ICON_Gold]Gold bonus. Gain[ICON_GREATMERCHANT]Grand Merchant Points each turn. Reduces the prices of purchasing building and units by 20%.</Text>
+		</Row>
+
+		<!-- Cat Lady -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_CAT_NAME">
+			<Text>Kurumi Tokisaki (Cat girl)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CAT_NAME">
+			<Text>Charm Love Nightmare Cat</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CAT_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), +1[ICON_Food]Food for the whole region; additional +1[ICON_Food]Food for farms and plantations. Her city's population growth rate is increased by 15%; she also gains an extra 15%[ICON_Food]Food. Granaries provide +2[ICON_Amenities]Amenities. Both her and her allies trade routes gain +2[ICON_Food]Food.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_CAT_NAME">
+			<Text>Cat Girl Alliance</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_CAT_DESCRIPTION">
+			<Text>Kurumi Tokisaki likes anything to do with friendly relations. She respects alliances in all forms, especially when she is apart of it. If there is none she will try to create one. Hates civilizations that have few alliances and civilizations that backstab and declare surprise wars on others.</Text>
+		</Row>
+		<!-- Featured Buildings -->
+		<Row Tag="LOC_BUILDING_CATKURUMI_CAFE_NAME">
+			<Text>Cat Cafe</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATKURUMI_CAFE_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire. Provides +1[ICON_Housing]Housing,[ICON_Gold]Gold, and[ICON_Food]Food. Gives 1[ICON_RESOURCE_KURUMI_CAT]Cat Bento, a specially produced luxury resource that provides +4[ICON_Amenities]Amenities.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATKURUMI_CAFE_PLUS_NAME">
+			<Text>Cat Girl Cafe</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CATKURUMI_CAFE_PLUS_DESCRIPTION">
+			<Text>Cat Cafe Upgrade! Extra +2[ICON_Gold]Gold and +2[ICON_Food]Food. Changes to +4[ICON_Gold]Gold and +4[ICON_Food]Food after power supply is satisfied. Each related resource (sugar, milk, cocoa, coffee, tea, honey, cat lunches) has an additional +1[ICON_Amenities]Amenities.</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_KURUMI_CAT_NAME">
+			<Text>Cat Bento</Text>
+		</Row>
+		<!-- Featured Programs -->
+		<Row Tag="LOC_PROJECT_CATKURUMI_HOUSING_NAME">
+			<Text>Cat Frenzy</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CATKURUMI_HOUSING_DESCRIPTION">
+			<Text>Provides +1[ICON_Housing]Housing for the city.</Text>
+		</Row>
+
+		<!-- Cheongsam -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_CHINADRESS_NAME">
+			<Text>Kurumi Tokisaki (Cheongsam)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CHINADRESS_NAME">
+			<Text>Pleasant Dream</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CHINADRESS_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), her trade routes provide +0.25[ICON_Gold][ICON_Production][ICON_Faith][ICON_Food][ICON_Culture][ICON_Science]of each output; +0.25 additional to each output for both players if the target city is an ally.[NEWLINE]Gain +1[ICON_TradeRoute]Trade Route for each era entered; also gain +1[ICON_TradeRoute]Trade Route for each town square district and building; +1 additional[ICON_TradeRoute]Trade Route for each Golden Age. Upon meeting another civilization, obtain +1[ICON_TradeRoute]Trade route.[NEWLINE]All her cities start out with trade posts; cities within trade route distance of[ICON_Capital]Capital automatically open trade routes; +1[ICON_Gold]Gold for trade routes passing through their own trade posts.[NEWLINE]Each city built gains additional territory. When a trader moves within 3 cells of a city for the first time, the unowned cells will fall under her cities control. All domestic roads are upgraded by one level.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_CHINADRESS_NAME">
+			<Text>Silk Road</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_CHINADRESS_DESCRIPTION">
+			<Text>Kurumi Tokisaki will try to obtain as my space as possible. She will try to expand[ICON_TradeRoute]trade routes as much as possible. She really likes when other civilizations that trade with her and hates civilizations that do not trade with her or trade at all. She also dislikes owning a small amount of territory.</Text>
+		</Row>
+		<!-- Featured Improvements -->
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_WALL_NAME">
+			<Text>The Great Wall of Nightmares</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_WALL_DESCRIPTION">
+			<Text>Unlocks the Builder ability to construct the Great Wall of Nightmares. +2[ICON_Gold]Gold and provides and increase to[ICON_Strength]Defense. Bonus to[ICON_Gold]Gold if adjacent to other segments. Additional[ICON_Culture]Culture and[ICON_Tourism]Tourism as you advance through the Technology Tree for adjacent segments. Can only be pillaged (never destroyed) by natural disasters. Can also trigger culture bombs.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_DOME_NAME">
+			<Text>Nightmare Trading Post</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_DOME_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire. +4[ICON_Gold]Gold and +1[ICON_Production]Production. Trade routes to this city receive +4[ICON_Gold]Gold and +1[ICON_Production]Production as well. Can only be built within the tile of a civilization or city-state that has an open border with the player, and must be built next to a luxury or bonus resource in that territory. It may not be built next to another trading post. Trading posts cannot be removed.</Text>
+		</Row>
+
+		<!-- Idol -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_IDOL_NAME">
+			<Text>Kurumi Tokisaki (Idol)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_IDOL_NAME">
+			<Text>Oh my god</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_IDOL_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), her cities have an additional +15%[ICON_Culture]culture; the capital city has an additional 20%[ICON_Culture]culture. While in a state of war, each city gains another 10% culture  output. Her culture Inspiration boost is 60%. For each work of art owned gain +3[ICON_Culture]cultural. A city with a[ICON_Governor]governor gains +3%[ICON_Culture]for each promotion.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_IDOL_NAME">
+			<Text>Idol Culture</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_IDOL_DESCRIPTION">
+			<Text>Kurumi Tokisaki tries to gain as much[ICON_Culture]culture and likes those who also focus on[ICON_Culture]culture. She will try her best to create and maintain a high level of cultural loyalty. Hates to lose a city's civilization because of the inability to maintain people's loyalty, and prefers a civilization that can gain a city through loyalty.</Text>
+		</Row>
+		<!-- Featured Area -->
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_STAGE_NAME">
+			<Text>Nightmare Stage</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_STAGE_DESCRIPTION">
+			<Text>A district unique to the Nightmare Empire. Recieve[ICON_GREATMUSICIAN]Great Musician,[ICON_GREATWRITER]Great Writer,[ICON_GREATARTIST]and Great Artist points. This district can trigger culture bombs.</Text>
+		</Row>
+		<!-- Featured Programs -->
+		<Row Tag="LOC_PROJECT_IDOLKURUMI_LIVE_NAME">
+			<Text>Live Concerts</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_IDOLKURUMI_LIVE_DESCRIPTION">
+			<Text>Region based project, gain[ICON_Culture]culture  and[ICON_Gold]gold per turn when holding a concert, and gain a certain amount of[ICON_GREATMUSICIAN]Grand Musician and[ICON_GREATARTIST]Grand Artist points when completing it.</Text>
+		</Row>
+
+		<!-- Kimono -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_KIMONO_NAME">
+			<Text>Kurumi Tokisaki (Kimono)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_KIMONO_NAME">
+			<Text>Yamato Fuyuko</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_KIMONO_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), her improved strategic resources have additional +2[ICON_Science]Science; cities gain +10%[ICON_Science]Science while capitals gain +40%[ICON_Science]Science. Happy cities get an additional +5%[ICON_Science]Science and +1[ICON_GreatScientist]Great Scientist point for each academy she has constructed. Cities with ecstatic happiness receive double that bonus. A city with a[ICON_Governor]Administrator gains +3%[ICON_Science]Science for each promotion. Copper and Iron mines gain +1[ICON_Science]Science.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_KIMONO_NAME">
+			<Text>Astrological station</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_KIMONO_DESCRIPTION">
+			<Text>Kurumi Tokisaki focuses on gaining[ICON_Science]technology  and prefers civilizations that also focus on[ICON_Science]technology development. Hates civilizations that are behind in[ICON_Science]technology compared to herself.</Text>
+		</Row>
+		<!-- Featured Buildings -->
+		<Row Tag="LOC_BUILDING_KURUMI_ELECTRONICS_FACTORY_NAME">
+			<Text>High-tech Electronics Factory</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KURUMI_ELECTRONICS_FACTORY_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire. After researching the "Electricity" technology, this building gives the city an additional +4[ICON_Science]Science. Its[ICON_Production]Production bonus extends to all city centers within 6 tiles that do not already have this building.</Text>
+		</Row>
+
+		<!-- Lingerie -->A city with a
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_LINGERIE_NAME">
+			<Text>Kurumi Tokisaki (Lingerie)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LINGERIE_NAME">
+			<Text>Glorious and Wild</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LINGERIE_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), each tile in her cities gain +2 charm bonus. +1 output to Science, Commercial, Holy and Theater districts when placed in attractive district cells; +3 in stunning district cells. +2[ICON_Culture]Culture to very attractive cells near wonders. Units gain or lose[ICON_Strength]Strength based on a tile's attractiveness. (Stunning/Charming/ordinary/unattractive/disgusting;+5/+3/+1/-1/-3).[NEWLINE]Influence points increase by 50%. First[ICON_Envoy]Envoy sent to a city-state acts as 2[ICON_Envoy]Envoys. Any city-state she conscripts troops from gain 2[ICON_Envoy]Envoys. City-state unit conscription cost is reduced by half and gives units +2[ICON_Movement]Movement and +5[ICON_Strength]Strength. Costs 75% less[ICON_Gold]Gold and resources to upgrade units. Each city-state under her sovereignty gives +5%[ICON_Culture]Culture,[ICON_Science]Science, and[ICON_Faith]Faith.[NEWLINE]+100%[ICON_Production]Production towards Military Engineers. Military Engineers gain +2 uses.[NEWLINE]Female leaders slightly dislike you (-3 to favorability); male leaders like you a lot (+12 to favorability).</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_LINGERIE_NAME">
+			<Text>Sociable flower</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_LINGERIE_DESCRIPTION">
+			<Text>Kurumi Tokisaki will not initiate attacks on neighboring countries unless the other side is unable to keep its diplomatic commitments. She prefers to live in peace with her neighbors and does not like to go to war with them. She prefers civilizations that create cities on her home continent in the name of peace. Hates civilizations that wage war against city-states or use their own continent as a territory to wage war.</Text>
+		</Row>
+		<!-- Featured Improvements -->
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_PARK_NAME">
+			<Text>Compulsion Park</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_PARK_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire. Gain +2 Appeal towards tile and +1[ICON_Culture]Culture. Recieve an additional +3[ICON_Culture]Culture when built in a city that has a Governor and a entertainment complex/ (One per city.) Recieve[ICON_Gold]Gold equal to 100% of the Tiles Appeal. The Tiles charm must be at least stunning.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_PARK_O_NAME">
+			<Text>Offshore Parks</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_PARK_O_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire. Gain +3 Appeal towards tile. Cannot be built next to other offshore parks. Recieve[ICON_Gold]Gold equal to 50% of the tile's Appeal. Can be built outside the Empire by military engineers.</Text>
+		</Row>
+		<!-- Featured Skills -->
+		<Row Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_NAME">
+			<Text>Kurumi's Charisma</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESCRIPTION">
+			<Text>Unit gain or lose[ICON_Strength]Strength based on a tile's attractiveness. (Stunning/Charming/ordinary/unattractive/disgusting;+5/+3/+1/-1/-3)</Text>
+		</Row>
+
+		<!-- Maid -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_MAID_NAME">
+			<Text>Kurumi Tokisaki (Maid)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_MAID_NAME">
+			<Text>Maid's insights</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_MAID_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), +2%[ICON_Production]Production in capital. +10%[ICON_Production]Production to cities when building districts, buildings, and units. Can use builder charges to accelerate progress towards construction of wonders and districts by 20%. +1[ICON_Production]Production for mines on strategic resources; +2[ICON_Production]Production for mines on bonus and luxury resources.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_MAID_NAME">
+			<Text>Love and Peace</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_MAID_DESCRIPTION">
+			<Text>If she would be labeled a warmonger because of this war, then she would never declare war and try to help those who are keeping the peace. Hates militants. Will never sign peace terms humiliate her nature and prefers civilizations that conform to this approach. Hates civilizations that are submit to force and don't defend themselves. The resentment generated by Kurumi Tokisaki will decrease at double the rate.</Text>
+		</Row>
+		<!-- Featured Units -->
+		<Row Tag="LOC_UNIT_KURUMI_MAID_NAME">
+			<Text>Maid</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KURUMI_MAID_DESCRIPTION">
+			<Text>Nightmare Empire's replacement to the builder. Has extra charges and retreats when captured.</Text>
+		</Row>
+		<!-- Featured Buildings -->
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_CHATEAU_NAME">
+			<Text>Nightmare Castle</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_KURUMI_CHATEAU_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire. Exclusive building created by maids. Can be built by the maids on a stunning cell or adjacent to a bonus/luxury resource. Recieve +2[ICON_Culture]Culture, +1[ICON_Gold]Gold, +1[ICON_Food]Food, and +3 Appeal to tile. Luxury resources adjacent to castle recieve +2[ICON_Gold]Gold; adjacent wonders +2[ICON_Culture]Culture. Recieves[ICON_Tourism]Tourism bonus after obtaining flight. +1[ICON_Production]Production for tiles adjacent to Nightmare castles.</Text>
+		</Row>
+
+		<!-- Nurse -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_NURSE_NAME">
+			<Text>Kurumi Tokisaki (Nurse)</Text>
+		</Row>
+		<!-- Leader characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NURSE_NAME">
+			<Text>Red Devil</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NURSE_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), her injured military units recover an additional 25 HP per turn when on the same continent as her capital. Units recover 25 HP after battle; recover an additional 100 HP per turn when in their own cities borders. Has a chance of converting enemy units into blood slaves. Upon settling a city, gain a blood slave. Attacking wounded enemy units grants +5[ICON_Strength]Strength to her units.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_NURSE_NAME">
+			<Text>Hold Ones Side</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_NURSE_DESCRIPTION">
+			<Text>She will try to create high level walls around her cities and respect like-minded civilizations. Hate civilizations that do nothing to fortify their cities. Wants to be safe from conquest. She doesn't like civilizations that conquer other players' original capitals.</Text>
+		</Row>
+		<!-- Featured Buildings -->
+		<Row Tag="LOC_BUILDING_NIGHTMARE_OBELISK_NAME">
+			<Text>Nightmare Obelisk</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NIGHTMARE_OBELISK_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire which replacing the monument. Can hold one masterpiece of various types in each city its built in. Provides +1 loyalty per turn for this city. If this city's loyalty is already full, it provides an additional +1[ICON_Culture]Culture. Military units trained by the city receive the blessing of the Obelisk. (Units trained by the city regain health at the end of each turn.)</Text>
+		</Row>
+		<!-- Blessing of the Obelisk -->
+		<Row Tag="LOC_ABILITY_NIGHTMARE_OBELISK_HEAL_NAME">
+			<Text>Blessing of the Obelisk</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NIGHTMARE_OBELISK_HEAL_DESCRIPTION">
+			<Text>City-trained military units can regain health at the end of the turn.</Text>
+		</Row>
+		<!-- Featured Skills -->
+		<Row Tag="LOC_ABILITY_SLAVE_CAPTURE_NAME">
+			<Text>Transformation to Blood Slaves</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SLAVE_CAPTURE_DESCRIPTION">
+			<Text>Destroying an enemy has a chance to turn it into a blood slave. A Blood Slave is a builder unit, but only has 1 charge. Units adjacent to Blood Slaves regain an additional 10 HP per turn.</Text>
+		</Row>
+		<!-- Featured Units -->
+		<Row Tag="LOC_UNIT_KURUMI_BLOODSLAVE_NAME">
+			<Text>Blood slaves</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KURUMI_BLOODSLAVE_DESCRIPTION">
+			<Text>Destroying an enemy has a chance to turn it into a blood slave. A Blood Slave is a builder unit, but. Units adjacent to Blood Slaves regain an additional 10 HP per turn.</Text>
+		</Row>
+
+		<!-- Sister -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_SISTER_NAME">
+			<Text>Kurumi Tokisaki (Sister)</Text>
+		</Row>
+		<!-- Leader Characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SISTER_NAME">
+			<Text>Rasiel</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SISTER_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), +1 level of diplomatic visibility over each civilization. Diplomatic visibility doubles unit combat strength.[NEWLINE]Enemy religious units cannot enter her borders; her cities ignore religious pressure from other religions. Cost of ritual buildings reduced by 30%. +8%[ICON_Science]Science, +12%[ICON_Faith]Faith, and +8%[ICON_Culture]Culture output from ritual buildings. An increase in satisfaction based on the number of followers. Holy-cite trigger culture bombs; if any city loses a tile to this culture bomb, her religion will become dominant in that city. Military units can be purchased with faith; -33%[ICON_Production]Production towards military units. Trade routes provide double religious pressure. International trade routes gain +4[ICON_Faith]Faith but lose -3[ICON_Gold]Gold. +2[ICON_Faith]Faith for each city following her created religion.[NEWLINE]When a civilization creates a religion, she gains an great prophet if she has no religion; if she already has a religion, gain one apostle instead.[NEWLINE]For each holy city converted to her religion (including her own), all units gain +3[ICON_Strength]Strength or[ICON_Religion]Religious combat power.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_SISTER_NAME">
+			<Text>Rasiel</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_SISTER_DESCRIPTION">
+			<Text>Kurumi Tokisaki wants to know everything happening in the world through friendship, open borders, delegations and embassies. Try to create[ICON_Faith]faith s and like civilizations that also focus on[ICON_Faith]faith s. She hates civilizations that are unwilling to share information. </Text>
+		</Row>
+		<!-- Featured Area -->
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_LAVRA_NAME">
+			<Text>Nightmare Monastery</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_LAVRA_DESCRIPTION">
+			<Text>A district unique to the Nightmare Empire which replace the Holy Site. Recieve[ICON_GreatPROPHET]Great Prophet per turn. Cities gain an additional +3[ICON_Faith]Faith from their trade routes. Military units trained by the city gain the Heretical Annihilation skill (+5 to fight against heretics and automatically convert to mainstream religion when capturing the city.).</Text>
+		</Row>
+		<!-- Featured Skills -->
+		<Row Tag="LOC_ABILITY_KURUMI_WARS_OF_RELIGION_NAME">
+			<Text>Heretical Annihilation</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KURUMI_WARS_OF_RELIGION_DESCRIPTION">
+			<Text>Military units trained by the city have +5 combat power against heretics. Automatically converts captured city your religion they occupy the city.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DAL_COMBAT_STRENGTH_HOLY_CITIES_DESCRIPTION">
+			<Text>Combat power +3.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DAL_RELIGIOUS_STRENGTH_HOLY_CITIES_DESCRIPTION">
+			<Text>Religious combat power +3.</Text>
+		</Row>
+		<!-- Featured Programs -->
+		<Row Tag="LOC_PROJECT_SISTERKURUMI_RATZIEL_NAME">
+			<Text>Rasiel</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SISTERKURUMI_RATZIEL_DESCRIPTION">
+			<Text>A feautured project unique to the Nightmare Empire. +1 Diplomatic Visibility; +2% Religious Pressure; recieve random[ICON_CivicBoosted]Inspiration and[ICON_TechBoosted]Eureka; +1 Vision to existing units.</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ZAFKIEL_YOD">
+			<Text>Zafkiel: Yod</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_ZAFKIEL_YOD">
+			<Text>Use Zafkiel: Yod.</Text>
+		</Row>
+		<Row Tag="LOC_GOSSIP_SOURCE_ZAFKIEL_YOD">
+			<Text>You know from the Zafkiel: Yod:</Text>
+		</Row>
+
+		<!-- Swimsuit -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_SWIMSUIT_NAME">
+			<Text>Kurumi Tokisaki (Swimsuit)</Text>
+		</Row>
+		<!-- Leader Characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SWIMSUIT_NAME">
+			<Text>Nightmare of Summer night</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SWIMSUIT_DESCRIPTION">
+			<Text>Shares the characteristics of the standard form of Kurumi. She begins the game in an Ocean tile. Starts the game with Sailing and Shipbuilding techs unlocked with the ability to enter ocean tiles. Units gain +2[ICON_Movement]Movement in water. Land units receive +5[ICON_Strength]Strength in land tiles adjacent to Coast; naval units receive +5[ICON_Strength]Strength in shallow water tiles. Naval melee units gain healing on neutral territory, also allowing coastal raiding. Units ignore additional[ICON_Movement]Movement costs from embarking and disembarking.[NEWLINE]Gain a free builder after settling capital; +1[ICON_Citizen]Citizen for the city. +1[ICON_RESOURCE_KURUMI_TIME]Time, +2[ICON_Science]Science and +2[ICON_Culture]Culture until capital is settled. Cities do not suffer flood damage. Fishing boats provide an additional +1[ICON_Food]Food and trigger culture bombs on adjacent tiles; sea homes provide an additional +1[ICON_Food]Food and trigger culture bombs on adjacent tiles. When a port is built, it can trigger culture bombs on adjacent cells. +3[ICON_Housing]Houses for coastal cities.[NEWLINE]If a city is founded next to a river, gain +50%[ICON_Production]Production to districts and its buildings when built on the other side of the river relative to the city center. Rivers, coasts, and lake tiles provide an adjacency bonus to Science, Holy, Industrial, Theater, and Entertainment districts.[NEWLINE]Each tech/civic unlocks the following: Masonry unlocks Canals; Cartography unlocks Sea Homes; Games and Recreation unlocks Sea Carnival.[NEWLINE]International trade routes require the city to be settled on the coast or have a seaport, the trade route outputs gain +50%. Non-Military units have +50% Movement in any water tile.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_SWIMSUIT_NAME">
+			<Text>Queen of the Pirates</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_SWIMSUIT_DESCRIPTION">
+			<Text>Kurumi Tokisaki loves civilizations that create strong navies and respect civilizations that follow their leadership. Hate civilizations with weak naval forces. She wants to have the most cities along the coast. So she very much likes civilizations that like to develop cities inland, and dislikes those civilizations that have most of their cities on the coast.</Text>
+		</Row>
+
+		<!-- Featured Area -->
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CARNIVAL_NAME">
+			<Text>Sea Carnival</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CARNIVAL_DESCRIPTION">
+			<Text>A district unique to the Nightmare Empire. Replaces the Water Par. +2[ICON_Amenities]Amenities to city. Unlocks the "Carnival" project, which gives the city an additional +1[ICON_Amenities]Amenities during the project, and awards various[ICON_GreatPerson]Great Person points upon completion. Cannot be built in a city with a "Street Carnival" or "Entertainment Complex." Cannot be built on a reef ocean tile.</Text>
+		</Row>
+		<!-- Featured Programs -->
+		<Row Tag="LOC_PROJECT_NIGHTMARE_CARNIVAL_NAME">
+			<Text>Carnival</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_NIGHTMARE_CARNIVAL_DESCRIPTION">
+			<Text>Swimsuit Kurumi's featured item provides +1[ICON_Amenities]satisfaction upon activation and[ICON_GreatEngineer]Great Engineer,[ICON_GreatMerchant]Great Merchant,[ICON_GreatWriter]Great Writer,[ICON_GreatArtist]Great Artist and[ICON_GreatMusician]Great Musician for[ICON_GreatPerson]Great Man points upon completion.</Text>
+		</Row>
+		<!-- Featured Units -->
+		<Row Tag="LOC_UNIT_KURUMI_SETTLER_NAME">
+			<Text>Nightmare Settler</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KURUMI_SETTLER_DESCRIPTION">
+			<Text>Swimsuit Kurumi features a unit that Rows the Pathfinder, and gains increased mobility and vision while at sea. When completed, the city's[ICON_Citizen]population is reduced by 1. You can build a Sea Home鈥rototype and a Sea Home (*Note the number of uses!) </Text>
+		</Row>
+
+		<!-- Warrior -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_WARRIOR_NAME">
+			<Text>Kurumi Tokisaki (Warrior)</Text>
+		</Row>
+		<!-- Leader Characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WARRIOR_NAME">
+			<Text>Bikini Atoll</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WARRIOR_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), her cities will not generate war weariness. Upon conquering a city, if a Science or Theater district or both are built, provides a[ICON_TechBoosted]Eureka; and a[ICON_CivicBoosted]inspiration respectively. This city won't lose[ICON_Citizen]Citizens; also gains +1[ICON_Amenities]Amenities and +4 Loyalty per turn. Cities with garrisoned units gain +3 Loyalty per turn, or +5 Loyalty if the unit is a Corp or Army. Defeating an enemy civilization's units within their borders causes that city to lose 20 loyalty points; it loses 40 loyalty if the civilization is in a Golden Age or Heroic Age.[NEWLINE]All units have +1[ICON_Strength]Strength and are unaffected by damage when defending; additional +4[ICON_Strength]Strength against barbarians; another +1[ICON_Strength]Strength per each military policy; gain additional military policy slots for every six encampments under her control (maximum of four). When an enemy unit is defeated, +33%[ICON_Gold][ICON_Science][ICON_Culture]of their Strength Power is rewarded; this is doubled if the unit is from a previous era.[NEWLINE]All units are resistant to[ICON_Nuclear][ICON_ThermoNuclear]nuclear blast damage and[ICON_Resource_Uranium]nuclear radiation damage.[NEWLINE]Buildings that gain any additional output when[ICON_Power]Powered receive an additional +4.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_WARRIOR_NAME">
+			<Text>Nightmare Corps</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_WARRIOR_DESCRIPTION">
+			<Text>Kurumi Tokisaki prefers civilizations with a strong military and tries to ally with them to avoid war. Hate civilizations with a weak military. Attempt to create a large number of regiments and legions and respect like-minded civilizations. Hates civilizations that are unable to create regiments or idle armies. Will recruit armies from city-states. Likes civilizations that also use city-state armies, and dislikes civilizations that don't care about mercenaries.</Text>
+		</Row>
+		<!-- Featured Buildings -->
+		<Row Tag="LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME">
+			<Text>Thermonuclear Fusion Reactor</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_DESCRIPTION">
+			<Text>A building unique to the Nightmare Empire. Provides sufficient power to cities within a 9-tile grid without consuming strategic resources. Its[ICON_Production]Production and[ICON_Science]Science bonuses extend to all city centers within the 9-tile range that do not benefits from this building already.</Text>
+		</Row>
+		<!-- Featured Units -->
+		<Row Tag="LOC_UNIT_SPACE_DEATH_ROBOT_NAME">
+			<Text>Giant Cosmic Killing Robot</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SPACE_DEATH_ROBOT_DESCRIPTION">
+			<Text>Nightmare Empire Unique Informational era super unit. Can move and fight in water. Can resist attacks with large scale weapons of destruction. Combat ability can be upgraded by developing future technology. Can attack and defend against any air units. Lastly can carry nuclear weapons.</Text>
+		</Row>
+		<!-- Featured Programs -->
+		<Row Tag="LOC_PROJECT_KURUMI_CONVERT_THERMONUCLEAR_NAME">
+			<Text>Switching to nuclear fusion power</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_KURUMI_CONVERT_THERMONUCLEAR_DESCRIPTION">
+			<Text>Remove the power plant currently in use in this city and Replace it with {LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME}.[NEWLINE][NEWLINE]{LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME}:[NEWLINE]{LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_DESCRIPTION}</Text>
+		</Row>
+
+		<!-- Golden Memory -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_XDISK_NAME">
+			<Text>Kurumi Tokisaki (Golden Memory)</Text>
+		</Row>
+		<!-- Leader Characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XDISK_NAME">
+			<Text>Memories of the past</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XDISK_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), she gains a free governor promotion every era; and a free wildcard policy. For each city with a governor that has three promotions, one[ICON_greatperson]Great person point is provided for each corresponding district. Historical moments provide an additional era point if the moment provides +2 or more era points.[NEWLINE]Once any policy at the beginning of the Golden Age or Heroic Age has been selected, receive a bonus that raises your Age score. Gain an Era point when you get a[ICON_TechBoosted]Eureka or[ICON_CivicBoosted]Inspiration.[NEWLINE]She has access to projects that increase or decrease the Era score.[NEWLINE]In a dark age, gain one Military, Economic and Foreign Policy slot.[NEWLINE]Gain +1[ICON_Favor]Diplomatic Favor per turn; +1[ICON_Favor]Diplomatic Favor per Diplomatic policy slot; and +1[ICON_Favor]Diplomatic Favor for every 100 points of[ICON_Tourism]Tourism. Double[ICON_Favor]Diplomatic Favor for successfully completing an emergency event or scoring contest. Gain 50 points of[ICON_Favor]Diplomatic Favor when gaining a[ICON_greatperson]Great Person.[NEWLINE]The palace can have up to five masterpieces.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_XDISK_NAME">
+			<Text>Memories of the Past</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_XDISK_DESCRIPTION">
+			<Text>Kurumi Tokisaki envies civilizations that have entered the Golden Age and hates any civilization that enters a Dark Age.</Text>
+		</Row>
+		<!-- Featured Programs -->
+		<Row Tag="LOC_PROJECT_DAL_GOLD_AGE_NAME">
+			<Text>Golden Memories</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_GOLD_AGE_DESCRIPTION">
+			<Text>Reminds the people of the glorious old days, +10 Era Score.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_DARK_AGE_NAME">
+			<Text>Dark Memories</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_DARK_AGE_DESCRIPTION">
+			<Text>Reminds the people of the gray and gloomy days, -10 Era Score.</Text>
+		</Row>
+
+		<!-- Candy Queen -->
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_XMAS_NAME">
+			<Text>Kurumi Tokisaki (Candy Queen)</Text>
+		</Row>
+		<!-- Leader Characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XMAS_NAME">
+			<Text>Eternal Christmas</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XMAS_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), upon clearing a barbarian outpost, receive a random tribal village bonus. Trade routes are immune to looting. Units will not take blizzard damage. Enemy units take double blizzard damage in her cities borders.[NEWLINE]Her builders can build farms on tundra landscapes. Once the Engineering tech is known, it grants builders the ability to build farms on frozen hills; snow, tundra, snow mounds and tundra mounds will also provide +2[ICON_Production]Production from mines and lumber yards. Campsites provide an additional +1[ICON_Food]Food; while farms provide +2 more[ICON_Food]Food. Doubles strategic resource accumulation rates. The cost of buying the aforementioned tiles is halved. +1[ICON_Faith]Faith and +1[ICON_Production]Production for permafrost tiles in a city's borders.[NEWLINE]All cities settled come with one free building (one with lowest Production cost, this also applies to districts.) Each city can build an extra district. Districts receive additional adjacency bonuses next to other districts.[NEWLINE]+66% when[ICON_TechBoosted]Eureka and[ICON_CivicBoosted]Inspirations occur. Random[ICON_TechBoosted]Eureka and[ICON_CivicBoosted]Inspirations occur upon entering new eras and completeing wonders.[NEWLINE]Each[ICON_GreatWork_Relic]Relic,[ICON_GreatWork_Artifact]Artifact, and[ICON_GreatWork_Sculpture]Sculpture Art Masterpiece provides +2[ICON_Food]Food, +2[ICON_ Production]Production, +1[ICON_Faith]Faith, and +4[ICON_Gold]Gold.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_XMAS_NAME">
+			<Text>Christmas Gifts</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_XMAS_DESCRIPTION">
+			<Text>Kurumi Tokisaki is friendly with civilizations that favor[ICON_Science]Technology and[ICON_Culture]Culture s. Hates civilizations that lack[ICON_Science]Technology and[ICON_Culture]Culture s. She works hard to create industries and prefers civilizations that also focus on[ICON_Production]productivity.</Text>
+		</Row>
+
+		<!-- Witch -->
+		<!-- Leaders -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_HALLOWEEN_NAME">
+			<Text>Kurumi Tokisaki (Witch)</Text>
+		</Row>
+		<!-- Leader Characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_HALLOWEEN_NAME">
+			<Text>Trick or Treat</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_HALLOWEEN_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), enemy units suffer -1[ICON_Strength]Strength when adjacent to her own unit.[NEWLINE]All cities within 6 tiles of the[ICON_Capital]Capital gains +10% to all outputs; -15% for cities that are not. Cities gain good bonuses to Loyalty when near each other, especially her capital; the opposite is true to cities she does not own. (Based on distance.) Loyalty of foreign cities adjacent to a Nightmare unique unit is -1 per turn. The Loyalty of her citizens in cities on the same continent as the capital are doubled per turn; an increase by 50% on different continents; her allies receive a partial benefit. The Loyalty of citizens from foreign cities on the same continent as her capital decrease by 40%; a decrease by 10% on different continents. When another civilization is at war their citizens Loyalty decreases by an additional 50%. Each masterpiece displayed in one of her cities causes  -1 loyalty per turn for all foreign cities within the 9-tilel range. Plundering a tile in an enemy city will decrease the city's loyalty by -5 points. If any city left another civilization due to Loyalty, the city鈥檚 Loyalty for her is highest.[NEWLINE]Upon researching the Castles tech, gain one spy and an additional spy slot. Each spy starts with a free upgrade to Agent. Enemy spy levels are reduced by 1 level when spying on her while her spies operate at an increased level during offensive actions.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_HALLOWEEN_NAME">
+			<Text>Mischief Imps</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_HALLOWEEN_DESCRIPTION">
+			<Text>Kurumi Tokisaki will try to create and maintain a high level of cultural loyalty. She dislikes when she or another civilization is unable to maintain the loyalty of its people, and likes to gain cities through loyalty. She obtains as many spies and diplomatic access as possible. Hate civilizations that turn a blind eye to espionage. Will not initiate attacks on neighboring countries unless the other side is unable to keep diplomatic commitments. She prefers to live in peace with her neighbors and dislike civilizations that go to war with their neighbors.</Text>
+		</Row>
+		<!-- Featured Programs -->
+		<Row Tag="LOC_PROJECT_DAL_HALLOWEEN_NAME">
+			<Text>Halloween Carnival</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_HALLOWEEN_DESCRIPTION">
+			<Text>A unique featured project to the Nightmare Empire. Increases the Loyalty pressure spread by this city to itself and its surrounding cities.[NEWLINE]When activated, each[ICON_Citizen]Citizen has +3 Loyalty[ressure per turn for this city. This effect also affects other cities within a 9-tile range, but the effect is reduced by 10% every 1 tile. Immediately after the project is completed, +25 loyalty for this city, as well a decreasing bonus to Loyalty for nearby cities. (+20/+10/+5), allies gain half; Opposite is true for foreign cities/dobules for belligerant civilizations, a negative effect to Loyalty (-20/-10/-5.)</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_NAME">
+			<Text>Relocation of the capital</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_DESCRIPTION">
+			<Text>The Halloween Carnival can also be placed in any city that has a Nightmare Camp. Upon completion, the[ICON_Capital]capital will be moved to this city.</Text>
+		</Row>
+
+		<!-- Wedding Dress -->
+		<Row Tag="LOC_LEADER_TOKISAKI_KURUMI_WEDDING_NAME">
+			<Text>Kurumi Tokisaki (Wedding)</Text>
+		</Row>
+		<!-- Leader Characteristics -->
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WEDDING_NAME">
+			<Text>Divine Oath</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WEDDING_DESCRIPTION">
+			<Text>Except for the Zafkiel (Restricted), she will initially start with a -20%[ICON_Culture][ICON_Science][ICON_Gold][ICON_Production][ICON_Faith][ICON_Food]output; Bonus to each output from any civilization that, sends her a delegation/creates an embassy/declares friendship with her/or creates an alliance with her. She respectively gains a 2%/4%/6%/8% bonus to[ICON_Culture][ICON_Science][ICON_Gold][ICON_Production][ICON_Faith][ICON_Food]output; her friends/allies receive a +3%/+4% bonus to[ICON_Culture][ICON_Science][ICON_Gold][ICON_Production][ICON_Faith][ICON_Food]outputs. Any generated[ICON_STAT_GRIEVANCE]Grievances against her are halved and reduced at an accelerated rate. Each alliance type provides additional bonuses to the base outputs.</Text>
+		</Row>
+		<!-- Leader agenda -->
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_WEDDING_NAME">
+			<Text>Sacred Alliance</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOKISAKI_KURUMI_WEDDING_DESCRIPTION">
+			<Text>Kurumi Tokisaki prefers civilizations that are willing to build long-term alliances. Hates people who condemn or attack their own allies and coalitions. Will try to create multiple alliances and respect civilizations that create alliances. Hates civilizations with few alliances. Will not initiate attacks on neighboring countries unless the other side is unable to keep diplomatic commitments. She prefers civilizations that live in peace with their neighbors and dislikes civilizations that go to war with their neighbors.</Text>
+		</Row>
+		
+		<!-- Module Description -->
+		<Row Tag="LOC_DAL_TOKISAKI_KURUMI_NAME">
+			<Text>[COLOR:ResGoldLabelCS]Date a Live[ENDCOLOR]-[COLOR_RED]Kurumi Tokisaki[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_DAL_TOKISAKI_KURUMI_TEASER">
+			<Text>A new civilization, from the dating battle of a Date A Live.</Text>
+		</Row>
+		<Row Tag="LOC_DAL_TOKISAKI_KURUMI_DESCRIPTION">
+			<Text>A new civilization, from the dating battle of a Date A Live.</Text>
+		</Row>
+		<Row Tag="LOC_DAL_TOKISAKI_KURUMI_SPECIAL_THANK">
+			<Text>Hemmelfort's series of Modding tutorials and tools helped a lot. Thanks @La Pucelle for the English Translation.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

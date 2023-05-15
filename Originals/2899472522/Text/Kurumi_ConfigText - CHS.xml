@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_NIGHTMARE_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝〈猩红梦魇〉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>〈梦魇〉时崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_NIGHTMARE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>〈猩红梦魇〉时崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>刻刻帝的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZAFKIEL_NIGHTMARE_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>刻刻帝〈猩红梦魇〉的</Text>
+		</Replace>
+
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZAFKIEL_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝指针</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZAFKIEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁特色战略资源[ICON_Resource_Kurumi_Time]时间，以及使用[ICON_Resource_Kurumi_Time]时间进行的一系列特色项目。</Text>
+		</Replace>
+
+		<!-- 特色项目 -->
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				时崎狂三特色项目，分别有以下效果：[NEWLINE][NEWLINE]
+				一之弹：{LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION}[NEWLINE]
+				二之弹：{LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION}[NEWLINE]
+				三之弹：{LOC_PROJECT_ZAFKIEL_GIMEL_DESCRIPTION}[NEWLINE]
+				四之弹：{LOC_PROJECT_ZAFKIEL_DALET_DESCRIPTION}[NEWLINE]
+				五之弹：{LOC_PROJECT_ZAFKIEL_HEI_DESCRIPTION}[NEWLINE]
+				六之弹：{LOC_PROJECT_ZAFKIEL_VAV_DESCRIPTION}[NEWLINE]
+				七之弹：{LOC_PROJECT_ZAFKIEL_ZAYIN_DESCRIPTION}[NEWLINE]
+				八之弹：{LOC_PROJECT_ZAFKIEL_HET_DESCRIPTION}[NEWLINE]
+				九之弹：{LOC_PROJECT_ZAFKIEL_TET_DESCRIPTION}[NEWLINE]
+				十之弹：{LOC_PROJECT_ZAFKIEL_YUD_DESCRIPTION}[NEWLINE]
+				十一之弹：{LOC_PROJECT_ZAFKIEL_YUD_ALEPH_DESCRIPTION}[NEWLINE]
+				十二之弹：{LOC_PROJECT_ZAFKIEL_YUD_BET_DESCRIPTION}
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_ALEPH_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：一之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，当前位于此城市领土内的军事单位+1[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_ALEPH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_BET_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：二之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，当前位于此城市领土内的敌方军事单位-1[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_BET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>-1[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_GIMEL_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：三之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_GIMEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，当前位于此城市领土内的军事单位获得额外战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_GIMEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从战斗获得的经验值+33%。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_DALET_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：四之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_DALET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，当前位于此城市领土内的军事单位在每回合都能治愈。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_DALET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该单位在每回合都能治愈。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_HEI_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：五之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_HEI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，当前位于此城市领土内的军事单位视野+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_HEI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>视野+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_VAV_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：六之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_VAV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，当前位于此城市领土内的敌方军事单位视野-1。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_VAV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>视野-1。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_ZAYIN_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：七之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_ZAYIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，其他玩家当前军事单位[ICON_Movement]移动力大幅下降，持续三回合。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_ZAYIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Movement]移动力大幅下降。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_HET_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：八之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_HET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，获得一个无须消耗[ICON_Citizen]人口的梦魇之影。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_TET_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：九之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_TET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，获得所有城市与城邦的临时视野。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：十之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，对[ICON_VisLimited]外交能见度最低的对象提高一级能见度级别。[COLOR_Civ6Red]若对所有文明的外交能见度皆达到最高，退还所消耗的[ICON_Resource_Kurumi_Time]时间[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_ALEPH_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：十一之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_ALEPH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，你的帝国获得正比於城市生产力的[ICON_Science]科学值、[ICON_Culture]文化值、[ICON_Gold]金币和[ICON_Faith]信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_BET_NAME" Language="zh_Hans_CN">
+			<Text>刻刻帝：十二之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZAFKIEL_YUD_BET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，需要[ICON_Resource_Kurumi_Time]时间，其他帝国失去三回合产出的[ICON_Science]科学值、[ICON_Culture]文化值、[ICON_Gold]金币和[ICON_Faith]信仰。</Text>
+		</Replace>
+
+		<!-- 特色区域 -->
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_NAME" Language="zh_Hans_CN">
+			<Text>梦魇营地</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色区域，取代营地且不受[ICON_Citizen]人口限制。[NEWLINE]当梦魇营地和此区域内置筑建成时可获得一个梦魇之影。此区域所赋予之单位无须花费资源维护。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}点[ICON_Production]生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_IKANDA_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}点[ICON_Gold]金币。</Text>
+		</Replace>
+
+		<!-- 特色单位 -->
+		<Replace Tag="LOC_UNIT_ZAFKIEL_SHADOW_NAME" Language="zh_Hans_CN">
+			<Text>梦魇之影</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZAFKIEL_SHADOW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色军事单位，拥有独特强化树。[NEWLINE][ICON_Strength]战斗力随着时代变动，从梦魇营地和相邻梦魇之影获得额外[ICON_Strength]战斗力。[NEWLINE]若想训练梦魇之影，该城市必须至少有2点[ICON_Citizen]人口。若在刻刻帝所创立的城市中训练梦魇之影，则该城市会失去1点[ICON_Citizen]人口。[NEWLINE]空投能力允许此单位移动到距离友方单元格7格的位置上。无须歼灭战斗单位即可直接攻击支持单位。</Text>
+		</Replace>
+		<!-- 单位技能 -->
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_SHADOW_NAME" Language="zh_Hans_CN">
+			<Text>影之力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZAFKIEL_SHADOW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从梦魇营地和相邻梦魇之影获得额外[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_KURUMI_STRENGTH_FROM_IKANDA_PREVIEW" Language="zh_Hans_CN">
+			<Text>+{Amount}来自梦魇营地</Text>
+		</Replace>
+		<Replace Tag="LOC_KURUMI_STRENGTH_FROM_SHADOW_PREVIEW" Language="zh_Hans_CN">
+			<Text>+{Amount}来自相邻梦魇之影</Text>
+		</Replace>
+		<!-- 单位升级 -->
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_1_1_NAME" Language="zh_Hans_CN">
+			<Text>一之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1[ICON_Movement]移动力。忽略地形和地貌的[ICON_Movement]移动力消耗。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_1_3_NAME" Language="zh_Hans_CN">
+			<Text>二之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_1_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>相邻敌军单位-1[ICON_Movement] 移动力。只有相邻敌军单位能发现该单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_2_1_NAME" Language="zh_Hans_CN">
+			<Text>空间震</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远程攻击城市和营地时为100%效率。在战斗中击杀一个单位时，所有相邻的敌方战斗单位失去[ICON_Damaged]生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_2_3_NAME" Language="zh_Hans_CN">
+			<Text>时蚀</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_2_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>消灭1个单位时，获得额外[ICON_Resource_Kurumi_Time]时间。攻击城市时有一定几率使其失去人口并获得获得[ICON_Resource_Kurumi_Time]时间。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_3_2_NAME" Language="zh_Hans_CN">
+			<Text>加倍苦痛</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击伤兵单位时，+5[ICON_Strength]战斗力。消灭1个单位时，最高可治愈30生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_4_1_NAME" Language="zh_Hans_CN">
+			<Text>流转之境</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>格挡每回合受到的第一次非致命伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_4_3_NAME" Language="zh_Hans_CN">
+			<Text>时光之舞</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ZAFKIEL_SHADOW_4_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若[ICON_Movement]移动力允许，每回合+1额外攻击。在战斗中击杀一个单位时，有机会恢复[ICON_Movement]移动力和攻击次数。</Text>
+		</Replace>
+
+		<!-- 传闻 -->
+		<Replace Tag="LOC_VIZSOURCE_ZAFKIEL_YOD" Language="zh_Hans_CN">
+			<Text>刻刻帝：十之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_ZAFKIEL_YOD" Language="zh_Hans_CN">
+			<Text>使用刻刻帝：十之弹</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_ZAFKIEL_YOD" Language="zh_Hans_CN">
+			<Text>您从刻刻帝：十之弹中得知</Text>
+		</Replace>
+
+		<!-- 特色资源 -->
+		<Replace Tag="LOC_RESOURCE_KURUMI_TIME_NAME" Language="zh_Hans_CN">
+			<Text>时间</Text>
+		</Replace>
+
+		<!-- 领袖 -->
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_LORD_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（女王）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_REVERSE_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（反转）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_NIGHTMARE_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（猩红梦魇）</Text>
+		</Replace>
+
+		<!-- 领袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·三番</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在战斗中击杀一个单位时，获得3点[ICON_Resource_Kurumi_Time]时间。[ICON_Capital]首都的[ICON_District]区域提供额外的[ICON_Resource_Kurumi_Time]时间。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LORD_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·三番·解放</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LORD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在战斗中击杀一个单位时，获得3点[ICON_Resource_Kurumi_Time]时间。[ICON_Capital]首都的[ICON_District]区域提供额外的[ICON_Resource_Kurumi_Time]时间。此外，你所创建的城市也能提供额外的[ICON_Resource_Kurumi_Time]时间。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_REVERSE_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·三番·反</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_REVERSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在战斗中击杀一个单位时，获得3点[ICON_Resource_Kurumi_Time]时间。[ICON_Capital]首都的[ICON_District]区域提供额外的[ICON_Resource_Kurumi_Time]时间。此外，你所征服的城市也能提供额外的[ICON_Resource_Kurumi_Time]时间。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NIGHTMARE_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·三番·梦魇</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NIGHTMARE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在战斗中击杀一个单位时，获得3点[ICON_Resource_Kurumi_Time]时间。[ICON_Capital]首都的[ICON_District]区域提供额外的[ICON_Resource_Kurumi_Time]时间。此外，你的其余城市也能提供额外的[ICON_Resource_Kurumi_Time]时间。[NEWLINE][NEWLINE][COLOR_RED]包含所有[COLOR:ResGoldLabelCS]约会大作战[ENDCOLOR]系列的所有特性。[ENDCOLOR]</Text>
+		</Replace>
+
+		<!-- 领袖议程 -->
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NAME" Language="zh_Hans_CN">
+			<Text>倾城弹幕</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会建造人口众多的城市。喜欢在周边城市[ICON_Citizen]人口密集的文明。不喜欢周边城市领土较小且[ICON_Loyalty]忠诚度易受影响的文明。[NEWLINE]会维持其公民的幸福感与[ICON_Loyalty]忠诚度。喜欢也将此视为优先事项的文明，特别是当该文明的城市来自许多不同玩家时。不喜欢城市发生幸福感/[ICON_Loyalty]忠诚度问题，或者占领城市过少的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_REVERSE_NAME" Language="zh_Hans_CN">
+			<Text>魔王军</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_REVERSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会尽可能地尝试掠夺所有单元格。敬重其他喜欢掠夺的文明。[NEWLINE]会试图征服相邻的文明，喜欢尚未与其相邻的文明。不喜欢邻国。[NEWLINE]喜欢对他没有威胁的文明。讨厌拥有强大军队或拥有附近城市的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NIGHTMARE_NAME" Language="zh_Hans_CN">
+			<Text>异界征服者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NIGHTMARE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无物为真，诸行皆可。</Text>
+		</Replace>
+
+		<!-- 特色项目 -->
+		<Replace Tag="LOC_PROJECT_TOKI_HAMI_NO_SHIRO_NAME" Language="zh_Hans_CN">
+			<Text>时蚀之城</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOKI_HAMI_NO_SHIRO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色项目，消耗一名[ICON_Citizen]人口，换取[ICON_Resource_Kurumi_Time]时间，城市[ICON_Loyalty]忠诚度略为下降。[NEWLINE][COLOR_RED]如果城市仅剩一名[ICON_Citizen]人口，将会判变为自由城市。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOKI_HAMI_NO_SHIRO" Language="zh_Hans_CN">
+			<Text>获得{1_iAmount}点[ICON_Resource_Kurumi_Time]时间</Text>
+		</Replace>
+
+		<!-- 特色单位 -->
+		<Replace Tag="LOC_UNIT_KURUMI_SETTLER_NAME" Language="zh_Hans_CN">
+			<Text>梦魇开拓者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KURUMI_SETTLER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色开拓单位，替代开拓者。若在刻刻帝所创立的城市中训练梦魇开拓者，则该城市会失去1点[ICON_Citizen]人口。</Text>
+		</Replace>
+
+		<!-- 领袖 -->
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_BUNNY_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（兔女郎）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_CAT_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（猫娘）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_CHINADRESS_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（旗袍）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_HALLOWEEN_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（魔女）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_IDOL_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（偶象）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_KIMONO_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（和服）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_LINGERIE_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（女士内衣）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_MAID_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（女仆）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_NURSE_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（护士）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_SISTER_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（修女）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_SWIMSUIT_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（泳衣）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_WARRIOR_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（战士）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_WEDDING_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（婚纱）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_XDISK_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（泛黄留声）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_XMAS_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三（糖果女王）</Text>
+		</Replace>
+
+		<!-- 领袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_BUNNY_NAME" Language="zh_Hans_CN">
+			<Text>赌场荷官</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_BUNNY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，所有城市+10%[ICON_Gold]金币；[ICON_Capital]首都额外+10%[ICON_Gold]金币。所有[ICON_TradeRoute]贸易路线+1[ICON_Gold]金币；同盟[ICON_TradeRoute]贸易路线额外+1[ICON_Gold]金币。奢侈资源+2[ICON_Gold]金币；加成资源+1[ICON_Gold]金币。允许用[ICON_Gold]金币购买区域。获得的[ICON_GreatMerchant]大商人点数+50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CAT_NAME" Language="zh_Hans_CN">
+			<Text>魅爱恶梦猫</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，农场、种植园+1[ICON_Food]食物。城市人口成长速度+50%。[ICON_TradeRoute]贸易路线+2[ICON_Food]食物；盟友[ICON_TradeRoute]贸易路线为双边额外+1[ICON_Food]食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CHINADRESS_NAME" Language="zh_Hans_CN">
+			<Text>绮梦</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CHINADRESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，所有[ICON_TradeRoute]贸易路线+1[ICON_Production]生产力，往盟友的[ICON_TradeRoute]贸易路线效果翻倍。[NEWLINE]其他文明前往刻刻帝的[ICON_TradeRoute]贸易路线为其+2[ICON_Food]食物、为刻刻帝+2[ICON_Gold]金币。[NEWLINE]每个进入一个时代+1[ICON_TradeRoute]贸易路线；遇见1个其他文明+1[ICON_TradeRoute]贸易路线。[NEWLINE]创建[ICON_TradeRoute]贸易路线後随即在目的地城市创建[ICON_TradingPost]贸易站；所有您创建或攻占的城市一开始便拥有[ICON_TradingPost]贸易站。[NEWLINE][ICON_Capital]首都贸易路线距离内的城市自动开辟道路。[NEWLINE]当商人首次移动到城市3个单元格范围内时，无主的单元格将落入帝国控制之下。[NEWLINE]国内道路提升一个等级。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_HALLOWEEN_NAME" Language="zh_Hans_CN">
+			<Text>不给糖就捣蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_HALLOWEEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，所有单位邻近的敌方单位-1[ICON_Strength]战斗力。特色单位邻近的敌方城市每回合-1[ICON_Loyalty]忠诚度。[NEWLINE]本国城市的市民[ICON_Loyalty]忠诚度系数上升，盟友获得部分收益、外邦城市的市民[ICON_Loyalty]忠诚度系数下降，敌方城市效果翻倍。和帝国[ICON_Capital]首都同大陆的城市效果翻倍。本国城市周遭的其他本国城市[ICON_Loyalty]忠诚度每回合上升、外邦城市[ICON_Loyalty]忠诚度每回合下降（随距离递减、[ICON_Capital]首都周遭影响翻倍）。城市中所展出的每个巨作导致9单元格范围内的所有外邦城市每回合-1[ICON_Loyalty]忠诚度。在敌方城市掠夺格位将会让该城市损失5点[ICON_Loyalty]忠诚度。若其他文明的城市因[ICON_Loyalty]忠诚度降低而脱离文明，且每回合对你的[ICON_Loyalty]忠诚度最高，则该城市会直接跳过自由城市阶段，直接加入你的文明。[NEWLINE]在你的领土内，敌方间谍等级降低2级。你的间谍等级在攻击性行动中增加1级。解锁城堡科技後可额外获得1个间谍（以及额外的间谍容量）。每个间谍开始都可免费升级为探员。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_IDOL_NAME" Language="zh_Hans_CN">
+			<Text>爹卡路洽</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_IDOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，幸福感为快乐的城市+10%[ICON_Culture]文化值，快乐的城市每拥有一个剧院广场则+2[ICON_GreatMusician]大音乐家点数。幸福感为狂喜的城市可获得双倍加成。[NEWLINE][ICON_CivicBoosted]天启提供50%的市政，而非40%。[NEWLINE]来自[ICON_GreatWork_Music]音乐巨作的[ICON_Tourism]旅游业绩+200%。就职於城市中的[ICON_Governor]行政长官每获得一次强化便可提供+3%[ICON_Culture]文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_KIMONO_NAME" Language="zh_Hans_CN">
+			<Text>大和抚子</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_KIMONO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，所有城市+10%[ICON_Science]科技值，[ICON_Capital]首都额外+10%[ICON_Science]科技值。战时可获得双倍加成。[NEWLINE]快乐的城市每拥有一个学院则+1[ICON_GreatScientist]大科学家点数。幸福感为狂喜的城市可获得双倍加成。改良後战略资源+2[ICON_Science]科技值。就职於城市中的[ICON_Governor]行政长官每获得一次强化便可提供+3%[ICON_Science]科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LINGERIE_NAME" Language="zh_Hans_CN">
+			<Text>艳丽与狂气</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_LINGERIE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，城市单元格[ICON_Appeal]魅力+2。区域产出随着单元格[ICON_Appeal]魅力变动；军事单位的[ICON_Strength]战斗力随着单元格[ICON_Appeal]魅力变动。[NEWLINE]影响力点数额外增加50%。征集城邦单位费用减半，并赋予他们+2[ICON_Movement]移动力及+5[ICON_Strength]战斗力。征集单位升级时花费的[ICON_Gold]金币和资源-75%。当从城邦征集军队时，能从该城邦获得2个[ICON_Envoy]使者。向每个城邦派遣的第一个[ICON_Envoy]使者会被视为两个[ICON_Envoy]使者。作为宗主国时，你的每个下辖的城邦使你+5%[ICON_Culture]文化值和[ICON_Science]科技值。[NEWLINE]同性领袖稍微讨厌你；异性领袖十分喜欢你。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_MAID_NAME" Language="zh_Hans_CN">
+			<Text>女仆的心得</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_MAID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，[ICON_Capital]首都+2%[ICON_Production]生产力。建造区域、建筑、单位时+10%[ICON_Production]生产力。可使用建造者次数加速奇观与区域20%建造进度。战略资源上的矿井+1[ICON_Production]生产力；加成和奢侈资源上的矿井+2[ICON_Production]生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NURSE_NAME" Language="zh_Hans_CN">
+			<Text>白衣天使</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_NURSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，军事单位在战斗後能额外恢复25点生命值，在[ICON_Capital]首都所在大陆每回合额外恢复15点生命值，甚至是在移动或攻击後仍可恢复；在帝国领土上每回合额外恢复90点生命。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SISTER_NAME" Language="zh_Hans_CN">
+			<Text>嗫告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SISTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，对所有其他文明的[ICON_VisLimited]外交能见度+1等级。外交能见度的战斗力加成翻倍。[NEWLINE]敌方使徒、传教士无法入侵领土、城市忽视非所创立宗教的宗教压力。解锁所有祭祀建筑并折扣30%。根据信徒数量增加满意度。[ICON_TradeRoute]贸易路线造成双倍宗教压力。如相邻城市因文化炸弹失去单元格，所创立的宗教将成为此城的主流宗教。可使用信仰值购买建筑与单位，但生产军事单位的生产力降低33%。国际贸易路线获得+4[ICON_Faith]信仰值但-3[ICON_Gold]金币。每个信仰所创宗教的城市+1[ICON_Faith]信仰值。[NEWLINE]每有文明创建一个宗教时，若你尚未创教则获得一个大预言家；若你已创教则获得一个使徒。[NEWLINE]每座圣城皈依於您的宗教（包含自身的圣城），所有单位获得+3[ICON_Strength]战斗力或[ICON_Religion]宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SWIMSUIT_NAME" Language="zh_Hans_CN">
+			<Text>夏日大作战</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SWIMSUIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，游戏开场时位于海洋单元格中，陆地单位可以上船并具备进入海洋单元格的能力，开拓者可以在海域建造城市。在开拓第一座城市前每回合+2[ICON_Science]科技值且+2[ICON_Culture]文化值。为沿岸城市+3[ICON_Housing]住房并且不会受到洪灾损害。[NEWLINE]研发砌砖即解锁运河。海上家园提供额外+1[ICON_Food]食物并且对相邻单元格施放文化炸弹。[NEWLINE]国际[ICON_TradeRoute]贸易路线仅能通往在海岸上或者有港口的城市，但所有收益+50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WARRIOR_NAME" Language="zh_Hans_CN">
+			<Text>比基尼试爆</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WARRIOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，各城市不会生成厌战情绪。被征服的城市不会失去[ICON_Citizen]人口，并获得+1[ICON_Amenities]满意度与每回合+4[ICON_Loyalty]忠诚度。拥有驻军单位的城市获得每回合额外[ICON_Loyalty]忠诚度。在敌方城市边界内击败敌军单位会造成该城市损失[ICON_Loyalty]忠诚度。[NEWLINE]军事单位受伤後不会遭受战斗力减益、对蛮族额外+4[ICON_Strength]战斗力、升级或攻击後仍可移动。每有一个放入槽位之军事政策，便再+1[ICON_Strength]战斗力。[NEWLINE]击杀单位时获得等同战斗力100%的[ICON_Gold]金币；若击杀的单位来自先前时代则奖励翻倍。[NEWLINE]所有单位对[ICON_Nuclear]核爆炸伤害有抗性并且免疫[ICON_Resource_Uranium]核辐射伤害。[ICON_Power]电力充足时可获得收益的建筑额外获得收益。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WEDDING_NAME" Language="zh_Hans_CN">
+			<Text>神圣誓言</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_WEDDING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，你的每个同盟等级使对应的产出提升2%。你的盟友共享半数效果。[NEWLINE]和所有盟友的同盟点数每回合增加0.25点、每增加一个盟友效果增加一倍，所有类型的同盟都能获得额外效果。和盟友贸易可获得双倍同盟点数。[NEWLINE]和你交战的国家所招致的[ICON_Stat_Grievance]怨气不会减少。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XDISK_NAME" Language="zh_Hans_CN">
+			<Text>往日回忆</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XDISK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，当军事单位与较先进的单位作战时，+7[ICON_Strength]战斗力。解锁可增减时代分数的特色项目。[NEWLINE]解锁两点以上时代分数的历史时刻以及获得[ICON_TechBoosted]尤里卡或[ICON_CivicBoosted]天启时额外获得1点时代分数。[NEWLINE]即使并非[ICON_Glory_Dark_Age]黑暗时代也可以使用黑暗时代政策。[NEWLINE]在[ICON_Glory_Golden_Age]黄金时代或[ICON_Glory_Super_Golden_Age]英雄时代开端决定致力方针时，除了原有的其他加成外，还可获得可提升时代分数的[ICON_Glory_Normal_Age]普通时代加成。[NEWLINE]只要填满建筑或奇观中的所有巨作槽位，所有作品便会自动主题化。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XMAS_NAME" Language="zh_Hans_CN">
+			<Text>真夏的圣诞夜</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_XMAS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·三番”之外，驱散蛮族哨站时，你将获得部落村庄奖励及经验值。所有城市创建时带有一个额外的生产力花费最低的市中心建筑。每座城市都能比平时多建造一个的区域。建成市政广场外的专业区域时，一定几率带有该区域中当前可建且生产力花费最低的建筑。[NEWLINE]单位不会受到暴风雪伤害。交战方在帝国领土受到加倍暴风雪伤害。雪地、冻土、雪地丘陵及冻土丘陵上的战略资源累积率+100%、购买单元格的花费减半。[NEWLINE][ICON_TechBoosted]尤里卡和[ICON_CivicBoosted]天启提供50%的市政和科技，而非40%。建成奇观时，获得该奇观所处时代的随机[ICON_TechBoosted]尤里卡和[ICON_CivicBoosted]天启。</Text>
+		</Replace>
+
+		<!-- 领袖议程 -->
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_BUNNY_NAME" Language="zh_Hans_CN">
+			<Text>赌场之花</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_BUNNY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会尝试将其城市和[ICON_TradeRoute]贸易路线的[ICON_Gold]金币产出增加到最高。敬重与其做法相似的文明，不喜欢不这麽做的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_CAT_NAME" Language="zh_Hans_CN">
+			<Text>猫娘同盟</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_CAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢公布友好关系的文明。讨厌背后攻击或宣布突袭战争的文明。会试图创建多个同盟关系，尊重创建同盟的文明。讨厌结盟少的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_CHINADRESS_NAME" Language="zh_Hans_CN">
+			<Text>丝绸之路</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_CHINADRESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会尽量设法开疆扩土。讨厌控制狭小领土的文明。[NEWLINE]会尽可能多地拓展[ICON_TradeRoute]贸易路线。喜欢与之进行贸易的文明，讨厌不进行贸易的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_HALLOWEEN_NAME" Language="zh_Hans_CN">
+			<Text>恶作剧小恶魔</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_HALLOWEEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会在[ICON_Capital]首都附近开拓城市。喜欢将城市开拓在远处的文明。不喜欢在帝国领土上得寸进尺的文明。[NEWLINE]获得尽可能多的间谍和外交访问权。讨厌对间谍活动视而不见的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_IDOL_NAME" Language="zh_Hans_CN">
+			<Text>偶象文化</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_IDOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设法获得[ICON_Culture]文化值，喜欢专注於[ICON_Culture]文化值的文明。会尝试创建并维持高度的文化[ICON_Loyalty]忠诚度。讨厌因无法维持人民[ICON_Loyalty]忠诚度而失去城市的文明，喜欢能透过[ICON_Loyalty]忠诚度获得城市的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_KIMONO_NAME" Language="zh_Hans_CN">
+			<Text>瞻星台</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_KIMONO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会设法获得[ICON_Science]科技值，喜欢同样专注於[ICON_Science]科技发展的文明。讨厌[ICON_Science]科技落后的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_LINGERIE_NAME" Language="zh_Hans_CN">
+			<Text>交际花</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_LINGERIE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除非对方无法遵守外交承诺，否则不会主动攻击邻国。[NEWLINE]喜欢和邻国和平相处的文明，不喜欢和邻国开战的文明。[NEWLINE]喜欢在自己家乡大陆创建城市追求和平的文明。讨厌那些对城邦发动战争，或以他自己的大陆为领地发动战争的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_MAID_NAME" Language="zh_Hans_CN">
+			<Text>爱与和平</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_MAID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果会因为这场战争而被打上好战者的标签，那他绝不会宣战，试图帮助那些维持和平的人。讨厌好战份子。[NEWLINE]绝不会签订屈辱性质的和平条款，喜欢符合这种方式的文明。讨厌那些屈从于武力或从不使用武力的文明。对此领袖生成的怨气会以双倍速度减少。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NURSE_NAME" Language="zh_Hans_CN">
+			<Text>固守一方</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_NURSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会尝试在城市周遭创建高等级的城墙，尊重志同道合的文明。讨厌不对城市进行设防的文明。[NEWLINE]想要偏安一隅不受征服。不喜欢征服其他玩家[ICON_Capital]原始首都的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_SISTER_NAME" Language="zh_Hans_CN">
+			<Text>我很好奇</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_SISTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>想要透过友谊、开放边界、代表团和大使馆来知晓天下大小事。讨厌不愿意分享信息的文明。[NEWLINE]设法创建[ICON_Faith]信仰值，喜欢同样专注於[ICON_Faith]信仰值的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_SWIMSUIT_NAME" Language="zh_Hans_CN">
+			<Text>海上王国</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_SWIMSUIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢创建强大的海军，并尊重追随其领导的文明。讨厌海军力量弱小的文明。[NEWLINE]想要在海岸开拓城市。喜欢在内陆开拓城市的文明。不喜欢多数城市开拓在海岸的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_WARRIOR_NAME" Language="zh_Hans_CN">
+			<Text>梦幻军团</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_WARRIOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢拥有强大武力的文明，并试图与他们结盟以躲避战争。讨厌武力弱小的文明。[NEWLINE]试图创建大量兵团与军团，尊重志同道合的文明。讨厌无法创建兵团或闲置军队的文明。[NEWLINE]会从城邦征集军队。喜欢也会利用城邦军队的文明，不喜欢对雇佣军不置可否的文明。[NEWLINE]对此领袖生成的怨气会以双倍速度减少。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_WEDDING_NAME" Language="zh_Hans_CN">
+			<Text>神圣同盟</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_WEDDING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢愿意建构长期联盟关系的文明。讨厌谴责或进攻自己盟友和联盟的人。[NEWLINE]会试图创建多个同盟关系，尊重创建同盟的文明。讨厌结盟少的文明。除非对方无法遵守外交承诺，否则不会主动攻击邻国。喜欢和邻国和平相处的文明，不喜欢和邻国开战的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_XDISK_NAME" Language="zh_Hans_CN">
+			<Text>黄金记忆</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_XDISK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>羡慕进入[ICON_Glory_Golden_Age]黄金时代的文明。讨厌进入[ICON_Glory_Dark_Age]黑暗时代的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_XMAS_NAME" Language="zh_Hans_CN">
+			<Text>圣诞礼物</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOKISAKI_KURUMI_XMAS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对[ICON_Science]科技值和[ICON_Culture]文化值领先于他的文明很友好。讨厌缺少[ICON_Science]科技值和[ICON_Culture]文化值的文明。努力创建工业，喜欢同样专注於[ICON_Production]生产力的文明。</Text>
+		</Replace>
+
+		<!-- 特色区域 -->
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CASINO_NAME" Language="zh_Hans_CN">
+			<Text>梦靥赌城</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CASINO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兔女郎狂三特色财政与贸易区域，替代商业中心。[NEWLINE]每个相邻的奇观和区域提供标准[ICON_Gold]金币加成。相邻市中心获得标准[ICON_Gold]金币加成。获得[ICON_GREATMERCHANT]大商人点数。购买区域、建筑和单位时，降价20%。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_STAGE_NAME" Language="zh_Hans_CN">
+			<Text>梦魇舞台</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_STAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>偶象狂三特色文化遗址区域，替代剧院广场。[NEWLINE]获得[ICON_GREATMUSICIAN]大音乐家/[ICON_GREATWRITER]大作家/[ICON_GREATARTIST]大艺术家点数。可释放文化炸弹。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_LAVRA_NAME" Language="zh_Hans_CN">
+			<Text>梦魇修道院</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_LAVRA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>修女狂三特色特色宗教活动，替代圣地。[NEWLINE]城市的[ICON_TradeRoute]贸易路线获得额外+3[ICON_Faith]信仰值。城市所训练军事单位获得异教歼灭技能（对异教徒战斗力+5，占领城市时自动转化主流宗教）。可触发文化炸弹。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CARNIVAL_NAME" Language="zh_Hans_CN">
+			<Text>梦魇狂欢节</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KURUMI_NIGHTMARE_CARNIVAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>泳衣狂三特色区域。取代水上乐园。[NEWLINE]+2[ICON_Amenities]满意度。同时解锁“狂欢节”项目，进行项目的过程中城市额外+1[ICON_Amenities]满意度，完成后可获得各种[ICON_GreatPerson]伟人点数。无法建造在拥有“街头狂欢节”或“娱乐中心”的城市中。无法建造在礁石单元格上。</Text>
+		</Replace>
+
+		<!-- 特色建筑 -->
+		<Replace Tag="LOC_BUILDING_NIGHTMARE_OBELISK_NAME" Language="zh_Hans_CN">
+			<Text>梦魇方尖碑</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NIGHTMARE_OBELISK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>时崎狂三特色建筑，取代纪念碑。[NEWLINE]包含1个能放置各种类型巨作的巨作槽位。每回合为此城市提供+1[ICON_Loyalty]忠诚度。若此城市的[ICON_Loyalty]忠诚度已经全满，则额外提供+1[ICON_Culture]文化值。城市所训练军事单位获得方尖碑的祝福（城市所训练军事单位在回合结束时可恢复生命）。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BUNNYKURUMI_CASINO_NAME" Language="zh_Hans_CN">
+			<Text>梦魇赌场</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BUNNYKURUMI_CASINO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兔女郎狂三特色建筑，替代银行。[NEWLINE]+1[ICON_Gold]金币来自此城市的每个商业中心、港口和机场。+1[ICON_Tourism]旅游值来自本城市的每个建造的奇观或海岸单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CATKURUMI_CAFE_NAME" Language="zh_Hans_CN">
+			<Text>猫咪咖啡厅</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CATKURUMI_CAFE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>猫娘狂三特色建筑，替代水磨。[NEWLINE]+1[ICON_Housing]住房。获得1份[ICON_RESOURCE_KURUMI_CAT]猫咪便当。透过建筑农场改良的加成资源分别+1[ICON_Food]食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CATKURUMI_CAFE_PLUS_NAME" Language="zh_Hans_CN">
+			<Text>猫咪咖啡厅‧改装</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CATKURUMI_CAFE_PLUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>猫娘狂三特色建筑升级。[NEWLINE]淡水单元格获得+1[ICON_Food]食物。相关资源（糖、奶、可可、咖啡、茶、蜜）+1[ICON_Amenities]满意度。</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_KURUMI_CAT_NAME" Language="zh_Hans_CN">
+			<Text>猫咪便当</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KURUMI_ELECTRONICS_FACTORY_NAME" Language="zh_Hans_CN">
+			<Text>梦魇电子厂</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KURUMI_ELECTRONICS_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>和服狂三特色建筑，取代工厂。[NEWLINE]研究“电力”科技後，该建筑能为所在城市额外+4[ICON_Science]科技值。其[ICON_Production]生产力加成可延展至6单元格范围内所有未获得此建筑类型加成之市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME" Language="zh_Hans_CN">
+			<Text>梦魇反应炉</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>战士狂三特色建筑。[NEWLINE]提供9单格格范围内的城市充足的电力，不需消耗战略资源。其[ICON_Production]生产力和[ICON_Science]科技值加成可延展至9单元格范围内所有未获得发电厂建筑加成之市中心。[NEWLINE]本城建造区域、建筑和奇观+10%[ICON_Production]生产力。</Text>
+		</Replace>
+
+		<!-- 特色单位 -->
+		<Replace Tag="LOC_UNIT_KURUMI_MAID_NAME" Language="zh_Hans_CN">
+			<Text>梦魇侍女</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KURUMI_MAID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>女仆狂三特色建造单位，替代建造者。[NEWLINE]具备额外的生产次数。被俘虏时会撤退。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPACE_DEATH_ROBOT_NAME" Language="zh_Hans_CN">
+			<Text>梦魇杀戮机器人</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPACE_DEATH_ROBOT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>战士狂三特色超级单位。能在水中移动与战斗。可抵抗大槼模杀伤性武器攻击。战斗能力可透过研发未来科技来升级。可对空攻击。可携带核武。</Text>
+		</Replace>
+
+		<!-- 特色改良 -->
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_WALL_NAME" Language="zh_Hans_CN">
+			<Text>梦魇长城</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_WALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2[ICON_Gold]金币。提升[ICON_Strength]防御力。如果和其它分段相邻，可获得[ICON_Gold]金币加成。随着科技进展，长城分段之间相邻将获得额外的[ICON_Culture]文化值或[ICON_Science]科技值，以及[ICON_Tourism]旅游业绩。仅能被自然灾害掠夺（不会被自然灾害摧毁）。可触发文化炸弹。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KURUMI_WALL_DEBUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>-1[ICON_Movement]移动力（梦魇长城）。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_DOME_NAME" Language="zh_Hans_CN">
+			<Text>梦魇贸易站</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_DOME_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供+4[ICON_Gold]金币及+1[ICON_Production]生产力。连到此城市的[ICON_TradeRoute]贸易路线获得+4[ICON_Gold]金币及+1[ICON_Production]生产力。仅能建在与玩家有开放边界关系的文明或城邦领土中，且必须建在该领土内的奢侈品资源或加成资源旁。不得建在另一个商站旁。商站无法移除。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_PARK_NAME" Language="zh_Hans_CN">
+			<Text>蛊惑公园</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_PARK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供2点[ICON_Appeal]魅力和1点[ICON_Culture]文化值。建造在拥有“公园与休闲娱乐”强化的“测量师”行政长官所就职的城市中时+3[ICON_Culture]文化值。每城市限建一个。提供等同100%单元格[ICON_Appeal]魅力的[ICON_Gold]金币。单元格的[ICON_Appeal]魅力至少必须为惊艳的。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_PARK_O_NAME" Language="zh_Hans_CN">
+			<Text>境外公园</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_PARK_O_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供3点[ICON_Appeal]魅力。无法建在其他境外公园旁。提供等同50%单元格[ICON_Appeal]魅力的[ICON_Gold]金币。可由军事工程师在帝国境外建设。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_CHATEAU_NAME" Language="zh_Hans_CN">
+			<Text>梦魇城堡</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURUMI_CHATEAU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>女仆狂三独有基础建筑，需由建造者建造在邻近奖励或奢侈资源的惊艳单元格上。+2[ICON_Culture]文化值+1[ICON_Gold]金币+1[ICON_Food]食物+3[ICON_Appeal]魅力。邻近奢侈资源+2[ICON_Gold]金币；邻近奇观+2[ICON_Culture]文化值。研发飞行後提供[ICON_tourism]旅游业绩。邻近城堡的单元格+1[ICON_Production]生产力。</Text>
+		</Replace>
+
+		<!-- 特色项目 -->
+		<Replace Tag="LOC_PROJECT_CATKURUMI_HOUSING_NAME" Language="zh_Hans_CN">
+			<Text>猫咪狂热</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CATKURUMI_HOUSING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>猫娘狂三的特色项目，为城市+1[ICON_Housing]住房。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IDOLKURUMI_LIVE_NAME" Language="zh_Hans_CN">
+			<Text>演唱会</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IDOLKURUMI_LIVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>基于区域的项目，举办演唱会时每回合获得[ICON_Culture]文化值与[ICON_Gold]金币，完成时获得一定[ICON_GREATMUSICIAN]大音乐家和[ICON_GREATARTIST]大艺术家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SISTERKURUMI_RATZIEL_NAME" Language="zh_Hans_CN">
+			<Text>嗫告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SISTERKURUMI_RATZIEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>基于区域的项目，[ICON_VisLimited]外交能见度+1，宗教传播压力+2%，获得[ICON_CivicBoosted]天启与[ICON_TechBoosted]尤里卡，现有单位+1视野。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIGHTMARE_CARNIVAL_NAME" Language="zh_Hans_CN">
+			<Text>狂欢节</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NIGHTMARE_CARNIVAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>基于区域的项目，激活时提供+1[ICON_Amenities]满意度，完成后提供[ICON_GreatEngineer]大工程师、[ICON_GreatMerchant]大商人、[ICON_GreatWriter]大作家、[ICON_GreatArtist]大艺术家和[ICON_GreatMusician]大音乐家的[ICON_GreatPerson]伟人点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_CONVERT_THERMONUCLEAR_NAME" Language="zh_Hans_CN">
+			<Text>转为使用梦魇反应炉</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_CONVERT_THERMONUCLEAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除役此城市当前使用的发电厂，并且以{LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME}取代之。[NEWLINE][NEWLINE]{LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_NAME}：[NEWLINE]{LOC_BUILDING_KURUMI_THERMONUCLEAR_REACTOR_DESCRIPTION}</Text>
+		</Replace>
+
+		<!-- 特色技能 -->
+		<Replace Tag="LOC_ABILITY_NIGHTMARE_OBELISK_HEAL_NAME" Language="zh_Hans_CN">
+			<Text>方尖碑的祝福</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIGHTMARE_OBELISK_HEAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市所训练军事单位在回合结束时可恢复生命。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KURUMI_WARS_OF_RELIGION_NAME" Language="zh_Hans_CN">
+			<Text>异教歼灭</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KURUMI_WARS_OF_RELIGION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市所训练军事单位对异教徒战斗力+5，军事单位占领城市时自动转化主流宗教。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
