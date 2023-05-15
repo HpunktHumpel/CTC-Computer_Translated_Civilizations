@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1684166440</Created>
+    <Created>1684171554</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -337,6 +337,13 @@
     </Criteria>
     <Criteria id="2924196884_InGame">
       <ModInUse>8b5906af-a71e-4406-964e-4dde5a419c44</ModInUse>
+    </Criteria>
+    <!-- 2922889279 - LOC_DAL_YATOGAMI_TOHKA_NAME-->
+    <Criteria id="2922889279_FrontEnd">
+      <ModIsEnabled>d6345a88-8e64-4387-8b0c-3c93b0f605be</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2922889279_InGame">
+      <ModInUse>d6345a88-8e64-4387-8b0c-3c93b0f605be</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1102,6 +1109,22 @@
       <File>2924196884/frontend_ru_RU.xml</File>
       <File>2924196884/frontend_pl_PL.xml</File>
       <File>2924196884/frontend_ko_KR.xml</File>
+    </UpdateText>
+    <!-- 2922889279 - LOC_DAL_YATOGAMI_TOHKA_NAME-->
+    <UpdateText id="2922889279_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2922889279_FrontEnd</Criteria>
+      <File>2922889279/frontend_en_US.xml</File>
+      <File>2922889279/frontend_fr_FR.xml</File>
+      <File>2922889279/frontend_de_DE.xml</File>
+      <File>2922889279/frontend_it_IT.xml</File>
+      <File>2922889279/frontend_es_ES.xml</File>
+      <File>2922889279/frontend_ja_JP.xml</File>
+      <File>2922889279/frontend_ru_RU.xml</File>
+      <File>2922889279/frontend_pl_PL.xml</File>
+      <File>2922889279/frontend_ko_KR.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -1878,6 +1901,22 @@
       <File>2924196884/ingame_pl_PL.xml</File>
       <File>2924196884/ingame_ko_KR.xml</File>
     </UpdateText>
+    <!-- 2922889279 - LOC_DAL_YATOGAMI_TOHKA_NAME-->
+    <UpdateText id="2922889279_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2922889279_InGame</Criteria>
+      <File>2922889279/ingame_en_US.xml</File>
+      <File>2922889279/ingame_fr_FR.xml</File>
+      <File>2922889279/ingame_de_DE.xml</File>
+      <File>2922889279/ingame_it_IT.xml</File>
+      <File>2922889279/ingame_es_ES.xml</File>
+      <File>2922889279/ingame_ja_JP.xml</File>
+      <File>2922889279/ingame_ru_RU.xml</File>
+      <File>2922889279/ingame_pl_PL.xml</File>
+      <File>2922889279/ingame_ko_KR.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -2238,6 +2277,24 @@
     <File>2921739891/ingame_pl_PL.xml</File>
     <File>2921739891/ingame_ru_RU.xml</File>
     <File>2921739891/ingame_zh_Hant_HK.xml</File>
+    <File>2922889279/frontend_de_DE.xml</File>
+    <File>2922889279/frontend_en_US.xml</File>
+    <File>2922889279/frontend_es_ES.xml</File>
+    <File>2922889279/frontend_fr_FR.xml</File>
+    <File>2922889279/frontend_it_IT.xml</File>
+    <File>2922889279/frontend_ja_JP.xml</File>
+    <File>2922889279/frontend_ko_KR.xml</File>
+    <File>2922889279/frontend_pl_PL.xml</File>
+    <File>2922889279/frontend_ru_RU.xml</File>
+    <File>2922889279/ingame_de_DE.xml</File>
+    <File>2922889279/ingame_en_US.xml</File>
+    <File>2922889279/ingame_es_ES.xml</File>
+    <File>2922889279/ingame_fr_FR.xml</File>
+    <File>2922889279/ingame_it_IT.xml</File>
+    <File>2922889279/ingame_ja_JP.xml</File>
+    <File>2922889279/ingame_ko_KR.xml</File>
+    <File>2922889279/ingame_pl_PL.xml</File>
+    <File>2922889279/ingame_ru_RU.xml</File>
     <File>2924196884/frontend_de_DE.xml</File>
     <File>2924196884/frontend_en_US.xml</File>
     <File>2924196884/frontend_es_ES.xml</File>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_SANDALPHON_NAME" Language="zh_Hans_CN">
+			<Text>鏖杀公</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SANDALPHON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>＜公主＞夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SANDALPHON_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>鏖杀公的</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_NAHEMA_NAME" Language="zh_Hans_CN">
+			<Text>暴虐公</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NAHEMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>＜公主＞夜刀神天香</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NAHEMA_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>暴虐公的</Text>
+		</Replace>
+
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SANDALPHON_NAME" Language="zh_Hans_CN">
+			<Text>破空剑舞</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NAHEMA_NAME" Language="zh_Hans_CN">
+			<Text>魔王降世</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SANDALPHON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>各城市不会生成厌战情绪。被征服的城市不会失去[ICON_Citizen]人口，其中每座学院将开启[ICON_TechBoosted]尤里卡。拥有驻军单位的城市获得额外[ICON_Loyalty]忠诚度。在敌方城市边界内击败敌军单位会造成该城市损失[ICON_Loyalty]忠诚度。[NEWLINE]所有单位[ICON_Strength]战斗力不受伤害影响。军事单位升级或攻击後仍可移动。每个军事政策提供+1[ICON_Strength]战斗力。[NEWLINE]击杀单位时获得等同战斗力100%的[ICON_Science]科技值；若击杀的单位来自先前时代则奖励翻倍。[NEWLINE]研发炼铁术后显示[ICON_Resource_Uranium]铀资源。所有单位对[ICON_Nuclear][ICON_ThermoNuclear]核爆炸伤害有抗性并且免疫[ICON_Resource_Uranium]核辐射伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NAHEMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>各城市不会生成厌战情绪。被征服的城市不会失去[ICON_Citizen]人口，其中每座剧院广场则会带来[ICON_CivicBoosted]天启。拥有驻军单位的城市获得额外[ICON_Loyalty]忠诚度。在敌方城市边界内击败敌军单位会造成该城市损失[ICON_Loyalty]忠诚度。[NEWLINE]所有单位[ICON_Strength]战斗力不受伤害影响。军事单位升级或攻击後仍可移动。每个军事政策提供+1[ICON_Strength]战斗力。[NEWLINE]击杀单位时获得等同战斗力100%的[ICON_Culture]文化值；若击杀的单位来自先前时代则奖励翻倍。[NEWLINE]研发炼铁术后显示[ICON_Resource_Uranium]铀资源。所有单位对[ICON_Nuclear][ICON_ThermoNuclear]核爆炸伤害有抗性并且免疫[ICON_Resource_Uranium]核辐射伤害。</Text>
+		</Replace>
+
+		<!-- 领袖 -->
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_XMAS_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（圣善夜）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_BUNNY_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（幸运兔）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_JK_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（校服）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_JS_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（幼女）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_KIMONO_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（抚子）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_SUMMER_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（夏日）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_DRESS_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（星夜）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_SHEKINAH_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（灭杀皇）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TOHKA_FUSION_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香（融合）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TENKA_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神天香</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TENKA_PIRATE_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神天香（海盗）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TENKA_ABYSS_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神天香（深渊）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YATOGAMI_TENKA_FUSION_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神天香（融合）</Text>
+		</Replace>
+
+		<!-- 领袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·十番</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首都人口达到3/5/8/13/21时获得一个黄豆粉面包，这是一种奢侈资源。首都的[ICON_Production]生产力加成可叠加。军事设施产出强化，拥有驻军单位的城市+5%[ICON_Culture]文化值与+5%[ICON_Production]生产力。[NEWLINE]回合开始时，每回合[ICON_Science]科技值的10%转移到[ICON_Culture]文化值；每回合[ICON_Gold]金币的10%转移到[ICON_Culture]信仰值。[NEWLINE]被宣战后12回合内+100%[ICON_Production]生产力、全单位+3[ICON_Strength]战斗力与+2[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_XMAS_NAME" Language="zh_Hans_CN">
+			<Text>圣诞礼物</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_XMAS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”之外，进入新时代时，获得随机[ICON_TechBoosted]尤里卡和[ICON_CivicBoosted]天启。建成市政广场外的专业区域时，一定几率带有该区域中当前可建且生产力花费最低的建筑。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_BUNNY_NAME" Language="zh_Hans_CN">
+			<Text>奥斯华</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_BUNNY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”之外，首都+80%[ICON_Gold]金币。同盟贸易路线+4[ICON_Gold]金币。允许用[ICON_Gold]金币购买区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_JK_NAME" Language="zh_Hans_CN">
+			<Text>樱花树下</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_JK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”之外，当紧急事件发生时，获得额外加成。即使没有完成紧急事件也能获得奖励。[NEWLINE]与更先进的文明创建[ICON_TradeRoute]贸易路线时，可获得对应的[ICON_TechBoosted]尤里卡或[ICON_CivicBoosted]天启。[NEWLINE]每当其他文明获得[ICON_GreatEngineer]大工程师、[ICON_GreatScientist]大科学家、[ICON_GreatMerchant]大商人或[ICON_GreatGeneral]大将军时，你触发一次[ICON_TechBoosted]尤里卡：每当其他文明获得[ICON_GreatProphet]大预言家、[ICON_GreatWriter]大作家、[ICON_GreatMusician]大音乐家、[ICON_GreatArtist]大艺术家或[ICON_GreatAdmiral]海军统帅时，你触发一次[ICON_CivicBoosted]天启。[NEWLINE]三级行政长官所在城市的专业区域提供1点对应的[ICON_greatperson]伟人点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_JS_NAME" Language="zh_Hans_CN">
+			<Text>平坦平坦光滑平坦</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_JS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首都人口达到3/5/8/13/21时获得一个黄豆粉面包，这是一种奢侈资源。首都的[ICON_Production]生产力加成可叠加。[NEWLINE]回合开始时，每回合[ICON_Production]生产力的10%转移到[ICON_Science]科技值与[ICON_Culture]文化值；每回合[ICON_Gold]金币的10%转移到[ICON_Food]食物。[NEWLINE]所有城墙可使用金币购入。[NEWLINE]与更先进的文明创建[ICON_TradeRoute]贸易路线时，可获得对应的[ICON_TechBoosted]尤里卡或[ICON_CivicBoosted]天启。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_KIMONO_NAME" Language="zh_Hans_CN">
+			<Text>白鹤花</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_KIMONO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”之外，城市+10%[ICON_Science]科技值，首都额外+40%[ICON_Science]科技值。快乐的城市每拥有一个学院则+1[ICON_GreatScientist]大科学家点数。幸福感为狂喜的城市可获得双倍加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_SUMMER_NAME" Language="zh_Hans_CN">
+			<Text>在盛夏等待</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_SUMMER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”之外，游戏开场时位于海洋单元格中，陆地单位可以上船并具备进入海洋单元格的能力，开拓者可以在海域建造城市。在开拓第一座城市前每回合+2[ICON_Science]科技值且+2[ICON_Culture]文化值。[NEWLINE]单位忽略来自上船和下船的额外[ICON_Movement]移动消耗。不会受到洪灾损害。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_DRESS_NAME" Language="zh_Hans_CN">
+			<Text>璀灿星月夜</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_DRESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”之外，幸福感为快乐的城市幸福感为快乐的城市+10%[ICON_Culture]文化值。幸福感为狂喜的城市可获得双倍加成。[ICON_CivicBoosted]天启上升至60%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_SHEKINAH_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·十番·万</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_SHEKINAH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”之外，每回合开始的资源转换额外获得50%。[NEWLINE]实施防御战术市政後即可宣布解放战争；获得军事训练市政後即可宣布领土扩张战争。[NEWLINE]开战后12回合内获得[ICON_Production]生产力加成，效果逐渐递减。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TENKA_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·十番·反</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TENKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首都人口达到3/5/8/13/21时获得一个黄豆粉面包，这是一种奢侈资源。首都的[ICON_Production]生产力加成可叠加。拥有驻军单位的城市+5%[ICON_Science]科技值与+5%[ICON_Production]生产力。[NEWLINE]回合开始时，每回合[ICON_Culture]文化值的10%转移到[ICON_Science]科技值；每回合[ICON_Culture]信仰值的10%转移到[ICON_Gold]金币。[NEWLINE]宣战后12回合内+100%[ICON_Production]生产力、全单位+3[ICON_Strength]战斗力与+2[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TENKA_PIRATE_NAME" Language="zh_Hans_CN">
+			<Text>宝藏猎人</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TENKA_PIRATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番·反”之外，游戏开场时位于海洋单元格中，陆地单位可以上船并具备进入海洋单元格的能力，开拓者可以在海域建造城市。在开拓第一座城市前每回合+2[ICON_Science]科技值且+2[ICON_Culture]文化值。[NEWLINE]单位忽略来自上船和下船的额外[ICON_Movement]移动消耗。允许所有海军近战单位进行海岸扫荡。不会受到洪灾损害。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TENKA_ABYSS_NAME" Language="zh_Hans_CN">
+			<Text>来自深渊</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TENKA_ABYSS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番·反”之外，每回合开始的资源转换额外获得50%。[NEWLINE]和平时+100%[ICON_GreatEngineer]大工程师、[ICON_GreatScientist]大科学家的[ICON_GreatPerson]伟人点数；战时+100%[ICON_GreatGeneral]大将军、[ICON_GreatAdmiral]海军统帅的[ICON_GreatPerson]伟人点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_FUSION_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·十番·创世</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TOHKA_FUSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”和“神威灵装·十番·反”之外，拥有所有变装十香特性。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YATOGAMI_TENKA_FUSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·十番”和“神威灵装·十番·反”之外，拥有所有变装天香特性。</Text>
+		</Replace>
+
+		<!-- 领袖议程 -->
+		<Replace Tag="LOC_AGENDA_YATOGAMI_TOHKA_NAME" Language="zh_Hans_CN">
+			<Text>王权</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_YATOGAMI_TOHKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢在自己家乡大陆创建城市追求和平的文明。讨厌那些对城邦发动战争，或以他自己的大陆为领地发动战争的文明。[NEWLINE]喜欢拥有强大武力的文明，并试图与他们结盟以躲避战争。讨厌武力弱小的文明。[NEWLINE]试图创建大量兵团与军团，尊重志同道合的文明。讨厌无法创建兵团或闲置军队的文明。[NEWLINE]会从城邦征集军队。喜欢也会利用城邦军队的文明，不喜欢对雇佣军不置可否的文明。[NEWLINE]讨厌蛮族。喜欢清除蛮族哨站所的文明。讨厌对蛮族哨站所视而不见的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_YATOGAMI_TENKA_NAME" Language="zh_Hans_CN">
+			<Text>霸权</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_YATOGAMI_TENKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢和其他势力开战的文明。蔑视处于和平的文明。对此领袖生成的怨气会以双倍速度减少。[NEWLINE]喜欢拥有强大武力的文明，并试图与他们结盟以躲避战争。讨厌武力弱小的文明。[NEWLINE]试图创建大量兵团与军团，尊重志同道合的文明。讨厌无法创建兵团或闲置军队的文明。[NEWLINE]会从城邦征集军队。喜欢也会利用城邦军队的文明，不喜欢对雇佣军不置可否的文明。[NEWLINE]同情蛮族。讨厌摧毁蛮族哨站所的文明。</Text>
+		</Replace>
+
+		<!-- 特色单位 -->
+		<Replace Tag="LOC_UNIT_YATOGAMI_LEGION_NAME" Language="zh_Hans_CN">
+			<Text>皇姬军团</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_LEGION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神十香特色古典时代近战单位，取代剑士。[NEWLINE]可以建造特色改良设施皇姬堡垒。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_IMPERIALE_NAME" Language="zh_Hans_CN">
+			<Text>皇姬卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_IMPERIALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神十香特色现代近战单位，取代步兵。[NEWLINE]在和拥有较高基础战斗力的单位战斗时获得+10[ICON_Strength]战斗力。在您首都大陆作战时，+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_IMPERIALE_NAME" Language="zh_Hans_CN">
+			<Text>皇姬卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_IMPERIALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在和拥有较高基础战斗力的单位战斗时获得+10[ICON_Strength]战斗力。在您首都大陆作战时，+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_TAGMA_NAME" Language="zh_Hans_CN">
+			<Text>皇姬精兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_TAGMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣诞十香特色中世纪重骑兵单位，取代骑士。[NEWLINE]位于精兵1单元格范围内的陆地单位获得+4[ICON_Strength]战斗力或[ICON_Religion]宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_TAGMA_NAME" Language="zh_Hans_CN">
+			<Text>精兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_TAGMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>距离精兵1单元格范围内的陆地单位可获得+4[ICON_Strength]战斗力或[ICON_Religion]宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_TAGMA_NONRELIGIOUS_NAME" Language="zh_Hans_CN">
+			<Text>精兵战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_TAGMA_NONRELIGIOUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>距离精兵1个单元格范围内时+4[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_TAGMA_RELIGIOUS_NAME" Language="zh_Hans_CN">
+			<Text>精兵宗教战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_TAGMA_RELIGIOUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>距离精兵1个单元格范围内时+4[ICON_Religion]宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_TAGMA_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>距离精兵1个单元格范围内时+{1_Amount}战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_TAGMA_RELIGIOUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>距离精兵1个单元格范围内时+{1_Amount}宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_DROMON_NAME" Language="zh_Hans_CN">
+			<Text>皇姬战船</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_DROMON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夏日十香特色古典时代远程海军单位，取代四桨座战船。[NEWLINE]具有额外射程。对抗其他单位时+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_DROMON_NAME" Language="zh_Hans_CN">
+			<Text>希腊火</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_DROMON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与各单位战斗时+10 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_DROMON_COMBAT_STRENGTH_AGAINST_UNITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对抗单位时+{1_Amount}战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_BERSERKER_NAME" Language="zh_Hans_CN">
+			<Text>皇姬狂战士</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_BERSERKER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>灭杀皇十香特色中世纪近战单位，取代披甲战士。[NEWLINE]如果该单位在敌人领土开始回合，则[ICON_Movement]移动力为4点。攻击时+10[ICON_Strength]战斗力，防御近战攻击时-5[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_CABALLARII_NAME" Language="zh_Hans_CN">
+			<Text>皇姬骑师</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_CABALLARII_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>幸运兔十香特色中世纪重骑兵单位，取代骑士。[NEWLINE]受伤害时不会遭受战斗减益。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_FARFANES_NAME" Language="zh_Hans_CN">
+			<Text>皇姬佣兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_FARFANES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>抚子十香特色中世纪轻骑兵单位，取代追猎者。[NEWLINE]靠近或位于本土时，单位战斗力更强。如有剩余移动力，能在攻击後移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_HUSCARL_NAME" Language="zh_Hans_CN">
+			<Text>皇姬侍卫</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_HUSCARL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>星夜十香特色单位，取代披甲战士。[NEWLINE]强力对抗远程攻击的近战单位。低[ICON_Production]生产力消耗。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_HUSCARL_NAME" Language="zh_Hans_CN">
+			<Text>侍卫</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_HUSCARL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>防御远程攻击时+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_YATOGAMI_TOA_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬战士</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_TOA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神天香特色古典时代近战单位，取代剑士。[NEWLINE]可以建造特色改良设施瘴姬堡垒。[NEWLINE]所有相邻的敌方单位-5[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_REDCOAT_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_REDCOAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神天香特色现代近战单位，取代步兵。[NEWLINE]在和拥有较高基础战斗力的单位战斗时获得+10[ICON_Strength]战斗力。在除开你首都以外的大陆作战时，+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_REDCOAT_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_REDCOAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在和拥有较高基础战斗力的单位战斗时获得+10[ICON_Strength]战斗力。在除开你首都以外的大陆作战时，+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_YATOGAMI_AGAINST_STRONGER_UNIT" Language="zh_Hans_CN">
+			<Text>在和拥有较高基础战斗力的单位战斗时获得+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_GAESATAE_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬佣兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_GAESATAE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>深渊天香特色中世纪重骑兵单位，取代骑士。[NEWLINE]和拥有较高基础战斗力的单位战斗时获得+10[ICON_Strength]战斗力。对抗区域防御时+5[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_GAESATAE_NAME" Language="zh_Hans_CN">
+			<Text>佣兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_GAESATAE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>和拥有较高基础战斗力的单位战斗时获得+10[ICON_Strength]战斗力。对抗区域防御时+5[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_GAESATAE_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对抗拥有较高基础战斗力的单位时+{1_Amount}战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_GAESATAE_COMBAT_DISTRICTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击区域防御时+{1_Amount}战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_LONGSHIP_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬长船</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_LONGSHIP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>海盗天香特色远古时代海军单位，取代桨帆船。[NEWLINE]能够通过其海岸扫荡能力掠夺敌方海岸土地，并俘获附近的平民。能在中立海域恢复。位于海岸水域时，[ICON_Movement]移动力为4。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_YATOGAMI_SANDALPHON_NAME" Language="zh_Hans_CN">
+			<Text>鏖杀公</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_SANDALPHON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神十香特色超级单位，取代巨型杀戮机器人。防御时[ICON_Strength]战斗力上升。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_SANDALPHON_NAME" Language="zh_Hans_CN">
+			<Text>鏖杀公</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_SANDALPHON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>防御时+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_NAHEMA_NAME" Language="zh_Hans_CN">
+			<Text>暴虐公</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YATOGAMI_NAHEMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神天香特色超级单位，取代巨型杀戮机器人。攻击时[ICON_Strength]战斗力上升。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_NAHEMA_NAME" Language="zh_Hans_CN">
+			<Text>暴虐公</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_NAHEMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击时+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_HALVANHELEV_NAME" Language="zh_Hans_CN">
+			<Text>最后之剑</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_HALVANHELEV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>下一次攻击使攻击路径及目标周围留下[ICON_Resource_Uranium]核辐射并造成部分伤害。远程攻击城市和营地时为100%效率。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_PAVERSCHLEV_NAME" Language="zh_Hans_CN">
+			<Text>终焉之剑</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_PAVERSCHLEV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>下一次攻击使攻击路径及目标周围留下[ICON_Resource_Uranium]核辐射并造成部分伤害。远程攻击城市和营地时为100%效率。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_YEZELHLEV_NAME" Language="zh_Hans_CN">
+			<Text>创世之剑</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_YEZELHLEV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>下一次攻击使攻击路径及目标周围留下[ICON_Resource_Uranium]核辐射并造成部分伤害。远程攻击城市和营地时为100%效率。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TOOLTIP_YATOGAMI_HALVANHELEV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>：[NEWLINE]下一次攻击使攻击路径及目标周围留下[ICON_Resource_Uranium]核辐射并造成部分伤害。（消耗{1_iAmount}[ICON_Resource_Uranium]铀）</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_YATOGAMI_PAVERSCHLEV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>：[NEWLINE]下一次攻击使攻击路径及目标周围留下[ICON_Resource_Uranium]核辐射并造成部分伤害。（消耗{1_iAmount}[ICON_Resource_Uranium]铀）</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_YATOGAMI_YEZELHLEV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>：[NEWLINE]下一次攻击使攻击路径及目标周围留下[ICON_Resource_Uranium]核辐射并造成部分伤害。（消耗{1_iAmount}[ICON_Resource_Uranium]铀）</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_YATOGAMI_NEED_MORE_URANIUM" Language="zh_Hans_CN">
+			<Text>：[NEWLINE][ICON_Resource_Uranium][COLOR:Red]铀不足[ENDCOLOR]（需要{1_iAmount}个）。</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_YATOGAMI_ALREADY_ACTIVE" Language="zh_Hans_CN">
+			<Text>：[NEWLINE][COLOR:Red]技能已启动[ENDCOLOR]。</Text>
+		</Replace>
+
+		<!-- 特色区域 -->
+		<Replace Tag="LOC_DISTRICT_TOHKA_THANH_NAME" Language="zh_Hans_CN">
+			<Text>皇姬城池</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TOHKA_THANH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神十香特色建筑，取代营地。每个相邻区域提供+2[ICON_Culture]文化值。研发完“飞行”科技後将可获得与[ICON_Culture]文化值输出相等的[ICON_Tourism]旅游业绩。[NEWLINE]每六座城池提供一个额外的军事政策槽位。[NEWLINE]此区域无须人口即可建造，并且造价较为低廉，无法建造在市中心旁，不提供[ICON_GreatPerson]伟人点数，且并非特色区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YATOGAMI_CULTURE_MAJOR" Language="zh_Hans_CN">
+			<Text>相邻区域+{1_num}[ICON_Culture]文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TENKA_THANH_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬城池</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TENKA_THANH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神天香特色建筑，取代营地。每个相邻区域提供+2[ICON_Science]科技值。研发完“飞行”科技後将可获得与[ICON_Science]科技值输出相等的[ICON_Tourism]旅游业绩。[NEWLINE]每六座城池提供一个额外的军事政策槽位。[NEWLINE]此区域无须人口即可建造，并且造价较为低廉，无法建造在市中心旁，不提供[ICON_GreatPerson]伟人点数，且并非特色区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YATOGAMI_SCIENCE_MAJOR" Language="zh_Hans_CN">
+			<Text>相邻区域+{1_num}[ICON_Science]科技值。</Text>
+		</Replace>
+
+		<!-- 特色建筑 -->
+		<Replace Tag="LOC_BUILDING_YATOGAMI_ADVANCED_REACTOR_NAME" Language="zh_Hans_CN">
+			<Text>熔盐反应炉</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YATOGAMI_ADVANCED_REACTOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神特色建筑。[NEWLINE]自动将任何数量的[ICON_Resource_Uranium]铀转化为[ICON_Power]电力，并为12单元格范围内的城市供电。无二氧化碳排放、不会发生核事故。[NEWLINE]拥有熔盐反应炉的城市进行核武相关计划或生产核武器时+50%[ICON_Production]生产力，建造区域、建筑和奇观+10%[ICON_Production]生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YATOGAMI_BLACKMARKET_NAME" Language="zh_Hans_CN">
+			<Text>战略资源贸易所</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YATOGAMI_BLACKMARKET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神特色建筑，取代银行。[NEWLINE]此城市每改良1种不同的战略资源，即可再累积1个额外的战略资源。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TOHKA_WALLS_NAME" Language="zh_Hans_CN">
+			<Text>皇姬城墙</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOHKA_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神十香特色建筑。[NEWLINE]提供环绕城市中心和营地区域的城墙。城墙允许城市中心和营地区域进行[ICON_Ranged]远程攻击，在攻击城市之前，必须先击毁城墙。获得“保藏”市政後提供1[ICON_Tourism]旅游业绩，处于[ICON_Glory_Golden_Age]黄金时代时[ICON_Tourism]旅游业绩加倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOHKA_CASTLE_NAME" Language="zh_Hans_CN">
+			<Text>皇姬城堡</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOHKA_CASTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神十香特色建筑。[NEWLINE]增加你的外部防御力。获得“保藏”市政後提供2[ICON_Tourism]旅游业绩，处于[ICON_Glory_Golden_Age]黄金时代时[ICON_Tourism]旅游业绩加倍。此城市不会受到破城槌的影响。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOHKA_FORT_NAME" Language="zh_Hans_CN">
+			<Text>皇姬星堡</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TOHKA_FORT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神十香特色建筑。[NEWLINE]提升你的外部防御能力至最佳水平。获得“保藏”市政後提供3[ICON_Tourism]旅游业绩，处于[ICON_Glory_Golden_Age]黄金时代时[ICON_Tourism]旅游业绩加倍。此城市不会受到攻城塔或破城槌的影响。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TENKA_WALLS_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬城墙</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TENKA_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神天香特色建筑。[NEWLINE]提供环绕城市中心和营地区域的城墙。城墙允许城市中心和营地区域进行[ICON_Ranged]远程攻击，在攻击城市之前，必须先击毁城墙。获得“保藏”市政後提供1[ICON_Tourism]旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TENKA_CASTLE_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬城堡</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TENKA_CASTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神天香特色建筑。[NEWLINE]增加你的外部防御力。获得“保藏”市政後提供3[ICON_Tourism]旅游业绩。此城市不会受到破城槌的影响。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TENKA_TSIKHE_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬要塞</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TENKA_TSIKHE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神天香特色建筑。[NEWLINE]提升你的外部防御能力至最佳水平。获得“保藏”市政後提供5[ICON_Tourism]旅游业绩。此城市不会受到攻城塔或破城槌的影响。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_YATOGAMI_MADRASA_NAME" Language="zh_Hans_CN">
+			<Text>皇姬高校</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YATOGAMI_MADRASA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>高中十香特色建筑，取代大学。城市中每位公民+0.6每回合[ICON_Science]技值收入。[NEWLINE]提供与学院区的相邻加成等量的[ICON_Culture]文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YATOGAMI_CHURCH_NAME" Language="zh_Hans_CN">
+			<Text>皇姬教堂</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YATOGAMI_CHURCH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣诞十香特色建筑，取代寺庙。允许使用[ICON_Faith]信仰值购买开拓者。[NEWLINE]建造後可使用[ICON_Faith]信仰值购买平民单位、使徒和审判官。圣地区域可从树林获得额外的标准相邻加成。为此城中每个海洋资源单元格+1[ICON_PRODUCTION]生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YATOGAMI_CHURCH_HERO_DESCRIPTION_HEROES" Language="zh_Hans_CN">
+			<Text>圣诞十香特色建筑，取代寺庙。允许使用[ICON_Faith]信仰值购买开拓者。[NEWLINE]建造後可使用[ICON_Faith]信仰值购买平民单位、使徒和审判官。圣地区域可从树林获得额外的标准相邻加成。为此城中每个海洋资源单元格+1[ICON_PRODUCTION] 生产力。在此城市中召回英雄将减少15%的[ICON_Faith]信仰值消耗。</Text>
+		</Replace>
+
+		<!-- 改良设施 -->
+		<Replace Tag="LOC_IMPROVEMENT_YATOGAMI_CASTRUM_NAME" Language="zh_Hans_CN">
+			<Text>皇姬堡垒</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YATOGAMI_CASTRUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神十香特色建筑。[NEWLINE][NEWLINE]占领单位获得+6[ICON_Strength]防御力，并且自动获得两回合的防御工事。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YATOGAMI_PA_NAME" Language="zh_Hans_CN">
+			<Text>瘴姬堡垒</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YATOGAMI_PA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>夜刀神天香特色建筑。[NEWLINE][NEWLINE]占领单位获得+6[ICON_Strength]防御力，并且自动获得两回合的防御工事。占领的单位就算已经移动或攻击过仍能治愈生命值。必须建造在丘陵单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_BONUS_SIGHT_NAME" Language="zh_Hans_CN">
+			<Text>堡垒视野</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_BONUS_SIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>皇姬/瘴姬堡垒提供+1视野范围</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_BONUS_HEAL_NAME" Language="zh_Hans_CN">
+			<Text>堡垒治疔</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_BONUS_HEAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>皇姬/瘴姬堡垒提供每回合+5治疔</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_REVEAL_STEALTH_NAME" Language="zh_Hans_CN">
+			<Text>堡垒侦测</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YATOGAMI_REVEAL_STEALTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>皇姬/瘴姬堡垒提供侦测隐形单位</Text>
+		</Replace>
+
+		<!-- 特色项目 -->
+		<Replace Tag="LOC_PROJECT_TOHKA_CONVERT_ADVANCED_REACTOR_NAME" Language="zh_Hans_CN">
+			<Text>转为使用{LOC_BUILDING_YATOGAMI_ADVANCED_REACTOR_NAME}供电</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TOHKA_CONVERT_ADVANCED_REACTOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除役此城市当前使用的发电厂，并且以{LOC_BUILDING_YATOGAMI_ADVANCED_REACTOR_NAME}取代之。[NEWLINE][NEWLINE]{LOC_BUILDING_YATOGAMI_ADVANCED_REACTOR_NAME}：[NEWLINE]{LOC_BUILDING_YATOGAMI_ADVANCED_REACTOR_DESCRIPTION}</Text>
+		</Replace>
+
+		<!-- 资源 -->
+		<Replace Tag="LOC_RESOURCE_YATOGAMI_SOYBREAD_NAME" Language="zh_Hans_CN">
+			<Text>黄豆粉面包</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
