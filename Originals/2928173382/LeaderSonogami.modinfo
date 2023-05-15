@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8f063e7e-1bc8-4d40-8939-ee7284c95d0f" version="1">
+  <Properties>
+    <Name>LOC_DAL_SONOGAMI_RINNE_NAME</Name>
+    <Description>LOC_DAL_SONOGAMI_RINNE_DESCRIPTION</Description>
+    <Created>1683771162</Created>
+    <Teaser>LOC_DAL_SONOGAMI_RINNE_DESCRIPTION</Teaser>
+    <Authors>IthildinX</Authors>
+    <SpecialThanks>LOC_DAL_CORE_SPECIAL_THANK</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="0fc54588-0cb8-44eb-bad2-3f4f1a53883e" title="LOC_DAL_CORE_NAME" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Core/Sonogami_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Text/Sonogami_ConfigText - HK.xml</File>
+      <File>Text/Sonogami_ConfigText - CN.xml</File>
+      <File>Text/Sonogami_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Core/Sonogami_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>LOC_DAL_SONOGAMI_RINNE_NAME.dep</File>
+    </UpdateArt>
+    <UpdateColors id="ConfigColors">
+      <File>Core/Sonogami_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Sonogami_Agendas.xml</File>
+      <File>Core/Sonogami_Buildings.xml</File>
+      <File>Core/Sonogami_Civilizations.xml</File>
+      <File>Core/Sonogami_Districts.xml</File>
+      <File>Core/Sonogami_Gossip.xml</File>
+      <File>Core/Sonogami_Governor.xml</File>
+      <File>Core/Sonogami_Improvement.xml</File>
+      <File>Core/Sonogami_Leaders.xml</File>
+      <File>Core/Sonogami_Resources.xml</File>
+      <File>Core/Sonogami_Units.xml</File>
+      <File>Core/Sonogami_Projects.xml</File>
+      <File>Core/Sonogami_GreatPersons.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Modifier">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Sonogami_Requirement.sql</File>
+      <File>Core/Sonogami_Modifiers.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Text/Sonogami_ConfigText - HK.xml</File>
+      <File>Text/Sonogami_DiplomacyText - HK.xml</File>
+      <File>Text/Sonogami_Text - HK.xml</File>
+      <File>Text/Sonogami_ConfigText - CN.xml</File>
+      <File>Text/Sonogami_DiplomacyText - CN.xml</File>
+      <File>Text/Sonogami_Text - CN.xml</File>
+      <File>Text/Sonogami_ConfigText.xml</File>
+      <File>Text/Sonogami_DiplomacyText.xml</File>
+      <File>Text/Sonogami_Text.xml</File>
+      <File>Text/Sonogami_ConfigText.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Core/Sonogami_Icons.xml</File>
+      <File>Core/Sonogami_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>LOC_DAL_SONOGAMI_RINNE_NAME.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>Core/Sonogami_Colors.sql</File>
+    </UpdateColors>
+    <AddGameplayScripts id="GameplayScripts">
+      <Properties>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <File>Core/Sonogami_Modifiers.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="AddUserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>147483647</LoadOrder>
+      </Properties>
+      <File>Core/Sonogami_Modifiers_UI.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/CityGenerators.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/Resources.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/Walls.artdef</File>
+    <File>Core/Sonogami_Agendas.xml</File>
+    <File>Core/Sonogami_Buildings.xml</File>
+    <File>Core/Sonogami_Civilizations.xml</File>
+    <File>Core/Sonogami_Colors.sql</File>
+    <File>Core/Sonogami_Config.xml</File>
+    <File>Core/Sonogami_Districts.xml</File>
+    <File>Core/Sonogami_Gossip.xml</File>
+    <File>Core/Sonogami_Governor.xml</File>
+    <File>Core/Sonogami_GreatPersons.sql</File>
+    <File>Core/Sonogami_Icons.sql</File>
+    <File>Core/Sonogami_Icons.xml</File>
+    <File>Core/Sonogami_Improvement.xml</File>
+    <File>Core/Sonogami_Leaders.xml</File>
+    <File>Core/Sonogami_Modifiers.lua</File>
+    <File>Core/Sonogami_Modifiers.sql</File>
+    <File>Core/Sonogami_Modifiers_UI.lua</File>
+    <File>Core/Sonogami_Modifiers_UI.xml</File>
+    <File>Core/Sonogami_Projects.xml</File>
+    <File>Core/Sonogami_Requirement.sql</File>
+    <File>Core/Sonogami_Resources.xml</File>
+    <File>Core/Sonogami_Units.xml</File>
+    <File>LOC_DAL_SONOGAMI_RINNE_NAME.dep</File>
+    <File>MacOS/BLPs/landmarks/Build_Babylon.blp</File>
+    <File>MacOS/BLPs/landmarks/city_buildings.blp</File>
+    <File>MacOS/BLPs/units/units.blp</File>
+    <File>MacOS/BLPs/Walls_Babylon.blp</File>
+    <File>Platforms/MacOS/BLPs/landmarks/Build_Babylon.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallBacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_HeroCavalry_ReactA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_HeroCavalry_Victory</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_HeroHorse_MountedDeathC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hero_Anansi_IdleA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hero_GroundMeleeDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hero_JoustAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hero_JoustDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hero_JoustDefendA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hero_MountedDeathC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDefendA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Anansi_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Anansi_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Anansi_metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Anansi_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Anansi_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arthur_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arthur_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arthur_metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arthur_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Arthur_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Beowulf_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Beowulf_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Beowulf_metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Beowulf_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Beowulf_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwallM_Gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwallM_Metallic</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwall_M_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwall_M_Normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwall_M_Normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_citywalls_Babylon_halfwallM_BaseColors_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_Palgum_AN_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Gray_Test_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_Palgum_AN_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_Palgum_AN_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_Palgum_AN_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_Palgum_AN_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_grey gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hercules_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hercules_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hercules_metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hercules_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hercules_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Himiko_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Himiko_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Himiko_metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Himiko_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Himiko_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hippolyta_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hippolyta_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hippolyta_metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hippolyta_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hippolyta_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hunahpu_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hunahpu_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hunahpu_metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hunahpu_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Hunahpu_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Eden</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Eden</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Oya_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Oya_gloss</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Oya_metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Oya_normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Oya_normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/Sonogami.blp</File>
+    <File>Platforms/MacOS/BLPs/StrategicView.blp</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/MacOS/BLPs/units/units.blp</File>
+    <File>Platforms/MacOS/BLPs/Walls_Babylon.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/Build_Babylon.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallBacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_HeroCavalry_ReactA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_HeroCavalry_Victory</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_HeroHorse_MountedDeathC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Hero_Anansi_IdleA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Hero_GroundMeleeDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Hero_JoustAttackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Hero_JoustDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Hero_JoustDefendA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Hero_MountedDeathC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDefendA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Anansi_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Anansi_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Anansi_metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Anansi_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Anansi_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arthur_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arthur_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arthur_metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arthur_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Arthur_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Beowulf_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Beowulf_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Beowulf_metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Beowulf_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Beowulf_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwallM_Gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwallM_Metallic</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwall_M_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwall_M_Normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_citywalls_Babylon_halfwall_M_Normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_citywalls_Babylon_halfwallM_BaseColors_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_Palgum_AN_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Gray_Test_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_Palgum_AN_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_Palgum_AN_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_Palgum_AN_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_Palgum_AN_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAB_Palace_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_grey gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hercules_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hercules_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hercules_metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hercules_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hercules_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Himiko_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Himiko_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Himiko_metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Himiko_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Himiko_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hippolyta_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hippolyta_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hippolyta_metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hippolyta_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hippolyta_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hunahpu_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hunahpu_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hunahpu_metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hunahpu_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Hunahpu_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Eden</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Eden</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Oya_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Oya_gloss</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Oya_metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Oya_normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Oya_normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/Sonogami.blp</File>
+    <File>Platforms/Windows/BLPs/StrategicView.blp</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/BLPs/units/units.blp</File>
+    <File>Platforms/Windows/BLPs/Walls_Babylon.blp</File>
+    <File>Text/Sonogami_ConfigText - CN.xml</File>
+    <File>Text/Sonogami_ConfigText - HK.xml</File>
+    <File>Text/Sonogami_ConfigText.sql</File>
+    <File>Text/Sonogami_ConfigText.xml</File>
+    <File>Text/Sonogami_DiplomacyText - CN.xml</File>
+    <File>Text/Sonogami_DiplomacyText - HK.xml</File>
+    <File>Text/Sonogami_DiplomacyText.xml</File>
+    <File>Text/Sonogami_Text - CN.xml</File>
+    <File>Text/Sonogami_Text - HK.xml</File>
+    <File>Text/Sonogami_Text.xml</File>
+    <File>Windows/BLPs/landmarks/Build_Babylon.blp</File>
+    <File>Windows/BLPs/landmarks/city_buildings.blp</File>
+    <File>Windows/BLPs/units/units.blp</File>
+    <File>Windows/BLPs/Walls_Babylon.blp</File>
+  </Files>
+</Mod>

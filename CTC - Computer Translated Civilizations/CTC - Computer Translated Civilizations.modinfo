@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1684148710</Created>
+    <Created>1684162949</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -323,6 +323,13 @@
     </Criteria>
     <Criteria id="2933896742_InGame">
       <ModInUse>4899fbaf-2a1a-4810-90d1-c94003fe00c5</ModInUse>
+    </Criteria>
+    <!-- 2928173382 - LOC_DAL_SONOGAMI_RINNE_NAME-->
+    <Criteria id="2928173382_FrontEnd">
+      <ModIsEnabled>8f063e7e-1bc8-4d40-8939-ee7284c95d0f</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2928173382_InGame">
+      <ModInUse>8f063e7e-1bc8-4d40-8939-ee7284c95d0f</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1056,6 +1063,22 @@
       <File>2933896742/frontend_ru_RU.xml</File>
       <File>2933896742/frontend_pl_PL.xml</File>
       <File>2933896742/frontend_ko_KR.xml</File>
+    </UpdateText>
+    <!-- 2928173382 - LOC_DAL_SONOGAMI_RINNE_NAME-->
+    <UpdateText id="2928173382_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2928173382_FrontEnd</Criteria>
+      <File>2928173382/frontend_en_US.xml</File>
+      <File>2928173382/frontend_fr_FR.xml</File>
+      <File>2928173382/frontend_de_DE.xml</File>
+      <File>2928173382/frontend_it_IT.xml</File>
+      <File>2928173382/frontend_es_ES.xml</File>
+      <File>2928173382/frontend_ja_JP.xml</File>
+      <File>2928173382/frontend_ru_RU.xml</File>
+      <File>2928173382/frontend_pl_PL.xml</File>
+      <File>2928173382/frontend_ko_KR.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -1800,6 +1823,22 @@
       <File>2933896742/ingame_pl_PL.xml</File>
       <File>2933896742/ingame_ko_KR.xml</File>
     </UpdateText>
+    <!-- 2928173382 - LOC_DAL_SONOGAMI_RINNE_NAME-->
+    <UpdateText id="2928173382_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2928173382_InGame</Criteria>
+      <File>2928173382/ingame_en_US.xml</File>
+      <File>2928173382/ingame_fr_FR.xml</File>
+      <File>2928173382/ingame_de_DE.xml</File>
+      <File>2928173382/ingame_it_IT.xml</File>
+      <File>2928173382/ingame_es_ES.xml</File>
+      <File>2928173382/ingame_ja_JP.xml</File>
+      <File>2928173382/ingame_ru_RU.xml</File>
+      <File>2928173382/ingame_pl_PL.xml</File>
+      <File>2928173382/ingame_ko_KR.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -2200,6 +2239,24 @@
     <File>2924695333/ingame_pl_PL.xml</File>
     <File>2924695333/ingame_ru_RU.xml</File>
     <File>2924695333/ingame_zh_Hant_HK.xml</File>
+    <File>2928173382/frontend_de_DE.xml</File>
+    <File>2928173382/frontend_en_US.xml</File>
+    <File>2928173382/frontend_es_ES.xml</File>
+    <File>2928173382/frontend_fr_FR.xml</File>
+    <File>2928173382/frontend_it_IT.xml</File>
+    <File>2928173382/frontend_ja_JP.xml</File>
+    <File>2928173382/frontend_ko_KR.xml</File>
+    <File>2928173382/frontend_pl_PL.xml</File>
+    <File>2928173382/frontend_ru_RU.xml</File>
+    <File>2928173382/ingame_de_DE.xml</File>
+    <File>2928173382/ingame_en_US.xml</File>
+    <File>2928173382/ingame_es_ES.xml</File>
+    <File>2928173382/ingame_fr_FR.xml</File>
+    <File>2928173382/ingame_it_IT.xml</File>
+    <File>2928173382/ingame_ja_JP.xml</File>
+    <File>2928173382/ingame_ko_KR.xml</File>
+    <File>2928173382/ingame_pl_PL.xml</File>
+    <File>2928173382/ingame_ru_RU.xml</File>
     <File>2931262824/frontend_de_DE.xml</File>
     <File>2931262824/frontend_en_US.xml</File>
     <File>2931262824/frontend_es_ES.xml</File>
