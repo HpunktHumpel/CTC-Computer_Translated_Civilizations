@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1684143661</Created>
+    <Created>1684148710</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -316,6 +316,13 @@
     </Criteria>
     <Criteria id="2937984514_InGame">
       <ModInUse>10dd4c16-4763-4464-a340-19944be63f05</ModInUse>
+    </Criteria>
+    <!-- 2933896742 - LOC_DAL_ITSUKA_KOTORI_NAME-->
+    <Criteria id="2933896742_FrontEnd">
+      <ModIsEnabled>4899fbaf-2a1a-4810-90d1-c94003fe00c5</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2933896742_InGame">
+      <ModInUse>4899fbaf-2a1a-4810-90d1-c94003fe00c5</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1033,6 +1040,22 @@
       <File>2937984514/frontend_ru_RU.xml</File>
       <File>2937984514/frontend_pl_PL.xml</File>
       <File>2937984514/frontend_ko_KR.xml</File>
+    </UpdateText>
+    <!-- 2933896742 - LOC_DAL_ITSUKA_KOTORI_NAME-->
+    <UpdateText id="2933896742_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2933896742_FrontEnd</Criteria>
+      <File>2933896742/frontend_en_US.xml</File>
+      <File>2933896742/frontend_fr_FR.xml</File>
+      <File>2933896742/frontend_de_DE.xml</File>
+      <File>2933896742/frontend_it_IT.xml</File>
+      <File>2933896742/frontend_es_ES.xml</File>
+      <File>2933896742/frontend_ja_JP.xml</File>
+      <File>2933896742/frontend_ru_RU.xml</File>
+      <File>2933896742/frontend_pl_PL.xml</File>
+      <File>2933896742/frontend_ko_KR.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -1761,6 +1784,22 @@
       <File>2937984514/ingame_pl_PL.xml</File>
       <File>2937984514/ingame_ko_KR.xml</File>
     </UpdateText>
+    <!-- 2933896742 - LOC_DAL_ITSUKA_KOTORI_NAME-->
+    <UpdateText id="2933896742_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2933896742_InGame</Criteria>
+      <File>2933896742/ingame_en_US.xml</File>
+      <File>2933896742/ingame_fr_FR.xml</File>
+      <File>2933896742/ingame_de_DE.xml</File>
+      <File>2933896742/ingame_it_IT.xml</File>
+      <File>2933896742/ingame_es_ES.xml</File>
+      <File>2933896742/ingame_ja_JP.xml</File>
+      <File>2933896742/ingame_ru_RU.xml</File>
+      <File>2933896742/ingame_pl_PL.xml</File>
+      <File>2933896742/ingame_ko_KR.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -2201,6 +2240,24 @@
     <File>2932334915/ingame_pl_PL.xml</File>
     <File>2932334915/ingame_ru_RU.xml</File>
     <File>2932334915/ingame_zh_Hant_HK.xml</File>
+    <File>2933896742/frontend_de_DE.xml</File>
+    <File>2933896742/frontend_en_US.xml</File>
+    <File>2933896742/frontend_es_ES.xml</File>
+    <File>2933896742/frontend_fr_FR.xml</File>
+    <File>2933896742/frontend_it_IT.xml</File>
+    <File>2933896742/frontend_ja_JP.xml</File>
+    <File>2933896742/frontend_ko_KR.xml</File>
+    <File>2933896742/frontend_pl_PL.xml</File>
+    <File>2933896742/frontend_ru_RU.xml</File>
+    <File>2933896742/ingame_de_DE.xml</File>
+    <File>2933896742/ingame_en_US.xml</File>
+    <File>2933896742/ingame_es_ES.xml</File>
+    <File>2933896742/ingame_fr_FR.xml</File>
+    <File>2933896742/ingame_it_IT.xml</File>
+    <File>2933896742/ingame_ja_JP.xml</File>
+    <File>2933896742/ingame_ko_KR.xml</File>
+    <File>2933896742/ingame_pl_PL.xml</File>
+    <File>2933896742/ingame_ru_RU.xml</File>
     <File>2934144626/frontend_de_DE.xml</File>
     <File>2934144626/frontend_en_US.xml</File>
     <File>2934144626/frontend_es_ES.xml</File>

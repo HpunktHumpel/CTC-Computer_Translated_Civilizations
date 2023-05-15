@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_CAMAEL_NAME" Language="zh_Hans_CN">
+			<Text>灼烂歼鬼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAMAEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>〈炎魔〉五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAMAEL_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>灼烂歼鬼的</Text>
+		</Replace>
+
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_CAMAEL_NAME" Language="zh_Hans_CN">
+			<Text>火焰加护</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_CAMAEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市+10%[ICON_Gold]金币；[ICON_Capital]首都额外+10%[ICON_Gold]金币。所有[ICON_TradeRoute]贸易路线+1[ICON_Gold]金币、你的城市中每多出一名你所创立宗教之信徒再+1[ICON_Gold]金币。[NEWLINE]战略资源+2[ICON_Gold]金币。允许用[ICON_Gold]金币购买区域。[NEWLINE]单位免疫火山爆发的伤害。相邻火山的城市获取新单元格的速度加快、人口增长速度增加100%。此外，火山为相邻的区域提供相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_CAMAEL_VOLCANO_YIELD_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Science]科技值来自火山。</Text>
+		</Replace>
+		<Replace Tag="LOC_CAMAEL_VOLCANO_YIELD_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Culture]文化值来自火山。</Text>
+		</Replace>
+		<Replace Tag="LOC_CAMAEL_VOLCANO_YIELD_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值来自火山。</Text>
+		</Replace>
+		<Replace Tag="LOC_CAMAEL_VOLCANO_YIELD_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自火山。</Text>
+		</Replace>
+		<Replace Tag="LOC_CAMAEL_VOLCANO_YIELD_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Production]生产力来自火山。</Text>
+		</Replace>
+		<Replace Tag="LOC_CAMAEL_VOLCANO_YIELD_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Food]食物来自火山。</Text>
+		</Replace>
+
+		<!-- 领袖 -->
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_BIKINI_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里（船长）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_COMMANDER_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里（司令官）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_HALLOWING_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里（万鬼节）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_KIMONO_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里（庙会）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_MILITARY_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里（军官）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_FUTURISM_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里（潮流）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_MAID_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里（女仆）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITSUKA_KOTORI_SAMURAI_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里（武士）</Text>
+		</Replace>
+
+		<!-- 领袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_NAME" Language="zh_Hans_CN">
+			<Text>神威灵装·五番</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以在沙漠建造农场。每个相邻沙漠或沙漠丘陵单元格为市中心提供+1[ICON_Food]食物。[NEWLINE]绿洲为商业中心提供+1相邻加成。[NEWLINE]区域和奇观可以建设在地热裂隙、火山灰土上。领土内的地热裂隙+1[ICON_Production]生产力、火山灰土+2[ICON_Food]食物。[NEWLINE]每次进入新时代时当前所有城市+1[ICON_Citizen]人口、+1[ICON_Housing]住房，相邻绿洲、地热裂隙或火山的城市+3[ICON_Housing]住房，但是在淡水及海岸旁开拓城市无法提供额外[ICON_Housing]住房。[NEWLINE]游戏进入新时代时可获得一名拉塔托斯克机构的成员。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_BIKINI_NAME" Language="zh_Hans_CN">
+			<Text>维纳斯假期</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_BIKINI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·五番”之外，游戏开场时位于海洋单元格中，陆地单位可以上船并具备进入海洋单元格的能力，开拓者可以在海域建造城市。在开拓第一座城市前每回合+2[ICON_Science]科技值且+2[ICON_Culture]文化值。不会受到洪灾损害。[NEWLINE]商人单位在水域中+50%移动范围，并且能在解锁後立即上船。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_COMMANDER_NAME" Language="zh_Hans_CN">
+			<Text>拉塔托斯克</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_COMMANDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·五番”之外，所有单位攻击时+10[ICON_Strength]战斗力，防御时-5[ICON_Strength]战斗力。远古时代即可获得一名拉塔托斯克机构的成员。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_HALLOWING_NAME" Language="zh_Hans_CN">
+			<Text>杰克南瓜</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_HALLOWING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·五番”之外，本国城市的市民[ICON_Loyalty]忠诚度系数上升，盟友获得部分收益、外邦城市的市民[ICON_Loyalty]忠诚度系数下降，敌方城市效果翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_KIMONO_NAME" Language="zh_Hans_CN">
+			<Text>祭典</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_KIMONO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·五番”之外，幸福感为快乐的城市可额外获得+5%[ICON_Science]科技值。快乐的城市每拥有一个学院则+1[ICON_GreatScientist]大科学家点数。幸福感为狂喜的城市可获得双倍加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_MILITARY_NAME" Language="zh_Hans_CN">
+			<Text>Ｌｏｓ！Ｌｏｓ！Ｌｏｓ！</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_MILITARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·五番”之外，各城市不会生成厌战情绪。拥有驻军单位的城市每回合+3[ICON_Loyalty]忠诚度，若驻军为军团或军队则+5[ICON_Loyalty]忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_FUTURISM_NAME" Language="zh_Hans_CN">
+			<Text>宝物猎人</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_FUTURISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·五番”之外，当军事单位与较先进的单位作战时，+7[ICON_Strength]战斗力，军事单位在研发未来科技时获得强化。解锁可增减时代分数的特色项目。[NEWLINE]从现代之后，每次进入新时代时获得1点行政长官升级。[NEWLINE]获得[ICON_TechBoosted]尤里卡或[ICON_CivicBoosted]天启时额外获得1点时代分数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_MAID_NAME" Language="zh_Hans_CN">
+			<Text>专属女仆</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_MAID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·五番”之外，首都+2%[ICON_Production]生产力。战略资源上的矿井+1[ICON_Production]生产力；加成和奢侈资源上的矿井+2[ICON_Production]生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_SAMURAI_NAME" Language="zh_Hans_CN">
+			<Text>灼烂舞踏祭</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITSUKA_KOTORI_SAMURAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了“神威灵装·五番”之外，拥有其他换装琴里的特性。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_KOTORI_OASIS_COMMERCIAL_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自相邻绿洲单元格。</Text>
+		</Replace>
+
+		<!-- 领袖议程 -->
+		<Replace Tag="LOC_AGENDA_ITSUKA_KOTORI_NAME" Language="zh_Hans_CN">
+			<Text>丝绸之路</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ITSUKA_KOTORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会尽量设法开疆扩土。讨厌控制狭小领土的文明。[NEWLINE]会尽可能多地拓展[ICON_TradeRoute]贸易路线。喜欢与之进行贸易的文明，讨厌不进行贸易的文明。[NEWLINE]对此领袖生成的怨气会以双倍速度减少。</Text>
+		</Replace>
+
+		<!-- 特色项目 -->
+		<Replace Tag="LOC_PROJECT_KOTORI_CAMAEL_NAME" Language="zh_Hans_CN">
+			<Text>灼烂歼鬼</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KOTORI_CAMAEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当前军事单位获得以下能力：[NEWLINE]{LOC_ABILITY_KOTORI_CAMAEL_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTORI_CAMAEL_NAME" Language="zh_Hans_CN">
+			<Text>灼烂歼鬼</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTORI_CAMAEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>受伤害时，不会遭受战斗减益。＼攻击时+10[ICON_Strength]战斗力，防御时-5[ICON_Strength]战斗力。＼在每回合结束时，甚至是在移动或攻击後，仍可恢复。＼受伤的军事单位每回合恢复33点生命值，但是回合开始时受到3点伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KOTORI_CAMAEL_MEGIDDO_NAME" Language="zh_Hans_CN">
+			<Text>灼烂歼鬼．炮</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KOTORI_CAMAEL_MEGIDDO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对所有敌对文明距离最接近的都市炮击，使其失去[ICON_Citizen]人口。路径上所有单位受到伤害、并留下火山灰土。</Text>
+		</Replace>
+
+		<!-- 特色单位 -->
+		<Replace Tag="LOC_UNIT_KOTORI_FRAXINUS_NAME" Language="zh_Hans_CN">
+			<Text>佛拉克西纳斯</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_FRAXINUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>五河琴里特色超级单位，取代航空母舰。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_FRAXINUSEX_NAME" Language="zh_Hans_CN">
+			<Text>佛拉克西纳斯EX</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_FRAXINUSEX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>司令官琴里特色超级单位，取代航空母舰。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_FRAXINUS_R_NAME" Language="zh_Hans_CN">
+			<Text>佛拉克西纳斯（拉塔托斯克）</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_FRAXINUS_R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>五河琴里特色超级单位，取代航空母舰。遭击杀时将保留1点生命值并撤退至[ICON_Capital]首都。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_SAMURAI_NAME" Language="zh_Hans_CN">
+			<Text>灼烂歼鬼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_SAMURAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>五河琴里特色近战单位，拥有独特强化树。[NEWLINE]受伤害时，不会遭受战斗减益。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_UNFAILING_FORTITUDE_NAME" Language="zh_Hans_CN">
+			<Text>坚毅</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_UNFAILING_FORTITUDE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与强化防御单位战斗时+7[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_SHOGUNS_CHOSENS_NAME" Language="zh_Hans_CN">
+			<Text>将军之选</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_SHOGUNS_CHOSENS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>双倍支持加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_WINDS_OF_CHANGE_NAME" Language="zh_Hans_CN">
+			<Text>变化之风</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_WINDS_OF_CHANGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1[ICON_Movement]移动力；丘陵仅消耗1点[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_ONI_MASKS_NAME" Language="zh_Hans_CN">
+			<Text>鬼面</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_ONI_MASKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>两单元格内的敌方单位-4[ICON_Strength]战斗力。[NEWLINE]攻击时额外+4[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_GENJIS_ARMORS_NAME" Language="zh_Hans_CN">
+			<Text>源氏之铠</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_GENJIS_ARMORS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当防御远程攻击时+7[ICON_Strength]战斗力。[NEWLINE]在所有地形的恢复量+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_ANCESTRAL_BLADES_NAME" Language="zh_Hans_CN">
+			<Text>祖传宝刃</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_ANCESTRAL_BLADES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在所有情况下+7[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_TWOSWORDS_SCHOOL_NAME" Language="zh_Hans_CN">
+			<Text>二刀流</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KOTORI_SAMURAI_TWOSWORDS_SCHOOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果[ICON_Movement]移动力允许，每回合+1额外攻击。可以在攻击之后移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_KOTORI_SAMURAI_AGAINST_FORTIFIED_PREV" Language="zh_Hans_CN">
+			<Text>+7 与具有更高基础战斗力的单位作战</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_KOTORI_SAMURAI_DEBUFF_MODIFIER_PREV" Language="zh_Hans_CN">
+			<Text>-4 此单位的道德受到其敌人所戴的邪恶的面具的影响。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_KOTORI_SAMURAI_ATTACKER_BONUS_PREV" Language="zh_Hans_CN">
+			<Text>+4 这些武士配戴的鬼面具在攻击时威吓脆弱的心灵。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_KOTORI_SAMURAI_COMBAT_BONUS_PREV" Language="zh_Hans_CN">
+			<Text>+7 这些武士装备的祖传武器具有出色的轻便性、可靠性和锋利性。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_KOTORI_SAMURAI_AGAINST_RANGED_PREV" Language="zh_Hans_CN">
+			<Text>+7 这些武士的高品质盔甲成为对远程攻击的可靠保护。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_PITATI_NAME" Language="zh_Hans_CN">
+			<Text>炽焱弓箭手</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_PITATI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>军官琴里特色远古时代远程单位，取代弓箭手。[NEWLINE][ICON_Movement]移动力多于弓箭手。从战斗获得的经验值+50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTORI_PITATI_NAME" Language="zh_Hans_CN">
+			<Text>塔赛提</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTORI_PITATI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从战斗获得的经验值+50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_MEDJAY_NAME" Language="zh_Hans_CN">
+			<Text>炽焱卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_MEDJAY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>万鬼节琴里特色近战单位。[NEWLINE]拥有武僧强化树。如果位于圣地附近的友方领土内，将拥有大量战斗加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTORI_MEDJAY_NAME" Language="zh_Hans_CN">
+			<Text>麦迪亚</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTORI_MEDJAY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>相邻於圣地神社时+20[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KOTORI_MEDJAY_MODIFIER" Language="zh_Hans_CN">
+			<Text>+{1_Value} 位于圣地附近的友方领土内</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_PRIESTESS_NAME" Language="zh_Hans_CN">
+			<Text>炽焱祭司</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOTORI_PRIESTESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>女仆琴里特色支持单位，取代医疔兵。[NEWLINE]能治愈邻近单位。还能建造一座神塔、狮身人面像或金字塔。</Text>
+		</Replace>
+
+		<!-- 特色区域、建筑 -->
+		<Replace Tag="LOC_BUILDING_KOTORI_NILOMETER_NAME" Language="zh_Hans_CN">
+			<Text>炽焱水位计</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_NILOMETER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>船长琴里特色建筑，取代防洪堤。[NEWLINE]保护此城市的海岸低地与河川沿岸泛滥平原单元格不受泛滥威胁。初始的建造费用和每回合维护费用会根据此城市的海岸低地数量和当前海平面高度而定。若在城市单元格遭到洪灾之后建造，将能完整修复这些单元格。但淹没的单元格无法恢复。[NEWLINE]所有泛滥平原单元格+1[ICON_Food]食物和+1[ICON_Production]生产力。[NEWLINE]必须建造在拥有一个或多个海岸低地单元格的城市中。若城市遭到占领将不会受到掠夺。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KOTORI_HOLY_SITE_NAME" Language="zh_Hans_CN">
+			<Text>炽焱圣地</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KOTORI_HOLY_SITE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>庙会琴里特色区域，取代圣地且造价更为低廉。[NEWLINE]你城市里的替代宗教祭祀区。</Text>
+		</Replace>
+		<Replace Tag="LOC_KOTORI_WONDER_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值，来自相邻奇观。</Text>
+		</Replace>
+		<Replace Tag="LOC_KOTORI_RIVER_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值，来自相邻河流。</Text>
+		</Replace>
+		<Replace Tag="LOC_KOTORI_OASIS_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值，来自相邻绿洲。</Text>
+		</Replace>
+		<Replace Tag="LOC_KOTORI_GEOTHERMAL_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值，来自相邻地热裂隙。</Text>
+		</Replace>
+		<Replace Tag="LOC_KOTORI_VOLCANO_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值，来自相邻火山。</Text>
+		</Replace>
+		<Replace Tag="LOC_KOTORI_VOLCANIC_SOIL_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值，来自相邻火山灰土。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_OBELISK_NAME" Language="zh_Hans_CN">
+			<Text>炽焱方尖碑</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_OBELISK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>庙会琴里特色建筑，取代神社。[NEWLINE]允许使用[ICON_Faith]信仰值购买建造者与传教士。[NEWLINE]不会被天灾掠夺。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_OBELISK_HEROS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>庙会琴里特色建筑，取代神社。[NEWLINE]允许使用[ICON_Faith]信仰值购买建造者与传教士。[NEWLINE]不会被天灾掠夺。[NEWLINE]在此城市中获得或召回的英雄单位拥有额外10%的[ICON_Lifespan]寿命。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_SHRINE_NAME" Language="zh_Hans_CN">
+			<Text>炽焱神社</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_SHRINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>庙会琴里特色建筑，取代寺庙。[NEWLINE]允许使用[ICON_Faith]信仰值购买开拓者、使徒、上师和审判官，如果拥有相应信仰还可购买武僧。[NEWLINE]自建造或修复的时代起，每进入一个新时代便额外+1[ICON_Faith]信仰值。不会被天灾掠夺。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_SHRINE_HEROS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>庙会琴里特色建筑，取代寺庙。[NEWLINE]允许使用[ICON_Faith]信仰值购买开拓者、使徒、上师和审判官，如果拥有相应信仰还可购买武僧。[NEWLINE]自建造或修复的时代起，每进入一个新时代便额外+1[ICON_Faith]信仰值。不会被天灾掠夺。[NEWLINE]此城市中召回英雄将减少15%的[ICON_Faith]信仰值消耗。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_TEMPLE_NAME" Language="zh_Hans_CN">
+			<Text>炽焱神庙</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>庙会琴里特色建筑，取代祭祀建筑，选择崇拜的信仰时获得对应强化。[NEWLINE]每[ICON_Citizen]人口提供0.6[ICON_Production]生产力。解锁科技“学徒”之后+1[ICON_GreatEngineer]大工程师点数。自建造或修复的时代起，每进入一个新时代便额外+2[ICON_Faith]信仰值。[NEWLINE]不会被天灾掠夺。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_TEMPLE_HEROS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>庙会琴里特色建筑，取代祭祀建筑，选择崇拜的信仰时获得对应强化。[NEWLINE]每[ICON_Citizen]人口提供0.6[ICON_Production]生产力。解锁科技“学徒”之后+1[ICON_GreatEngineer]大工程师点数。自建造或修复的时代起，每进入一个新时代便额外+2[ICON_Faith]信仰值。[NEWLINE]不会被天灾掠夺。[NEWLINE]此城市中召回英雄将减少15%的[ICON_Faith]信仰值消耗。</Text>
+		</Replace>
+
+		<!-- 特色改良 -->
+		<Replace Tag="LOC_IMPROVEMENT_KOTORI_ZIGGURAT_NAME" Language="zh_Hans_CN">
+			<Text>炽焱神塔</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KOTORI_ZIGGURAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>五河琴里特色建筑。[NEWLINE][NEWLINE]+1[ICON_Science]科技值、+1[ICON_Culture]文化值。如果位于沙漠，+1[ICON_Faith]信仰值。相邻单元格+1[ICON_Faith]信仰值。无法建在另一个神塔旁。能够建在泛滥平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KOTORI_SPHINX_NAME" Language="zh_Hans_CN">
+			<Text>炽焱狮身人面像</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KOTORI_SPHINX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>五河琴里特色建筑。[NEWLINE][NEWLINE]+1[ICON_Faith]信仰值、+1[ICON_Culture]文化值。如果位于沙漠，+1[ICON_Science]科技值。相邻单元格+1[ICON_Gold]金币。+1[ICON_Appeal]魅力。如果与一个奇观相邻，+2[ICON_Faith]信仰值、+1[ICON_Culture]文化值。无法建在另一个狮身人面像旁。能够建在泛滥平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KOTORI_PYRAMID_NAME" Language="zh_Hans_CN">
+			<Text>炽焱金字塔</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KOTORI_PYRAMID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>五河琴里特色建筑。[NEWLINE][NEWLINE]+1[ICON_Faith]信仰值、+1[ICON_Food]食物。如果位于沙漠，+1[ICON_Culture]文化值。如与区域相邻，则将获得额外收益。每与一座市中心相邻，则+1[ICON_Food]食物。对于所有其他赋予相邻加成的区域：如果与该区域相邻，相应收益+1。无法建在另一个金字塔旁。能够建在泛滥平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KOTORI_FIELD_CAMP_NAME" Language="zh_Hans_CN">
+			<Text>炽焱野战营地</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KOTORI_FIELD_CAMP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>军官琴里特色建筑。[NEWLINE][NEWLINE]占领单位+2[ICON_Strength]防御力，自动获得两回合防御工事，并对所有单位提供治疔。</Text>
+		</Replace>
+
+		<!-- 天然气 -->
+		<Replace Tag="LOC_RESOURCE_CAMAEL_GAS_NAME" Language="zh_Hans_CN">
+			<Text>烈焰之炽焱</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_GAS_POWER_PLANT_NAME" Language="zh_Hans_CN">
+			<Text>炽焱火力发电厂</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTORI_GAS_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>自动将任何数量的[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}转化为[ICON_Power]电力，并为6单元格范围内的城市供电，比率为：[NEWLINE][ICON_Bullet]1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}[ICON_PowerRight]5点[ICON_Power]电力。[NEWLINE][ICON_Bullet]会排放少量二氧化碳至大气中[NEWLINE]其[ICON_Production]生产力加成可延展至6单元格范围内所有未获得发电厂建筑加成之市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CAMAEL_GASWELL_NAME" Language="zh_Hans_CN">
+			<Text>炽焱采集站</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CAMAEL_GASWELL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>灼烂歼鬼特色改良设施。[NEWLINE]-1[ICON_Appeal]魅力。只能建在有[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}资源的陆地单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KOTORI_CONVERT_REACTOR_TO_GAS_NAME" Language="zh_Hans_CN">
+			<Text>转为使用{LOC_RESOURCE_CAMAEL_GAS_NAME}供电</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KOTORI_CONVERT_REACTOR_TO_GAS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除役此城市当前使用的发电厂，并且以{LOC_BUILDING_KOTORI_GAS_POWER_PLANT_NAME}取代之。[NEWLINE][NEWLINE]{LOC_BUILDING_KOTORI_GAS_POWER_PLANT_NAME}:[NEWLINE]{LOC_BUILDING_KOTORI_GAS_POWER_PLANT_DESCRIPTION}</Text>
+		</Replace>
+
+		<!-- 拉塔托斯克 -->
+		<Replace Tag="LOC_CIVILIZATION_RATATOSKR_NAME" Language="zh_Hans_CN">
+			<Text>拉塔托斯克</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RATATOSKR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为了与精灵对话、企求以和平的手段解决空间震所生成的灾害而集结成的神秘组织。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_RATATOSKR_NAME" Language="zh_Hans_CN">
+			<Text>拉塔托斯克</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_RATATOSKR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_TechBoosted]尤里卡和[ICON_CivicBoosted]天启提供的市政和科技增加5％。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RATATOSKR_CREW_NAME" Language="zh_Hans_CN">
+			<Text>拉塔托斯克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RATATOSKR_CREW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>司令官琴里特色伟人。每人都有独特的能力，包含一种被动效果，以及一种隐退效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_KYOUHEI_KANNAZUKI_NAME" Language="zh_Hans_CN">
+			<Text>神无月恭平</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_KYOUHEI_KANNAZUKI_ACTION" Language="zh_Hans_CN">
+			<Text>副司令</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_GRANT_FRAXINUS_KAN_SUMMARY" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次强化等级的特殊版本的佛拉克西纳斯。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_KYOUJI_KAWAGOE_NAME" Language="zh_Hans_CN">
+			<Text>川越恭次</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_KYOUJI_KAWAGOE_ACTION" Language="zh_Hans_CN">
+			<Text>迅速进入倦怠期</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_GOLD_SUMMARY" Language="zh_Hans_CN">
+			<Text>获得每时代100点[ICON_Gold]金币（在标准游戏速度下）。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_MASAOMI_MIKIMOTO_NAME" Language="zh_Hans_CN">
+			<Text>干本雅臣</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_MASAOMI_MIKIMOTO_ACTION" Language="zh_Hans_CN">
+			<Text>社长</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_SHACHOSAN_TRADE_SUMMARY" Language="zh_Hans_CN">
+			<Text>增加1个[ICON_TradeRoute]贸易路线容量。赋予最近的城市1个商人单位。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_HINAKO_SHIIZAKI_NAME" Language="zh_Hans_CN">
+			<Text>椎崎雏子</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_HINAKO_SHIIZAKI_ACTION" Language="zh_Hans_CN">
+			<Text>诅咒娃娃</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_NAIL_KNOCKER_DAMAGE_SUMMARY" Language="zh_Hans_CN">
+			<Text>2单元格范围内的敌方单位损失30点生命值。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_MUNECHIKA_NAKATSUGAWA_NAME" Language="zh_Hans_CN">
+			<Text>中津川宗近</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_MUNECHIKA_NAKATSUGAWA_ACTION" Language="zh_Hans_CN">
+			<Text>次元穿越者</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_SCIENCE_SUMMARY" Language="zh_Hans_CN">
+			<Text>获得每时代50点[ICON_Science]科技值与[ICON_Culture]文化值（在标准游戏速度下）。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_KOZUE_MINOWA_NAME" Language="zh_Hans_CN">
+			<Text>箕轮梢</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_KOZUE_MINOWA_ACTION" Language="zh_Hans_CN">
+			<Text>保护观察处分</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_DEEP_LOVE_DIPLO_VISIBILITY_SUMMARY" Language="zh_Hans_CN">
+			<Text>对所有其他文明的外交能见度+{Amount}等级。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_ELLIOT_BALDWIN_WOODMAN_NAME" Language="zh_Hans_CN">
+			<Text>艾略特·鲍德温·伍德曼</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_ELLIOT_BALDWIN_WOODMAN_ACTION" Language="zh_Hans_CN">
+			<Text>拉塔托斯克</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_RESET_UNIT_MOVES_SUMMARY" Language="zh_Hans_CN">
+			<Text>2单元格范围内的所有陆地战斗单位重新获得所有[ICON_Movement]移动力以及攻击能力。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_KAREN_NORA_MATHERS_NAME" Language="zh_Hans_CN">
+			<Text>嘉莲·诺拉·梅瑟斯</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_KAREN_NORA_MATHERS_ACTION" Language="zh_Hans_CN">
+			<Text>秘书</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_CITY_STATE_STEAL_ENVOYS_SUMMARY" Language="zh_Hans_CN">
+			<Text>赋予足够的[ICON_Envoy]使者，让你成为此城邦的宗主国。然后移除其他所有玩家的[ICON_Envoy]使者。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_MARIA_NAME" Language="zh_Hans_CN">
+			<Text>玛莉亚</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_MARIA_ACTION" Language="zh_Hans_CN">
+			<Text>人工智能</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_GOVERNOR_POINTS_SUMMARY" Language="zh_Hans_CN">
+			<Text>授予1个[ICON_Governor]行政长官职称，或者招募一位新的[ICON_Governor]行政长官。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RATATOSKR_REINE_MURASAME_NAME" Language="zh_Hans_CN">
+			<Text>村雨令音</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_REINE_MURASAME_ACTION" Language="zh_Hans_CN">
+			<Text>医护官</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_HEAL_LAND_UNITS_SUMMARY" Language="zh_Hans_CN">
+			<Text>把相邻敌方军事单位转到你的控制之下。完全治愈2单元格范围内的所有陆地战斗单位。每回合提供1点[ICON_Resource_Camael_Gas]{LOC_RESOURCE_CAMAEL_GAS_NAME}。</Text>
+		</Replace>
+		<Replace Tag="LOC_RATATOSKR_COMBAT_STRENGTH_AOE_SUMMARY" Language="zh_Hans_CN">
+			<Text>类似大将军：在两个单元格以内，陆地单位+5[ICON_Strength]战斗力。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -48,6 +48,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2924695333](https://steamcommunity.com/sharedfiles/filedetails/?id=2924695333) | 天有烘炉,地生五金 | There is an oven in the sky, hardware from the earth |
 | [2931262824](https://steamcommunity.com/sharedfiles/filedetails/?id=2931262824) | 诸葛亮领导的中国文明 | Chinese civilization led by Zhuge Liang |
 | [2932334915](https://steamcommunity.com/sharedfiles/filedetails/?id=2932334915) | 东方TOUHOU PROJECT  八云紫和八云蓝 | Touhou TOUHOU PROJECT Yakumo Purple and Yakumo Blue |
+| [2933896742](https://steamcommunity.com/sharedfiles/filedetails/?id=2933896742) | Date.A.Live-ItsukaKotori Reloaded | Date.A.Live-ItsukaKotori Reloaded |
 | [2934144626](https://steamcommunity.com/sharedfiles/filedetails/?id=2934144626) | 永不落幕的支配剧场 | Never Ending Theater of Domination |
 | [2935800893](https://steamcommunity.com/sharedfiles/filedetails/?id=2935800893) | 冯杉领导的Gary王国 | Gary Kingdom led by Feng Shan |
 | [2937984514](https://steamcommunity.com/sharedfiles/filedetails/?id=2937984514) | Date.A.Live-YamaiSisters Reloaded | Date.A.Live-YamaiSisters Reloaded |
