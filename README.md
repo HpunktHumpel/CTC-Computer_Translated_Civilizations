@@ -70,6 +70,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2966535122](https://steamcommunity.com/sharedfiles/filedetails/?id=2966535122) | [GS] 鍜曞挄鐜嬪浗(EN/CN) | Shu Shu Qiao Qiu Qiao |
 | [2966634919](https://steamcommunity.com/sharedfiles/filedetails/?id=2966634919) | 타카나시 호시노의 아비도스 고등학교 | Abydos High School in Hoshino, Takanashi |
 | [2967044884](https://steamcommunity.com/sharedfiles/filedetails/?id=2967044884) | 白吉康领导的lance帝国 | The Lance Empire led by Bai Jikang |
+| [2967088856](https://steamcommunity.com/sharedfiles/filedetails/?id=2967088856) | Wish star and her leader mare and yume | Wish star and her leader mare and yume |
 | [2967771068](https://steamcommunity.com/sharedfiles/filedetails/?id=2967771068) | 罗德岛的华法琳Warfarin_Civilization Arknights-明日方舟 | Warfarin Warfarin_Civilization Arknights in Rhode Island - Ark of Tomorrow |
 | [2967861720](https://steamcommunity.com/sharedfiles/filedetails/?id=2967861720) | 나츠메 이로하의 게헨나 학원 | Gehenna Gakuen in Natsume Iroha |
 | [2970750119](https://steamcommunity.com/sharedfiles/filedetails/?id=2970750119) | Ophidy's Solisia 远古回响索利西亚 | Ophidy's Solisia echoes in ancient times|
