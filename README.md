@@ -60,6 +60,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2940769424](https://steamcommunity.com/sharedfiles/filedetails/?id=2940769424) | Date.A.Live-IzayoiMiku Reloaded | Date.A.Live-IzayoiMiku Reloaded |
 | [2948711698](https://steamcommunity.com/sharedfiles/filedetails/?id=2948711698) | 丁真领导的理塘文明——役赢丁真，鉴定为以！武！服人 | The Litang Civilization led by Ding Zhen——Yong Ying Ding Zhen, appraised for it! Wu! convincing |
 | [2949093921](https://steamcommunity.com/sharedfiles/filedetails/?id=2949093921) | 郑俊飚领导的Bell王国 | The Kingdom of Bell led by Zheng Junbiao |
+| [2952653308](https://steamcommunity.com/sharedfiles/filedetails/?id=2952653308) | Night Country and leader Kuro | Night Country and leader Kuro |
 | [2955421341](https://steamcommunity.com/sharedfiles/filedetails/?id=2955421341) | Date.A.Live-Mayuri Reloaded | Date.A.Live-Mayuri Reloaded |
 | [2956947156](https://steamcommunity.com/sharedfiles/filedetails/?id=2956947156) | Touhou东方Project 琪露诺 | Touhou Oriental Project |
 | [2957344985](https://steamcommunity.com/sharedfiles/filedetails/?id=2957344985) | 逆熵圣女·布洛妮娅·扎伊切克 | Anti-Entropy Saint Bronya Zajcek |

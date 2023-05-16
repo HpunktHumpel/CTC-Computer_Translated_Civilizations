@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7b81b8b5-9652-4240-957f-17e9e9a4a8cd" version="1">
+  <Properties>
+    <Name>YEZHIGUO</Name>
+    <Description>夜之国是一个充满魔法与美好的地方</Description>
+    <Created>1680346233</Created>
+    <Teaser>this is a mod of さくら、もゆ。-as the Night's,Reincarnation-</Teaser>
+    <Authors>Smallknife</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>YEZHIGUO_config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>YEZHIGUO_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>YEZHIGUO_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>YEZHIGUO.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>YEZHIGUO_Modifier.sql</File>
+      <File>YEZHIGUO_Building.xml</File>
+      <File>YEZHIGUO_config.xml</File>
+      <File>YEZHIGUO_Civilizations.xml</File>
+      <File>YEZHIGUO_unit.xml</File>
+      <File>YEZHIGUO_Leader.xml</File>
+      <File>YEZHIGUOMomentIllustrations.xml</File>
+      <File>unitnengli.lua</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>YEZHIGUO_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>YEZHIGUO_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>YEZHIGUO.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="Audio">
+      <File>Platforms/Windows/Audio/155300502.wem</File>
+      <File>Platforms/Windows/Audio/674114208.wem</File>
+      <File>Platforms/Windows/Audio/883904743.wem</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/SB_Text.bnk</File>
+      <File>Platforms/Windows/Audio/SB_Text.txt</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+      <File>Platforms/Windows/Audio/test_audio.ini</File>
+      <File>Platforms/Windows/Audio/TestAudio.xml</File>
+      <File>Platforms/Windows/Audio/TestAudio.lua</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/DDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/Audio/155300502.wem</File>
+    <File>Platforms/Windows/Audio/674114208.wem</File>
+    <File>Platforms/Windows/Audio/883904743.wem</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SB_Text.bnk</File>
+    <File>Platforms/Windows/Audio/SB_Text.txt</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/Audio/TestAudio.lua</File>
+    <File>Platforms/Windows/Audio/TestAudio.xml</File>
+    <File>Platforms/Windows/Audio/test_audio.ini</File>
+    <File>Platforms/Windows/BLPs/DDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>unitnengli.lua</File>
+    <File>YEZHIGUO.dep</File>
+    <File>YEZHIGUO2.Art.xml</File>
+    <File>YEZHIGUOMomentIllustrations.xml</File>
+    <File>YEZHIGUO_Building.xml</File>
+    <File>YEZHIGUO_Civilizations.xml</File>
+    <File>YEZHIGUO_config.xml</File>
+    <File>YEZHIGUO_icon.xml</File>
+    <File>YEZHIGUO_Leader.xml</File>
+    <File>YEZHIGUO_Modifier.sql</File>
+    <File>YEZHIGUO_text.xml</File>
+    <File>YEZHIGUO_unit.xml</File>
+  </Files>
+</Mod>
