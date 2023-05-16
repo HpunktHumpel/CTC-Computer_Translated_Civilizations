@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Tue May 16 02:07:56 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_LUCIFUGE_NAME" Language="ja_JP">
+			<Text>狂った皇帝</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LUCIFUGE_DESCRIPTION" Language="ja_JP">
+			<Text>&lt;女王&gt; 白の女王</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LUCIFUGE_ADJECTIVE" Language="ja_JP">
+			<Text>マッドエンペラーの</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_ROOK_NAME" Language="ja_JP">
+			<Text>城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_ROOK_DESCRIPTION" Language="ja_JP">
+			<Text>&lt;役員&gt; 城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_ROOK_ADJECTIVE" Language="ja_JP">
+			<Text>城の</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_KNIGHT_NAME" Language="ja_JP">
+			<Text>騎士</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_KNIGHT_DESCRIPTION" Language="ja_JP">
+			<Text>(将校) 騎士</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_KNIGHT_ADJECTIVE" Language="ja_JP">
+			<Text>騎士の</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_BISHOP_NAME" Language="ja_JP">
+			<Text>司教</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_BISHOP_DESCRIPTION" Language="ja_JP">
+			<Text>（役人）司教</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_BISHOP_ADJECTIVE" Language="ja_JP">
+			<Text>司教の</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LUCIFUGE_NAME" Language="ja_JP">
+			<Text>クイーンズフィールド</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LUCIFUGE_DESCRIPTION" Language="ja_JP">
+			<Text>特徴的な戦略リソース [ICON_Resource_Queen_Spirit] の霊力を解放し、[ICON_Resource_Queen_Spirit] の霊力を使用した一連の特別プロジェクトをアンロックします。 [NEWLINE]開拓者を生み出すことはできませんが、変容した空虚が都市を切り開くことはできます。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_QUEEN_CHESS_NAME" Language="ja_JP">
+			<Text>サソリの弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_QUEEN_ROOK_DESCRIPTION" Language="ja_JP">
+			<Text>空の&lt;城&gt;のロックを解除し、対応する[ICON_Resource_Queen_Spirit]の精霊の力を提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_QUEEN_KNIGHT_DESCRIPTION" Language="ja_JP">
+			<Text>空の&lt;ナイト&gt;のロックを解除し、対応する[ICON_Resource_Queen_Spirit]の霊力を提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_QUEEN_BISHOP_DESCRIPTION" Language="ja_JP">
+			<Text>空の&lt;bishop&gt;のロックを解除し、対応する[ICON_Resource_Queen_Spirit]の霊力を提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_NAME" Language="ja_JP">
+			<Text>狂った皇帝</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムには次の効果があります: [NEWLINE][NEWLINE]
+牡羊座の弾丸: {LOC_PROJECT_LUCIFUGE_ARIES_DESCRIPTION}[NEWLINE]
+トーラスの剣: {LOC_PROJECT_LUCIFUGE_TAURUS_DESCRIPTION}[NEWLINE]
+ジェミニ バレット: {LOC_PROJECT_LUCIFUGE_GEMINI_DESCRIPTION}[NEWLINE]
+キャンサー ソード: {LOC_PROJECT_LUCIFUGE_CANCER_DESCRIPTION}[NEWLINE]
+ライオンの弾丸: {LOC_PROJECT_LUCIFUGE_LEO_DESCRIPTION}[NEWLINE]
+乙女剣: {LOC_PROJECT_LUCIFUGE_VIRGO_DESCRIPTION}[NEWLINE]
+天秤座の弾丸: {LOC_PROJECT_LUCIFUGE_LIBRA_DESCRIPTION}[NEWLINE]
+蠍座の弾丸: {LOC_PROJECT_LUCIFUGE_SCORPIO_DESCRIPTION}[NEWLINE]
+射手の剣: {LOC_PROJECT_LUCIFUGE_SAGITTARIUS_DESCRIPTION}[NEWLINE]
+山羊座の弾丸: {LOC_PROJECT_LUCIFUGE_CAPRICORN_DESCRIPTION}[NEWLINE]
+アクエリアスの弾丸: {LOC_PROJECT_LUCIFUGE_AQUARIUS_DESCRIPTION}[NEWLINE]
+魚座の弾丸: {LOC_PROJECT_LUCIFUGE_PISCES_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_ARIES_NAME" Language="ja_JP">
+			<Text>マッドエンペラー: 牡羊座の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_ARIES_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムには [ICON_Resource_Queen_Spirit] の精神力が必要で、現在のすべての軍事ユニットの戦闘力 +7 [ICON_Strength] (9 ラウンド持続) が必要です。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_ARIES_DESCRIPTION" Language="ja_JP">
+			<Text>+7[ICON_Strength]の戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_ARIES_PREV" Language="ja_JP">
+			<Text>+7[ICON_Strength] 戦闘力は牡羊座の弾丸から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_TAURUS_NAME" Language="ja_JP">
+			<Text>マッドエンペラー: おうし座の剣</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_TAURUS_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特性プロジェクトは[ICON_Resource_Queen_Spirit]の霊力を必要とし、保有する余剰贅沢資源とこの都市の資源に応じて生産量を得ることができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_GEMINI_NAME" Language="ja_JP">
+			<Text>マッドエンペラー: ツインバレット</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_GEMINI_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特性アイテムには [ICON_Resource_Queen_Spirit] の霊力が必要です 現在都市の領土にある虚空は兵士にアップグレードされます 虚空が存在しない場合は虚空を取得します</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CANCER_NAME" Language="ja_JP">
+			<Text>マッドエンペラー：ソード・オブ・キャンサー</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CANCER_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムには [ICON_Resource_Queen_Spirit] の霊力が必要で、空のユニットはすべて次の戦闘で追加ダメージを与えます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_CANCER_DESCRIPTION" Language="ja_JP">
+			<Text>2つのコンボ。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_CANCER_PREV" Language="ja_JP">
+			<Text>2コンボ！</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_LEO_NAME" Language="ja_JP">
+			<Text>マッドエンペラー 獅子の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_LEO_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムには、大量破壊兵器であるライオンの弾丸をあなたの国有財産に追加するために [ICON_Resource_Queen_Spirit] の精神的な力が必要です。</Text>
+		</Replace>
+		<Replace Tag="LOC_WMD_QUEEN_LEO_NAME" Language="ja_JP">
+			<Text>ライオンの弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_VIRGO_NAME" Language="ja_JP">
+			<Text>マッドエンペラー 乙女剣</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_VIRGO_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特徴的なプロジェクトは、この都市自体と周囲の都市に広がる忠誠圧力を高めるために [ICON_Resource_Queen_Spirit] の精神的な力を必要とします。戦争をしている国は和平を強制され、他の国は友好国を宣言することを強制されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_LIBRA_NAME" Language="ja_JP">
+			<Text>マッドエンペラー: 天秤座の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_LIBRA_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムには [ICON_Resource_Queen_Spirit] の精神力が必要で、すべての空のユニットは非致死ダメージを 1 回反射できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_LIBRA_DESCRIPTION" Language="ja_JP">
+			<Text>非致死ダメージを1回反射する。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_LIBRA_PREV" Language="ja_JP">
+			<Text>反射！</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_NAME" Language="ja_JP">
+			<Text>マッドエンペラー：蠍座の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIOX_NAME" Language="ja_JP">
+			<Text>マッドエンペラー: 八蠍の弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特性アイテムには[ICON_Resource_Queen_Spirit]の霊力が必要で、現在都市領内にいる空いている&lt;兵士&gt;を幹部に昇格させ、兵士がいない場合は兵士を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_ROOK_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特性アイテムには[ICON_Resource_Queen_Spirit]の霊力が必要で、現在都市の領土にある空の&lt;兵士&gt;は戦車にアップグレードされ、兵士がいない場合は兵士が獲得されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_KNIGHT_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムには [ICON_Resource_Queen_Spirit] の霊力が必要です。現在都市の領土に配置されている空の &lt;兵士&gt; が騎士にアップグレードされます。兵士がいない場合は兵士が獲得されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_BISHOP_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムには [ICON_Resource_Queen_Spirit] の霊力が必要です。都市の領土に現在いる空の &lt;兵士&gt; はビショップにアップグレードされます。兵士がいない場合は兵士が獲得されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_QUEEN_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムには [ICON_Resource_Queen_Spirit] の霊力が必要です。現在都市の領土に配置されている空の &lt;兵士&gt; が女王にアップグレードされます。兵士がいない場合は兵士が獲得されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SAGITTARIUS_NAME" Language="ja_JP">
+			<Text>マッドエンペラー: アーチャーの剣</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SAGITTARIUS_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特性アイテムは、現在都市の領土にいるすべての敵ユニットを国の首都に送り返すために[ICON_Resource_Queen_Spirit]の精神的な力を必要とします。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_NAME" Language="ja_JP">
+			<Text>マッドエンペラー: カプリコーン・バレット</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムは、軍事/経済/外交政策スロットを一般政策スロットに変換するために [ICON_Resource_Queen_Spirit] の霊力を必要とします。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_I_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムは、軍事政策スロットを一般政策スロットに変換するために [ICON_Resource_Queen_Spirit] の霊力を必要とします。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_II_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特性アイテムは、経済政策スロットを一般政策スロットに変換するために[ICON_Resource_Queen_Spirit]の霊力を必要とします。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_III_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特別なアイテムは、外交政策スロットを一般政策スロットに変換するために [ICON_Resource_Queen_Spirit] の霊力を必要とします。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_AQUARIUS_NAME" Language="ja_JP">
+			<Text>マッドエンペラー：アクエリアスの弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_AQUARIUS_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特性アイテムは [ICON_Resource_Queen_Spirit] の霊力を必要とし、現在都市の領土に配置されている軍事ユニットはラウンド開始時に 11 ポイントの体力を回復し、9 ラウンド持続します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_AQUARIUS_DESCRIPTION" Language="ja_JP">
+			<Text>ターン開始時にHPを11回復。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_PISCES_NAME" Language="ja_JP">
+			<Text>マッドエンペラー: ピスケス・バレット</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_PISCES_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王の特徴的なプロジェクトには、[ICON_Resource_Queen_Spirit] の精神的な力と、市の現在のすべてのエリアに +1 [ICON_Housing] の住宅が必要です。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WHITEQUEEN_NAME" Language="ja_JP">
+			<Text>白の女王</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WHITEQUEEN_KURUMI_NAME" Language="ja_JP">
+			<Text>ホワイトクイーン（赤または白）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_QUEEN_NAME" Language="ja_JP">
+			<Text>時崎狂三（赤or白）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_DRESS_NAME" Language="ja_JP">
+			<Text>時崎狂三（クローン）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_CISTUS_NAME" Language="ja_JP">
+			<Text>時崎狂三（シスタス）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_SMOL_NAME" Language="ja_JP">
+			<Text>時崎狂三（幼狂三）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WHITEQUEEN_NAME" Language="ja_JP">
+			<Text>多重人格</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WHITEQUEEN_DESCRIPTION" Language="ja_JP">
+			<Text>次の能力を切り替えることができます: [NEWLINE]
+一般: {LOC_BUILDING_PERSONA_GENERAL_DESCRIPTION}[NEWLINE]
+ミッシー: {LOC_BUILDING_PERSONA_LADY_DESCRIPTION}[NEWLINE]
+政治家: {LOC_BUILDING_PERSONA_POLITICIAN_DESCRIPTION}[NEWLINE]
+作業員: {LOC_BUILDING_PERSONA_AGENT_DESCRIPTION}[NEWLINE]
+死刑執行者: {LOC_BUILDING_PERSONA_EXECUTIONER_DESCRIPTION}[NEWLINE]
+神: {LOC_BUILDING_PERSONA_OVERLORD_DESCRIPTION}[NEWLINE][NEWLINE]
+個性能力を有効にすると、空のマウンドのセル範囲 1 内にあるユニットを、空のマウンドの 1 つに近い他のセルに空輸できるようになります。 [改行]
+また、都市を占領すると、都市の人口[ICON_Citizen]に応じて、対応する[ICON_Resource_Queen_Spirit]の霊力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_GENERAL_NAME" Language="ja_JP">
+			<Text>性格: 一般</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_GENERAL_DESCRIPTION" Language="ja_JP">
+			<Text>都市には戦争による疲労がありません。生産された軍事ユニットは昇進します。ユニットの生産に必要な戦略的リソースのコストが 80% 割引になります。すべての核兵器プロジェクト [ICON_Production] の生産が 33% 増加しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_GENERAL_NAME" Language="ja_JP">
+			<Text>人格変容: {LOC_BUILDING_PERSONA_GENERAL_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_GENERAL_DESCRIPTION" Language="ja_JP">
+			<Text>能力を {LOC_BUILDING_PERSONA_GENERAL_NAME} に変更します: {LOC_BUILDING_PERSONA_GENERAL_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_LADY_NAME" Language="ja_JP">
+			<Text>性格：ミス</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_LADY_DESCRIPTION" Language="ja_JP">
+			<Text>敵の軍事ユニットを捕らえ、無に変えるチャンス。都市国家ユニットの採用コストは半分になり、+2 [ICON_Movement] の機動力と +5 [ICON_Strength] の戦闘力が与えられます。 [ICON_Gold] ユニットのアップグレードを収集する際に消費されるゴールドとリソース -75%。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_LADY_NAME" Language="ja_JP">
+			<Text>人格変容: {LOC_BUILDING_PERSONA_LADY_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_LADY_DESCRIPTION" Language="ja_JP">
+			<Text>能力を {LOC_BUILDING_PERSONA_LADY_NAME} に変更: {LOC_BUILDING_PERSONA_LADY_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABLILITY_PERSONA_LADY_DESCRIPTION" Language="ja_JP">
+			<Text>敵の軍事ユニットを捕らえ、無に変えるチャンス。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_POLITICIAN_NAME" Language="ja_JP">
+			<Text>性格：政治家</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_POLITICIAN_DESCRIPTION" Language="ja_JP">
+			<Text>Null 生成ビルド数 +1。建設の数を使用して、驚異とエリアの進行を 20% スピードアップできます。あなたの都市は、最初の建物だけでなく、エリアボーナスを持つ近くのすべての工業地帯の建物から [ICON_Production] 生産ボーナスを獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_POLITICIAN_NAME" Language="ja_JP">
+			<Text>人格変容: {LOC_BUILDING_PERSONA_POLITICIAN_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_POLITICIAN_DESCRIPTION" Language="ja_JP">
+			<Text>能力を {LOC_BUILDING_PERSONA_POLITICIAN_NAME} に変更します: {LOC_BUILDING_PERSONA_POLITICIAN_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_AGENT_NAME" Language="ja_JP">
+			<Text>性格: シークレットサービス</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_AGENT_DESCRIPTION" Language="ja_JP">
+			<Text>軍事部隊は国境を越えることができます。敵のスパイは通常よりも低いレベル 3 でスパイ活動を行います。すべての Spy は、Agent への無料アップグレードから始まります。 [ICON_VisLimited] 外交可視化による戦闘力ボーナスが2倍になります。敵都市の境界内で敵ユニットを倒すと、都市は[ICON_Loyalty]を失います。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_AGENT_NAME" Language="ja_JP">
+			<Text>人格変容: {LOC_BUILDING_PERSONA_AGENT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_AGENT_DESCRIPTION" Language="ja_JP">
+			<Text>アビリティを {LOC_BUILDING_PERSONA_AGENT_NAME} に変更: {LOC_BUILDING_PERSONA_AGENT_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABLILITY_PERSONA_AGENT_DESCRIPTION" Language="ja_JP">
+			<Text>国境が開いていない場合でも、部隊は外国領土に入ることができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_EXECUTIONER_NAME" Language="ja_JP">
+			<Text>性格：死刑執行人</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_EXECUTIONER_DESCRIPTION" Language="ja_JP">
+			<Text>軍事ユニットは敵のコントロールゾーンの影響を受けず、負傷しても戦闘デバフを受けません。負傷したユニットを攻撃すると、すべてのユニットの戦闘力が [ICON_Strength] 増加します。隣接する死亡したユニットから [ICON_Strength] の戦闘力ブーストを獲得します (最大 10 ポイント)。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_EXECUTIONER_NAME" Language="ja_JP">
+			<Text>人格変換: {LOC_BUILDING_PERSONA_EXECUTIONER_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_EXECUTIONER_DESCRIPTION" Language="ja_JP">
+			<Text>能力を {LOC_BUILDING_PERSONA_EXECUTIONER_NAME} に変更します: {LOC_BUILDING_PERSONA_EXECUTIONER_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABLILITY_PERSONA_EXECUTIONER_DESCRIPTION" Language="ja_JP">
+			<Text>敵のコントロールゾーンに対する耐性があり、負傷しても戦闘デバフはかかりません</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_OVERLORD_NAME" Language="ja_JP">
+			<Text>性格：神</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_OVERLORD_DESCRIPTION" Language="ja_JP">
+			<Text>すべての人格の能力を持ちますが、ラウンドごとに追加の[ICON_Resource_Queen_Spirit]霊力を消費します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_OVERLORD_NAME" Language="ja_JP">
+			<Text>人格変換: {LOC_BUILDING_PERSONA_OVERLORD_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_OVERLORD_DESCRIPTION" Language="ja_JP">
+			<Text>能力を {LOC_BUILDING_PERSONA_OVERLORD_NAME} に変更します: {LOC_BUILDING_PERSONA_OVERLORD_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DRESS_NAME" Language="ja_JP">
+			<Text>神威霊荘・三帆・七夕祭り</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DRESS_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘でユニットを倒すと、[ICON_Resource_Kurumi_Time] 時間が 3 増加します。 [ICON_Capital]首都の[ICON_Citizen]人口が増加するにつれて、追加の[ICON_Resource_Kurumi_Time]時間を提供します。 [NEWLINE] Kekedi は弾丸 1 から 9 までしか使用できません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_DRESS_DESCRIPTION" Language="ja_JP">
+			<Text>時崎 クロの 3 つの特別なアイテムには次の効果があります: [NEWLINE][NEWLINE]
+最初の箇条書き: {LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION}[NEWLINE]
+第 2 ラウンド: {LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION}[NEWLINE]
+3 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_GIMEL_DESCRIPTION}[NEWLINE]
+4 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_DALET_DESCRIPTION}[NEWLINE]
+5 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_HEI_DESCRIPTION}[NEWLINE]
+第 6 弾: {LOC_PROJECT_ZAFKIEL_VAV_DESCRIPTION}[NEWLINE]
+第 7 弾: {LOC_PROJECT_ZAFKIEL_ZAYIN_DESCRIPTION}[NEWLINE]
+第 8 弾: {LOC_PROJECT_ZAFKIEL_HET_DESCRIPTION}[NEWLINE]
+9 つの箇条書き: {LOC_PROJECT_ZAFKIEL_TET_DESCRIPTION}[NEWLINE]
+10 個の箇条書き: {LOC_PROJECT_ZAFKIEL_YUD_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CISTUS_NAME" Language="ja_JP">
+			<Text>シェンウェイ・リンヂュアン・サンファン・シスタス</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CISTUS_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘でユニットを倒すと、[ICON_Resource_Kurumi_Time] 時間が 3 増加します。 [ICON_Capital]首都の[ICON_Citizen]人口が増加するにつれて、追加の[ICON_Resource_Kurumi_Time]時間を提供します。 [NEWLINE] ケケディはアリエス・バレットからライオン・バレットまでしか使用できません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_CISTUS_DESCRIPTION" Language="ja_JP">
+			<Text>時崎 クロの 3 つの特別なアイテムには次の効果があります: [NEWLINE][NEWLINE]
+最初の箇条書き: {LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION}[NEWLINE]
+第 2 ラウンド: {LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION}[NEWLINE]
+3 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_GIMEL_DESCRIPTION}[NEWLINE]
+4 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_DALET_DESCRIPTION}[NEWLINE]
+5 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_HEI_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SMOL_NAME" Language="ja_JP">
+			<Text>シェンウェイ・リンヂュアン・サンファン・ヨン</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SMOL_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘でユニットを倒すと、[ICON_Resource_Kurumi_Time] 時間が 3 増加します。 [ICON_Capital]首都の[ICON_Citizen]人口が増加するにつれて、追加の[ICON_Resource_Kurumi_Time]時間を提供します。 [NEWLINE] ケケディは、Aries Bullet と Taurus Bullet のみを使用できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_SMOL_DESCRIPTION" Language="ja_JP">
+			<Text>時崎 クロの 3 つの特別なアイテムには次の効果があります: [NEWLINE][NEWLINE]
+最初の箇条書き: {LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION}[NEWLINE]
+2 番目の箇条書き: {LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WHITEQUEEN_NAME" Language="ja_JP">
+			<Text>絶対的な王権</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WHITEQUEEN_DESCRIPTION" Language="ja_JP">
+			<Text>同じ宗教を信仰する文明を好み、すべての都市が同じ宗教を信仰することを望んでいます。自国に他の宗教を広めようとする文明を憎む。 [NEWLINE]野蛮人を憎みます。文明から野蛮な前哨基地を一掃するのが好き。野蛮な前哨基地を無視する文明を憎んでいます。 [NEWLINE]文明間の戦いを好み、長期戦を信じています。常に強力な常備軍を維持することができました。大軍を持つ他の文明を尊重しましょう。 [NEWLINE]核兵器の使用を躊躇しないでください。核兵器や核兵器の力を持つ文明を尊重してください。 [NEWLINE]都市国家から軍隊が結成されます。都市国家の軍隊も使用する文明を好み、傭兵に献身的でない文明を嫌います。 [NEWLINE]人類が地球を周回したり宇宙に行ったりするのを阻止したい。 [NEWLINE]外交で勝利を収めようと奮闘している民間人を嫌います。 [NEWLINE]可能な限りすべてのセルを略奪しようとします。略奪を好む他の文明を尊重してください。 [NEWLINE][COLOR_RED]は時崎狂三が嫌いです。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_QUEEN_SPIRIT_NAME" Language="ja_JP">
+			<Text>霊的な力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_EMPTY_NAME" Language="ja_JP">
+			<Text>空</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_EMPTY_DESCRIPTION" Language="ja_JP">
+			<Text>ビルダーに代わるホワイトクイーンのユニークなビルドユニット。 [NEWLINE]生成するには[ICON_Resource_Queen_Spirit]の霊的エネルギーが必要です。 [NEWLINE]占領することはできませんが、隣の都市に撤退します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_PAWN_NAME" Language="ja_JP">
+			<Text>空の&lt;兵士&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_PAWN_DESCRIPTION" Language="ja_JP">
+			<Text>工兵に代わる白の女王のユニークな支援ユニット。生産するには[ICON_Resource_Queen_Spirit]の霊力を消費する必要があります。 [NEWLINE][ICON_Strength] 時代の進歩とともに戦闘力はさらに強化されます。 [NEWLINE][COLOR:Red]は、生産数量が時代の制限を超えた場合、この時代に直接生産することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_ROOK_NAME" Language="ja_JP">
+			<Text>何もない&lt;城&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_ROOK_DESCRIPTION" Language="ja_JP">
+			<Text>ホワイトクイーンのユニークな近接ユニット。生産するには[ICON_Resource_Queen_Spirit]の霊力を消費する必要があります。 [NEWLINE][ICON_Strength] 時代の進歩とともに戦闘力はさらに強化されます。 [NEWLINE]エリアを包囲すると戦闘力が [ICON_Strength] 増加します。 50% の追加サポート ボーナス。崖を登ることができる。 [NEWLINE][COLOR:Red]は、生産数量が時代の制限を超えた場合、この時代に直接生産することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_KNIGHT_NAME" Language="ja_JP">
+			<Text>空の&lt;ナイト&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_KNIGHT_DESCRIPTION" Language="ja_JP">
+			<Text>白の女王専用の騎兵ユニット。生産するには[ICON_Resource_Queen_Spirit]の霊力を消費する必要があります。 [NEWLINE][ICON_Strength] 時代の進歩とともに戦闘力はさらに強化されます。 [NEWLINE][ICON_Movement]移動の 1 ポイントを消費して戦利品を得ることができます。非常に高い[ICON_Movement]機動性を利用して、移動する民間人や支援部隊を護衛することができます。 [NEWLINE][COLOR:Red]は、生産数量が時代の制限を超えた場合、この時代に直接生産することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_BISHOP_NAME" Language="ja_JP">
+			<Text>空の&lt;ビショップ&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_BISHOP_DESCRIPTION" Language="ja_JP">
+			<Text>ホワイトクイーンのユニークな遠距離ユニット。生産するには[ICON_Resource_Queen_Spirit]の霊力を消費する必要があります。 [NEWLINE][ICON_Strength] 時代の進歩とともに戦闘力はさらに強化されます。 [NEWLINE]遺物は死ぬと作成されます。隣接するユニットを回復できる。 [NEWLINE]「危険を引き起こす」アクションを使用すると、ユニットの隣のスペースにランダムな災害を引き起こすことができます。 [NEWLINE][COLOR:Red]は、生産数量が時代の制限を超えた場合、この時代に直接生産することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_QUEEN_NAME" Language="ja_JP">
+			<Text>エンプティネス＜クイーン＞</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_QUEEN_DESCRIPTION" Language="ja_JP">
+			<Text>ホワイトクイーン独自のスーパーユニット。生産するには[ICON_Resource_Queen_Spirit]の霊力を消費する必要があります。 [NEWLINE][ICON_Strength] 時代の進歩とともに戦闘力はさらに強化されます。 [NEWLINE] 2 マス以内では、将軍と同様に地上ユニットの戦闘力が +5 [ICON_Strength] 、移動力が +1 [ICON_Movement] になります。 [NEWLINE][COLOR:Red]は、生産数量が時代の制限を超えた場合、この時代に直接生産することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AUTO_DISATER_MACHINA_NAME" Language="ja_JP">
+			<Text>招喚自動災害機械</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AUTO_DISATER_MACHINA_DESCRIPTION" Language="ja_JP">
+			<Text>他のすべてのプレイヤーの首都に自動災害メックを召喚します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AUTO_DISATER_MACHINA_NAME" Language="ja_JP">
+			<Text>自動災害機械</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AUTO_DISATER_MACHINA_DESCRIPTION" Language="ja_JP">
+			<Text>バーバリアン独自のスーパーユニット。注目のアイテムでのみ召喚できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_NAME" Language="ja_JP">
+			<Text>空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_DESCRIPTION" Language="ja_JP">
+			<Text>制御ゾーンを無視します。国境を越えることができる。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_PAWN_NAME" Language="ja_JP">
+			<Text>空の&lt;兵士&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_PAWN_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Strength] 時代の進歩とともに戦闘力がさらに強化される。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_ROOK_NAME" Language="ja_JP">
+			<Text>何もない&lt;城&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_ROOK_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Strength] 時代の進歩とともに戦闘力がさらに強化される。 [NEWLINE]エリアを包囲すると戦闘力が [ICON_Strength] 増加します。 50% の追加サポート ボーナス。崖を登ることができる。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_KNIGHT_NAME" Language="ja_JP">
+			<Text>空の&lt;ナイト&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_KNIGHT_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Strength] 時代の進歩とともに戦闘力がさらに強化される。 [NEWLINE][ICON_Movement]移動の 1 ポイントを消費して戦利品を得ることができます。非常に高い[ICON_Movement]機動性を利用して、移動する民間人や支援部隊を護衛することができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_BISHOP_NAME" Language="ja_JP">
+			<Text>空の&lt;ビショップ&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_BISHOP_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Strength] 時代の進歩とともに戦闘力がさらに強化される。 [NEWLINE]遺物は死ぬと作成されます。隣接するユニットを回復できる。 [NEWLINE]「危険を引き起こす」アクションを使用すると、ユニットの隣のスペースにランダムな災害を引き起こすことができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_QUEEN_NAME" Language="ja_JP">
+			<Text>エンプティネス＜クイーン＞</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_QUEEN_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Strength] 時代の進歩とともに戦闘力がさらに強化される。 [NEWLINE] 2 マス以内では、将軍と同様に地上ユニットの戦闘力が +5 [ICON_Strength] 、移動力が +1 [ICON_Movement] になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_1_1_NAME" Language="ja_JP">
+			<Text>労働力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>追加の建設労働力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_1_3_NAME" Language="ja_JP">
+			<Text>可動性</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_1_3_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Movement] の移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_2_1_NAME" Language="ja_JP">
+			<Text>労働力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>追加の建設労働力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_2_3_NAME" Language="ja_JP">
+			<Text>可動性</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_2_3_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Movement] の移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_3_2_NAME" Language="ja_JP">
+			<Text>アップグレード</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>将軍に隣接している場合、戦闘力がさらに +5 [ICON_Strength] します。敵地で戦うと兵士に昇進するチャンスもある。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_1_1_NAME" Language="ja_JP">
+			<Text>市街戦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>エリア内で攻撃する場合、+10 [ICON_Strength] 戦闘力。エリア内のユニットと戦闘する場合、+7 [ICON_Strength] の戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_1_3_NAME" Language="ja_JP">
+			<Text>攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_1_3_DESCRIPTION" Language="ja_JP">
+			<Text>ダブルサイドアタックボーナス、サポートボーナス。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_2_1_NAME" Language="ja_JP">
+			<Text>鎧を壊す</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>他の重装甲ユニットと戦う場合は +7 [ICON_Strength] 戦闘力、隣接するユニットのタイプごとに +10 [ICON_Strength] 戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_2_3_NAME" Language="ja_JP">
+			<Text>抑制する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_2_3_DESCRIPTION" Language="ja_JP">
+			<Text>ダメージを受けたユニットと戦うとき、+5 [ICON_Strength] 戦闘力。負傷しても戦闘デバフを受けません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_3_2_NAME" Language="ja_JP">
+			<Text>アップグレード</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>将軍に隣接している場合、戦闘力がさらに +5 [ICON_Strength] します。敵ユニットを倒すと +5 大将軍ポイント。敵地で戦うと幹部に昇格するチャンスもある。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_1_1_NAME" Language="ja_JP">
+			<Text>帝国の栄光</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>味方領土の 4 マス以内にいる場合、+5 [ICON_Strength] 戦闘力。 +5 [ICON_Strength] 帝国領土内またはその近くで戦闘する場合の戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_1_3_NAME" Language="ja_JP">
+			<Text>地域的な抑圧</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_1_3_DESCRIPTION" Language="ja_JP">
+			<Text>隣接するすべての敵ユニットの戦闘力 -10 [ICON_Strength]。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_2_1_NAME" Language="ja_JP">
+			<Text>本土作戦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>首都大陸での戦闘時の[ICON_Strength]戦闘力+10。中立地帯の健康を回復します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_2_3_NAME" Language="ja_JP">
+			<Text>海外事業</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_2_3_DESCRIPTION" Language="ja_JP">
+			<Text>首都以外の大陸で戦闘する場合、+10 [ICON_Strength] 戦闘力。敵陣内の体力を回復します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_3_2_NAME" Language="ja_JP">
+			<Text>最後の砦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>移動や攻撃をしても毎ターン終了時に回復する。 +7 [ICON_Strength] 側面攻撃時の戦闘力。ダメージを受けている間は戦闘デバフはかかりません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_1_1_NAME" Language="ja_JP">
+			<Text>敵の作戦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>+2 [ICON_Movement] 敵陣内でのターン開始時の移動力。攻撃後に移動可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_1_3_NAME" Language="ja_JP">
+			<Text>強力な調査</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_1_3_DESCRIPTION" Language="ja_JP">
+			<Text>視覚は森や熱帯雨林の中を行き来することができます。 +1 視界範囲。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_2_1_NAME" Language="ja_JP">
+			<Text>静電気ブレーキ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>未使用の [ICON_Movement] 移動力ポイントごとに、戦闘力 +3 [ICON_Strength] が提供されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_2_3_NAME" Language="ja_JP">
+			<Text>エリートガード</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_2_3_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] の機動力が許せば、ラウンドごとに追加攻撃力が 1 増加します。攻撃後に移動可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_3_2_NAME" Language="ja_JP">
+			<Text>数千マイルを目指して</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>すべての地形と川を渡る場合、移動ペナルティはありません。ユニットが開けた地形でターンを開始した場合、+2 [ICON_Movement] の移動力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_1_1_NAME" Language="ja_JP">
+			<Text>狂信者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>宗教ユニットと同じグリッドにいる場合、+10 [ICON_Strength] 戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_1_3_NAME" Language="ja_JP">
+			<Text>征服者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_1_3_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットが都市を占領している場合、または占領時に都市に隣接している場合、都市は自動的に所有プレイヤーの宗教を主要な宗教として採用します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_2_1_NAME" Language="ja_JP">
+			<Text>ストーカー</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>隣接する敵ユニットのみがこのユニットを発見できます。他の目に見えないユニットを明らかにすることができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_2_3_NAME" Language="ja_JP">
+			<Text>コミュニケーター</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_2_3_DESCRIPTION" Language="ja_JP">
+			<Text>このユニットは敵ユニットを倒すと周囲の都市にその宗教を広めます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_3_2_NAME" Language="ja_JP">
+			<Text>フェイスレス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>周囲のユニットは次の能力も獲得します: 透明化、コントロールゾーンの無視、国境を越える。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_1_1_NAME" Language="ja_JP">
+			<Text>モバイル</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>+3 [ICON_Movement] の移動。ジャンプアクションを実行して山地を登ることができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_1_3_NAME" Language="ja_JP">
+			<Text>壊れた街</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_1_3_DESCRIPTION" Language="ja_JP">
+			<Text>範囲防御攻撃時の戦闘力 +10[ICON_Strength]、遠距離戦闘力 +7[ICON_RANGED]。遠距離から都市やキャンプを攻撃する際の効率が 100% になり、遠距離戦闘力が [ICON_RANGED] 30 増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_2_1_NAME" Language="ja_JP">
+			<Text>バター</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>機動性が許せば、ラウンドごとに追加の攻撃を行うことができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_2_3_NAME" Language="ja_JP">
+			<Text>スナイプ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_2_3_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘ユニットを破壊せずに支援ユニットを直接攻撃します。陸上ユニットと戦う場合は遠距離戦闘力が +12[ICON_RANGED]、海軍ユニットと戦う場合は遠距離戦闘力が +7[ICON_RANGED]になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_3_2_NAME" Language="ja_JP">
+			<Text>女王</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>首都大陸での殺害から[ICON_Science]の技術価値を獲得し、他の大陸での殺害から[ICON_Culture]の文化価値を獲得します。隣接するセルでユニットが死亡すると、戦闘力が[ICON_Strength]増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_CRITICAL_HIT" Language="ja_JP">
+			<Text>クリティカル！</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QUEEN_KURGAN_NAME" Language="ja_JP">
+			<Text>空の墓</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QUEEN_KURGAN_DESCRIPTION" Language="ja_JP">
+			<Text>ホワイトクイーンの特徴的な建物。 [NEWLINE][NEWLINE] [ICON_RESOURCE_QUEEN_SPIRIT]の霊的な力を生成します。 +1 [ICON_Faith] 信仰値。 「博物学」のロックを解除すると、文化値 [ICON_Culture] が +1 されます。 「飛行」を研究開発すると、信仰値[ICON_Faith]から観光実績[ICON_Tourism]を獲得できます。丘の上や他の塚に隣接して建てることはできません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_HIPPODROME_NAME" Language="ja_JP">
+			<Text>空無競馬場</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_HIPPODROME_DESCRIPTION" Language="ja_JP">
+			<Text>ホワイトクイーンの目玉エリア。エンターテイメントセンターエリアを置き換えます。 [NEWLINE]+3 [ICON_Amenities] の満足度が得られ、作成コストが安くなります。 「ウォーターパーク」がある都市には建設できません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_HIPPODROME_CULTURE" Language="ja_JP">
+			<Text>隣接する競馬場エリアからの +{1_num} [ICON_Culture] 文化値。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_OPPIDUM_NAME" Language="ja_JP">
+			<Text>空の集落</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_OPPIDUM_DESCRIPTION" Language="ja_JP">
+			<Text>ホワイトクイーンの特徴的なエリアは工業地帯に置き換わるもので、建設費が安いだけでなく、より早く建設でき、人口制限も受けません。 [NEWLINE]この居住地は遠距離攻撃能力を備えた防御エリアです。最初の居住地が建設されると、すぐに「見習い」テクノロジーのロックが解除されます。 [NEWLINE]その地域に集落や建物が建設されると、空白を得るチャンスがあります。 [NEWLINE]隣接する採石場改善または戦略資源ごとに、+2 [ICON_Production] 生産の隣接ボーナスを獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUEEN_PAIDES_NAME" Language="ja_JP">
+			<Text>クイーンズカレッジ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUEEN_PAIDES_DESCRIPTION" Language="ja_JP">
+			<Text>ホワイトクイーンのユニークな建物で、兵舎に代わるものです。 [NEWLINE]この都市で訓練されたすべての近接および遠距離陸上ユニットは +25% の戦闘経験を獲得します。この都市で非民間ユニットを作成すると、ユニットのコストの 25% に相当する [ICON_Science] テクノロジー値を得ることができます。 [NEWLINE][NEWLINE]戦略的リソースの蓄積 +10 (標準速度の場合)。 [NEWLINE][NEWLINE]すでに屋台があるキャンプ場エリアには建設できません。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QUEEN_XP_NAME" Language="ja_JP">
+			<Text>空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QUEEN_XP_DESCRIPTION" Language="ja_JP">
+			<Text>クイーンズアカデミーからボーナス XP を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QUEEN_OVERLORD_TITLE" Language="ja_JP">
+			<Text>ルーラー</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QUEEN_OVERLORD_DESCRIPTION" Language="ja_JP">
+			<Text>ホワイトクイーンの代表取締役社長。国内のすべての都市と文明の首都に割り当てることができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_1_NAME" Language="ja_JP">
+			<Text>一般的な</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_1_DESCRIPTION" Language="ja_JP">
+			<Text>+5 [ICON_Strength] 都市領土内で戦うすべての味方ユニットの戦闘力。都市はラウンドごとに追加の [ICON_Ranged] 長距離攻撃の機会を獲得します。この都市によって訓練された軍事ユニットは、無料ブーストで開始しなかった場合、1 回の無料ブーストを受け取ります。すぐに任命できる。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_2_1_NAME" Language="ja_JP">
+			<Text>死刑執行人</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>都市の守備隊と都市の領土内を守るユニットの戦闘力 +5 [ICON_Strength]。防御エリアを攻撃する場合、都市の中心から 10 セル以内のすべてのユニットの戦闘力は +10 [ICON_Strength] になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_2_2_NAME" Language="ja_JP">
+			<Text>スパイ</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_2_2_DESCRIPTION" Language="ja_JP">
+			<Text>都市を包囲することはできません。この都市の敵スパイのスパイ活動レベルは大幅に低下します。外国の[ICON_Capital]首都を想定すると、所有者の都市はあなたの都市に忠誠の圧力を広げることができなくなります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_3_1_NAME" Language="ja_JP">
+			<Text>ミッシー</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_3_1_DESCRIPTION" Language="ja_JP">
+			<Text>都市が蓄積している戦略資源はターンごとにさらに +1 されます。外国の首都[ICON_Capital]に就任すると、都市の戦略資源を蓄積し、都市の贅沢な資源を獲得することができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_3_2_NAME" Language="ja_JP">
+			<Text>政治家</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>この都市を通る各国際 [ICON_TradeRoute] 交易路ごとに、ターンごとに [ICON_Gold] ゴールド コインの収入が 3 増加します。外国の首都[ICON_Capital]に就任すると、都市所有者のあなたに対する[ICON_STAT_GRIEVANCE]の不満が毎ターン1ポイントずつ減少します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_4_NAME" Language="ja_JP">
+			<Text>神</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_4_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Gold] ゴールドまたは [ICON_Faith] 信仰を持つ地域を都市が購入できるようにします。この都市のタイルでは、すべての [ICON_Governor] 知事のユニットが 1 ターンで完全に回復します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_HIBIKI_NAME" Language="ja_JP">
+			<Text>緋衣響</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_HIBIKI_TITLE" Language="ja_JP">
+			<Text>空</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_HIBIKI_DESCRIPTION" Language="ja_JP">
+			<Text>フェイ・イーシャンの特徴的な最高責任者。外交と都市国家関連の強化を提供します。都市国家に割り当てることができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_1_NAME" Language="ja_JP">
+			<Text>メッセンジャー</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_1_DESCRIPTION" Language="ja_JP">
+			<Text>2 つの [ICON_Envoy] 特使に相当する都市国家に割り当てることができます。この都市の敵のスパイは、通常よりも低いレベル 2 で動作します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_2_1_NAME" Language="ja_JP">
+			<Text>豊かな社会</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>都市国家に派遣されると、都市国家の豪華資源や戦略資源を獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_2_2_NAME" Language="ja_JP">
+			<Text>威信</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_2_2_DESCRIPTION" Language="ja_JP">
+			<Text>あなたから 9 タイル以内の他の都市は、毎ターンあなたの文明に対する忠誠度 +2 を獲得します。 9 マス以内にあり、あなたに属していない他の都市は、毎ターン 2 ポイントの忠誠度を失います。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_3_1_NAME" Language="ja_JP">
+			<Text>外国為替取引</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_3_1_DESCRIPTION" Language="ja_JP">
+			<Text>この都市を通過する各国際 [ICON_TradeRoute] 交易路では、ラウンドごとに +3 [ICON_Gold] ゴールド コインの収入があります。都市が蓄積している戦略資源はターンごとにさらに +1 されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_3_2_NAME" Language="ja_JP">
+			<Text>余剰物流</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_3_2_DESCRIPTION" Language="ja_JP">
+			<Text>この都市を目的地とする [ICON_TradeRoute] は、開始都市に +2 [ICON_Food] を提供します。 +5 [ICON_Strength] 都市領土内で戦うすべての味方ユニットの戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_4_NAME" Language="ja_JP">
+			<Text>舞台裏で</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_4_DESCRIPTION" Language="ja_JP">
+			<Text>都市国家で奉仕する場合、その都市国家の [ICON_Envoy] 特使の数を 2 倍にすることができます。この都市に都市公園の改良工事を建設できます。 +1 [ICON_Culture] 文化と +2 カリスマ。水の近くにある場合、[ICON_Amenities] 満足度 +1。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KINGKILLING_NAME" Language="ja_JP">
+			<Text>王位の簒奪</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KINGKILLING_DESCRIPTION" Language="ja_JP">
+			<Text>&lt;空&gt; 紅い服の指輪</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KINGKILLING_ADJECTIVE" Language="ja_JP">
+			<Text>王位の簒奪者</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_KINGKILLING_NAME" Language="ja_JP">
+			<Text>能力の獲得</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_KINGKILLING_DESCRIPTION" Language="ja_JP">
+			<Text>他文明の能力の一部を奪うことができ、相手は奪われた能力を失う。 [NEWLINE]能力は一度に 1 つの文明からのみ取得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HIGOROMO_HIBIKI_NAME" Language="ja_JP">
+			<Text>緋衣響</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIGOROMO_HIBIKI_NAME" Language="ja_JP">
+			<Text>BLEACH スピリットドレス・ワンスリースリーファン</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIGOROMO_HIBIKI_DESCRIPTION" Language="ja_JP">
+			<Text>建設された都市は追加の領土を獲得します。より高度な文明で確立された [ICON_TradeRoute] 交易路は、[ICON_Science] 技術価値または [ICON_Culture] 文化価値を提供できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KINGKILLING_NAME" Language="ja_JP">
+			<Text>王位の簒奪者:</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KINGKILLING_DESCRIPTION" Language="ja_JP">
+			<Text>[改行]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KINGKILLING_RESET_NAME" Language="ja_JP">
+			<Text>王位簒奪者：リセット</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KINGKILLING_RESET_DESCRIPTION" Language="ja_JP">
+			<Text>現在奪取されている能力をクリアし、再度選択してください。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HIBIKI_NAME" Language="ja_JP">
+			<Text>スインガー</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HIBIKI_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Science]技術価値と[ICON_Culture]価値が自分よりも優れている文明に対して友好的です。 [ICON_Science] テクノロジーと [ICON_Culture] 文化を欠いた文明を憎みます。 [NEWLINE]同盟を形成する文明を尊重し、複数の同盟を形成しようとします。同盟の少ない文明を嫌う。 [NEWLINE]外交上の約束を守らない限り、近隣諸国を攻撃しません。隣人と平和に暮らす文明を好み、隣人と戦争をする文明を嫌います。 [NEWLINE] 時崎狂三が好きです。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAILAPS_NAME" Language="ja_JP">
+			<Text>スターウルフ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAILAPS_DESCRIPTION" Language="ja_JP">
+			<Text>&lt;準エルフ&gt; カン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAILAPS_ADJECTIVE" Language="ja_JP">
+			<Text>シリウスさん</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAILAPS_NAME" Language="ja_JP">
+			<Text>クッキースマッシャー</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAILAPS_DESCRIPTION" Language="ja_JP">
+			<Text>ユニークなユニット、シリウスのロックを解除します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_LAILAPS_TSUAN_NAME" Language="ja_JP">
+			<Text>カン</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LAILAPS_TSUAN_NAME" Language="ja_JP">
+			<Text>エクストリームデスコスチューム・ファン 15</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LAILAPS_TSUAN_DESCRIPTION" Language="ja_JP">
+			<Text>隣接する死亡したユニットから [ICON_Strength] の戦闘力ブーストを獲得します (最大 10 ポイント)。陸上ユニットが主力文明または非主力文明の相手ユニットを倒すと[ICON_GreatGeneral]の一般ポイントを獲得し、海軍ユニットが相手ユニットを倒すと[ICON_GreatAdmiral]の海軍指揮官ポイントを獲得します。獲得量は次のとおりです。相手の戦闘力の25%(標準速度時)。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TSUAN_NAME" Language="ja_JP">
+			<Text>クラッカーガール</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TSUAN_DESCRIPTION" Language="ja_JP">
+			<Text>まだ隣接していない文明を好み、近隣の文明を征服しようとします。隣国が嫌い。 [NEWLINE]志を同じくする文明を尊重し、都市の周囲に高層の壁を築こうとします。都市を強化しない文明を憎む。 [NEWLINE]屈辱的な和平条件には決して署名しません。そのスタイルに適合する文明を好みます。武力に屈する文明、あるいは武力を決して行使しない文明を憎む。このリーダーに対する恨みは 2 倍の速さで軽減されます。 [NEWLINE] 時崎狂三が好きです。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LAILAPS_LAND_NAME" Language="ja_JP">
+			<Text>グランドジェネラルポイント</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LAILAPS_LAND_DESCRIPTION" Language="ja_JP">
+			<Text>陸上ユニットが主文明または非主文明の相手ユニットを倒すと、相手の戦闘力の 25% に等しい [ICON_GreatGeneral] ポイントを獲得します (標準速度で)。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LAILAPS_NAVAL_NAME" Language="ja_JP">
+			<Text>アドミラルポイント</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LAILAPS_NAVAL_DESCRIPTION" Language="ja_JP">
+			<Text>海軍ユニットが主文明または非主文明の相手ユニットを倒すと、相手の戦闘力の 25% に等しい [ICON_GreatAdmiral] 海軍提督ポイント (標準速度で) を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TSUAN_LAILAPS_NAME" Language="ja_JP">
+			<Text>スターウルフ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TSUAN_LAILAPS_DESCRIPTION" Language="ja_JP">
+			<Text>Cang のユニークな中世近接ユニット。独自のアップグレード オプションがあり、最初から無料でアップグレードできます。完了すると、都市 [ICON_Citizen] の人口が 1 減ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_WIND_SLICER_NAME" Language="ja_JP">
+			<Text>風林火山</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_WIND_SLICER_DESCRIPTION" Language="ja_JP">
+			<Text>+2 [ICON_Movement] の移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_SUN_BLOW_NAME" Language="ja_JP">
+			<Text>陽炎</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_SUN_BLOW_DESCRIPTION" Language="ja_JP">
+			<Text>ダブル側面ボーナス。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_AKUMA_ARMOR_NAME" Language="ja_JP">
+			<Text>悪魔の鎧</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_AKUMA_ARMOR_DESCRIPTION" Language="ja_JP">
+			<Text>+7 [ICON_Strength] あらゆる状況における戦闘力。 [NEWLINE]防御時の戦闘力が +5 [ICON_Strength] 追加されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_RADIANT_HONOR_NAME" Language="ja_JP">
+			<Text>名誉</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_RADIANT_HONOR_DESCRIPTION" Language="ja_JP">
+			<Text>敵ユニットを倒すと文化を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_NITENICHIRYU_STYLE_NAME" Language="ja_JP">
+			<Text>2日間のファーストクラス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_NITENICHIRYU_STYLE_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] の機動力が許せば、ラウンドごとに追加攻撃力 +2。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_MEIKYO_SHISUI_NAME" Language="ja_JP">
+			<Text>明鏡止水</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_MEIKYO_SHISUI_DESCRIPTION" Language="ja_JP">
+			<Text>ラウンド終了時には回復してください。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_MASAMUNE_BLADE_NAME" Language="ja_JP">
+			<Text>オーセンティックブレード</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_MASAMUNE_BLADE_DESCRIPTION" Language="ja_JP">
+			<Text>+3 [ICON_Strength] あらゆる状況での戦闘力。 [NEWLINE]攻撃時の戦闘力が +15 [ICON_Strength] 追加されます。</Text>
+		</Replace>
+		<Replace Tag="LAILAPS_AKUMA_ARMOR_INCREASED_COMBAT_STRENGTH_PREV" Language="ja_JP">
+			<Text>+7 これらの戦士は悪魔の鎧によって守られています。</Text>
+		</Replace>
+		<Replace Tag="LAILAPS_AKUMA_ARMOR_INCREASED_DEFENDING_COMBAT_STRENGTH_PREV" Language="ja_JP">
+			<Text>+5 デーモンアーマーは、所有者によって防御されたときにその真の可能性を発揮します。</Text>
+		</Replace>
+		<Replace Tag="LAILAPS_MASAMUNE_BLADE_INCREASED_COMBAT_STRENGTH_PREV" Language="ja_JP">
+			<Text>+3 本物のブレードの所有者が攻撃に使用する場合でも、防御に使用する場合でも、非常に便利です。</Text>
+		</Replace>
+		<Replace Tag="LAILAPS_MASAMUNE_BLADE_BONUSWHENATTACK_PREV" Language="ja_JP">
+			<Text>+15 正宗ブレードはマスターが攻撃しているときにその真価を発揮します。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_ARIADNE_NAME" Language="ja_JP">
+			<Text>アリアンネ・フォックスルート</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_ARIADNE_DESCRIPTION" Language="ja_JP">
+			<Text>隣の第四領域の支配者で、螺旋状の髪を持ち、水色のシャツとミニスカートを着ている。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_ARIADNE_ADJECTIVE" Language="ja_JP">
+			<Text>アリアドネの</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_ARIADNE_NAME" Language="ja_JP">
+			<Text>太陰節気 四節気</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_ARIADNE_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatProphet] 大預言者を 1 つ無料で入手します。宗教が確立されれば使徒が得られる。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_RINEMU_NAME" Language="ja_JP">
+			<Text>ホイ・リー・イン・メン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_RINEMU_DESCRIPTION" Language="ja_JP">
+			<Text>第九領域の元支配者である金髪の少女。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_RINEMU_ADJECTIVE" Language="ja_JP">
+			<Text>ホイ・リー・イン・メンズ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_RINEMU_NAME" Language="ja_JP">
+			<Text>歌の才能</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_RINEMU_DESCRIPTION" Language="ja_JP">
+			<Text>建設業者は都市公園の改良工事を行うことができるようになりました。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_GAREHA_NAME" Language="ja_JP">
+			<Text>絆王院華羽</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_GAREHA_DESCRIPTION" Language="ja_JP">
+			<Text>第八領域の統治者。長い黒髪、華やかな着物、扇をかぶることも多く、上品で凛とした女性の印象を与えます。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_GAREHA_ADJECTIVE" Language="ja_JP">
+			<Text>王源華玉のトリップ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_GAREHA_NAME" Language="ja_JP">
+			<Text>櫻劾散華</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_GAREHA_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットを倒すと、一定の確率でユニットを捕獲できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_OUKA_NAME" Language="ja_JP">
+			<Text>宮藤央珂</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_OUKA_DESCRIPTION" Language="ja_JP">
+			<Text>ラベンダー色の髪を持ち、白いシャツとプリーツスカートを着た第六領域の支配者は、エレガントな気質を持っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_OUKA_ADJECTIVE" Language="ja_JP">
+			<Text>宮戸洋子の</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_OUKA_NAME" Language="ja_JP">
+			<Text>アイスジェイドスパイク</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_OUKA_DESCRIPTION" Language="ja_JP">
+			<Text>陸路 [ICON_TradeRoute] 交易路は略奪の影響を受けません。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

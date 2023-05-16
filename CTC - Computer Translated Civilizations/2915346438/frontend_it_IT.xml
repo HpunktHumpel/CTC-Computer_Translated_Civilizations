@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Tue May 16 02:07:56 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_LUCIFUGE_NAME" Language="it_IT">
+			<Text>imperatore pazzo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LUCIFUGE_DESCRIPTION" Language="it_IT">
+			<Text>&lt;Regina&gt; Regina del Bianco</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LUCIFUGE_ADJECTIVE" Language="it_IT">
+			<Text>L'imperatore pazzo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_ROOK_NAME" Language="it_IT">
+			<Text>castello</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_ROOK_DESCRIPTION" Language="it_IT">
+			<Text>&lt;Ufficiale&gt; Castello</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_ROOK_ADJECTIVE" Language="it_IT">
+			<Text>Di Castello</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_KNIGHT_NAME" Language="it_IT">
+			<Text>cavaliere</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_KNIGHT_DESCRIPTION" Language="it_IT">
+			<Text>(ufficiale) cavaliere</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_KNIGHT_ADJECTIVE" Language="it_IT">
+			<Text>Di Cavaliere</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_BISHOP_NAME" Language="it_IT">
+			<Text>vescovo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_BISHOP_DESCRIPTION" Language="it_IT">
+			<Text>(ufficiale) vescovo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QUEEN_BISHOP_ADJECTIVE" Language="it_IT">
+			<Text>del Vescovo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LUCIFUGE_NAME" Language="it_IT">
+			<Text>Campo della Regina</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LUCIFUGE_DESCRIPTION" Language="it_IT">
+			<Text>Sblocca il caratteristico potere spirituale della risorsa strategica [ICON_Resource_Queen_Spirit] e una serie di progetti speciali usando il potere spirituale [ICON_Resource_Queen_Spirit]. [NEWLINE]Non può produrre pionieri, ma il vuoto trasformato può aprire città.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_QUEEN_CHESS_NAME" Language="it_IT">
+			<Text>proiettile di scorpione</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_QUEEN_ROOK_DESCRIPTION" Language="it_IT">
+			<Text>Sblocca il &lt;Castello&gt; vuoto e fornisci il corrispondente potere spirituale [ICON_Resource_Queen_Spirit].</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_QUEEN_KNIGHT_DESCRIPTION" Language="it_IT">
+			<Text>Sblocca il &lt;Cavaliere&gt; vuoto e fornisci il corrispondente potere spirituale [ICON_Resource_Queen_Spirit].</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_QUEEN_BISHOP_DESCRIPTION" Language="it_IT">
+			<Text>Sblocca il &lt;vescovo&gt; vuoto e fornisci il corrispondente potere spirituale [ICON_Resource_Queen_Spirit].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_NAME" Language="it_IT">
+			<Text>imperatore pazzo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_DESCRIPTION" Language="it_IT">
+			<Text>Gli oggetti speciali della Regina Bianca hanno i seguenti effetti: [NEWLINE][NEWLINE]
+Punto elenco Ariete: {LOC_PROJECT_LUCIFUGE_ARIES_DESCRIPTION}[NEWLINE]
+Spada Taurus: {LOC_PROJECT_LUCIFUGE_TAURUS_DESCRIPTION}[NEWLINE]
+Punto elenco Gemelli: {LOC_PROJECT_LUCIFUGE_GEMINI_DESCRIPTION}[NEWLINE]
+Spada del cancro: {LOC_PROJECT_LUCIFUGE_CANCER_DESCRIPTION}[NEWLINE]
+Proiettile del leone: {LOC_PROJECT_LUCIFUGE_LEO_DESCRIPTION}[NEWLINE]
+Spada Otome: {LOC_PROJECT_LUCIFUGE_VIRGO_DESCRIPTION}[NEWLINE]
+Pallottola della Bilancia: {LOC_PROJECT_LUCIFUGE_LIBRA_DESCRIPTION}[NEWLINE]
+Punto elenco Scorpione: {LOC_PROJECT_LUCIFUGE_SCORPIO_DESCRIPTION}[NEWLINE]
+Spada dell'arciere: {LOC_PROJECT_LUCIFUGE_SAGITTARIUS_DESCRIPTION}[NEWLINE]
+Punto elenco Capricorno: {LOC_PROJECT_LUCIFUGE_CAPRICORN_DESCRIPTION}[NEWLINE]
+Punto elenco Acquario: {LOC_PROJECT_LUCIFUGE_AQUARIUS_DESCRIPTION}[NEWLINE]
+Punto elenco Pesci: {LOC_PROJECT_LUCIFUGE_PISCES_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_ARIES_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: proiettile dell'Ariete</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_ARIES_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale e tutte le attuali unità militari +7 [ICON_Strength] potere di combattimento, che dura per 9 round.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_ARIES_DESCRIPTION" Language="it_IT">
+			<Text>+7[ICON_Strength] forza di combattimento.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_ARIES_PREV" Language="it_IT">
+			<Text>+7[ICON_Strength] La forza di combattimento deriva dal proiettile dell'Ariete</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_TAURUS_NAME" Language="it_IT">
+			<Text>Imperatore Pazzo: Spada del Toro</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_TAURUS_DESCRIPTION" Language="it_IT">
+			<Text>Il progetto caratteristico della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale e l'output può essere ottenuto in base alle risorse di lusso in eccesso possedute e alle risorse in questa città.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_GEMINI_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: Twin Bullets</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_GEMINI_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto caratteristico della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale. Un vuoto attualmente situato nel territorio della città verrà promosso a soldato. Se non c'è vuoto, otterrà vuoto.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CANCER_NAME" Language="it_IT">
+			<Text>Imperatore Pazzo: Spada del Cancro</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CANCER_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale e tutte le unità vuote causeranno danni extra nella battaglia successiva.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_CANCER_DESCRIPTION" Language="it_IT">
+			<Text>Due combo.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_CANCER_PREV" Language="it_IT">
+			<Text>Due combo!</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_LEO_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: pallottola del leone</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_LEO_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale per aggiungere un proiettile di leone alla tua proprietà nazionale, che è un'arma di distruzione di massa.</Text>
+		</Replace>
+		<Replace Tag="LOC_WMD_QUEEN_LEO_NAME" Language="it_IT">
+			<Text>Pallottola del leone</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_VIRGO_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: Spada Otome</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_VIRGO_DESCRIPTION" Language="it_IT">
+			<Text>Il progetto caratteristico della Regina Bianca richiede il potere spirituale [ICON_Resource_Queen_Spirit] per aumentare la pressione di lealtà che questa città diffonde a se stessa e alle città circostanti. I paesi in guerra sono costretti a fare la pace e altri paesi sono costretti a dichiararsi amici.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_LIBRA_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: Bullet of Libra</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_LIBRA_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede il potere spirituale [ICON_Resource_Queen_Spirit] e tutte le unità vuote possono riflettere danni non letali una volta.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_LIBRA_DESCRIPTION" Language="it_IT">
+			<Text>Riflette i danni non letali una volta.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_LIBRA_PREV" Language="it_IT">
+			<Text>riflessione!</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: il proiettile dello Scorpione</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIOX_NAME" Language="it_IT">
+			<Text>L'imperatore pazzo: Il proiettile degli otto scorpioni</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto caratteristico della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale.Il &lt;soldato&gt; vuoto che si trova attualmente nel territorio della città viene promosso a quadro e, se non ci sono soldati, otterrà un soldato.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_ROOK_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto caratteristico della Regina Bianca richiede il potere spirituale [ICON_Resource_Queen_Spirit] I &lt;soldati&gt; vuoti che si trovano attualmente nel territorio della città verranno potenziati in carri e, se non ci sono soldati, verranno ottenuti dei soldati.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_KNIGHT_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale. Il &lt;soldato&gt; vuoto che si trova attualmente nel territorio della città verrà promosso a cavaliere. Se non ci sono soldati, si otterranno soldati.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_BISHOP_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale. Il &lt;soldato&gt; vuoto che si trova attualmente nel territorio della città verrà promosso a vescovo. Se non ci sono soldati, si otterranno soldati.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SCORPIO_QUEEN_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale. Il &lt;soldato&gt; vuoto che si trova attualmente nel territorio della città verrà promosso a regina. Se non ci sono soldati, si otterranno soldati.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SAGITTARIUS_NAME" Language="it_IT">
+			<Text>Imperatore Pazzo: Spada dell'Arciere</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_SAGITTARIUS_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto caratteristico della Regina Bianca richiede il potere spirituale [ICON_Resource_Queen_Spirit] per rimandare nella capitale tutte le unità nemiche attualmente nel territorio della città.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: Proiettile Capricorno</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale per convertire uno slot di politica militare/economica/straniera in uno slot di politica generale.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_I_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale per convertire uno slot di politica militare in uno slot di politica generale.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_II_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto caratteristico della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale per convertire uno slot di politica economica in uno slot di politica generale.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_CAPRICORN_III_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto speciale della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale per convertire uno slot di politica estera in uno slot di politica generale.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_AQUARIUS_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: proiettili dell'Acquario</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_AQUARIUS_DESCRIPTION" Language="it_IT">
+			<Text>L'oggetto caratteristico della Regina Bianca richiede il potere spirituale [ICON_Resource_Queen_Spirit] Le unità militari attualmente presenti nel territorio della città recupereranno 11 punti salute all'inizio del round e dureranno per 9 round.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUCIFUGE_AQUARIUS_DESCRIPTION" Language="it_IT">
+			<Text>Ripristina 11 HP all'inizio del turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_PISCES_NAME" Language="it_IT">
+			<Text>Imperatore pazzo: proiettile dei pesci</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LUCIFUGE_PISCES_DESCRIPTION" Language="it_IT">
+			<Text>Il caratteristico progetto della Regina Bianca richiede [ICON_Resource_Queen_Spirit] potere spirituale, +1 [ICON_Housing] alloggi in tutte le aree attuali della città.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WHITEQUEEN_NAME" Language="it_IT">
+			<Text>regina Bianca</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WHITEQUEEN_KURUMI_NAME" Language="it_IT">
+			<Text>Regina Bianca (rossa o bianca)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_QUEEN_NAME" Language="it_IT">
+			<Text>Tokisaki Kurumi (rosso o bianco)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_DRESS_NAME" Language="it_IT">
+			<Text>Tokisaki Kurumi (clone)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_CISTUS_NAME" Language="it_IT">
+			<Text>Tokisaki Kurumi (cisto)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TOKISAKI_KURUMI_SMOL_NAME" Language="it_IT">
+			<Text>Tokisaki Kurumi (il giovane Kurumi)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WHITEQUEEN_NAME" Language="it_IT">
+			<Text>personalità multipla</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WHITEQUEEN_DESCRIPTION" Language="it_IT">
+			<Text>Può passare da un'abilità all'altra: [NEWLINE]
+Generale: {LOC_BUILDING_PERSONA_GENERAL_DESCRIPTION}[NEWLINE]
+Signorina: {LOC_BUILDING_PERSONA_LADY_DESCRIPTION}[NEWLINE]
+Politico: {LOC_BUILDING_PERSONA_POLITICIAN_DESCRIPTION}[NEWLINE]
+Lavoratore: {LOC_BUILDING_PERSONA_AGENT_DESCRIPTION}[NEWLINE]
+Boia: {LOC_BUILDING_PERSONA_EXECUTIONER_DESCRIPTION}[NEWLINE]
+Dio: {LOC_BUILDING_PERSONA_OVERLORD_DESCRIPTION}[NEWLINE][NEWLINE]
+Con le abilità della personalità abilitate, le unità che si trovano entro il raggio di 1 cella da un tumulo vuoto ora possono essere trasportate in aereo in qualsiasi altra cella vicino a uno dei tumuli vuoti. [NEWLINE]
+Inoltre, quando si occupa una città, si otterrà il corrispondente potere spirituale [ICON_Resource_Queen_Spirit] in base alla popolazione della città [ICON_Citizen].</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_GENERAL_NAME" Language="it_IT">
+			<Text>Personalità: generale</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_GENERAL_DESCRIPTION" Language="it_IT">
+			<Text>Le città non sperimentano la stanchezza della guerra. Le unità militari prodotte ricevono una promozione. Sconto dell'80% sul costo delle risorse strategiche necessarie per produrre unità. La produzione di tutti i progetti di armi nucleari [ICON_Production] è aumentata del 33%.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_GENERAL_NAME" Language="it_IT">
+			<Text>Trasformazione della personalità: {LOC_BUILDING_PERSONA_GENERAL_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_GENERAL_DESCRIPTION" Language="it_IT">
+			<Text>Cambia capacità in {LOC_BUILDING_PERSONA_GENERAL_NAME}: {LOC_BUILDING_PERSONA_GENERAL_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_LADY_NAME" Language="it_IT">
+			<Text>Personalità: Signorina</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_LADY_DESCRIPTION" Language="it_IT">
+			<Text>Possibilità di catturare unità militari nemiche e trasformarle nel nulla. Il costo di reclutamento delle unità città-stato è dimezzato e ricevono +2 [ICON_Movement] di mobilità e +5 [ICON_Strength] di potenza di combattimento. [ICON_Gold] oro e risorse spesi per raccogliere i potenziamenti delle unità -75%.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_LADY_NAME" Language="it_IT">
+			<Text>Trasformazione della personalità: {LOC_BUILDING_PERSONA_LADY_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_LADY_DESCRIPTION" Language="it_IT">
+			<Text>Cambia abilità in {LOC_BUILDING_PERSONA_LADY_NAME}: {LOC_BUILDING_PERSONA_LADY_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABLILITY_PERSONA_LADY_DESCRIPTION" Language="it_IT">
+			<Text>Possibilità di catturare unità militari nemiche e trasformarle nel nulla.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_POLITICIAN_NAME" Language="it_IT">
+			<Text>Personalità: Politico</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_POLITICIAN_DESCRIPTION" Language="it_IT">
+			<Text>I null hanno prodotto +1 conteggio build. Il numero di costruzioni può essere utilizzato per accelerare del 20% l'avanzamento di meraviglie e aree. La tua città ottiene il bonus di produzione [ICON_Production] da tutti gli edifici della zona industriale vicini che hanno bonus di area, non solo il primo.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_POLITICIAN_NAME" Language="it_IT">
+			<Text>Trasformazione della personalità: {LOC_BUILDING_PERSONA_POLITICIAN_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_POLITICIAN_DESCRIPTION" Language="it_IT">
+			<Text>Cambia abilità in {LOC_BUILDING_PERSONA_POLITICIAN_NAME}: {LOC_BUILDING_PERSONA_POLITICIAN_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_AGENT_NAME" Language="it_IT">
+			<Text>Personalità: servizi segreti</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_AGENT_DESCRIPTION" Language="it_IT">
+			<Text>Le unità militari possono attraversare i confini nazionali. Le spie nemiche eseguiranno lo spionaggio a un livello 3 inferiore al normale. Ogni Spia inizia con un aggiornamento gratuito all'Agente. [ICON_VisLimited] Il bonus alla potenza di combattimento della visibilità diplomatica è raddoppiato. Sconfiggere un'unità nemica all'interno dei confini di una città nemica farà perdere [ICON_Loyalty] alla città.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_AGENT_NAME" Language="it_IT">
+			<Text>Trasformazione della personalità: {LOC_BUILDING_PERSONA_AGENT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_AGENT_DESCRIPTION" Language="it_IT">
+			<Text>Cambia capacità in {LOC_BUILDING_PERSONA_AGENT_NAME}: {LOC_BUILDING_PERSONA_AGENT_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABLILITY_PERSONA_AGENT_DESCRIPTION" Language="it_IT">
+			<Text>L'unità può entrare in territorio straniero anche se i confini non sono aperti.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_EXECUTIONER_NAME" Language="it_IT">
+			<Text>Personalità: carnefice</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_EXECUTIONER_DESCRIPTION" Language="it_IT">
+			<Text>Le unità militari sono immuni alla zona di controllo nemica e non subiscono debuff in combattimento quando vengono ferite. Quando si attaccano unità ferite, tutte le unità +5 [ICON_Strength] forza di combattimento. Ottieni [ICON_Strength] potenziamento della potenza di combattimento dalle unità morte adiacenti (fino a 10 punti).</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_EXECUTIONER_NAME" Language="it_IT">
+			<Text>Trasformazione della personalità: {LOC_BUILDING_PERSONA_EXECUTIONER_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_EXECUTIONER_DESCRIPTION" Language="it_IT">
+			<Text>Cambia abilità in {LOC_BUILDING_PERSONA_EXECUTIONER_NAME}: {LOC_BUILDING_PERSONA_EXECUTIONER_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABLILITY_PERSONA_EXECUTIONER_DESCRIPTION" Language="it_IT">
+			<Text>Immune alla zona di controllo nemica, nessun debuff in combattimento se ferito</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_OVERLORD_NAME" Language="it_IT">
+			<Text>Personalità: Dio</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PERSONA_OVERLORD_DESCRIPTION" Language="it_IT">
+			<Text>Possiede le abilità di tutte le personalità, ma consuma ulteriore [ICON_Resource_Queen_Spirit] potere spirituale ogni round.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_OVERLORD_NAME" Language="it_IT">
+			<Text>Trasformazione della personalità: {LOC_BUILDING_PERSONA_OVERLORD_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PERSONA_OVERLORD_DESCRIPTION" Language="it_IT">
+			<Text>Cambia abilità in {LOC_BUILDING_PERSONA_OVERLORD_NAME}: {LOC_BUILDING_PERSONA_OVERLORD_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DRESS_NAME" Language="it_IT">
+			<Text>Festival di Shenwei Lingzhuang·Sanfan·Qixi</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_DRESS_DESCRIPTION" Language="it_IT">
+			<Text>Quando uccidi un'unità in battaglia, ottieni 3 [ICON_Resource_Kurumi_Time] tempo. Fornisce [ICON_Resource_Kurumi_Time] tempo aggiuntivo man mano che la popolazione di [ICON_Citizen] della capitale [ICON_Capital] cresce. [NEWLINE] Kekedi può usare solo proiettili da uno a nove.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_DRESS_DESCRIPTION" Language="it_IT">
+			<Text>I tre oggetti speciali di Tokisaki Kuro hanno i seguenti effetti: [NEWLINE][NEWLINE]
+Primo punto: {LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION}[NEWLINE]
+Il secondo round: {LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION}[NEWLINE]
+Terzo punto: {LOC_PROJECT_ZAFKIEL_GIMEL_DESCRIPTION}[NEWLINE]
+Quarto punto: {LOC_PROJECT_ZAFKIEL_DALET_DESCRIPTION}[NEWLINE]
+Quinto punto: {LOC_PROJECT_ZAFKIEL_HEI_DESCRIPTION}[NEWLINE]
+Sesto punto elenco: {LOC_PROJECT_ZAFKIEL_VAV_DESCRIPTION}[NEWLINE]
+Settimo punto elenco: {LOC_PROJECT_ZAFKIEL_ZAYIN_DESCRIPTION}[NEWLINE]
+L'ottavo punto elenco: {LOC_PROJECT_ZAFKIEL_HET_DESCRIPTION}[NEWLINE]
+Nove punti elenco: {LOC_PROJECT_ZAFKIEL_TET_DESCRIPTION}[NEWLINE]
+Dieci punti: {LOC_PROJECT_ZAFKIEL_YUD_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CISTUS_NAME" Language="it_IT">
+			<Text>Shenwei Lingzhuang · Sanfan · Cisto</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_CISTUS_DESCRIPTION" Language="it_IT">
+			<Text>Quando uccidi un'unità in battaglia, ottieni 3 [ICON_Resource_Kurumi_Time] tempo. Fornisce [ICON_Resource_Kurumi_Time] tempo aggiuntivo man mano che la popolazione di [ICON_Citizen] della capitale [ICON_Capital] cresce. [NEWLINE] Kekedi può usare solo Proiettile dell'Ariete per Proiettile del Leone.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_CISTUS_DESCRIPTION" Language="it_IT">
+			<Text>I tre oggetti speciali di Tokisaki Kuro hanno i seguenti effetti: [NEWLINE][NEWLINE]
+Primo punto: {LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION}[NEWLINE]
+Il secondo round: {LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION}[NEWLINE]
+Terzo punto: {LOC_PROJECT_ZAFKIEL_GIMEL_DESCRIPTION}[NEWLINE]
+Quarto punto: {LOC_PROJECT_ZAFKIEL_DALET_DESCRIPTION}[NEWLINE]
+Quinto punto: {LOC_PROJECT_ZAFKIEL_HEI_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SMOL_NAME" Language="it_IT">
+			<Text>Shenwei Lingzhuang·Sanfan·Young</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKISAKI_KURUMI_SMOL_DESCRIPTION" Language="it_IT">
+			<Text>Quando uccidi un'unità in battaglia, ottieni 3 [ICON_Resource_Kurumi_Time] tempo. Fornisce [ICON_Resource_Kurumi_Time] tempo aggiuntivo man mano che la popolazione di [ICON_Citizen] della capitale [ICON_Capital] cresce. [NEWLINE] Kekedi può usare solo Aries Bullet e Taurus Bullet.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KURUMI_ZAFKIEL_SMOL_DESCRIPTION" Language="it_IT">
+			<Text>I tre oggetti speciali di Tokisaki Kuro hanno i seguenti effetti: [NEWLINE][NEWLINE]
+Primo punto: {LOC_PROJECT_ZAFKIEL_ALEPH_DESCRIPTION}[NEWLINE]
+Secondo punto: {LOC_PROJECT_ZAFKIEL_BET_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WHITEQUEEN_NAME" Language="it_IT">
+			<Text>regalità assoluta</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WHITEQUEEN_DESCRIPTION" Language="it_IT">
+			<Text>Ama le civiltà che seguono la stessa religione e vuole che tutte le loro città seguano la stessa religione. Odia le civiltà che cercano di diffondere altre religioni nel proprio paese. [NEWLINE]Odia i barbari. Ama ripulire le civiltà dagli avamposti barbarici. Odia le civiltà che ignorano gli avamposti barbarici. [NEWLINE]Adora combattere tra le civiltà e crede nella guerra a lungo termine. Riuscì sempre a mantenere un forte esercito permanente. Rispetta le altre civiltà con grandi eserciti. [NEWLINE]Non esitare a usare armi nucleari. Rispetta le civiltà che possiedono il potere delle armi e degli equipaggiamenti nucleari. [NEWLINE]Gli eserciti verranno arruolati dalle città-stato. Ama le civiltà che usano anche eserciti di città-stato e non ama le civiltà che non si impegnano con i mercenari. [NEWLINE]Vuoi impedire agli esseri umani di orbitare attorno al globo o di andare nello spazio. [NEWLINE]Non ama le civiltà che stanno lottando per ottenere vittorie diplomatiche. [NEWLINE]Cercherà di saccheggiare tutte le celle possibili. Rispetta le altre civiltà a cui piace saccheggiare. [NEWLINE][COLOR_RED] odia Tokisaki Kurumi. [COLORE FINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_QUEEN_SPIRIT_NAME" Language="it_IT">
+			<Text>Potere spirituale</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_EMPTY_NAME" Language="it_IT">
+			<Text>vuoto</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_EMPTY_DESCRIPTION" Language="it_IT">
+			<Text>L'unità di costruzione unica della Regina Bianca che sostituisce il costruttore. [NEWLINE]Richiede [ICON_Resource_Queen_Spirit] energia spirituale per essere prodotta. [NEWLINE]Non può essere catturato, ma si ritirerà in una città vicina.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_PAWN_NAME" Language="it_IT">
+			<Text>vuoto &lt;soldato&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_PAWN_DESCRIPTION" Language="it_IT">
+			<Text>Unica unità di supporto per la Regina Bianca, in sostituzione dell'Ingegnere Militare. Ha bisogno di consumare [ICON_Resource_Queen_Spirit] potere spirituale per produrre. [NEWLINE][ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE][COLOR:Red] non può essere prodotto direttamente in quest'era se la quantità di produzione supera il limite dell'era. [COLORE FINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_ROOK_NAME" Language="it_IT">
+			<Text>Niente &lt;Castello&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_ROOK_DESCRIPTION" Language="it_IT">
+			<Text>L'esclusiva unità da mischia della Regina Bianca. Ha bisogno di consumare [ICON_Resource_Queen_Spirit] potere spirituale per produrre. [NEWLINE][ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE]+5 [ICON_Strength] forza di combattimento durante l'assedio di un'area. Bonus di supporto extra del 50%. Può arrampicarsi sulle scogliere. [NEWLINE][COLOR:Red] non può essere prodotto direttamente in quest'era se la quantità di produzione supera il limite dell'era. [COLORE FINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_KNIGHT_NAME" Language="it_IT">
+			<Text>Vuoto &lt;Cavaliere&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_KNIGHT_DESCRIPTION" Language="it_IT">
+			<Text>L'esclusiva unità di cavalleria della Regina Bianca. Ha bisogno di consumare [ICON_Resource_Queen_Spirit] potere spirituale per produrre. [NEWLINE][ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE]Un punto di [ICON_Movement] movimento può essere consumato per il bottino. Può utilizzare una mobilità [ICON_Movement] estremamente elevata per scortare civili in movimento e unità di supporto. [NEWLINE][COLOR:Red] non può essere prodotto direttamente in quest'era se la quantità di produzione supera il limite dell'era. [COLORE FINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_BISHOP_NAME" Language="it_IT">
+			<Text>vuoto &lt;vescovo&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_BISHOP_DESCRIPTION" Language="it_IT">
+			<Text>L'esclusiva unità a distanza della Regina Bianca. Ha bisogno di consumare [ICON_Resource_Queen_Spirit] potere spirituale per produrre. [NEWLINE][ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE]Una reliquia viene creata dopo la morte. Può curare le unità adiacenti. [NEWLINE]L'azione &quot;Causa pericoli&quot; può essere utilizzata per provocare disastri casuali nello spazio accanto all'unità. [NEWLINE][COLOR:Red] non può essere prodotto direttamente in quest'era se la quantità di produzione supera il limite dell'era. [COLORE FINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_QUEEN_NAME" Language="it_IT">
+			<Text>Vuoto &lt;Regina&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_QUEEN_DESCRIPTION" Language="it_IT">
+			<Text>Super unità unica della Regina Bianca. Ha bisogno di consumare [ICON_Resource_Queen_Spirit] potere spirituale per produrre. [NEWLINE][ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE]Entro due celle, +5 [ICON_Strength] potenza di combattimento e +1 [ICON_Movement] potenza di movimento per le unità di terra, come un generale. [NEWLINE][COLOR:Red] non può essere prodotto direttamente in quest'era se la quantità di produzione supera il limite dell'era. [COLORE FINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AUTO_DISATER_MACHINA_NAME" Language="it_IT">
+			<Text>convocazione di una macchina automatica per i disastri</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AUTO_DISATER_MACHINA_DESCRIPTION" Language="it_IT">
+			<Text>Evoca un Disaster Mech automatizzato nelle capitali di tutti gli altri giocatori.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AUTO_DISATER_MACHINA_NAME" Language="it_IT">
+			<Text>macchina automatica per i disastri</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AUTO_DISATER_MACHINA_DESCRIPTION" Language="it_IT">
+			<Text>Super unità barbarica unica. Può essere evocato solo dagli oggetti in evidenza.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_NAME" Language="it_IT">
+			<Text>vuoto</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_DESCRIPTION" Language="it_IT">
+			<Text>Ignora la zona di controllo. Può attraversare i confini.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_PAWN_NAME" Language="it_IT">
+			<Text>vuoto &lt;soldato&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_PAWN_DESCRIPTION" Language="it_IT">
+			<Text>[ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_ROOK_NAME" Language="it_IT">
+			<Text>Niente &lt;Castello&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_ROOK_DESCRIPTION" Language="it_IT">
+			<Text>[ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE]+5 [ICON_Strength] forza di combattimento durante l'assedio di un'area. Bonus di supporto extra del 50%. Può arrampicarsi sulle scogliere.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_KNIGHT_NAME" Language="it_IT">
+			<Text>Vuoto &lt;Cavaliere&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_KNIGHT_DESCRIPTION" Language="it_IT">
+			<Text>[ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE]Un punto di [ICON_Movement] movimento può essere consumato per il bottino. Può utilizzare una mobilità [ICON_Movement] estremamente elevata per scortare civili in movimento e unità di supporto.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_BISHOP_NAME" Language="it_IT">
+			<Text>vuoto &lt;vescovo&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_BISHOP_DESCRIPTION" Language="it_IT">
+			<Text>[ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE]Una reliquia viene creata dopo la morte. Può curare le unità adiacenti. [NEWLINE]L'azione &quot;Causa pericoli&quot; può essere utilizzata per provocare disastri casuali nello spazio accanto all'unità.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_QUEEN_NAME" Language="it_IT">
+			<Text>Vuoto &lt;Regina&gt;</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EMPTY_QUEEN_DESCRIPTION" Language="it_IT">
+			<Text>[ICON_Strength] La forza di combattimento è ulteriormente migliorata con l'avanzare dei tempi. [NEWLINE]Entro due celle, +5 [ICON_Strength] potenza di combattimento e +1 [ICON_Movement] potenza di movimento per le unità di terra, come un generale.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_1_1_NAME" Language="it_IT">
+			<Text>forza lavoro</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_1_1_DESCRIPTION" Language="it_IT">
+			<Text>Ottieni ulteriore lavoro di costruzione.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_1_3_NAME" Language="it_IT">
+			<Text>Mobilità</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_1_3_DESCRIPTION" Language="it_IT">
+			<Text>+1 [ICON_Movement] movimento.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_2_1_NAME" Language="it_IT">
+			<Text>forza lavoro</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_2_1_DESCRIPTION" Language="it_IT">
+			<Text>Ottieni ulteriore lavoro di costruzione.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_2_3_NAME" Language="it_IT">
+			<Text>Mobilità</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_2_3_DESCRIPTION" Language="it_IT">
+			<Text>+1 [ICON_Movement] movimento.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_3_2_NAME" Language="it_IT">
+			<Text>aggiornamento</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_EMPTY_3_2_DESCRIPTION" Language="it_IT">
+			<Text>+5 [ICON_Strength] forza di combattimento aggiuntiva quando è adiacente al generale. Quando si combatte in territorio nemico, c'è la possibilità di essere promossi a soldato.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_1_1_NAME" Language="it_IT">
+			<Text>combattimenti di strada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_1_1_DESCRIPTION" Language="it_IT">
+			<Text>+10 [ICON_Strength] Forza di combattimento quando si attacca nell'area. +7 [ICON_Strength] forza di combattimento quando combatti con le unità nell'area.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_1_3_NAME" Language="it_IT">
+			<Text>attacco</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_1_3_DESCRIPTION" Language="it_IT">
+			<Text>Doppio bonus di attacco laterale, bonus di supporto.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_2_1_NAME" Language="it_IT">
+			<Text>rompere l'armatura</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_2_1_DESCRIPTION" Language="it_IT">
+			<Text>+7 [ICON_Strength] Forza di combattimento quando combatti contro altre unità pesantemente corazzate, +10 [ICON_Strength] Forza di combattimento per ogni tipo di unità adiacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_2_3_NAME" Language="it_IT">
+			<Text>sopprimere</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_2_3_DESCRIPTION" Language="it_IT">
+			<Text>+5 [ICON_Strength] Forza di combattimento quando si combattono unità danneggiate. Non subisce debuff in combattimento quando viene ferito.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_3_2_NAME" Language="it_IT">
+			<Text>aggiornamento</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PAWN_3_2_DESCRIPTION" Language="it_IT">
+			<Text>+5 [ICON_Strength] forza di combattimento aggiuntiva quando è adiacente al generale. +5 punti Gran Generale quando uccidi un'unità nemica. Quando si combatte in territorio nemico, c'è la possibilità di essere promosso a quadro.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_1_1_NAME" Language="it_IT">
+			<Text>gloria dell'impero</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_1_1_DESCRIPTION" Language="it_IT">
+			<Text>+5 [ICON_Strength] Forza di combattimento quando entro 4 celle dal territorio amico. +5 [ICON_Strength] Forza di combattimento quando combatti dentro o vicino al territorio dell'Impero.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_1_3_NAME" Language="it_IT">
+			<Text>Soppressione regionale</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_1_3_DESCRIPTION" Language="it_IT">
+			<Text>Tutte le unità nemiche adiacenti -10 [ICON_Strength] forza di combattimento.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_2_1_NAME" Language="it_IT">
+			<Text>operazioni in patria</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_2_1_DESCRIPTION" Language="it_IT">
+			<Text>+10 [ICON_Strength] Forza di combattimento quando si combatte nel continente capitale. Ripristina la salute in territorio neutrale.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_2_3_NAME" Language="it_IT">
+			<Text>operazioni all'estero</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_2_3_DESCRIPTION" Language="it_IT">
+			<Text>+10 [ICON_Strength] Forza di combattimento quando si combatte in continenti diversi dalla capitale. Ripristina la salute in territorio nemico.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_3_2_NAME" Language="it_IT">
+			<Text>ultimo atto</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ROOK_3_2_DESCRIPTION" Language="it_IT">
+			<Text>Recupera alla fine di ogni turno, anche dopo aver mosso o attaccato. +7 [ICON_Strength] Forza di combattimento quando fiancheggiato. Nessun debuff in combattimento mentre si subiscono danni.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_1_1_NAME" Language="it_IT">
+			<Text>Manovra nemica</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_1_1_DESCRIPTION" Language="it_IT">
+			<Text>+2 [ICON_Movement] Movimento all'inizio del turno in territorio nemico. Può muoversi dopo aver attaccato.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_1_3_NAME" Language="it_IT">
+			<Text>Forte indagine</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_1_3_DESCRIPTION" Language="it_IT">
+			<Text>La visione è in grado di viaggiare attraverso e attraverso boschi e foreste pluviali. +1 raggio visivo.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_2_1_NAME" Language="it_IT">
+			<Text>frenata statica</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_2_1_DESCRIPTION" Language="it_IT">
+			<Text>Ogni punto di [ICON_Movement] potere di movimento inutilizzato fornirà +3 [ICON_Strength] alla forza di combattimento.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_2_3_NAME" Language="it_IT">
+			<Text>Guardia d'élite</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_2_3_DESCRIPTION" Language="it_IT">
+			<Text>Se la mobilità [ICON_Movement] lo consente, +1 attacco extra per round. Può muoversi dopo aver attaccato.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_3_2_NAME" Language="it_IT">
+			<Text>Inseguimento di migliaia di miglia</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_KNIGHT_3_2_DESCRIPTION" Language="it_IT">
+			<Text>Nessuna penalità di movimento per tutti i terreni e per l'attraversamento di fiumi. +2 movimento [ICON_Movement] se l'unità inizia il suo turno su terreno aperto.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_1_1_NAME" Language="it_IT">
+			<Text>fanatico</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_1_1_DESCRIPTION" Language="it_IT">
+			<Text>+10 [ICON_Strength] Forza di combattimento quando si trova nella stessa griglia dell'unità religiosa.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_1_3_NAME" Language="it_IT">
+			<Text>conquistatore</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_1_3_DESCRIPTION" Language="it_IT">
+			<Text>Se l'unità occupa una città, o è adiacente ad una città quando viene catturata, la città adotta automaticamente la religione del giocatore che la possiede come religione dominante.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_2_1_NAME" Language="it_IT">
+			<Text>molestatore</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_2_1_DESCRIPTION" Language="it_IT">
+			<Text>Solo le unità nemiche adiacenti possono avvistare questa unità. Può rivelare altre unità invisibili.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_2_3_NAME" Language="it_IT">
+			<Text>comunicatore</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_2_3_DESCRIPTION" Language="it_IT">
+			<Text>Questa unità diffonderà la sua religione nelle città circostanti quando uccide un'unità nemica.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_3_2_NAME" Language="it_IT">
+			<Text>Senza volto</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BISHOP_3_2_DESCRIPTION" Language="it_IT">
+			<Text>Le unità circostanti ottengono anche le seguenti abilità: Invisibilità, Ignora zona di controllo e Attraversa confini.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_1_1_NAME" Language="it_IT">
+			<Text>mobile</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_1_1_DESCRIPTION" Language="it_IT">
+			<Text>+3 movimento [ICON_Movement]. Può eseguire azioni di salto per arrampicarsi su terreni montuosi.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_1_3_NAME" Language="it_IT">
+			<Text>città distrutta</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_1_3_DESCRIPTION" Language="it_IT">
+			<Text>+10[ICON_Strength] forza di combattimento quando si attacca la difesa ad area, +7[ICON_RANGED] forza di combattimento a lungo raggio. Efficienza del 100% quando si attaccano città e accampamenti a distanza e +30 [ICON_RANGED] alla potenza di combattimento a lungo raggio.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_2_1_NAME" Language="it_IT">
+			<Text>pastella</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_2_1_DESCRIPTION" Language="it_IT">
+			<Text>Se la mobilità lo consente, è possibile effettuare attacchi aggiuntivi ogni round.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_2_3_NAME" Language="it_IT">
+			<Text>beccaccino</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_2_3_DESCRIPTION" Language="it_IT">
+			<Text>Attacca direttamente le unità di supporto senza distruggere le unità combattenti. +12[ICON_RANGED] potenza di combattimento a distanza quando si combattono unità di terra, +7[ICON_RANGED] potenza di combattimento a lungo raggio quando si combattono unità navali.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_3_2_NAME" Language="it_IT">
+			<Text>Regina</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_QUEEN_3_2_DESCRIPTION" Language="it_IT">
+			<Text>Ottieni valore tecnologico [ICON_Science] uccidendo nel continente capitale e ottieni valore culturale [ICON_Culture] uccidendo in altri continenti. Aumenta la potenza di combattimento di [ICON_Strength] quando un'unità muore in una cella adiacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_CRITICAL_HIT" Language="it_IT">
+			<Text>Critico!</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QUEEN_KURGAN_NAME" Language="it_IT">
+			<Text>tomba vuota</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QUEEN_KURGAN_DESCRIPTION" Language="it_IT">
+			<Text>Il caratteristico edificio della Regina Bianca. [NEWLINE][NEWLINE] Genera [ICON_RESOURCE_QUEEN_SPIRIT] potere spirituale. +1 [ICON_Faith] valore di fede. Dopo aver sbloccato &quot;Storia naturale&quot;, +1 al valore cultura [ICON_Culture]. Dopo aver ricercato e sviluppato &quot;Volare&quot;, otterrai [ICON_Tourism] prestazioni turistiche da [ICON_Faith] valore di fede. Non può essere costruito su colline o adiacente ad altri tumuli.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_HIPPODROME_NAME" Language="it_IT">
+			<Text>Ippodromo di Soranashi</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_HIPPODROME_DESCRIPTION" Language="it_IT">
+			<Text>L'area in primo piano della Regina Bianca. Sostituisce l'area del centro di intrattenimento. [NEWLINE]Dà +3 [ICON_Amenities] soddisfazione ed è meno costoso da creare. Non può essere costruito in una città con un &quot;parco acquatico&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_HIPPODROME_CULTURE" Language="it_IT">
+			<Text>+{1_num} [ICON_Culture] valore culturale dall'adiacente area dell'Ippodromo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_OPPIDUM_NAME" Language="it_IT">
+			<Text>insediamento vuoto</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_QUEEN_OPPIDUM_DESCRIPTION" Language="it_IT">
+			<Text>L'area caratteristica della Regina Bianca sostituisce l'area industriale, non solo è più economica da costruire, ma può essere costruita prima e non è soggetta a vincoli di popolazione. [NEWLINE]L'insediamento è un'area difensiva con capacità di attacco a distanza. Dopo la costruzione del primo insediamento, la tecnologia &quot;apprendista&quot; verrà sbloccata immediatamente. [NEWLINE]Hai la possibilità di ottenere un vuoto quando vengono costruiti insediamenti ed edifici nell'area. [NEWLINE]Ottieni un bonus di adiacenza di +2 [ICON_Production] Produzione per ogni miglioramento di cava o risorsa strategica adiacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUEEN_PAIDES_NAME" Language="it_IT">
+			<Text>Collegio della Regina</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QUEEN_PAIDES_DESCRIPTION" Language="it_IT">
+			<Text>L'edificio unico della Regina Bianca, che sostituisce la Caserma. [NEWLINE]Tutte le unità di terra da mischia e a distanza addestrate in questa città ottengono +25% di esperienza di combattimento. Quando crei un'unità non civile in questa città, puoi ottenere un valore tecnologico [ICON_Science] pari al 25% del costo dell'unità. [NEWLINE][NEWLINE]Accumulo di risorse strategiche +10 (a velocità standard). [NEWLINE][NEWLINE]Non può essere costruito in un'area del campeggio che ha già una stalla.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QUEEN_XP_NAME" Language="it_IT">
+			<Text>vuoto</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QUEEN_XP_DESCRIPTION" Language="it_IT">
+			<Text>Ottieni PE bonus dall'Accademia della Regina.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QUEEN_OVERLORD_TITLE" Language="it_IT">
+			<Text>governate</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QUEEN_OVERLORD_DESCRIPTION" Language="it_IT">
+			<Text>Amministratore delegato della Regina Bianca. Può essere assegnato a tutte le città domestiche e capitali di civiltà.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_1_NAME" Language="it_IT">
+			<Text>il generale</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_1_DESCRIPTION" Language="it_IT">
+			<Text>+5 [ICON_Strength] Forza di combattimento per tutte le unità amiche che combattono all'interno del territorio cittadino. La città ottiene un'opportunità di attacco a lungo raggio [ICON_Ranged] extra ogni round. Le unità militari addestrate da questa città ricevono un potenziamento gratuito se non sono partite con un potenziamento gratuito. Può essere nominato rapidamente.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_2_1_NAME" Language="it_IT">
+			<Text>boia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_2_1_DESCRIPTION" Language="it_IT">
+			<Text>Guarnigioni cittadine e unità che difendono all'interno del territorio cittadino +5 [ICON_Strength] forza di combattimento. Quando attaccano un'area difensiva, tutte le unità entro 10 caselle dal centro città avranno +10 [ICON_Strength] forza di combattimento.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_2_2_NAME" Language="it_IT">
+			<Text>spiare</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_2_2_DESCRIPTION" Language="it_IT">
+			<Text>La città non può essere assediata. Il livello di spionaggio delle spie nemiche in questa città è notevolmente ridotto. Quando presumi una capitale straniera [ICON_Capital], la città del proprietario non sarà più in grado di diffondere la pressione della lealtà sulla tua città.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_3_1_NAME" Language="it_IT">
+			<Text>Signorina</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_3_1_DESCRIPTION" Language="it_IT">
+			<Text>Le risorse strategiche che la città sta accumulando avranno un ulteriore +1 per turno. Quando entri in carica nella capitale di un paese straniero [ICON_Capital], puoi accumulare le risorse strategiche della città e ottenere le risorse di lusso della città.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_3_2_NAME" Language="it_IT">
+			<Text>politico</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_3_2_DESCRIPTION" Language="it_IT">
+			<Text>Ogni rotta commerciale internazionale [ICON_TradeRoute] attraverso questa città +3 [ICON_Gold] entrate in monete d'oro per turno. Quando entri in carica nella capitale di un paese straniero [ICON_Capital], il risentimento [ICON_STAT_GRIEVANCE] del proprietario della città nei tuoi confronti diminuirà di 1 punto ogni turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_4_NAME" Language="it_IT">
+			<Text>Dio</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OVERLORD_4_DESCRIPTION" Language="it_IT">
+			<Text>Consente alle città di acquistare regioni con [ICON_Gold] oro o fede [ICON_Faith]. Nella tessera di questa città, tutte le unità [ICON_Governor] del Governatore guariscono completamente in un turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_HIBIKI_NAME" Language="it_IT">
+			<Text>hibiki</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_HIBIKI_TITLE" Language="it_IT">
+			<Text>vuoto</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_HIBIKI_DESCRIPTION" Language="it_IT">
+			<Text>Il caratteristico amministratore delegato di Fei Yixiang. Fornire miglioramenti relativi alla diplomazia e alle città-stato. Può essere assegnato a città-stato.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_1_NAME" Language="it_IT">
+			<Text>messaggero</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_1_DESCRIPTION" Language="it_IT">
+			<Text>Può essere assegnato a città-stato, equivalente a 2 inviati [ICON_Envoy]. Le spie nemiche in questa città opereranno a un livello 2 inferiore al normale.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_2_1_NAME" Language="it_IT">
+			<Text>società ricca</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_2_1_DESCRIPTION" Language="it_IT">
+			<Text>Dopo essere stato inviato in una città-stato, puoi ottenere le risorse di lusso e le risorse strategiche della città-stato.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_2_2_NAME" Language="it_IT">
+			<Text>prestigio</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_2_2_DESCRIPTION" Language="it_IT">
+			<Text>Le altre città entro 9 caselle da te guadagnano +2 Lealtà alla tua civiltà ogni turno. Altre città che si trovano entro 9 caselle e non ti appartengono perderanno 2 punti fedeltà ogni turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_3_1_NAME" Language="it_IT">
+			<Text>Commercio di Forex</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_3_1_DESCRIPTION" Language="it_IT">
+			<Text>Ogni rotta commerciale internazionale [ICON_TradeRoute] attraverso questa città ha +3 [ICON_Gold] entrate in monete d'oro per round. Le risorse strategiche che la città sta accumulando avranno un ulteriore +1 per turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_3_2_NAME" Language="it_IT">
+			<Text>Logistica in eccedenza</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_3_2_DESCRIPTION" Language="it_IT">
+			<Text>Una [ICON_TradeRoute] con questa città come destinazione fornirà +2 [ICON_Food] alla città di partenza. +5 [ICON_Strength] Forza di combattimento per tutte le unità amiche che combattono all'interno del territorio cittadino.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_4_NAME" Language="it_IT">
+			<Text>dietro le quinte</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HIBIKI_4_DESCRIPTION" Language="it_IT">
+			<Text>Quando presti servizio in una città-stato, puoi raddoppiare il numero di inviati [ICON_Envoy] in quella città-stato. Può costruire miglioramenti del parco cittadino in questa città. +1 [ICON_Culture] Cultura e +2 Carisma. +1 [ICON_Amenities] soddisfazione se adiacente all'acqua.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KINGKILLING_NAME" Language="it_IT">
+			<Text>usurpazione del trono</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KINGKILLING_DESCRIPTION" Language="it_IT">
+			<Text>&lt;Vuoto&gt; Anello di vestiti cremisi</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KINGKILLING_ADJECTIVE" Language="it_IT">
+			<Text>usurpatore del trono</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_KINGKILLING_NAME" Language="it_IT">
+			<Text>Acquisizione di capacità</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_KINGKILLING_DESCRIPTION" Language="it_IT">
+			<Text>Parte dell'abilità di altre civiltà può essere presa e l'avversario perde la capacità di essere presa. [NEWLINE]Le capacità possono essere acquisite solo da una civiltà alla volta.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HIGOROMO_HIBIKI_NAME" Language="it_IT">
+			<Text>hibiki</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIGOROMO_HIBIKI_NAME" Language="it_IT">
+			<Text>Abito Bleach Spirit·Uno tre tre ventagli</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIGOROMO_HIBIKI_DESCRIPTION" Language="it_IT">
+			<Text>Le città costruite guadagnano territori aggiuntivi. Le rotte commerciali [ICON_TradeRoute] stabilite con civiltà più avanzate possono fornire valore tecnologico [ICON_Science] o valore culturale [ICON_Culture].</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KINGKILLING_NAME" Language="it_IT">
+			<Text>L'usurpatore del trono:</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KINGKILLING_DESCRIPTION" Language="it_IT">
+			<Text>[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KINGKILLING_RESET_NAME" Language="it_IT">
+			<Text>Usurpatore del Trono: Reset</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KINGKILLING_RESET_DESCRIPTION" Language="it_IT">
+			<Text>Cancella l'abilità attualmente sequestrata e scegli di nuovo.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HIBIKI_NAME" Language="it_IT">
+			<Text>scambista</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HIBIKI_DESCRIPTION" Language="it_IT">
+			<Text>Amichevole con le civiltà il cui valore tecnologico [ICON_Scienza] e valore [ICON_Cultura] sono superiori al suo. Odia le civiltà prive di tecnologia [ICON_Science] e cultura [ICON_Culture]. [NEWLINE]Cercherà di formare più alleanze, rispettando le civiltà che formano alleanze. Non ama le civiltà con poche alleanze. [NEWLINE]Non attaccherà i vicini a meno che non rispettino gli impegni diplomatici. Ama le civiltà che vivono in pace con i loro vicini e detesta le civiltà che entrano in guerra con i loro vicini. [NEWLINE] Mi piace Tokisaki Kurumi.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAILAPS_NAME" Language="it_IT">
+			<Text>lupo stellato</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAILAPS_DESCRIPTION" Language="it_IT">
+			<Text>&lt;Quasi-elfo&gt; Cang</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAILAPS_ADJECTIVE" Language="it_IT">
+			<Text>Sirio</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAILAPS_NAME" Language="it_IT">
+			<Text>schiacciabiscotti</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAILAPS_DESCRIPTION" Language="it_IT">
+			<Text>Sblocca l'unità unica, il Sirius.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_LAILAPS_TSUAN_NAME" Language="it_IT">
+			<Text>Cang</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LAILAPS_TSUAN_NAME" Language="it_IT">
+			<Text>Costume morte estrema · Ventaglio 15</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LAILAPS_TSUAN_DESCRIPTION" Language="it_IT">
+			<Text>Ottieni [ICON_Strength] potenziamento della potenza di combattimento dalle unità morte adiacenti (fino a 10 punti). Quando l'unità di terra sconfigge l'unità avversaria della civiltà principale o non principale, otterrà [ICON_GreatGeneral] punti generali e quando l'unità navale sconfigge l'unità avversaria, riceverà [ICON_GreatAdmiral] punti comandante navale, l'importo ottenuto è pari a 25% della potenza di combattimento dell'avversario (a velocità standard).</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TSUAN_NAME" Language="it_IT">
+			<Text>Ragazza cracker</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TSUAN_DESCRIPTION" Language="it_IT">
+			<Text>Proverà a conquistare le civiltà vicine, ama le civiltà che non sono ancora adiacenti ad essa. Non mi piacciono i paesi vicini. [NEWLINE]Cercherà di costruire mura di alto livello attorno alle città, rispettando le civiltà che la pensano allo stesso modo. Odia le civiltà che non fortificano le loro città. [NEWLINE]Non firmerei mai termini di pace umilianti, preferirei civiltà che si adattino a quello stile. Odia le civiltà che soccombono alla forza o non usano mai la forza. I rancori contro questo leader si riducono due volte più velocemente. [NEWLINE] Mi piace Tokisaki Kurumi.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LAILAPS_LAND_NAME" Language="it_IT">
+			<Text>Punti generali generali</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LAILAPS_LAND_DESCRIPTION" Language="it_IT">
+			<Text>Quando un'unità di terra sconfigge un'unità avversaria della civiltà principale o non principale, guadagnerà [ICON_GreatGeneral] punti pari al 25% della potenza di combattimento dell'avversario (a velocità standard).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LAILAPS_NAVAL_NAME" Language="it_IT">
+			<Text>Punti Ammiraglio</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LAILAPS_NAVAL_DESCRIPTION" Language="it_IT">
+			<Text>Quando un'unità navale sconfigge un'unità avversaria di una civiltà principale o non principale, ottieni [ICON_GreatAdmiral] punti ammiraglio navale (a velocità standard) pari al 25% della potenza di combattimento dell'avversario.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TSUAN_LAILAPS_NAME" Language="it_IT">
+			<Text>lupo stellato</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TSUAN_LAILAPS_DESCRIPTION" Language="it_IT">
+			<Text>L'esclusiva unità da mischia medievale di Cang. Con opzioni di aggiornamento uniche e aggiornamenti gratuiti fin dall'inizio. Al termine, la popolazione della città [ICON_Citizen] viene ridotta di 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_WIND_SLICER_NAME" Language="it_IT">
+			<Text>Vulcano Furin</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_WIND_SLICER_DESCRIPTION" Language="it_IT">
+			<Text>+2 movimento [ICON_Movement].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_SUN_BLOW_NAME" Language="it_IT">
+			<Text>foschia di calore</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_SUN_BLOW_DESCRIPTION" Language="it_IT">
+			<Text>Doppio bonus di fiancheggiamento.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_AKUMA_ARMOR_NAME" Language="it_IT">
+			<Text>armatura demoniaca</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_AKUMA_ARMOR_DESCRIPTION" Language="it_IT">
+			<Text>+7 [ICON_Strength] Forza di combattimento in tutte le situazioni. [NEWLINE]Aggiungi +5 [ICON_Strength] forza di combattimento durante la difesa.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_RADIANT_HONOR_NAME" Language="it_IT">
+			<Text>Onore</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_RADIANT_HONOR_DESCRIPTION" Language="it_IT">
+			<Text>Ottieni cultura quando uccidi un'unità nemica.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_NITENICHIRYU_STYLE_NAME" Language="it_IT">
+			<Text>due giorni prima lezione</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_NITENICHIRYU_STYLE_DESCRIPTION" Language="it_IT">
+			<Text>Se la mobilità [ICON_Movement] lo consente, +2 attacco extra per round.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_MEIKYO_SHISUI_NAME" Language="it_IT">
+			<Text>specchio luce stop acqua</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_MEIKYO_SHISUI_DESCRIPTION" Language="it_IT">
+			<Text>Fatti curare alla fine del round.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_MASAMUNE_BLADE_NAME" Language="it_IT">
+			<Text>Lama autentica</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_LAILAPS_MASAMUNE_BLADE_DESCRIPTION" Language="it_IT">
+			<Text>+3 [ICON_Strength] Forza di combattimento in tutte le situazioni. [NEWLINE]Aggiungi +15 [ICON_Strength] forza di combattimento quando attacchi.</Text>
+		</Replace>
+		<Replace Tag="LAILAPS_AKUMA_ARMOR_INCREASED_COMBAT_STRENGTH_PREV" Language="it_IT">
+			<Text>+7 Questi guerrieri sono protetti dall'armatura demoniaca.</Text>
+		</Replace>
+		<Replace Tag="LAILAPS_AKUMA_ARMOR_INCREASED_DEFENDING_COMBAT_STRENGTH_PREV" Language="it_IT">
+			<Text>L'armatura demoniaca +5 rivela il suo vero potenziale quando viene difesa dal suo proprietario.</Text>
+		</Replace>
+		<Replace Tag="LAILAPS_MASAMUNE_BLADE_INCREASED_COMBAT_STRENGTH_PREV" Language="it_IT">
+			<Text>+3 Indipendentemente dal fatto che il proprietario della lama autentica la usi per attaccare o difendersi, è molto conveniente.</Text>
+		</Replace>
+		<Replace Tag="LAILAPS_MASAMUNE_BLADE_BONUSWHENATTACK_PREV" Language="it_IT">
+			<Text>+15 La Masamune Blade rivela il suo vero potenziale quando il suo padrone sta attaccando.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_ARIADNE_NAME" Language="it_IT">
+			<Text>Arianna radice di volpe</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_ARIADNE_DESCRIPTION" Language="it_IT">
+			<Text>Il sovrano del quarto regno confinante, con i capelli a spirale, indossa una camicia azzurra e una minigonna.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_ARIADNE_ADJECTIVE" Language="it_IT">
+			<Text>di arianna</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_ARIADNE_NAME" Language="it_IT">
+			<Text>Termine solare lunare quattro termini solari</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_ARIADNE_DESCRIPTION" Language="it_IT">
+			<Text>Ottieni 1 [ICON_GreatProphet] Grande Profeta gratis. Ottieni apostoli se la religione è stabilita.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_RINEMU_NAME" Language="it_IT">
+			<Text>Hui Li Yin Meng</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_RINEMU_DESCRIPTION" Language="it_IT">
+			<Text>La ragazza bionda, l'ex sovrana del Nono Regno.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_RINEMU_ADJECTIVE" Language="it_IT">
+			<Text>di Hui Li Yin Meng</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_RINEMU_NAME" Language="it_IT">
+			<Text>talento canoro</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_RINEMU_DESCRIPTION" Language="it_IT">
+			<Text>I tuoi costruttori ora possono costruire miglioramenti del parco cittadino.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_GAREHA_NAME" Language="it_IT">
+			<Text>Kinkou-in Kaha</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_GAREHA_DESCRIPTION" Language="it_IT">
+			<Text>Sovrano dell'ottavo regno. Lunghi capelli neri, splendido kimono, spesso coperto da un ventaglio, che danno alla gente l'impressione di una signora elegante e dignitosa.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_GAREHA_ADJECTIVE" Language="it_IT">
+			<Text>facendo inciampare Wang Yuan Hua Yu</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_GAREHA_NAME" Language="it_IT">
+			<Text>Sakuraga Sanka</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_GAREHA_DESCRIPTION" Language="it_IT">
+			<Text>Quando uccidi un'unità, c'è una certa possibilità di catturarla.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_OUKA_NAME" Language="it_IT">
+			<Text>Ouka Miyafuji</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_OUKA_DESCRIPTION" Language="it_IT">
+			<Text>Il sovrano del sesto reame, dai capelli color lavanda, con indosso una camicia bianca e una gonna plissettata, ha un temperamento elegante.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MINOR_OUKA_ADJECTIVE" Language="it_IT">
+			<Text>di Miyato Yoko</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_OUKA_NAME" Language="it_IT">
+			<Text>Punta di giada di ghiaccio</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MINOR_OUKA_DESCRIPTION" Language="it_IT">
+			<Text>Le rotte commerciali via terra [ICON_TradeRoute] sono immuni al saccheggio.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

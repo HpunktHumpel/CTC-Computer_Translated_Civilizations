@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1684189494</Created>
+    <Created>1684195875</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -351,6 +351,13 @@
     </Criteria>
     <Criteria id="2899472522_InGame">
       <ModInUse>dda1db30-8338-470b-917d-ad8b959a0256</ModInUse>
+    </Criteria>
+    <!-- 2915346438 - LOC_DAL_WHITEQUEEN_NAME-->
+    <Criteria id="2915346438_FrontEnd">
+      <ModIsEnabled>2cad86de-e095-4579-889e-90d6ea58115c</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2915346438_InGame">
+      <ModInUse>2cad86de-e095-4579-889e-90d6ea58115c</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1148,6 +1155,22 @@
       <File>2899472522/frontend_ru_RU.xml</File>
       <File>2899472522/frontend_pl_PL.xml</File>
       <File>2899472522/frontend_ko_KR.xml</File>
+    </UpdateText>
+    <!-- 2915346438 - LOC_DAL_WHITEQUEEN_NAME-->
+    <UpdateText id="2915346438_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2915346438_FrontEnd</Criteria>
+      <File>2915346438/frontend_en_US.xml</File>
+      <File>2915346438/frontend_fr_FR.xml</File>
+      <File>2915346438/frontend_de_DE.xml</File>
+      <File>2915346438/frontend_it_IT.xml</File>
+      <File>2915346438/frontend_es_ES.xml</File>
+      <File>2915346438/frontend_ja_JP.xml</File>
+      <File>2915346438/frontend_ru_RU.xml</File>
+      <File>2915346438/frontend_pl_PL.xml</File>
+      <File>2915346438/frontend_ko_KR.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -1956,6 +1979,23 @@
       <File>2899472522/ingame_pl_PL.xml</File>
       <File>2899472522/ingame_ko_KR.xml</File>
     </UpdateText>
+    <!-- 2915346438 - LOC_DAL_WHITEQUEEN_NAME-->
+    <UpdateText id="2915346438_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2915346438_InGame</Criteria>
+      <File>2915346438/ingame_en_US.xml</File>
+      <File>2915346438/ingame_fr_FR.xml</File>
+      <File>2915346438/ingame_de_DE.xml</File>
+      <File>2915346438/ingame_it_IT.xml</File>
+      <File>2915346438/ingame_es_ES.xml</File>
+      <File>2915346438/ingame_ja_JP.xml</File>
+      <File>2915346438/ingame_ru_RU.xml</File>
+      <File>2915346438/ingame_pl_PL.xml</File>
+      <File>2915346438/ingame_ko_KR.xml</File>
+      <File>2915346438/ingame_zh_Hans_CN.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2135227579/frontend_de_DE.xml</File>
@@ -2274,6 +2314,25 @@
     <File>2903392018/ingame_pl_PL.xml</File>
     <File>2903392018/ingame_ru_RU.xml</File>
     <File>2903392018/ingame_zh_Hant_HK.xml</File>
+    <File>2915346438/frontend_de_DE.xml</File>
+    <File>2915346438/frontend_en_US.xml</File>
+    <File>2915346438/frontend_es_ES.xml</File>
+    <File>2915346438/frontend_fr_FR.xml</File>
+    <File>2915346438/frontend_it_IT.xml</File>
+    <File>2915346438/frontend_ja_JP.xml</File>
+    <File>2915346438/frontend_ko_KR.xml</File>
+    <File>2915346438/frontend_pl_PL.xml</File>
+    <File>2915346438/frontend_ru_RU.xml</File>
+    <File>2915346438/ingame_de_DE.xml</File>
+    <File>2915346438/ingame_en_US.xml</File>
+    <File>2915346438/ingame_es_ES.xml</File>
+    <File>2915346438/ingame_fr_FR.xml</File>
+    <File>2915346438/ingame_it_IT.xml</File>
+    <File>2915346438/ingame_ja_JP.xml</File>
+    <File>2915346438/ingame_ko_KR.xml</File>
+    <File>2915346438/ingame_pl_PL.xml</File>
+    <File>2915346438/ingame_ru_RU.xml</File>
+    <File>2915346438/ingame_zh_Hans_CN.xml</File>
     <File>2917686453/frontend_de_DE.xml</File>
     <File>2917686453/frontend_en_US.xml</File>
     <File>2917686453/frontend_es_ES.xml</File>
