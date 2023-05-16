@@ -74,6 +74,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2967861720](https://steamcommunity.com/sharedfiles/filedetails/?id=2967861720) | 나츠메 이로하의 게헨나 학원 | Gehenna Gakuen in Natsume Iroha |
 | [2970750119](https://steamcommunity.com/sharedfiles/filedetails/?id=2970750119) | Ophidy's Solisia 远古回响索利西亚 | Ophidy's Solisia echoes in ancient times|
 | [2970823129](https://steamcommunity.com/sharedfiles/filedetails/?id=2970823129) | [TOUHOU]东方project 番外之页——EX露米娅 | [TOUHOU] Oriental Project Fanwai Page – EX Lumia |
+| [2973049234](https://steamcommunity.com/sharedfiles/filedetails/?id=2973049234) | [GS] miHoYo Coporation(CN text only) | [GS] miHoYo Coporation(CN text only) |
 | [2974358065](https://steamcommunity.com/sharedfiles/filedetails/?id=2974358065) | 키리후지 나기사의 트리니티 종합학원 | Trinity Comprehensive Academy in Kirifuji Nagisa |
 | [2974754410](https://steamcommunity.com/sharedfiles/filedetails/?id=2974754410) | Re: Life in a Different World from Zero Witch's Tea Party | Re: Life in a Different World from Zero Witch's Tea Party |
 

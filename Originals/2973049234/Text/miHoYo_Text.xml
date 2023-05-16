@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <!-- Civilization. -->
+  <LocalizedText>
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_NAME" Language="zh_Hans_CN">
+      <Text>米哈游</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>米哈游科技（上海）有限公司</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_ADJECTIVE" Language="zh_Hans_CN">
+      <Text>米哈游的</Text>
+    </Row>
+
+
+    <Row Tag="LOC_TRAIT_TECH_OTAKUS_SAVE_THE_WORLD_NAME" Language="zh_Hans_CN">
+      <Text>技术宅拯救世界</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_TECH_OTAKUS_SAVE_THE_WORLD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>无法建造军事单位。城市所有单元格+1科技值[ICON_SCIENCE]+1生产力[ICON_PRODUCTION]，有资源的单元格额外+3生产力[ICON_PRODUCTION]，商人单位免疫掠夺。</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_MIHOYO_TRADER_IMMUNITY_NAME" Language="zh_Hans_CN">
+      <Text>免疫掠夺</Text>
+    </Row>
+
+    <Row Tag="LOC_ABILITY_MIHOYO_TRADER_IMMUNITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>贸易路线免疫掠夺。</Text>
+    </Row>
+
+
+  </LocalizedText>
+
+  <!-- Hoyolab. -->
+  <LocalizedText>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_HOYOLAB" Language="zh_Hans_CN">
+      <Text>米哈游特色区域：米游社</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOYOLAB_NAME" Language="zh_Hans_CN">
+      <Text>米游社</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOYOLAB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>米哈游特色文化区域，替代剧院广场，初始+2文化值[ICON_CULTURE]，建造费用更低。
+      [NEWLINE]建成后城市发展速度+25%，在拥有“人文主义”市政后产出等同相邻加成的生产力[ICON_PRODUCTION]。</Text>
+    </Row>
+
+    <Row Tag="LOC_ADJACENCY_HOYOLAB_BASE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOYOLAB_CULTURE_INDUSTRIAL_ZONE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻工业区。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOYOLAB_CULTURE_COMMERCIAL_HUB" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻商业中心。</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_HOYOLAB_CULTURE_RESOURCES" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻资源。</Text>
+    </Row>
+
+    <Row Tag="LOC_ADJACENCY_HOYOLAB_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻米游社。</Text>
+    </Row>
+    <Row Tag="LOC_ADJACENCY_HOYOLAB_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻米游社。</Text>
+    </Row>
+    <Row Tag="LOC_ADJACENCY_HOYOLAB_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻米游社。</Text>
+    </Row>
+    <Row Tag="LOC_ADJACENCY_HOYOLAB_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_GOLD] 金币来自相邻米游社。</Text>
+    </Row>
+    <Row Tag="LOC_ADJACENCY_HOYOLAB_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻米游社。</Text>
+    </Row>
+  </LocalizedText>
+
+  <!-- Leader CEO. -->
+  <LocalizedText>
+    <Row Tag="LOC_LEADER_MIHOYO_CEO_NAME" Language="zh_Hans_CN">
+      <Text>刘伟</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_MIHOYO_CEO_NAME" Language="zh_Hans_CN">
+      <Text>别墅之灾</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MIHOYO_CEO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>区域与区域相邻有额外的相邻加成，拥有特色单位“狗托”。</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MIHOYO_CEO_QUOTE" Language="zh_Hans_CN">
+      <Text>再氪一单648吧。</Text>
+    </Row>
+    <Row Tag="LOC_MIHOYO_COMBAT_GRIEVANCE_EXTRA_DAMAGE" Language="zh_Hans_CN">
+      <Text>对方对你的不满造成了额外的伤害。</Text>
+    </Row>
+
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>愿我们的友谊如同命运般紧紧交织在一起，共同奔赴辉煌的未来。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>你是否能成为我们的朋友还有待商榷。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们向你发出了邀请，你愿意成为我们的提款...朋友吗？</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>没有什么比收获你的友谊更令人快乐的事情了。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们仍在考量你能否成为我们的朋友。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>败于我们的对手都是如此狂妄，你又能狂吠到何时？</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们已在战争中击败了无数的巨头，你的城市也将如此。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们带着你的使者们遨游了整个「世界」，无数盛景奇观尽收眼底。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>很不巧你的代表团来的不是时候，我们的城市正在维护升级。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们邀请你们来体验异世界的美好与欢乐，想必一定给你们留下了独特的记忆。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>「世界」自有其法则，你的滔天罪行终究会受到惩罚。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>「世界」拒绝了你。（谴责你）</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>在你面前的是热情好客的米哈游「世界」的领袖，准备好感受我们的热情招待了吗？</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们会一同见证星海中的闪耀与奇迹，请尽情期待吧。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>好。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们会向你讲述我们绮丽绚烂的故事，但你也要和我们说说你的国家。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_GREETING_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>你有何贵干？</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>相信你的关注必能给予你可观的回馈。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>没有相关的投入，怎么可能会有对应的产出呢？</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>你愿意把未来托付给我们吗？</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>相信此时的和解必能给你和我们的美好未来带去新的愿景。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>很遗憾我们未能达成一致，战争继续。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们向你发出了和平的请求，相信你也是热爱和平的人吧。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们的「世界」已向你敞开，欢迎你的军队从此借道。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>恐怕我们无法答应你的请求。 </Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我们的军队请求通过你的领土，能否暂时开放一下？</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>随着你军队的靠近，我的军队也开始躁动不安。赶紧撤走他们。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>这是集体的意志，我无从干涉。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我将遵守与你的约定，将军队撤离你的边界。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>相信我们会在不远的未来再见。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>我想，或许还差点什么。</Text>
+    </Row>
+    <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MIHOYO_CEO_ANY" Language="zh_Hans_CN">
+      <Text>这是一笔很公平合理的交易，不是吗？ </Text>
+    </Row>
+  </LocalizedText>
+
+  <!-- Units. -->
+  <LocalizedText>
+    <Row Tag="LOC_UNIT_MIHOYO_AGENT_NAME" Language="zh_Hans_CN">
+      <Text>狗托</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MIHOYO_AGENT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>替代“建造者”，+2[ICON_MOVEMENT]+1[ICON_CHARGES]，解锁“占星术”后可上船。生产后返还一定数量的金币[ICON_GOLD]，可将相邻蛮族转换为己方单位。</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MIHOYO_DOG_NAME" Language="zh_Hans_CN">
+      <Text>米哈游的狗</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_MIHOYO_DOG_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>移动时忽略控制区，可将相邻蛮族转换为己方单位。</Text>
+    </Row>
+  </LocalizedText>
+
+  <!-- Citizens and Cities. -->
+  <LocalizedText>
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CAPITAL" Language="zh_Hans_CN" Text="魔都" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_1" Language="zh_Hans_CN" Text="月之残境" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_2" Language="zh_Hans_CN" Text="终焉陨坑" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_3" Language="zh_Hans_CN" Text="始源高地" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_4" Language="zh_Hans_CN" Text="福斯湾" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_5" Language="zh_Hans_CN" Text="亚天魔城" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_6" Language="zh_Hans_CN" Text="永世乐土" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_7" Language="zh_Hans_CN" Text="雅利洛-VI" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_8" Language="zh_Hans_CN" Text="空间站「黑塔」" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_9" Language="zh_Hans_CN" Text="仙舟「罗浮」" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_10" Language="zh_Hans_CN" Text="仙舟「曜青」" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_11" Language="zh_Hans_CN" Text="仙舟「方壶」" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_12" Language="zh_Hans_CN" Text="仙舟「朱明」" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_13" Language="zh_Hans_CN" Text="仙舟「虚陵」" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_14" Language="zh_Hans_CN" Text="仙舟「玉阙」" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_15" Language="zh_Hans_CN" Text="仙舟「苍城」" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_16" Language="zh_Hans_CN" Text="雾海庄园" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_17" Language="zh_Hans_CN" Text="未名市" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_18" Language="zh_Hans_CN" Text="空洞" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_19" Language="zh_Hans_CN" Text="新艾利都" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_20" Language="zh_Hans_CN" Text="蒙德城" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_21" Language="zh_Hans_CN" Text="渊下宫" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_22" Language="zh_Hans_CN" Text="璃月港" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_23" Language="zh_Hans_CN" Text="稻妻城" />
+    <Row Tag="LOC_CIVILIZATION_MIHOYO_CITY_24" Language="zh_Hans_CN" Text="烟寂海" />
+
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_1" Language="zh_Hans_CN" Text="刘一" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_2" Language="zh_Hans_CN" Text="陈二" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_3" Language="zh_Hans_CN" Text="张三" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_4" Language="zh_Hans_CN" Text="李四" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_5" Language="zh_Hans_CN" Text="王五" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_6" Language="zh_Hans_CN" Text="赵六" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_7" Language="zh_Hans_CN" Text="孙七" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_8" Language="zh_Hans_CN" Text="周八" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_9" Language="zh_Hans_CN" Text="吴九" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_10" Language="zh_Hans_CN" Text="郑十" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_11" Language="zh_Hans_CN" Text="刘一一" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_12" Language="zh_Hans_CN" Text="陈二二" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_13" Language="zh_Hans_CN" Text="张三三" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_14" Language="zh_Hans_CN" Text="李四四" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_15" Language="zh_Hans_CN" Text="王五五" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_16" Language="zh_Hans_CN" Text="赵六六" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_17" Language="zh_Hans_CN" Text="孙七七" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_18" Language="zh_Hans_CN" Text="周八八" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_19" Language="zh_Hans_CN" Text="吴九九" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_MALE_20" Language="zh_Hans_CN" Text="郑十十" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_1" Language="zh_Hans_CN" Text="刘一（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_2" Language="zh_Hans_CN" Text="陈二（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_3" Language="zh_Hans_CN" Text="张三（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_4" Language="zh_Hans_CN" Text="李四（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_5" Language="zh_Hans_CN" Text="王五（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_6" Language="zh_Hans_CN" Text="赵六（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_7" Language="zh_Hans_CN" Text="孙七（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_8" Language="zh_Hans_CN" Text="周八（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_9" Language="zh_Hans_CN" Text="吴九（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_10" Language="zh_Hans_CN" Text="郑十（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_11" Language="zh_Hans_CN" Text="刘一一（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_12" Language="zh_Hans_CN" Text="陈二二（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_13" Language="zh_Hans_CN" Text="张三三（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_14" Language="zh_Hans_CN" Text="李四四（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_15" Language="zh_Hans_CN" Text="王五五（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_16" Language="zh_Hans_CN" Text="赵六六（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_17" Language="zh_Hans_CN" Text="孙七七（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_18" Language="zh_Hans_CN" Text="周八八（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_19" Language="zh_Hans_CN" Text="吴九九（女）" />
+    <Row Tag="LOC_CITIZEN_MIHOYO_FEMALE_20" Language="zh_Hans_CN" Text="郑十十（女）" />
+  </LocalizedText>
+
+  <!-- Pedia. -->
+  <LocalizedText>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MIHOYO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>null</Text>
+    </Row>
+  </LocalizedText>
+</GameData>
