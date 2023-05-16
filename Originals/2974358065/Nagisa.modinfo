@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2133d72e-4955-4d29-9860-635a568ec253" version="1">
+  <Properties>
+    <Name>키리후지 나기사의 트리니티 종합학원</Name>
+    <Description>일러스트의 저작권은 넥슨에 있습니다.</Description>
+    <Created>1683795570</Created>
+    <Teaser>일러스트의 저작권은 넥슨에 있습니다.</Teaser>
+    <Authors>홍명보센세#2002</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>BA_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>BA_ConfigText.xml</File>
+      <File>BA_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>BA_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Nagisa.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>BA_Colors.xml</File>
+    </UpdateColors>
+    <ImportFiles id="Files">
+      <File>Textures/Trinity_Background.dds</File>
+    </ImportFiles>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>BA_Antiquarian_Bookstore.xml</File>
+      <File>BA_Nagisa.xml</File>
+      <File>BA_Trinity.xml</File>
+      <File>BA_Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>BA_ConfigText.xml</File>
+      <File>BA_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>BA_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Nagisa.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>BA_Colors.xml</File>
+    </UpdateColors>
+    <ImportFiles id="Files">
+      <File>Textures/Trinity_Background.dds</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>BA_Antiquarian_Bookstore.xml</File>
+    <File>BA_Colors.xml</File>
+    <File>BA_Config.xml</File>
+    <File>BA_ConfigText.xml</File>
+    <File>BA_Icons.xml</File>
+    <File>BA_Nagisa.xml</File>
+    <File>BA_Text.xml</File>
+    <File>BA_Trinity.xml</File>
+    <File>BA_Units.xml</File>
+    <File>Nagisa.Art.xml</File>
+    <File>Nagisa.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UIIcons.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UIIcons.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Textures/BA_KIRIFUJI_NAGISA_NEUTRAL.dds</File>
+    <File>Textures/BA_KIRIFUJI_NAGISA_NEUTRAL.tex</File>
+    <File>Textures/CivTrinity22.dds</File>
+    <File>Textures/CivTrinity22.tex</File>
+    <File>Textures/CivTrinity256.dds</File>
+    <File>Textures/CivTrinity256.tex</File>
+    <File>Textures/CivTrinity32.dds</File>
+    <File>Textures/CivTrinity32.tex</File>
+    <File>Textures/CivTrinity36.dds</File>
+    <File>Textures/CivTrinity36.tex</File>
+    <File>Textures/CivTrinity40.dds</File>
+    <File>Textures/CivTrinity40.tex</File>
+    <File>Textures/CivTrinity44.dds</File>
+    <File>Textures/CivTrinity44.tex</File>
+    <File>Textures/CivTrinity45.dds</File>
+    <File>Textures/CivTrinity45.tex</File>
+    <File>Textures/CivTrinity48.dds</File>
+    <File>Textures/CivTrinity48.tex</File>
+    <File>Textures/CivTrinity50.dds</File>
+    <File>Textures/CivTrinity50.tex</File>
+    <File>Textures/CivTrinity64.dds</File>
+    <File>Textures/CivTrinity64.tex</File>
+    <File>Textures/CivTrinity80.dds</File>
+    <File>Textures/CivTrinity80.tex</File>
+    <File>Textures/FALLBACK_BA_KIRIFUJI_NAGISA.dds</File>
+    <File>Textures/FALLBACK_BA_KIRIFUJI_NAGISA.tex</File>
+    <File>Textures/LeaderNagisa256.dds</File>
+    <File>Textures/LeaderNagisa256.tex</File>
+    <File>Textures/LeaderNagisa32.dds</File>
+    <File>Textures/LeaderNagisa32.tex</File>
+    <File>Textures/LeaderNagisa45.dds</File>
+    <File>Textures/LeaderNagisa45.tex</File>
+    <File>Textures/LeaderNagisa50.dds</File>
+    <File>Textures/LeaderNagisa50.tex</File>
+    <File>Textures/LeaderNagisa55.dds</File>
+    <File>Textures/LeaderNagisa55.tex</File>
+    <File>Textures/LeaderNagisa64.dds</File>
+    <File>Textures/LeaderNagisa64.tex</File>
+    <File>Textures/LeaderNagisa80.dds</File>
+    <File>Textures/LeaderNagisa80.tex</File>
+    <File>Textures/Trinity_Background.dds</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UIIcons.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+</Mod>
