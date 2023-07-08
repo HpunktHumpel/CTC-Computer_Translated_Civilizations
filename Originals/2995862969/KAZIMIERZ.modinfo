@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="70b90def-d3ae-4df7-b313-4c6448ee0702" version="1">
+  <Properties>
+    <Name>KAZIMIERZ:由瑕光领导的卡西米尔文明(加强版)</Name>
+    <Description>由瑕光领导的卡西米尔文明(加强版)</Description>
+    <Created>1688016750</Created>
+    <Teaser>由瑕光领导的卡西米尔文明(加强版)</Teaser>
+    <Authors>Morton</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>KAZIMIERZ_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>KAZIMIERZ_Icons_BF.xml</File>
+      <File>KAZIMIERZ_Icons_Buildings.xml</File>
+      <File>KAZIMIERZ_Icons_Buildings2.xml</File>
+      <File>KAZIMIERZ_Icons_Buildings3.xml</File>
+      <File>KAZIMIERZ_Icons_Civilizations.xml</File>
+      <File>KAZIMIERZ_Icons_DARKSTEEL.xml</File>
+      <File>KAZIMIERZ_Icons_Leaders.xml</File>
+      <File>KAZIMIERZ_Icons_UnitPortraits.xml</File>
+      <File>KAZIMIERZ_Icons_Units.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>KAZIMIERZ_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>My Custom Mod.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>KAZIMIERZ_Agenda.xml</File>
+      <File>KAZIMIERZ_Buildings.xml</File>
+      <File>KAZIMIERZ_Civilization.xml</File>
+      <File>KAZIMIERZ_District.xml</File>
+      <File>KAZIMIERZ_UnitAbilities.xml</File>
+      <File>KAZIMIERZ_Units.xml</File>
+      <File>KAZIMIERZ_Moment.xml</File>
+      <File>KAZIMIERZ_Leaders.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>KAZIMIERZ_Icons_BF.xml</File>
+      <File>KAZIMIERZ_Icons_Buildings.xml</File>
+      <File>KAZIMIERZ_Icons_Buildings2.xml</File>
+      <File>KAZIMIERZ_Icons_Buildings3.xml</File>
+      <File>KAZIMIERZ_Icons_Civilizations.xml</File>
+      <File>KAZIMIERZ_Icons_DARKSTEEL.xml</File>
+      <File>KAZIMIERZ_Icons_Leaders.xml</File>
+      <File>KAZIMIERZ_Icons_UnitPortraits.xml</File>
+      <File>KAZIMIERZ_Icons_Units.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>KAZIMIERZ_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>My Custom Mod.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="NewAction">
+      <File>PRODUCTION.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/BUILDING_XX.artdef</File>
+    <File>ArtDefs/BUILDING_XX2.artdef</File>
+    <File>ArtDefs/Civilization.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/Units_B.artdef</File>
+    <File>KAZIMIERZ_Agenda.xml</File>
+    <File>KAZIMIERZ_Buildings.xml</File>
+    <File>KAZIMIERZ_Civilization.xml</File>
+    <File>KAZIMIERZ_Config.xml</File>
+    <File>KAZIMIERZ_District.xml</File>
+    <File>KAZIMIERZ_Icons_BF.xml</File>
+    <File>KAZIMIERZ_Icons_Buildings.xml</File>
+    <File>KAZIMIERZ_Icons_Buildings2.xml</File>
+    <File>KAZIMIERZ_Icons_Buildings3.xml</File>
+    <File>KAZIMIERZ_Icons_Civilizations.xml</File>
+    <File>KAZIMIERZ_Icons_DARKSTEEL.xml</File>
+    <File>KAZIMIERZ_Icons_Leaders.xml</File>
+    <File>KAZIMIERZ_Icons_UnitPortraits.xml</File>
+    <File>KAZIMIERZ_Icons_Units.xml</File>
+    <File>KAZIMIERZ_Leaders.xml</File>
+    <File>KAZIMIERZ_Moment.xml</File>
+    <File>KAZIMIERZ_Text.xml</File>
+    <File>KAZIMIERZ_UnitAbilities.xml</File>
+    <File>KAZIMIERZ_Units.xml</File>
+    <File>My Custom Mod.dep</File>
+    <File>Platforms/MacOS/BLPs/KAZIMIERZ_DDS.blp</File>
+    <File>Platforms/MacOS/BLPs/KAZIMIERZ_Moment.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/KAZIMIERZ_DDS.blp</File>
+    <File>Platforms/Windows/BLPs/KAZIMIERZ_Moment.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>PRODUCTION.sql</File>
+  </Files>
+</Mod>

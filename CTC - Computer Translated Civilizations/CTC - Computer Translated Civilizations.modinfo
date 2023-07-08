@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1688835775</Created>
+    <Created>1688837039</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -407,6 +407,13 @@
     </Criteria>
     <Criteria id="2984355194_InGame">
       <ModInUse>2f57ae79-c89c-463f-a49c-c80f11d8afc3</ModInUse>
+    </Criteria>
+    <!-- 2995862969 - KAZIMIERZ 由瑕光领导的卡西米尔文明 加强版-->
+    <Criteria id="2995862969_FrontEnd">
+      <ModIsEnabled>70b90def-d3ae-4df7-b313-4c6448ee0702</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2995862969_InGame">
+      <ModInUse>70b90def-d3ae-4df7-b313-4c6448ee0702</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1338,6 +1345,23 @@
       <File>2984355194/frontend_ru_RU.xml</File>
       <File>2984355194/frontend_pl_PL.xml</File>
       <File>2984355194/frontend_ko_KR.xml</File>
+    </UpdateText>
+    <!-- 2995862969 - KAZIMIERZ 由瑕光领导的卡西米尔文明 加强版-->
+    <UpdateText id="2995862969_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2995862969_FrontEnd</Criteria>
+      <File>2995862969/frontend_en_US.xml</File>
+      <File>2995862969/frontend_fr_FR.xml</File>
+      <File>2995862969/frontend_de_DE.xml</File>
+      <File>2995862969/frontend_it_IT.xml</File>
+      <File>2995862969/frontend_es_ES.xml</File>
+      <File>2995862969/frontend_ja_JP.xml</File>
+      <File>2995862969/frontend_ru_RU.xml</File>
+      <File>2995862969/frontend_pl_PL.xml</File>
+      <File>2995862969/frontend_ko_KR.xml</File>
+      <File>2995862969/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -2280,6 +2304,23 @@
       <File>2984355194/ingame_ru_RU.xml</File>
       <File>2984355194/ingame_pl_PL.xml</File>
       <File>2984355194/ingame_ko_KR.xml</File>
+    </UpdateText>
+    <!-- 2995862969 - KAZIMIERZ 由瑕光领导的卡西米尔文明 加强版-->
+    <UpdateText id="2995862969_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2995862969_InGame</Criteria>
+      <File>2995862969/ingame_en_US.xml</File>
+      <File>2995862969/ingame_fr_FR.xml</File>
+      <File>2995862969/ingame_de_DE.xml</File>
+      <File>2995862969/ingame_it_IT.xml</File>
+      <File>2995862969/ingame_es_ES.xml</File>
+      <File>2995862969/ingame_ja_JP.xml</File>
+      <File>2995862969/ingame_ru_RU.xml</File>
+      <File>2995862969/ingame_pl_PL.xml</File>
+      <File>2995862969/ingame_ko_KR.xml</File>
+      <File>2995862969/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
   </InGameActions>
   <Files>
@@ -3368,5 +3409,25 @@
     <File>2989631512/ingame_ru_RU.xml</File>
     <File>2989631512/ingame_zh_Hans_CN.xml</File>
     <File>2989631512/ingame_zh_Hant_HK.xml</File>
+    <File>2995862969/frontend_de_DE.xml</File>
+    <File>2995862969/frontend_en_US.xml</File>
+    <File>2995862969/frontend_es_ES.xml</File>
+    <File>2995862969/frontend_fr_FR.xml</File>
+    <File>2995862969/frontend_it_IT.xml</File>
+    <File>2995862969/frontend_ja_JP.xml</File>
+    <File>2995862969/frontend_ko_KR.xml</File>
+    <File>2995862969/frontend_pl_PL.xml</File>
+    <File>2995862969/frontend_ru_RU.xml</File>
+    <File>2995862969/frontend_zh_Hant_HK.xml</File>
+    <File>2995862969/ingame_de_DE.xml</File>
+    <File>2995862969/ingame_en_US.xml</File>
+    <File>2995862969/ingame_es_ES.xml</File>
+    <File>2995862969/ingame_fr_FR.xml</File>
+    <File>2995862969/ingame_it_IT.xml</File>
+    <File>2995862969/ingame_ja_JP.xml</File>
+    <File>2995862969/ingame_ko_KR.xml</File>
+    <File>2995862969/ingame_pl_PL.xml</File>
+    <File>2995862969/ingame_ru_RU.xml</File>
+    <File>2995862969/ingame_zh_Hant_HK.xml</File>
   </Files>
 </Mod>
