@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f785895c-fe54-471a-95c6-1deba4776887" version="1">
+  <Properties>
+    <Name>KasumizawaMiyu</Name>
+    <Description>add a new civilization [SRT Special Academy] Led by KasumizawaMiyu</Description>
+    <Created>1687147597</Created>
+    <Teaser>add a new civilization [SRT Special Academy] Led by KasumizawaMiyu</Teaser>
+    <Authors>goldenchef</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Miyu_Configs.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="art">
+      <File>KasumizawaMiyu.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="icon">
+      <File>BA_SRT_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Miyu_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>BA_SRT_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="datebase">
+      <File>Miyu_Civilization.xml</File>
+      <File>Miyu_Leader.xml</File>
+      <File>BA_UnitAbilities.xml</File>
+      <File>BA_SRT_Units.xml</File>
+      <File>BA_SRT_Improvements.xml</File>
+      <File>Miyu_UnitPromotions.xml</File>
+      <File>BA_SRT_Districts.xml</File>
+      <File>BA_SRT_Moments.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="art">
+      <File>KasumizawaMiyu.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="icon">
+      <File>BA_SRT_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Miyu_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>BA_SRT_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>BA_SRT_Colors.xml</File>
+    <File>BA_SRT_Districts.xml</File>
+    <File>BA_SRT_Icon.xml</File>
+    <File>BA_SRT_Improvements.xml</File>
+    <File>BA_SRT_Moments.xml</File>
+    <File>BA_SRT_Units.xml</File>
+    <File>BA_UnitAbilities.xml</File>
+    <File>KasumizawaMiyu.dep</File>
+    <File>Miyu_Civilization.xml</File>
+    <File>Miyu_Configs.xml</File>
+    <File>Miyu_Leader.xml</File>
+    <File>Miyu_Text.xml</File>
+    <File>Miyu_UnitPromotions.xml</File>
+    <File>Platforms/MacOS/BLPs/BASRTDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/BASRTDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+  </Files>
+</Mod>
