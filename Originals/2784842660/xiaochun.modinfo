@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4d4762ed-2af2-4218-8f2c-46bae741c842" version="1">
+  <Properties>
+    <Name>碧蓝档案——圣三一学院小春拓展包</Name>
+    <Description>基于Axium制作的三位一体综合学院mod制作的领袖拓展
+下江小春</Description>
+    <Created>1648905163</Created>
+    <Teaser>基于Axium制作的三位一体综合学院mod制作的领袖拓展
+下江小春</Teaser>
+    <Authors>一只小五</Authors>
+    <SpecialThanks>Axium</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="database">
+      <File>xjxc_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>xjxc_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>xjxc_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>碧蓝档案——圣三一学院小春拓展包.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>xjxc_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>xjxc_Civilizations.xml</File>
+      <File>xjxc_Leaders.xml</File>
+      <File>xjxc_Units.xml</File>
+      <File>xjxc_Buildings.xml</File>
+      <File>xjxc_UnitPromotions.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>xjxc_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>xjxc_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>碧蓝档案——圣三一学院小春拓展包.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>xjxc_Colors.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="Audio">
+      <File>xjxc_audio.xml</File>
+      <File>Platforms/Windows/Audio/XJXC_Audio.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/Fallbackleaders.blp</File>
+    <File>Platforms/MacOS/BLPs/XJXCDDS.blp</File>
+    <File>Platforms/Windows/Audio/XJXC_Audio.ini</File>
+    <File>Platforms/Windows/BLPs/Fallbackleaders.blp</File>
+    <File>Platforms/Windows/BLPs/XJXCDDS.blp</File>
+    <File>xjxc_audio.lua</File>
+    <File>xjxc_audio.xml</File>
+    <File>xjxc_Buildings.xml</File>
+    <File>xjxc_Civilizations.xml</File>
+    <File>xjxc_Colors.xml</File>
+    <File>xjxc_Config.xml</File>
+    <File>xjxc_Icons.xml</File>
+    <File>xjxc_Leaders.xml</File>
+    <File>xjxc_Text.xml</File>
+    <File>xjxc_UnitPromotions.xml</File>
+    <File>xjxc_Units.xml</File>
+    <File>碧蓝档案——圣三一学院小春拓展包.dep</File>
+  </Files>
+</Mod>
