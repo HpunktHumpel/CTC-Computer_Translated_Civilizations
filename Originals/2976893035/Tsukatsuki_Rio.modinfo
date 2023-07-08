@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6b8f52bd-4262-4cc6-b21f-ecdbcf3dbc56" version="1">
+  <Properties>
+    <Name>츠카츠키 리오의 밀레니엄 사이언스 스쿨</Name>
+    <Description>일러스트의 저작권은 넥슨에 있습니다.</Description>
+    <Created>1686047988</Created>
+    <Teaser>일러스트의 저작권은 넥슨에 있습니다.</Teaser>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>BA_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>BA_Text.xml</File>
+      <File>BA_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <File>BA_Icons.xml</File>
+      <File>Expansion1Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Tsukatsuki_Rio.dep</File>
+    </UpdateArt>
+    <ImportFiles id="NewAction">
+      <File>Textures/Millennium_Background.dds</File>
+    </ImportFiles>
+    <UpdateColors id="NewAction">
+      <File>BA_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Exp1">
+      <File>Expansion1_Icons_District_Buildings.xml</File>
+      <File>Expansion1_Icons_Units.xml</File>
+      <File>Expansion1_Icons_UnitPortraits.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>BA_CNC.xml</File>
+      <File>BA_Engineer_Club.xml</File>
+      <File>BA_Rio.xml</File>
+      <File>BA_Millennium.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>BA_ConfigText.xml</File>
+      <File>BA_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <File>BA_Icons.xml</File>
+      <File>Expansion1Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Tsukatsuki_Rio.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>BA_Colors.xml</File>
+    </UpdateColors>
+    <ImportFiles id="NewAction">
+      <File>Textures/Millennium_Background.dds</File>
+    </ImportFiles>
+    <UpdateIcons id="Exp1">
+      <File>Expansion1_Icons_District_Buildings.xml</File>
+      <File>Expansion1_Icons_UnitPortraits.xml</File>
+      <File>Expansion1_Icons_Units.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>BA_CNC.xml</File>
+    <File>BA_Colors.xml</File>
+    <File>BA_Config.xml</File>
+    <File>BA_ConfigText.xml</File>
+    <File>BA_Engineer_Club.xml</File>
+    <File>BA_Icons.xml</File>
+    <File>BA_Millennium.xml</File>
+    <File>BA_Rio.xml</File>
+    <File>BA_Text.xml</File>
+    <File>Expansion1Icons.xml</File>
+    <File>Expansion1_Icons_District_Buildings.xml</File>
+    <File>Expansion1_Icons_UnitPortraits.xml</File>
+    <File>Expansion1_Icons_Units.xml</File>
+    <File>Platforms/MacOS/BLPs/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Textures/BA_TSUKATSUKI_RIO_NEUTRAL.dds</File>
+    <File>Textures/BA_TSUKATSUKI_RIO_NEUTRAL.tex</File>
+    <File>Textures/CivMillennium22.dds</File>
+    <File>Textures/CivMillennium22.tex</File>
+    <File>Textures/CivMillennium256.dds</File>
+    <File>Textures/CivMillennium256.tex</File>
+    <File>Textures/CivMillennium32.dds</File>
+    <File>Textures/CivMillennium32.tex</File>
+    <File>Textures/CivMillennium36.dds</File>
+    <File>Textures/CivMillennium36.tex</File>
+    <File>Textures/CivMillennium40.dds</File>
+    <File>Textures/CivMillennium40.tex</File>
+    <File>Textures/CivMillennium44.dds</File>
+    <File>Textures/CivMillennium44.tex</File>
+    <File>Textures/CivMillennium45.dds</File>
+    <File>Textures/CivMillennium45.tex</File>
+    <File>Textures/CivMillennium48.dds</File>
+    <File>Textures/CivMillennium48.tex</File>
+    <File>Textures/CivMillennium50.dds</File>
+    <File>Textures/CivMillennium50.tex</File>
+    <File>Textures/CivMillennium64.dds</File>
+    <File>Textures/CivMillennium64.tex</File>
+    <File>Textures/CivMillennium80.dds</File>
+    <File>Textures/CivMillennium80.tex</File>
+    <File>Textures/FALLBACK_BA_TSUKATSUKI_RIO.dds</File>
+    <File>Textures/FALLBACK_BA_TSUKATSUKI_RIO.tex</File>
+    <File>Textures/LeaderRio256.dds</File>
+    <File>Textures/LeaderRio256.tex</File>
+    <File>Textures/LeaderRio32.dds</File>
+    <File>Textures/LeaderRio32.tex</File>
+    <File>Textures/LeaderRio45.dds</File>
+    <File>Textures/LeaderRio45.tex</File>
+    <File>Textures/LeaderRio50.dds</File>
+    <File>Textures/LeaderRio50.tex</File>
+    <File>Textures/LeaderRio55.dds</File>
+    <File>Textures/LeaderRio55.tex</File>
+    <File>Textures/LeaderRio64.dds</File>
+    <File>Textures/LeaderRio64.tex</File>
+    <File>Textures/LeaderRio80.dds</File>
+    <File>Textures/LeaderRio80.tex</File>
+    <File>Textures/Millennium_Background.dds</File>
+    <File>Tsukatsuki_Rio.dep</File>
+    <File>XLPs/Icons.xlp</File>
+  </Files>
+</Mod>
