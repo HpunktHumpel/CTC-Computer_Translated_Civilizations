@@ -84,6 +84,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2976893035](https://steamcommunity.com/sharedfiles/filedetails/?id=2976893035) | 츠카츠키 리오의 밀레니엄 사이언스 스쿨 | Tsukatsuki Rio's Millennium Science School |
 | [2984355194](https://steamcommunity.com/sharedfiles/filedetails/?id=2984355194) | Date.A.Live-Arusu Install Reloaded | Date.A.Live-Arusu Install Reloaded |
 | [2989631512](https://steamcommunity.com/sharedfiles/filedetails/?id=2989631512) | 렌카와 체리노의 붉은겨울 연방학원 | Lenka and Cherino's Red Winter Federal Academy |
+| [2994440668](https://steamcommunity.com/sharedfiles/filedetails/?id=2994440668) | Honkai: Star Rail | Honkai: Star Rail |
 | [2995862969](https://steamcommunity.com/sharedfiles/filedetails/?id=2995862969) | KAZIMIERZ(EX)：由瑕光领导的卡西米尔文明（加强版） | KAZIMIERZ (EX): Kazimierz civilization led by Xia Guang (enhanced version) |
 
 ## How does it work?
