@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c313d422-c995-46df-a50a-20b32e5023f5" version="2">
+  <Properties>
+    <Name>[COLOR_LIGHTBLUE]新文明：蔚蓝文明[ENDCOLOR]</Name>
+    <Description>该Mod可以使用新文明：蔚蓝文明。
+该文明拥有较为强大的文化和宗教基础，能够轻松的兵不血刃的征服其他文明，如果其他文明誓死不从，那就派出海王文明的最强海上作战武器——黑眼鳄号来武力征服其他文明。</Description>
+    <Created>1680020347</Created>
+    <Teaser>该Mod可以使用新文明：蔚蓝文明。
+该文明拥有较为强大的文化和宗教基础，能够轻松的兵不血刃的征服其他文明，如果其他文明誓死不从，那就派出海王文明的最强海上作战武器——黑眼鳄号来武力征服其他文明。</Teaser>
+    <Authors>Iyatss</Authors>
+    <SpecialThanks>所有提供帮助的小伙伴们</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>KingOfTheSea_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>KingOfTheSea_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>KingOfTheSea_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="Color">
+      <File>KingOfTheSea_Colors.xml</File>
+    </UpdateColors>
+    <UpdateArt id="Art">
+      <File>[COLOR_LIGHTBLUE]新文明：蔚蓝文明[ENDCOLOR].dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>KingOfTheSea_Civilization.xml</File>
+      <File>KingOfTheSea_Leaders.xml</File>
+      <File>KingOfTheSea_Buildings.xml</File>
+      <File>KingOfTheSea_Districts.xml</File>
+      <File>KingOfTheSea_Units.xml</File>
+      <File>KingOfTheSea_Agendas.xml</File>
+      <File>KingOfTheSea_Projects.xml</File>
+      <File>KingOfTheSea_UnitPromotions.xml</File>
+      <File>KingOfTheSea_Modifiers.xml</File>
+      <File>KingOfTheSea_Moments.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>KingOfTheSea_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>KingOfTheSea_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>[COLOR_LIGHTBLUE]新文明：蔚蓝文明[ENDCOLOR].dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>KingOfTheSea_Colors.xml</File>
+    </UpdateColors>
+    <AddGameplayScripts id="lua">
+      <File>Lua/Sea_Attack.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="Audio">
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+      <File>Platforms/Windows/Audio/Sea_SoundBank.bnk</File>
+      <File>Platforms/Windows/Audio/Sea_SoundBank.txt</File>
+      <File>Platforms/Windows/Audio/Sea_Music.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>KingOfTheSea_Agendas.xml</File>
+    <File>KingOfTheSea_Buildings.xml</File>
+    <File>KingOfTheSea_Civilization.xml</File>
+    <File>KingOfTheSea_Colors.xml</File>
+    <File>KingOfTheSea_Config.xml</File>
+    <File>KingOfTheSea_Districts.xml</File>
+    <File>KingOfTheSea_Icons.xml</File>
+    <File>KingOfTheSea_Leaders.xml</File>
+    <File>KingOfTheSea_Modifiers.xml</File>
+    <File>KingOfTheSea_Moments.xml</File>
+    <File>KingOfTheSea_Projects.xml</File>
+    <File>KingOfTheSea_Text.xml</File>
+    <File>KingOfTheSea_UnitPromotions.xml</File>
+    <File>KingOfTheSea_Units.xml</File>
+    <File>Lua/Sea_Attack.lua</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SEAPIC.blp</File>
+    <File>Platforms/Windows/Audio/266414171.wem</File>
+    <File>Platforms/Windows/Audio/376988678.wem</File>
+    <File>Platforms/Windows/Audio/464659968.wem</File>
+    <File>Platforms/Windows/Audio/568370062.wem</File>
+    <File>Platforms/Windows/Audio/768879684.wem</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/Sea_Music.ini</File>
+    <File>Platforms/Windows/Audio/Sea_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/Sea_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SEAPIC.blp</File>
+    <File>[COLOR_LIGHTBLUE]新文明：蔚蓝文明[ENDCOLOR].dep</File>
+  </Files>
+</Mod>

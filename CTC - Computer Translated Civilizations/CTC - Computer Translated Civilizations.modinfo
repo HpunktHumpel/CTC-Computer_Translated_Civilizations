@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1688858021</Created>
+    <Created>1688860616</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -484,6 +484,13 @@
     </Criteria>
     <Criteria id="2759607299_InGame">
       <ModInUse>ddf8c296-a8fa-411b-bd3f-469ff505be2d</ModInUse>
+    </Criteria>
+    <!-- 2942535136 - 新文明 蔚蓝文明-->
+    <Criteria id="2942535136_FrontEnd">
+      <ModIsEnabled>c313d422-c995-46df-a50a-20b32e5023f5</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2942535136_InGame">
+      <ModInUse>c313d422-c995-46df-a50a-20b32e5023f5</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1602,6 +1609,23 @@
       <File>2759607299/frontend_pl_PL.xml</File>
       <File>2759607299/frontend_ko_KR.xml</File>
       <File>2759607299/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2942535136 - 新文明 蔚蓝文明-->
+    <UpdateText id="2942535136_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2942535136_FrontEnd</Criteria>
+      <File>2942535136/frontend_en_US.xml</File>
+      <File>2942535136/frontend_fr_FR.xml</File>
+      <File>2942535136/frontend_de_DE.xml</File>
+      <File>2942535136/frontend_it_IT.xml</File>
+      <File>2942535136/frontend_es_ES.xml</File>
+      <File>2942535136/frontend_ja_JP.xml</File>
+      <File>2942535136/frontend_ru_RU.xml</File>
+      <File>2942535136/frontend_pl_PL.xml</File>
+      <File>2942535136/frontend_ko_KR.xml</File>
+      <File>2942535136/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -2732,6 +2756,23 @@
       <File>2759607299/ingame_ko_KR.xml</File>
       <File>2759607299/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2942535136 - 新文明 蔚蓝文明-->
+    <UpdateText id="2942535136_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2942535136_InGame</Criteria>
+      <File>2942535136/ingame_en_US.xml</File>
+      <File>2942535136/ingame_fr_FR.xml</File>
+      <File>2942535136/ingame_de_DE.xml</File>
+      <File>2942535136/ingame_it_IT.xml</File>
+      <File>2942535136/ingame_es_ES.xml</File>
+      <File>2942535136/ingame_ja_JP.xml</File>
+      <File>2942535136/ingame_ru_RU.xml</File>
+      <File>2942535136/ingame_pl_PL.xml</File>
+      <File>2942535136/ingame_ko_KR.xml</File>
+      <File>2942535136/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2007640634/frontend_de_DE.xml</File>
@@ -3517,6 +3558,26 @@
     <File>2940769424/ingame_ko_KR.xml</File>
     <File>2940769424/ingame_pl_PL.xml</File>
     <File>2940769424/ingame_ru_RU.xml</File>
+    <File>2942535136/frontend_de_DE.xml</File>
+    <File>2942535136/frontend_en_US.xml</File>
+    <File>2942535136/frontend_es_ES.xml</File>
+    <File>2942535136/frontend_fr_FR.xml</File>
+    <File>2942535136/frontend_it_IT.xml</File>
+    <File>2942535136/frontend_ja_JP.xml</File>
+    <File>2942535136/frontend_ko_KR.xml</File>
+    <File>2942535136/frontend_pl_PL.xml</File>
+    <File>2942535136/frontend_ru_RU.xml</File>
+    <File>2942535136/frontend_zh_Hant_HK.xml</File>
+    <File>2942535136/ingame_de_DE.xml</File>
+    <File>2942535136/ingame_en_US.xml</File>
+    <File>2942535136/ingame_es_ES.xml</File>
+    <File>2942535136/ingame_fr_FR.xml</File>
+    <File>2942535136/ingame_it_IT.xml</File>
+    <File>2942535136/ingame_ja_JP.xml</File>
+    <File>2942535136/ingame_ko_KR.xml</File>
+    <File>2942535136/ingame_pl_PL.xml</File>
+    <File>2942535136/ingame_ru_RU.xml</File>
+    <File>2942535136/ingame_zh_Hant_HK.xml</File>
     <File>2948711698/frontend_de_DE.xml</File>
     <File>2948711698/frontend_en_US.xml</File>
     <File>2948711698/frontend_es_ES.xml</File>

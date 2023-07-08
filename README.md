@@ -66,6 +66,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2935800893](https://steamcommunity.com/sharedfiles/filedetails/?id=2935800893) | 冯杉领导的Gary王国 | Gary Kingdom led by Feng Shan |
 | [2937984514](https://steamcommunity.com/sharedfiles/filedetails/?id=2937984514) | Date.A.Live-YamaiSisters Reloaded | Date.A.Live-YamaiSisters Reloaded |
 | [2940769424](https://steamcommunity.com/sharedfiles/filedetails/?id=2940769424) | Date.A.Live-IzayoiMiku Reloaded | Date.A.Live-IzayoiMiku Reloaded |
+| [2942535136](https://steamcommunity.com/sharedfiles/filedetails/?id=2942535136) | 新文明：蔚蓝文明 | New Civilization: Azure Civilization |
 | [2948711698](https://steamcommunity.com/sharedfiles/filedetails/?id=2948711698) | 丁真领导的理塘文明——役赢丁真，鉴定为以！武！服人 | The Litang Civilization led by Ding Zhen——Yong Ying Ding Zhen, appraised for it! Wu! convincing |
 | [2949093921](https://steamcommunity.com/sharedfiles/filedetails/?id=2949093921) | 郑俊飚领导的Bell王国 | The Kingdom of Bell led by Zheng Junbiao |
 | [2952653308](https://steamcommunity.com/sharedfiles/filedetails/?id=2952653308) | Night Country and leader Kuro | Night Country and leader Kuro |
