@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sutera_Translate -->
+<!-- Author: Axium -->
+<!-- DateCreated: 3/30/2022 7:26:11 PM -->
+<GameData>
+	<LocalizedText>
+		<!--文明名称-->
+		<Replace Tag="LOC_CIVILIZATION_BERUGAMOTTO_NAME" Language="zh_Hans_CN">
+			<Text>香柠檬谷</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_CIVILIZATION_BERUGAMOTTO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>香柠檬谷</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_BERUGAMOTTO_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>香柠檬谷的</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SUTERA" Language="zh_Hans_CN">
+			<Text>雪花蔓，您独一无二的光芒指引着大家，守护着大家。身为无畏的花骑士，即使您羞于当先仍义无反顾。保存那些美好的回忆，并且创造新的珍贵回忆，那就是您的使命。放手去做吧，您就是香柠檬谷的人们的希望。</Text>
+		</Replace>
+
+
+		<!--设定文本-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SEIKAIHANA_IN_WIND_VALLY_NAME" Language="zh_Hans_CN">
+			<Text>风谷的世界花</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SEIKAIHANA_IN_WIND_VALLY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>人口可以在山脉单元格上工作，产出1[Icon_Food]食物、2[Icon_Production]生产力。与河流相邻的单元格+1[Icon_Culture]文化值。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_SUTERA_NAME" Language="zh_Hans_CN">
+			<Text>雪花蔓</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_FLORID_OF_STELLA_NAME" Language="zh_Hans_CN">
+			<Text>如星河般燃烧的思念</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_FLORID_OF_STELLA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位-3[ICON_Strength]战斗力，但每回合都会回复生命值。发现自然奇观后获得一个[ICON_GreatWork_Relic]遗物。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MODIFIER_SUTERA_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]{1_Value}[ENDCOLOR]娇嫩的花儿。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_LAND_OF_BLOSSOMS_NAME" Language="zh_Hans_CN">
+			<Text>桃源乡</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_LAND_OF_BLOSSOMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>需要"中世纪集市"市政，必须建造在河边，且不能与另一个桃源乡相邻。该单元格及相邻单元格+2魅力。+3[Icon_Gold]金币，+1[Icon_Culture]文化值，每与一个特色区域相邻额外+1[Icon_Culture]文化值。提供等同于文化值产出的[ICON_Tourism]旅游业绩。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_FLOATING_ROAD_NAME" Language="zh_Hans_CN">
+			<Text>浮空路</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_FLOATING_ROAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>需要“建造”科技，必须建造在山脉中，可以通过。+1[ICON_Science]科技值。研究"机械"、"工业化"科技后+1[Icon_Production]生产力、+1[Icon_Culture]文化值，研究"化学"科技后+2[Icon_Culture]文化值。提供等同于文化值产出的[ICON_Tourism]旅游业绩。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_FKG_FLOWER_KNIGHT_NAME" Language="zh_Hans_CN">
+			<Text>花骑士</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_FKG_FLOWER_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>随"军事传统"市政解锁的近战单位。攻击后可以移动。她们是应对害虫的专家，具有独特的升级树，且完成首个学院、娱乐中心、军营、港口、航空港以及其中的第二个建筑后+4[ICON_Strength]战斗力。"军营训练"项目完成后会获得一次升级。</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_ABILITY_FKG_CAMPUS_STRENGTH_A_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>学院的智慧+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_ENTERTAINMENT_STRENGTH_A_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>祭典的花火+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_ENCAMPMENT_STRENGTH_A_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>军营的锤炼+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_HARBOR_STRENGTH_A_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>港口的繁华+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_AERODROME_STRENGTH_A_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>空港的雄心+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_CAMPUS_STRENGTH_B_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>学院的智慧+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_ENTERTAINMENT_STRENGTH_B_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>祭典的花火+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_ENCAMPMENT_STRENGTH_B_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>军营的锤炼+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_HARBOR_STRENGTH_B_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>港口的繁华+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_AERODROME_STRENGTH_B_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>空港的雄心+4[ICON_Strength]战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_BARBARIAN_KILLER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{1_Value} 害虫清除专家</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_FKG_ATTACK_AND_MOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击后可移动。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_CLASS_FLOWER_KNIGHT_NAME" Language="zh_Hans_CN">
+			<Text>花骑士</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_1_1_NAME" Language="zh_Hans_CN">
+			<Text>阴谋</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_1_2_NAME" Language="zh_Hans_CN">
+			<Text>希望</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_2_1_NAME" Language="zh_Hans_CN">
+			<Text>骤雨极阳</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_2_2_NAME" Language="zh_Hans_CN">
+			<Text>披风戴雪</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_3_1_NAME" Language="zh_Hans_CN">
+			<Text>世界花的恩泽</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_3_2_NAME" Language="zh_Hans_CN">
+			<Text>古代花的余香</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_4_1_NAME" Language="zh_Hans_CN">
+			<Text>绽放之夜</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>双倍夹击和支援加成。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于敌对与中立领土中时+7生命回复。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>掠夺仅消耗1[Icon_Movement]移动力。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>任何情况下+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1[Icon_Movement]移动力，每点未消耗的移动力提供2[ICON_Strength]战斗力。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>击杀单位后，获得3倍于该单位战斗力的[Icon_Faith]信仰值。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_FKG_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2额外攻击次数，无视敌方控制区。</Text>
+		</Replace>
+		
+		
+		
+		
+		
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>啊(脸红)……我还有讨伐害虫的工作，先走了……不，那个，请问您可以来帮忙吗，我会很感激的……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>赢得花骑士们的友谊前，您先要证明自己哦。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>世界花向您送出了恩泽，不知您意下……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>嗯……真棒~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>呜……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>害虫终于露出真面目了呢，看我打倒你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>既然如此，害虫讨伐工作开始了，准备接招吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>现在正是美丽的季节，使者们一定会很高兴的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>抱歉，现在浮空路不能开放，也许改天？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>香柠檬谷的使者已经动身了，我想您一定会喜欢他们带去的特产的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>区区害虫，不要在我面前乱叫了！快走开！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>你比所有的害虫加起来还讨厌！哼！（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>您好，远方的陌生人。我是来自香柠檬谷的花骑士，雪花蔓。花语是「燃烧的思念」、「家族爱」、「守护的心」。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>我们的世界花被恩泽着，很漂亮的，要来看看吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>谢谢您的招待。那里的人们会是怎样的呢~~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>团长说共享情报是信任的一环……啊，我的家里没什么好看的哦？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>啦啦啦啦啦~~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>唔嗯……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>那个，香柠檬谷现在正面临虫害，如果您不是害虫，还请回避……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--领取便当-->
+			<Text>花虽芬芳终需落……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>……嗯，那么成交吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SUTERA_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>呜……</Text>
+		</Row>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_SEIKAIHANA_BERUGAMOTTO"
+			Text="世界花·香柠檬谷"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_LAURENTIA"
+			Text="同瓣草"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_COLCHICUM"
+			Text="秋水仙"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_DIASKIA"
+			Text="双矩花"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_ADZUKI"
+			Text="小红豆"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_COLEUS"
+			Text="翘蕊花"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_NERINE"
+			Text="纳丽石蒜"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_HYPERICUM"
+			Text="小连翘"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_IVY"
+			Text="常春藤"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_HELIOTROPE"
+			Text="天芥菜"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_LYCORIS"
+			Text="彼岸花"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_LAVENDER"
+			Text="薰衣草"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_BUSH_CLOVER"
+			Text="胡枝子"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_CHLORANTHUS"
+			Text="银线子"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_GOURD"
+			Text="葫芦花"/>
+			
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_STREPTOCARPUS"
+			Text="堇蓝"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_SKIMMIA"
+			Text="茵芋"/>
+		
+		
+
+
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_LAURENTIA"
+			Text="同瓣草"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_COLCHICUM"
+			Text="秋水仙"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_DIASKIA"
+			Text="双矩花"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_ADZUKI"
+			Text="小红豆"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_COLEUS"
+			Text="翘蕊花"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_NERINE"
+			Text="纳丽石蒜"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_HYPERICUM"
+			Text="小连翘"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_IVY"
+			Text="常春藤"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_HELIOTROPE"
+			Text="天芥菜"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_LYCORIS"
+			Text="彼岸花"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_LAVENDER"
+			Text="薰衣草"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_BUSH_CLOVER"
+			Text="胡枝子"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_CHLORANTHUS"
+			Text="银线子"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_GOURD"
+			Text="葫芦花"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_STREPTOCARPUS"
+			Text="堇蓝"/>
+		
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITIZEN_SKIMMIA"
+			Text="茵芋"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_FLASBELGE"
+			Text="弗拉斯贝尔格"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_WHOLKAMY"
+			Text="乌尔伽密"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_TSURUYAMA_RUINS"
+			Text="剑山遗址"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_CHEILF"
+			Text="齐耳福"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_WHITE_LILY"
+			Text="白百合镇"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_MOTZI"
+			Text="莫兹"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_HYOLS"
+			Text="海奥斯"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_TSUOREN_GARDEN"
+			Text="卓伦花园"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_RACTAN"
+			Text="拉克旦"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_NAVYIE"
+			Text="纳维尔"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_BERUGAMOTTO_CITY_HUGE_TOWER"
+			Text="哀伤巨塔"/-->
+		
+		
+		
+		
+		
+	</LocalizedText>
+</GameData>
