@@ -79,6 +79,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2973049234](https://steamcommunity.com/sharedfiles/filedetails/?id=2973049234) | [GS] miHoYo Coporation(CN text only) | [GS] miHoYo Coporation(CN text only) |
 | [2974358065](https://steamcommunity.com/sharedfiles/filedetails/?id=2974358065) | 키리후지 나기사의 트리니티 종합학원 | Trinity Comprehensive Academy in Kirifuji Nagisa |
 | [2974754410](https://steamcommunity.com/sharedfiles/filedetails/?id=2974754410) | Re: Life in a Different World from Zero Witch's Tea Party | Re: Life in a Different World from Zero Witch's Tea Party |
+| [2989631512](https://steamcommunity.com/sharedfiles/filedetails/?id=2989631512) | 렌카와 체리노의 붉은겨울 연방학원 | Lenka and Cherino's Red Winter Federal Academy |
 
 ## How does it work?
 I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports[*] a request for translation is send to google.translate.
