@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="708ee004-f6d8-4264-8dfd-3b5a86ae3046" version="1">
+  <Properties>
+    <Name>莱莎的炼金工房mod</Name>
+    <Description>第一次做mod，特别感谢各路大佬的帮助</Description>
+    <Created>1582858580</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>残酷者的poi</Authors>
+    <SpecialThanks>八云寺幽幽紫 kb 第十一星 Hemmelfort 永远De冰 Watcher9S</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>ryza_config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>ryza_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>ryza_icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>Atelier Ryza mod.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>ryza_leader.xml</File>
+      <File>ryza_unit.xml</File>
+      <File>ryza_Civilization.xml</File>
+      <File>ryza_colors.xml</File>
+      <File>ryza_districts.xml</File>
+      <File>ryza_building.xml</File>
+      <File>ryza_Modifilers.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>ryza_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>ryza_icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>Atelier Ryza mod.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Atelier Ryza mod.dep</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ryzaDDS.blp</File>
+    <File>ryza_building.xml</File>
+    <File>ryza_Civilization.xml</File>
+    <File>ryza_colors.xml</File>
+    <File>ryza_config.xml</File>
+    <File>ryza_districts.xml</File>
+    <File>ryza_icons.xml</File>
+    <File>ryza_leader.xml</File>
+    <File>ryza_Modifilers.sql</File>
+    <File>ryza_text.xml</File>
+    <File>ryza_unit.xml</File>
+  </Files>
+</Mod>

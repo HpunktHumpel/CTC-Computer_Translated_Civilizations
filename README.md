@@ -26,6 +26,7 @@ Auto-generated translations for the following mods are currently included in thi
 
 | ID  | Name  | English  |
 |-----|-------|----------|
+| [2007640634](https://steamcommunity.com/sharedfiles/filedetails/?id=2007640634) | Atelier Ryza Mod | Atelier Ryza Mod |
 | [2013408578](https://steamcommunity.com/sharedfiles/filedetails/?id=2013408578) | HonKai3 Fuhua | HonKai3 Fuhua |
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | Arknights W |
 | [2640640037](https://steamcommunity.com/sharedfiles/filedetails/?id=2640640037) | 魔法纪录系列：调整屋与puella care | Magic Records Series: Adjustment House and puella care |
