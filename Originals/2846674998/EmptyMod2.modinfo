@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="51e12112-3a7b-4f7c-be8c-aff7286d42d0" version="1">
+  <Properties>
+    <Name>蔡徐坤领导的ikun文明</Name>
+    <Description>蔡徐坤文明mod</Description>
+    <Created>1662030226</Created>
+    <Teaser>蔡徐坤文明mod</Teaser>
+    <Authors>xuxinan</Authors>
+    <SpecialThanks>Hemmelfort、UFO300</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="CONFIG">
+      <File>CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="ICON">
+      <File>ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="TEXT">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateArt id="ATR">
+      <File>蔡徐坤领导的ikun文明.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DB">
+      <File>CIV.xml</File>
+      <File>LEADER.xml</File>
+      <File>RESOURCE.xml</File>
+      <File>IMPROVEMENT.xml</File>
+      <File>DISTRICT.xml</File>
+      <File>BUILDING.xml</File>
+      <File>PROJECT.xml</File>
+      <File>MOMENTS.xml</File>
+      <File>UNIT.xml</File>
+      <File>modifier.sql</File>
+      <File>YEREVAN.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TEXT">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON">
+      <File>ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ART">
+      <File>蔡徐坤领导的ikun文明.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ABILITY.xml</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>BUILDING.xml</File>
+    <File>CIV.xml</File>
+    <File>CONFIG.xml</File>
+    <File>DISTRICT.xml</File>
+    <File>ICON.xml</File>
+    <File>IMPROVEMENT.xml</File>
+    <File>LEADER.xml</File>
+    <File>modifier.sql</File>
+    <File>MOMENTS.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UITEXTURE.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UITEXTURE.blp</File>
+    <File>PROJECT.xml</File>
+    <File>RESOURCE.xml</File>
+    <File>SQLBACK.sql</File>
+    <File>text.xml</File>
+    <File>UNIT.xml</File>
+    <File>UNITBACK.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UITEXTURE.xlp</File>
+    <File>YEREVAN.xml</File>
+    <File>蔡徐坤领导的ikun文明.dep</File>
+  </Files>
+</Mod>

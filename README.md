@@ -40,6 +40,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2778172988](https://steamcommunity.com/sharedfiles/filedetails/?id=2778172988) | 楠芽吹是勇者 | Nan Mebuki is a brave man |
 | [2837886503](https://steamcommunity.com/sharedfiles/filedetails/?id=2837886503) | 丁真领导的理塘文明 | Litang Civilization led by Ding Zhen |
 | [2863254283](https://steamcommunity.com/sharedfiles/filedetails/?id=2863254283) | 崩坏·太虚剑派 | Collapse·Taixu Sword School |
+| [2846674998](https://steamcommunity.com/sharedfiles/filedetails/?id=2846674998) | 蔡徐坤领导的ikun帝国 | The ikun empire led by Cai Xukun |
 | [2888924215](https://steamcommunity.com/sharedfiles/filedetails/?id=2888924215) | [TOUHOU]东方Project领袖包———依神紫苑 | [TOUHOU] Oriental Project leader Bao ——— Yishen Aster |
 | [2899426416](https://steamcommunity.com/sharedfiles/filedetails/?id=2899426416) | Date.A.Live-Core | Date.A.Live-Core |
 | [2899472522](https://steamcommunity.com/sharedfiles/filedetails/?id=2899472522) | Date.A.Live-TokisakiKurumi Reloaded | Date.A.Live-TokisakiKurumi Reloaded |
