@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1688855959</Created>
+    <Created>1688858021</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -477,6 +477,13 @@
     </Criteria>
     <Criteria id="2765468058_InGame">
       <ModInUse>ea854757-6eb0-4282-9f7b-3e5ead877ad1</ModInUse>
+    </Criteria>
+    <!-- 2759607299 - 碧蓝档案 阿拜多斯文明包-->
+    <Criteria id="2759607299_FrontEnd">
+      <ModIsEnabled>ddf8c296-a8fa-411b-bd3f-469ff505be2d</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2759607299_InGame">
+      <ModInUse>ddf8c296-a8fa-411b-bd3f-469ff505be2d</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1578,6 +1585,23 @@
       <File>2765468058/frontend_pl_PL.xml</File>
       <File>2765468058/frontend_ko_KR.xml</File>
       <File>2765468058/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2759607299 - 碧蓝档案 阿拜多斯文明包-->
+    <UpdateText id="2759607299_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2759607299_FrontEnd</Criteria>
+      <File>2759607299/frontend_en_US.xml</File>
+      <File>2759607299/frontend_fr_FR.xml</File>
+      <File>2759607299/frontend_de_DE.xml</File>
+      <File>2759607299/frontend_it_IT.xml</File>
+      <File>2759607299/frontend_es_ES.xml</File>
+      <File>2759607299/frontend_ja_JP.xml</File>
+      <File>2759607299/frontend_ru_RU.xml</File>
+      <File>2759607299/frontend_pl_PL.xml</File>
+      <File>2759607299/frontend_ko_KR.xml</File>
+      <File>2759607299/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -2691,6 +2715,23 @@
       <File>2765468058/ingame_ko_KR.xml</File>
       <File>2765468058/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2759607299 - 碧蓝档案 阿拜多斯文明包-->
+    <UpdateText id="2759607299_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2759607299_InGame</Criteria>
+      <File>2759607299/ingame_en_US.xml</File>
+      <File>2759607299/ingame_fr_FR.xml</File>
+      <File>2759607299/ingame_de_DE.xml</File>
+      <File>2759607299/ingame_it_IT.xml</File>
+      <File>2759607299/ingame_es_ES.xml</File>
+      <File>2759607299/ingame_ja_JP.xml</File>
+      <File>2759607299/ingame_ru_RU.xml</File>
+      <File>2759607299/ingame_pl_PL.xml</File>
+      <File>2759607299/ingame_ko_KR.xml</File>
+      <File>2759607299/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2007640634/frontend_de_DE.xml</File>
@@ -2913,6 +2954,26 @@
     <File>2724414725/ingame_pl_PL.xml</File>
     <File>2724414725/ingame_ru_RU.xml</File>
     <File>2724414725/ingame_zh_Hant_HK.xml</File>
+    <File>2759607299/frontend_de_DE.xml</File>
+    <File>2759607299/frontend_en_US.xml</File>
+    <File>2759607299/frontend_es_ES.xml</File>
+    <File>2759607299/frontend_fr_FR.xml</File>
+    <File>2759607299/frontend_it_IT.xml</File>
+    <File>2759607299/frontend_ja_JP.xml</File>
+    <File>2759607299/frontend_ko_KR.xml</File>
+    <File>2759607299/frontend_pl_PL.xml</File>
+    <File>2759607299/frontend_ru_RU.xml</File>
+    <File>2759607299/frontend_zh_Hant_HK.xml</File>
+    <File>2759607299/ingame_de_DE.xml</File>
+    <File>2759607299/ingame_en_US.xml</File>
+    <File>2759607299/ingame_es_ES.xml</File>
+    <File>2759607299/ingame_fr_FR.xml</File>
+    <File>2759607299/ingame_it_IT.xml</File>
+    <File>2759607299/ingame_ja_JP.xml</File>
+    <File>2759607299/ingame_ko_KR.xml</File>
+    <File>2759607299/ingame_pl_PL.xml</File>
+    <File>2759607299/ingame_ru_RU.xml</File>
+    <File>2759607299/ingame_zh_Hant_HK.xml</File>
     <File>2765468058/frontend_de_DE.xml</File>
     <File>2765468058/frontend_en_US.xml</File>
     <File>2765468058/frontend_es_ES.xml</File>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ddf8c296-a8fa-411b-bd3f-469ff505be2d" version="4">
+  <Properties>
+    <Name>碧蓝档案——阿拜多斯文明包</Name>
+    <Description>这个mod添加了一个来自手游蔚蓝档案的文明阿拜多斯高等学校以及配套的三个领袖小鸟游星野，砂狼白子，砂狼白子（骑行服）
+
+
+
+
+小鸟游星野是我老婆！（震声）.</Description>
+    <Created>1657939891</Created>
+    <Teaser>阿拜多斯文明</Teaser>
+    <Authors>一只小五</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>abds_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>abds_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>abds_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>碧蓝档案——阿拜多斯文明包.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>abds_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>abds_Civilization.xml</File>
+      <File>abds_Leaders.xml</File>
+      <File>abds_Units.xml</File>
+      <File>abds_Districts.xml</File>
+      <File>abds_Improvements.xml</File>
+      <File>abds_Project.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>abds_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>abds_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>碧蓝档案——阿拜多斯文明包.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="Audio">
+      <File>Platforms/windows/audio/ABDS_Audio.ini</File>
+    </UpdateAudio>
+    <UpdateColors id="Colors">
+      <File>abds_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>abds_Civilization.xml</File>
+    <File>abds_Colors.xml</File>
+    <File>abds_Config.xml</File>
+    <File>abds_Districts.xml</File>
+    <File>abds_icon.xml</File>
+    <File>abds_Improvements.xml</File>
+    <File>abds_Leaders.xml</File>
+    <File>abds_Project.xml</File>
+    <File>abds_Text.xml</File>
+    <File>abds_Units.xml</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/ABDSBZ.blp</File>
+    <File>Platforms/MacOS/BLPs/ABDSDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/windows/audio/428974064.wem</File>
+    <File>Platforms/windows/audio/659830922.wem</File>
+    <File>Platforms/windows/audio/70417916.wem</File>
+    <File>Platforms/windows/audio/759436104.wem</File>
+    <File>Platforms/windows/audio/821377147.wem</File>
+    <File>Platforms/windows/audio/ABDS_Audio.ini</File>
+    <File>Platforms/windows/audio/PluginInfo.xml</File>
+    <File>Platforms/windows/audio/SB_ABDS.bnk</File>
+    <File>Platforms/windows/audio/SB_ABDS.txt</File>
+    <File>Platforms/windows/audio/SoundbanksInfo.xml</File>
+    <File>Platforms/windows/BLPs/ABDSBZ.blp</File>
+    <File>Platforms/windows/BLPs/ABDSDDS.blp</File>
+    <File>Platforms/windows/BLPs/LeaderFallbacks.blp</File>
+    <File>碧蓝档案——阿拜多斯文明包.dep</File>
+  </Files>
+</Mod>
