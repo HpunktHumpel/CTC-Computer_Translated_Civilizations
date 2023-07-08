@@ -26,7 +26,8 @@ Auto-generated translations for the following mods are currently included in thi
 
 | ID  | Name  | English  |
 |-----|-------|----------|
-| [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | - |
+| [2013408578](https://steamcommunity.com/sharedfiles/filedetails/?id=2013408578) | HonKai3 Fuhua | HonKai3 Fuhua |
+| [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | Arknights W |
 | [2640640037](https://steamcommunity.com/sharedfiles/filedetails/?id=2640640037) | 魔法纪录系列：调整屋与puella care | Magic Records Series: Adjustment House and puella care |
 | [2650882239](https://steamcommunity.com/sharedfiles/filedetails/?id=2650882239) | 白鸟歌野是勇者 | Shiratori Utano is a brave man |
 | [2656801909](https://steamcommunity.com/sharedfiles/filedetails/?id=2656801909) | 魔法纪录系列：神滨魔法联盟（南区） | Magic Records Series: Kamihama Magic League (South Area) |
@@ -66,7 +67,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2957344985](https://steamcommunity.com/sharedfiles/filedetails/?id=2957344985) | 逆熵圣女·布洛妮娅·扎伊切克 | Anti-Entropy Saint Bronya Zajcek |
 | [2958957078](https://steamcommunity.com/sharedfiles/filedetails/?id=2958957078) | Ophidy's Karotine 荒漠长河卡洛廷 | Ophidy's Karotine |
 | [2962085297](https://steamcommunity.com/sharedfiles/filedetails/?id=2962085297) | 张禹领导的Addis帝国 | The Addis Empire led by Zhang Yu |
-| [2964796539](https://steamcommunity.com/sharedfiles/filedetails/?id=2964796539) | Northern Union of Blue Line | - |
+| [2964796539](https://steamcommunity.com/sharedfiles/filedetails/?id=2964796539) | Northern Union of Blue Line | Northern Union of Blue Line |
 | [2965547065](https://steamcommunity.com/sharedfiles/filedetails/?id=2965547065) | [TOU HOU]秘密结社-似梦幻想乡的启迪 | [TOU HOU] Secret Association - Enlightenment of Dream-like Fantasy Town |
 | [2966535122](https://steamcommunity.com/sharedfiles/filedetails/?id=2966535122) | [GS] 鍜曞挄鐜嬪浗(EN/CN) | Shu Shu Qiao Qiu Qiao |
 | [2966634919](https://steamcommunity.com/sharedfiles/filedetails/?id=2966634919) | 타카나시 호시노의 아비도스 고등학교 | Abydos High School in Hoshino, Takanashi |
