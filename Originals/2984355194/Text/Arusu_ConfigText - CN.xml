@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_YGGDRASIL_NAME" Language="zh_Hans_CN">
+			<Text>尤克特拉希尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YGGDRASIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>＜人工精灵＞或守鞠亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YGGDRASIL_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>尤克特拉希尔的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIDHOGG_NAME" Language="zh_Hans_CN">
+			<Text>尼德霍格</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIDHOGG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>＜人工精灵＞或守鞠奈</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIDHOGG_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>尼德霍格的</Text>
+		</Replace>
+
+		<!-- 文明特性 -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YGGDRASIL_NAME" Language="zh_Hans_CN">
+			<Text>白蜡树</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YGGDRASIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市+10%[ICON_Science]科技值，[ICON_Capital]首都额外+20%[ICON_Science]科技值。[NEWLINE]幸福感为快乐的城市可额外获得+5%[ICON_Science]科技值。幸福感为狂喜的城市可获得双倍加成。[NEWLINE]在你的领土内，敌方间谍等级降低1级，若城市充分供电再降低1级。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIDHOGG_NAME" Language="zh_Hans_CN">
+			<Text>恐怖啃蚀者</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIDHOGG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市+10%[ICON_Science]科技值，战时可获得双倍加成。[NEWLINE]改良後战略资源+2[ICON_Science]科技值。[NEWLINE]你的间谍等级在攻击性行动中增加1级。</Text>
+		</Replace>
+
+		<!-- 领袖 -->
+		<Replace Tag="LOC_LEADER_ARUSU_MARIA_NAME" Language="zh_Hans_CN">
+			<Text>或守鞠亚</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ARUSU_MARIA_EX_NAME" Language="zh_Hans_CN">
+			<Text>或守鞠亚（灵装）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ARUSU_MARINA_NAME" Language="zh_Hans_CN">
+			<Text>或守鞠奈</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ARUSU_MARINA_EX_NAME" Language="zh_Hans_CN">
+			<Text>或守鞠奈（灵装）</Text>
+		</Replace>
+
+		<!-- 领袖特性 -->
+		<Replace Tag="LOC_TRAIT_LEADER_ARUSU_MARIA_NAME" Language="zh_Hans_CN">
+			<Text>运行槼整</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ARUSU_MARIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你的都市电力须求随着时代与科技进展而提升。当都市充分供电时，各区域产出获得增益；但供电不足时则会获得减益。你的再生能源发电设施获得额外产出增益。[NEWLINE]当你俘虏或杀死敌方间谍时，敌方间谍每有一级强化，文明便获得150点[ICON_Science]科技值和50点[ICON_Culture]文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ARUSU_MARINA_NAME" Language="zh_Hans_CN">
+			<Text>非法入侵</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ARUSU_MARINA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你的都市电力须求随着时代与科技进展而提升。当都市充分供电时，各区域产出获得增益；但供电不足时则会获得减益。你的工业区发电建筑获得额外产出增益。[NEWLINE]攻击性间谍任务成功时，即获得目标城市在该回合获得之[ICON_Science]科技值和[ICON_Culture]文化值的50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ARUSU_EX_NAME" Language="zh_Hans_CN">
+			<Text>灵装觉醒</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ARUSU_EX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了基本的特性之外，当军事单位与较先进的单位作战时，+7[ICON_Strength]战斗力，随着科技的进展，军事单位能获得额外的强化。就职於城市中的[ICON_Governor]行政长官的部分能力延伸到你的其他城市。[NEWLINE]解锁防御战术市政和城堡科技後，分别获得一个免费间谍（以及额外的间谍容量）。间谍部属和完成攻击性任务的时间大幅降低。</Text>
+		</Replace>
+
+		<!-- 领袖议程 -->
+		<Replace Tag="LOC_AGENDA_ARUSU_INSTALL_NAME" Language="zh_Hans_CN">
+			<Text>电脑世界</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ARUSU_MARIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会设法获得[ICON_Science]科技值，喜欢同样专注於[ICON_Science]科技发展的文明。讨厌[ICON_Science]科技落后的文明。[NEWLINE]羡慕进入[ICON_Glory_Golden_Age]黄金时代的文明。讨厌进入[ICON_Glory_Dark_Age]黑暗时代的文明。[NEWLINE]想要偏安一隅不受征服。不喜欢征服其他玩家原始首都的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ARUSU_MARINA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会设法获得[ICON_Science]科技值，喜欢同样专注於[ICON_Science]科技发展的文明。讨厌[ICON_Science]科技落后的文明。[NEWLINE]同情陷入[ICON_Glory_Dark_Age]黑暗时代的文明。讨厌进入[ICON_Glory_Golden_Age]黄金时代的文明。[NEWLINE]会尽可能地尝试掠夺所有单元格。敬重其他喜欢掠夺的文明。</Text>
+		</Replace>
+
+		<!-- 区域 -->
+		<Replace Tag="LOC_DISTRICT_ARUSU_OBSERVATORY_NAME" Language="zh_Hans_CN">
+			<Text>异界天文台</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ARUSU_OBSERVATORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色科学发展区域。取代学院区域且造价较为低廉。[NEWLINE][NEWLINE]相邻的精炼厂提供+2[ICON_Science]科技值加成；每有2个相邻的区域单元格，则+1[ICON_Science]科技值加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_REFINERY_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Science]科技值来自相邻精炼厂单元格。</Text>
+		</Replace>
+
+		<!-- 电力 -->
+		<Replace Tag="LOC_IMPROVEMENT_ARUSU_REFINERY_NAME" Language="zh_Hans_CN">
+			<Text>异界精炼厂</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ARUSU_REFINERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2[ICON_Production]生产力。每个相邻战略资源+2[ICON_Production]生产力。[NEWLINE]三单元格内的城市已改良的战略资源产出翻倍(此效果不可堆栈)。[NEWLINE]每个城市仅限建造一个。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ARUSU_REFINERY_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Production]生产力来自相邻的异界精炼厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ARUSU_STRATEGIC_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_Num}[ICON_Production]生产力来自相邻战略资源。</Text>
+		</Replace>
+
+		<!-- XCOM -->
+		<Replace Tag="LOC_BUILDING_ARUSU_ELERIUM_POWER_PLANT_NAME" Language="zh_Hans_CN">
+			<Text>异界超铀发电厂</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ARUSU_ELERIUM_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色建筑。[NEWLINE]该工业区产出相当于[ICON_Production]生产力相邻加成的[ICON_Science]科技值。[NEWLINE]自动将任何数量的[ICON_RESOURCE_ARUSU_ELERIUM]超铀转化为[ICON_Power]电力，并为6单元格范围内的城市供电，比率为：[NEWLINE][ICON_Bullet]1点[ICON_RESOURCE_ARUSU_ELERIUM]超铀[ICON_PowerRight]16点[ICON_Power]电力。[NEWLINE][ICON_Bullet]无二氧化碳至大气中。[NEWLINE]其[ICON_Production]生产力和[ICON_Science]科技值加成可延展至6单元格范围内所有未获得发电厂建筑加成之市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_ARUSU_ELERIUM_NAME" Language="zh_Hans_CN">
+			<Text>超铀</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_ARUSU_ELERIUM_NAME" Language="zh_Hans_CN">
+			<Text>转为使用超铀供电</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_ARUSU_ELERIUM_NAME" Language="zh_Hans_CN">
+			<Text>除役此城市当前使用的发电厂，并且以超铀发电厂取代之。[NEWLINE][NEWLINE]超铀发电厂：[NEWLINE]{LOC_BUILDING_ARUSU_ELERIUM_POWER_PLANT_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_ARUSU_ELERIUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>行动代号：雷神之鎚[NEWLINE]我们完成了对暂时被称为超铀115物质的分析，结果显示该材料不属于任何自然出现在地球上的元素。大概外星人从其他毋庸置疑储藏着大量超铀的星球上带了一些到地球上来，但对那进行推测已经超出了我的能力范围。我确定知道的事情是这个物质在高能粒子力场中反应非常剧烈，生成了一个近乎无限的藐视一切现有效率标准的能量源。遗撼的是，我用地球上能利用的一切资源还找不到复制或合成这一物质的方法。我们从外星人那收回的材料很可能能够构成我们全部可用的库存。指挥官将要谨慎选择如何去分配这些宝贵的资源。＜理查·泰根＞</Text>
+		</Replace>
+
+		<!-- 外星人 -->
+		<Replace Tag="LOC_BUILDING_ARUSU_UFOCENTER_NAME" Language="zh_Hans_CN">
+			<Text>异界研究中心</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ARUSU_UFOCENTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色建筑，由“太空竞赛”解锁。[NEWLINE]所在都市授予一个异界幽浮。[NEWLINE]完成建造时所有单位获得生命恢复。[NEWLINE]科学胜利相关之项目的研发速度+10%。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_ARUSU_INVADER_NAME" Language="zh_Hans_CN">
+			<Text>异界入侵者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_INVADER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色建造者，可使用8次。[NEWLINE]能建造民用与军用单元格改良设施。[NEWLINE]能使用建造次数加速学院、太空中心以及图书馆、大学、研究实验室的进度25%。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_UFO_NAME" Language="zh_Hans_CN">
+			<Text>异界幽浮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_UFO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色军事单位。完成异界研究中心时获得。[NEWLINE]被击杀时以1点生命撤退至异界研究中心。[NEWLINE]拥有独特强化树。[NEWLINE]能在水中移动与战斗，对大槼模杀伤性武器有抗性。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_ARUSU_ALIEN_NAME" Language="zh_Hans_CN">
+			<Text>异界建造者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_ALIEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色建造者，取代建造者。[NEWLINE]能建造单元格改良设施，删除一些地貌（如森林或雨林）或者采收某些资源。。[NEWLINE]能使用建造次数加速学院、太空中心以及图书馆、大学、研究实验室的进度20%。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_SETTLER_NAME" Language="zh_Hans_CN">
+			<Text>异界开拓者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_SETTLER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色开拓者。[NEWLINE]可以创建新城市。完成时，城市[ICON_Citizen]人口减1。[NEWLINE]所开拓的城市获得数个异界建造者。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_SETTLER2_NAME" Language="zh_Hans_CN">
+			<Text>异界殖民者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_SETTLER2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色进阶开拓者。[NEWLINE]可以创建新城市。完成时，城市[ICON_Citizen]人口减1。[NEWLINE]所开拓的城市获得数个异界建造者。若解锁所需科技还会获得异界幽浮。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_HACKER_NAME" Language="zh_Hans_CN">
+			<Text>异界渗透者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_HACKER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色间谍。拥有独特强化树。[NEWLINE]在国外城市运行秘密任务，并保护你的城市免遭敌方间谍骚扰。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_INFANTRY_NAME" Language="zh_Hans_CN">
+			<Text>异界步兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色原子能时代近战单位。拥有独特强化树。[NEWLINE]与异界幽浮一同行动时能获得强化。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_MACHINE_GUN_NAME" Language="zh_Hans_CN">
+			<Text>异界机关枪</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_MACHINE_GUN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色原子能时代远程单位，取代机关枪。[NEWLINE]与异界幽浮一同行动时能获得强化。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_MODERN_ARMOR_NAME" Language="zh_Hans_CN">
+			<Text>异界坦克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARUSU_MODERN_ARMOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>或守特色信息时代重装甲兵单位，取代现代坦克。[NEWLINE]与异界幽浮一同行动时能获得强化。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_CLASS_ARUSU_UFO_NAME" Language="zh_Hans_CN">
+			<Text>U.F.O</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_HIVEMIND_NAME" Language="zh_Hans_CN">
+			<Text>蜂巢思维</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_HIVEMIND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1飞机槽位。2单元格内的异界单位每回合+1额外攻击次数，并且受伤害时，不会遭受战斗减益。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_MIND_CONTROL_NAME" Language="zh_Hans_CN">
+			<Text>心灵控制</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_MIND_CONTROL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>2单元格内的我方都市+10[ICON_Loyalty]忠诚度；2单元格内的敌方都市-10[ICON_Loyalty]忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_SHIELDING_NAME" Language="zh_Hans_CN">
+			<Text>难得素装甲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_SHIELDING_WEAK_SPOT_NAME" Language="zh_Hans_CN">
+			<Text>弱点</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_SHIELDING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>防御时+17[ICON_Strength]战斗力，但防御飞行单位时-17[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_XENO_CAMOUFLAGE_NAME" Language="zh_Hans_CN">
+			<Text>异种植入</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_XENO_CAMOUFLAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>2单元格内的异界单位获得视野+1与隐形能力，并且在攻击後仍可移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_CLONING_VATS_NAME" Language="zh_Hans_CN">
+			<Text>克隆培养舱</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_UFO_CLONING_VATS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>2单元格内的异界单位在每回合结束时，甚至是在移动或攻击後，仍可恢复。[NEWLINE]所在都市训练单位时额外获得一个。[NEWLINE]禁止敌方间谍入侵领土。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_ARUSU_HIVEMIND_NAME" Language="zh_Hans_CN">
+			<Text>蜂巢思维网络</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_HIVEMIND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+1额外攻击次数。[NEWLINE]受伤害时，不会遭受战斗减益。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_XENO_NAME" Language="zh_Hans_CN">
+			<Text>异种伪装</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_XENO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1视野。只有相邻的敌方单位可以发现该单位。[NEWLINE]攻击之后仍可移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_CLONING_NAME" Language="zh_Hans_CN">
+			<Text>克隆增生</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_CLONING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在每回合结束时，甚至是在移动或攻击後，仍可恢复。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_CLASS_SPY_NAME" Language="zh_Hans_CN">
+			<Text>渗透者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_COUNTERINTELLIGENCE_NAME" Language="zh_Hans_CN">
+			<Text>反情报</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_COUNTERINTELLIGENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>反间谍2级，有更高反间谍能力，并且所有城市区域都受到保护（1单元格范围内的区域+1行动等级）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_MASTERMISCHIEF_NAME" Language="zh_Hans_CN">
+			<Text>恶作剧大师</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_MASTERMISCHIEF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>破坏制造2级，有更高几率成功造成破坏。[NEWLINE]破坏水坝2级，有更高几率成功破坏水坝。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_DEEPNETWORK_NAME" Language="zh_Hans_CN">
+			<Text>深度网络</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_DEEPNETWORK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果该间谍在自己的领土上，你所有间谍的行动等级+1，所有位于你领土的敌方间谍行动等级-1。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_MASTERTHIEF_NAME" Language="zh_Hans_CN">
+			<Text>盗贼大师</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_MASTERTHIEF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>资金截取2级，有更高几率成功抽取金币。[NEWLINE]巨作盗取2级，有更高几率成功偷盗巨作、遗物或文物。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_DIRTYPOLITICS_NAME" Language="zh_Hans_CN">
+			<Text>肮脏政治</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_DIRTYPOLITICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游击队招募2级，有更高几率成功生成反叛单位。[NEWLINE]制造动荡2级，有更高几率成功制造动荡。[NEWLINE]捏造丑闻2级，有更高几率成功捏造丑闻。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_ASSASSIN_NAME" Language="zh_Hans_CN">
+			<Text>刺客大师</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_ASSASSIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在敌人城市部署无需消耗时间。[NEWLINE]陷害行政长官2级，有更高几率成功陷害行政长官。[NEWLINE]如果在运行任务时被追捕，有更高几率逃跑（+4等级）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_MANINSUIT_NAME" Language="zh_Hans_CN">
+			<Text>黑衣男</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARUSU_SPY_MANINSUIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成所有任务的时间减少25%。[NEWLINE]科技窃取2级，有更高几率成功获取先进科技。[NEWLINE]技术干扰2级，有更高几率成功破坏火箭技术。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_ARUSU_ARMORED_CARS_NAME" Language="zh_Hans_CN">
+			<Text>装甲车辆</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_ARMORED_CARS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>研发内燃机提供+{1_Amount}[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_INFANTRY_ARMORED_CAR_TEXT" Language="zh_Hans_CN">
+			<Text>+{1_Amount}[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_DOUBLE_ATTACK_NAME" Language="zh_Hans_CN">
+			<Text>加特林</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_DOUBLE_ATTACK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>研发制导系统提供+{1_Amount}额外攻击次数</Text>
+		</Replace>
+		<Replace Tag="LOC_MACHINE_GUN_DOUBLE_ATTACK_TEXT" Language="zh_Hans_CN">
+			<Text>如果[ICON_Movement]移动力允许，+{1_Amount}额外攻击次数</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_INSTANT_COMMUNICATION_NAME" Language="zh_Hans_CN">
+			<Text>即时通信</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ARUSU_INSTANT_COMMUNICATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>研发电信通信提供+5[ICON_Strength]战斗力与+1[ICON_Movement]移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_ARUSU_INSTANT_COMMUNICATION_STRENGTH_TEXT" Language="zh_Hans_CN">
+			<Text>+{1_Amount}[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_ARUSU_INSTANT_COMMUNICATION_MOVEMENT_TEXT" Language="zh_Hans_CN">
+			<Text>+{1_Amount}[ICON_Movement]移动力</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
