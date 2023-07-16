@@ -94,6 +94,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2989631512](https://steamcommunity.com/sharedfiles/filedetails/?id=2989631512) | 렌카와 체리노의 붉은겨울 연방학원 | Lenka and Cherino's Red Winter Federal Academy |
 | [2994440668](https://steamcommunity.com/sharedfiles/filedetails/?id=2994440668) | Honkai: Star Rail | Honkai: Star Rail |
 | [2995862969](https://steamcommunity.com/sharedfiles/filedetails/?id=2995862969) | KAZIMIERZ(EX)：由瑕光领导的卡西米尔文明（加强版） | KAZIMIERZ (EX): Kazimierz civilization led by Xia Guang (enhanced version) |
+| [3003039611](https://steamcommunity.com/sharedfiles/filedetails/?id=3003039611) | [TOUHOU]东方project 博丽灵梦 | [TOUHOU] Touhou project Hakurei Reimu |
 | [3003469690](https://steamcommunity.com/sharedfiles/filedetails/?id=3003469690) | Genshin Mod Mondstadt | Genshin Mod Mondstadt |
 | [3003622862](https://steamcommunity.com/sharedfiles/filedetails/?id=3003622862) | ブルーアーカイブ アビドス高校 (Blue Archive - Abydos) | Blue Archive - Abydos |
 | [3005123426](https://steamcommunity.com/sharedfiles/filedetails/?id=3005123426) | ブルーアーカイブ ゲヘナ学園 (Blue Archive - Gehenna) | Blue Archive Gehenna Academy (Blue Archive - Gehenna) |

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c1e00311-4576-406a-a166-ab4bae150197" version="1">
+  <Properties>
+    <Name>[TOUHOU]东方project [COLOR:Civ6Red]博丽灵梦[ENDCOLOR]</Name>
+    <Description>这里是淡宵，这个饼已经完成了，但是我还有超多的饼等着我完成，所以我要继续加油了。灵梦算是目前比较平衡的mod，随意游玩吧。[NEWLINE] [NEWLINE]这次是悸动帮我做完了音乐，也是非常的不错。</Description>
+    <Created>1689146797</Created>
+    <Authors>Tanshou</Authors>
+    <SpecialThanks>悸动战士</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>REIMU_TANSHOU_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="txt">
+      <File>Text/REIMU_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>REIMU_TANSHOU_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>[TOUHOU]东方project 博丽灵梦.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>REIMU_TANSHOU_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DATA">
+      <File>REIMU_TANSHOU_Civilizations.xml</File>
+      <File>REIMU_TANSHOU_Leaders.xml</File>
+      <File>REIMU_TANSHOU_C_Ability.sql</File>
+      <File>REIMU_EX_Modifiers.sql</File>
+      <File>REIMU_TANSHOU_Units_Abilities.xml</File>
+      <File>REIMU_TANSHOU_Units.xml</File>
+      <File>REIMU_TANSHOU_Districts.xml</File>
+      <File>REIMU_TANSHOU_Units_Promotions.xml</File>
+      <File>REIMU_TANSHOU_Monments.xml</File>
+      <File>REIMU_TANSHOU_Agendas.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TXT">
+      <File>Text/REIMU_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON">
+      <File>REIMU_TANSHOU_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ART">
+      <File>[TOUHOU]东方project 博丽灵梦.dep</File>
+    </UpdateArt>
+    <UpdateColors id="COLOR">
+      <File>REIMU_TANSHOU_Colors.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="Audio">
+      <File>Platforms/Windows/Audio/TANSHOU_REIMU_Music_Bank.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/REIMUDDS.blp</File>
+    <File>Platforms/Windows/Audio/1013109899.wem</File>
+    <File>Platforms/Windows/Audio/1033906717.wem</File>
+    <File>Platforms/Windows/Audio/193342438.wem</File>
+    <File>Platforms/Windows/Audio/21140778.wem</File>
+    <File>Platforms/Windows/Audio/326190454.wem</File>
+    <File>Platforms/Windows/Audio/370724601.wem</File>
+    <File>Platforms/Windows/Audio/408192124.wem</File>
+    <File>Platforms/Windows/Audio/427992550.wem</File>
+    <File>Platforms/Windows/Audio/468003145.wem</File>
+    <File>Platforms/Windows/Audio/468689820.wem</File>
+    <File>Platforms/Windows/Audio/662698736.wem</File>
+    <File>Platforms/Windows/Audio/77297150.wem</File>
+    <File>Platforms/Windows/Audio/831488525.wem</File>
+    <File>Platforms/Windows/Audio/850707210.wem</File>
+    <File>Platforms/Windows/Audio/894411469.wem</File>
+    <File>Platforms/Windows/Audio/914368880.wem</File>
+    <File>Platforms/Windows/Audio/928592258.wem</File>
+    <File>Platforms/Windows/Audio/962195861.wem</File>
+    <File>Platforms/Windows/Audio/972392830.wem</File>
+    <File>Platforms/Windows/Audio/TANSHOU_REIMU_Music_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/TANSHOU_REIMU_Music_Bank.ini</File>
+    <File>Platforms/Windows/Audio/TANSHOU_REIMU_Music_Bank.txt</File>
+    <File>Platforms/Windows/Audio/TANSHOU_REIMU_Music_Bank.xml</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/REIMUDDS.blp</File>
+    <File>REIMU_EX_Modifiers.sql</File>
+    <File>REIMU_TANSHOU_Agendas.xml</File>
+    <File>REIMU_TANSHOU_Civilizations.xml</File>
+    <File>REIMU_TANSHOU_Colors.xml</File>
+    <File>REIMU_TANSHOU_Config.xml</File>
+    <File>REIMU_TANSHOU_C_Ability.sql</File>
+    <File>REIMU_TANSHOU_Districts.xml</File>
+    <File>REIMU_TANSHOU_Icons.xml</File>
+    <File>REIMU_TANSHOU_Leaders.xml</File>
+    <File>REIMU_TANSHOU_Monments.xml</File>
+    <File>REIMU_TANSHOU_Units.xml</File>
+    <File>REIMU_TANSHOU_Units_Abilities.xml</File>
+    <File>REIMU_TANSHOU_Units_Promotions.xml</File>
+    <File>Text/REIMU_Text_CN.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/REIMUDDS.xlp</File>
+    <File>[TOUHOU]东方project 博丽灵梦.dep</File>
+  </Files>
+</Mod>
