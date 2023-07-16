@@ -69,6 +69,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2942535136](https://steamcommunity.com/sharedfiles/filedetails/?id=2942535136) | 新文明：蔚蓝文明 | New Civilization: Azure Civilization |
 | [2948711698](https://steamcommunity.com/sharedfiles/filedetails/?id=2948711698) | 丁真领导的理塘文明——役赢丁真，鉴定为以！武！服人 | The Litang Civilization led by Ding Zhen——Yong Ying Ding Zhen, appraised for it! Wu! convincing |
 | [2949093921](https://steamcommunity.com/sharedfiles/filedetails/?id=2949093921) | 郑俊飚领导的Bell王国 | The Kingdom of Bell led by Zheng Junbiao |
+| [2950539928](https://steamcommunity.com/sharedfiles/filedetails/?id=2950539928) | 孤独摇滚 BOCCHI_THE_ROCK | Lonely Rock BOCCHI_THE_ROCK |
 | [2952653308](https://steamcommunity.com/sharedfiles/filedetails/?id=2952653308) | Night Country and leader Kuro | Night Country and leader Kuro |
 | [2955421341](https://steamcommunity.com/sharedfiles/filedetails/?id=2955421341) | Date.A.Live-Mayuri Reloaded | Date.A.Live-Mayuri Reloaded |
 | [2956947156](https://steamcommunity.com/sharedfiles/filedetails/?id=2956947156) | Touhou东方Project 琪露诺 | Touhou Oriental Project |

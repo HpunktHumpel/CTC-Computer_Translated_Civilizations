@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOCCHI_THE_ROCK_Text -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/24/2023 10:05:21 AM -->
+<GameData>
+
+	<LocalizedText>
+		
+		<Replace Tag="LOC_CIVILIZATION_BOCCHI_THE_ROCK_NAME" Language="zh_Hans_CN">
+			<Text>结束乐队</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>结束乐队的描述</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_BOCCHI_THE_ROCK_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>结束乐队的定义</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_JIMIHEN_NAME" Language="zh_Hans_CN">
+			<Text>吉米亨</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_JIMIHEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>结束乐队的远古特色侦查单位，替代侦察兵，拥有+1移动力[ICON_Movement]，+1视野</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_MUSEUM_MUSIC_NAME" Language="zh_Hans_CN">
+			<Text>音乐博物馆</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>结束乐队的特色建筑。提供两个音乐著作槽位[ICON_GreatWork_Music]。每回合＋3[ICON_GreatMusician]大音乐家点数</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_STARRY_NAME" Language="zh_Hans_CN">
+			<Text>下北泽STARRY</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_STARRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>结束乐队的特色建筑。提供四个[ICON_GreatWork_Music]音乐著作槽位，填满后将自动主题化，此城音乐巨作提供的[ICON_Tourism]旅游业绩＋50%，[NEWLINE]
+			奖励一个总督头衔[NEWLINE]
+			每回合＋6[ICON_GreatMusician]大音乐家点数</Text>
+		</Replace>
+
+		<!--文明能力-->
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_NAME" Language="zh_Hans_CN">
+			<Text>结束乐队</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				文明产生的旅游业绩的百分之20%将会转化为[ICON_Science]科技，[ICON_Culture]文化和[ICON_Gold]金币并赋予给首都。建造剧院广场的时间减半。
+				每获得一名[ICON_Tourism]国际游客将会提供+30[ICON_GreatMusician]大音乐家点数。[NEWLINE]
+				当遇见除自身以外的第一个主要文明时，获得[ICON_GreatMusician]大音乐家后藤一里的灵感1，
+				远古时代和古典时代时文明[ICON_GreatWork_Music]音乐巨作产生的[ICON_Tourism]旅游业绩＋100％。
+			</Text>
+		</Replace>
+		
+		<!--领袖-->
+
+		<Replace Tag="LOC_LEADER_NIJIKA_NAME" Language="zh_Hans_CN">
+			<Text>伊地知 虹夏</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_NIJIKA_NAME" Language="zh_Hans_CN">
+			<Text>下北泽の大天使</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_NIJIKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造娱乐中心的时间减半。[NEWLINE]
+			加成资源如同奢侈品资源一样，每种类型资源提供1点[ICON_Amenities] 宜居度</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_BOCCHI_NAME" Language="zh_Hans_CN">
+			<Text>后藤 一里</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_BOCCHI_NAME" Language="zh_Hans_CN">
+			<Text>吉他英雄</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_BOCCHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文明每次创建巨作将会获得一次[ICON_CivicBoosted]鼓舞</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_RYO_NAME" Language="zh_Hans_CN">
+			<Text>山田 凉</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_RYO_NAME" Language="zh_Hans_CN">
+			<Text>凉的能力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_RYO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得被凉文化征服的文明每回合[ICON_Gold]金币的(100/场上文明数量)%并赋予给首都</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_KITA_NAME" Language="zh_Hans_CN">
+			<Text>喜多 郁代</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_KITA_NAME" Language="zh_Hans_CN">
+			<Text>逃走的吉他手</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_KITA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>间谍初始即拥有“王牌驾驶员”的提升</Text>
+		</Replace>
+
+		<Replace Tag="LOC_OST_NAME" Language="zh_Hans_CN">
+			<Text>孤独摇滚音乐专辑包</Text>
+		</Replace>
+
+		<Replace Tag="LOC_OST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为游戏新增了14首音乐巨作，详情见游戏</Text>
+		</Replace>
+		
+		
+		<!--城市-->
+		
+
+		<Replace Tag="LOC_CITY_NAME_SHIMOKITAZAWA" Language="zh_Hans_CN">
+			<Text>下北泽</Text>
+		</Replace>
+		
+		
+		<!--市民-->
+
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_1" Language="zh_Hans_CN">
+			<Text>后藤 正文</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_2" Language="zh_Hans_CN">
+			<Text>喜多 建介</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_3" Language="zh_Hans_CN">
+			<Text>山田 贵洋</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_4" Language="zh_Hans_CN">
+			<Text>伊地知 洁</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_5" Language="zh_Hans_CN">
+			<Text>后藤 直树</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_FEMALE_1" Language="zh_Hans_CN">
+			<Text>后藤 二里</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_FEMALE_2" Language="zh_Hans_CN">
+			<Text>伊地知 星歌</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_FEMALE_3" Language="zh_Hans_CN">
+			<Text>广井 菊里</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_FEMALE_4" Language="zh_Hans_CN">
+			<Text>后藤 美智代</Text>
+		</Replace>
+		
+		
+		
+	<!-- 伟人 -->
+		
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_1_NAME" Language="zh_Hans_CN">
+			<Text>后藤一里的灵感1</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RYO_1_NAME" Language="zh_Hans_CN">
+			<Text>山田凉的灵感1</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KITA_1_NAME" Language="zh_Hans_CN">
+			<Text>喜多郁代的灵感1</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2_NAME" Language="zh_Hans_CN">
+			<Text>后藤一里的灵感2</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RYO_2_NAME" Language="zh_Hans_CN">
+			<Text>山田凉的灵感2</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIJIKA_1_NAME" Language="zh_Hans_CN">
+			<Text>伊地知虹夏的灵感1</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KITA_2_NAME" Language="zh_Hans_CN">
+			<Text>喜多郁代的灵感2</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_3_NAME" Language="zh_Hans_CN">
+			<Text>后藤一里的灵感3</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIJIKA_2_NAME" Language="zh_Hans_CN">
+			<Text>伊地知虹夏的灵感2</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_4_NAME" Language="zh_Hans_CN">
+			<Text>后藤一里的灵感4</Text>
+		</Replace>
+		
+	<!-- 巨作 -->
+	
+		<Replace Tag="LOC_GREATWORK_BOCCHI_1_NAME" Language="zh_Hans_CN">
+			<Text>《青春症候群》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_2_NAME" Language="zh_Hans_CN">
+			<Text>《孤独东京》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_3_NAME" Language="zh_Hans_CN">
+			<Text>《失真》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_4_NAME" Language="zh_Hans_CN">
+			<Text>《秘密基地》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_5_NAME" Language="zh_Hans_CN">
+			<Text>《吉他与孤独与蓝色星球》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_6_NAME" Language="zh_Hans_CN">
+			<Text>《不会唱情歌》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_7_NAME" Language="zh_Hans_CN">
+			<Text>《那个乐队》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_8_NAME" Language="zh_Hans_CN">
+			<Text>《卡拉卡拉》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_9_NAME" Language="zh_Hans_CN">
+			<Text>《小小的海》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_10_NAME" Language="zh_Hans_CN">
+			<Text>《有什么不好》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_11_NAME" Language="zh_Hans_CN">
+			<Text>《绝不会忘记》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_12_NAME" Language="zh_Hans_CN">
+			<Text>《若能化作星座》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_13_NAME" Language="zh_Hans_CN">
+			<Text>《往日重现》</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_14_NAME" Language="zh_Hans_CN">
+			<Text>《翻转岩石，晨光洒落你身》</Text>
+		</Replace>
+		
+	<!--议程-->
+
+		<Replace Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_LOW_SCIENCE_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>后藤一里对你的科技和文化落后感到很欣慰</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_VAIN_HOPE_NAME" Language="zh_Hans_CN">
+			<Text>社恐的妄想</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_VAIN_HOPE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢科技和文化落后的文明</Text>
+		</Replace>
+
+	<!--百科界面的quote-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RYO_QUOTE" Language="zh_Hans_CN">
+			<Text>要是放弃了个性，就跟死去没两样</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BOCCHI_QUOTE" Language="zh_Hans_CN">
+			<Text>我想以吉他手的身份，让大家珍惜的结束乐队，变成最棒的乐团！</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIJIKA_QUOTE" Language="zh_Hans_CN">
+			<Text>我啊，有个目标，或者该说是梦想，所以容易变得太狂热。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KITA_QUOTE" Language="zh_Hans_CN">
+			<Text>我呢，无论如何都希望后藤同学能参加文化祭演出，因为后藤同学你。。。</Text>
+		</Replace>
+
+
+		<!--百科界面-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BOCCHI_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				乐队的吉他手、作词担当。[NEWLINE]
+				严重的沟通障碍症患者，不敢和人主动搭话。内心话语远远多于实际说出来的。经常做出一些常人难以理解的行动。[NEWLINE]
+				在网络上以“Guitar Hero”的名义活跃着，拥有大量粉丝。但在现实中因为社恐和没有乐队经验，在别人面前弹奏所展示出来的吉他水平比新手还差。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RYO_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				乐队的贝斯手、作曲担当。[NEWLINE]
+				被别人叫做怪人会很兴奋的怪人。[NEWLINE]
+				表情变化少，和波奇一样没什么朋友。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIJIKA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				乐队的鼓手。[NEWLINE]
+				在公园中发现了背着吉他包灰心丧气的波奇，并强拉她加入了“结束乐队”。[NEWLINE]
+				乐队的润滑剂，善于交流。穿着也比较时尚。[NEWLINE]
+				将自己姐姐的Livehouse作为乐队活动地点。平常也会在Livehouse打工。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KITA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				乐队的吉他手和歌手，和波奇是校友。[NEWLINE]
+				社交圈广，有很多朋友的现充。[NEWLINE]
+				其实不会弹吉他，因为憧憬凉前辈而加入了虹夏的乐队，一直瞒着乐队的其他成员，直到第一次演出前退出乐队逃跑了。[NEWLINE]
+				在波奇的帮助下和乐队成员和解，重新加入乐队。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STARRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				虹夏的姐姐在下北泽开了一家Livehouse叫做STARRY。[NEWLINE]
+				“STARRY呀，其实是姐姐她为了我而创造的地方哦。”by：虹夏
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BOCCHI_THE_ROCK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				作为网络吉他手“Guitar Hero”而广受好评的后藤一里，在现实中却是个什么都不会的沟通障碍者。[NEWLINE]
+
+				一里有着组建乐队的梦想，但因为不敢向人主动搭话而一直没有成功，直到一天在公园中被伊地知虹夏发现并邀请进入缺少吉他手的“结束乐队”。可是，完全没有和他人合作经历的一里，在人前完全发挥不出原本的实力。[NEWLINE]
+
+				为了努力克服沟通障碍，一里与“结束乐队”的成员们一同开始努力……
+			</Text>
+		</Row>
+
+
+		<!-- 波奇领袖对话 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>今天和大家出门，我玩得很开心，明天起我又有努力的动力了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>啊，现在还不行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>啊！（太紧张了忘记要说什么了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>啊，谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>啊，抱歉。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>糟糕糟糕糟糕糟糕糟糕~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>啊，牡蛎~，被人盯着就紧张的不得了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>啊，谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>那，那个，果然还是不行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>那个，可以的话请接受一下使节。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>唔，好像忘记。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>就算开玩笑也不能说这种话哦，要当个懂得将心比心的人（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>啊，后藤一里，秀华高中一年生。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>啊，附近有一座城市，我想你是不是能来看一下。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>啊，谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>啊，可以交换首都情报吗</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>竟然一直夸我，人好好喔。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>牡蛎~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>啊，有兴趣结个盟吗</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>啊，你的军队。。。。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>孤独摇滚，完。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>啊，谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>啊，打扰了。</Text>
+		</Row>
+
+
+		<!-- 喜多领袖对话 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>非常感谢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>抱歉，我没办法加入结束乐队</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>交个朋友吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>谢谢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>可能时机不对吧，我下次再来！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>竟然这样！？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>“来了，走了”的，很蠢吧啊哈哈哈</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>谢谢你的礼物！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>达咩！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>这是伴手礼哦！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>既然被谴责了的话也没办法了呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>看我每天诅咒一个人~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>后藤同学有想去的地方吗，每天一起创造回忆吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>附近有一座城市，强烈欢迎你来参观哦！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>谢谢合作</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>我们来交换首都情报吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>诶嘿，感动~，后藤同学吉他弹的好好哦</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>（敌视你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>让我们结盟吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>请把你的军队从我的边境上移开</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>吉他弹不好真的很抱歉，长得太可爱真的很抱歉。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>决定权在你手里。</Text>
+		</Row>
+		
+
+		<!-- 凉领袖对话 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>我就勉为其难的接受吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>抱歉，我的爱犬贝斯要动手术</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>我的朋友很少，算上你一个要感到荣幸</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>哼，不愧是我</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>我早就料到你会拒绝了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>一库哟~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>接下来我就身无分文，得吃杂草过活了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>（含泪收下）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>但是我拒绝！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>给你，伴手礼。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>（假哭）呜呜呜</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>噗，典。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>喜欢的人也许不多，但应该能深深吸引某些人吧</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>附近有一座城市，来共享下视野。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>快感谢我。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>来，共享首都视野。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>虹夏好温柔，喜欢~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>抱歉，我现在没钱，剩下你解决吧（敌视你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>为了利益结盟吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>把你的军队移开，不然我就要用贝斯砸了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>（抽泣）只能这样了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>下次记得再借我钱。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>这下又要没钱力。</Text>
+		</Row>
+
+
+
+		<!-- 虹夏领袖对话 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>好，同意！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>现在还为你保密哦</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>拜托了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>那我们现在就去Starry吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>这样啊，那算了吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>想，想要见姐姐。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>到现在还要报玩偶睡觉的人！嚣张什么嘛！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>谢谢你的礼物！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>不行哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>打扰了~~这是伴手礼。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>嘛，也是没办法的事情呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>哼，不理你了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>我是下北泽高中二年级的伊地知虹夏。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>附近有一座城市，想要合作的话正好共享一下位置吧</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>谢谢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>来共享首都的位置吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>但是，每次为我突破绝境的，都是波奇酱你啊。今天的你，在我眼中就是真正的英雄！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>（敌视你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>希望你能留下来一起炒热结束乐队呐！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>你的军队怎么放在我家门口，好可怕。。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>好，好想见姐姐</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>交易成立！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>尊重你的决定咯~</Text>
+		</Row>
+
+
+	</LocalizedText>
+	
+</GameData>
