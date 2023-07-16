@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1f2502f2-767a-4136-aa3b-595073a6e28d" version="1">
+  <Properties>
+    <Name>LOC_MONDSTADT_LEADERPACK1_NAME</Name>
+    <Description>LOC_MONDSTADT_LEADERPACK1_DESCIPTION</Description>
+    <Created>1689489634</Created>
+    <Teaser>LOC_MONDSTADT_LEADERPACK1_TEASER</Teaser>
+    <Authors>Zhang</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateColors id="GML1CC">
+      <File>UI/POFAH_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="GML1CI">
+      <File>UI/POFAH_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="GML1CT">
+      <File>Text/POFAH_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateArt id="GML1CA">
+      <File>Mondstadt LeaderPack 1.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="GML1CD">
+      <File>Data/POFAH_Config.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="GML1IC">
+      <File>UI/POFAH_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="GML1II">
+      <File>UI/POFAH_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="GML1IT">
+      <File>Text/POFAH_ConfigText.xml</File>
+      <File>Text/POFAH_InGameText.xml</File>
+    </UpdateText>
+    <UpdateArt id="GML1IA">
+      <File>Mondstadt LeaderPack 1.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="GML1ID">
+      <File>Data/POFAH_Leaders.xml</File>
+      <File>Data/POFAH_Units.xml</File>
+      <File>Data/POFAH_UnitAbilities.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+   <LocalizedText>
+    <Text id="LOC_MONDSTADT_LEADERPACK1_NAME">
+      <en_US>Mondstadt LeaderPack1:Poetry of Freedom and Hope</en_US>
+      <zh_Hans_CN>自由与希望之歌：道听的蒙德领袖包1</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_MONDSTADT_LEADERPACK1_TEASER">
+      <en_US>New Civilizations Mondstadt and New Leader Venti</en_US>
+      <zh_Hans_CN>蒙德的三个新领袖温迪（巴巴托斯），罗莎莉亚，芭芭拉。</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_MONDSTADT_LEADERPACK1_DESCIPTION">
+      <en_US>Contains one new civilizations and one leaders.</en_US>
+      <zh_Hans_CN>包含3个新领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <Files>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Data/POFAH_Config.xml</File>
+    <File>Data/POFAH_Leaders.xml</File>
+    <File>Data/POFAH_UnitAbilities.xml</File>
+    <File>Data/POFAH_Units.xml</File>
+    <File>Mondstadt LeaderPack 1.dep</File>
+    <File>Platforms/MacOS/BLPs/GML1_POFAH_DDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/GML1_POFAH_DDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text/POFAH_ConfigText.xml</File>
+    <File>Text/POFAH_InGameText.xml</File>
+    <File>UI/POFAH_Colors.xml</File>
+    <File>UI/POFAH_Icons.xml</File>
+  </Files>
+</Mod>

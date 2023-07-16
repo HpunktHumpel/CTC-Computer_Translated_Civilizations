@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1689529211</Created>
+    <Created>1689530162</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -498,6 +498,13 @@
     </Criteria>
     <Criteria id="3003469690_InGame">
       <ModInUse>97a70903-046b-4476-979b-30f67e7f06b6</ModInUse>
+    </Criteria>
+    <!-- 3005127742 - LOC_MONDSTADT_LEADERPACK1_NAME-->
+    <Criteria id="3005127742_FrontEnd">
+      <ModIsEnabled>1f2502f2-767a-4136-aa3b-595073a6e28d</ModIsEnabled>
+    </Criteria>
+    <Criteria id="3005127742_InGame">
+      <ModInUse>1f2502f2-767a-4136-aa3b-595073a6e28d</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1650,6 +1657,23 @@
       <File>3003469690/frontend_pl_PL.xml</File>
       <File>3003469690/frontend_ko_KR.xml</File>
       <File>3003469690/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3005127742 - LOC_MONDSTADT_LEADERPACK1_NAME-->
+    <UpdateText id="3005127742_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3005127742_FrontEnd</Criteria>
+      <File>3005127742/frontend_en_US.xml</File>
+      <File>3005127742/frontend_fr_FR.xml</File>
+      <File>3005127742/frontend_de_DE.xml</File>
+      <File>3005127742/frontend_it_IT.xml</File>
+      <File>3005127742/frontend_es_ES.xml</File>
+      <File>3005127742/frontend_ja_JP.xml</File>
+      <File>3005127742/frontend_ru_RU.xml</File>
+      <File>3005127742/frontend_pl_PL.xml</File>
+      <File>3005127742/frontend_ko_KR.xml</File>
+      <File>3005127742/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -2813,6 +2837,23 @@
       <File>3003469690/ingame_pl_PL.xml</File>
       <File>3003469690/ingame_ko_KR.xml</File>
       <File>3003469690/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3005127742 - LOC_MONDSTADT_LEADERPACK1_NAME-->
+    <UpdateText id="3005127742_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3005127742_InGame</Criteria>
+      <File>3005127742/ingame_en_US.xml</File>
+      <File>3005127742/ingame_fr_FR.xml</File>
+      <File>3005127742/ingame_de_DE.xml</File>
+      <File>3005127742/ingame_it_IT.xml</File>
+      <File>3005127742/ingame_es_ES.xml</File>
+      <File>3005127742/ingame_ja_JP.xml</File>
+      <File>3005127742/ingame_ru_RU.xml</File>
+      <File>3005127742/ingame_pl_PL.xml</File>
+      <File>3005127742/ingame_ko_KR.xml</File>
+      <File>3005127742/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
   </InGameActions>
   <Files>
@@ -4161,5 +4202,25 @@
     <File>3003469690/ingame_pl_PL.xml</File>
     <File>3003469690/ingame_ru_RU.xml</File>
     <File>3003469690/ingame_zh_Hant_HK.xml</File>
+    <File>3005127742/frontend_de_DE.xml</File>
+    <File>3005127742/frontend_en_US.xml</File>
+    <File>3005127742/frontend_es_ES.xml</File>
+    <File>3005127742/frontend_fr_FR.xml</File>
+    <File>3005127742/frontend_it_IT.xml</File>
+    <File>3005127742/frontend_ja_JP.xml</File>
+    <File>3005127742/frontend_ko_KR.xml</File>
+    <File>3005127742/frontend_pl_PL.xml</File>
+    <File>3005127742/frontend_ru_RU.xml</File>
+    <File>3005127742/frontend_zh_Hant_HK.xml</File>
+    <File>3005127742/ingame_de_DE.xml</File>
+    <File>3005127742/ingame_en_US.xml</File>
+    <File>3005127742/ingame_es_ES.xml</File>
+    <File>3005127742/ingame_fr_FR.xml</File>
+    <File>3005127742/ingame_it_IT.xml</File>
+    <File>3005127742/ingame_ja_JP.xml</File>
+    <File>3005127742/ingame_ko_KR.xml</File>
+    <File>3005127742/ingame_pl_PL.xml</File>
+    <File>3005127742/ingame_ru_RU.xml</File>
+    <File>3005127742/ingame_zh_Hant_HK.xml</File>
   </Files>
 </Mod>

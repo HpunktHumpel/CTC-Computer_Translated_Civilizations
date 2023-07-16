@@ -95,6 +95,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2994440668](https://steamcommunity.com/sharedfiles/filedetails/?id=2994440668) | Honkai: Star Rail | Honkai: Star Rail |
 | [2995862969](https://steamcommunity.com/sharedfiles/filedetails/?id=2995862969) | KAZIMIERZ(EX)：由瑕光领导的卡西米尔文明（加强版） | KAZIMIERZ (EX): Kazimierz civilization led by Xia Guang (enhanced version) |
 | [3003469690](https://steamcommunity.com/sharedfiles/filedetails/?id=3003469690) | Genshin Mod Mondstadt | Genshin Mod Mondstadt |
+| [3005127742](https://steamcommunity.com/sharedfiles/filedetails/?id=3005127742) | （Individual subscription）Mondstadt LeaderPack1:Poetry of Freedom and Hope | （Individual subscription）Mondstadt LeaderPack1:Poetry of Freedom and Hope |
 
 ## How does it work?
 I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports[*] a request for translation is send to google.translate.
