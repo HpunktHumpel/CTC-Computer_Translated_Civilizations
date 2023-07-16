@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 初対面の挨拶 -->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>ヒナ「風紀委員長のヒナ。私の名前は知ってると思うけど…。よろしく。」[NEWLINE]アコ「ゲヘナ学園風紀委員会所属の行政官、天雨アコ。今後は業務提携とのことで、どうぞよろしくお願いいたしますね。」</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方を自国都市に招待しています（受け入れた場合、近場にある相手国都市の位置が判明します）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会を自国都市に招待しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は地図交換を提案しています。</Text>
+		</Replace>
+		<!-- 外交交渉時の挨拶 -->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>アコ「終わるまで、帰れるとは思わないでくださいね？」</Text>
+		</Replace>
+		<!-- 友好宣言 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>アコ「あの、ちょっと距離が近くないですか？…い、いえ、意識しているとかではなく……。」（風紀委員会との友好宣言が成立しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>アコ「これがどういう感情なのか、もう少し検討する時間をください。……本当に少しで良いので。」（友好宣言は拒否されました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>チナツ「試練が怖いとき、苦難に負けそうなとき、私が一緒に立ち向かってあげましょう。」（風紀委員会は貴方との友好宣言を求めています）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>チナツ「助けが必要なら、私にお任せください！」（風紀委員会との友好宣言が成立しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>チナツ「ここからは、あなたの意志にかかっています。」（風紀委員会との友好宣言を拒否しました）</Text>
+		</Replace>
+		<!-- 非難声明 -->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「ゲヘナ風紀委員会のスナイパーを、舐めるな！」（風紀委員会に対し非難声明を出しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「覚悟しろ、規則違反者どもめ！」（風紀委員会から非難声明が出されました）</Text>
+		</Replace>
+		<!-- 宣戦布告 -->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「問題を起こす奴らって、なんでこんなに多いんだ。」（風紀委員会に宣戦布告しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「覚悟しろ、規則違反者どもめ！」（風紀委員会から宣戦布告されました）</Text>
+		</Replace>
+		<!-- 和平交渉 -->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「なに、その表情は。変なこと考えてないよな？」（風紀委員会が和平交渉を提案しています）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「はあ、どうしてこうなったんだ。まあ…別に悪くはないけど。」（風紀委員会と和平を結びました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「逃げても無駄だ！」（風紀委員会との和平を拒否しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「はあ、どうしてこうなったんだ。まあ…別に悪くはないけど。」（風紀委員会と和平を結びました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>イオリ「負けたくない……！」（和平交渉は拒否されました）</Text>
+		</Replace>
+		<!-- 敗北 -->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>ヒナ「私らしくないミスを…。ごめん、先生。」（風紀委員会は敗北しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>ヒナ「油断した、の…？」（風紀委員会は敗北しました）</Text>
+		</Replace>
+		<!-- 使節 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>使節が受け入れられました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>使節の受け入れは拒否されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会が使節の受け入れを求めています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>使節を受け入れました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>使節の受け入れを拒否しました。</Text>
+		</Replace>
+		<!-- 大使館 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>大使館設置が許可されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>大使館設置は拒否されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は大使館設置を求めています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>大使館設置を許可しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>大使館設置を拒否しました。</Text>
+		</Replace>
+		<!-- 同盟 -->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>同盟交渉を開始</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>ヒナ「一緒にいてくれて、ありがとう…先生。」（風紀委員会との同盟が成立しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>ヒナ「こんな時はどうすればいいのかよくわからなくて…ごめん。」（同盟は拒否されました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>ヒナ「一緒にいてくれて、ありがとう…先生。」（風紀委員会との同盟が成立しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>ヒナ「こんな時はどうすればいいのかよくわからなくて…ごめん。」（同盟は拒否されました）</Text>
+		</Replace>
+		<!-- 国境開放 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>国境開放が許可されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>国境開放は拒否されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会が国境開放を求めています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>国境開放を許可しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>国境開放を拒否しました。</Text>
+		</Replace>
+		<!-- 取引 -->
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>この条件で取引可能です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>この条件では取引不可能です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>取引が成立しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>取引は拒否されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は取引条件に満足しています。</Text>
+		</Replace>
+		<!-- 要求 -->
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は要求を拒否しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は要求を受け入れました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会からの要求を受け入れました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会からの要求を拒否しました。</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛 -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会のアジェンダに適った。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「文化重視」に適った（文化力が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「幸福重視」に適った（快適性が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「ゴールド好き」に適った（ゴールド収入が多い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「重工業主義者」に適った（生産力が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「同盟都市国家」に適った（都市国家宗主権で対立していない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「人数主義」に適った（人口が多い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「テクノロジー信奉者」に適った（科学力が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「常備軍」に適った（軍事力が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「適者生存説信奉者」に適った（戦争に積極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「偉人の代弁者」に適った（偉人が少ない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「遺産を愛するもの」に適った（遺産が少ない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「都市国家の保護者」に適った（都市国家保護に積極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「都市国家の保護者」に適った（都市国家保護に積極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「空軍力」に適った（空軍力が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「都市国家の保護者」に適った（都市国家保護に積極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「文明国」に適った（蛮族野営地を撃退した）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「環境保護主義者」に適った（自然保護と国立公園建設に熱心）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「開発主義者」に適った（伐採と地形改善に熱心）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「イデオロギー体質」に適った（政府が同じ）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「ニュークハッピー」に適った（核兵器使用に積極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「敬虔」に適った（信仰力が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「探検家」に適った（地図完成度が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「パラノイア」に適った（軍事力と領土拡張意欲に乏しい）</Text>
+		</Replace>
+		<!-- アジェンダ不適合による警告 -->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会のアジェンダに反した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「文化重視」に反した（文化力が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「幸福重視」に反した（快適性が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「ゴールド好き」に反した（ゴールド収入が少ない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「同盟都市国家」に反した（都市国家宗主権で対立している）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「重工業主義者」に反した（生産力が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「人数主義」に反した（人口が少ない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「テクノロジー信奉者」に反した（科学力が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「常備軍」に反した（軍事力が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「パラノイア」に反した（軍事力と領土拡張意欲が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「偉人の代弁者」に反した（偉人が多い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「遺産を愛するもの」に反した（遺産が多い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「都市国家の保護者」に反した（都市国家を保護しない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「都市国家の保護者」に反した（都市国家を保護しない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「空軍力」に反した（空軍力が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「都市国家の保護者」に反した（都市国家を保護しない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「文明国」に反した（蛮族野営地を放置している）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「環境保護主義者」に反した（自然を破壊している）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「開発主義者」に反した（自然保護に熱心）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「イデオロギー体質」に反した（政府が違う）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「ニュークハッピー」に反した（核攻撃に消極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「敬虔」に反した（信仰力が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「探検家」に反した（地図完成度が高い）</Text>
+		</Replace>
+		<!-- プレイヤーからAIへの警告：国境地帯への入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し、国境付近への入植をやめることを約束した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は警告を無視し、国境付近への入植活動を続けるつもりだ。</Text>
+		</Replace>
+		<!-- プレイヤーからAIへの警告：国境地帯への軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し、軍事行動を起こさないことを約束した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は警告を無視し、軍事行動の機会を伺っている。</Text>
+		</Replace>
+		<!-- プレイヤーからAIへの警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し、スパイを派遣しないことを約束した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は警告を無視し、今後もスパイ活動を続けるつもりだ。</Text>
+		</Replace>
+		<!-- プレイヤーからAIへの警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し、秘宝を盗掘しないことを約束した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は警告を無視し、今後も秘宝盗掘を続けるつもりだ。</Text>
+		</Replace>
+		<!-- プレイヤーからAIへの警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し、布教活動をやめることを約束した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は警告を無視し、今後も布教活動を続けるつもりだ。</Text>
+		</Replace>
+		<!-- AIからプレイヤーへの警告：国境地帯への入植 -->
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し次の約束を求めています：国境付近に入植しない</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会との約束を結びました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>約束を拒否しました。</Text>
+		</Replace>
+		<!-- AIからプレイヤーへの警告：国境地帯への軍隊展開 -->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し次の約束を求めています：国境付近の軍隊で攻撃しない</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会との約束を結びました。</Text>
+		</Replace>
+		<!-- AIからプレイヤーへの警告：スパイ活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し次の約束を求めています：スパイを派遣しない</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会との約束を結びました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>約束を拒否しました。</Text>
+		</Replace>
+		<!-- AIからプレイヤーへの警告：秘宝盗掘 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し次の約束を求めています：秘宝を盗掘しない</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会との約束を結びました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>約束を拒否しました。</Text>
+		</Replace>
+		<!-- AIからプレイヤーへの警告：布教活動 -->
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は貴方に対し次の約束を求めています：布教活動の中止</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会との約束を結びました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>約束を拒否しました。</Text>
+		</Replace>
+		<!-- 同盟継続交渉（RF/GS） -->
+		<Replace Tag="LOC_DIPLO_RENEW_ALLIANCE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会は同盟関係の継続を求めています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会との同盟継続に承諾しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_AI_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>風紀委員会との同盟継続を拒否しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>同盟継続が承諾されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_RENEW_ALLIANCE_FROM_HUMAN_LEADER_BLAC_GEHENNA_ANY" Language="ja_JP">
+			<Text>同盟継続は拒否されました。</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛(RF)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_GOSSIP_POSITIVE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「ゴシップ」に適った（友好宣言、国境開放、使節派遣、大使館設置に積極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_GOSSIP_NEGATIVE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「ゴシップ」に反した（友好宣言、国境開放、使節派遣、大使館設置に消極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「追従」に適った（黄金時代を迎えた）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「追従」に反した（暗黒時代に陥った）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「人情家」に適った（暗黒時代に陥った）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「人情家」に反した（黄金時代を迎えた）</Text>
+		</Replace>
+		<!-- アジェンダ適合による称賛・批判(GS)  -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_EXPANSIONIST" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「領土拡張主義者」に適った（領土が大きい）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_EXPANSIONIST" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「領土拡張主義者」に反した（領土が小さい）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_FLAT_EARTHER" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「地球平面論者」に適った（宇宙開発競争に消極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_FLAT_EARTHER" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「地球平面論者」に反した（宇宙開発競争に積極的）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_GREAT_WHITE_FLEET" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「グレート・ホワイト・フリート」に適った（海軍が強力）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_GREAT_WHITE_FLEET" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「グレート・ホワイト・フリート」に反した（海軍が貧弱）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_FAVOR" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「デマゴーグ」に適った（外交的支持が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_FAVOR" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「デマゴーグ」に反した（外交的支持が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_TOURISM" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「観光立国」に適った（観光力が低い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_TOURISM" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「観光立国」に反した（観光力が高い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「宗教的不寛容」に適った（宗教が同じ）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「宗教的不寛容」に反した（宗教が違う）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_DIPLOVP" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「リバタリアン」に適った（外交勝利ポイントが少ない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_DIPLOVP" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「リバタリアン」に反した（外交勝利ポイントが多い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_HIGH_PILLAGE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「略奪者」に適った（略奪したタイルが多い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_LOW_PILLAGE" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「略奪者」に反した（略奪したタイルが少ない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_TURTLER" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「穴熊囲い」に適った（他文明の首都を征服していない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_TURTLER" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「穴熊囲い」に反した（他文明の首都を征服している）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_ZEALOT" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「熱心党」に適った（風紀委員会が創始した宗教を信仰している）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_ZEALOT" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「熱心党」に反した（風紀委員会が創始した宗教を信仰していない）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BLAC_GEHENNA_REASON_AGENDA_MONEY_GRUBBER" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「守銭奴」に適った（ゴールド収入が多い）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BLAC_GEHENNA_REASON_AGENDA_MONEY_GRUBBER" Language="ja_JP">
+			<Text>風紀委員会のアジェンダ「守銭奴」に反した（ゴールド収入が少ない）</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

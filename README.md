@@ -96,6 +96,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2995862969](https://steamcommunity.com/sharedfiles/filedetails/?id=2995862969) | KAZIMIERZ(EX)：由瑕光领导的卡西米尔文明（加强版） | KAZIMIERZ (EX): Kazimierz civilization led by Xia Guang (enhanced version) |
 | [3003469690](https://steamcommunity.com/sharedfiles/filedetails/?id=3003469690) | Genshin Mod Mondstadt | Genshin Mod Mondstadt |
 | [3003622862](https://steamcommunity.com/sharedfiles/filedetails/?id=3003622862) | ブルーアーカイブ アビドス高校 (Blue Archive - Abydos) | Blue Archive - Abydos |
+| [3005123426](https://steamcommunity.com/sharedfiles/filedetails/?id=3005123426) | ブルーアーカイブ ゲヘナ学園 (Blue Archive - Gehenna) | Blue Archive Gehenna Academy (Blue Archive - Gehenna) |
 | [3005127742](https://steamcommunity.com/sharedfiles/filedetails/?id=3005127742) | （Individual subscription）Mondstadt LeaderPack1:Poetry of Freedom and Hope | （Individual subscription）Mondstadt LeaderPack1:Poetry of Freedom and Hope |
 | [3005149123](https://steamcommunity.com/sharedfiles/filedetails/?id=3005149123) | （Individual subscription）Civilization : Mondstadt | （Individual subscription）Civilization : Mondstadt |
 
