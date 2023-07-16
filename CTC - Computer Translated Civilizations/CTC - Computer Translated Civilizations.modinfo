@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1689530162</Created>
+    <Created>1689531115</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -505,6 +505,13 @@
     </Criteria>
     <Criteria id="3005127742_InGame">
       <ModInUse>1f2502f2-767a-4136-aa3b-595073a6e28d</ModInUse>
+    </Criteria>
+    <!-- 3005149123 - LOC_GENSHIN_CIVILIZATION_MONDSTADT_NAME-->
+    <Criteria id="3005149123_FrontEnd">
+      <ModIsEnabled>97184426-2423-45e0-b6ac-5054aad2f053</ModIsEnabled>
+    </Criteria>
+    <Criteria id="3005149123_InGame">
+      <ModInUse>97184426-2423-45e0-b6ac-5054aad2f053</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -1674,6 +1681,23 @@
       <File>3005127742/frontend_pl_PL.xml</File>
       <File>3005127742/frontend_ko_KR.xml</File>
       <File>3005127742/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3005149123 - LOC_GENSHIN_CIVILIZATION_MONDSTADT_NAME-->
+    <UpdateText id="3005149123_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3005149123_FrontEnd</Criteria>
+      <File>3005149123/frontend_en_US.xml</File>
+      <File>3005149123/frontend_fr_FR.xml</File>
+      <File>3005149123/frontend_de_DE.xml</File>
+      <File>3005149123/frontend_it_IT.xml</File>
+      <File>3005149123/frontend_es_ES.xml</File>
+      <File>3005149123/frontend_ja_JP.xml</File>
+      <File>3005149123/frontend_ru_RU.xml</File>
+      <File>3005149123/frontend_pl_PL.xml</File>
+      <File>3005149123/frontend_ko_KR.xml</File>
+      <File>3005149123/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -2854,6 +2878,23 @@
       <File>3005127742/ingame_pl_PL.xml</File>
       <File>3005127742/ingame_ko_KR.xml</File>
       <File>3005127742/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3005149123 - LOC_GENSHIN_CIVILIZATION_MONDSTADT_NAME-->
+    <UpdateText id="3005149123_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3005149123_InGame</Criteria>
+      <File>3005149123/ingame_en_US.xml</File>
+      <File>3005149123/ingame_fr_FR.xml</File>
+      <File>3005149123/ingame_de_DE.xml</File>
+      <File>3005149123/ingame_it_IT.xml</File>
+      <File>3005149123/ingame_es_ES.xml</File>
+      <File>3005149123/ingame_ja_JP.xml</File>
+      <File>3005149123/ingame_ru_RU.xml</File>
+      <File>3005149123/ingame_pl_PL.xml</File>
+      <File>3005149123/ingame_ko_KR.xml</File>
+      <File>3005149123/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
   </InGameActions>
   <Files>
@@ -4222,5 +4263,25 @@
     <File>3005127742/ingame_pl_PL.xml</File>
     <File>3005127742/ingame_ru_RU.xml</File>
     <File>3005127742/ingame_zh_Hant_HK.xml</File>
+    <File>3005149123/frontend_de_DE.xml</File>
+    <File>3005149123/frontend_en_US.xml</File>
+    <File>3005149123/frontend_es_ES.xml</File>
+    <File>3005149123/frontend_fr_FR.xml</File>
+    <File>3005149123/frontend_it_IT.xml</File>
+    <File>3005149123/frontend_ja_JP.xml</File>
+    <File>3005149123/frontend_ko_KR.xml</File>
+    <File>3005149123/frontend_pl_PL.xml</File>
+    <File>3005149123/frontend_ru_RU.xml</File>
+    <File>3005149123/frontend_zh_Hant_HK.xml</File>
+    <File>3005149123/ingame_de_DE.xml</File>
+    <File>3005149123/ingame_en_US.xml</File>
+    <File>3005149123/ingame_es_ES.xml</File>
+    <File>3005149123/ingame_fr_FR.xml</File>
+    <File>3005149123/ingame_it_IT.xml</File>
+    <File>3005149123/ingame_ja_JP.xml</File>
+    <File>3005149123/ingame_ko_KR.xml</File>
+    <File>3005149123/ingame_pl_PL.xml</File>
+    <File>3005149123/ingame_ru_RU.xml</File>
+    <File>3005149123/ingame_zh_Hant_HK.xml</File>
   </Files>
 </Mod>

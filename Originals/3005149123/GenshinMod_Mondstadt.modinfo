@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="97184426-2423-45e0-b6ac-5054aad2f053" version="1.5">
+   <Properties>
+    <Name>LOC_GENSHIN_CIVILIZATION_MONDSTADT_NAME</Name>
+    <Description>LOC_GENSHIN_CIVILIZATION_MONDSTADT_DESCIPTION</Description>
+    <Created>1688998244</Created>
+    <Teaser>LOC_GENSHIN_CIVILIZATION_MONDSTADT_TEASER</Teaser>
+    <Authors>zdaoting</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateColors id="GMCC">
+      <File>UI/Mondstadt_Colors.xml</File>
+    </UpdateColors>
+    <UpdateText id="GMCT">
+      <File>Text/Mondstadt_Texts_Config_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="GMCI">
+      <File>UI/Mondstadt_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="GMCA">
+      <File>Genshin Ciliviazation Mondstadt.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="GMCD">
+      <File>Data/Mondstadt_Configs.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="GMIC">
+      <File>UI/Mondstadt_Colors.xml</File>
+    </UpdateColors>
+    <UpdateArt id="GMIA">
+      <File>Genshin Ciliviazation Mondstadt.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="GMID">
+      <File>Data/Mondstadt_Buildings.xml</File>
+      <File>Data/Mondstadt_Cilivizations.xml</File>
+      <File>Data/Mondstadt_UnitAbilities.xml</File>
+      <File>Data/Mondstadt_UnitPromotions.xml</File>
+      <File>Data/Mondstadt_Units.xml</File>
+      <File>Data/Mondstadt_Leader_Venti.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="GMII">
+      <File>UI/Mondstadt_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="GMIT">
+      <File>Text/Mondstadt_Texts_InGame_zh_Hans_CN.xml</File>
+      <File>Text/Mondstadt_Texts_Config_zh_Hans_CN.xml</File>
+    </UpdateText>
+  </InGameActions>
+   <LocalizedText>
+    <Text id="LOC_GENSHIN_CIVILIZATION_MONDSTADT_NAME">
+      <en_US>Genshin Civiliazation:Mondstadt</en_US>
+      <zh_Hans_CN>风与自由：道听的蒙德文明</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_GENSHIN_CIVILIZATION_MONDSTADT_TEASER">
+      <en_US>New Civilizations Mondstadt and New Leader Venti</en_US>
+      <zh_Hans_CN>新文明蒙德与和新领袖温迪。</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_GENSHIN_CIVILIZATION_MONDSTADT_DESCIPTION">
+      <en_US>Contains one new civilizations and one leaders.</en_US>
+      <zh_Hans_CN>包含1个新文明和领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/Mondstadt_Buildings.xml</File>
+    <File>Data/Mondstadt_Cilivizations.xml</File>
+    <File>Data/Mondstadt_Configs.xml</File>
+    <File>Data/Mondstadt_Leader_Venti.xml</File>
+    <File>Data/Mondstadt_UnitAbilities.xml</File>
+    <File>Data/Mondstadt_UnitPromotions.xml</File>
+    <File>Data/Mondstadt_Units.xml</File>
+    <File>Genshin Ciliviazation Mondstadt.dep</File>
+    <File>Platforms/MacOS/BLPs/GenshinModMondstadtDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/GenshinModMondstadtDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text/Mondstadt_Texts_Config_zh_Hans_CN.xml</File>
+    <File>Text/Mondstadt_Texts_InGame_zh_Hans_CN.xml</File>
+    <File>UI/Mondstadt_Colors.xml</File>
+    <File>UI/Mondstadt_Icons.xml</File>
+  </Files>
+</Mod>
