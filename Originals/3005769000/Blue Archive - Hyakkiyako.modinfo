@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b876f9ed-0fd5-4853-ae9a-8a39529da7b5" version="1">
+  <Properties>
+    <Name>Blue Archive - Hyakkiyako</Name>
+    <Description>新たな文明・指導者として、「百鬼夜行連合学院」を追加する。</Description>
+    <Created>1690077149</Created>
+    <Teaser>新たな文明と指導者 - 百鬼夜行連合学院</Teaser>
+    <Authors>HktkNban (北荻南蛮)</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="88aab118-9705-49ca-a868-57ae79b11c0f" title="Blue Archive Art Assets" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="ConfigText">
+      <File>Text/Text_ja_JP.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="ConfigData">
+      <File>Config/Players.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="ConfigIcons">
+      <File>UI/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Blue Archive - Hyakkiyako.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="Text">
+      <File>Text/Text_ja_JP.xml</File>
+      <File>Text/DiplomacyText_ja_JP.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="GameData">
+      <File>Data/Civilizations.xml</File>
+      <File>Data/Leaders.xml</File>
+      <File>Data/Agendas.xml</File>
+      <File>Data/AI.xml</File>
+      <File>Data/Buildings.xml</File>
+      <File>Data/Districts.xml</File>
+      <File>Data/Governors.xml</File>
+      <File>Data/Improvements.xml</File>
+      <File>Data/Projects.xml</File>
+      <File>Data/Religions.xml</File>
+      <File>Data/Resources.xml</File>
+      <File>Data/Units.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>UI/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Blue Archive - Hyakkiyako.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Blue Archive - Hyakkiyako.dep</File>
+    <File>Config/Players.xml</File>
+    <File>Data/Agendas.xml</File>
+    <File>Data/AI.xml</File>
+    <File>Data/Buildings.xml</File>
+    <File>Data/Civilizations.xml</File>
+    <File>Data/Districts.xml</File>
+    <File>Data/Governors.xml</File>
+    <File>Data/Improvements.xml</File>
+    <File>Data/Leaders.xml</File>
+    <File>Data/Projects.xml</File>
+    <File>Data/Religions.xml</File>
+    <File>Data/Resources.xml</File>
+    <File>Data/Units.xml</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Text/DiplomacyText_ja_JP.xml</File>
+    <File>Text/Text_ja_JP.xml</File>
+    <File>UI/Icons.xml</File>
+  </Files>
+</Mod>
