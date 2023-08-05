@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e9afe8f6-4031-4ab9-b9bc-8df6b3250238" version="1">
+  <Properties>
+    <Name>知论派·机逐封秘·珐露珊</Name>
+    <Description>来自“一百年前”的教令院杰出学者，古典机关术学科奠基人之一。虽然身在知论派，却以机关造诣闻名须弥…尽管这些荣誉，都已先于她本人被岁月遗忘。</Description>
+    <Created>1684509065</Created>
+    <Teaser>嘿嘿 珐露珊 嘿嘿</Teaser>
+    <Authors>ZZZ太卜司摸鱼侠</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="SUMERU_FARUZAN_DATA">
+      <File>SUMERU_FARUZAN_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="SUMERU_FARUZAN_COLOR">
+      <File>SUMERU_FARUZAN_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="SUMERU_FARUZAN_TEXT">
+      <File>SUMERU_FARUZAN_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="SUMERU_FARUZAN_ICON">
+      <File>SUMERU_FARUZAN_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="SUMERU_FARUZAN_ART">
+      <File>知论派·机逐封秘·珐露珊.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="SUMERU_FARUZAN_DATA">
+      <File>SUMERU_FARUZAN.xml</File>
+      <File>SUMERU_FARUZAN_UNIT.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="SUMERU_FARUZAN_COLOR">
+      <File>SUMERU_FARUZAN_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="SUMERU_FARUZAN_TEXT">
+      <File>SUMERU_FARUZAN_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="SUMERU_FARUZAN_ICON">
+      <File>SUMERU_FARUZAN_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="SUMERU_FARUZAN_ART">
+      <File>知论派·机逐封秘·珐露珊.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="SUMERU_FARUZAN_LUA">
+      <File>SUMERU_FARUZAN.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_FARUZAN.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_FARUZAN.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>SUMERU_FARUZAN.lua</File>
+    <File>SUMERU_FARUZAN.xml</File>
+    <File>SUMERU_FARUZAN_COLOR.xml</File>
+    <File>SUMERU_FARUZAN_CONFIG.xml</File>
+    <File>SUMERU_FARUZAN_ICON.xml</File>
+    <File>SUMERU_FARUZAN_TEXT.xml</File>
+    <File>SUMERU_FARUZAN_UNIT.xml</File>
+    <File>知论派·机逐封秘·珐露珊.dep</File>
+  </Files>
+</Mod>
