@@ -102,6 +102,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3005127742](https://steamcommunity.com/sharedfiles/filedetails/?id=3005127742) | （Individual subscription）Mondstadt LeaderPack1:Poetry of Freedom and Hope | （Individual subscription）Mondstadt LeaderPack1:Poetry of Freedom and Hope |
 | [3005149123](https://steamcommunity.com/sharedfiles/filedetails/?id=3005149123) | （Individual subscription）Civilization : Mondstadt | （Individual subscription）Civilization : Mondstadt |
 | [3005769000](https://steamcommunity.com/sharedfiles/filedetails/?id=3005769000) | ブルーアーカイブ 百鬼夜行連合学院 (Blue Archive - Hyakkiyako) | Blue Archive - Hyakkiyako |
+| [3008449728](https://steamcommunity.com/sharedfiles/filedetails/?id=3008449728) | ブルーアーカイブ トリニティ総合学園 (Blue Archive - Trinity) | Blue Archive Trinity General Academy (Blue Archive - Trinity) |
 
 ## How does it work?
 I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports[*] a request for translation is send to google.translate.
