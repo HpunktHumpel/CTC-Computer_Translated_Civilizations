@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f8a627c6-90a9-4ad2-bfa5-87e58f633893" version="1">
+  <Properties>
+    <Name>明论派·绮思晚星·莱依拉</Name>
+    <Description>梨多梵谛学院是须弥教令院下辖的六大学院之一，占据这所学院的是六大学派中的明论一派。六大学派的研究对象各有不同，明论派的研究中心是从古至今笼罩众生的星空。
+莱依拉正是明论派众多研究者中的一名在读学生。她进入教令院学习的时间并不长，却已经被取了许许多多的奇怪称呼。“梦游怪人”、“人形自走计算器”、“天降论文”……这些都是认识莱依拉的人给她起的外号。并且随着日子一天天过去，她的绰号还有不断增多的趋势。</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1684330372</Created>
+    <Teaser>嘿嘿 莱依拉 嘿嘿</Teaser>
+    <Authors>ZZZ太卜司摸鱼侠</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="SUMERU_LAYLA_CONFIG">
+      <File>SUMERU_LAYLA_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="SUMERU_LAYLA_COLOR">
+      <File>SUMERU_LAYLA_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="SUMERU_LAYLA_TEXT">
+      <File>SUMERU_LAYLA_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="SUMERU_LAYLA_ICON">
+      <File>SUMERU_LAYLA_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="SUMERU_LAYLA_ART">
+      <File>明论派·绮思晚星·莱依拉.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="SUMERU_LAYLA_DATA">
+      <File>SUMERU_LAYLA.xml</File>
+    </UpdateDatabase>
+    <AddUserInterfaces id="SUMERU_LAYLA_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>SUMERU_LAYLA_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateIcons id="SUMERU_LAYLA_ICON">
+      <File>SUMERU_LAYLA_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="SUMERU_LAYLA_COLOR">
+      <File>SUMERU_LAYLA_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="SUMERU_LAYLA_TEXT">
+      <File>SUMERU_LAYLA_TEXT.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="SUMERU_LAYLA_LUA">
+      <File>SUMERU_LAYLA.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="SUMERU_LAYLA_ART">
+      <File>明论派·绮思晚星·莱依拉.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_LAYLA.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_LAYLA.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>SUMERU_LAYLA.lua</File>
+    <File>SUMERU_LAYLA.xml</File>
+    <File>SUMERU_LAYLA_COLOR.xml</File>
+    <File>SUMERU_LAYLA_CONFIG.xml</File>
+    <File>SUMERU_LAYLA_ICON.xml</File>
+    <File>SUMERU_LAYLA_TEXT.xml</File>
+    <File>SUMERU_LAYLA_UI.lua</File>
+    <File>SUMERU_LAYLA_UI.xml</File>
+    <File>明论派·绮思晚星·莱依拉.dep</File>
+  </Files>
+</Mod>
