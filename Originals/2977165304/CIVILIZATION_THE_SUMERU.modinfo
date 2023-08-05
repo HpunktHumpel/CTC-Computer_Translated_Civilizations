@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="426d4c30-9af2-4f42-92bb-bca8e95b7327" version="1">
+  <Properties>
+    <Name>智慧之都·学者之城·须弥</Name>
+    <Description>位于提瓦特大陆中西部的学城之都。
+同时拥有葱郁雨林与荒芜沙土的奇异国度，无数智慧的果实在这里生长、埋葬。无论是穿越丛林踏上学城的台阶，还是深入沙漠挖掘赤土的遗迹，远道而来的旅者都可以在此获取宝贵的智识。</Description>
+    <Created>1685238603</Created>
+    <Teaser>嘿嘿 纳西妲 嘿嘿</Teaser>
+    <Authors>ZZZ太卜司摸鱼侠</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateIcons id="SUMERU_SHARED_ICON">
+      <File>SUMERU_SHARED/SUMERU_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="SUMERU_SHARED_TEXT">
+      <File>SUMERU_SHARED/SUMERU_TEXT.xml</File>
+    </UpdateText>
+    <UpdateArt id="SUMERU_SHARED_ART">
+      <File>智慧之都·学者之城·须弥.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="SUMERU_SHARED_DATA">
+      <File>SUMERU_SHARED/SUMERU_ATTACH.xml</File>
+      <File>SUMERU_SHARED/SUMERU_BUILDING.xml</File>
+      <File>SUMERU_SHARED/SUMERU_CIVILIZATION.xml</File>
+      <File>SUMERU_SHARED/SUMERU_DISTRICT.xml</File>
+      <File>SUMERU_SHARED/SUMERU_PROJECT.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="SUMERU_SHARED_ICON">
+      <File>SUMERU_SHARED/SUMERU_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="SUMERU_SHARED_TEXT">
+      <File>SUMERU_SHARED/SUMERU_TEXT.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="SUMERU_SHARED_LUA">
+      <File>SUMERU_SHARED/SUMERU_CIVILIZATION.lua</File>
+      <File>SUMERU_SHARED/SUMERU_GAMEPLAY.lua</File>
+      <File>SUMERU_SHARED/SUMERU_KNOWLEDGE.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="SUMERU_SHARED_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>SUMERU_SHARED/SUMERU_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateArt id="SUMERU_SHARED_ART">
+      <File>智慧之都·学者之城·须弥.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_AKADEMIYA_S_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_AMURATA_S_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_HARAVATAT_S_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KSHAHREWAR_S_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RTAWAHIST_S_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_SPANTAMAD_S_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_VAHUMANA_S_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SUMERU_ICON.blp</File>
+    <File>Platforms/MacOS/BLPs/SUMERU_MODEL.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_AKADEMIYA_S_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_AMURATA_S_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_HARAVATAT_S_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_KSHAHREWAR_S_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RTAWAHIST_S_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_SPANTAMAD_S_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_VAHUMANA_S_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SUMERU_ICON.blp</File>
+    <File>Platforms/Windows/BLPs/SUMERU_MODEL.blp</File>
+    <File>SUMERU_SHARED/SUMERU_ATTACH.xml</File>
+    <File>SUMERU_SHARED/SUMERU_BUILDING.xml</File>
+    <File>SUMERU_SHARED/SUMERU_CIVILIZATION.lua</File>
+    <File>SUMERU_SHARED/SUMERU_CIVILIZATION.xml</File>
+    <File>SUMERU_SHARED/SUMERU_DISTRICT.xml</File>
+    <File>SUMERU_SHARED/SUMERU_GAMEPLAY.lua</File>
+    <File>SUMERU_SHARED/SUMERU_ICON.xml</File>
+    <File>SUMERU_SHARED/SUMERU_KNOWLEDGE.lua</File>
+    <File>SUMERU_SHARED/SUMERU_PROJECT.xml</File>
+    <File>SUMERU_SHARED/SUMERU_TEXT.xml</File>
+    <File>SUMERU_SHARED/SUMERU_UI.lua</File>
+    <File>SUMERU_SHARED/SUMERU_UI.xml</File>
+    <File>智慧之都·学者之城·须弥.dep</File>
+  </Files>
+</Mod>
