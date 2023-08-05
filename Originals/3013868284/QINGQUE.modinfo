@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8c8ce237-b0ad-49fe-b610-5741641d8244" version="1">
+  <Properties>
+    <Name>太卜司·掌门人·青雀</Name>
+    <Description>想青雀了</Description>
+    <Created>1691221173</Created>
+    <Teaser>唉</Teaser>
+    <Authors>ZZZ太卜司摸鱼侠</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="QINGQUE_FRONT_DATA">
+      <File>QINGQUE_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="QINGQUE_FRONT_COLOR">
+      <File>QINGQUE_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="QINGQUE_FRONT_TEXT">
+      <File>QINGQUE_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="QINGQUE_FRONT_ICON">
+      <File>QINGQUE_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="QINGQUE_FRONT_ART">
+      <File>太卜司·掌门人·青雀.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="QINGQUE_IN_DATA">
+      <File>QINGQUE.xml</File>
+      <File>QINGQUE_TRAIT.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="QINGQUE_IN_COLOR">
+      <File>QINGQUE_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="QINGQUE_IN_TEXT">
+      <File>QINGQUE_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="QINGQUE_IN_ICON">
+      <File>QINGQUE_ICON.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="QINGQUE_IN_LUA">
+      <File>QINGQUE.lua</File>
+      <File>QINGQUE_TRAIT_GAMEPLAY.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="QINGQUE_IN_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>QINGQUE_TRAIT_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateArt id="QINGQUE_IN_ART">
+      <File>太卜司·掌门人·青雀.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="QINGQUE_IN_MUSIC">
+      <File>Platforms/Windows/Audio/DIVINATION_COMMISSION.bnk</File>
+      <File>Platforms/Windows/Audio/DIVINATION_COMMISSION.ini</File>
+      <File>Platforms/Windows/Audio/DIVINATION_COMMISSION.txt</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_QINGQUE.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MODE_FOR_QINGQUE.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_QINGQUE_MODE_ICON_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/Audio/1027737710.wem</File>
+    <File>Platforms/Windows/Audio/1055090505.wem</File>
+    <File>Platforms/Windows/Audio/1063803123.wem</File>
+    <File>Platforms/Windows/Audio/209677842.wem</File>
+    <File>Platforms/Windows/Audio/222541737.wem</File>
+    <File>Platforms/Windows/Audio/230601218.wem</File>
+    <File>Platforms/Windows/Audio/246094603.wem</File>
+    <File>Platforms/Windows/Audio/259260615.wem</File>
+    <File>Platforms/Windows/Audio/293621464.wem</File>
+    <File>Platforms/Windows/Audio/333716258.wem</File>
+    <File>Platforms/Windows/Audio/417090113.wem</File>
+    <File>Platforms/Windows/Audio/423722734.wem</File>
+    <File>Platforms/Windows/Audio/46093360.wem</File>
+    <File>Platforms/Windows/Audio/572206124.wem</File>
+    <File>Platforms/Windows/Audio/600502678.wem</File>
+    <File>Platforms/Windows/Audio/756009263.wem</File>
+    <File>Platforms/Windows/Audio/795638285.wem</File>
+    <File>Platforms/Windows/Audio/851358914.wem</File>
+    <File>Platforms/Windows/Audio/871560133.wem</File>
+    <File>Platforms/Windows/Audio/910997929.wem</File>
+    <File>Platforms/Windows/Audio/945022882.wem</File>
+    <File>Platforms/Windows/Audio/99417933.wem</File>
+    <File>Platforms/Windows/Audio/DIVINATION_COMMISSION.bnk</File>
+    <File>Platforms/Windows/Audio/DIVINATION_COMMISSION.ini</File>
+    <File>Platforms/Windows/Audio/DIVINATION_COMMISSION.txt</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_QINGQUE.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MODE_FOR_QINGQUE.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_QINGQUE_MODE_ICON_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>QINGQUE.lua</File>
+    <File>QINGQUE.xml</File>
+    <File>QINGQUE_COLOR.xml</File>
+    <File>QINGQUE_CONFIG.xml</File>
+    <File>QINGQUE_ICON.xml</File>
+    <File>QINGQUE_TEXT.xml</File>
+    <File>QINGQUE_TRAIT.xml</File>
+    <File>QINGQUE_TRAIT_GAMEPLAY.lua</File>
+    <File>QINGQUE_TRAIT_UI.lua</File>
+    <File>QINGQUE_TRAIT_UI.xml</File>
+    <File>太卜司·掌门人·青雀.dep</File>
+  </Files>
+</Mod>
