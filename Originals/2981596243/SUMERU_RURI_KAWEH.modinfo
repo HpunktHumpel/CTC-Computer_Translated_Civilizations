@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="73f47d5d-a681-4d7a-bbe4-d2494524d398" version="1">
+  <Properties>
+    <Name>妙论派·天穹之镜·卡维</Name>
+    <Description>须弥著名建筑设计师，对太多事物抱有过度关怀心。美学主义者，为现实所困扰。
+“行正确的事，哪怕为此付出所有。”</Description>
+    <Created>1685236360</Created>
+    <Teaser>嘿嘿 卡维 嘿嘿</Teaser>
+    <Authors>ZZZ太卜司摸鱼侠</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="SUMERU_KAWEH_DATA">
+      <File>SUMERU_KAVEH_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="SUMERU_KAWEH_ICON">
+      <File>SUMERU_KAVEH_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="SUMERU_KAWEH_TEXT">
+      <File>SUMERU_KAVEH_TEXT.xml</File>
+    </UpdateText>
+    <UpdateArt id="SUMERU_KAWEH_ART">
+      <File>妙论派·天穹之镜.dep</File>
+    </UpdateArt>
+    <UpdateColors id="SUMERU_KAWEH_COLOR">
+      <File>SUMERU_KAVEH_COLOR.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="SUMERU_KAWEH_DATA">
+      <File>SUMERU_KAVEH.xml</File>
+      <File>SUMERU_KAVEH_NOTIFICATION.xml</File>
+      <File>SUMERU_KAVEH_UNIT.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="SUMERU_KAWEH_COLOR">
+      <File>SUMERU_KAVEH_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="SUMERU_KAWEH_TEXT">
+      <File>SUMERU_KAVEH_TEXT.xml</File>
+    </UpdateText>
+    <AddUserInterfaces id="SUMERU_KAWEH_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>SUMERU_KAVEH_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="SUMERU_KAWEH_LUA">
+      <File>SUMERU_KAVEH.lua</File>
+      <File>SUMERU_KAVEH_GAMEPLAY.lua</File>
+    </AddGameplayScripts>
+    <UpdateIcons id="SUMERU_KAWEH_ICON">
+      <File>SUMERU_KAVEH_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="SUMERU_KAWEH_ART">
+      <File>妙论派·天穹之镜.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_KAVEH.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MODEL_FOR_KAVEH.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_SUMERU_MEHRAK_MOVE</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_SkillObj_Kaveh_Chest_Deffuse1_SkillObj_Kaveh_Chest_Mask</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_SkillObj_Kaveh_Chest_Lightmap</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_SkillObj_Kaveh_Chest_Normalmap0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_SkillObj_Kaveh_Chest_Normalmap1</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_KAVEH.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MODEL_FOR_KAVEH.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_SUMERU_MEHRAK_MOVE</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_SkillObj_Kaveh_Chest_Deffuse1_SkillObj_Kaveh_Chest_Mask</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_SkillObj_Kaveh_Chest_Lightmap</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_SkillObj_Kaveh_Chest_Normalmap0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_SkillObj_Kaveh_Chest_Normalmap1</File>
+    <File>SUMERU_KAVEH.lua</File>
+    <File>SUMERU_KAVEH.xml</File>
+    <File>SUMERU_KAVEH_COLOR.xml</File>
+    <File>SUMERU_KAVEH_CONFIG.xml</File>
+    <File>SUMERU_KAVEH_GAMEPLAY.lua</File>
+    <File>SUMERU_KAVEH_ICON.xml</File>
+    <File>SUMERU_KAVEH_NOTIFICATION.xml</File>
+    <File>SUMERU_KAVEH_TEXT.xml</File>
+    <File>SUMERU_KAVEH_UI.lua</File>
+    <File>SUMERU_KAVEH_UI.xml</File>
+    <File>SUMERU_KAVEH_UNIT.xml</File>
+    <File>妙论派·天穹之镜.dep</File>
+  </Files>
+</Mod>

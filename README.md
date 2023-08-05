@@ -91,6 +91,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2974754410](https://steamcommunity.com/sharedfiles/filedetails/?id=2974754410) | Re: Life in a Different World from Zero Witch's Tea Party | Re: Life in a Different World from Zero Witch's Tea Party |
 | [2976893035](https://steamcommunity.com/sharedfiles/filedetails/?id=2976893035) | 츠카츠키 리오의 밀레니엄 사이언스 스쿨 | Tsukatsuki Rio's Millennium Science School |
 | [2977165304](https://steamcommunity.com/sharedfiles/filedetails/?id=2977165304) | 智慧之都·学者之城·须弥 | City of Wisdom · City of Scholars · Sumeru |
+| [2981596243](https://steamcommunity.com/sharedfiles/filedetails/?id=2981596243) | 妙论派·天穹之镜·卡维 | Miao Lun School·The Mirror of the Sky·Carvey |
 | [2984355194](https://steamcommunity.com/sharedfiles/filedetails/?id=2984355194) | Date.A.Live-Arusu Install Reloaded | Date.A.Live-Arusu Install Reloaded |
 | [2986373287](https://steamcommunity.com/sharedfiles/filedetails/?id=2986373287) | BlueArchive！霞沢美游的SRT特殊学园 | Blue Archive! Kasumizawa Miyu's SRT Special School |
 | [2989631512](https://steamcommunity.com/sharedfiles/filedetails/?id=2989631512) | 렌카와 체리노의 붉은겨울 연방학원 | Lenka and Cherino's Red Winter Federal Academy |
