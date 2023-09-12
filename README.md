@@ -112,6 +112,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3013868284](https://steamcommunity.com/sharedfiles/filedetails/?id=3013868284) | 太卜司·掌门人·青雀 | Taibosi·The Head·Qingque |
 | [3015174918](https://steamcommunity.com/sharedfiles/filedetails/?id=3015174918) | ブルーアーカイブ レッドウィンター連邦学園 (Blue Archive - Red Winter) | Blue Archive - Red Winter Federation Academy |
 | [3015985678](https://steamcommunity.com/sharedfiles/filedetails/?id=3015985678) | BlueArchive！Shanhaijing led by Kisaki | BlueArchive! Shanhaijing led by Kisaki |
+| [3034078134](https://steamcommunity.com/sharedfiles/filedetails/?id=3034078134) | 厨神领导的帕依提提文明 | The Paititi civilization led by the God of Cooking |
 
 ## How does it work?
 I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports[*] a request for translation is send to google.translate.

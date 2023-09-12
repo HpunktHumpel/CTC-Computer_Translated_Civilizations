@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f2bef73d-3a8f-4275-b3c0-f2d2a107c6df" version="1">
+  <Properties>
+    <Name>paytitti lead by chushen</Name>
+    <Description>very,very,very wudi</Description>
+    <Created>1694395367</Created>
+    <Teaser>very,very,very wudi</Teaser>
+    <Authors>lenovo</Authors>
+    <SpecialThanks>H佬，厨神</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color">
+      <File>Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>paytitti lead by chushen.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Civilization_Paytitti.xml</File>
+      <File>Leader_Chu_Shen.xml</File>
+      <File>Units_Shen_Shi.xml</File>
+      <File>District_God_Campus.xml</File>
+      <File>District_Sheng_Yu.xml</File>
+      <File>Building_Drawing_Office.xml</File>
+      <File>Building_Shen_Ji.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color">
+      <File>Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>paytitti lead by chushen.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="lua">
+      <File>CHUSHEN.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Building_Drawing_Office.xml</File>
+    <File>Building_Shen_Ji.xml</File>
+    <File>CHUSHEN.lua</File>
+    <File>Civilization_Paytitti.xml</File>
+    <File>Color.xml</File>
+    <File>Config.xml</File>
+    <File>District_God_Campus.xml</File>
+    <File>District_Sheng_Yu.xml</File>
+    <File>Icon.xml</File>
+    <File>Leader_Chu_Shen.xml</File>
+    <File>paytitti lead by chushen.dep</File>
+    <File>Platforms/MacOS/BLPs/ChuShenDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ChuShenDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text.xml</File>
+    <File>Units_Shen_Shi.xml</File>
+    <File>XLPs/ChuShenDDS.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>
