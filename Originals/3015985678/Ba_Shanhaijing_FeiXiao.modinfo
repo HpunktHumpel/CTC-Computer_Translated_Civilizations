@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b64047bb-5145-489e-a884-7f26b69fda97" version="1">
+  <Properties>
+    <Name>BlueArchive! Kisaki and Shanhaijing Senior High School. 蔚蓝档案！妃咲领导的山海经高级中学</Name>
+    <Description>add a new civilization from BlueArchive.Shanhaijing Senior High School led by Kisaki.
+添加一个新的文明，来自蔚蓝档案的妃咲及其领导的山海经高级中学。</Description>
+    <Created>1692103219</Created>
+    <Teaser>BlueArchive! Shanhaijing Senior High School led by Kisaki</Teaser>
+    <Authors>Nowaru</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Database">
+      <File>Shanhaijing_config.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="ART">
+      <File>BA shanhaijing.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icon">
+      <File>Shanhaijing_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Shanhaijing_Texts.xml</File>
+    </UpdateText>
+    <UpdateColors id="Color">
+      <File>Shanhaijing_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase">
+      <File>Shanhaijing_Leader.xml</File>
+      <File>Shanhaijing_District.xml</File>
+      <File>Shanhaijing_Civ.xml</File>
+      <File>Shanhaijing_Units.xml</File>
+      <File>Shanhaijing_UnitAbilities.xml</File>
+      <File>Shanhaijing_Moments.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <File>Shanhaijing_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>BA shanhaijing.dep</File>
+    </UpdateArt>
+    <UpdateText id="Text">
+      <File>Shanhaijing_Texts.xml</File>
+    </UpdateText>
+    <UpdateColors id="Color">
+      <File>Shanhaijing_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>BA shanhaijing.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/ShanhaijingDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ShanhaijingDDS.blp</File>
+    <File>Shanhaijing_Civ.xml</File>
+    <File>Shanhaijing_Colors.xml</File>
+    <File>Shanhaijing_config.xml</File>
+    <File>Shanhaijing_District.xml</File>
+    <File>Shanhaijing_Icon.xml</File>
+    <File>Shanhaijing_Leader.xml</File>
+    <File>Shanhaijing_Moments.xml</File>
+    <File>Shanhaijing_Texts.xml</File>
+    <File>Shanhaijing_UnitAbilities.xml</File>
+    <File>Shanhaijing_Units.xml</File>
+  </Files>
+</Mod>
