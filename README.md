@@ -112,6 +112,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3013868284](https://steamcommunity.com/sharedfiles/filedetails/?id=3013868284) | 太卜司·掌门人·青雀 | Taibosi·The Head·Qingque |
 | [3015174918](https://steamcommunity.com/sharedfiles/filedetails/?id=3015174918) | ブルーアーカイブ レッドウィンター連邦学園 (Blue Archive - Red Winter) | Blue Archive - Red Winter Federation Academy |
 | [3015985678](https://steamcommunity.com/sharedfiles/filedetails/?id=3015985678) | BlueArchive！Shanhaijing led by Kisaki | BlueArchive! Shanhaijing led by Kisaki |
+| [3027509371](https://steamcommunity.com/sharedfiles/filedetails/?id=3027509371) | 野兽先辈领导的下北泽文明 | The Shimokitazawa civilization led by the beast ancestors |
 | [3033559468](https://steamcommunity.com/sharedfiles/filedetails/?id=3033559468) | 绿洲和他的领袖威夫斯 | Oasis and his leader Waves |
 | [3034078134](https://steamcommunity.com/sharedfiles/filedetails/?id=3034078134) | 厨神领导的帕依提提文明 | The Paititi civilization led by the God of Cooking |
 
