@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="971d1ba9-1138-4c0e-b442-e9bfc01570c7" version="5">
+  <Properties>
+    <Name>深空之眼 镇魂乐章·海拉领袖包 重置版</Name>
+    <Description>深空之眼 镇魂乐章·海拉领袖包 重置版，需要深空之眼 暗星·海拉领袖包 重置版和 深空之眼 重置版核心代码才能游玩</Description>
+    <Created>1696989252</Created>
+    <Teaser>深空之眼 镇魂乐章·海拉领袖包 重置版</Teaser>
+    <Authors>HK433</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="af157363-c730-4c81-b2bc-93f07eae9780" title="深空之眼 重置版核心代码" />
+    <Mod id="84a6871f-1f07-4aa3-8d18-d84c7aa2836f" title="深空之眼 暗星·海拉领袖包 重置版" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>CONFIG_AETHERGAZER_EXPANSION_III_PART_HAILA.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_ExpansionIII_part_HAILA.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_III_PART_HAILA.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_III_PART_HAILA.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>TEXT_AETHERGAZER_EXPANSION_III_PART_HAILA.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>LEADER_AETHERGAZER_EXPANSION_III_PART_HAILA.sql</File>
+      <File>CIVILIZATION_AETHERGAZER_III_PART_HAILA.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_III_PART_HAILA.xml</File>
+    </UpdateColors>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_ExpansionIII_part_HAILA.dep</File>
+    </UpdateArt>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_III_PART_HAILA.sql</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_III_PART_HAILA.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Aethergazer_ExpansionIII_part_HAILA.dep</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>CIVILIZATION_AETHERGAZER_III_PART_HAILA.sql</File>
+    <File>COLOR_AETHERGAZER_EXPANSION_III_PART_HAILA.xml</File>
+    <File>CONFIG_AETHERGAZER_EXPANSION_III_PART_HAILA.sql</File>
+    <File>ICON_AETHERGAZER_EXPANSION_III_PART_HAILA.xml</File>
+    <File>LEADER_AETHERGAZER_EXPANSION_III_PART_HAILA.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/TYPEONEHAILA.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/TYPEONEHAILA.blp</File>
+    <File>TEXT_AETHERGAZER_EXPANSION_III_PART_HAILA.sql</File>
+  </Files>
+</Mod>
