@@ -115,6 +115,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3015985678](https://steamcommunity.com/sharedfiles/filedetails/?id=3015985678) | BlueArchive！Shanhaijing led by Kisaki | BlueArchive! Shanhaijing led by Kisaki |
 | [3027509371](https://steamcommunity.com/sharedfiles/filedetails/?id=3027509371) | 野兽先辈领导的下北泽文明 | The Shimokitazawa civilization led by the beast ancestors |
 | [3031187099](https://steamcommunity.com/sharedfiles/filedetails/?id=3031187099) | 深空之眼 重置版核心代码 | Eye of Deep Space Reset Core Code |
+| [3032568412](https://steamcommunity.com/sharedfiles/filedetails/?id=3032568412) | 深空之眼 轰雷·托尔领袖包 重置版 | Eye of Deep Space Thunder Thor Leader Pack Remastered Edition |
 | [3033559468](https://steamcommunity.com/sharedfiles/filedetails/?id=3033559468) | 绿洲和他的领袖威夫斯 | Oasis and his leader Waves |
 | [3034078134](https://steamcommunity.com/sharedfiles/filedetails/?id=3034078134) | 厨神领导的帕依提提文明 | The Paititi civilization led by the God of Cooking |
 | [3035126350](https://steamcommunity.com/sharedfiles/filedetails/?id=3035126350) | 深空之眼 启明·海姆达尔 重置版 | Eye of Deep Space Qiming Heimdall Remastered Edition |
