@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="89631d0c-031f-4b11-a4e4-0ee8430fe7b8" version="2">
+  <Properties>
+    <Name>深空之眼 启明·海姆达尔 重置版</Name>
+    <Description>深空之眼 启明·海姆达尔 重置版，需要深空之眼 重置版核心代码才能游玩，不兼容老版本</Description>
+    <Created>1694615452</Created>
+    <Teaser>深空之眼 启明·海姆达尔 重置版，需要深空之眼 重置版核心代码才能游玩，不兼容老版本</Teaser>
+    <Authors>HK433</Authors>
+    <SpecialThanks>深空之眼 启明·海姆达尔 重置版</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="af157363-c730-4c81-b2bc-93f07eae9780" title="深空之眼 重置版核心代码" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_ExpansionIV_HAIMUDAER.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_IV_HAIMUDAER.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>CONFIG_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_IV_HAIMUDAER.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_ExpansionIV_HAIMUDAER.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_IV_HAIMUDAER.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>LEADER_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+      <File>CIVILIZATION_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_IV_HAIMUDAER.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Aethergazer_ExpansionIV_HAIMUDAER.dep</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>CIVILIZATION_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+    <File>COLOR_AETHERGAZER_EXPANSION_IV_HAIMUDAER.xml</File>
+    <File>CONFIG_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+    <File>ICON_AETHERGAZER_EXPANSION_IV_HAIMUDAER.xml</File>
+    <File>LEADER_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+    <File>Platforms/MacOS/BLPs/HAIMUDAERDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/HAIMUDAERDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>TEXT_AETHERGAZER_EXPANSION_IV_HAIMUDAER.sql</File>
+  </Files>
+</Mod>
