@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Oct 20 17:18:30 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ru_RU">
+			<Text>Домен Святого Древа</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ru_RU">
+			<Text>Божественный Домен-Святое Древо</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ru_RU">
+			<Text>+1 к лесу на городских клетках [ICON_Production] +2 к производительности [ICON_Food] +2 к еде, тропическому лесу [ICON_Production] +1 к производительности [ICON_Food] +3 к еде, лесу и тропическому лесу к клеткам территории</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ru_RU">
+			<Text>Домен Святого Древа</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_ADJECTIVE" Language="ru_RU">
+			<Text>Царство священного дерева</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_NAME" Language="ru_RU">
+			<Text>корректирующая организация</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>[COLOR:ResMilitaryLabelCS]Невозможно построить все военные отряды[ENDCOLOR], но можно строить модификаторы и отряды поддержки. Строителей, шпионов и отряды поддержки всегда можно приобрести за [ICON_Faith]Веру.[NEWLINE]Модификаторы будут меняться в зависимости от развития технологий и муниципального развития. [ICON_Strength] боевая эффективность, [COLOR:ResMilitaryLabelCS], но плата за обслуживание [ICON_Gold] также увеличится [ENDCOLOR]. После того, как отряд будет завершен, он не сможет обеспечить [ICON_Strength] боевую мощь и [ICON_Ranged] силу атаки на большие расстояния в городе, а также не сможет быть организован в полки и армии.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="ru_RU">
+			<Text>Система Мимир</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>Характерная территория Домена Священного Древа, альтернатива охраняемой территории, изначально разблокирована, имеет меньшую стоимость и не будет увеличиваться в цене, а также может быть построена независимо от спроса населения. [NEWLINE] Система Mitre обеспечит +2 золотых монеты [ICON_Gold] и +2 производительности [ICON_Production] окружающим ячейкам (даже если она не построена). После завершения окружающие ячейки получат +3 очарования. [NEWLINE]После того, как древний лес будет построен, окружающие клетки с нормальным или выше среднего значением очарования получат +2 [ICON_Food] +2 еды [ICON_Faith] +1 [ICON_Science] научных исследований. [NEWLINE]После того, как убежище будет построено, окружающие клетки со средним или выше среднего очарованием получат +1 [ICON_Production] +1 производительность [ICON_Gold] +2 золотых монеты [ICON_Science] научные исследования. [NEWLINE]Вышеуказанные бонусы можно получить независимо от того, улучшены ли в ячейке условия или нет.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="ru_RU">
+			<Text>Управлять кошачьей комнатой</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>Характерная территория Домена Святого Древа, которая заменяет театральную площадь, изначально разблокирована, ее можно строить бесплатно, ее цена не увеличивается, и ее можно строить независимо от спроса населения. Имеет уникальную культуру [ICON_Culture] и сопутствующие бонусы [ICON_Faith].</Text>
+		</Replace>
+		<Replace Tag="LOC_WONDER_CULTURE_HALF_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Culture] Культура происходит из соседних рукотворных чудес</Text>
+		</Replace>
+		<Replace Tag="LOC_WONDER_FAITH_HALF_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Faith] Вера из соседних рукотворных чудес</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CULTURE_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Culture] Культура происходит из соседнего региона.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CULTURE_FAITH_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Faith] Вера приходит из соседних областей</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTICAVALRY_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Элитный противокавалерийский модификатор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTICAVALRY_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный юнит индустриальной эпохи. Очень хорош в бою с кавалерией. Обладает рядом особых способностей и очень слаб против бронированных целей.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTIPANZER_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Элитный противотанковый модификатор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Мощное спецподразделение в век информации, способное бороться со всеми бронированными целями.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Модификатор элитного тяжелого оружия</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Мощное специальное подразделение в век информации, хорошо справляющееся с различными видами городской обороны и способное сражаться на воде.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RANGED_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Элитный дистанционный корректор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RANGED_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Мощный характерный юнит в век информации. Хорошо убивает врагов на расстоянии, но боится дальнего подавления огня и преследования кавалерии.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SWORD_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Элитный модификатор ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SWORD_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Мощное специальное подразделение атомного века, способное противостоять давлению на линии фронта.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTICAVALRY_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Противокавалерийский модификатор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTICAVALRY_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Особый отряд, очень хорошо сражающийся с кавалерией.[NEWLINE][COLOR:ResMilitaryLabelCS] Исследование технологий тяжелой кавалерии может повысить боевую эффективность отряда.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>противотанковый модификатор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Современное характерное подразделение, хорошо справляющееся с бронированными целями, но все еще несколько слабое против композитной брони.[NEWLINE][COLOR:ResMilitaryLabelCS] Исследование технологий легкой кавалерии может повысить боевую эффективность подразделения.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>модификатор тяжелого оружия</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Специальное подразделение, хорошо справляющееся с различными видами городской обороны, способное сражаться на воде.[NEWLINE][COLOR:ResMilitaryLabelCS] Исследование технологий легкой и тяжелой кавалерии может повысить боевую эффективность подразделения.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>дистанционный корректор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Специальный отряд, хорошо убивающий врагов на расстоянии, но боящийся подавления огня на больших дистанциях и преследования кавалерии.[NEWLINE][COLOR:ResMilitaryLabelCS] Исследование технологий ближнего боя может повысить боевую эффективность отряда.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>модификатор ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Специальный отряд, хорошо сопротивляющийся на передовой [NEWLINE][COLOR:ResMilitaryLabelCS] Исследование технологий ближнего боя может повысить боевую эффективность отряда[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORSWORD_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Элитный модификатор тяжелого ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORSWORD_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Мощный специальный отряд в век информации. Его могут обучить лишь некоторые лидеры Модификаторов. Его боевая эффективность значительно выше, чем у Модификаторов ближнего боя. Он может игнорировать контроль территории и наносить полный урон обороне города.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SPECIALCOMBAT_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Элитный специальный модификатор ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SPECIALCOMBAT_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Мощный уникальный юнит Атомного века. Его могут обучить только некоторые лидеры-модификаторы. Он обладает бомбардировочной атакой [ICON_Ranged] с дальностью 1 и может сражаться на воде.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_LIGHTWEAPON_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Модификатор элитного стрелкового оружия</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Мощный уникальный отряд в век информации. Лишь некоторые лидеры-модификаторы могут его тренировать. Он обладает более высокой мобильностью, чем модификаторы тяжелого оружия, но его эффективность в ближнем бою чрезвычайно низка. Пожалуйста, используйте этот модификатор с осторожностью.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Перезаряженный модификатор ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Особый отряд, тренировать могут только некоторые лидеры модификаторов, его боевая эффективность намного выше, чем у модификаторов ближнего боя, он может игнорировать контроль над территорией и наносить полный урон обороне города. [NEWLINE][COLOR:ResMilitaryLabelCS] Исследовать технологии легкой и тяжелой кавалерии Можно повысить боевую эффективность отряда[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Специальный модификатор ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Особый отряд, который могут тренировать только некоторые лидеры-модификаторы, имеет [ICON_Ranged] бомбовую атаку с дальностью 1 и может сражаться на воде.[NEWLINE][COLOR:ResMilitaryLabelCS] Исследование технологий ближнего боя может повысить боевую эффективность отряда.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>модификатор стрелкового оружия</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Особый отряд, тренировать могут только некоторые модификаторы-лидеры. Он обладает большей мобильностью, чем модификаторы тяжелого оружия, но его эффективность в ближнем бою чрезвычайно низка. Используйте этот модификатор с осторожностью. [NEWLINE][COLOR:ResMilitaryLabelCS] Изучите технологию ближнего боя, чтобы дать возможность отрядам Усилить бой эффективность[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="ru_RU">
+			<Text>цикл рассуждений</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный отряд поддержки, обладающий собственной боевой эффективностью.Обладает в начале несколькими особыми способностями.Обладает более высокой мобильностью, чем обычные модификаторы, и может сопровождать отряды формирования куда угодно.[ЦВЕТ: ResMilitaryLabelCS]Однако стоимость содержания этого отряда чрезвычайно высока высоко, поэтому будьте осторожны. [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] Исследование технологий легкой и тяжелой кавалерии может повысить боевую эффективность подразделений.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="ru_RU">
+			<Text>Хелла</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAILA_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Девушка, которая не любит общаться с другими, всегда тихо и одна смотрит на ночное небо, похоже, пережила мрачный детский опыт.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_NAME" Language="ru_RU">
+			<Text>Бывший Онибо Тэнгу</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Живой и беззаботный, бывший Онибо — самый большой нарушитель спокойствия в Оке Глубокого Космоса. Она тратила всю свою лишнюю энергию на розыгрыши и утверждала, что у нее есть воздушный друг по имени Хоги, но никто не знал, было ли существование Хоги правдой или нет.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Осирис</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Самый популярный корректор в штабе все ласково называют «Маленький Осирис». Узнав о проблемах своих товарищей, он изо всех сил старается тихо предложить помощь и всегда ставит дела своих товарищей на первое место.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_NAME" Language="ru_RU">
+			<Text>Верданте</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Левиафан</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIWEITAN_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Левиафан, который каждый день полон энергии, - милый маленький мальчик, который иногда сбивается с толку. Хотя у него невинный и живой характер, он на удивление ревнив. Пожалуйста, не приближайтесь к Видалю слишком близко в ее присутствии.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Видаль</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Модификатор был возвращен из замороженной первобытной области.Ее долгая одинокая жизнь заставила ее казаться немного холодной и одинокой, и она, похоже, не очень хорошо умела межличностное общение.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SIKADI_RELOAD_NAME" Language="ru_RU">
+			<Text>Скади</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SIKADI_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Скади - один из немногих полевых корректоров Отдела 9, который напрямую подчиняется команде Ксио и несет особую ответственность за расследование признаков видимых обломков в районе океана. Хотя на первый взгляд она выглядит беззаботной, в критические моменты она всегда проявляет мужество, которое должно быть у капитана.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_NAME" Language="ru_RU">
+			<Text>Окунинуши</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Девушка, присоединившаяся к Оку Глубокого Космоса на условии «проведения бесплатных исследований и изобретений», сейчас работает в Команде Криптозоологии. Однако, несмотря на то, что он был нанят, он почти не участвовал в битве с трупом и, похоже, интересовался только изобретениями и картами Таро.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Хеймдалль</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Один из главных лидеров Скрытой научной группы, он разработал большинство систем искусственного интеллекта в Оке глубокого космоса, включая «Систему Мимир». Стремясь полностью устранить визуальные скелеты, мы стремимся к точности и эффективности во всем, что делаем.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ходел</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Ходел, член разведывательного отдела, и его сестра Бадр — близнецы. В отличие от веселого и щедрого характера своей сестры, Ходел просто молча следует за светом сестры и не раскрывает себя слишком сильно.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SHAOXILISI_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Он имеет точно такую ​​же внешность, как Осирис, но его внутренняя доминирующая личность — сумасшедший «Плутон», он обладает огромной силой и презирает сотрудничество с другими модификаторами.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TUOER_RELOAD_NAME" Language="ru_RU">
+			<Text>Тор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TUOER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Капитан «Громового отряда» Deep Space Eye и сильнейший боец ​​в организации. В различных действиях команды, даже если и случаются постоянные ошибки, их всегда можно доделать, полагаясь в итоге на свои силы. У Тора отличное чувство справедливости, но, что соответствует его дикому боевому стилю, он часто бывает импульсивным в поступках.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}: боевая мощь отряда +7[ICON_Strength], [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: боевая мощь отряда +10[ICON_Strength], [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: боевая сила отряда +16[ICON_Strength], [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] золотая монета (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: боевая мощь отряда +9[ICON_Strength], [COLOR:ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: боевая сила отряда +10[ICON_Strength], [COLOR:ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: боевая мощь отряда +10[ICON_Strength], [COLOR:ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: боевая мощь отряда +10[ICON_Strength], [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_CASTLES_NAME}: боевая сила отряда +20 [ICON_Strength], [COLOR:ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за ход [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_BALLISTICS_NAME}: боевая мощь отряда +14[ICON_Strength], [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_COMBUSTION_NAME}: боевая мощь отряда +21[ICON_Strength], [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_SYNTHETIC_MATERIALS_NAME}: боевая сила отряда +1[ICON_Strength], [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_STIRRUPS_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_STIRRUPS_NAME}: боевая мощь отряда +20[ICON_Strength], [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: отряд +16[ICON_AntiAir_Large] мощности противовоздушной обороны.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: боевая мощь ПВО отряда +9[ICON_AntiAir_Large]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: отряд +10[ICON_AntiAir_Large] боевая мощь ПВО.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{TECH_MILITARY_SCIENCE}: единица +10[ICON_AntiAir_Large] боевая эффективность ПВО</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: отряд +10[ICON_AntiAir_Large] к силе противовоздушной обороны.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: боевая мощь отряда +10[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_ANTI_AIR_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: отряд +10[ICON_AntiAir_Large] боевая мощь ПВО.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_FLIGHT_ADD_1_RANGE_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_FLIGHT_NAME}: дальность действия объекта +1[ICON_Range]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPUTERS_ADD_2_RANGE_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_COMPUTERS_NAME}: юниты + 2 диапазона [ICON_Range]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_CIVIC_NATIONALISM_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_CIVIC_MOBILIZATION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_IRON_WORKING_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_APPRENTICESHIP_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_GUNPOWDER_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_TECH_MILITARY_SCIENCE_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_TECH_REPLACEABLE_PARTS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_CASTLES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_BALLISTICS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_COMBUSTION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_TECH_SYNTHETIC_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_STIRRUPS_ADD_20_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_STIRRUPS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_TECH_COMPOSITES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SWORD_FIXER_ADD_10_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Strength] боевая мощь против противокавалерийских отрядов</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SWORD_FIXER_ADD_10_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Strength] боевая сила против модификаторов тяжелого оружия</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="ru_RU">
+			<Text>-20[ICON_Strength] боевая мощь против отрядов тяжелой кавалерии</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_LIGHT_CAVALRY_DESCRIPTION" Language="ru_RU">
+			<Text>-20[ICON_Strength] боевая мощь против отрядов легкой кавалерии</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ru_RU">
+			<Text>-20[ICON_Strength] боевая мощь против юнитов дальнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="ru_RU">
+			<Text>+35[ICON_Strength] боевая мощь против отрядов тяжелой кавалерии</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_LIGHT_CAVALRY_DESCRIPTION" Language="ru_RU">
+			<Text>+35[ICON_Strength] боевая мощь против отрядов легкой кавалерии</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>+35 [ICON_Strength] боевая сила против модификаторов тяжелого оружия</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_MELEE_DESCRIPTION" Language="ru_RU">
+			<Text>-10[ICON_Strength] боевая сила против отрядов ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ru_RU">
+			<Text>-10[ICON_Strength] боевая мощь против юнитов дальнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_ADD_10_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ru_RU">
+			<Text>+10[ICON_Strength] боевая мощь против юнитов дальнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_ADD_20_COMBAT_VS_CLASS_RANGED_FIXER_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>+20 [ICON_Strength] боевая сила против модификаторов дальнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_REDUCE_35_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ru_RU">
+			<Text>-35 [ICON_Strength] боевая мощь против противокавалерийских отрядов</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_AFTER_ATTACK_KEEP_MOVEING_DESCRIPTION" Language="ru_RU">
+			<Text>Юниты могут продолжать двигаться [ICON_Movement] после атаки</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_DESCRIPTION" Language="ru_RU">
+			<Text>На отряд [ICON_Movement] не распространяются штрафы за рельеф местности и пересечение рек при движении.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ATTACK_AGAIN_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит [ICON_Turn] атакует +1</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_AMPHIBIOUS_DESCRIPTION" Language="ru_RU">
+			<Text>Юниты могут сражаться в воде</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_DESCRIPTION" Language="ru_RU">
+			<Text>Отряд наносит полный урон обороне города.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_DESCRIPTION" Language="ru_RU">
+			<Text>Юниты не могут использовать [ICON_Strength] атаки ближнего боя.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ESCORT_MOBILITY_SHARED_MOVEMENT_DESCRIPTION" Language="ru_RU">
+			<Text>Все отряды в строю получают силу передвижения [ICON_Movement] этого отряда.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_MEELE_DESCRIPTION" Language="ru_RU">
+			<Text>Отряд наносит полный урон обороне города.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_ANTICAVALRY_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ближний бой против кавалерии</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_ANTIPANZER_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>противотанковое средство дальнего действия</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Удаленная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_RANGED_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Дистанционное убийство</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SWORD_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Убийство в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_ARMORSWORD_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Осада в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SPECIALCOMBAT_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Особый урон в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_LIGHTWEAPON_FIXER_RELOAD_NAME" Language="ru_RU">
+			<Text>Удаленная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_XUNLIZHIHUAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Удаленная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_HAILA_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая дистанционная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_QIANGUIFANG_RELOAD_NAME" Language="ru_RU">
+			<Text>Специальное убийство на дальней дистанции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_AOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая рукопашная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_WEIERDANDI_RELOAD_NAME" Language="ru_RU">
+			<Text>Убийство в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_LIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая рукопашная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_WEIDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая рукопашная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_NICHAOLIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Особый урон в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SIKADI_RELOAD_NAME" Language="ru_RU">
+			<Text>Особый урон в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_DAGUOZHU_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая дистанционная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_HAIMUDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая дистанционная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_HUODEER_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая дистанционная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SHAOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая рукопашная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_TUOER_RELOAD_NAME" Language="ru_RU">
+			<Text>Особая рукопашная осада</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_1_A_COMMOM_FIXER_NAME" Language="ru_RU">
+			<Text>Уровень повышен</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_1_B_COMMOM_FIXER_NAME" Language="ru_RU">
+			<Text>выход за пределы сознания</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_COMMOM_FIXER_NAME" Language="ru_RU">
+			<Text>Божественный Резонанс</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_COMMOM_FIXER_NAME" Language="ru_RU">
+			<Text>Укрепить ключ</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_COMMOM_FIXER_NAME" Language="ru_RU">
+			<Text>Гравировка оборудования</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_COMMOM_FIXER_NAME" Language="ru_RU">
+			<Text>трансцендентный ключ</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_4_COMMOM_FIXER_NAME" Language="ru_RU">
+			<Text>Синхронная сублимация</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_2_COMBAT_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Отряд +2[ICON_Strength] боевая мощь</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_1_MOVENENT_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит +1[ICON_Movement] движение</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_4_1_ESCORT_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Отряд имеет +4 [ICON_Strength] боевую силу, +1 [ICON_Movement] силу передвижения, и все отряды формирования получают силу передвижения сопутствующего отряда [ICON_Movement].</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_3_COMBAT_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Боевая мощь отряда +3[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_2_MOVENENT_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит +2[ICON_Movement] передвижения</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_7_4_ESCORT_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Отряд имеет +7 [ICON_Strength] к боевой мощи, +4 к силе передвижения [ICON_Movement], а все отряды формирования получают силу передвижения [ICON_Movement] сопровождающего отряда.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_HAILA_RELOAD_NAME" Language="ru_RU">
+			<Text>Волшебный танец пуль</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_HAILA_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ – «Медлительность».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_HAILA_RELOAD_NAME" Language="ru_RU">
+			<Text>тихий дворец</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_HAILA_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ от «Феи Мюриэл»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_QIANGUIFANG_RELOAD_NAME" Language="ru_RU">
+			<Text>Быстрый выстрел</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_QIANGUIFANG_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ-&quot;Комета&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_QIANGUIFANG_RELOAD_NAME" Language="ru_RU">
+			<Text>Обелиск Славы</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_QIANGUIFANG_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевой конгресс — «Сикигами · Вакаша Курододзи»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_AOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Сюй Мин, непрерывный монтаж</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_AOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ – «Другой мир»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_AOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Доказательство храбрости</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_AOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ от - &quot;Царская Кабба&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_WEIERDANDI_RELOAD_NAME" Language="ru_RU">
+			<Text>Натиск меча и щита</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_WEIERDANDI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ – «Щит Судьбы».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_WEIERDANDI_RELOAD_NAME" Language="ru_RU">
+			<Text>вечный дракон</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_WEIERDANDI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевая служанка — «Фея Эстель».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_LIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>сильный удар по якорю</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_LIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ — «Святой якорь Кука».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_LIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Ледяная бездна Суе</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_LIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевой последователь - «Определитель · Белусе Бабу»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_WEIDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>ледовая охота</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_WEIDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ – «Ледяной клык».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_WEIDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ледяная бездна Суе</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_WEIDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевой слуга-&quot;Фея Тимсилак&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_NICHAOLIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>забастовка зыби</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_NICHAOLIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ - «Песня кита против прилива».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_NICHAOLIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Эхо Пророка</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_NICHAOLIWEITAN_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевой конгресс - «Destiner · Сай Пей»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_SIKADI_RELOAD_NAME" Language="ru_RU">
+			<Text>Меч, рассекающий волны</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_SIKADI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ – «Рубающие волны».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_SIKADI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ледяная бездна Суе</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_SIKADI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевой слуга — «Фея Серая».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_DAGUOZHU_RELOAD_NAME" Language="ru_RU">
+			<Text>Кролик Железный Кулак</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_DAGUOZHU_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ-&quot;Набор устройств Туту&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_DAGUOZHU_RELOAD_NAME" Language="ru_RU">
+			<Text>Рев Спарты</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_DAGUOZHU_RELOAD_NAME" Language="ru_RU">
+			<Text>Key Cong - «Сикигами · Яйёи Юанкнот»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_HAIMUDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>космический луч</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_HAIMUDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ — «Кольцо разума».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_HAIMUDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Обелиск Славы</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_HAIMUDAER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевой слуга — «Фея Эйавен».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_HUODEER_RELOAD_NAME" Language="ru_RU">
+			<Text>точная стрельба</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_HUODEER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ-&quot;Паразит ночи&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_HUODEER_RELOAD_NAME" Language="ru_RU">
+			<Text>тихий дворец</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_HUODEER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевой слуга — «Фея Эрвин»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_SHAOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Небо и Темная Коса</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_SHAOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ – «Рожденная душа».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_SHAOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Штормовой Тиран</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_SHAOXILISI_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ от - &quot;Король Нийрихт&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_TUOER_RELOAD_NAME" Language="ru_RU">
+			<Text>громовой удар</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_TUOER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключ – «Мьёльнир».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_TUOER_RELOAD_NAME" Language="ru_RU">
+			<Text>колесница вечности</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_TUOER_RELOAD_NAME" Language="ru_RU">
+			<Text>Ключевая служанка — «Фея Келебрианна».</Text>
+		</Replace>
+		<Replace Tag="LOC_UPGRATE_2_COMBAT_TEXT" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] боевая мощь за счет улучшений юнитов</Text>
+		</Replace>
+		<Replace Tag="LOC_UPGRATE_3_COMBAT_TEXT" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] боевая мощь за счет улучшений юнитов</Text>
+		</Replace>
+		<Replace Tag="LOC_UPGRATE_4_COMBAT_TEXT" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] боевая мощь за счет улучшений юнитов</Text>
+		</Replace>
+		<Replace Tag="LOC_UPGRATE_7_COMBAT_TEXT" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] боевая мощь за счет улучшений юнитов</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_NAME" Language="ru_RU">
+			<Text>экологический лесной склад</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_DESCRIPTION" Language="ru_RU">
+			<Text>Специальные объекты улучшения, только некоторые лидеры модификаторов могут их построить.После строительства +2 [ICON_Production] производительность, +1 очарование для окружающих ячеек.Улучшенные объекты могут получить дополнительные 50% золотых монет [ICON_Gold] в зависимости от значения очарования ячейки. , после исследования соответствующих технологий вы повысите производительность [ICON_Production]. После исследования {LOC_TECH_INDUSTRIALIZATION_NAME} улучшенные объекты могут повысить эффективность туризма на 50 % [ICON_Tourism] за счет производства золотых монет и могут быть построены только на участках с лесами или тропическими лесами.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_NAME" Language="ru_RU">
+			<Text>Полярная научно-исследовательская станция</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="ru_RU">
+			<Text>Особые объекты улучшения, их могут построить только некоторые лидеры-модификаторы. Разблокируется {LOC_TECH_MINING_NAME}, +1 исследование [ICON_Science]. Различные прилегающие формы рельефа и объекты улучшения могут получить дополнительную продукцию. После исследования связанных технологий вы можете получить больше [ICON_Science] ] научных исследования, еда [ICON_Food], золотые монеты [ICON_Gold] и продуктивность [ICON_Production] можно строить только на заснеженных холмах.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="ru_RU">
+			<Text>Жилая зона полярных научных исследований</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="ru_RU">
+			<Text>Особые объекты улучшения, только некоторые лидеры-модификаторы могут их построить, +1[ICON_Culture] культура +1[ICON_Production] производительность, различные прилегающие формы рельефа и объекты улучшения могут получить дополнительную продукцию, а после исследования связанных технологий вы можете получить больше [ICON_Food] еды , золотые монеты [ICON_Gold] и производительность [ICON_Production] можно строить только на мерзлой почве, холмах мерзлой почвы и снеге.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="ru_RU">
+			<Text>Большое научно-исследовательское судно</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_DESCRIPTION" Language="ru_RU">
+			<Text>Специальные объекты для улучшения, их могут построить только некоторые лидеры-модификаторы, разблокируются с помощью {LOC_TECH_SHIPBUILDING_NAME}, +1[ICON_Food] еда +1[ICON_Culture] культура, различные соседние объекты улучшения могут получить дополнительную продукцию, которую можно получить после исследования связанных технологий. Больше продукции. .</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_NAME" Language="ru_RU">
+			<Text>Морская научно-исследовательская платформа</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_DESCRIPTION" Language="ru_RU">
+			<Text>Особые объекты улучшения, только некоторые лидеры модификаторов могут их построить, разблокируются с помощью {LOC_TECH_SHIPBUILDING_NAME}, +1[ICON_Production] производительность +1 исследование [ICON_Science], различные смежные объекты улучшения могут получить дополнительную продукцию, которую можно получить после исследования связанных технологий Больше продукции .</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ru_RU">
+			<Text>Божественное Царство Тяньюань</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ru_RU">
+			<Text>Божественное Царство Тяньюань</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_ADJECTIVE" Language="ru_RU">
+			<Text>Божественное Царство Тяньюань</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ru_RU">
+			<Text>Божественное Царство-Тяньюань</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_NAME" Language="ru_RU">
+			<Text>Тяньлу Трейдинг</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>Характерная территория Божественного Царства Тяньюань является альтернативой торговому центру. Изначально разблокирована. Стоимость ниже и цена не будет увеличиваться. Может быть построена независимо от спроса населения. Благодаря уникальному бонусу к еде [ICON_Food], бонус к еде [ICON_Food] также дает [ICON_Gold] золотых монет. После завершения будут получены 2 торговых емкости [ICON_TradeRoute] и две торговые единицы будут переданы в дар.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_NAME" Language="ru_RU">
+			<Text>Сыфанъюань</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>Характерная территория Владения Бога Тяньюань является альтернативой святой земле. Она изначально разблокирована, ее можно строить бесплатно, и ее цена не будет увеличиваться. Ее можно строить независимо от спроса населения. Имеет уникальный бонус к еде [ICON_Food], бонус к еде [ICON_Food] также дает [ICON_Faith] веру.</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда поступает из соседних районов</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда добывается из соседних гор.</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда добывается из соседних ресурсов.</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда из рукотворных чудес</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда добывается из близлежащих вод</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_IMPROVEMENT_GREY_WORKSTATION_ADD_1_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} еда [ICON_Food] из {LOC_IMPROVEMENT_GREY_WORKSTATION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GREY_WORKSTATION_NAME" Language="ru_RU">
+			<Text>Рудник Сюэн</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GREY_WORKSTATION_DESCRIPTION" Language="ru_RU">
+			<Text>Улучшения функций. Только Лидер-модификатор Царства Бога Тяньюань может построить его, +3 [ICON_Food] еда +2 [ICON_Production] производительность +2 [ICON_Faith] вера. После исследования соответствующих технологий вы получите больше [ICON_Production] производительности.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ru_RU">
+			<Text>Построив город, можно получить огромную территорию, что позволит гражданам подниматься в горы. Горы +2 [ICON_Food] еда +5 [ICON_Gold] золотых монет.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="ru_RU">
+			<Text>Золотая Ворона</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JINWU_DESCRIPTION" Language="ru_RU">
+			<Text>Он родился в Сюйхэне и с детства следовал за своим учителем Сихэ, чтобы практиковать технику Тяньтун во дворце Руому на острове Наньцзяо. Он праведный и честный, но по какой-то причине у него есть некоторые второстепенные проблемы. Следуя инструкциям учителя, я в настоящее время тренируюсь в спуске с горы.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LINGGUANG_NAME" Language="ru_RU">
+			<Text>Лингуан</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LINGGUANG_DESCRIPTION" Language="ru_RU">
+			<Text>Агент Нандао из Сыфанъюаня — врач и хорошо осведомлен о страданиях народа. Она основала медицинскую клинику «Чи Ци Тан» в Наньцзяо и открыла множество филиалов для распространения знаний о способах устранения симптомов болезней. Лингуан часто лично посещал больницу, чтобы лечить пациентов, пришедших за медицинской помощью, и выслушивал их банальные истории из жизни.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_JINWU_NAME" Language="ru_RU">
+			<Text>Пэнлай фехтование</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_JINWU_NAME" Language="ru_RU">
+			<Text>权钥-``Джуйо''</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_JINWU_NAME" Language="ru_RU">
+			<Text>вечное солнце</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_JINWU_NAME" Language="ru_RU">
+			<Text>Ключевой Конг - «Фан И·Бифан»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_LINGGUANG_NAME" Language="ru_RU">
+			<Text>Ворота Тяньнань Дхармы</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_LINGGUANG_NAME" Language="ru_RU">
+			<Text>Ключ – «Пять Ли»</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_LINGGUANG_NAME" Language="ru_RU">
+			<Text>Сюрприз Ночная Сова</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_LINGGUANG_NAME" Language="ru_RU">
+			<Text>Ки Конг - «Фан И·Хуан»</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_JINWU_NAME" Language="ru_RU">
+			<Text>Специальное убийство в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="ru_RU">
+			<Text>Специальная поддержка ближнего боя</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

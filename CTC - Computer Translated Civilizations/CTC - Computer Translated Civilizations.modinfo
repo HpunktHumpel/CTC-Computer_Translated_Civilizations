@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1697797181</Created>
+    <Created>1697819100</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -645,6 +645,13 @@
     </Criteria>
     <Criteria id="2818542908_InGame">
       <ModInUse>1914f8d6-d8a7-4131-af48-78c6cc066229</ModInUse>
+    </Criteria>
+    <!-- 3031187099 - 深空之眼 重置版核心代码-->
+    <Criteria id="3031187099_FrontEnd">
+      <ModIsEnabled>af157363-c730-4c81-b2bc-93f07eae9780</ModIsEnabled>
+    </Criteria>
+    <Criteria id="3031187099_InGame">
+      <ModInUse>af157363-c730-4c81-b2bc-93f07eae9780</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -2154,6 +2161,23 @@
       <File>2818542908/frontend_pl_PL.xml</File>
       <File>2818542908/frontend_ko_KR.xml</File>
       <File>2818542908/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3031187099 - 深空之眼 重置版核心代码-->
+    <UpdateText id="3031187099_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3031187099_FrontEnd</Criteria>
+      <File>3031187099/frontend_en_US.xml</File>
+      <File>3031187099/frontend_fr_FR.xml</File>
+      <File>3031187099/frontend_de_DE.xml</File>
+      <File>3031187099/frontend_it_IT.xml</File>
+      <File>3031187099/frontend_es_ES.xml</File>
+      <File>3031187099/frontend_ja_JP.xml</File>
+      <File>3031187099/frontend_ru_RU.xml</File>
+      <File>3031187099/frontend_pl_PL.xml</File>
+      <File>3031187099/frontend_ko_KR.xml</File>
+      <File>3031187099/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -3674,6 +3698,23 @@
       <File>2818542908/ingame_pl_PL.xml</File>
       <File>2818542908/ingame_ko_KR.xml</File>
       <File>2818542908/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3031187099 - 深空之眼 重置版核心代码-->
+    <UpdateText id="3031187099_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3031187099_InGame</Criteria>
+      <File>3031187099/ingame_en_US.xml</File>
+      <File>3031187099/ingame_fr_FR.xml</File>
+      <File>3031187099/ingame_de_DE.xml</File>
+      <File>3031187099/ingame_it_IT.xml</File>
+      <File>3031187099/ingame_es_ES.xml</File>
+      <File>3031187099/ingame_ja_JP.xml</File>
+      <File>3031187099/ingame_ru_RU.xml</File>
+      <File>3031187099/ingame_pl_PL.xml</File>
+      <File>3031187099/ingame_ko_KR.xml</File>
+      <File>3031187099/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
   </InGameActions>
   <Files>
@@ -5402,6 +5443,26 @@
     <File>3027509371/ingame_pl_PL.xml</File>
     <File>3027509371/ingame_ru_RU.xml</File>
     <File>3027509371/ingame_zh_Hant_HK.xml</File>
+    <File>3031187099/frontend_de_DE.xml</File>
+    <File>3031187099/frontend_en_US.xml</File>
+    <File>3031187099/frontend_es_ES.xml</File>
+    <File>3031187099/frontend_fr_FR.xml</File>
+    <File>3031187099/frontend_it_IT.xml</File>
+    <File>3031187099/frontend_ja_JP.xml</File>
+    <File>3031187099/frontend_ko_KR.xml</File>
+    <File>3031187099/frontend_pl_PL.xml</File>
+    <File>3031187099/frontend_ru_RU.xml</File>
+    <File>3031187099/frontend_zh_Hant_HK.xml</File>
+    <File>3031187099/ingame_de_DE.xml</File>
+    <File>3031187099/ingame_en_US.xml</File>
+    <File>3031187099/ingame_es_ES.xml</File>
+    <File>3031187099/ingame_fr_FR.xml</File>
+    <File>3031187099/ingame_it_IT.xml</File>
+    <File>3031187099/ingame_ja_JP.xml</File>
+    <File>3031187099/ingame_ko_KR.xml</File>
+    <File>3031187099/ingame_pl_PL.xml</File>
+    <File>3031187099/ingame_ru_RU.xml</File>
+    <File>3031187099/ingame_zh_Hant_HK.xml</File>
     <File>3033559468/frontend_de_DE.xml</File>
     <File>3033559468/frontend_en_US.xml</File>
     <File>3033559468/frontend_es_ES.xml</File>

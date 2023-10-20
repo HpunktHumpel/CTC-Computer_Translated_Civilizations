@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Oct 20 17:18:30 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ja_JP">
+			<Text>聖樹の領域</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ja_JP">
+			<Text>神域・聖樹</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ja_JP">
+			<Text>都市タイル内の森林に +1 [ICON_Production] 生産性に +2 [ICON_Food] 食料、熱帯雨林に +2 [ICON_Production] 生産性に +1 [ICON_Food] 領土タイルの食料、森林、熱帯雨林に +3</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ja_JP">
+			<Text>聖樹の領域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_ADJECTIVE" Language="ja_JP">
+			<Text>聖樹の王国</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_NAME" Language="ja_JP">
+			<Text>コレクター組織</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>[COLOR:ResMilitaryLabelCS]すべての軍事ユニットを構築することはできません[ENDCOLOR]が、モディファイアとサポートユニットは構築できます。ビルダー、スパイ、サポートユニットは、[ICON_Faith]信仰を使用していつでも購入できます[NEWLINE]モディファイアはテクノロジーや自治体の開発の増加によって変化します[ICON_Strength] の戦闘効果、[COLOR:ResMilitaryLabelCS] ですが、[ICON_Gold] の維持費も増加します [ENDCOLOR]。ユニットが完成すると、[ICON_Strength] の戦闘力と [ICON_Ranged] の遠距離攻撃力を都市に提供することはできず、連隊や軍隊に編成することもできません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>ミーミルシステム</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>保護区の代替となる聖樹の領域の特徴的なエリアは、最初はロック解除されており、低コストで価格が上昇することはなく、人口需要に関係なく建設できます。 [NEWLINE] Mitre システムは、周囲のセルに +2 [ICON_Gold] 金貨と +2 [ICON_Production] の生産性を提供します (建設されていない場合でも)。完成後、周囲のセルは +3 の魅力を受け取ります。 [NEWLINE]古代の森が建設された後、通常以上の魅力値を持つ周囲のセルは +2 [ICON_Food] +2 食料 [ICON_Faith] +1 [ICON_Science] 科学研究を獲得します。 [NEWLINE]シェルターが建設された後、平均以上の魅力を持つ周囲のセルは +1 [ICON_Production] +1 生産性 [ICON_Gold] +2 金貨 [ICON_Science] 科学研究を獲得します。 [NEWLINE]上記のボーナスは、セルの設備が改善されているかどうかに関係なく獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>猫部屋の管理</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>劇場広場に代わる聖樹ドメインの特徴的なエリアは、最初はロックが解除されており、無料で建設でき、価格は上昇せず、人口需要に関係なく建設できます。独自の [ICON_Culture] 文化と [ICON_Faith] 隣接ボーナスがあります</Text>
+		</Replace>
+		<Replace Tag="LOC_WONDER_CULTURE_HALF_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Culture] 文化は隣接する人工の驚異から生まれる</Text>
+		</Replace>
+		<Replace Tag="LOC_WONDER_FAITH_HALF_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Faith] 隣接する人工の驚異からの信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CULTURE_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Culture] 文化は隣接する地域から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CULTURE_FAITH_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Faith] 信仰は隣接する地域から生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTICAVALRY_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>エリート対騎兵モディファイアー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTICAVALRY_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代のユニークなユニットです。騎兵との戦いに非常に優れています。いくつかの特殊能力を持っていますが、装甲目標には非常に弱いです。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTIPANZER_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>エリート対戦車モディファイアー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>情報化時代における強力な特殊部隊であり、あらゆる装甲目標への対処に優れています。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>エリートヘビーウェポンモディファイアー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>様々な都市防衛に優れ、水上での戦闘も可能な情報化時代の強力な特殊部隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RANGED_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>エリートリモートコレクター</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RANGED_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>情報化時代における強力な特性ユニットで、遠距離から敵を倒すのが得意ですが、長距離の射撃鎮圧と騎馬による嫌がらせを恐れています。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SWORD_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>エリート近接モディファイアー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SWORD_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>前線での圧力に耐えるのが得意な原子力時代の強力な特殊部隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTICAVALRY_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>対騎兵修飾子</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTICAVALRY_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>特殊部隊、騎兵との戦いに非常に優れています[NEWLINE][COLOR:ResMilitaryLabelCS] 重騎兵技術を研究すると部隊の戦闘効率を向上させることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>対戦車改造剤</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>現代の特徴的なユニット。装甲目標への対処には優れていますが、複合装甲にはまだやや弱い[NEWLINE][COLOR:ResMilitaryLabelCS] 軽騎兵技術を研究することでユニットの戦闘効率を向上させることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>重武器修正者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>さまざまな都市防御に対処するのが得意で、水上で戦うことができる特殊部隊[NEWLINE][COLOR:ResMilitaryLabelCS] 軽騎兵と重騎兵の技術を研究することで、部隊の戦闘効率を向上させることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>リモートコレクタ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>特殊部隊。遠くから敵を倒すのが得意ですが、長距離の射撃鎮圧と騎兵による嫌がらせを恐れています[NEWLINE][COLOR:ResMilitaryLabelCS] 近接技術を研究することで部隊の戦闘効率を向上させることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>近接モディファイア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>最前線での抵抗に優れた特殊部隊 [NEWLINE][COLOR:ResMilitaryLabelCS] 近接技術を研究することで部隊の戦闘効率を向上させることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORSWORD_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>エリートヘビー近接モディファイアー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORSWORD_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>情報化時代の強力な特殊ユニットです。一部のモディファイアー リーダーのみが訓練できます。その戦闘効果は近接モディファイアーよりもはるかに高く、エリア制御を無視して都市の防御に完全なダメージを与えることができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SPECIALCOMBAT_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>エリートスペシャル近接モディファイアー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SPECIALCOMBAT_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>原子力時代の強力なユニークなユニットです。一部のモディファイア リーダーのみが訓練できます。射程 1 の [ICON_Ranged] 爆撃攻撃を持ち、水上で戦うことができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_LIGHTWEAPON_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>エリート小型武器モディファイアー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>情報化時代における強力なユニークなユニットです。一部のモディファイアー リーダーのみが訓練できます。重火器モディファイアーよりも優れた機動性を備えていますが、近接戦闘での有効性は非常に低いです。このモディファイアーの配備には注意してください。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>リロードされた近接モディファイア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>特別なユニット。一部の修正値リーダーのみが訓練できます。その戦闘効率は近接修正値よりもはるかに高く、エリア制御を無視して都市の防衛に完全なダメージを与えることができます。[NEWLINE][COLOR:ResMilitaryLabelCS] 軽騎兵と重騎兵のテクノロジーを研究してくださいユニットの戦闘効率を向上させることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な近接修正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>特別なユニット。一部のモディファイア リーダーのみが訓練でき、射程 1 の [ICON_Ranged] 爆撃攻撃を持ち、水上で戦うことができます[NEWLINE][COLOR:ResMilitaryLabelCS] 近接技術を研究することでユニットの戦闘効率を向上させることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>小型武器修正剤</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>特別なユニット。一部のモディファイア リーダーのみが訓練できます。重火器モディファイアよりも強力な機動力を持っていますが、近接戦闘での有効性は非常に低いです。このモディファイアは慎重に配備してください。[NEWLINE][COLOR:ResMilitaryLabelCS] ユニットを可能にする近接技術を研究してください。戦闘の増加を実現します。有効性[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="ja_JP">
+			<Text>論理のサイクル</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>独自の戦闘効果を持つユニークな支援ユニットです 初期からいくつかの特殊能力を持っています 通常の改造機よりも高い機動力を持ち、編隊ユニットをどこまでも護衛することができます [COLOR: ResMilitaryLabelCS] ただし、このユニットの維持コストは非常に高くなります高いので気をつけてください。 [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] 軽騎兵と重騎兵のテクノロジーを研究すると、ユニットの戦闘効率を向上させることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="ja_JP">
+			<Text>ヘラ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAILA_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>他人とのコミュニケーションが苦手で、いつも一人静かに夜空を眺めている少女には、幼い頃暗い経験があったようだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_NAME" Language="ja_JP">
+			<Text>元鬼棒天狗</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>活発で屈託のない、元鬼坊は深宇宙の目最大のトラブルメーカーです。彼女はあり余るエネルギーをすべていたずらに費やし、「ホウグイ」という名前の空気友達がいると主張していましたが、ホウグイの存在が真実かどうかは誰も知りませんでした。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>オシリス</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>本部で一番人気の矯正者は、皆から親しみを込めて「リトル・オシリス」と呼ばれている。仲間の悩みを察知した後は、常に仲間のことを第一に考え、静かに助けを差し伸べようとする。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_NAME" Language="ja_JP">
+			<Text>ヴェルダンテ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>リヴァイアサン</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIWEITAN_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>毎日元気いっぱいのリヴァイアサンは、たまに戸惑うところが可愛い男の子です♪無邪気で活発な性格ですが、意外と嫉妬深いので、彼女の前ではあまりヴィダルに近づかないでください。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>ビダル</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>凍てついた原始地帯から連れ戻されたモディファイアは、長年の孤独な生活から少々冷たく孤独な印象を持ち、対人コミュニケーションが苦手なようだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SIKADI_RELOAD_NAME" Language="ja_JP">
+			<Text>スカディ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SIKADI_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>スカディは、Xio の命令を直接受け入れる第 9 部の数少ない現場修正官の 1 人であり、特に海域で目に見える残骸活動の兆候を調査する責任を負っています。表面的には飄々として見えるが、ここぞという場面では常に船長らしい勇気を見せる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_NAME" Language="ja_JP">
+			<Text>大国主</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>「自由な研究と発明を行う」という条件で深宇宙の目に加わった少女は、現在未確認動物学チームで働いている。ただし、雇われているにもかかわらず死体との戦いにはほとんど参加せず、発明とタロットカードにしか興味がない様子。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>ヘイムダル</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>隠された科学チームの主要リーダーの一人であり、「ミーミルシステム」を含む深宇宙の目におけるほとんどのAIシステムを開発しました。視覚的な骨格を完全に排除することを目標に、あらゆる作業において正確さと効率性を追求します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_NAME" Language="ja_JP">
+			<Text>ホーデル</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>情報部の一員であるホーデルと妹のバドルは双子である。妹の明るく寛大な性格とは異なり、ホーデルは妹の光に黙って従うだけで、自分自身をあまり明らかにしません。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SHAOXILISI_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>オシリスと全く同じ姿をしているが、内面の支配的な性格は狂気の「冥王星」であり、強大な力を持ち、他の修飾者との協力を軽視する。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TUOER_RELOAD_NAME" Language="ja_JP">
+			<Text>ソー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TUOER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>ディープ・スペース・アイの「サンダー部隊」の隊長であり、組織最強の戦闘員。チームの様々な行動は、失敗が続いても、最後は彼女の力を頼りに必ずやり遂げる。ソーは正義感に優れていますが、そのワイルドな戦闘スタイルに反して、物事に対処する際にはしばしば衝動的になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}: ユニットの戦闘力 +7[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 3[ICON_Gold] -3[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: ユニットの戦闘力 +10[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 3[ICON_Gold] -3[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: ユニットの戦闘力 +16[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: ユニットの戦闘力 +9[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] ゴールド コイン (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_CASTLES_NAME}: ユニットの戦闘力 +20 [ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1 [ICON_Gold] 金貨 (維持費) [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_BALLISTICS_NAME}: ユニットの戦闘力 +14[ICON_Strength]、1 ターンあたり [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_COMBUSTION_NAME}: ユニットの戦闘力 +21[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 2[ICON_Gold] -2[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_SYNTHETIC_MATERIALS_NAME}: ユニットの戦闘力 +1[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] ゴールド コイン (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_STIRRUPS_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_STIRRUPS_NAME}: ユニットの戦闘力 +20[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 2[ICON_Gold] -2[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: ユニットの対空戦闘力 +16[ICON_AntiAir_Large]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: ユニットの対空戦闘力 +9[ICON_AntiAir_Large]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: ユニットの対空戦闘力 +10[ICON_AntiAir_Large]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{TECH_MILITARY_SCIENCE}: ユニットの対空戦闘力 +10[ICON_AntiAir_Large]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: ユニット +10[ICON_AntiAir_Large] 対空戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: ユニットの戦闘力 +10[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_ANTI_AIR_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: ユニットの対空戦闘力 +10[ICON_AntiAir_Large]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_FLIGHT_ADD_1_RANGE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_FLIGHT_NAME}: ユニット +1[ICON_Range] 範囲</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPUTERS_ADD_2_RANGE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_COMPUTERS_NAME}: 単位 + 2 [ICON_Range] 範囲</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_IRON_WORKING_NAME} の戦闘力 + {1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_GUNPOWDER_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME} の戦闘力 + {1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME} の戦闘力 + {1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_CASTLES_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_BALLISTICS_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_COMBUSTION_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_SYNTHETIC_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_STIRRUPS_ADD_20_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_STIRRUPS_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_COMPOSITES_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SWORD_FIXER_ADD_10_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>対騎兵ユニットに対する戦闘力 +10 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SWORD_FIXER_ADD_10_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>重火器修正値に対する戦闘力 +10 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>重騎兵ユニットに対する戦闘力 -20[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_LIGHT_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>-20[ICON_Strength]軽騎兵ユニットに対する戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ja_JP">
+			<Text>遠距離ユニットに対する戦闘力 -20[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>重騎兵ユニットに対する戦闘力 +35[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_LIGHT_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>軽騎兵ユニットに対する戦闘力 +35[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>+35 [ICON_Strength] 重火器修正値に対する戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_MELEE_DESCRIPTION" Language="ja_JP">
+			<Text>近接ユニットに対する戦闘力 -10[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ja_JP">
+			<Text>遠距離ユニットに対する戦闘力 -10[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_ADD_10_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ja_JP">
+			<Text>遠距離ユニットに対する戦闘力 +10[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_ADD_20_COMBAT_VS_CLASS_RANGED_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>遠距離モディファイアに対する戦闘力 +20 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_REDUCE_35_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>対騎兵ユニットに対する戦闘力 -35 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_AFTER_ATTACK_KEEP_MOVEING_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットは攻撃後も[ICON_Movement]移動を続けることができます</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット [ICON_Movement] は移動時に地形や河川横断のペナルティを受けません</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ATTACK_AGAIN_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット[ICON_Turn]の攻撃力+1</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_AMPHIBIOUS_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットは水中でも戦える</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットは都市の防御に完全なダメージを与えます</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットは [ICON_Strength] の近接攻撃を使用できません</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ESCORT_MOBILITY_SHARED_MOVEMENT_DESCRIPTION" Language="ja_JP">
+			<Text>フォーメーション内のすべてのユニットはこのユニットの[ICON_Movement]の移動力を得る</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_MEELE_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットは都市の防御に完全なダメージを与えます</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_ANTICAVALRY_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>近接対騎兵</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_ANTIPANZER_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>長距離対戦車</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>遠隔包囲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_RANGED_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>遠隔殺害</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SWORD_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>近接攻撃によるキル</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_ARMORSWORD_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>近接包囲戦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SPECIALCOMBAT_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>特殊近接ダメージ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_LIGHTWEAPON_FIXER_RELOAD_NAME" Language="ja_JP">
+			<Text>遠隔包囲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_XUNLIZHIHUAN_RELOAD_NAME" Language="ja_JP">
+			<Text>遠隔包囲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_HAILA_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な遠隔包囲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_QIANGUIFANG_RELOAD_NAME" Language="ja_JP">
+			<Text>特殊な遠距離殺害</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_AOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な近接包囲攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_WEIERDANDI_RELOAD_NAME" Language="ja_JP">
+			<Text>近接攻撃によるキル</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_LIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な近接包囲攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_WEIDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な近接包囲攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_NICHAOLIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>特殊近接ダメージ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SIKADI_RELOAD_NAME" Language="ja_JP">
+			<Text>特殊近接ダメージ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_DAGUOZHU_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な遠隔包囲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_HAIMUDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な遠隔包囲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_HUODEER_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な遠隔包囲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SHAOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な近接包囲攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_TUOER_RELOAD_NAME" Language="ja_JP">
+			<Text>特別な近接包囲攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_1_A_COMMOM_FIXER_NAME" Language="ja_JP">
+			<Text>レベルアップ</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_1_B_COMMOM_FIXER_NAME" Language="ja_JP">
+			<Text>意識の超越</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_COMMOM_FIXER_NAME" Language="ja_JP">
+			<Text>神格の共鳴</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_COMMOM_FIXER_NAME" Language="ja_JP">
+			<Text>鍵を強化する</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_COMMOM_FIXER_NAME" Language="ja_JP">
+			<Text>装備の彫刻</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_COMMOM_FIXER_NAME" Language="ja_JP">
+			<Text>超越キー</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_4_COMMOM_FIXER_NAME" Language="ja_JP">
+			<Text>同時昇華</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_2_COMBAT_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットの戦闘力 +2[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_1_MOVENENT_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット+1[ICON_Movement]移動</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_4_1_ESCORT_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットの戦闘力は +4 [ICON_Strength]、+1 [ICON_Movement] の移動力を持ち、すべての編隊ユニットは付随するユニットの [ICON_Movement] の移動力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_3_COMBAT_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットの戦闘力 +3[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_2_MOVENENT_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット+2[ICON_Movement]の移動</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_7_4_ESCORT_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットの戦闘力は+7[ICON_Strength]、移動力は+4[ICON_Movement]で、すべての編隊ユニットは同行ユニットの[ICON_Movement]移動力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_HAILA_RELOAD_NAME" Language="ja_JP">
+			<Text>魔弾のダンス</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_HAILA_RELOAD_NAME" Language="ja_JP">
+			<Text>キー - 「遅さ」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_HAILA_RELOAD_NAME" Language="ja_JP">
+			<Text>静かな宮殿</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_HAILA_RELOAD_NAME" Language="ja_JP">
+			<Text>キーフロム - 「妖精ミュリエル」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_QIANGUIFANG_RELOAD_NAME" Language="ja_JP">
+			<Text>スウィフトショット</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_QIANGUIFANG_RELOAD_NAME" Language="ja_JP">
+			<Text>キー「彗星」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_QIANGUIFANG_RELOAD_NAME" Language="ja_JP">
+			<Text>栄光のオベリスク</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_QIANGUIFANG_RELOAD_NAME" Language="ja_JP">
+			<Text>キーコン「式神・若者黒童子」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_AOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>徐明連続カット</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_AOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>キー「アンダーワールド」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_AOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>勇気の証</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_AOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>「キングス・カバ」からのキー</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_WEIERDANDI_RELOAD_NAME" Language="ja_JP">
+			<Text>剣と盾の猛攻</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_WEIERDANDI_RELOAD_NAME" Language="ja_JP">
+			<Text>鍵「運命の盾」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_WEIERDANDI_RELOAD_NAME" Language="ja_JP">
+			<Text>永劫的玄鸟</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_WEIERDANDI_RELOAD_NAME" Language="ja_JP">
+			<Text>キーサーヴァント『妖精エステル』</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_LIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>ヘビーアンカースワイプ</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_LIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>鍵「クックのホーリーアンカー」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_LIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>スーの氷の深淵</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_LIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>主要フォロワー「ザ・ディターミネーター・ベルセ・バブ」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_WEIDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>氷狩り</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_WEIDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>キー「フロストファング」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_WEIDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>スーの氷の深淵</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_WEIDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>キーサーヴァント「妖精ティムシラク」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_NICHAOLIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>スウェルストライク</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_NICHAOLIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>キー - 「潮流に抗うクジラの歌」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_NICHAOLIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>預言者のエコー</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_NICHAOLIWEITAN_RELOAD_NAME" Language="ja_JP">
+			<Text>キーコン「デスティナー・サイペイ」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_SIKADI_RELOAD_NAME" Language="ja_JP">
+			<Text>波を切る剣</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_SIKADI_RELOAD_NAME" Language="ja_JP">
+			<Text>キー「チョッピングウェーブ」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_SIKADI_RELOAD_NAME" Language="ja_JP">
+			<Text>スーの氷の深淵</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_SIKADI_RELOAD_NAME" Language="ja_JP">
+			<Text>キーサーヴァント『フェアリーグレイ』</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_DAGUOZHU_RELOAD_NAME" Language="ja_JP">
+			<Text>バニーアイアンフィスト</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_DAGUOZHU_RELOAD_NAME" Language="ja_JP">
+			<Text>キー「チュチュデバイスセット」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_DAGUOZHU_RELOAD_NAME" Language="ja_JP">
+			<Text>スパルタの咆哮</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_DAGUOZHU_RELOAD_NAME" Language="ja_JP">
+			<Text>キーコン「式神・弥生元結び」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_HAIMUDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>宇宙線</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_HAIMUDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>キー - 「理性の指輪」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_HAIMUDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>栄光のオベリスク</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_HAIMUDAER_RELOAD_NAME" Language="ja_JP">
+			<Text>キーサーヴァント「妖精エイヤウェン」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_HUODEER_RELOAD_NAME" Language="ja_JP">
+			<Text>精密射撃</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_HUODEER_RELOAD_NAME" Language="ja_JP">
+			<Text>Key-「夜のパラサイト」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_HUODEER_RELOAD_NAME" Language="ja_JP">
+			<Text>静かな宮殿</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_HUODEER_RELOAD_NAME" Language="ja_JP">
+			<Text>キーサーヴァント「妖精エルヴィン」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_SHAOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>空と闇の鎌</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_SHAOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>Key「ボーンソウル」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_SHAOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>ウィンドロード</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_SHAOXILISI_RELOAD_NAME" Language="ja_JP">
+			<Text>「ナイジリヒト王」のキー</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_TUOER_RELOAD_NAME" Language="ja_JP">
+			<Text>雷鳴</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_TUOER_RELOAD_NAME" Language="ja_JP">
+			<Text>キー「ムジョルニア」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_TUOER_RELOAD_NAME" Language="ja_JP">
+			<Text>永遠の戦車</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_TUOER_RELOAD_NAME" Language="ja_JP">
+			<Text>キーサーヴァント『妖精セレブリアンヌ』</Text>
+		</Replace>
+		<Replace Tag="LOC_UPGRATE_2_COMBAT_TEXT" Language="ja_JP">
+			<Text>ユニットのアップグレードで戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_UPGRATE_3_COMBAT_TEXT" Language="ja_JP">
+			<Text>ユニットのアップグレードで戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_UPGRATE_4_COMBAT_TEXT" Language="ja_JP">
+			<Text>ユニットのアップグレードで戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_UPGRATE_7_COMBAT_TEXT" Language="ja_JP">
+			<Text>ユニットのアップグレードで戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_NAME" Language="ja_JP">
+			<Text>生態学的な製材所</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_DESCRIPTION" Language="ja_JP">
+			<Text>特別な改善施設。一部の Modifier リーダーのみが建設できます。建設後、+2 [ICON_Production] 生産性、+1 周囲セルのチャーム。改善された施設は、セル チャーム値に基づいて追加の 50% [ICON_Gold] 金貨生産量を獲得できます。 , 関連テクノロジーを研究すると、[ICON_Production] の生産性が向上します。 {LOC_TECH_INDUSTRIALIZATION_NAME}を研究した後、改善された施設は金貨の生産に基づいて50% [ICON_Tourism]の観光パフォーマンスを得ることができ、森林または熱帯雨林のあるセルにのみ建設できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_NAME" Language="ja_JP">
+			<Text>極地科学研究ワークステーション</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="ja_JP">
+			<Text>特別な改善施設、一部の修正リーダーのみが建設可能、{LOC_TECH_MINING_NAME}、+1 [ICON_Science] 研究によってロック解除され、隣接する異なる地形と改善施設は追加の成果を得ることができ、関連技術を研究した後、より多くの [ICON_Science] を取得できます。研究、[ICON_Food] の食料、[ICON_Gold] の金貨、[ICON_Production] の生産性は、雪の丘にのみ建設できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="ja_JP">
+			<Text>極地科学研究居住区</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="ja_JP">
+			<Text>特別な改善施設、一部の修飾リーダーのみが建設可能、+1[ICON_Culture]文化+1[ICON_Production]生産性、さまざまな隣接する地形と改善施設は追加の生産物を得ることができ、関連技術を研究した後、より多くの[ ICON_Food]食品を入手できます, [ICON_Gold] の金貨と [ICON_Production] の生産性は、凍土、凍土の丘、雪の上にのみ建設できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="ja_JP">
+			<Text>大型科学研究船</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_DESCRIPTION" Language="ja_JP">
+			<Text>特別な改善施設。一部のモディファイアー リーダーのみが建設できます。{LOC_TECH_SHIPBUILDING_NAME}、+1[ICON_Food] 食品 +1[ICON_Culture] 文化によってロック解除されます。隣接する別の改善施設は追加の出力を取得できます。関連技術を研究した後に取得できます。その他の出力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_NAME" Language="ja_JP">
+			<Text>海事科学研究プラットフォーム</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_DESCRIPTION" Language="ja_JP">
+			<Text>特別な改善施設。一部の Modifier リーダーのみが建設できます。{LOC_TECH_SHIPBUILDING_NAME}、+1[ICON_Production] 生産性 +1[ICON_Science] 研究によってロック解除されます。隣接する別の改善施設は追加の出力を取得できます。関連技術を研究した後に取得できます。その他の出力。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ja_JP">
+			<Text>天源神界</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ja_JP">
+			<Text>天源神界</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_ADJECTIVE" Language="ja_JP">
+			<Text>天源神界</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ja_JP">
+			<Text>神界・天元</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>天鹿貿易</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>天源神界の特徴的なエリアは、商業センターの代替であり、最初はロックが解除されており、コストが低く、価格が上昇することはなく、人口の需要に関係なく建設できます。ユニークな [ICON_Food] 食品隣接ボーナスを特徴とし、[ICON_Food] 食品隣接ボーナスは [ICON_Gold] ゴールド コインも提供します。完了後、2 [ICON_TradeRoute] 貿易容量が獲得され、2 つの商人ユニットがギフトとして与えられます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>四方原</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>天源神の領域の特徴的なエリアは聖地の代わりであり、最初はロックが解除されており、無料で建設でき、価格は上昇せず、人口の需要に関係なく建設できます。ユニークな [ICON_Food] 食品隣接ボーナスが特徴で、[ICON_Food] 食品隣接ボーナスも [ICON_Faith] 信仰を提供します</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食料は隣接するエリアから調達されます</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食べ物は隣接する山から採れます</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食料は隣接する資源から得られます</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 人工の不思議な食べ物</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食料は隣接する水域から来ます</Text>
+		</Replace>
+		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_IMPROVEMENT_GREY_WORKSTATION_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_IMPROVEMENT_GREY_WORKSTATION_NAME} の +{1_num} 個の [ICON_Food] 食品</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GREY_WORKSTATION_NAME" Language="ja_JP">
+			<Text>徐恒鉱山</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GREY_WORKSTATION_DESCRIPTION" Language="ja_JP">
+			<Text>機能の改善。天源神界のモディファイアリーダーのみが建設できます、+3 [ICON_Food] 食料 +2 [ICON_Production] 生産性 +2 [ICON_Faith] 信仰 関連技術を研究した後、より多くの [ICON_Production] 生産性を得ることができます</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ja_JP">
+			<Text>都市を設立すると膨大な領土を得ることができ、住民は山に登ることができ、山 + 2 [ICON_Food] の食料 + 5 [ICON_Gold] 金貨</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="ja_JP">
+			<Text>ゴールデンクロウ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JINWU_DESCRIPTION" Language="ja_JP">
+			<Text>徐恒で生まれた彼は、子供の頃から師匠の西和に従い、南礁島の若木宮で天通術を練習していました。彼は正しく正義の人ですが、何らかの理由で二次的な問題を抱えています。先生の指導に従い、現在下山練習中です。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LINGGUANG_NAME" Language="ja_JP">
+			<Text>陵光</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LINGGUANG_DESCRIPTION" Language="ja_JP">
+			<Text>四方原の南道氏の代理人は医師であり、人民の苦しみをよく知っている。彼女は南焦市に診療所「Chi Qi Tang」を設立し、病気の症状に対する解決策の知識を広めるために多くの支店を開設しました。霊光さんは、治療を求めて来た患者を治療するために自ら病院を頻繁に訪れ、彼らの些細な人生の話に耳を傾けた。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_JINWU_NAME" Language="ja_JP">
+			<Text>蓬莱剣術</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_JINWU_NAME" Language="ja_JP">
+			<Text>权钥-「十曜」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_JINWU_NAME" Language="ja_JP">
+			<Text>永遠の太陽</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_JINWU_NAME" Language="ja_JP">
+			<Text>キーコン - 「ファン・イー・ビーファン」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_A_LINGGUANG_NAME" Language="ja_JP">
+			<Text>天南法門</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_2_B_LINGGUANG_NAME" Language="ja_JP">
+			<Text>キー - 「五里」</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_A_LINGGUANG_NAME" Language="ja_JP">
+			<Text>サプライズナイトフクロウ</Text>
+		</Replace>
+		<Replace Tag="LOC_LEVEL_3_B_LINGGUANG_NAME" Language="ja_JP">
+			<Text>キーコン - 「ファン・イー・ファン」</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_JINWU_NAME" Language="ja_JP">
+			<Text>特殊近接キル</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="ja_JP">
+			<Text>特別な近接戦闘サポート</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
