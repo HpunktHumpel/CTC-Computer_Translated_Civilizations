@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="c8f09ba6-b9e9-4a37-b91e-b692831d4871" version="9">
+<Mod id="c8f09ba6-b9e9-4a37-b91e-b692831d4871" version="10">
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1694508125</Created>
+    <Created>1697797181</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -638,6 +638,13 @@
     </Criteria>
     <Criteria id="3027509371_InGame">
       <ModInUse>9c709a6b-b3fe-426e-b9b7-1d9eb34ce4b8</ModInUse>
+    </Criteria>
+    <!-- 2818542908 - 碧蓝档案 千禧年学园的爱丽丝-->
+    <Criteria id="2818542908_FrontEnd">
+      <ModIsEnabled>1914f8d6-d8a7-4131-af48-78c6cc066229</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2818542908_InGame">
+      <ModInUse>1914f8d6-d8a7-4131-af48-78c6cc066229</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -2130,6 +2137,23 @@
       <File>3027509371/frontend_pl_PL.xml</File>
       <File>3027509371/frontend_ko_KR.xml</File>
       <File>3027509371/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2818542908 - 碧蓝档案 千禧年学园的爱丽丝-->
+    <UpdateText id="2818542908_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2818542908_FrontEnd</Criteria>
+      <File>2818542908/frontend_en_US.xml</File>
+      <File>2818542908/frontend_fr_FR.xml</File>
+      <File>2818542908/frontend_de_DE.xml</File>
+      <File>2818542908/frontend_it_IT.xml</File>
+      <File>2818542908/frontend_es_ES.xml</File>
+      <File>2818542908/frontend_ja_JP.xml</File>
+      <File>2818542908/frontend_ru_RU.xml</File>
+      <File>2818542908/frontend_pl_PL.xml</File>
+      <File>2818542908/frontend_ko_KR.xml</File>
+      <File>2818542908/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -3634,6 +3658,23 @@
       <File>3027509371/ingame_ko_KR.xml</File>
       <File>3027509371/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2818542908 - 碧蓝档案 千禧年学园的爱丽丝-->
+    <UpdateText id="2818542908_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2818542908_InGame</Criteria>
+      <File>2818542908/ingame_en_US.xml</File>
+      <File>2818542908/ingame_fr_FR.xml</File>
+      <File>2818542908/ingame_de_DE.xml</File>
+      <File>2818542908/ingame_it_IT.xml</File>
+      <File>2818542908/ingame_es_ES.xml</File>
+      <File>2818542908/ingame_ja_JP.xml</File>
+      <File>2818542908/ingame_ru_RU.xml</File>
+      <File>2818542908/ingame_pl_PL.xml</File>
+      <File>2818542908/ingame_ko_KR.xml</File>
+      <File>2818542908/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2007640634/frontend_de_DE.xml</File>
@@ -3976,6 +4017,26 @@
     <File>2794097210/ingame_pl_PL.xml</File>
     <File>2794097210/ingame_ru_RU.xml</File>
     <File>2794097210/ingame_zh_Hant_HK.xml</File>
+    <File>2818542908/frontend_de_DE.xml</File>
+    <File>2818542908/frontend_en_US.xml</File>
+    <File>2818542908/frontend_es_ES.xml</File>
+    <File>2818542908/frontend_fr_FR.xml</File>
+    <File>2818542908/frontend_it_IT.xml</File>
+    <File>2818542908/frontend_ja_JP.xml</File>
+    <File>2818542908/frontend_ko_KR.xml</File>
+    <File>2818542908/frontend_pl_PL.xml</File>
+    <File>2818542908/frontend_ru_RU.xml</File>
+    <File>2818542908/frontend_zh_Hant_HK.xml</File>
+    <File>2818542908/ingame_de_DE.xml</File>
+    <File>2818542908/ingame_en_US.xml</File>
+    <File>2818542908/ingame_es_ES.xml</File>
+    <File>2818542908/ingame_fr_FR.xml</File>
+    <File>2818542908/ingame_it_IT.xml</File>
+    <File>2818542908/ingame_ja_JP.xml</File>
+    <File>2818542908/ingame_ko_KR.xml</File>
+    <File>2818542908/ingame_pl_PL.xml</File>
+    <File>2818542908/ingame_ru_RU.xml</File>
+    <File>2818542908/ingame_zh_Hant_HK.xml</File>
     <File>2837886503/frontend_de_DE.xml</File>
     <File>2837886503/frontend_en_US.xml</File>
     <File>2837886503/frontend_es_ES.xml</File>

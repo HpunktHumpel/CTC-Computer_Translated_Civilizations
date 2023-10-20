@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1914f8d6-d8a7-4131-af48-78c6cc066229" version="2">
+  <Properties>
+    <Name>碧蓝档案-千禧年学园的爱丽丝</Name>
+    <Description>出自手游《碧蓝档案》(Blue Archive)(ブルアカ)
+
+爱丽丝非常可爱, 非常可爱, 因为很可爱所以要说两遍（但是我没抽到）,希望大家使用这个角色能玩的开心OwO</Description>
+    <Created>1655130168</Created>
+    <Teaser>碧蓝档案-千禧年学园的爱丽丝</Teaser>
+    <Authors>YAYAYA</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Localize.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>MillenniumAlice.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>DistrictMillennium.sql</File>
+      <File>BuildingMillennium.sql</File>
+      <File>CiviMillenniumModify.sql</File>
+      <File>CiviMillennium.xml</File>
+      <File>LeaderAlice.xml</File>
+      <File>LeaderAliceModify.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Localize.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>MillenniumAlice.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>Colors.sql</File>
+    </UpdateColors>
+    <AddGameplayScripts id="NewAction">
+      <File>LeaderAlice.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>BuildingMillennium.sql</File>
+    <File>CiviMillennium.xml</File>
+    <File>CiviMillenniumModify.sql</File>
+    <File>Colors.sql</File>
+    <File>Config.xml</File>
+    <File>DistrictMillennium.sql</File>
+    <File>Icons.xml</File>
+    <File>LeaderAlice.lua</File>
+    <File>LeaderAlice.xml</File>
+    <File>LeaderAliceModify.sql</File>
+    <File>Localize.xml</File>
+    <File>MillenniumAlice.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+  </Files>
+</Mod>
