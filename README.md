@@ -116,6 +116,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3027509371](https://steamcommunity.com/sharedfiles/filedetails/?id=3027509371) | 野兽先辈领导的下北泽文明 | The Shimokitazawa civilization led by the beast ancestors |
 | [3031187099](https://steamcommunity.com/sharedfiles/filedetails/?id=3031187099) | 深空之眼 重置版核心代码 | Eye of Deep Space Reset Core Code |
 | [3031188502](https://steamcommunity.com/sharedfiles/filedetails/?id=3031188502) | 深空之眼 暗星·海拉领袖包 重置版 | Eye of Deep Space Dark Star Hela Leader Pack Reset Version |
+| [3031803413](https://steamcommunity.com/sharedfiles/filedetails/?id=3031803413) | 深空之眼 旧誓·薇儿丹蒂领袖包 重置版 | Eye of Deep Space Old Oath Verdandi Leader Pack Reset Version |
 | [3032032487](https://steamcommunity.com/sharedfiles/filedetails/?id=3032032487) | 深空之眼 斩浪·丝卡蒂领袖包 重置版 | Eye of Deep Space Wave-Slasher Skadi Leader Pack Reset Version |
 | [3032113167](https://steamcommunity.com/sharedfiles/filedetails/?id=3032113167) | 深空之眼 镇魂乐章·海拉领袖包 重置版 | Eye of Deep Space Soul Movement·Hela Leader Pack Reset Edition |
 | [3032568412](https://steamcommunity.com/sharedfiles/filedetails/?id=3032568412) | 深空之眼 轰雷·托尔领袖包 重置版 | Eye of Deep Space Thunder Thor Leader Pack Remastered Edition |
