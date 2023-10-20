@@ -117,6 +117,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3031187099](https://steamcommunity.com/sharedfiles/filedetails/?id=3031187099) | 深空之眼 重置版核心代码 | Eye of Deep Space Reset Core Code |
 | [3033559468](https://steamcommunity.com/sharedfiles/filedetails/?id=3033559468) | 绿洲和他的领袖威夫斯 | Oasis and his leader Waves |
 | [3034078134](https://steamcommunity.com/sharedfiles/filedetails/?id=3034078134) | 厨神领导的帕依提提文明 | The Paititi civilization led by the God of Cooking |
+| [3051035869](https://steamcommunity.com/sharedfiles/filedetails/?id=3051035869) | 深空之眼 乌手中十曜终结你的恶行 | The Eye of Deep Space, the ten rays in the black hand put an end to your evil deeds |
 
 ## How does it work?
 I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports[*] a request for translation is send to google.translate.
