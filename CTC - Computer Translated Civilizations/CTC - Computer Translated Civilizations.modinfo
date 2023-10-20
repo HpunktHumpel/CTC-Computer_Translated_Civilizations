@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1697842060</Created>
+    <Created>1697842979</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -715,6 +715,13 @@
     </Criteria>
     <Criteria id="3031803413_InGame">
       <ModInUse>3f1a79f7-c442-4e8a-92ac-a0b3eeb47e2d</ModInUse>
+    </Criteria>
+    <!-- 3031225828 - 深空之眼 寒霜之牙 维达尔领袖包 重置版-->
+    <Criteria id="3031225828_FrontEnd">
+      <ModIsEnabled>26191d2a-f04d-40a2-a3f5-edcd57540dde</ModIsEnabled>
+    </Criteria>
+    <Criteria id="3031225828_InGame">
+      <ModInUse>26191d2a-f04d-40a2-a3f5-edcd57540dde</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -2394,6 +2401,23 @@
       <File>3031803413/frontend_pl_PL.xml</File>
       <File>3031803413/frontend_ko_KR.xml</File>
       <File>3031803413/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3031225828 - 深空之眼 寒霜之牙 维达尔领袖包 重置版-->
+    <UpdateText id="3031225828_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3031225828_FrontEnd</Criteria>
+      <File>3031225828/frontend_en_US.xml</File>
+      <File>3031225828/frontend_fr_FR.xml</File>
+      <File>3031225828/frontend_de_DE.xml</File>
+      <File>3031225828/frontend_it_IT.xml</File>
+      <File>3031225828/frontend_es_ES.xml</File>
+      <File>3031225828/frontend_ja_JP.xml</File>
+      <File>3031225828/frontend_ru_RU.xml</File>
+      <File>3031225828/frontend_pl_PL.xml</File>
+      <File>3031225828/frontend_ko_KR.xml</File>
+      <File>3031225828/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -4084,6 +4108,23 @@
       <File>3031803413/ingame_pl_PL.xml</File>
       <File>3031803413/ingame_ko_KR.xml</File>
       <File>3031803413/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3031225828 - 深空之眼 寒霜之牙 维达尔领袖包 重置版-->
+    <UpdateText id="3031225828_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3031225828_InGame</Criteria>
+      <File>3031225828/ingame_en_US.xml</File>
+      <File>3031225828/ingame_fr_FR.xml</File>
+      <File>3031225828/ingame_de_DE.xml</File>
+      <File>3031225828/ingame_it_IT.xml</File>
+      <File>3031225828/ingame_es_ES.xml</File>
+      <File>3031225828/ingame_ja_JP.xml</File>
+      <File>3031225828/ingame_ru_RU.xml</File>
+      <File>3031225828/ingame_pl_PL.xml</File>
+      <File>3031225828/ingame_ko_KR.xml</File>
+      <File>3031225828/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
   </InGameActions>
   <Files>
@@ -5852,6 +5893,26 @@
     <File>3031188502/ingame_pl_PL.xml</File>
     <File>3031188502/ingame_ru_RU.xml</File>
     <File>3031188502/ingame_zh_Hant_HK.xml</File>
+    <File>3031225828/frontend_de_DE.xml</File>
+    <File>3031225828/frontend_en_US.xml</File>
+    <File>3031225828/frontend_es_ES.xml</File>
+    <File>3031225828/frontend_fr_FR.xml</File>
+    <File>3031225828/frontend_it_IT.xml</File>
+    <File>3031225828/frontend_ja_JP.xml</File>
+    <File>3031225828/frontend_ko_KR.xml</File>
+    <File>3031225828/frontend_pl_PL.xml</File>
+    <File>3031225828/frontend_ru_RU.xml</File>
+    <File>3031225828/frontend_zh_Hant_HK.xml</File>
+    <File>3031225828/ingame_de_DE.xml</File>
+    <File>3031225828/ingame_en_US.xml</File>
+    <File>3031225828/ingame_es_ES.xml</File>
+    <File>3031225828/ingame_fr_FR.xml</File>
+    <File>3031225828/ingame_it_IT.xml</File>
+    <File>3031225828/ingame_ja_JP.xml</File>
+    <File>3031225828/ingame_ko_KR.xml</File>
+    <File>3031225828/ingame_pl_PL.xml</File>
+    <File>3031225828/ingame_ru_RU.xml</File>
+    <File>3031225828/ingame_zh_Hant_HK.xml</File>
     <File>3031803413/frontend_de_DE.xml</File>
     <File>3031803413/frontend_en_US.xml</File>
     <File>3031803413/frontend_es_ES.xml</File>
