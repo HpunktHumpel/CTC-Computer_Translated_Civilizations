@@ -54,6 +54,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2899426416](https://steamcommunity.com/sharedfiles/filedetails/?id=2899426416) | Date.A.Live-Core | Date.A.Live-Core |
 | [2899472522](https://steamcommunity.com/sharedfiles/filedetails/?id=2899472522) | Date.A.Live-TokisakiKurumi Reloaded | Date.A.Live-TokisakiKurumi Reloaded |
 | [2903392018](https://steamcommunity.com/sharedfiles/filedetails/?id=2903392018) | 明日方舟 幽灵鲨 | Tomorrow's Ark Ghost Shark |
+| [2905910661](https://steamcommunity.com/sharedfiles/filedetails/?id=2905910661) | 鍛煎競浜屼腑鏂囨槑鍜屽懆鐜夐紟棰嗚 | Forged and fried Jingbang |
 | [2915346438](https://steamcommunity.com/sharedfiles/filedetails/?id=2915346438) | Date.A.Bullet-WhiteQueen Reloaded | Date.A.Bullet-WhiteQueen Reloaded |
 | [2917686453](https://steamcommunity.com/sharedfiles/filedetails/?id=2917686453) | [TOUHOU]东方project MOD——魂魄妖梦 | [TOUHOU] Oriental project mod - Soul Demon Dream |
 | [2919794042](https://steamcommunity.com/sharedfiles/filedetails/?id=2919794042) | [TouHou]东方project MOD 河城荷取 | [TouHou] Oriental project MOD River City Hotori |

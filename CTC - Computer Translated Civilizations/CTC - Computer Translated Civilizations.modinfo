@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1698087636</Created>
+    <Created>1698089773</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -813,6 +813,13 @@
     </Criteria>
     <Criteria id="2872033513_InGame">
       <ModInUse>3eab9917-37ff-4744-8b2e-9410cdf46a9f</ModInUse>
+    </Criteria>
+    <!-- 2905910661 - 呼市二中文明和周玉鼎领袖-->
+    <Criteria id="2905910661_FrontEnd">
+      <ModIsEnabled>c7d7cdc6-4634-449c-9edd-6ae351d92bec</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2905910661_InGame">
+      <ModInUse>c7d7cdc6-4634-449c-9edd-6ae351d92bec</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -2728,6 +2735,23 @@
       <File>2872033513/frontend_pl_PL.xml</File>
       <File>2872033513/frontend_ko_KR.xml</File>
       <File>2872033513/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2905910661 - 呼市二中文明和周玉鼎领袖-->
+    <UpdateText id="2905910661_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2905910661_FrontEnd</Criteria>
+      <File>2905910661/frontend_en_US.xml</File>
+      <File>2905910661/frontend_fr_FR.xml</File>
+      <File>2905910661/frontend_de_DE.xml</File>
+      <File>2905910661/frontend_it_IT.xml</File>
+      <File>2905910661/frontend_es_ES.xml</File>
+      <File>2905910661/frontend_ja_JP.xml</File>
+      <File>2905910661/frontend_ru_RU.xml</File>
+      <File>2905910661/frontend_pl_PL.xml</File>
+      <File>2905910661/frontend_ko_KR.xml</File>
+      <File>2905910661/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -4655,6 +4679,23 @@
       <File>2872033513/ingame_ko_KR.xml</File>
       <File>2872033513/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2905910661 - 呼市二中文明和周玉鼎领袖-->
+    <UpdateText id="2905910661_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2905910661_InGame</Criteria>
+      <File>2905910661/ingame_en_US.xml</File>
+      <File>2905910661/ingame_fr_FR.xml</File>
+      <File>2905910661/ingame_de_DE.xml</File>
+      <File>2905910661/ingame_it_IT.xml</File>
+      <File>2905910661/ingame_es_ES.xml</File>
+      <File>2905910661/ingame_ja_JP.xml</File>
+      <File>2905910661/ingame_ru_RU.xml</File>
+      <File>2905910661/ingame_pl_PL.xml</File>
+      <File>2905910661/ingame_ko_KR.xml</File>
+      <File>2905910661/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2007640634/frontend_de_DE.xml</File>
@@ -5213,6 +5254,26 @@
     <File>2903392018/ingame_pl_PL.xml</File>
     <File>2903392018/ingame_ru_RU.xml</File>
     <File>2903392018/ingame_zh_Hant_HK.xml</File>
+    <File>2905910661/frontend_de_DE.xml</File>
+    <File>2905910661/frontend_en_US.xml</File>
+    <File>2905910661/frontend_es_ES.xml</File>
+    <File>2905910661/frontend_fr_FR.xml</File>
+    <File>2905910661/frontend_it_IT.xml</File>
+    <File>2905910661/frontend_ja_JP.xml</File>
+    <File>2905910661/frontend_ko_KR.xml</File>
+    <File>2905910661/frontend_pl_PL.xml</File>
+    <File>2905910661/frontend_ru_RU.xml</File>
+    <File>2905910661/frontend_zh_Hant_HK.xml</File>
+    <File>2905910661/ingame_de_DE.xml</File>
+    <File>2905910661/ingame_en_US.xml</File>
+    <File>2905910661/ingame_es_ES.xml</File>
+    <File>2905910661/ingame_fr_FR.xml</File>
+    <File>2905910661/ingame_it_IT.xml</File>
+    <File>2905910661/ingame_ja_JP.xml</File>
+    <File>2905910661/ingame_ko_KR.xml</File>
+    <File>2905910661/ingame_pl_PL.xml</File>
+    <File>2905910661/ingame_ru_RU.xml</File>
+    <File>2905910661/ingame_zh_Hant_HK.xml</File>
     <File>2915346438/frontend_de_DE.xml</File>
     <File>2915346438/frontend_en_US.xml</File>
     <File>2915346438/frontend_es_ES.xml</File>
