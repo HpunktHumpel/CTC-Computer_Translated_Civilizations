@@ -94,6 +94,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2970750119](https://steamcommunity.com/sharedfiles/filedetails/?id=2970750119) | Ophidy's Solisia 远古回响索利西亚 | Ophidy's Solisia echoes in ancient times|
 | [2970823129](https://steamcommunity.com/sharedfiles/filedetails/?id=2970823129) | [TOUHOU]东方project 番外之页——EX露米娅 | [TOUHOU] Oriental Project Fanwai Page – EX Lumia |
 | [2973049234](https://steamcommunity.com/sharedfiles/filedetails/?id=2973049234) | [GS] miHoYo Coporation(CN text only) | [GS] miHoYo Coporation(CN text only) |
+| [2974355369](https://steamcommunity.com/sharedfiles/filedetails/?id=2974355369) | Apostle Empire 使徒帝国 1.0 | Apostle Empire Apostle Empire 1.0 |
 | [2974358065](https://steamcommunity.com/sharedfiles/filedetails/?id=2974358065) | 키리후지 나기사의 트리니티 종합학원 | Trinity Comprehensive Academy in Kirifuji Nagisa |
 | [2974754410](https://steamcommunity.com/sharedfiles/filedetails/?id=2974754410) | Re: Life in a Different World from Zero Witch's Tea Party | Re: Life in a Different World from Zero Witch's Tea Party |
 | [2976893035](https://steamcommunity.com/sharedfiles/filedetails/?id=2976893035) | 츠카츠키 리오의 밀레니엄 사이언스 스쿨 | Tsukatsuki Rio's Millennium Science School |

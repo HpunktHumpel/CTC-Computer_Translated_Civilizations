@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Mon Oct 23 23:12:08 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVINFO_HEADER_CIVILIZATION_AE_SILENT_REPUBLIC" Language="ja_JP">
+			<Text>何のことですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_CAPTION_CIVILIZATION_AE_SILENT_REPUBLIC" Language="ja_JP">
+			<Text>これは何ですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AE_SILENT_REPUBLIC_NAME" Language="ja_JP">
+			<Text>静けさ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AE_SILENT_REPUBLIC_DESCRIPTION" Language="ja_JP">
+			<Text>静けさ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AE_SILENT_REPUBLIC_ADJECTIVE" Language="ja_JP">
+			<Text>サイレントの</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_SILENT" Language="ja_JP">
+			<Text>静けさ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_KHAGANQUEST_PATH_NAME" Language="ja_JP">
+			<Text>天図</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_KHAGANQUEST_PATH_DESCRIPTION" Language="ja_JP">
+			<Text>首都は大預言者を獲得し、文明独自の [ICON_GreatSaints] 聖人を擁しますが、他の偉人を採用することはできません。 [NewLine] ユニークな総督、ドーンを雇用できます。 [NewLine] すべての都市の忠誠度は 100% に固定されます [NewLine] 戦略資源 +2 [ICON_Production] 生産性 +1 [ICON_Faith] 信仰値。 [NewLine] 首都宮殿 +1 [ICON_Faith] +1 信仰値 [ICON_Science] +1 技術値 [ICON_Culture] 文化値。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_AE_MINEINORI_NAME" Language="ja_JP">
+			<Text>マイノリ</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_AE_MINEINORI_QUOTE" Language="ja_JP">
+			<Text>Meinoli 導入プレースホルダー</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AE_MINEINORI_NAME" Language="ja_JP">
+			<Text>煉獄の適応</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AE_MINEINORI_DESCRIPTION" Language="ja_JP">
+			<Text>都市が忠誠心を失って別の文明を離れた後、毎ラウンドマイノリへの忠誠度が最も高ければ、自由都市になる段階をスキップして直接マイノリ文明に加わります。 [NewLine] 人口あたり +0.5 [ICON_Faith]。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_AE_SAINT_NAME" Language="ja_JP">
+			<Text>議題</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_AE_SAINT_DESCRIPTION" Language="ja_JP">
+			<Text>議題の説明のプレースホルダー</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_AE_MINEINORI" Language="ja_JP">
+			<Text>偉大なる統治者にして預言者――マイノリ！あなたは天罰後の惑星アイザックの文明の方向を導き、宗教によって世界を統一し、新生サイレント・リパブリックをめくるめく星の海へと導きました！物言わぬ人々が破壊は再生であることを常に忘れないように！</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_AE_FLAWLESS_NAME" Language="ja_JP">
+			<Text>フラワリス</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_AE_FLAWLESS_QUOTE" Language="ja_JP">
+			<Text>Floweris がプレースホルダーを導入</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AE_FLAWLESS_NAME" Language="ja_JP">
+			<Text>メタルコントロール</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AE_FLAWLESS_DESCRIPTION" Language="ja_JP">
+			<Text>金属資源 (鉄、アルミニウム、ウラン、銅、水銀、銀) +1 [ICON_Production] 生産性。 [NewLine] 工業化技術の研究後、人口あたりの生産性 [ICON_Production] +0.5。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_AE_INDUSTRIAL_REVOLUTION_NAME" Language="ja_JP">
+			<Text>議題</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_AE_INDUSTRIAL_REVOLUTION_DESCRIPTION" Language="ja_JP">
+			<Text>議題の説明のプレースホルダー</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_AE_FLAWLESS" Language="ja_JP">
+			<Text>強くて美しい鉄拳のリーダー——完璧！サイレント文明が崩壊寸前の時、あなたはパートナーの残した重荷を引き継ぎ、サイレントの民を使徒帝国の未来へ導き、星の海にその名を響かせましょう！栄光は不滅であり、使徒は永遠に生き続けるのです！</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_APOSTLE_MONUMENT_NAME" Language="ja_JP">
+			<Text>使徒のオベリスク</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_APOSTLE_MONUMENT_DESCRIPTION" Language="ja_JP">
+			<Text>占星術がアンロックされ、聖地の特別なエリアが置き換えられ、生産コストが削減され、技術の進歩によって価格がほとんど上昇しません。 [NewLine] には信仰値に対する全地形 [ICON_Faith] 標準隣接ボーナスがあり、使徒建設センターまたは使徒メンテナンス キャビンに隣接すると大量の隣接ボーナスを受け取ります。対照的に、このエリアには他の隣接ボーナスはありません。 [NewLine] この地域を所有する都市は、国内交易路の出発点として使用すると +1 [ICON_Food] 食料 +1 [ICON_Production] 生産性を獲得し、貿易ルートとして使用すると +1 [ICON_Faith] 信仰 +1 [ICON_Gold] ゴールドを獲得します。国内交易路の終点 交易路終点 +1 [ICON_Faith] 信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_CONSTRUCTION_CENTER_NAME" Language="ja_JP">
+			<Text>使徒建築センター</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_CONSTRUCTION_CENTER_DESCRIPTION" Language="ja_JP">
+			<Text>青銅の鋳造スキルが解放され、工業地帯の特別エリアに取って代わられ、生産コストが削減され、技術の進歩によって価格がほとんど上昇しません。 [NewLine] には生産性に関する全地形 [ICON_Production] の標準隣接ボーナスがあり、使徒オベリスクまたは使徒メンテナンス キャビンに隣接すると大きな追加隣接ボーナスが得られます。対照的に、このエリアには他の隣接ボーナスはありません。 [NewLine] この地域を所有する都市は、交易路の出発点として使用すると +1 [ICON_Food] 食料 +1 [ICON_Production] 生産性を獲得し、使用すると +1 [ICON_Production] 生産性 +1 [ICON_Science] 科学値 +1 を獲得します国内貿易ルートの終点として [ICON_Culture] 文化価値、外国貿易ルートの終点として +1 [ICON_Production] 生産性。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_MAINTENANCE_CABIN_NAME" Language="ja_JP">
+			<Text>使徒整備小屋</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_MAINTENANCE_CABIN_DESCRIPTION" Language="ja_JP">
+			<Text>都市化が解放され、コミュニティの特徴的なエリアが置き換えられ、生産性コストが削減され、技術の進歩によって価格が上昇することはありません。セルのカリスマを無視し、+8 [ICON_Housing] +8 [ICON_Food] Food を固定し、隣接するセルに +2 [ICON_Food] Food を提供します (タイルごとに 1 回のみ取得可能)。 【NewLine】はエリア防御とエリアコントロール能力を持っています。 [NewLine] この地域を所有する都市は、交易路の出発点として使用される場合、+1 [ICON_Food] 食料 +1 [ICON_Production] 生産性を獲得し、国内として使用される場合、+1 [ICON_Food] 食料 +1 [ICON_Production] 生産性を獲得します。終点</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_ALLOYS_NAME" Language="ja_JP">
+			<Text>金属印刷工場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_ALLOYS_DESCRIPTION" Language="ja_JP">
+			<Text>ワークショップの注目の建物を +2 [ICON_GreatSaints] セントポイントに置き換えます。 [NewLine] 完了後、ターンごとに [ICON_RESOURCE_IRON] 鉄 [ICON_RESOURCE_ALUMINIUM] アルミニウム [ICON_RESOURCE_URANIUM] ウランの追加ポイントを提供します</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_DREAMCATCHER_NAME" Language="ja_JP">
+			<Text>アニミスティックドリームキャッチャー</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_DREAMCATCHER_DESCRIPTION" Language="ja_JP">
+			<Text>神社に代わる建物をフィーチャーし、[ICON_GreatSaints] の聖人ポイントを +2 します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_ENERGY_CONVERSION_PLANT_NAME" Language="ja_JP">
+			<Text>エネルギー変換プラント</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_ENERGY_CONVERSION_PLANT_DESCRIPTION" Language="ja_JP">
+			<Text>原子力発電所に代わる注目の建物、+16 [ICON_GreatSaints] セントポイント。 [NewLine] は、[ICON_RESOURCE_URANIUM] ウランをより効率的に使用して発電できます。 [NewLine] そのボーナスは 9 タイル以内のすべての都市中心部に適用されます (他の「発電所」の建物からボーナスを受け取っていない場合に限ります)。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_FLOW_WIDE_AREA_NAME" Language="ja_JP">
+			<Text>流れの広がり</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_FLOW_WIDE_AREA_DESCRIPTION" Language="ja_JP">
+			<Text>寺院の施設を +4 [ICON_GreatSaints] の聖人ポイントに置き換えます。 [NewLine]+1 [ICON_GreatWork_Relic] レリックスロット</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_GENERAL_NETWORK_NAME" Language="ja_JP">
+			<Text>使徒ネットワーク</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_GENERAL_NETWORK_DESCRIPTION" Language="ja_JP">
+			<Text>ラジオのロックが解除され、サイレントのユニークなシビック センターの建物。 [NewLine]+100% [ICON_GreatSaints] 聖人ポイントを獲得しました。 [NewLine] 知事の称号、原子力へのアクセス、および前時代のすべての [ICON_TechBoosted] エウレカと [ICON_CivicBoosted] ブーストを獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_MONUMENT_NAME" Language="ja_JP">
+			<Text>使徒記念碑</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_MONUMENT_DESCRIPTION" Language="ja_JP">
+			<Text>記念碑に代わる特徴的な建物、+1 [ICON_GreatWork_Relic] 遺物スロット、+1 [ICON_Culture] 文化値により、各ラウンドでこの都市の忠誠度 +2 になります。 [NewLine] 都市の忠誠心が最高レベルに達すると、さらに +1 [ICON_Culture] 文化値 +4 [ICON_Faith] 信仰値を受け取ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_ROCIVIA_ALTAR_NAME" Language="ja_JP">
+			<Text>ルシヴィアの祭壇</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_ROCIVIA_ALTAR_DESCRIPTION" Language="ja_JP">
+			<Text>王の神聖な権利によってロックが解除された、サイレントのユニークな聖地の建物。 [NewLine]+20% [ICON_GreatSaints] 聖人ポイントを獲得しました。 +8 [ICON_Faith] 信仰、+8 [ICON_GreatSaints] 聖人ポイント。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_SUBSTANCE_SYNTHESIS_PLANT_NAME" Language="ja_JP">
+			<Text>素材合成工場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AE_SUBSTANCE_SYNTHESIS_PLANT_DESCRIPTION" Language="ja_JP">
+			<Text>工場に代わる注目の建物、+4 [ICON_GreatSaints] セイントポイント。 [NewLine] 電力供給が十分な場合、多くの追加出力が得られます [NewLine] ボーナスは 9 タイル以内のすべての都市中心部に適用されます (他の工場の建物からボーナスを受け取っていない場合に限ります)。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AE_EXECUTER_NAME" Language="ja_JP">
+			<Text>代行者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_AE_EXECUTER_NAME" Language="ja_JP">
+			<Text>代行者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AE_EXECUTER_DESCRIPTION" Language="ja_JP">
+			<Text>サイレントは工業時代の近接ユニットを特徴としています。 [NewLine] 高価であり、使徒オベリスクエリアを生産または購入する必要があります。 【NewLine】は強力な戦闘力、高い機動力、独自の昇進ルート、そして対空能力を備えています。維持費はもっと高価です。 [NewLine] 敵都市のユニットを殺害すると、その都市の忠誠心が低下します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_1_NAME" Language="ja_JP">
+			<Text>清明</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_1_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Movement] 移動、崖を登ることができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_2_NAME" Language="ja_JP">
+			<Text>善行を奨励する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_2_DESCRIPTION" Language="ja_JP">
+			<Text>フォーメーションを組んでいると戦闘力が [ICON_Strength] +8 され、フォーメーション ユニットは随伴ユニットのすべての [ICON_Movement] 移動力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_3_NAME" Language="ja_JP">
+			<Text>まぶしさ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_3_DESCRIPTION" Language="ja_JP">
+			<Text>+1 視界範囲、森林、ジャングル、山を通過できる視界、遠距離攻撃から防御する際の +8 [ICON_Strength] 戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_4_NAME" Language="ja_JP">
+			<Text>悪を排除する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_4_DESCRIPTION" Language="ja_JP">
+			<Text>どのような状況でも戦闘力が +8 [ICON_Strength] 増加し、対空防御時には戦闘力がさらに +16 [ICON_Strength] 増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_5_NAME" Language="ja_JP">
+			<Text>WTOに加盟する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_5_DESCRIPTION" Language="ja_JP">
+			<Text>1 タイル内の近くのユニットに追加の +16 回復を提供し、攻撃後に回復することができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_6_NAME" Language="ja_JP">
+			<Text>雲泥</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_6_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットを倒すと +40 [ICON_GreatSaints] セイント ポイントを獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_7_NAME" Language="ja_JP">
+			<Text>リウリ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_7_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Movement] 移動、略奪には 1 ポイントの [ICON_Movement] 移動のみが必要です。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_8_NAME" Language="ja_JP">
+			<Text>劉裕</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_EXECUTER_8_DESCRIPTION" Language="ja_JP">
+			<Text>いかなる状況下でも戦闘力 +16 [ICON_Strength]、ラウンドごとに追加攻撃力 +1。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AE_BISHOP_NAME" Language="ja_JP">
+			<Text>司教</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_AE_BISHOP_NAME" Language="ja_JP">
+			<Text>司教</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AE_BISHOP_DESCRIPTION" Language="ja_JP">
+			<Text>サイレント機能情報時代のリモートユニット。 [NewLine] 高価であり、使徒オベリスクエリアを生産または購入する必要があります。 【NewLine】は非常に強力な戦闘効果、高い機動力、独自の昇進ルートを持ち、対空防御も可能。メンテナンスには非常に費用がかかります。 [NewLine] 敵都市のユニットを殺害すると、その都市の忠誠心が低下します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_1_NAME" Language="ja_JP">
+			<Text>隙間に入る</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_1_DESCRIPTION" Language="ja_JP">
+			<Text>+2 [ICON_Movement] 移動、崖を登ることができ、編隊ユニットは随伴ユニットのすべての [ICON_Movement] 移動を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_2_NAME" Language="ja_JP">
+			<Text>落ちた英</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_2_DESCRIPTION" Language="ja_JP">
+			<Text>+1 視界範囲、視界は森、ジャングル、山を通過でき、目に見えないユニットを検出でき、あらゆる状況で +8 [ICON_Strength] 戦闘力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_3_NAME" Language="ja_JP">
+			<Text>城営</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_3_DESCRIPTION" Language="ja_JP">
+			<Text>+16 [ICON_Strength] フォーメーション内にいるときの戦闘力。このユニットは隣接する敵ユニットのみに発見されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_4_NAME" Language="ja_JP">
+			<Text>ウェンシュエ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_4_DESCRIPTION" Language="ja_JP">
+			<Text>どのような状況でも戦闘力が +16 [ICON_Strength] 増加し、対空防御時には戦闘力がさらに +16 [ICON_Strength] 増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_5_NAME" Language="ja_JP">
+			<Text>戦争をやめてください</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_5_DESCRIPTION" Language="ja_JP">
+			<Text>+2 [ICON_Movement] の移動。森、ジャングル、丘、湿地を通過するときに消費されるのは [ICON_Movement] の移動ポイント 1 つだけです。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_6_NAME" Language="ja_JP">
+			<Text>泡立て器</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_6_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットを倒すと +80 [ICON_GreatSaints] セイント ポイントを獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_7_NAME" Language="ja_JP">
+			<Text>持っていない</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_7_DESCRIPTION" Language="ja_JP">
+			<Text>+2 [ICON_Movement] 移動、略奪には 1 ポイントの [ICON_Movement] 移動のみが必要です。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_8_NAME" Language="ja_JP">
+			<Text>山と川</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_AE_BISHOP_8_DESCRIPTION" Language="ja_JP">
+			<Text>いかなる状況下でも戦闘力 +32 [ICON_Strength]、ラウンドごとに追加攻撃力 +1。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_SAINTS_NAME" Language="ja_JP">
+			<Text>聖人</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GREAT_SAINTS_DESCRIPTION" Language="ja_JP">
+			<Text>サイレントには偉人たちが登場します。 [NewLine] 聖者の名を持つサイレント人は皆、サイレント文明が宇宙に参入する前に、あらゆる歴史的結節点で重要な役割を果たしました。使徒帝国は神々についての真実が明らかになるまで彼らを記憶し続けるだろう。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GOVERNOR_AE_DAWN_NAME" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GOVERNOR_AE_DAWN_DESCRIPTION" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_AE_DAWN_NAME" Language="ja_JP">
+			<Text>夜明け</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_AE_DAWN_TITLE" Language="ja_JP">
+			<Text>AI</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_AE_DAWN_SHORT_TITLE" Language="ja_JP">
+			<Text>AI</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_AE_DAWN_DESCRIPTION" Language="ja_JP">
+			<Text>自称使徒帝国兵器庫のオフライン人工知能は、文明の存続と栄光を助けるために、遠い未来から現在へと旅してきました。 [NewLine] 彼女は強力なサポート能力を持っており、ほぼあらゆる方向であなたの文明に大きな助けとなります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_0_NAME" Language="ja_JP">
+			<Text>敬虔な</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_0_DESCRIPTION" Language="ja_JP">
+			<Text>人口あたり +1 [ICON_Faith]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_1_1_NAME" Language="ja_JP">
+			<Text>軍隊を指揮する</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_1_1_DESCRIPTION" Language="ja_JP">
+			<Text>すべてのユニットの戦闘経験 +100%、兵舎や建物の建設時の [ICON_Production] 生産性 +100%</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_1_2_NAME" Language="ja_JP">
+			<Text>市街地の管理</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_1_2_DESCRIPTION" Language="ja_JP">
+			<Text>既存および新しく建設された都市は自動的に古代の城壁と使徒の記念碑を受け取ります</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_2_1_NAME" Language="ja_JP">
+			<Text>技術的な問題</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_2_1_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Science] テクノロジー +1 [ICON_Production] 人口あたりの生産性、[ICON_TechBoosted] エウレカ +75% テクノロジーの進歩</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_2_2_NAME" Language="ja_JP">
+			<Text>政務の補佐</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_2_2_DESCRIPTION" Language="ja_JP">
+			<Text>+1 [ICON_Culture] 文化値 +1 [ICON_Gold] ゴールド コイン (人口あたり)、[ICON_CivicBoosted] 奨励 +75% 自治体の進歩</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_3_NAME" Language="ja_JP">
+			<Text>使徒は永遠に生きる</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AE_DAWN_3_DESCRIPTION" Language="ja_JP">
+			<Text>すべての都市の生産性は +100% [ICON_Production]、電力は +16 [ICON_Power] です。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_THE_KINGS_QUARRELED_NAME" Language="ja_JP">
+			<Text>王同士の争い</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_THE_KINGS_QUARRELED_DESCRIPTION" Language="ja_JP">
+			<Text>ターンごとに [ICON_Faith] 信仰と [ICON_Culture] 文化を提供する地域ベースのアイテム。完了報酬 [ICON_GreatSaints] セイントポイント。 [改行]は1回のみ実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_GOD_PUNISHED_THE_WORLD_NAME" Language="ja_JP">
+			<Text>天罰が世界に訪れる</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_GOD_PUNISHED_THE_WORLD_DESCRIPTION" Language="ja_JP">
+			<Text>ターンごとに[ICON_Faith]信仰を提供するゾーンベースのアイテム。完了報酬 [ICON_GreatSaints] セイントポイント。 [改行]は1回のみ実行できます。 [NewLine][NewLine]完了時に繰り返し可能なアイテムのロックを解除[NewLine][NewLine]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_REBIRTH_FROM_THE_WASTELAND_NAME" Language="ja_JP">
+			<Text>荒野の再生</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_REBIRTH_FROM_THE_WASTELAND_DESCRIPTION" Language="ja_JP">
+			<Text>ターンごとに [ICON_Faith] 信仰と [ICON_Gold] ゴールドを提供するゾーンベースのアイテム。完了報酬 [ICON_GreatSaints] セイントポイント。 [改行]は1回のみ実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_PROSPEROUS_UNIFICATION_NAME" Language="ja_JP">
+			<Text>繁栄と団結</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_PROSPEROUS_UNIFICATION_DESCRIPTION" Language="ja_JP">
+			<Text>ターンごとに [ICON_Faith] 信仰と [ICON_Gold] ゴールドを提供するゾーンベースのアイテム。完了報酬 [ICON_GreatSaints] セイントポイント。 [改行]は1回のみ実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_ONE_STEP_AT_A_TIME_NAME" Language="ja_JP">
+			<Text>天国への一歩</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AE_ONE_STEP_AT_A_TIME_DESCRIPTION" Language="ja_JP">
+			<Text>ターンごとに [ICON_Faith] 信仰と [ICON_Gold] ゴールドを提供するゾーンベースのアイテム。完了報酬 [ICON_GreatSaints] セイントポイント。 [改行]は繰り返し可能です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BASE_AE_APOSTLE_MONUMENT" Language="ja_JP">
+			<Text>+6 [ICON_Faith] 隣接するすべての地形タイルからの信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BASE_AE_CONSTRUCTION_CENTER" Language="ja_JP">
+			<Text>+6 [ICON_Production] 隣接するすべての地形タイルからの信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_FAITH_AE_CONSTRUCTION_CENTER" Language="ja_JP">
+			<Text>+{1_num} [ICON_Faith] 信仰値は、隣接する使徒の建物の中央セルから得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_CULTURE_AE_CONSTRUCTION_CENTER" Language="ja_JP">
+			<Text>+{1_num} [ICON_Culture] 文化値は、隣接する使徒の建物の中央セルから得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_SCIENCE_AE_CONSTRUCTION_CENTER" Language="ja_JP">
+			<Text>+{1_num} [ICON_Science] テクノロジー値は、隣接する使徒の建造物の中央セルから得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_PRODUCTION_AE_CONSTRUCTION_CENTER" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する使徒建設センターのセルから生産されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_FAITH_AE_APOSTLE_MONUMENT" Language="ja_JP">
+			<Text>+{1_num} [ICON_Faith] 隣接する使徒オベリスクタイルの信仰値。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_CULTURE_AE_APOSTLE_MONUMENT" Language="ja_JP">
+			<Text>+{1_num} [ICON_Culture] 隣接する使徒オベリスクセルからの培養値。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_SCIENCE_AE_APOSTLE_MONUMENT" Language="ja_JP">
+			<Text>+{1_num} [ICON_Science] 科学値は、隣接する使徒オベリスク タイルから得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_PRODUCTION_AE_APOSTLE_MONUMENT" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する使徒オベリスク タイルからの生産。</Text>
+		</Replace>
+		<Replace Tag="DISTRICT_AE_ADJACENT_FAITH_AE_MAINTENANCE_CABIN" Language="ja_JP">
+			<Text>+{1_num} [ICON_Faith] 信仰値は、隣接する使徒メンテナンス ベイ セルから得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_PRODUCTION_AE_MAINTENANCE_CABIN" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する使徒メンテナンス ベイ セルからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_GOLD_AE_MAINTENANCE_CABIN" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食料は隣接する使徒メンテナンスベイセルから来ます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AE_ADJACENT_FOOD_AE_MAINTENANCE_CABIN" Language="ja_JP">
+			<Text>+{1_num} [ICON_Gold] 金コインは、隣接する使徒の保守小屋の独房から入手できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ENLIGHTENER_NAME" Language="ja_JP">
+			<Text>啓発者</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ENLIGHTENER_ACTION" Language="ja_JP">
+			<Text>+20% [ICON_GreatSaints] セイント ポイントを獲得し、すべての古代および古典時代の [ICON_TechBoosted] エウレカと [ICON_CivicBoosted] ブーストを獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAVIGATOR_NAME" Language="ja_JP">
+			<Text>ガイド</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAVIGATOR_ACTION" Language="ja_JP">
+			<Text>すべてのパスファインダーとビルダーの +20% [ICON_GreatSaints] セイント ポイントと +1 [ICON_Movement] 移動力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_LIBERATOR_NAME" Language="ja_JP">
+			<Text>解放者</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_LIBERATOR_ACTION" Language="ja_JP">
+			<Text>選択された [ICON_District] 使徒オベリスクはすぐにアニミスティック ドリームキャッチャーを獲得し、すべてのアニミスティック ドリームキャッチャーは +0.5 [ICON_Culture] 文化値 + 0.5 [ICON_Science] テクノロジー値を持ちます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TOILER_NAME" Language="ja_JP">
+			<Text>禁欲的な</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TOILER_ACTION" Language="ja_JP">
+			<Text>+20% [ICON_GreatSaints] 聖人ポイントを獲得し、宗教ユニット、宣教師、使徒の移動 +2 [ICON_Movement] でさらに 1 回宗教を広めることができ、神学戦争での戦闘力 +20 [ICON_Strength] を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RECORDER_NAME" Language="ja_JP">
+			<Text>レコーダー</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RECORDER_ACTION" Language="ja_JP">
+			<Text>+20% [ICON_GreatSaints] セイント ポイントを獲得し、すべての中世の [ICON_TechBoosted] エウレカと [ICON_CivicBoosted] ブーストにアクセスできるようになります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_INQUISITOR_NAME" Language="ja_JP">
+			<Text>裁判官</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_INQUISITOR_ACTION" Language="ja_JP">
+			<Text>[ICON_GreatSaints] セイント ポイントを 20% 獲得します。都市の宗教的圧力が +100% 増加しました。使徒は自動的に殉教者アップグレードを受け、戦闘ユニットは +8 [ICON_Strength] の戦闘力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RETRIBUTOR_NAME" Language="ja_JP">
+			<Text>パニッシャー</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RETRIBUTOR_ACTION" Language="ja_JP">
+			<Text>[ICON_Governor] 知事の称号を獲得し、2 人の [ICON_Envoy] 特使を受け取ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PITIFUL_NAME" Language="ja_JP">
+			<Text>仏</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PITIFUL_ACTION" Language="ja_JP">
+			<Text>[ICON_GreatSaints] 聖人ポイント +20% を獲得します。戦闘後、すべてのユニットの体力が自動的に回復します。敵を倒した後、基本戦闘力 [ICON_Strength] の 100% である [ICON_Faith] 信仰値を獲得し、[ICON_Damagged] を 32 回復します』が生きています。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DEVOTEE_NAME" Language="ja_JP">
+			<Text>敬虔な</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DEVOTEE_ACTION" Language="ja_JP">
+			<Text>[ICON_GreatSaints] 聖人ポイント +20% を獲得し、都市国家に宗教的圧力を 400 ポイント与える使者を派遣し、近隣都市への宗教的蔓延の圧力を 800% 増加させます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DREADNOUGHT_NAME" Language="ja_JP">
+			<Text>恐れ知らずの</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DREADNOUGHT_ACTION" Language="ja_JP">
+			<Text>[ICON_GreatSaints] +20% 聖人ポイント、すべてのユニットのビジョン +2 を獲得し、戦闘ユニットはダメージ デバフを無視します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCULPTOR_NAME" Language="ja_JP">
+			<Text>ナレーター</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SCULPTOR_ACTION" Language="ja_JP">
+			<Text>使徒を取得すると、ランダムなルネサンス市営を受け取ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOMECOMING_NAME" Language="ja_JP">
+			<Text>帰国者</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOMECOMING_ACTION" Language="ja_JP">
+			<Text>[ICON_GreatSaints] 聖人ポイント + 40%、[ICON_Gold] 金貨と戦闘ユニットをアップグレードするための戦略的リソースのコスト -50% を獲得し、敵都市のユニットを殺害すると都市の忠誠心が減少します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BLESSED_NAME" Language="ja_JP">
+			<Text>受福者</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BLESSED_ACTION" Language="ja_JP">
+			<Text>選択された [ICON_District] 使徒オベリスクはすぐにアニミスティック ドリーム キャッチャーとフロー ブロードニングを獲得し、すべてのフロー ワイドニングは +0.5 [ICON_Culture] 文化値 + 0.5 [ICON_Science] 科学技術値を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FORBIDDEN_NAME" Language="ja_JP">
+			<Text>ストッパー</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FORBIDDEN_ACTION" Language="ja_JP">
+			<Text>[ICON_GreatSaints] から +40% のセイント ポイントを獲得し、すべての産業時代の [ICON_TechBoosted] エウレカと [ICON_CivicBoosted] ブーストを獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FORGIVER_NAME" Language="ja_JP">
+			<Text>許す人</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FORGIVER_ACTION" Language="ja_JP">
+			<Text>[ICON_GreatSaints] 聖人ポイント +40%、国内都市スパイレベル -4 を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_THE_DREAMER_NAME" Language="ja_JP">
+			<Text>ドリーマー</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_THE_DREAMER_ACTION" Language="ja_JP">
+			<Text>選択した [ICON_District] 大学は、図書館、大学、研究室にすぐにアクセスできるようになります。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIGHTS_WATCHER_NAME" Language="ja_JP">
+			<Text>夜警</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIGHTS_WATCHER_ACTION" Language="ja_JP">
+			<Text>選択された[ICON_District]使徒建設センターは、金属印刷プラント、材料合成プラント、エネルギー変換プラントを即座に取得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TERMINATOR_NAME" Language="ja_JP">
+			<Text>ターミネーター</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TERMINATOR_ACTION" Language="ja_JP">
+			<Text>[ICON_GreatSaints]聖人ポイント+40%を獲得し、蓄積された疲労度が通常より100%減少します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WATCHER_NAME" Language="ja_JP">
+			<Text>観察者</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WATCHER_ACTION" Language="ja_JP">
+			<Text>外交的可視性 +2、あなたのスパイは利用可能なアップグレードを選択できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GARRISON_NAME" Language="ja_JP">
+			<Text>駐屯地</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GARRISON_ACTION" Language="ja_JP">
+			<Text>ランダムなテクノロジーと自治体を 2 つ入手します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TRIUMPH_NAME" Language="ja_JP">
+			<Text>勝ち誇った</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TRIUMPH_ACTION" Language="ja_JP">
+			<Text>外交勝利ポイントを 24 獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_1" Language="ja_JP">
+			<Text>フェイ・イー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_2" Language="ja_JP">
+			<Text>ゲピ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_3" Language="ja_JP">
+			<Text>羽人</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_4" Language="ja_JP">
+			<Text>ソウル化</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_5" Language="ja_JP">
+			<Text>宣曹</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_6" Language="ja_JP">
+			<Text>ロンチュウ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_7" Language="ja_JP">
+			<Text>オウレン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_8" Language="ja_JP">
+			<Text>ネギ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_9" Language="ja_JP">
+			<Text>ネガティブフロスト</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_10" Language="ja_JP">
+			<Text>ヴァールブルク・ピンカス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_11" Language="ja_JP">
+			<Text>木連</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_12" Language="ja_JP">
+			<Text>ちや</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_13" Language="ja_JP">
+			<Text>都源</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_14" Language="ja_JP">
+			<Text>静海</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_15" Language="ja_JP">
+			<Text>羅府</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_16" Language="ja_JP">
+			<Text>翡翠</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_17" Language="ja_JP">
+			<Text>紫鎮</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_18" Language="ja_JP">
+			<Text>シャンメイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_19" Language="ja_JP">
+			<Text>ソン・ユアン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AE_CITY_20" Language="ja_JP">
+			<Text>ジチャン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_1" Language="ja_JP">
+			<Text>メズリサ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_2" Language="ja_JP">
+			<Text>ディズニーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_3" Language="ja_JP">
+			<Text>キリアン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_4" Language="ja_JP">
+			<Text>ケルビア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_5" Language="ja_JP">
+			<Text>オーリンズ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_6" Language="ja_JP">
+			<Text>ヴィヒシャ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_7" Language="ja_JP">
+			<Text>ヘリノア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_8" Language="ja_JP">
+			<Text>ファイル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_9" Language="ja_JP">
+			<Text>オーロラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_10" Language="ja_JP">
+			<Text>フェレオラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_11" Language="ja_JP">
+			<Text>ベリニッサ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_12" Language="ja_JP">
+			<Text>メッツティン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_13" Language="ja_JP">
+			<Text>チェナニア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_14" Language="ja_JP">
+			<Text>イニセリ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_15" Language="ja_JP">
+			<Text>フェレーレ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_16" Language="ja_JP">
+			<Text>ザエラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_17" Language="ja_JP">
+			<Text>フェスティング</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_18" Language="ja_JP">
+			<Text>イリネル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_19" Language="ja_JP">
+			<Text>ブウィノーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_AE_NAME_20" Language="ja_JP">
+			<Text>イニシャ</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

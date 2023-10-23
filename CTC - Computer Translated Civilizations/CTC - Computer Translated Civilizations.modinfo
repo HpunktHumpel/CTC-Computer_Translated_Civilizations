@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1698092638</Created>
+    <Created>1698096800</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -827,6 +827,13 @@
     </Criteria>
     <Criteria id="2819241021_InGame">
       <ModInUse>83027ef6-1d66-45de-bba0-9ae4cb6cc622</ModInUse>
+    </Criteria>
+    <!-- 2974355369 - Apostle Empire-->
+    <Criteria id="2974355369_FrontEnd">
+      <ModIsEnabled>9a0f3132-8c9b-4bae-ada7-c18c12da78f4</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2974355369_InGame">
+      <ModInUse>9a0f3132-8c9b-4bae-ada7-c18c12da78f4</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -2776,6 +2783,23 @@
       <File>2819241021/frontend_pl_PL.xml</File>
       <File>2819241021/frontend_ko_KR.xml</File>
       <File>2819241021/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2974355369 - Apostle Empire-->
+    <UpdateText id="2974355369_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2974355369_FrontEnd</Criteria>
+      <File>2974355369/frontend_en_US.xml</File>
+      <File>2974355369/frontend_fr_FR.xml</File>
+      <File>2974355369/frontend_de_DE.xml</File>
+      <File>2974355369/frontend_it_IT.xml</File>
+      <File>2974355369/frontend_es_ES.xml</File>
+      <File>2974355369/frontend_ja_JP.xml</File>
+      <File>2974355369/frontend_ru_RU.xml</File>
+      <File>2974355369/frontend_pl_PL.xml</File>
+      <File>2974355369/frontend_ko_KR.xml</File>
+      <File>2974355369/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -4737,6 +4761,23 @@
       <File>2819241021/ingame_ko_KR.xml</File>
       <File>2819241021/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2974355369 - Apostle Empire-->
+    <UpdateText id="2974355369_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2974355369_InGame</Criteria>
+      <File>2974355369/ingame_en_US.xml</File>
+      <File>2974355369/ingame_fr_FR.xml</File>
+      <File>2974355369/ingame_de_DE.xml</File>
+      <File>2974355369/ingame_it_IT.xml</File>
+      <File>2974355369/ingame_es_ES.xml</File>
+      <File>2974355369/ingame_ja_JP.xml</File>
+      <File>2974355369/ingame_ru_RU.xml</File>
+      <File>2974355369/ingame_pl_PL.xml</File>
+      <File>2974355369/ingame_ko_KR.xml</File>
+      <File>2974355369/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2007640634/frontend_de_DE.xml</File>
@@ -6068,6 +6109,26 @@
     <File>2973049234/ingame_pl_PL.xml</File>
     <File>2973049234/ingame_ru_RU.xml</File>
     <File>2973049234/ingame_zh_Hant_HK.xml</File>
+    <File>2974355369/frontend_de_DE.xml</File>
+    <File>2974355369/frontend_en_US.xml</File>
+    <File>2974355369/frontend_es_ES.xml</File>
+    <File>2974355369/frontend_fr_FR.xml</File>
+    <File>2974355369/frontend_it_IT.xml</File>
+    <File>2974355369/frontend_ja_JP.xml</File>
+    <File>2974355369/frontend_ko_KR.xml</File>
+    <File>2974355369/frontend_pl_PL.xml</File>
+    <File>2974355369/frontend_ru_RU.xml</File>
+    <File>2974355369/frontend_zh_Hant_HK.xml</File>
+    <File>2974355369/ingame_de_DE.xml</File>
+    <File>2974355369/ingame_en_US.xml</File>
+    <File>2974355369/ingame_es_ES.xml</File>
+    <File>2974355369/ingame_fr_FR.xml</File>
+    <File>2974355369/ingame_it_IT.xml</File>
+    <File>2974355369/ingame_ja_JP.xml</File>
+    <File>2974355369/ingame_ko_KR.xml</File>
+    <File>2974355369/ingame_pl_PL.xml</File>
+    <File>2974355369/ingame_ru_RU.xml</File>
+    <File>2974355369/ingame_zh_Hant_HK.xml</File>
     <File>2974358065/frontend_de_DE.xml</File>
     <File>2974358065/frontend_en_US.xml</File>
     <File>2974358065/frontend_es_ES.xml</File>

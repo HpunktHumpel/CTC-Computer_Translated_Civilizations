@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9a0f3132-8c9b-4bae-ada7-c18c12da78f4" version="1">
+  <Properties>
+    <Name>Apostle Empire</Name>
+    <Description>If you like this mod, please like and bookmark.</Description>
+    <Created>1684312228</Created>
+    <Teaser>If you like this mod, please like and bookmark.</Teaser>
+    <Authors>MineInori</Authors>
+    <SpecialThanks>Hemmelfort、UFO300、古明地淡宵、IthildinX、Pen、以及回答过我问题的所有群友</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Data/Apostle_Empire_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Data/Apostle_Empire_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Data/Apostle_Empire_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>Apostle Empire.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="text">
+      <File>Data/Apostle_Empire_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>Apostle Empire.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="icon">
+      <File>Data/Apostle_Empire_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="database">
+      <File>Data/Apostle_Empire_Buildings.xml</File>
+      <File>Data/Apostle_Empire_Civilization.xml</File>
+      <File>Data/Apostle_Empire_Civilization_Modifier.sql</File>
+      <File>Data/Apostle_Empire_Districts.xml</File>
+      <File>Data/Apostle_Empire_Governor.xml</File>
+      <File>Data/Apostle_Empire_Greatpeople.xml</File>
+      <File>Data/Apostle_Empire_Greatpeople_Saints.xml</File>
+      <File>Data/Apostle_Empire_Leaders.xml</File>
+      <File>Data/Apostle_Empire_Projects.xml</File>
+      <File>Data/Apostle_Empire_Unit_Abilities.xml</File>
+      <File>Data/Apostle_Empire_Unit_Promotions.xml</File>
+      <File>Data/Apostle_Empire_Units.xml</File>
+      <File>Data/Apostle_Empire_Yield.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Apostle Empire.dep</File>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Data/Apostle_Empire_Buildings.xml</File>
+    <File>Data/Apostle_Empire_Civilization.xml</File>
+    <File>Data/Apostle_Empire_Civilization_Modifier.sql</File>
+    <File>Data/Apostle_Empire_Config.xml</File>
+    <File>Data/Apostle_Empire_Districts.xml</File>
+    <File>Data/Apostle_Empire_District_Adjacencies.sql</File>
+    <File>Data/Apostle_Empire_Governor.xml</File>
+    <File>Data/Apostle_Empire_Greatpeople.xml</File>
+    <File>Data/Apostle_Empire_Greatpeople_Saints.xml</File>
+    <File>Data/Apostle_Empire_Happiness.sql</File>
+    <File>Data/Apostle_Empire_Icons.xml</File>
+    <File>Data/Apostle_Empire_Leaders.xml</File>
+    <File>Data/Apostle_Empire_Projects.xml</File>
+    <File>Data/Apostle_Empire_Text.xml</File>
+    <File>Data/Apostle_Empire_Units.xml</File>
+    <File>Data/Apostle_Empire_Unit_Abilities.xml</File>
+    <File>Data/Apostle_Empire_Unit_Promotions.xml</File>
+    <File>Data/Apostle_Empire_Yield.xml</File>
+    <File>Platforms/MacOS/BLPs/ApostleEmpireDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ApostleEmpireDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+  </Files>
+</Mod>
