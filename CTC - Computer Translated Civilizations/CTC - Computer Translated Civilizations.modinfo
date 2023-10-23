@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1698064038</Created>
+    <Created>1698067986</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -750,6 +750,13 @@
     </Criteria>
     <Criteria id="3050577922_InGame">
       <ModInUse>0450b233-845c-4a06-9aa5-17ac1d46fe9d</ModInUse>
+    </Criteria>
+    <!-- 2927639093 - 东方project 万神殿与信条-->
+    <Criteria id="2927639093_FrontEnd">
+      <ModIsEnabled>b7c8f37e-0adf-4d76-9122-e349af9dac2d</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2927639093_InGame">
+      <ModInUse>b7c8f37e-0adf-4d76-9122-e349af9dac2d</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -2512,6 +2519,23 @@
       <File>3050577922/frontend_pl_PL.xml</File>
       <File>3050577922/frontend_ko_KR.xml</File>
       <File>3050577922/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2927639093 - 东方project 万神殿与信条-->
+    <UpdateText id="2927639093_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2927639093_FrontEnd</Criteria>
+      <File>2927639093/frontend_en_US.xml</File>
+      <File>2927639093/frontend_fr_FR.xml</File>
+      <File>2927639093/frontend_de_DE.xml</File>
+      <File>2927639093/frontend_it_IT.xml</File>
+      <File>2927639093/frontend_es_ES.xml</File>
+      <File>2927639093/frontend_ja_JP.xml</File>
+      <File>2927639093/frontend_ru_RU.xml</File>
+      <File>2927639093/frontend_pl_PL.xml</File>
+      <File>2927639093/frontend_ko_KR.xml</File>
+      <File>2927639093/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -4286,6 +4310,23 @@
       <File>3050577922/ingame_ko_KR.xml</File>
       <File>3050577922/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2927639093 - 东方project 万神殿与信条-->
+    <UpdateText id="2927639093_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2927639093_InGame</Criteria>
+      <File>2927639093/ingame_en_US.xml</File>
+      <File>2927639093/ingame_fr_FR.xml</File>
+      <File>2927639093/ingame_de_DE.xml</File>
+      <File>2927639093/ingame_it_IT.xml</File>
+      <File>2927639093/ingame_es_ES.xml</File>
+      <File>2927639093/ingame_ja_JP.xml</File>
+      <File>2927639093/ingame_ru_RU.xml</File>
+      <File>2927639093/ingame_pl_PL.xml</File>
+      <File>2927639093/ingame_ko_KR.xml</File>
+      <File>2927639093/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2007640634/frontend_de_DE.xml</File>
@@ -4939,6 +4980,26 @@
     <File>2924695333/ingame_pl_PL.xml</File>
     <File>2924695333/ingame_ru_RU.xml</File>
     <File>2924695333/ingame_zh_Hant_HK.xml</File>
+    <File>2927639093/frontend_de_DE.xml</File>
+    <File>2927639093/frontend_en_US.xml</File>
+    <File>2927639093/frontend_es_ES.xml</File>
+    <File>2927639093/frontend_fr_FR.xml</File>
+    <File>2927639093/frontend_it_IT.xml</File>
+    <File>2927639093/frontend_ja_JP.xml</File>
+    <File>2927639093/frontend_ko_KR.xml</File>
+    <File>2927639093/frontend_pl_PL.xml</File>
+    <File>2927639093/frontend_ru_RU.xml</File>
+    <File>2927639093/frontend_zh_Hant_HK.xml</File>
+    <File>2927639093/ingame_de_DE.xml</File>
+    <File>2927639093/ingame_en_US.xml</File>
+    <File>2927639093/ingame_es_ES.xml</File>
+    <File>2927639093/ingame_fr_FR.xml</File>
+    <File>2927639093/ingame_it_IT.xml</File>
+    <File>2927639093/ingame_ja_JP.xml</File>
+    <File>2927639093/ingame_ko_KR.xml</File>
+    <File>2927639093/ingame_pl_PL.xml</File>
+    <File>2927639093/ingame_ru_RU.xml</File>
+    <File>2927639093/ingame_zh_Hant_HK.xml</File>
     <File>2928173382/frontend_de_DE.xml</File>
     <File>2928173382/frontend_en_US.xml</File>
     <File>2928173382/frontend_es_ES.xml</File>

@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Mon Oct 23 15:15:25 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_NAME" Language="ko_KR">
+			<Text>죽음 신</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_DESCRIPTION" Language="ko_KR">
+			<Text>신앙 탄생 이후 매 전투마다 +1 [ICON_Strength] 전투력을 경험했으며, 유닛이 죽을 때마다 +3 [ICON_Strength] 전투력으로 변경됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_NAME" Language="ko_KR">
+			<Text>영혼을 흡수하는 일격</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>경험한 전투당 전투력 +1 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_DEAD_NAME" Language="ko_KR">
+			<Text>영혼을 흡수하는 일격</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_DEAD_DESCRIPTION" Language="ko_KR">
+			<Text>유닛이 전투에서 사망하면 전투력이 +3 [ICON_Strength]로 변경됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_LOC_SP" Language="ko_KR">
+			<Text>경험한 전투당 전투력 +1 [ICON_Strength] 전투력이 증가하며, 전투 중 적이 사망할 경우 전투력 +3 [ICON_Strength]로 변경됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANSHOU_TH_FAITH_TENSHI_BUILDER_NAME" Language="ko_KR">
+			<Text>천상의 존재</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANSHOU_TH_FAITH_TENSHI_BUILDER_DESCRIPTION" Language="ko_KR">
+			<Text>민간 유닛, 도시 간 순간 이동 가능, 기능이 없는 모든 시설 건설 가능, 높은 이동성 [ICON_Movement], 높은 노동력 [ICON_Charges], 턴당 신앙 -3 [ICON_FAITH]</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YASAKA_NAME" Language="ko_KR">
+			<Text>언덕과 호수의 구현</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YASAKA_DESCRIPTION" Language="ko_KR">
+			<Text>언덕 +2 [ICON_FAITH] 신앙 +1 [ICON_PRODUCTION] 생산성, 호수 +2 [ICON_PRODUCTION] 생산성 +2 [ICON_FOOD] 음식.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MORIYA_NAME" Language="ko_KR">
+			<Text>원주민 신들의 정점</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MORIYA_DESCRIPTION" Language="ko_KR">
+			<Text>플레이어의 모든 유닛은 영구적인 +2 [ICON_FAITH] 신앙을 가지며, 이 보너스는 유닛이 사라져도 사라지지 않습니다. 기념물 +4 [ICON_FAITH] 신앙 +1 [ICON_CULTURE] 문화.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOTIYA_NAME" Language="ko_KR">
+			<Text>기적의 신</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOTIYA_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_GOLD] 금화 150개, 기술 가치 [ICON_SCIENCE], 문화 가치 [ICON_CULTURE] 즉시 획득, [ICON_TechBoosted] 유레카, [ICON_CivicBoosted] 격려 효과 10% 증가</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ONOZUKA_NAME" Language="ko_KR">
+			<Text>산투강의 조종사</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ONOZUKA_DESCRIPTION" Language="ko_KR">
+			<Text>사신 유닛을 주면, 전투를 통해 전투력이 증가하고, 사망 시 인근 도시로 이동하며, 사신이 살아남으면 게임 내 유닛당 금화 16[ICON_GOLD]개를 받습니다. 전투 사망으로 인해.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HANIYASUSHIN_NAME" Language="ko_KR">
+			<Text>무기력한 모델링의 신</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HANIYASUSHIN_DESCRIPTION" Language="ko_KR">
+			<Text>모든 도시는 인구 2 [ICON_Citizen], 주택 +3 [ICON_Housing], 편의시설 +2 [ICON_Amenities]를 얻습니다. 새로 설립된 도시도 이 효과를 누릴 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TENKYU_NAME" Language="ko_KR">
+			<Text>주인 없는 것들의 신</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TENKYU_DESCRIPTION" Language="ko_KR">
+			<Text>지역 건설이 완료되면 문화 폭탄이 발동되고, 각 지역마다 금화 3[ICON_GOLD]개가 증가하며, 유닛 구매 비용이 -30%입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KAGIYAMA_NAME" Language="ko_KR">
+			<Text>비신 유령</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KAGIYAMA_DESCRIPTION" Language="ko_KR">
+			<Text>범람원 +1 [ICON_PRODUCTION] 생산성, +1 [ICON_PRODUCTION] 생산성 +1 [ICON_FAITH] 홍수가 발생할 때마다 신앙이 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_AKI_TWO_NAME" Language="ko_KR">
+			<Text>수확과 수확, 외로움과 최종성</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_AKI_TWO_DESCRIPTION" Language="ko_KR">
+			<Text>농장 +1 [ICON_FOOD] 음식 +1 [ICON_FAITH] 신앙, 풍경 제거 및 자원 수입 40% 증가</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TAMATSUKURI_NAME" Language="ko_KR">
+			<Text>마가타마 장인</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TAMATSUKURI_DESCRIPTION" Language="ko_KR">
+			<Text>광산의 금 +4 [ICON_GOLD], 건축업자의 노동력 +1 [ICON_Charges]</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REIUJI_NAME" Language="ko_KR">
+			<Text>통제할 수 없는 신의 불</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REIUJI_DESCRIPTION" Language="ko_KR">
+			<Text>모든 도시는 +32 [ICON_Power] 전력을 가지며, 아카데미 지역은 +150% [ICON_SCIENCE] 기술 인접 보너스를 가지며 [ICON_SCIENCE] 기술 값 인접 보너스는 동일한 양의 [ICON_PRODUCTION] 생산성을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REIMU_NAME" Language="ko_KR">
+			<Text>괴물 파괴자</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REIMU_DESCRIPTION" Language="ko_KR">
+			<Text>+3 [ICON_Strength] 전투력, 야만인과 싸울 때 추가로 +7 [ICON_Strength] 전투력, 주요 문명과 전쟁 중이 아닐 때 모든 도시의 편의시설 +1 [ICON_Amenities]</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_REIMU_ATK_01_GET_YES_DESCRIPTION" Language="ko_KR">
+			<Text>+3 [ICON_Strength] 판테온: 요괴 파괴자 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MARISA_NAME" Language="ko_KR">
+			<Text>열심히 일하는 평범한 마술사</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MARISA_DESCRIPTION" Language="ko_KR">
+			<Text>모든 도시의 인구당 과학 +0.6 [ICON_SCIENCE], 도시에 대학이 있는 경우 추가로 [ICON_Amenities] 편의시설 +1, 인구당 과학 +0.6 [ICON_SCIENCE]</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KISIN_NAME" Language="ko_KR">
+			<Text>말로 문제를 일으키는 여신</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KISIN_DESCRIPTION" Language="ko_KR">
+			<Text>모든 도시의 쾌적도는 -1 [ICON_Amenities]입니다. 부정적인 쾌적도 출력 디버프는 양의 동등한 보너스가 됩니다(인구 증가율 제외). 쾌적도가 -7 이하인 경우 보너스가 추가로 10% 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_AYAYA_NAME" Language="ko_KR">
+			<Text>붉은 잎이 흩날리는 텐구</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_AYAYA_DESCRIPTION" Language="ko_KR">
+			<Text>모든 도시 +2 [ICON_CULTURE] 문화, 유닛은 언덕, 숲, 강 [ICON_Movement] 이동 디버프를 무시합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KASAN_NAME" Language="ko_KR">
+			<Text>외팔 뿔 달린 요정</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KASAN_DESCRIPTION" Language="ko_KR">
+			<Text>성지 건설 속도 +40%, 성지가 목초지나 캠프 개량 시설과 인접할 경우 신앙 가치 영역 기본 출력 5[ICON_FAITH]를 영구적으로 추가 획득(중복 불가)</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TENSHI_NAME" Language="ko_KR">
+			<Text>천국에 가고 싶지도, 가고 싶지도 않은 딸</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TENSHI_DESCRIPTION" Language="ko_KR">
+			<Text>2개의 Celestials(빌더) 제공, 프로젝트 Celestial Ascension 잠금 해제(효과는 도시의 -1 [ICON_Citizen] 인구, Celestial 유닛 획득, Celestials는 포획되지 않음)</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FORM_BELIEF_TANSHOU_TENSHI_PROJECT_T_GET_YES_NAME" Language="ko_KR">
+			<Text>신들의 승천</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FORM_BELIEF_TANSHOU_TENSHI_PROJECT_T_GET_YES_DESCRIPTION" Language="ko_KR">
+			<Text>도시의 인구는 -1 [ICON_Citizen]이고 천상 유닛을 얻습니다. 각 천상 유닛은 매 라운드마다 3 [ICON_FAITH] 신앙 포인트를 소모합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_LETTY_NAME" Language="ko_KR">
+			<Text>겨울의 잊혀진 것들</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_LETTY_DESCRIPTION" Language="ko_KR">
+			<Text>눈 +2 [ICON_FOOD] 식량 +2 [ICON_PRODUCTION] 생산성, 동토가 반으로 줄고 눈 위의 각 지역 +2 [ICON_CULTURE] 문화 가치 +2 [ICON_SCIENCE] 기술 가치 +2 [ICON_FAITH] 신앙 가치 기본 산출물, 동토 절반으로 줄어듭니다. 눈과 얼어붙은 땅 위에 농장과 광산을 건설할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_URIKA_NAME" Language="ko_KR">
+			<Text>Dosores만큼 좋지는 않습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_URIKA_DESCRIPTION" Language="ko_KR">
+			<Text>도시가 해안에 인접해 있는 경우 [ICON_Tourism] 관광 성과 +125%</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RINNOSUKE_NAME" Language="ko_KR">
+			<Text>만족스러운 낡은 소품 가게</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RINNOSUKE_DESCRIPTION" Language="ko_KR">
+			<Text>상업 센터 [ICON_GOLD] 골드 인접 보너스는 동일한 양의 [ICON_CULTURE] 문화, 은행이 있는 도시 +1 [ICON_TradeRoute] 무역 경로도 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MOMIZI_NAME" Language="ko_KR">
+			<Text>산에서의 투시</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MOMIZI_DESCRIPTION" Language="ko_KR">
+			<Text>정찰 유닛 +7 [ICON_Strength] 전투력 +3 시야, 시야는 풍경을 통과할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_MOMIZI_ABILITY_STR_SIG_MORE_NAME" Language="ko_KR">
+			<Text>산에서의 투시</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_MOMIZI_ABILITY_STR_SIG_MORE_DESCRIPTION" Language="ko_KR">
+			<Text>+7 [ICON_Strength] 전투력 +3 시야, 시야는 풍경을 통과할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_BELIEF_TANSHOU_MOMIZI_ABILITY_STR_SIG_MORE_STR" Language="ko_KR">
+			<Text>판테온: 산의 천리안에서 +7 [ICON_Strength] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_NAZRIN_NAME" Language="ko_KR">
+			<Text>작은 보물 사냥꾼</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_NAZRIN_DESCRIPTION" Language="ko_KR">
+			<Text>향상된 자원 +2 [ICON_PRODUCTION] 생산성 +2 [ICON_GOLD] 금화 +1 [ICON_FAITH] 신앙</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ICHIRIN_NAME" Language="ko_KR">
+			<Text>지켜주고 지켜주는 큰 바퀴</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ICHIRIN_DESCRIPTION" Language="ko_KR">
+			<Text>산에 인접한 도시는 [ICON_CULTURE] 문화 +3을 얻고 도시 외부 방어력 100점을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HECATIA_NAME" Language="ko_KR">
+			<Text>삼위일체 랩소디</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HECATIA_DESCRIPTION" Language="ko_KR">
+			<Text>성지, 아카데미, 산업 구역의 인접 보너스는 -30%이지만, 위 각 지역의 인접 보너스는 일반 인접 보너스와 동일한 다른 두 지역의 일반 출력 유형 출력을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_JUNKO_NAME" Language="ko_KR">
+			<Text>순수한 광기</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_JUNKO_DESCRIPTION" Language="ko_KR">
+			<Text>유닛 +8 [ICON_Strength] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_JUNKO_ATK_GET_YES_DESCRIPTION" Language="ko_KR">
+			<Text>크리드: 퓨어 퓨리의 전투력 +8 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YAKUMO_NAME" Language="ko_KR">
+			<Text>환상의 영역</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YAKUMO_DESCRIPTION" Language="ko_KR">
+			<Text>국가 내에서 턴을 시작할 때 유닛은 +3 [ICON_Movement] 이동력을 얻고, 도시 확장 속도는 +300%, 수도는 게임 내 모든 도시에 모든 유형의 출력 +1을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MATARA_NAME" Language="ko_KR">
+			<Text>궁극의 절대 미스터리</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MATARA_DESCRIPTION" Language="ko_KR">
+			<Text>게임의 각 원래 지역에는 인접 보너스가 -1이고 수도(대학, 성지, 극장, 산업 지역, 상업 중심지, 항구 포함)에 대해 그에 상응하는 생산량 +3이 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOISHI_NAME" Language="ko_KR">
+			<Text>사랑의 닫힌 눈</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOISHI_DESCRIPTION" Language="ko_KR">
+			<Text>도시의 각 [ICON_Citizen] 인구 +0.3 [ICON_CULTURE] 문화 +1 [ICON_FAITH] 신앙 +0.7 [ICON_PRODUCTION] 생산성, 도시가 11 [ICON_Citizen] 인구에 도달하지 않으면 위 보너스가 두 배가 됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YUYUKO_NAME" Language="ko_KR">
+			<Text>Hua Xu의 영원한 잠</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YUYUKO_DESCRIPTION" Language="ko_KR">
+			<Text>주류 종교의 요구 사항을 무시하고 유닛이 전투에서 죽을 때마다 모든 도시의 성지는 +5% [ICON_FAITH] 신앙 인접 보너스를 받습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_EXTEND_ASH_NAME" Language="ko_KR">
+			<Text>봉래족</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_EXTEND_ASH_DESCRIPTION" Language="ko_KR">
+			<Text>훌륭한 인물을 영입할 때마다 [ICON_SCIENCE] 기술 가치 +1% [ICON_CULTURE] 문화 가치 +1% [ICON_FAITH] 총 신앙 가치 산출 (최대 30%)</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_BYAKUREN_NAME" Language="ko_KR">
+			<Text>봉인된 대마법사</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_BYAKUREN_DESCRIPTION" Language="ko_KR">
+			<Text>이 신조를 선택한 플레이어: 도시가 다음 조건을 모두 충족하면 수도는 음식을 제외한 모든 유형의 생산량이 +60%가 됩니다(사원이 있고, 최소 10명의 [ICON_Citizen] 인구가 있고, 작업장이 있고, 산, 수비대, 시장이 있음, 황금시대)</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REISEN_NAME" Language="ko_KR">
+			<Text>화난 달토끼</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REISEN_DESCRIPTION" Language="ko_KR">
+			<Text>누적된 전쟁 피로도는 평소 대비 150% 증가하며, 주요 문명과 전쟁 중이 아닐 때는 모든 생산량이 10% 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SATORI_NAME" Language="ko_KR">
+			<Text>악령도 무서워하는 소녀</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SATORI_DESCRIPTION" Language="ko_KR">
+			<Text>모든 도시 국가의 첫 번째 [ICON_Envoy] 특사는 [ICON_Envoy] 특사 2명과 동일하며 클랜 리더당 도시 국가당 금화 생산량 +4% [ICON_GOLD]</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_IKU_NAME" Language="ko_KR">
+			<Text>아름다운 페이 지이</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_IKU_DESCRIPTION" Language="ko_KR">
+			<Text>각 도시 국가의 [ICON_Envoy] 특사로부터 [ICON_CULTURE] 문화 +2</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YUGI_NAME" Language="ko_KR">
+			<Text>파괴된 바즈라 힘</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YUGI_DESCRIPTION" Language="ko_KR">
+			<Text>근접 유닛은 성벽을 무시하고 +5 [ICON_Strength] 전투력을 갖는 반면, 원거리 유닛은 -7 [ICON_Strength] 전투력을 갖습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_BELIEF_TANSHOU_YUGI_MELL_ATK_BROKEN_WALLS_NAME" Language="ko_KR">
+			<Text>파괴된 바즈라 힘</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_BELIEF_TANSHOU_YUGI_MELL_ATK_BROKEN_WALLS_DESCRIPTION" Language="ko_KR">
+			<Text>벽을 무시하고 전투력 +5 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_UNIT_TANSHOU_TH_FAITH_BELIEF_TANSHOU_YUGI_MELL_ATK_BROKEN_WALLS_ATK_DESCRIPTION" Language="ko_KR">
+			<Text>크리드: 디스트럭션의 전투력 +5 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_YUGI_RANGE_DOWN_GET_YES_DESCRIPTION" Language="ko_KR">
+			<Text>-7 [ICON_Strength] 크리드: 디스트럭션의 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_PATCHOULI_NAME" Language="ko_KR">
+			<Text>지식과 도피를 갖춘 소녀</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_PATCHOULI_DESCRIPTION" Language="ko_KR">
+			<Text>모든 유닛 -6 [ICON_Strength] 전투력, 도시 +20% [ICON_SCIENCE] 기술 +20% [ICON_CULTURE] 문화</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_PATCHOULI_ATK_DOWN_GET_YES_DESCRIPTION" Language="ko_KR">
+			<Text>-6 [ICON_Strength] 전투력 크리드의 소녀: 지식과 도피</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REMILIA_NAME" Language="ko_KR">
+			<Text>항상 밝고 붉은 아기 달</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REMILIA_DESCRIPTION" Language="ko_KR">
+			<Text>영향력 +10, 도시 총 영향력 +7%</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_FLANDRE_NAME" Language="ko_KR">
+			<Text>악마의 여동생</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_FLANDRE_DESCRIPTION" Language="ko_KR">
+			<Text>근접 유닛은 피해 디버프를 무시하고, 체력이 가득 찬 유닛과 싸울 때 전투력이 +9 [ICON_Strength] 증가하며, 전투 승리 후 체력 포인트 15 [ICON_Damaged]를 회복합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_FLANDRE_MAX_ADD_STR_GET_YES_DESCRIPTION" Language="ko_KR">
+			<Text>Creed: Demon Sister의 체력이 가득 찬 유닛에 대한 전투력 +7 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_PRISMRIVER_NAME" Language="ko_KR">
+			<Text>유령 밴드</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_PRISMRIVER_DESCRIPTION" Language="ko_KR">
+			<Text>성지 및 성지 +2 [ICON_GreatMusician] 위대한 음악가 포인트, 성지 +3 [ICON_GreatWork_Music] 음악 명작 슬롯, 도시 내 음악 명작 +4 [ICON_CULTURE] 문화적 가치, 음악 명작 +300% [ICON_Tourism] 관광 공연(슬롯은 무시 도시의 주류 종교적 요구)</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RIN_NAME" Language="ko_KR">
+			<Text>지옥바퀴</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RIN_DESCRIPTION" Language="ko_KR">
+			<Text>선택 후 즉시 [ICON_Envoy] 사절 4명을 획득하며, 해당 유닛이 전투에서 승리하면 사망한 유닛의 전투력의 200%에 해당하는 [ICON_GOLD] 금화와 [ICON_FAITH] 신앙을 획득합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_RIN_ABILITY_KILL_UNIT_GET_YIELD_NAME" Language="ko_KR">
+			<Text>불꽃 마오린의 선물</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_RIN_ABILITY_KILL_UNIT_GET_YIELD_DESCRIPTION" Language="ko_KR">
+			<Text>전투 승리 후, 처치한 유닛의 전투력의 200%에 해당하는 [ICON_GOLD] 금화와 [ICON_FAITH] 신앙을 획득합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SHOU_NAME" Language="ko_KR">
+			<Text>비샤몬텐의 제자들</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SHOU_DESCRIPTION" Language="ko_KR">
+			<Text>다음 조건을 충족하는 각 도시는 [ICON_FAITH] 신앙 생산량의 12%에 해당하는 [ICON_GOLD] 금화를 생산합니다. 도시에는 최소 7명의 [ICON_Citizen]명이 있고, 도시에 성소가 있고, 도시에 사원이 있고, 도시에는 시장이 있어요.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RUMIA_NAME" Language="ko_KR">
+			<Text>어두운 밤의 괴물</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RUMIA_DESCRIPTION" Language="ko_KR">
+			<Text>암흑 시대에 도시는 +15 [ICON_PRODUCTION] 생산성 +15 [ICON_FAITH] 신앙을 갖습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MEIRIN_NAME" Language="ko_KR">
+			<Text>어린 중국 소녀</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MEIRIN_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 수비대가 있으면 +2 [ICON_Amenities] 거주 가능성 +2 [ICON_CULTURE] 문화 가치</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SAKUYA_NAME" Language="ko_KR">
+			<Text>완벽하고 시크한 추종자</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SAKUYA_DESCRIPTION" Language="ko_KR">
+			<Text>빌더 +1 [ICON_Movement] 이동 +1 [ICON_Charges] 노동</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ALICY_NAME" Language="ko_KR">
+			<Text>칠색인형제작자</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ALICY_DESCRIPTION" Language="ko_KR">
+			<Text>도시의 주류 종교적 요구를 무시하고 작업장 +5 [ICON_PRODUCTION] 생산성 +5 [ICON_CULTURE] 문화 가치 +2 [ICON_GreatEngineer] 위대한 엔지니어 포인트</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YOUMO_NAME" Language="ko_KR">
+			<Text>천국의 법정 마스터</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YOUMO_DESCRIPTION" Language="ko_KR">
+			<Text>유닛의 이동력 +1 [ICON_Movement], 도시 타일의 카리스마 +1, 성지를 소유한 경우 카리스마 +2</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RAN_NAME" Language="ko_KR">
+			<Text>구미책사</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RAN_DESCRIPTION" Language="ko_KR">
+			<Text>신사는 무작위로 [ICON_TechBoosted] 유레카를 부여합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HATATE_NAME" Language="ko_KR">
+			<Text>안락의자에 앉아 기자를 읽고 있다</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HATATE_DESCRIPTION" Language="ko_KR">
+			<Text>전체 지도 시야 확보, +1 [ICON_VisLimited] 외교 가시성</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KEINE_NAME" Language="ko_KR">
+			<Text>지식과 역사의 반수</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KEINE_DESCRIPTION" Language="ko_KR">
+			<Text>주류 종교 요구 사항을 무시하고 소유한 대학당 [ICON_TechBoosted] 유레카의 효과가 1% 증가하고 [ICON_CivicBoosted] 영감의 효과가 2% 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_INABA_NAME" Language="ko_KR">
+			<Text>행운의 흰 토끼</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_INABA_DESCRIPTION" Language="ko_KR">
+			<Text>하나님께서는 그 효과가 무엇인지 아십니다!</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_NITORI_NAME" Language="ko_KR">
+			<Text>슈퍼 몬스터 탄두</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_NITORI_DESCRIPTION" Language="ko_KR">
+			<Text>도시 전 지역 +1 [ICON_SCIENCE] 기술 가치 +1 [ICON_PRODUCTION] 생산성 +1 [ICON_GOLD] 금화 기반 인접 보너스</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOGASA_NAME" Language="ko_KR">
+			<Text>망각의 행복한 우산</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOGASA_DESCRIPTION" Language="ko_KR">
+			<Text>유닛은 공격할 때 +4 [ICON_Strength] 전투력을 얻고 방어할 때 -3 [ICON_Strength] 전투력을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_KOGASA_ABILITY_ATK_AND_DEF_NAME" Language="ko_KR">
+			<Text>타타라의 작은 우산 선물</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_KOGASA_ABILITY_ATK_AND_DEF_DESCRIPTION" Language="ko_KR">
+			<Text>공격 시 전투력 +4 [ICON_Strength], 방어 시 전투력 -3 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_BELIEF_TANSHOU_KOGASA_ABILITY_ATK_AND_DEF_ATK" Language="ko_KR">
+			<Text>크리드: 망각의 행복한 우산에서 [ICON_Strength] 전투력 +4</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_BELIEF_TANSHOU_KOGASA_ABILITY_ATK_AND_DEF_DEF" Language="ko_KR">
+			<Text>-3 [ICON_Strength] 전투력 from Creed: The Happy Umbrella of Oblivion</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MINAMITU_NAME" Language="ko_KR">
+			<Text>수해사고의 마음속 정신</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MINAMITU_DESCRIPTION" Language="ko_KR">
+			<Text>모든 유닛은 물에 발사된 후 심해에 들어갈 수 있으며, 수상 수송 +2 [ICON_Movement] 이동력, +5 [ICON_Strength] 해군 유닛과의 전투력.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_MINAMITU_ABILIYY_SEA_NAME" Language="ko_KR">
+			<Text>마을 털실 꿀 선물</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_MINAMITU_ABILIYY_SEA_DESCRIPTION" Language="ko_KR">
+			<Text>물에 띄워진 후 심해로 들어갈 수 있으며, 수상 수송 +2 [ICON_Movement] 이동력, 해군 유닛과의 전투 시 +5 [ICON_Strength] 전투력이 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_CIRNO_NAME" Language="ko_KR">
+			<Text>호수 위의 얼음 정령</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_CIRNO_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있는 경우 +3 [ICON_CULTURE] 문화 가치 +1 [ICON_PRODUCTION] 생산성 +9 [ICON_FAITH] 신앙 가치, 인구 [ICON_Citizen]당 -0.2 기술 가치 출력 [ICON_SCIENCE]</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_DAYOSEI_NAME" Language="ko_KR">
+			<Text>큰 요정</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_DAYOSEI_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있는 경우 +2 [ICON_CULTURE] 문화 가치 +8 [ICON_FAITH] 신앙 가치</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_XIAOEMO_NAME" Language="ko_KR">
+			<Text>작은 악마</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_XIAOEMO_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있는 경우 +3 [ICON_CULTURE] 문화적 가치 +4 [ICON_SCIENCE] 과학 및 기술 가치를 갖습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_CHEN_NAME" Language="ko_KR">
+			<Text>불길한 검은 고양이</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_CHEN_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있는 경우 +2 [ICON_CULTURE] 문화 +2 [ICON_FAITH] 신앙 +2 [ICON_GOLD] 금 +2 [ICON_PRODUCTION] 생산성</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_WHITE_NAME" Language="ko_KR">
+			<Text>봄을 전하는 요정</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_WHITE_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있고 놀라운 매력 가치를 지닌 땅에 위치한 경우, +8 [ICON_CULTURE] 문화 가치 +6 [ICON_FAITH] 신앙 가치 +8 [ICON_GOLD] 금화</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_WRIGGLE_NAME" Language="ko_KR">
+			<Text>어둠 속에서 움직이는 빛벌레</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_WRIGGLE_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있고 [ICON_Citizen] 인구가 5보다 크거나 같으면 +5 [ICON_FAITH] 신앙 +4 [ICON_FOOD] 음식 +3 [ICON_PRODUCTION] 생산성</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MYSTIA_NAME" Language="ko_KR">
+			<Text>노래하는 밤 참새</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MYSTIA_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있는 경우 +4 [ICON_FAITH] 신앙 +3 [ICON_FOOD] 식량 +20% [ICON_GOLD] 금화 생산량</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KISUME_NAME" Language="ko_KR">
+			<Text>무서운 괴물</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KISUME_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있는 경우 -4 [ICON_FAITH] 신앙 +8 [ICON_PRODUCTION] 생산성</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YAMAME_NAME" Language="ko_KR">
+			<Text>어두운 동굴 속의 밝은 그물</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YAMAME_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 사원이 있는 경우 인구 증가율 -25%, +1 [ICON_Amenities] 거주 적합성 +20% [ICON_FAITH] 신앙 가치</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_TH_FAITH_TANSHOU_MODDERS_GOD_NAME" Language="ko_KR">
+			<Text>판테온 MODDERS</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_TH_FAITH_TANSHOU_MODDERS_GOD_DESCRIPTION" Language="ko_KR">
+			<Text>이 게임 모드는 Creative Workshop의 모더를 기반으로 동부 판테온을 기반으로 하는 더 많은 신조를 추가합니다. 모든 사람은 강력한 신념을 가지고 있으며, 그들의 힘은 그들이 만드는 모드나 작업 스타일에 따라 결정됩니다. [NEWLINE][NEWLINE] AI의 성향이 다르기 때문에 일부는 AI가 초기에 믿었을 수도 있으므로 가능한 한 빨리 이러한 신조를 획득해야 합니다. 각 신조의 이점은 상상 이상입니다. 균형이 없다고 할 수 있습니다. 상한과 하한의 차이가 엄청납니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_UFO300_NAME" Language="ko_KR">
+			<Text>영광을 되찾은 돌고래들</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_UFO300_DESCRIPTION" Language="ko_KR">
+			<Text>광업을 완료하면 산업 구역이 잠금 해제됩니다. 산업 구역과 해당 건물을 건설할 때 건설 속도가 100% 증가합니다. 산업 구역에는 +3 [ICON_PRODUCTION] 생산성 인접 보너스가 제공됩니다. 각 산업 구역은 모든 산업 구역을 증가시킵니다. 자신이 소유한 산업 지역 건물 +20% [ICON_PRODUCTION] 생산성 생산량</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_UFO300_IND_ADJ_WOODS_GET_YES" Language="ko_KR">
+			<Text>+{1_num} [ICON_PRODUCTION] 생산성은 인접한 숲에서 나옵니다(Recast Glory의 돌고래)</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_QGG_NAME" Language="ko_KR">
+			<Text>슈퍼모델 내부 및 외부 - 테이블</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_QGG_DESCRIPTION" Language="ko_KR">
+			<Text>도시 모든 유형의 생산량 +7, 수도인 경우 모든 유형의 생산량 +4</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOMEIJI_TANSHOU_NAME" Language="ko_KR">
+			<Text>슈퍼모델 내부 및 외부 - 내부</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOMEIJI_TANSHOU_DESCRIPTION" Language="ko_KR">
+			<Text>우주 프로그램 프로젝트 작업 시 생산성이 100% 증가하고 [ICON_PRODUCTION] 매 턴마다 50광년씩 진행됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MUSIC_TANSHOU_NAME" Language="ko_KR">
+			<Text>LUA 비하인드 씬</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MUSIC_DESCRIPTION" Language="ko_KR">
+			<Text>라운드당 영향력 +8, 주지사가 승진할 때마다 도시에 +10% [ICON_PRODUCTION] +10% 생산성 [ICON_SCIENCE] 기술 가치 제공</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_DARK_AGE_NAME" Language="ko_KR">
+			<Text>그렇게 어두운 암흑시대는 아니지</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_DARK_AGE_DESCRIPTION" Language="ko_KR">
+			<Text>암흑 시대에 있다면 각 라운드 시작 시 무작위로 [ICON_CivicBoosted] 부스트를 받게 됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_GUAAAAAAA_NAME" Language="ko_KR">
+			<Text>구아! ! ! 음? 나는 슈퍼이고 우리도 그것을 가지고 있습니다!</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_GUAAAAAAA_DESCRIPTION" Language="ko_KR">
+			<Text>게임 내 모든 도시는 금화 500 [ICON_GOLD]개를 직접 받게 됩니다. 이 판테온을 믿는 도시는 추가로 [ICON_FAITH]개의 신앙을 받게 됩니다. 위의 효과는 새로 건설된 도시에도 적용됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KEKEYA_NAME" Language="ko_KR">
+			<Text>비둘기 비둘기 오리</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KEKEYA_DESCRIPTION" Language="ko_KR">
+			<Text>-15% 인구 증가율, 프로젝트 &quot;Papie&quot; 잠금 해제, 이 프로젝트는 생산 중 [ICON_PRODUCTION] 생산성의 100%를 [ICON_GOLD] 금화와 [ICON_FAITH] 신앙으로 변환하고, 40%를 [ICON_SCIENCE] 기술과 [ICON_CULTURE]로 변환할 수 있습니다. ] 문화. 하나를 완료한 후 매 턴마다 [ICON_GreatScientist] 위대한 과학자 포인트를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FORM_BELIEF_TANSHOU_KEKEYA_PEOJECT_TURN_GET_YES_NAME" Language="ko_KR">
+			<Text>페인트 케이크</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FORM_BELIEF_TANSHOU_KEKEYA_PEOJECT_TURN_GET_YES_DESCRIPTION" Language="ko_KR">
+			<Text>본 아이템 생산 시 [ICON_PRODUCTION] 생산성 비용의 100%가 [ICON_GOLD] 금화와 [ICON_FAITH] 신앙으로 전환되며, 40%가 [ICON_SCIENCE] 기술과 [ICON_CULTURE] 문화로 전환됩니다. 완료 시 라운드마다 [ICON_GreatScientist] 위대한 과학자 포인트 50점을 부여합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_UNI_BAKA_NAME" Language="ko_KR">
+			<Text>철권 롤리 깡패 철권</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_UNI_BAKA_DESCRIPTION" Language="ko_KR">
+			<Text>시립 광장 및 건물 건설 시 건설 속도 +100%, [ICON_Citizen] 인구 4명 미만 도시의 경우 +75% [ICON_Tourism] 관광 성과</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_LANGZI_NAME" Language="ko_KR">
+			<Text>매일매일 더워요</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_LANGZI_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 건설된 첫 번째 불가사의는 빛의 속도로 완성되며, 도시가 이미 불가사의를 보유하고 있는 경우 건설 속도는 +200% 증가하며, 보유한 불가사의 각각은 해당 불가사의의 3%에 해당하는 [ICON_GOLD] 금화를 획득합니다. 매 라운드마다 재무부.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

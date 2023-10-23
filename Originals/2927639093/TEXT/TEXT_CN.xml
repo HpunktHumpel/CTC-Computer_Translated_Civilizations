@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: asus -->
+<!-- DateCreated: 2/1/2023 12:25:15 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 单位 -->
+		<Replace Tag="LOC_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_NAME" Language="zh_Hans_CN">
+			<Text>死 神</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>自信仰诞生，每经历一场战斗+1 [ICON_Strength] 战斗力，每杀死一个单位改为+3 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_NAME" Language="zh_Hans_CN">
+			<Text>汲魂痛击</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每经历一场战斗+1 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_DEAD_NAME" Language="zh_Hans_CN">
+			<Text>汲魂痛击</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_DEAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若在战斗中杀死单位改为+3 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_UNIT_TANSHOU_TH_FAITH_DEAD_GOD_STR_ADD_COMBAT_LOC_SP" Language="zh_Hans_CN">
+			<Text>每经历一场战斗+1 [ICON_Strength] 战斗力，若战斗中击杀敌方则改为+3 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANSHOU_TH_FAITH_TENSHI_BUILDER_NAME" Language="zh_Hans_CN">
+			<Text>天人</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANSHOU_TH_FAITH_TENSHI_BUILDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>平民单位，可在城市之间传送，可修建所有非特色改良设施，拥有很高 [ICON_Movement] 移动力，很高 [ICON_Charges] 劳动力，每回合-3 [ICON_FAITH] 信仰</Text>
+		</Replace>
+		<!-- 万神殿信条 -->
+		<Replace Tag="LOC_BELIEF_TANSHOU_YASAKA_NAME" Language="zh_Hans_CN">
+			<Text>山丘与湖泊的化身</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YASAKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>丘陵+2 [ICON_FAITH] 信仰+1 [ICON_PRODUCTION] 生产力，湖泊+2 [ICON_PRODUCTION] 生产力+2 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MORIYA_NAME" Language="zh_Hans_CN">
+			<Text>土著神的顶点</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MORIYA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>玩家的所有单位永久+2 [ICON_FAITH] 信仰值，此加成不会因为单位消失而消失；纪念碑+4 [ICON_FAITH] 信仰+1 [ICON_CULTURE] 文化。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOTIYA_NAME" Language="zh_Hans_CN">
+			<Text>奇迹的现人神</Text>
+		</Replace> 
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOTIYA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>立即获得150 [ICON_GOLD] 金币，[ICON_SCIENCE] 科技值，[ICON_CULTURE] 文化值；[ICON_TechBoosted] 尤里卡与 [ICON_CivicBoosted] 鼓舞效果提升10%</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ONOZUKA_NAME" Language="zh_Hans_CN">
+			<Text>三途河的引航人</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ONOZUKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>给予一个死神单位，战斗力会随经历的战斗增长且濒死会转移至附近城市；若死神存活，则游戏中每有一个单位因战斗死亡获得16 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HANIYASUSHIN_NAME" Language="zh_Hans_CN">
+			<Text>孤立无援的造型神</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HANIYASUSHIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市获得2 [ICON_Citizen] 人口，+3 [ICON_Housing] 住房，+2 [ICON_Amenities] 宜居度，新建立的城市也享受此效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TENKYU_NAME" Language="zh_Hans_CN">
+			<Text>无主物之神</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TENKYU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>区域建造完成时触发文化炸弹，每个区域+3 [ICON_GOLD] 金币，购买单位消耗-30%。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KAGIYAMA_NAME" Language="zh_Hans_CN">
+			<Text>秘神流雏</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KAGIYAMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>泛滥平原+1 [ICON_PRODUCTION] 生产力，每次触发洪水+1 [ICON_PRODUCTION] 生产力+1 [ICON_FAITH] 信仰。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_AKI_TWO_NAME" Language="zh_Hans_CN">
+			<Text>丰收与收成，寂寞与终焉</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_AKI_TWO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>农场+1 [ICON_FOOD] 食物+1 [ICON_FAITH] 信仰，移除地貌与资源收益提高40%</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TAMATSUKURI_NAME" Language="zh_Hans_CN">
+			<Text>勾玉匠人</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TAMATSUKURI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>矿山+4 [ICON_GOLD] 金币，建造者+1 [ICON_Charges] 劳动力</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REIUJI_NAME" Language="zh_Hans_CN">
+			<Text>难以驾驭的神之火</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REIUJI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市+32 [ICON_Power] 电力，学院区域+150% [ICON_SCIENCE] 科技相邻加成且 [ICON_SCIENCE] 科技值相邻加成提供等量 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REIMU_NAME" Language="zh_Hans_CN">
+			<Text>妖怪破坏者</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REIMU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3 [ICON_Strength] 战斗力，对抗蛮族时额外+7 [ICON_Strength] 战斗力；未与主要文明处于战争状态时，所有城市+1 [ICON_Amenities] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_REIMU_ATK_01_GET_YES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3 [ICON_Strength] 战斗力 来自万神殿：妖怪破坏者</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MARISA_NAME" Language="zh_Hans_CN">
+			<Text>努力的普通魔法使</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MARISA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市每人口+0.6[ICON_SCIENCE] 科技值；若城市拥有学院，额外+1 [ICON_Amenities] 宜居度，每人口+0.6 [ICON_SCIENCE] 科技值</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KISIN_NAME" Language="zh_Hans_CN">
+			<Text>招来口舌之祸的女神</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KISIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市-1 [ICON_Amenities] 宜居度，负宜居度产出减益变为正向等量加成（不包括人口增长速度），若宜居度小于等于-7则加成额外提高10%</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_AYAYA_NAME" Language="zh_Hans_CN">
+			<Text>飞散红叶的天狗</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_AYAYA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市+2 [ICON_CULTURE] 文化，单位无视丘陵树林河流 [ICON_Movement] 移动力减益</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KASAN_NAME" Language="zh_Hans_CN">
+			<Text>独臂的有角仙人</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KASAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+40%圣地建造速度；圣地相邻牧场或营地改良设施时，永久额外获得5 [ICON_FAITH] 信仰值区域基础产出（不可叠加）</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TENSHI_NAME" Language="zh_Hans_CN">
+			<Text>非想非非想天之女</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_TENSHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>给予2个天人(建造者)，解锁项目天人的飞升（效果为城市-1 [ICON_Citizen] 人口，获得一个天人单位，天人不会被俘虏）</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FORM_BELIEF_TANSHOU_TENSHI_PROJECT_T_GET_YES_NAME" Language="zh_Hans_CN">
+			<Text>天人的飞升</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FORM_BELIEF_TANSHOU_TENSHI_PROJECT_T_GET_YES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市-1 [ICON_Citizen] 人口，获得一个天人单位，每个天人会每回合消耗3 [ICON_FAITH] 信仰值</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_LETTY_NAME" Language="zh_Hans_CN">
+			<Text>冬天的遗忘之物</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_LETTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>雪地+2 [ICON_FOOD] 食物+2 [ICON_PRODUCTION] 生产力，冻土减半；雪地上的每个区域+2 [ICON_CULTURE] 文化值+2 [ICON_SCIENCE] 科技值+2 [ICON_FAITH] 信仰值基础产出，冻土减半。并允许农场与矿山在雪地和冻土上建造</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_URIKA_NAME" Language="zh_Hans_CN">
+			<Text>感觉不如多索雷斯</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_URIKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若相邻海岸，+125% [ICON_Tourism] 旅游业绩</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RINNOSUKE_NAME" Language="zh_Hans_CN">
+			<Text>知足不辱的旧道具店</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RINNOSUKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>商业中心 [ICON_GOLD] 金币相邻加成也提供等量 [ICON_CULTURE] 文化值，拥有银行的城市+1 [ICON_TradeRoute] 贸易路线</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MOMIZI_NAME" Language="zh_Hans_CN">
+			<Text>山中的千里眼</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MOMIZI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>侦查单位+7 [ICON_Strength] 战斗力+3视野，且视野可穿过地貌</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_MOMIZI_ABILITY_STR_SIG_MORE_NAME" Language="zh_Hans_CN">
+			<Text>山中的千里眼</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_MOMIZI_ABILITY_STR_SIG_MORE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+7 [ICON_Strength] 战斗力+3视野，且视野可穿过地貌</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_BELIEF_TANSHOU_MOMIZI_ABILITY_STR_SIG_MORE_STR" Language="zh_Hans_CN">
+			<Text>+7 [ICON_Strength] 战斗力 来自万神殿：山中的千里眼</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_NAZRIN_NAME" Language="zh_Hans_CN">
+			<Text>探宝的小小大将</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_NAZRIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>被改良的资源+2 [ICON_PRODUCTION] 生产力+2 [ICON_GOLD] 金币+1 [ICON_FAITH] 信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ICHIRIN_NAME" Language="zh_Hans_CN">
+			<Text>守护与被守护的大轮</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ICHIRIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与山脉相邻的城市+3 [ICON_CULTURE] 文化值，并获得100点城市外部防御</Text>
+		</Replace>
+		<!-- 信徒信条 -->
+		<Replace Tag="LOC_BELIEF_TANSHOU_HECATIA_NAME" Language="zh_Hans_CN">
+			<Text>三位一体论狂想曲</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HECATIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣地，学院，工业区相邻加成-30%，但上述每种区域的相邻加成都提供等量于正常相邻加成的其他两种区域常规产出类型产出</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_JUNKO_NAME" Language="zh_Hans_CN">
+			<Text>纯粹的狂气</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_JUNKO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位+8 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_JUNKO_ATK_GET_YES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+8 [ICON_Strength] 战斗力 来自信条：纯粹的狂气</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YAKUMO_NAME" Language="zh_Hans_CN">
+			<Text>幻想的境界</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YAKUMO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位在国境内开始回合时+3 [ICON_Movement] 移动力，城市地块扩张速度+300%，首都使游戏内所有城市+1所有类型产出</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MATARA_NAME" Language="zh_Hans_CN">
+			<Text>究极的绝对秘神</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MATARA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏中每个原版区域-1相邻加成，并为首都+3等量产出（包含学院，圣地，剧院，工业区，商业中心，港口）</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOISHI_NAME" Language="zh_Hans_CN">
+			<Text>紧闭的恋之瞳</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOISHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市的每个 [ICON_Citizen] 人口+0.3 [ICON_CULTURE] 文化 +1 [ICON_FAITH] 信仰 +0.7 [ICON_PRODUCTION] 生产力，若城市未达到11 [ICON_Citizen] 人口则上述加成翻倍</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YUYUKO_NAME" Language="zh_Hans_CN">
+			<Text>华胥的永眠</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YUYUKO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视主流宗教需求，游戏中每有一个单位战斗死亡，己方所有城市的圣地+5% [ICON_FAITH] 信仰相邻加成</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_EXTEND_ASH_NAME" Language="zh_Hans_CN">
+			<Text>蓬莱人</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_EXTEND_ASH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每次招募伟人后，+1% [ICON_SCIENCE] 科技值+1% [ICON_CULTURE] 文化值+1% [ICON_FAITH] 信仰值总产出（上限30%）</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_BYAKUREN_NAME" Language="zh_Hans_CN">
+			<Text>被封印的大魔法使</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_BYAKUREN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>选择此信条的玩家：城市满足以下所有条件时，首都+60%除食物外全类型产出（拥有寺庙，至少拥有10 [ICON_Citizen] 人口，拥有工作坊，与山脉相邻，拥有驻军，拥有市场，处于黄金时代）</Text>
+		</Replace>
+		<!-- 次要信条 -->
+		<Replace Tag="LOC_BELIEF_TANSHOU_REISEN_NAME" Language="zh_Hans_CN">
+			<Text>狂气的月兔</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REISEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>累积厌战情绪比平时增加150%，不与主要文明交战时+10%所有产出</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SATORI_NAME" Language="zh_Hans_CN">
+			<Text>连怨灵都恐惧的少女</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SATORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对所有城邦的第一个 [ICON_Envoy] 使者相当于2个 [ICON_Envoy] 使者，每宗主一个城邦+4% [ICON_GOLD] 金币产出</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_IKU_NAME" Language="zh_Hans_CN">
+			<Text>美丽的绯之衣</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_IKU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自每位城邦 [ICON_Envoy] 使者的 [ICON_CULTURE] 文化+2</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YUGI_NAME" Language="zh_Hans_CN">
+			<Text>破灭的金刚力</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YUGI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>近战单位无视城墙且+5 [ICON_Strength] 战斗力，远程单位-7 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_BELIEF_TANSHOU_YUGI_MELL_ATK_BROKEN_WALLS_NAME" Language="zh_Hans_CN">
+			<Text>破灭的金刚力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_TANSHOU_TH_FAITH_BELIEF_TANSHOU_YUGI_MELL_ATK_BROKEN_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视城墙且+5 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_UNIT_TANSHOU_TH_FAITH_BELIEF_TANSHOU_YUGI_MELL_ATK_BROKEN_WALLS_ATK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 [ICON_Strength] 战斗力 来自信条：破灭的金刚力</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_YUGI_RANGE_DOWN_GET_YES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>-7 [ICON_Strength] 战斗力 来自信条：破灭的金刚力</Text>
+		</Replace>
+	    <Replace Tag="LOC_BELIEF_TANSHOU_PATCHOULI_NAME" Language="zh_Hans_CN">
+			<Text>知识与避世的少女</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_PATCHOULI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位-6 [ICON_Strength] 战斗力；城市+20% [ICON_SCIENCE] 科技值 +20% [ICON_CULTURE] 文化值</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_PATCHOULI_ATK_DOWN_GET_YES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>-6 [ICON_Strength] 战斗力 来自信条：知识与避世的少女</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REMILIA_NAME" Language="zh_Hans_CN">
+			<Text>永远鲜红的幼月</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_REMILIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10影响力；城市+7%总影响力</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>恶魔之妹</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_FLANDRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>近战单位无视受伤减益，与满血单位战斗时+9 [ICON_Strength] 战斗力，并在战斗胜利后恢复15 [ICON_Damaged] 生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_FLANDRE_MAX_ADD_STR_GET_YES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对抗满血单位时+7 [ICON_Strength] 战斗力 来自信条：恶魔之妹</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_PRISMRIVER_NAME" Language="zh_Hans_CN">
+			<Text>幽灵乐团</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_PRISMRIVER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣地与神社+2 [ICON_GreatMusician] 大音乐家点数，神社+3 [ICON_GreatWork_Music] 音乐巨作槽位，城市中的音乐巨作+4 [ICON_CULTURE] 文化值，音乐巨作+300% [ICON_Tourism] 旅游业绩（槽位无视城市主流宗教需求）</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RIN_NAME" Language="zh_Hans_CN">
+			<Text>地狱的轮祸</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>选择后立即获得4 [ICON_Envoy] 使者，且单位战斗胜利后，获得等同于被击杀单位战斗力200%的 [ICON_GOLD] 金币与 [ICON_FAITH] 信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_RIN_ABILITY_KILL_UNIT_GET_YIELD_NAME" Language="zh_Hans_CN">
+			<Text>火焰猫燐的馈赠</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_RIN_ABILITY_KILL_UNIT_GET_YIELD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>战斗胜利后，获得等同于被击杀单位战斗力200%的 [ICON_GOLD] 金币与 [ICON_FAITH] 信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SHOU_NAME" Language="zh_Hans_CN">
+			<Text>毘沙门天的弟子</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SHOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>以下条件每达成一个城市产出相当于 [ICON_FAITH] 信仰产出12%的 [ICON_GOLD] 金币：城市至少拥有7 [ICON_Citizen] 人口；城市拥有神社；城市拥有寺庙；城市拥有市场。</Text>
+		</Replace>
+		<!-- 三选信条 -->
+		<Replace Tag="LOC_BELIEF_TANSHOU_RUMIA_NAME" Language="zh_Hans_CN">
+			<Text>宵暗的妖怪</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RUMIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于黑暗时代时，城市+15 [ICON_PRODUCTION] 生产力+15 [ICON_FAITH] 信仰值</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MEIRIN_NAME" Language="zh_Hans_CN">
+			<Text>华人小姑娘</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MEIRIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市拥有驻军时，+2 [ICON_Amenities] 宜居度+2 [ICON_CULTURE] 文化值</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SAKUYA_NAME" Language="zh_Hans_CN">
+			<Text>完美潇洒的从者</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_SAKUYA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造者+1 [ICON_Movement] 移动力+1 [ICON_Charges] 劳动力</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ALICY_NAME" Language="zh_Hans_CN">
+			<Text>七色的人偶使</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_ALICY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视城市主流宗教需求，工作坊+5 [ICON_PRODUCTION] 生产力+5 [ICON_CULTURE] 文化值+2 [ICON_GreatEngineer] 大工程师点数</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YOUMO_NAME" Language="zh_Hans_CN">
+			<Text>苍天的庭师</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YOUMO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位+1 [ICON_Movement] 移动力；城市地块+1魅力，若拥有圣地则额外+2魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RAN_NAME" Language="zh_Hans_CN">
+			<Text>九尾策士</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_RAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神社将会给予一项随机 [ICON_TechBoosted] 尤里卡</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HATATE_NAME" Language="zh_Hans_CN">
+			<Text>安乐椅上的念写记者</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_HATATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得全图视野，+1 [ICON_VisLimited] 外交能见度</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KEINE_NAME" Language="zh_Hans_CN">
+			<Text>知识与历史的半兽</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KEINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视主流宗教需求，拥有的每个学院会提高1% [ICON_TechBoosted] 尤里卡与2% [ICON_CivicBoosted] 鼓舞的效果</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_INABA_NAME" Language="zh_Hans_CN">
+			<Text>幸运的白兔</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_INABA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>天知道会有什么效果！</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_NITORI_NAME" Language="zh_Hans_CN">
+			<Text>超妖怪弹头</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_NITORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市所有区域+1 [ICON_SCIENCE] 科技值+1 [ICON_PRODUCTION] 生产力+1 [ICON_GOLD] 金币基础相邻加成</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOGASA_NAME" Language="zh_Hans_CN">
+			<Text>愉快的遗忘之伞</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOGASA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位进攻时+4 [ICON_Strength] 战斗力，防御时-3 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_KOGASA_ABILITY_ATK_AND_DEF_NAME" Language="zh_Hans_CN">
+			<Text>多多良小伞的馈赠</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_KOGASA_ABILITY_ATK_AND_DEF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进攻时+4 [ICON_Strength] 战斗力，防御时-3 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_BELIEF_TANSHOU_KOGASA_ABILITY_ATK_AND_DEF_ATK" Language="zh_Hans_CN">
+			<Text>+4 [ICON_Strength] 战斗力 来自信条：愉快的遗忘之伞</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ABILITY_BELIEF_TANSHOU_KOGASA_ABILITY_ATK_AND_DEF_DEF" Language="zh_Hans_CN">
+			<Text>-3 [ICON_Strength] 战斗力 来自信条：愉快的遗忘之伞</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MINAMITU_NAME" Language="zh_Hans_CN">
+			<Text>水难事故的念缚灵</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MINAMITU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位下水后可进入深海，水运+2 [ICON_Movement] 移动力，与海军单位作战时+5 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_MINAMITU_ABILIYY_SEA_NAME" Language="zh_Hans_CN">
+			<Text>村纱水蜜的馈赠</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BELIEF_TANSHOU_MINAMITU_ABILIYY_SEA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>下水后可进入深海，水运+2 [ICON_Movement] 移动力，与海军单位作战时+5 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<!-- 四选信条 -->
+		<Replace Tag="LOC_BELIEF_TANSHOU_CIRNO_NAME" Language="zh_Hans_CN">
+			<Text>湖上的冰精</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_CIRNO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若拥有寺庙，则+3 [ICON_CULTURE] 文化值 +1 [ICON_PRODUCTION] 生产力 +9 [ICON_FAITH] 信仰值，-0.2每 [ICON_Citizen] 人口 [ICON_SCIENCE] 科技值产出</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_DAYOSEI_NAME" Language="zh_Hans_CN">
+			<Text>大妖精</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_DAYOSEI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若拥有寺庙，则+2 [ICON_CULTURE] 文化值 +8 [ICON_FAITH] 信仰值</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_XIAOEMO_NAME" Language="zh_Hans_CN">
+			<Text>小恶魔</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_XIAOEMO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若拥有寺庙，则+3 [ICON_CULTURE] 文化值 +4 [ICON_SCIENCE] 科技值</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_CHEN_NAME" Language="zh_Hans_CN">
+			<Text>凶兆的黑猫</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_CHEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若拥有寺庙，则+2 [ICON_CULTURE] 文化值 +2 [ICON_FAITH] 信仰值 +2 [ICON_GOLD] 金币 +2 [ICON_PRODUCTION] 生产力</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_WHITE_NAME" Language="zh_Hans_CN">
+			<Text>运送春天的妖精</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_WHITE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若拥有寺庙，且处于魅力值惊艳的地块上，则+8 [ICON_CULTURE] 文化值 +6 [ICON_FAITH] 信仰值 +8 [ICON_GOLD] 金币</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_WRIGGLE_NAME" Language="zh_Hans_CN">
+			<Text>暗中蠢动的光虫</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_WRIGGLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若拥有寺庙，且 [ICON_Citizen] 人口大于等于5，则+5 [ICON_FAITH] 信仰+4 [ICON_FOOD] 食物+3 [ICON_PRODUCTION] 生产力</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MYSTIA_NAME" Language="zh_Hans_CN">
+			<Text>歌唱的夜雀</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MYSTIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若拥有寺庙，则+4 [ICON_FAITH] 信仰+3 [ICON_FOOD] 食物+20% [ICON_GOLD] 金币产出</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KISUME_NAME" Language="zh_Hans_CN">
+			<Text>可怕的水井妖怪</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KISUME_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市若拥有寺庙，则-4 [ICON_FAITH] 信仰+8 [ICON_PRODUCTION] 生产力</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YAMAME_NAME" Language="zh_Hans_CN">
+			<Text>昏暗洞窟中明亮的网</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_YAMAME_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若城市拥有寺庙，则-25%人口增长速度，+1 [ICON_Amenities] 宜居度+20% [ICON_FAITH] 信仰值</Text>
+		</Replace>
+		<!-- 天外来客 -->
+		<Replace Tag="LOC_GAMEMODE_TH_FAITH_TANSHOU_MODDERS_GOD_NAME" Language="zh_Hans_CN">
+			<Text>万神殿-MODDERS</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_TH_FAITH_TANSHOU_MODDERS_GOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此游戏模式在基于东方的万神殿，以创意工坊的MODDER们为原型增加了更多的信条，每个人都有着强大的信仰，他们的力量根据他们所做mod或处事风格而定。[NEWLINE][NEWLINE]由于AI的倾向不同，他们其中的一些可能早早就被AI信仰，所以需要尽快拿下这些信条，每一个的收益都超乎你的想象，可以说是毫无平衡性，之间的上下限差距极大。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_UFO300_NAME" Language="zh_Hans_CN">
+			<Text>重铸荣光的海豚</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_UFO300_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成采矿业后解锁工业区，建造工业区及其建筑时+100%建造速度，工业区会自带+3 [ICON_PRODUCTION] 生产力相邻加成，每个工业区会使自己拥有的所有工业区建筑+20% [ICON_PRODUCTION] 生产力产出</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_BELIEF_TANSHOU_UFO300_IND_ADJ_WOODS_GET_YES" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻森林(重铸荣光的海豚)</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_QGG_NAME" Language="zh_Hans_CN">
+			<Text>表里超模-表</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_QGG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市+7所有类型产出，但若为首都则只有+4所有类型产出</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOMEIJI_TANSHOU_NAME" Language="zh_Hans_CN">
+			<Text>表里超模-里</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KOMEIJI_TANSHOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进行太空计划项目时+100% [ICON_PRODUCTION] 生产力，每回合获得50光年进程</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MUSIC_TANSHOU_NAME" Language="zh_Hans_CN">
+			<Text>幕后LUA使</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_MUSIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+8每回合影响力，总督的每个晋升使所在城市+10% [ICON_PRODUCTION] 生产力+10% [ICON_SCIENCE] 科技值</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_DARK_AGE_NAME" Language="zh_Hans_CN">
+			<Text>不那么黑暗的黑暗时代</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_DARK_AGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若处于黑暗时代，则每回合开始时随机获得一个 [ICON_CivicBoosted] 鼓舞</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_GUAAAAAAA_NAME" Language="zh_Hans_CN">
+			<Text>呱！！！嗯？我超我们也有！</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_GUAAAAAAA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏中所有人的城市都会直接获得500 [ICON_GOLD] 金币，信仰此万神殿的城市额外获得250 [ICON_FAITH] 信仰，上述效果也对新建立的城市生效</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KEKEYA_NAME" Language="zh_Hans_CN">
+			<Text>鸽鸽鸭</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_KEKEYA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>-15%人口增速，解锁项目“画饼”，此项目可以在生产时将花费 [ICON_PRODUCTION] 生产力的100%转化为 [ICON_GOLD] 金币与 [ICON_FAITH] 信仰，40%转化为 [ICON_SCIENCE] 科技与 [ICON_CULTURE] 文化。每完成一次后每回合给予 [ICON_GreatScientist] 大科学家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FORM_BELIEF_TANSHOU_KEKEYA_PEOJECT_TURN_GET_YES_NAME" Language="zh_Hans_CN">
+			<Text>画饼</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FORM_BELIEF_TANSHOU_KEKEYA_PEOJECT_TURN_GET_YES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产此项目时花费 [ICON_PRODUCTION] 生产力的100%转化为 [ICON_GOLD] 金币与 [ICON_FAITH] 信仰，40%转化为 [ICON_SCIENCE] 科技与 [ICON_CULTURE] 文化。每完成一次后每回合给予50 [ICON_GreatScientist] 大科学家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_UNI_BAKA_NAME" Language="zh_Hans_CN">
+			<Text>铁腕 萝莉恶霸 铁腕</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_UNI_BAKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造市政广场及其建筑时+100%建造速度；[ICON_Citizen] 人口未大于4的城市+75% [ICON_Tourism] 旅游业绩</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_LANGZI_NAME" Language="zh_Hans_CN">
+			<Text>天天都很热の神</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_TANSHOU_LANGZI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市建造的第一个奇观将以光速完成，若城市已拥有奇观则建造奇观时加+200%速度；每个拥有的奇观会使每回合获得等同于国库3%的 [ICON_GOLD] 金币</Text>
+		</Replace>
+	</LocalizedText>	
+</GameData>
