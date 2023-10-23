@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="98add4e9-911d-42c7-8947-bd1a6dfe498e" version="1">
+  <Properties>
+    <Name>&lt;CN_Lang&gt; [Blue Achieve]Trinity-Nagisa</Name>
+    <Description>Very IMBA Trade Civilization
+---------------------------------------------------------
+
+Civilization Traits:
++1 Trade Route capacity for each city after Civic ' Foreign Trade ' ;
+International Trade Routes Provides +2 Prodution +2 Food +2 Gold.
+
+Leader Traits:
+Your Trader units are immune to being plundered ;
+International Trade Routes receive +100% towards all yields ;
+Trade Routes Provides +2 Prodution +2 Food +2 Science +2 Culture +2 Faith +3 Gold Yield per Destination Luxury for International ;
++1 Trade Route capacity for each Improved Luxury Resource ;
+City Ignore Strategic Resource Requirement.
+
+Unique building:
+Trinity Plaza------Provides +3 Prodution +3 Science +3 Culture +3 Faith Yield;
+Each Improvement on Luxury Resource Provides extra +1 Prodution +2 Culture +1 Faith +1 Gold for Plot Yield ;
+Each Improvement on Strategic Resource Provides extra +1 Prodution +2 Science +1 Food +1 Gold for Plot Yield ;
+Each Improvement on Bonus Resource Provides extra +1 Prodution +1 Food for Plot Yield ;
+
+Unique Unit:
+Hifumi------Replace scout ;
+Gain Turn-num*3 [Culture Science Faith Gold] when pillage ;
+Gain doubled EXP ;
+Unique Promotion Route ;
+
+---------------------------------------------------------
+In-game EN_lang support will coming soon.</Description>
+    <Created>1691423168</Created>
+    <Teaser>Trinity---Nagisa</Teaser>
+    <Authors>x_aR1sa</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="ConfigDatabase">
+      <File>Data/Trinity_Nagisa_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="ConfigIcons">
+      <File>Data/Trinity_Nagisa_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="ConfigText">
+      <File>Data/Trinity_Nagisa_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="ConfigArt">
+      <File>桐藤渚领导的圣三一.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>Data/Trinity_Nagisa_Civilization.xml</File>
+      <File>Data/Trinity_Nagisa_Buildings.xml</File>
+      <File>Data/Trinity_Nagisa_Leaders.xml</File>
+      <File>Data/Trinity_Nagisa_Units.xml</File>
+      <File>Data/Trinity_Nagisa_Civilization_Modifiers.sql</File>
+      <File>Data/Trinity_Nagisa_Leaders_Modifiers.sql</File>
+      <File>Data/Trinity_Nagisa_Units_Modifiers.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>Data/Trinity_Nagisa_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Data/Trinity_Nagisa_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>桐藤渚领导的圣三一.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="GameplayScripts">
+      <File>Data/Trinity_Nagisa_Leaders_Modifiers.lua</File>
+      <File>Data/Trinity_Nagisa_Units_Modifiers.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/Trinity_Nagisa_Buildings.xml</File>
+    <File>Data/Trinity_Nagisa_Civilization.xml</File>
+    <File>Data/Trinity_Nagisa_Civilization_Modifiers.sql</File>
+    <File>Data/Trinity_Nagisa_Config.xml</File>
+    <File>Data/Trinity_Nagisa_Icon.xml</File>
+    <File>Data/Trinity_Nagisa_Leaders.xml</File>
+    <File>Data/Trinity_Nagisa_Leaders_Modifiers.lua</File>
+    <File>Data/Trinity_Nagisa_Leaders_Modifiers.sql</File>
+    <File>Data/Trinity_Nagisa_Text.xml</File>
+    <File>Data/Trinity_Nagisa_Units.xml</File>
+    <File>Data/Trinity_Nagisa_Units_Modifiers.lua</File>
+    <File>Data/Trinity_Nagisa_Units_Modifiers.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UIBuildings.blp</File>
+    <File>Platforms/MacOS/BLPs/UICivilization.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UILoading.blp</File>
+    <File>Platforms/MacOS/BLPs/UIUnits.blp</File>
+    <File>Platforms/MacOS/BLPs/UIUnitsPortrait.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UIBuildings.blp</File>
+    <File>Platforms/Windows/BLPs/UICivilization.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UILoading.blp</File>
+    <File>Platforms/Windows/BLPs/UIUnits.blp</File>
+    <File>Platforms/Windows/BLPs/UIUnitsPortrait.blp</File>
+    <File>桐藤渚领导的圣三一.dep</File>
+  </Files>
+</Mod>
