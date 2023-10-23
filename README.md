@@ -114,6 +114,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3013868284](https://steamcommunity.com/sharedfiles/filedetails/?id=3013868284) | 太卜司·掌门人·青雀 | Taibosi·The Head·Qingque |
 | [3015174918](https://steamcommunity.com/sharedfiles/filedetails/?id=3015174918) | ブルーアーカイブ レッドウィンター連邦学園 (Blue Archive - Red Winter) | Blue Archive - Red Winter Federation Academy |
 | [3015985678](https://steamcommunity.com/sharedfiles/filedetails/?id=3015985678) | BlueArchive！Shanhaijing led by Kisaki | BlueArchive! Shanhaijing led by Kisaki |
+| [3021914100](https://steamcommunity.com/sharedfiles/filedetails/?id=3021914100) | 玛纳利亚文明 古蕾雅 | Manalia Civilization Gulea |
 | [3027509371](https://steamcommunity.com/sharedfiles/filedetails/?id=3027509371) | 野兽先辈领导的下北泽文明 | The Shimokitazawa civilization led by the beast ancestors |
 | [3031187099](https://steamcommunity.com/sharedfiles/filedetails/?id=3031187099) | 深空之眼 重置版核心代码 | Eye of Deep Space Reset Core Code |
 | [3031188502](https://steamcommunity.com/sharedfiles/filedetails/?id=3031188502) | 深空之眼 暗星·海拉领袖包 重置版 | Eye of Deep Space Dark Star Hela Leader Pack Reset Version |
