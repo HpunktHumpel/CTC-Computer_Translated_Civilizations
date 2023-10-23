@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Mon Oct 23 20:05:47 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_NAME" Language="es_ES">
+			<Text>caballero hueco</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HOLLOW_KNIGHT_DESCRIPTION" Language="es_ES">
+			<Text>El contenedor de luz cegadora tiene 52[ICON_Strength] de poder de combate, 6[ICON_Movement] de poder de movimiento y 3 de rango de visión.
+No requiere ningún recurso estratégico y la tarifa de mantenimiento es de 0 monedas de oro [ICON_Gold] (como todos sabemos, si el contenedor se rompe, tírelo, no requiere mantenimiento)
+La producción requiere 90[ICON_Production] de capacidad (180[ICON_Production]-&gt;90[ICON_Production]).
+Planeé diseñar una habilidad llamada &quot;Sello&quot;, pero lo intenté.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COLOSSEUM_OF_FOOLS_NAME" Language="es_ES">
+			<Text>Coliseo de los tontos</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COLOSSEUM_OF_FOOLS_DESCRIPTION" Language="es_ES">
+			<Text>en lugar de la arena. Sólo los más valientes y fuertes pueden sobrevivir a las pruebas similares al purgatorio.
+y recibió una gran cantidad de recompensas en monedas de oro, lo que también provocó altos costos de mantenimiento del Coliseo de los Locos.
+Aquellos que fracasan accidentalmente se quedarán con desgana y arrepentimiento.
+Requiere menos capacidad de [ICON_Production] para construir (150[ICON_Production]-&gt;100[ICON_Production]),
+Como área de entretenimiento, proporciona +3 [ICON_Amenities] de amenidades. Cuota de mantenimiento 8 [ICON_Gold] monedas de oro (
+La cantidad básica es 2 monedas de oro [ICON_Gold] y las tres pruebas en el Coliseo corresponden a 1, 2 y 3 monedas de oro [ICON_Gold] respectivamente).
++3 espacios para reliquias [ICON_GreatWork_Relic].
+Para esta ciudad, la capacidad de producción de unidades militares aumentará en un 100% [ICON_Production].
+Si esta ciudad también tiene un campamento militar, entonces aumenta la capacidad de producción de [ICON_Production] en un 100%.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_NAME" Language="es_ES">
+			<Text>Archivos de profesores</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TEACHERS_ARCHIVES_DESCRIPTION" Language="es_ES">
+			<Text>En lugar de una biblioteca, cuesta más productividad (90[ICON_Production]-&gt;120[ICON_Production]),
+La tarifa de mantenimiento es de 1 moneda de oro [ICON_Gold].
+El maestro Monomon busca el cambio y ha hecho grandes contribuciones al desarrollo de la ciencia y la educación en Hallownest.
+Los archivos contienen los manuscritos del maestro Monomon,
+Una vez completado, recibirás aleatoriamente un estímulo [ICON_TechBoosted] Eureka y [ICON_CivicBoosted] de la era industrial y anteriores.
+Proporciona +2[ICON_Science] tecnología, +2[ICON_Culture] cultura,
++2[ICON_GreatScientist] puntos de gran científico, +1[ICON_GreatArtist] punto de gran escritor,
++2 espacios de escritura [ICON_GreatWork_Writing].</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLEASURE_HOUSE_NAME" Language="es_ES">
+			<Text>casa de la alegría</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION" Language="es_ES">
+			<Text>En lugar del antiguo teatro romano, el consumo de productividad de la construcción se reduce (150[ICON_Production]-&gt;120[ICON_Production]),
+La tarifa de mantenimiento es de 1 moneda de oro [ICON_Gold].
+El cantante a menudo compone canciones y canta la música más hermosa de Hallownest, con sonidos persistentes y persistentes.
+Proporciona +2[ICON_Culture] cultura, +3[ICON_GreatMusician] puntos de gran músico,
++3 espacios musicales [ICON_GreatWork_Music].
+Una vez completado, el estímulo [ICON_CivicBoosted] de cualquier era se activará aleatoriamente cada vez que entre en una nueva era.
+[Nota: Este efecto se basa en desbloquear la tecnología o administración municipal de la era correspondiente por primera vez, no la era mundial]</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_NAME" Language="es_ES">
+			<Text>plaza del palacio</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza Tierra Santa, la tarifa de mantenimiento es 1 moneda de oro [ICON_Gold] y la capacidad de producción de construcción [ICON_Production] se reduce considerablemente.
+(54[ICON_Production]-&gt;18[ICON_Production]).
+La estatua del rey se encuentra en la fuente en el centro de la plaza, atrayendo insectos para adorarlo.
+La bonificación que recibe Palace Square de las áreas adyacentes aumenta a 1.
+Proporciona +4 [ICON_Faith] de fe.
+Proporciona +2 puntos de [ICON_GreatProphet] Gran Profeta.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_PALACE_GROUNDS_FAITH" Language="es_ES">
+			<Text>+{1_num} [ICON_Faith] de áreas adyacentes</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_NAME" Language="es_ES">
+			<Text>bulliciosa encrucijada</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_DESCRIPTION" Language="es_ES">
+			<Text>En lugar de centro comercial. Como importante centro de transporte, el cruce está lleno de insectos e insectos, y hay un flujo interminable de personas yendo y viniendo.
+Es una importante manifestación de la prosperidad económica y cultural de la civilización Hallownest.
+La bonificación del área adyacente cambia a +1.
+Proporciona [ICON_Culture] cultura y [ICON_Production] producción igual a la bonificación adyacente del área.
+Proporcionar a las rutas comerciales nacionales más [ICON_Food] alimentos, [ICON_Production] capacidad de producción y [ICON_Gold] monedas,
+(0[ICON_Food]1[ICON_Production]0[ICON_Gold]-&gt;2[ICON_Food]2[ICON_Production]1[ICON_Gold])
+Proporciona más monedas de oro [ICON_Gold] para las rutas comerciales internacionales. (3[ICON_Oro]-&gt;6[ICON_Oro])
+Cuando se complete la construcción, la capacidad de la ruta comercial [ICON_TradeRoute] aumentará en 1 y se entregará una unidad comercial como regalo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FLOURISHING_CROSSROADS_GOLD" Language="es_ES">
+			<Text>+{1_num} [ICON_Gold] de regiones adyacentes</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_NAME" Language="es_ES">
+			<Text>plaza del templo del huevo negro</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_DESCRIPTION" Language="es_ES">
+			<Text>[Nota: esta área utiliza un modelo de tierra santa, identifique cuidadosamente el área cuando juegue]
+El área característica de la civilización Hallownest no reemplaza a ninguna área, no tiene requisitos de población y solo se puede construir en una ciudad.
+Los costes de construcción se reducen considerablemente y, cuando se captura una ciudad, el área desaparece.
+Proporciona una bonificación de adyacencia de +3 a las áreas más comunes y a ciertas áreas de especialidad.
+Gana +3[ICON_Science] tecnología, +3[ICON_Culture] cultura, +3[ICON_Gold] monedas de oro,
++3[ICON_Faith]fe, +3[ICON_Food]alimentos, +3[ICON_Production] capacidad de producción.
+Otorga el doble de bonificación a la Plaza del Pueblo para el comercio internacional y nacional.
+Saquear esta área producirá el doble de [ICON_Faith] que saquear Tierra Santa.
+Cuando se complete la construcción, podrás obtener un Hollow Knight independientemente de las restricciones tecnológicas.
+Los Hollow Knights adyacentes a esta área obtienen +25 [ICON_Strength] de fuerza de combate.</Text>
+		</Replace>
+		<Replace Tag="LOC_HOLLOW_KNIGHT_ADD_NEWBEE_BUFF_DESCRIPTION" Language="es_ES">
+			<Text>Gana un bono de fuerza de combate de +25 [ICON_Strength] de la adyacente Black Egg Temple Square amiga.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_CULTURE" Language="es_ES">
+			<Text>+{1_num} [ICON_Culture] de la adyacente Plaza del Templo del Huevo Negro</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_FAITH" Language="es_ES">
+			<Text>+{1_num} [ICON_Faith] desde la adyacente Plaza del Templo del Huevo Negro</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_GOLD" Language="es_ES">
+			<Text>+{1_num} [ICON_Gold] de la adyacente Plaza del Templo del Huevo Negro</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_PRODUCTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Production] de la adyacente Plaza del Templo del Huevo Negro</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TEMPLE_OF_THE_BLACK_EGG_SQUARE_SCIENCE" Language="es_ES">
+			<Text>+{1_num} [ICON_Science] desde la adyacente Plaza del Templo del Huevo Negro</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_NAME" Language="es_ES">
+			<Text>nido sagrado</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="es_ES">
+			<Text>nido sagrado</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HOLLOWNEST_ADJECTIVE" Language="es_ES">
+			<Text>Hallownest</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_NAME" Language="es_ES">
+			<Text>La bendición del hombre común y la sobrecarga de talismanes</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_HOLLOWNEST_DESCRIPTION" Language="es_ES">
+			<Text>Bendición de lo ordinario: existe la posibilidad de que tu unidad deje reliquias [ICON_GreatWork_Relic] después de morir.
+Sobrecarga de talismán: obtenga un espacio comodín y, después de ingresar a la Era Clásica, obtenga un espacio económico adicional.
+Después de entrar en la Edad Media, obtendrás un puesto económico adicional.
+(En este punto, puedes usar una ranura para equipar el Soul Eater (tachar))
+[Nota: Este efecto se basa en desbloquear la tecnología o administración municipal de la era correspondiente por primera vez, no la era mundial]</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RADIANCE_NAME" Language="es_ES">
+			<Text>resplandor</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_NAME" Language="es_ES">
+			<Text>Infectar</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RADIANCE_DESCRIPTION" Language="es_ES">
+			<Text>La radiación controla los sueños e infecta las mentes de las criaturas.
+[Nota: El aumento de la presión religiosa no se ha constatado]
+La presión religiosa liberada por todas las ciudades es de +300%. Después de desbloquear la tecnología del estribo,
+Radiant puede inspirarse en el método utilizado para controlar Hollow Knight, y todas las ciudades liberan un +100 % de presión religiosa adicional.
+Las unidades religiosas obtienen +8[ICON_Religion] efectividad en combate religioso y +5 tiempos de misión,
+Los apóstoles reciben automáticamente las mejoras Arguer y Counselor.
+La lealtad de tu ciudad está bloqueada al 100% y la presión de lealtad liberada por cada ciudad a las áreas circundantes es +6.
+Si otras ciudades pierden toda lealtad y están bajo la mayor presión de lealtad por parte de la Radiación, se saltarán la fase de ciudad libre.
+Añade luminosidad directamente.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_NAME" Language="es_ES">
+			<Text>infección por radiación</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_RADIANCE_RELIGIOUS_BUFF_DESCRIPTION" Language="es_ES">
+			<Text>Infección radiante +8 [ICON_Religion] poder de combate religioso</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_NAME" Language="es_ES">
+			<Text>Pequeño Caballero (Dios de los Dioses)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_NAME" Language="es_ES">
+			<Text>templado en acero</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GOD_OF_GODS_DESCRIPTION" Language="es_ES">
+			<Text>El pequeño caballero ha pasado por cientos de millones de pruebas y ha sufrido innumerables dificultades, y ha completado la incapacidad r045, radiante mata rápidamente a cualquier radiante 3.0,
+Path of Pain en 1 minuto y 40 segundos, cualquier% de velocidad en 25 minutos, realiza todas las hazañas de Hallownest y otras hazañas, y finalmente asciende a Dios del Vacío.
+Conviértete en el Dios de Hallownest. Las unidades militares tienen +3[ICON_Strength] fuerza de combate. Las unidades militares heridas no reducirán la fuerza de combate.
+Las unidades militares obtienen un valor de experiencia de +400 %, y la experiencia obtenida al luchar contra unidades alcanza el límite superior incorporado en el juego (8).
+Después de que las unidades militares luchen, se producirán efectos adicionales en el siguiente orden:
+1. Gana 7 puntos de experiencia adicionales,
+2. Por cada 7 puntos de experiencia, se restaurará 1 punto de vida.
+3. Si el enemigo es una unidad, causará 1 punto adicional de daño por cada 7 puntos de experiencia.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_NAME" Language="es_ES">
+			<Text>La voluntad de hierro que cien veces se convierte en acero.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_GOD_OF_GODS_COMBAT_BUFF_DESCRIPTION" Language="es_ES">
+			<Text>La poderosa voluntad del Dios del Vacío +5 [ICON_Strength] poder de combate</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WANDERER_NAME" Language="es_ES">
+			<Text>Pequeño Caballero (Vagabundo)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_NAME" Language="es_ES">
+			<Text>Explorar Hallownest</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WANDERER_DESCRIPTION" Language="es_ES">
+			<Text>El flexible Hallownest Brother puede viajar a cualquier lugar de Hallownest con facilidad.
+Todas las unidades tienen +1 poder de movimiento [ICON_Movement]. Al pasar por algunos accidentes geográficos y ríos,
+Puede ignorar la pérdida de movimiento, pero aún se ve afectado por el control del área.
+Produzca unidades pioneras +75 % de la capacidad de [ICON_Production].
+Después de construir o capturar una ciudad, regala una unidad de exploración.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_NAME" Language="es_ES">
+			<Text>Explora el viaje de Hallownest</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WANDERER_EXTRA_MOVEMENT_DESCRIPTION" Language="es_ES">
+			<Text>Explorando el efecto Hallownest +1 movimiento [ICON_Movement]</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_NAME" Language="es_ES">
+			<Text>Explorar la garra de mantis de Hallownest</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_TERRAIN_COST_DESCRIPTION" Language="es_ES">
+			<Text>El efecto de explorar Hallownest ignora el consumo de movimiento adicional causado por el terreno.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_RIVERS_NAME" Language="es_ES">
+			<Text>Explora la capa de alas de polilla de Hallownest</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WANDERER_IGNORE_RIVERS_DESCRIPTION" Language="es_ES">
+			<Text>Explorar Hallownest ignora el costo de movimiento adicional que supone cruzar ríos.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WYRMS_NAME" Language="es_ES">
+			<Text>Gusano</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_NAME" Language="es_ES">
+			<Text>Genio de la decoración</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WYRMS_DESCRIPTION" Language="es_ES">
+			<Text>El Pale King Worm tiene un talento único para la decoración y no es difícil saber que su capacidad de diseño arquitectónico también es extremadamente excelente.
+La mayoría de las mejoras generales en la ciudad proporcionan +1 [ICON_Food] adicional en comida.
++4[ICON_Production] capacidad de producción.
+Worm es bueno armando cada rincón de la ciudad con sierras afiladas y permite a los ciudadanos y a las tropas practicar parkour en la sierra.
+De esta manera, pueden ejercitar su adaptabilidad al aserradero, y los amigables ciudadanos también están dispuestos a mostrar el camino a los forasteros.
+La posición de la sierra es impredecible y los enemigos que no están familiarizados con el terreno solo sufrirán cuando lleguen a la ciudad de Worm——
+La ciudad gana el efecto de halo &quot;Camino del Dolor&quot;. Dentro de 3 anillos de la ciudad,
+El límite máximo de movimiento de la unidad que lucha contigo es -2[ICON_Movement] (el efecto se puede superponer y la fuerza de movimiento que vuelve a cero equivale a un encarcelamiento permanente),
+El ejército obtiene +10 [ICON_Strength] de efectividad en combate cuando lucha en su propia célula o en células adyacentes a su propio territorio.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WYRMS_HOME_COMBAT_BUFF_NAME" Language="es_ES">
+			<Text>Genio de la decoración: Saw Sea Guerrilla</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_WYRMS_HOME_COMBAT_BUFF_DESCRIPTION" Language="es_ES">
+			<Text>Cuando luches en tu propio territorio o en una celda adyacente a tu propio territorio,
++10[ICON_Strength] fuerza de combate</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_THE_ABYSS" Language="es_ES">
+			<Text>abismo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANCIENT_BASIN" Language="es_ES">
+			<Text>cuenca antigua</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CITY_OF_TEARS" Language="es_ES">
+			<Text>ciudad de lágrimas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CRYSTAL_PEAK" Language="es_ES">
+			<Text>pico de cristal</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DEEPNEST" Language="es_ES">
+			<Text>guarida profunda</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DIRTMOUTH" Language="es_ES">
+			<Text>Nikou</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FOG_CANYON" Language="es_ES">
+			<Text>Cañón de niebla</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FUNGAL_WASTES" Language="es_ES">
+			<Text>páramo de hongos</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GODHOME" Language="es_ES">
+			<Text>residencia divina</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREENPATH" Language="es_ES">
+			<Text>camino verde</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_THE_HIVE" Language="es_ES">
+			<Text>panal</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KINDOM_S_EDGE" Language="es_ES">
+			<Text>borde del reino</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_QUEEN_S_GARDENS" Language="es_ES">
+			<Text>Jardín de la Reina</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RESTING_GROUNDS" Language="es_ES">
+			<Text>lugar de descanso</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ROYAL_WATERWAYS" Language="es_ES">
+			<Text>canal real</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WHITE_PALACE" Language="es_ES">
+			<Text>Palacio Blanco</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SOUL_DUALISM" Language="es_ES">
+			<Text>Pantano del estanque Ikon</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HOWLING_CLIFFS" Language="es_ES">
+			<Text>acantilados silbantes</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DREAM_REALM" Language="es_ES">
+			<Text>sueño</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MANTIS_VILLAGE" Language="es_ES">
+			<Text>Pueblo Mantis</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LAKE_OF_UNN" Language="es_ES">
+			<Text>Lago de Unn</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STONE_SANCTUARY" Language="es_ES">
+			<Text>Refugio de piedra</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANCESTRAL_MOUND" Language="es_ES">
+			<Text>cerros ancestrales</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KINGS_PASS" Language="es_ES">
+			<Text>Camino de la montaña de los reyes</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STAG_NEST" Language="es_ES">
+			<Text>nido de escarabajo ciervo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ISMAS_GROVE" Language="es_ES">
+			<Text>El bosque de Isma.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_JUNK_PIT" Language="es_ES">
+			<Text>pozo de basura</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SOUL_SANCTUM" Language="es_ES">
+			<Text>santuario del alma</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TOWER_OF_LOVE" Language="es_ES">
+			<Text>torre del amor</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KINGS_STATION" Language="es_ES">
+			<Text>Estación del Rey</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LAND_OF_STORMS" Language="es_ES">
+			<Text>tierra de tormenta</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DISTANT_VILLAGE" Language="es_ES">
+			<Text>pueblo lejano</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HOLLOWNESTS_CROWN" Language="es_ES">
+			<Text>Corona de Hallownest</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CRYSTALLISED_MOUND" Language="es_ES">
+			<Text>colinas cristalizadas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CAST_OFF_SHELL" Language="es_ES">
+			<Text>concha abandonada</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OVERGROWN_MOUND" Language="es_ES">
+			<Text>colinas cubiertas de plantas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_QUEENS_STATION" Language="es_ES">
+			<Text>Posada de la reina</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FUNGAL_CORE" Language="es_ES">
+			<Text>núcleo de hongos</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_0" Language="es_ES">
+			<Text>No importa el precio</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_1" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_2" Language="es_ES">
+			<Text>sin mente pensante</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_3" Language="es_ES">
+			<Text>No hay voluntad de doblegarse</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_4" Language="es_ES">
+			<Text>No hay llanto por el sufrimiento</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_5" Language="es_ES">
+			<Text>Nacido de las manos de Dios y del vacío.</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6" Language="es_ES">
+			<Text>Sellarás la luz cegadora que propaga la plaga en los sueños de las personas.</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_6_RADIANCE" Language="es_ES">
+			<Text>[COLOR_FLOAT_GOLD]Estás completamente rendido y leal a la Luz Suprema[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_7" Language="es_ES">
+			<Text>tu eres el contenedor</Text>
+		</Replace>
+		<Replace Tag="LOC_TEXT_MEMORY_OF_THE_AYBSS_8" Language="es_ES">
+			<Text>tu eres el caballero hueco</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RADIANCE_NAME" Language="es_ES">
+			<Text>luz dorada brillando</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_RADIANCE_DESCRIPTION" Language="es_ES">
+			<Text>Me gusta la civilización que entró en la edad de oro con luz dorada,
+Ligeramente disgustado con la civilización que vive en tiempos normales,
+Odio la civilización que vive en la Edad Media.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡Luz! ¡mango!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡negro! ¡oscuro!</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_GOLD_DES" Language="es_ES">
+			<Text>Como una civilización bañada en luz dorada (edad de oro).</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_A_BIT_HATE_NO_GOLD_AGE_DES" Language="es_ES">
+			<Text>Ligeramente disgustado con las civilizaciones que no están bajo la luz dorada (no la edad de oro).</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_RADIANCE_MODIFIER_DARK_DES" Language="es_ES">
+			<Text>Odio la civilización de los insectos en la oscuridad (Edad Oscura).</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡I! ¡Sí! ¡habló! ¡Luz! ¡I! ¡No! ¡reunión! ¡miedo! ¡miedo! ¡tú!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡I! ¡territorio! ¡muy! ¡Poder! ¡Ru! ¡Todo! ¡qué! ¡como!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡Sinceridad! ¡Sincero! ¡invitar! ¡Ru! ¡Venir! ¡I! ¡Sueño! ¡territorio!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡tener! ¡amigo! ¡desde! ¡Lejos! ¡cuadrado! ¡Venir! ¡No! ¡así como también! ¡feliz! ¡Eh!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡sentir! ¡Gracias! ¡tú!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡bien!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡No!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡Ru! ¡I! ¡desear! ¡amigo! ¡también!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡No! ¡Saber! ¡bien! ¡malo!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡Luz! ¡mango! ¡reunión! ¡Voluntad! ¡tú! ¡tragar! ¡morder!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡Sistema! ¡Sistema! ¡eliminar! ¡Destruir!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡I! ¡lágrima! ¡podrido! ¡tú! ¡de! ¡Boca!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡insecto! ¡piojo! [NEWLINE](te condena)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡rollo!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡rústico! ¡también!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡Ruí! ¡también!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RADIANCE_ANY" Language="es_ES">
+			<Text>¡I! ¡No! ¡reunión! ¡colcha! ¡Legado! ¡olvidar!</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_NAME" Language="es_ES">
+			<Text>desde el abismo</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_GOD_OF_GODS_DESCRIPTION" Language="es_ES">
+			<Text>Prefiere civilizaciones que no estén en la Edad de Oro, pero no odies las civilizaciones que sí estén en la Edad de Oro.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_GOD_OF_GODS_LIKE_NO_GOLD_AGE_DES" Language="es_ES">
+			<Text>Me gusta una civilización en la que el halo dorado desaparece y se sigue luchando por la superación personal (no por la edad de oro).</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(Sentirse feliz)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(me siento infeliz)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(Saludarte)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(esperamos intercambiar información de capital)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(invitación amistosa)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(placer)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(Expresar agradecimiento)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(aceptar)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(veto)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(quiero declarar amistad)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(sintió arrepentimiento)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(¡Mátate! ¡Lucha!)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(¡Declararte la guerra! ¡Matar!)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...[NEWLINE](te condena)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(piensa que vas a empezar una guerra)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(lástima)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(un movimiento inteligente)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GOD_OF_GODS_ANY" Language="es_ES">
+			<Text>...(Eres un oponente digno)</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WANDERER_NAME" Language="es_ES">
+			<Text>Explora y dibuja</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WANDERER_DESCRIPTION" Language="es_ES">
+			<Text>Me gusta explorar civilizaciones con muchos mapas, pero odio explorar civilizaciones con pocos mapas.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_LIKE_HIGH_EXPLORATION_DES" Language="es_ES">
+			<Text>Me gusta explorar más civilizaciones en el mundo.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_WANDERER_HATE_LOW_EXPLORATION_DES" Language="es_ES">
+			<Text>Me desagradan ligeramente las civilizaciones que no comprenden el mundo lo suficientemente bien.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>(*^▽^*) (complacido por su extensa exploración del mapa)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>（｀へ´）(No estoy contento porque no exploraste demasiado el mapa)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>ヾ(´･ω･｀)ﾉ (Saludarte)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>(＾－＾) (Espero que podamos intercambiar información de capital)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>(.・・)ノ (invitación amistosa)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>o(〃'▽'〃)o (placer)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>☆⌒(*＾-゜)v (para expresar gratitud)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>n(*≧▽≦*)n (de acuerdo)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>(#￣～￣#) (vetado)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>(≧∇≦)ﾉ (Quieres declarar amistad)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>(°ー°〃) (para expresar arrepentimiento)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>┻━┻︵╰(‵□′)╯︵┻━┻ (¡Mátate! ¡Lucha!)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>┻━┻︵╰（‵□′╰） (¡Declarándote la guerra! ¡Mata!)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>(╬￣俣)[NEWLINE]（te condenaré）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>o((⊙﹏⊙))o (crees que vas a empezar una guerra)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>Σ( ° _ °|||)︴ (Desafortunadamente)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>(＾－＾)V (movimiento inteligente)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WANDERER_ANY" Language="es_ES">
+			<Text>o(╥﹏╥)o（呜哇~）</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WYRMS_2_NAME" Language="es_ES">
+			<Text>Amplio trabajo de construcción.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WYRMS_2_DESCRIPTION" Language="es_ES">
+			<Text>Le gusta limpiar todos los paisajes y mejorar todos los mosaicos que se pueden mejorar. Prefiere civilizaciones con un alto porcentaje de células mejoradas.
+Odio las civilizaciones que tienen un bajo porcentaje de células mejoradas o construyen parques nacionales.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_WYRMS_2_EXPLOITATION_DES" Language="es_ES">
+			<Text>Los gustos y disgustos dependen de la cantidad de fichas de mejora de la civilización y del disgusto por los parques nacionales.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Es un placer ver la abundancia de mejoras dentro de sus fronteras.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>¿Es así como planificas tu terreno?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Hola, soy Worm, el Rey Pálido, el gobernante de Hallownest.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Extraño, ¿de dónde eres?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Espero que puedas venir a visitar mi palacio blanco exquisitamente decorado.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Esto es bueno.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Es fantástico ver la prosperidad y el esplendor de tu ciudad.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>La amistad entre Hallownest y tu país durará para siempre.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Después de repetidas consideraciones, decidí negarme temporalmente.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>¿Podemos profundizar la cooperación y crear brillantez juntos?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Qué lástima.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>¡Aquellos que quieran ser soldados y guerreros, decapítenlos con una sierra afilada!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>¡En nombre de Hallownest, te declaro la guerra!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>¿Vaya? interesante.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Deberías pagar por tus acciones. [NEWLINE](te condena)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>¿Quieres hacer la guerra contra Hallownest?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Desafortunadamente.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>Un placer trabajar con él.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WYRMS_ANY" Language="es_ES">
+			<Text>¿Es posible todavía escapar a este destino después de todo?</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_QUOTE" Language="es_ES">
+			<Text>... ¡Li! ¡brillante! ¡Voluntad! ¡reunión! ¡llegar! ¡Venir! ...</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RADIANCE_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>La plaga, la infección, la locura enredada con los cadáveres de insectos de Hallownest... la luz que chirría en los ojos de la gente de este reino en decadencia.
+¿De donde viene esto? La gente común como yo probablemente nunca lo entenderá.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_QUOTE" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GOD_OF_GODS_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Conocido como el Dios de los Dioses por los Buscadores de Dios, el Señor de las Sombras en los archivos del juego, y los jugadores a menudo lo llaman el Dios del Vacío.
+Es una criatura vacía muy grande con muchos cuernos en la cabeza, cuatro brazos y ocho ojos blancos brillantes.
+También hay muchos zarcillos retorciéndose detrás de él.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_QUOTE" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WANDERER_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Un misterioso vagabundo, usando clavos para romper huesos como armas, se coló en Hallownest bajo la superficie y comenzó su aventura.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_QUOTE" Language="es_ES">
+			<Text>Aquí también debería añadirse una motosierra.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>El viejo rey de Hallownest... realmente debe querer salvar su pequeño mundo en ruinas.
+Los sacrificios que impuso a los demás... resultaron en vano.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WYRMS_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>¡Mi rey! ¡Eres un bastardo sin remedio! (Intrusión no provocada)</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

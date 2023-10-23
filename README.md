@@ -114,6 +114,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3008449728](https://steamcommunity.com/sharedfiles/filedetails/?id=3008449728) | ブルーアーカイブ トリニティ総合学園 (Blue Archive - Trinity) | Blue Archive Trinity General Academy (Blue Archive - Trinity) |
 | [3009154026](https://steamcommunity.com/sharedfiles/filedetails/?id=3009154026) | &lt;CN_lang&gt; [Blue Achieve] Trinity Nagisa | &lt;CN_lang&gt; [Blue Achieve] Trinity Nagisa |
 | [3009951610](https://steamcommunity.com/sharedfiles/filedetails/?id=3009951610) | 量子之海·希儿·芙乐艾 | Sea of ​​Quantum, Seele Fleur |
+| [3011191968](https://steamcommunity.com/sharedfiles/filedetails/?id=3011191968) | 空洞骑士圣巢文明 HollowNest Civilization | Hollow Knight HollowNest Civilization |
 | [3012114409](https://steamcommunity.com/sharedfiles/filedetails/?id=3012114409) | ブルーアーカイブ ミレニアムサイエンススクール (Blue Archive - Millennium) | Blue Archive - Millennium Science School |
 | [3013868284](https://steamcommunity.com/sharedfiles/filedetails/?id=3013868284) | 太卜司·掌门人·青雀 | Taibosi·The Head·Qingque |
 | [3015174918](https://steamcommunity.com/sharedfiles/filedetails/?id=3015174918) | ブルーアーカイブ レッドウィンター連邦学園 (Blue Archive - Red Winter) | Blue Archive - Red Winter Federation Academy |
