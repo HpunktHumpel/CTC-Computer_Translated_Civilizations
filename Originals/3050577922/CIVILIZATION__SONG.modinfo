@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0450b233-845c-4a06-9aa5-17ac1d46fe9d" version="1">
+  <Properties>
+    <Name>宋朝：宋徽宗</Name>
+    <Description>测试版：ghost，特别感谢：H佬</Description>
+    <Created>1697335869</Created>
+    <Teaser>test</Teaser>
+    <Authors>lenovo</Authors>
+    <SpecialThanks>H佬</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Song_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Song_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>Song_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Song_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>Civilization_Song.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Song_Civilization.xml</File>
+      <File>Song_Leader.xml</File>
+      <File>Song_Unit.xml</File>
+      <File>Song_Improvement.xml</File>
+      <File>Song_Improment_2.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Song_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>Song_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Song_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>Civilization_Song.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="lua">
+      <File>Song_Campus_Buff.lua</File>
+      <File>Song_Campus_Debuff.lua</File>
+      <File>Song_Unit_Ability.lua</File>
+      <File>Song_YouYi_Ability.lua</File>
+      <File>Song_YouYI_Ability2.lua</File>
+      <File>GreatWork_Promote.lua</File>
+      <File>Wonder_Builder.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Civilization_Song.dep</File>
+    <File>GreatWork_Promote.lua</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SongDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/SongDDS2.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SongDDS.blp</File>
+    <File>Platforms/Windows/BLPs/SongDDS2.blp</File>
+    <File>Song_Campus_Buff.lua</File>
+    <File>Song_Campus_Debuff.lua</File>
+    <File>Song_Civilization.xml</File>
+    <File>Song_Color.xml</File>
+    <File>Song_Config.xml</File>
+    <File>Song_Icon.xml</File>
+    <File>Song_Improment_2.xml</File>
+    <File>Song_Improvement.xml</File>
+    <File>Song_Leader.xml</File>
+    <File>Song_Text.xml</File>
+    <File>Song_Unit.xml</File>
+    <File>Song_Unit_Ability.lua</File>
+    <File>Song_YouYi_Ability.lua</File>
+    <File>Song_YouYI_Ability2.lua</File>
+    <File>Wonder_Builder.lua</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/SongDDS.xlp</File>
+    <File>XLPs/SongDDS2.xlp</File>
+  </Files>
+</Mod>
