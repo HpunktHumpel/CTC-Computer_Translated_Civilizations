@@ -72,6 +72,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2933896742](https://steamcommunity.com/sharedfiles/filedetails/?id=2933896742) | Date.A.Live-ItsukaKotori Reloaded | Date.A.Live-ItsukaKotori Reloaded |
 | [2934144626](https://steamcommunity.com/sharedfiles/filedetails/?id=2934144626) | 永不落幕的支配剧场 | Never Ending Theater of Domination |
 | [2935800893](https://steamcommunity.com/sharedfiles/filedetails/?id=2935800893) | 冯杉领导的Gary王国 | Gary Kingdom led by Feng Shan |
+| [2936651566](https://steamcommunity.com/sharedfiles/filedetails/?id=2936651566) | XiZhiLangOfDesperateIlliteracy | XiZhiLangOfDesperateIlliteracy |
 | [2937984514](https://steamcommunity.com/sharedfiles/filedetails/?id=2937984514) | Date.A.Live-YamaiSisters Reloaded | Date.A.Live-YamaiSisters Reloaded |
 | [2940769424](https://steamcommunity.com/sharedfiles/filedetails/?id=2940769424) | Date.A.Live-IzayoiMiku Reloaded | Date.A.Live-IzayoiMiku Reloaded |
 | [2942535136](https://steamcommunity.com/sharedfiles/filedetails/?id=2942535136) | 新文明：蔚蓝文明 | New Civilization: Azure Civilization |

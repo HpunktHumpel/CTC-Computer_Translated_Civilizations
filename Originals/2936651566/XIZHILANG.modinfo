@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="66429189-d0c2-4c61-b19b-b15e3f9739d1" version="1">
+  <Properties>
+    <Name>XiZhiLangOfDesperateIlliteracy</Name>
+    <Description>该模组仅供娱乐，暂时只包含了绝望的文盲中的一位领袖——玺之郎。</Description>
+    <Created>1677067757</Created>
+    <Teaser>For entertainment only.</Teaser>
+    <Authors>ABCX2316</Authors>
+    <SpecialThanks>问题指导：C1sen；UFO300    素材来源：Bilibili@豌豆ou曲奇i   视频教程：Hemmelfort</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" title="LOC_ETHIOPIA_MOD_TITLE" min_version="1" />
+  </References>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>TextConfig.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>XiZhiLangOfDesperateIlliteracy.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>Civilization.xml</File>
+      <File>Leader.xml</File>
+      <File>Buildings.xml</File>
+      <File>Units.xml</File>
+      <File>Improvements.xml</File>
+      <File>Project.xml</File>
+      <File>Resource.xml</File>
+      <File>District.xml</File>
+      <File>Agenda.xml</File>
+      <File>Modifiers.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>TextInGame.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>XiZhiLangOfDesperateIlliteracy.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="GamePlayScripts">
+      <File>AbilityCranes.lua</File>
+      <File>ProjectCompeletionChange.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>AbilityCranes.lua</File>
+    <File>Agenda.xml</File>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Buildings.xml</File>
+    <File>Civilization.xml</File>
+    <File>Config.xml</File>
+    <File>District.xml</File>
+    <File>Icons.xml</File>
+    <File>Improvements.xml</File>
+    <File>Leader.xml</File>
+    <File>Modifiers.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/XizhilangDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/XizhilangDDS.blp</File>
+    <File>Project.xml</File>
+    <File>ProjectCompeletionChange.lua</File>
+    <File>Resource.xml</File>
+    <File>TextConfig.xml</File>
+    <File>TextInGame.xml</File>
+    <File>Units.xml</File>
+    <File>XIZHILANG.Art.xml</File>
+    <File>XiZhiLangOfDesperateIlliteracy.dep</File>
+  </Files>
+</Mod>
