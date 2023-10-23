@@ -31,6 +31,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2134034215](https://steamcommunity.com/sharedfiles/filedetails/?id=2134034215) | 《NO GAME NO LIFE》Jibril | 《NO GAME NO LIFE》Jibril |
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | Arknights W |
 | [2172515402](https://steamcommunity.com/sharedfiles/filedetails/?id=2172515402) | 中国文明的新领袖【始皇帝】 | The new leader of Chinese civilization [Shi Huangdi] |
+| [2217426255](https://steamcommunity.com/sharedfiles/filedetails/?id=2217426255) | 三界至尊 九天之主 玉皇大帝 | Supreme of the Three Realms, Lord of Nine Heavens, Jade Emperor |
 | [2640640037](https://steamcommunity.com/sharedfiles/filedetails/?id=2640640037) | 魔法纪录系列：调整屋与puella care | Magic Records Series: Adjustment House and puella care |
 | [2650882239](https://steamcommunity.com/sharedfiles/filedetails/?id=2650882239) | 白鸟歌野是勇者 | Shiratori Utano is a brave man |
 | [2656801909](https://steamcommunity.com/sharedfiles/filedetails/?id=2656801909) | 魔法纪录系列：神滨魔法联盟（南区） | Magic Records Series: Kamihama Magic League (South Area) |
