@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3eab9917-37ff-4744-8b2e-9410cdf46a9f" version="1">
+  <Properties>
+    <Name>钢铁的反叛者</Name>
+     <Description>文明：钢铁的反叛者：2个能力
+      [NEWLINE]清澄的苍蓝·坦忒拉：一个领袖能力，一个特色项目，一个特色总督，一个特色单位
+      [NEWLINE]创造的丹紫·安涅儿:一个领袖能力，2个特色兵种，一个特色总督，2个特色项目
+      [NEWLINE]悠久的绯红·莫诺:一个领袖能力，2个特色项目，一个特色总督，一个特色兵种</Description>
+    <Created>1666029892</Created>
+    <Teaser>一个文明3个领袖</Teaser>
+    <Authors>泉</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="HD">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>521b8777-0977-4859-a5ee-3e411a732e5c</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>IZUMI_STEEL_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="iocn">
+      <File>IZUMI_STEEL_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>IZUMI_STEEL_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>My Custom Mod.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="HD_support" criteria="HD">
+    <Properties><LoadOrder>20000</LoadOrder></Properties>
+       <File>SubMod_HD.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="database">
+   <Properties><LoadOrder>5000</LoadOrder></Properties>
+      <File>IZUMI_STEEL_Civilization.xml</File>
+      <File>Leader_TETRA.xml</File>
+      <File>IZUMI_STEEL_project2.xml</File>
+      <File>IZUMI_STEEL_Database3.sql</File>
+      <File>IZUMI_STEEL_unit.xml</File>
+      <File>IZUMI_STEEL_Governor2.xml</File>
+      <File>LEADER_AENAE/Leader_AENAE.xml</File>
+      <File>LEADER_AENAE/Leader_MONO.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>IZUMI_STEEL_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>IZUMI_STEEL_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>My Custom Mod.dep</File>
+    </UpdateArt>
+    <AddUserInterfaces id="MONO_UI">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>MONO_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="NewAction">
+      <File>LUA_AENAE.lua</File>
+    </AddGameplayScripts>
+     <ImportFiles id="MONO_import">
+      <Properties><LoadOrder>1</LoadOrder></Properties>
+      <File>MONO_UI.lua</File>
+    </ImportFiles>
+    <UpdateAudio id="MONO_Audio">
+      <File>Platfoms/Windows/Audio/Test_one.ini</File>
+      <File>Platfoms/Windows/Audio/Buttonselect1.bnk</File>
+      <File>Platfoms/Windows/Audio/SoundbanksInfo.xml</File>
+      <File>Platfoms/Windows/Audio/MonoDisable.bnk</File>
+      <File>Platfoms/Windows/Audio/MonoHellosound.bnk</File>
+
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/CIVILIZATION_STELL.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/LEADER_TETRA.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>IZUMI_STEEL_Civilization.xml</File>
+    <File>IZUMI_STEEL_Config.xml</File>
+    <File>IZUMI_STEEL_Database3.sql</File>
+    <File>IZUMI_STEEL_Governor2.xml</File>
+    <File>IZUMI_STEEL_Icon.xml</File>
+    <File>LEADER_AENAE/Leader_AENAE.xml</File>
+    <File>LEADER_AENAE/Leader_MONO.xml</File>
+    <File>Leader_TETRA.xml</File>
+    <File>LUA_AENAE.lua</File>
+    <File>My Custom Mod.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/TETRA.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/TETRA.blp</File>
+    <File>IZUMI_STEEL_project2.xml</File>
+    <File>IZUMI_STEEL_Text.xml</File>
+    <File>IZUMI_STEEL_unit.xml</File>
+    <File>SubMod_HD.sql</File>
+
+    <File>MONO_UI.xml</File>
+    <File>MONO_UI.lua</File>
+    <File>Platfoms/Windows/Audio/Test_one.ini</File>
+    <File>Platfoms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platfoms/Windows/Audio/Buttonselect1.bnk</File>
+    <File>Platfoms/Windows/Audio/MonoDisable.bnk</File>
+    <File>Platfoms/Windows/Audio/MonoHellosound.bnk</File>
+  </Files>
+</Mod>
