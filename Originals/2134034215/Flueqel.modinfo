@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5503f66d-60a8-4ed4-87b6-d7feae5a83ae" version="4">
+  <Properties>
+    <Name>...吉普莉尔...</Name>
+    <Description>没有厌战，没有占领惩罚，一个区域，四个建筑，四个单位。</Description>
+    <Created>1694878701</Created>
+    <Teaser>吉普莉尔是位美若天神的天使少女，全身散发出压倒性的存在感，令人不敢直视。</Teaser>
+    <Authors>露滴麦浪摇</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Jibril_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Jibril_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icons">
+      <File>Jibril_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>...吉普莉尔....dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Jibril_Leaders.xml</File>
+      <File>Jibril_Buildings.xml</File>
+      <File>Jibril_Units.xml</File>
+      <File>WMD.xml</File>
+      <File>PROJECT_WMD.xml</File>
+      <File>Jibril_Districts.xml</File>
+      <File>Jibril_UnitPromotions.xml</File>
+      <File>Jibril_UnitAbilities.xml</File>
+      <File>Jibril_Governors.xml</File>
+      <File>Jibril_Civilization.xml</File>
+      <File>Jibril_Policies.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Jibril_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icons">
+      <File>Jibril_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>...吉普莉尔....dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>...吉普莉尔....dep</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/Unit_Bins.artdef</File>
+    <File>Flueqel.Art.xml</File>
+    <File>Jibril_Buildings.xml</File>
+    <File>Jibril_Civilization.xml</File>
+    <File>Jibril_Config.xml</File>
+    <File>Jibril_Districts.xml</File>
+    <File>Jibril_Governors.xml</File>
+    <File>Jibril_Icons.xml</File>
+    <File>Jibril_Leaders.xml</File>
+    <File>Jibril_Policies.xml</File>
+    <File>Jibril_Text.xml</File>
+    <File>Jibril_UnitAbilities.xml</File>
+    <File>Jibril_UnitPromotions.xml</File>
+    <File>Jibril_Units.xml</File>
+    <File>Platforms/MacOS/BLPs/JibrilDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/JibrilDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>PROJECT_WMD.xml</File>
+    <File>WMD.xml</File>
+    <File>XLPs/JIBRILDDS.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>
