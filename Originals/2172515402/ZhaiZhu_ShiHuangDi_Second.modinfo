@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d55634d9-3621-45cf-a0a8-73e998956f06" version="1">
+  <Properties>
+    <Name>【始皇帝】领导的中国</Name>
+    <Description>这个mod是【始皇帝】领导的中国</Description>
+    <Created>1691860868</Created>
+    <Teaser>这个mod是【始皇帝】领导的中国，为中国文明添加了一个新的领袖【始皇帝】</Teaser>
+    <Authors>墨影斋主人</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="data">
+      <File>ZhaiZhu_ShiHuangDi_Second_Configs.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>ZhaiZhu_ShiHuangDi_Second_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>ZhaiZhu_ShiHuangDi_Second_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color">
+      <File>ZhaiZhu_ShiHuangDi_Second_Color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="art">
+      <File>【始皇帝】领导的中国.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="data">
+      <File>ZhaiZhu_ShiHuangDi_Second_Leaders.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>ZhaiZhu_ShiHuangDi_Second_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>ZhaiZhu_ShiHuangDi_Second_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>ZhaiZhu_ShiHuangDi_Second_Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/ShiHuangDi_dds_zhaizhu.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ShiHuangDi_dds_zhaizhu.blp</File>
+    <File>ZhaiZhu_ShiHuangDi_Second.Art.xml</File>
+    <File>ZhaiZhu_ShiHuangDi_Second_Color.xml</File>
+    <File>ZhaiZhu_ShiHuangDi_Second_Configs.xml</File>
+    <File>ZhaiZhu_ShiHuangDi_Second_Icons.xml</File>
+    <File>ZhaiZhu_ShiHuangDi_Second_Leaders.xml</File>
+    <File>ZhaiZhu_ShiHuangDi_Second_Text.xml</File>
+    <File>【始皇帝】领导的中国.dep</File>
+  </Files>
+</Mod>
