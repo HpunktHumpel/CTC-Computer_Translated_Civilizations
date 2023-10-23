@@ -127,6 +127,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3035126350](https://steamcommunity.com/sharedfiles/filedetails/?id=3035126350) | 深空之眼 启明·海姆达尔 重置版 | Eye of Deep Space Qiming Heimdall Remastered Edition |
 | [3037909027](https://steamcommunity.com/sharedfiles/filedetails/?id=3037909027) | 深空之眼 夜之寄生·霍德尔 重置版 | Eye of Deep Space Night Parasite Hodel Remastered Edition |
 | [3051035869](https://steamcommunity.com/sharedfiles/filedetails/?id=3051035869) | 深空之眼 乌手中十曜终结你的恶行 | The Eye of Deep Space, the ten rays in the black hand put an end to your evil deeds |
+| [3058578823](https://steamcommunity.com/sharedfiles/filedetails/?id=3058578823) | 37 1999 | 37 1999 |
 
 ## How does it work?
 I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports[*] a request for translation is send to google.translate.
