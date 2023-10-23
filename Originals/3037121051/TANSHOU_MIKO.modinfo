@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ad72a54d-d5e7-442e-9679-ae54aa6f84a8" version="1">
+  <Properties>
+    <Name>[TOUHOU]东方project [COLOR:72,39,111,255]丰聪耳神子[ENDCOLOR]</Name>
+    <Description>这是一个我从8月就写了的mod，但是我一直鸽到现在才发
+
+这次是比较简单的宗教文明，强度实际上挺够的，不同于以前音乐要交给别人，这次是我自己弄得，质量应该也会差点。</Description>
+    <Created>1695721541</Created>
+    <Teaser>加入了丰聪耳神子作为领袖的文明</Teaser>
+    <Authors>Tanshou</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </References>
+  <FrontEndActions>
+    <UpdateDatabase id="data">
+      <File>TANSHOU_MIKO_Configs.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/MIKO_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>[TOUHOU]东方project 丰聪耳神子.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="icon">
+      <File>TANSHOU_MIKO_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="colors">
+      <File>TANSHOU_MIKO_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DATA">
+      <File>TANSHOU_MIKO_Civilizations.xml</File>
+      <File>TANSHOU_MIKO_Leaders.xml</File>
+      <File>MIKO_EX_Modifiers.sql</File>
+      <File>TANSHOU_MIKO_Districts.xml</File>
+      <File>TANSHOU_MIKO_Buildings.xml</File>
+      <File>TANSHOU_MIKO_Projects.xml</File>
+      <File>MIKO_EX_SQLS.sql</File>
+      <File>TANSHOU_MIKO_Moments.xml</File>
+      <File>TANSHOU_MIKO_Agendas.xml</File>
+      <File>TANSHOU_MIKO_Units.xml</File>
+      <File>TANSHOU_MIKO_Units_Abilities.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TEXT">
+      <File>Text/MIKO_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="ART">
+      <File>[TOUHOU]东方project 丰聪耳神子.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="ICON">
+      <File>TANSHOU_MIKO_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="COLORS">
+      <File>TANSHOU_MIKO_Colors.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="AUDIO">
+      <File>Platforms/Windows/Audio/TANSHOUMIKOSOUNDBANKS.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>MIKO_EX_Modifiers.sql</File>
+    <File>MIKO_EX_SQLS.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MIKO_NO_DDS.blp</File>
+    <File>Platforms/Windows/Audio/1059584818.wem</File>
+    <File>Platforms/Windows/Audio/1072633621.wem</File>
+    <File>Platforms/Windows/Audio/11641787.wem</File>
+    <File>Platforms/Windows/Audio/124698087.wem</File>
+    <File>Platforms/Windows/Audio/129331703.wem</File>
+    <File>Platforms/Windows/Audio/165229839.wem</File>
+    <File>Platforms/Windows/Audio/282343179.wem</File>
+    <File>Platforms/Windows/Audio/289328285.wem</File>
+    <File>Platforms/Windows/Audio/448434634.wem</File>
+    <File>Platforms/Windows/Audio/472227772.wem</File>
+    <File>Platforms/Windows/Audio/504847042.wem</File>
+    <File>Platforms/Windows/Audio/606673863.wem</File>
+    <File>Platforms/Windows/Audio/692555413.wem</File>
+    <File>Platforms/Windows/Audio/699524346.wem</File>
+    <File>Platforms/Windows/Audio/790553005.wem</File>
+    <File>Platforms/Windows/Audio/853136732.wem</File>
+    <File>Platforms/Windows/Audio/856116571.wem</File>
+    <File>Platforms/Windows/Audio/910977188.wem</File>
+    <File>Platforms/Windows/Audio/931022334.wem</File>
+    <File>Platforms/Windows/Audio/931031158.wem</File>
+    <File>Platforms/Windows/Audio/948716776.wem</File>
+    <File>Platforms/Windows/Audio/BNK_TANSHOU_TOYOSATOMIMI_NO_MIKO.bnk</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/Audio/TANSHOUMIKOSOUNDBANKS.ini</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MIKO_NO_DDS.blp</File>
+    <File>TANSHOU_MIKO.Art.xml</File>
+    <File>TANSHOU_MIKO_Agendas.xml</File>
+    <File>TANSHOU_MIKO_Buildings.xml</File>
+    <File>TANSHOU_MIKO_Civilizations.xml</File>
+    <File>TANSHOU_MIKO_Colors.xml</File>
+    <File>TANSHOU_MIKO_Configs.xml</File>
+    <File>TANSHOU_MIKO_Districts.xml</File>
+    <File>TANSHOU_MIKO_Icons.xml</File>
+    <File>TANSHOU_MIKO_Leaders.xml</File>
+    <File>TANSHOU_MIKO_Moments.xml</File>
+    <File>TANSHOU_MIKO_Projects.xml</File>
+    <File>TANSHOU_MIKO_Units.xml</File>
+    <File>TANSHOU_MIKO_Units_Abilities.xml</File>
+    <File>Text/MIKO_Text_CN.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/MIKO_NO_DDS.xlp</File>
+    <File>[TOUHOU]东方project 丰聪耳神子.dep</File>
+  </Files>
+</Mod>
