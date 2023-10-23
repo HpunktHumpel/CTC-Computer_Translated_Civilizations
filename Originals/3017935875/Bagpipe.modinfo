@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e3c15675-027a-4e4f-92b4-9ffa436f4e7e" version="1">
+  <Properties>
+    <Name>LOC_ARKNIGHTS_BAGPIPE_NAME</Name>
+    <Description>LOC_AARKNIGHTS_BAGPIPE_DESCRIPTION</Description>
+    <Created>1691659859</Created>
+    <Teaser>LOC_ARKNIGHTS_BAGPIPE_TEASER</Teaser>
+    <Authors>pen</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_ARKNIGHTS_BAGPIPE_NAME">
+      <en_US>Arknight Bagpipe</en_US>
+      <zh_Hans_CN>明日方舟-风笛</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_ARKNIGHTS_BAGPIPE_TEASER">
+      <en_US>Arknight Bagpipe</en_US>
+      <zh_Hans_CN>明日方舟-风笛</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_AARKNIGHTS_BAGPIPE_DESCRIPTION">
+      <en_US>Arknight Bagpipe </en_US>
+      <zh_Hans_CN>明日方舟-风笛</zh_Hans_CN>
+    </Text>
+  </LocalizedText>  
+  <FrontEndActions>
+    <UpdateDatabase id="database">
+      <File>Data/Bagpipe_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <File>Data/Bagpipe_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Text/Bagpipe_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>Data/Bagpipe_Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>Arknights Bagpipe.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Data/Bagpipe_Civilization.sql</File>
+      <File>Data/Bagpipe_District.sql</File>
+      <File>Data/Bagpipe_Leader.sql</File>
+      <File>Data/Bagpipe_Moment.sql</File>
+      <File>Data/Bagpipe_Unit.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="core">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Data/Bagpipe_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <File>Data/Bagpipe_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Text/Bagpipe_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>Data/Bagpipe_Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Arknights Bagpipe.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="audio">
+      <File>Platforms/MacOS/Audio/Bagpipe_SoundBank.bnk</File>
+      <File>Platforms/MacOS/Audio/BagpipeBanks.ini</File>
+      <File>Platforms/MacOS/Audio/SoundbanksInfo.xml</File>
+      <File>Platforms/Windows/Audio/BagpipeBanks.ini</File>
+      <File>Platforms/Windows/Audio/Bagpipe_SoundBank.bnk</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>Arknights Bagpipe.dep</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/Bagpipe_Civilization.sql</File>
+    <File>Data/Bagpipe_Color.xml</File>
+    <File>Data/Bagpipe_Config.xml</File>
+    <File>Data/Bagpipe_Core.sql</File>
+    <File>Data/Bagpipe_District.sql</File>
+    <File>Data/Bagpipe_Icon.xml</File>
+    <File>Data/Bagpipe_Leader.sql</File>
+    <File>Data/Bagpipe_Moment.sql</File>
+    <File>Data/Bagpipe_Unit.sql</File>
+    <File>Platforms/MacOS/Audio/340660126.wem</File>
+    <File>Platforms/MacOS/Audio/BagpipeBanks.ini</File>
+    <File>Platforms/MacOS/Audio/Bagpipe_SoundBank.bnk</File>
+    <File>Platforms/MacOS/Audio/Bagpipe_SoundBank.txt</File>
+    <File>Platforms/MacOS/Audio/PluginInfo.xml</File>
+    <File>Platforms/MacOS/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/PenBagpipe.blp</File>
+    <File>Platforms/Windows/Audio/340660126.wem</File>
+    <File>Platforms/Windows/Audio/BagpipeBanks.ini</File>
+    <File>Platforms/Windows/Audio/Bagpipe_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/Bagpipe_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/PenBagpipe.blp</File>
+    <File>Scripts/Bagpipe_Gameplay.lua</File>
+    <File>Text/Bagpipe_Text.xml</File>
+  </Files>
+</Mod>
