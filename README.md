@@ -67,6 +67,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2924695333](https://steamcommunity.com/sharedfiles/filedetails/?id=2924695333) | 天有烘炉,地生五金 | There is an oven in the sky, hardware from the earth |
 | [2927639093](https://steamcommunity.com/sharedfiles/filedetails/?id=2927639093) | [TOUHOU]东方project 万神殿MOD（长期更新） | [TOUHOU] Touhou project Pantheon MOD (long-term update) |
 | [2928173382](https://steamcommunity.com/sharedfiles/filedetails/?id=2928173382) | Date.A.Live-Sonogami Rinne, Rio Reloaded | Date.A.Live-Sonogami Rinne, Rio Reloaded |
+| [2930715524](https://steamcommunity.com/sharedfiles/filedetails/?id=2930715524) | 永定帝国 | Yongding Empire |
 | [2931262824](https://steamcommunity.com/sharedfiles/filedetails/?id=2931262824) | 诸葛亮领导的中国文明 | Chinese civilization led by Zhuge Liang |
 | [2932334915](https://steamcommunity.com/sharedfiles/filedetails/?id=2932334915) | 东方TOUHOU PROJECT  八云紫和八云蓝 | Touhou TOUHOU PROJECT Yakumo Purple and Yakumo Blue |
 | [2933896742](https://steamcommunity.com/sharedfiles/filedetails/?id=2933896742) | Date.A.Live-ItsukaKotori Reloaded | Date.A.Live-ItsukaKotori Reloaded |
