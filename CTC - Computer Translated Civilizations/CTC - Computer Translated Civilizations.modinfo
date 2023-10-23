@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1698070897</Created>
+    <Created>1698073335</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -764,6 +764,13 @@
     </Criteria>
     <Criteria id="3037121051_InGame">
       <ModInUse>ad72a54d-d5e7-442e-9679-ae54aa6f84a8</ModInUse>
+    </Criteria>
+    <!-- 3038497120 - LOC_LITTLEDOG_QIFAN-->
+    <Criteria id="3038497120_FrontEnd">
+      <ModIsEnabled>b1a7bc2a-137b-4aa7-bc10-ad270e0fa4e8</ModIsEnabled>
+    </Criteria>
+    <Criteria id="3038497120_InGame">
+      <ModInUse>b1a7bc2a-137b-4aa7-bc10-ad270e0fa4e8</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -2560,6 +2567,23 @@
       <File>3037121051/frontend_pl_PL.xml</File>
       <File>3037121051/frontend_ko_KR.xml</File>
       <File>3037121051/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3038497120 - LOC_LITTLEDOG_QIFAN-->
+    <UpdateText id="3038497120_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3038497120_FrontEnd</Criteria>
+      <File>3038497120/frontend_en_US.xml</File>
+      <File>3038497120/frontend_fr_FR.xml</File>
+      <File>3038497120/frontend_de_DE.xml</File>
+      <File>3038497120/frontend_it_IT.xml</File>
+      <File>3038497120/frontend_es_ES.xml</File>
+      <File>3038497120/frontend_ja_JP.xml</File>
+      <File>3038497120/frontend_ru_RU.xml</File>
+      <File>3038497120/frontend_pl_PL.xml</File>
+      <File>3038497120/frontend_ko_KR.xml</File>
+      <File>3038497120/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -4367,6 +4391,23 @@
       <File>3037121051/ingame_pl_PL.xml</File>
       <File>3037121051/ingame_ko_KR.xml</File>
       <File>3037121051/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 3038497120 - LOC_LITTLEDOG_QIFAN-->
+    <UpdateText id="3038497120_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>3038497120_InGame</Criteria>
+      <File>3038497120/ingame_en_US.xml</File>
+      <File>3038497120/ingame_fr_FR.xml</File>
+      <File>3038497120/ingame_de_DE.xml</File>
+      <File>3038497120/ingame_it_IT.xml</File>
+      <File>3038497120/ingame_es_ES.xml</File>
+      <File>3038497120/ingame_ja_JP.xml</File>
+      <File>3038497120/ingame_ru_RU.xml</File>
+      <File>3038497120/ingame_pl_PL.xml</File>
+      <File>3038497120/ingame_ko_KR.xml</File>
+      <File>3038497120/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
   </InGameActions>
   <Files>
@@ -6413,6 +6454,26 @@
     <File>3037909027/ingame_pl_PL.xml</File>
     <File>3037909027/ingame_ru_RU.xml</File>
     <File>3037909027/ingame_zh_Hant_HK.xml</File>
+    <File>3038497120/frontend_de_DE.xml</File>
+    <File>3038497120/frontend_en_US.xml</File>
+    <File>3038497120/frontend_es_ES.xml</File>
+    <File>3038497120/frontend_fr_FR.xml</File>
+    <File>3038497120/frontend_it_IT.xml</File>
+    <File>3038497120/frontend_ja_JP.xml</File>
+    <File>3038497120/frontend_ko_KR.xml</File>
+    <File>3038497120/frontend_pl_PL.xml</File>
+    <File>3038497120/frontend_ru_RU.xml</File>
+    <File>3038497120/frontend_zh_Hant_HK.xml</File>
+    <File>3038497120/ingame_de_DE.xml</File>
+    <File>3038497120/ingame_en_US.xml</File>
+    <File>3038497120/ingame_es_ES.xml</File>
+    <File>3038497120/ingame_fr_FR.xml</File>
+    <File>3038497120/ingame_it_IT.xml</File>
+    <File>3038497120/ingame_ja_JP.xml</File>
+    <File>3038497120/ingame_ko_KR.xml</File>
+    <File>3038497120/ingame_pl_PL.xml</File>
+    <File>3038497120/ingame_ru_RU.xml</File>
+    <File>3038497120/ingame_zh_Hant_HK.xml</File>
     <File>3050577922/frontend_de_DE.xml</File>
     <File>3050577922/frontend_en_US.xml</File>
     <File>3050577922/frontend_es_ES.xml</File>

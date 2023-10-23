@@ -130,6 +130,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3035126350](https://steamcommunity.com/sharedfiles/filedetails/?id=3035126350) | 深空之眼 启明·海姆达尔 重置版 | Eye of Deep Space Qiming Heimdall Remastered Edition |
 | [3037121051](https://steamcommunity.com/sharedfiles/filedetails/?id=3037121051) | [TOUHOU]东方project 丰聪耳神子 | [TOUHOU]Touhou project Feng Conger Shenzi |
 | [3037909027](https://steamcommunity.com/sharedfiles/filedetails/?id=3037909027) | 深空之眼 夜之寄生·霍德尔 重置版 | Eye of Deep Space Night Parasite Hodel Remastered Edition |
+| [3038497120](https://steamcommunity.com/sharedfiles/filedetails/?id=3038497120) | 小尾巴七饭所领导的谷莠村 | Guchi Village led by Little Tail Qifan |
 | [3050577922](https://steamcommunity.com/sharedfiles/filedetails/?id=3050577922) | 宋朝：宋徽宗 | Song Dynasty: Song Huizong |
 | [3051035869](https://steamcommunity.com/sharedfiles/filedetails/?id=3051035869) | 深空之眼 乌手中十曜终结你的恶行 | The Eye of Deep Space, the ten rays in the black hand put an end to your evil deeds |
 | [3058578823](https://steamcommunity.com/sharedfiles/filedetails/?id=3058578823) | 37 1999 | 37 1999 |
