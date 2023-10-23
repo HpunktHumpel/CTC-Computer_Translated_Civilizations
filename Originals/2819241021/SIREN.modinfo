@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="83027ef6-1d66-45de-bba0-9ae4cb6cc622" version="3">
+  <Properties>
+    <Name>AZURELANE_SIREN Mod</Name>
+    <Description>需要风云变幻，需要风云变幻，需要风云变幻。
+碧蓝航线净化亲mod，应该是战狂，可以轻松获得量产型UAV，侦查，干扰，攻击敌人。</Description>
+    <Created>1685267025</Created>
+    <Teaser>碧蓝航线塞壬净化亲mod</Teaser>
+    <Authors>Fluoes</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>SIREN_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>SIREN_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>SIREN_ICONS.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>SIREN Mod.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>SIREN_COLOR.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="colorin">
+      <File>SIREN_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="database">
+      <File>SIREN_CIVILIZATION.xml</File>
+      <File>SIREN_UAV.xml</File>
+      <File>SIREN_LEADER.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="textin">
+      <File>SIREN_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="iconin">
+      <File>SIREN_ICONS.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="artin">
+      <File>SIREN Mod.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SIRENDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/SIREN_BKG.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SIRENDDS.blp</File>
+    <File>Platforms/Windows/BLPs/SIREN_BKG.blp</File>
+    <File>SIREN Mod.dep</File>
+    <File>SIREN_CIVILIZATION.xml</File>
+    <File>SIREN_COLOR.xml</File>
+    <File>SIREN_CONFIG.xml</File>
+    <File>SIREN_ICONS.xml</File>
+    <File>SIREN_LEADER.xml</File>
+    <File>SIREN_TEXT.xml</File>
+    <File>SIREN_UAV.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/sirendds.xlp</File>
+    <File>XLPs/SIREN_BKG.xlp</File>
+  </Files>
+</Mod>

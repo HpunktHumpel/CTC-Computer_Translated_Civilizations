@@ -3,7 +3,7 @@
   <Properties>
     <Name>CTC - [ICON_WHISPER] Computer Translated Civilizations</Name>
     <Description>A collection of automated online translations for civilizations.</Description>
-    <Created>1698089773</Created>
+    <Created>1698092638</Created>
     <Teaser>A collection of automated online translations for civilization mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <Homepage>https://github.com/HpunktHumpel/CTC-Computer_Translated_Civilizations</Homepage>
@@ -820,6 +820,13 @@
     </Criteria>
     <Criteria id="2905910661_InGame">
       <ModInUse>c7d7cdc6-4634-449c-9edd-6ae351d92bec</ModInUse>
+    </Criteria>
+    <!-- 2819241021 - AZURELANE_SIREN Mod-->
+    <Criteria id="2819241021_FrontEnd">
+      <ModIsEnabled>83027ef6-1d66-45de-bba0-9ae4cb6cc622</ModIsEnabled>
+    </Criteria>
+    <Criteria id="2819241021_InGame">
+      <ModInUse>83027ef6-1d66-45de-bba0-9ae4cb6cc622</ModInUse>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
@@ -2752,6 +2759,23 @@
       <File>2905910661/frontend_pl_PL.xml</File>
       <File>2905910661/frontend_ko_KR.xml</File>
       <File>2905910661/frontend_zh_Hant_HK.xml</File>
+    </UpdateText>
+    <!-- 2819241021 - AZURELANE_SIREN Mod-->
+    <UpdateText id="2819241021_FrontEnd">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2819241021_FrontEnd</Criteria>
+      <File>2819241021/frontend_en_US.xml</File>
+      <File>2819241021/frontend_fr_FR.xml</File>
+      <File>2819241021/frontend_de_DE.xml</File>
+      <File>2819241021/frontend_it_IT.xml</File>
+      <File>2819241021/frontend_es_ES.xml</File>
+      <File>2819241021/frontend_ja_JP.xml</File>
+      <File>2819241021/frontend_ru_RU.xml</File>
+      <File>2819241021/frontend_pl_PL.xml</File>
+      <File>2819241021/frontend_ko_KR.xml</File>
+      <File>2819241021/frontend_zh_Hant_HK.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -4696,6 +4720,23 @@
       <File>2905910661/ingame_ko_KR.xml</File>
       <File>2905910661/ingame_zh_Hant_HK.xml</File>
     </UpdateText>
+    <!-- 2819241021 - AZURELANE_SIREN Mod-->
+    <UpdateText id="2819241021_InGame">
+      <Properties>
+        <LoadOrder>-100</LoadOrder>
+      </Properties>
+      <Criteria>2819241021_InGame</Criteria>
+      <File>2819241021/ingame_en_US.xml</File>
+      <File>2819241021/ingame_fr_FR.xml</File>
+      <File>2819241021/ingame_de_DE.xml</File>
+      <File>2819241021/ingame_it_IT.xml</File>
+      <File>2819241021/ingame_es_ES.xml</File>
+      <File>2819241021/ingame_ja_JP.xml</File>
+      <File>2819241021/ingame_ru_RU.xml</File>
+      <File>2819241021/ingame_pl_PL.xml</File>
+      <File>2819241021/ingame_ko_KR.xml</File>
+      <File>2819241021/ingame_zh_Hant_HK.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>2007640634/frontend_de_DE.xml</File>
@@ -5098,6 +5139,26 @@
     <File>2818542908/ingame_pl_PL.xml</File>
     <File>2818542908/ingame_ru_RU.xml</File>
     <File>2818542908/ingame_zh_Hant_HK.xml</File>
+    <File>2819241021/frontend_de_DE.xml</File>
+    <File>2819241021/frontend_en_US.xml</File>
+    <File>2819241021/frontend_es_ES.xml</File>
+    <File>2819241021/frontend_fr_FR.xml</File>
+    <File>2819241021/frontend_it_IT.xml</File>
+    <File>2819241021/frontend_ja_JP.xml</File>
+    <File>2819241021/frontend_ko_KR.xml</File>
+    <File>2819241021/frontend_pl_PL.xml</File>
+    <File>2819241021/frontend_ru_RU.xml</File>
+    <File>2819241021/frontend_zh_Hant_HK.xml</File>
+    <File>2819241021/ingame_de_DE.xml</File>
+    <File>2819241021/ingame_en_US.xml</File>
+    <File>2819241021/ingame_es_ES.xml</File>
+    <File>2819241021/ingame_fr_FR.xml</File>
+    <File>2819241021/ingame_it_IT.xml</File>
+    <File>2819241021/ingame_ja_JP.xml</File>
+    <File>2819241021/ingame_ko_KR.xml</File>
+    <File>2819241021/ingame_pl_PL.xml</File>
+    <File>2819241021/ingame_ru_RU.xml</File>
+    <File>2819241021/ingame_zh_Hant_HK.xml</File>
     <File>2837886503/frontend_de_DE.xml</File>
     <File>2837886503/frontend_en_US.xml</File>
     <File>2837886503/frontend_es_ES.xml</File>

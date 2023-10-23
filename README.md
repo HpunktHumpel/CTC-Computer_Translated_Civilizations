@@ -46,6 +46,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2785489483](https://steamcommunity.com/sharedfiles/filedetails/?id=2785489483) | Blue Archive----Gehenna School | Blue Archive----Gehenna School |
 | [2794097210](https://steamcommunity.com/sharedfiles/filedetails/?id=2794097210) | Flower Knight Girls----Sutera (Berugamotto) | Flower Knight Girls----Sutera (Berugamotto) |
 | [2818542908](https://steamcommunity.com/sharedfiles/filedetails/?id=2818542908) | 碧蓝档案-千禧年学园的爱丽丝 | Blue Archives-Alice from Millennium Academy |
+| [2819241021](https://steamcommunity.com/sharedfiles/filedetails/?id=2819241021) | 纰ц摑鑸嚎鍑€鍖栦翰mod AZURE LANE SIREN Mod | 簰ц恴鑸Howling鍑€鍖栦汉mod AZURE LANE SIREN Mod |
 | [2837886503](https://steamcommunity.com/sharedfiles/filedetails/?id=2837886503) | 丁真领导的理塘文明 | Litang Civilization led by Ding Zhen |
 | [2863254283](https://steamcommunity.com/sharedfiles/filedetails/?id=2863254283) | 崩坏·太虚剑派 | Collapse·Taixu Sword School |
 | [2846674998](https://steamcommunity.com/sharedfiles/filedetails/?id=2846674998) | 蔡徐坤领导的ikun帝国 | The ikun empire led by Cai Xukun |
