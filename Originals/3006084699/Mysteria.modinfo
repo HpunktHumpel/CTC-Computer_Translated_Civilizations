@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9c3fcccb-3075-4a8f-b13e-e58ba841c3c5" version="1">
+  <Properties>
+    <Name>MYSTERIA ANNE</Name>
+    <Description>MYSTERIA</Description>
+    <Created>1697894461</Created>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Authors>JIDONG</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="sson">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>text_cn.xml</File>
+      <File>text_hk.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>MYSTERIA ANNE.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>ability.xml</File>
+      <File>building.xml</File>
+      <File>civilization.xml</File>
+      <File>district.xml</File>
+      <File>leader.xml</File>
+      <File>Requirement.xml</File>
+      <File>trait.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>text_cn.xml</File>
+      <File>text_hk.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>MYSTERIA ANNE.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="NewAction">
+      <Criteria>sson</Criteria>
+      <File>GameData.xml</File>
+      <File>MYSTERIA_Popup_Data.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>color.xml</File>
+    </UpdateColors>
+    <ImportFiles id="NewAction">
+      <Criteria>sson</Criteria>
+      <File>UI/Replacements/SecretSocietyPopup.lua</File>
+      <File>UI/Replacements/TechAndCivicUnlockables_FuzzleSecretSocieties.lua</File>
+    </ImportFiles>
+    <UpdateAudio id="NewAction">
+      <File>Platforms/Windows/Audio/MYSTERIA_SoundBank.ini</File>
+    </UpdateAudio>
+    <AddGameplayScripts id="NewAction">
+      <File>Mysteria.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ability.xml</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>building.xml</File>
+    <File>civilization.xml</File>
+    <File>color.xml</File>
+    <File>config.xml</File>
+    <File>district.xml</File>
+    <File>GameData.xml</File>
+    <File>icon.xml</File>
+    <File>leader.xml</File>
+    <File>MYSTERIA ANNE.dep</File>
+    <File>Mysteria.lua</File>
+    <File>MYSTERIA_Popup_Data.sql</File>
+    <File>Platforms/MacOS/BLPs/DIS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/Audio/240998613.wem</File>
+    <File>Platforms/Windows/Audio/40869678.wem</File>
+    <File>Platforms/Windows/Audio/495447846.wem</File>
+    <File>Platforms/Windows/Audio/572084443.wem</File>
+    <File>Platforms/Windows/Audio/5771850.wem</File>
+    <File>Platforms/Windows/Audio/709751220.wem</File>
+    <File>Platforms/Windows/Audio/881293256.wem</File>
+    <File>Platforms/Windows/Audio/MYSTERIA_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/MYSTERIA_SoundBank.ini</File>
+    <File>Platforms/Windows/Audio/MYSTERIA_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/MYSTERIA_SoundBank.xml</File>
+    <File>Platforms/Windows/BLPs/DIS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Requirement.xml</File>
+    <File>text_cn.xml</File>
+    <File>text_hk.xml</File>
+    <File>trait.xml</File>
+    <File>UI/Replacements/SecretSocietyPopup.lua</File>
+    <File>UI/Replacements/TechAndCivicUnlockables_FuzzleSecretSocieties.lua</File>
+    <File>XLPs/DIS.xlp</File>
+  </Files>
+</Mod>
