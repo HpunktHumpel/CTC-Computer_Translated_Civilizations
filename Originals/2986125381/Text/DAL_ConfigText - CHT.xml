@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>		
+		<!-- 傳聞 -->
+		<Replace Tag="LOC_VIZSOURCE_DAL_RATZIEL" Language="zh_Hant_HK">
+			<Text>囁告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_KURUMI_SISTER" Language="zh_Hant_HK">
+			<Text>使用囁告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_DAL_RATZIEL" Language="zh_Hant_HK">
+			<Text>您從囁告篇帙中得知</Text>
+		</Replace>
+
+		<!-- 特色技能 -->
+		<Replace Tag="LOC_UNIT_DAL_TRADER_NAME" Language="zh_Hant_HK">
+			<Text>馴鹿行商</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAL_TRADER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>特色商人單位。[NEWLINE]能創建和維護一條[ICON_TradeRoute]貿易路線。隨著旅途行進自動修建道路並獲取單元格。[NEWLINE][ICON_TradeRoute]貿易路線無法被敵方單位掠奪。進入到城市5個單元格內的無主單元格時，該單元格將劃入你的領土。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_NAME" Language="zh_Hant_HK">
+			<Text>掠奪豁免</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_TradeRoute]貿易路線無法被敵方單位掠奪。進入到城市5個單元格內的無主單元格時，該單元格將劃入你的領土。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_NAME" Language="zh_Hant_HK">
+			<Text>搗蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>相鄰敵人單位-1[ICON_Strength]戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_MOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{1_Amount}[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_NAME" Language="zh_Hant_HK">
+			<Text>不給糖就搗蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>鄰近的敵方城市每回合-1[ICON_Loyalty]忠誠度。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_NAME" Language="zh_Hant_HK">
+			<Text>領袖魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位的[ICON_Strength]戰鬥力隨著所在單元格的魅力增減。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESC" Language="zh_Hant_HK">
+			<Text>+{Amount}來自所在單元格的魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_UNIT" Language="zh_Hant_HK">
+			<Text>+{Property}來自周遭死去的單位</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_BARB" Language="zh_Hant_HK">
+			<Text>+{Property}來自周遭死去的蠻族</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_COMBAT_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+3戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RELIGIOUS_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+3宗教戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_NAME" Language="zh_Hant_HK">
+			<Text>超級士兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>受傷後不會遭受戰鬥力減益，能抵抗大規模殺傷性武器，攻擊後可以移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_NAME" Language="zh_Hant_HK">
+			<Text>超時空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位的[ICON_Strength]戰鬥力隨著時代變動。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_STRENGTH_DESC" Language="zh_Hant_HK">
+			<Text>+{Amount}來自</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_NAME" Language="zh_Hant_HK">
+			<Text>逆轉時空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當與較先進的單位作戰時，+7[ICON_Strength]戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_COUNTER_DESC" Language="zh_Hant_HK">
+			<Text>+{Amount}來自對抗先進單位</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_NAME" Language="zh_Hant_HK">
+			<Text>戰略維護</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此單位被創造時和維護時都不消耗戰略資源。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_CANNOT_ATTACK_NAME" Language="zh_Hant_HK">
+			<Text>無法攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_CANNOT_ATTACK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>此單位無法主動攻擊。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_NAME" Language="zh_Hant_HK">
+			<Text>機器人獵手</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>當防禦巨型殺戮機器人時+40[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_PREV" Language="zh_Hant_HK">
+			<Text>+40[ICON_Strength]戰鬥力來自防禦巨型殺戮機器人</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RUGGED_STRENGTH_NAME" Language="zh_Hant_HK">
+			<Text>戰術機動性</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RUGGED_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在丘陵地形與樹林、雨林地貌+5[ICON_Strength]戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_ON_HILLS" Language="zh_Hant_HK">
+			<Text>+{1_Amount}[ICON_Strength]戰鬥力來自丘陵</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_IN_JUNGLE" Language="zh_Hant_HK">
+			<Text>+{1_Amount}[ICON_Strength]戰鬥力來自叢林</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_IN_FOREST" Language="zh_Hant_HK">
+			<Text>+{1_Amount}[ICON_Strength]戰鬥力來自樹林</Text>
+		</Replace>
+		<Replace Tag="PROMOTION_CLASS_DAL_SPEC_FORCE_NAME" Language="zh_Hant_HK">
+			<Text>特種偵查</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DAL_HARDENED_NAME" Language="zh_Hant_HK">
+			<Text>硬化</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DAL_HARDENED_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在所有情況下+10[ICON_Strength]戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RIVER_TRAVEL_NAME" Language="zh_Hant_HK">
+			<Text>順流而下</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RIVER_TRAVEL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>從河邊開始時，[ICON_Movement]移動力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RANGED_ATTACK_RANGE_NAME" Language="zh_Hant_HK">
+			<Text>瞭望塔視野</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RANGED_ATTACK_RANGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1[ICON_Range]射程來自駐軍區瞭望塔。</Text>
+		</Replace>
+
+		<!-- 特色區域 -->
+		<Replace Tag="LOC_DISTRICT_SPIRIT_PLAZA_NAME" Language="zh_Hant_HK">
+			<Text>精靈廣場</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPIRIT_PLAZA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰特色區域，取代市政廣場。[NEWLINE]用來紀念文明政體選擇的區域，只能建造一次。每回合為此城市提供+8忠誠度，且所有相鄰區域提供的相鄰加成+1。獎勵1個[Icon_Governor]行政長官職稱。[NEWLINE][COLOR:Civ6Blue]部分精靈可由此啟用可選能力。[ENDCOLOR]</Text>
+		</Replace>
+
+		<!-- 大都會 -->
+		<Replace Tag="LOC_QUARTER_FARM_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣來自相鄰農田。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PASTURE_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Production]生產力來自相鄰牧場。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PLANTATION_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣來自相鄰種植園。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_CAMP_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣來自相鄰露營地。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHINGBOAT_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣來自相鄰漁船。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Food]食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Production]生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Science]科學值。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Culture]文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Faith]信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHINGBOAT_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Food]食物來自相鄰漁船。</Text>
+		</Replace>
+
+		<!-- 特色項目 -->
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_NAME" Language="zh_Hant_HK">
+			<Text>萬聖節狂歡</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>魔女特色項目，能增加此城市向自身與周遭城市傳播的忠誠度壓力。[NEWLINE]啟用後，每個[ICON_Citizen]公民每回合為此城市+3忠誠度壓力。此效果也會影響9個單元格範圍內的其他城市，但每隔1個單元格效果減弱10%。項目完成後所在[ICON_Loyalty]忠誠度與鄰近我方[ICON_Loyalty]忠誠度[ICON_Loyalty]忠誠度上升、外邦城市[ICON_Loyalty]忠誠度下降（根據距離遞減）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_NAME" Language="zh_Hant_HK">
+			<Text>遷都</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>魔女特色項目。完成後，[ICON_Capital]首都將會遷都至此城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_DEFECTORS_NAME" Language="zh_Hant_HK">
+			<Text>幸運輪盤：軍事招募</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_DEFECTORS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>兔女郎特色項目。[NEWLINE]從你遭遇到的文明中隨機生產1-3個特色單位（僅限已解鎖要求科技或市政的單位）。不會產生過去兩個時代以上的單位。[NEWLINE]所招募的軍隊有一定機率會判變。</Text>
+		</Replace>
+		<Row Tag="LO_PROJECT_DAL_ROULETTE_RANDOM_TECHC_NAME" Language="zh_Hant_HK">
+			<Text>幸運輪盤：隨機科技</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_TECH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>兔女郎特色項目。[NEWLINE]每回合提消耗[ICON_Science]科技值，完成時隨機獎勵一項免費科技。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_CIVIC_NAME" Language="zh_Hant_HK">
+			<Text>幸運輪盤：隨機市政</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_CIVIC_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>兔女郎特色項目。[NEWLINE]每回合消耗[ICON_Culture]文化值，完成時隨機獎勵一項免費市政。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_TECH_BOOST_NAME" Language="zh_Hant_HK">
+			<Text>幸運輪盤：隨機尤里卡</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_TECH_BOOST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>兔女郎特色項目。[NEWLINE]每回合提消耗[ICON_Science]科技值，完成時為兩個隨機科技啟動[ICON_TechBoosted]尤里卡。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_CIVIC_BOOST_NAME" Language="zh_Hant_HK">
+			<Text>幸運輪盤：隨機天啟</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_CIVIC_BOOST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>兔女郎特色項目。[NEWLINE]每回合消耗[ICON_Culture]文化值，完成時為兩個隨機市政啟動[ICON_CivicBoosted]天啟。</Text>
+		</Row>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RELIGION_NAME" Language="zh_Hant_HK">
+			<Text>幸運輪盤：宗教信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RELIGION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>兔女郎特色項目。[NEWLINE]每回合消耗[ICON_Faith]信仰值，完成後提供一條尚未被取得的隨機[ICON_Religion]宗教信仰。[NEWLINE]如果尚未取得萬神殿信仰，則自動取得一個隨機萬神殿信仰；如果尚未建立宗教，則隨機建立一個宗教。</Text>
+		</Replace>
+	
+		<!-- 改良 -->
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_NAME" Language="zh_Hant_HK">
+			<Text>移山</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>將所處的單元格轉變為丘陵單元格。[NEWLINE]只能轉變不是火山的山脈。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_NAME" Language="zh_Hant_HK">
+			<Text>填海</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>將所處的單元格轉變為平原單元格。[NEWLINE]只能轉變沒有資源的湖泊和海岸。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_NAME" Language="zh_Hant_HK">
+			<Text>造陸</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>將所處的單元格與相鄰單元格轉變為平原單元格。[NEWLINE]只能轉變沒有資源的湖泊、海岸和海洋。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_NAVAL_MINE_NAME" Language="zh_Hant_HK">
+			<Text>水雷</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_NAVAL_MINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰泳裝精靈特色改良設施。[NEWLINE][NEWLINE]由軍事工程師或海軍單位建造。當敵方單位步入所在單元格時，受到50點傷害。可建造在海洋或海岸與湖泊以及礁石上。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOODYHUT_IMPROVISED_TRAP_GOODIES" Language="zh_Hant_HK">
+			<Text>水雷！</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_TORI_GATE_NAME" Language="zh_Hant_HK">
+			<Text>千本鳥居</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_TORI_GATE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰和服精靈特色改良設施。[NEWLINE][NEWLINE]+1[ICON_Culture]文化值。+1魅力。如果和其它分段相鄰或是相鄰奇觀與自然奇觀，可獲得[ICON_Faith]信仰值加成。若相鄰森林+1[ICON_Culture]文化值。隨著科技進展，提供等於[ICON_Faith]信仰值產出的[ICON_Tourism]旅遊業績。</Text>
+		</Replace>
+		
+		<!-- 海上建城 -->
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS" Language="zh_Hant_HK">
+			<Text>海上建城</Text>
+		</Replace>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[NEWLINE]於所處單元格建城，並且將相鄰海洋單元格轉變為海岸單元格</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_CITY" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]距離其他城市太近了[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISTRICT" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]無法在區域建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_IMPROVEMENT" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]無法在改良設施建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_LAKE" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]無法在湖泊建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_WONDER" Language="zh_Hant_HK">
+			<Text>[NEWLINE][COLOR:Red]無法在自然奇觀建城[ENDCOLOR]</Text>
+		</Row>
+
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Science]科技值來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Culture]文化值來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Production]生產力來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Faith]信仰值來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_GFOOD]食物來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣來自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CITYCENTER_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Food]食物來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SEARESOURCE_FOOD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Food]食物來自相鄰海洋資源。</Text>
+		</Replace>
+
+		<!-- 海濱 -->
+		<Replace Tag="LOC_DAL_COAST_NAME" Language="zh_Hant_HK">
+			<Text>海濱</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>建立在海岸單元格上的區域，</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC2" Language="zh_Hant_HK">
+			<Text>無法建造在擁有「</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC3" Language="zh_Hant_HK">
+			<Text>」的城市內。無法建造在礁石單元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC4" Language="zh_Hant_HK">
+			<Text>中的</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_BRIDGE_NAME" Language="zh_Hant_HK">
+			<Text>精靈大橋</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_BRIDGE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰特色建築。[NEWLINE]陸地單位無須上船即可穿越。效果等同現代道路且會在兩端的陸地單元格建造現代道路（若尚未建造的話）。相鄰單元格+1魅力。[NEWLINE][NEWLINE]必須建造在海岸單元格上。橋樑必須穿越兩個陸地單元格間的單元格，並直接通往另一端。橋樑的左側和右側至少必須有一個水域單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_CANAL_NAME" Language="zh_Hant_HK">
+			<Text>精靈大運河</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_CANAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰特色建築。[NEWLINE]落成時會自動建成1到2個相鄰的運河區域。經過此處的[ICON_TradeRoute]貿易路線能夠從其目的地區域獲得成倍的金幣收益。[NEWLINE][NEWLINE]必須建在平原單元格上，相鄰的兩個單元格必須跨過建築單元格遙遙相對，並符合以下標準：其中一個相鄰單元格必須擁有相連至巴拿馬運河建造單元格的運河區域；另一個單元格則必須為城市、水域單元格或擁有另一個相連運河單元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_CANAL_NAME" Language="zh_Hant_HK">
+			<Text>精靈運河</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_CANAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰特色區域，取代運河。[NEWLINE]能連結兩大水域或將水域連結至市中心的區域。經過此處的[ICON_TradeRoute]貿易路線能夠從其目的地區域獲得成倍的金幣收益。[NEWLINE]運河能直接穿越格位，或呈60度彎曲。然而無法建造有三個出入口的運河交界口，並且運河在其所創建水道的每側都必須擁有一個完整的陸地單元格。軍事工程師可消耗1點使用次數完成20%的運河修建進度。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_DAM_NAME" Language="zh_Hant_HK">
+			<Text>精靈水壩</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_DAM_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰特色區域，取代水壩。[NEWLINE]沿河建造的區域，可提高此河流沿岸居民的舒適度。避免此河流的氾濫損害（儘管從洪災中獲得的收益會減半）。在旱災時避免 [ICON_Food] 食物損失。[NEWLINE]河流必須穿越水壩單元格的至少兩側。軍事工程師可消耗1點使用次數完成20%的運河修建進度。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Science]科技值來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Gold]金幣來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Culture]文化值來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Production]生產力來自相鄰城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_num}[ICON_Faith]信仰值來自相鄰城市中心。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_XMAS_GOODY_HUT" Language="zh_Hant_HK">
+			<Text>[COLOR_RED]部落村莊刷新！[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_DAL_SECRETSOCIETY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡{LOC_TOOLTIP_SAMPLE_DIPLOMACY_SAME_SECRET_SOCIETY}。[NEWLINE]厭惡{LOC_TOOLTIP_SAMPLE_DIPLOMACY_DIFFERENT_SECRET_SOCIETY}。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TERRAIN_CLASS_HILLS_NAME" Language="zh_Hant_HK">
+			<Text>丘陵類</Text>
+		</Replace>
+		
+		<!-- 資源 -->
+		<Replace Tag="LOC_RESOURCE_GOLD_NAME" Language="zh_Hant_HK">
+			<Text>黃金</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_GOLD_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>黃金是人類較早發現並利用的金屬。由於黃金罕有丶特殊和珍貴，因此有「金屬之王」的稱號，享有其它金屬品種無法比擬的盛譽，其顯赫的地位近乎永恆。正因為黃金具有這一「貴族」地位，黃金曾經是財富和華貴的象徵。隨著社會的發展，黃金的經濟地位和應用層面不斷發生變化，但目前仍然在各國的國際儲備中佔有一席之地，是一種同時具有貨幣屬性丶商品屬性和金融屬性的特殊商品。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_GOLD]黃金企業：創造新產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_GOLD]創造新黃金產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_GOLD]黃金資源為基礎，為全世界創造新產品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_1_NAME" Language="zh_Hant_HK">
+			<Text>鎮金店</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_2_NAME" Language="zh_Hant_HK">
+			<Text>周大福珠寶</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_3_NAME" Language="zh_Hant_HK">
+			<Text>金長山</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_4_NAME" Language="zh_Hant_HK">
+			<Text>集羽珠寶</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_5_NAME" Language="zh_Hant_HK">
+			<Text>今生金飾</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_RESOURCE_PLATINUM_NAME" Language="zh_Hant_HK">
+			<Text>鉑</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PLATINUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>俗稱白金，是非常不活潑的金屬。即便在高溫下，它也有極強的抗腐蝕性，屬於抗腐蝕金屬。在自然中，鉑有時以純金屬狀態出現，不與其他元素結合。鉑自然出現在河流的沖積層中，所以前哥倫布時期的南美原住民最早用鉑製作工藝品。歐洲最早在16世紀就有記載使用鉑；1748年，安東尼奧·烏略亞發表報告，描述此來自哥倫比亞的新金屬，這時科學家才開始研究鉑元素。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_PLATINUM]鉑企業：創造新產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_PLATINUM]創造新鉑產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_PLATINUM]鉑資源為基礎，為全世界創造新產品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_1_NAME" Language="zh_Hant_HK">
+			<Text>鎮金店</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_2_NAME" Language="zh_Hant_HK">
+			<Text>周大福珠寶</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_3_NAME" Language="zh_Hant_HK">
+			<Text>金長山</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_4_NAME" Language="zh_Hant_HK">
+			<Text>集羽珠寶</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_5_NAME" Language="zh_Hant_HK">
+			<Text>今生金飾</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_RESOURCE_SAKURA_NAME" Language="zh_Hant_HK">
+			<Text>櫻花</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SAKURA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>櫻花在幾百萬年前起源於喜馬拉雅地區，之後向北溫帶其他地區擴散，約在漸新世和中新世時期，其中一支經由今中國東部到達朝鮮半島和日本列島。因此，櫻花是中國、朝鮮、韓國和日本等東亞地區的常見物種。一些品種的櫻花所結的果實因味道欠佳不作食用，但可作繁殖櫻花樹之用，在溫帶地區平地即能結果，在亞熱帶地區海拔則需高於500公尺。目前許多用於觀賞櫻花的櫻花不是野生物種，而是栽培品種。由於櫻花具有可變異的特性，因此，人們創造出許多專門用來賞櫻的栽培品種，這種情況在日本更加常見。自平安時代以來，日本人通過選擇野生櫻花自然雜交或人工雜交產生的優良或變異個體，進行嫁接和扦插，從而培育出許多栽培品種。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_SAKURA]櫻花企業：創造新產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_SAKURA]創造新櫻花產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_SAKURA]櫻花資源為基礎，為全世界創造新產品。{LOC_INDUSTRY_CULTURE_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_1_NAME" Language="zh_Hant_HK">
+			<Text>夢花館</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_2_NAME" Language="zh_Hant_HK">
+			<Text>花劍坊</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_3_NAME" Language="zh_Hant_HK">
+			<Text>花茶屋</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_4_NAME" Language="zh_Hant_HK">
+			<Text>花舞院</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_5_NAME" Language="zh_Hant_HK">
+			<Text>花歌社</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_RESOURCE_SHARKS_NAME" Language="zh_Hant_HK">
+			<Text>魚翅</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SHARKS_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>魚翅取自鯊魚鰭，是中國菜中的名貴食材之一，已有很長的食用記錄。據載，中國唐宋時期，越南沿海地區就開始將魚翅製成食品。曾有國家以魚翅爲貢品獻給中國皇室。又一說魚翅爲華人所食用是始於鄭和下西洋時，船員在東南亞海島上撿拾魚翅煮熟充飢。一說是鄭成功之父鄭芝龍於海上生活發明，成商品致富，得自日本接回長子鄭成功。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_SHARKS]魚翅企業：創造新產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_SHARKS]創造新魚翅產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_SHARKS]魚翅資源為基礎，為全世界創造新產品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_1_NAME" Language="zh_Hant_HK">
+			<Text>海王星魚翅</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_2_NAME" Language="zh_Hant_HK">
+			<Text>龍鳳呈祥</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_3_NAME" Language="zh_Hant_HK">
+			<Text>魚翅之家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_4_NAME" Language="zh_Hant_HK">
+			<Text>海洋之星</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_5_NAME" Language="zh_Hant_HK">
+			<Text>鋸齒鯊</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_AQUAMARINE_NAME" Language="zh_Hant_HK">
+			<Text>海藍寶石</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_AQUAMARINE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>海藍寶石，又稱海水藍寶，是一種矽酸鹽礦石，為綠柱石的一種。是一種透明而帶著藍色或海藍色的寶石。在中世紀時期，人們認為海藍寶石可以奇蹟地克服毒物的作用。古代的水手在航行時會佩戴海藍寶石，認為它可以保證航程的安全，並保證他們能夠安全回歸；當睡覺時，他們會把寶石放在枕頭之下，以保證睡眠充足。他們相信美人魚的魚形下身是由海藍寶石製成的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_AQUAMARINE]海藍寶石企業：創造新產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_AQUAMARINE]創造新海藍寶石產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_AQUAMARINE]海藍寶石資源為基礎，為全世界創造新產品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_1_NAME" Language="zh_Hant_HK">
+			<Text>蒂芙尼</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_2_NAME" Language="zh_Hant_HK">
+			<Text>格拉夫</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_3_NAME" Language="zh_Hant_HK">
+			<Text>伯爵</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_4_NAME" Language="zh_Hant_HK">
+			<Text>卡地亞</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_5_NAME" Language="zh_Hant_HK">
+			<Text>蕭邦</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_RUBY_NAME" Language="zh_Hant_HK">
+			<Text>紅寶石</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_RUBY_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>紅寶石，屬於寶石級剛玉，傳統上作為樞要寶石之一，被用於製作宗教儀式用品和皇室珠寶。紅寶石主要成分是氧化鋁，紅色來自鉻。自然沒有鉻的寶石是藍色的藍寶石。天然紅寶石大多來自亞洲（緬甸、泰國和斯里蘭卡）、非洲和澳大利亞，美國蒙大拿州和南卡羅萊納州也有部分生產。天然紅寶石非常少見且珍貴，但是人造並非太難，所以工業用紅寶石都是人造的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_RUBY]紅寶石企業：創造新產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_RUBY]創造新紅寶石產品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>[ICON_RESOURCE_RUBY]紅寶石資源為基礎，為全世界創造新產品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_1_NAME" Language="zh_Hant_HK">
+			<Text>蒂芙尼</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_2_NAME" Language="zh_Hant_HK">
+			<Text>格拉夫</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_3_NAME" Language="zh_Hant_HK">
+			<Text>伯爵</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_4_NAME" Language="zh_Hant_HK">
+			<Text>卡地亞</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_5_NAME" Language="zh_Hant_HK">
+			<Text>蕭邦</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_DAL_POTION_NAME" Language="zh_Hant_HK">
+			<Text>魔藥</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_CACTUS_NAME" Language="zh_Hant_HK">
+			<Text>仙人掌</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CACTUS_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>仙人掌是一種能夠在沙漠中生長的多肉植物，它們具有儲水和耐旱的能力，並能夠提供一些食物和金幣收入。仙人掌也是一種美麗而獨特的裝飾品，能夠增加人民的滿意度，並激發沙漠城市的文化和科技創新。</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_BAMBOO_NAME" Language="zh_Hant_HK">
+			<Text>竹</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_BAMBOO_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>竹，又稱竹子，是一種屬於禾本科竹亞科的植物，有多種不同的品種和形態，是世界上生長速度最快的植物之一。竹子在許多文化中都有重要的意義和用途，可以作為食物、建築材料、工藝品、紙張、紡織品等。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEATER_NAME" Language="zh_Hant_HK">
+			<Text>食鐵獸</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEATER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>伴隨竹子的特色重騎兵單位。視野與移動力不受森林和雨林影響。每個竹子伐木場提供食鐵獸+5[ICON_Strength]戰鬥力。[NEWLINE]傷害點數高於對方的狀況下，會將防守的敵方單位推至後方的單元格。若防守單位無法後退，則會遭受額外傷害。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FEATER_NAME" Language="zh_Hant_HK">
+			<Text>食鐵獸</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FEATER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>視野與移動力不受森林和雨林影響。每個竹子伐木場提供食鐵獸+5[ICON_Strength]戰鬥力。</Text>
+		</Replace>
+
+		<!-- 地貌 -->
+		<Replace Tag="LOC_FEATURE_DAL_CRATER_LAKE_NAME" Language="zh_Hant_HK">
+			<Text>火口湖</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DAL_CRATER_LAKE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>火山在噴發後，於火山口積水而形成的湖泊，為火山湖之一種。提供淡水資源。</Text>
+		</Replace>
+		
+		<!-- 紫禁城 -->
+		<Replace Tag="LOC_BUILDING_DAL_PALACE_NAME" Language="zh_Hant_HK">
+			<Text>故宮</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_PALACE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約戰旗袍領袖特色宮殿。+1 通用政策槽位。</Text>
+		</Replace>
+		
+		<!-- 行政長官 -->
+		<Replace Tag="LOC_GOVERNOR_THE_DEFENDER_NAME" Language="zh_Hant_HK">
+			<Text>夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_CARDINAL_NAME" Language="zh_Hant_HK">
+			<Text>鳶一折紙</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_BUILDER_NAME" Language="zh_Hant_HK">
+			<Text>風待八舞</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME" Language="zh_Hant_HK">
+			<Text>誘宵美九</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME" Language="zh_Hant_HK">
+			<Text>時崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_MERCHANT_NAME" Language="zh_Hant_HK">
+			<Text>五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME" Language="zh_Hant_HK">
+			<Text>鏡野七罪</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_IBRAHIM_NAME" Language="zh_Hant_HK">
+			<Text>五河士織</Text>
+		</Replace>
+
+		<!-- 產出 -->
+		<Replace Tag="LOC_DAL_DISTRICT_HOUSING" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Housing] 住房來自相鄰區域。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_ENTERTAINMENT" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Amenities] 滿意度來自相鄰區域。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_XDISK_GOTO_GOLDEN_AGE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>前往黃金時代</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_GOTO_NORMAL_AGE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>前往普通時代</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_GOTO_DARK_AGE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>前往黑暗時代</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_RECORDED_ERASCORE_TOOLTIP" Language="zh_Hant_HK">
+			<Text>已儲存 {1_num} 點時代分</Text>
+		</Replace>
+		
+		<!-- 模組說明 -->
+		<Replace Tag="LOC_DAL_CORE_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]核心代碼[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CORE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>約會大作戰系列核心代碼</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CORE_SPECIAL_THANK" Language="zh_Hant_HK">
+			<Text>Hemmelfort大佬的B站系列教學視頻、MOD輔助工具，獲益良多</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]時崎狂三[ENDCOLOR] - [COLOR:ResGoldLabelCS]刻刻帝[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的時崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]時崎狂三:擴充1[ENDCOLOR] - [COLOR:ResGoldLabelCS]刻刻帝〈猩紅夢魘〉[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的時崎狂三，擴充更多造型</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]（赤黑新章）[COLOR:ResGoldLabelCS]白之女王 - [COLOR_RED]第三領域[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰赤黑新章的白之女王</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]鳶一折紙[ENDCOLOR] - [COLOR:ResGoldLabelCS]絕滅天使[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的鳶一折紙</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]本條二亞 - [COLOR:ResGoldLabelCS]囁告篇帙[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的本條二亞</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]冰芽川四糸乃[ENDCOLOR] - [COLOR:ResGoldLabelCS]冰結傀儡[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的冰芽川四糸乃</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]五河琴里[ENDCOLOR] - [COLOR:ResGoldLabelCS]灼爛殲鬼[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]星宮六喰[ENDCOLOR] - [COLOR:ResGoldLabelCS]封解主[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的星宮六喰</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYOUNO_NATSUMI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]鏡野七罪[ENDCOLOR] - [COLOR:ResGoldLabelCS]贗造魔女[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYOUNO_NATSUMI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的鏡野七罪</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]八舞姊妹[ENDCOLOR] - [COLOR:ResGoldLabelCS]颶風騎士[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的八舞耶俱矢＆八舞夕弦</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]誘宵美九[ENDCOLOR] - [COLOR:ResGoldLabelCS]破軍歌姬[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的誘宵美九</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]夜刀神十香/天香 - [COLOR:ResGoldLabelCS]鏖殺公/暴虐公[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]獸十香 - [COLOR:ResGoldLabelCS]獸[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的[COLOR_RED]獸十香[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]萬由里 - [COLOR:ResGoldLabelCS]雷霆聖堂[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的萬由里</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]園神凜禰/凜緒 - [COLOR:ResGoldLabelCS]兇禍樂園[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的園神凜禰/凜緒</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]或守鞠亞/鞠奈 - [COLOR:ResGoldLabelCS]尤克特拉希爾/尼德霍格[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的或守鞠亞與或守鞠奈</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]妮貝可/艾蓮/阿爾提米西亞 - [COLOR:ResGoldLabelCS]D.E.M[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的D.E.M公司</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]蓮 - [COLOR:ResGoldLabelCS]瘴毒淨土[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的蓮</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_NAME" Language="zh_Hant_HK">
+			<Text>二次元文明[ICON_You]『約戰』[COLOR_RED]五河士織 - [COLOR:ResGoldLabelCS]究極侍女[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>一個新的文明，來自約會大作戰的五河士織</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

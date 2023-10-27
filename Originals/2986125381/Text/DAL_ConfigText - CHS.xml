@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>		
+		<!-- 传闻 -->
+		<Replace Tag="LOC_VIZSOURCE_DAL_RATZIEL" Language="zh_Hans_CN">
+			<Text>嗫告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_KURUMI_SISTER" Language="zh_Hans_CN">
+			<Text>使用嗫告篇帙</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_DAL_RATZIEL" Language="zh_Hans_CN">
+			<Text>您从嗫告篇帙中得知</Text>
+		</Replace>
+
+		<!-- 特色技能 -->
+		<Replace Tag="LOC_UNIT_DAL_TRADER_NAME" Language="zh_Hans_CN">
+			<Text>驯鹿行商</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAL_TRADER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色商人单位。[NEWLINE]能创建和维护一条[ICON_TradeRoute]贸易路线。随着旅途行进自动修建道路并获取单元格。[NEWLINE][ICON_TradeRoute]贸易路线无法被敌方单位掠夺。进入到城市5个单元格内的无主单元格时，该单元格将划入你的领土。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_NAME" Language="zh_Hans_CN">
+			<Text>掠夺豁免</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_TradeRoute]贸易路线无法被敌方单位掠夺。进入到城市5个单元格内的无主单元格时，该单元格将划入你的领土。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>捣蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>相邻敌人单位-1[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{1_Amount}[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_NAME" Language="zh_Hans_CN">
+			<Text>不给糖就捣蛋</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>邻近的敌方城市每回合-1[ICON_Loyalty]忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>领袖魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位的[ICON_Strength]战斗力随着所在单元格的魅力增减。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESC" Language="zh_Hans_CN">
+			<Text>+{Amount}来自所在单元格的魅力</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_UNIT" Language="zh_Hans_CN">
+			<Text>+{Property}来自周遭死去的单位</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_BARB" Language="zh_Hans_CN">
+			<Text>+{Property}来自周遭死去的蛮族</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_COMBAT_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RELIGIOUS_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3宗教战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_NAME" Language="zh_Hans_CN">
+			<Text>超级士兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>受伤後不会遭受战斗力减益，能抵抗大槼模杀伤性武器，攻击後可以移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>超时空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位的[ICON_Strength]战斗力随着时代变动。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_STRENGTH_DESC" Language="zh_Hans_CN">
+			<Text>+{Amount}来自</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_NAME" Language="zh_Hans_CN">
+			<Text>逆转时空</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当与较先进的单位作战时，+7[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_COUNTER_DESC" Language="zh_Hans_CN">
+			<Text>+{Amount}来自对抗先进单位</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_NAME" Language="zh_Hans_CN">
+			<Text>战略维护</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此单位被创造时和维护时都不消耗战略资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_CANNOT_ATTACK_NAME" Language="zh_Hans_CN">
+			<Text>无法攻击</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_CANNOT_ATTACK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此单位无法主动攻击。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_NAME" Language="zh_Hans_CN">
+			<Text>机器人猎手</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当防御巨型杀戮机器人时+40[ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_PREV" Language="zh_Hans_CN">
+			<Text>+40[ICON_Strength]战斗力来自防御巨型杀戮机器人</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RUGGED_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>战术机动性</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RUGGED_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在丘陵地形与树林、雨林地貌+5[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_ON_HILLS" Language="zh_Hans_CN">
+			<Text>+{1_Amount}[ICON_Strength]战斗力来自丘陵</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_IN_JUNGLE" Language="zh_Hans_CN">
+			<Text>+{1_Amount}[ICON_Strength]战斗力来自丛林</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_IN_FOREST" Language="zh_Hans_CN">
+			<Text>+{1_Amount}[ICON_Strength]战斗力来自树林</Text>
+		</Replace>
+		<Replace Tag="PROMOTION_CLASS_DAL_SPEC_FORCE_NAME" Language="zh_Hans_CN">
+			<Text>特种侦查</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DAL_HARDENED_NAME" Language="zh_Hans_CN">
+			<Text>硬化</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DAL_HARDENED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在所有情况下+10[ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RIVER_TRAVEL_NAME" Language="zh_Hans_CN">
+			<Text>顺流而下</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RIVER_TRAVEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从河边开始时，[ICON_Movement]移动力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RANGED_ATTACK_RANGE_NAME" Language="zh_Hans_CN">
+			<Text>了望塔视野</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RANGED_ATTACK_RANGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1[ICON_Range]射程来自驻军区了望塔。</Text>
+		</Replace>
+
+		<!-- 特色区域 -->
+		<Replace Tag="LOC_DISTRICT_SPIRIT_PLAZA_NAME" Language="zh_Hans_CN">
+			<Text>精灵广场</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPIRIT_PLAZA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战特色区域，取代市政广场。[NEWLINE]用来纪念文明政体选择的区域，只能建造一次。每回合为此城市提供+8忠诚度，且所有相邻区域提供的相邻加成+1。奖励1个[Icon_Governor]行政长官职称。[NEWLINE][COLOR:Civ6Blue]部分精灵可由此激活可选能力。[ENDCOLOR]</Text>
+		</Replace>
+
+		<!-- 大都会 -->
+		<Replace Tag="LOC_QUARTER_FARM_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自相邻农田。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PASTURE_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Production]生产力来自相邻牧场。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PLANTATION_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自相邻种植园。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_CAMP_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自相邻露营地。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHINGBOAT_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自相邻渔船。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Food]食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Production]生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Science]科学值。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Culture]文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHINGBOAT_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Food]食物来自相邻渔船。</Text>
+		</Replace>
+
+		<!-- 特色项目 -->
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_NAME" Language="zh_Hans_CN">
+			<Text>万圣节狂欢</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>魔女特色项目，能增加此城市向自身与周遭城市传播的忠诚度压力。[NEWLINE]激活後，每个[ICON_Citizen]公民每回合为此城市+3忠诚度压力。此效果也会影响9个单元格范围内的其他城市，但每隔1个单元格效果减弱10%。项目完成后所在[ICON_Loyalty]忠诚度与邻近我方[ICON_Loyalty]忠诚度[ICON_Loyalty]忠诚度上升、外邦城市[ICON_Loyalty]忠诚度下降（根据距离递减）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_NAME" Language="zh_Hans_CN">
+			<Text>迁都</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>魔女特色项目。完成后，[ICON_Capital]首都将会迁都至此城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_DEFECTORS_NAME" Language="zh_Hans_CN">
+			<Text>幸运轮盘：军事招募</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_DEFECTORS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兔女郎特色项目。[NEWLINE]从你遭遇到的文明中随机生产1-3个特色单位（仅限已解锁要求科技或市政的单位）。不会生成过去两个时代以上的单位。[NEWLINE]所招募的军队有一定几率会判变。</Text>
+		</Replace>
+		<Row Tag="LO_PROJECT_DAL_ROULETTE_RANDOM_TECHC_NAME" Language="zh_Hans_CN">
+			<Text>幸运轮盘：随机科技</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_TECH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兔女郎特色项目。[NEWLINE]每回合提消耗[ICON_Science]科技值，完成时随机奖励一项免费科技。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_CIVIC_NAME" Language="zh_Hans_CN">
+			<Text>幸运轮盘：随机市政</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_CIVIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兔女郎特色项目。[NEWLINE]每回合消耗[ICON_Culture]文化值，完成时随机奖励一项免费市政。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_TECH_BOOST_NAME" Language="zh_Hans_CN">
+			<Text>幸运轮盘：随机尤里卡</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_TECH_BOOST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兔女郎特色项目。[NEWLINE]每回合提消耗[ICON_Science]科技值，完成时为两个随机科技启动[ICON_TechBoosted]尤里卡。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_CIVIC_BOOST_NAME" Language="zh_Hans_CN">
+			<Text>幸运轮盘：随机天启</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DAL_ROULETTE_CIVIC_BOOST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兔女郎特色项目。[NEWLINE]每回合消耗[ICON_Culture]文化值，完成时为两个随机市政启动[ICON_CivicBoosted]天启。</Text>
+		</Row>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RELIGION_NAME" Language="zh_Hans_CN">
+			<Text>幸运轮盘：宗教信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RELIGION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兔女郎特色项目。[NEWLINE]每回合消耗[ICON_Faith]信仰值，完成后提供一条尚未被取得的随机[ICON_Religion]宗教信仰。[NEWLINE]如果尚未取得万神殿信仰，则自动取得一个随机万神殿信仰；如果尚未创建宗教，则随机创建一个宗教。</Text>
+		</Replace>
+	
+		<!-- 改良 -->
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_NAME" Language="zh_Hans_CN">
+			<Text>移山</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将所处的单元格转变为丘陵单元格。[NEWLINE]只能转变不是火山的山脉。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_NAME" Language="zh_Hans_CN">
+			<Text>填海</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将所处的单元格转变为平原单元格。[NEWLINE]只能转变没有资源的湖泊和海岸。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_NAME" Language="zh_Hans_CN">
+			<Text>造陆</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将所处的单元格与相邻单元格转变为平原单元格。[NEWLINE]只能转变没有资源的湖泊、海岸和海洋。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_NAVAL_MINE_NAME" Language="zh_Hans_CN">
+			<Text>水雷</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_NAVAL_MINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战泳装精灵特色改良设施。[NEWLINE][NEWLINE]由军事工程师或海军单位建造。当敌方单位步入所在单元格时，受到50点伤害。可建造在海洋或海岸与湖泊以及礁石上。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOODYHUT_IMPROVISED_TRAP_GOODIES" Language="zh_Hans_CN">
+			<Text>水雷！</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_TORI_GATE_NAME" Language="zh_Hans_CN">
+			<Text>千本鸟居</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_TORI_GATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战和服精灵特色改良设施。[NEWLINE][NEWLINE]+1[ICON_Culture]文化值。+1魅力。如果和其它分段相邻或是相邻奇观与自然奇观，可获得[ICON_Faith]信仰值加成。若相邻森林+1[ICON_Culture]文化值。随着科技进展，提供等于[ICON_Faith]信仰值产出的[ICON_Tourism]旅游业绩。</Text>
+		</Replace>
+		
+		<!-- 海上建城 -->
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS" Language="zh_Hans_CN">
+			<Text>海上建城</Text>
+		</Replace>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[NEWLINE]於所处单元格建城，并且将相邻海洋单元格转变为海岸单元格</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_CITY" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]距离其他城市太近了[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISTRICT" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]无法在区域建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_IMPROVEMENT" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]无法在改良设施建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_LAKE" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]无法在湖泊建城[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_WONDER" Language="zh_Hans_CN">
+			<Text>[NEWLINE][COLOR:Red]无法在自然奇观建城[ENDCOLOR]</Text>
+		</Row>
+
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Science]科技值来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Culture]文化值来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Production]生产力来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_GFOOD]食物来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自海中都市。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CITYCENTER_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Food]食物来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SEARESOURCE_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Food]食物来自相邻海洋资源。</Text>
+		</Replace>
+
+		<!-- 海滨 -->
+		<Replace Tag="LOC_DAL_COAST_NAME" Language="zh_Hans_CN">
+			<Text>海滨</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>创建在海岸单元格上的区域，</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC2" Language="zh_Hans_CN">
+			<Text>无法建造在拥有“</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC3" Language="zh_Hans_CN">
+			<Text>”的城市内。无法建造在礁石单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_COAST_DESC4" Language="zh_Hans_CN">
+			<Text>中的</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_BRIDGE_NAME" Language="zh_Hans_CN">
+			<Text>精灵大桥</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_BRIDGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战特色建筑。[NEWLINE]陆地单位无须上船即可穿越。效果等同现代道路且会在两端的陆地单元格建造现代道路（若尚未建造的话）。相邻单元格+1魅力。[NEWLINE][NEWLINE]必须建造在海岸单元格上。桥梁必须穿越两个陆地单元格间的单元格，并直接通往另一端。桥梁的左侧和右侧至少必须有一个水域单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_CANAL_NAME" Language="zh_Hans_CN">
+			<Text>精灵大运河</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战特色建筑。[NEWLINE]落成时会自动建成1到2个相邻的运河区域。经过此处的[ICON_TradeRoute]贸易路线能够从其目的地区域获得成倍的金币收益。[NEWLINE][NEWLINE]必须建在平原单元格上，相邻的两个单元格必须跨过建筑单元格遥遥相对，并符合以下标准：其中一个相邻单元格必须拥有相连至巴拿马运河建造单元格的运河区域；另一个单元格则必须为城市、水域单元格或拥有另一个相连运河单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_CANAL_NAME" Language="zh_Hans_CN">
+			<Text>精灵运河</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战特色区域，取代运河。[NEWLINE]能链接两大水域或将水域链接至市中心的区域。经过此处的[ICON_TradeRoute]贸易路线能够从其目的地区域获得成倍的金币收益。[NEWLINE]运河能直接穿越格位，或呈60度弯曲。然而无法建造有三个出入口的运河交界口，并且运河在其所创建水道的每侧都必须拥有一个完整的陆地单元格。军事工程师可消耗1点使用次数完成20%的运河修建进度。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_DAM_NAME" Language="zh_Hans_CN">
+			<Text>精灵水坝</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_DAM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战特色区域，取代水坝。[NEWLINE]沿河建造的区域，可提高此河流沿岸居民的舒适度。避免此河流的泛滥损害（尽管从洪灾中获得的收益会减半）。在旱灾时避免 [ICON_Food] 食物损失。[NEWLINE]河流必须穿越水坝单元格的至少两侧。军事工程师可消耗1点使用次数完成20%的运河修建进度。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Science]科技值来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Gold]金币来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Culture]文化值来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Production]生产力来自相邻城市中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num}[ICON_Faith]信仰值来自相邻城市中心。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_XMAS_GOODY_HUT" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]部落村庄刷新！[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_DAL_SECRETSOCIETY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢{LOC_TOOLTIP_SAMPLE_DIPLOMACY_SAME_SECRET_SOCIETY}。[NEWLINE]厌恶{LOC_TOOLTIP_SAMPLE_DIPLOMACY_DIFFERENT_SECRET_SOCIETY}。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TERRAIN_CLASS_HILLS_NAME" Language="zh_Hans_CN">
+			<Text>丘陵类</Text>
+		</Replace>
+		
+		<!-- 资源 -->
+		<Replace Tag="LOC_RESOURCE_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>黄金</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_GOLD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>黄金是人类较早发现并利用的金属。由于黄金罕有丶特殊和珍贵，因此有“金属之王”的称号，享有其它金属品种无法比拟的盛誉，其显赫的地位近乎永恒。正因为黄金具有这一“贵族”地位，黄金曾经是财富和华贵的象征。随着社会的发展，黄金的经济地位和应用层面不断发生变化，但当前仍然在各国的国际储备中占有一席之地，是一种同时具有货币属性丶商品属性和金融属性的特殊商品。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_GOLD]黄金企业：创造新产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_GOLD]创造新黄金产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_GOLD]黄金资源为基础，为全世界创造新产品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_1_NAME" Language="zh_Hans_CN">
+			<Text>镇金店</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_2_NAME" Language="zh_Hans_CN">
+			<Text>周大福珠宝</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_3_NAME" Language="zh_Hans_CN">
+			<Text>金长山</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_4_NAME" Language="zh_Hans_CN">
+			<Text>集羽珠宝</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_5_NAME" Language="zh_Hans_CN">
+			<Text>今生金饰</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_PLATINUM_NAME" Language="zh_Hans_CN">
+			<Text>铂</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PLATINUM_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>俗称白金，是非常不活泼的金属。即便在高温下，它也有极强的抗腐蚀性，属於抗腐蚀金属。在自然中，铂有时以纯金属状态出现，不与其他元素结合。铂自然出现在河流的冲积层中，所以前哥伦布时期的南美原住民最早用铂制作工艺品。欧洲最早在16世纪就有记载使用铂；1748年，安东尼奥·乌略亚发表报告，描述此来自哥伦比亚的新金属，这时科学家才开始研究铂元素。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_PLATINUM]铂企业：创造新产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_PLATINUM]创造新铂产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_PLATINUM]铂资源为基础，为全世界创造新产品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_1_NAME" Language="zh_Hans_CN">
+			<Text>镇金店</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_2_NAME" Language="zh_Hans_CN">
+			<Text>周大福珠宝</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_3_NAME" Language="zh_Hans_CN">
+			<Text>金长山</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_4_NAME" Language="zh_Hans_CN">
+			<Text>集羽珠宝</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_5_NAME" Language="zh_Hans_CN">
+			<Text>今生金饰</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_SAKURA_NAME" Language="zh_Hans_CN">
+			<Text>樱花</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SAKURA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>樱花在几百万年前起源于喜马拉雅地区，之后向北温带其他地区扩散，约在渐新世和中新世时期，其中一支经由今中国东部到达朝鲜半岛和日本列岛。因此，樱花是中国、朝鲜、韩国和日本等东亚地区的常见物种。一些品种的樱花所结的果实因味道欠佳不作食用，但可作繁殖樱花树之用，在温带地区平地即能结果，在亚热带地区海拔则需高于500公尺。当前许多用于观赏樱花的樱花不是野生物种，而是栽培品种。由于樱花具有可变异的特性，因此，人们创造出许多专门用来赏樱的栽培品种，这种情况在日本更加常见。自平安时代以来，日本人通过选择野生樱花自然杂交或人工杂交生成的优良或变异个体，进行嫁接和扦插，从而培育出许多栽培品种。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_SAKURA]樱花企业：创造新产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_SAKURA]创造新樱花产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_SAKURA]樱花资源为基础，为全世界创造新产品。{LOC_INDUSTRY_CULTURE_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_1_NAME" Language="zh_Hans_CN">
+			<Text>梦花馆</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_2_NAME" Language="zh_Hans_CN">
+			<Text>花剑坊</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_3_NAME" Language="zh_Hans_CN">
+			<Text>花茶屋</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_4_NAME" Language="zh_Hans_CN">
+			<Text>花舞院</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_5_NAME" Language="zh_Hans_CN">
+			<Text>花歌社</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_SHARKS_NAME" Language="zh_Hans_CN">
+			<Text>鱼翅</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SHARKS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>鱼翅取自鲨鱼鳍，是中国菜中的名贵食材之一，已有很长的食用记录。据载，中国唐宋时期，越南沿海地区就开始将鱼翅制成食品。曾有国家以鱼翅爲贡品献给中国皇室。又一说鱼翅爲华人所食用是始于郑和下西洋时，船员在东南亚海岛上捡拾鱼翅煮熟充饥。一说是郑成功之父郑芝龙於海上生活发明，成商品致富，得自日本接回长子郑成功。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_SHARKS]鱼翅企业：创造新产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_SHARKS]创造新鱼翅产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_SHARKS]鱼翅资源为基础，为全世界创造新产品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_1_NAME" Language="zh_Hans_CN">
+			<Text>海王星鱼翅</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_2_NAME" Language="zh_Hans_CN">
+			<Text>龙凤呈祥</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_3_NAME" Language="zh_Hans_CN">
+			<Text>鱼翅之家</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_4_NAME" Language="zh_Hans_CN">
+			<Text>海洋之星</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_5_NAME" Language="zh_Hans_CN">
+			<Text>锯齿鲨</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_AQUAMARINE_NAME" Language="zh_Hans_CN">
+			<Text>海蓝宝石</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_AQUAMARINE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>海蓝宝石，又称海水蓝宝，是一种矽酸盐矿石，为绿柱石的一种。是一种透明而带着蓝色或海蓝色的宝石。在中世纪时期，人们认为海蓝宝石可以奇迹地克服毒物的作用。古代的水手在航行时会佩戴海蓝宝石，认为它可以保证航程的安全，并保证他们能够安全回归；当睡觉时，他们会把宝石放在枕头之下，以保证睡眠充足。他们相信美人鱼的鱼形下身是由海蓝宝石制成的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_AQUAMARINE]海蓝宝石企业：创造新产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_AQUAMARINE]创造新海蓝宝石产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_AQUAMARINE]海蓝宝石资源为基础，为全世界创造新产品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_1_NAME" Language="zh_Hans_CN">
+			<Text>蒂芙尼</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_2_NAME" Language="zh_Hans_CN">
+			<Text>格拉夫</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_3_NAME" Language="zh_Hans_CN">
+			<Text>伯爵</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_4_NAME" Language="zh_Hans_CN">
+			<Text>卡地亚</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_5_NAME" Language="zh_Hans_CN">
+			<Text>萧邦</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_RUBY_NAME" Language="zh_Hans_CN">
+			<Text>红宝石</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_RUBY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>红宝石，属於宝石级刚玉，传统上作为枢要宝石之一，被用于制作宗教仪式用品和皇室珠宝。红宝石主要成分是氧化铝，红色来自铬。自然没有铬的宝石是蓝色的蓝宝石。天然红宝石大多来自亚洲（缅甸、泰国和斯里兰卡）、非洲和澳大利亚，美国蒙大拿州和南卡罗莱纳州也有部分生产。天然红宝石非常少见且珍贵，但是人造并非太难，所以工业用红宝石都是人造的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_RUBY]红宝石企业：创造新产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_RUBY]创造新红宝石产品</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_RUBY]红宝石资源为基础，为全世界创造新产品。{LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_1_NAME" Language="zh_Hans_CN">
+			<Text>蒂芙尼</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_2_NAME" Language="zh_Hans_CN">
+			<Text>格拉夫</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_3_NAME" Language="zh_Hans_CN">
+			<Text>伯爵</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_4_NAME" Language="zh_Hans_CN">
+			<Text>卡地亚</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_5_NAME" Language="zh_Hans_CN">
+			<Text>萧邦</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_DAL_POTION_NAME" Language="zh_Hans_CN">
+			<Text>魔药</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_CACTUS_NAME" Language="zh_Hans_CN">
+			<Text>仙人掌</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CACTUS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>仙人掌是一种能够在沙漠中生长的多肉植物，它们具有储水和耐旱的能力，并能够提供一些食物和金币收入。仙人掌也是一种美丽而独特的装饰品，能够增加人民的满意度，并激发沙漠城市的文化和科技创新。</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_BAMBOO_NAME" Language="zh_Hans_CN">
+			<Text>竹</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_BAMBOO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>竹，又称竹子，是一种属於禾本科竹亚科的植物，有多种不同的品种和形态，是世界上生长速度最快的植物之一。竹子在许多文化中都有重要的意义和用途，可以作为食物、建筑材料、工艺品、纸张、纺织品等。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEATER_NAME" Language="zh_Hans_CN">
+			<Text>食铁兽</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEATER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>伴随竹子的特色重骑兵单位。视野与移动力不受森林和雨林影响。每个竹子伐木场提供食铁兽+5[ICON_Strength]战斗力。[NEWLINE]伤害点数高于对方的状况下，会将防守的敌方单位推至后方的单元格。若防守单位无法后退，则会遭受额外伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FEATER_NAME" Language="zh_Hans_CN">
+			<Text>食铁兽</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FEATER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>视野与移动力不受森林和雨林影响。每个竹子伐木场提供食铁兽+5[ICON_Strength]战斗力。</Text>
+		</Replace>
+
+		<!-- 地貌 -->
+		<Replace Tag="LOC_FEATURE_DAL_CRATER_LAKE_NAME" Language="zh_Hans_CN">
+			<Text>火口湖</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DAL_CRATER_LAKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>火山在喷发後，于火山口积水而形成的湖泊，为火山湖之一种。提供淡水资源。</Text>
+		</Replace>
+		
+		<!-- 紫禁城 -->
+		<Replace Tag="LOC_BUILDING_DAL_PALACE_NAME" Language="zh_Hans_CN">
+			<Text>故宫</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_PALACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约战旗袍领袖特色宫殿。+1 通用政策槽位。</Text>
+		</Replace>
+		
+		<!-- 行政长官 -->
+		<Replace Tag="LOC_GOVERNOR_THE_DEFENDER_NAME" Language="zh_Hans_CN">
+			<Text>夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_CARDINAL_NAME" Language="zh_Hans_CN">
+			<Text>鸢一折纸</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_BUILDER_NAME" Language="zh_Hans_CN">
+			<Text>风待八舞</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME" Language="zh_Hans_CN">
+			<Text>诱宵美九</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME" Language="zh_Hans_CN">
+			<Text>时崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_MERCHANT_NAME" Language="zh_Hans_CN">
+			<Text>五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME" Language="zh_Hans_CN">
+			<Text>镜野七罪</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_IBRAHIM_NAME" Language="zh_Hans_CN">
+			<Text>五河士织</Text>
+		</Replace>
+
+		<!-- 产出 -->
+		<Replace Tag="LOC_DAL_DISTRICT_HOUSING" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Housing] 住房来自相邻区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_ENTERTAINMENT" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Amenities] 满意度来自相邻区域。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_XDISK_GOTO_GOLDEN_AGE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>前往黄金时代</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_GOTO_NORMAL_AGE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>前往普通时代</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_GOTO_DARK_AGE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>前往黑暗时代</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_RECORDED_ERASCORE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>已保存 {1_num} 点时代分</Text>
+		</Replace>
+		
+		<!-- 模块说明 -->
+		<Replace Tag="LOC_DAL_CORE_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]核心代码[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CORE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>约会大作战系列核心代码</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CORE_SPECIAL_THANK" Language="zh_Hans_CN">
+			<Text>Hemmelfort大佬的B站系列教学视频、MOD辅助工具，获益良多</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]时崎狂三[ENDCOLOR] - [COLOR:ResGoldLabelCS]刻刻帝[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的时崎狂三</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]时崎狂三:扩充1[ENDCOLOR] - [COLOR:ResGoldLabelCS]刻刻帝〈猩红梦魇〉[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的时崎狂三，扩充更多造型</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]（赤黑新章）[COLOR:ResGoldLabelCS]白之女王 - [COLOR_RED]第三领域[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战赤黑新章的白之女王</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]鸢一折纸[ENDCOLOR] - [COLOR:ResGoldLabelCS]绝灭天使[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的鸢一折纸</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]本条二亚 - [COLOR:ResGoldLabelCS]嗫告篇帙[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的本条二亚</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]冰芽川四糸乃[ENDCOLOR] - [COLOR:ResGoldLabelCS]冰结傀儡[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的冰芽川四糸乃</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]五河琴里[ENDCOLOR] - [COLOR:ResGoldLabelCS]灼烂歼鬼[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的五河琴里</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]星宫六喰[ENDCOLOR] - [COLOR:ResGoldLabelCS]封解主[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的星宫六喰</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYOUNO_NATSUMI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]镜野七罪[ENDCOLOR] - [COLOR:ResGoldLabelCS]赝造魔女[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYOUNO_NATSUMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的镜野七罪</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]八舞姊妹[ENDCOLOR] - [COLOR:ResGoldLabelCS]飓风骑士[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的八舞耶俱矢＆八舞夕弦</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]诱宵美九[ENDCOLOR] - [COLOR:ResGoldLabelCS]破军歌姬[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的诱宵美九</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]夜刀神十香/天香 - [COLOR:ResGoldLabelCS]鏖杀公/暴虐公[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的夜刀神十香</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]兽十香 - [COLOR:ResGoldLabelCS]兽[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的[COLOR_RED]兽十香[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]万由里 - [COLOR:ResGoldLabelCS]雷霆圣堂[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的万由里</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]园神凛祢/凛绪 - [COLOR:ResGoldLabelCS]凶祸乐园[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的园神凛祢/凛绪</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]或守鞠亚/鞠奈 - [COLOR:ResGoldLabelCS]尤克特拉希尔/尼德霍格[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的或守鞠亚与或守鞠奈</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]妮贝可/艾莲/阿尔提米西亚 - [COLOR:ResGoldLabelCS]D.E.M[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的D.E.M公司</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]莲 - [COLOR:ResGoldLabelCS]瘴毒净土[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的莲</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_NAME" Language="zh_Hans_CN">
+			<Text>二次元文明[ICON_You]‘约战’[COLOR_RED]五河士织 - [COLOR:ResGoldLabelCS]究极侍女[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一个新的文明，来自约会大作战的五河士织</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

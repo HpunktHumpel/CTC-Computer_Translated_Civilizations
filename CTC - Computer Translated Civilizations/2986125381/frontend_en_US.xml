@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Oct 27 17:45:22 2023-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LO_PROJECT_DAL_ROULETTE_RANDOM_TECHC_NAME" Language="en_US">
+			<Text>Lucky Wheel: Random Technology</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_TECH_DESCRIPTION" Language="en_US">
+			<Text>Bunny girl special project. [NEWLINE] Each round consumes [ICON_Science] technology value, and a free technology will be randomly awarded upon completion.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_CIVIC_NAME" Language="en_US">
+			<Text>Lucky Roulette: Random Municipal</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RANDOM_CIVIC_DESCRIPTION" Language="en_US">
+			<Text>Bunny girl special project. [NEWLINE] Each round consumes [ICON_Culture] culture value, and a free municipal reward will be randomly awarded upon completion.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_TECH_BOOST_NAME" Language="en_US">
+			<Text>Lucky Roulette: Random Eureka</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_TECH_BOOST_DESCRIPTION" Language="en_US">
+			<Text>Bunny girl special project. [NEWLINE] Each round consumes [ICON_Science] technology value, and upon completion, two random technologies will activate [ICON_TechBoosted] Eureka.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_CIVIC_BOOST_NAME" Language="en_US">
+			<Text>Lucky Roulette: Random Apocalypse</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_CIVIC_BOOST_DESCRIPTION" Language="en_US">
+			<Text>Bunny girl special project. [NEWLINE] Each round consumes [ICON_Culture] cultural value, and upon completion, activates [ICON_CivicBoosted] apocalypse for two random municipalities.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DESCRIPTION" Language="en_US">
+			<Text>[NEWLINE] Build a city on the current cell and convert adjacent ocean cells into coastal cells</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_CITY" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red] is too close to other cities[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISTRICT" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red]Cannot build city in area[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_IMPROVEMENT" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red]Cannot build a city on improvements[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_LAKE" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red]Cannot build a city on a lake[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS_DISABLED_WONDER" Language="en_US">
+			<Text>[NEWLINE][COLOR:Red]Cannot build a city in a natural wonder[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAL_TRADER_NAME" Language="en_US">
+			<Text>Reindeer Trader</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DAL_TRADER_DESCRIPTION" Language="en_US">
+			<Text>Featured merchant unit. [NEWLINE]Ability to create and maintain an [ICON_TradeRoute] trade route. Automatically build roads and acquire cells as your journey progresses. [NEWLINE][ICON_TradeRoute]Trade routes cannot be looted by enemy units. When entering an unowned cell within 5 cells of the city, the cell will be included in your territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_NAME" Language="en_US">
+			<Text>Plunder immunity</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRADER_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TradeRoute]Trade routes cannot be looted by enemy units. When entering an unowned cell within 5 cells of the city, the cell will be included in your territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_NAME" Language="en_US">
+			<Text>Trick or treat</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>Adjacent enemy units have -1 [ICON_Strength] combat strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_STRENGTH_MOD_DESCRIPTION" Language="en_US">
+			<Text>{1_Amount}[ICON_Strength]Combat Strength</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_NAME" Language="en_US">
+			<Text>trick or treat</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_TRICK_IDENTITY_DESCRIPTION" Language="en_US">
+			<Text>Neighboring enemy cities lose -1 [ICON_Loyalty] loyalty each round.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_NAME" Language="en_US">
+			<Text>Charisma</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>The unit's [ICON_Strength] combat strength increases or decreases with the charm of the cell it is in.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_APPEAL_STRENGTH_DESC" Language="en_US">
+			<Text>+{Amount} comes from the charm of the cell where it is located</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_UNIT" Language="en_US">
+			<Text>+{Property} from nearby dead units</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_UNITS_STRENGTH_ON_DEAD_BARB" Language="en_US">
+			<Text>+{Property}comes from the dead barbarians around you</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_COMBAT_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="en_US">
+			<Text>+3 combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RELIGIOUS_STRENGTH_HOLY_CITIES_DESCRIPTION" Language="en_US">
+			<Text>+3 religious combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_NAME" Language="en_US">
+			<Text>super soldier</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_SUPERSOLDIER_DESCRIPTION" Language="en_US">
+			<Text>It will not suffer combat effectiveness debuffs after being injured, can resist large-scale anti-personnel weapons, and can move after attacking.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_NAME" Language="en_US">
+			<Text>time and space</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>The [ICON_Strength] combat strength of units changes with the times.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_STRENGTH_DESC" Language="en_US">
+			<Text>+{Amount}from</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_NAME" Language="en_US">
+			<Text>Reverse time and space</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ERA_COUNTER_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] combat strength when fighting more advanced units.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_DAL_ERA_COUNTER_DESC" Language="en_US">
+			<Text>+{Amount} from fighting advanced units</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_NAME" Language="en_US">
+			<Text>strategic maintenance</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_IGNORE_MAINTENANCE_DESCRIPTION" Language="en_US">
+			<Text>This unit does not consume strategic resources when created or maintained.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_CANNOT_ATTACK_NAME" Language="en_US">
+			<Text>Unable to attack</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_CANNOT_ATTACK_DESCRIPTION" Language="en_US">
+			<Text>This unit cannot actively attack.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_NAME" Language="en_US">
+			<Text>Robot Hunter</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_DESCRIPTION" Language="en_US">
+			<Text>+40 [ICON_Strength] combat strength when defending against giant killing robots</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_ANTI_GDR_PREV" Language="en_US">
+			<Text>+40[ICON_Strength] combat strength from defending against giant killing robots</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RUGGED_STRENGTH_NAME" Language="en_US">
+			<Text>tactical mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RUGGED_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] combat effectiveness in hilly terrain, woods, and rainforest terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_ON_HILLS" Language="en_US">
+			<Text>+{1_Amount}[ICON_Strength] Combat strength comes from hills</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_IN_JUNGLE" Language="en_US">
+			<Text>+{1_Amount}[ICON_Strength] Combat strength comes from the jungle</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_BEAST_RUGGED_IN_FOREST" Language="en_US">
+			<Text>+{1_Amount}[ICON_Strength] Combat strength comes from the woods</Text>
+		</Replace>
+		<Replace Tag="PROMOTION_CLASS_DAL_SPEC_FORCE_NAME" Language="en_US">
+			<Text>special investigation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DAL_HARDENED_NAME" Language="en_US">
+			<Text>hardening</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_DAL_HARDENED_DESCRIPTION" Language="en_US">
+			<Text>+10[ICON_Strength] combat strength in all situations.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RIVER_TRAVEL_NAME" Language="en_US">
+			<Text>go down the river</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RIVER_TRAVEL_DESCRIPTION" Language="en_US">
+			<Text>When starting from the river, [ICON_Movement] movement +1.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RANGED_ATTACK_RANGE_NAME" Language="en_US">
+			<Text>Watchtower view</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAL_RANGED_ATTACK_RANGE_DESCRIPTION" Language="en_US">
+			<Text>+1[ICON_Range] range from garrison watchtowers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPIRIT_PLAZA_NAME" Language="en_US">
+			<Text>Elf Square</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPIRIT_PLAZA_DESCRIPTION" Language="en_US">
+			<Text>Date A Live featured area, replacing the Town Square. [NEWLINE]The area used to commemorate the choice of a civilized government can only be built once. This city provides +8 loyalty each turn, and all adjacent areas provide +1 adjacency bonus. Reward 1 [Icon_Governor] chief executive title. [NEWLINE][COLOR:Civ6Blue]Some elves can activate optional abilities here. [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FARM_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold] gold coins come from adjacent farmland.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PASTURE_PRODUCTION" Language="en_US">
+			<Text>+{1_num}[ICON_Production]Production comes from adjacent pastures.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_PLANTATION_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold] gold coins from adjacent plantations.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_CAMP_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold] gold coins from adjacent campsites.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHINGBOAT_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold] gold coins from adjacent fishing boats.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_FOOD" Language="en_US">
+			<Text>+{1_num}[ICON_Food]Food.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_PRODUCTION" Language="en_US">
+			<Text>+{1_num}[ICON_Production] productivity.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold]gold coins.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_SCIENCE" Language="en_US">
+			<Text>+{1_num}[ICON_Science] scientific value.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_CULTURE" Language="en_US">
+			<Text>+{1_num}[ICON_Culture] culture value.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_BASE_DISTRICT_FAITH" Language="en_US">
+			<Text>+{1_num}[ICON_Faith] faith value.</Text>
+		</Replace>
+		<Replace Tag="LOC_QUARTER_FISHINGBOAT_FOOD" Language="en_US">
+			<Text>+{1_num}[ICON_Food]Food comes from adjacent fishing boats.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_NAME" Language="en_US">
+			<Text>halloween carnival</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_HALLOWEEN_DESCRIPTION" Language="en_US">
+			<Text>Witch-specific projects can increase the loyalty pressure this city spreads to itself and surrounding cities. [NEWLINE]When activated, each [ICON_Citizen] citizen gets +3 loyalty pressure per turn for this city. This effect will also affect other cities within a 9-cell range, but the effect will be reduced by 10% for every other cell. After the project is completed, the loyalty of the [ICON_Loyalty] and the nearby [ICON_Loyalty] will increase. The loyalty of the foreign city [ICON_Loyalty] will decrease (decrease according to the distance).</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_NAME" Language="en_US">
+			<Text>Move the capital</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_CAPITAL_MOVE_DESCRIPTION" Language="en_US">
+			<Text>Witch special items. Upon completion, the capital of [ICON_Capital] will be moved to this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_DEFECTORS_NAME" Language="en_US">
+			<Text>Wheel of Fortune: Military Recruitment</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_DEFECTORS_DESCRIPTION" Language="en_US">
+			<Text>Bunny girl special project. [NEWLINE] Randomly produce 1-3 unique units from the civilizations you encounter (only units with unlocked technology or municipal requirements). Units older than the past two epochs will not be generated. [NEWLINE]The army you recruit has a certain chance of changing.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RELIGION_NAME" Language="en_US">
+			<Text>Wheel of Fortune: Religion</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DAL_ROULETTE_RELIGION_DESCRIPTION" Language="en_US">
+			<Text>Bunny girl special project. [NEWLINE] Each round consumes [ICON_Faith] faith value, and after completion, a random [ICON_Religion] religious faith that has not yet been obtained will be provided. [NEWLINE] If Pantheon belief has not been obtained, a random Pantheon belief will be automatically obtained; if a religion has not been created yet, a random religion will be created.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_NAME" Language="en_US">
+			<Text>Move mountains</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_REMOVE_MOUNTAIN_DESCRIPTION" Language="en_US">
+			<Text>Transform the current cell into a hilly cell. [NEWLINE]Only mountains that are not volcanoes can be converted.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_NAME" Language="en_US">
+			<Text>reclamation</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_CLEAN_COAST_DESCRIPTION" Language="en_US">
+			<Text>Convert the current cell to a plain cell. [NEWLINE]Only lakes and coasts without resources can be converted.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_NAME" Language="en_US">
+			<Text>Make land</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_MAKE_ISLAND_DESCRIPTION" Language="en_US">
+			<Text>Convert the current cell and adjacent cells to plain cells. [NEWLINE]Only lakes, coasts, and oceans without resources can be transformed.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_NAVAL_MINE_NAME" Language="en_US">
+			<Text>mine</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_NAVAL_MINE_DESCRIPTION" Language="en_US">
+			<Text>Date A Live Swimsuit Elf features improved facilities. [NEWLINE][NEWLINE]Constructed by military engineers or naval units. When an enemy unit steps into its cell, it will suffer 50 points of damage. Can be built on oceans or coasts, lakes and reefs.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOODYHUT_IMPROVISED_TRAP_GOODIES" Language="en_US">
+			<Text>Mine!</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_TORI_GATE_NAME" Language="en_US">
+			<Text>Senbon Torii</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DAL_TORI_GATE_DESCRIPTION" Language="en_US">
+			<Text>Date A Live Kimono Elf features improved facilities. [NEWLINE][NEWLINE]+1[ICON_Culture] culture value. +1 Charisma. If it is adjacent to other segments or adjacent to wonders and natural wonders, you can get the [ICON_Faith] faith value bonus. If the adjacent forest +1 [ICON_Culture] culture value. With the advancement of science and technology, it provides [ICON_Tourism] tourism performance equal to the output of [ICON_Faith] faith value.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_DAL_SOTS" Language="en_US">
+			<Text>Building a city on the sea</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_SCIENCE" Language="en_US">
+			<Text>+{1_num}[ICON_Science]The science and technology value comes from the city in the sea.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_CULTURE" Language="en_US">
+			<Text>+{1_num}[ICON_Culture]The cultural value comes from the city in the sea.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_PRODUCTION" Language="en_US">
+			<Text>+{1_num}[ICON_Production] Productivity comes from the city in the sea.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FAITH" Language="en_US">
+			<Text>+{1_num}[ICON_Faith]The faith value comes from the city in the sea.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_FOOD" Language="en_US">
+			<Text>+{1_num}[ICON_GFOOD]Food comes from the city in the sea.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_COAST_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold] gold coins come from the city in the sea.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_CITYCENTER_FOOD" Language="en_US">
+			<Text>+{1_num}[ICON_Food]Food comes from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SEARESOURCE_FOOD" Language="en_US">
+			<Text>+{1_num}[ICON_Food]Food comes from adjacent ocean resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_BRIDGE_NAME" Language="en_US">
+			<Text>Elf Bridge</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_BRIDGE_DESCRIPTION" Language="en_US">
+			<Text>Date A Live featured buildings. [NEWLINE]Land units can cross without boarding a ship. Acts like a modern road and will build modern roads on the land tiles at both ends if they are not already built. Adjacent cells have +1 Charisma. [NEWLINE][NEWLINE]Must be built on coast tiles. The bridge must cross the cell between two land cells and lead directly to the other side. There must be at least one water cell to the left and right of the bridge.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_CANAL_NAME" Language="en_US">
+			<Text>Elf Grand Canal</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_CANAL_DESCRIPTION" Language="en_US">
+			<Text>Date A Live featured buildings. [NEWLINE]When completed, 1 or 2 adjacent canal areas will automatically be built. The [ICON_TradeRoute] trade route passing here can obtain multiple gold coins from its destination area. [NEWLINE][NEWLINE]Must be built on plain tiles, adjacent tiles must be facing each other across building tiles, and meet the following criteria: One of the adjacent tiles must have a building tile connected to the Panama Canal canal area; the other cell must be a city, a water cell, or have another connected canal cell.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_CANAL_NAME" Language="en_US">
+			<Text>fairy canal</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_CANAL_DESCRIPTION" Language="en_US">
+			<Text>Date A Live featured area, replacing the canal. [NEWLINE]An area that connects two major bodies of water or connects a body of water to a city center. The [ICON_TradeRoute] trade route passing here can obtain multiple gold coins from its destination area. [NEWLINE]Canals can pass directly through tiles, or they can curve at 60 degrees. Canal junctions with three entrances and exits cannot be built, however, and canals must have a full land tile on each side of the waterway they create. Military engineers can spend 1 use point to complete 20% of the canal construction progress.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_DAM_NAME" Language="en_US">
+			<Text>elf dam</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DAL_DAM_DESCRIPTION" Language="en_US">
+			<Text>Date A Live featured area, replacing the dam. [NEWLINE]Area built along a river to improve the comfort of residents along the river. Avoids flooding damage on this river (although benefits from flooding are halved). Avoid [ICON_Food] food loss during drought. [NEWLINE]The river must cross at least two sides of the dam tile. Military engineers can spend 1 use point to complete 20% of the canal construction progress.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_SCIENCE" Language="en_US">
+			<Text>+{1_num}[ICON_Science] Science value comes from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_GOLD" Language="en_US">
+			<Text>+{1_num}[ICON_Gold] gold coins come from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_CULTURE" Language="en_US">
+			<Text>+{1_num}[ICON_Culture] Culture value comes from adjacent city center.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_PRODUCTION" Language="en_US">
+			<Text>+{1_num}[ICON_Production]Production comes from adjacent city centers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_CITY_CENTER_FAITH" Language="en_US">
+			<Text>+{1_num}[ICON_Faith] Faith value comes from adjacent city center.</Text>
+		</Replace>
+		<Replace Tag="LOC_TERRAIN_CLASS_HILLS_NAME" Language="en_US">
+			<Text>Hill type</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_GOLD_NAME" Language="en_US">
+			<Text>gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_GOLD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Gold is the earliest metal discovered and utilized by humans. Because gold is rare, special and precious, it is known as the &quot;King of Metals&quot; and enjoys a reputation unmatched by other metal varieties. Its prominent status is almost eternal. Precisely because of its &quot;noble&quot; status, gold was once a symbol of wealth and luxury. With the development of society, the economic status and application level of gold are constantly changing, but it still occupies a place in the international reserves of various countries. It is a special commodity that has monetary attributes, commodity attributes and financial attributes at the same time.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_GOLD]Golden Enterprise: Create new products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_SHORT_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_GOLD] Create new gold products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_DESCRIPTION" Language="en_US">
+			<Text>[ICON_RESOURCE_GOLD] Based on gold resources, we create new products for the world. {LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_1_NAME" Language="en_US">
+			<Text>Zhenjindian</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_2_NAME" Language="en_US">
+			<Text>Chow Tai Fook Jewelry</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_3_NAME" Language="en_US">
+			<Text>Jin Changshan</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_4_NAME" Language="en_US">
+			<Text>Jiyu Jewelry</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_GOLD_5_NAME" Language="en_US">
+			<Text>gold jewelry in this life</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_PLATINUM_NAME" Language="en_US">
+			<Text>platinum</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PLATINUM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Commonly known as platinum, it is a very inactive metal. Even at high temperatures, it has strong corrosion resistance and is a corrosion-resistant metal. In nature, platinum sometimes occurs as a pure metal, uncombined with other elements. Platinum occurs naturally in the alluvium of rivers, so pre-Columbian South American natives were the first to use platinum to make crafts. The use of platinum was first recorded in Europe in the 16th century; in 1748, Antonio Ulloa published a report describing this new metal from Colombia, and scientists began to study the element platinum at this time.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_PLATINUM]Platinum Enterprises: Creating new products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_SHORT_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_PLATINUM] Create new platinum products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_PLATINUM_DESCRIPTION" Language="en_US">
+			<Text>[ICON_RESOURCE_PLATINUM] Based on platinum resources, we create new products for the world. {LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_1_NAME" Language="en_US">
+			<Text>Zhenjindian</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_2_NAME" Language="en_US">
+			<Text>Chow Tai Fook Jewelry</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_3_NAME" Language="en_US">
+			<Text>Jin Changshan</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_4_NAME" Language="en_US">
+			<Text>Jiyu Jewelry</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_PLATINUM_5_NAME" Language="en_US">
+			<Text>gold jewelry in this life</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_SAKURA_NAME" Language="en_US">
+			<Text>Cherry blossoms</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SAKURA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Cherry blossoms originated in the Himalayas millions of years ago, and then spread to other areas in the northern temperate zone. Around the Oligocene and Miocene epochs, one of them passed through eastern China and reached the Korean Peninsula and the Japanese Islands. Therefore, cherry blossoms are a common species in East Asia such as China, North Korea, South Korea and Japan. The fruits of some varieties of cherry blossoms are not edible due to their poor taste, but they can be used to propagate cherry blossom trees. They can bear fruit on flat ground in temperate areas, while in subtropical areas the altitude needs to be higher than 500 meters. Many of the cherry blossoms currently used for viewing are not wild species but cultivated varieties. Due to the variable nature of cherry blossoms, many cultivars have been created specifically for cherry blossom viewing, which is more common in Japan. Since the Heian period, the Japanese have developed many cultivated varieties by selecting superior or mutated individuals generated by natural or artificial hybridization of wild cherry blossoms, grafting and cuttings.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_SAKURA] Sakura Enterprises: Creating new products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_SHORT_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_SAKURA] Create new Sakura products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SAKURA_DESCRIPTION" Language="en_US">
+			<Text>[ICON_RESOURCE_SAKURA] Based on Sakura resources, we create new products for the world. {LOC_INDUSTRY_CULTURE_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_1_NAME" Language="en_US">
+			<Text>Dream Flower Pavilion</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_2_NAME" Language="en_US">
+			<Text>Huajianfang</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_3_NAME" Language="en_US">
+			<Text>flower tea house</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_4_NAME" Language="en_US">
+			<Text>Flower Dance House</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SAKURA_5_NAME" Language="en_US">
+			<Text>Hanakasha</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_SHARKS_NAME" Language="en_US">
+			<Text>shark fin</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SHARKS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Shark fin is derived from shark fins and is one of the most precious ingredients in Chinese cuisine. It has a long history of consumption. According to reports, during the Tang and Song Dynasties of China, shark fins began to be made into food in the coastal areas of Vietnam. Some countries once offered shark fins as tribute to the Chinese royal family. It is also said that shark fins were eaten by the Chinese during Zheng He's voyages to the West. The sailors picked up shark fins and cooked them on Southeast Asian islands to satisfy their hunger. One theory is that Zheng Zhilong, the father of Zheng Chenggong, invented it while living at sea, made a commodity and got rich, and got his eldest son Zheng Chenggong back from Japan.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_SHARKS]Shark Fin Business: Creating New Products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_SHORT_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_SHARKS] Create new shark fin products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_SHARKS_DESCRIPTION" Language="en_US">
+			<Text>[ICON_RESOURCE_SHARKS] Based on shark fin resources, we create new products for the world. {LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_1_NAME" Language="en_US">
+			<Text>Neptune shark fin</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_2_NAME" Language="en_US">
+			<Text>Dragon and phoenix present auspiciousness</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_3_NAME" Language="en_US">
+			<Text>Shark Fin House</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_4_NAME" Language="en_US">
+			<Text>ocean star</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_SHARKS_5_NAME" Language="en_US">
+			<Text>sawtooth shark</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_AQUAMARINE_NAME" Language="en_US">
+			<Text>Aquamarine</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_AQUAMARINE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Aquamarine, also known as sea sapphire, is a silicate mineral and a type of beryl. It is a transparent and blue or aquamarine gemstone. During the Middle Ages, aquamarine was believed to have a miraculous ability to overcome the effects of poisons. Ancient sailors would wear aquamarine when sailing, believing that it would ensure the safety of the voyage and ensure their safe return; when sleeping, they would place the gemstone under their pillows to ensure adequate sleep. They believed that the mermaid's fish-shaped lower body was made of aquamarine.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_AQUAMARINE]Aquamarine Enterprises: Creating new products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_SHORT_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_AQUAMARINE] Create new aquamarine products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_AQUAMARINE_DESCRIPTION" Language="en_US">
+			<Text>[ICON_RESOURCE_AQUAMARINE] Based on aquamarine resources, we create new products for the world. {LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_1_NAME" Language="en_US">
+			<Text>Tiffany</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_2_NAME" Language="en_US">
+			<Text>Graf</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_3_NAME" Language="en_US">
+			<Text>count</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_4_NAME" Language="en_US">
+			<Text>Cartier</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_AQUAMARINE_5_NAME" Language="en_US">
+			<Text>Chopard</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_RUBY_NAME" Language="en_US">
+			<Text>ruby</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_RUBY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Ruby, a gem-grade corundum, has traditionally been used as one of the most important gemstones to make religious ritual items and royal jewelry. The main component of ruby ​​is aluminum oxide, and its red color comes from chromium. A naturally occurring gemstone without chromium is blue sapphire. Natural rubies mostly come from Asia (Myanmar, Thailand and Sri Lanka), Africa and Australia, and are also partially produced in Montana and South Carolina in the United States. Natural rubies are very rare and precious, but artificial rubies are not too difficult, so industrial rubies are all artificial.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_RUBY]Ruby Enterprises: Creating new products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_SHORT_NAME" Language="en_US">
+			<Text>[ICON_RESOURCE_RUBY] Create new ruby ​​products</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_RUBY_DESCRIPTION" Language="en_US">
+			<Text>[ICON_RESOURCE_RUBY] Create new products for the world based on ruby ​​resources. {LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_1_NAME" Language="en_US">
+			<Text>Tiffany</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_2_NAME" Language="en_US">
+			<Text>Graf</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_3_NAME" Language="en_US">
+			<Text>count</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_4_NAME" Language="en_US">
+			<Text>Cartier</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_PRODUCT_RUBY_5_NAME" Language="en_US">
+			<Text>Chopard</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_DAL_POTION_NAME" Language="en_US">
+			<Text>potion</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_CACTUS_NAME" Language="en_US">
+			<Text>cactus</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CACTUS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Cacti are succulent plants that can grow in deserts. They have the ability to store water and tolerate drought, and can provide some food and gold income. Cactus is also a beautiful and unique decoration that can increase people's satisfaction and inspire cultural and technological innovation in desert cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_BAMBOO_NAME" Language="en_US">
+			<Text>bamboo</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_BAMBOO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Bamboo, also known as bamboo, is a plant belonging to the subfamily Bambusoideae of the family Poaceae. It comes in many different varieties and forms and is one of the fastest growing plants in the world. Bamboo has important meanings and uses in many cultures as food, building materials, crafts, paper, textiles, and more.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEATER_NAME" Language="en_US">
+			<Text>Ironeater</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEATER_DESCRIPTION" Language="en_US">
+			<Text>The characteristic heavy cavalry unit that accompanies Bamboo. Vision and movement are not affected by forests and rainforests. Each Bamboo Lumber Camp provides Iron Eaters with +5 [ICON_Strength] combat strength. [NEWLINE]If the damage points are higher than the opponent's, the defending enemy unit will be pushed to the rear cell. If the defending unit cannot retreat, it will suffer additional damage.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FEATER_NAME" Language="en_US">
+			<Text>Ironeater</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FEATER_DESCRIPTION" Language="en_US">
+			<Text>Vision and movement are not affected by forests and rainforests. Each Bamboo Lumber Camp provides Iron Eaters with +5 [ICON_Strength] combat strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DAL_CRATER_LAKE_NAME" Language="en_US">
+			<Text>crater lake</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DAL_CRATER_LAKE_DESCRIPTION" Language="en_US">
+			<Text>A lake formed by water accumulating in the crater after a volcano erupts is a type of volcanic lake. Provide fresh water resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_PALACE_NAME" Language="en_US">
+			<Text>Forbidden City</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DAL_PALACE_DESCRIPTION" Language="en_US">
+			<Text>Meet the cheongsam leader in his unique palace. +1 general policy slot.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_HOUSING" Language="en_US">
+			<Text>+{1_num} [ICON_Housing] Housing comes from adjacent areas.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DISTRICT_ENTERTAINMENT" Language="en_US">
+			<Text>+{1_num} [ICON_Amenities] Satisfaction comes from adjacent areas.</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_GOTO_GOLDEN_AGE_TOOLTIP" Language="en_US">
+			<Text>Go to the golden age</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_GOTO_NORMAL_AGE_TOOLTIP" Language="en_US">
+			<Text>Go to normal times</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_GOTO_DARK_AGE_TOOLTIP" Language="en_US">
+			<Text>Travel to the Dark Ages</Text>
+		</Replace>
+		<Replace Tag="LOC_XDISK_RECORDED_ERASCORE_TOOLTIP" Language="en_US">
+			<Text>{1_num} times saved</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Kurumi Tokisaki [ENDCOLOR] - [COLOR:ResGoldLabelCS] Emperor Keke [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Kurumi Tokisaki from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization [ICON_You] ‘Battle’ [COLOR_RED] Tokisaki Kurumi: Expansion 1 [ENDCOLOR] - [COLOR:ResGoldLabelCS] Kekedi &lt;Scarlet Nightmare&gt; [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOKISAKI_KURUMI_EXP1_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Kurumi Tokisaki from Date A Live, expanded with more looks</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_NAME" Language="en_US">
+			<Text>Two-dimensional Civilization [ICON_You] ‘Battle’ [COLOR_RED] (Red and Black New Chapter) [COLOR: ResGoldLabelCS] White Queen - [COLOR_RED] The Third Realm [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_WHITEQUEEN_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, the White Queen from the new chapter of Date A Live Red and Black</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Tobiichi Origami [ENDCOLOR] - [COLOR:ResGoldLabelCS] Angel of Extermination [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_TOBIICHI_ORIGAMI_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization Tobiichi Origami from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Honjo Erya - [COLOR:ResGoldLabelCS] Announcement Chapter 帙 [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HONJO_NIA_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Futaba Honjo from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Hyoumegawa Yoshino [ENDCOLOR] - [COLOR:ResGoldLabelCS] Ice Puppet [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HIMEKAWA_YOSHINO_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Hyoumegawa Yoshino from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]‘Battle’[COLOR_RED]Kotori Itsuka[ENDCOLOR] - [COLOR:ResGoldLabelCS]Destroy Ghost[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_KOTORI_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization, Kotori Itsuka from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]‘Battle’[COLOR_RED]Xinggong Liuxiu[ENDCOLOR] - [COLOR:ResGoldLabelCS]Sealing Master[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_HOSHIMUYA_MUKURO_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, from Star Palace Rokuro from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYOUNO_NATSUMI_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Seven Sins of Kagano [ENDCOLOR] - [COLOR:ResGoldLabelCS] Fake Witch [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KYOUNO_NATSUMI_DESCRIPTION" Language="en_US">
+			<Text>A New Civilization, The Seven Sins of Kagano from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Sister Yawu [ENDCOLOR] - [COLOR:ResGoldLabelCS] Hurricane Knight [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_KAZAMACHI_YAMAI_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Yamoya Kiya &amp; Yamo Yuzuru from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Lu Xiaomijiu [ENDCOLOR] - [COLOR:ResGoldLabelCS] Pojun Singer [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_IZAYOI_MIKU_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Miku Miku from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization [ICON_You] ‘Battle’ [COLOR_RED] Yatogami Tohka/Tianxiang - [COLOR:ResGoldLabelCS] Fierce Killer/Voluntary Lord [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_TOHKA_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Tohka Yatogami from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization [ICON_You] ‘Battle’ [COLOR_RED] Beast Tohka - [COLOR:ResGoldLabelCS] Beast [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_YATOGAMI_BEAST_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, [COLOR_RED]mon Tohka[ENDCOLOR] from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]‘Battle’[COLOR_RED] Wanyuri - [COLOR:ResGoldLabelCS]Thunder Temple[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_MAYURI_JUDGMENT_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Man Yuri from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization [ICON_You] ‘Battle’ [COLOR_RED] Garden God Rinni/Rinxu - [COLOR:ResGoldLabelCS] Evil Paradise [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_SONOGAMI_RINNE_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Sonogami Rinone/Rinsu from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] or Moriya/Marina - [COLOR:ResGoldLabelCS] Yggdrasil/Nidhogg [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ARUSU_INSTALL_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Mariya and Marina from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Nibeko/Ellen/Artemisia - [COLOR:ResGoldLabelCS]D.E.M[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_DEM_INDUSTRY_DESCRIPTION" Language="en_US">
+			<Text>A new civilization from Date A Live’s D.E.M.</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_NAME" Language="en_US">
+			<Text>Two-Dimensional Civilization[ICON_You]‘Battle’[COLOR_RED]Lian-[COLOR:ResGoldLabelCS]Miasma Pure Land[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_REN_DYSTOPIA_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Ren from Date A Live</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_NAME" Language="en_US">
+			<Text>Two-dimensional civilization [ICON_You] ‘Battle’ [COLOR_RED] Shiori Wuhe - [COLOR:ResGoldLabelCS] The ultimate maid [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DAL_ITSUKA_SHIORI_DESCRIPTION" Language="en_US">
+			<Text>A new civilization, Shiori Itsuka from Date A Live</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
