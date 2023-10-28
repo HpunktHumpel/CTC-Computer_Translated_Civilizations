@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Fri Oct 20 17:18:30 2023-->
+<!-- Sat Oct 28 11:39:35 2023-->
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="es_ES">
@@ -10,7 +10,7 @@
 			<Text>Dominio Divino-Árbol Sagrado</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="es_ES">
-			<Text>+1 a los mosaicos de bosque dentro de la ciudad [ICON_Production] +2 a la productividad [ICON_Food] +2 a los alimentos, la selva tropical [ICON_Production] +1 a la productividad [ICON_Food] +3 a los mosaicos de alimentos, bosque y selva tropical a los territorios</Text>
+			<Text>+1[ICON_Production]Producción +2[ICON_Food]Alimentos para bosques dentro de casillas de ciudad, +2[ICON_Production]Producción +1[ICON_Food]Alimentos para selvas tropicales, +3Carisma para bosques y selvas tropicales dentro de casillas de territorio, dentro de áreas protegidas integradas + 300% de productividad [ICON_Production] para edificios</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="es_ES">
 			<Text>Dominio del Árbol Sagrado</Text>
@@ -28,7 +28,7 @@
 			<Text>sistema mimir</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="es_ES">
-			<Text>El área característica del Dominio del Árbol Sagrado, una alternativa al área protegida, está inicialmente desbloqueada, tiene un costo menor y no aumentará de precio, y se puede construir independientemente de la demanda de la población. [NEWLINE] El sistema Mitre proporcionará +2 [ICON_Gold] monedas de oro y +2 [ICON_Production] de productividad a las celdas circundantes (incluso si no está construido). Una vez completado, las celdas circundantes recibirán +3 de encanto. [NEWLINE]Después de que se construya el bosque antiguo, las celdas circundantes con un valor de encanto normal o superior al promedio obtendrán +2 [ICON_Food] +2 comida [ICON_Faith] +1 [ICON_Science] investigación científica. [NEWLINE]Después de construir el refugio, las celdas circundantes con un encanto promedio o superior al promedio obtendrán +1 [ICON_Production] +1 de productividad [ICON_Gold] +2 monedas de oro [ICON_Science] investigación científica. [NEWLINE]Las bonificaciones anteriores se pueden obtener independientemente de si la celda tiene instalaciones mejoradas o no.</Text>
+			<Text>El área característica del Dominio del Árbol Sagrado, una alternativa al área protegida, está inicialmente desbloqueada, tiene un costo menor y no aumentará de precio, y se puede construir independientemente de la demanda de la población. [NEWLINE] El sistema Mitre proporcionará +2 [ICON_Gold] monedas de oro y +2 [ICON_Production] de productividad a las celdas circundantes (incluso si no está construido). Una vez completado, las celdas circundantes recibirán +3 de encanto. [NEWLINE]Después de que se construya el bosque antiguo, las celdas circundantes con un valor de encanto ordinario o superior tendrán +2 [ICON_Food] comida +2 [ICON_Faith] fe +2 [ICON_Science] investigación. [NEWLINE]Después de construir el refugio, las celdas circundantes con encanto promedio o superior al promedio tendrán +2 [ICON_Production] productividad +2 [ICON_Gold] monedas de oro +2 [ICON_Science] investigación. [NEWLINE]Las bonificaciones anteriores se pueden obtener independientemente de si la celda tiene instalaciones mejoradas o no.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="es_ES">
 			<Text>Administrar la habitación del gato</Text>
@@ -88,7 +88,7 @@
 			<Text>modificador antitanque</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="es_ES">
-			<Text>Unidad característica moderna, buena para lidiar con objetivos blindados, pero aún algo débil contra armaduras compuestas[NEWLINE][COLOR:ResMilitaryLabelCS] La investigación de tecnología de caballería ligera puede mejorar la efectividad de combate de la unidad[ENDCOLOR]</Text>
+			<Text>Unidad característica moderna, buena para lidiar con objetivos blindados, pero aún algo débil contra armaduras compuestas [NEWLINE][COLOR:ResMilitaryLabelCS] La investigación de tecnología de caballería ligera puede mejorar la efectividad en combate de la unidad[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="es_ES">
 			<Text>modificador de arma pesada</Text>
@@ -124,7 +124,7 @@
 			<Text>Modificador de armas pequeñas de élite</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ADVANCED_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="es_ES">
-			<Text>Una poderosa unidad única en la era de la información. Sólo algunos líderes modificadores pueden entrenarla. Tiene una mayor movilidad que los modificadores de armas pesadas, pero su efectividad en el combate cuerpo a cuerpo es extremadamente baja. Implemente este modificador con precaución.</Text>
+			<Text>Una poderosa unidad única en la era de la información. Sólo algunos líderes modificadores pueden entrenarla. Tiene mayor movilidad que los modificadores de armas pesadas, pero su efectividad en el combate cuerpo a cuerpo es extremadamente baja. Implemente este modificador con precaución.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_FIXER_RELOAD_NAME" Language="es_ES">
 			<Text>Modificador cuerpo a cuerpo recargado</Text>
@@ -142,13 +142,13 @@
 			<Text>modificador de armas pequeñas</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="es_ES">
-			<Text>Unidad especial, solo algunos líderes modificadores pueden entrenar. Tiene mayor movilidad que los modificadores de armas pesadas, pero su efectividad en el combate cuerpo a cuerpo es extremadamente baja. Implementa este modificador con precaución [NEWLINE][COLOR:ResMilitaryLabelCS] Investiga tecnología cuerpo a cuerpo para permitir que las unidades aumenten el combate efectividad[ENDCOLOR]</Text>
+			<Text>Unidad especial, solo algunos líderes modificadores pueden entrenar. Tiene mayor movilidad que los modificadores de armas pesadas, pero su efectividad en combate cuerpo a cuerpo es extremadamente baja[NEWLINE][COLOR:ResMilitaryLabelCS] La investigación de tecnología cuerpo a cuerpo puede mejorar la efectividad en combate de la unidad[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="es_ES">
-			<Text>ciclo de razonamiento</Text>
+			<Text>ciclo de lógica</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="es_ES">
-			<Text>Una unidad de apoyo única que tiene su propia efectividad en combate. Tiene varias habilidades especiales al principio. Tiene mayor movilidad que los modificadores ordinarios y puede escoltar unidades de formación a cualquier lugar. [COLOR: ResMilitaryLabelCS] Sin embargo, el costo de mantenimiento de esta unidad es extremadamente alto, así que por favor ten cuidado. ¡aguanta! [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] La investigación de tecnología de caballería ligera y caballería pesada puede mejorar la efectividad de combate de las unidades[ENDCOLOR]</Text>
+			<Text>Es una unidad de apoyo especial, tiene su propio poder de combate y todas las unidades de formación obtienen el poder de movimiento de esta unidad. [COLOR:ResMilitaryLabelCS]El costo de mantenimiento de esta unidad es extremadamente alto, ¡constrúyalo con precaución! [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] La investigación de tecnología de caballería ligera y caballería pesada puede mejorar la efectividad de combate de las unidades[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="es_ES">
 			<Text>hela</Text>
@@ -226,10 +226,10 @@
 			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: Unidad +10[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] monedas de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_DESCRIPTION" Language="es_ES">
-			<Text>{LOC_TECH_IRON_WORKING_NAME}: Unidad +16[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] moneda de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: Unidad +16[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1 moneda de oro [ICON_Gold] (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_DESCRIPTION" Language="es_ES">
-			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: Unidad +9[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] moneda de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: unidad +9[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1 moneda de oro [ICON_Gold] (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="es_ES">
 			<Text>{LOC_TECH_GUNPOWDER_NAME}: Unidad +10[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1 moneda de oro [ICON_Gold] (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
@@ -265,7 +265,7 @@
 			<Text>{LOC_TECH_GUNPOWDER_NAME}: Unidad +10[ICON_AntiAir_Large] poder de combate antiaéreo</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="es_ES">
-			<Text>{TECH_MILITARY_SCIENCE}: Unidad +10[ICON_AntiAir_Large] poder de combate antiaéreo</Text>
+			<Text>{TECH_MILITARY_SCIENCE}: Unidad +10[ICON_AntiAir_Large] efectividad en combate antiaéreo</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="es_ES">
 			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: Unidad +10[ICON_AntiAir_Large] Fuerza de combate antiaéreo</Text>
@@ -343,7 +343,7 @@
 			<Text>+35[ICON_Strength] fuerza de combate contra unidades de caballería ligera</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="es_ES">
-			<Text>+35[ICON_Strength] fuerza de combate contra modificadores de armas pesadas</Text>
+			<Text>+35 [ICON_Strength] fuerza de combate contra modificadores de armas pesadas</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_MELEE_DESCRIPTION" Language="es_ES">
 			<Text>-10[ICON_Strength] fuerza de combate contra unidades cuerpo a cuerpo</Text>
@@ -478,7 +478,7 @@
 			<Text>Unidad +1[ICON_Movement] movimiento</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_4_1_ESCORT_RELOAD_DESCRIPTION" Language="es_ES">
-			<Text>La unidad tiene +4 [ICON_Strength] de fuerza de combate, +1 [ICON_Movement] de poder de movimiento y todas las unidades de formación obtienen el poder de movimiento de la unidad acompañante [ICON_Movement].</Text>
+			<Text>La unidad tiene +4 [ICON_Strength] de fuerza de combate, +1 [ICON_Movement] de poder de movimiento, y todas las unidades de formación obtienen el poder de movimiento de la unidad acompañante [ICON_Movement].</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_3_COMBAT_RELOAD_DESCRIPTION" Language="es_ES">
 			<Text>Unidad +3[ICON_Strength] fuerza de combate</Text>
@@ -625,7 +625,7 @@
 			<Text>Guadaña del cielo y la oscuridad</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_SHAOXILISI_RELOAD_NAME" Language="es_ES">
-			<Text>Clave - &quot;Alma nacida&quot;</Text>
+			<Text>Clave-&quot;Alma nacida&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_SHAOXILISI_RELOAD_NAME" Language="es_ES">
 			<Text>Tirano de la tormenta</Text>
@@ -667,13 +667,13 @@
 			<Text>Estación de trabajo de investigación científica polar</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="es_ES">
-			<Text>Instalaciones de mejora especiales, solo algunos líderes modificadores pueden construirlas. Desbloqueado por {LOC_TECH_MINING_NAME}, +1 a la investigación de [ICON_Science]. Diferentes accidentes geográficos adyacentes e instalaciones de mejora pueden obtener resultados adicionales. Después de investigar tecnologías relacionadas, puedes obtener más [ICON_Science] ]Científico La investigación, la comida [ICON_Food], las monedas de oro [ICON_Gold] y la productividad [ICON_Production] solo se pueden construir en colinas nevadas.</Text>
+			<Text>Instalaciones de mejora especiales, solo algunos líderes modificadores pueden construirlas, desbloqueadas por {LOC_TECH_MINING_NAME}, +1 de investigación [ICON_Science], diferentes accidentes geográficos adyacentes e instalaciones de mejora pueden obtener resultados adicionales, después de investigar tecnologías relacionadas, puedes obtener más [ICON_Science] ]Científico La investigación, la comida [ICON_Food], las monedas de oro [ICON_Gold] y la productividad [ICON_Production] solo se pueden construir en colinas nevadas.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="es_ES">
 			<Text>Sala de estar de investigación científica polar</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="es_ES">
-			<Text>Instalaciones de mejora especiales, solo algunos líderes modificadores pueden construirlas, +1 [ICON_Culture] Cultura +1 [ICON_Production] Productividad, diferentes accidentes geográficos adyacentes e instalaciones de mejora pueden obtener resultados adicionales, y después de investigar tecnologías relacionadas, puedes obtener más alimentos [ICON_Food] , [ICON_Gold] monedas de oro y [ICON_Production] productividad, solo se pueden construir en suelo congelado, colinas de suelo congelado y nieve.</Text>
+			<Text>Instalaciones de mejora especiales, solo algunos líderes modificadores pueden construirlas, +1 [ICON_Culture] Cultura +1 [ICON_Production] Productividad, diferentes accidentes geográficos adyacentes e instalaciones de mejora pueden obtener resultados adicionales, y después de investigar tecnologías relacionadas, puedes obtener más [ICON_Food] comida , [ICON_Gold] monedas de oro y [ICON_Production] productividad, solo se pueden construir en suelo congelado, colinas de suelo congelado y nieve.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="es_ES">
 			<Text>Gran buque de investigación científica</Text>
@@ -748,7 +748,7 @@
 			<Text>Lingguang</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LINGGUANG_DESCRIPTION" Language="es_ES">
-			<Text>El agente de Nandao de Sifangyuan es médico y conoce muy bien los sufrimientos de la gente. Estableció la clínica médica &quot;Chiqi Tang&quot; en Nanjiao y abrió muchas sucursales para difundir los síntomas y soluciones de la enfermedad. Lingguang visitaba personalmente a menudo el hospital para tratar a los pacientes que acudían en busca de tratamiento médico y escuchaba sus triviales historias de vida.</Text>
+			<Text>El agente de Nandao de Sifangyuan es médico y conoce muy bien los sufrimientos de la gente. Estableció la clínica médica &quot;Chi Qi Tang&quot; en Nanjiao y abrió muchas sucursales para difundir el conocimiento sobre las soluciones a los síntomas de las enfermedades. Lingguang visitaba personalmente con frecuencia el hospital para tratar a los pacientes que acudían en busca de tratamiento médico y escuchaba sus triviales historias de vida.</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_A_JINWU_NAME" Language="es_ES">
 			<Text>Manejo de la espada penglai</Text>
@@ -779,6 +779,39 @@
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="es_ES">
 			<Text>Apoyo especial en combate cuerpo a cuerpo</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="es_ES">
+			<Text>sala de imágenes mentales</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="es_ES">
+			<Text>El área característica del Dominio de Dios del Nilo, que reemplaza a Tierra Santa, inicialmente desbloqueada, tiene un costo menor y no aumentará de precio, se puede construir independientemente de la demanda de la población, +3 [ICON_Housing] vivienda, sin ninguna bonificación adyacente y tiene diez puestos de experto. Después de completarlo, la fe +2 [ICON_Faith] para cada ciudadano [ICON_Citizen] en la ciudad</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="es_ES">
+			<Text>Industrias Pesadas Neuhansa</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="es_ES">
+			<Text>El área característica del Dominio de Dios del Nilo, una alternativa al área industrial, está inicialmente desbloqueada, es de construcción gratuita y no aumentará de precio, se puede construir independientemente de la demanda de la población, +3 viviendas [ICON_Housing], no tiene bonificaciones adyacentes y tiene diez espacios de experto. Después de completarlo, la productividad +2 [ICON_Production] por cada ciudadano [ICON_Citizen] en la ciudad</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="es_ES">
+			<Text>Plantación tecnológica</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="es_ES">
+			<Text>Instalaciones de mejora especiales, que solo pueden ser construidas por el Líder Modificador del Reino de Dios del Nilo, +2 [ICON_Food] Comida + 2 [ICON_Gold] Moneda de oro + 1 [ICON_Science] Tecnología + 1 [ICON_Culture] Cultura + 5 [ICON_Housing] Vivienda + 2 [ICON_Amenities ] Habitabilidad, se puede obtener más rendimiento después de investigar tecnologías relacionadas, lo que permite la construcción en llanuras aluviales, oasis y pantanos sin recursos, y no se puede construir al lado de otra plantación tecnológica.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="es_ES">
+			<Text>Dominio de Dios del Nilo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="es_ES">
+			<Text>Dominio de Dios del Nilo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="es_ES">
+			<Text>Dominio de Dios del Nilo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="es_ES">
+			<Text>Reino Divino-Nero</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="es_ES">
+			<Text>Llanuras desérticas y colinas desérticas +2 [ICON_Food] Alimentos +2 [ICON_Production] Productividad +1 [ICON_Science] Investigación, llanura aluvial de pastizales +2 [ICON_Production] Productividad +3 Carisma, llanura aluvial +1 [ICON_Food] Alimentos +1 [ICON_Production ] Productividad +3 Carisma, Llanuras aluviales del desierto +2 [ICON_Gold] Oro +3 Carisma, Los bosques proporcionan -3 Carisma, Permite construir tierras de cultivo en llanuras aluviales del desierto, +1 [ICON_Gold] Oro por ciudadano [ICON_Citizen]</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

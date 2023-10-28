@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Fri Oct 20 17:18:30 2023-->
+<!-- Sat Oct 28 11:39:35 2023-->
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="zh_Hant_HK">
@@ -10,7 +10,7 @@
 			<Text>神域-聖樹</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>為城市單元格內的森林+1 [ICON_Production] 生產力+2 [ICON_Food] 食物，雨林+2 [ICON_Production] 生產力+1 [ICON_Food] 食物，森林和雨林為領土內單元格+3魅力</Text>
+			<Text>為城市單元格內的森林+1[ICON_Production]生產力+2[ICON_Food]食物，雨林+2[ICON_Production]生產力+1[ICON_Food]食物，森林和雨林為領土內單元格+3魅力，建造保護區內的建築+300%[ICON_Production]生產力</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>聖樹神域</Text>
@@ -28,7 +28,7 @@
 			<Text>彌彌爾系統</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>聖樹神域特色區域，替代保護區，初始解鎖，造價更低且不會漲價，可以無視人口需求建造。 [NEWLINE]彌特爾系統將為周圍單元格會+2[ICON_Gold]金幣以及+2 [ICON_Production] 生產力（即使是未建成），建成後周圍單元格+3魅力。 [NEWLINE]古樹林建成後，周圍魅力值為普通或普通以上的單元格+2 [ICON_Food] 食物+2 [ICON_Faith] 信仰+1 [ICON_Science] 科研。 [NEWLINE]避難所建成後，周圍魅力為普通或普通以上的單元格+1 [ICON_Production] 生產力+1 [ICON_Gold] 金幣+2 [ICON_Science] 科研。 [NEWLINE]上述加成，單元格無論是否有改良設施均能取得。</Text>
+			<Text>聖樹神域特色區域，替代保護區，初始解鎖，造價更低且不會漲價，可以無視人口需求建造。 [NEWLINE]彌特爾系統將為周圍單元格會+2[ICON_Gold]金幣以及+2 [ICON_Production]生產力（即使是未建成），建成後周圍單元格+3魅力。 [NEWLINE]古樹林建成後，周圍魅力值為普通或普通以上的單元格+2[ICON_Food]食物+2 [ICON_Faith]信仰+2[ICON_Science]科研。 [NEWLINE]避難所建成後，周圍魅力為普通或普通以上的單元格+2[ICON_Production]生產力+2[ICON_Gold]金幣+2[ICON_Science]科學研究。 [NEWLINE]上述加成，單元格無論是否有改良設施均能取得。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="zh_Hant_HK">
 			<Text>管理喵室</Text>
@@ -124,7 +124,7 @@
 			<Text>精英輕武器修正者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ADVANCED_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>資訊時代強大的特色單位，僅有部分修正者領袖能夠訓練，擁有比重武器修正者更強的機動性，但近戰戰鬥力極為低下，請謹慎部署該修正者</Text>
+			<Text>資訊時代強大的特色單位，只有部分修正者領袖能夠訓練，擁有比重武器修正者更強的機動性，但近戰戰鬥力極低，請謹慎部署該修正者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_FIXER_RELOAD_NAME" Language="zh_Hant_HK">
 			<Text>重裝近戰修正者</Text>
@@ -142,13 +142,13 @@
 			<Text>輕武器修正者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>特色單位，僅有部分修正者領袖能夠訓練，擁有比重武器修正者更強的機動性，但近戰戰鬥力極為低下，請謹慎部署該修正者[NEWLINE][COLOR:ResMilitaryLabelCS]研究近戰系科技能使單位戰鬥力提升[ENDCOLOR]</Text>
+			<Text>特色單位，只有部分修正者領袖能夠訓練，擁有比重武器修正者更強的機動性，但近戰戰鬥力極低[NEWLINE][COLOR:ResMilitaryLabelCS]研究近戰系科技能使單位戰鬥力提升[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="zh_Hant_HK">
 			<Text>循理之環</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>特色支援單位，本身擁有戰鬥力，初始便擁有數個特殊能力，擁有比普通修正者更高的移動力，能夠護送編隊單位至任何地方，[COLOR:ResMilitaryLabelCS]但該單位維護費極高，請謹慎建造！ [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS]研究輕騎兵、重騎兵系科技能使單位戰鬥力提升[ENDCOLOR]</Text>
+			<Text>特色支援單位，本身擁有戰鬥力，編隊單位全數獲得該單位移動力。 [COLOR:ResMilitaryLabelCS]該單位維護費極高，請謹慎建造！ [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS]研究輕騎兵、重騎兵系科技能使單位戰鬥力提升[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="zh_Hant_HK">
 			<Text>海拉</Text>
@@ -217,7 +217,7 @@
 			<Text>托爾</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TUOER_RELOAD_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>深空之眼「雷小隊」的隊長，組織內最強的戰鬥力。在小隊的各種行動中，即使岔子不斷，最後總能靠著她的實力強行完成。托爾極富正義感，但與狂野的戰鬥方式相對應的，處理事情也經常衝動。</Text>
+			<Text>深空之眼「雷小隊」的隊長，組織內最強的戰鬥力。在小隊的各種行動中，即使岔子不斷，最後也總能靠著她的實力強行完成。托爾極富正義感，但與狂野的戰鬥方式相對應的，處理事情也經常衝動。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>{LOC_CIVIC_NATIONALISM_NAME}：單位+7[ICON_Strength]戰鬥力，[COLOR:ResMilitaryLabelCS]每回合-3[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
@@ -779,6 +779,39 @@
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="zh_Hant_HK">
 			<Text>特種近戰支援</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="zh_Hant_HK">
+			<Text>心像房間</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>尼羅神域特色區域，替代聖地，初始解鎖，造價更低且不會漲價，可以無視人口需求建造，+3[ICON_Housing]住房，沒有任何相鄰加成且擁有十個專家槽，建成後該城市每位[ICON_Citizen]公民+2[ICON_Faith]信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="zh_Hant_HK">
+			<Text>諾伊漢薩重工</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>尼羅神域特色區域，替代工業區，初始解鎖，免費建造且不會漲價，可以無視人口需求建造，+3[ICON_Housing]住房，沒有任何相鄰加成且擁有十個專家槽，建成後該城市每位[ICON_Citizen]公民+2[ICON_Production]生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="zh_Hant_HK">
+			<Text>科技種植園</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>特色改良設施，只有尼羅神域的修正者領袖能夠建造，+2[ICON_Food]食物+2[ICON_Gold]金幣+1[ICON_Science]科技+1[ICON_Culture]文化+5[ICON_Housing]住房+2[ICON_Amenities ]宜居度，研究相關科技後可獲得更多產出，允許在沒有資源的氾濫平原、綠洲、沼澤上建造，無法建造在另一個科技種植園旁</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="zh_Hant_HK">
+			<Text>尼羅神域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>尼羅神域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>尼羅神域的</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="zh_Hant_HK">
+			<Text>神域-尼羅</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>沙漠平原與沙漠丘陵+2[ICON_Food]食物+2[ICON_Production]生產力+1[ICON_Science]科學研究，草原氾濫平原+2[ICON_Production]生產力+3魅力，平原氾濫平原+1[ICON_Food]食物+1[ICON_Production ]生產力+3魅力，沙漠氾濫平原+2[ICON_Gold]金幣+3魅力，樹林提供-3魅力，允許農田建在沙漠平原上，每位[ICON_Citizen]公民+1[ICON_Gold]金幣</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

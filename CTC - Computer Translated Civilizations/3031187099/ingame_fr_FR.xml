@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Fri Oct 20 17:18:29 2023-->
+<!-- Sat Oct 28 11:39:35 2023-->
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="fr_FR">
@@ -10,7 +10,7 @@
 			<Text>Domaine divin-Arbre sacré</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="fr_FR">
-			<Text>+1 à la forêt dans les tuiles de ville [ICON_Production] +2 à la productivité [ICON_Food] +2 à la nourriture, à la forêt tropicale [ICON_Production] +1 à la productivité [ICON_Food] +3 à la nourriture, à la forêt et à la forêt tropicale aux tuiles de territoire</Text>
+			<Text>+1[ICON_Production]Production +2[ICON_Food]Nourriture pour les forêts dans les tuiles de ville, +2[ICON_Production]Production +1[ICON_Food]Nourriture pour les forêts tropicales, +3Charisme pour les forêts et les forêts tropicales dans les tuiles de territoire, dans les zones protégées intégrées + 300 % de productivité [ICON_Production] pour les bâtiments</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="fr_FR">
 			<Text>Domaine de l'arbre sacré</Text>
@@ -28,7 +28,7 @@
 			<Text>Système Mimir</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>La zone caractéristique du domaine de l'arbre sacré, une alternative à la zone protégée, est initialement déverrouillée, a un coût inférieur et n'augmentera pas de prix, et peut être construite quelle que soit la demande de la population. [NEWLINE] Le système Mitre fournira +2 pièces d'or [ICON_Gold] et +2 [ICON_Production] de productivité aux cellules environnantes (même si elle n'est pas construite). Une fois terminé, les cellules environnantes recevront +3 de charme. [NEWLINE]Une fois l'ancienne forêt construite, les cellules environnantes ayant une valeur de charme normale ou supérieure à la moyenne recevront +2 [ICON_Food] +2 nourriture [ICON_Faith] +1 [ICON_Science] recherche scientifique. [NEWLINE]Une fois l'abri construit, les cellules environnantes ayant un charme moyen ou supérieur à la moyenne recevront +1 [ICON_Production] +1 productivité [ICON_Gold] +2 pièces d'or [ICON_Science] en recherche scientifique. [NEWLINE]Les bonus ci-dessus peuvent être obtenus indépendamment du fait que la cellule dispose ou non d'installations améliorées.</Text>
+			<Text>La zone caractéristique du domaine de l'arbre sacré, une alternative à la zone protégée, est initialement déverrouillée, a un coût inférieur et n'augmentera pas de prix, et peut être construite quelle que soit la demande de la population. [NEWLINE] Le système Mitre fournira +2 pièces d'or [ICON_Gold] et +2 [ICON_Production] de productivité aux cellules environnantes (même si elle n'est pas construite). Une fois terminé, les cellules environnantes recevront +3 de charme. [NEWLINE]Une fois l'ancienne forêt construite, les cellules environnantes ayant une valeur de charme ordinaire ou supérieure auront +2 [ICON_Food] nourriture +2 [ICON_Faith] foi +2 [ICON_Science] recherche. [NEWLINE]Une fois l'abri construit, les cellules environnantes avec un charme moyen ou supérieur à la moyenne auront +2 [ICON_Production] productivité +2 [ICON_Gold] pièces d'or +2 [ICON_Science] recherche. [NEWLINE]Les bonus ci-dessus peuvent être obtenus indépendamment du fait que la cellule dispose ou non d'installations améliorées.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Gérer la salle des chats</Text>
@@ -88,7 +88,7 @@
 			<Text>modificateur antichar</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Unité caractéristique moderne, efficace contre les cibles blindées, mais encore quelque peu faible contre les blindés composites[NEWLINE][COLOR:ResMilitaryLabelCS] La recherche sur la technologie de cavalerie légère peut améliorer l'efficacité au combat de l'unité[ENDCOLOR]</Text>
+			<Text>Unité caractéristique moderne, efficace contre les cibles blindées, mais encore quelque peu faible contre les blindés composites [NEWLINE][COLOR:ResMilitaryLabelCS] La recherche sur la technologie de cavalerie légère peut améliorer l'efficacité au combat de l'unité[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="fr_FR">
 			<Text>modificateur d'arme lourde</Text>
@@ -124,7 +124,7 @@
 			<Text>Modificateur d'armes légères d'élite</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ADVANCED_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Une unité puissante et unique à l'ère de l'information. Seuls certains chefs modificateurs peuvent l'entraîner. Il a une mobilité plus élevée que les modificateurs d'armes lourdes, mais son efficacité au combat au corps à corps est extrêmement faible. Veuillez déployer ce modificateur avec prudence.</Text>
+			<Text>Une unité puissante et unique à l'ère de l'information. Seuls certains chefs modificateurs peuvent l'entraîner. Il a une plus grande mobilité que les modificateurs d'armes lourdes, mais son efficacité au combat au corps à corps est extrêmement faible. Veuillez déployer ce modificateur avec prudence.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_FIXER_RELOAD_NAME" Language="fr_FR">
 			<Text>Modificateur de mêlée rechargé</Text>
@@ -136,19 +136,19 @@
 			<Text>Modificateur spécial de mêlée</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_FIXER_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Unité spéciale, seuls certains chefs modificateurs peuvent s'entraîner, possède une attaque de bombardement [ICON_Ranged] avec une portée de 1 et peut combattre sur l'eau[NEWLINE][COLOR:ResMilitaryLabelCS] La recherche sur la technologie de mêlée peut améliorer l'efficacité au combat de l'unité[ENDCOLOR]</Text>
+			<Text>Unité spéciale, seuls certains chefs modificateurs peuvent s'entraîner, possède une attaque de bombardement [ICON_Ranged] d'une portée de 1 et peut combattre sur l'eau[NEWLINE][COLOR:ResMilitaryLabelCS] La recherche sur la technologie de mêlée peut améliorer l'efficacité au combat de l'unité[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_NAME" Language="fr_FR">
 			<Text>modificateur d'armes légères</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Unité spéciale, seuls certains chefs modificateurs peuvent s'entraîner. Elle a une mobilité plus élevée que les modificateurs d'armes lourdes, mais son efficacité au combat au corps à corps est extrêmement faible. Veuillez déployer ce modificateur avec prudence. [NEWLINE][COLOR:ResMilitaryLabelCS] Recherchez la technologie de mêlée pour permettre aux unités de combattre davantage. efficacité[ENDCOLOR]</Text>
+			<Text>Unité spéciale, seuls certains chefs modificateurs peuvent s'entraîner. Elle a une mobilité plus élevée que les modificateurs d'armes lourdes, mais son efficacité au combat au corps à corps est extrêmement faible.[NEWLINE][COLOR:ResMilitaryLabelCS] La recherche de technologies de mêlée peut améliorer l'efficacité au combat de l'unité.[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="fr_FR">
-			<Text>cycle de raisonnement</Text>
+			<Text>cycle de logique</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Une unité de soutien unique qui a sa propre efficacité au combat. Elle possède plusieurs capacités spéciales au début. Elle a une mobilité plus élevée que les modificateurs ordinaires et peut escorter les unités de formation n'importe où. [COULEUR : ResMilitaryLabelCS] Cependant, le coût de maintenance de cette unité est extrêmement haut, alors soyez prudent. [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] La recherche sur la technologie de la cavalerie légère et de la cavalerie lourde peut améliorer l'efficacité au combat des unités[ENDCOLOR]</Text>
+			<Text>Unité de soutien spéciale, elle possède sa propre puissance de combat, et toutes les unités de formation gagnent la puissance de mouvement de cette unité. [COULEUR : ResMilitaryLabelCS]Le coût de maintenance de cette unité est extrêmement élevé, veuillez construire avec prudence ! [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] La recherche sur la technologie de la cavalerie légère et de la cavalerie lourde peut améliorer l'efficacité au combat des unités[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="fr_FR">
 			<Text>Hella</Text>
@@ -265,7 +265,7 @@
 			<Text>{LOC_TECH_GUNPOWDER_NAME} : unité +10[ICON_AntiAir_Large] puissance de combat antiaérienne</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>{TECH_MILITARY_SCIENCE} : unité +10[ICON_AntiAir_Large] puissance de combat antiaérienne</Text>
+			<Text>{TECH_MILITARY_SCIENCE} : unité +10[ICON_AntiAir_Large] efficacité de combat anti-aérien</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="fr_FR">
 			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME} : unité +10[ICON_AntiAir_Large] force de combat anti-aérien</Text>
@@ -343,7 +343,7 @@
 			<Text>+35[ICON_Strength] à la force de combat contre les unités de cavalerie légère</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>+35[ICON_Strength] à la force de combat contre les modificateurs d'armes lourdes</Text>
+			<Text>+35 [ICON_Strength] à la force de combat contre les modificateurs d'armes lourdes</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_MELEE_DESCRIPTION" Language="fr_FR">
 			<Text>-10[ICON_Strength] force de combat contre les unités de mêlée</Text>
@@ -565,7 +565,7 @@
 			<Text>grève de la houle</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_NICHAOLIWEITAN_RELOAD_NAME" Language="fr_FR">
-			<Text>Clé-&quot;Le chant de la baleine à contre-courant&quot;</Text>
+			<Text>Clé - &quot;Le chant des baleines à contre-courant&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_NICHAOLIWEITAN_RELOAD_NAME" Language="fr_FR">
 			<Text>L'écho du prophète</Text>
@@ -577,7 +577,7 @@
 			<Text>Épée coupant les vagues</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_SIKADI_RELOAD_NAME" Language="fr_FR">
-			<Text>Clé-« Vague coupante »</Text>
+			<Text>Clé - &quot;Vagues coupantes&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_SIKADI_RELOAD_NAME" Language="fr_FR">
 			<Text>L'abîme glacé de Suye</Text>
@@ -667,13 +667,13 @@
 			<Text>Poste de travail de recherche scientifique polaire</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="fr_FR">
-			<Text>Installations d'amélioration spéciales, seuls certains dirigeants modificateurs peuvent les construire. Débloqué par {LOC_TECH_MINING_NAME}, +1 recherche [ICON_Science]. Différents reliefs adjacents et installations d'amélioration peuvent obtenir des résultats supplémentaires. Après avoir recherché des technologies associées, vous pouvez obtenir plus de [ICON_Science] ]Scientifique la recherche, la nourriture [ICON_Food], les pièces d'or [ICON_Gold] et la productivité [ICON_Production] ne peuvent être construites que sur des collines enneigées</Text>
+			<Text>Installations d'amélioration spéciales, seuls certains dirigeants modificateurs peuvent les construire, débloquées par {LOC_TECH_MINING_NAME}, +1 [ICON_Science] recherche, différents reliefs adjacents et installations d'amélioration peuvent obtenir des résultats supplémentaires, après avoir recherché les technologies associées, vous pouvez obtenir plus de [ICON_Science] ]Scientifique la recherche, la nourriture [ICON_Food], les pièces d'or [ICON_Gold] et la productivité [ICON_Production] ne peuvent être construites que sur des collines enneigées</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="fr_FR">
 			<Text>Espace de vie de la recherche scientifique polaire</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="fr_FR">
-			<Text>Installations d'amélioration spéciales, seuls certains dirigeants modificateurs peuvent les construire, +1 [ICON_Culture] Culture +1 [ICON_Production] Productivité, différents reliefs adjacents et installations d'amélioration peuvent obtenir une production supplémentaire, et après avoir recherché les technologies associées, vous pouvez obtenir plus de nourriture [ ICON_Food] , les pièces d'or [ICON_Gold] et la productivité [ICON_Production] ne peuvent être construites que sur du sol gelé, des collines gelées et de la neige.</Text>
+			<Text>Installations d'amélioration spéciales, seuls certains dirigeants modificateurs peuvent les construire, +1 culture [ICON_Culture] +1 productivité [ICON_Production], différents reliefs adjacents et installations d'amélioration peuvent obtenir une production supplémentaire, et après avoir recherché les technologies associées, vous pouvez obtenir plus de nourriture [ ICON_Food] , les pièces d'or [ICON_Gold] et la productivité [ICON_Production] ne peuvent être construites que sur du sol gelé, des collines gelées et de la neige.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="fr_FR">
 			<Text>Grand navire de recherche scientifique</Text>
@@ -709,7 +709,7 @@
 			<Text>Sifangyuan</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>La zone caractéristique du royaume divin de Tianyuan est une alternative à la terre sainte, initialement déverrouillée, libre de construire et dont le prix n'augmentera pas, et peut être construite quelle que soit la demande de la population. Comprend un bonus unique de nourriture adjacente [ICON_Food], le bonus de nourriture adjacente [ICON_Food] fournit également la foi [ICON_Faith]</Text>
+			<Text>La zone caractéristique du domaine divin de Tianyuan est une alternative à la terre sainte. Elle est initialement déverrouillée, est libre de construire et son prix n'augmentera pas. Elle peut être construite quelle que soit la demande de la population. Comprend un bonus unique de nourriture adjacente [ICON_Food], le bonus de nourriture adjacente [ICON_Food] fournit également la foi [ICON_Faith]</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="fr_FR">
 			<Text>+{1_num} [ICON_Food] La nourriture provient de zones adjacentes</Text>
@@ -736,7 +736,7 @@
 			<Text>Améliorations des fonctionnalités. Seul le chef modificateur du royaume divin de Tianyuan peut le construire, +3 [ICON_Food] nourriture +2 [ICON_Production] productivité +2 [ICON_Faith] foi. Après avoir recherché les technologies associées, vous obtiendrez plus de productivité [ICON_Production]</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="fr_FR">
-			<Text>Établir une ville peut gagner une énorme quantité de territoire, permettant aux citoyens de gravir des montagnes, des montagnes +2 [ICON_Food] nourriture +5 [ICON_Gold] pièces d'or</Text>
+			<Text>Construire une ville peut gagner une énorme quantité de territoire, permettant aux citoyens de gravir les montagnes. Montagnes +2 [ICON_Food] nourriture +5 [ICON_Gold] pièces d'or</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="fr_FR">
 			<Text>Corbeau doré</Text>
@@ -779,6 +779,39 @@
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="fr_FR">
 			<Text>Appui spécial au combat rapproché</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="fr_FR">
+			<Text>salle d'image mentale</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="fr_FR">
+			<Text>La zone caractéristique du Domaine du Dieu du Nil, remplaçant la Terre Sainte, initialement débloquée, a un coût inférieur et n'augmentera pas de prix, peut être construite quelle que soit la demande de la population, +3 logements [ICON_Housing], sans aucun bonus adjacent et dispose de dix emplacements d'expert. Une fois terminé, la foi [ICON_Faith] +2 pour chaque citoyen [ICON_Citizen] de la ville</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="fr_FR">
+			<Text>Neuhansa Industries Lourdes</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="fr_FR">
+			<Text>La zone caractéristique du Domaine du Dieu du Nil, une alternative à la zone industrielle, est initialement déverrouillée, est libre de construire et n'augmentera pas de prix, peut être construite quelle que soit la demande de la population, +3 logements [ICON_Housing], ne le fait pas avoir des bonus adjacents et dispose de dix emplacements d'expert. Une fois terminé, la productivité de +2 [ICON_Production] par citoyen [ICON_Citizen] dans la ville</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="fr_FR">
+			<Text>Plantation technologique</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="fr_FR">
+			<Text>Installations d'amélioration spéciales, seul le chef modificateur du royaume divin du Nil peut construire, +2 [ICON_Food] nourriture + 2 [ICON_Gold] pièce d'or + 1 [ICON_Science] technologie + 1 [ICON_Culture] culture + 5 [ICON_Housing] logement + 2 [ ICON_Amenities ] Habitabilité, plus de rendement peut être obtenu après avoir recherché des technologies connexes, permettant la construction sur des plaines inondables, des oasis et des marécages sans ressources, et ne peut pas être construit à côté d'une autre plantation technologique</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="fr_FR">
+			<Text>Domaine du Dieu du Nil</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="fr_FR">
+			<Text>Domaine du Dieu du Nil</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="fr_FR">
+			<Text>Domaine du Dieu du Nil</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="fr_FR">
+			<Text>Royaume divin-Nil</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="fr_FR">
+			<Text>Plaines désertiques et collines désertiques +2 [ICON_Food] Nourriture +2 [ICON_Production] Productivité +1 [ICON_Science] Recherche, plaine inondable des prairies +2 [ICON_Production] Productivité +3 Charisme, plaine inondable +1 [ICON_Food] Nourriture +1 [ICON_Production ] Productivité +3 Charisme, plaines inondables du désert +2 [ICON_Gold] Or +3 Charisme, les bois fournissent -3 Charisme, permettent la construction de terres agricoles sur les plaines inondables du désert, +1 [ICON_Gold] Or par citoyen [ICON_Citizen]</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

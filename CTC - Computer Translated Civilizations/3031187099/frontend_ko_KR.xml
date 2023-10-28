@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Fri Oct 20 17:18:30 2023-->
+<!-- Sat Oct 28 11:39:35 2023-->
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ko_KR">
@@ -10,7 +10,7 @@
 			<Text>신성한 영역-신성한 나무</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ko_KR">
-			<Text>도시 타일 내 숲 +1 [ICON_Production] 생산성 +2 [ICON_Food] 식량, 열대우림 [ICON_Production] 생산성 +1 [ICON_Food] 영토 타일의 식량, 숲, 열대우림 +3</Text>
+			<Text>+1[ICON_Production]생산 +2[ICON_Food]도시 타일 내의 숲을 위한 식량, +2[ICON_Production]생산 +1[ICON_Food]우림을 위한 식량, +3내장 보호 지역 내 영토 타일 내의 숲과 열대우림을 위한 카리스마 + 건물 생산성 300% [ICON_Production]</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ko_KR">
 			<Text>신성한 나무 도메인</Text>
@@ -28,7 +28,7 @@
 			<Text>미미르 시스템</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>보호지역의 대안인 성수 도메인의 특징적인 지역은 초기에 개방되어 있으며, 비용이 저렴하고 가격이 오르지 않으며, 인구수요와 관계없이 건설이 가능합니다. [NEWLINE] 마이터 시스템은 주변 셀에 +2 [ICON_Gold] 금화와 +2 [ICON_Production] 생산성을 제공합니다(건설되지 않은 경우에도). 완료 후 주변 셀은 +3 매력을 받습니다. [NEWLINE]고대 숲이 건설된 후 매력 수치가 평균 이상인 주변 세포는 +2 [ICON_Food] +2 음식 [ICON_Faith] +1 [ICON_Science] 과학 연구를 얻습니다. [NEWLINE]쉼터가 건설된 후 평균 이상의 매력을 지닌 주변 세포는 +1 [ICON_Production] +1 생산성 [ICON_Gold] +2 금화 [ICON_Science] 과학 연구를 얻습니다. [NEWLINE]위 보너스는 셀의 시설 개선 여부와 관계없이 획득할 수 있습니다.</Text>
+			<Text>보호지역의 대안인 성수 도메인의 특징적인 지역은 초기에 개방되어 있으며, 비용이 저렴하고 가격이 오르지 않으며, 인구수요와 관계없이 건설이 가능합니다. [NEWLINE] 마이터 시스템은 주변 셀에 +2 [ICON_Gold] 금화와 +2 [ICON_Production] 생산성을 제공합니다(건설되지 않은 경우에도). 완료 후 주변 셀은 +3 매력을 받습니다. [NEWLINE]고대 숲이 건설된 후 일반 이상의 매력 수치를 지닌 주변 세포는 +2 [ICON_Food] 음식 +2 [ICON_Faith] 신앙 +2 [ICON_Science] 연구를 수행합니다. [NEWLINE]쉼터가 건설된 후 평균 이상의 매력을 지닌 주변 셀은 +2 [ICON_Production] 생산성 +2 [ICON_Gold] 금화 +2 [ICON_Science] 연구를 수행합니다. [NEWLINE]위 보너스는 셀의 시설 개선 여부와 관계없이 획득할 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="ko_KR">
 			<Text>고양이방 관리</Text>
@@ -76,7 +76,7 @@
 			<Text>엘리트 근접 수정치</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ADVANCED_SWORD_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>최전선의 압력에 잘 저항하는 원자력 시대의 강력한 고유 유닛</Text>
+			<Text>최전선의 압력에 잘 저항하는 원자력 시대의 강력한 특수 부대</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ANTICAVALRY_FIXER_RELOAD_NAME" Language="ko_KR">
 			<Text>대기병 수정치</Text>
@@ -88,7 +88,7 @@
 			<Text>대전차 수정자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>기갑 표적을 처리하는 데는 능숙하지만 복합 갑옷에는 다소 약한 현대적 특징을 지닌 유닛입니다.[NEWLINE][COLOR:ResMilitaryLabelCS] 경기병 기술을 연구하면 유닛의 전투 효율을 높일 수 있습니다.[ENDCOLOR]</Text>
+			<Text>현대적인 특성을 지닌 유닛으로 장갑 대상을 처리하는 데는 능숙하지만 복합 장갑에는 여전히 다소 약합니다. [NEWLINE][COLOR:ResMilitaryLabelCS] 경기병 기술을 연구하면 유닛의 전투 효율을 높일 수 있습니다[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="ko_KR">
 			<Text>중무기 수정자</Text>
@@ -130,25 +130,25 @@
 			<Text>재장전된 근접 수정자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>일부 수정자 리더만 훈련할 수 있는 특수 유닛으로, 전투 효율은 근접 수정자보다 훨씬 높으며, 지역 통제를 무시하고 도시 방어에 완전한 피해를 입힐 수 있습니다. [NEWLINE][COLOR:ResMilitaryLabelCS] 경기병 및 중기병 기술 연구 유닛 전투 효율성을 높일 수 있습니다.[ENDCOLOR]</Text>
+			<Text>일부 수정자 리더만 훈련할 수 있는 특수 유닛으로 전투 효과는 근접 수정자보다 훨씬 높으며 지역 통제를 무시하고 도시 방어에 완전한 피해를 입힐 수 있습니다. [NEWLINE][COLOR:ResMilitaryLabelCS] 경기병 및 중기병 기술을 연구할 수 있습니다. 유닛 전투 효율 증가[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_FIXER_RELOAD_NAME" Language="ko_KR">
 			<Text>특수 근접 수정자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>일부 수정자 리더만 훈련할 수 있는 특수 유닛으로, 사거리가 1인 [ICON_Ranged] 폭격 공격이 가능하며 물 위에서도 싸울 수 있습니다.[NEWLINE][COLOR:ResMilitaryLabelCS] 근접 기술을 연구하면 유닛의 전투 효율성을 높일 수 있습니다.[ENDCOLOR]</Text>
+			<Text>일부 수정자 리더만 훈련할 수 있는 특수 유닛으로, 사거리가 1인 [ICON_Ranged] 폭격 공격이 가능하며 물 위에서도 싸울 수 있습니다.[NEWLINE][COLOR:ResMilitaryLabelCS] 근접 기술을 연구하면 유닛의 전투 효율을 높일 수 있습니다.[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_NAME" Language="ko_KR">
 			<Text>소형 무기 수정자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>특수 유닛은 일부 수정자 리더만 훈련할 수 있습니다. 중화기 수정자보다 기동성이 더 뛰어나지만 근접 전투 효과는 매우 낮습니다. 이 수정자를 주의해서 배치하세요. [NEWLINE][COLOR:ResMilitaryLabelCS] 유닛을 활성화하기 위한 근접 기술을 연구하세요. 전투 증가 효율성[ENDCOLOR]</Text>
+			<Text>일부 수정자 리더만 훈련할 수 있는 특수 유닛입니다. 중무기 수정자보다 기동성이 뛰어나지만 근접 전투 효율성은 매우 낮습니다.[NEWLINE][COLOR:ResMilitaryLabelCS] 근접 기술을 연구하면 유닛의 전투 효율성을 향상시킬 수 있습니다.[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="ko_KR">
 			<Text>추론의 순환</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>고유한 전투 효율성을 지닌 독특한 지원 유닛으로, 처음에 여러 특수 능력을 가지고 있으며, 일반 수식어보다 기동성이 뛰어나고 편대 유닛을 어디든 호위할 수 있습니다. [COLOR: ResMilitaryLabelCS] 그러나 이 유닛의 유지 비용은 극도로 높습니다. 높으니 조심하세요. [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] 경기병 및 중기병 기술을 연구하면 부대의 전투 효율성을 향상시킬 수 있습니다.[ENDCOLOR]</Text>
+			<Text>특수 지원 유닛으로 자체 전투력을 가지며, 모든 편대 유닛은 이 유닛의 이동력을 얻습니다. [COLOR:ResMilitaryLabelCS]이 유닛의 유지 비용은 매우 높으므로 주의해서 제작하세요! [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] 경기병 및 중기병 기술을 연구하면 부대의 전투 효율성을 향상시킬 수 있습니다.[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="ko_KR">
 			<Text>헬라</Text>
@@ -166,7 +166,7 @@
 			<Text>오시리스</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>본부에서 가장 인기 있는 교정자는 모두에게 &quot;리틀 오시리스&quot;라는 애칭으로 불립니다. 동료들의 고민을 알아낸 후, 최선을 다해 조용히 도움을 제공하고 항상 동료들의 문제를 최우선으로 생각합니다.</Text>
+			<Text>본부에서 가장 인기 있는 교정자는 모두에게 &quot;리틀 오시리스&quot;라는 애칭으로 불립니다. 동료들의 고민을 알아낸 후, 최선을 다해 조용히 도움을 제공하고 항상 동료들의 일을 최우선으로 생각합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_NAME" Language="ko_KR">
 			<Text>베르단테</Text>
@@ -196,7 +196,7 @@
 			<Text>대국주</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>'자유로운 연구와 발명을 수행한다'는 조건으로 아이 오브 딥 스페이스에 합류한 소녀는 현재 미확인동물학팀에서 일하고 있다. 하지만 고용되어 있음에도 불구하고 시체와의 전투에는 거의 참여하지 않고 발명품과 타로카드에만 관심이 있는 것 같다.</Text>
+			<Text>'자유로운 연구와 발명을 수행한다'는 조건으로 아이 오브 딥 스페이스에 합류한 소녀는 현재 미확인동물학팀에서 일하고 있다. 그러나 그는 취직했음에도 불구하고 시체와의 전투에는 거의 참여하지 않았고 오로지 발명품과 타로카드에만 관심이 있는 듯했다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_NAME" Language="ko_KR">
 			<Text>헤임달</Text>
@@ -208,7 +208,7 @@
 			<Text>호델</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>정보부 소속인 호델과 그의 여동생 바드르는 쌍둥이다. 밝고 활달한 언니의 성격과 달리 호델은 묵묵히 언니의 빛을 따르며, 자신의 모습을 너무 많이 드러내지 않는다.</Text>
+			<Text>정보과 소속의 호델과 그의 여동생 바드르는 쌍둥이다. 밝고 인자한 언니의 성격과 달리 호델은 묵묵히 언니의 빛을 따라갈 뿐, 자신을 너무 많이 드러내지 않는다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHAOXILISI_RELOAD_DESCRIPTION" Language="ko_KR">
 			<Text>외모는 오시리스와 똑같지만 내면을 지배하는 성격은 미친 '플루토'로 엄청난 힘을 갖고 있으며 다른 수식어와의 협력을 경멸한다.</Text>
@@ -217,7 +217,7 @@
 			<Text>토르</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TUOER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>딥 스페이스 아이의 '썬더 스쿼드'의 대장이자 조직 내 최강의 전투원. 팀의 다양한 행동에 있어서 실수가 끊임없이 나오더라도 결국 그녀의 힘에 의지하면 끝까지 해낼 수 있다. 토르는 정의감이 뛰어나지만 그의 거친 싸움 스타일에 맞춰 일을 처리하는 데 종종 충동적입니다.</Text>
+			<Text>딥 스페이스 아이의 '썬더 스쿼드'의 대장이자 조직 내 최강의 전투원. 팀의 다양한 행동에 있어서 실수가 끊임없이 나오더라도 결국에는 그녀의 힘에 의지하면 끝까지 해낼 수 있다. 토르는 정의감이 뛰어나지만 그의 거친 싸움 스타일에 맞춰 일을 처리하는 데 종종 충동적입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
 			<Text>{LOC_CIVIC_NATIONALISM_NAME}: 유닛 +7[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -3[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
@@ -358,7 +358,7 @@
 			<Text>원거리 수정치에 대한 전투력 +20 [ICON_Strength]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_REDUCE_35_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ko_KR">
-			<Text>-35[ICON_Strength] 대기병 유닛에 대한 전투력</Text>
+			<Text>-35 [ICON_Strength] 대기병 유닛에 대한 전투력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_AFTER_ATTACK_KEEP_MOVEING_DESCRIPTION" Language="ko_KR">
 			<Text>유닛은 공격 후 계속 [ICON_Movement] 이동할 수 있습니다.</Text>
@@ -541,13 +541,13 @@
 			<Text>무거운 앵커 스와이프</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_LIWEITAN_RELOAD_NAME" Language="ko_KR">
-			<Text>열쇠 - &quot;쿡의 성스러운 닻&quot;</Text>
+			<Text>열쇠 - &quot;쿡의 신성한 닻&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_LIWEITAN_RELOAD_NAME" Language="ko_KR">
 			<Text>수예의 얼어붙은 심연</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_LIWEITAN_RELOAD_NAME" Language="ko_KR">
-			<Text>키팔로워 - &quot;결정자·벨루세바부&quot;</Text>
+			<Text>키팔로워-&quot;결정자·벨루세바부&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_A_WEIDAER_RELOAD_NAME" Language="ko_KR">
 			<Text>얼음 사냥</Text>
@@ -571,7 +571,7 @@
 			<Text>선지자의 메아리</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_NICHAOLIWEITAN_RELOAD_NAME" Language="ko_KR">
-			<Text>키콩-'운명·사이페이'</Text>
+			<Text>키콩-&quot;데스티너·사이페이&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_A_SIKADI_RELOAD_NAME" Language="ko_KR">
 			<Text>파도를 자르는 검</Text>
@@ -643,7 +643,7 @@
 			<Text>영원의 마차</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_TUOER_RELOAD_NAME" Language="ko_KR">
-			<Text>핵심 서번트 - &quot;요정 셀레브리안느&quot;</Text>
+			<Text>핵심 서번트 - &quot;요정 셀레브리안&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_UPGRATE_2_COMBAT_TEXT" Language="ko_KR">
 			<Text>유닛 업그레이드로 인한 +{1_Amount}[ICON_Strength] 전투력</Text>
@@ -661,13 +661,13 @@
 			<Text>생태학적 재목장</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설, 일부 수식어 리더만 건설 가능 건설 후 [ICON_Production] 생산성 +2, 주변 셀의 매력 +1 개선 시설은 셀 매력 수치에 따라 추가로 50% [ICON_Gold] 금화 생산량을 얻을 수 있습니다. , 관련 기술을 연구하면 [ICON_생산] 생산성이 더 높아집니다. {LOC_TECH_INDUSTRIALIZATION_NAME} 연구 후 개선된 시설은 금화 생산을 기준으로 50% [ICON_Tourism] 관광 성과를 얻을 수 있으며 숲이나 열대 우림이 있는 셀에만 지을 수 있습니다.</Text>
+			<Text>특수 개선 시설, 일부 수식어 리더만 건설 가능 건설 후 [ICON_Production] 생산성 +2, 주변 셀의 매력 +1 개선 시설은 셀 매력 수치에 따라 추가로 50% [ICON_Gold] 금화 생산량을 얻을 수 있습니다. , 관련 기술을 연구하면 [ICON_생산] 생산성이 더 높아집니다. {LOC_TECH_INDUSTRIALIZATION_NAME} 연구 후 개선된 시설은 금화 생산을 기준으로 50% [ICON_Tourism] 관광 성과를 얻을 수 있으며 숲이나 열대 우림이 있는 타일에만 지을 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_NAME" Language="ko_KR">
 			<Text>극지 과학 연구 워크스테이션</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설, 일부 수정자 리더만 건설할 수 있음, {LOC_TECH_MINING_NAME}로 잠금 해제, +1 [ICON_Science] 연구, 인접한 다양한 지형 및 개선 시설에서 추가 출력을 얻을 수 있음, 관련 기술을 연구한 후 더 많은 [ICON_Science] ]과학을 얻을 수 있음 연구, [ICON_Food] 식량, [ICON_Gold] 금화, [ICON_Production] 생산성은 눈 덮인 언덕에만 지을 수 있습니다.</Text>
+			<Text>특수 개선 시설, 일부 수정자 리더만 건설할 수 있습니다. {LOC_TECH_MINING_NAME}에 의해 잠금 해제되고 [ICON_Science] 연구를 +1합니다. 다양한 인접 지형 및 개선 시설은 추가 출력을 얻을 수 있습니다. 관련 기술을 연구하면 더 많은 [ICON_Science] ] 과학을 얻을 수 있습니다. 연구, [ICON_Food] 식량, [ICON_Gold] 금화, [ICON_Production] 생산성은 눈 덮인 언덕에만 지을 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="ko_KR">
 			<Text>극지 과학 연구 생활 공간</Text>
@@ -685,7 +685,7 @@
 			<Text>해양과학연구 플랫폼</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설, 일부 수정자 리더만 건설할 수 있습니다. {LOC_TECH_SHIPBUILDING_NAME}에 의해 잠금 해제되어 +1[ICON_Production] 생산성 +1[ICON_Science] 연구. 서로 다른 인접한 개선 시설은 관련 기술을 연구한 후 얻을 수 있는 추가 출력을 얻을 수 있습니다. 산출.</Text>
+			<Text>특수 개선 시설, 일부 수정자 리더만 건설 가능, {LOC_TECH_SHIPBUILDING_NAME}로 잠금 해제, +1[ICON_Production] 생산성 +1[ICON_Science] 연구, 다양한 인접 개선 시설에서 추가 출력을 얻을 수 있으며 관련 기술을 연구한 후 얻을 수 있음 더 많은 출력 .</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ko_KR">
 			<Text>천원신계</Text>
@@ -709,7 +709,7 @@
 			<Text>쓰팡위안</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Tianyuan God's Domain의 특징적인 지역은 성지의 대안으로 초기에 잠금 해제되어 있으며 건설이 자유롭고 가격이 증가하지 않으며 인구 수요와 관계없이 건설할 수 있습니다. 고유한 [ICON_Food] 음식 인접 보너스가 특징이며, [ICON_Food] 음식 인접 보너스도 [ICON_Faith] 신앙을 제공합니다.</Text>
+			<Text>Tianyuan God's Domain의 특징적인 지역은 성지의 대안으로 초기에 잠금 해제되어 있으며 건설이 자유롭고 가격이 상승하지 않으며 인구 수요와 관계없이 건설할 수 있습니다. 고유한 [ICON_Food] 음식 인접 보너스가 특징이며, [ICON_Food] 음식 인접 보너스도 [ICON_Faith] 신앙을 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="ko_KR">
 			<Text>+{1_num} [ICON_Food] 음식은 인접한 지역에서 나옵니다.</Text>
@@ -736,7 +736,7 @@
 			<Text>기능 개선. 천원신계 수식어 리더만이 건설할 수 있으며, +3 [ICON_Food] 음식 +2 [ICON_Production] 생산성 +2 [ICON_Faith] 신앙 관련 기술을 연구하면 더 많은 [ICON_Production] 생산성을 얻을 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ko_KR">
-			<Text>도시를 건설하면 엄청난 양의 영토를 얻을 수 있어 시민들이 산에 오를 수 있습니다. 산 +2 [ICON_Food] 식량 +5 [ICON_Gold] 금화</Text>
+			<Text>도시를 건설하면 엄청난 양의 영토를 얻을 수 있어 시민들이 산에 올라갈 수 있으며, 산 +2 [ICON_Food] 음식 +5 [ICON_Gold] 금화</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="ko_KR">
 			<Text>황금까마귀</Text>
@@ -779,6 +779,39 @@
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="ko_KR">
 			<Text>특수 근접 전투 지원</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="ko_KR">
+			<Text>정신영상실</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="ko_KR">
+			<Text>처음에 잠금 해제된 성지를 대체하는 나일 신의 영역의 특징적인 영역은 비용이 더 낮고 가격이 오르지 않으며 인구 수요에 관계없이 건설 가능하며 인접 보너스 없이 +3 [ICON_Housing] 주택이 있으며 전문가 슬롯은 10개이며, 완료 후 도시의 시민 [ICON_Citizen]당 신앙 +2 [ICON_Faith]를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>느한사중공업</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>산업 지역의 대안인 나일 신의 영토의 특징적인 지역은 초기에 잠금 해제되어 건축이 자유롭고 가격이 오르지 않으며 인구 수요에 관계없이 건축이 가능하며 +3 [ICON_Housing] 주택이 없습니다. 인접한 보너스가 있고 10개의 전문가 슬롯이 있습니다. 완료 후 도시의 시민 [ICON_Citizen]당 생산성 +2 [ICON_Production]</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>기술 농장</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>특수 개선 시설, 나일 신 영역의 수식어 리더만이 지을 수 있으며, +2 [ICON_Food] 음식 + 2 [ICON_Gold] 금화 + 1 [ICON_Science] 기술 + 1 [ICON_Culture] 문화 + 5 [ICON_Housing] 주거 + 2 [ ICON_Amenities ] 거주 가능성, 관련 기술 연구 후 더 많은 생산량을 얻을 수 있으며 자원 없이 범람원, 오아시스, 늪지에 건설이 가능하며 다른 기술 농장 옆에 건설할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ko_KR">
+			<Text>나일 신의 영역</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ko_KR">
+			<Text>나일 신의 영역</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="ko_KR">
+			<Text>나일 신의 영역</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ko_KR">
+			<Text>신의 영역-네로</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ko_KR">
+			<Text>사막 평원 및 사막 언덕 +2 [ICON_Food] 식량 +2 [ICON_생산] 생산성 +1 [ICON_Science] 연구, 초원 범람원 +2 [ICON_생산] 생산성 +3 카리스마, 평원 범람원 +1 [ICON_Food] 식량 +1 [ICON_생산 ] 생산성 +3 카리스마, 사막 범람원 +2 [ICON_Gold] 골드 +3 카리스마, 숲 제공 -3 카리스마, 사막 범람원에 농지 건설 허용, 시민 [ICON_Citizen]당 +1 [ICON_Gold] 골드</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

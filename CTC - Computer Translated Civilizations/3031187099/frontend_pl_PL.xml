@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Fri Oct 20 17:18:30 2023-->
+<!-- Sat Oct 28 11:39:35 2023-->
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="pl_PL">
@@ -10,7 +10,7 @@
 			<Text>Boska domena – święte drzewo</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="pl_PL">
-			<Text>+1 do lasu na polach miasta [ICON_Production] +2 do produktywności [ICON_Food] +2 do żywności, lasu deszczowego [ICON_Production] +1 do produktywności [ICON_Food] +3 do żywności, lasu i lasu deszczowego do płytek terytorium</Text>
+			<Text>+1[ICON_Production]Produkcja +2[ICON_Food]Pożywienie dla lasów na polach miast, +2[ICON_Production]Produkcja +1[ICON_Food]Pożywienie dla lasów deszczowych, +3Charyzma dla lasów i lasów deszczowych na polach terytorium, na wbudowanych obszarach chronionych + 300% [ICON_Production] produktywności budynków</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="pl_PL">
 			<Text>Domena Świętego Drzewa</Text>
@@ -22,13 +22,13 @@
 			<Text>Organizacja korektora</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="pl_PL">
-			<Text>[COLOR:ResMilitaryLabelCS]Nie można zbudować wszystkich jednostek wojskowych[ENDCOLOR], ale można budować modyfikatory i jednostki wsparcia. Budowniczych, szpiegów i jednostki wsparcia zawsze można kupić za pomocą [ICON_Faith]Wiary[NEWLINE]Modyfikatory będą się zmieniać wraz z technologią i wzrostem rozwoju gmin [ICON_Strength] skuteczność bojowa, [COLOR:ResMilitaryLabelCS], ale [ICON_Gold] opłaty za utrzymanie również wzrosną [ENDCOLOR]. Po ukończeniu jednostka nie może zapewnić miastu [ICON_Strength] siły bojowej i [ICON_Ranged] siły ataku dalekiego zasięgu, ani nie można jej organizować w pułki i armie.</Text>
+			<Text>[COLOR:ResMilitaryLabelCS]Nie można zbudować wszystkich jednostek wojskowych[ENDCOLOR], ale można budować modyfikatory i jednostki wsparcia. Budowniczych, szpiegów i jednostki wsparcia zawsze można kupić za pomocą [ICON_Faith]Wiary[NEWLINE]Modyfikatory będą się zmieniać wraz z technologią i wzrostem rozwoju gmin [ICON_Strength] skuteczność bojowa, [COLOR:ResMilitaryLabelCS], ale [ICON_Gold] opłaty za utrzymanie również wzrosną [ENDCOLOR]. Po ukończeniu jednostka nie może zapewnić miastu [ICON_Strength] siły bojowej ani [ICON_Ranged] siły ataku dalekiego zasięgu, ani nie można jej organizować w pułki i armie.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="pl_PL">
 			<Text>System Mimira</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="pl_PL">
-			<Text>Charakterystyczny obszar Domeny Świętego Drzewa, stanowiący alternatywę dla obszaru chronionego, jest początkowo odblokowany, ma niższy koszt i nie wzrośnie w cenie oraz może zostać zbudowany niezależnie od zapotrzebowania populacji. [NEWLINE] System Mitre zapewni +2 [ICON_Gold] złote monety i +2 [ICON_Production] produktywność otaczającym komórkom (nawet jeśli nie jest zbudowany). Po ukończeniu otaczające komórki otrzymają urok +3. [NEWLINE]Po zbudowaniu starożytnego lasu otaczające komórki o normalnej lub ponadprzeciętnej wartości uroku otrzymają +2 [ICON_Food] +2 żywność [ICON_Faith] +1 [ICON_Science] badania naukowe. [NEWLINE]Po zbudowaniu schronu otaczające komórki o przeciętnym lub ponadprzeciętnym uroku otrzymają +1 [ICON_Production] +1 produktywność [ICON_Gold] +2 złote monety [ICON_Science] badania naukowe. [NEWLINE]Powyższe bonusy można uzyskać niezależnie od tego, czy komórka ma ulepszone udogodnienia, czy nie.</Text>
+			<Text>Charakterystyczny obszar Domeny Świętego Drzewa, stanowiący alternatywę dla obszaru chronionego, jest początkowo odblokowany, ma niższy koszt i nie wzrośnie w cenie oraz może zostać zbudowany niezależnie od zapotrzebowania populacji. [NEWLINE] System Mitre zapewni +2 [ICON_Gold] złote monety i +2 [ICON_Production] produktywność otaczającym komórkom (nawet jeśli nie jest zbudowany). Po ukończeniu otaczające komórki otrzymają urok +3. [NEWLINE]Po zbudowaniu starożytnego lasu otaczające je komórki o wartości uroku zwykłej lub wyższej będą miały +2 [ICON_Food] jedzenie +2 [ICON_Faith] wiarę +2 [ICON_Science] badania. [NEWLINE]Po zbudowaniu schronu otaczające cele o przeciętnym lub ponadprzeciętnym uroku będą miały +2 do produktywności [ICON_Production] +2 [ICON_Gold] złotych monet +2 do badań [ICON_Science]. [NEWLINE]Powyższe bonusy można uzyskać niezależnie od tego, czy komórka ma ulepszone udogodnienia, czy nie.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="pl_PL">
 			<Text>Zarządzaj pokojem dla kotów</Text>
@@ -88,7 +88,7 @@
 			<Text>modyfikator przeciwpancerny</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="pl_PL">
-			<Text>Nowoczesna, charakterystyczna jednostka, dobrze radząca sobie z celami opancerzonymi, ale wciąż nieco słaba przeciwko pancerzom kompozytowym[NEWLINE][COLOR:ResMilitaryLabelCS] Badanie technologii lekkiej kawalerii może poprawić skuteczność bojową jednostki[ENDCOLOR]</Text>
+			<Text>Nowoczesna, charakterystyczna jednostka, dobrze radząca sobie z celami opancerzonymi, ale wciąż nieco słaba przeciwko pancerzom kompozytowym [NEWLINE][COLOR:ResMilitaryLabelCS] Badanie technologii lekkiej kawalerii może poprawić skuteczność bojową jednostki[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="pl_PL">
 			<Text>modyfikator broni ciężkiej</Text>
@@ -142,13 +142,13 @@
 			<Text>modyfikator broni strzeleckiej</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="pl_PL">
-			<Text>Jednostka specjalna, którą mogą szkolić tylko niektórzy przywódcy modyfikatorów. Ma większą mobilność niż modyfikatory broni ciężkiej, ale jej skuteczność w walce wręcz jest bardzo niska. Rozmieszczaj ten modyfikator z rozwagą [NEWLINE][COLOR:ResMilitaryLabelCS] Zbadaj technologię walki wręcz, aby umożliwić jednostkom Zwiększoną skuteczność walki skuteczność[ENDCOLOR]</Text>
+			<Text>Jednostka specjalna, mogą trenować tylko niektórzy przywódcy modyfikatorów. Ma większą mobilność niż modyfikatory broni ciężkiej, ale jej skuteczność w walce wręcz jest wyjątkowo niska[NEWLINE][COLOR:ResMilitaryLabelCS] Badanie technologii walki wręcz może poprawić skuteczność bojową jednostki[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="pl_PL">
-			<Text>cykl logiki</Text>
+			<Text>cykl rozumowania</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="pl_PL">
-			<Text>Unikalna jednostka wsparcia, która ma własną skuteczność bojową. Na początku posiada kilka specjalnych zdolności. Ma większą mobilność niż zwykłe modyfikatory i może eskortować jednostki formacyjne w dowolne miejsce. [KOLOR: ResMilitaryLabelCS] Jednak koszt utrzymania tej jednostki jest niezwykle wysoko, więc proszę zachować ostrożność. [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] Badanie technologii lekkiej i ciężkiej kawalerii może poprawić skuteczność bojową jednostek[ENDCOLOR]</Text>
+			<Text>Specjalna jednostka wsparcia, ma własną siłę bojową i wszystkie jednostki formacyjne zyskują siłę ruchu tej jednostki. [COLOR:ResMilitaryLabelCS]Koszty konserwacji tego urządzenia są niezwykle wysokie, należy zachować ostrożność przy budowie! [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] Badanie technologii lekkiej i ciężkiej kawalerii może poprawić skuteczność bojową jednostek[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="pl_PL">
 			<Text>Hella</Text>
@@ -232,7 +232,7 @@
 			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: Jednostka +9[ICON_Strength] siły bojowej, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] złota moneta (opłata za utrzymanie) na turę[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="pl_PL">
-			<Text>{LOC_TECH_GUNPOWDER_NAME}: Jednostka +10[ICON_Strength] siła bojowa, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] złota moneta (opłata za utrzymanie) na turę[ENDCOLOR]</Text>
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: Jednostka +10[ICON_Strength] siły bojowej, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] złota moneta (opłata za utrzymanie) na turę[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="pl_PL">
 			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: Jednostka +10[ICON_Strength] siły bojowej, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] złota moneta (opłata za utrzymanie) na turę[ENDCOLOR]</Text>
@@ -241,7 +241,7 @@
 			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: Jednostka +10[ICON_Strength] siła bojowa, [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] złote monety (opłata za utrzymanie) na turę[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="pl_PL">
-			<Text>{LOC_TECH_CASTLES_NAME}: Jednostka +20 [ICON_Strength] siły bojowej, [COLOR:ResMilitaryLabelCS] -1 [ICON_Gold] złota moneta (opłata za utrzymanie) na turę [ENDCOLOR]</Text>
+			<Text>{LOC_TECH_CASTLES_NAME}: Jednostka +20 [ICON_Strength] siła bojowa, [COLOR:ResMilitaryLabelCS] -1 [ICON_Gold] złota moneta (opłata za utrzymanie) na turę [ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_DESCRIPTION" Language="pl_PL">
 			<Text>{LOC_TECH_BALLISTICS_NAME}: Jednostka +14[ICON_Strength] siła bojowa, [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] złote monety (opłata za utrzymanie) na turę[ENDCOLOR]</Text>
@@ -265,7 +265,7 @@
 			<Text>{LOC_TECH_GUNPOWDER_NAME}: Jednostka +10[ICON_AntiAir_Large] siła bojowa przeciwlotnicza</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="pl_PL">
-			<Text>{TECH_MILITARY_SCIENCE}: Jednostka +10[ICON_AntiAir_Large] skuteczność w walce przeciwlotniczej</Text>
+			<Text>{TECH_MILITARY_SCIENCE}: Jednostka +10[ICON_AntiAir_Large] siła bojowa przeciwlotnicza</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="pl_PL">
 			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: Jednostka +10[ICON_AntiAir_Large] siła bojowa przeciwlotnicza</Text>
@@ -358,7 +358,7 @@
 			<Text>+20 [ICON_Strength] siły bojowej przeciwko modyfikatorom dystansowym</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_REDUCE_35_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="pl_PL">
-			<Text>-35[ICON_Strength] siła bojowa przeciwko jednostkom przeciw kawalerii</Text>
+			<Text>-35 [ICON_Strength] siła bojowa przeciwko jednostkom przeciw kawalerii</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_AFTER_ATTACK_KEEP_MOVEING_DESCRIPTION" Language="pl_PL">
 			<Text>Jednostki mogą kontynuować ruch [ICON_Movement] po ataku</Text>
@@ -496,7 +496,7 @@
 			<Text>Klucz - „Powolność”</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_HAILA_RELOAD_NAME" Language="pl_PL">
-			<Text>cichy pałac</Text>
+			<Text>pałac ciszy</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_HAILA_RELOAD_NAME" Language="pl_PL">
 			<Text>Klucz z - „Wróżka Muriel”</Text>
@@ -511,7 +511,7 @@
 			<Text>Obelisk Chwały</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_QIANGUIFANG_RELOAD_NAME" Language="pl_PL">
-			<Text>Kluczowy Cong – „Shikigami · Wakasha Kurodouji”</Text>
+			<Text>Kluczowy Cong – „Shikigami·Wakasha Kurodouji”</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_A_AOXILISI_RELOAD_NAME" Language="pl_PL">
 			<Text>Ciągłe cięcie Xu Ming</Text>
@@ -565,19 +565,19 @@
 			<Text>falujący strajk</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_NICHAOLIWEITAN_RELOAD_NAME" Language="pl_PL">
-			<Text>Klucz – „Pieśń wieloryba przeciwko przypływowi”</Text>
+			<Text>Klucz - „Pieśń wieloryba pod prąd”</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_NICHAOLIWEITAN_RELOAD_NAME" Language="pl_PL">
 			<Text>Echo Proroka</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_NICHAOLIWEITAN_RELOAD_NAME" Language="pl_PL">
-			<Text>Key Cong – „Destiny·Sai Pei”</Text>
+			<Text>Key Cong – „Destiner·Sai Pei”</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_A_SIKADI_RELOAD_NAME" Language="pl_PL">
 			<Text>Miecz przecinający fale</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_SIKADI_RELOAD_NAME" Language="pl_PL">
-			<Text>Klucz – „Ciąpiące fale”</Text>
+			<Text>Klucz – „Rzekające fale”</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_SIKADI_RELOAD_NAME" Language="pl_PL">
 			<Text>Lodowa otchłań Suye</Text>
@@ -616,7 +616,7 @@
 			<Text>Klucz – „Pasożyt nocy”</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_HUODEER_RELOAD_NAME" Language="pl_PL">
-			<Text>cichy pałac</Text>
+			<Text>pałac ciszy</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_HUODEER_RELOAD_NAME" Language="pl_PL">
 			<Text>Kluczowy sługa – „Wróżka Erwin”</Text>
@@ -667,13 +667,13 @@
 			<Text>Polarna stacja robocza do badań naukowych</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="pl_PL">
-			<Text>Specjalne obiekty ulepszeń, tylko niektórzy liderzy modyfikatorów mogą je zbudować, odblokowane przez {LOC_TECH_MINING_NAME}, badania +1 [ICON_Science], sąsiadujące różne formy terenu i obiekty ulepszeń mogą uzyskać dodatkowy wynik, po zbadaniu powiązanych technologii możesz uzyskać więcej [ICON_Science] ] Naukowe badania, [ICON_Food] żywność, [ICON_Gold] złote monety i [ICON_Production] produktywność, można budować tylko na zaśnieżonych wzgórzach</Text>
+			<Text>Specjalne obiekty ulepszeń, tylko niektórzy liderzy modyfikatorów mogą je zbudować, odblokowane przez {LOC_TECH_MINING_NAME}, badania +1 [ICON_Science], sąsiadujące różne formy terenu i obiekty ulepszeń mogą uzyskać dodatkowy wynik, po zbadaniu powiązanych technologii możesz uzyskać więcej [ICON_Science] ]Naukowych badania, [ICON_Food] żywność, [ICON_Gold] złote monety i [ICON_Production] produktywność, można budować tylko na zaśnieżonych wzgórzach</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="pl_PL">
 			<Text>Część mieszkalna, w której prowadzone są badania naukowe i polarne</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="pl_PL">
-			<Text>Specjalne obiekty ulepszeń, tylko niektórzy liderzy modyfikatorów mogą je zbudować, +1[ICON_Culture] kultura +1[ICON_Production] produktywność, różne przyległe ukształtowanie terenu i obiekty ulepszeń mogą uzyskać dodatkową produkcję, a po zbadaniu powiązanych technologii możesz uzyskać więcej [ ICON_Food] żywności , [ICON_Gold] złote monety i wydajność [ICON_Production] można budować tylko na zamarzniętej ziemi, zamarzniętych wzgórzach i śniegu.</Text>
+			<Text>Specjalne obiekty ulepszeń, tylko niektórzy liderzy modyfikatorów mogą je zbudować, +1 [ICON_Culture] Kultura +1 [ICON_Production] Produktywność, różne przyległe formy terenu i obiekty ulepszeń mogą uzyskać dodatkową produkcję, a po zbadaniu powiązanych technologii możesz uzyskać więcej [ ICON_Food] żywności , [ICON_Gold] złote monety i wydajność [ICON_Production] można budować tylko na zamarzniętej ziemi, zamarzniętych wzgórzach i śniegu.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="pl_PL">
 			<Text>Duży statek naukowo-badawczy</Text>
@@ -736,7 +736,7 @@
 			<Text>Ulepszenia funkcji. Może go zbudować tylko Modyfikator Przywódca Królestwa Boga Tianyuan, +3 [ICON_Food] żywność +2 [ICON_Production] produktywność +2 [ICON_Faith] wiara. Po zbadaniu powiązanych technologii otrzymasz większą produktywność [ICON_Production]</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="pl_PL">
-			<Text>Budowa miasta może zyskać ogromną ilość terytorium, umożliwiając obywatelom wspinanie się po górach Góry +2 [ICON_Food] żywność +5 [ICON_Gold] złote monety</Text>
+			<Text>Założenie miasta może zyskać ogromną ilość terytorium, umożliwiając obywatelom wspinanie się po górach, góry +2 [ICON_Food] żywność +5 [ICON_Gold] złote monety</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="pl_PL">
 			<Text>Złoty Kruk</Text>
@@ -748,7 +748,7 @@
 			<Text>Lingguang</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LINGGUANG_DESCRIPTION" Language="pl_PL">
-			<Text>Agent Nandao z Sifangyuan jest lekarzem i doskonale zdaje sobie sprawę z cierpień ludzi. Założyła klinikę medyczną „Chi Qi Tang” w Nanjiao i otworzyła wiele oddziałów, aby szerzyć wiedzę o sposobach leczenia objawów chorobowych. Lingguang często osobiście odwiedzał szpital, aby leczyć pacjentów, którzy zgłaszali się po pomoc medyczną, i słuchał ich banalnych historii życiowych.</Text>
+			<Text>Agent Nandao z Sifangyuan jest lekarzem i doskonale zdaje sobie sprawę z cierpień ludzi. Założyła klinikę medyczną „Chi Qi Tang” w Nanjiao i otworzyła wiele oddziałów, aby szerzyć wiedzę o sposobach leczenia objawów chorobowych. Lingguang często osobiście odwiedzał szpital, aby leczyć pacjentów, którzy zgłaszali się po pomoc medyczną, i słuchał ich banalnych historii życia.</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_A_JINWU_NAME" Language="pl_PL">
 			<Text>Szermierka Penglai</Text>
@@ -769,7 +769,7 @@
 			<Text>Klucz - „Pięć Li”</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_LINGGUANG_NAME" Language="pl_PL">
-			<Text>Niespodzianka nocna sowa</Text>
+			<Text>Niespodzianka Nocna sowa</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_LINGGUANG_NAME" Language="pl_PL">
 			<Text>Kluczowy Cong – „Fang Yi·Huang”</Text>
@@ -779,6 +779,39 @@
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="pl_PL">
 			<Text>Specjalne wsparcie w walce wręcz</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="pl_PL">
+			<Text>pokój obrazów mentalnych</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="pl_PL">
+			<Text>Charakterystyczny obszar Domeny Boga Nilu, zastępujący Ziemię Świętą, początkowo odblokowany, ma niższy koszt i nie wzrośnie w cenie, można go zbudować niezależnie od zapotrzebowania populacji, +3 [ICON_Housing] do mieszkań, bez żadnego sąsiadującego bonusu i ma dziesięć miejsc na ekspertów. Po ukończeniu, wiara +2 [ICON_Faith] za każdego obywatela [ICON_Citizen] w mieście</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="pl_PL">
+			<Text>Przemysł ciężki Neuhansa</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="pl_PL">
+			<Text>Charakterystyczny obszar Domeny Boga Nilu, alternatywa dla obszaru przemysłowego, jest początkowo odblokowany, można go dowolnie budować i nie będzie rósł koszt, można go budować niezależnie od zapotrzebowania populacji, +3 [ICON_Housing] mieszkania, nie ma sąsiadujące bonusy i ma dziesięć miejsc na ekspertów. Po ukończeniu, produktywność +2 [ICON_Production] na [ICON_Citizen] mieszkańca w mieście</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="pl_PL">
+			<Text>Plantacja technologiczna</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="pl_PL">
+			<Text>Specjalne obiekty ulepszeń, które może zbudować tylko Modyfikator Przywódca Królestwa Nilu, +2 [ICON_Food] Jedzenie + 2 [ICON_Gold] Złota Moneta + 1 [ICON_Science] Technologia + 1 [ICON_Culture] Kultura + 5 [ICON_Housing] Mieszkanie + 2 [ ICON_Amenities ] Możliwość zamieszkania, więcej produkcji można uzyskać po zbadaniu powiązanych technologii, umożliwiając budowę na terenach zalewowych, oazach i bagnach bez zasobów i nie można ich zbudować obok innej plantacji technologicznej</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="pl_PL">
+			<Text>Domena Boga Nilu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="pl_PL">
+			<Text>Domena Boga Nilu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="pl_PL">
+			<Text>Domena Boga Nilu</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="pl_PL">
+			<Text>Boskie Królestwo – Neron</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="pl_PL">
+			<Text>Pustynne Równiny i Pustynne Wzgórza +2 [ICON_Food] Jedzenie +2 [ICON_Production] Produktywność +1 [ICON_Science] Badania, Łąki Zalewowe +2 [ICON_Production] Produktywność +3 Charyzma, Zwykłe Równiny Zalewowe +1 [ICON_Food] Jedzenie +1 [ICON_Production ] Produktywność +3 Charyzma, Pustynne równiny zalewowe +2 [ICON_Gold] Złoto +3 Charyzma, Lasy zapewniają -3 Charyzma, Zezwalaj na budowę pól uprawnych na pustynnych równinach zalewowych, +1 [ICON_Gold] Złoto na [ICON_Citizen] obywatela</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

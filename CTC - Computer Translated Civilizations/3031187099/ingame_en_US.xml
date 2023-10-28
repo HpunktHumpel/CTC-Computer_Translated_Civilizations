@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Fri Oct 20 17:18:29 2023-->
+<!-- Sat Oct 28 11:39:35 2023-->
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="en_US">
@@ -10,7 +10,7 @@
 			<Text>Divine Domain-Holy Tree</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="en_US">
-			<Text>+1 to forest within city tiles [ICON_Production] +2 to productivity [ICON_Food] +2 to food, rainforest [ICON_Production] +1 to productivity [ICON_Food] +3 to food, forest and rainforest to territory tiles</Text>
+			<Text>+1[ICON_Production]Production +2[ICON_Food]Food for forests within city tiles, +2[ICON_Production]Production +1[ICON_Food]Food for rainforests, +3Charisma for forests and rainforests within territory tiles, within built-in protected areas +300% [ICON_Production] productivity for buildings</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="en_US">
 			<Text>Holy Tree Domain</Text>
@@ -28,7 +28,7 @@
 			<Text>Mimir system</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>The characteristic area of ​​the Holy Tree Domain, an alternative to the protected area, is initially unlocked, has a lower cost and will not increase in price, and can be built regardless of population demand. [NEWLINE] The Miter system will provide +2 [ICON_Gold] gold coins and +2 [ICON_Production] productivity to surrounding cells (even if it is not built). After completion, surrounding cells will receive +3 charm. [NEWLINE]After the ancient forest is built, the surrounding cells with normal or above average charm value will get +2 [ICON_Food] +2 food [ICON_Faith] +1 [ICON_Science] scientific research. [NEWLINE]After the shelter is built, surrounding cells with average or above average charm will get +1 [ICON_Production] +1 productivity [ICON_Gold] +2 gold coins [ICON_Science] scientific research. [NEWLINE]The above bonuses can be obtained regardless of whether the cell has improved facilities or not.</Text>
+			<Text>The characteristic area of ​​the Holy Tree Domain, an alternative to the protected area, is initially unlocked, has a lower cost and will not increase in price, and can be built regardless of population demand. [NEWLINE] The Miter system will provide +2 [ICON_Gold] gold coins and +2 [ICON_Production] productivity to surrounding cells (even if it is not built). After completion, surrounding cells will receive +3 charm. [NEWLINE]After the ancient forest is built, the surrounding cells with a charm value of ordinary or above will have +2 [ICON_Food] food +2 [ICON_Faith] faith +2 [ICON_Science] research. [NEWLINE]After the shelter is built, the surrounding cells with average or above average charm will have +2 [ICON_Production] productivity +2 [ICON_Gold] gold coins +2 [ICON_Science] research. [NEWLINE]The above bonuses can be obtained regardless of whether the cell has improved facilities or not.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="en_US">
 			<Text>Manage cat room</Text>
@@ -55,7 +55,7 @@
 			<Text>A unique unit of the industrial era. It is very good at fighting cavalry. It has several special abilities and is very weak against armored targets.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ADVANCED_ANTIPANZER_FIXER_RELOAD_NAME" Language="en_US">
-			<Text>Elite Anti-Tank Modifier</Text>
+			<Text>Elite anti-tank modifier</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ADVANCED_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>A powerful special unit in the information age, good at dealing with all armored targets</Text>
@@ -88,7 +88,7 @@
 			<Text>anti-tank modifier</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ANTIPANZER_FIXER_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>Modern characteristic unit, good at dealing with armored targets, but still somewhat weak against composite armor[NEWLINE][COLOR:ResMilitaryLabelCS] Researching light cavalry technology can improve the unit's combat effectiveness[ENDCOLOR]</Text>
+			<Text>Modern characteristic unit, good at dealing with armored targets, but still somewhat weak against composite armor [NEWLINE][COLOR:ResMilitaryLabelCS] Researching light cavalry technology can improve the unit's combat effectiveness[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_FIXER_RELOAD_NAME" Language="en_US">
 			<Text>heavy weapon modifier</Text>
@@ -142,13 +142,13 @@
 			<Text>small arms modifier</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>Special unit, only some modifier leaders can train. It has stronger mobility than heavy weapon modifiers, but its melee combat effectiveness is extremely low. Please deploy this modifier with caution [NEWLINE][COLOR:ResMilitaryLabelCS] Research melee technology to enable units Increased combat effectiveness[ENDCOLOR]</Text>
+			<Text>Special unit, only some modifier leaders can train. It has stronger mobility than heavy weapon modifiers, but its melee combat effectiveness is extremely low[NEWLINE][COLOR:ResMilitaryLabelCS] Researching melee technology can improve the unit's combat effectiveness[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="en_US">
 			<Text>cycle of reasoning</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>A unique support unit that has its own combat effectiveness. It has several special abilities at the beginning. It has higher mobility than ordinary modifiers and can escort formation units to anywhere. [COLOR: ResMilitaryLabelCS] However, the maintenance cost of this unit is extremely high, so please be careful. put up! [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] Researching light cavalry and heavy cavalry technology can improve the combat effectiveness of units[ENDCOLOR]</Text>
+			<Text>A special support unit, it has its own combat power, and all formation units gain the movement power of this unit. [COLOR:ResMilitaryLabelCS]The maintenance cost of this unit is extremely high, please build with caution! [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] Researching light cavalry and heavy cavalry technology can improve the combat effectiveness of units[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="en_US">
 			<Text>Hella</Text>
@@ -196,7 +196,7 @@
 			<Text>Okuninushi</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>A girl who joined the Eye of Deep Space on the condition of &quot;carrying out free research and invention&quot; is currently working in the Cryptozoology Team. However, even though he is employed, he hardly participates in the battle against the corpse, and seems to be only interested in inventions and tarot cards.</Text>
+			<Text>A girl who joined the Eye of Deep Space on the condition of &quot;carrying out free research and invention&quot; is currently working in the Cryptozoology Team. However, even though he was employed, he hardly participated in the battle against the corpse. He seemed to be only interested in inventions and tarot cards.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_NAME" Language="en_US">
 			<Text>Heimdall</Text>
@@ -208,7 +208,7 @@
 			<Text>hodel</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>Hodel, a member of the Intelligence Division, and his sister Badr are twins. Unlike his sister's cheerful and generous character, Hodel just silently follows his sister's light and does not reveal himself too much.</Text>
+			<Text>Hodel, a member of the Intelligence Section, and his sister Badr are twins. Unlike his sister's cheerful and generous character, Hodel just silently follows his sister's light and does not reveal himself too much.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHAOXILISI_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>He has exactly the same appearance as Osiris, but his inner dominant personality is the crazy &quot;Pluto&quot;. He has great power and disdains cooperation with other modifiers.</Text>
@@ -265,7 +265,7 @@
 			<Text>{LOC_TECH_GUNPOWDER_NAME}: Unit +10[ICON_AntiAir_Large] anti-aircraft combat power</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>{TECH_MILITARY_SCIENCE}: Unit +10[ICON_AntiAir_Large] anti-aircraft combat effectiveness</Text>
+			<Text>{TECH_MILITARY_SCIENCE}: Unit +10[ICON_AntiAir_Large] anti-aircraft combat power</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="en_US">
 			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: Unit +10[ICON_AntiAir_Large] Anti-Air Combat Strength</Text>
@@ -565,7 +565,7 @@
 			<Text>swell strike</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_NICHAOLIWEITAN_RELOAD_NAME" Language="en_US">
-			<Text>Key-&quot;The Song of the Whale Against the Tide&quot;</Text>
+			<Text>Key - &quot;Whale Song Against the Tide&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_NICHAOLIWEITAN_RELOAD_NAME" Language="en_US">
 			<Text>The Prophet's Echo</Text>
@@ -577,7 +577,7 @@
 			<Text>Wave-cutting sword</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_SIKADI_RELOAD_NAME" Language="en_US">
-			<Text>Key-&quot;Chopping Wave&quot;</Text>
+			<Text>Key - &quot;Chopping Waves&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_SIKADI_RELOAD_NAME" Language="en_US">
 			<Text>The icy abyss of Suye</Text>
@@ -625,10 +625,10 @@
 			<Text>Sky and Dark Scythe</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_SHAOXILISI_RELOAD_NAME" Language="en_US">
-			<Text>Key - &quot;Born Soul&quot;</Text>
+			<Text>Key-&quot;Born Soul&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_SHAOXILISI_RELOAD_NAME" Language="en_US">
-			<Text>Windlord</Text>
+			<Text>Storm Tyrant</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_SHAOXILISI_RELOAD_NAME" Language="en_US">
 			<Text>Key from - &quot;King Nijricht&quot;</Text>
@@ -667,13 +667,13 @@
 			<Text>Polar scientific research workstation</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="en_US">
-			<Text>Special improvement facilities, only some modifier leaders can build them. Unlocked by {LOC_TECH_MINING_NAME}, +1 [ICON_Science] research. Different adjacent landforms and improvement facilities can obtain additional output. After researching related technologies, you can obtain more [ICON_Science] ]Scientific research, [ICON_Food] food, [ICON_Gold] gold coins and [ICON_Production] productivity, can only be built on snowy hills</Text>
+			<Text>Special improvement facilities, only some modifier leaders can build them, unlocked by {LOC_TECH_MINING_NAME}, +1 [ICON_Science] research, adjacent different landforms and improvement facilities can obtain additional output, after researching related technologies, you can obtain more [ICON_Science] ]Scientific research, [ICON_Food] food, [ICON_Gold] gold coins and [ICON_Production] productivity, can only be built on snowy hills</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="en_US">
 			<Text>Polar scientific research living area</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="en_US">
-			<Text>Special improvement facilities, only some modifier leaders can build them, +1[ICON_Culture] culture +1[ICON_Production] productivity, different adjacent landforms and improvement facilities can obtain additional output, and after researching related technologies, you can obtain more [ ICON_Food] food, [ICON_Gold] gold coins and [ICON_Production] productivity, can only be built on frozen soil, frozen soil hills, and snow.</Text>
+			<Text>Special improvement facilities, only some Modifier leaders can build them, +1 [ICON_Culture] Culture +1 [ICON_Production] Productivity, different adjacent landforms and improvement facilities can obtain additional output, and after researching related technologies, you can obtain more [ ICON_Food] food, [ICON_Gold] gold coins and [ICON_Production] productivity, can only be built on frozen soil, frozen soil hills, and snow.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="en_US">
 			<Text>Large scientific research vessel</Text>
@@ -736,7 +736,7 @@
 			<Text>Features improvements. Only the Modifier Leader of Tianyuan God Realm can build it, +3 [ICON_Food] food +2 [ICON_Production] productivity +2 [ICON_Faith] faith. After researching related technologies, you will get more [ICON_Production] productivity</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="en_US">
-			<Text>Building a city can gain a huge amount of territory, allowing citizens to go up mountains. Mountains +2 [ICON_Food] food +5 [ICON_Gold] gold coins</Text>
+			<Text>Establishing a city can gain a huge amount of territory, allowing citizens to go up mountains, mountains +2 [ICON_Food] food +5 [ICON_Gold] gold coins</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="en_US">
 			<Text>Golden Crow</Text>
@@ -779,6 +779,39 @@
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="en_US">
 			<Text>Special close combat support</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="en_US">
+			<Text>mental image room</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="en_US">
+			<Text>The characteristic area of ​​the Nile God's Domain, replacing the Holy Land, initially unlocked, has a lower cost and will not increase in price, can be built regardless of population demand, +3 [ICON_Housing] housing, without any adjacent bonus and has ten expert slots. After completion, the +2 [ICON_Faith] faith for each [ICON_Citizen] citizen in the city</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="en_US">
+			<Text>Neuhansa Heavy Industries</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="en_US">
+			<Text>The characteristic area of ​​the Nile God's Domain, an alternative to the industrial area, is initially unlocked, is free to build and will not increase in price, can be built regardless of population demand, +3 [ICON_Housing] housing, does not have any adjacent bonuses and has ten expert slots. After completion, the +2 [ICON_Production] productivity per [ICON_Citizen] citizen in the city</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="en_US">
+			<Text>Technology plantation</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="en_US">
+			<Text>Special improvement facilities, only the Modifier Leader of the Nile God Realm can build, +2 [ICON_Food] Food + 2 [ICON_Gold] Gold Coin + 1 [ICON_Science] Technology + 1 [ICON_Culture] Culture + 5 [ICON_Housing] Housing + 2 [ICON_Amenities ] Habitability, more output can be obtained after researching related technologies, allowing construction on floodplains, oases, and swamps with no resources, and cannot be built next to another technological plantation</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="en_US">
+			<Text>Nile God's Domain</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="en_US">
+			<Text>Nile God's Domain</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="en_US">
+			<Text>Nile God's Domain</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="en_US">
+			<Text>Divine Realm-Nile</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="en_US">
+			<Text>Desert Plains and Desert Hills +2 [ICON_Food] Food +2 [ICON_Production] Productivity +1 [ICON_Science] Research, Grassland Floodplain +2 [ICON_Production] Productivity +3 Charisma, Plain Floodplain +1 [ICON_Food] Food +1 [ICON_Production ] Productivity +3 Charisma, Desert Floodplains +2 [ICON_Gold] Gold +3 Charisma, Woods provide -3 Charisma, Allow farmland to be built on Desert Floodplains, +1 [ICON_Gold] Gold per [ICON_Citizen] citizen</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

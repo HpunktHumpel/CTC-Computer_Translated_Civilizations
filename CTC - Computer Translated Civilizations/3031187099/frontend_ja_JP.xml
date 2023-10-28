@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Fri Oct 20 17:18:30 2023-->
+<!-- Sat Oct 28 11:39:35 2023-->
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ja_JP">
@@ -10,7 +10,7 @@
 			<Text>神域・聖樹</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ja_JP">
-			<Text>都市タイル内の森林に +1 [ICON_Production] 生産性に +2 [ICON_Food] 食料、熱帯雨林に +2 [ICON_Production] 生産性に +1 [ICON_Food] 領土タイルの食料、森林、熱帯雨林に +3</Text>
+			<Text>+1[ICON_Production]生産 +2[ICON_Food]都市タイル内の森林の食料、+2[ICON_Production]生産 +1[ICON_Food]熱帯雨林の食料、+3領土タイル内および内蔵保護区内の森林および熱帯雨林のカリスマ +建物の [ICON_Production] 生産性 300%</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ja_JP">
 			<Text>聖樹の領域</Text>
@@ -22,13 +22,13 @@
 			<Text>コレクター組織</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>[COLOR:ResMilitaryLabelCS]すべての軍事ユニットを構築することはできません[ENDCOLOR]が、モディファイアとサポートユニットは構築できます。ビルダー、スパイ、サポートユニットは、[ICON_Faith]信仰を使用していつでも購入できます[NEWLINE]モディファイアはテクノロジーや自治体の開発の増加によって変化します[ICON_Strength] の戦闘効果、[COLOR:ResMilitaryLabelCS] ですが、[ICON_Gold] の維持費も増加します [ENDCOLOR]。ユニットが完成すると、[ICON_Strength] の戦闘力と [ICON_Ranged] の遠距離攻撃力を都市に提供することはできず、連隊や軍隊に編成することもできません。</Text>
+			<Text>[COLOR:ResMilitaryLabelCS]すべての軍事ユニットを構築することはできません[ENDCOLOR]が、モディファイアとサポートユニットは構築できます。ビルダー、スパイ、サポートユニットは、[ICON_Faith]信仰を使用していつでも購入できます[NEWLINE]モディファイアはテクノロジーや自治体の開発の増加によって変化します[ICON_Strength] の戦闘効果、[COLOR:ResMilitaryLabelCS] ですが、[ICON_Gold] の維持費も増加します [ENDCOLOR]。ユニットが完成すると、[ICON_Strength] の戦闘力と [ICON_Ranged] の長距離攻撃力を都市に提供することはできず、連隊や軍隊に編成することもできません。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="ja_JP">
 			<Text>ミーミルシステム</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>保護区の代替となる聖樹の領域の特徴的なエリアは、最初はロック解除されており、低コストで価格が上昇することはなく、人口需要に関係なく建設できます。 [NEWLINE] Mitre システムは、周囲のセルに +2 [ICON_Gold] 金貨と +2 [ICON_Production] の生産性を提供します (建設されていない場合でも)。完成後、周囲のセルは +3 の魅力を受け取ります。 [NEWLINE]古代の森が建設された後、通常以上の魅力値を持つ周囲のセルは +2 [ICON_Food] +2 食料 [ICON_Faith] +1 [ICON_Science] 科学研究を獲得します。 [NEWLINE]シェルターが建設された後、平均以上の魅力を持つ周囲のセルは +1 [ICON_Production] +1 生産性 [ICON_Gold] +2 金貨 [ICON_Science] 科学研究を獲得します。 [NEWLINE]上記のボーナスは、セルの設備が改善されているかどうかに関係なく獲得できます。</Text>
+			<Text>保護区の代替となる聖樹の領域の特徴的なエリアは、最初はロック解除されており、低コストで価格が上昇することはなく、人口需要に関係なく建設できます。 [NEWLINE] Mitre システムは、周囲のセルに +2 [ICON_Gold] 金貨と +2 [ICON_Production] の生産性を提供します (建設されていない場合でも)。完成後、周囲のセルは +3 の魅力を受け取ります。 [NEWLINE]古代の森が建設された後、魅力値が普通以上の周囲のセルには、+2 [ICON_Food] 食料 +2 [ICON_Faith] 信仰 +2 [ICON_Science] 研究が追加されます。 [NEWLINE]シェルターが建設されると、平均以上の魅力を持つ周囲のセルの生産性 +2 [ICON_Production] +2 [ICON_Gold] 金貨 +2 [ICON_Science] 研究が得られます。 [NEWLINE]上記のボーナスは、セルの設備が改善されているかどうかに関係なく獲得できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="ja_JP">
 			<Text>猫部屋の管理</Text>
@@ -142,13 +142,13 @@
 			<Text>小型武器修正剤</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>特別なユニット。一部のモディファイア リーダーのみが訓練できます。重火器モディファイアよりも強力な機動力を持っていますが、近接戦闘での有効性は非常に低いです。このモディファイアは慎重に配備してください。[NEWLINE][COLOR:ResMilitaryLabelCS] ユニットを可能にする近接技術を研究してください。戦闘の増加を実現します。有効性[ENDCOLOR]</Text>
+			<Text>特別なユニット。一部のモディファイア リーダーのみが訓練できます。重火器モディファイアよりも強力な機動性を持っていますが、近接戦闘の有効性は非常に低い[NEWLINE][COLOR:ResMilitaryLabelCS] 近接テクノロジーを研究することで、ユニットの戦闘有​​効性を向上させることができます[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="ja_JP">
 			<Text>論理のサイクル</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>独自の戦闘効果を持つユニークな支援ユニットです 初期からいくつかの特殊能力を持っています 通常の改造機よりも高い機動力を持ち、編隊ユニットをどこまでも護衛することができます [COLOR: ResMilitaryLabelCS] ただし、このユニットの維持コストは非常に高くなります高いので気をつけてください。 [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] 軽騎兵と重騎兵のテクノロジーを研究すると、ユニットの戦闘効率を向上させることができます[ENDCOLOR]</Text>
+			<Text>特別支援ユニットであり、独自の戦闘力を持ち、全ての編隊ユニットはこのユニットの移動力を得る。 [COLOR:ResMilitaryLabelCS]このユニットの維持費は非常に高いので、慎重に構築してください。 [ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS] 軽騎兵と重騎兵のテクノロジーを研究すると、ユニットの戦闘効率を向上させることができます[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="ja_JP">
 			<Text>ヘラ</Text>
@@ -181,7 +181,7 @@
 			<Text>毎日元気いっぱいのリヴァイアサンは、たまに戸惑うところが可愛い男の子です♪無邪気で活発な性格ですが、意外と嫉妬深いので、彼女の前ではあまりヴィダルに近づかないでください。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_NAME" Language="ja_JP">
-			<Text>ビダル</Text>
+			<Text>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_DESCRIPTION" Language="ja_JP">
 			<Text>凍てついた原始地帯から連れ戻されたモディファイアは、長年の孤独な生活から少々冷たく孤独な印象を持ち、対人コミュニケーションが苦手なようだ。</Text>
@@ -196,19 +196,19 @@
 			<Text>大国主</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>「自由な研究と発明を行う」という条件で深宇宙の目に加わった少女は、現在未確認動物学チームで働いている。ただし、雇われているにもかかわらず死体との戦いにはほとんど参加せず、発明とタロットカードにしか興味がない様子。</Text>
+			<Text>「自由な研究と発明を行う」という条件で深宇宙の目に加わった少女は、現在未確認動物学チームで働いている。しかし、雇われているとはいえ死体との戦いにはほとんど参加せず、発明とタロットカードにしか興味がないようだ。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_NAME" Language="ja_JP">
 			<Text>ヘイムダル</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>隠された科学チームの主要リーダーの一人であり、「ミーミルシステム」を含む深宇宙の目におけるほとんどのAIシステムを開発しました。視覚的な骨格を完全に排除することを目標に、あらゆる作業において正確さと効率性を追求します。</Text>
+			<Text>隠された科学チームの主要リーダーの 1 人であり、「ミーミル システム」を含む、深宇宙の目における AI システムのほとんどを開発しました。視覚的な骨格を完全に排除することを目標に、あらゆる作業において正確さと効率性を追求します。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_NAME" Language="ja_JP">
 			<Text>ホーデル</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>情報部の一員であるホーデルと妹のバドルは双子である。妹の明るく寛大な性格とは異なり、ホーデルは妹の光に黙って従うだけで、自分自身をあまり明らかにしません。</Text>
+			<Text>情報課のメンバーであるホーデルと妹のバドルは双子です。妹の明るく寛大な性格とは異なり、ホーデルは妹の光に黙って従うだけで、自分自身をあまり明らかにしません。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHAOXILISI_RELOAD_DESCRIPTION" Language="ja_JP">
 			<Text>オシリスと全く同じ姿をしているが、内面の支配的な性格は狂気の「冥王星」であり、強大な力を持ち、他の修飾者との協力を軽視する。</Text>
@@ -235,7 +235,7 @@
 			<Text>{LOC_TECH_GUNPOWDER_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: ユニットの戦闘力 +10[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 -1[ICON_Gold] (維持費)[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
 			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] ゴールド コイン (維持費)[ENDCOLOR]</Text>
@@ -289,7 +289,7 @@
 			<Text>{LOC_CIVIC_MOBILIZATION_NAME} の戦闘力が {1_Amount} 増加します</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_IRON_WORKING_NAME} の戦闘力 + {1_Amount}</Text>
+			<Text>{LOC_TECH_IRON_WORKING_NAME} の戦闘力が {1_Amount} 増加します</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
 			<Text>{LOC_TECH_APPRENTICESHIP_NAME} の戦闘力が {1_Amount} 増加します</Text>
@@ -475,7 +475,7 @@
 			<Text>ユニットの戦闘力 +2[ICON_Strength]</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_1_MOVENENT_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>ユニット+1[ICON_Movement]移動</Text>
+			<Text>ユニット+1[ICON_Movement]の移動</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_4_1_ESCORT_RELOAD_DESCRIPTION" Language="ja_JP">
 			<Text>ユニットの戦闘力は +4 [ICON_Strength]、+1 [ICON_Movement] の移動力を持ち、すべての編隊ユニットは付随するユニットの [ICON_Movement] の移動力を獲得します。</Text>
@@ -577,7 +577,7 @@
 			<Text>波を切る剣</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_B_SIKADI_RELOAD_NAME" Language="ja_JP">
-			<Text>キー「チョッピングウェーブ」</Text>
+			<Text>キー「刻む波」</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_SIKADI_RELOAD_NAME" Language="ja_JP">
 			<Text>スーの氷の深淵</Text>
@@ -628,7 +628,7 @@
 			<Text>Key「ボーンソウル」</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_A_SHAOXILISI_RELOAD_NAME" Language="ja_JP">
-			<Text>ウィンドロード</Text>
+			<Text>ストームタイラント</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_SHAOXILISI_RELOAD_NAME" Language="ja_JP">
 			<Text>「ナイジリヒト王」のキー</Text>
@@ -673,13 +673,13 @@
 			<Text>極地科学研究居住区</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設、一部の修飾リーダーのみが建設可能、+1[ICON_Culture]文化+1[ICON_Production]生産性、さまざまな隣接する地形と改善施設は追加の生産物を得ることができ、関連技術を研究した後、より多くの[ ICON_Food]食品を入手できます, [ICON_Gold] の金貨と [ICON_Production] の生産性は、凍土、凍土の丘、雪の上にのみ建設できます。</Text>
+			<Text>特別な改善施設、一部の Modifier リーダーのみが建設可能、+1 [ICON_Culture] 文化 +1 [ICON_Production] 生産性、さまざまな隣接する地形と改善施設は追加の生産物を得ることができ、関連技術を研究した後、より多くの [ICON_Food] 食料を入手できます, [ICON_Gold] の金貨と [ICON_Production] の生産性は、凍土、凍土の丘、雪の上にのみ建設できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="ja_JP">
 			<Text>大型科学研究船</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設。一部のモディファイアー リーダーのみが建設できます。{LOC_TECH_SHIPBUILDING_NAME}、+1[ICON_Food] 食品 +1[ICON_Culture] 文化によってロック解除されます。隣接する別の改善施設は追加の出力を取得できます。関連技術を研究した後に取得できます。その他の出力。</Text>
+			<Text>特別な改善施設。一部のモディファイア リーダーのみが建設できます。{LOC_TECH_SHIPBUILDING_NAME}、+1[ICON_Food] 食品 +1[ICON_Culture] 文化によってロック解除されます。隣接する別の改善施設は追加の出力を取得できます。関連技術を研究した後に取得できます。その他の出力。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_NAME" Language="ja_JP">
 			<Text>海事科学研究プラットフォーム</Text>
@@ -703,7 +703,7 @@
 			<Text>天鹿貿易</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>天源神界の特徴的なエリアは、商業センターの代替であり、最初はロックが解除されており、コストが低く、価格が上昇することはなく、人口の需要に関係なく建設できます。ユニークな [ICON_Food] 食品隣接ボーナスを特徴とし、[ICON_Food] 食品隣接ボーナスは [ICON_Gold] ゴールド コインも提供します。完了後、2 [ICON_TradeRoute] 貿易容量が獲得され、2 つの商人ユニットがギフトとして与えられます。</Text>
+			<Text>天源神界の特徴的なエリアは商業中心地に代わるものであり、最初はロックが解除されていますが、コストは低く、価格は上昇しません、人口需要に関係なく建設できます。ユニークな [ICON_Food] 食品隣接ボーナスを特徴とし、[ICON_Food] 食品隣接ボーナスは [ICON_Gold] ゴールド コインも提供します。完了後、2 [ICON_TradeRoute] 貿易容量が獲得され、2 つの商人ユニットがギフトとして与えられます。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_NAME" Language="ja_JP">
 			<Text>四方原</Text>
@@ -736,7 +736,7 @@
 			<Text>機能の改善。天源神界のモディファイアリーダーのみが建設できます、+3 [ICON_Food] 食料 +2 [ICON_Production] 生産性 +2 [ICON_Faith] 信仰 関連技術を研究した後、より多くの [ICON_Production] 生産性を得ることができます</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ja_JP">
-			<Text>都市を設立すると膨大な領土を得ることができ、住民は山に登ることができ、山 + 2 [ICON_Food] の食料 + 5 [ICON_Gold] 金貨</Text>
+			<Text>都市を建設すると広大な領土を獲得でき、住民は山に登ることができます 山 +2 [ICON_Food] 食料 +5 [ICON_Gold] 金貨</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="ja_JP">
 			<Text>ゴールデンクロウ</Text>
@@ -760,7 +760,7 @@
 			<Text>永遠の太陽</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_3_B_JINWU_NAME" Language="ja_JP">
-			<Text>キーコン - 「ファン・イー・ビーファン」</Text>
+			<Text>キーコン - 「ファン・イー・ビファン」</Text>
 		</Replace>
 		<Replace Tag="LOC_LEVEL_2_A_LINGGUANG_NAME" Language="ja_JP">
 			<Text>天南法門</Text>
@@ -779,6 +779,39 @@
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_LINGGUANG_NAME" Language="ja_JP">
 			<Text>特別な近接戦闘サポート</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="ja_JP">
+			<Text>心象室</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="ja_JP">
+			<Text>ナイル神の領域の特徴的なエリアは、最初にロック解除された聖地に代わるもので、コストが低く、価格が上昇することはなく、人口需要に関係なく建設でき、+3 [ICON_Housing] 住宅、隣接するボーナスはありません。エキスパート スロットが 10 個あります。完了後、都市の [ICON_Citizen] 市民ごとに [ICON_Faith] 信仰が +2 されます</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>ノイハンザ重工業</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>工業地帯に代わるナイル神の領域の特徴的なエリアは、最初はロックが解除されており、自由に建設でき、価格は上昇しません。人口需要に関係なく建設できます。+3 [ICON_Housing] 住宅はありません。隣接するボーナスがあり、エキスパート スロットが 10 個あります。完了後、都市の [ICON_Citizen] 市民ごとに [ICON_Production] の生産性が +2</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>テクノロジープランテーション</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>ナイル神界のモディファイアリーダーのみが建設できる特別な改善施設、 +2 [ICON_Food] 食料 + 2 [ICON_Gold] 金貨 + 1 [ICON_Science] テクノロジー + 1 [ICON_Culture] 文化 + 5 [ICON_Housing] 住宅+ 2 [ICON_Amenities ] 居住性、関連技術を研究した後により多くの生産物を得ることができ、資源のない氾濫原、オアシス、沼地に建設できるようになり、別の技術的プランテーションの隣に建設することはできません</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ja_JP">
+			<Text>ナイル神の領域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ja_JP">
+			<Text>ナイル神の領域</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="ja_JP">
+			<Text>ナイル神の領域</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ja_JP">
+			<Text>神聖な領域-ナイル</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ja_JP">
+			<Text>砂漠平原と砂漠の丘 +2 [ICON_Food] 食料 +2 [ICON_Production] 生産性 +1 [ICON_Science] 研究、草原の氾濫原 +2 [ICON_Production] 生産性 +3 カリスマ性、平原の氾濫原 +1 [ICON_Food] 食料 +1 [ICON_Production ] 生産性+3 カリスマ性、砂漠の氾濫原 +2 [ICON_Gold] ゴールド +3 カリスマ性、森は -3 カリスマ性を提供、砂漠の氾濫原に農地を建設できるようになり、[ICON_Citizen] 市民 1 人につき +1 [ICON_Gold] ゴールド</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
