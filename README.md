@@ -32,6 +32,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | Arknights W |
 | [2172515402](https://steamcommunity.com/sharedfiles/filedetails/?id=2172515402) | 中国文明的新领袖【始皇帝】 | The new leader of Chinese civilization [Shi Huangdi] |
 | [2217426255](https://steamcommunity.com/sharedfiles/filedetails/?id=2217426255) | 三界至尊 九天之主 玉皇大帝 | Supreme of the Three Realms, Lord of Nine Heavens, Jade Emperor |
+| [2612940387](https://steamcommunity.com/sharedfiles/filedetails/?id=2612940387) | LEADER_NIA | LEADER_NIA |
 | [2618207926](https://steamcommunity.com/sharedfiles/filedetails/?id=2618207926) | 久米川牡丹 | Kumegawa Peony |
 | [2623509613](https://steamcommunity.com/sharedfiles/filedetails/?id=2623509613) | LEADER_MAYURI | LEADER_MAYURI |
 | [2627719488](https://steamcommunity.com/sharedfiles/filedetails/?id=2627719488) | LEADER_KOTORI | LEADER_KOTORI |
