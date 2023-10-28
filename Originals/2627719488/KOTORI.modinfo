@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5c7c5d76-6cd5-42d1-ac91-49aab457c0a0" version="1">
+  <Properties>
+    <Name>LEADER_KOTORI</Name>
+    <Description>五河琴里</Description>
+    <Created>1634217655</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>meowantelope</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>XZ.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>TB.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>WB.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>LEADER_KOTORI.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>DW.xml</File>
+      <File>JZ.xml</File>
+      <File>LD.xml</File>
+      <File>WM.xml</File>
+      <File>XM.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>TB.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>WB.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>LEADER_KOTORI.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="NewAction">
+      <File>OPUEIFUYAP.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>DW.xml</File>
+    <File>JZ.xml</File>
+    <File>LD.xml</File>
+    <File>LEADER_KOTORI.dep</File>
+    <File>OPUEIFUYAP.lua</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/QQQ.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/QQQ.blp</File>
+    <File>TB.xml</File>
+    <File>WB.xml</File>
+    <File>WM.xml</File>
+    <File>XM.xml</File>
+    <File>XZ.xml</File>
+  </Files>
+</Mod>
