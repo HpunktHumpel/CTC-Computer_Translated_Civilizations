@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="771632eb-f292-494f-9ffe-8ef859544423" version="1">
+  <Properties>
+    <Name>TOKISAKI KURUMI</Name>
+    <Description>关于我找不到狂三mod就自己做了一个这档事情。
+东抄西抄凑出来的，有亿点小bug，问题不大。
+将就着玩吧。</Description>
+    <Created>1633069214</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>meowantelope</Authors>
+    <SpecialThanks>B站up主Hemmelfort的教学视频</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text.xml</File>
+      <File>ETEXT.xml</File>
+      <File>RTEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>TOKISAKI KURUMI.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Leaders.xml</File>
+      <File>Civilization.xml</File>
+      <File>Buildings.xml</File>
+      <File>Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text.xml</File>
+      <File>RTEXT.xml</File>
+      <File>ETEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>TOKISAKI KURUMI.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="jb">
+      <File>kkd.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Buildings.xml</File>
+    <File>Civilization.xml</File>
+    <File>Config.xml</File>
+    <File>ETEXT.xml</File>
+    <File>Icons.xml</File>
+    <File>kkd.lua</File>
+    <File>Leaders.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/TT.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/TT.blp</File>
+    <File>RTEXT.xml</File>
+    <File>Text.xml</File>
+    <File>TOKISAKI KURUMI.dep</File>
+    <File>Units.xml</File>
+  </Files>
+</Mod>

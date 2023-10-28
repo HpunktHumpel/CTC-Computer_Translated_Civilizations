@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_KKD_ABILITY_NAME" Language="en_US">
+			<Text>[COLOR_FLOAT_GOLD]Zafkiel[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KKD_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>
+				[COLOR_FLOAT_GOLD]Aleph[ENDCOLOR]：(if turn % 12 = 1)Our unit moving force has doubled.
+				[NEWLINE][COLOR_FLOAT_GOLD]Bet[ENDCOLOR]：(if turn % 12 = 2)It's not that the unit mobility of our civilization is halved.
+				[NEWLINE][COLOR_FLOAT_GOLD]Gimel[ENDCOLOR]：(if turn % 12 = 3)All units add 33 experience points.
+				[NEWLINE][COLOR_FLOAT_GOLD]Dalet[ENDCOLOR]：(if turn % 12 = 4)All units recover 33 health points.
+				[NEWLINE][COLOR_FLOAT_GOLD]Hei[ENDCOLOR]：(if turn % 12 = 5)Unit has a 33% chance of doing double damage.
+				[NEWLINE][COLOR_FLOAT_GOLD]Vav[ENDCOLOR]：(if turn % 12 = 6)Killing a unit produces an avatar.
+				[NEWLINE][COLOR_FLOAT_GOLD]Zayin[ENDCOLOR]：(if turn % 12 = 7)Units that are not our civilization cannot operate. (Time stops)
+				[NEWLINE][COLOR_FLOAT_GOLD]Het[ENDCOLOR]：(if turn % 12 = 8)Shadow appeared in the capital.
+				[NEWLINE][COLOR_FLOAT_GOLD]Tet[ENDCOLOR]：(if turn % 12 = 9)Full view.
+				[NEWLINE][COLOR_FLOAT_GOLD]Yud[ENDCOLOR]：(if turn % 12 = 10)Get three messengers.
+				[NEWLINE][COLOR_FLOAT_GOLD]Yud·Aleph[ENDCOLOR]：(if turn % 12 = 11)Get the technology you're studying now.
+				[NEWLINE][COLOR_FLOAT_GOLD]Yud·Bet[ENDCOLOR]：(if turn % 12 = 0)3% probability of triggering bug (reverse angel).
+				[NEWLINE][COLOR_FLOAT_RAD]----------reverse----------[ENDCOLOR]
+				[NEWLINE][COLOR_FLOAT_GOLD]Lucifuge[ENDCOLOR]
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Aries[ENDCOLOR]:(if turn % 12 = 1)Unit attack will make the enemy move  -1
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Taurus[ENDCOLOR]:(if turn % 12 = 2)Attack has a 33% probability of randomly transmitting enemy units to other locations.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Gemini[ENDCOLOR]:(if turn % 12 = 3)All units have a 30% probability of producing another self (3 at most).
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Cancer[ENDCOLOR]:(if turn % 12 = 4)There is a 33% chance of causing 33 additional damage when attacking a unit.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Leo[ENDCOLOR]：(if turn % 12 = 5)Unit death produces space earthquake, causing 33 damage to surrounding units.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Virgo[ENDCOLOR]:(if turn % 12 = 6)3% probability of triggering bug (reverse angel).
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Libra[ENDCOLOR]：(if turn % 12 = 7)Reversing the cause and effect in space and rebounding the opponent's attack.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Scorpio[ENDCOLOR]:(if turn % 12 = 8)Killing a unit will create an avatar.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Sagittarius[ENDCOLOR]:(if turn % 12 = 9)Attack has a 33% probability of banishing the enemy to other space (second kill).
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Capricornus[ENDCOLOR]:(if turn % 12 = 10)The attacking unit has 33% reset attack. (If you are lucky, you can attack indefinitely)
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Aquarius[ENDCOLOR]：(if turn % 12 = 11)Our unit has resumed 11 HP for three rounds since the beginning of this round.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Pisces[ENDCOLOR]：(if turn % 12 = 0)Jun Ji appeared in the capital.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_xxxyyy_NAME" Language="en_US">
+			<Text>reverse</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_YudBet_NAME" Language="en_US">
+			<Text>   </Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_ygzb_NAME" Language="en_US">
+			<Text>reset</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_yebz_NAME" Language="en_US">
+			<Text>   </Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_Capricornus_NAME" Language="en_US">
+			<Text>reset</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_Taurus_NAME" Language="en_US">
+			<Text>reverse</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_Cancer_NAME" Language="en_US">
+			<Text>Dimension chop</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_Leo_NAME" Language="en_US">
+			<Text>Be injured by earthquake</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_Sagittarius_NAME" Language="en_US">
+			<Text>banish</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FKKD_ABILITY_Hei_NAME" Language="en_US">
+			<Text>Crit</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KURUMI_QUOTE" Language="en_US">
+			<Text>The man is lazy and has written nothing.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_KURUMI_NAME" Language="en_US">
+			<Text>warn</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_KKD_ABILITY_NAME" Language="en_US">
+			<Text>Elohim</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_KKD_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>Turn number MOD12 [function mod(TURN,12)] is regarded as QUEEN ability, and turn number corresponds to 12 different abilities respectively</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YHDZZ_NAME" Language="en_US">
+			<Text>DATE·A·BULLET</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YHDZZ_ADJECTIVE" Language="en_US">
+			<Text>DATE·A·BULLET</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YHDZZ_DESCRIPTION" Language="en_US">
+			<Text>DATE·A·BULLET</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_KURUMI_NAME" Language="en_US">
+			<Text>TOKISAKI KURUMI</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_KURUMI_DESCRIPTION" Language="en_US">
+			<Text>ALAALA</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_KURUMI_DEFAULT" Language="en_US">
+			<Text>
+				If, just if, year after year, July 7th keeps raining, will the Cowherd and Weaver Girl miss each other?
+				[NEWLINE] Time is gentler than anything else. Even if two people lose the opportunity to meet once a year, the sadness will be cured one day.
+				[NEWLINE] Time is more cruel than anything else. Even if two people once made a vow of eternal love, the true feelings will one day be weathered into dust in the torrent of time.
+				[NEWLINE] When the only moment to confirm each other's existence is constantly deprived by fate, how long can each other in their hearts survive?
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KURUMI_ABILITY_NAME" Language="en_US">
+			<Text>[COLOR_FLOAT_GOLD]Zafkiel[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KURUMI_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>
+				[COLOR_FLOAT_GOLD]Aleph[ENDCOLOR]：(if turn % 12 = 1)Our unit moving force has doubled.
+				[NEWLINE][COLOR_FLOAT_GOLD]Bet[ENDCOLOR]：(if turn % 12 = 2)It's not that the unit mobility of our civilization is halved.
+				[NEWLINE][COLOR_FLOAT_GOLD]Gimel[ENDCOLOR]：(if turn % 12 = 3)All units add 33 experience points.
+				[NEWLINE][COLOR_FLOAT_GOLD]Dalet[ENDCOLOR]：(if turn % 12 = 4)All units recover 33 health points.
+				[NEWLINE][COLOR_FLOAT_GOLD]Hei[ENDCOLOR]：(if turn % 12 = 5)Unit has a 33% chance of doing double damage.
+				[NEWLINE][COLOR_FLOAT_GOLD]Vav[ENDCOLOR]：(if turn % 12 = 6)Killing a unit produces an avatar.
+				[NEWLINE][COLOR_FLOAT_GOLD]Zayin[ENDCOLOR]：(if turn % 12 = 7)Units that are not our civilization cannot operate. (Time stops)
+				[NEWLINE][COLOR_FLOAT_GOLD]Het[ENDCOLOR]：(if turn % 12 = 8)Shadow appeared in the capital.
+				[NEWLINE][COLOR_FLOAT_GOLD]Tet[ENDCOLOR]：(if turn % 12 = 9)Full view.
+				[NEWLINE][COLOR_FLOAT_GOLD]Yud[ENDCOLOR]：(if turn % 12 = 10)Get three messengers.
+				[NEWLINE][COLOR_FLOAT_GOLD]Yud·Aleph[ENDCOLOR]：(if turn % 12 = 11)Get the technology you're studying now.
+				[NEWLINE][COLOR_FLOAT_GOLD]Yud·Bet[ENDCOLOR]：(if turn % 12 = 0)3% probability of triggering bug (reverse angel).
+				[NEWLINE][COLOR_FLOAT_RAD]----------reverse----------[ENDCOLOR]
+				[NEWLINE][COLOR_FLOAT_GOLD]Lucifuge[ENDCOLOR]
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Aries[ENDCOLOR]:(if turn % 12 = 1)Unit attack will make the enemy move  -1
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Taurus[ENDCOLOR]:(if turn % 12 = 2)Attack has a 33% probability of randomly transmitting enemy units to other locations.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Gemini[ENDCOLOR]:(if turn % 12 = 3)All units have a 30% probability of producing another self (3 at most).
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Cancer[ENDCOLOR]:(if turn % 12 = 4)There is a 33% chance of causing 33 additional damage when attacking a unit.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Leo[ENDCOLOR]：(if turn % 12 = 5)Unit death produces space earthquake, causing 33 damage to surrounding units.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Virgo[ENDCOLOR]:(if turn % 12 = 6)3% probability of triggering bug (reverse angel).
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Libra[ENDCOLOR]：(if turn % 12 = 7)Reversing the cause and effect in space and rebounding the opponent's attack.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Scorpio[ENDCOLOR]:(if turn % 12 = 8)Killing a unit will create an avatar.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Sagittarius[ENDCOLOR]:(if turn % 12 = 9)Attack has a 33% probability of banishing the enemy to other space (second kill).
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Capricornus[ENDCOLOR]:(if turn % 12 = 10)The attacking unit has 33% reset attack. (If you are lucky, you can attack indefinitely)
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Aquarius[ENDCOLOR]：(if turn % 12 = 11)Our unit has resumed 11 HP for three rounds since the beginning of this round.
+				[NEWLINE][COLOR_FLOAT_SCIENCE]Pisces[ENDCOLOR]：(if turn % 12 = 0)Jun Ji appeared in the capital.
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NOVIGRADSSS" Language="en_US">
+			<Text>The third field</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_VIZIMASSS" Language="en_US">
+			<Text>The first field</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OXENFURTSSS" Language="en_US">
+			<Text>Second field.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_VENGERBERGSSS" Language="en_US">
+			<Text>The fourth field</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KAER_TROLDESSS" Language="en_US">
+			<Text>The fifth field</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KAER_MORHENSSS" Language="en_US">
+			<Text>The sixth field</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CINTRASSS" Language="en_US">
+			<Text>Seventh field.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BEAUCLAIRSSS" Language="en_US">
+			<Text>Eighth field.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOL_BLATHANNASSS" Language="en_US">
+			<Text>Ninth field</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_VELENSSS" Language="en_US">
+			<Text>Tenth field</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_tenyiSSS" Language="en_US">
+			<Text>Eleven fields</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_tenerSSS" Language="en_US">
+			<Text>Twelve fields</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SHADOW_NAME" Language="en_US">
+			<Text>SHADOW</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_SHADOW_NAME" Language="en_US">
+			<Text>SHADOW</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SHADOW_DESCRIPTION" Language="en_US">
+			<Text>
+				Shadow, 1 maintenance fee, 3 movement force can't be attacked (almost can't be attacked by AI), and can only be obtained by the Eight Bombs.
+				[NEWLINE] when there are 10 shadows and the number of rounds is greater than 120, a white queen (the only one) will be summoned at the beginning of the next round, and the angel will be reversed (if Lucifuge loses Zafkiel, it can be reversed by Virgo).
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_SHADOW_DESCRIPTION" Language="en_US">
+			<Text>Shadow of KURUMI。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_NAME" Language="en_US">
+			<Text>QUEEN</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_QUEEN_NAME" Language="en_US">
+			<Text>QUEEN</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_QUEEN_DESCRIPTION" Language="en_US">
+			<Text>
+				Combat power, health is equal to the number of rounds, mobility is equal to one tenth of the number of rounds, and maintenance cost is equal to one third of the number of rounds.
+				The battle panel does not display extra combat health, but more than 100 health exists in the form of shield. The value of the injured shield is restored to life, and the remaining movement force of the shield is restored at the end of the turn.
+				Maintenance fee is deducted directly at the beginning of the round. (only by reversing the call)
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_QUEEN_DESCRIPTION" Language="en_US">
+			<Text>QUEEN。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EMPTYS_NAME" Language="en_US">
+			<Text>Jun Ji</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_EMPTYS_NAME" Language="en_US">
+			<Text>Jun Ji</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EMPTYS_DESCRIPTION" Language="en_US">
+			<Text>
+				100 combat effectiveness, 12 maintenance costs and 3 mobility, which can only be obtained by Pisces.
+				[NEWLINE] Ability: Big Fantasy, Moriro, Vientiane, Madness, Breaking the Eyes of Sin, 14th Movement: Causal Change.
+				[NEWLINE] When the health value is locked to 100, the injury will reduce the corresponding recognition power (gold coin), which is invalid for force majeure.
+				In order to maintain its own existence, it cannot be used (invalid) when the recognition power (gold coin) is less than 100.
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_UNIT_EMPTYS_DESCRIPTION" Language="en_US">
+			<Text>Visitors from different worlds.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_NEKO_ROOM_NAME" Language="en_US">
+			<Text>cat cafe</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NEKO_ROOM_DESCRIPTION" Language="en_US">
+			<Text>
+				A cat with a special appearance named San San, etc. How is it a building? Regardless of the first lu for worship.
+				[NEWLINE]+3 housing, +3 livability, 3 maintenance, 333 hammer (which can be superimposed with the arena).
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_MALE_0" Language="en_US">
+			<Text>0</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_MALE_1" Language="en_US">
+			<Text>1</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_MALE_2" Language="en_US">
+			<Text>2</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_MALE_3" Language="en_US">
+			<Text>KURUMI</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_MALE_4" Language="en_US">
+			<Text>4</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_MALE_5" Language="en_US">
+			<Text>5</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_FEMALE_6" Language="en_US">
+			<Text>6</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_FEMALE_7" Language="en_US">
+			<Text>7</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_FEMALE_8" Language="en_US">
+			<Text>8</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_FEMALE_88" Language="en_US">
+			<Text>88</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_FEMALE_9" Language="en_US">
+			<Text>9</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YHDZZ_FEMALE_10" Language="en_US">
+			<Text>10</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
