@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="76e25f4e-9363-427a-b7d3-079294594ecd" version="2">
+  <Properties>
+    <Name>深空之眼 雏心·奥西里斯</Name>
+    <Description>深空之眼 雏心·奥西里斯 需要 深空之眼 重置版核心代码才能游玩</Description>
+    <Created>1698370621</Created>
+    <Teaser>深空之眼 雏心·奥西里斯</Teaser>
+    <Authors>HK433</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="af157363-c730-4c81-b2bc-93f07eae9780" title="深空之眼 重置版核心代码" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_ExpansionVI.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_VI.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>CONFIG_AETHERGAZER_EXPANSION_VI.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_VI.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_VI.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_ExpansionVI.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_VI.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>CIVILIZATION_AETHERGAZER_EXPANSION_VI.sql</File>
+      <File>LEADER_AETHERGAZER_EXPANSION_VI.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_VI.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_VI.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Aethergazer_ExpansionVI.dep</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>CIVILIZATION_AETHERGAZER_EXPANSION_VI.sql</File>
+    <File>COLOR_AETHERGAZER_EXPANSION_VI.xml</File>
+    <File>CONFIG_AETHERGAZER_EXPANSION_VI.sql</File>
+    <File>ICON_AETHERGAZER_EXPANSION_VI.xml</File>
+    <File>LEADER_AETHERGAZER_EXPANSION_VI.sql</File>
+    <File>Platforms/MacOS/BLPs/AOXILISIDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/AOXILISIDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>TEXT_AETHERGAZER_EXPANSION_VI.sql</File>
+  </Files>
+</Mod>
