@@ -150,21 +150,28 @@ Auto-generated translations for the following mods are currently included in thi
 | [3037121051](https://steamcommunity.com/sharedfiles/filedetails/?id=3037121051) | [TOUHOU]东方project 丰聪耳神子 | [TOUHOU]Touhou project Feng Conger Shenzi |
 | [3037909027](https://steamcommunity.com/sharedfiles/filedetails/?id=3037909027) | 深空之眼 夜之寄生·霍德尔 重置版 | Eye of Deep Space Night Parasite Hodel Remastered Edition |
 | [3038497120](https://steamcommunity.com/sharedfiles/filedetails/?id=3038497120) | 小尾巴七饭所领导的谷莠村 | Guchi Village led by Little Tail Qifan |
+| [3045135418](https://steamcommunity.com/sharedfiles/filedetails/?id=3045135418) | 少女前线 核心代码 | Girls Frontline core code |
 | [3050577922](https://steamcommunity.com/sharedfiles/filedetails/?id=3050577922) | 宋朝：宋徽宗 | Song Dynasty: Song Huizong |
 | [3051035869](https://steamcommunity.com/sharedfiles/filedetails/?id=3051035869) | 深空之眼 乌手中十曜终结你的恶行 | The Eye of Deep Space, the ten rays in the black hand put an end to your evil deeds |
 | [3058578823](https://steamcommunity.com/sharedfiles/filedetails/?id=3058578823) | 37 1999 | 37 1999 |
 | [3059867478](https://steamcommunity.com/sharedfiles/filedetails/?id=3059867478) | 深空之眼 雏心·奥西里斯 | Eye of Deep Space Hinaxin Osiris |
 
+##How to use this mod?
+1. install this mod
+2. install any of the auto-translated mods (see above)
+3. enjoy auto-translated texts
 
-## How does it work?
-I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports[*] a request for translation is send to google.translate.
+##How does it work?
+I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports* a request for translation is send to google.translate. These translations are collected and supplied in this mod.
 
-Civ VI uses two file formats for modding and localization (translations): XML and SQL.  
-Parsing XML is pretty staight forward and - more or less - easy to do.  
-SQL files are much less structured and much harder to parse.
+Civ VI uses two file formats for modding and localization (translations): XML and SQL.
+Parsing XML is pretty staight forward and - more or less - easy to do.
+SQL files can be much less structured and much harder to parse and offer many different ways to insert and alter texts.
+So not every Civ VI civilization mod can be translated by this python script.
 
-**At this moment only text definition files in XML format are supported!**  
-So not every Civ VI civilization mod can be translated by this python script (yet).
+##What does NOT work?
+This mod can only translate texts that support Civ VI's translation system. Unfortunately, most mods do not use translatable texts for their name, description and teaser in the modinfo file (sad but true). So these information (the name of the mod, its description and its teaser) will be displayed as given in the modinfo file (most likely as "squares") and cannot be translated (as far as I know und understand). And this information (the name of the mod, its description and its teaser) is displayed in "Addition Contents" -> "Mods".
+All other (translatable) texts should be displayed in the language of your choice (if officially supported), like in the game setup and in game.
 
-
-[*] Officially known and supported languages by Civilization VI: en_US, fr_FR, de_DE, it_IT, es_ES, ja_JP, ru_RU, pl_PL, ko_KR, zh_Hans_CN, zh_Hant_HK
+[*] Officially known and supported languages by Civilization VI:
+en_US, fr_FR, de_DE, it_IT, es_ES, ja_JP, ru_RU, pl_PL, ko_KR, zh_Hans_CN, zh_Hant_HK

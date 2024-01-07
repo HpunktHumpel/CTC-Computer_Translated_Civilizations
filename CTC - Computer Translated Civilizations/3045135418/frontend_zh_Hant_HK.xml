@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Jan  7 19:06:39 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位[ICON_Movement]移動不受地形懲罰</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_HEAVY_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>對抗重騎兵+12[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_LIGHT_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>對抗輕騎兵+12[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_65_COMBAT_VS_CLASS_GIANT_DEATH_ROBOT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>對末日機甲+65[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位對城防造成全額傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}：單位+7[ICON_Strength]戰鬥力，[COLOR:ResMilitaryLabelCS]每回合-3[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}：單位+10[ICON_Strength]戰鬥力，[COLOR:ResMilitaryLabelCS]每回合-3[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}：單位+16[ICON_Strength]戰鬥力，[COLOR:ResMilitaryLabelCS]每回合-1[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}：單位+9[ICON_Strength]戰鬥力，[COLOR:ResMilitaryLabelCS]每回合-1[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}：單位+10[ICON_Strength]戰鬥力，[COLOR:ResMilitaryLabelCS]每回合-1[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}：單位+10[ICON_Strength]戰鬥力，[COLOR:ResMilitaryLabelCS]每回合-1[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}：單位+10[ICON_Strength]戰鬥力，[COLOR:ResMilitaryLabelCS]每回合-1[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TECH_COMPOSITES_NAME}：單位+25[ICON_Strength]戰鬥力,[COLOR:ResMilitaryLabelCS]每回合-1[ICON_Gold]金幣（維護費）[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Amount}戰鬥力，來自{LOC_CIVIC_NATIONALISM_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Amount}戰鬥力，來自{LOC_CIVIC_MOBILIZATION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Amount}戰鬥力，來自{LOC_TECH_IRON_WORKING_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Amount}戰鬥力，來自{LOC_TECH_APPRENTICESHIP_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Amount}戰鬥力，來自{LOC_TECH_GUNPOWDER_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Amount}戰鬥力，來自{LOC_TECH_MILITARY_SCIENCE_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Amount}戰鬥力，來自{LOC_TECH_REPLACEABLE_PARTS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_Amount}戰鬥力，來自{LOC_TECH_COMPOSITES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>動員突擊戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>臨時動員的戰術人形，能對城牆造成全額傷害[NEWLINE][COLOR:ResMilitaryLabelCS]該單位無法獲得任何經驗[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>老練突擊戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>僅透過模擬訓練或透過使用作戰記錄提升亦或是某位不吃不喝不給彈藥的戰術人形(?)用血汗帶飛的戰術人形，能對城牆造成全額傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>進階突擊戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>透過模擬訓練，且有一定的實戰經驗的戰術人形，能對城牆造成全額傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>精英突擊戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>裝備精良且作戰經驗豐富的戰術人形，能對城牆造成全額傷害</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>徵召戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>暫時調動負責後勤的戰術人形，常規款戰術人形，擁有[ICON_Range]範圍為2的[ICON_Ranged]遠程戰鬥力，但[ICON_Ranged]遠程戰鬥力較弱[NEWLINE][COLOR:ResMilitaryLabelCS]該單位無法獲得任何經驗[ ENDCOLOR][NEWLINE][COLOR:ResMilitaryLabelCS]研究{LOC_TECH_IRON_WORKING_NAME}、{LOC_TECH_APPRENTICESHIP_NAME}能使單位戰鬥力提升[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>老練戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>僅透過模擬訓練或透過使用作戰記錄提升亦或是某位不吃不喝不給彈藥的戰術人形(?)用血汗帶飛的戰術人形，常規款戰術人形，擁有[ICON_Range]範圍為2的[ ICON_Ranged]遠程戰鬥力，但[ICON_Ranged]遠程戰鬥力較弱[NEWLINE][COLOR:ResMilitaryLabelCS]研究{LOC_TECH_MILITARY_SCIENCE_NAME}能使單位戰鬥力提升[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>進階戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>透過模擬訓練，且有一定的實戰經驗的戰術人形，常規款戰術人形，擁有[ICON_Range]範圍為2的[ICON_Ranged]遠程戰鬥力，但[ICON_Ranged]遠程戰鬥力較弱</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>精英戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>配備精良且作戰經驗豐富的戰術人形，常規款戰術人形，擁有[ICON_Range]範圍為2的[ICON_Ranged]遠程戰鬥力，但[ICON_Ranged]遠程戰鬥力較弱</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>新建重裝戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>從重型建造嶄新出廠的戰術人形，未通過任何測試，擁有比常規戰術人形更厚重的裝甲，且擁有[ICON_Range]範圍為1的[ICON_Ranged]遠程戰鬥力，但[ICON_Movement]移動力緩慢[NEWLINE][ COLOR:ResMilitaryLabelCS]該單位無法獲得任何經驗[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>老練重裝戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>僅透過模擬訓練或透過使用作戰記錄提升亦或是某位不吃不喝不給彈藥的戰術人形(?)用血汗帶飛的戰術人形，擁有比常規戰術人形更厚重的裝甲，且擁有[ICON_Range ]範圍為1的[ICON_Ranged]遠程戰鬥力，但[ICON_Movement]移動力緩慢</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>進階重裝戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>透過模擬訓練，且有一定的實戰經驗的戰術人形，擁有比常規戰術人形更厚重的裝甲，且擁有[ICON_Range]範圍為1的[ICON_Ranged]遠程戰鬥力，但[ICON_Movement]移動力緩慢</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>精英重裝戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>配備精良且作戰經驗豐富的戰術人形，擁有比常規戰術人形更厚重的裝甲，且擁有[ICON_Range]範圍為1的[ICON_Ranged]遠程戰鬥力，但[ICON_Movement]移動力緩慢</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>徵召偵查戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>臨時調動負責後勤的戰術人形,擁有額外的視野，且視野能穿過任何地形，單位[ICON_Movement]移動不受地形懲罰[NEWLINE][COLOR:ResMilitaryLabelCS]該單位無法獲得任何經驗[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_NAME" Language="zh_Hant_HK">
+			<Text>老練偵查戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>僅透過模擬訓練或透過使用作戰記錄提升亦或是某位不吃不喝不給彈藥的戰術人形(?)用血汗帶飛的戰術人形，擁有額外的視野，且視野能穿過任何地形，單位[ICON_Movement]移動不受地形懲罰</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>進階偵查戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>透過模擬訓練，且有一定的實戰經驗的戰術人形， 擁有額外的視野，且視野能穿過任何地形，單位[ICON_Movement]移動不受地形懲罰</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>精英偵查戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>裝備精良且作戰經驗豐富的戰術人形，擁有額外的視野，且視野能穿過任何地形，單位[ICON_Movement]移動不受地形懲罰</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>動員狙擊戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>暫時調動負責後勤的戰術人形，擁有[ICON_Range]範圍為3的[ICON_Ranged]遠程攻擊，[COLOR:ResMilitaryLabelCS]但近戰戰鬥力極度低下[NEWLINE]該單位無法獲得任何經驗[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>老練狙擊戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>僅透過模擬訓練或透過使用作戰記錄提升亦或是某位不吃不喝不給彈藥的戰術人形(?)用血汗帶飛的戰術人形，擁有[ICON_Range]範圍為3的[ICON_Ranged]遠程攻擊， [COLOR:ResMilitaryLabelCS]但近戰戰鬥力極度低下[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>進階狙擊戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>透過模擬訓練，且有一定的實戰經驗的戰術人形，擁有[ICON_Range]範圍為4的[ICON_Ranged]遠程攻擊，[COLOR:ResMilitaryLabelCS]但近戰戰鬥力極度低下[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>精英狙擊戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>配備精良且作戰經驗豐富的戰術人形，擁有[ICON_Range]範圍為4的[ICON_Ranged]遠程攻擊，[COLOR:ResMilitaryLabelCS]但近戰戰鬥力極度低[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>新建反坦克戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>從重型建造嶄新出廠的戰術人形，未通過任何測試，擁有[ICON_Range]範圍為2的[ICON_Bombard]轟炸攻擊，對抗騎兵+12[ICON_Strength]戰鬥力[NEWLINE][COLOR:ResMilitaryLabelCS]該單位無法獲得任何經驗[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>老練反戰車戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>僅透過模擬訓練或透過使用作戰記錄提升亦或是某位不吃不喝不給彈藥的戰術人形(?)用血汗帶飛的戰術人形，擁有[ICON_Range]範圍為3的[ICON_Bombard]轟炸攻擊，對抗騎兵+12[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>進階反戰車戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>過模擬訓練，且有一定的實戰經驗的戰術人形，擁有[ICON_Range]範圍為4的[ICON_Bombard]轟炸攻擊，對抗騎兵+12[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>精英反坦克戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>配備精良且作戰經驗豐富的戰術人形，擁有[ICON_Range]範圍為5的[ICON_Bombard]轟炸攻擊，對抗騎兵+12[ICON_Strength]戰鬥力，對抗末日機甲+67[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_NAME" Language="zh_Hant_HK">
+			<Text>G41</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>活潑可愛的性格，帶著十分黏人的忠犬屬性，接受的命令一定會達成，並喜歡指揮官能摸自己的頭作為獎勵。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_NAME" Language="zh_Hant_HK">
+			<Text>TMP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>生性膽怯，容易害羞的人形少女，是個沉迷於自我妄想的妄想派，常常喋喋不休地自言自語自己的想法，一旦發現被人聽見又會陷入手足無措的地步。但是如果把她逼入「絕境」的話…請做好事態無法控制的心理準備吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>格里芬戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>無法建造原版所有陸地單位和拓荒者，但能建造戰術人形和爬行者[NEWLINE]所有軍事單位+50%戰鬥經驗，但[COLOR:ResMilitaryLabelCS]部分戰術人形無法獲得經驗[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ASSAULT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>近戰攻城</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位無法使用[ICON_Strength]近戰攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_NAME" Language="zh_Hant_HK">
+			<Text>爬行者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>擁有一定防禦能力的特色拓荒者，無法使用近戰攻擊。該單位[COLOR:ResMilitaryLabelCS]造價非常昂貴[ENDCOLOR]，但永不漲價</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_NAME" Language="zh_Hant_HK">
+			<Text>後勤倉庫</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代{LOC_DISTRICT_COMMERCIAL_HUB_NAME}，造價更低，建成後+1[ICON_TradeRoute]貿易容量，並且贈送一個商人單位，具有獨特的[ICON_Gold]金幣相鄰加成。研究{LOC_TECH_IRON_WORKING_NAME}後，[ICON_Gold]金幣相鄰加成也提供[ICON_Production]生產力。區域擁有20點[ICON_Fortified]駐軍生命值。城市擁有城牆後，可執行[ICON_Range]範圍為1[ICON_Ranged]遠端攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_NAME" Language="zh_Hant_HK">
+			<Text>起重機</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代{LOC_DISTRICT_ENCAMPMENT_NAME}，初始解鎖，可建造在市中心周圍，具有獨特的[ICON_Production]生產力相鄰加成，建成後將釋放創建城市時消耗的爬行者。區域僅擁有20點[ICON_Fortified]駐軍生命值。城市擁有城牆後，可執行[ICON_Range]範圍為3[ICON_Ranged]遠端攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_NAME" Language="zh_Hant_HK">
+			<Text>戰爭工廠</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代{LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}，需要{LOC_TECH_INDUSTRIALIZATION_NAME}，造價免費且永不漲價，具有獨特的[ICON_Production]生產力相鄰加成。區域擁有20點[ICON_Fortified]駐軍生命值。城市擁有城牆後，可執行[ICON_Range]範圍為1[ICON_Ranged]遠端攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力來自相鄰的每個區域</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_GOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Gold] 金幣來自相鄰的每個區域</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_FOOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自相鄰的每個區域</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力來自山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力來自水域</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_GOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Gold] 金幣來自山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Gold] 金幣來自水域</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_FOOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自水域</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力來自策略資源</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力來自奢侈品資源</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_GOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Gold] 金幣來自戰略資源</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_GOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Gold] 金幣來自奢侈品資源</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_FOOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自策略資源</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_FOOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自奢侈品資源</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Production] 生產力來自人造奇觀</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Gold] 金幣來自人造奇觀</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Food] 食物來自人造奇觀</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="zh_Hant_HK">
+			<Text>營地</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市不會產生厭戰情緒，單位無需駐紮在回合開始時恢復生命，已改良的單元格+3[ICON_Gold]金幣，+1[icon_Faith]信仰，研究{LOC_TECH_ELECTRICITY_NAME}後再加+2[ICON_Production]生產力。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>格里芬前線戰備隊營地</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>前線戰備隊營地的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="zh_Hant_HK">
+			<Text>前線戰備隊-營地</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_NAME" Language="zh_Hant_HK">
+			<Text>SR-3MP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>活潑張揚、自命不凡的人形，喜歡對他人指手畫腳，作戰中反而會保持安靜，用誇張的手勢取而代之，所以姑且也算是個認真負責的戰鬥者。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="zh_Hant_HK">
+			<Text>情報中心</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市不會產生厭戰情緒，單位無需駐紮在回合開始時恢復生命，所有您創建或攻占的城市一開始便擁有貿易站，創建貿易路線後，目的地城市中將立即出現貿易站。領土內間諜活動-4等級，研究{LOC_TECH_STIRRUPS_NAME}，{LOC_TECH_BALLISTICS_NAME}，{LOC_TECH_COMBUSTION_NAME}和{LOC_TECH_COMPOSITES_NAME}分別+1外交能見度</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>格里芬前線戰備隊情報中心</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>前線戰備隊情報中心的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="zh_Hant_HK">
+			<Text>前線戰備隊-情報中心</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>格里芬前線戰備隊情報中心的情報優勢等級1</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_STIRRUPS_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>使用格里芬情報中心部門的戰術人形領袖，研究{LOC_TECH_STIRRUPS_NAME}獲得情報優勢</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>您情報中心的記者報道了一則新聞</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>格里芬前線戰備隊情報中心的情報優勢等級2</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_BALLISTICS_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>使用格里芬情報中心部門的戰術人形領袖，研究{LOC_TECH_BALLISTICS_NAME}獲得情報優勢</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>您情報中心的線人打聽到</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>格里芬前線戰備隊情報中心的情報優勢等級3</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMBUSTION_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>使用格里芬情報中心部門的戰術人形領袖，研究{LOC_TECH_COMBUSTION_NAME}獲得情報優勢</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>您情報中心的外交官報告到</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>格里芬前線戰備隊情報中心的情報優勢等級4</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMPOSITES_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>使用格里芬情報中心部門的戰術人形領袖，研究{LOC_TECH_COMPOSITES_NAME}獲得情報優勢</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>您情報中心的特務發來密電</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_NAME" Language="zh_Hant_HK">
+			<Text>科技中心</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代{LOC_DISTRICT_CAMPUS_NAME}，{LOC_TECH_IRRIGATION_NAME}解鎖，造價免費且永不漲價，具有獨特的[ICON_Food]食物相鄰加成。 [ICON_Food]食物相鄰加成也提供[ICON_Science]科研和[ICON_Gold]金幣。區域擁有20點[ICON_Fortified]駐軍生命值。城市擁有城牆後，可執行[ICON_Range]範圍為1[ICON_Ranged]遠端攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_NAME" Language="zh_Hant_HK">
+			<Text>發電廠</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代{LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}，造價更低，建成後為所有城市提供+1[ICON_Power]電力，具有獨特的[ICON_Production]生產力相鄰加成。 [ICON_Production]生產力加成也提供[ICON_Gold]金幣。區域擁有20點[ICON_Fortified]駐軍生命值。城市擁有城牆後，可執行[ICON_Range]範圍為1[ICON_Ranged]遠端攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_NAME" Language="zh_Hant_HK">
+			<Text>卡爾98k</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>優雅穩重、充滿貴族氣質的言行，有著極強的榮譽感，命令人的口吻會有種高高在上的威壓，但她豐厚熟練的經驗與實力，深受所有人敬佩和依賴。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_NAME" Language="zh_Hant_HK">
+			<Text>奇異值分解</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>輕浮傲慢、自視甚高的人形，喜歡對周遭的事物指手畫腳，其實是個愛操心的老好人。每次有關戰鬥的言論看似囂張，但在她深不可測的實力和閱歷下，最終都會扭轉為可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_NAME" Language="zh_Hant_HK">
+			<Text>HS.50</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>由於在原項目的檔案已經被抹除，HS.50對自己的過去知之甚少，因此她更加希望能快點融入格里芬。但似乎是因為過去的影響，她只懂得用簡單的戰術技能來應對日常生活，使得她和同伴們的相處很艱難。目前，HS.50正為變得更加親和而努力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SNIPER_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>遠端</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SUPPORT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>近戰支援</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_TACTICS_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>近戰</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ARMORED_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>重騎兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_RECON_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>偵查</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ANTITANK_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>攻城反騎兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>動員支援戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>臨時調動負責後勤的戰術人形，進攻時-25[ICON_Strength]戰鬥力，掠奪只消耗1個[ICON_Movement]移動力。為相鄰的戰術人形小隊+15[ICON_Range]遠程戰鬥力，並增加相鄰單位的治療效果，任意單位從該單位旁開始移動，則+1[ICON_Movement]移動力[NEWLINE][COLOR:ResMilitaryLabelCS]該單位無法獲得任何經驗[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>老練支援戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>僅透過模擬訓練或透過使用作戰記錄提升亦或是某位不吃不喝不給彈藥的戰術人形(?)用血汗帶飛的戰術人形，進攻時-25[ICON_Strength]戰鬥力，掠奪只消耗1個[ICON_Movement]移動力。為相鄰的戰術人形小隊+15[ICON_Range]遠程戰鬥力，並增加相鄰單位的治療效果，任意單位從該單位旁開始移動，則+1[ICON_Movement]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>進階支援戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>透過模擬訓練，且有一定的實戰經驗的戰術人形，進攻時-25[ICON_Strength]戰鬥力，掠奪只消耗1個[ICON_Movement]移動力。為相鄰的戰術人形小隊+15[ICON_Range]遠程戰鬥力，並增加相鄰單位的治療效果，任意單位從該單位旁開始移動，則+1[ICON_Movement]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_NAME" Language="zh_Hant_HK">
+			<Text>精英支援戰術人形小隊</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>裝備精良且作戰經驗豐富的戰術人形，進攻時-25[ICON_Strength]戰鬥力，掠奪只消耗1個[ICON_Movement]移動力。為相鄰的戰術人形小隊+15[ICON_Range]遠程戰鬥力，並增加相鄰單位的治療效果，任意單位從該單位旁開始移動，則+1[ICON_Movement]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ADD_15_COMBAT_FOR_TACTICS_SQUAD_ALLOW_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為1格以內的戰術人形小隊+15[ICON_Range]遠程戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEBUFF_FOR_SUPPORT_SQUAD_GIRLFONTLINE_GIRLFRONTLINE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>進攻時-25[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME" Language="zh_Hant_HK">
+			<Text>潛伏</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>進攻時+15[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME" Language="zh_Hant_HK">
+			<Text>鋼芯彈</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>進攻時+7[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME" Language="zh_Hant_HK">
+			<Text>鎢芯彈</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>進攻時+10[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_NAME" Language="zh_Hant_HK">
+			<Text>熱成像儀</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+3視野範圍且穿越所有​​地形地貌，能夠發現視野內的隱形單位</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_NAME" Language="zh_Hant_HK">
+			<Text>運動戰</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>任何情況下+15[ICON_Strength]戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_NAME" Language="zh_Hant_HK">
+			<Text>快速部署</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2[ICON_Movement]移動力，編隊單位全部獲得陪護單位[ICON_Movement]移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NO_TERRAIN_MOVEMENT_DEBUFF_NAME" Language="zh_Hant_HK">
+			<Text>急行軍</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_NAME" Language="zh_Hant_HK">
+			<Text>FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可愛機靈，有點小自戀的人形，自信的泉源並非實力，而是獨到的眼光。平日擅長撒嬌和講笑話，而戰鬥中即使遭遇失敗也能保持冷靜不會氣餒。</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_ADD_15_COMBAT_FOR_TACTICS_SQUAD" Language="zh_Hant_HK">
+			<Text>+{1_Amount}[ICON_Strength]遠程戰鬥力，來自鄰近支援戰術人形</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_DEBUFF_FOR_SUPPORT_SQUAD" Language="zh_Hant_HK">
+			<Text>{1_Amount}[ICON_Strength]戰鬥力，來自支援戰術人形特性</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>+{1_Amount}[ICON_Strength]戰鬥力，來自{LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_7_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>+{1_Amount}[ICON_Strength]戰鬥力，來自{LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>+{1_Amount}[ICON_Strength]戰鬥力，來自{LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_GIRLFRONTLINE" Language="zh_Hant_HK">
+			<Text>+{1_Amount}[ICON_Strength]戰鬥力，來自{LOC_PROMOTION_ADD_15_COMBAT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_NAME" Language="zh_Hant_HK">
+			<Text>軍械庫</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代{LOC_DISTRICT_CAMPUS_NAME}，需要{LOC_TECH_WRITING_NAME}，造價較低，具有獨特的[ICON_Gold]金幣相鄰加成，[ICON_Gold]金幣相鄰加成也提供[ICON_Science]科研，研究{LOC_TECHTEC_ILOC_TECHTECHCONIING_HING_HCONILOC_TECH_TECHCONIING_HIT_HCONILOIING_HIT_HCONIING_HITSSP)5相鄰加成也提供[ICON_Production]生產力。區域擁有20點[ICON_Fortified]駐軍生命值。城市擁有城牆後，可執行[ICON_Range]範圍為1[ICON_Ranged]遠端攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_NAME" Language="zh_Hant_HK">
+			<Text>太空上行鏈路指揮中心</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>取代{LOC_DISTRICT_SPACEPORT_NAME}，初始解鎖，造價免費且永不漲價，可無視人口需求建造（也並非專業化區域），具有獨特的[ICON_Production]生產力相鄰加成，擁有五個[ICON_Citizen]專家槽，研究{LOC_CIVIC_GUILDS_NAME}，+100%[ICON_Production]生產力相鄰加成。區域擁有20點[ICON_Fortified]駐軍生命值。城市擁有城牆後，可執行[ICON_Range]範圍為1[ICON_Ranged]遠端攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="zh_Hant_HK">
+			<Text>前線營地</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市不會產生厭戰情緒，單位無需駐紮在回合開始時恢復生命，城市內所有單元格+4[ICON_Gold]金幣，研究{LOC_TECH_ECONOMICS_NAME}後再加+2[ICON_Gold]金幣</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>格里芬邊境調查團前線營地</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>邊境調查團前線營地的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="zh_Hant_HK">
+			<Text>邊境調查團-前線營地</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
