@@ -155,6 +155,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3051035869](https://steamcommunity.com/sharedfiles/filedetails/?id=3051035869) | 深空之眼 乌手中十曜终结你的恶行 | The Eye of Deep Space, the ten rays in the black hand put an end to your evil deeds |
 | [3058578823](https://steamcommunity.com/sharedfiles/filedetails/?id=3058578823) | 37 1999 | 37 1999 |
 | [3059867478](https://steamcommunity.com/sharedfiles/filedetails/?id=3059867478) | 深空之眼 雏心·奥西里斯 | Eye of Deep Space Hinaxin Osiris |
+| [3093871819](https://steamcommunity.com/sharedfiles/filedetails/?id=3093871819) | 少女前线 前线战备队 FN-57（游轮女王） | Girls Frontline Front Line FN-57 (Cruise Queen) |
 | [3102682740](https://steamcommunity.com/sharedfiles/filedetails/?id=3102682740) | 深空之眼 灵猫·芭丝特 | Eye of Deep Space Civet Bastet |
 | [3113847826](https://steamcommunity.com/sharedfiles/filedetails/?id=3113847826) | 少女前线 前线战备队 TMP（喵棱镜威力） | Girls Frontline Frontline Ready Team TMP (Meow Prism Power) |
 | [3131003232](https://steamcommunity.com/sharedfiles/filedetails/?id=3131003232) | 少女前线 边境调查团 SVD | Girls Frontline Border Investigation SVD |
