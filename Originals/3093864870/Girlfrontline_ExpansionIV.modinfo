@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="31a3bf3d-8efc-49fc-860e-4f89718204b4" version="2">
+  <Properties>
+    <Name>少女前线 前线战备队 FN57</Name>
+    <Description>少女前线 前线战备队 FN57需要少女前线 核心代码才能使用</Description>
+    <Created>1700830571</Created>
+    <Teaser>少女前线 前线战备队 FN57需要少女前线 核心代码才能使用</Teaser>
+    <Authors>HK433</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="c0b930e0-38f8-4828-9bf2-e761ace04255" title="少女前线 核心代码" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="NewAction">
+      <File>Girlfrontline_ExpansionIV.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_GIRLFRONTLINE_EXPANSION_IV.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>CONFIG_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>ICON_GIRLFRONTLINE_EXPANSION_IV.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="NewAction">
+      <File>Girlfrontline_ExpansionIV.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_GIRLFRONTLINE_EXPANSION_IV.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>CIVILIZATION_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+      <File>LEADER_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>ICON_GIRLFRONTLINE_EXPANSION_IV.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>CIVILIZATION_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+    <File>COLOR_GIRLFRONTLINE_EXPANSION_IV.xml</File>
+    <File>CONFIG_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+    <File>Girlfrontline_ExpansionIV.dep</File>
+    <File>ICON_GIRLFRONTLINE_EXPANSION_IV.xml</File>
+    <File>LEADER_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+    <File>Platforms/MacOS/BLPs/FN57DDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/FN57DDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>TEXT_GIRLFRONTLINE_EXPANSION_IV.sql</File>
+  </Files>
+</Mod>
