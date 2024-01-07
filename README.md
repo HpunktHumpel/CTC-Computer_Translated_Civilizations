@@ -163,6 +163,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3113847826](https://steamcommunity.com/sharedfiles/filedetails/?id=3113847826) | 少女前线 前线战备队 TMP（喵棱镜威力） | Girls Frontline Frontline Ready Team TMP (Meow Prism Power) |
 | [3131003232](https://steamcommunity.com/sharedfiles/filedetails/?id=3131003232) | 少女前线 边境调查团 SVD | Girls Frontline Border Investigation SVD |
 | [3131006758](https://steamcommunity.com/sharedfiles/filedetails/?id=3131006758) | 少女前线 边境调查团 HS.50 | Girls Frontline Border Investigation Team HS.50 |
+| [3132957493](https://steamcommunity.com/sharedfiles/filedetails/?id=3132957493) | 丝碧涅和璐契儿领导的天空城文明 | Sky City Civilization led by Sibinie and Lucier |
 
 ##How to use this mod?
 1. install this mod
