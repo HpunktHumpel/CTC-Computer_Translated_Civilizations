@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="507bd81a-d17b-412b-a295-29c02902d9d7" version="1">
+  <Properties>
+    <Name>LeaderAnQing</Name>
+    <Description>添加了虚拟主播安晴领导的文明</Description>
+    <Created>1704013997</Created>
+    <Teaser>添加了虚拟主播安晴领导的文明</Teaser>
+    <Authors>ShizukaMogami，悸动</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="DB">
+      <File>AQ_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="AT">
+      <File>LeaderAnQing.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="IC">
+      <File>AQ_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="CL">
+      <File>AQ_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateText id="TX">
+      <File>AQ_TEXT.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateAudio id="NewAction">
+      <File>Platforms/Windows/Audio/ANQING_SoundBank.ini</File>
+    </UpdateAudio>
+    <UpdateDatabase id="NewAction">
+      <File>AQ_CIVILIZATION.xml</File>
+      <File>AQ_DISTRICT.xml</File>
+      <File>AQ_LEADER.xml</File>
+      <File>AQ_UNIT.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>LeaderAnQing.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>AQ_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="NewAction">
+      <File>AQ_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>AQ_TEXT.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="NewAction">
+      <File>AnQing.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>AnQing.lua</File>
+    <File>AQ_CIVILIZATION.xml</File>
+    <File>AQ_COLOR.xml</File>
+    <File>AQ_CONFIG.xml</File>
+    <File>AQ_DISTRICT.xml</File>
+    <File>AQ_ICON.xml</File>
+    <File>AQ_LEADER.xml</File>
+    <File>AQ_TEXT.xml</File>
+    <File>AQ_UNIT.xml</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>LeaderAnQing.dep</File>
+    <File>Platforms/Windows/Audio/730938820.wem</File>
+    <File>Platforms/Windows/Audio/ANQING_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/ANQING_SoundBank.ini</File>
+    <File>Platforms/Windows/Audio/ANQING_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/ANQING_SoundBank.xml</File>
+    <File>Platforms/Windows/BLPs/AnQing.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>XLPs/AnQing.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>
