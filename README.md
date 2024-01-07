@@ -156,6 +156,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3058578823](https://steamcommunity.com/sharedfiles/filedetails/?id=3058578823) | 37 1999 | 37 1999 |
 | [3059867478](https://steamcommunity.com/sharedfiles/filedetails/?id=3059867478) | 深空之眼 雏心·奥西里斯 | Eye of Deep Space Hinaxin Osiris |
 | [3113847826](https://steamcommunity.com/sharedfiles/filedetails/?id=3113847826) | 少女前线 前线战备队 TMP（喵棱镜威力） | Girls Frontline Frontline Ready Team TMP (Meow Prism Power) |
+| [3131006758](https://steamcommunity.com/sharedfiles/filedetails/?id=3131006758) | 少女前线 边境调查团 HS.50 | Girls Frontline Border Investigation Team HS.50 |
 
 ##How to use this mod?
 1. install this mod
