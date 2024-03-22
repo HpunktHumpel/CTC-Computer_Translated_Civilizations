@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IronBlood_Text_zh_Hans_CN -->
+<!-- Author: Ophidy -->
+<!-- DateCreated: 3/9/2024 3:31:51 PM -->
+<GameData>
+	<LocalizedText>
+		<!--Civ-->
+		<Replace Tag="LOC_CIVILIZATION_OP_IRONBLOOD_NAME" Language="zh_Hans_CN">
+			<Text>铁血公国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_OP_IRONBLOOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铁血公国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_OP_IRONBLOOD_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>铁血公国的</Text>
+		</Replace>
+		<!--Leader-->
+		<Replace Tag="LOC_LEADER_OP_FRIEDRICH_NAME" Language="zh_Hans_CN">
+			<Text>腓特烈大帝</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_OP_FRIEDRICH" Language="zh_Hans_CN">
+			<Text>铁血海军腓特烈大帝号战列舰，H计划的产物之一。我的孩子，如果失眠的话，就让我为你唱首摇篮曲吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_FRIEDRICH_QUOTE" Language="zh_Hans_CN">
+			<Text>快拉开今日的帷幕吧，奏者们早已急不可耐了！</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_HUTTEN_NAME" Language="zh_Hans_CN">
+			<Text>乌尔里希·冯·胡滕</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_OP_HUTTEN" Language="zh_Hans_CN">
+			<Text>乌尔里希·冯·胡滕，铁血曾经的希望与遗憾。至于对我的到来是感到欣喜还是无所谓，随便你怎么想都行。当然，我也是如此</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_HUTTEN_QUOTE" Language="zh_Hans_CN">
+			<Text>信任是致命的毒药，一旦沉醉其中，结局便是七窍流血。</Text>
+		</Replace>
+		
+		<!--Trait-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IRON_MIND_NAME" Language="zh_Hans_CN">
+			<Text>铁血之志</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IRON_MIND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位受伤后不会蒙受战斗力减益，每失去10生命值则+2 [ICON_STRENGTH] 战斗力。[NEWLINE]所有建筑（包括奇观）基础产出翻倍，且2/3级建筑建成时，提供随机 [ICON_TECHBOOSTED] 尤里卡和 [ICON_CIVICBOOSTED] 鼓舞各1/2个。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SANS_SOUCI_NAME" Language="zh_Hans_CN">
+			<Text>无忧交响</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SANS_SOUCI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从古典时代起，强制交替进入 [ICON_GLORY_DARK_AGE] 黑暗与 [ICON_GLORY_GOLDEN_AGE] 黄金时代。[NEWLINE]每获得1时代得分，为所有城市提供 [ICON_PRODUCTION] 生产力，为你提供 [ICON_SCIENCE] 科技值与 [ICON_CULTURE] 文化值。[NEWLINE]在 [ICON_GLORY_DARK_AGE] 黑暗时代：城市 [ICON_PRODUCTION] 生产力+50%，+1可建造区域；在 [ICON_GLORY_GOLDEN_AGE] 黄金时代：单位+1 [ICON_MOVEMENT] 移动力，+5 [ICON_STRENGTH] 战斗力（这些加成受上一时代累计时代分影响）。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_POET_OF_REVO_NAME" Language="zh_Hans_CN">
+			<Text>蒙昧者书简</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_POET_OF_REVO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无法招募 [ICON_GREATPROPHET] 大预言家，无法建造圣地区域。[NEWLINE]首次建成区域时，永久解锁一个对应政策槽位：[NEWLINE]港口或商业中心：经济政策[NEWLINE]工业区或军营：军事政策[NEWLINE]市政广场或外交区：外交政策[NEWLINE]学院或剧院广场：通配符</Text>
+		</Replace>
+		
+		<!--District-->
+		<Replace Tag="LOC_DISTRICT_OP_KRUPP_NAME" Language="zh_Hans_CN">
+			<Text>克虏伯军工</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_OP_KRUPP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铁血公国特色区域，替代工业区。解锁于“炼铁术”，且建造费用更低。基础拥有+4 [ICON_PRODUCTION] 生产力相邻加成。提供等同于 [ICON_PRODUCTION] 生产力相邻加成的 [ICON_SCIENCE] 科技值。建成该区域及其中建筑时，赠送一个不消耗战略资源维护的重骑兵单位。</Text>
+		</Replace>
+		
+		<!--Unit-->
+		<Replace Tag="LOC_UNIT_OP_PANZER_NAME" Language="zh_Hans_CN">
+			<Text>虎式坦克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OP_PANZER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>铁血公国特色重骑兵单位，替代坦克，拥有更强的移动力和战斗力。防御远程攻击时+15 [ICON_STRENGTH] 战斗力。对区域作战+15 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		
+		<!--Adjacency-->
+		<Replace Tag="LOC_IRB_SELF_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_Num} [ICON_PRODUCTION] 生产力来自自身</Text>
+		</Replace>
+
+		<!--Ability-->
+		<Replace Tag="LOC_ABILITY_KRUPP_CREATED" Language="zh_Hans_CN">
+			<Text>不消耗战略资源维护</Text>
+		</Replace>
+		
+		<!--ModString-->
+		<Replace Tag="LOC_MODFEAT_ABILITY_IRONBLOOD_PROPERTY_STRENGTH" Language="zh_Hans_CN">
+			<Text>+{Property} {LOC_TRAIT_CIVILIZATION_IRON_MIND_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_FRIEDRICH_DARKAGE_STRENGTH" Language="zh_Hans_CN">
+			<Text>+{1_Num} {LOC_TRAIT_LEADER_SANS_SOUCI_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_ABILITY_PANZER_DEFENSE" Language="zh_Hans_CN">
+			<Text>+{1_Num} 防御远程攻击</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_ABILITY_PANZER_ATTACK_DISTRICT" Language="zh_Hans_CN">
+			<Text>+{1_Num} 对区域作战加成</Text>
+		</Replace>
+
+		<!--Policy-->
+		<Replace Tag="LOC_POLICY_HUTTEN_BLANK_NAME" Language="zh_Hans_CN">
+			<Text>占位符</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HUTTEN_BLANK_DESC" Language="zh_Hans_CN">
+			<Text>仅供填充槽位的占位政策卡</Text>
+		</Replace>
+
+		<!--Agenda !!!All These Agendas Are Blank Indeed-->
+		<Replace Tag="LOC_AGENDA_LEADER_OP_FRIEDRICH_NAME" Language="zh_Hans_CN">
+			<Text>黑暗奏鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_FRIEDRICH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢处于黑暗时代仍发展繁荣的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_HUTTEN_NAME" Language="zh_Hans_CN">
+			<Text>赋诗革新</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_HUTTEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢大力发展科技与文化，而抛弃信仰的文明。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

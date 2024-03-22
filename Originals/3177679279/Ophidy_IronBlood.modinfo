@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="661a3458-36c3-48c3-9e60-a096d502a6b1" version="1">
+  <Properties>
+    <Name>MOD_OPHIDY_IRONBLOOD_NAME</Name>
+    <Description>MOD_OPHIDY_IRONBLOOD_DESC</Description>
+    <Created>1710089253</Created>
+    <Teaser>MOD_OPHIDY_IRONBLOOD_TEAS</Teaser>
+    <Authors>Ophidy</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="MOD_OPHIDY_IRONBLOOD_NAME">
+      <en_US>Ophidy's [COLOR:Civ6Red]AzurLane: IronBlood[ENDCOLOR]</en_US>
+      <zh_Hans_CN>Ophidy's [COLOR:Civ6Red]碧蓝航线：铁血公国[ENDCOLOR]</zh_Hans_CN>
+    </Text>
+    <Text id="MOD_OPHIDY_IRONBLOOD_DESC">
+      <en_US>AzurLane: IronBlood</en_US>
+      <zh_Hans_CN>碧蓝航线：铁血公国</zh_Hans_CN>
+    </Text>
+    <Text id="MOD_OPHIDY_IRONBLOOD_TEAS">
+      <en_US>IronBlood</en_US>
+      <zh_Hans_CN>铁血公国</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+	<Criteria id="Suk_Selection">
+	  <ModInUse>60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse>
+	</Criteria>
+	<Criteria id="No_Suk_Selection">
+	  <ModInUse inverse="1">60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse>
+	</Criteria>
+	<Criteria id="Suk_Selection_CCXC">
+	  <ModInUse>60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse>
+	  <ModInUse>5e55884c-f1f8-46cd-b365-ca40716dbcc4</ModInUse>
+	</Criteria>
+	<Criteria id="No_Suk_Selection_CCXC">
+	  <ModInUse inverse="1">60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse>
+	  <ModInUse>5e55884c-f1f8-46cd-b365-ca40716dbcc4</ModInUse>
+	</Criteria>
+	<Criteria id="Support_CCXC">
+	  <ModInUse>5e55884c-f1f8-46cd-b365-ca40716dbcc4</ModInUse>
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="IronBlood_UpdateDatabase_FE_Suk_Selection" criteria="Suk_Selection">
+      <File>Database/IronBlood_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="IronBlood_UpdateColors_FE">
+      <File>Database/IronBlood_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="IronBlood_UpdateIcons_FE">
+      <File>Database/IronBlood_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="IronBlood_UpdateText_FE">
+      <File>Text/IronBlood_Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="IronBlood_UpdateArt_FE">
+      <File>MOD_OPHIDY_IRONBLOOD_NAME.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="IronBlood_UpdateDatabase_FE" criteria="No_Suk_Selection">
+      <File>Database/IronBlood_Config_Vanilla.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="IronBlood_UpdateDatabase_FE_Vanilla_CCXC" criteria="No_Suk_Selection_CCXC">
+      <File>Database/Support/CCXC/IronBlood_Config_Vanilla_CCXC.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="IronBlood_UpdateDatabase_FE_CCXC" criteria="Suk_Selection_CCXC">
+      <File>Database/Support/CCXC/IronBlood_Config_CCXC.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="IronBlood_UpdateColors_FE_CCXC">
+      <File>Database/Support/CCXC/IronBlood_Color_CCXC.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="IronBlood_UpdateDatabase">
+      <Properties>
+        <LoadOrder>10000</LoadOrder>
+      </Properties>
+      <File>Database/IronBlood_Civilization.sql</File>
+      <File>Database/IronBlood_District.sql</File>
+      <File>Database/IronBlood_Leader.sql</File>
+      <File>Database/IronBlood_Modifier.sql</File>
+      <File>Database/IronBlood_Unit.sql</File>
+      <File>Database/IronBlood_Policy.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="IronBlood_UpdateColors">
+      <File>Database/IronBlood_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="IronBlood_UpdateIcons">
+      <File>Database/IronBlood_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="IronBlood_UpdateText">
+      <File>Text/IronBlood_Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="IronBlood_UpdateArt">
+      <File>MOD_OPHIDY_IRONBLOOD_NAME.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="IronBlood_AddGameplayScripts">
+      <File>Script/IronBlood_Script.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="IronBlood_AddUserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/IronBlood_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateDatabase id="IronBlood_UpdateDatabase_CCXC" criteria="Support_CCXC">
+      <File>Database/Support/CCXC/IronBlood_Leader_CCXC.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="IronBlood_UpdateColors_CCXC" criteria="Support_CCXC">
+      <File>Database/Support/CCXC/IronBlood_Color_CCXC.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Database/IronBlood_Civilization.sql</File>
+    <File>Database/IronBlood_Color.xml</File>
+    <File>Database/IronBlood_Config.sql</File>
+    <File>Database/IronBlood_Config_Vanilla.sql</File>
+    <File>Database/IronBlood_District.sql</File>
+    <File>Database/IronBlood_Leader.sql</File>
+    <File>Database/IronBlood_Modifier.sql</File>
+    <File>Database/IronBlood_Policy.sql</File>
+    <File>Database/IronBlood_Texture.xml</File>
+    <File>Database/IronBlood_Unit.sql</File>
+    <File>Database/Support/CCXC/IronBlood_Color_CCXC.xml</File>
+    <File>Database/Support/CCXC/IronBlood_Config_CCXC.sql</File>
+    <File>Database/Support/CCXC/IronBlood_Config_Vanilla_CCXC.sql</File>
+    <File>Database/Support/CCXC/IronBlood_Leader_CCXC.sql</File>
+    <File>MOD_OPHIDY_IRONBLOOD_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/IronBloodTexture.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_OP_IronBlood</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_OP_IronBlood</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/BLPs/IronBloodTexture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_OP_IronBlood</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_OP_IronBlood</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Script/IronBlood_Script.lua</File>
+    <File>Text/IronBlood_Text_zh_Hans_CN.xml</File>
+    <File>UI/IronBlood_UI.lua</File>
+    <File>UI/IronBlood_UI.xml</File>
+  </Files>
+</Mod>

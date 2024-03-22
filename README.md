@@ -169,6 +169,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3131003232](https://steamcommunity.com/sharedfiles/filedetails/?id=3131003232) | 少女前线 边境调查团 SVD | Girls Frontline Border Investigation SVD |
 | [3131006758](https://steamcommunity.com/sharedfiles/filedetails/?id=3131006758) | 少女前线 边境调查团 HS.50 | Girls Frontline Border Investigation Team HS.50 |
 | [3132957493](https://steamcommunity.com/sharedfiles/filedetails/?id=3132957493) | 丝碧涅和璐契儿领导的天空城文明 | Sky City Civilization led by Sibinie and Lucier |
+| [3177679279](https://steamcommunity.com/sharedfiles/filedetails/?id=3177679279) | 碧蓝航线：铁血公国 | Azur Lane: The Iron-Blooded Principality |
 
 ##How to use this mod?
 1. install this mod
