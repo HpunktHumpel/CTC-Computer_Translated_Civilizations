@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Mar 22 20:20:55 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>Unit [ICON_Movement] moves without terrain penalty</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_HEAVY_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>+17[ICON_Strength] combat power against heavy cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_LIGHT_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>+17[ICON_Strength] combat strength against light cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_65_COMBAT_VS_CLASS_GIANT_DEATH_ROBOT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>+65[ICON_Strength] combat power against doomsday mechs</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>The unit causes full damage to the city defense</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}: Unit +7[ICON_Strength] combat strength, [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] gold coins (maintenance fee) per turn[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: Unit +10[ICON_Strength] combat strength, [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] gold coins (maintenance fee) per turn[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: Unit +16[ICON_Strength] combat strength, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] gold coin (maintenance fee) per turn[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: Unit +9[ICON_Strength] combat strength, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] gold coin (maintenance fee) per turn[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: Unit +10[ICON_Strength] combat strength, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] gold coin (maintenance fee) per turn[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: Unit +10[ICON_Strength] combat strength, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] gold coin (maintenance fee) per turn[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: Unit +10[ICON_Strength] combat strength, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] gold coin (maintenance fee) per turn[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: Unit +25 [ICON_Strength] combat strength, [COLOR: ResMilitaryLabelCS] -1 [ICON_Gold] gold coin (maintenance fee) per round [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} combat power from {LOC_CIVIC_NATIONALISM_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} combat power from {LOC_CIVIC_MOBILIZATION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} combat power from {LOC_TECH_IRON_WORKING_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} combat power from {LOC_TECH_APPRENTICESHIP_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} combat power from {LOC_TECH_GUNPOWDER_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} combat power from {LOC_TECH_MILITARY_SCIENCE_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} combat power from {LOC_TECH_REPLACEABLE_PARTS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} combat power from {LOC_TECH_COMPOSITES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_NAME" Language="en_US">
+			<Text>Mobilize Assault Tactical Figures</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced cannon fodder, you can use it at will or keep it around to do chores. Can cause full damage to the city wall[NEWLINE][COLOR:ResMilitaryLabelCS]This unit cannot gain any experience[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_NAME" Language="en_US">
+			<Text>Experienced Assault Tactics Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical figures that have been improved solely through simulation training or through the use of combat records. Can cause full damage to city walls</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_NAME" Language="en_US">
+			<Text>Advanced Assault Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A tactical doll that has undergone simulation training and has some actual combat experience. Can cause full damage to the city wall, and has [ICON_Bombard] long-range bombing power with [ICON_Range] range of 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_NAME" Language="en_US">
+			<Text>Elite Assault Tactics Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A tactical man who is well equipped and experienced in combat. Can cause full damage to the city wall, and has [ICON_Bombard] long-range bombing power with [ICON_Range] range of 1</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_NAME" Language="en_US">
+			<Text>Mobilize Conventional Tactical Dolls</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced cannon fodder, you can use it at will or keep it around to do chores. Has [ICON_Range][ICON_Ranged] ranged combat power of 2, but [ICON_Ranged] has weak ranged combat power[NEWLINE][COLOR:ResMilitaryLabelCS]This unit does not gain any experience[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_NAME" Language="en_US">
+			<Text>Tough Regular Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>If high-end cannon fodder is more resistant to beating than mass-produced cannon fodder, if it can be selected to be made into office decorations, it will definitely be the glory of these cannon fodder's life. Has [ICON_Ranged] long-range combat power with [ICON_Range] range of 2, but [ICON_Ranged] long-range combat power is weak</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_NAME" Language="en_US">
+			<Text>Dreadnought Conventional Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>The mass-produced cannon fodder that has survived on the front line will perform amazingly well when squatting in the trenches. Has [ICON_Ranged] long-range combat power with [ICON_Range] range of 2, but [ICON_Ranged] long-range combat power is weak</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_NAME" Language="en_US">
+			<Text>Seasoned Conventional Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical figures that have been improved solely through simulation training or through the use of combat records. Has [ICON_Ranged] long-range combat power with [ICON_Range] range of 2, but [ICON_Ranged] long-range combat power is weak</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_NAME" Language="en_US">
+			<Text>Glorious Conventional Tactics Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical Dolls who have made outstanding contributions on the battlefield will be remembered by all Tactical Dolls. Has [ICON_Range][ICON_Ranged] remote combat power with a range of 2, but [ICON_Ranged] long-range combat power is weak[NEWLINE][COLOR:ResMilitaryLabelCS]Researching {LOC_TECH_MILITARY_SCIENCE_NAME} can improve the unit's combat power[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_NAME" Language="en_US">
+			<Text>Advanced Regular Tactical Doll</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A tactical doll that has undergone simulation training and has some actual combat experience. Has [ICON_Ranged] long-range combat power with [ICON_Range] range of 2, but [ICON_Ranged] long-range combat power is weak</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_NAME" Language="en_US">
+			<Text>Elite Regular Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A well-equipped and combat-experienced Tactical Doll. Has [ICON_Ranged] long-range combat power with [ICON_Range] range of 2, but [ICON_Ranged] long-range combat power is weak</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_NAME" Language="en_US">
+			<Text>Create a new heavily armored tactical figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical dolls that have failed any tests can be sent to the front lines to serve as cannon fodder to test their actual combat performance. Has thicker armor than regular T-Dolls and has [ICON_Range][ICON_Ranged] ranged combat power of 1, but [ICON_Movement] moves slowly[NEWLINE][COLOR:ResMilitaryLabelCS]This unit does not gain any experience[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_NAME" Language="en_US">
+			<Text>Dreadnought Heavy Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>The mass-produced cannon fodder that has survived on the front line will perform amazingly well when squatting in the trenches. It has thicker armor than regular Tactical Dolls, and has [ICON_Range] range of 1 [ICON_Ranged] long-range combat power, but [ICON_Movement] slow movement</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_NAME" Language="en_US">
+			<Text>Seasoned Heavy Duty Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical figures that have been improved solely through simulation training or through the use of combat records. It has thicker armor than regular Tactical Dolls, and has [ICON_Range] range of 1 [ICON_Ranged] long-range combat power, but [ICON_Movement] slow movement</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_NAME" Language="en_US">
+			<Text>Advanced Heavy Duty Tactical Doll</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A tactical doll that has undergone simulation training and has some actual combat experience. It has thicker armor than regular Tactical Dolls, and has [ICON_Range] range of 1 [ICON_Ranged] long-range combat power, but [ICON_Movement] slow movement</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_NAME" Language="en_US">
+			<Text>Elite Heavy Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A well-equipped and combat-experienced Tactical Doll. It has thicker armor than regular Tactical Dolls, and has [ICON_Range] range of 1 [ICON_Ranged] long-range combat power, but [ICON_Movement] slow movement</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_NAME" Language="en_US">
+			<Text>Mobilized Reconnaissance Tactical Doll</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced cannon fodder, you can use it at will or keep it around to do chores. Has extra vision, and the vision can pass through any terrain. The unit [ICON_Movement] moves without terrain penalty[NEWLINE][COLOR:ResMilitaryLabelCS]This unit cannot gain any experience[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_NAME" Language="en_US">
+			<Text>Experienced Reconnaissance Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_DESCRIPTION" Language="en_US">
+			<Text>Tactical figures that have been improved solely through simulation training or through the use of combat records. Has extra vision, and the vision can pass through any terrain, and the unit [ICON_Movement] moves without terrain penalty</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_NAME" Language="en_US">
+			<Text>Advanced Reconnaissance Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A tactical doll that has undergone simulation training and has some actual combat experience. Has extra vision, and the vision can pass through any terrain, and the unit [ICON_Movement] moves without terrain penalty</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_NAME" Language="en_US">
+			<Text>Elite Recon Tactics Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A well-equipped and combat-experienced Tactical Doll. Has extra vision, and the vision can pass through any terrain, and the unit [ICON_Movement] moves without terrain penalty</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_NAME" Language="en_US">
+			<Text>Mobilize Sniper Tactical Figures</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced cannon fodder, you can use it at will or keep it around to do chores. Has [ICON_Range][ICON_Ranged] ranged attack with range 3, [COLOR:ResMilitaryLabelCS] but extremely low melee combat effectiveness[NEWLINE]This unit cannot gain any experience[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_NAME" Language="en_US">
+			<Text>Tough Sniper Tactics Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>If high-end cannon fodder is more resistant to beating than mass-produced cannon fodder, if it can be selected to be made into office decorations, it will definitely be the glory of these cannon fodder's life. Has [ICON_Range][ICON_Ranged] remote attack with range 3, [COLOR:ResMilitaryLabelCS] but extremely low melee combat effectiveness</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_NAME" Language="en_US">
+			<Text>Experienced sniper tactics figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical figures that have been improved solely through simulation training or through the use of combat records. Has [ICON_Range][ICON_Ranged] range attack with range 3, [COLOR:ResMilitaryLabelCS] but extremely low melee combat effectiveness[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_NAME" Language="en_US">
+			<Text>Advanced sniper tactics figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A tactical doll that has undergone simulation training and has some actual combat experience. Has [ICON_Range][ICON_Ranged] range attack with range 4, [COLOR:ResMilitaryLabelCS] but extremely low melee combat effectiveness[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_NAME" Language="en_US">
+			<Text>Elite Sniper Tactics Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A well-equipped and combat-experienced Tactical Doll. Has [ICON_Range][ICON_Ranged] range attack with range 4, [COLOR:ResMilitaryLabelCS] but extremely low melee combat effectiveness[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_NAME" Language="en_US">
+			<Text>New anti-tank tactical figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical dolls that have failed any tests can be sent to the front lines to serve as cannon fodder to test their actual combat performance. Has [ICON_Range][ICON_Bombard] bombardment attack with range 2, +17[ICON_Strength] combat strength against cavalry[NEWLINE][COLOR:ResMilitaryLabelCS]This unit cannot gain any experience[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_NAME" Language="en_US">
+			<Text>Experienced Anti-Tank Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical figures that have been improved solely through simulation training or through the use of combat records. Has [ICON_Bombard] bombing attack with [ICON_Range] range of 3, +17 [ICON_Strength] combat power against cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_NAME" Language="en_US">
+			<Text>Glorious Anti-Tank Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical Dolls who have made outstanding contributions on the battlefield will be remembered by all Tactical Dolls. Has [ICON_Bombard] bombing attack with [ICON_Range] range of 3, +17 [ICON_Strength] combat power against cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_NAME" Language="en_US">
+			<Text>Advanced Anti-Tank Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A tactical doll that has undergone simulation training and has some actual combat experience. Has [ICON_Bombard] bombing attack with [ICON_Range] range of 4, +17 [ICON_Strength] combat power against cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_NAME" Language="en_US">
+			<Text>Elite Anti-Tank Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A well-equipped and combat-experienced Tactical Doll. Has [ICON_Bombard] bombing attack with [ICON_Range] range of 5, +17[ICON_Strength] combat power against cavalry, +67[ICON_Strength] combat power against doomsday mechas</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_NAME" Language="en_US">
+			<Text>G41</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_DESCRIPTION" Language="en_US">
+			<Text>It has a lively and cute character, with a very clingy and loyal dog attribute. It will definitely complete the orders it accepts, and likes the commander to pat its head as a reward.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_NAME" Language="en_US">
+			<Text>TMP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_DESCRIPTION" Language="en_US">
+			<Text>A timid and easily shy humanoid girl, she is a delusional person who is addicted to her own delusions. She often talks to herself about her thoughts endlessly, and will be at a loss once she finds out that she is overheard by others. But if she is forced into a &quot;desperate situation&quot;... please be mentally prepared for the situation to be uncontrollable.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_NAME" Language="en_US">
+			<Text>Griffin Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Unable to build all land units and pioneers in the original version, but able to build Tactical Dolls and Crawlers[NEWLINE]All military units have +50% combat experience, but[COLOR:ResMilitaryLabelCS]Some Tactical Dolls cannot gain experience[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ASSAULT_SQUAD_NAME" Language="en_US">
+			<Text>Melee siege</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>Units cannot use [ICON_Strength] melee attacks</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_NAME" Language="en_US">
+			<Text>crawler</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_DESCRIPTION" Language="en_US">
+			<Text>Specialized pioneers with certain defensive abilities cannot use melee attacks. This unit [COLOR:ResMilitaryLabelCS] is very expensive [ENDCOLOR], but the price will never increase</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_NAME" Language="en_US">
+			<Text>Logistics warehouse</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_COMMERCIAL_HUB_NAME}, initially unlocked, cost is free and will never increase in price, +1 [ICON_TradeRoute] trade capacity after completion, and a merchant unit is given as a gift, with a unique [ICON_Gold] gold coin adjacent bonus. After researching {LOC_TECH_IRON_WORKING_NAME}, the [ICON_Gold] gold adjacent bonus also provides [ICON_Production] productivity. The area has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 1 [ICON_Ranged] remote attack</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_NAME" Language="en_US">
+			<Text>crane</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_ENCAMPMENT_NAME}, initially unlocked, can be built around the city center, has a unique [ICON_Production] productivity adjacent bonus, and when built will release the crawlers consumed when creating the city. The area only has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 3[ICON_Ranged] remote attacks</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_NAME" Language="en_US">
+			<Text>war factory</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_INDUSTRIAL_ZONE_NAME} and requires {LOC_TECH_APPRENTICESHIP_NAME}, which is cheaper and has the unique [ICON_Production] productivity adjacent bonus. The area has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 1 [ICON_Ranged] remote attack</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production comes from each adjacent area</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold coins from each adjacent area</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_FOOD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food comes from each adjacent area</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Productivity comes from mountains</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Productivity comes from water</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold coins come from mountains</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold coins come from water</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_FOOD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food comes from the mountains</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food comes from water</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Productivity comes from strategic resources</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Productivity comes from luxury resources</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold coins come from strategic resources</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] gold coins come from luxury resources</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_FOOD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food comes from strategic resources</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_FOOD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food comes from luxury resources</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Productivity comes from man-made wonders</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold coins from man-made wonders</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from man-made wonders</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="en_US">
+			<Text>camp</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="en_US">
+			<Text>The city will not be war-weary, units do not need to be garrisoned to regenerate health at the beginning of the round, improved cells +3 [ICON_Gold] gold coins, +1 [ICON_Faith] faith, plus +2 [ICON_Production] production after researching {LOC_TECH_ELECTRICITY_NAME}.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="en_US">
+			<Text>Griffin Forward Readiness Camp</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_ADJECTIVE" Language="en_US">
+			<Text>Frontline combat readiness team camp</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="en_US">
+			<Text>Frontline Combat Readiness Team-Camp</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_NAME" Language="en_US">
+			<Text>SR-3MP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_DESCRIPTION" Language="en_US">
+			<Text>He is a lively, flamboyant and arrogant humanoid who likes to point fingers at others. He will remain quiet during battle and use exaggerated gestures instead, so he can be regarded as a serious and responsible fighter.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="en_US">
+			<Text>information center</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="en_US">
+			<Text>Cities will not be war-weary, units do not need to be garrisoned to regenerate health at the start of a round, all cities you create or capture will have a trading post from the beginning, and after creating a trade route, a trading post will immediately appear in the destination city. In-territorial espionage -4 levels, +1 diplomatic visibility each for researching {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_COMPOSITES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="en_US">
+			<Text>Griffin Forward Readiness Intelligence Center</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_ADJECTIVE" Language="en_US">
+			<Text>of the Forward Readiness Force Intelligence Center</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="en_US">
+			<Text>Frontline Combat Readiness Team-Intelligence Center</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="en_US">
+			<Text>Griffin Forward Readiness Intelligence Center Intelligence Advantage Level 1</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_STIRRUPS_GIRLFRONTLINE" Language="en_US">
+			<Text>Use the Tactical Humanoid Leader of the Griffin Intelligence Center Division to obtain Intelligence Advantage Level 1 by meeting the required conditions.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="en_US">
+			<Text>A reporter from your intelligence center reported a news story</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="en_US">
+			<Text>Griffin Forward Readiness Force Intelligence Center Intelligence Advantage Level 2</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_BALLISTICS_GIRLFRONTLINE" Language="en_US">
+			<Text>Use the Tactical Humanoid Leader of the Griffin Intelligence Center Division and achieve the required conditions to obtain Intelligence Advantage Level 2</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="en_US">
+			<Text>An informant from your intelligence center has heard</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="en_US">
+			<Text>Griffin Forward Readiness Intelligence Center intelligence advantage level 3</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMBUSTION_GIRLFRONTLINE" Language="en_US">
+			<Text>Use the Tactical Humanoid Leader of the Griffin Intelligence Center Division and achieve the required conditions to obtain Intelligence Advantage Level 3</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="en_US">
+			<Text>Diplomats from your intelligence center report to</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="en_US">
+			<Text>Griffin Forward Readiness Intelligence Center Intelligence Advantage Level 4</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMPOSITES_GIRLFRONTLINE" Language="en_US">
+			<Text>Use the Tactical Humanoid Leader of the Griffin Intelligence Center Division and achieve the required conditions to obtain Intelligence Advantage Level 4</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="en_US">
+			<Text>A secret telegram from your intelligence center</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_NAME" Language="en_US">
+			<Text>Technology Center</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_CAMPUS_NAME}, initially unlocked, cost free and never increasing in price, with unique [ICON_Food] food adjacent bonus. [ICON_Food] Food adjacent bonuses also provide [ICON_Science] research and [ICON_Gold] gold coins. The area has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 1 [ICON_Ranged] remote attack</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_NAME" Language="en_US">
+			<Text>power plant</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}, requires {LOC_TECH_APPRENTICESHIP_NAME}, is cheaper to build, provides +1 [ICON_Power] to all cities upon completion, and has a unique [ICON_Production] productivity adjacent bonus. The [ICON_Production] productivity bonus also provides [ICON_Gold] gold coins. The area has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 1 [ICON_Ranged] remote attack</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_NAME" Language="en_US">
+			<Text>Kar98k</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_DESCRIPTION" Language="en_US">
+			<Text>Her words and deeds are elegant and steady, full of aristocratic temperament, and she has a strong sense of honor. Her commanding tone can be a bit condescending, but her rich and skilled experience and strength are deeply admired and relied upon by everyone.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_NAME" Language="en_US">
+			<Text>SVD</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_DESCRIPTION" Language="en_US">
+			<Text>A frivolous, arrogant, self-respecting humanoid who likes to point fingers at things around him. In fact, he is a good old man who loves to worry. Every statement about combat seems arrogant, but with her unfathomable strength and experience, it will eventually turn into something possible.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_NAME" Language="en_US">
+			<Text>HS.50</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_DESCRIPTION" Language="en_US">
+			<Text>Since the files on the original project have been erased, HS.50 knows very little about her past, so she hopes to integrate into Griffin as soon as possible. But it seems that due to the influence of the past, she only knows how to use simple tactical skills to deal with daily life, which makes it difficult for her to get along with her companions. Currently, HS.50 is working towards becoming more user friendly</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_NAME" Language="en_US">
+			<Text>M870</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_DESCRIPTION" Language="en_US">
+			<Text>He claimed to have served as a highway patrol officer on Highway 666, but his former department was an unregistered and unknown organization, and his police certificate could not verify its legality. Despite his bad manners and ridiculing habits, Griffin was eventually transferred to management because of his extraordinary strength. If you want to reduce her usual troubles with you, it's best to prepare some soda to divert her interest in you.</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SNIPER_SQUAD_NAME" Language="en_US">
+			<Text>Remotely</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SUPPORT_SQUAD_NAME" Language="en_US">
+			<Text>Melee support</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_TACTICS_SQUAD_NAME" Language="en_US">
+			<Text>Melee</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ARMORED_SQUAD_NAME" Language="en_US">
+			<Text>heavy cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_RECON_SQUAD_NAME" Language="en_US">
+			<Text>Investigate</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ANTITANK_SQUAD_NAME" Language="en_US">
+			<Text>siege anti-cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_NAME" Language="en_US">
+			<Text>Mobilization Support Tactical Doll</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Mass-produced cannon fodder, you can use it at will or keep it around to do chores. -25 [ICON_Strength] combat power when attacking, and plunder only consumes 1 [ICON_Movement] movement power. Provides +15 [ICON_Range] long-range combat power to adjacent conventional T-Dolls, and increases the healing effect of adjacent units. If any unit starts to move from this unit, it will gain +1 [ICON_Movement] movement power [NEWLINE][COLOR:ResMilitaryLabelCS]. Unit cannot gain any experience[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_NAME" Language="en_US">
+			<Text>Tenacity Support Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>If high-end cannon fodder is more resistant to beating than mass-produced cannon fodder, if it can be selected to be made into office decorations, it will definitely be the glory of these cannon fodder's life. -25 [ICON_Strength] combat power when attacking, and plunder only consumes 1 [ICON_Movement] movement power. Provides +15 [ICON_Range] long-range combat power to adjacent conventional T-Dolls, and increases the healing effect of adjacent units. If any unit starts moving next to this unit, it will gain +1 [ICON_Movement] movement power.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_NAME" Language="en_US">
+			<Text>Veteran Support Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>Tactical figures that have been improved solely through simulation training or through the use of combat records. -25 [ICON_Strength] combat power when attacking, and plunder only consumes 1 [ICON_Movement] movement power. Provides +15 [ICON_Range] long-range combat power to adjacent conventional T-Dolls, and increases the healing effect of adjacent units. If any unit starts to move next to this unit, it will gain +1 [ICON_Movement] movement power.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_NAME" Language="en_US">
+			<Text>Advanced Support Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A tactical doll that has undergone simulation training and has some actual combat experience. -25 [ICON_Strength] combat power when attacking, and plunder only consumes 1 [ICON_Movement] movement power. Provides +15 [ICON_Range] long-range combat power to adjacent conventional T-Dolls, and increases the healing effect of adjacent units. If any unit starts to move next to this unit, it will gain +1 [ICON_Movement] movement power.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_NAME" Language="en_US">
+			<Text>Elite Support Tactical Figure</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_DESCRIPTION" Language="en_US">
+			<Text>A well-equipped and combat-experienced Tactical Doll. -25 [ICON_Strength] combat power when attacking, and plunder only consumes 1 [ICON_Movement] movement power. Provides +15 [ICON_Range] long-range combat power to adjacent conventional T-Dolls, and increases the healing effect of adjacent units. If any unit starts to move next to this unit, it will gain +1 [ICON_Movement] movement power.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ADD_15_COMBAT_FOR_TACTICS_SQUAD_ALLOW_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>+15[ICON_Range] long-range combat power for regular tactical T-Dolls within 1 square</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEBUFF_FOR_SUPPORT_SQUAD_GIRLFONTLINE_GIRLFRONTLINE_DESCRIPTION" Language="en_US">
+			<Text>-25[ICON_Strength] combat strength when attacking</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME" Language="en_US">
+			<Text>lurking</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="en_US">
+			<Text>+15[ICON_Strength] combat power when attacking</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME" Language="en_US">
+			<Text>steel core bullet</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="en_US">
+			<Text>+7[ICON_Strength] combat strength when attacking</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME" Language="en_US">
+			<Text>Tungsten core bullet</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="en_US">
+			<Text>+10[ICON_Strength] combat power when attacking</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_NAME" Language="en_US">
+			<Text>Thermal Imager</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_DESCRIPTION" Language="en_US">
+			<Text>+3 vision range and passes through all terrains, able to detect invisible units within the field of view</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_NAME" Language="en_US">
+			<Text>mobile warfare</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+15[ICON_Strength] combat power under any circumstances</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_NAME" Language="en_US">
+			<Text>Rapid deployment</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>+2[ICON_Movement] movement power, all formation units gain [ICON_Movement] movement power of accompanying units</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NO_TERRAIN_MOVEMENT_DEBUFF_NAME" Language="en_US">
+			<Text>rapid march</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_NAME" Language="en_US">
+			<Text>FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_DESCRIPTION" Language="en_US">
+			<Text>A cute, smart, and somewhat narcissistic humanoid. The source of his confidence is not his strength, but his unique vision. She is good at acting coquettishly and telling jokes on weekdays, but in battle she can remain calm and will not be discouraged even if she encounters a defeat.</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_ADD_15_COMBAT_FOR_TACTICS_SQUAD" Language="en_US">
+			<Text>+{1_Amount}[ICON_Strength] ranged combat strength from adjacent support Tactical T-Dolls</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_DEBUFF_FOR_SUPPORT_SQUAD" Language="en_US">
+			<Text>{1_Amount}[ICON_Strength] combat strength, derived from supporting tactical humanoid characteristics</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="en_US">
+			<Text>+{1_Amount}[ICON_Strength] combat strength from {LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_7_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="en_US">
+			<Text>+{1_Amount}[ICON_Strength] combat strength from {LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="en_US">
+			<Text>+{1_Amount}[ICON_Strength] combat strength from {LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_GIRLFRONTLINE" Language="en_US">
+			<Text>+{1_Amount}[ICON_Strength] combat strength from {LOC_PROMOTION_ADD_15_COMBAT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_NAME" Language="en_US">
+			<Text>armory</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_CAMPUS_NAME}, requires {LOC_TECH_WRITING_NAME}, is cheaper, has a unique [ICON_Gold] gold coin adjacent bonus, [ICON_Gold] gold coin adjacent bonus also provides [ICON_Science] scientific research, after researching {LOC_TECH_IRON_WORKING_NAME}, [ICON_Gold] The gold adjacent bonus also provides [ICON_Production] productivity. The area has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 1 [ICON_Ranged] remote attack</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_NAME" Language="en_US">
+			<Text>space uplink command center</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_SPACEPORT_NAME}, initially unlocked, cost is free and will never increase in price, can be built regardless of population demand (not a specialized area), has a unique [ICON_Production] productivity adjacent bonus, has five [ICON_Citizen] expert slots, +100% [ICON_Production] productivity adjacent bonus after researching {LOC_CIVIC_GUILDS_NAME}. The area has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 1 [ICON_Ranged] remote attack</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="en_US">
+			<Text>forward camp</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="en_US">
+			<Text>The city will not be war-weary, and units do not need to be stationed to recover health at the beginning of the round. All cells in the city will receive +4 [ICON_Gold] gold coins. After researching {LOC_TECH_ECONOMICS_NAME}, +2 [ICON_Gold] gold coins will be added.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="en_US">
+			<Text>Griffin Frontier Corps forward camp</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_ADJECTIVE" Language="en_US">
+			<Text>Border Survey Corps forward camp</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="en_US">
+			<Text>Border Investigation Mission-Frontline Camp</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_FN57_GIRLFRONTLINE" Language="en_US">
+			<Text>FN-57’s initial intelligence advantage</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_FN57_GIRLFRONTLINE" Language="en_US">
+			<Text>Using Griffin Tactical Humanoid Leader FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_FN57_GIRLFRONTLINE" Language="en_US">
+			<Text>A coded message from your spy</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_NAME" Language="en_US">
+			<Text>Build a humanoid</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_SHORTNAME" Language="en_US">
+			<Text>Build a humanoid</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_DESCRIPTION" Language="en_US">
+			<Text>Griffin's frontline combat readiness team warehouse special project, initially unlocked, after the project is completed, the city +2 [ICON_Citizen] citizens</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_NAME" Language="en_US">
+			<Text>Mass production of human figures</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_SHORTNAME" Language="en_US">
+			<Text>Mass production of human figures</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_DESCRIPTION" Language="en_US">
+			<Text>Griffin's Frontline Warfare Warehouse special project requires {LOC_TECH_METAL_CASTING_NAME}. After the project is completed, the city will have +6 [ICON_Citizen] citizens.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_NAME" Language="en_US">
+			<Text>Reinforcement Dolls</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_SHORTNAME" Language="en_US">
+			<Text>Reinforcement Dolls</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_DESCRIPTION" Language="en_US">
+			<Text>Griffin's Frontline Warfare Warehouse special project requires {LOC_TECH_ADVANCED_FLIGHT_NAME}. After the project is completed, the city will have +10 [ICON_Citizen] citizens.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_NAME" Language="en_US">
+			<Text>Recycle humanoids</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_SHORTNAME" Language="en_US">
+			<Text>Recycle humanoids</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_DESCRIPTION" Language="en_US">
+			<Text>Griffin's Frontline Warfare Warehouse special project requires {LOC_TECH_WRITING_NAME}. After the project is completed, the city will have -2 [ICON_Citizen] citizens.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_NAME" Language="en_US">
+			<Text>Dismantling humanoids in batches</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_SHORTNAME" Language="en_US">
+			<Text>Dismantling humanoids in batches</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_DESCRIPTION" Language="en_US">
+			<Text>Griffin Front Line Warehouse special project requires {LOC_TECH_METAL_CASTING_NAME}. After the project is completed, the city will have -6 [ICON_Citizen] citizens</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_NAME" Language="en_US">
+			<Text>big purge</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_SHORTNAME" Language="en_US">
+			<Text>big purge</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_DESCRIPTION" Language="en_US">
+			<Text>Griffin's Frontline Warfare Warehouse special project requires {LOC_CIVIC_IDEOLOGY_NAME}. After the project is completed, the city will have -10 [ICON_Citizen] citizens.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_NAME" Language="en_US">
+			<Text>ART556</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_DESCRIPTION" Language="en_US">
+			<Text>An eccentric, hedonistic humanoid girl who bites her tongue every time she says her name. She only cares about interesting things. For this reason, she can challenge many things that break the bottom line of principles. She is currently working hard to make MT9 interesting.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="en_US">
+			<Text>Griffin Forward Readiness Depot</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_ADJECTIVE" Language="en_US">
+			<Text>of the frontline combat readiness depot</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="en_US">
+			<Text>Frontline Combat Readiness Team-Warehouse</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="en_US">
+			<Text>storehouse</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="en_US">
+			<Text>Cities will not be war-weary, units do not need to be garrisoned to regenerate health at the start of the round, cities cannot obtain [ICON_Citizen] citizens, they can only obtain [ICON_Citizen] by completing projects. The initial [ICON_Food] food output of all cell terrains and landforms in the city provides the same amount of [ICON_Production] productivity output, allowing mines and quarries to be built on flat land.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_NAME" Language="en_US">
+			<Text>logistics</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_ENTERTAINMENT_COMPLEX_NAME}, initially unlocked, cost is free and will never increase in price, has a unique [ICON_Gold] gold coin adjacent bonus, [ICON_Gold] gold coin adjacent bonus also provides [ICON_Production] productivity, after researching {LOC_CIVIC_MERCANTILISM_NAME}, + 100% [ICON_Gold] gold coin adjacent bonus. The area has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 1 [ICON_Ranged] remote attack</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_NAME" Language="en_US">
+			<Text>Ore refinery</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_DESCRIPTION" Language="en_US">
+			<Text>Replaces {LOC_DISTRICT_COMMERCIAL_HUB_NAME}, requires {LOC_TECH_CURRENCY_NAME}, is cheaper to build, has unique [ICON_Gold] gold adjacent bonus, research {LOC_TECH_INDUSTRIALIZATION_NAME}, [ICON_Gold] gold adjacent bonus also provides [ICON_Production] productivity. The area has 20 [ICON_Fortified] garrison health points. After the city has city walls, it can perform [ICON_Range] range of 1 [ICON_Ranged] remote attack</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_NAME" Language="en_US">
+			<Text>Adjust the production line-subsonic bomb</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_SHORTNAME" Language="en_US">
+			<Text>Production of subsonic bombs</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_DESCRIPTION" Language="en_US">
+			<Text>The manufacturing center will produce subsonic rounds for distribution to the front lines</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_NAME" Language="en_US">
+			<Text>Adjust the production line - spoon tip bomb</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_SHORTNAME" Language="en_US">
+			<Text>Producing spoon tip bullets</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_DESCRIPTION" Language="en_US">
+			<Text>The manufacturing center will produce spoon tip ammunition and distribute it to the front lines</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_NAME" Language="en_US">
+			<Text>Adjust the production line-standard ammunition</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_SHORTNAME" Language="en_US">
+			<Text>Produce standard bombs</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_DESCRIPTION" Language="en_US">
+			<Text>The manufacturing center will produce standard bombs and distribute them to the front line</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_NAME" Language="en_US">
+			<Text>Spoon tip bullet manufacturing center</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_DESCRIPTION" Language="en_US">
+			<Text>C-MS characteristic building, after completion, the assault tactical humanoid will have +7 [ICON_Strength] combat power and the confrontation area will have +10 [ICON_Strength] combat power. All units have +3 [ICON_Strength] combat strength. They will not suffer combat strength debuffs after being injured. [NEWLINE] If it is not owned by the city creator, the city will have -40 loyalty per round.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_NAME" Language="en_US">
+			<Text>Standard bomb manufacturing center</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_DESCRIPTION" Language="en_US">
+			<Text>C-MS's characteristic building, after completion, the Assault Tactical Doll has an additional attack of 1 per round and can move after attacking. +2 [ICON_Movement] movement speed for all units, ignores [ICON_Movement] movement penalties for terrain and crossing rivers[NEWLINE] -70% for cities not owned by the city's creator[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science ][icon_Culture]All output</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_NAME" Language="en_US">
+			<Text>Subsonic bomb manufacturing center</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_DESCRIPTION" Language="en_US">
+			<Text>C-MS characteristic building, after completion, +5 [ICON_Strength] combat power when assault tactics humanoid defense and +10 [ICON_Strength] combat power when defending friendly units within a surrounding cell, +5 [ICON_Strength] combat power when defending all units, upgrade Will not end its turn (this ability continues to be effective for already produced units. If a building is lost, newly produced units will no longer have this ability until the building is acquired again) [NEWLINE] If it is not owned by the city creator, the city -20[ ICON_Amenities]Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_7_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} [ICON_Strength] Combat Strength, from Spoon Point Bullet Manufacturing Center</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_COMBAT_VS_DIS_DESCRIPTION" Language="en_US">
+			<Text>Confrontation area + {1_Amount} [ICON_Strength] combat power, from spoon tip bullet manufacturing center</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_3_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} [ICON_Strength] Combat Strength, from Spoon Point Bullet Manufacturing Center</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_5_DEF_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} [ICON_Strength] combat strength, from the subsonic bomb manufacturing center</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_DEF_FOR_ADJ_UNIT_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} [ICON_Strength] Combat Strength from the Subsonic Bomb Manufacturing Center and adjacent Assault Tactics T-Dolls</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_5_DEF_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} [ICON_Strength] combat strength, from the subsonic bomb manufacturing center</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_NAME" Language="en_US">
+			<Text>C-MS</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_DESCRIPTION" Language="en_US">
+			<Text>Probably when you are with her, you will wonder who is the real boss. She always treats people around her as subordinates and uses her unruly style to satisfy her various willful wishes. But don’t worry, she will never treat her good subordinates badly. Maybe run an errand for her and buy some snacks, and she will bring you any victory you want.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_RANGED_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>{1_Amount} Basic long-range combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_BOMBARD_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>{1_Amount} Basic bombing combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_" Language="en_US">
+			<Text>_CITY_NAME_9',,'Griffin Space Uplink Command Center' FROM CivilizationsGirlfrontline WHERE CivilizationType LIKE</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

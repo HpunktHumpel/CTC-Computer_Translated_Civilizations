@@ -1,0 +1,656 @@
+*********************************************
+*** Started on 2024-03-22 19:44:09.285415 ***
+*********************************************
+
+Mod ID: c0b930e0-38f8-4828-9bf2-e761ace04255
+Mod Name: 少女前线 核心代码
+Mod Comp.Name: 少女前线核心代码
+Mod Authors: HK433
+
+Mod Name (no extra): 少女前线 核心代码
+Mod Name (clean): 少女前线 核心代码
+Mod Comp.Name (clean): 少女前线核心代码
+
+Mod Name (HTML): 少女前线 核心代码
+Mod Name (HTML - en_US): Girls Frontline core code
+
+CREATED: C:/Users/humpel/Documents/Firaxis ModBuddy/Civilization VI/CTC - ComputerTranslatedCivilizations/CTC - Computer Translated Civilizations/3150894522
+
+CREATED DIR (Backup): C:/Users/humpel/Documents/GitHub/CTC-Computer_Translated_Civilizations/Originals/3150894522
+COPIED (Backup): C:/Users/humpel/Documents/GitHub/CTC-Computer_Translated_Civilizations/Originals/3150894522\Girlfrontline_Core.modinfo
+
+
+------------------------------------------------------------
+FrontEndActions:
+------------------------------------------------------------
+SQL file found: TEXT_GIRLFRONTLINE_CORE.sql
+COPIED (Backup): C:/Users/humpel/Documents/GitHub/CTC-Computer_Translated_Civilizations/Originals/3150894522/TEXT_GIRLFRONTLINE_CORE.sql
+
+------------------------------------------------------------
+InGameActions:
+------------------------------------------------------------
+SQL file found: TEXT_GIRLFRONTLINE_CORE.sql
+Found (Backup): C:/Users/humpel/Documents/GitHub/CTC-Computer_Translated_Civilizations/Originals/3150894522/TEXT_GIRLFRONTLINE_CORE.sql
+
+
+------------------------------------------------------------
+Entries found: {'en_US': 0, 'fr_FR': 0, 'de_DE': 0, 'it_IT': 0, 'es_ES': 0, 'ja_JP': 0, 'ru_RU': 0, 'pl_PL': 0, 'ko_KR': 0, 'zh_Hans_CN': 576, 'zh_Hant_HK': 0}
+FrontEnd entries: {'en_US': 0, 'fr_FR': 0, 'de_DE': 0, 'it_IT': 0, 'es_ES': 0, 'ja_JP': 0, 'ru_RU': 0, 'pl_PL': 0, 'ko_KR': 0, 'zh_Hans_CN': 288, 'zh_Hant_HK': 0}
+InGame entries: {'en_US': 0, 'fr_FR': 0, 'de_DE': 0, 'it_IT': 0, 'es_ES': 0, 'ja_JP': 0, 'ru_RU': 0, 'pl_PL': 0, 'ko_KR': 0, 'zh_Hans_CN': 288, 'zh_Hant_HK': 0}
+------------------------------------------------------------
+Max entries: ['zh_Hans_CN']
+Default language: zh_Hans_CN: 576
+
+
+FrontEnd translations:
+
+  1 - LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_GIRLFRONTLINE_DESCRIPTION:  (25) ->  en_US(50)   fr_FR(59)   de_DE(56)   it_IT(59)   es_ES(63)   ja_JP(37)   ru_RU(50)   pl_PL(55)   ko_KR(36)   zh_Hant_HK(25)   
+  2 - LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_HEAVY_CAVALRY_GIRLFRONTLINE_DESCRIPTION:  (26) ->  en_US(53)   fr_FR(68)   de_DE(54)   it_IT(72)   es_ES(60)   ja_JP(29)   ru_RU(55)   pl_PL(60)   ko_KR(30)   zh_Hant_HK(26)   
+  3 - LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_LIGHT_CAVALRY_GIRLFRONTLINE_DESCRIPTION:  (26) ->  en_US(56)   fr_FR(61)   de_DE(55)   it_IT(75)   es_ES(61)   ja_JP(29)   ru_RU(54)   pl_PL(58)   ko_KR(30)   zh_Hant_HK(26)   
+  4 - LOC_ABILITY_ANTITANK_SQUAD_ADD_65_COMBAT_VS_CLASS_GIANT_DEATH_ROBOT_GIRLFRONTLINE_DESCRIPTION:  (26) ->  en_US(54)   fr_FR(74)   de_DE(50)   it_IT(83)   es_ES(66)   ja_JP(30)   ru_RU(57)   pl_PL(56)   ko_KR(32)   zh_Hant_HK(26)   
+  5 - LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_GIRLFRONTLINE_DESCRIPTION:  (11) ->  en_US(47)   fr_FR(58)   de_DE(56)   it_IT(50)   es_ES(53)   ja_JP(23)   ru_RU(41)   pl_PL(50)   ko_KR(27)   zh_Hant_HK(11)   
+  6 - LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_DESCRIPTION:  (111) ->  en_US(158)   fr_FR(166)   de_DE(157)   it_IT(175)   es_ES(175)   ja_JP(120)   ru_RU(163)   pl_PL(165)   ko_KR(117)   zh_Hant_HK(111)   
+  7 - LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION:  (113) ->  en_US(160)   fr_FR(168)   de_DE(159)   it_IT(177)   es_ES(177)   ja_JP(122)   ru_RU(165)   pl_PL(167)   ko_KR(119)   zh_Hant_HK(113)   
+  8 - LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_DESCRIPTION:  (112) ->  en_US(158)   fr_FR(166)   de_DE(157)   it_IT(176)   es_ES(175)   ja_JP(124)   ru_RU(165)   pl_PL(167)   ko_KR(118)   zh_Hant_HK(112)   
+  9 - LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_DESCRIPTION:  (113) ->  en_US(159)   fr_FR(167)   de_DE(158)   it_IT(177)   es_ES(176)   ja_JP(125)   ru_RU(167)   pl_PL(168)   ko_KR(119)   zh_Hant_HK(113)   
+  10 - LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION:  (109) ->  en_US(155)   fr_FR(163)   de_DE(154)   it_IT(173)   es_ES(173)   ja_JP(121)   ru_RU(163)   pl_PL(164)   ko_KR(115)   zh_Hant_HK(109)   
+  11 - LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION:  (116) ->  en_US(162)   fr_FR(170)   de_DE(161)   it_IT(180)   es_ES(179)   ja_JP(129)   ru_RU(170)   pl_PL(171)   ko_KR(122)   zh_Hant_HK(116)   
+  12 - LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION:  (117) ->  en_US(163)   fr_FR(171)   de_DE(162)   it_IT(181)   es_ES(180)   ja_JP(134)   ru_RU(173)   pl_PL(172)   ko_KR(123)   zh_Hant_HK(117)   
+  13 - LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_DESCRIPTION:  (110) ->  en_US(161)   fr_FR(169)   de_DE(159)   it_IT(178)   es_ES(177)   ja_JP(127)   ru_RU(169)   pl_PL(169)   ko_KR(122)   zh_Hant_HK(110)   
+  14 - LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION:  (45) ->  en_US(58)   fr_FR(67)   de_DE(55)   it_IT(67)   es_ES(60)   ja_JP(51)   ru_RU(55)   pl_PL(55)   ko_KR(45)   zh_Hant_HK(45)   
+  15 - LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION:  (46) ->  en_US(59)   fr_FR(68)   de_DE(56)   it_IT(68)   es_ES(61)   ja_JP(52)   ru_RU(56)   pl_PL(56)   ko_KR(46)   zh_Hant_HK(46)   
+  16 - LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION:  (45) ->  en_US(58)   fr_FR(67)   de_DE(55)   it_IT(67)   es_ES(60)   ja_JP(46)   ru_RU(55)   pl_PL(56)   ko_KR(45)   zh_Hant_HK(45)   
+  17 - LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION:  (47) ->  en_US(60)   fr_FR(69)   de_DE(57)   it_IT(69)   es_ES(62)   ja_JP(53)   ru_RU(57)   pl_PL(58)   ko_KR(47)   zh_Hant_HK(47)   
+  18 - LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION:  (42) ->  en_US(55)   fr_FR(64)   de_DE(52)   it_IT(64)   es_ES(57)   ja_JP(48)   ru_RU(52)   pl_PL(53)   ko_KR(42)   zh_Hant_HK(42)   
+  19 - LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION:  (49) ->  en_US(62)   fr_FR(71)   de_DE(59)   it_IT(71)   es_ES(64)   ja_JP(50)   ru_RU(59)   pl_PL(59)   ko_KR(49)   zh_Hant_HK(49)   
+  20 - LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION:  (50) ->  en_US(63)   fr_FR(72)   de_DE(60)   it_IT(72)   es_ES(65)   ja_JP(51)   ru_RU(60)   pl_PL(60)   ko_KR(50)   zh_Hant_HK(50)   
+  21 - LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION:  (43) ->  en_US(56)   fr_FR(65)   de_DE(53)   it_IT(65)   es_ES(58)   ja_JP(49)   ru_RU(53)   pl_PL(53)   ko_KR(43)   zh_Hant_HK(43)   
+  22 - LOC_UNIT_NEW_ASSAULT_SQUAD_NAME:  (8) ->  en_US(33)   fr_FR(42)   de_DE(42)   it_IT(36)   es_ES(36)   ja_JP(11)   ru_RU(41)   pl_PL(38)   ko_KR(11)   zh_Hant_HK(8)   
+  23 - LOC_UNIT_NEW_ASSAULT_SQUAD_DESCRIPTION:  (90) ->  en_US(203)   fr_FR(270)   de_DE(243)   it_IT(247)   es_ES(241)   ja_JP(125)   ru_RU(258)   pl_PL(267)   ko_KR(133)   zh_Hant_HK(89)   
+  24 - LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_NAME:  (8) ->  en_US(34)   fr_FR(44)   de_DE(36)   it_IT(43)   es_ES(42)   ja_JP(12)   ru_RU(27)   pl_PL(38)   ko_KR(13)   zh_Hant_HK(8)   
+  25 - LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_DESCRIPTION:  (34) ->  en_US(149)   fr_FR(195)   de_DE(177)   it_IT(196)   es_ES(182)   ja_JP(56)   ru_RU(160)   pl_PL(175)   ko_KR(60)   zh_Hant_HK(34)   
+  26 - LOC_UNIT_ADVANCED_ASSAULT_SQUAD_NAME:  (8) ->  en_US(32)   fr_FR(34)   de_DE(45)   it_IT(33)   es_ES(33)   ja_JP(24)   ru_RU(48)   pl_PL(40)   ko_KR(12)   zh_Hant_HK(8)   
+  27 - LOC_UNIT_ADVANCED_ASSAULT_SQUAD_DESCRIPTION:  (71) ->  en_US(210)   fr_FR(272)   de_DE(251)   it_IT(256)   es_ES(241)   ja_JP(96)   ru_RU(210)   pl_PL(227)   ko_KR(106)   zh_Hant_HK(71)   
+  28 - LOC_UNIT_ELITE_ASSAULT_SQUAD_NAME:  (8) ->  en_US(28)   fr_FR(34)   de_DE(27)   it_IT(33)   es_ES(37)   ja_JP(22)   ru_RU(29)   pl_PL(36)   ko_KR(14)   zh_Hant_HK(8)   
+  29 - LOC_UNIT_ELITE_ASSAULT_SQUAD_DESCRIPTION:  (65) ->  en_US(179)   fr_FR(221)   de_DE(211)   it_IT(209)   es_ES(204)   ja_JP(87)   ru_RU(170)   pl_PL(202)   ko_KR(99)   zh_Hant_HK(65)   
+  30 - LOC_UNIT_NEW_TACTICS_SQUAD_NAME:  (8) ->  en_US(36)   fr_FR(48)   de_DE(48)   it_IT(44)   es_ES(41)   ja_JP(10)   ru_RU(37)   pl_PL(41)   ko_KR(13)   zh_Hant_HK(8)   
+  31 - LOC_UNIT_NEW_TACTICS_SQUAD_DESCRIPTION:  (139) ->  en_US(269)   fr_FR(349)   de_DE(291)   it_IT(333)   es_ES(328)   ja_JP(162)   ru_RU(345)   pl_PL(328)   ko_KR(178)   zh_Hant_HK(138)   
+  32 - LOC_UNIT_TOUGH_TACTICS_SQUAD_NAME:  (8) ->  en_US(29)   fr_FR(35)   de_DE(32)   it_IT(36)   es_ES(33)   ja_JP(19)   ru_RU(32)   pl_PL(38)   ko_KR(14)   zh_Hant_HK(8)   
+  33 - LOC_UNIT_TOUGH_TACTICS_SQUAD_DESCRIPTION:  (104) ->  en_US(331)   fr_FR(423)   de_DE(345)   it_IT(417)   es_ES(394)   ja_JP(137)   ru_RU(370)   pl_PL(355)   ko_KR(158)   zh_Hant_HK(104)   
+  34 - LOC_UNIT_FEARLESS_TACTICS_SQUAD_NAME:  (8) ->  en_US(40)   fr_FR(45)   de_DE(42)   it_IT(40)   es_ES(39)   ja_JP(13)   ru_RU(36)   pl_PL(44)   ko_KR(15)   zh_Hant_HK(8)   
+  35 - LOC_UNIT_FEARLESS_TACTICS_SQUAD_DESCRIPTION:  (89) ->  en_US(249)   fr_FR(323)   de_DE(272)   it_IT(303)   es_ES(303)   ja_JP(116)   ru_RU(232)   pl_PL(250)   ko_KR(138)   zh_Hant_HK(89)   
+  36 - LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_NAME:  (8) ->  en_US(37)   fr_FR(44)   de_DE(40)   it_IT(39)   es_ES(41)   ja_JP(16)   ru_RU(40)   pl_PL(45)   ko_KR(13)   zh_Hant_HK(8)   
+  37 - LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_DESCRIPTION:  (83) ->  en_US(235)   fr_FR(318)   de_DE(252)   it_IT(310)   es_ES(282)   ja_JP(107)   ru_RU(255)   pl_PL(253)   ko_KR(114)   zh_Hant_HK(83)   
+  38 - LOC_UNIT_HONOR_TACTICS_SQUAD_NAME:  (8) ->  en_US(36)   fr_FR(46)   de_DE(43)   it_IT(40)   es_ES(42)   ja_JP(8)   ru_RU(36)   pl_PL(40)   ko_KR(14)   zh_Hant_HK(8)   
+  39 - LOC_UNIT_HONOR_TACTICS_SQUAD_DESCRIPTION:  (178) ->  en_US(359)   fr_FR(468)   de_DE(397)   it_IT(429)   es_ES(405)   ja_JP(201)   ru_RU(336)   pl_PL(364)   ko_KR(224)   zh_Hant_HK(178)   
+  40 - LOC_UNIT_ADVANCED_TACTICS_SQUAD_NAME:  (8) ->  en_US(30)   fr_FR(33)   de_DE(41)   it_IT(33)   es_ES(31)   ja_JP(8)   ru_RU(45)   pl_PL(35)   ko_KR(11)   zh_Hant_HK(8)   
+  41 - LOC_UNIT_ADVANCED_TACTICS_SQUAD_DESCRIPTION:  (81) ->  en_US(215)   fr_FR(282)   de_DE(223)   it_IT(270)   es_ES(254)   ja_JP(98)   ru_RU(225)   pl_PL(218)   ko_KR(109)   zh_Hant_HK(81)   
+  42 - LOC_UNIT_ELITE_TACTICS_SQUAD_NAME:  (8) ->  en_US(29)   fr_FR(33)   de_DE(30)   it_IT(31)   es_ES(28)   ja_JP(20)   ru_RU(35)   pl_PL(33)   ko_KR(15)   zh_Hant_HK(8)   
+  43 - LOC_UNIT_ELITE_TACTICS_SQUAD_DESCRIPTION:  (76) ->  en_US(175)   fr_FR(235)   de_DE(178)   it_IT(227)   es_ES(218)   ja_JP(93)   ru_RU(193)   pl_PL(189)   ko_KR(104)   zh_Hant_HK(76)   
+  44 - LOC_UNIT_NEW_ARMORED_SQUAD_NAME:  (8) ->  en_US(44)   fr_FR(55)   de_DE(52)   it_IT(52)   es_ES(51)   ja_JP(18)   ru_RU(50)   pl_PL(48)   ko_KR(22)   zh_Hant_HK(8)   
+  45 - LOC_UNIT_NEW_ARMORED_SQUAD_DESCRIPTION:  (162) ->  en_US(354)   fr_FR(450)   de_DE(418)   it_IT(431)   es_ES(404)   ja_JP(201)   ru_RU(387)   pl_PL(402)   ko_KR(216)   zh_Hant_HK(162)   
+  46 - LOC_UNIT_FEARLESS_ARMORED_SQUAD_NAME:  (8) ->  en_US(33)   fr_FR(36)   de_DE(35)   it_IT(34)   es_ES(33)   ja_JP(24)   ru_RU(35)   pl_PL(36)   ko_KR(15)   zh_Hant_HK(8)   
+  47 - LOC_UNIT_FEARLESS_ARMORED_SQUAD_DESCRIPTION:  (106) ->  en_US(282)   fr_FR(346)   de_DE(320)   it_IT(333)   es_ES(342)   ja_JP(127)   ru_RU(283)   pl_PL(270)   ko_KR(167)   zh_Hant_HK(106)   
+  48 - LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_NAME:  (8) ->  en_US(35)   fr_FR(39)   de_DE(34)   it_IT(38)   es_ES(42)   ja_JP(19)   ru_RU(51)   pl_PL(42)   ko_KR(16)   zh_Hant_HK(8)   
+  49 - LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_DESCRIPTION:  (100) ->  en_US(268)   fr_FR(341)   de_DE(300)   it_IT(340)   es_ES(321)   ja_JP(118)   ru_RU(306)   pl_PL(273)   ko_KR(143)   zh_Hant_HK(100)   
+  50 - LOC_UNIT_ADVANCED_ARMORED_SQUAD_NAME:  (8) ->  en_US(33)   fr_FR(34)   de_DE(41)   it_IT(44)   es_ES(42)   ja_JP(15)   ru_RU(49)   pl_PL(50)   ko_KR(14)   zh_Hant_HK(8)   
+  51 - LOC_UNIT_ADVANCED_ARMORED_SQUAD_DESCRIPTION:  (98) ->  en_US(248)   fr_FR(305)   de_DE(271)   it_IT(300)   es_ES(293)   ja_JP(109)   ru_RU(274)   pl_PL(238)   ko_KR(138)   zh_Hant_HK(98)   
+  52 - LOC_UNIT_ELITE_ARMORED_SQUAD_NAME:  (8) ->  en_US(27)   fr_FR(32)   de_DE(29)   it_IT(30)   es_ES(30)   ja_JP(18)   ru_RU(35)   pl_PL(33)   ko_KR(14)   zh_Hant_HK(8)   
+  53 - LOC_UNIT_ELITE_ARMORED_SQUAD_DESCRIPTION:  (93) ->  en_US(208)   fr_FR(258)   de_DE(226)   it_IT(257)   es_ES(257)   ja_JP(104)   ru_RU(244)   pl_PL(209)   ko_KR(133)   zh_Hant_HK(93)   
+  54 - LOC_UNIT_NEW_RECON_SQUAD_NAME:  (8) ->  en_US(38)   fr_FR(43)   de_DE(39)   it_IT(42)   es_ES(43)   ja_JP(8)   ru_RU(41)   pl_PL(36)   ko_KR(8)   zh_Hant_HK(8)   
+  55 - LOC_UNIT_NEW_RECON_SQUAD_DESCRIPTION:  (124) ->  en_US(282)   fr_FR(363)   de_DE(322)   it_IT(330)   es_ES(325)   ja_JP(166)   ru_RU(357)   pl_PL(329)   ko_KR(184)   zh_Hant_HK(123)   
+  56 - LOC_UNIT_EXPERIENCED_RECON_NAME:  (8) ->  en_US(42)   fr_FR(48)   de_DE(36)   it_IT(45)   es_ES(46)   ja_JP(10)   ru_RU(29)   pl_PL(32)   ko_KR(12)   zh_Hant_HK(8)   
+  57 - LOC_UNIT_EXPERIENCED_RECON_DESCRIPTION:  (68) ->  en_US(235)   fr_FR(287)   de_DE(275)   it_IT(280)   es_ES(262)   ja_JP(100)   ru_RU(251)   pl_PL(234)   ko_KR(108)   zh_Hant_HK(68)   
+  58 - LOC_UNIT_ADVANCED_RECON_SQUAD_NAME:  (8) ->  en_US(39)   fr_FR(43)   de_DE(47)   it_IT(39)   es_ES(41)   ja_JP(11)   ru_RU(39)   pl_PL(42)   ko_KR(12)   zh_Hant_HK(8)   
+  59 - LOC_UNIT_ADVANCED_RECON_SQUAD_DESCRIPTION:  (66) ->  en_US(215)   fr_FR(251)   de_DE(246)   it_IT(240)   es_ES(234)   ja_JP(91)   ru_RU(221)   pl_PL(199)   ko_KR(103)   zh_Hant_HK(66)   
+  60 - LOC_UNIT_ELITE_RECON_SQUAD_NAME:  (8) ->  en_US(26)   fr_FR(43)   de_DE(25)   it_IT(38)   es_ES(26)   ja_JP(22)   ru_RU(27)   pl_PL(27)   ko_KR(13)   zh_Hant_HK(8)   
+  61 - LOC_UNIT_ELITE_RECON_SQUAD_DESCRIPTION:  (61) ->  en_US(175)   fr_FR(204)   de_DE(201)   it_IT(197)   es_ES(198)   ja_JP(86)   ru_RU(189)   pl_PL(170)   ko_KR(98)   zh_Hant_HK(61)   
+  62 - LOC_UNIT_NEW_SNIPER_SQUAD_NAME:  (8) ->  en_US(32)   fr_FR(53)   de_DE(48)   it_IT(42)   es_ES(46)   ja_JP(17)   ru_RU(43)   pl_PL(38)   ko_KR(11)   zh_Hant_HK(8)   
+  63 - LOC_UNIT_NEW_SNIPER_SQUAD_DESCRIPTION:  (127) ->  en_US(268)   fr_FR(357)   de_DE(296)   it_IT(331)   es_ES(322)   ja_JP(159)   ru_RU(325)   pl_PL(319)   ko_KR(175)   zh_Hant_HK(126)   
+  64 - LOC_UNIT_TOUGH_SNIPER_SQUAD_NAME:  (8) ->  en_US(27)   fr_FR(43)   de_DE(26)   it_IT(39)   es_ES(47)   ja_JP(18)   ru_RU(28)   pl_PL(46)   ko_KR(14)   zh_Hant_HK(8)   
+  65 - LOC_UNIT_TOUGH_SNIPER_SQUAD_DESCRIPTION:  (118) ->  en_US(339)   fr_FR(432)   de_DE(354)   it_IT(433)   es_ES(390)   ja_JP(151)   ru_RU(380)   pl_PL(368)   ko_KR(178)   zh_Hant_HK(118)   
+  66 - LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_NAME:  (8) ->  en_US(33)   fr_FR(48)   de_DE(36)   it_IT(48)   es_ES(50)   ja_JP(12)   ru_RU(38)   pl_PL(30)   ko_KR(12)   zh_Hant_HK(8)   
+  67 - LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_DESCRIPTION:  (107) ->  en_US(252)   fr_FR(320)   de_DE(274)   it_IT(322)   es_ES(288)   ja_JP(128)   ru_RU(260)   pl_PL(262)   ko_KR(140)   zh_Hant_HK(107)   
+  68 - LOC_UNIT_ADVANCED_SNIPER_SQUAD_NAME:  (8) ->  en_US(30)   fr_FR(43)   de_DE(49)   it_IT(35)   es_ES(46)   ja_JP(15)   ru_RU(39)   pl_PL(39)   ko_KR(12)   zh_Hant_HK(8)   
+  69 - LOC_UNIT_ADVANCED_SNIPER_SQUAD_DESCRIPTION:  (105) ->  en_US(232)   fr_FR(284)   de_DE(245)   it_IT(282)   es_ES(260)   ja_JP(119)   ru_RU(230)   pl_PL(227)   ko_KR(135)   zh_Hant_HK(105)   
+  70 - LOC_UNIT_ELITE_SNIPER_SQUAD_NAME:  (8) ->  en_US(27)   fr_FR(43)   de_DE(26)   it_IT(35)   es_ES(40)   ja_JP(23)   ru_RU(28)   pl_PL(35)   ko_KR(15)   zh_Hant_HK(8)   
+  71 - LOC_UNIT_ELITE_SNIPER_SQUAD_DESCRIPTION:  (100) ->  en_US(192)   fr_FR(237)   de_DE(200)   it_IT(239)   es_ES(224)   ja_JP(114)   ru_RU(198)   pl_PL(198)   ko_KR(130)   zh_Hant_HK(100)   
+  72 - LOC_UNIT_NEW_ANTITANK_SQUAD_NAME:  (9) ->  en_US(29)   fr_FR(35)   de_DE(32)   it_IT(30)   es_ES(32)   ja_JP(13)   ru_RU(42)   pl_PL(38)   ko_KR(14)   zh_Hant_HK(9)   
+  73 - LOC_UNIT_NEW_ANTITANK_SQUAD_DESCRIPTION:  (149) ->  en_US(335)   fr_FR(386)   de_DE(377)   it_IT(408)   es_ES(365)   ja_JP(183)   ru_RU(355)   pl_PL(375)   ko_KR(212)   zh_Hant_HK(149)   
+  74 - LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_NAME:  (9) ->  en_US(37)   fr_FR(39)   de_DE(37)   it_IT(39)   es_ES(39)   ja_JP(11)   ru_RU(44)   pl_PL(47)   ko_KR(14)   zh_Hant_HK(9)   
+  75 - LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_DESCRIPTION:  (87) ->  en_US(226)   fr_FR(288)   de_DE(267)   it_IT(301)   es_ES(254)   ja_JP(107)   ru_RU(238)   pl_PL(231)   ko_KR(112)   zh_Hant_HK(87)   
+  76 - LOC_UNIT_HONOR_ANTITANK_SQUAD_NAME:  (9) ->  en_US(34)   fr_FR(36)   de_DE(37)   it_IT(33)   es_ES(34)   ja_JP(13)   ru_RU(42)   pl_PL(42)   ko_KR(16)   zh_Hant_HK(9)   
+  77 - LOC_UNIT_HONOR_ANTITANK_SQUAD_DESCRIPTION:  (94) ->  en_US(228)   fr_FR(303)   de_DE(264)   it_IT(283)   es_ES(256)   ja_JP(105)   ru_RU(216)   pl_PL(224)   ko_KR(116)   zh_Hant_HK(94)   
+  78 - LOC_UNIT_ADVANCED_ANTITANK_SQUAD_NAME:  (9) ->  en_US(34)   fr_FR(34)   de_DE(44)   it_IT(33)   es_ES(34)   ja_JP(13)   ru_RU(54)   pl_PL(46)   ko_KR(13)   zh_Hant_HK(9)   
+  79 - LOC_UNIT_ADVANCED_ANTITANK_SQUAD_DESCRIPTION:  (85) ->  en_US(206)   fr_FR(252)   de_DE(238)   it_IT(261)   es_ES(226)   ja_JP(99)   ru_RU(206)   pl_PL(196)   ko_KR(107)   zh_Hant_HK(85)   
+  80 - LOC_UNIT_ELITE_ANTITANK_SQUAD_NAME:  (9) ->  en_US(31)   fr_FR(34)   de_DE(33)   it_IT(32)   es_ES(31)   ja_JP(14)   ru_RU(43)   pl_PL(42)   ko_KR(14)   zh_Hant_HK(9)   
+  81 - LOC_UNIT_ELITE_ANTITANK_SQUAD_DESCRIPTION:  (108) ->  en_US(222)   fr_FR(274)   de_DE(238)   it_IT(286)   es_ES(258)   ja_JP(127)   ru_RU(237)   pl_PL(222)   ko_KR(135)   zh_Hant_HK(108)   
+  82 - LOC_UNIT_SPECIAL_G41_NAME:  (3) ->  en_US(3)   fr_FR(3)   de_DE(3)   it_IT(3)   es_ES(3)   ja_JP(3)   ru_RU(3)   pl_PL(3)   ko_KR(3)   zh_Hant_HK(3)   
+  83 - LOC_UNIT_SPECIAL_G41_DESCRIPTION:  (47) ->  en_US(183)   fr_FR(193)   de_DE(236)   it_IT(207)   es_ES(197)   ja_JP(66)   ru_RU(179)   pl_PL(150)   ko_KR(94)   zh_Hant_HK(47)   
+  84 - LOC_UNIT_SPECIAL_TMP_NAME:  (3) ->  en_US(3)   fr_FR(3)   de_DE(3)   it_IT(3)   es_ES(3)   ja_JP(3)   ru_RU(3)   pl_PL(3)   ko_KR(3)   zh_Hant_HK(3)   
+  85 - LOC_UNIT_SPECIAL_TMP_DESCRIPTION:  (97) ->  en_US(354)   fr_FR(386)   de_DE(438)   it_IT(353)   es_ES(353)   ja_JP(126)   ru_RU(349)   pl_PL(372)   ko_KR(172)   zh_Hant_HK(96)   
+  86 - LOC_TRAIT_GIRLFRONTLINE_SQUAD_NAME:  (7) ->  en_US(23)   fr_FR(25)   de_DE(23)   it_IT(26)   es_ES(22)   ja_JP(18)   ru_RU(26)   pl_PL(25)   ko_KR(10)   zh_Hant_HK(7)   
+  87 - LOC_TRAIT_GIRLFRONTLINE_SQUAD_DESCRIPTION:  (102) ->  en_US(252)   fr_FR(345)   de_DE(290)   it_IT(308)   es_ES(317)   ja_JP(151)   ru_RU(260)   pl_PL(295)   ko_KR(154)   zh_Hant_HK(102)   
+  88 - LOC_ROMOTION_CLASS_ASSAULT_SQUAD_NAME:  (4) ->  en_US(11)   fr_FR(14)   de_DE(18)   it_IT(21)   es_ES(22)   ja_JP(5)   ru_RU(19)   pl_PL(15)   ko_KR(8)   zh_Hant_HK(4)   
+  89 - LOC_ABILITY_CAN_NOT_MELEE_ATTACK_GIRLFRONTLINE_DESCRIPTION:  (25) ->  en_US(46)   fr_FR(70)   de_DE(65)   it_IT(65)   es_ES(67)   ja_JP(35)   ru_RU(63)   pl_PL(54)   ko_KR(38)   zh_Hant_HK(25)   
+  90 - LOC_UNIT_MCV_NAME:  (3) ->  en_US(7)   fr_FR(8)   de_DE(5)   it_IT(9)   es_ES(7)   ja_JP(5)   ru_RU(18)   pl_PL(9)   ko_KR(5)   zh_Hant_HK(3)   
+  91 - LOC_UNIT_MCV_DESCRIPTION:  (75) ->  en_US(180)   fr_FR(209)   de_DE(204)   it_IT(196)   es_ES(196)   ja_JP(98)   ru_RU(200)   pl_PL(190)   ko_KR(108)   zh_Hant_HK(75)   
+  92 - LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_NAME:  (4) ->  en_US(19)   fr_FR(19)   de_DE(13)   it_IT(19)   es_ES(17)   ja_JP(4)   ru_RU(19)   pl_PL(19)   ko_KR(4)   zh_Hant_HK(4)   
+  93 - LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_DESCRIPTION:  (259) ->  en_US(542)   fr_FR(608)   de_DE(640)   it_IT(602)   es_ES(637)   ja_JP(362)   ru_RU(639)   pl_PL(581)   ko_KR(357)   zh_Hant_HK(259)   
+  94 - LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_NAME:  (3) ->  en_US(5)   fr_FR(4)   de_DE(4)   it_IT(3)   es_ES(4)   ja_JP(4)   ru_RU(4)   pl_PL(5)   ko_KR(3)   zh_Hant_HK(3)   
+  95 - LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_DESCRIPTION:  (170) ->  en_US(391)   fr_FR(471)   de_DE(454)   it_IT(438)   es_ES(461)   ja_JP(239)   ru_RU(442)   pl_PL(423)   ko_KR(243)   zh_Hant_HK(170)   
+  96 - LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_NAME:  (4) ->  en_US(11)   fr_FR(15)   de_DE(12)   it_IT(18)   es_ES(17)   ja_JP(4)   ru_RU(13)   pl_PL(15)   ko_KR(5)   zh_Hant_HK(4)   
+  97 - LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_DESCRIPTION:  (179) ->  en_US(327)   fr_FR(367)   de_DE(378)   it_IT(357)   es_ES(354)   ja_JP(230)   ru_RU(384)   pl_PL(361)   ko_KR(240)   zh_Hant_HK(179)   
+  98 - LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_PRODUCTION_DESCRIPTION:  (39) ->  en_US(67)   fr_FR(74)   de_DE(80)   it_IT(76)   es_ES(72)   ja_JP(43)   ru_RU(88)   pl_PL(77)   ko_KR(48)   zh_Hant_HK(39)   
+  99 - LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_GOLD_DESCRIPTION:  (32) ->  en_US(55)   fr_FR(57)   de_DE(61)   it_IT(56)   es_ES(58)   ja_JP(47)   ru_RU(65)   pl_PL(63)   ko_KR(33)   zh_Hant_HK(32)   
+  100 - LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_FOOD_DESCRIPTION:  (32) ->  en_US(55)   fr_FR(68)   de_DE(64)   it_IT(60)   es_ES(63)   ja_JP(40)   ru_RU(65)   pl_PL(68)   ko_KR(41)   zh_Hant_HK(32)   
+  101 - LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_PRODUCTION_DESCRIPTION:  (34) ->  en_US(60)   fr_FR(62)   de_DE(57)   it_IT(63)   es_ES(68)   ja_JP(38)   ru_RU(60)   pl_PL(55)   ko_KR(41)   zh_Hant_HK(34)   
+  102 - LOC_ADJACENCY_WATER_ADD_3_YIELD_PRODUCTION_DESCRIPTION:  (34) ->  en_US(56)   fr_FR(57)   de_DE(62)   it_IT(59)   es_ES(61)   ja_JP(39)   ru_RU(61)   pl_PL(56)   ko_KR(41)   zh_Hant_HK(34)   
+  103 - LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_GOLD_DESCRIPTION:  (27) ->  en_US(51)   fr_FR(62)   de_DE(49)   it_IT(62)   es_ES(65)   ja_JP(31)   ru_RU(54)   pl_PL(48)   ko_KR(34)   zh_Hant_HK(27)   
+  104 - LOC_ADJACENCY_WATER_ADD_3_YIELD_GOLD_DESCRIPTION:  (27) ->  en_US(47)   fr_FR(57)   de_DE(50)   it_IT(58)   es_ES(58)   ja_JP(32)   ru_RU(54)   pl_PL(49)   ko_KR(34)   zh_Hant_HK(27)   
+  105 - LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_FOOD_DESCRIPTION:  (27) ->  en_US(50)   fr_FR(54)   de_DE(49)   it_IT(49)   es_ES(52)   ja_JP(33)   ru_RU(43)   pl_PL(44)   ko_KR(34)   zh_Hant_HK(27)   
+  106 - LOC_ADJACENCY_WATER_ADD_3_YIELD_FOOD_DESCRIPTION:  (27) ->  en_US(42)   fr_FR(49)   de_DE(45)   it_IT(48)   es_ES(54)   ja_JP(33)   ru_RU(43)   pl_PL(45)   ko_KR(34)   zh_Hant_HK(27)   
+  107 - LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_PRODUCTION_DESCRIPTION:  (36) ->  en_US(70)   fr_FR(78)   de_DE(79)   it_IT(72)   es_ES(77)   ja_JP(45)   ru_RU(89)   pl_PL(74)   ko_KR(46)   zh_Hant_HK(36)   
+  108 - LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_PRODUCTION_DESCRIPTION:  (37) ->  en_US(67)   fr_FR(71)   de_DE(71)   it_IT(69)   es_ES(72)   ja_JP(45)   ru_RU(84)   pl_PL(71)   ko_KR(45)   zh_Hant_HK(37)   
+  109 - LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_GOLD_DESCRIPTION:  (29) ->  en_US(61)   fr_FR(75)   de_DE(68)   it_IT(70)   es_ES(74)   ja_JP(38)   ru_RU(74)   pl_PL(67)   ko_KR(39)   zh_Hant_HK(29)   
+  110 - LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_GOLD_DESCRIPTION:  (30) ->  en_US(58)   fr_FR(65)   de_DE(59)   it_IT(67)   es_ES(69)   ja_JP(38)   ru_RU(69)   pl_PL(64)   ko_KR(38)   zh_Hant_HK(30)   
+  111 - LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_FOOD_DESCRIPTION:  (29) ->  en_US(56)   fr_FR(70)   de_DE(64)   it_IT(60)   es_ES(69)   ja_JP(36)   ru_RU(62)   pl_PL(62)   ko_KR(39)   zh_Hant_HK(29)   
+  112 - LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_FOOD_DESCRIPTION:  (30) ->  en_US(53)   fr_FR(65)   de_DE(61)   it_IT(57)   es_ES(64)   ja_JP(36)   ru_RU(57)   pl_PL(60)   ko_KR(38)   zh_Hant_HK(30)   
+  113 - LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_PRODUCTION_DESCRIPTION:  (36) ->  en_US(67)   fr_FR(82)   de_DE(87)   it_IT(83)   es_ES(88)   ja_JP(43)   ru_RU(75)   pl_PL(83)   ko_KR(51)   zh_Hant_HK(36)   
+  114 - LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_GOLD_DESCRIPTION:  (29) ->  en_US(53)   fr_FR(70)   de_DE(73)   it_IT(76)   es_ES(70)   ja_JP(31)   ru_RU(56)   pl_PL(69)   ko_KR(32)   zh_Hant_HK(29)   
+  115 - LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_FOOD_DESCRIPTION:  (29) ->  en_US(47)   fr_FR(65)   de_DE(70)   it_IT(68)   es_ES(79)   ja_JP(31)   ru_RU(45)   pl_PL(65)   ko_KR(35)   zh_Hant_HK(29)   
+  116 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME:  (2) ->  en_US(4)   fr_FR(4)   de_DE(5)   it_IT(5)   es_ES(7)   ja_JP(4)   ru_RU(6)   pl_PL(4)   ko_KR(2)   zh_Hant_HK(2)   
+  117 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION:  (123) ->  en_US(267)   fr_FR(288)   de_DE(290)   it_IT(288)   es_ES(286)   ja_JP(160)   ru_RU(267)   pl_PL(276)   ko_KR(167)   zh_Hant_HK(123)   
+  118 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION:  (10) ->  en_US(30)   fr_FR(35)   de_DE(26)   it_IT(26)   es_ES(45)   ja_JP(13)   ru_RU(35)   pl_PL(33)   ko_KR(13)   zh_Hant_HK(10)   
+  119 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_ADJECTIVE:  (8) ->  en_US(36)   fr_FR(59)   de_DE(53)   it_IT(64)   es_ES(69)   ja_JP(15)   ru_RU(34)   pl_PL(46)   ko_KR(14)   zh_Hant_HK(8)   
+  120 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME:  (8) ->  en_US(36)   fr_FR(56)   de_DE(36)   it_IT(53)   es_ES(69)   ja_JP(14)   ru_RU(47)   pl_PL(46)   ko_KR(14)   zh_Hant_HK(8)   
+  121 - LOC_UNIT_SPECIAL_SR3MP_NAME:  (6) ->  en_US(6)   fr_FR(6)   de_DE(6)   it_IT(6)   es_ES(6)   ja_JP(6)   ru_RU(6)   pl_PL(6)   ko_KR(6)   zh_Hant_HK(6)   
+  122 - LOC_UNIT_SPECIAL_SR3MP_DESCRIPTION:  (61) ->  en_US(219)   fr_FR(249)   de_DE(266)   it_IT(223)   es_ES(228)   ja_JP(63)   ru_RU(234)   pl_PL(223)   ko_KR(95)   zh_Hant_HK(61)   
+  123 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME:  (4) ->  en_US(18)   fr_FR(20)   de_DE(19)   it_IT(19)   es_ES(21)   ja_JP(13)   ru_RU(20)   pl_PL(18)   ko_KR(5)   zh_Hant_HK(4)   
+  124 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION:  (200) ->  en_US(480)   fr_FR(548)   de_DE(540)   it_IT(538)   es_ES(530)   ja_JP(255)   ru_RU(496)   pl_PL(516)   ko_KR(279)   zh_Hant_HK(200)   
+  125 - LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION:  (12) ->  en_US(45)   fr_FR(54)   de_DE(45)   it_IT(55)   es_ES(48)   ja_JP(15)   ru_RU(52)   pl_PL(49)   ko_KR(16)   zh_Hant_HK(12)   
+  126 - LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_ADJECTIVE:  (10) ->  en_US(50)   fr_FR(61)   de_DE(47)   it_IT(47)   es_ES(63)   ja_JP(13)   ru_RU(49)   pl_PL(40)   ko_KR(13)   zh_Hant_HK(10)   
+  127 - LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME:  (10) ->  en_US(51)   fr_FR(78)   de_DE(51)   it_IT(76)   es_ES(77)   ja_JP(19)   ru_RU(56)   pl_PL(61)   ko_KR(17)   zh_Hant_HK(10)   
+  128 - LOC_VIZSOURCE_TECH_STIRRUPS_GIRLFRONTLINE:  (20) ->  en_US(76)   fr_FR(77)   de_DE(76)   it_IT(78)   es_ES(77)   ja_JP(38)   ru_RU(96)   pl_PL(80)   ko_KR(27)   zh_Hant_HK(20)   
+  129 - LOC_VIZSOURCE_ACTION_TECH_STIRRUPS_GIRLFRONTLINE:  (36) ->  en_US(153)   fr_FR(180)   de_DE(188)   it_IT(173)   es_ES(174)   ja_JP(69)   ru_RU(179)   pl_PL(146)   ko_KR(65)   zh_Hant_HK(36)   
+  130 - LOC_GOSSIP_SOURCE_TECH_STIRRUPS_GIRLFRONTLINE:  (15) ->  en_US(62)   fr_FR(71)   de_DE(76)   it_IT(70)   es_ES(69)   ja_JP(27)   ru_RU(57)   pl_PL(60)   ko_KR(25)   zh_Hant_HK(15)   
+  131 - LOC_VIZSOURCE_TECH_BALLISTICS_GIRLFRONTLINE:  (20) ->  en_US(82)   fr_FR(77)   de_DE(82)   it_IT(99)   es_ES(86)   ja_JP(37)   ru_RU(96)   pl_PL(80)   ko_KR(27)   zh_Hant_HK(20)   
+  132 - LOC_VIZSOURCE_ACTION_TECH_BALLISTICS_GIRLFRONTLINE:  (36) ->  en_US(153)   fr_FR(167)   de_DE(181)   it_IT(170)   es_ES(170)   ja_JP(66)   ru_RU(171)   pl_PL(157)   ko_KR(51)   zh_Hant_HK(36)   
+  133 - LOC_GOSSIP_SOURCE_TECH_BALLISTICS_GIRLFRONTLINE:  (11) ->  en_US(52)   fr_FR(57)   de_DE(54)   it_IT(56)   es_ES(50)   ja_JP(18)   ru_RU(53)   pl_PL(51)   ko_KR(24)   zh_Hant_HK(11)   
+  134 - LOC_VIZSOURCE_TECH_COMBUSTION_GIRLFRONTLINE:  (20) ->  en_US(76)   fr_FR(91)   de_DE(73)   it_IT(90)   es_ES(77)   ja_JP(26)   ru_RU(94)   pl_PL(76)   ko_KR(27)   zh_Hant_HK(20)   
+  135 - LOC_VIZSOURCE_ACTION_TECH_COMBUSTION_GIRLFRONTLINE:  (36) ->  en_US(153)   fr_FR(167)   de_DE(181)   it_IT(170)   es_ES(170)   ja_JP(66)   ru_RU(179)   pl_PL(146)   ko_KR(64)   zh_Hant_HK(36)   
+  136 - LOC_GOSSIP_SOURCE_TECH_COMBUSTION_GIRLFRONTLINE:  (12) ->  en_US(49)   fr_FR(63)   de_DE(50)   it_IT(61)   es_ES(59)   ja_JP(16)   ru_RU(56)   pl_PL(58)   ko_KR(23)   zh_Hant_HK(12)   
+  137 - LOC_VIZSOURCE_TECH_COMPOSITES_GIRLFRONTLINE:  (20) ->  en_US(76)   fr_FR(77)   de_DE(76)   it_IT(78)   es_ES(77)   ja_JP(38)   ru_RU(96)   pl_PL(80)   ko_KR(27)   zh_Hant_HK(20)   
+  138 - LOC_VIZSOURCE_ACTION_TECH_COMPOSITES_GIRLFRONTLINE:  (36) ->  en_US(153)   fr_FR(167)   de_DE(181)   it_IT(170)   es_ES(170)   ja_JP(66)   ru_RU(171)   pl_PL(145)   ko_KR(51)   zh_Hant_HK(36)   
+  139 - LOC_GOSSIP_SOURCE_TECH_COMPOSITES_GIRLFRONTLINE:  (12) ->  en_US(47)   fr_FR(53)   de_DE(52)   it_IT(52)   es_ES(49)   ja_JP(13)   ru_RU(43)   pl_PL(46)   ko_KR(16)   zh_Hant_HK(12)   
+  140 - LOC_DISTRICT_CAMPUS_STRATEGYCENTER_NAME:  (4) ->  en_US(17)   fr_FR(20)   de_DE(18)   it_IT(18)   es_ES(18)   ja_JP(10)   ru_RU(21)   pl_PL(22)   ko_KR(4)   zh_Hant_HK(4)   
+  141 - LOC_DISTRICT_CAMPUS_STRATEGYCENTER_DESCRIPTION:  (191) ->  en_US(396)   fr_FR(481)   de_DE(471)   it_IT(443)   es_ES(453)   ja_JP(277)   ru_RU(474)   pl_PL(454)   ko_KR(268)   zh_Hant_HK(192)   
+  142 - LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_NAME:  (3) ->  en_US(11)   fr_FR(19)   de_DE(9)   it_IT(18)   es_ES(17)   ja_JP(3)   ru_RU(14)   pl_PL(11)   ko_KR(3)   zh_Hant_HK(3)   
+  143 - LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_DESCRIPTION:  (245) ->  en_US(461)   fr_FR(533)   de_DE(525)   it_IT(515)   es_ES(522)   ja_JP(330)   ru_RU(524)   pl_PL(515)   ko_KR(331)   zh_Hant_HK(246)   
+  144 - LOC_UNIT_SPECIAL_KAR98K_NAME:  (6) ->  en_US(6)   fr_FR(6)   de_DE(6)   it_IT(6)   es_ES(6)   ja_JP(6)   ru_RU(6)   pl_PL(6)   ko_KR(6)   zh_Hant_HK(5)   
+  145 - LOC_UNIT_SPECIAL_KAR98K_DESCRIPTION:  (64) ->  en_US(259)   fr_FR(299)   de_DE(290)   it_IT(289)   es_ES(276)   ja_JP(73)   ru_RU(253)   pl_PL(255)   ko_KR(102)   zh_Hant_HK(64)   
+  146 - LOC_UNIT_SPECIAL_SVD_NAME:  (3) ->  en_US(3)   fr_FR(3)   de_DE(3)   it_IT(3)   es_ES(3)   ja_JP(3)   ru_RU(3)   pl_PL(3)   ko_KR(3)   zh_Hant_HK(5)   
+  147 - LOC_UNIT_SPECIAL_SVD_DESCRIPTION:  (77) ->  en_US(291)   fr_FR(306)   de_DE(323)   it_IT(311)   es_ES(315)   ja_JP(106)   ru_RU(300)   pl_PL(325)   ko_KR(135)   zh_Hant_HK(76)   
+  148 - LOC_UNIT_SPECIAL_HS50_NAME:  (5) ->  en_US(5)   fr_FR(5)   de_DE(5)   it_IT(5)   es_ES(5)   ja_JP(5)   ru_RU(5)   pl_PL(5)   ko_KR(5)   zh_Hant_HK(5)   
+  149 - LOC_UNIT_SPECIAL_HS50_DESCRIPTION:  (112) ->  en_US(414)   fr_FR(433)   de_DE(434)   it_IT(421)   es_ES(403)   ja_JP(163)   ru_RU(404)   pl_PL(429)   ko_KR(187)   zh_Hant_HK(112)   
+  150 - LOC_UNIT_SPECIAL_M870_NAME:  (4) ->  en_US(4)   fr_FR(4)   de_DE(4)   it_IT(4)   es_ES(4)   ja_JP(4)   ru_RU(4)   pl_PL(4)   ko_KR(4)   zh_Hant_HK(4)   
+  151 - LOC_UNIT_SPECIAL_M870_DESCRIPTION:  (119) ->  en_US(447)   fr_FR(505)   de_DE(525)   it_IT(499)   es_ES(472)   ja_JP(199)   ru_RU(466)   pl_PL(517)   ko_KR(227)   zh_Hant_HK(119)   
+  152 - LOC_ROMOTION_CLASS_SNIPER_SQUAD_NAME:  (2) ->  en_US(8)   fr_FR(10)   de_DE(13)   it_IT(9)   es_ES(15)   ja_JP(5)   ru_RU(8)   pl_PL(7)   ko_KR(4)   zh_Hant_HK(2)   
+  153 - LOC_ROMOTION_CLASS_SUPPORT_SQUAD_NAME:  (4) ->  en_US(13)   fr_FR(16)   de_DE(21)   it_IT(22)   es_ES(21)   ja_JP(9)   ru_RU(22)   pl_PL(22)   ko_KR(5)   zh_Hant_HK(4)   
+  154 - LOC_ROMOTION_CLASS_TACTICS_SQUAD_NAME:  (2) ->  en_US(5)   fr_FR(5)   de_DE(8)   it_IT(7)   es_ES(13)   ja_JP(4)   ru_RU(11)   pl_PL(8)   ko_KR(2)   zh_Hant_HK(2)   
+  155 - LOC_ROMOTION_CLASS_ARMORED_SQUAD_NAME:  (3) ->  en_US(13)   fr_FR(16)   de_DE(18)   it_IT(18)   es_ES(17)   ja_JP(3)   ru_RU(17)   pl_PL(16)   ko_KR(3)   zh_Hant_HK(3)   
+  156 - LOC_ROMOTION_CLASS_RECON_SQUAD_NAME:  (2) ->  en_US(11)   fr_FR(8)   de_DE(11)   it_IT(11)   es_ES(10)   ja_JP(4)   ru_RU(12)   pl_PL(6)   ko_KR(4)   zh_Hant_HK(2)   
+  157 - LOC_ROMOTION_CLASS_ANTITANK_SQUAD_NAME:  (5) ->  en_US(18)   fr_FR(23)   de_DE(17)   it_IT(23)   es_ES(21)   ja_JP(8)   ru_RU(28)   pl_PL(27)   ko_KR(9)   zh_Hant_HK(5)   
+  158 - LOC_UNIT_NEW_SUPPORT_SQUAD_NAME:  (8) ->  en_US(34)   fr_FR(44)   de_DE(47)   it_IT(46)   es_ES(41)   ja_JP(8)   ru_RU(43)   pl_PL(39)   ko_KR(9)   zh_Hant_HK(8)   
+  159 - LOC_UNIT_NEW_SUPPORT_SQUAD_DESCRIPTION:  (210) ->  en_US(497)   fr_FR(627)   de_DE(534)   it_IT(583)   es_ES(586)   ja_JP(290)   ru_RU(556)   pl_PL(566)   ko_KR(297)   zh_Hant_HK(209)   
+  160 - LOC_UNIT_TOUGH_SUPPORT_SQUAD_NAME:  (8) ->  en_US(32)   fr_FR(42)   de_DE(36)   it_IT(39)   es_ES(38)   ja_JP(15)   ru_RU(38)   pl_PL(42)   ko_KR(12)   zh_Hant_HK(8)   
+  161 - LOC_UNIT_TOUGH_SUPPORT_SQUAD_DESCRIPTION:  (175) ->  en_US(547)   fr_FR(651)   de_DE(571)   it_IT(648)   es_ES(634)   ja_JP(244)   ru_RU(588)   pl_PL(577)   ko_KR(270)   zh_Hant_HK(175)   
+  162 - LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_NAME:  (8) ->  en_US(31)   fr_FR(36)   de_DE(42)   it_IT(39)   es_ES(32)   ja_JP(15)   ru_RU(38)   pl_PL(36)   ko_KR(13)   zh_Hant_HK(8)   
+  163 - LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_DESCRIPTION:  (154) ->  en_US(452)   fr_FR(546)   de_DE(478)   it_IT(541)   es_ES(522)   ja_JP(214)   ru_RU(473)   pl_PL(475)   ko_KR(226)   zh_Hant_HK(154)   
+  164 - LOC_UNIT_ADVANCED_SUPPORT_SQUAD_NAME:  (8) ->  en_US(32)   fr_FR(35)   de_DE(39)   it_IT(35)   es_ES(34)   ja_JP(21)   ru_RU(40)   pl_PL(38)   ko_KR(12)   zh_Hant_HK(8)   
+  165 - LOC_UNIT_ADVANCED_SUPPORT_SQUAD_DESCRIPTION:  (152) ->  en_US(432)   fr_FR(510)   de_DE(449)   it_IT(501)   es_ES(494)   ja_JP(206)   ru_RU(441)   pl_PL(437)   ko_KR(221)   zh_Hant_HK(152)   
+  166 - LOC_UNIT_ELITE_SUPPORT_SQUAD_NAME:  (8) ->  en_US(29)   fr_FR(36)   de_DE(29)   it_IT(34)   es_ES(32)   ja_JP(19)   ru_RU(37)   pl_PL(37)   ko_KR(13)   zh_Hant_HK(8)   
+  167 - LOC_UNIT_ELITE_SUPPORT_SQUAD_DESCRIPTION:  (147) ->  en_US(392)   fr_FR(463)   de_DE(404)   it_IT(458)   es_ES(458)   ja_JP(200)   ru_RU(411)   pl_PL(411)   ko_KR(216)   zh_Hant_HK(147)   
+  168 - LOC_ABILITY_ADD_15_COMBAT_FOR_TACTICS_SQUAD_ALLOW_GIRLFRONTLINE_DESCRIPTION:  (32) ->  en_US(84)   fr_FR(113)   de_DE(83)   it_IT(103)   es_ES(102)   ja_JP(35)   ru_RU(100)   pl_PL(104)   ko_KR(38)   zh_Hant_HK(32)   
+  169 - LOC_ABILITY_DEBUFF_FOR_SUPPORT_SQUAD_GIRLFONTLINE_GIRLFRONTLINE_DESCRIPTION:  (24) ->  en_US(49)   fr_FR(47)   de_DE(43)   it_IT(62)   es_ES(46)   ja_JP(25)   ru_RU(40)   pl_PL(44)   ko_KR(27)   zh_Hant_HK(24)   
+  170 - LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME:  (2) ->  en_US(7)   fr_FR(8)   de_DE(6)   it_IT(10)   es_ES(20)   ja_JP(5)   ru_RU(12)   pl_PL(11)   ko_KR(4)   zh_Hant_HK(2)   
+  171 - LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_DESCRIPTION:  (24) ->  en_US(46)   fr_FR(54)   de_DE(42)   it_IT(58)   es_ES(45)   ja_JP(24)   ru_RU(40)   pl_PL(45)   ko_KR(27)   zh_Hant_HK(24)   
+  172 - LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME:  (3) ->  en_US(17)   fr_FR(21)   de_DE(17)   it_IT(32)   es_ES(24)   ja_JP(8)   ru_RU(28)   pl_PL(27)   ko_KR(4)   zh_Hant_HK(3)   
+  173 - LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_DESCRIPTION:  (23) ->  en_US(48)   fr_FR(46)   de_DE(42)   it_IT(61)   es_ES(45)   ja_JP(23)   ru_RU(39)   pl_PL(43)   ko_KR(26)   zh_Hant_HK(23)   
+  174 - LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME:  (3) ->  en_US(20)   fr_FR(26)   de_DE(24)   it_IT(34)   es_ES(28)   ja_JP(10)   ru_RU(31)   pl_PL(29)   ko_KR(9)   zh_Hant_HK(3)   
+  175 - LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_DESCRIPTION:  (24) ->  en_US(46)   fr_FR(54)   de_DE(42)   it_IT(58)   es_ES(45)   ja_JP(24)   ru_RU(40)   pl_PL(45)   ko_KR(27)   zh_Hant_HK(24)   
+  176 - LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_NAME:  (4) ->  en_US(14)   fr_FR(17)   de_DE(15)   it_IT(11)   es_ES(14)   ja_JP(5)   ru_RU(10)   pl_PL(19)   ko_KR(6)   zh_Hant_HK(4)   
+  177 - LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_DESCRIPTION:  (28) ->  en_US(104)   fr_FR(116)   de_DE(92)   it_IT(113)   es_ES(116)   ja_JP(41)   ru_RU(106)   pl_PL(115)   ko_KR(51)   zh_Hant_HK(30)   
+  178 - LOC_PROMOTION_ADD_15_COMBAT_NAME:  (3) ->  en_US(14)   fr_FR(13)   de_DE(20)   it_IT(13)   es_ES(12)   ja_JP(3)   ru_RU(15)   pl_PL(13)   ko_KR(3)   zh_Hant_HK(3)   
+  179 - LOC_PROMOTION_ADD_15_COMBAT_DESCRIPTION:  (26) ->  en_US(55)   fr_FR(62)   de_DE(51)   it_IT(67)   es_ES(64)   ja_JP(30)   ru_RU(56)   pl_PL(57)   ko_KR(32)   zh_Hant_HK(26)   
+  180 - LOC_PROMOTION_ADD_2_MOVEMENT_NAME:  (4) ->  en_US(16)   fr_FR(18)   de_DE(23)   it_IT(20)   es_ES(17)   ja_JP(5)   ru_RU(21)   pl_PL(17)   ko_KR(6)   zh_Hant_HK(4)   
+  181 - LOC_PROMOTION_ADD_2_MOVEMENT_DESCRIPTION:  (51) ->  en_US(111)   fr_FR(155)   de_DE(125)   it_IT(147)   es_ES(149)   ja_JP(62)   ru_RU(126)   pl_PL(120)   ko_KR(68)   zh_Hant_HK(51)   
+  182 - LOC_PROMOTION_NO_TERRAIN_MOVEMENT_DEBUFF_NAME:  (3) ->  en_US(11)   fr_FR(13)   de_DE(16)   it_IT(13)   es_ES(13)   ja_JP(3)   ru_RU(12)   pl_PL(12)   ko_KR(6)   zh_Hant_HK(3)   
+  183 - LOC_UNIT_SPECIAL_FN57_NAME:  (5) ->  en_US(5)   fr_FR(5)   de_DE(5)   it_IT(5)   es_ES(5)   ja_JP(5)   ru_RU(5)   pl_PL(5)   ko_KR(5)   zh_Hant_HK(5)   
+  184 - LOC_UNIT_SPECIAL_FN57_DESCRIPTION:  (63) ->  en_US(284)   fr_FR(307)   de_DE(339)   it_IT(305)   es_ES(273)   ja_JP(89)   ru_RU(266)   pl_PL(271)   ko_KR(115)   zh_Hant_HK(63)   
+  185 - LOC_GIRLFRONTLINE_ADD_15_COMBAT_FOR_TACTICS_SQUAD:  (42) ->  en_US(88)   fr_FR(107)   de_DE(93)   it_IT(104)   es_ES(93)   ja_JP(49)   ru_RU(86)   pl_PL(92)   ko_KR(47)   zh_Hant_HK(42)   
+  186 - LOC_GIRLFRONTLINE_DEBUFF_FOR_SUPPORT_SQUAD:  (39) ->  en_US(100)   fr_FR(92)   de_DE(107)   it_IT(111)   es_ES(105)   ja_JP(61)   ru_RU(99)   pl_PL(94)   ko_KR(49)   zh_Hant_HK(39)   
+  187 - LOC_ADD_15_COMBAT_WHEN_ATTACK_GIRLFRONTLINE:  (78) ->  en_US(94)   fr_FR(93)   de_DE(89)   it_IT(99)   es_ES(94)   ja_JP(85)   ru_RU(88)   pl_PL(87)   ko_KR(78)   zh_Hant_HK(78)   
+  188 - LOC_ADD_7_COMBAT_WHEN_ATTACK_GIRLFRONTLINE:  (77) ->  en_US(93)   fr_FR(92)   de_DE(88)   it_IT(98)   es_ES(93)   ja_JP(83)   ru_RU(87)   pl_PL(86)   ko_KR(77)   zh_Hant_HK(77)   
+  189 - LOC_ADD_10_COMBAT_WHEN_ATTACK_GIRLFRONTLINE:  (78) ->  en_US(94)   fr_FR(93)   de_DE(89)   it_IT(99)   es_ES(94)   ja_JP(84)   ru_RU(88)   pl_PL(87)   ko_KR(78)   zh_Hant_HK(78)   
+  190 - LOC_ADD_15_COMBAT_GIRLFRONTLINE:  (66) ->  en_US(82)   fr_FR(81)   de_DE(77)   it_IT(87)   es_ES(82)   ja_JP(72)   ru_RU(76)   pl_PL(75)   ko_KR(66)   zh_Hant_HK(66)   
+  191 - LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_NAME:  (3) ->  en_US(6)   fr_FR(7)   de_DE(12)   it_IT(7)   es_ES(7)   ja_JP(3)   ru_RU(7)   pl_PL(10)   ko_KR(3)   zh_Hant_HK(3)   
+  192 - LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_DESCRIPTION:  (266) ->  en_US(505)   fr_FR(587)   de_DE(594)   it_IT(564)   es_ES(593)   ja_JP(329)   ru_RU(584)   pl_PL(553)   ko_KR(343)   zh_Hant_HK(252)   
+  193 - LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_NAME:  (10) ->  en_US(27)   fr_FR(47)   de_DE(32)   it_IT(36)   es_ES(47)   ja_JP(18)   ru_RU(39)   pl_PL(47)   ko_KR(12)   zh_Hant_HK(10)   
+  194 - LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_DESCRIPTION:  (249) ->  en_US(525)   fr_FR(619)   de_DE(614)   it_IT(602)   es_ES(632)   ja_JP(340)   ru_RU(623)   pl_PL(596)   ko_KR(365)   zh_Hant_HK(249)   
+  195 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME:  (4) ->  en_US(12)   fr_FR(11)   de_DE(14)   it_IT(14)   es_ES(20)   ja_JP(6)   ru_RU(16)   pl_PL(12)   ko_KR(6)   zh_Hant_HK(4)   
+  196 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION:  (97) ->  en_US(266)   fr_FR(297)   de_DE(298)   it_IT(288)   es_ES(304)   ja_JP(146)   ru_RU(254)   pl_PL(265)   ko_KR(147)   zh_Hant_HK(97)   
+  197 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION:  (12) ->  en_US(35)   fr_FR(37)   de_DE(40)   it_IT(48)   es_ES(46)   ja_JP(15)   ru_RU(45)   pl_PL(40)   ko_KR(18)   zh_Hant_HK(12)   
+  198 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_ADJECTIVE:  (10) ->  en_US(32)   fr_FR(34)   de_DE(37)   it_IT(38)   es_ES(55)   ja_JP(11)   ru_RU(37)   pl_PL(40)   ko_KR(12)   zh_Hant_HK(10)   
+  199 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME:  (10) ->  en_US(43)   fr_FR(61)   de_DE(42)   it_IT(65)   es_ES(62)   ja_JP(16)   ru_RU(53)   pl_PL(52)   ko_KR(17)   zh_Hant_HK(10)   
+  200 - LOC_VIZSOURCE_FN57_GIRLFRONTLINE:  (12) ->  en_US(38)   fr_FR(55)   de_DE(45)   it_IT(48)   es_ES(44)   ja_JP(14)   ru_RU(44)   pl_PL(37)   ko_KR(15)   zh_Hant_HK(12)   
+  201 - LOC_VIZSOURCE_ACTION_FN57_GIRLFRONTLINE:  (16) ->  en_US(44)   fr_FR(54)   de_DE(42)   it_IT(52)   es_ES(47)   ja_JP(28)   ru_RU(60)   pl_PL(55)   ko_KR(24)   zh_Hant_HK(16)   
+  202 - LOC_GOSSIP_SOURCE_FN57_GIRLFRONTLINE:  (8) ->  en_US(29)   fr_FR(31)   de_DE(45)   it_IT(37)   es_ES(33)   ja_JP(17)   ru_RU(41)   pl_PL(41)   ko_KR(16)   zh_Hant_HK(8)   
+  203 - LOC_PROJECT_PRODUCTION_DOLLS_NAME:  (4) ->  en_US(16)   fr_FR(23)   de_DE(21)   it_IT(22)   es_ES(22)   ja_JP(12)   ru_RU(19)   pl_PL(16)   ko_KR(9)   zh_Hant_HK(4)   
+  204 - LOC_PROJECT_PRODUCTION_DOLLS_SHORTNAME:  (4) ->  en_US(16)   fr_FR(23)   de_DE(21)   it_IT(22)   es_ES(22)   ja_JP(12)   ru_RU(19)   pl_PL(16)   ko_KR(9)   zh_Hant_HK(4)   
+  205 - LOC_PROJECT_PRODUCTION_DOLLS_DESCRIPTION:  (47) ->  en_US(156)   fr_FR(179)   de_DE(153)   it_IT(197)   es_ES(198)   ja_JP(71)   ru_RU(156)   pl_PL(145)   ko_KR(69)   zh_Hant_HK(47)   
+  206 - LOC_PROJECT_MASS_PRODUCTION_DOLLS_NAME:  (6) ->  en_US(32)   fr_FR(39)   de_DE(37)   it_IT(35)   es_ES(38)   ja_JP(10)   ru_RU(42)   pl_PL(33)   ko_KR(8)   zh_Hant_HK(6)   
+  207 - LOC_PROJECT_MASS_PRODUCTION_DOLLS_SHORTNAME:  (6) ->  en_US(32)   fr_FR(39)   de_DE(37)   it_IT(35)   es_ES(38)   ja_JP(10)   ru_RU(42)   pl_PL(33)   ko_KR(8)   zh_Hant_HK(6)   
+  208 - LOC_PROJECT_MASS_PRODUCTION_DOLLS_DESCRIPTION:  (74) ->  en_US(172)   fr_FR(171)   de_DE(186)   it_IT(183)   es_ES(177)   ja_JP(105)   ru_RU(162)   pl_PL(165)   ko_KR(133)   zh_Hant_HK(74)   
+  209 - LOC_PROJECT_REINFORCEMENTS_NAME:  (4) ->  en_US(19)   fr_FR(18)   de_DE(18)   it_IT(19)   es_ES(19)   ja_JP(4)   ru_RU(16)   pl_PL(18)   ko_KR(5)   zh_Hant_HK(4)   
+  210 - LOC_PROJECT_REINFORCEMENTS_SHORTNAME:  (4) ->  en_US(19)   fr_FR(18)   de_DE(18)   it_IT(19)   es_ES(19)   ja_JP(4)   ru_RU(16)   pl_PL(18)   ko_KR(5)   zh_Hant_HK(4)   
+  211 - LOC_PROJECT_REINFORCEMENTS_DESCRIPTION:  (77) ->  en_US(175)   fr_FR(174)   de_DE(190)   it_IT(186)   es_ES(180)   ja_JP(108)   ru_RU(165)   pl_PL(168)   ko_KR(134)   zh_Hant_HK(76)   
+  212 - LOC_PROJECT_RETIRE_DOLLS_NAME:  (4) ->  en_US(17)   fr_FR(23)   de_DE(18)   it_IT(22)   es_ES(19)   ja_JP(15)   ru_RU(21)   pl_PL(20)   ko_KR(9)   zh_Hant_HK(4)   
+  213 - LOC_PROJECT_RETIRE_DOLLS_SHORTNAME:  (4) ->  en_US(17)   fr_FR(23)   de_DE(18)   it_IT(22)   es_ES(19)   ja_JP(15)   ru_RU(21)   pl_PL(20)   ko_KR(9)   zh_Hant_HK(4)   
+  214 - LOC_PROJECT_RETIRE_DOLLS_DESCRIPTION:  (68) ->  en_US(166)   fr_FR(165)   de_DE(181)   it_IT(177)   es_ES(171)   ja_JP(99)   ru_RU(153)   pl_PL(159)   ko_KR(125)   zh_Hant_HK(68)   
+  215 - LOC_PROJECT_BATCH_DISMANTLING_DOLLS_NAME:  (6) ->  en_US(32)   fr_FR(34)   de_DE(36)   it_IT(38)   es_ES(33)   ja_JP(11)   ru_RU(28)   pl_PL(28)   ko_KR(12)   zh_Hant_HK(6)   
+  216 - LOC_PROJECT_BATCH_DISMANTLING_DOLLS_SHORTNAME:  (6) ->  en_US(32)   fr_FR(34)   de_DE(36)   it_IT(38)   es_ES(33)   ja_JP(11)   ru_RU(28)   pl_PL(28)   ko_KR(12)   zh_Hant_HK(6)   
+  217 - LOC_PROJECT_BATCH_DISMANTLING_DOLLS_DESCRIPTION:  (74) ->  en_US(162)   fr_FR(171)   de_DE(174)   it_IT(165)   es_ES(167)   ja_JP(108)   ru_RU(161)   pl_PL(165)   ko_KR(119)   zh_Hant_HK(74)   
+  218 - LOC_PROJECT_GREAT_PURGE_NAME:  (3) ->  en_US(9)   fr_FR(12)   de_DE(15)   it_IT(17)   es_ES(10)   ja_JP(3)   ru_RU(14)   pl_PL(14)   ko_KR(4)   zh_Hant_HK(3)   
+  219 - LOC_PROJECT_GREAT_PURGE_SHORTNAME:  (3) ->  en_US(9)   fr_FR(12)   de_DE(15)   it_IT(17)   es_ES(10)   ja_JP(3)   ru_RU(14)   pl_PL(14)   ko_KR(4)   zh_Hant_HK(3)   
+  220 - LOC_PROJECT_GREAT_PURGE_DESCRIPTION:  (71) ->  en_US(169)   fr_FR(168)   de_DE(183)   it_IT(180)   es_ES(174)   ja_JP(102)   ru_RU(159)   pl_PL(162)   ko_KR(127)   zh_Hant_HK(71)   
+  221 - LOC_UNIT_SPECIAL_ART556_NAME:  (6) ->  en_US(6)   fr_FR(6)   de_DE(6)   it_IT(6)   es_ES(6)   ja_JP(6)   ru_RU(6)   pl_PL(6)   ko_KR(6)   zh_Hant_HK(5)   
+  222 - LOC_UNIT_SPECIAL_ART556_DESCRIPTION:  (73) ->  en_US(274)   fr_FR(319)   de_DE(333)   it_IT(291)   es_ES(299)   ja_JP(95)   ru_RU(309)   pl_PL(284)   ko_KR(111)   zh_Hant_HK(73)   
+  223 - LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION:  (10) ->  en_US(31)   fr_FR(48)   de_DE(31)   it_IT(38)   es_ES(45)   ja_JP(11)   ru_RU(41)   pl_PL(34)   ko_KR(14)   zh_Hant_HK(10)   
+  224 - LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_ADJECTIVE:  (8) ->  en_US(39)   fr_FR(51)   de_DE(33)   it_IT(57)   es_ES(60)   ja_JP(10)   ru_RU(31)   pl_PL(47)   ko_KR(13)   zh_Hant_HK(8)   
+  225 - LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME:  (8) ->  en_US(41)   fr_FR(58)   de_DE(41)   it_IT(63)   es_ES(66)   ja_JP(15)   ru_RU(40)   pl_PL(49)   ko_KR(14)   zh_Hant_HK(8)   
+  226 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME:  (2) ->  en_US(10)   fr_FR(8)   de_DE(9)   it_IT(9)   es_ES(7)   ja_JP(2)   ru_RU(5)   pl_PL(7)   ko_KR(2)   zh_Hant_HK(2)   
+  227 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION:  (151) ->  en_US(422)   fr_FR(538)   de_DE(501)   it_IT(489)   es_ES(509)   ja_JP(217)   ru_RU(435)   pl_PL(467)   ko_KR(231)   zh_Hant_HK(151)   
+  228 - LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_NAME:  (2) ->  en_US(9)   fr_FR(10)   de_DE(8)   it_IT(12)   es_ES(9)   ja_JP(2)   ru_RU(9)   pl_PL(9)   ko_KR(2)   zh_Hant_HK(2)   
+  229 - LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_DESCRIPTION:  (252) ->  en_US(501)   fr_FR(578)   de_DE(593)   it_IT(566)   es_ES(578)   ja_JP(335)   ru_RU(600)   pl_PL(543)   ko_KR(350)   zh_Hant_HK(241)   
+  230 - LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_NAME:  (5) ->  en_US(12)   fr_FR(21)   de_DE(13)   it_IT(22)   es_ES(20)   ja_JP(3)   ru_RU(26)   pl_PL(14)   ko_KR(6)   zh_Hant_HK(5)   
+  231 - LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_DESCRIPTION:  (242) ->  en_US(421)   fr_FR(490)   de_DE(491)   it_IT(464)   es_ES(491)   ja_JP(308)   ru_RU(496)   pl_PL(468)   ko_KR(325)   zh_Hant_HK(223)   
+  232 - LOC_PROJECT_CHANGE_BULE_AMMO_NAME:  (10) ->  en_US(40)   fr_FR(47)   de_DE(53)   it_IT(51)   es_ES(47)   ja_JP(16)   ru_RU(40)   pl_PL(47)   ko_KR(15)   zh_Hant_HK(10)   
+  233 - LOC_PROJECT_CHANGE_BULE_AMMO_SHORTNAME:  (6) ->  en_US(28)   fr_FR(32)   de_DE(33)   it_IT(30)   es_ES(32)   ja_JP(8)   ru_RU(28)   pl_PL(29)   ko_KR(9)   zh_Hant_HK(6)   
+  234 - LOC_PROJECT_CHANGE_BULE_AMMO_DESCRIPTION:  (17) ->  en_US(89)   fr_FR(101)   de_DE(88)   it_IT(83)   es_ES(87)   ja_JP(26)   ru_RU(85)   pl_PL(88)   ko_KR(30)   zh_Hant_HK(17)   
+  235 - LOC_PROJECT_CHANGE_RED_AMMO_NAME:  (9) ->  en_US(43)   fr_FR(59)   de_DE(55)   it_IT(57)   es_ES(59)   ja_JP(20)   ru_RU(61)   pl_PL(51)   ko_KR(14)   zh_Hant_HK(10)   
+  236 - LOC_PROJECT_CHANGE_RED_AMMO_SHORTNAME:  (5) ->  en_US(27)   fr_FR(41)   de_DE(32)   it_IT(46)   es_ES(35)   ja_JP(11)   ru_RU(41)   pl_PL(34)   ko_KR(7)   zh_Hant_HK(6)   
+  237 - LOC_PROJECT_CHANGE_RED_AMMO_DESCRIPTION:  (16) ->  en_US(95)   fr_FR(107)   de_DE(81)   it_IT(96)   es_ES(92)   ja_JP(30)   ru_RU(107)   pl_PL(88)   ko_KR(30)   zh_Hant_HK(17)   
+  238 - LOC_PROJECT_CHANGE_YELLOW_AMMO_NAME:  (9) ->  en_US(46)   fr_FR(56)   de_DE(32)   it_IT(56)   es_ES(52)   ja_JP(15)   ru_RU(60)   pl_PL(51)   ko_KR(14)   zh_Hant_HK(9)   
+  239 - LOC_PROJECT_CHANGE_YELLOW_AMMO_SHORTNAME:  (5) ->  en_US(22)   fr_FR(29)   de_DE(30)   it_IT(22)   es_ES(24)   ja_JP(10)   ru_RU(29)   pl_PL(28)   ko_KR(8)   zh_Hant_HK(5)   
+  240 - LOC_PROJECT_CHANGE_YELLOW_AMMO_DESCRIPTION:  (16) ->  en_US(90)   fr_FR(93)   de_DE(81)   it_IT(79)   es_ES(79)   ja_JP(25)   ru_RU(88)   pl_PL(89)   ko_KR(28)   zh_Hant_HK(16)   
+  241 - LOC_BUILDING_RED_AMMO_NAME:  (7) ->  en_US(37)   fr_FR(52)   de_DE(47)   it_IT(56)   es_ES(51)   ja_JP(15)   ru_RU(50)   pl_PL(43)   ko_KR(8)   zh_Hant_HK(8)   
+  242 - LOC_BUILDING_RED_AMMO_DESCRIPTION:  (134) ->  en_US(399)   fr_FR(442)   de_DE(405)   it_IT(434)   es_ES(443)   ja_JP(197)   ru_RU(378)   pl_PL(416)   ko_KR(210)   zh_Hant_HK(134)   
+  243 - LOC_BUILDING_YELLOW_AMMO_NAME:  (7) ->  en_US(34)   fr_FR(41)   de_DE(34)   it_IT(38)   es_ES(40)   ja_JP(10)   ru_RU(38)   pl_PL(34)   ko_KR(9)   zh_Hant_HK(7)   
+  244 - LOC_BUILDING_YELLOW_AMMO_DESCRIPTION:  (197) ->  en_US(416)   fr_FR(503)   de_DE(493)   it_IT(474)   es_ES(485)   ja_JP(258)   ru_RU(437)   pl_PL(422)   ko_KR(267)   zh_Hant_HK(198)   
+  245 - LOC_BUILDING_BULE_AMMO_NAME:  (8) ->  en_US(34)   fr_FR(43)   de_DE(40)   it_IT(40)   es_ES(42)   ja_JP(11)   ru_RU(37)   pl_PL(37)   ko_KR(10)   zh_Hant_HK(8)   
+  246 - LOC_BUILDING_BULE_AMMO_DESCRIPTION:  (208) ->  en_US(569)   fr_FR(667)   de_DE(646)   it_IT(671)   es_ES(670)   ja_JP(296)   ru_RU(568)   pl_PL(624)   ko_KR(298)   zh_Hant_HK(209)   
+  247 - LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_7_COMBAT_DESCRIPTION:  (41) ->  en_US(89)   fr_FR(88)   de_DE(84)   it_IT(102)   es_ES(93)   ja_JP(50)   ru_RU(81)   pl_PL(80)   ko_KR(48)   zh_Hant_HK(41)   
+  248 - LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_COMBAT_VS_DIS_DESCRIPTION:  (45) ->  en_US(104)   fr_FR(137)   de_DE(105)   it_IT(131)   es_ES(124)   ja_JP(57)   ru_RU(119)   pl_PL(109)   ko_KR(48)   zh_Hant_HK(46)   
+  249 - LOC_CBJMS_ALL_UNITS_GET_3_COMBAT_DESCRIPTION:  (41) ->  en_US(89)   fr_FR(88)   de_DE(84)   it_IT(102)   es_ES(93)   ja_JP(50)   ru_RU(81)   pl_PL(80)   ko_KR(48)   zh_Hant_HK(41)   
+  250 - LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_5_DEF_DESCRIPTION:  (42) ->  en_US(88)   fr_FR(102)   de_DE(81)   it_IT(96)   es_ES(93)   ja_JP(46)   ru_RU(82)   pl_PL(79)   ko_KR(46)   zh_Hant_HK(42)   
+  251 - LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_DEF_FOR_ADJ_UNIT_DESCRIPTION:  (53) ->  en_US(124)   fr_FR(139)   de_DE(119)   it_IT(139)   es_ES(135)   ja_JP(56)   ru_RU(130)   pl_PL(122)   ko_KR(59)   zh_Hant_HK(53)   
+  252 - LOC_CBJMS_ALL_UNITS_GET_5_DEF_DESCRIPTION:  (42) ->  en_US(88)   fr_FR(102)   de_DE(81)   it_IT(96)   es_ES(93)   ja_JP(46)   ru_RU(82)   pl_PL(79)   ko_KR(46)   zh_Hant_HK(42)   
+  253 - LOC_UNIT_SPECIAL_CBJMS_NAME:  (4) ->  en_US(4)   fr_FR(4)   de_DE(4)   it_IT(4)   es_ES(3)   ja_JP(4)   ru_RU(4)   pl_PL(4)   ko_KR(4)   zh_Hant_HK(2)   
+  254 - LOC_UNIT_SPECIAL_CBJMS_DESCRIPTION:  (107) ->  en_US(347)   fr_FR(439)   de_DE(463)   it_IT(374)   es_ES(392)   ja_JP(156)   ru_RU(442)   pl_PL(386)   ko_KR(199)   zh_Hant_HK(106)   
+  255 - LOC_UNIT_BASIC_RANGED_COMBAT_DESCRIPTION:  (18) ->  en_US(40)   fr_FR(54)   de_DE(38)   it_IT(57)   es_ES(51)   ja_JP(21)   ru_RU(51)   pl_PL(51)   ko_KR(21)   zh_Hant_HK(18)   
+  256 - LOC_UNIT_BASIC_BOMBARD_COMBAT_DESCRIPTION:  (18) ->  en_US(37)   fr_FR(54)   de_DE(40)   it_IT(59)   es_ES(47)   ja_JP(18)   ru_RU(44)   pl_PL(47)   ko_KR(20)   zh_Hant_HK(18)   
+  257 - LOC_:  (91) ->  en_US(112)   fr_FR(135)   de_DE(108)   it_IT(112)   es_ES(113)   ja_JP(104)   ru_RU(116)   pl_PL(109)   ko_KR(96)   zh_Hant_HK(90)   
+
+InGame translations:
+
+  1 - LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_GIRLFRONTLINE_DESCRIPTION :  (25) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  2 - LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_HEAVY_CAVALRY_GIRLFRONTLINE_DESCRIPTION :  (26) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  3 - LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_LIGHT_CAVALRY_GIRLFRONTLINE_DESCRIPTION :  (26) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  4 - LOC_ABILITY_ANTITANK_SQUAD_ADD_65_COMBAT_VS_CLASS_GIANT_DEATH_ROBOT_GIRLFRONTLINE_DESCRIPTION :  (26) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  5 - LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_GIRLFRONTLINE_DESCRIPTION :  (11) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  6 - LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_DESCRIPTION :  (111) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  7 - LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION :  (113) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  8 - LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_DESCRIPTION :  (112) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  9 - LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_DESCRIPTION :  (113) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  10 - LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION :  (109) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  11 - LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION :  (116) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  12 - LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION :  (117) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  13 - LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_DESCRIPTION :  (110) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  14 - LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION :  (45) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  15 - LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION :  (46) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  16 - LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION :  (45) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  17 - LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION :  (47) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  18 - LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION :  (42) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  19 - LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION :  (49) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  20 - LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION :  (50) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  21 - LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION :  (43) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  22 - LOC_UNIT_NEW_ASSAULT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  23 - LOC_UNIT_NEW_ASSAULT_SQUAD_DESCRIPTION :  (90) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  24 - LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  25 - LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_DESCRIPTION :  (34) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  26 - LOC_UNIT_ADVANCED_ASSAULT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  27 - LOC_UNIT_ADVANCED_ASSAULT_SQUAD_DESCRIPTION :  (71) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  28 - LOC_UNIT_ELITE_ASSAULT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  29 - LOC_UNIT_ELITE_ASSAULT_SQUAD_DESCRIPTION :  (65) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  30 - LOC_UNIT_NEW_TACTICS_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  31 - LOC_UNIT_NEW_TACTICS_SQUAD_DESCRIPTION :  (139) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  32 - LOC_UNIT_TOUGH_TACTICS_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  33 - LOC_UNIT_TOUGH_TACTICS_SQUAD_DESCRIPTION :  (104) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  34 - LOC_UNIT_FEARLESS_TACTICS_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  35 - LOC_UNIT_FEARLESS_TACTICS_SQUAD_DESCRIPTION :  (89) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  36 - LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  37 - LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_DESCRIPTION :  (83) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  38 - LOC_UNIT_HONOR_TACTICS_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  39 - LOC_UNIT_HONOR_TACTICS_SQUAD_DESCRIPTION :  (178) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  40 - LOC_UNIT_ADVANCED_TACTICS_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  41 - LOC_UNIT_ADVANCED_TACTICS_SQUAD_DESCRIPTION :  (81) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  42 - LOC_UNIT_ELITE_TACTICS_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  43 - LOC_UNIT_ELITE_TACTICS_SQUAD_DESCRIPTION :  (76) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  44 - LOC_UNIT_NEW_ARMORED_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  45 - LOC_UNIT_NEW_ARMORED_SQUAD_DESCRIPTION :  (162) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  46 - LOC_UNIT_FEARLESS_ARMORED_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  47 - LOC_UNIT_FEARLESS_ARMORED_SQUAD_DESCRIPTION :  (106) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  48 - LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  49 - LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_DESCRIPTION :  (100) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  50 - LOC_UNIT_ADVANCED_ARMORED_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  51 - LOC_UNIT_ADVANCED_ARMORED_SQUAD_DESCRIPTION :  (98) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  52 - LOC_UNIT_ELITE_ARMORED_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  53 - LOC_UNIT_ELITE_ARMORED_SQUAD_DESCRIPTION :  (93) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  54 - LOC_UNIT_NEW_RECON_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  55 - LOC_UNIT_NEW_RECON_SQUAD_DESCRIPTION :  (124) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  56 - LOC_UNIT_EXPERIENCED_RECON_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  57 - LOC_UNIT_EXPERIENCED_RECON_DESCRIPTION :  (68) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  58 - LOC_UNIT_ADVANCED_RECON_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  59 - LOC_UNIT_ADVANCED_RECON_SQUAD_DESCRIPTION :  (66) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  60 - LOC_UNIT_ELITE_RECON_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  61 - LOC_UNIT_ELITE_RECON_SQUAD_DESCRIPTION :  (61) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  62 - LOC_UNIT_NEW_SNIPER_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  63 - LOC_UNIT_NEW_SNIPER_SQUAD_DESCRIPTION :  (127) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  64 - LOC_UNIT_TOUGH_SNIPER_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  65 - LOC_UNIT_TOUGH_SNIPER_SQUAD_DESCRIPTION :  (118) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  66 - LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  67 - LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_DESCRIPTION :  (107) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  68 - LOC_UNIT_ADVANCED_SNIPER_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  69 - LOC_UNIT_ADVANCED_SNIPER_SQUAD_DESCRIPTION :  (105) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  70 - LOC_UNIT_ELITE_SNIPER_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  71 - LOC_UNIT_ELITE_SNIPER_SQUAD_DESCRIPTION :  (100) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  72 - LOC_UNIT_NEW_ANTITANK_SQUAD_NAME :  (9) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  73 - LOC_UNIT_NEW_ANTITANK_SQUAD_DESCRIPTION :  (149) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  74 - LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_NAME :  (9) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  75 - LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_DESCRIPTION :  (87) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  76 - LOC_UNIT_HONOR_ANTITANK_SQUAD_NAME :  (9) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  77 - LOC_UNIT_HONOR_ANTITANK_SQUAD_DESCRIPTION :  (94) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  78 - LOC_UNIT_ADVANCED_ANTITANK_SQUAD_NAME :  (9) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  79 - LOC_UNIT_ADVANCED_ANTITANK_SQUAD_DESCRIPTION :  (85) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  80 - LOC_UNIT_ELITE_ANTITANK_SQUAD_NAME :  (9) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  81 - LOC_UNIT_ELITE_ANTITANK_SQUAD_DESCRIPTION :  (108) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  82 - LOC_UNIT_SPECIAL_G41_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  83 - LOC_UNIT_SPECIAL_G41_DESCRIPTION :  (47) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  84 - LOC_UNIT_SPECIAL_TMP_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  85 - LOC_UNIT_SPECIAL_TMP_DESCRIPTION :  (97) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  86 - LOC_TRAIT_GIRLFRONTLINE_SQUAD_NAME :  (7) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  87 - LOC_TRAIT_GIRLFRONTLINE_SQUAD_DESCRIPTION :  (102) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  88 - LOC_ROMOTION_CLASS_ASSAULT_SQUAD_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  89 - LOC_ABILITY_CAN_NOT_MELEE_ATTACK_GIRLFRONTLINE_DESCRIPTION :  (25) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  90 - LOC_UNIT_MCV_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  91 - LOC_UNIT_MCV_DESCRIPTION :  (75) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  92 - LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  93 - LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_DESCRIPTION :  (259) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  94 - LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  95 - LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_DESCRIPTION :  (170) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  96 - LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  97 - LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_DESCRIPTION :  (179) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  98 - LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_PRODUCTION_DESCRIPTION :  (39) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  99 - LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_GOLD_DESCRIPTION :  (32) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  100 - LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_FOOD_DESCRIPTION :  (32) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  101 - LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_PRODUCTION_DESCRIPTION :  (34) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  102 - LOC_ADJACENCY_WATER_ADD_3_YIELD_PRODUCTION_DESCRIPTION :  (34) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  103 - LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_GOLD_DESCRIPTION :  (27) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  104 - LOC_ADJACENCY_WATER_ADD_3_YIELD_GOLD_DESCRIPTION :  (27) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  105 - LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_FOOD_DESCRIPTION :  (27) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  106 - LOC_ADJACENCY_WATER_ADD_3_YIELD_FOOD_DESCRIPTION :  (27) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  107 - LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_PRODUCTION_DESCRIPTION :  (36) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  108 - LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_PRODUCTION_DESCRIPTION :  (37) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  109 - LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_GOLD_DESCRIPTION :  (29) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  110 - LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_GOLD_DESCRIPTION :  (30) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  111 - LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_FOOD_DESCRIPTION :  (29) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  112 - LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_FOOD_DESCRIPTION :  (30) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  113 - LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_PRODUCTION_DESCRIPTION :  (36) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  114 - LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_GOLD_DESCRIPTION :  (29) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  115 - LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_FOOD_DESCRIPTION :  (29) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  116 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME :  (2) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  117 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION :  (123) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  118 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION :  (10) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  119 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_ADJECTIVE :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  120 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  121 - LOC_UNIT_SPECIAL_SR3MP_NAME :  (6) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  122 - LOC_UNIT_SPECIAL_SR3MP_DESCRIPTION :  (61) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  123 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  124 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION :  (200) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  125 - LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION :  (12) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  126 - LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_ADJECTIVE :  (10) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  127 - LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME :  (10) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  128 - LOC_VIZSOURCE_TECH_STIRRUPS_GIRLFRONTLINE :  (20) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  129 - LOC_VIZSOURCE_ACTION_TECH_STIRRUPS_GIRLFRONTLINE :  (36) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  130 - LOC_GOSSIP_SOURCE_TECH_STIRRUPS_GIRLFRONTLINE :  (15) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  131 - LOC_VIZSOURCE_TECH_BALLISTICS_GIRLFRONTLINE :  (20) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  132 - LOC_VIZSOURCE_ACTION_TECH_BALLISTICS_GIRLFRONTLINE :  (36) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  133 - LOC_GOSSIP_SOURCE_TECH_BALLISTICS_GIRLFRONTLINE :  (11) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  134 - LOC_VIZSOURCE_TECH_COMBUSTION_GIRLFRONTLINE :  (20) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  135 - LOC_VIZSOURCE_ACTION_TECH_COMBUSTION_GIRLFRONTLINE :  (36) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  136 - LOC_GOSSIP_SOURCE_TECH_COMBUSTION_GIRLFRONTLINE :  (12) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  137 - LOC_VIZSOURCE_TECH_COMPOSITES_GIRLFRONTLINE :  (20) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  138 - LOC_VIZSOURCE_ACTION_TECH_COMPOSITES_GIRLFRONTLINE :  (36) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  139 - LOC_GOSSIP_SOURCE_TECH_COMPOSITES_GIRLFRONTLINE :  (12) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  140 - LOC_DISTRICT_CAMPUS_STRATEGYCENTER_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  141 - LOC_DISTRICT_CAMPUS_STRATEGYCENTER_DESCRIPTION :  (191) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  142 - LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  143 - LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_DESCRIPTION :  (245) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  144 - LOC_UNIT_SPECIAL_KAR98K_NAME :  (6) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  145 - LOC_UNIT_SPECIAL_KAR98K_DESCRIPTION :  (64) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  146 - LOC_UNIT_SPECIAL_SVD_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  147 - LOC_UNIT_SPECIAL_SVD_DESCRIPTION :  (77) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  148 - LOC_UNIT_SPECIAL_HS50_NAME :  (5) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  149 - LOC_UNIT_SPECIAL_HS50_DESCRIPTION :  (112) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  150 - LOC_UNIT_SPECIAL_M870_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  151 - LOC_UNIT_SPECIAL_M870_DESCRIPTION :  (119) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  152 - LOC_ROMOTION_CLASS_SNIPER_SQUAD_NAME :  (2) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  153 - LOC_ROMOTION_CLASS_SUPPORT_SQUAD_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  154 - LOC_ROMOTION_CLASS_TACTICS_SQUAD_NAME :  (2) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  155 - LOC_ROMOTION_CLASS_ARMORED_SQUAD_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  156 - LOC_ROMOTION_CLASS_RECON_SQUAD_NAME :  (2) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  157 - LOC_ROMOTION_CLASS_ANTITANK_SQUAD_NAME :  (5) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  158 - LOC_UNIT_NEW_SUPPORT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  159 - LOC_UNIT_NEW_SUPPORT_SQUAD_DESCRIPTION :  (210) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  160 - LOC_UNIT_TOUGH_SUPPORT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  161 - LOC_UNIT_TOUGH_SUPPORT_SQUAD_DESCRIPTION :  (175) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  162 - LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  163 - LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_DESCRIPTION :  (154) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  164 - LOC_UNIT_ADVANCED_SUPPORT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  165 - LOC_UNIT_ADVANCED_SUPPORT_SQUAD_DESCRIPTION :  (152) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  166 - LOC_UNIT_ELITE_SUPPORT_SQUAD_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  167 - LOC_UNIT_ELITE_SUPPORT_SQUAD_DESCRIPTION :  (147) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  168 - LOC_ABILITY_ADD_15_COMBAT_FOR_TACTICS_SQUAD_ALLOW_GIRLFRONTLINE_DESCRIPTION :  (32) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  169 - LOC_ABILITY_DEBUFF_FOR_SUPPORT_SQUAD_GIRLFONTLINE_GIRLFRONTLINE_DESCRIPTION :  (24) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  170 - LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME :  (2) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  171 - LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_DESCRIPTION :  (24) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  172 - LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  173 - LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_DESCRIPTION :  (23) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  174 - LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  175 - LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_DESCRIPTION :  (24) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  176 - LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  177 - LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_DESCRIPTION :  (28) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  178 - LOC_PROMOTION_ADD_15_COMBAT_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  179 - LOC_PROMOTION_ADD_15_COMBAT_DESCRIPTION :  (26) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  180 - LOC_PROMOTION_ADD_2_MOVEMENT_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  181 - LOC_PROMOTION_ADD_2_MOVEMENT_DESCRIPTION :  (51) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  182 - LOC_PROMOTION_NO_TERRAIN_MOVEMENT_DEBUFF_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  183 - LOC_UNIT_SPECIAL_FN57_NAME :  (5) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  184 - LOC_UNIT_SPECIAL_FN57_DESCRIPTION :  (63) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  185 - LOC_GIRLFRONTLINE_ADD_15_COMBAT_FOR_TACTICS_SQUAD :  (42) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  186 - LOC_GIRLFRONTLINE_DEBUFF_FOR_SUPPORT_SQUAD :  (39) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  187 - LOC_ADD_15_COMBAT_WHEN_ATTACK_GIRLFRONTLINE :  (78) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  188 - LOC_ADD_7_COMBAT_WHEN_ATTACK_GIRLFRONTLINE :  (77) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  189 - LOC_ADD_10_COMBAT_WHEN_ATTACK_GIRLFRONTLINE :  (78) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  190 - LOC_ADD_15_COMBAT_GIRLFRONTLINE :  (66) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  191 - LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  192 - LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_DESCRIPTION :  (266) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  193 - LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_NAME :  (10) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  194 - LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_DESCRIPTION :  (249) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  195 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  196 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION :  (97) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  197 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION :  (12) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  198 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_ADJECTIVE :  (10) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  199 - LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME :  (10) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  200 - LOC_VIZSOURCE_FN57_GIRLFRONTLINE :  (12) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  201 - LOC_VIZSOURCE_ACTION_FN57_GIRLFRONTLINE :  (16) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  202 - LOC_GOSSIP_SOURCE_FN57_GIRLFRONTLINE :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  203 - LOC_PROJECT_PRODUCTION_DOLLS_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  204 - LOC_PROJECT_PRODUCTION_DOLLS_SHORTNAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  205 - LOC_PROJECT_PRODUCTION_DOLLS_DESCRIPTION :  (47) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  206 - LOC_PROJECT_MASS_PRODUCTION_DOLLS_NAME :  (6) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  207 - LOC_PROJECT_MASS_PRODUCTION_DOLLS_SHORTNAME :  (6) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  208 - LOC_PROJECT_MASS_PRODUCTION_DOLLS_DESCRIPTION :  (74) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  209 - LOC_PROJECT_REINFORCEMENTS_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  210 - LOC_PROJECT_REINFORCEMENTS_SHORTNAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  211 - LOC_PROJECT_REINFORCEMENTS_DESCRIPTION :  (77) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  212 - LOC_PROJECT_RETIRE_DOLLS_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  213 - LOC_PROJECT_RETIRE_DOLLS_SHORTNAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  214 - LOC_PROJECT_RETIRE_DOLLS_DESCRIPTION :  (68) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  215 - LOC_PROJECT_BATCH_DISMANTLING_DOLLS_NAME :  (6) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  216 - LOC_PROJECT_BATCH_DISMANTLING_DOLLS_SHORTNAME :  (6) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  217 - LOC_PROJECT_BATCH_DISMANTLING_DOLLS_DESCRIPTION :  (74) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  218 - LOC_PROJECT_GREAT_PURGE_NAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  219 - LOC_PROJECT_GREAT_PURGE_SHORTNAME :  (3) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  220 - LOC_PROJECT_GREAT_PURGE_DESCRIPTION :  (71) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  221 - LOC_UNIT_SPECIAL_ART556_NAME :  (6) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  222 - LOC_UNIT_SPECIAL_ART556_DESCRIPTION :  (73) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  223 - LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION :  (10) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  224 - LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_ADJECTIVE :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  225 - LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  226 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME :  (2) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  227 - LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION :  (151) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  228 - LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_NAME :  (2) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  229 - LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_DESCRIPTION :  (252) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  230 - LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_NAME :  (5) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  231 - LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_DESCRIPTION :  (242) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  232 - LOC_PROJECT_CHANGE_BULE_AMMO_NAME :  (10) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  233 - LOC_PROJECT_CHANGE_BULE_AMMO_SHORTNAME :  (6) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  234 - LOC_PROJECT_CHANGE_BULE_AMMO_DESCRIPTION :  (17) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  235 - LOC_PROJECT_CHANGE_RED_AMMO_NAME :  (9) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  236 - LOC_PROJECT_CHANGE_RED_AMMO_SHORTNAME :  (5) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  237 - LOC_PROJECT_CHANGE_RED_AMMO_DESCRIPTION :  (16) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  238 - LOC_PROJECT_CHANGE_YELLOW_AMMO_NAME :  (9) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  239 - LOC_PROJECT_CHANGE_YELLOW_AMMO_SHORTNAME :  (5) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  240 - LOC_PROJECT_CHANGE_YELLOW_AMMO_DESCRIPTION :  (16) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  241 - LOC_BUILDING_RED_AMMO_NAME :  (7) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  242 - LOC_BUILDING_RED_AMMO_DESCRIPTION :  (134) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  243 - LOC_BUILDING_YELLOW_AMMO_NAME :  (7) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  244 - LOC_BUILDING_YELLOW_AMMO_DESCRIPTION :  (197) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  245 - LOC_BUILDING_BULE_AMMO_NAME :  (8) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  246 - LOC_BUILDING_BULE_AMMO_DESCRIPTION :  (208) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  247 - LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_7_COMBAT_DESCRIPTION :  (41) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  248 - LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_COMBAT_VS_DIS_DESCRIPTION :  (45) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  249 - LOC_CBJMS_ALL_UNITS_GET_3_COMBAT_DESCRIPTION :  (41) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  250 - LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_5_DEF_DESCRIPTION :  (42) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  251 - LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_DEF_FOR_ADJ_UNIT_DESCRIPTION :  (53) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  252 - LOC_CBJMS_ALL_UNITS_GET_5_DEF_DESCRIPTION :  (42) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  253 - LOC_UNIT_SPECIAL_CBJMS_NAME :  (4) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  254 - LOC_UNIT_SPECIAL_CBJMS_DESCRIPTION :  (107) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  255 - LOC_UNIT_BASIC_RANGED_COMBAT_DESCRIPTION :  (18) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  256 - LOC_UNIT_BASIC_BOMBARD_COMBAT_DESCRIPTION :  (18) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+  257 - LOC_ :  (91) ->  (en_US)   (fr_FR)   (de_DE)   (it_IT)   (es_ES)   (ja_JP)   (ru_RU)   (pl_PL)   (ko_KR)   (zh_Hant_HK)   
+
+------------------------------------------------------------
+Entries translated: {'en_US': 257, 'fr_FR': 257, 'de_DE': 257, 'it_IT': 257, 'es_ES': 257, 'ja_JP': 257, 'ru_RU': 257, 'pl_PL': 257, 'ko_KR': 257, 'zh_Hans_CN': 0, 'zh_Hant_HK': 257}
+FrontEnd entries: {'en_US': 257, 'fr_FR': 257, 'de_DE': 257, 'it_IT': 257, 'es_ES': 257, 'ja_JP': 257, 'ru_RU': 257, 'pl_PL': 257, 'ko_KR': 257, 'zh_Hans_CN': 0, 'zh_Hant_HK': 257}
+InGame entries: {'en_US': 257, 'fr_FR': 257, 'de_DE': 257, 'it_IT': 257, 'es_ES': 257, 'ja_JP': 257, 'ru_RU': 257, 'pl_PL': 257, 'ko_KR': 257, 'zh_Hans_CN': 0, 'zh_Hant_HK': 257}
+------------------------------------------------------------
+
+FrontEnd file for en_US
+InGame file for en_US
+FrontEnd file for fr_FR
+InGame file for fr_FR
+FrontEnd file for de_DE
+InGame file for de_DE
+FrontEnd file for it_IT
+InGame file for it_IT
+FrontEnd file for es_ES
+InGame file for es_ES
+FrontEnd file for ja_JP
+InGame file for ja_JP
+FrontEnd file for ru_RU
+InGame file for ru_RU
+FrontEnd file for pl_PL
+InGame file for pl_PL
+FrontEnd file for ko_KR
+InGame file for ko_KR
+FrontEnd file for zh_Hant_HK
+InGame file for zh_Hant_HK
+
+------------------------------------------------------------
+Building ModBuddy File
+------------------------------------------------------------
+C:/Users/humpel/Documents/Firaxis ModBuddy/Civilization VI/CTC - ComputerTranslatedCivilizations/CTC - Computer Translated Civilizations/CTC - Computer Translated Civilizations.civ6proj
+  ActionCriteriaData -------
+    Comment line ADDED!
+    ActionCriteria FrontEnd node ADDED: 3150894522_FrontEnd
+    ActionCriteria InGame node ADDED: 3150894522_InGame
+  FrontEndActionData -------
+    Comment line ADDED!
+    UpdateText node ADDED! 3150894522_FrontEnd
+      File node ADDED: 3150894522/frontend_en_US.xml
+      File node ADDED: 3150894522/frontend_fr_FR.xml
+      File node ADDED: 3150894522/frontend_de_DE.xml
+      File node ADDED: 3150894522/frontend_it_IT.xml
+      File node ADDED: 3150894522/frontend_es_ES.xml
+      File node ADDED: 3150894522/frontend_ja_JP.xml
+      File node ADDED: 3150894522/frontend_ru_RU.xml
+      File node ADDED: 3150894522/frontend_pl_PL.xml
+      File node ADDED: 3150894522/frontend_ko_KR.xml
+      File node ADDED: 3150894522/frontend_zh_Hant_HK.xml
+  InGameActionData -------
+    Comment line ADDED!
+    UpdateText node ADDED! 3150894522_InGame
+      File node ADDED: 3150894522/ingame_en_US.xml
+      File node ADDED: 3150894522/ingame_fr_FR.xml
+      File node ADDED: 3150894522/ingame_de_DE.xml
+      File node ADDED: 3150894522/ingame_it_IT.xml
+      File node ADDED: 3150894522/ingame_es_ES.xml
+      File node ADDED: 3150894522/ingame_ja_JP.xml
+      File node ADDED: 3150894522/ingame_ru_RU.xml
+      File node ADDED: 3150894522/ingame_pl_PL.xml
+      File node ADDED: 3150894522/ingame_ko_KR.xml
+      File node ADDED: 3150894522/ingame_zh_Hant_HK.xml
+  ItemGroups -------
+    Folder entry ADDED! 3150894522\ 
+    Content entry ADDED! 3150894522\frontend_en_US.xml
+    Content entry ADDED! 3150894522\ingame_en_US.xml
+    Content entry ADDED! 3150894522\frontend_fr_FR.xml
+    Content entry ADDED! 3150894522\ingame_fr_FR.xml
+    Content entry ADDED! 3150894522\frontend_de_DE.xml
+    Content entry ADDED! 3150894522\ingame_de_DE.xml
+    Content entry ADDED! 3150894522\frontend_it_IT.xml
+    Content entry ADDED! 3150894522\ingame_it_IT.xml
+    Content entry ADDED! 3150894522\frontend_es_ES.xml
+    Content entry ADDED! 3150894522\ingame_es_ES.xml
+    Content entry ADDED! 3150894522\frontend_ja_JP.xml
+    Content entry ADDED! 3150894522\ingame_ja_JP.xml
+    Content entry ADDED! 3150894522\frontend_ru_RU.xml
+    Content entry ADDED! 3150894522\ingame_ru_RU.xml
+    Content entry ADDED! 3150894522\frontend_pl_PL.xml
+    Content entry ADDED! 3150894522\ingame_pl_PL.xml
+    Content entry ADDED! 3150894522\frontend_ko_KR.xml
+    Content entry ADDED! 3150894522\ingame_ko_KR.xml
+    Content entry ADDED! 3150894522\frontend_zh_Hant_HK.xml
+    Content entry ADDED! 3150894522\ingame_zh_Hant_HK.xml
+
+******************************************
+*** Finished on 2024-03-22 20:20:55.601434
+******************************************
+Finished in 2206.316019 seconds
+Number of requests: 2571
+  Characters sent: 123809
+  Characters received: 278510
+      {'en_US': 30100, 'fr_FR': 35605, 'de_DE': 33324, 'it_IT': 34905, 'es_ES': 34301, 'ja_JP': 16262, 'ru_RU': 32495, 'pl_PL': 32019, 'ko_KR': 17139, 'zh_Hans_CN': 0, 'zh_Hant_HK': 12360}

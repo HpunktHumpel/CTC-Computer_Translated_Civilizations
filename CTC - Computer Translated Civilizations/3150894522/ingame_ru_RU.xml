@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Mar 22 20:20:55 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит [ICON_Movement] движется без штрафа за рельеф</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_HEAVY_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>+17[ICON_Strength] боевая мощь против тяжелой кавалерии</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_LIGHT_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>+17[ICON_Strength] боевая мощь против легкой кавалерии</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_65_COMBAT_VS_CLASS_GIANT_DEATH_ROBOT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>+65[ICON_Strength] боевая мощь против роботов Судного дня</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>Отряд наносит полный урон обороне города.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}: боевая мощь отряда +7[ICON_Strength], [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: боевая мощь отряда +10[ICON_Strength], [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] золотых монет (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: боевая сила отряда +16[ICON_Strength], [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] золотая монета (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: боевая сила отряда +9[ICON_Strength], [COLOR:ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: боевая сила отряда +10[ICON_Strength], [COLOR:ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: боевая мощь отряда +10[ICON_Strength], [COLOR:ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за ход[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: боевая мощь отряда +10 [ICON_Strength], [COLOR:ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за ход [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: боевая мощь отряда +25 [ICON_Strength], [COLOR: ResMilitaryLabelCS] -1 золотая монета [ICON_Gold] (плата за обслуживание) за раунд [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_CIVIC_NATIONALISM_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_CIVIC_MOBILIZATION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_IRON_WORKING_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_APPRENTICESHIP_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_GUNPOWDER_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_TECH_MILITARY_SCIENCE_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевая мощь от {LOC_TECH_REPLACEABLE_PARTS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} боевой мощи от {LOC_TECH_COMPOSITES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_NAME" Language="ru_RU">
+			<Text>Мобилизуйте штурмовые тактические фигурки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Пушечное мясо массового производства, вы можете использовать его по своему желанию или держать под рукой, чтобы выполнять работу по дому. Может нанести полный урон городской стене.[NEWLINE][COLOR:ResMilitaryLabelCS]Этот отряд не может получить опыт[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_NAME" Language="ru_RU">
+			<Text>Фигурка опытного штурмовика</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические показатели, улучшенные исключительно за счет симуляционной подготовки или использования боевых записей. Может нанести полный ущерб городским стенам.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_NAME" Language="ru_RU">
+			<Text>Усовершенствованная штурмовая тактическая фигура</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактическая кукла, прошедшая симуляционную подготовку и имеющая реальный боевой опыт. Может нанести полный урон городской стене и обладает [ICON_Bombard] мощью дальней бомбардировки с дальностью [ICON_Range] 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_NAME" Language="ru_RU">
+			<Text>Фигурка Elite Assault Tactics</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактик, хорошо экипированный и опытный в бою. Может нанести полный урон городской стене и обладает [ICON_Bombard] мощью дальней бомбардировки с дальностью [ICON_Range] 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_NAME" Language="ru_RU">
+			<Text>Мобилизуйте обычные тактические куклы</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Пушечное мясо массового производства, вы можете использовать его по своему желанию или держать под рукой, чтобы выполнять работу по дому. Имеет [ICON_Range][ICON_Ranged] боевую мощь в дальнем бою, равную 2, но [ICON_Ranged] имеет слабую боевую мощь в дальнем бою.[NEWLINE][COLOR:ResMilitaryLabelCS]Этот отряд не получает никакого опыта[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_NAME" Language="ru_RU">
+			<Text>Tough Regular Тактическая фигура</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Если высококачественное пушечное мясо более устойчиво к избиениям, чем пушечное мясо массового производства, если его можно будет использовать в качестве офисных украшений, это определенно станет славой жизни этого пушечного мяса. Имеет [ICON_Ranged] боевую мощь на дальней дистанции с дальностью [ICON_Range] 2, но [ICON_Ranged] боевую мощь на дальней дистанции слабую.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_NAME" Language="ru_RU">
+			<Text>Обычная тактическая фигурка Дредноут</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Массовое пушечное мясо, сохранившееся на передовой, прекрасно себя зарекомендует в траншеях. Имеет [ICON_Ranged] боевую мощь на дальней дистанции с дальностью [ICON_Range] 2, но [ICON_Ranged] боевую мощь на дальней дистанции слабую.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_NAME" Language="ru_RU">
+			<Text>Опытная традиционная тактическая фигурка</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические показатели, улучшенные исключительно за счет симуляционной подготовки или использования боевых записей. Имеет [ICON_Ranged] боевую мощь на дальней дистанции с дальностью [ICON_Range] 2, но [ICON_Ranged] боевую мощь на дальней дистанции слабую.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_NAME" Language="ru_RU">
+			<Text>Славная фигурка традиционной тактики</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические куклы, внесшие выдающийся вклад на поле боя, будут помнить все Тактические куклы. Имеет [ICON_Range][ICON_Ranged] дистанционную боевую мощь с дальностью 2, но [ICON_Ranged] дальнюю боевую мощь слаба.[NEWLINE][COLOR:ResMilitaryLabelCS]Исследование {LOC_TECH_MILITARY_SCIENCE_NAME} может повысить боевую мощь отряда.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_NAME" Language="ru_RU">
+			<Text>Усовершенствованная обычная тактическая кукла</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактическая кукла, прошедшая симуляционную подготовку и имеющая реальный боевой опыт. Имеет [ICON_Ranged] боевую мощь на дальней дистанции с дальностью [ICON_Range] 2, но [ICON_Ranged] боевую мощь на дальней дистанции слабую.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_NAME" Language="ru_RU">
+			<Text>Элитная обычная тактическая фигурка</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Хорошо оснащенная и опытная в боях тактическая кукла. Имеет [ICON_Ranged] боевую мощь на дальней дистанции с дальностью [ICON_Range] 2, но [ICON_Ranged] боевую мощь на дальней дистанции слабую.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_NAME" Language="ru_RU">
+			<Text>Создайте новую тактическую фигуру в тяжелой броне.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические куклы, не прошедшие никаких испытаний, могут быть отправлены на передовую, чтобы служить пушечным мясом для проверки их реальных боевых качеств. Имеет более толстую броню, чем обычные T-Dolls, и боевую силу дальнего боя [ICON_Range][ICON_Ranged] равную 1, но [ICON_Movement] движется медленно.[NEWLINE][COLOR:ResMilitaryLabelCS]Этот отряд не получает никакого опыта[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_NAME" Language="ru_RU">
+			<Text>Тяжелая тактическая фигура Дредноут</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Массовое пушечное мясо, сохранившееся на передовой, прекрасно себя зарекомендует в траншеях. У него более толстая броня, чем у обычных тактических кукол, и дальность действия [ICON_Range] равна 1, боевая мощь на дальней дистанции [ICON_Ranged], но движение медленное [ICON_Movement].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая фигурка опытного тяжелого режима работы</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические показатели, улучшенные исключительно за счет симуляционной подготовки или использования боевых записей. У него более толстая броня, чем у обычных тактических кукол, и дальность действия [ICON_Range] равна 1, боевая мощь на дальней дистанции [ICON_Ranged], но движение медленное [ICON_Movement].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_NAME" Language="ru_RU">
+			<Text>Усовершенствованная сверхмощная тактическая кукла</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактическая кукла, прошедшая симуляционное обучение и имеющая реальный боевой опыт. У него более толстая броня, чем у обычных тактических кукол, и дальность действия [ICON_Range] равна 1, боевая мощь на дальней дистанции [ICON_Ranged], но движение медленное [ICON_Movement].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_NAME" Language="ru_RU">
+			<Text>Элитная тяжелая тактическая фигурка</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Хорошо оснащенная и опытная в боях тактическая кукла. У него более толстая броня, чем у обычных тактических кукол, и дальность действия [ICON_Range] равна 1, боевая мощь на дальней дистанции [ICON_Ranged], но движение медленное [ICON_Movement].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая кукла мобилизованной разведки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Пушечное мясо массового производства, вы можете использовать его по своему желанию или держать под рукой, чтобы выполнять работу по дому. Имеет дополнительный обзор, и обзор может проходить через любую местность. Отряд [ICON_Movement] перемещается без штрафа за рельеф местности.[NEWLINE][COLOR:ResMilitaryLabelCS]Этот отряд не может получить опыт[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_NAME" Language="ru_RU">
+			<Text>Опытный тактический разведчик</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические показатели, улучшенные исключительно за счет симуляционной подготовки или использования боевых записей. Имеет дополнительный обзор, и обзор может проходить через любую местность, а юнит [ICON_Movement] перемещается без штрафа за местность.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая фигура продвинутой разведки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактическая кукла, прошедшая симуляционную подготовку и имеющая реальный боевой опыт. Имеет дополнительный обзор, и обзор может проходить через любую местность, а юнит [ICON_Movement] перемещается без штрафа за местность.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_NAME" Language="ru_RU">
+			<Text>Фигурка Elite Recon Tactics</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Хорошо оснащенная и опытная в боях тактическая кукла. Имеет дополнительный обзор, и обзор может проходить через любую местность, а юнит [ICON_Movement] перемещается без штрафа за местность.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактические фигурки снайперов «Мобилизация»</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Пушечное мясо массового производства, вы можете использовать его по своему желанию или держать под рукой, чтобы выполнять работу по дому. Имеет [ICON_Range][ICON_Ranged] дальнюю атаку с дальностью 3, [COLOR:ResMilitaryLabelCS], но крайне низкую эффективность в ближнем бою.[NEWLINE]Этот отряд не может получить опыт[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_NAME" Language="ru_RU">
+			<Text>Фигурка Tough Sniper Tactics</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Если высококачественное пушечное мясо более устойчиво к избиениям, чем пушечное мясо массового производства, если его можно будет использовать в качестве офисных украшений, это определенно станет славой жизни этого пушечного мяса. Он имеет дальнюю атаку [ICON_Range] и [ICON_Ranged] с дальностью 3, [COLOR:ResMilitaryLabelCS], но его эффективность в ближнем бою чрезвычайно низка.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_NAME" Language="ru_RU">
+			<Text>Опытная снайперская тактическая фигура</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические показатели, улучшенные исключительно за счет симуляционной подготовки или использования боевых записей. Имеет [ICON_Range][ICON_Ranged] дальнюю атаку с дальностью 3, [COLOR:ResMilitaryLabelCS], но крайне низкую эффективность в ближнем бою[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_NAME" Language="ru_RU">
+			<Text>Фигурка продвинутой снайперской тактики</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактическая кукла, прошедшая симуляционную подготовку и имеющая реальный боевой опыт. Имеет [ICON_Range][ICON_Ranged] дальнюю атаку с дальностью 4, [COLOR:ResMilitaryLabelCS], но крайне низкую эффективность в ближнем бою[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_NAME" Language="ru_RU">
+			<Text>Фигурка Elite Sniper Tactics</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Хорошо оснащенная и опытная в боях тактическая кукла. Имеет [ICON_Range][ICON_Ranged] дальнюю атаку с дальностью 4, [COLOR:ResMilitaryLabelCS], но крайне низкую эффективность в ближнем бою[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_NAME" Language="ru_RU">
+			<Text>Новая противотанковая тактическая фигурка.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические куклы, не прошедшие никаких испытаний, могут быть отправлены на передовую, чтобы служить пушечным мясом для проверки их реальных боевых качеств. Имеет [ICON_Range][ICON_Bombard] бомбардировочную атаку с дальностью 2, +17[ICON_Strength] боевую мощь против кавалерии.[NEWLINE][COLOR:ResMilitaryLabelCS]Этот отряд не может получить опыт[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_NAME" Language="ru_RU">
+			<Text>Опытный противотанковый тактический персонаж</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические показатели, улучшенные исключительно за счет симуляционной подготовки или использования боевых записей. Имеет [ICON_Bombard] бомбардировочную атаку с дальностью [ICON_Range] 3, +17 [ICON_Strength] боевую мощь против кавалерии.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_NAME" Language="ru_RU">
+			<Text>Славная противотанковая тактическая фигура</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические куклы, внесшие выдающийся вклад на поле боя, будут помнить все Тактические куклы. Имеет [ICON_Bombard] бомбардировочную атаку с дальностью [ICON_Range] 3, +17 [ICON_Strength] боевую мощь против кавалерии.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_NAME" Language="ru_RU">
+			<Text>Усовершенствованная противотанковая тактическая фигура</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактическая кукла, прошедшая симуляционное обучение и имеющая реальный боевой опыт. Имеет [ICON_Bombard] бомбардировочную атаку с дальностью [ICON_Range] 4, +17 [ICON_Strength] боевую мощь против кавалерии.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_NAME" Language="ru_RU">
+			<Text>Элитная противотанковая тактическая фигурка</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Хорошо оснащенная и опытная в боях тактическая кукла. Имеет [ICON_Bombard] бомбардировочную атаку с дальностью [ICON_Range] 5, +17[ICON_Strength] боевую мощь против кавалерии, +67[ICON_Strength] боевую мощь против механизмов Судного дня.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_NAME" Language="ru_RU">
+			<Text>G41</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_DESCRIPTION" Language="ru_RU">
+			<Text>У него живой и милый характер, очень привязчивый и преданный собачий признак, он обязательно выполнит принятые приказы и любит, когда командир в награду поглаживает его по голове.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_NAME" Language="ru_RU">
+			<Text>ТМП</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_DESCRIPTION" Language="ru_RU">
+			<Text>Робкая и застенчивая гуманоидная девушка, бредовая личность, зависимая от собственных заблуждений.Она часто бесконечно говорит сама с собой о своих мыслях и будет в растерянности, когда узнает, что ее подслушивают другие. Но если она окажется в «безвыходной ситуации»… пожалуйста, будьте морально готовы к тому, что ситуация станет неконтролируемой.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая фигура Грифона</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>В исходной версии невозможно построить все наземные юниты и пионеров, но можно построить тактических кукол и ползунов.[NEWLINE]Все военные юниты имеют +50% боевого опыта, но[COLOR:ResMilitaryLabelCS]Некоторые тактические куклы не могут получить опыт.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ASSAULT_SQUAD_NAME" Language="ru_RU">
+			<Text>Осада в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>Юниты не могут использовать [ICON_Strength] атаки ближнего боя.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_NAME" Language="ru_RU">
+			<Text>гусеничный трактор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_DESCRIPTION" Language="ru_RU">
+			<Text>Специализированные пионеры с определенными защитными способностями не могут использовать атаки ближнего боя. Этот юнит [COLOR:ResMilitaryLabelCS] очень дорогой [ENDCOLOR], но цена никогда не вырастет.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_NAME" Language="ru_RU">
+			<Text>Логистический склад</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_COMMERCIAL_HUB_NAME}, изначально разблокирован, стоимость бесплатна и никогда не будет увеличиваться в цене, +1 торговая емкость [ICON_TradeRoute] после завершения, а торговая единица передается в подарок с уникальным смежным бонусом в виде золотых монет [ICON_Gold]. После исследования {LOC_TECH_IRON_WORKING_NAME} дополнительный золотой бонус [ICON_Gold] также обеспечивает производительность [ICON_Production]. В этой области имеется 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он может выполнить дистанционную атаку [ICON_Range] на расстоянии 1 [ICON_Ranged].</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_NAME" Language="ru_RU">
+			<Text>кран</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_ENCAMPMENT_NAME}, изначально разблокирован, может быть построен вокруг центра города, имеет уникальный соседний бонус производительности [ICON_Production], а при постройке высвобождает сканеры, израсходованные при создании города. В этой области всего 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он сможет выполнять дистанционные атаки [ICON_Range] из 3[ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_NAME" Language="ru_RU">
+			<Text>военный завод</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_INDUSTRIAL_ZONE_NAME} и требует {LOC_TECH_APPRENTICESHIP_NAME}, который дешевле и имеет уникальный сопутствующий бонус к производительности [ICON_Production]. В этой области имеется 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он может выполнить дистанционную атаку [ICON_Range] на расстоянии 1 [ICON_Ranged].</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производство осуществляется из каждой прилегающей территории.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] Золотые монеты из каждой прилегающей области</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда поступает из каждой прилегающей области.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производительность приходит с гор</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производительность зависит от воды</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] Золотые монеты добываются в горах</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] Золотые монеты добываются из воды</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда добывается в горах</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда получается из воды</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производительность достигается за счет стратегических ресурсов</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производительность достигается за счет роскошных ресурсов</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] Золотые монеты добываются из стратегических ресурсов.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золотые монеты добываются из роскошных ресурсов.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда добывается из стратегических ресурсов</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда добывается из роскошных ресурсов</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производительность — результат рукотворных чудес</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] Золотые монеты из рукотворных чудес</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Food] Еда из рукотворных чудес</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="ru_RU">
+			<Text>лагерь</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="ru_RU">
+			<Text>Город не будет утомлен войной, юнитам не нужно размещать гарнизон для восстановления здоровья в начале раунда, улучшенные ячейки +3 [ICON_Gold] золотых монет, +1 [ICON_Faith] веры, плюс +2 [ICON_Production] производства после исследования {LOC_TECH_ELECTRICITY_NAME}.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="ru_RU">
+			<Text>Лагерь передовой готовности Грифона</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_ADJECTIVE" Language="ru_RU">
+			<Text>Лагерь передовой боевой готовности</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="ru_RU">
+			<Text>Командный лагерь боевой готовности на передовой</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_NAME" Language="ru_RU">
+			<Text>СР-3МП</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_DESCRIPTION" Language="ru_RU">
+			<Text>Это живой, яркий и высокомерный гуманоид, который любит показывать пальцем на других. Во время боя он будет хранить молчание и вместо этого использовать преувеличенные жесты, поэтому его можно считать серьезным и ответственным бойцом.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="ru_RU">
+			<Text>информационный центр</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="ru_RU">
+			<Text>Города не будут уставать от войны, юниты не должны содержать гарнизоны для восстановления здоровья в начале раунда, все города, которые вы создаете или захватываете, с самого начала будут иметь торговый пост, а после создания торгового пути - торговый пост. сразу появится в городе назначения. Внутритерриториальный шпионаж -4 уровня, +1 дипломатическая видимость каждый за исследование {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} и {LOC_TECH_COMPOSITES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="ru_RU">
+			<Text>Разведывательный центр передовой готовности Гриффина</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_ADJECTIVE" Language="ru_RU">
+			<Text>Разведывательного центра сил передовой готовности</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="ru_RU">
+			<Text>Передовой отряд боевой готовности-разведывательный центр</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Разведывательный центр передовой готовности Грифона, уровень 1-го разведывательного преимущества</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_STIRRUPS_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Используйте лидера тактического гуманоида из подразделения разведывательного центра Грифона, чтобы получить уровень интеллектуального преимущества 1, выполнив необходимые условия.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Репортер вашего разведывательного центра сообщил новость.</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Разведывательный центр передовой готовности Грифона, уровень 2-го разведывательного преимущества</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_BALLISTICS_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Используйте тактического лидера-гуманоида подразделения разведывательного центра Грифона и выполните необходимые условия для получения 2-го уровня преимущества в разведке.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Информатор из вашего разведывательного центра услышал</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Разведывательный центр передовой готовности Гриффина, уровень разведывательного преимущества 3</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMBUSTION_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Используйте лидера тактического гуманоида из подразделения разведывательного центра Грифона, чтобы получить уровень интеллектуального преимущества 3, выполнив необходимые условия.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Дипломаты из вашего разведывательного центра подчиняются</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Разведывательный центр передовой готовности Грифона, уровень 4-го разведывательного преимущества</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMPOSITES_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Используйте тактического лидера-гуманоида подразделения разведывательного центра Грифона и выполните необходимые условия для получения 4-го уровня преимущества в разведке.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Секретная телеграмма из вашего разведцентра</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_NAME" Language="ru_RU">
+			<Text>Технологический центр</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_CAMPUS_NAME}, изначально разблокированный, бесплатный и никогда не увеличивающийся в цене, на уникальный бонус, связанный с едой [ICON_Food]. [ICON_Food] Бонусы, связанные с едой, также дают исследования [ICON_Science] и золотые монеты [ICON_Gold]. В этой области имеется 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он может выполнить дистанционную атаку [ICON_Range] на расстоянии 1 [ICON_Ranged].</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_NAME" Language="ru_RU">
+			<Text>электростанция</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}, требует {LOC_TECH_APPRENTICESHIP_NAME}, дешевле в строительстве, дает +1 [ICON_Power] всем городам после завершения и имеет уникальный сопутствующий бонус к производительности [ICON_Production]. Бонус производительности [ICON_Production] также дает [ICON_Gold] золотых монет. В этой области имеется 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он может выполнить дистанционную атаку [ICON_Range] на расстоянии 1 [ICON_Ranged].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_NAME" Language="ru_RU">
+			<Text>Кар98к</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_DESCRIPTION" Language="ru_RU">
+			<Text>Ее слова и дела элегантны и уравновешены, полны аристократического темперамента, у нее сильное чувство чести. Ее командный тон может быть немного снисходительным, но ее богатый и квалифицированный опыт и сила вызывают глубокое восхищение и доверие всех.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_NAME" Language="ru_RU">
+			<Text>СВД</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_DESCRIPTION" Language="ru_RU">
+			<Text>Легкомысленный, высокомерный, уважающий себя гуманоид, который любит тыкать пальцем на окружающие его вещи.На самом деле он добрый старик, который любит волноваться. Каждое заявление о бое кажется высокомерным, но с ее непостижимой силой и опытом это в конечном итоге превратится во что-то возможное.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_NAME" Language="ru_RU">
+			<Text>ХС.50</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_DESCRIPTION" Language="ru_RU">
+			<Text>Поскольку файлы исходного проекта были стерты, HS.50 очень мало знает о своем прошлом, поэтому она надеется интегрироваться в Гриффин как можно скорее. Но похоже, что из-за влияния прошлого она умеет использовать только простые тактические навыки в повседневной жизни, из-за чего ей трудно ладить со своими товарищами. В настоящее время HS.50 работает над тем, чтобы стать более удобным для пользователя.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_NAME" Language="ru_RU">
+			<Text>М870</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_DESCRIPTION" Language="ru_RU">
+			<Text>Он утверждал, что служил офицером дорожного патруля на шоссе 666, но его бывший отдел был незарегистрированной и неизвестной организацией, и его полицейское удостоверение не могло подтвердить его законность. Несмотря на свои плохие манеры и привычку насмехаться, Гриффина в конце концов перевели на должность менеджера из-за его необычайной силы. Если вы хотите уменьшить ее обычные проблемы с вами, лучше всего приготовить газировку, чтобы отвлечь ее интерес к вам.</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SNIPER_SQUAD_NAME" Language="ru_RU">
+			<Text>Удаленно</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SUPPORT_SQUAD_NAME" Language="ru_RU">
+			<Text>Поддержка ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_TACTICS_SQUAD_NAME" Language="ru_RU">
+			<Text>ближний бой</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ARMORED_SQUAD_NAME" Language="ru_RU">
+			<Text>тяжелая кавалерия</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_RECON_SQUAD_NAME" Language="ru_RU">
+			<Text>Расследовать</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ANTITANK_SQUAD_NAME" Language="ru_RU">
+			<Text>осадная противокавалерийская</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая кукла мобилизационной поддержки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Пушечное мясо массового производства, вы можете использовать его по своему желанию или держать под рукой, чтобы выполнять работу по дому. -25 [ICON_Strength] боевой мощи при атаке и грабеже расходуется только 1 [ICON_Movement] силы передвижения. Дает +15 [ICON_Range] боевой мощи на дальней дистанции соседним обычным Т-куклам и увеличивает лечебный эффект соседних юнитов. Если какой-либо юнит начинает двигаться от этого юнита, он получает +1 [ICON_Movement] к силе передвижения [NEWLINE] [COLOR:ResMilitaryLabelCS]. Юнит не может получить опыт[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая фигурка поддержки Tenacity</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Если высококачественное пушечное мясо более устойчиво к избиениям, чем пушечное мясо массового производства, если его можно будет использовать в качестве офисных украшений, это определенно станет славой жизни этого пушечного мяса. -25 [ICON_Strength] боевой мощи при атаке и грабеже расходуется только 1 [ICON_Movement] силы передвижения. Обеспечивает +15 [ICON_Range] боевой мощи на дальней дистанции соседним обычным Т-куклам и увеличивает эффект исцеления соседних юнитов. Если какой-либо юнит начинает двигаться рядом с этим юнитом, он получает +1 [ICON_Movement] к силе передвижения.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая фигура поддержки ветеранов</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактические показатели, улучшенные исключительно за счет симуляционной подготовки или использования боевых записей. -25 [ICON_Strength] боевой мощи при атаке и грабеже расходуется только 1 [ICON_Movement] силы передвижения. Обеспечивает +15 [ICON_Range] боевую мощь на дальней дистанции соседним обычным Т-куклам и увеличивает эффект исцеления соседних юнитов. Если какой-либо юнит начинает двигаться рядом с этим юнитом, он получает +1 [ICON_Movement] к силе передвижения.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая фигура расширенной поддержки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Тактическая кукла, прошедшая симуляционное обучение и имеющая реальный боевой опыт. -25 [ICON_Strength] боевой мощи при атаке и грабеже расходуется только 1 [ICON_Movement] силы передвижения. Обеспечивает +15 [ICON_Range] боевую мощь на дальней дистанции соседним обычным Т-куклам и увеличивает эффект исцеления соседних юнитов. Если какой-либо юнит начинает двигаться рядом с этим юнитом, он получает +1 [ICON_Movement] к силе передвижения.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_NAME" Language="ru_RU">
+			<Text>Тактическая фигурка элитной поддержки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_DESCRIPTION" Language="ru_RU">
+			<Text>Хорошо оснащенная и опытная в боях тактическая кукла. -25 [ICON_Strength] боевой мощи при атаке и грабеже расходуется только 1 [ICON_Movement] силы передвижения. Обеспечивает +15 [ICON_Range] боевой мощи на дальней дистанции соседним обычным Т-куклам и увеличивает эффект исцеления соседних юнитов. Если какой-либо юнит начинает двигаться рядом с этим юнитом, он получает +1 [ICON_Movement] к силе передвижения.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ADD_15_COMBAT_FOR_TACTICS_SQUAD_ALLOW_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>+15[ICON_Range] боевая мощь на дальней дистанции для обычных тактических Т-кукол в радиусе 1 клетки.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEBUFF_FOR_SUPPORT_SQUAD_GIRLFONTLINE_GIRLFRONTLINE_DESCRIPTION" Language="ru_RU">
+			<Text>-25[ICON_Strength] боевая сила при атаке</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME" Language="ru_RU">
+			<Text>скрывающийся</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ru_RU">
+			<Text>+15[ICON_Strength] боевая мощь при атаке</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME" Language="ru_RU">
+			<Text>пуля со стальным сердечником</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ru_RU">
+			<Text>+7[ICON_Strength] боевая сила при атаке</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME" Language="ru_RU">
+			<Text>Пуля с вольфрамовым сердечником</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ru_RU">
+			<Text>+10[ICON_Strength] боевая мощь при атаке</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_NAME" Language="ru_RU">
+			<Text>Тепловизор</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_DESCRIPTION" Language="ru_RU">
+			<Text>+3 дальность обзора и проходит через любую местность, позволяя обнаруживать невидимые юниты в поле зрения.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_NAME" Language="ru_RU">
+			<Text>мобильная война</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+15[ICON_Strength] боевая мощь при любых обстоятельствах</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_NAME" Language="ru_RU">
+			<Text>Быстрое развертывание</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_DESCRIPTION" Language="ru_RU">
+			<Text>+2[ICON_Movement] силы передвижения, все отряды формирования получают [ICON_Movement] силу передвижения сопровождающих отрядов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NO_TERRAIN_MOVEMENT_DEBUFF_NAME" Language="ru_RU">
+			<Text>быстрый марш</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_NAME" Language="ru_RU">
+			<Text>ФН-57</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_DESCRIPTION" Language="ru_RU">
+			<Text>Милый, умный и несколько самовлюбленный гуманоид.Источником его уверенности является не его сила, а его уникальное видение. Она умеет кокетничать и рассказывать анекдоты в будни, но может сохранять спокойствие, даже если потерпит поражение в бою, и не будет унывать.</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_ADD_15_COMBAT_FOR_TACTICS_SQUAD" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] к силе дальнего боя от соседних тактических кукол поддержки</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_DEBUFF_FOR_SUPPORT_SQUAD" Language="ru_RU">
+			<Text>{1_Amount}[ICON_Strength] боевая мощь, полученная из поддержки тактических характеристик гуманоида.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] боевая мощь от {LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_7_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] боевая мощь от {LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] боевая мощь от {LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_GIRLFRONTLINE" Language="ru_RU">
+			<Text>+{1_Amount}[ICON_Strength] боевая мощь от {LOC_PROMOTION_ADD_15_COMBAT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_NAME" Language="ru_RU">
+			<Text>арсенал</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_CAMPUS_NAME}, требует {LOC_TECH_WRITING_NAME}, дешевле, имеет уникальный соседний бонус с золотой монетой [ICON_Gold], соседний бонус с золотой монетой [ICON_Gold] также обеспечивает научные исследования [ICON_Science] после исследования {LOC_TECH_IRON_WORKING_NAME}, [ICON_Gold] Золото Соседний бонус также обеспечивает производительность [ICON_Production]. В этой области имеется 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он может выполнить дистанционную атаку [ICON_Range] на расстоянии 1 [ICON_Ranged].</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_NAME" Language="ru_RU">
+			<Text>командный центр космической линии связи</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_SPACEPORT_NAME}, изначально разблокирован, стоимость бесплатна и никогда не будет увеличиваться в цене, может быть построена независимо от спроса населения (не специализированная область), имеет уникальный смежный бонус производительности [ICON_Production], имеет пять экспертных слотов [ICON_Citizen], +100% бонус к производительности [ICON_Production] после исследования {LOC_CIVIC_GUILDS_NAME}. В этой области имеется 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он может выполнить дистанционную атаку [ICON_Range] на расстоянии 1 [ICON_Ranged].</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="ru_RU">
+			<Text>передовой лагерь</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ru_RU">
+			<Text>Город не будет утомлен войной, и для восстановления здоровья в начале раунда не нужно размещать юниты. Все ячейки в городе получат +4 золотых монеты [ICON_Gold]. После исследования {LOC_TECH_ECONOMICS_NAME}, +2 Будут добавлены золотые монеты [ICON_Gold].</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ru_RU">
+			<Text>Передовой лагерь Пограничного корпуса Грифона</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_ADJECTIVE" Language="ru_RU">
+			<Text>Передовой лагерь пограничного корпуса</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="ru_RU">
+			<Text>Пограничная следственная миссия - Прифронтовой лагерь</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_FN57_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Первоначальное преимущество FN-57 в разведке</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_FN57_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Использование тактического гуманоидного лидера Griffin FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_FN57_GIRLFRONTLINE" Language="ru_RU">
+			<Text>Закодированное сообщение от вашего шпиона</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_NAME" Language="ru_RU">
+			<Text>Постройте гуманоида</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_SHORTNAME" Language="ru_RU">
+			<Text>Постройте гуманоида</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_DESCRIPTION" Language="ru_RU">
+			<Text>Специальный проект склада передовой группы боевой готовности Гриффина, изначально разблокирован, после завершения проекта город +2 [ICON_Citizen] горожанина</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_NAME" Language="ru_RU">
+			<Text>Массовое производство человеческих фигурок</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_SHORTNAME" Language="ru_RU">
+			<Text>Массовое производство человеческих фигурок</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_DESCRIPTION" Language="ru_RU">
+			<Text>Специальный проект Griffin's Frontline Warfare Warehouse требует {LOC_TECH_METAL_CASTING_NAME}. После завершения проекта в городе будет +6 [ICON_Citizen] жителей.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_NAME" Language="ru_RU">
+			<Text>Арматурные куклы</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_SHORTNAME" Language="ru_RU">
+			<Text>Арматурные куклы</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_DESCRIPTION" Language="ru_RU">
+			<Text>Специальный проект Griffin's Frontline Warfare Warehouse требует {LOC_TECH_ADVANCED_FLIGHT_NAME}. После завершения проекта в городе будет +10 [ICON_Citizen] жителей.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_NAME" Language="ru_RU">
+			<Text>Утилизация гуманоидов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_SHORTNAME" Language="ru_RU">
+			<Text>Утилизация гуманоидов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_DESCRIPTION" Language="ru_RU">
+			<Text>Для специального проекта «Передовой склад Гриффина» требуется {LOC_TECH_WRITING_NAME}. После завершения проекта в городе будет -2 [ICON_Citizen] горожан.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_NAME" Language="ru_RU">
+			<Text>Демонтаж гуманоидов партиями</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_SHORTNAME" Language="ru_RU">
+			<Text>Демонтаж гуманоидов партиями</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_DESCRIPTION" Language="ru_RU">
+			<Text>Для специального проекта Griffin Front Line Warehouse требуется {LOC_TECH_METAL_CASTING_NAME}. После завершения проекта в городе будет -6 [ICON_Citizen] жителей.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_NAME" Language="ru_RU">
+			<Text>большая чистка</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_SHORTNAME" Language="ru_RU">
+			<Text>большая чистка</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_DESCRIPTION" Language="ru_RU">
+			<Text>Специальный проект Griffin's Frontline Warfare Warehouse требует {LOC_CIVIC_IDEOLOGY_NAME}. После завершения проекта в городе будет -10 [ICON_Citizen] жителей.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_NAME" Language="ru_RU">
+			<Text>АРТ556</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_DESCRIPTION" Language="ru_RU">
+			<Text>Эксцентричная, гедонистическая девушка-гуманоид, которая прикусывает язык каждый раз, когда произносит свое имя. Ее заботят только интересные вещи. По этой причине она может бросить вызов многим вещам, которые нарушают основные принципы. В настоящее время она усердно работает, чтобы сделать MT9 интересным. .</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Депо группы передовой готовности Гриффина</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_ADJECTIVE" Language="ru_RU">
+			<Text>фронтового склада боеготовности</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="ru_RU">
+			<Text>Группа-склад фронтовой боевой готовности</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="ru_RU">
+			<Text>склад</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Города не будут уставать от войны, юниты не должны содержать гарнизоны для восстановления здоровья в начале раунда, города не могут получить [ICON_Citizen] граждан, они могут получить [ICON_Citizen] только путем завершения проектов. Начальное производство еды [ICON_Food] всех клеток местности и рельефа в городе обеспечивает одинаковое количество производительности [ICON_Production], что позволяет строить шахты и карьеры на равнине.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_NAME" Language="ru_RU">
+			<Text>логистика</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_ENTERTAINMENT_COMPLEX_NAME}, изначально разблокирован, стоимость бесплатна и никогда не будет увеличиваться в цене, имеет уникальный смежный бонус с золотой монетой [ICON_Gold], смежный бонус с золотой монетой [ICON_Gold] также обеспечивает производительность [ICON_Production] после исследования {LOC_CIVIC_MERCANTILISM_NAME}, + Бонус в виде 100% [ICON_Gold] золотых монет. В этой области имеется 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он может выполнить дистанционную атаку [ICON_Range] на расстоянии 1 [ICON_Ranged].</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_NAME" Language="ru_RU">
+			<Text>Рудоперерабатывающий завод</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Заменяет {LOC_DISTRICT_COMMERCIAL_HUB_NAME}, требует {LOC_TECH_CURRENCY_NAME}, дешевле в строительстве, имеет уникальный смежный золотой бонус [ICON_Gold], исследуйте {LOC_TECH_INDUSTRIALIZATION_NAME}, соседний золотой бонус [ICON_Gold] также обеспечивает [ICON_Production] производительность. В этой области имеется 20 [ICON_Fortified] очков здоровья гарнизона. После того, как в городе появятся городские стены, он может выполнить дистанционную атаку [ICON_Range] на расстоянии 1 [ICON_Ranged].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_NAME" Language="ru_RU">
+			<Text>Наладить поточную линию-дозвуковую бомбу</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_SHORTNAME" Language="ru_RU">
+			<Text>Производство дозвуковых бомб</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_DESCRIPTION" Language="ru_RU">
+			<Text>Производственный центр будет производить дозвуковые снаряды для отправки на передовую</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_NAME" Language="ru_RU">
+			<Text>Отрегулируйте производственную линию - бомба на кончике ложки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_SHORTNAME" Language="ru_RU">
+			<Text>Производство пуль с ложечным наконечником</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_DESCRIPTION" Language="ru_RU">
+			<Text>Производственный центр будет производить боеприпасы с ложечными наконечниками и доставлять их на передовую.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_NAME" Language="ru_RU">
+			<Text>Отрегулируйте стандартную производственную линию боеприпасов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_SHORTNAME" Language="ru_RU">
+			<Text>Производить стандартные бомбы</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_DESCRIPTION" Language="ru_RU">
+			<Text>Производственный центр будет производить стандартные бомбы и доставлять их на передовую.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_NAME" Language="ru_RU">
+			<Text>Центр по производству пуль с ложечным наконечником</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_DESCRIPTION" Language="ru_RU">
+			<Text>Характерное здание C-MS, после завершения штурмовой тактический гуманоид будет иметь +7 [ICON_Strength] боевую мощь, а зона противостояния — +10 [ICON_Strength] боевую мощь. Все юниты имеют +3 [ICON_Strength] к боевой мощи. Они не будут страдать от снижения боевой мощи после ранения. [NEWLINE] Если он не принадлежит создателю города, город будет иметь -40 лояльности за раунд.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_NAME" Language="ru_RU">
+			<Text>Стандартный центр по производству бомб</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_DESCRIPTION" Language="ru_RU">
+			<Text>Характерное здание C-MS, после завершения, Штурмовая Тактическая Кукла имеет дополнительную атаку 1 за раунд и может двигаться после атаки. +2 [ICON_Movement] к скорости передвижения для всех юнитов, игнорирует [ICON_Movement] штрафы к движению за местность и пересечение рек.[NEWLINE] -70% для городов, не принадлежащих создателю города.[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science ][icon_Culture]Все выходные данные</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_NAME" Language="ru_RU">
+			<Text>Центр по производству дозвуковых бомб</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_DESCRIPTION" Language="ru_RU">
+			<Text>Характерное здание C-MS, после завершения, +5 [ICON_Strength] боевая мощь при штурмовой тактике защиты гуманоидов и +10 [ICON_Strength] боевая мощь при защите дружественных отрядов в окружающей ячейке, +5 [ICON_Strength] боевая мощь при защите всех отрядов, улучшение Не завершит свой ход (эта способность продолжает действовать для уже произведенных юнитов. Если здание потеряно, вновь созданные юниты больше не будут иметь эту способность, пока здание не будет приобретено снова) [NEWLINE] Если оно не принадлежит создатель города, город -20[ ICON_Amenities]Удобства</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_7_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} [ICON_Strength] Боевая мощь, из Центра производства пуль Spoon Point.</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_COMBAT_VS_DIS_DESCRIPTION" Language="ru_RU">
+			<Text>Зона противостояния + {1_Amount} [ICON_Strength] боевая мощь, из центра по производству пуль с ложечными наконечниками.</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_3_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} [ICON_Strength] Боевая мощь, из Центра производства пуль Spoon Point.</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_5_DEF_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} [ICON_Strength] боевая мощь из центра по производству дозвуковых бомб.</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_DEF_FOR_ADJ_UNIT_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} [ICON_Strength] Боевая мощь от Центра по производству дозвуковых бомб и прилегающих к нему Т-куколок штурмовой тактики</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_5_DEF_DESCRIPTION" Language="ru_RU">
+			<Text>+{1_Amount} [ICON_Strength] боевая мощь из центра по производству дозвуковых бомб.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_NAME" Language="ru_RU">
+			<Text>К-МС</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_DESCRIPTION" Language="ru_RU">
+			<Text>Вероятно, когда вы будете с ней, вы задаетесь вопросом, кто здесь настоящий босс. Она всегда обращается с окружающими ее людьми как с подчиненными и использует свой неуправляемый стиль для удовлетворения своих различных своевольных желаний. Но не волнуйтесь, она никогда не будет плохо обращаться со своими хорошими подчиненными, может быть, выполните для нее поручение и купите вкусняшек, и она принесет вам любую победу, какую вы пожелаете.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_RANGED_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>{1_Amount} Базовая боевая мощь на дальней дистанции</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_BOMBARD_COMBAT_DESCRIPTION" Language="ru_RU">
+			<Text>{1_Amount} Базовая боевая мощь бомбардировки</Text>
+		</Replace>
+		<Replace Tag="LOC_" Language="ru_RU">
+			<Text>_CITY_NAME_9',,'Командный центр космической связи Грифона' FROM CivilizationsGirlfrontline ГДЕ CivilizationType LIKE</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

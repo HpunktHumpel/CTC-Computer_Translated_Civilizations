@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Mar 22 20:20:55 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット [ICON_Movement] は地形ペナルティなしで移動します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_HEAVY_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>重騎兵に対する戦闘力 +17[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_LIGHT_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>軽騎兵に対する戦闘力 +17[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_65_COMBAT_VS_CLASS_GIANT_DEATH_ROBOT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>終末メカに対する戦闘力 +65[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットは都市の防御に完全なダメージを与えます</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}: ユニットの戦闘力 +7[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 3[ICON_Gold] -3[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: ユニットの戦闘力 +10[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 3[ICON_Gold] -3[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: ユニットの戦闘力 +16[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: ユニットの戦闘力 +9[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: ユニットの戦闘力 +10[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 -1[ICON_Gold] (維持費)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: ユニットの戦闘力 +10 [ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンごとに [ICON_Gold] 金貨 (維持費) -1 [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: ユニットの戦闘力 +25 [ICON_Strength]、[COLOR: ResMilitaryLabelCS] ラウンドごとに [ICON_Gold] 金貨 (維持費) -1 [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_IRON_WORKING_NAME} の戦闘力 + {1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_GUNPOWDER_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME} の戦闘力 + {1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME} の戦闘力 + {1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_TECH_COMPOSITES_NAME} の戦闘力が {1_Amount} 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_NAME" Language="ja_JP">
+			<Text>突撃戦術要員を動員する</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>大量生産された大砲の飼料。自由に使用したり、雑務用に保管したりできます。都市の壁に完全なダメージを与える可能性があります[NEWLINE][COLOR:ResMilitaryLabelCS]このユニットは経験を積むことができません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_NAME" Language="ja_JP">
+			<Text>経験豊富な突撃戦術の人物</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練または戦闘記録の使用のみによって改善された戦術数値。市壁に完全なダメージを与える可能性がある</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_NAME" Language="ja_JP">
+			<Text>アドバンスト・アサルト・タクティカル・フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練を受け、実戦経験を積んだ戦術人形。城壁に完全なダメージを与えることができ、[ICON_Range] 射程 1 の [ICON_Bombard] 長距離爆撃力を備えています。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_NAME" Language="ja_JP">
+			<Text>エリート アサルト タクティクス フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>装備も豊富で戦闘経験も豊富な戦術家。城壁に完全なダメージを与えることができ、[ICON_Range] 射程 1 の [ICON_Bombard] 長距離爆撃力を備えています。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_NAME" Language="ja_JP">
+			<Text>従来の戦術人形を動員</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>大量生産された大砲の飼料。自由に使用したり、雑務用に保管したりできます。 [ICON_Range][ICON_Ranged]の遠距離戦闘力は2ですが、[ICON_Ranged]の遠距離戦闘力は弱いです[NEWLINE][COLOR:ResMilitaryLabelCS]このユニットは経験値を獲得しません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_NAME" Language="ja_JP">
+			<Text>タフなレギュラータクティカルフィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>高級大砲飼料が量産大砲飼料よりも打撃に強く、オフィスの装飾品として選択できれば、それは間違いなく大砲飼料の一生の栄光となるでしょう。 [ICON_Ranged]射程が2の[ICON_Ranged]遠距離戦闘力を持っていますが、[ICON_Ranged]遠距離戦闘力は弱いです</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_NAME" Language="ja_JP">
+			<Text>ドレッドノート従来型戦術図</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>最前線で生き残った量産型大砲の餌は、塹壕でしゃがむと驚くほどのパフォーマンスを発揮します。 [ICON_Ranged]射程が2の[ICON_Ranged]遠距離戦闘力を持っていますが、[ICON_Ranged]遠距離戦闘力は弱いです</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_NAME" Language="ja_JP">
+			<Text>味付けされた従来の戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練または戦闘記録の使用のみによって改善された戦術数値。 [ICON_Ranged]射程が2の[ICON_Ranged]遠距離戦闘力を持っていますが、[ICON_Ranged]遠距離戦闘力は弱いです</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_NAME" Language="ja_JP">
+			<Text>栄光の従来戦術図</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>戦場で顕著な貢献をした戦術人形は、すべての戦術人形の記憶に残ります。射程2の[ICON_Range][ICON_Ranged]遠隔戦闘力を持っていますが、[ICON_Ranged]遠距離戦闘力は弱い[NEWLINE][COLOR:ResMilitaryLabelCS]{LOC_TECH_MILITARY_SCIENCE_NAME}を研究するとユニットの戦闘力を高めることができます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_NAME" Language="ja_JP">
+			<Text>上級正規戦術人形</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練を受け、実戦経験を積んだ戦術人形。 [ICON_Ranged]射程が2の[ICON_Ranged]遠距離戦闘力を持っていますが、[ICON_Ranged]遠距離戦闘力は弱いです</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_NAME" Language="ja_JP">
+			<Text>エリートレギュラータクティカルフィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>十分な装備を備え、戦闘経験も豊富な戦術人形。 [ICON_Ranged]射程が2の[ICON_Ranged]遠距離戦闘力を持っていますが、[ICON_Ranged]遠距離戦闘力は弱いです</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_NAME" Language="ja_JP">
+			<Text>新しい重装甲戦術フィギュアを作成する</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>テストに合格しなかった戦術人形は、実際の戦闘能力をテストするための大砲の餌として前線に送られることがあります。通常の人形よりも厚い装甲を持ち、射程 1 の [ICON_Range][ICON_Ranged] 遠距離戦闘力を備えていますが、[ICON_Movement] が遅い[NEWLINE][COLOR:ResMilitaryLabelCS]このユニットは経験値を獲得できません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_NAME" Language="ja_JP">
+			<Text>ドレッドノート ヘビー タクティカル フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>最前線で生き残った量産型大砲の餌は、塹壕でしゃがむと驚くほどのパフォーマンスを発揮します。通常の戦術人形より装甲が厚く、[ICON_Range]射程1[ICON_Ranged]の遠距離戦闘力を持っていますが、[ICON_Movement]動作が遅いです。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_NAME" Language="ja_JP">
+			<Text>熟練したヘビーデューティ戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練または戦闘記録の使用のみによって改善された戦術数値。通常の戦術人形より装甲が厚く、[ICON_Range]射程1[ICON_Ranged]の遠距離戦闘力を持っていますが、[ICON_Movement]動作が遅いです。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_NAME" Language="ja_JP">
+			<Text>高度なヘビーデューティ戦術人形</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練を受け、実戦経験を積んだ戦術人形。通常の戦術人形より装甲が厚く、[ICON_Range]射程1[ICON_Ranged]の遠距離戦闘力を持っていますが、[ICON_Movement]動作が遅いです。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_NAME" Language="ja_JP">
+			<Text>エリートヘビータクティカルフィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>十分な装備を備え、戦闘経験も豊富な戦術人形。通常の戦術人形より装甲が厚く、[ICON_Range]射程1[ICON_Ranged]の遠距離戦闘力を持っていますが、[ICON_Movement]動作が遅いです。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_NAME" Language="ja_JP">
+			<Text>動員偵察戦術人形</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>大量生産された大砲の飼料。自由に使用したり、雑務用に保管したりできます。特別な視覚を持ち、その視覚はあらゆる地形を通過できます。ユニット [ICON_Movement] は地形ペナルティなしで移動します[NEWLINE][COLOR:ResMilitaryLabelCS]このユニットは経験を積むことができません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_NAME" Language="ja_JP">
+			<Text>経験豊かな偵察戦術家</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練または戦闘記録の使用のみによって改善された戦術数値。特別な視覚を持ち、その視覚はあらゆる地形を通過でき、ユニット [ICON_Movement] は地形ペナルティなしで移動します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_NAME" Language="ja_JP">
+			<Text>高度偵察戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練を受け、実戦経験を積んだ戦術人形。特別な視覚を持ち、その視覚はあらゆる地形を通過でき、ユニット [ICON_Movement] は地形ペナルティなしで移動します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_NAME" Language="ja_JP">
+			<Text>エリート リーコン タクティクス フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>十分な装備を備え、戦闘経験も豊富な戦術人形。特別な視覚を持ち、その視覚はあらゆる地形を通過でき、ユニット [ICON_Movement] は地形ペナルティなしで移動します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_NAME" Language="ja_JP">
+			<Text>スナイパー戦術フィギュアを動員する</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>大量生産された大砲の飼料。自由に使用したり、雑務用に保管したりできます。射程3の[ICON_Range][ICON_Ranged]遠距離攻撃[COLOR:ResMilitaryLabelCS]を持っていますが、近接戦闘での有効性は非常に低い[NEWLINE]このユニットは経験を積むことができません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_NAME" Language="ja_JP">
+			<Text>タフスナイパータクティクスフィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>高級大砲飼料が量産大砲飼料よりも打撃に強く、オフィスの装飾品として選択できれば、それは間違いなく大砲飼料の一生の栄光となるでしょう。射程3、[COLOR:ResMilitaryLabelCS]の[ICON_Range][ICON_Ranged]遠隔攻撃を持っていますが、近接戦闘の有効性は非常に低いです</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_NAME" Language="ja_JP">
+			<Text>経験豊富な狙撃兵の戦術図</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練または戦闘記録の使用のみによって改善された戦術数値。射程3の[ICON_Range][ICON_Ranged]範囲攻撃、[COLOR:ResMilitaryLabelCS]を持ちますが、近接戦闘での有効性は非常に低い[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_NAME" Language="ja_JP">
+			<Text>高度なスナイパー戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練を受け、実戦経験を積んだ戦術人形。射程4の[ICON_Range][ICON_Ranged]範囲攻撃、[COLOR:ResMilitaryLabelCS]を持ちますが、近接戦闘での有効性は非常に低い[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_NAME" Language="ja_JP">
+			<Text>エリート スナイパー タクティクス フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>十分な装備を備え、戦闘経験も豊富な戦術人形。射程4の[ICON_Range][ICON_Ranged]範囲攻撃、[COLOR:ResMilitaryLabelCS]を持ちますが、近接戦闘での有効性は非常に低い[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_NAME" Language="ja_JP">
+			<Text>新しい対戦車戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>テストに合格しなかった戦術人形は、実際の戦闘能力をテストするための大砲の餌として前線に送られることがあります。射程2の[ICON_Range][ICON_Bombard]砲撃攻撃を持ち、騎兵に対する戦闘力+17[ICON_Strength][NEWLINE][COLOR:ResMilitaryLabelCS]このユニットは経験値を獲得できません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_NAME" Language="ja_JP">
+			<Text>経験豊かな対戦車戦術家</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練または戦闘記録の使用のみによって改善された戦術数値。 [ICON_Bombard] 爆撃攻撃を持ち、[ICON_Range] 範囲 3、騎兵に対する戦闘力 +17 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_NAME" Language="ja_JP">
+			<Text>栄光の対戦車戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>戦場で顕著な貢献をした戦術人形は、すべての戦術人形の記憶に残ります。 [ICON_Bombard] 爆撃攻撃を持ち、[ICON_Range] 範囲 3、騎兵に対する戦闘力 +17 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_NAME" Language="ja_JP">
+			<Text>高度な対戦車戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練を受け、実戦経験を積んだ戦術人形。 [ICON_Bombard] 爆撃攻撃を持ち、[ICON_Range] 射程 4、騎兵に対する [ICON_Strength] 戦闘力 +17</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_NAME" Language="ja_JP">
+			<Text>エリート対戦車戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>十分な装備を備え、戦闘経験も豊富な戦術人形。 [ICON_Range] 範囲 5 の [ICON_Bombard] 爆撃攻撃、騎兵に対して +17[ICON_Strength] 戦闘力、終末メカに対して +67[ICON_Strength] 戦闘力を持つ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_NAME" Language="ja_JP">
+			<Text>G41</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_DESCRIPTION" Language="ja_JP">
+			<Text>元気で可愛い性格ですが、非常にベタベタで忠犬な性格をしており、受けた命令は必ずやり遂げ、ご褒美に団長に頭を撫でてもらうのが好きです。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_NAME" Language="ja_JP">
+			<Text>TMP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_DESCRIPTION" Language="ja_JP">
+			<Text>気弱で引っ込み思案な人型の少女で、自分の妄想に耽溺する妄想癖があり、自分の考えを延々と独り言することが多く、他人に聞かれていると知ると困惑してしまう。しかし、もし彼女が「絶望的な状況」に追い込まれたら…どうにもならない状況になることを覚悟してください。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_NAME" Language="ja_JP">
+			<Text>グリフィン タクティカル フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>オリジナル バージョンではすべての陸上ユニットとパイオニアを構築できませんが、戦術人形とクローラーは構築できます[NEWLINE]すべての軍事ユニットは +50% の戦闘経験を持ちますが、[COLOR:ResMilitaryLabelCS]一部の戦術人形は経験を積むことができません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ASSAULT_SQUAD_NAME" Language="ja_JP">
+			<Text>近接包囲戦</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットは [ICON_Strength] の近接攻撃を使用できません</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_NAME" Language="ja_JP">
+			<Text>昇降補助具</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_DESCRIPTION" Language="ja_JP">
+			<Text>特定の防御能力を持つ特殊なパイオニアは近接攻撃を使用できません。このユニット[COLOR:ResMilitaryLabelCS]は非常に高価です[ENDCOLOR]が、価格が上がることはありません</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_NAME" Language="ja_JP">
+			<Text>物流倉庫</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_DISTRICT_COMMERCIAL_HUB_NAME} を置き換えます。最初はロック解除されており、コストは無料で価格が上昇することはありません。完了後に [ICON_TradeRoute] の取引能力が +1 され、商人ユニットがギフトとして与えられ、固有の [ICON_Gold] 金貨隣接ボーナスが付与されます。 {LOC_TECH_IRON_WORKING_NAME} を研究した後、[ICON_Gold] ゴールド隣接ボーナスにより [ICON_Production] の生産性も得られます。このエリアには [ICON_Fortified] の守備隊ヘルス ポイントが 20 あります。都市に城壁ができた後は、[ICON_Range] 範囲の 1 [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_NAME" Language="ja_JP">
+			<Text>クレーン</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_DESCRIPTION" Language="ja_JP">
+			<Text>最初はロック解除されている {LOC_DISTRICT_ENCAMPMENT_NAME} の代替施設は市内中心部の周りに建設でき、ユニークな [ICON_Production] 生産性隣接ボーナスがあり、建設すると都市の作成時に消費されたクローラーが解放されます。このエリアには守備隊の体力ポイントが 20 [ICON_Fortified] しかありません。都市に城壁ができた後は、[ICON_Range] 範囲の 3 回の [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_NAME" Language="ja_JP">
+			<Text>軍需工場</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_DISTRICT_INDUSTRIAL_ZONE_NAME} を置き換えるには、{LOC_TECH_APPRENTICESHIP_NAME} が必要です。これは安価で、独自の [ICON_Production] 生産性隣接ボーナスがあります。このエリアには [ICON_Fortified] の守備隊ヘルス ポイントが 20 あります。都市に城壁ができた後は、[ICON_Range] 範囲の 1 [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する各エリアから生産されます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ja_JP">
+			<Text>隣接する各エリアから [ICON_Gold] 個のゴールド コインを +{1_num} 枚獲得</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 隣接する各エリアから食料が調達されます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 生産性は山から生まれる</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 生産性は水から生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Gold] 金貨は山から採れます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Gold] 金貨は水から生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食べ物は山から生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食べ物は水から生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 生産性は戦略的リソースから生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 生産性は贅沢なリソースから生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Gold] 金コインは戦略的資源から得られます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Gold] 個の金貨は贅沢な資源から生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食料は戦略的資源から得られます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 食料は贅沢な資源から得られます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 生産性は人工の驚異から生まれます</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Gold] 人工の驚異からの金貨</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Food] 人工の不思議な食べ物</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="ja_JP">
+			<Text>キャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="ja_JP">
+			<Text>都市は戦争に疲れることはなく、ラウンドの開始時に健康を回復するためにユニットを駐屯させる必要はありません。改良されたセル +3 [ICON_Gold] 金貨、+1 [ICON_Faith] 信仰、さらに +2 [ICON_Production] 生産{LOC_TECH_ELECTRICITY_NAME}を調査した結果。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィン前方準備キャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_ADJECTIVE" Language="ja_JP">
+			<Text>最前線の戦闘即応チームキャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="ja_JP">
+			<Text>最前線戦闘準備チームキャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_NAME" Language="ja_JP">
+			<Text>SR-3MP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_DESCRIPTION" Language="ja_JP">
+			<Text>活発で派手、他人を指差したがる傲慢な人型だが、戦闘中は寡黙で大袈裟な身振り手振りをするなど、真面目で責任感のある戦士と言える。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="ja_JP">
+			<Text>インフォメーションセンター</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="ja_JP">
+			<Text>都市は戦争に疲れることはなく、ラウンドの開始時に体力を回復するためにユニットを駐屯させる必要はありません。作成または占領したすべての都市には最初から交易所があり、交易路を作成した後は交易所が設置されます。目的地の都市にすぐに表示されます。 {LOC_TECH_STIRRUPS_NAME}、{LOC_TECH_BALLISTICS_NAME}、{LOC_TECH_COMBUSTION_NAME}、{LOC_TECH_COMPOSITES_NAME} の調査で、領土内スパイ活動 -4 レベル、外交可視性 +1</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィン前線準備情報センター</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_ADJECTIVE" Language="ja_JP">
+			<Text>前方即応部隊情報センターの</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="ja_JP">
+			<Text>最前線戦闘準備チーム - 情報センター</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン前方準備情報センター インテリジェンス アドバンテージ レベル 1</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_STIRRUPS_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン情報センター部門の戦術人型リーダーを使用し、必要な条件を満たすことでインテリジェンス アドバンテージ レベル 1 を取得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="ja_JP">
+			<Text>あなたの諜報センターの記者がニュース記事を報告しました</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン前方即応部隊情報センターインテリジェンスアドバンテージレベル 2</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_BALLISTICS_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン情報センター部門の戦術人型リーダーを使用し、必要な条件を達成してインテリジェンス アドバンテージ レベル 2 を取得します</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="ja_JP">
+			<Text>諜報センターからの情報提供者が聞いた</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン前方準備情報センターの諜報優位性レベル 3</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMBUSTION_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン情報センター部門の戦術人型リーダーを使用し、必要な条件を達成してインテリジェンス アドバンテージ レベル 3 を取得します</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="ja_JP">
+			<Text>諜報センターの外交官が報告します</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン前方準備情報センター インテリジェンス アドバンテージ レベル 4</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMPOSITES_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン情報センター部門の戦術人型リーダーを使用し、必要な条件を達成してインテリジェンス アドバンテージ レベル 4 を取得します</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="ja_JP">
+			<Text>諜報センターからの極秘電報</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_NAME" Language="ja_JP">
+			<Text>テクノロジーセンター</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_DISTRICT_CAMPUS_NAME} は、最初はロック解除されており、無料で価格が上昇することはありませんが、ユニークな [ICON_Food] 食品隣接ボーナスで置き換えられます。 [ICON_Food] 食品に隣接するボーナスでは、[ICON_Science] 研究と [ICON_Gold] ゴールド コインも提供されます。このエリアには [ICON_Fortified] の守備隊ヘルス ポイントが 20 あります。都市に城壁ができた後は、[ICON_Range] 範囲の 1 [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_NAME" Language="ja_JP">
+			<Text>発電所</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_DISTRICT_INDUSTRIAL_ZONE_NAME} を置き換えるには {LOC_TECH_APPRENTICESHIP_NAME} が必要です。これは建設コストが安く、完成するとすべての都市に +1 [ICON_Power] を提供し、ユニークな [ICON_Production] 生産性隣接ボーナスをもたらします。 [ICON_Production] 生産性ボーナスでは、[ICON_Gold] ゴールド コインも提供されます。このエリアには [ICON_Fortified] の守備隊ヘルス ポイントが 20 あります。都市に城壁ができた後は、[ICON_Range] 範囲の 1 [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_NAME" Language="ja_JP">
+			<Text>Kar98k</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_DESCRIPTION" Language="ja_JP">
+			<Text>言動は上品かつ堅実で貴族気質にあふれ、とても礼儀正しく、口調は上から目線なところもあるが、その豊富な経験と力強さは誰からも慕われ、信頼されている。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_NAME" Language="ja_JP">
+			<Text>SVD</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_DESCRIPTION" Language="ja_JP">
+			<Text>軽薄で傲慢、周囲を責めるのが好きな自尊心のあるヒューマノイドだが、実は心配事が大好きな好々爺。戦闘に関する発言はどれも傲慢に思えますが、彼女の計り知れない強さと経験により、それは最終的には可能なものに変わります。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_NAME" Language="ja_JP">
+			<Text>HS.50</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_DESCRIPTION" Language="ja_JP">
+			<Text>元のプロジェクトのファイルが消去されているため、HS.50 は自分の過去についてほとんど知らないため、できるだけ早く Griffin に統合したいと考えています。しかし、過去の影響で日常生活に必要な簡単な戦術しか知らないらしく、仲間たちと打ち解けることが難しい。現在、HS.50 はさらに使いやすくなるように取り組んでいます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_NAME" Language="ja_JP">
+			<Text>M870</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_DESCRIPTION" Language="ja_JP">
+			<Text>彼はハイウェイ666号線の高速道路パトロール隊員を務めていたと主張したが、彼の以前の部署は未登録の未知の組織であり、彼の警察証明書ではその合法性を証明できなかった。マナーの悪さと嘲笑的な習慣にもかかわらず、グリフィンはその並外れた強さのために最終的に経営陣に異動しました。彼女があなたに対して普段抱えているトラブルを減らしたいなら、あなたへの彼女の興味をそらすために炭酸飲料を用意するのが最善です。</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SNIPER_SQUAD_NAME" Language="ja_JP">
+			<Text>リモートで</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SUPPORT_SQUAD_NAME" Language="ja_JP">
+			<Text>近接攻撃のサポート</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_TACTICS_SQUAD_NAME" Language="ja_JP">
+			<Text>近接攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ARMORED_SQUAD_NAME" Language="ja_JP">
+			<Text>重騎兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_RECON_SQUAD_NAME" Language="ja_JP">
+			<Text>調査する</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ANTITANK_SQUAD_NAME" Language="ja_JP">
+			<Text>対騎兵を包囲する</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_NAME" Language="ja_JP">
+			<Text>動員支援戦術人形</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>大量生産された大砲の飼料。自由に使用したり、雑務用に保管したりできます。攻撃時は戦闘力が-25 [ICON_Strength]、略奪では移動力が 1 [ICON_Movement] しか消費されません。隣接する従来型人形に +15 [ICON_Range] の遠距離戦闘力を提供し、隣接するユニットの治癒効果を増加させます。いずれかのユニットがこのユニットから移動を開始すると、そのユニットの移動力は +1 [ICON_Movement] を得ます [NEWLINE] [COLOR:ResMilitaryLabelCS]。ユニットは経験を積むことができません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_NAME" Language="ja_JP">
+			<Text>粘り強いサポート戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>高級大砲飼料が量産大砲飼料よりも打撃に強く、オフィスの装飾品として選択できれば、それは間違いなく大砲飼料の一生の栄光となるでしょう。攻撃時は戦闘力が-25 [ICON_Strength]、略奪では移動力が 1 [ICON_Movement] しか消費されません。隣接する従来の人形に+15 [ICON_Range]の遠距離戦闘力を与え、隣接するユニットの治癒効果を増加させます。任意のユニットがこのユニットの隣で移動を開始すると、+1 [ICON_Movement]の移動力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_NAME" Language="ja_JP">
+			<Text>ベテランサポート戦術フィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練または戦闘記録の使用のみによって改善された戦術数値。攻撃時は戦闘力が-25 [ICON_Strength]、略奪では移動力が 1 [ICON_Movement] しか消費されません。隣接する従来の人形に+15 [ICON_Range]の遠距離戦闘力を与え、隣接するユニットの治癒効果を増加させます。任意のユニットがこのユニットの隣で移動を開始すると、+1 [ICON_Movement]の移動力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_NAME" Language="ja_JP">
+			<Text>アドバンストサポートタクティカルフィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>シミュレーション訓練を受け、実戦経験を積んだ戦術人形。攻撃時は戦闘力が-25 [ICON_Strength]、略奪では移動力が 1 [ICON_Movement] しか消費されません。隣接する通常の人形に+15 [ICON_Range]の遠距離戦闘力を提供し、隣接するユニットの回復効果を増加させます。任意のユニットがこのユニットの隣で移動を開始すると、+1 [ICON_Movement]の移動力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_NAME" Language="ja_JP">
+			<Text>エリートサポートタクティカルフィギュア</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_DESCRIPTION" Language="ja_JP">
+			<Text>十分な装備を備え、戦闘経験も豊富な戦術人形。攻撃時は戦闘力が-25 [ICON_Strength]、略奪では移動力が 1 [ICON_Movement] しか消費されません。隣接する従来の人形に+15 [ICON_Range]の遠距離戦闘力を与え、隣接するユニットの治癒効果を増加させます。任意のユニットがこのユニットの隣で移動を開始すると、+1 [ICON_Movement]の移動力を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ADD_15_COMBAT_FOR_TACTICS_SQUAD_ALLOW_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>1マス以内の通常の戦術人形の長距離戦闘力+15[ICON_Range]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEBUFF_FOR_SUPPORT_SQUAD_GIRLFONTLINE_GIRLFRONTLINE_DESCRIPTION" Language="ja_JP">
+			<Text>攻撃時戦闘力 -25[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME" Language="ja_JP">
+			<Text>潜んでいる</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ja_JP">
+			<Text>攻撃時+15[ICON_Strength]戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME" Language="ja_JP">
+			<Text>スチールコア弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ja_JP">
+			<Text>攻撃時+7[ICON_Strength]戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME" Language="ja_JP">
+			<Text>タングステンコア弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ja_JP">
+			<Text>攻撃時+10[ICON_Strength]戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_NAME" Language="ja_JP">
+			<Text>熱画像装置</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_DESCRIPTION" Language="ja_JP">
+			<Text>+3 の視界範囲とすべての地形を通過し、視野内の目に見えないユニットを検出できます</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_NAME" Language="ja_JP">
+			<Text>機動戦</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>いかなる状況下でも戦闘力+15[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_NAME" Language="ja_JP">
+			<Text>迅速な展開</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_DESCRIPTION" Language="ja_JP">
+			<Text>+2[ICON_Movement]の移動力、すべての編隊ユニットは随伴ユニットの[ICON_Movement]の移動力を得る</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NO_TERRAIN_MOVEMENT_DEBUFF_NAME" Language="ja_JP">
+			<Text>急行進</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_NAME" Language="ja_JP">
+			<Text>FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_DESCRIPTION" Language="ja_JP">
+			<Text>可愛くて賢くて、ちょっとナルシストなヒューマノイドだが、その自信の源は強さではなく独特のビジョンだ。平日はコケティッシュな言動や冗談が得意だが、戦闘では負けてもめげず冷静な性格。</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_ADD_15_COMBAT_FOR_TACTICS_SQUAD" Language="ja_JP">
+			<Text>隣接するサポート戦術人形からの遠距離戦闘力 + {1_Amount}[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_DEBUFF_FOR_SUPPORT_SQUAD" Language="ja_JP">
+			<Text>{1_Amount}[ICON_Strength] の戦闘力。戦術的なヒューマノイドの特性をサポートすることで得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ja_JP">
+			<Text>{LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME} から戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_7_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ja_JP">
+			<Text>{LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME} の戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ja_JP">
+			<Text>{LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME} の戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_GIRLFRONTLINE" Language="ja_JP">
+			<Text>{LOC_PROMOTION_ADD_15_COMBAT_NAME} の戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_NAME" Language="ja_JP">
+			<Text>武器庫</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_DISTRICT_CAMPUS_NAME}を置き換え、{LOC_TECH_WRITING_NAME}が必要で、安価で、独自の[ICON_Gold]金貨隣接ボーナスがあります。[ICON_Gold]金貨隣接ボーナスは、{LOC_TECH_IRON_WORKING_NAME}、[ICON_Gold]金を研究した後、[ICON_Science]科学研究も提供します隣接するボーナスは [ICON_Production] の生産性ももたらします。このエリアには [ICON_Fortified] の守備隊ヘルス ポイントが 20 あります。都市に城壁ができた後は、[ICON_Range] 範囲の 1 [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_NAME" Language="ja_JP">
+			<Text>スペースアップリンクコマンドセンター</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_DISTRICT_SPACEPORT_NAME}を置き換えます。最初はロック解除されており、コストは無料で値上げはありません。人口需要に関係なく建設可能（特殊なエリアではありません）。固有の[ICON_Production]生産性隣接ボーナスがあり、5つの[ICON_Citizen]エキスパートスロットがあります。 {LOC_CIVIC_GUILDS_NAME} を研究した後、[ICON_Production] の生産性隣接ボーナスが 100% 増加します。このエリアには [ICON_Fortified] の守備隊ヘルス ポイントが 20 あります。都市に城壁ができた後は、[ICON_Range] 範囲の 1 [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="ja_JP">
+			<Text>前線キャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ja_JP">
+			<Text>都市は戦争に疲れることはなく、ラウンドの開始時に体力を回復するためにユニットを配置する必要はありません。都市のすべてのセルは +4 [ICON_Gold] の金貨を受け取ります。{LOC_TECH_ECONOMICS_NAME} を研究した後、+2 [ICON_Gold]金貨が追加されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィン辺境軍団前線キャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_ADJECTIVE" Language="ja_JP">
+			<Text>国境調査隊前線キャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="ja_JP">
+			<Text>国境調査任務 - 最前線キャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_FN57_GIRLFRONTLINE" Language="ja_JP">
+			<Text>FN-57の初期知能の優位性</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_FN57_GIRLFRONTLINE" Language="ja_JP">
+			<Text>グリフィン戦術ヒューマノイドリーダー FN-57 の使用</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_FN57_GIRLFRONTLINE" Language="ja_JP">
+			<Text>スパイからの暗号化されたメッセージ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_NAME" Language="ja_JP">
+			<Text>ヒューマノイドを構築する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_SHORTNAME" Language="ja_JP">
+			<Text>ヒューマノイドを構築する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィンの最前線戦闘即応チーム倉庫特別プロジェクト、最初はロック解除され、プロジェクト完了後、都市 +2 [ICON_Citizen] 市民</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_NAME" Language="ja_JP">
+			<Text>人物フィギュアの量産</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_SHORTNAME" Language="ja_JP">
+			<Text>人物フィギュアの量産</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィンの最前線戦闘倉庫の特別プロジェクトには {LOC_TECH_METAL_CASTING_NAME} が必要です。プロジェクトが完了すると、都市の住民は [ICON_Citizen] 6 人増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_NAME" Language="ja_JP">
+			<Text>強化人形</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_SHORTNAME" Language="ja_JP">
+			<Text>強化人形</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィンの最前線戦闘倉庫の特別プロジェクトには {LOC_TECH_ADVANCED_FLIGHT_NAME} が必要です。プロジェクトが完了すると、都市の住民は [ICON_Citizen] 10 人増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_NAME" Language="ja_JP">
+			<Text>ヒューマノイドをリサイクルする</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_SHORTNAME" Language="ja_JP">
+			<Text>ヒューマノイドをリサイクルする</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィンの最前線戦闘倉庫の特別プロジェクトには {LOC_TECH_WRITING_NAME} が必要です。プロジェクトが完了すると、都市の住民は -2 [ICON_Citizen] になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_NAME" Language="ja_JP">
+			<Text>人型生物を一括解体する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_SHORTNAME" Language="ja_JP">
+			<Text>人型生物を一括解体する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィンの最前線戦闘倉庫の特別プロジェクトには {LOC_TECH_METAL_CASTING_NAME} が必要です。プロジェクトが完了すると、都市の住民は -6 人の [ICON_Citizen] になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_NAME" Language="ja_JP">
+			<Text>大粛清</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_SHORTNAME" Language="ja_JP">
+			<Text>大粛清</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィンの最前線戦闘倉庫の特別プロジェクトには {LOC_CIVIC_IDEOLOGY_NAME} が必要です。プロジェクトが完了すると、都市の住民は -10 [ICON_Citizen] になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_NAME" Language="ja_JP">
+			<Text>ART556</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_DESCRIPTION" Language="ja_JP">
+			<Text>自分の名前を言うたびに舌を噛む、エキセントリックで享楽的な人型少女。面白いことにしか興味がない。そのため、原理原則を破ることにもたくさん挑戦できる。現在、MT9を面白くするために奮闘中。 。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="ja_JP">
+			<Text>グリフィン前線準備倉庫</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_ADJECTIVE" Language="ja_JP">
+			<Text>最前線の戦闘準備廠の</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="ja_JP">
+			<Text>最前線戦闘準備チーム - 倉庫</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="ja_JP">
+			<Text>倉庫</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="ja_JP">
+			<Text>都市は戦争に疲れることはなく、ラウンドの開始時に体力を回復するためにユニットを駐屯させる必要はありません。都市は[ICON_Citizen]市民を獲得できません。プロジェクトを完了することによってのみ[ICON_Citizen]を獲得できます。都市内のすべてのセル地形と地形の初期の [ICON_Food] 食料生産量は、同量の [ICON_Production] 生産性生産量を提供し、平地に鉱山や採石場を建設できるようになります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_NAME" Language="ja_JP">
+			<Text>兵站</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_DISTRICT_ENTERTAINMENT_COMPLEX_NAME} を置き換えます。最初はロック解除されており、コストは無料で値上がりしません。固有の [ICON_Gold] 金貨隣接ボーナスがあり、[ICON_Gold] 金貨隣接ボーナスは、{LOC_CIVIC_MERCANTILISM_NAME} を調査した結果、[ICON_Production] 生産性も提供します。 + 100% [ICON_Gold] ゴールド コイン隣接ボーナス。このエリアには [ICON_Fortified] の守備隊ヘルス ポイントが 20 あります。都市に城壁ができた後は、[ICON_Range] 範囲の 1 [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_NAME" Language="ja_JP">
+			<Text>精鉱所</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_DESCRIPTION" Language="ja_JP">
+			<Text>{LOC_DISTRICT_COMMERCIAL_HUB_NAME} を置き換え、{LOC_TECH_CURRENCY_NAME} が必要で、建設コストが低く、独自の [ICON_Gold] ゴールド隣接ボーナスがあり、{LOC_TECH_INDUSTRIALIZATION_NAME} を研究します。[ICON_Gold] ゴールド隣接ボーナスは [ICON_Production] の生産性も提供します。このエリアには [ICON_Fortified] の守備隊ヘルス ポイントが 20 あります。都市に城壁ができた後は、[ICON_Range] 範囲の 1 [ICON_Ranged] 遠隔攻撃を実行できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_NAME" Language="ja_JP">
+			<Text>生産ラインの調整 - 亜音速爆弾</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_SHORTNAME" Language="ja_JP">
+			<Text>亜音速爆弾の製造</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_DESCRIPTION" Language="ja_JP">
+			<Text>製造センターは前線に配布するための亜音速弾を生産する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_NAME" Language="ja_JP">
+			<Text>生産ラインの調整 - スプーンチップボム</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_SHORTNAME" Language="ja_JP">
+			<Text>スプーンチップ弾の製作</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_DESCRIPTION" Language="ja_JP">
+			<Text>製造センターはスプーンチップ弾薬を生産し、前線に配布します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_NAME" Language="ja_JP">
+			<Text>生産ラインの標準弾薬を調整する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_SHORTNAME" Language="ja_JP">
+			<Text>通常の爆弾を生産する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_DESCRIPTION" Language="ja_JP">
+			<Text>製造センターは標準爆弾を製造し、前線に配布します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_NAME" Language="ja_JP">
+			<Text>スプーンチップ弾丸製造センター</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_DESCRIPTION" Language="ja_JP">
+			<Text>C-MS 特性の構築。完成後、突撃戦術ヒューマノイドの戦闘力は +7 [ICON_Strength] となり、対決エリアの戦闘力は +10 [ICON_Strength] になります。すべてのユニットの戦闘力は +3 [ICON_Strength] です。負傷しても戦闘力デバフを受けません。[NEWLINE] 都市作成者が所有していない場合、都市の忠誠度はラウンドごとに -40 になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_NAME" Language="ja_JP">
+			<Text>標準爆弾製造センター</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_DESCRIPTION" Language="ja_JP">
+			<Text>C-MSの特徴的な建物で、完成後、アサルトタクティカルドールはラウンドごとに1の追加攻撃を持ち、攻撃後に移動することができます。すべてのユニットの [ICON_Movement] 移動速度 +2、地形および川横断による [ICON_Movement] 移動ペナルティを無視[NEWLINE] 都市の作成者が所有していない都市の場合 -70% [ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science] ][icon_Culture]すべての出力</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_NAME" Language="ja_JP">
+			<Text>亜音速爆弾製造センター</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_DESCRIPTION" Language="ja_JP">
+			<Text>C-MS 特性構築、完了後、攻撃戦術の人型防御時に +5 [ICON_Strength] 戦闘力、周囲のセル内の味方ユニットを防御する時に +10 [ICON_Strength] 戦闘力、すべてのユニットを防御する時に +5 [ICON_Strength] 戦闘力、アップグレード ターンは終了しません (この能力は、すでに生産されたユニットに対して引き続き有効です。建物が失われた場合、新しく生産されたユニットは、その建物が再び取得されるまでこの能力を持ちません) [NEWLINE] それが所有者でない場合、シティクリエイター、シティ -20[ ICON_Amenities ]アメニティ</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_7_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_Amount} [ICON_Strength] 戦闘力、スプーンポイント弾丸製造センターから</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_COMBAT_VS_DIS_DESCRIPTION" Language="ja_JP">
+			<Text>対決エリア + {1_Amount} [ICON_Strength] の戦闘力、スプーンチップ弾丸製造センターから</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_3_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_Amount} [ICON_Strength] 戦闘力、スプーンポイント弾丸製造センターから</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_5_DEF_DESCRIPTION" Language="ja_JP">
+			<Text>亜音速爆弾製造センターからの戦闘力 + {1_Amount} [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_DEF_FOR_ADJ_UNIT_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_Amount} [ICON_Strength] 亜音速爆弾製造センターと隣接する突撃戦術人形からの戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_5_DEF_DESCRIPTION" Language="ja_JP">
+			<Text>亜音速爆弾製造センターからの戦闘力 + {1_Amount} [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_NAME" Language="ja_JP">
+			<Text>C-MS</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_DESCRIPTION" Language="ja_JP">
+			<Text>おそらく彼女と一緒にいると、誰が本当の上司なのか疑問に思うでしょう。周囲を常に部下として扱い、その破天荒なスタイルで様々なワガママを叶える。でも心配しないでください、彼女は良い部下を決してひどい扱いはしません、彼女のためにお使いをしたり、お菓子を買ってあげたりすれば、あなたが望む勝利をもたらしてくれるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_RANGED_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{1_Amount} 基本的な遠距離戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_BOMBARD_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>{1_Amount} 基本爆撃戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_" Language="ja_JP">
+			<Text>_CITY_NAME_9',,'グリフィン スペース アップリンク コマンド センター' FROM CivilizationsGirlfrontline WHERE CivilizationType LIKE</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

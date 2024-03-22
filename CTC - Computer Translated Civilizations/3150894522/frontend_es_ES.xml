@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Mar 22 20:20:55 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>La unidad [ICON_Movement] se mueve sin penalización por terreno</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_HEAVY_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>+17[ICON_Strength] poder de combate contra caballería pesada</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_LIGHT_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>+17[ICON_Strength] fuerza de combate contra caballería ligera</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_65_COMBAT_VS_CLASS_GIANT_DEATH_ROBOT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>+65[ICON_Strength] poder de combate contra mechs del fin del mundo</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>La unidad causa daño total a la defensa de la ciudad.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}: Unidad +7[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] monedas de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: Unidad +10[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -3[ICON_Gold] monedas de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: Unidad +16[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] moneda de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: Unidad +9[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] moneda de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: Unidad +10[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1 moneda de oro [ICON_Gold] (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: Unidad +10[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] moneda de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: Unidad +10[ICON_Strength] fuerza de combate, [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] moneda de oro (tarifa de mantenimiento) por turno[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: Unidad +25 [ICON_Strength] fuerza de combate, [COLOR: ResMilitaryLabelCS] -1 moneda de oro [ICON_Gold] (tarifa de mantenimiento) por ronda [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} poder de combate de {LOC_CIVIC_NATIONALISM_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} poder de combate de {LOC_CIVIC_MOBILIZATION_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} poder de combate de {LOC_TECH_IRON_WORKING_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} poder de combate de {LOC_TECH_APPRENTICESHIP_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} poder de combate de {LOC_TECH_GUNPOWDER_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} poder de combate de {LOC_TECH_MILITARY_SCIENCE_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} poder de combate de {LOC_TECH_REPLACEABLE_PARTS_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} poder de combate de {LOC_TECH_COMPOSITES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_NAME" Language="es_ES">
+			<Text>Movilizar figuras tácticas de asalto</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Carne de cañón producida en masa, puedes usarla a voluntad o tenerla a mano para hacer las tareas del hogar. Puede causar daño total a la muralla de la ciudad[NEWLINE][COLOR:ResMilitaryLabelCS]Esta unidad no puede ganar experiencia[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_NAME" Language="es_ES">
+			<Text>Figura experimentada en tácticas de asalto</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Cifras tácticas que se han mejorado únicamente mediante entrenamiento de simulación o mediante el uso de registros de combate. Puede causar daños totales a las murallas de la ciudad.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica de asalto avanzado</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Un muñeco táctico que ha recibido entrenamiento de simulación y tiene experiencia de combate real. Puede causar daño total a la muralla de la ciudad y tiene [ICON_Bombard] poder de bombardeo de largo alcance con un alcance [ICON_Range] de 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_NAME" Language="es_ES">
+			<Text>Figura de tácticas de asalto de élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Un hombre táctico bien equipado y con experiencia en combate. Puede causar daño total a la muralla de la ciudad y tiene [ICON_Bombard] poder de bombardeo de largo alcance con un alcance [ICON_Range] de 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_NAME" Language="es_ES">
+			<Text>Movilizar muñecos tácticos convencionales</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Carne de cañón producida en masa, puedes usarla a voluntad o tenerla a mano para hacer las tareas del hogar. Tiene un poder de combate a distancia de [ICON_Range][ICON_Ranged] de 2, pero [ICON_Ranged] tiene un poder de combate a distancia débil[NEWLINE][COLOR:ResMilitaryLabelCS]Esta unidad no gana ninguna experiencia[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica regular resistente</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Si la carne de cañón de alta gama es más resistente a los golpes que la carne de cañón producida en masa, si se puede seleccionar para convertirla en decoración de oficina, definitivamente será la gloria de la vida de esta carne de cañón. Tiene poder de combate de largo alcance [ICON_Ranged] con un alcance de [ICON_Range] de 2, pero el poder de combate de largo alcance [ICON_Ranged] es débil</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica convencional Dreadnought</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>La carne de cañón producida en masa que ha sobrevivido en la línea del frente funcionará sorprendentemente bien cuando se agache en las trincheras. Tiene poder de combate de largo alcance [ICON_Ranged] con un alcance de [ICON_Range] de 2, pero el poder de combate de largo alcance [ICON_Ranged] es débil</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica convencional experimentada</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Cifras tácticas que se han mejorado únicamente mediante entrenamiento de simulación o mediante el uso de registros de combate. Tiene poder de combate de largo alcance [ICON_Ranged] con un alcance de [ICON_Range] de 2, pero el poder de combate de largo alcance [ICON_Ranged] es débil</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_NAME" Language="es_ES">
+			<Text>Gloriosa figura de tácticas convencionales</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Los Tactical Dolls que han hecho contribuciones destacadas en el campo de batalla serán recordados por todos los Tactical Dolls. Tiene poder de combate remoto [ICON_Range][ICON_Ranged] con un alcance de 2, pero el poder de combate de largo alcance [ICON_Ranged] es débil[NEWLINE][COLOR:ResMilitaryLabelCS]Investigar {LOC_TECH_MILITARY_SCIENCE_NAME} puede mejorar el poder de combate de la unidad[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_NAME" Language="es_ES">
+			<Text>Muñeca táctica regular avanzada</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Un muñeco táctico que ha recibido entrenamiento de simulación y tiene experiencia de combate real. Tiene poder de combate de largo alcance [ICON_Ranged] con un alcance de [ICON_Range] de 2, pero el poder de combate de largo alcance [ICON_Ranged] es débil</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica Elite Regular</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Una muñeca táctica bien equipada y con experiencia en combate. Tiene poder de combate de largo alcance [ICON_Ranged] con un alcance de [ICON_Range] de 2, pero el poder de combate de largo alcance [ICON_Ranged] es débil</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_NAME" Language="es_ES">
+			<Text>Crea una nueva figura táctica fuertemente blindada.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Los muñecos tácticos que no hayan superado ninguna prueba se pueden enviar al frente para que sirvan como carne de cañón y probar su desempeño real en combate. Tiene una armadura más gruesa que los T-Dolls normales y tiene [ICON_Range][ICON_Ranged] poder de combate a distancia con un alcance de 1, pero [ICON_Movement] es lento[NEWLINE][COLOR:ResMilitaryLabelCS]Esta unidad no gana experiencia[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica pesada Dreadnought</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>La carne de cañón producida en masa que ha sobrevivido en la línea del frente funcionará sorprendentemente bien cuando se agache en las trincheras. Tiene una armadura más gruesa que las muñecas tácticas normales y tiene un alcance [ICON_Range] de 1 [ICON_Ranged] de poder de combate de largo alcance, pero un movimiento [ICON_Movement] lento.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica resistente y experimentada.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Cifras tácticas que se han mejorado únicamente mediante entrenamiento de simulación o mediante el uso de registros de combate. Tiene una armadura más gruesa que las muñecas tácticas normales y tiene un alcance [ICON_Range] de 1 [ICON_Ranged] de poder de combate de largo alcance, pero un movimiento [ICON_Movement] lento.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_NAME" Language="es_ES">
+			<Text>Muñeca táctica avanzada de servicio pesado</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Un muñeco táctico que ha recibido entrenamiento de simulación y tiene experiencia de combate real. Tiene una armadura más gruesa que las muñecas tácticas normales y tiene un alcance [ICON_Range] de 1 [ICON_Ranged] de poder de combate de largo alcance, pero un movimiento [ICON_Movement] lento.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica pesada de élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Una muñeca táctica bien equipada y con experiencia en combate. Tiene una armadura más gruesa que las muñecas tácticas normales y tiene un alcance [ICON_Range] de 1 [ICON_Ranged] de poder de combate de largo alcance, pero un movimiento [ICON_Movement] lento.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_NAME" Language="es_ES">
+			<Text>Muñeca táctica de reconocimiento movilizada</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Carne de cañón producida en masa, puedes usarla a voluntad o tenerla a mano para hacer las tareas del hogar. Tiene visión adicional y la visión puede atravesar cualquier terreno. La unidad [ICON_Movement] se mueve sin penalización por terreno[NEWLINE][COLOR:ResMilitaryLabelCS]Esta unidad no puede ganar experiencia[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_NAME" Language="es_ES">
+			<Text>Figura táctica de reconocimiento experimentada</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_DESCRIPTION" Language="es_ES">
+			<Text>Cifras tácticas que se han mejorado únicamente mediante entrenamiento de simulación o mediante el uso de registros de combate. Tiene visión adicional y la visión puede atravesar cualquier terreno y la unidad [ICON_Movement] se mueve sin penalización por terreno.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica de reconocimiento avanzado</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Un muñeco táctico que ha recibido entrenamiento de simulación y tiene experiencia de combate real. Tiene visión adicional y la visión puede atravesar cualquier terreno y la unidad [ICON_Movement] se mueve sin penalización por terreno.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_NAME" Language="es_ES">
+			<Text>Figura Elite Recon Tactics</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Una muñeca táctica bien equipada y con experiencia en combate. Tiene visión adicional y la visión puede atravesar cualquier terreno y la unidad [ICON_Movement] se mueve sin penalización por terreno.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_NAME" Language="es_ES">
+			<Text>Movilizar figuras tácticas de francotiradores.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Carne de cañón producida en masa, puedes usarla a voluntad o tenerla a mano para hacer las tareas del hogar. Tiene [ICON_Range][ICON_Ranged] ataque a distancia con alcance 3, [COLOR:ResMilitaryLabelCS] pero efectividad en combate cuerpo a cuerpo extremadamente baja[NEWLINE]Esta unidad no puede ganar experiencia[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_NAME" Language="es_ES">
+			<Text>Figura de tácticas de francotirador resistentes</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Si la carne de cañón de alta gama es más resistente a los golpes que la carne de cañón producida en masa, si se puede seleccionar para convertirla en decoración de oficina, definitivamente será la gloria de la vida de esta carne de cañón. Tiene [ICON_Range][ICON_Ranged] ataque remoto con alcance 3, [COLOR:ResMilitaryLabelCS] pero efectividad en combate cuerpo a cuerpo extremadamente baja</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_NAME" Language="es_ES">
+			<Text>Figura experimentada en tácticas de francotirador.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Cifras tácticas que se han mejorado únicamente mediante entrenamiento de simulación o mediante el uso de registros de combate. Tiene ataque de rango [ICON_Range][ICON_Ranged] con rango 3, [COLOR:ResMilitaryLabelCS] pero efectividad en combate cuerpo a cuerpo extremadamente baja[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_NAME" Language="es_ES">
+			<Text>Figura de tácticas avanzadas de francotirador.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Un muñeco táctico que ha recibido entrenamiento de simulación y tiene experiencia de combate real. Tiene ataque de rango [ICON_Range][ICON_Ranged] con rango 4, [COLOR:ResMilitaryLabelCS] pero efectividad en combate cuerpo a cuerpo extremadamente baja[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica de francotirador de élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Una muñeca táctica bien equipada y con experiencia en combate. Tiene ataque de rango [ICON_Range][ICON_Ranged] con rango 4, [COLOR:ResMilitaryLabelCS] pero efectividad en combate cuerpo a cuerpo extremadamente baja[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_NAME" Language="es_ES">
+			<Text>Nueva figura táctica antitanque.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Los muñecos tácticos que no hayan superado ninguna prueba se pueden enviar al frente para que sirvan como carne de cañón y probar su desempeño real en combate. Tiene ataque de bombardeo [ICON_Range][ICON_Bombard] con alcance 2, +17[ICON_Strength] fuerza de combate contra caballería[NEWLINE][COLOR:ResMilitaryLabelCS]Esta unidad no puede ganar experiencia[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica antitanque experimentada</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Cifras tácticas que se han mejorado únicamente mediante entrenamiento de simulación o mediante el uso de registros de combate. Tiene ataque de bombardeo [ICON_Bombard] con alcance [ICON_Range] de 3, +17 [ICON_Strength] poder de combate contra caballería.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_NAME" Language="es_ES">
+			<Text>Gloriosa figura táctica antitanque</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Los Tactical Dolls que han hecho contribuciones destacadas en el campo de batalla serán recordados por todos los Tactical Dolls. Tiene ataque de bombardeo [ICON_Bombard] con alcance [ICON_Range] de 3, +17 [ICON_Strength] poder de combate contra caballería.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica antitanque avanzada</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Un muñeco táctico que ha recibido entrenamiento de simulación y tiene experiencia de combate real. Tiene ataque de bombardeo [ICON_Bombard] con alcance [ICON_Range] de 4, +17 [ICON_Strength] poder de combate contra caballería.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica antitanque Elite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Una muñeca táctica bien equipada y con experiencia en combate. Tiene ataque de bombardeo [ICON_Bombard] con alcance [ICON_Range] de 5, +17[ICON_Strength] poder de combate contra caballería, +67[ICON_Strength] poder de combate contra mechas del fin del mundo.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_NAME" Language="es_ES">
+			<Text>G41</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_DESCRIPTION" Language="es_ES">
+			<Text>Tiene un carácter alegre y lindo, con un atributo de perro muy pegajoso y leal, definitivamente completará las órdenes que acepte y le gusta que el comandante le acaricie la cabeza como recompensa.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_NAME" Language="es_ES">
+			<Text>TMP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_DESCRIPTION" Language="es_ES">
+			<Text>Una chica humanoide tímida y fácilmente tímida, es una persona delirante adicta a sus propios engaños. A menudo habla consigo misma sobre sus pensamientos sin cesar y se sentirá perdida una vez que descubra que otros la escuchan. Pero si se ve obligada a una &quot;situación desesperada&quot;... esté mentalmente preparado para que la situación sea incontrolable.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica Griffin</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>No se pueden construir todas las unidades terrestres y pioneros en la versión original, pero sí se pueden construir muñecos tácticos y rastreadores[NEWLINE]Todas las unidades militares tienen +50 % de experiencia de combate, pero[COLOR:ResMilitaryLabelCS]Algunos muñecos tácticos no pueden ganar experiencia[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ASSAULT_SQUAD_NAME" Language="es_ES">
+			<Text>Asedio cuerpo a cuerpo</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades no pueden usar ataques cuerpo a cuerpo [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_NAME" Language="es_ES">
+			<Text>tractor</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_DESCRIPTION" Language="es_ES">
+			<Text>Los pioneros especializados con ciertas habilidades defensivas no pueden usar ataques cuerpo a cuerpo. Esta unidad [COLOR:ResMilitaryLabelCS] es muy cara [ENDCOLOR], pero el precio nunca aumentará</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_NAME" Language="es_ES">
+			<Text>Almacén logístico</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza a {LOC_DISTRICT_COMMERCIAL_HUB_NAME}, inicialmente desbloqueado, el costo es gratuito y nunca aumentará de precio, +1 en la capacidad comercial de [ICON_TradeRoute] después de completarlo y se entrega una unidad comercial como regalo, con una bonificación adyacente única de moneda de oro [ICON_Gold]. Después de investigar {LOC_TECH_IRON_WORKING_NAME}, la bonificación de oro adyacente de [ICON_Gold] también proporciona productividad de [ICON_Production]. El área tiene 20 puntos de salud de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar un ataque remoto [ICON_Range] de 1 [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_NAME" Language="es_ES">
+			<Text>grua</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza a {LOC_DISTRICT_ENCAMPMENT_NAME}, inicialmente desbloqueado, se puede construir alrededor del centro de la ciudad, tiene una bonificación de productividad adyacente única de [ICON_Production] y, cuando se construye, liberará los rastreadores consumidos al crear la ciudad. El área sólo tiene 20 puntos de vida de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar [ICON_Range] rango de 3 ataques remotos [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_NAME" Language="es_ES">
+			<Text>fábrica de guerra</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza a {LOC_DISTRICT_INDUSTRIAL_ZONE_NAME} y requiere {LOC_TECH_APPRENTICESHIP_NAME}, que es más barato y tiene la bonificación adyacente de productividad única [ICON_Production]. El área tiene 20 puntos de salud de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar un ataque remoto [ICON_Range] de 1 [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Production] La producción proviene de cada área adyacente</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_GOLD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Gold] Monedas de oro de cada área adyacente</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_FOOD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Food] La comida proviene de cada área adyacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Production] La productividad proviene de las montañas</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Production] La productividad proviene del agua</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_GOLD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Gold] Las monedas de oro provienen de las montañas</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Gold] Las monedas de oro provienen del agua</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_FOOD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Food] La comida viene de las montañas</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Food] Los alimentos provienen del agua.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Production] La productividad proviene de recursos estratégicos</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Production] La productividad proviene de recursos de lujo</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_GOLD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Gold] Las monedas de oro provienen de recursos estratégicos</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_GOLD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Gold] las monedas de oro provienen de recursos de lujo</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_FOOD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Food] Los alimentos provienen de recursos estratégicos</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_FOOD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Food] Los alimentos provienen de recursos de lujo</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Production] La productividad proviene de maravillas creadas por el hombre</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Gold] Monedas de oro de maravillas hechas por el hombre</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="es_ES">
+			<Text>+{1_num} [ICON_Food] Alimentos provenientes de maravillas creadas por el hombre</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="es_ES">
+			<Text>acampar</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="es_ES">
+			<Text>La ciudad no estará cansada de la guerra, las unidades no necesitan estar guarnecidas para regenerar salud al comienzo de la ronda, celdas mejoradas +3 [ICON_Gold] monedas de oro, +1 [ICON_Faith] fe, más +2 [ICON_Production] producción después de investigar {LOC_TECH_ELECTRICITY_NAME}.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="es_ES">
+			<Text>Campamento de preparación avanzada de Griffin</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_ADJECTIVE" Language="es_ES">
+			<Text>Campamento del equipo de preparación para el combate de primera línea</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="es_ES">
+			<Text>Campamento del equipo de preparación para el combate de primera línea</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_NAME" Language="es_ES">
+			<Text>SR-3MP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_DESCRIPTION" Language="es_ES">
+			<Text>Es un humanoide vivaz, extravagante y arrogante al que le gusta señalar con el dedo a los demás. Permanece callado durante la batalla y utiliza gestos exagerados, por lo que puede ser considerado un luchador serio y responsable.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="es_ES">
+			<Text>centro de Información</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="es_ES">
+			<Text>Las ciudades no estarán cansadas de la guerra, las unidades no necesitan estar guarnecidas para regenerar salud al comienzo de la ronda, todas las ciudades que crees o captures tendrán un puesto comercial desde el principio y, después de crear una ruta comercial, un puesto comercial. aparecerá inmediatamente en la ciudad de destino. Espionaje territorial -4 niveles, +1 visibilidad diplomática cada uno para investigar {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} y {LOC_TECH_COMPOSITES_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="es_ES">
+			<Text>Centro de inteligencia Griffin Forward Readiness</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_ADJECTIVE" Language="es_ES">
+			<Text>del Centro de Inteligencia de la Fuerza de Preparación Avanzada</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="es_ES">
+			<Text>Equipo de preparación para el combate de primera línea-Centro de inteligencia</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="es_ES">
+			<Text>Griffin Forward Readiness Intelligence Center Ventaja de inteligencia Nivel 1</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_STIRRUPS_GIRLFRONTLINE" Language="es_ES">
+			<Text>Utilice el Líder humanoide táctico de la División del Centro de Inteligencia Griffin para obtener el Nivel 1 de Ventaja de Inteligencia cumpliendo las condiciones requeridas.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="es_ES">
+			<Text>Un periodista de su centro de inteligencia informó sobre una noticia.</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="es_ES">
+			<Text>Griffin Forward Readiness Force Centro de inteligencia Ventaja de inteligencia Nivel 2</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_BALLISTICS_GIRLFRONTLINE" Language="es_ES">
+			<Text>Utilice el Líder Humanoide Táctico de la División del Centro de Inteligencia Griffin y logre las condiciones requeridas para obtener el Nivel 2 de Ventaja de Inteligencia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="es_ES">
+			<Text>Un informante de su centro de inteligencia ha oído</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="es_ES">
+			<Text>Griffin Forward Readiness Intelligence Center ventaja de inteligencia nivel 3</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMBUSTION_GIRLFRONTLINE" Language="es_ES">
+			<Text>Utilice el Líder Humanoide Táctico de la División del Centro de Inteligencia Griffin y logre las condiciones requeridas para obtener el Nivel 3 de Ventaja de Inteligencia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="es_ES">
+			<Text>Los diplomáticos de su centro de inteligencia se reportan a</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="es_ES">
+			<Text>Griffin Forward Readiness Intelligence Center Ventaja de inteligencia Nivel 4</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMPOSITES_GIRLFRONTLINE" Language="es_ES">
+			<Text>Utilice el Líder Humanoide Táctico de la División del Centro de Inteligencia Griffin y logre las condiciones requeridas para obtener el Nivel 4 de Ventaja de Inteligencia</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="es_ES">
+			<Text>Un telegrama secreto de su centro de inteligencia</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_NAME" Language="es_ES">
+			<Text>Centro Tecnológico</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza {LOC_DISTRICT_CAMPUS_NAME}, inicialmente desbloqueado, sin costo y sin aumentar de precio, con un bono adyacente de comida [ICON_Food] único. [ICON_Food] Las bonificaciones adyacentes de comida también proporcionan investigación [ICON_Science] y [ICON_Gold] monedas de oro. El área tiene 20 puntos de salud de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar un ataque remoto [ICON_Range] de 1 [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_NAME" Language="es_ES">
+			<Text>planta de energía</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza a {LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}, requiere {LOC_TECH_APPRENTICESHIP_NAME}, es más barato de construir, proporciona +1 [ICON_Power] a todas las ciudades al completarse y tiene una bonificación adyacente de productividad única de [ICON_Production]. El bono de productividad [ICON_Production] también proporciona monedas de oro [ICON_Gold]. El área tiene 20 puntos de salud de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar un ataque remoto [ICON_Range] de 1 [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_NAME" Language="es_ES">
+			<Text>Kar98k</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_DESCRIPTION" Language="es_ES">
+			<Text>Sus palabras y hechos son elegantes y firmes, llenos de temperamento aristocrático y tiene un fuerte sentido del honor. Su tono autoritario puede ser un poco condescendiente, pero todos admiran profundamente su rica y hábil experiencia y su fuerza y ​​​​todos confían en ella.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_NAME" Language="es_ES">
+			<Text>SVD</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_DESCRIPTION" Language="es_ES">
+			<Text>Un humanoide frívolo, arrogante y que se respeta a sí mismo al que le gusta señalar con el dedo lo que le rodea. De hecho, es un buen anciano al que le encanta preocuparse. Cada afirmación sobre el combate parece arrogante, pero con su insondable fuerza y ​​experiencia, eventualmente se convertirá en algo posible.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_NAME" Language="es_ES">
+			<Text>HS.50</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_DESCRIPTION" Language="es_ES">
+			<Text>Dado que los archivos del proyecto original han sido borrados, HS.50 sabe muy poco sobre su pasado, por lo que espera integrarse en Griffin lo antes posible. Pero parece que debido a la influencia del pasado, solo sabe utilizar habilidades tácticas simples para afrontar la vida diaria, lo que le dificulta llevarse bien con sus compañeros. Actualmente, HS.50 está trabajando para ser más fácil de usar.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_NAME" Language="es_ES">
+			<Text>M870</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_DESCRIPTION" Language="es_ES">
+			<Text>Afirmó haber trabajado como oficial de patrulla de carreteras en la autopista 666, pero su antiguo departamento era una organización desconocida y no registrada, y su certificado policial no podía verificar su legalidad. A pesar de sus malos modales y hábitos ridículos, Griffin finalmente fue transferido a la gerencia debido a su extraordinaria fuerza. Si quieres reducir sus problemas habituales contigo, lo mejor es preparar un refresco para desviar su interés por ti.</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SNIPER_SQUAD_NAME" Language="es_ES">
+			<Text>De forma remota</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SUPPORT_SQUAD_NAME" Language="es_ES">
+			<Text>Apoyo cuerpo a cuerpo</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_TACTICS_SQUAD_NAME" Language="es_ES">
+			<Text>Pelea confusa</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ARMORED_SQUAD_NAME" Language="es_ES">
+			<Text>caballería pesada</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_RECON_SQUAD_NAME" Language="es_ES">
+			<Text>Investigar</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ANTITANK_SQUAD_NAME" Language="es_ES">
+			<Text>asedio anticaballería</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_NAME" Language="es_ES">
+			<Text>Muñeca táctica de apoyo a la movilización</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Carne de cañón producida en masa, puedes usarla a voluntad o tenerla a mano para hacer las tareas del hogar. -25 de poder de combate de [ICON_Strength] al atacar, y el saqueo solo consume 1 de poder de movimiento de [ICON_Movement]. Proporciona +15 [ICON_Range] de poder de combate de largo alcance a los T-Dolls convencionales adyacentes y aumenta el efecto curativo de las unidades adyacentes. Si alguna unidad comienza a moverse desde esta unidad, obtendrá +1 [ICON_Movement] de poder de movimiento [NEWLINE] [COLOR:ResMilitaryLabelCS]. La unidad no puede ganar experiencia[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica de soporte de tenacidad</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Si la carne de cañón de alta gama es más resistente a los golpes que la carne de cañón producida en masa, si se puede seleccionar para convertirla en decoración de oficina, definitivamente será la gloria de la vida de esta carne de cañón. -25 de poder de combate de [ICON_Strength] al atacar, y el saqueo solo consume 1 de poder de movimiento de [ICON_Movement]. Proporciona +15 [ICON_Range] de poder de combate de largo alcance a los T-Dolls convencionales adyacentes y aumenta el efecto curativo de las unidades adyacentes. Si alguna unidad comienza a moverse junto a esta unidad, obtendrá +1 [ICON_Movement] de poder de movimiento.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica de apoyo veterano</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Cifras tácticas que se han mejorado únicamente mediante entrenamiento de simulación o mediante el uso de registros de combate. -25 de poder de combate de [ICON_Strength] al atacar, y el saqueo solo consume 1 de poder de movimiento de [ICON_Movement]. Proporciona +15 [ICON_Range] de poder de combate de largo alcance a los T-Dolls convencionales adyacentes y aumenta el efecto curativo de las unidades adyacentes. Si alguna unidad comienza a moverse junto a esta unidad, obtendrá +1 [ICON_Movement] de poder de movimiento.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica de soporte avanzado</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Un muñeco táctico que ha recibido entrenamiento de simulación y tiene experiencia de combate real. -25 de poder de combate de [ICON_Strength] al atacar, y el saqueo solo consume 1 de poder de movimiento de [ICON_Movement]. Proporciona +15 [ICON_Range] de poder de combate de largo alcance a los T-Dolls convencionales adyacentes y aumenta el efecto curativo de las unidades adyacentes. Si alguna unidad comienza a moverse junto a esta unidad, obtendrá +1 [ICON_Movement] de poder de movimiento.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_NAME" Language="es_ES">
+			<Text>Figura táctica de apoyo de élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_DESCRIPTION" Language="es_ES">
+			<Text>Una muñeca táctica bien equipada y con experiencia en combate. -25 de poder de combate de [ICON_Strength] al atacar, y el saqueo solo consume 1 de poder de movimiento de [ICON_Movement]. Proporciona +15 [ICON_Range] de poder de combate de largo alcance a los T-Dolls convencionales adyacentes y aumenta el efecto curativo de las unidades adyacentes. Si alguna unidad comienza a moverse junto a esta unidad, obtendrá +1 [ICON_Movement] de poder de movimiento.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ADD_15_COMBAT_FOR_TACTICS_SQUAD_ALLOW_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>+15[ICON_Range] poder de combate de largo alcance para T-Dolls tácticos regulares dentro de 1 cuadrado</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEBUFF_FOR_SUPPORT_SQUAD_GIRLFONTLINE_GIRLFRONTLINE_DESCRIPTION" Language="es_ES">
+			<Text>-25[ICON_Strength] fuerza de combate al atacar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME" Language="es_ES">
+			<Text>alfombrilla de ratón</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="es_ES">
+			<Text>+15[ICON_Strength] poder de combate al atacar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME" Language="es_ES">
+			<Text>bala con núcleo de acero</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="es_ES">
+			<Text>+7[ICON_Strength] fuerza de combate al atacar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME" Language="es_ES">
+			<Text>Bala con núcleo de tungsteno</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="es_ES">
+			<Text>+10[ICON_Strength] poder de combate al atacar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_NAME" Language="es_ES">
+			<Text>Cámara térmica</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_DESCRIPTION" Language="es_ES">
+			<Text>Rango de visión +3 y atraviesa todos los terrenos, capaz de detectar unidades invisibles dentro del campo de visión.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_NAME" Language="es_ES">
+			<Text>guerra movil</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+15[ICON_Strength] poder de combate bajo cualquier circunstancia</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_NAME" Language="es_ES">
+			<Text>Despliegue rápido</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_DESCRIPTION" Language="es_ES">
+			<Text>+2[ICON_Movement] poder de movimiento, todas las unidades de formación obtienen [ICON_Movement] poder de movimiento de las unidades que las acompañan</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NO_TERRAIN_MOVEMENT_DEBUFF_NAME" Language="es_ES">
+			<Text>marcha rápida</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_NAME" Language="es_ES">
+			<Text>FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_DESCRIPTION" Language="es_ES">
+			<Text>Un humanoide lindo, inteligente y algo narcisista. La fuente de su confianza no es su fuerza, sino su visión única. Es buena actuando con coquetería y contando chistes entre semana, pero en la batalla puede mantener la calma y no se desanimará incluso si sufre una derrota.</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_ADD_15_COMBAT_FOR_TACTICS_SQUAD" Language="es_ES">
+			<Text>+{1_Amount}[ICON_Strength] fuerza de combate a distancia del apoyo adyacente T-Dolls tácticos</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_DEBUFF_FOR_SUPPORT_SQUAD" Language="es_ES">
+			<Text>{1_Amount}[ICON_Strength] fuerza de combate, derivada del apoyo a las características tácticas humanoides</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="es_ES">
+			<Text>+{1_Amount}[ICON_Strength] fuerza de combate de {LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_7_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="es_ES">
+			<Text>+{1_Amount}[ICON_Strength] fuerza de combate de {LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="es_ES">
+			<Text>+{1_Amount}[ICON_Strength] fuerza de combate de {LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_GIRLFRONTLINE" Language="es_ES">
+			<Text>+{1_Amount}[ICON_Strength] fuerza de combate de {LOC_PROMOTION_ADD_15_COMBAT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_NAME" Language="es_ES">
+			<Text>arsenal</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza a {LOC_DISTRICT_CAMPUS_NAME}, requiere {LOC_TECH_WRITING_NAME}, es más barato, tiene una bonificación adyacente única de moneda de oro [ICON_Gold], la bonificación adyacente de moneda de oro [ICON_Gold] también proporciona investigación científica [ICON_Science], después de investigar {LOC_TECH_IRON_WORKING_NAME}, [ICON_Gold] el oro La bonificación adyacente también proporciona productividad [ICON_Production]. El área tiene 20 puntos de salud de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar un ataque remoto [ICON_Range] de 1 [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_NAME" Language="es_ES">
+			<Text>centro de comando de enlace ascendente espacial</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza a {LOC_DISTRICT_SPACEPORT_NAME}, inicialmente desbloqueado, el costo es gratuito y nunca aumentará de precio, se puede construir independientemente de la demanda de la población (no es un área especializada), tiene una bonificación adyacente de productividad única de [ICON_Production], tiene cinco espacios de experto [ICON_Citizen], +100 % de bonificación de productividad adyacente de [ICON_Production] después de investigar {LOC_CIVIC_GUILDS_NAME}. El área tiene 20 puntos de salud de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar un ataque remoto [ICON_Range] de 1 [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="es_ES">
+			<Text>campamento delantero</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="es_ES">
+			<Text>La ciudad no estará cansada de la guerra y no es necesario que las unidades estén estacionadas para recuperar salud al comienzo de la ronda. Todas las celdas de la ciudad recibirán +4 [ICON_Gold] monedas de oro. Después de investigar {LOC_TECH_ECONOMICS_NAME}, +2 Se agregarán [ICON_Gold] monedas de oro.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="es_ES">
+			<Text>Campamento avanzado del Griffin Frontier Corps</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_ADJECTIVE" Language="es_ES">
+			<Text>Campamento avanzado del Cuerpo de Vigilancia Fronteriza</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="es_ES">
+			<Text>Misión de Investigación Fronteriza-Campamento de Primera Línea</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_FN57_GIRLFRONTLINE" Language="es_ES">
+			<Text>La ventaja de inteligencia inicial del FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_FN57_GIRLFRONTLINE" Language="es_ES">
+			<Text>Usando el líder humanoide táctico Griffin FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_FN57_GIRLFRONTLINE" Language="es_ES">
+			<Text>Un mensaje codificado de tu espía</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_NAME" Language="es_ES">
+			<Text>construir un humanoide</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_SHORTNAME" Language="es_ES">
+			<Text>construir un humanoide</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_DESCRIPTION" Language="es_ES">
+			<Text>Proyecto especial del almacén del equipo de preparación para el combate de primera línea de Griffin, inicialmente desbloqueado, una vez completado el proyecto, la ciudad +2 ciudadanos [ICON_Citizen]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_NAME" Language="es_ES">
+			<Text>Producción en masa de figuras humanas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_SHORTNAME" Language="es_ES">
+			<Text>Producción en masa de figuras humanas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_DESCRIPTION" Language="es_ES">
+			<Text>El proyecto especial Griffin's Frontline Warfare Warehouse requiere {LOC_TECH_METAL_CASTING_NAME}. Una vez completado el proyecto, la ciudad tendrá +6 ciudadanos [ICON_Citizen].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_NAME" Language="es_ES">
+			<Text>Muñecas de refuerzo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_SHORTNAME" Language="es_ES">
+			<Text>Muñecas de refuerzo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_DESCRIPTION" Language="es_ES">
+			<Text>El proyecto especial Griffin's Frontline Warfare Warehouse requiere {LOC_TECH_ADVANCED_FLIGHT_NAME}. Una vez completado el proyecto, la ciudad tendrá +10 ciudadanos [ICON_Citizen].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_NAME" Language="es_ES">
+			<Text>Reciclar humanoides</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_SHORTNAME" Language="es_ES">
+			<Text>Reciclar humanoides</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_DESCRIPTION" Language="es_ES">
+			<Text>El proyecto especial Griffin's Frontline Warfare Warehouse requiere {LOC_TECH_WRITING_NAME}. Una vez completado el proyecto, la ciudad tendrá -2 ciudadanos [ICON_Citizen].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_NAME" Language="es_ES">
+			<Text>Desmantelando humanoides en lotes</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_SHORTNAME" Language="es_ES">
+			<Text>Desmantelando humanoides en lotes</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_DESCRIPTION" Language="es_ES">
+			<Text>El proyecto especial Griffin Front Line Warehouse requiere {LOC_TECH_METAL_CASTING_NAME}. Una vez completado el proyecto, la ciudad tendrá -6 ciudadanos [ICON_Citizen]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_NAME" Language="es_ES">
+			<Text>gran purga</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_SHORTNAME" Language="es_ES">
+			<Text>gran purga</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_DESCRIPTION" Language="es_ES">
+			<Text>El proyecto especial Griffin's Frontline Warfare Warehouse requiere {LOC_CIVIC_IDEOLOGY_NAME}. Una vez completado el proyecto, la ciudad tendrá -10 ciudadanos [ICON_Citizen].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_NAME" Language="es_ES">
+			<Text>ART556</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_DESCRIPTION" Language="es_ES">
+			<Text>Una chica humanoide excéntrica y hedonista que se muerde la lengua cada vez que dice su nombre. Solo le importan las cosas interesantes. Por esta razón, puede desafiar muchas cosas que rompen la línea de fondo de los principios. Actualmente está trabajando duro para hacer que MT9 sea interesante. .</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="es_ES">
+			<Text>Depósito del equipo Griffin Forward Readiness</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_ADJECTIVE" Language="es_ES">
+			<Text>del depósito de preparación para el combate de primera línea</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="es_ES">
+			<Text>Almacén del equipo de preparación para el combate de primera línea</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="es_ES">
+			<Text>almacén</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="es_ES">
+			<Text>Las ciudades no estarán cansadas de la guerra, no es necesario guarnecer las unidades para regenerar la salud al comienzo de la ronda, las ciudades no pueden obtener ciudadanos [ICON_Citizen], solo pueden obtener [ICON_Citizen] completando proyectos. La producción inicial de alimentos [ICON_Food] de todos los terrenos celulares y accidentes geográficos de la ciudad proporciona la misma cantidad de producción de productividad [ICON_Production], lo que permite construir minas y canteras en terrenos planos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_NAME" Language="es_ES">
+			<Text>logística</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza a {LOC_DISTRICT_ENTERTAINMENT_COMPLEX_NAME}, inicialmente desbloqueado, el costo es gratuito y nunca aumentará de precio, tiene un bono adyacente de moneda de oro [ICON_Gold] único, el bono adyacente de moneda de oro [ICON_Gold] también proporciona productividad [ICON_Production], después de investigar {LOC_CIVIC_MERCANTILISM_NAME}, + Bonificación adyacente de moneda de oro del 100% [ICON_Gold]. El área tiene 20 puntos de salud de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar un ataque remoto [ICON_Range] de 1 [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_NAME" Language="es_ES">
+			<Text>refinería de mineral</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_DESCRIPTION" Language="es_ES">
+			<Text>Reemplaza a {LOC_DISTRICT_COMMERCIAL_HUB_NAME}, requiere {LOC_TECH_CURRENCY_NAME}, es más barato de construir, tiene una bonificación única de oro adyacente de [ICON_Gold], investiga {LOC_TECH_INDUSTRIALIZATION_NAME}, la bonificación de oro adyacente de [ICON_Gold] también proporciona productividad de [ICON_Production]. El área tiene 20 puntos de salud de guarnición [ICON_Fortified]. Después de que la ciudad tenga murallas, puede realizar un ataque remoto [ICON_Range] de 1 [ICON_Ranged]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_NAME" Language="es_ES">
+			<Text>Ajustar la línea de producción-bomba subsónica.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_SHORTNAME" Language="es_ES">
+			<Text>Producción de bombas subsónicas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_DESCRIPTION" Language="es_ES">
+			<Text>El centro de fabricación producirá proyectiles subsónicos para distribuirlos al frente.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_NAME" Language="es_ES">
+			<Text>Ajustar la línea de producción - bomba con punta de cuchara</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_SHORTNAME" Language="es_ES">
+			<Text>Producir balas con punta de cuchara</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_DESCRIPTION" Language="es_ES">
+			<Text>El centro de fabricación producirá munición con punta de cuchara y la distribuirá al frente.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_NAME" Language="es_ES">
+			<Text>Ajustar la línea de producción de munición estándar.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_SHORTNAME" Language="es_ES">
+			<Text>Producir bombas estándar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_DESCRIPTION" Language="es_ES">
+			<Text>El centro de fabricación producirá bombas estándar y las distribuirá al frente.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_NAME" Language="es_ES">
+			<Text>Centro de fabricación de balas con punta de cuchara</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_DESCRIPTION" Language="es_ES">
+			<Text>Construcción de características C-MS, una vez completado, el humanoide táctico de asalto tendrá +7 [ICON_Strength] de poder de combate y el área de confrontación tendrá +10 [ICON_Strength] de poder de combate. Todas las unidades tienen +3 [ICON_Strength] de fuerza de combate. No sufrirán desventajas de fuerza de combate después de ser heridas. [NEWLINE] Si no es propiedad del creador de la ciudad, la ciudad tendrá -40 de lealtad por ronda.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_NAME" Language="es_ES">
+			<Text>Centro de fabricación de bombas estándar</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_DESCRIPTION" Language="es_ES">
+			<Text>El edificio característico de C-MS, una vez completado, el Assault Tactical Doll tiene un ataque adicional de 1 por ronda y puede moverse después de atacar. +2 velocidad de movimiento de [ICON_Movement] para todas las unidades, ignora las penalizaciones de movimiento de [ICON_Movement] por terreno y cruce de ríos[NEWLINE] -70 % para ciudades que no pertenecen al creador de la ciudad[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science ][icon_Culture]Todos los resultados</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_NAME" Language="es_ES">
+			<Text>Centro de fabricación de bombas subsónicas</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_DESCRIPTION" Language="es_ES">
+			<Text>Construcción de características C-MS, después de completarlo, +5 [ICON_Strength] de poder de combate cuando se ataca con tácticas de defensa humanoide y +10 [ICON_Strength] de poder de combate cuando se defienden unidades amigas dentro de una celda circundante, +5 [ICON_Strength] de poder de combate cuando se defienden todas las unidades, mejorar No finalizará su turno (esta habilidad continúa siendo efectiva para las unidades ya producidas. Si se pierde un edificio, las unidades recién producidas ya no tendrán esta habilidad hasta que el edificio se adquiera nuevamente) [NEWLINE] Si no es propiedad del creador de la ciudad, la ciudad -20[ ICON_Amenities]Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_7_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} [ICON_Strength] Fuerza de combate, del Centro de fabricación de balas Spoon Point</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_COMBAT_VS_DIS_DESCRIPTION" Language="es_ES">
+			<Text>Área de confrontación + {1_Amount} [ICON_Strength] poder de combate, del centro de fabricación de balas con punta de cuchara</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_3_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} [ICON_Strength] Fuerza de combate, del Centro de fabricación de balas Spoon Point</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_5_DEF_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} [ICON_Strength] fuerza de combate, del centro de fabricación de bombas subsónicas</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_DEF_FOR_ADJ_UNIT_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} [ICON_Strength] Fuerza de combate del Centro de fabricación de bombas subsónicas y T-Dolls de tácticas de asalto adyacentes</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_5_DEF_DESCRIPTION" Language="es_ES">
+			<Text>+{1_Amount} [ICON_Strength] fuerza de combate, del centro de fabricación de bombas subsónicas</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_NAME" Language="es_ES">
+			<Text>CMS</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_DESCRIPTION" Language="es_ES">
+			<Text>Probablemente cuando estés con ella te preguntes quién es el verdadero jefe. Ella siempre trata a las personas que la rodean como subordinadas y usa su estilo rebelde para satisfacer sus diversos deseos voluntariosos. Pero no te preocupes, ella nunca tratará mal a sus buenos subordinados, tal vez hazle un recado y cómprale algunos bocadillos, y ella te traerá cualquier victoria que desees.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_RANGED_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>{1_Amount} Poder de combate básico de largo alcance</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_BOMBARD_COMBAT_DESCRIPTION" Language="es_ES">
+			<Text>{1_Amount} Poder de combate de bombardeo básico</Text>
+		</Replace>
+		<Replace Tag="LOC_" Language="es_ES">
+			<Text>_CITY_NAME_9',,'Griffin Space Uplink Command Center' DESDE CivilizationsGirlfrontline DONDE CivilizationType LIKE</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

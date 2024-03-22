@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Mar 22 20:20:55 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>유닛 [ICON_Movement]은 지형 패널티 없이 이동합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_HEAVY_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>중기병에 대한 전투력 +17[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_32_COMBAT_VS_CLASS_LIGHT_CAVALRY_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>경기병에 대한 전투력 +17[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANTITANK_SQUAD_ADD_65_COMBAT_VS_CLASS_GIANT_DEATH_ROBOT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>종말 기계에 대한 전투력 +65[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>해당 유닛은 도시 방어에 완전한 피해를 입힙니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}: 유닛 +7[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -3[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: 유닛 +10[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -3[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}: 유닛 +16[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: 유닛 +9[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}: 유닛 +10[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: 유닛 +10[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: 유닛 +10[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_COMPOSITES_NAME}: 유닛 +25 [ICON_Strength] 전투력, [COLOR: ResMilitaryLabelCS] 라운드당 -1 [ICON_Gold] 금화(유지비) [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_CIVIC_NATIONALISM_NAME}의 +{1_Amount} 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_CIVIC_MOBILIZATION_NAME}의 +{1_Amount} 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_IRON_WORKING_NAME}의 +{1_Amount} 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_APPRENTICESHIP_NAME}의 +{1_Amount} 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_GUNPOWDER_NAME}의 +{1_Amount} 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}의 +{1_Amount} 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}의 +{1_Amount} 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_25_COMBAT_GIRLFRONTLINE_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TECH_COMPOSITES_NAME}의 +{1_Amount} 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_NAME" Language="ko_KR">
+			<Text>폭행 전술 인물 동원</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ASSAULT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>대량 생산되는 대포 사료로 마음대로 사용하거나 집안일을 위해 보관할 수 있습니다. 성벽에 전체 피해를 입힐 수 있습니다.[NEWLINE][COLOR:ResMilitaryLabelCS]이 유닛은 경험치를 얻을 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_NAME" Language="ko_KR">
+			<Text>숙련된 공격 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ASSAULT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>오로지 시뮬레이션 훈련이나 전투기록을 활용하여 개선된 전술적 수치입니다. 성벽에 완전한 손상을 입힐 수 있음</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_NAME" Language="ko_KR">
+			<Text>고급 공격 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ASSAULT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>시뮬레이션 훈련을 거쳐 실제 전투 경험이 있는 전술 인형입니다. 성벽에 완전한 피해를 입힐 수 있으며, [ICON_Range] 범위 1의 [ICON_Bombard] 장거리 폭격력을 가집니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_NAME" Language="ko_KR">
+			<Text>엘리트 어썰트 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ASSAULT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>장비를 잘 갖추고 전투 경험이 풍부한 전술가입니다. 성벽에 완전한 피해를 입힐 수 있으며, [ICON_Range] 범위 1의 [ICON_Bombard] 장거리 폭격력을 가집니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_NAME" Language="ko_KR">
+			<Text>기존 전술인형을 동원하다</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_TACTICS_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>대량 생산되는 대포 사료로 마음대로 사용하거나 집안일을 위해 보관할 수 있습니다. [ICON_Range][ICON_Ranged] 원거리 전투력이 2이지만 [ICON_Ranged] 원거리 전투력이 약합니다.[NEWLINE][COLOR:ResMilitaryLabelCS]이 유닛은 경험치를 얻지 못합니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_NAME" Language="ko_KR">
+			<Text>터프한 레귤러 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_TACTICS_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>고급 대포 사료가 대량 생산되는 대포 사료보다 구타에 더 강하고 사무실 장식으로 선택될 수 있다면 확실히 이러한 대포 사료의 삶의 영광이 될 것입니다. [ICON_Ranged] 원거리 전투력이 [ICON_Range] 범위 2이지만, [ICON_Ranged] 원거리 전투력이 약합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_NAME" Language="ko_KR">
+			<Text>드레드노트 기존 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_TACTICS_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>최전선에서 살아남은 대량생산 대포 사료는 참호에 쪼그리고 앉아 있을 때 놀라울 정도로 좋은 성능을 발휘할 것입니다. [ICON_Ranged] 원거리 전투력이 [ICON_Range] 범위 2이지만, [ICON_Ranged] 원거리 전투력이 약합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_NAME" Language="ko_KR">
+			<Text>노련한 기존 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_TACTICS_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>오로지 시뮬레이션 훈련이나 전투기록을 활용하여 개선된 전술적 수치입니다. [ICON_Ranged] 원거리 전투력이 [ICON_Range] 범위 2이지만, [ICON_Ranged] 원거리 전투력이 약합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_NAME" Language="ko_KR">
+			<Text>영광스러운 기존 전술 그림</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_TACTICS_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>전장에서 뛰어난 공헌을 한 전술인형은 모든 전술인형의 기억 속에 남을 것입니다. [ICON_Range][ICON_Ranged] 범위 2의 원격 전투력이 있지만 [ICON_Ranged] 장거리 전투력은 약합니다.[NEWLINE][COLOR:ResMilitaryLabelCS]{LOC_TECH_MILITARY_SCIENCE_NAME}을(를) 연구하면 유닛의 전투력을 향상시킬 수 있습니다[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_NAME" Language="ko_KR">
+			<Text>고급 일반 전술 인형</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_TACTICS_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>시뮬레이션 훈련을 거쳐 실제 전투 경험이 있는 전술 인형입니다. [ICON_Ranged] 원거리 전투력이 [ICON_Range] 범위 2이지만, [ICON_Ranged] 원거리 전투력이 약합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_NAME" Language="ko_KR">
+			<Text>엘리트 레귤러 택티컬 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_TACTICS_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>잘 갖추어져 있고 전투 경험이 풍부한 전술 인형입니다. [ICON_Ranged] 원거리 전투력이 [ICON_Range] 범위 2이지만, [ICON_Ranged] 원거리 전투력이 약합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_NAME" Language="ko_KR">
+			<Text>중무장한 새로운 전술적 인물을 만드세요.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ARMORED_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>테스트에 실패한 전술 인형은 실제 전투 성능을 테스트하기 위한 대포 사료 역할을 하기 위해 최전선으로 보내질 수 있습니다. 일반 인형보다 장갑이 두껍고 [ICON_Range][ICON_Ranged] 원거리 전투력이 1이지만 [ICON_Movement]가 느리게 움직입니다.[NEWLINE][COLOR:ResMilitaryLabelCS]이 유닛은 경험치를 얻지 못합니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_NAME" Language="ko_KR">
+			<Text>드레드노트 헤비 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FEARLESS_ARMORED_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>최전선에서 살아남은 대량생산 대포 사료는 참호에 쪼그리고 앉아 있을 때 놀라울 정도로 좋은 성능을 발휘할 것입니다. 일반 전술인형보다 장갑이 두껍고, [ICON_Range] 사거리 1 [ICON_Ranged] 원거리 전투력을 가지고 있으나 [ICON_Movement] 느린 움직임을 가지고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_NAME" Language="ko_KR">
+			<Text>노련한 헤비 듀티 전술적 인물</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ARMORED_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>오로지 시뮬레이션 훈련이나 전투기록을 활용하여 개선된 전술적 수치입니다. 일반 전술인형보다 장갑이 두껍고, [ICON_Range] 사거리 1 [ICON_Ranged] 원거리 전투력을 가지고 있으나 [ICON_Movement] 느린 움직임을 가지고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_NAME" Language="ko_KR">
+			<Text>고급 헤비 듀티 전술 인형</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ARMORED_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>시뮬레이션 훈련을 거쳐 실제 전투 경험이 있는 전술 인형입니다. 일반 전술인형보다 장갑이 두껍고, [ICON_Range] 사거리 1 [ICON_Ranged] 원거리 전투력을 가지고 있으나 [ICON_Movement] 느린 움직임을 가지고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_NAME" Language="ko_KR">
+			<Text>엘리트 헤비 택티컬 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ARMORED_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>잘 갖추어져 있고 전투 경험이 풍부한 전술 인형입니다. 일반 전술인형보다 장갑이 두껍고, [ICON_Range] 사거리 1 [ICON_Ranged] 원거리 전투력을 가지고 있으나 [ICON_Movement] 느린 움직임을 가지고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_NAME" Language="ko_KR">
+			<Text>동원정찰전술인형</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_RECON_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>대량 생산되는 대포 사료로 마음대로 사용하거나 집안일을 위해 보관할 수 있습니다. 추가 시야가 있으며 시야는 모든 지형을 통과할 수 있습니다. [ICON_Movement] 유닛은 지형 패널티 없이 이동합니다.[NEWLINE][COLOR:ResMilitaryLabelCS]이 유닛은 어떤 경험도 얻을 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_NAME" Language="ko_KR">
+			<Text>숙련된 정찰 전술 인물</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_RECON_DESCRIPTION" Language="ko_KR">
+			<Text>오로지 시뮬레이션 훈련이나 전투기록을 활용하여 개선된 전술적 수치입니다. 추가 시야가 있고 시야는 모든 지형을 통과할 수 있으며 유닛 [ICON_Movement]는 지형 페널티 없이 이동합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_NAME" Language="ko_KR">
+			<Text>고급 정찰 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_RECON_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>시뮬레이션 훈련을 거쳐 실제 전투 경험이 있는 전술 인형입니다. 추가 시야가 있고 시야는 모든 지형을 통과할 수 있으며 유닛 [ICON_Movement]는 지형 페널티 없이 이동합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_NAME" Language="ko_KR">
+			<Text>엘리트 정찰 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_RECON_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>잘 갖추어져 있고 전투 경험이 풍부한 전술 인형입니다. 추가 시야가 있고 시야는 모든 지형을 통과할 수 있으며 유닛 [ICON_Movement]는 지형 페널티 없이 이동합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_NAME" Language="ko_KR">
+			<Text>저격 전술 인물 동원</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SNIPER_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>대량 생산되는 대포 사료로 마음대로 사용하거나 집안일을 위해 보관할 수 있습니다. 범위 3, [COLOR:ResMilitaryLabelCS]의 [ICON_Range][ICON_Ranged] 범위 공격이 있지만 근접 전투 효율이 매우 낮습니다.[NEWLINE]이 유닛은 경험치를 얻을 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_NAME" Language="ko_KR">
+			<Text>터프 스나이퍼 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SNIPER_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>고급 대포 사료가 대량 생산되는 대포 사료보다 구타에 더 강하고 사무실 장식으로 선택될 수 있다면 확실히 이러한 대포 사료의 삶의 영광이 될 것입니다. 사거리 3, [COLOR:ResMilitaryLabelCS]의 [ICON_Range] 및 [ICON_Ranged] 범위 공격이 있지만 근접 전투 효율이 매우 낮습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_NAME" Language="ko_KR">
+			<Text>숙련된 저격 전술 인물</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SNIPER_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>오로지 시뮬레이션 훈련이나 전투기록을 활용하여 개선된 전술적 수치입니다. 범위 3, [COLOR:ResMilitaryLabelCS]의 [ICON_Range][ICON_Ranged] 범위 공격이 있지만 근접 전투 효율성이 매우 낮습니다[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_NAME" Language="ko_KR">
+			<Text>고급 저격 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SNIPER_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>시뮬레이션 훈련을 거쳐 실제 전투 경험이 있는 전술 인형입니다. 범위 4, [COLOR:ResMilitaryLabelCS]의 [ICON_Range][ICON_Ranged] 범위 공격이 있지만 근접 전투 효율성이 매우 낮습니다[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_NAME" Language="ko_KR">
+			<Text>엘리트 스나이퍼 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SNIPER_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>잘 갖추어져 있고 전투 경험이 풍부한 전술 인형입니다. 범위 4, [COLOR:ResMilitaryLabelCS]의 [ICON_Range][ICON_Ranged] 범위 공격이 있지만 근접 전투 효율성이 매우 낮습니다[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_NAME" Language="ko_KR">
+			<Text>새로운 대전차 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_ANTITANK_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>테스트에 실패한 전술 인형은 실제 전투 성능을 테스트하기 위한 대포 사료 역할을 하기 위해 최전선으로 보내질 수 있습니다. 범위 2의 [ICON_Range][ICON_Bombard] 포격 공격이 있고 기병에 대한 전투력이 +17[ICON_Strength]입니다.[NEWLINE][COLOR:ResMilitaryLabelCS]이 유닛은 경험치를 얻을 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_NAME" Language="ko_KR">
+			<Text>숙련된 대전차 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_ANTITANK_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>오로지 시뮬레이션 훈련이나 전투기록을 활용하여 개선된 전술적 수치입니다. [ICON_Range] 범위 3의 [ICON_Bombard] 폭격 공격, 기병에 대한 전투력 +17 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_NAME" Language="ko_KR">
+			<Text>영광스러운 대전차 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HONOR_ANTITANK_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>전장에서 뛰어난 공헌을 한 전술인형은 모든 전술인형의 기억 속에 남을 것입니다. [ICON_Range] 범위 3의 [ICON_Bombard] 폭격 공격, 기병에 대한 전투력 +17 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_NAME" Language="ko_KR">
+			<Text>고급 대전차 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_ANTITANK_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>시뮬레이션 훈련을 거쳐 실제 전투 경험이 있는 전술 인형입니다. [ICON_Range] 범위 4의 [ICON_Bombard] 폭격 공격, 기병에 대한 전투력 +17 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_NAME" Language="ko_KR">
+			<Text>엘리트 대전차 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_ANTITANK_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>잘 갖추어져 있고 전투 경험이 풍부한 전술 인형입니다. [ICON_Range] 범위 5의 [ICON_Bombard] 폭격 공격, 기병에 대한 전투력 +17[ICON_Strength], 종말 메카에 대한 전투력 +67[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_NAME" Language="ko_KR">
+			<Text>G41</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_G41_DESCRIPTION" Language="ko_KR">
+			<Text>활발하고 귀여운 성격을 갖고 있으며, 매우 집착하고 충직한 개 속성을 가지고 있으며, 명령을 받으면 반드시 완수하며, 보상으로 지휘관이 머리를 쓰다듬는 것을 좋아합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_NAME" Language="ko_KR">
+			<Text>TMP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_TMP_DESCRIPTION" Language="ko_KR">
+			<Text>소심하고 수줍음이 많은 인간형 소녀인 그녀는 자신의 망상에 중독된 망상형 인간으로, 자신의 생각을 끊임없이 혼잣말로 말하며, 자신이 다른 사람에게 엿듣고 있다는 사실을 알게 되면 당황하게 된다. 하지만 그녀가 &quot;절박한 상황&quot;에 처하게 된다면... 통제할 수 없는 상황에 대비해 정신적으로 준비하시기 바랍니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_NAME" Language="ko_KR">
+			<Text>그리핀 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GIRLFRONTLINE_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>원본 버전에서는 모든 지상 유닛과 개척자를 생산할 수 없지만 전술 인형과 크롤러를 건설할 수 있습니다.[NEWLINE]모든 군사 유닛은 +50% 전투 경험치를 가지지만[COLOR:ResMilitaryLabelCS]일부 전술 인형은 경험치를 얻을 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ASSAULT_SQUAD_NAME" Language="ko_KR">
+			<Text>근접 포위 공격</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>유닛은 [ICON_Strength] 근접 공격을 사용할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_NAME" Language="ko_KR">
+			<Text>무한 궤도</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MCV_DESCRIPTION" Language="ko_KR">
+			<Text>특정 방어 능력을 갖춘 전문 개척자는 근접 공격을 사용할 수 없습니다. 이 장치 [COLOR:ResMilitaryLabelCS]는 매우 비싸지만 [ENDCOLOR] 가격은 결코 오르지 않습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_NAME" Language="ko_KR">
+			<Text>물류창고</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_FRONTLINECAMP_DESCRIPTION" Language="ko_KR">
+			<Text>처음에 잠금 해제된 {LOC_DISTRICT_COMMERCIAL_HUB_NAME}을 대체합니다. 비용은 무료이며 가격이 인상되지 않습니다. 완료 후 [ICON_TradeRoute] 거래 용량이 +1되고 고유한 [ICON_Gold] 금화 인접 보너스와 함께 판매자 유닛이 선물로 제공됩니다. {LOC_TECH_IRON_WORKING_NAME} 연구 후 [ICON_Gold] 골드 인접 보너스는 [ICON_Production] 생산성도 제공합니다. 이 지역에는 20개의 [ICON_Fortified] 주둔지 체력이 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 1개의 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_NAME" Language="ko_KR">
+			<Text>두루미</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_FRONTLINECAMP_DESCRIPTION" Language="ko_KR">
+			<Text>처음에 잠금 해제된 {LOC_DISTRICT_ENCAMPMENT_NAME} 대체품은 도심 주변에 건설할 수 있으며 고유한 [ICON_Production] 생산성 인접 보너스를 가지며, 건설되면 도시를 생성할 때 소비한 크롤러를 해제합니다. 이 지역에는 [ICON_Fortified]개의 주둔지 체력이 20개만 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 3회 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_NAME" Language="ko_KR">
+			<Text>전쟁 공장</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_FRONTLINECAMP_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}을 대체하고 {LOC_TECH_APPRENTICESHIP_NAME}이 필요합니다. 이는 더 저렴하고 고유한 [ICON_Production] 생산성 인접 보너스를 제공합니다. 이 지역에는 20개의 [ICON_Fortified] 주둔지 체력이 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 1개의 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Production] 각 인접 지역에서 생산이 이루어집니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ko_KR">
+			<Text>각 인접 지역의 금화 {1_num}개 [ICON_Gold]개</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_DISTRICT_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Food] 음식은 인접한 각 지역에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Production] 생산성은 산에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Production] 생산성은 물에서 비롯됩니다</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Gold] 금화는 산에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Gold] 금화는 물에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_MOUNTAIN_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Food] 음식은 산에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_WATER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Food] 음식은 물에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Production] 생산성은 전략적 자원에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Production] 생산성은 고급 자원에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Gold] 금화는 전략적 자원에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Gold] 금화는 사치 자원에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_STRATEGIC_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Food] 음식은 전략적 자원에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_RESOURCECLASS_LUXURY_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Food] 음식은 고급 자원에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_PRODUCTION_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Production] 생산성은 인간이 만든 경이로움에서 비롯됩니다</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_GOLD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Gold] 인공 불가사의의 금화</Text>
+		</Replace>
+		<Replace Tag="LOC_ADJACENCY_PER_WONDER_ADD_3_YIELD_FOOD_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_num} [ICON_Food] 인간이 만든 경이로운 음식</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="ko_KR">
+			<Text>캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="ko_KR">
+			<Text>도시는 전쟁에 지치지 않으며, 라운드 시작 시 체력을 재생하기 위해 유닛을 주둔시킬 필요가 없으며, 세포가 +3 [ICON_Gold] 금화, +1 [ICON_Faith] 신앙, +2 [ICON_Production] 생산으로 향상됩니다. {LOC_TECH_ELECTRICITY_NAME}을 조사한 후.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_DESCRIPTION" Language="ko_KR">
+			<Text>그리핀 포워드 준비 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_ADJECTIVE" Language="ko_KR">
+			<Text>최전선 전투 준비 팀 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_NAME" Language="ko_KR">
+			<Text>최전선 전투 준비 팀 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_NAME" Language="ko_KR">
+			<Text>SR-3MP</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SR3MP_DESCRIPTION" Language="ko_KR">
+			<Text>그는 활기차고 화려하며 오만한 인간형으로 남에게 손가락질하기를 좋아하며 전투 중에는 조용하고 대신 과장된 몸짓을 사용하므로 진지하고 책임감 있는 전사라고 볼 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="ko_KR">
+			<Text>정보 센터</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="ko_KR">
+			<Text>도시는 전쟁에 지치지 않으며, 라운드 시작 시 체력을 재생하기 위해 유닛을 주둔시킬 필요가 없습니다. 생성하거나 점령한 모든 도시는 처음부터 교역소를 갖게 되며, 교역로를 만든 후에는 교역소가 됩니다. 목적지 도시에 즉시 나타납니다. 영토 내 스파이 활동 -4 레벨, {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} 및 {LOC_TECH_COMPOSITES_NAME} 연구에 대해 각각 외교 가시성 +1</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_DESCRIPTION" Language="ko_KR">
+			<Text>그리핀 포워드 준비 정보 센터</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_ADJECTIVE" Language="ko_KR">
+			<Text>전방 준비군 정보 센터의</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STRATEGYCENTER_NAME" Language="ko_KR">
+			<Text>최전선 전투 준비 팀-정보 센터</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 포워드 준비 정보 센터 정보 우위 레벨 1</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_STIRRUPS_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 정보센터 사단의 전술 휴머노이드 리더를 이용하여 필요 조건을 충족하면 지능 우위 1레벨을 획득할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_STIRRUPS_GIRLFRONTLINE" Language="ko_KR">
+			<Text>정보 센터의 기자가 뉴스 기사를 보도했습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 포워드 준비 정보 센터 정보 우위 레벨 2</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_BALLISTICS_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 정보센터 사단 전술휴머노이드 리더를 활용해 지능 우위 2레벨 획득 조건을 달성하세요.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_BALLISTICS_GIRLFRONTLINE" Language="ko_KR">
+			<Text>귀국 정보센터의 제보자가 들은 바 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 포워드 준비 정보 센터 정보 우위 레벨 3</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMBUSTION_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 정보센터 사단의 전술 휴머노이드 리더를 활용해 필요 조건을 충족하면 지능 우위 3레벨을 획득할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMBUSTION_GIRLFRONTLINE" Language="ko_KR">
+			<Text>정보 센터의 외교관이 다음에게 보고합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 포워드 준비 정보 센터 정보 우위 레벨 4</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_TECH_COMPOSITES_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 정보센터 사단 전술휴머노이드 리더를 활용해 지능 우위 4레벨 획득 조건을 달성하세요.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_TECH_COMPOSITES_GIRLFRONTLINE" Language="ko_KR">
+			<Text>정보 센터에서 보낸 비밀 전보</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_NAME" Language="ko_KR">
+			<Text>기술센터</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_STRATEGYCENTER_DESCRIPTION" Language="ko_KR">
+			<Text>처음에 잠금 해제되고 비용이 무료이며 가격이 인상되지 않는 {LOC_DISTRICT_CAMPUS_NAME}을 고유한 [ICON_Food] 음식 인접 보너스로 대체합니다. [ICON_Food] 음식 인접 보너스는 [ICON_Science] 연구와 [ICON_Gold] 금화도 제공합니다. 이 지역에는 20개의 [ICON_Fortified] 주둔지 체력이 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 1개의 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_NAME" Language="ko_KR">
+			<Text>발전소</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_STRATEGYCENTER_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}을 대체하고 {LOC_TECH_APPRENTICESHIP_NAME}이 필요합니다. 이는 건설 비용이 더 저렴하고 완료 시 모든 도시에 +1 [ICON_Power]를 제공하며 고유한 [ICON_Production] 생산성 인접 보너스를 제공합니다. [ICON_Production] 생산성 보너스는 [ICON_Gold] 금화도 제공합니다. 이 지역에는 20개의 [ICON_Fortified] 주둔지 체력이 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 1개의 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_NAME" Language="ko_KR">
+			<Text>Kar98k</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_KAR98K_DESCRIPTION" Language="ko_KR">
+			<Text>말과 행동은 우아하고 꾸준하며 귀족적 기질이 넘치고 명예심이 강하며, 위엄 있는 말투는 다소 거만할 수 있지만 풍부하고 숙련된 경험과 힘은 모두에게 깊은 존경과 신뢰를 받고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_NAME" Language="ko_KR">
+			<Text>SVD</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_SVD_DESCRIPTION" Language="ko_KR">
+			<Text>경솔하고 오만하며 자존심이 강한 인간형으로 주변에 손가락질하기를 좋아하지만, 사실은 걱정하기를 좋아하는 착한 노인이다. 전투에 대한 말 하나하나가 거만해 보이지만 그녀의 헤아릴 수 없는 힘과 경험으로 인해 그것은 결국 가능한 일이 될 것이다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_NAME" Language="ko_KR">
+			<Text>HS.50</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_HS50_DESCRIPTION" Language="ko_KR">
+			<Text>원본 프로젝트의 파일이 삭제되었기 때문에 HS.50은 자신의 과거에 대해 거의 알지 못하므로 가능한 한 빨리 그리핀에 통합되기를 희망합니다. 하지만 과거의 영향으로 일상생활에 필요한 간단한 전술만을 사용할 줄 아는 것 같아 동료들과 사이좋게 지내는 데 어려움을 겪는다. 현재 HS.50은 더욱 사용자 친화적이 되도록 노력하고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_NAME" Language="ko_KR">
+			<Text>M870</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_M870_DESCRIPTION" Language="ko_KR">
+			<Text>그는 666번 고속도로에서 고속도로 순찰대원으로 근무했다고 주장했지만, 그의 전 부서는 등록되지 않은 알 수 없는 조직이었고 그의 경찰 신원조회서는 적법성을 확인할 수 없었다. 나쁜 매너와 조롱하는 습관에도 불구하고 그리핀은 그의 남다른 힘 때문에 결국 경영진으로 옮겨졌습니다. 그녀가 평소 당신과 함께 하는 문제를 줄이고 싶다면 그녀의 관심을 당신에게 돌리기 위해 탄산음료를 준비하는 것이 가장 좋습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SNIPER_SQUAD_NAME" Language="ko_KR">
+			<Text>떨어져서</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_SUPPORT_SQUAD_NAME" Language="ko_KR">
+			<Text>근접 지원</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_TACTICS_SQUAD_NAME" Language="ko_KR">
+			<Text>난투</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ARMORED_SQUAD_NAME" Language="ko_KR">
+			<Text>중기병</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_RECON_SQUAD_NAME" Language="ko_KR">
+			<Text>조사하다</Text>
+		</Replace>
+		<Replace Tag="LOC_ROMOTION_CLASS_ANTITANK_SQUAD_NAME" Language="ko_KR">
+			<Text>포위 공격 대기병</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_NAME" Language="ko_KR">
+			<Text>동원지원 전술인형</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NEW_SUPPORT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>대량 생산되는 대포 사료로 마음대로 사용하거나 집안일을 위해 보관할 수 있습니다. 공격 시 [ICON_Strength] 전투력 -25, 약탈 시 이동력 1 [ICON_Movement]만 소모됩니다. 인접한 일반 인형에게 +15 [ICON_Range] 장거리 전투력을 제공하고 인접한 유닛의 치유 효과를 증가시킵니다. 이 유닛에서 유닛이 움직이기 시작하면 이동력이 +1 [ICON_Movement] 증가합니다.[NEWLINE] [COLOR:ResMilitaryLabelCS]. 유닛은 어떤 경험도 얻을 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_NAME" Language="ko_KR">
+			<Text>끈기 지원 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TOUGH_SUPPORT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>고급 대포 사료가 대량 생산되는 대포 사료보다 구타에 더 강하고 사무실 장식으로 선택될 수 있다면 확실히 이러한 대포 사료의 삶의 영광이 될 것입니다. 공격 시 [ICON_Strength] 전투력 -25, 약탈 시 이동력 1 [ICON_Movement]만 소모됩니다. 인접한 재래식 인형에게 [ICON_Range] 원거리 전투력을 +15 제공하고, 인접한 유닛의 치유 효과를 증가시킵니다. 이 유닛 옆에 유닛이 움직이기 시작하면 이동력이 +1 [ICON_Movement] 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_NAME" Language="ko_KR">
+			<Text>베테랑 지원 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPERIENCED_SUPPORT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>오로지 시뮬레이션 훈련이나 전투기록을 활용하여 개선된 전술적 수치입니다. 공격 시 [ICON_Strength] 전투력 -25, 약탈 시 이동력 1 [ICON_Movement]만 소모됩니다. 인접한 재래식 인형에게 [ICON_Range] 원거리 전투력을 +15 제공하고, 인접한 유닛의 치유 효과를 증가시킵니다. 이 유닛 옆에 유닛이 움직이기 시작하면 이동력이 +1 [ICON_Movement] 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_NAME" Language="ko_KR">
+			<Text>고급 지원 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ADVANCED_SUPPORT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>시뮬레이션 훈련을 거쳐 실제 전투 경험이 있는 전술 인형입니다. 공격 시 [ICON_Strength] 전투력 -25, 약탈 시 이동력 1 [ICON_Movement]만 소모됩니다. 인접한 재래식 인형에게 [ICON_Range] 원거리 전투력을 +15 제공하고, 인접한 유닛의 치유 효과를 증가시킵니다. 이 유닛 옆에 유닛이 움직이기 시작하면 이동력이 +1 [ICON_Movement] 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_NAME" Language="ko_KR">
+			<Text>엘리트 지원 전술 피규어</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ELITE_SUPPORT_SQUAD_DESCRIPTION" Language="ko_KR">
+			<Text>잘 갖추어져 있고 전투 경험이 풍부한 전술 인형입니다. 공격 시 [ICON_Strength] 전투력 -25, 약탈 시 이동력 1 [ICON_Movement]만 소모됩니다. 인접한 재래식 인형에게 [ICON_Range] 원거리 전투력을 +15 제공하고, 인접한 유닛의 치유 효과를 증가시킵니다. 이 유닛 옆에 유닛이 움직이기 시작하면 이동력이 +1 [ICON_Movement] 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ADD_15_COMBAT_FOR_TACTICS_SQUAD_ALLOW_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>1칸 내 일반 전술 인형의 원거리 전투력 +15[ICON_Range]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEBUFF_FOR_SUPPORT_SQUAD_GIRLFONTLINE_GIRLFRONTLINE_DESCRIPTION" Language="ko_KR">
+			<Text>공격 시 전투력 -25[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME" Language="ko_KR">
+			<Text>숨어있는</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ko_KR">
+			<Text>공격 시 전투력 +15[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME" Language="ko_KR">
+			<Text>강철핵탄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ko_KR">
+			<Text>공격 시 전투력 +7[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME" Language="ko_KR">
+			<Text>텅스텐 코어 총알</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_DESCRIPTION" Language="ko_KR">
+			<Text>공격 시 전투력 +10[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_NAME" Language="ko_KR">
+			<Text>열화상카메라</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_SIGHT_ADD_REVEAL_STEALTH_DESCRIPTION" Language="ko_KR">
+			<Text>시야 범위가 +3이고 모든 지형을 통과하며 시야 내 보이지 않는 유닛을 감지할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_NAME" Language="ko_KR">
+			<Text>이동전</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_15_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>어떠한 상황에서도 전투력 +15[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_NAME" Language="ko_KR">
+			<Text>신속한 배포</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ADD_2_MOVEMENT_DESCRIPTION" Language="ko_KR">
+			<Text>+2[ICON_Movement] 이동력, 모든 대형 유닛은 동행하는 유닛의 이동력 [ICON_Movement]을 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NO_TERRAIN_MOVEMENT_DEBUFF_NAME" Language="ko_KR">
+			<Text>급속한 행진</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_NAME" Language="ko_KR">
+			<Text>FN-57</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_FN57_DESCRIPTION" Language="ko_KR">
+			<Text>귀엽고 똑똑하며 다소 자기애적인 휴머노이드 그의 자신감의 원천은 그의 힘이 아니라 그의 독특한 비전입니다. 평일에는 요염한 행동과 농담을 잘하지만, 전투에서는 침착함을 유지하고 패배하더라도 낙담하지 않는다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_ADD_15_COMBAT_FOR_TACTICS_SQUAD" Language="ko_KR">
+			<Text>+{1_Amount}[ICON_Strength] 인접 지원 전술 인형의 원거리 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_GIRLFRONTLINE_DEBUFF_FOR_SUPPORT_SQUAD" Language="ko_KR">
+			<Text>{1_Amount}[ICON_Strength] 전술적 인간형 특성 지원에서 파생된 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ko_KR">
+			<Text>{LOC_PROMOTION_ADD_15_COMBAT_WHEN_ATTACK_NAME}의 +{1_Amount}[ICON_Strength] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_7_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ko_KR">
+			<Text>{LOC_PROMOTION_ADD_7_COMBAT_WHEN_ATTACK_NAME}의 +{1_Amount}[ICON_Strength] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_WHEN_ATTACK_GIRLFRONTLINE" Language="ko_KR">
+			<Text>+{1_Amount}[ICON_Strength] {LOC_PROMOTION_ADD_10_COMBAT_WHEN_ATTACK_NAME}의 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_15_COMBAT_GIRLFRONTLINE" Language="ko_KR">
+			<Text>{LOC_PROMOTION_ADD_15_COMBAT_NAME}의 +{1_Amount}[ICON_Strength] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_NAME" Language="ko_KR">
+			<Text>병기고</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_DISTRICT_CAMPUS_NAME} 대체, {LOC_TECH_WRITING_NAME} 필요, 더 저렴하고 고유한 [ICON_Gold] 금화 인접 보너스가 있으며, [ICON_Gold] 금화 인접 보너스도 {LOC_TECH_IRON_WORKING_NAME} 연구 후 [ICON_Science] 과학 연구 제공, [ICON_Gold] 금 인접 보너스는 또한 [ICON_Production] 생산성을 제공합니다. 이 지역에는 20개의 [ICON_Fortified] 주둔지 체력이 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 1개의 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_NAME" Language="ko_KR">
+			<Text>우주 업링크 지휘 센터</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACEPORT_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_DISTRICT_SPACEPORT_NAME}을(를) 대체합니다. 처음에는 잠금 해제되어 있으며 비용은 무료이고 가격이 오르지 않습니다. 인구 수요에 관계없이 건설할 수 있습니다(특수 지역 아님). 고유한 [ICON_Production] 생산성 인접 보너스가 있으며 5개의 [ICON_Citizen] 전문가 슬롯이 있습니다. {LOC_CIVIC_GUILDS_NAME} 연구 후 [ICON_Production] 생산성 인접 보너스가 100% 증가합니다. 이 지역에는 20개의 [ICON_Fortified] 주둔지 체력이 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 1개의 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="ko_KR">
+			<Text>포워드 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ko_KR">
+			<Text>도시는 전쟁에 지치지 않으며 라운드 시작 시 체력을 회복하기 위해 유닛을 주둔할 필요가 없습니다. 도시의 모든 셀은 +4 [ICON_Gold] 금화를 받습니다. {LOC_TECH_ECONOMICS_NAME} 연구 후, +2 [ICON_Gold] 금화가 추가됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_DESCRIPTION" Language="ko_KR">
+			<Text>그리핀 프론티어 군단 포워드 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_ADJECTIVE" Language="ko_KR">
+			<Text>국경 조사단 전진 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_FRONTLINECAMP_TYPEONE_NAME" Language="ko_KR">
+			<Text>국경 수사 임무 - 최전선 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_FN57_GIRLFRONTLINE" Language="ko_KR">
+			<Text>FN-57의 초기 지능 이점</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_FN57_GIRLFRONTLINE" Language="ko_KR">
+			<Text>그리핀 전술 휴머노이드 리더 FN-57 사용</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_FN57_GIRLFRONTLINE" Language="ko_KR">
+			<Text>스파이가 보낸 암호화된 메시지</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_NAME" Language="ko_KR">
+			<Text>휴머노이드 만들기</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_SHORTNAME" Language="ko_KR">
+			<Text>휴머노이드 만들기</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PRODUCTION_DOLLS_DESCRIPTION" Language="ko_KR">
+			<Text>그리핀 최전선 전투준비팀 창고 특별 프로젝트, 최초 잠금 해제, 프로젝트 완료 후 도시 [ICON_Citizen] 시민 +2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_NAME" Language="ko_KR">
+			<Text>인물상 대량생산</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_SHORTNAME" Language="ko_KR">
+			<Text>인물상 대량생산</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MASS_PRODUCTION_DOLLS_DESCRIPTION" Language="ko_KR">
+			<Text>Griffin's Frontline Warfare Warehouse 특별 프로젝트에는 {LOC_TECH_METAL_CASTING_NAME}이(가) 필요합니다. 프로젝트가 완료되면 도시에 +6 [ICON_Citizen]명의 시민이 생깁니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_NAME" Language="ko_KR">
+			<Text>강화 인형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_SHORTNAME" Language="ko_KR">
+			<Text>강화 인형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REINFORCEMENTS_DESCRIPTION" Language="ko_KR">
+			<Text>Griffin의 Frontline Warfare Warehouse 특별 프로젝트에는 {LOC_TECH_ADVANCED_FLIGHT_NAME}이(가) 필요합니다. 프로젝트가 완료되면 도시의 시민은 +10명 [ICON_Citizen]이 됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_NAME" Language="ko_KR">
+			<Text>휴머노이드 재활용</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_SHORTNAME" Language="ko_KR">
+			<Text>휴머노이드 재활용</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RETIRE_DOLLS_DESCRIPTION" Language="ko_KR">
+			<Text>Griffin's Frontline Warfare Warehouse 특별 프로젝트에는 {LOC_TECH_WRITING_NAME}이(가) 필요합니다. 프로젝트가 완료되면 도시의 시민은 -2 [ICON_Citizen]이 됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_NAME" Language="ko_KR">
+			<Text>휴머노이드를 일괄 해체</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_SHORTNAME" Language="ko_KR">
+			<Text>휴머노이드를 일괄 해체</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BATCH_DISMANTLING_DOLLS_DESCRIPTION" Language="ko_KR">
+			<Text>Griffin Front Line Warehouse 특별 프로젝트에는 {LOC_TECH_METAL_CASTING_NAME}이 필요합니다. 프로젝트가 완료되면 도시의 시민은 -6 [ICON_Citizen]이 됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_NAME" Language="ko_KR">
+			<Text>큰 퍼지</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_SHORTNAME" Language="ko_KR">
+			<Text>큰 퍼지</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_GREAT_PURGE_DESCRIPTION" Language="ko_KR">
+			<Text>Griffin의 Frontline Warfare Warehouse 특별 프로젝트에는 {LOC_CIVIC_IDEOLOGY_NAME}이(가) 필요합니다. 프로젝트가 완료되면 도시의 시민은 -10 [ICON_Citizen]이 됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_NAME" Language="ko_KR">
+			<Text>ART556</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_ART556_DESCRIPTION" Language="ko_KR">
+			<Text>이름을 부를 때마다 혀를 깨무는 괴팍하고 쾌락주의적인 인간형 소녀. 재미있는 일에만 관심이 있기 때문에 원칙을 깨는 많은 일에 도전할 수 있다. 현재 MT9을 재미있게 만들기 위해 노력하고 있다. .</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="ko_KR">
+			<Text>그리핀 포워드 준비팀 창고</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_ADJECTIVE" Language="ko_KR">
+			<Text>최전선 전투 준비 창고의</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="ko_KR">
+			<Text>최전선 전투 준비 팀-창고</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_NAME" Language="ko_KR">
+			<Text>창고</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GIRLFRONTLINE_STOREHOUSE_DESCRIPTION" Language="ko_KR">
+			<Text>도시는 전쟁에 지치지 않고, 라운드 시작 시 체력을 재생하기 위해 유닛을 주둔시킬 필요가 없으며, 도시는 [ICON_Citizen] 시민을 얻을 수 없으며, 프로젝트를 완료해야만 [ICON_Citizen]을 얻을 수 있습니다. 도시 내 모든 셀 지형과 지형의 초기 [ICON_Food] 식량 생산량은 동일한 양의 [ICON_Production] 생산성 생산량을 제공하므로 광산과 채석장을 평지에 지을 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_NAME" Language="ko_KR">
+			<Text>군수</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_STOREHOUSE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_DISTRICT_ENTERTAINMENT_COMPLEX_NAME}을(를) 대체합니다. 처음에는 잠금 해제되었으며 비용은 무료이며 가격이 오르지 않습니다. 고유한 [ICON_Gold] 금화 인접 보너스가 있습니다. [ICON_Gold] 금화 인접 보너스도 {LOC_CIVIC_MERCANTILISM_NAME} 연구 후 [ICON_Production] 생산성을 제공합니다. + 100% [ICON_Gold] 금화 인접 보너스. 이 지역에는 20개의 [ICON_Fortified] 주둔지 체력이 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 1개의 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_NAME" Language="ko_KR">
+			<Text>광석 정제소</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_STOREHOUSE_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_DISTRICT_COMMERCIAL_HUB_NAME}을(를) 대체하고, {LOC_TECH_CURRENCY_NAME}이 필요하며, 건설 비용이 저렴하고, 고유한 [ICON_Gold] 골드 인접 보너스가 있습니다. {LOC_TECH_INDUSTRIALIZATION_NAME}을 연구하고, [ICON_Gold] 골드 인접 보너스도 [ICON_Production] 생산성을 제공합니다. 이 지역에는 20개의 [ICON_Fortified] 주둔지 체력이 있습니다. 도시에 성벽이 있으면 [ICON_Range] 범위의 1개의 [ICON_Ranged] 원격 공격을 수행할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_NAME" Language="ko_KR">
+			<Text>생산라인 조정 - 아음속폭탄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_SHORTNAME" Language="ko_KR">
+			<Text>아음속 폭탄 생산</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_BULE_AMMO_DESCRIPTION" Language="ko_KR">
+			<Text>제조 센터는 최전선에 배포할 아음속 탄약을 생산합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_NAME" Language="ko_KR">
+			<Text>생산라인 조정 - 수저폭탄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_SHORTNAME" Language="ko_KR">
+			<Text>스푼팁탄 생산</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_RED_AMMO_DESCRIPTION" Language="ko_KR">
+			<Text>제조센터에서는 스푼팁 탄약을 생산해 최전선에 보급한다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_NAME" Language="ko_KR">
+			<Text>생산 라인 표준 탄약 조정</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_SHORTNAME" Language="ko_KR">
+			<Text>표준 폭탄 생산</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CHANGE_YELLOW_AMMO_DESCRIPTION" Language="ko_KR">
+			<Text>제조센터에서는 표준폭탄을 생산해 최전선에 배포한다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_NAME" Language="ko_KR">
+			<Text>수저탄 제조센터</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RED_AMMO_DESCRIPTION" Language="ko_KR">
+			<Text>C-MS 특성 건물은 완성 후 공격 전술 휴머노이드는 +7[ICON_Strength] 전투력을 가지며, 대결 지역은 +10[ICON_Strength] 전투력을 갖게 됩니다. 모든 유닛의 전투력은 +3 [ICON_Strength]입니다. 부상을 입은 후에도 전투력 디버프를 받지 않습니다. [NEWLINE] 도시 생성자의 소유가 아닌 경우 도시의 충성도는 라운드당 -40입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_NAME" Language="ko_KR">
+			<Text>표준폭탄 제조센터</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_AMMO_DESCRIPTION" Language="ko_KR">
+			<Text>C-MS의 특징적인 건물로, 완성 후 돌격전술인형은 라운드당 1회 추가 공격이 가능하며, 공격 후 이동할 수 있습니다. 모든 유닛의 [ICON_Movement] 이동 속도 +2, 지형 및 강 건너기에 대한 [ICON_Movement] 이동 페널티를 무시합니다.[NEWLINE] 도시 생성자가 소유하지 않은 도시의 경우 -70%[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science ][icon_Culture]모든 출력</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_NAME" Language="ko_KR">
+			<Text>아음속폭탄 제조센터</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BULE_AMMO_DESCRIPTION" Language="ko_KR">
+			<Text>C-MS 특성 건물 완료 후, 공격 전술 인간형 방어 시 전투력 +5[ICON_Strength], 주변 셀 내 아군 유닛 방어 시 전투력 +10[ICON_Strength], 모든 유닛 방어 시 전투력 +5[ICON_Strength], 업그레이드는 턴을 끝내지 않습니다. (이 능력은 이미 생산된 유닛에 대해 계속 유효합니다. 건물이 손실되면 새로 생산된 유닛은 건물을 다시 획득할 때까지 더 이상 이 능력을 갖지 않습니다.) [NEWLINE] 건물이 소유하지 않은 경우 도시 창조자, 도시 -20[ ICON_Amenities]편의시설</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_7_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_Amount} [ICON_Strength] 전투력, 스푼 포인트 탄환 제조 센터</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_COMBAT_VS_DIS_DESCRIPTION" Language="ko_KR">
+			<Text>대치지역 + {1_Amount} [ICON_Strength] 전투력, 수저탄 제조소에서</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_3_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_Amount} [ICON_Strength] 전투력, 스푼 포인트 탄환 제조 센터</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_5_DEF_DESCRIPTION" Language="ko_KR">
+			<Text>아음속 폭탄 제조 센터에서 +{1_Amount} [ICON_Strength] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_CLASS_ASSAULT_SQUAD_ADD_10_DEF_FOR_ADJ_UNIT_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_Amount} [ICON_Strength] 아음속 폭탄 제조 센터 및 인근 돌격 전술 인형의 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_CBJMS_ALL_UNITS_GET_5_DEF_DESCRIPTION" Language="ko_KR">
+			<Text>아음속 폭탄 제조 센터에서 +{1_Amount} [ICON_Strength] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_NAME" Language="ko_KR">
+			<Text>C-MS</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIAL_CBJMS_DESCRIPTION" Language="ko_KR">
+			<Text>아마도 그녀와 함께 있으면 누가 진짜 상사인지 궁금해질 것입니다. 그녀는 항상 주변 사람들을 부하처럼 대하고 자신의 다양한 의지를 충족시키기 위해 다루기 힘든 스타일을 사용합니다. 하지만 걱정하지 마세요, 그녀는 좋은 부하들을 결코 나쁘게 대하지 않을 것입니다.아마 그녀를 위해 심부름을 하고 간식을 사주면 그녀는 당신이 원하는 승리를 가져다 줄 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_RANGED_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{1_Amount} 기본 장거리 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BASIC_BOMBARD_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>{1_Amount} 기본 폭격 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_" Language="ko_KR">
+			<Text>_CITY_NAME_9',,'그리핀 스페이스 업링크 커맨드 센터' FROM CivilizationsGirlfrontline WHERE CivilizationType LIKE</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
