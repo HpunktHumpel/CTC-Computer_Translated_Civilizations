@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="739b7057-e9bc-4da4-a20f-312745731df2" version="1">
+  <Properties>
+    <Name>!Azur Lane Northern Parliament</Name>
+    <Description>添加了一个由苏维埃同盟领导的北方联合文明</Description>
+    <Created>1618047413</Created>
+    <Teaser>添加了一个由苏维埃同盟领导的北方联合文明</Teaser>
+    <Authors>无言Infinite</Authors>
+    <SpecialThanks>KuRUMiiii</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="ssss">
+      <RuleSetInUse>
+        <s>ssss</s>
+      </RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Civilization_VMF_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Civilization_VMF_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Civilization_VMF_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Civilization_VMF_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!Azur Lane Northern Parliament.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Civilization_VMF_Agenda.xml</File>
+      <File>Civilization_VMF_Buildings.xml</File>
+      <File>Civilization_VMF_Civilization.xml</File>
+      <File>Civilization_VMF_District.xml</File>
+      <File>Civilization_VMF_Improvement.xml</File>
+      <File>Civilization_VMF_Leader.xml</File>
+      <File>Civilization_VMF_Modifiers.sql</File>
+      <File>Civilization_VMF_UnitAbilities.xml</File>
+      <File>Civilization_VMF_Units.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Civilization_VMF_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Civilization_VMF_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Civilization_VMF_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!Azur Lane Northern Parliament.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>!Azur Lane Northern Parliament.dep</File>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Cultures.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Civilization_VMF_Agenda.xml</File>
+    <File>Civilization_VMF_Buildings.xml</File>
+    <File>Civilization_VMF_Civilization.xml</File>
+    <File>Civilization_VMF_Color.xml</File>
+    <File>Civilization_VMF_Config.xml</File>
+    <File>Civilization_VMF_District.xml</File>
+    <File>Civilization_VMF_GM_Modifier.sql</File>
+    <File>Civilization_VMF_Icon.xml</File>
+    <File>Civilization_VMF_Improvement.xml</File>
+    <File>Civilization_VMF_Leader.xml</File>
+    <File>Civilization_VMF_Modifiers.sql</File>
+    <File>Civilization_VMF_Text.xml</File>
+    <File>Civilization_VMF_UnitAbilities.xml</File>
+    <File>Civilization_VMF_Units.xml</File>
+    <File>English.txt</File>
+    <File>Platforms/MacOS/BLPs/Civilization_VMFdds.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Civilization_VMFdds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+  </Files>
+</Mod>
