@@ -117,7 +117,7 @@ VALUES
 ('LOC_PEDIA_LEADERS_PAGE_LEADER_SVD_GIRLFRONTLINE_QUOTE','zh_Hans_CN','指挥官，今天由我来协助你，感谢我吧'),
 ('LOC_TRAIT_LEADER_SVD_GIRLFRONTLINE_NAME','zh_Hans_CN','自视甚高'),
 ('LOC_TRAIT_LEADER_SVD_GIRLFRONTLINE_DESCRIPTION','zh_Hans_CN','创建首都后，立即获得战术人形SVD，狙击战术人形每回合+1[ICON_Turn]额外攻击，+1[ICON_Range]射程，防御时+10[ICON_Strength]战斗力，每次您训练一个狙击战术人形，都可以再获得一个狙击战术人形'),
-('LOC_LOADING_INFO_LEADER_SVD_GIRLFRONTLINE','zh_Hans_CN','狙击者SVD。就让我看看，是哪个幸运儿来迎接我吧——SVD');
+('LOC_LOADING_INFO_LEADER_SVD_GIRLFRONTLINE','zh_Hans_CN','狙击者SVD。就让我看看，是哪个幸运儿来迎接我吧——SVD'),
 ('LOC_AGENDA_SVD_NAME','zh_Hans_CN','崇尚武力'),
 ('LOC_AGENDA_SVD_DESCRIPTION','zh_Hans_CN','喜欢拥有强大常备军的文明'),
 ('LOC_ADD_10_DEF_SVD_DESCRIPTION','zh_Hans_CN','+{1_Amount} [ICON_Strength] 战斗力，来自SVD领袖特性');
