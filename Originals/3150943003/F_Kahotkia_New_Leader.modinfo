@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a556138c-c011-11ee-b44c-001a7dda7113" version="1">
+  <Properties>
+    <Name>MOD_KAHOTKIA_XP_NAME</Name>
+    <Description>MOD_KAHOTKIA_XP_DESC</Description>
+    <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
+    <Created>1706684199</Created>
+    <Teaser>MOD_KAHOTKIA_XP_TEAS</Teaser>
+    <Authors>飞花密染天地,Ophidy</Authors>
+    <SpecialThanks>河野姬若,Pen</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+	<Mod id="5c814d2d-a839-4629-8691-b36450c10238" title="Kahotkia" />
+  </Dependencies>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="Active_Mod_NEWGM">
+      <!--启用大哥伦比亚与玛雅DLC-->
+      <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+    </Criteria>
+    <Criteria id="Disable_Mod_NEWGM">
+      <!--禁用大哥伦比亚与玛雅DLC-->
+      <ModInUse inverse="1">9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+			<Properties>
+				<LoadOrder>10</LoadOrder>
+			</Properties>
+      <File>InGame/KHJY_new_leader_Config.xml</File>
+      <File>InGame/ModSupport.sql</File>
+      <File Priority="3">InGame/INDIA_FHB_NEW_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TEXT">
+			<Properties>
+				<LoadOrder>10</LoadOrder>
+			</Properties>
+      <File>text/KHJY_OH_text.xml</File>
+      <File>text/KM_text.xml</File>
+      <File Priority="3">text/NEW_BELIEFS_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON">
+      <File>InGame/NEW_LEADER_ICONS.xml</File>
+      <File>InGame/NEW_BELIEFS_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ART">
+      <File>MOD_KAHOTKIA_XP_NAME.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>InGame/color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="INGAME">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <File>InGame/KHJY_OH.sql</File>
+      <File>InGame/KHJY_OH.xml</File>
+      <File>InGame/KM.sql</File>
+      <File>InGame/KM.xml</File>
+      <File>InGame/Leader_Like.sql</File>
+      <File>InGame/ModSupport.sql</File>
+      <File>InGame/NEW_BELIEFS.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="INGAME">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Criteria>Active_Mod_NEWGM</Criteria>
+      <File>InGame/NEW_BELIEFS_UP.sql</File>
+      <File>InGame/NEW_BELIEFS_UP.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="UpText">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Criteria>Active_Mod_NEWGM</Criteria>
+      <File>text/NEW_BELIEFS_UP_TEXT.xml</File>
+    </UpdateText>
+    <UpdateText id="text">
+			<Properties>
+				<LoadOrder>10</LoadOrder>
+			</Properties>
+      <File>text/KHJY_OH_text.xml</File>
+      <File>text/KM_text.xml</File>
+      <File Priority="3">text/NEW_BELIEFS_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>InGame/NEW_LEADER_ICONS.xml</File>
+      <File>InGame/NEW_BELIEFS_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>MOD_KAHOTKIA_XP_NAME.dep</File>
+    </UpdateArt>
+    <UpdateColors id="colors">
+      <File>InGame/color.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>F_Kahotkia_New_Leader.Art.xml</File>
+    <File>InGame/color.xml</File>
+    <File>InGame/KHJY_new_leader_Config.xml</File>
+    <File>InGame/INDIA_FHB_NEW_Config.xml</File>
+    <File>InGame/KHJY_OH.sql</File>
+    <File>InGame/KHJY_OH.xml</File>
+    <File>InGame/KM.sql</File>
+    <File>InGame/KM.xml</File>
+    <File>InGame/Leader_Like.sql</File>
+    <File>InGame/NEW_LEADER_ICONS.xml</File>
+    <File>InGame/NEW_BELIEFS_ICON.xml</File>
+    <File>InGame/ModSupport.sql</File>
+    <File>InGame/NEW_BELIEFS.xml</File>
+    <File>InGame/NEW_BELIEFS_UP.sql</File>
+    <File>InGame/NEW_BELIEFS_UP.xml</File>
+    <File>GoldAge/HJSD_Config_1.sql</File>
+    <File>GoldAge/DELETE_Config_1.sql</File>
+    <File>MOD_KAHOTKIA_XP_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/KahotkiaTextureXP.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/KahotkiaTextureXP.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>text/KHJY_OH_text.xml</File>
+    <File>text/KM_text.xml</File>
+    <File>text/NEW_BELIEFS_TEXT.xml</File>
+    <File>text/NEW_BELIEFS_UP_TEXT.xml</File>
+    <File>XLPs/KahotkiaTextureXP.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+	<LocalizedText>
+		<Text id="MOD_KAHOTKIA_XP_NAME">
+			<en_US>Kahotkia-New Leader Expansion Pack</en_US>
+			<zh_Hans_CN>克惑奇雅文明-新领袖拓展</zh_Hans_CN>
+		</Text>
+		<Text id="MOD_KAHOTKIA_XP_DESC">
+			<en_US>Adding two new leaders to the Kahotkia civilization——Kanmier and Odhall.[NEWLINE][NEWLINE]The Indian Civilization ability adds an additional effect: +5 Loyalty for cities that follow the dominant religion.[NEWLINE]Global Merchant Road provides five times the base religious pressure.[NEWLINE]Add a new pantheon with three beliefs to the game.</en_US>
+			<zh_Hans_CN>为克惑奇雅文明新增两名新领袖——坎谬与欧霍。[NEWLINE][NEWLINE]印度文明能力达摩额外增加效果：信奉主流宗教的城市+5忠诚度。[NEWLINE]全局商路提供的基础宗教压力为原来的5倍。</zh_Hans_CN>
+		</Text>	
+	</LocalizedText>
+</Mod>
