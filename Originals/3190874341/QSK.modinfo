@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fd892e43-248c-4c2f-99c5-ef72eb8ac2a0" version="1">
+  <Properties>
+    <Name>MOD_QSK_NAME</Name>
+    <Description>MOD_QSK_DESC</Description>
+    <Created>1710166666</Created>
+    <Teaser>MOD_QSK_DESC</Teaser>
+    <Authors>飞花白, Ophidy</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>Database/QSK_Config.sql</File>
+      <File>Database/JKS_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="UpdateColors">
+      <File>Database/QSK_Color.xml</File>
+      <File>Database/JKS_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Icon/QSK_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Text/QSK_text.xml</File>
+      <File>Text/JKS_text.xml</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>MOD_QSK_NAME.dep</File>
+    </UpdateArt>
+    <ImportFiles id="FHB_ImportFiles">
+      <File>Texture/MOMENT_JKS_HR.dds</File>
+      <File>Texture/MOMENT_JKS_ZTY.dds</File>
+      <File>Texture/MOMENT_QSK_HYDP.dds</File>
+      <File>Texture/MOMENT_QSK_TT.dds</File>
+    </ImportFiles>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Database/QDKFY_Governors.xml</File>
+      <File>Database/QSK_Civilization.sql</File>
+      <File>Database/QSK_Civilization.xml</File>
+      <File>Database/QSK_Improvement.xml</File>
+      <File>Database/QSK_Leader_FY.xml</File>
+      <File>Database/QSK_UNIT.xml</File>
+      <File>Database/JKS_CIV_GPCLASS.sql</File>
+      <File>Database/JKS_Civilization.xml</File>
+      <File>Database/JKS_Districts.xml</File>
+      <File>Database/JKS_Leader_HY.xml</File>
+      <File>Database/JKS_UNIT.xml</File>
+      <File>Database/Religion.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="UpdateColors">
+      <File>Database/QSK_Color.xml</File>
+      <File>Database/JKS_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Icon/QSK_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Text/QSK_text.xml</File>
+      <File>Text/JKS_text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <File>Script/QSK_FY.lua</File>
+      <File>Script/JKS_CIV.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="UpdateArt">
+      <File>MOD_QSK_NAME.dep</File>
+    </UpdateArt>
+    <ImportFiles id="FHB_ImportFiles">
+      <File>Texture/MOMENT_JKS_HR.dds</File>
+      <File>Texture/MOMENT_JKS_ZTY.dds</File>
+      <File>Texture/MOMENT_QSK_HYDP.dds</File>
+      <File>Texture/MOMENT_QSK_TT.dds</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Database/JKS_Civilization.xml</File>
+    <File>Database/JKS_CIV_GPCLASS.sql</File>
+    <File>Database/JKS_Color.xml</File>
+    <File>Database/JKS_Config.sql</File>
+    <File>Database/JKS_Districts.xml</File>
+    <File>Database/JKS_Leader_HY.xml</File>
+    <File>Database/JKS_UNIT.xml</File>
+    <File>Database/QDKFY_Governors.xml</File>
+    <File>Database/QSK_Civilization.sql</File>
+    <File>Database/QSK_Civilization.xml</File>
+    <File>Database/QSK_Color.xml</File>
+    <File>Database/QSK_Config.sql</File>
+    <File>Database/QSK_Improvement.xml</File>
+    <File>Database/QSK_Leader_FY.xml</File>
+    <File>Database/QSK_UNIT.xml</File>
+    <File>Database/Religion.sql</File>
+    <File>Texture/MOMENT_JKS_HR.dds</File>
+    <File>Texture/MOMENT_JKS_ZTY.dds</File>
+    <File>Texture/MOMENT_QSK_HYDP.dds</File>
+    <File>Texture/MOMENT_QSK_TT.dds</File>
+    <File>Icon/QSK_ICON.xml</File>
+    <File>MOD_QSK_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_QSK</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_QSK</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_QSK</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_QSK</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Script/JKS_CIV.lua</File>
+    <File>Script/QSK_FY.lua</File>
+    <File>Text/JKS_text.xml</File>
+    <File>Text/QSK_text.xml</File>
+  </Files>
+	<LocalizedText>
+		<Text id="MOD_QSK_NAME">
+			<en_US>Kahotkia</en_US>
+			<zh_Hans_CN>绮司狂与惊瞰生文明</zh_Hans_CN>
+		</Text>
+		<Text id="MOD_QSK_DESC">
+			<en_US>A new civilization, two new leaders.[NEWLINE]Modified the city-state of Cahokia to be the city-state of Creek, and modified the suzerainty bonus to be: purchase of land parcels - 30% gold spent.And increased the number of uses of General "Budeca".[NEWLINE]Qin (Unifier)Additional added effect: +1 labor count for melee units and allows the construction of farmland.</en_US>
+			<zh_Hans_CN>为游戏加入两个新的文明、两个新领袖。</zh_Hans_CN>
+		</Text>
+	</LocalizedText>	
+</Mod>

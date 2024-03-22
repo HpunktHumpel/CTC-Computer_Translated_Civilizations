@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Replace Tag="LOC_CIVILIZATION_JKS_NAME" Language="zh_Hans_CN">
+			<Text>惊瞰生</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>惊瞰生军团</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_DESCRIPTION_JFD_CIVILIZATION" Language="zh_Hans_CN">
+			<Text>惊瞰生军团</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>惊瞰生</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_JKS_BINOMIAL_NAME" Language="zh_Hans_CN">
+			<Text>惊瞰生的</Text>
+		</Replace>
+		<!--相关数据-->
+		<Replace Tag="LOC_CIVINFO_QSK_LOCATION" Language="zh_Hans_CN">
+			<Text>今美国中南地区，东至田纳西、西至德克萨斯以北部分地区，北至阿肯色。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_SIZE" Language="zh_Hans_CN">
+			<Text>占地面积602,305平方公里</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_POPULATION" Language="zh_Hans_CN">
+			<Text>估约507万人</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_CAPITAL" Language="zh_Hans_CN">
+			<Text>吉卡谢</Text>
+		</Replace>
+		<!-- Civilization Trait -->
+		<Replace Tag="LOC_TRAIT_JKS_NAME" Language="zh_Hans_CN">
+			<Text>湍流尸河</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				城市没有厌战情绪，与河流相邻的单位+4 [ICON_Strength] 战斗力
+				[NEWLINE]每个军事单位为首都提供+1 [ICON_Gold] 金币，解锁【军事训练】/【雇佣兵】/【民族主义】/【动员】后，分别额外提供 +1 [ICON_Gold] 金币
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_JKS_ADJACENT_TO_RIVER_UNITS_STRENGTH" Language="zh_Hans_CN">
+			<Text>
+				+{1_num} [ICON_Strength] 战斗力 湍流尸河
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JKS_KR_NAME" Language="zh_Hans_CN">
+			<Text>狂人</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JKS_KR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				惊瞰生特色单位：替代【勇士】，拥有更高的 [ICON_Movement] 移动力，建造成本稍低。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_JKS_ZTY_NAME" Language="zh_Hans_CN">
+			<Text>卒屯营</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_JKS_ZTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				惊瞰生特色区域：替代【军营】，由【法典】解锁。恒定27成本，不提供伟人点数，不属于专业化区域。
+				[NEWLINE]+4 [ICON_Housing] 住房。
+				[NEWLINE]本城生产的每个军事单位为首都提供+1 [ICON_Gold] 金币。
+			</Text>
+		</Replace>
+
+
+		<!--LEADER-->
+		<Replace Tag="LOC_LEADER_JKS_HY_NAME" Language="zh_Hans_CN">
+			<Text>瑰瑞·埃芮夙</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MILITARY_TRAINING_QUOTE_3" Language="zh_Hans_CN">
+			<Text>总因是个孩子而不受处罚，那就永远是个孩子。[NEWLINE]——瑰瑞·埃芮夙</Text>
+		</Replace>
+		<!--Agenda-->
+		<Replace Tag="LOC_AGENDA_JKS_HY_NAME" Language="zh_Hans_CN">
+			<Text>丧心病狂</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_JKS_HY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>倾向于清除蛮寨、掠夺，以及宣布突袭战争。[NEWLINE]喜欢清除蛮寨、处于战争状态的文明？讨厌不清除蛮寨、处于和平的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HY_REASON_ANY" Language="zh_Hans_CN">
+			<Text>(你正在和平发展)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_JKS_HY_POSITIVE" Language="zh_Hans_CN">
+			<Text>未知原因……？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HY_REASON_ANY" Language="zh_Hans_CN">
+			<Text>(你身处战争)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_JKS_HY_NEGATIVE" Language="zh_Hans_CN">
+			<Text>未知原因……？</Text>
+		</Replace>
+		<!--DOM-->
+		<Replace Tag="LOC_LEADER_JKS_HY_LOADING_INFO" Language="zh_Hans_CN">
+			<Text>求求您，瑰瑞·埃芮夙大人，不要把我抓去为您终生服务。我们都知道您是多么地知人善用，为了让他们能在正确的位置上正确地工作，您能鞭策麾下打手一路追缉，任何胆敢阻拦的人反而会激发他们前进的动力——有什么比受到您的惩罚更为可怕？</Text>
+		</Replace>
+		<!--Traits-->
+		<Replace Tag="LOC_TRAIT_JKS_HY_NAME" Language="zh_Hans_CN">
+			<Text>捕精猎英</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_HY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				所有军事单位：在战斗胜利后，立即与同编队的单位一起恢复 [ICON_Movement] 移动力，并允许再度攻击；战斗胜利提供 4 点全类型 [ICON_GreatPerson] 伟人点数。
+				[NEWLINE]每使用一次 [ICON_GreatPerson] 伟人，拥有的城市+1 对应类型产出。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_HY_NO_REDUCTION_DAMAGE_NAME" Language="zh_Hans_CN">
+			<Text>在战斗胜利后，立即与同编队的单位一起恢复 [ICON_Movement] 移动力，并允许再度攻击；战斗胜利提供4点全类型伟人点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_HY_NO_REDUCTION_DAMAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在战斗胜利后，立即与同编队的单位一起恢复 [ICON_Movement] 移动力，并允许再度攻击；战斗胜利提供4点全类型伟人点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_UNIT_YIELD_NAME" Language="zh_Hans_CN">
+			<Text>来自文明能力：为首都提供 [ICON_Gold] 金币。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_UNIT_YIELD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自文明能力：为首都提供 [ICON_Gold] 金币。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKSZTY_UNIT_YIELD_NAME" Language="zh_Hans_CN">
+			<Text>来自特色区域：为首都提供 [ICON_Gold] 金币。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKSZTY_UNIT_YIELD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自特色区域：为首都提供 [ICON_Gold] 金币。
+			</Text>
+		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_TITLE" Language="zh_Hans_CN">
+			<Text>恐尊，酋长</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_SUBTITLE" Language="zh_Hans_CN">
+			<Text>恐怖孽尊</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_JKS_HY_QUOTE" Language="zh_Hans_CN">
+			<Text>饭要一口一口吃，所以我每顿饭只吃一口——我每天起码吃一千零一顿。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>以恐怖统治和知人善用闻名的惊瞰生领袖，天生异色瞳。</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				惊瞰生人对于 [ICON_Gold] 战争无比狂热，甚至愿意交税参军，河流也能为他们带来力量。
+				[NEWLINE][NEWLINE]在瑰瑞·埃芮夙的领导下，惊瞰生的军事单位可以通过战斗胜利得到额外的行动次数，十分灵活。同时他们还能从战斗胜利与掠夺获取伟人点数，并使用伟人来为城市提供产出。
+				[NEWLINE]你最好彻底歼灭作为Ai时的惊瞰生，他们简直就是一群披着文明外皮的野蛮人！
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>
+				惊瞰生的军事单位仅仅是存在都可以为首都提供 [ICON_Gold] 金币，为此且不会在掠夺中浪费太多时间。
+				[NEWLINE]在瑰瑞·埃芮夙的统治下，每一场获胜的战斗与掠夺，都能提供伟人点数以让伟人为其效力，即便伟人已经隐退，瑰瑞也能让他们为惊瞰生的城市提供对应类型的产出加成。
+				[NEWLINE]在战场上，一旦被瑰瑞抓住突破口：歼灭了你的一支部队，那么其战斗胜利的部队就能再度发起进攻，这对于决战战场非常致命！
+				[NEWLINE]你不能放任这样的野蛮帝国疯长，不惜一切代价歼灭这个文明会是你的首要任务。
+			</Text>
+		</Replace>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>让本大爷看看是谁来了？哦~这不是那边的那个谁吗？毕竟大爷我是没听说过你的名姓，不过今天你有这个机会自我介绍一下。</Text>
+		</Replace>
+		<!--AI invitation to visit nearby City-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>本大爷期待你的来访，为你指路又何妨？再见。</Text>
+		</Replace>
+		<!--AI accepts Human invitation-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>听上去是个很富裕的地方啊……哈哈，走，让大爷我看看！</Text>
+		</Replace>
+		<!--AI invitation to exchange Capital Information-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>把你的首都位置告诉我，至于交换首都位置信息这点小规矩，本大爷还是很乐意遵循的。</Text>
+		</Replace>
+		<!--GREETINGS-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>继续说。</Text>
+		</Replace>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>哼，这个人情……大爷我收下了。</Text>
+		</Replace>
+		<!--AI Rejects-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>呵，大爷我也给你一点回礼——用你代表团做的头骨酒盅——如何？</Text>
+		</Replace>
+		<!--AI Requests -->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>不要激动，今天本大爷来这里只为了一件事，那就是给你们一点小小的甜头……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>不错，识大体。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>哇浪，这么厉害啊？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>趁着本大爷还愿意陪你们玩游戏，赶紧划块地供本大爷建立大使馆！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>不错，识大体。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>哇浪，这么厉害啊？</Text>
+		</Replace>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>呵呵，后果自负。</Text>
+		</Replace>
+		<!--AI rejects from human-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>哎呀，这地板可太地板了……嗯？你刚刚说了什么吗？</Text>
+		</Replace>
+		<!--AI requests from human-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>大爷我是不介意直接就进入你的领土，不过玩游戏就是得遵守点规矩，不然就不有趣了，不是吗？</Text>
+		</Replace>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>且先这么着吧。</Text>
+		</Replace>
+		<!--AI Rejects from human -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>嘻嘻嘻……你好大的胆子！</Text>
+		</Replace>
+		<!--AI Requests friendship from human-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>大爷我这次来，是为了一件事：跟我干，不然有你好看。</Text>
+		</Replace>
+		<!--Human accepts AI requests, AI responds-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>不错，很识相。</Text>
+		</Replace>
+		<!--Human rejects AI requests, AI responds-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>哇浪，这么厉害啊？</Text>
+		</Replace>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>大爷我这次来，是为了一件事：跟我干，不然有你好看。</Text>
+		</Replace>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>休养生息才能创造财富，是吧？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JKS_HY_REASON_AGENDA_ATTACKS_BARBARIANS" Language="zh_Hans_CN">
+			<Text>好好好，太好了！你把你的财富都保住了，是吧？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HY_NOT_WARMONGER_SUBJECT" Language="zh_Hans_CN">
+			<Text>(你正在和平发展)</Text>
+		</Replace>
+		<!--AI Warnings-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>唉呀，战争，正义的我可不会坐视不管喔~</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HY_IS_WARMONGER_SUBJECT" Language="zh_Hans_CN">
+			<Text>(你身处战争)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_JKS_HY_REASON_AGENDA_IGNORES_BARBARIANS" Language="zh_Hans_CN">
+			<Text>嘬嘬嘬，让外人蹂躏、财富被抢得一丁点儿都不剩下，真是可悲。</Text>
+		</Replace>
+		<!--AI warns player for border troops-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>大爷我这个人一向很敏感，常常都能察觉到人们心底各式各样的情绪——
+			[NEWLINE]喜悦、愤怒、哀伤、愉悦……乃至于杀意，我都能察觉。
+			[NEWLINE]——所以别想在我瑰瑞·埃芮夙的面前耍滑头，懂吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>呵呵。</Text>
+		</Replace>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>许了。</Text>
+		</Replace>
+		<!--AI Rejects Deal-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>？</Text>
+		</Replace>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>哎呀，这根掷矛可太掷矛了……嗯？你刚刚说了什么吗？</Text>
+		</Replace>
+		<!--From AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>本大爷让你说话了吗？[NEWLINE](谴责你)</Text>
+		</Replace>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>呵呵……敢动手哇你？好小子，我欣赏你。</Text>
+		</Replace>
+		<!--AI Declares War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>今天本大爷来这里只为了两件事：一件是要你们缴税，一件是要从你们这进货——我要一批新的头骨酒盅！</Text>
+		</Replace>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>不错，识大体，所以这次本大爷放过你们。</Text>
+		</Replace>
+		<!--AI refuses human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>嘬嘬嘬……</Text>
+		</Replace>
+		<!--AI requests from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>今天本大爷大发慈悲……赏赐你们我的猎物。</Text>
+		</Replace>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>呵呵……你们是抓不住我的……沉浸在我随时会回归的恐惧中吧……</Text>
+		</Replace>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="zh_Hans_CN">
+			<Text>呵呵……你们是抓不住我的……沉浸在我随时会回归的恐惧中吧……</Text>
+		</Replace>
+
+
+
+
+		<!-- 城市名 -->
+		<Replace Tag="LOC_CIVILIZATION_JKS_CAPITAL" Language="zh_Hans_CN">
+			<Text>吉卡谢</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_1" Language="zh_Hans_CN">
+			<Text>金索尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_2" Language="zh_Hans_CN">
+			<Text>阿什兰卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_3" Language="zh_Hans_CN">
+			<Text>摩斯特朗斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_4" Language="zh_Hans_CN">
+			<Text>皮克斯塔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_5" Language="zh_Hans_CN">
+			<Text>考文斯尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_6" Language="zh_Hans_CN">
+			<Text>奇瑞托</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_7" Language="zh_Hans_CN">
+			<Text>佛森克雷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_8" Language="zh_Hans_CN">
+			<Text>纳欧斯里</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_9" Language="zh_Hans_CN">
+			<Text>赛拉诺</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_10" Language="zh_Hans_CN">
+			<Text>图欧文</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_11" Language="zh_Hans_CN">
+			<Text>德塞拉尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_12" Language="zh_Hans_CN">
+			<Text>莱特律</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_13" Language="zh_Hans_CN">
+			<Text>贝卡诺瓦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_14" Language="zh_Hans_CN">
+			<Text>拉雷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_15" Language="zh_Hans_CN">
+			<Text>阿瑞多尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_16" Language="zh_Hans_CN">
+			<Text>斯兰洛卡希尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_17" Language="zh_Hans_CN">
+			<Text>米尼多迪亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_18" Language="zh_Hans_CN">
+			<Text>波利米奇亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_19" Language="zh_Hans_CN">
+			<Text>塔坦帕瑟卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_20" Language="zh_Hans_CN">
+			<Text>林斯莱文</Text>
+		</Replace>
+
+		<!-- 市民名 -->
+		<Row Tag="LOC_CITIZEN_JKS_MALE_1" Language="zh_Hans_CN">
+			<Text>沙德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_2" Language="zh_Hans_CN">
+			<Text>但普</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_3" Language="zh_Hans_CN">
+			<Text>凯撒京</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_4" Language="zh_Hans_CN">
+			<Text>雷艾马</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_5" Language="zh_Hans_CN">
+			<Text>欧赞恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_6" Language="zh_Hans_CN">
+			<Text>玛维</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_7" Language="zh_Hans_CN">
+			<Text>奈忒李</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_8" Language="zh_Hans_CN">
+			<Text>萨利安</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_9" Language="zh_Hans_CN">
+			<Text>雷瑟</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MALE_10" Language="zh_Hans_CN">
+			<Text>卡森图</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_1" Language="zh_Hans_CN">
+			<Text>莱瑞</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_2" Language="zh_Hans_CN">
+			<Text>莎塔尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_3" Language="zh_Hans_CN">
+			<Text>喵娅珀卡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_4" Language="zh_Hans_CN">
+			<Text>索拉萝</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_5" Language="zh_Hans_CN">
+			<Text>潘莱</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_6" Language="zh_Hans_CN">
+			<Text>瑟雷·梅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_7" Language="zh_Hans_CN">
+			<Text>艾达洛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_8" Language="zh_Hans_CN">
+			<Text>朱瑞丝</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_9" Language="zh_Hans_CN">
+			<Text>塔尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_FEMALE_10" Language="zh_Hans_CN">
+			<Text>锐什</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>斯派克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>奥利昂</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>史达克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>泰雷</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>底什欧尔代</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>阿维萨</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>熙尔伊恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>嘉乐</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>张罗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>霍卡明塔朗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>莫达沃</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>蒙玛洛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>索菲</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>艾修罗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>米莉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>姬塞菈雷丝</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>八云恋</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>尤奇</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>达莉蒙</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>维查丝奈德玛</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

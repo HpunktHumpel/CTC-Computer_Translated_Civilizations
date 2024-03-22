@@ -174,6 +174,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3150943003](https://steamcommunity.com/sharedfiles/filedetails/?id=3150943003) | 克惑奇雅文明-新领袖拓展  Kahotkia Civilization-New Leader Expansion Pack | Kahotkia Civilization-New Leader Expansion Pack |
 | [3176431917](https://steamcommunity.com/sharedfiles/filedetails/?id=3176431917) | Azurlane AKashi | Azurlane Akashi |
 | [3177679279](https://steamcommunity.com/sharedfiles/filedetails/?id=3177679279) | 碧蓝航线：铁血公国 | Azur Lane: The Iron-Blooded Principality |
+| [3190874341](https://steamcommunity.com/sharedfiles/filedetails/?id=3190874341) | 绮司狂与惊瞰生 文明 | Qisi Kuang and Jingkansheng Civilization |
 
 ##How to use this mod?
 1. install this mod

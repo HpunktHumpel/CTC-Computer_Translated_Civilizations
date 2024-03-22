@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Mar 22 23:29:40 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_QSK_NAME" Language="es_ES">
+			<Text>Qisi Kuang</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_DESCRIPTION" Language="es_ES">
+			<Text>Reino Qi Si Kuang</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_DESCRIPTION_JFD_CIVILIZATION" Language="es_ES">
+			<Text>Reino Qi Si Kuang</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_ADJECTIVE" Language="es_ES">
+			<Text>Qisi Kuang</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_BINOMIAL_NAME" Language="es_ES">
+			<Text>qisi esta loca</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_LOCATION" Language="es_ES">
+			<Text>La actual región centro-sur de los Estados Unidos se extiende desde Tennessee al este, partes del norte de Texas al oeste y Arkansas al norte.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_SIZE" Language="es_ES">
+			<Text>Con una superficie de 602.305 kilómetros cuadrados</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_POPULATION" Language="es_ES">
+			<Text>Se estima que 5,07 millones de personas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_CAPITAL" Language="es_ES">
+			<Text>jikashe</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_NAME" Language="es_ES">
+			<Text>Congreso de la División Escarlata</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_DESCRIPTION" Language="es_ES">
+			<Text>El efecto del título [ICON_Governor] del gobernador inaugurado se puede proporcionar a otras ciudades con el gobernador inaugurado de [ICON_Governor], y los efectos proporcionados a la propia ciudad inaugurada se duplican.
+[NEWLINE]Sin embargo, la ciudad donde el gobernador asume el cargo tiene -1 [ICON_Amenities] de habitabilidad; por cada nivel de título que ostenta el gobernador, la ciudad donde el gobernador asume el cargo tiene -1 [ICON_PressureDown] de lealtad adicional.
+[NEWLINE] Obtenga 1/2/3 títulos de gobernador de [ICON_Governor] de [Código]/[Filosofía Política]/[Departamento Administrativo] respectivamente.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HYDP_NAME" Language="es_ES">
+			<Text>cañón halcón rojo</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HYDP_DESCRIPTION" Language="es_ES">
+			<Text>Unidad especial de Qisi Kuang: reemplaza a [Stone Cannon], desbloqueada por [Departamento Diplomático]
+[NEWLINE] Los costos de mantenimiento son menores y no se requieren recursos estratégicos. Pero sólo se puede comprar con monedas de oro.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_NAME" Language="es_ES">
+			<Text>Tótem malvado</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_DESCRIPTION" Language="es_ES">
+			<Text>Las instalaciones de mejora características de Qisi Kuang se limitan a una en cada ciudad. Debe construirse en terreno montañoso o en celdas con bosques o accidentes geográficos de selva tropical.
+[NEWLINE]+2 vivienda [ICON_Housing].
+[NEWLINE] Las unidades enemigas adyacentes al Tótem feroz tienen -5 [ICON_Strength] de fuerza de combate. Las unidades en la misma celda se consideran guarnecidas y obtienen +4 [ICON_Strength] de fuerza de combate al defender.
+[NEWLINE]Celda +2 [ICON_Faith] fe y [ICON_Culture] cultura. Al desbloquear [Misticismo]/[Teología]/[Iglesia Reformada] se obtendrá un valor de fe adicional de +1/+2/+3 [ICON_Faith] y un valor cultural de [ICON_Culture] respectivamente.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_ADJACENT_AT_WAR_MOD" Language="es_ES">
+			<Text>-5 [ICON_Strength] tótem de monstruo adyacente</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QSK_FY_NAME" Language="es_ES">
+			<Text>A Wen Pei y Qi Tun</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_QSK_FY_NAME" Language="es_ES">
+			<Text>Oso despertando en el bosque</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_QSK_FY_DESCRIPTION" Language="es_ES">
+			<Text>Nunca lances una guerra sorpresa ni te rindas, trata siempre de mantener un ejército grande, respeta las civilizaciones con grandes fuerzas militares y desprecia las civilizaciones con fuerzas militares débiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>No está mal, no está mal. Es agradable a la vista. Tus guerreros merecen reconocimiento.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_QSK_STANDING_ARMY" Language="es_ES">
+			<Text>Tempest Chitunwan Respeta a los fuertes</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Insecto débil, por favor no vuelvas a aparecer frente a mí.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_QSK_STANDING_ARMY" Language="es_ES">
+			<Text>Tempest Chitunwan desprecia a los débiles</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QSK_FY_LOADING_INFO" Language="es_ES">
+			<Text>Usa tu puño de hierro para proteger tu ciudad natal, Winpace Chitunwan. ¡Tu inquebrantable espíritu de lucha inspira a tus guerreros a hacer todo lo posible en el campo de batalla y luchar sin peligro! Rompe toda la bruma que se cierne sobre las cabezas de tu gente y podrás proteger con seguridad la prosperidad y el crecimiento de tu ciudad natal, para lo cual tus amigos más cercanos también te ayudarán. Tempest, Señora del Acero, la sombra en la que siempre podemos confiar.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_FY_NAME" Language="es_ES">
+			<Text>Amante con muñeca de acero</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_FY_DESCRIPTION" Language="es_ES">
+			<Text>Unidades de combate terrestres: Ignora la desventaja de daño de [ICON_Strength] cuando estás ubicada en colinas; si suprimes al enemigo al atacar, puedes alejarlo 1 celda y se agregará daño adicional al enemigo si no hay forma de retirarse. (Los ataques remotos también son efectivos)
+[NEWLINE]Tiene el gobernador único [Bruja Roja] Hong Ruici Apugai.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_FY_NO_REDUCTION_DAMAGE_NAME" Language="es_ES">
+			<Text>Ignora la desventaja de daño de [ICON_Strength] cuando estás en una colina; destierra a los enemigos cuando están inmovilizados.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_FY_NO_REDUCTION_DAMAGE_DESCRIPTION" Language="es_ES">
+			<Text>Ignora la desventaja de daño de [ICON_Strength] cuando estás en una colina; destierra a los enemigos cuando están inmovilizados.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QSKFY_TJX_GOVERNOR_NAME" Language="es_ES">
+			<Text>doncella del santuario rojo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QSKFY_TJX_GOVERNOR_DESCRIPTION" Language="es_ES">
+			<Text>Tiene al gobernador especial [Bruja Roja] Hongruici Apugai, que ayuda en la diplomacia, la guerra, la construcción y la fe.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_SOCIAL_MEDIA_QUOTE_3" Language="es_ES">
+			<Text>Ayer era un terraplanista, hoy soy un agnóstico, mañana seré un geocentrista y pasado mañana seré un vegetariano respetuoso con el medio ambiente. [NEWLINE]——Hongruici Apugai</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_TITLE" Language="es_ES">
+			<Text>Matrona de guerra, cacique</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_SUBTITLE" Language="es_ES">
+			<Text>Una heroína con puño de hierro y puño de hierro.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QSK_FY_QUOTE" Language="es_ES">
+			<Text>¿Eh, Gui Rui Ruisu? ¡Nunca volverá!</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Tempest Chitunwan siempre ha sido considerada una guerrera valiente y capaz. Ha participado en muchas batallas y ha salvado a su ciudad natal de los ataques del sorprendido Geiri Airesu y los colonos de Europa.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_CAPSULE_BODY" Language="es_ES">
+			<Text>Los gobernadores de Chisikuang son muy buenos cooperando y pueden proporcionarse mutuamente sus habilidades de título desbloqueadas. ¡Y el efecto se duplica en la ciudad donde trabajas! Sin embargo, esto reducirá la [ICON_Amenities] Amabilidad y [ICON_PressureDown] Lealtad de la ciudad. Esto no suele ser fatal, pero siempre es una vulnerabilidad fácil de atacar.
+[NEWLINE][NEWLINE] Tempest Chitunwan es una muy buena líder que puede proteger muy bien a Qisi Kuang. Al mismo tiempo, el gobernador adicional que ella proporciona no solo puede proporcionar efectos adicionales a la ciudad con el gobernador junto con la habilidad de civilización, sino que también puede brindarle más ayuda.
+[NEWLINE] Como IA, es poco probable que Tempest lance una guerra sorpresa, pero como persona que aboga por la fuerza, aún puede representar una amenaza para ti. Mantener suficientes tropas sigue siendo una opción racional para la autoprotección.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_DETAILED_BODY" Language="es_ES">
+			<Text>Las habilidades de Qisikuang giran en torno al Gobernador. Puedes considerar el uso de espías para [incriminar al gobernador] y combatir las operaciones de Qisi Kuang.
+[NEWLINE] Sin embargo, bajo el liderazgo de Wympeth Chitunwan, no se puede subestimar su fuerza militar. Las unidades de combate terrestres no sólo pueden ahuyentar a los enemigos con ataques cuerpo a cuerpo como los húsares polacos, sino que también pueden realizar ataques de largo alcance. Si el enemigo está acorralado, ¡incluso recibirá daño adicional!
+[NEWLINE] Si quieres resolver el problema de Chisimaniac por la fuerza, intenta evitar que las unidades sean acorraladas por Wimperth Chitunwan, intenta asegurarte de que las unidades sean empujadas hacia atrás en una posición que sea propicia para tu estrategia y utiliza al espía para atacar Chisimania. capacidad. Pero sería mejor lanzar una acción subversiva sobre la cuestión de la lealtad de Qisikuang.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Tempest Qitunwan, la matrona de guerra y cacique de Qisikuang, está frente a ti. Si tienes algo que decir, ¡dímelo!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Quieres venir y sentarte con nosotros, ¿verdad? ¿No es solo para ver el mundo cuando llego tan lejos?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Necesitas enseñarme bien tu idioma.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¿Cambiarlo y poner la dirección del acuerdo? ¿Quieres?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¿Eh?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Entonces acéptame y te daré un regalo a cambio la próxima vez.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Guárdatelo para ti mismo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Regalo. Lo que les aporta nuestra delegación, y lo que les llega a todos ustedes.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Puedes contactar con nuestra delegación si tienes alguna duda.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Tsk, dáselo al descarado rojo ...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Establecer relaciones diplomáticas con una embajada es muy importante y debes considerarlo cuidadosamente.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Es una señal de amistad, creo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¿Esto va en nuestra contra?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>No lo tomaré a la ligera cuando te mire. Vámonos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>No hay necesidad de hablar.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Si quieres pasarnos, abre la frontera.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>De acuerdo, bebemos este plato de bar social, nosotros.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¡No, no, no, lo dije!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¿Estás dispuesto a beber juntos este plato de vino social? tú y yo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Este es un gran movimiento.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¿Eh? ¿Me estás tomando el pelo?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Hacer un pacto es muy importante, tanto para ti como para mí.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_GOSSIP_POSITIVE" Language="es_ES">
+			<Text>(Tu fuerza militar es muy fuerte)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_GOSSIP_NEGATIVE" Language="es_ES">
+			<Text>(Tu ejército es débil)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¿Quieres hacer una redada? ¡Lo he visto todo, o tu gente sale o nos das una buena pelea!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>……desperdiciar.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>factible, trato</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Tsk...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¿Lo hiciste a propósito? ¡Tarde o temprano te daré una lección, mocoso!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¿Cómo puede un insecto como tú proteger tu ciudad natal? [NEWLINE](te condena)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Hum, ¡me aseguraré de que nunca vuelvas!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¡Deja de decir tonterías y que comience la pelea!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Basura, te ahorraré esta vez, temporalmente.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>¡Vete, mantén firme tu arma!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Vaya, realmente te subestimo...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="es_ES">
+			<Text>Vaya, realmente te subestimo...</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_NAME" Language="es_ES">
+			<Text>Hong Ruici Apugai</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_TITLE" Language="es_ES">
+			<Text>doncella del santuario rojo</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_SHORT_TITLE" Language="es_ES">
+			<Text>bruja roja</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_DESCRIPTION" Language="es_ES">
+			<Text>Hong Ruici tiene un rostro amable y sabiduría acumulada con el tiempo. Ella es útil en la diplomacia, la guerra, la construcción y la fe.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BZYSWS_NAME" Language="es_ES">
+			<Text>Adivinación, medicina, brujería.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BZYSWS_DESCRIPTION" Language="es_ES">
+			<Text>Sólo se necesitan 3 turnos para tomar la ciudad. [NEWLINE]Las mejoras, los edificios y las áreas de la ciudad están protegidos contra desastres naturales. [NEWLINE]Los colonos producidos en las ciudades no cuentan para la población [ICON_Citizen].</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PPFT_NAME" Language="es_ES">
+			<Text>costumbres pupu</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PPFT_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades aliadas dentro de diez casillas de la ciudad de empleo obtienen +2 de movimiento [ICON_Movement]. [NEWLINE]El nivel de ataque de otras civilizaciones espías en la ciudad inaugurada es -2.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_TJX_MOVE_NAME" Language="es_ES">
+			<Text>La inspiración de Hong Ruici: movimiento +2 [ICON_Movement]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_TJX_MOVE_DESCRIPTION" Language="es_ES">
+			<Text>La inspiración de Hong Ruici: movimiento +2 [ICON_Movement]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_LJXY_NAME" Language="es_ES">
+			<Text>Lingjun Xinyi</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_LJXY_DESCRIPTION" Language="es_ES">
+			<Text>Cuando lo envíes a la capital de una civilización importante [ICON_Capital], haz que se descomponga en 3 puntos adicionales si no está satisfecha con tu [ICON_STAT_GRIEVANCE]. [NEWLINE]Para todas las ciudades-estado de los señores supremos, sus unidades tienen +4 [ICON_Strength] de fuerza de combate (incluidas las unidades reclutadas).</Text>
+		</Replace>
+		<Replace Tag="LOC_TJX_CITYSTATES_COMBAT_MODIFIER" Language="es_ES">
+			<Text>+4 [ICON_Strength] Lingjun Xinyi</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RCZY_NAME" Language="es_ES">
+			<Text>cálidos deseos</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RCZY_DESCRIPTION" Language="es_ES">
+			<Text>La ciudad inaugural puede construir un área especializada adicional independientemente de la población [ICON_Citizen]. [NEWLINE]Todas las ciudades obtienen +3 [ICON_Faith] Fe.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CHXN_NAME" Language="es_ES">
+			<Text>fe roja</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CHXN_DESCRIPTION" Language="es_ES">
+			<Text>Unidades militares producidas o compradas por la ciudad de inauguración, promoción de nivel +1 [ICON_Promotion]. [NEWLINE]El tiempo necesario para construir Tierra Santa se ha reducido a la mitad.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HXZM_NAME" Language="es_ES">
+			<Text>El sueño de la nómina</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HXZM_DESCRIPTION" Language="es_ES">
+			<Text>Una vez inauguradas, todas las ciudades pueden usar la fe [ICON_Faith] para comprar unidades civiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CAPITAL" Language="es_ES">
+			<Text>A Qitun</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_1" Language="es_ES">
+			<Text>acacia</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_2" Language="es_ES">
+			<Text>Hitika</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_3" Language="es_ES">
+			<Text>Das Jijin</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_4" Language="es_ES">
+			<Text>Yasunigu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_5" Language="es_ES">
+			<Text>Chakomika</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_6" Language="es_ES">
+			<Text>Te Lang Que Yi</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_7" Language="es_ES">
+			<Text>Mi amor</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_8" Language="es_ES">
+			<Text>Geshei</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_9" Language="es_ES">
+			<Text>Gossetzin</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_10" Language="es_ES">
+			<Text>Du Zilangxi</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_11" Language="es_ES">
+			<Text>Tasufar</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_12" Language="es_ES">
+			<Text>Quahaine</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_13" Language="es_ES">
+			<Text>tikwaliga</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_14" Language="es_ES">
+			<Text>Watoshi</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_15" Language="es_ES">
+			<Text>eratni</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_16" Language="es_ES">
+			<Text>O'Connell</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_17" Language="es_ES">
+			<Text>Nicovardi</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_18" Language="es_ES">
+			<Text>Ellawosi</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_19" Language="es_ES">
+			<Text>Es malo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_20" Language="es_ES">
+			<Text>talii</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_1" Language="es_ES">
+			<Text>atoshi</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_2" Language="es_ES">
+			<Text>Dastu</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_3" Language="es_ES">
+			<Text>atsada</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_4" Language="es_ES">
+			<Text>arroz con espinas</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_5" Language="es_ES">
+			<Text>Yamaga</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_6" Language="es_ES">
+			<Text>Jonás</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_7" Language="es_ES">
+			<Text>ida</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_8" Language="es_ES">
+			<Text>tula</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_9" Language="es_ES">
+			<Text>Warhari</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_10" Language="es_ES">
+			<Text>Kanuna</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_1" Language="es_ES">
+			<Text>Urejía</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_2" Language="es_ES">
+			<Text>Voya</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_3" Language="es_ES">
+			<Text>papel</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_4" Language="es_ES">
+			<Text>safa</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_5" Language="es_ES">
+			<Text>Ayoka</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_6" Language="es_ES">
+			<Text>Galilashi</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_7" Language="es_ES">
+			<Text>enola</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_8" Language="es_ES">
+			<Text>Goraba</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_9" Language="es_ES">
+			<Text>kimberly</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_10" Language="es_ES">
+			<Text>kaya</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_1" Language="es_ES">
+			<Text>nimrod</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_2" Language="es_ES">
+			<Text>franklin</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_3" Language="es_ES">
+			<Text>ned</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_4" Language="es_ES">
+			<Text>Khao Yai</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_5" Language="es_ES">
+			<Text>pajaro rojo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_6" Language="es_ES">
+			<Text>Ahuri</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_7" Language="es_ES">
+			<Text>Yonaguska</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_8" Language="es_ES">
+			<Text>Fengcheng Xiajin</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_9" Language="es_ES">
+			<Text>Onakona</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_10" Language="es_ES">
+			<Text>Charles</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_1" Language="es_ES">
+			<Text>yuna</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_2" Language="es_ES">
+			<Text>kate</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_3" Language="es_ES">
+			<Text>amelia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_4" Language="es_ES">
+			<Text>Osla</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_5" Language="es_ES">
+			<Text>Ustina</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_6" Language="es_ES">
+			<Text>Oconostota</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_7" Language="es_ES">
+			<Text>enola</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_8" Language="es_ES">
+			<Text>Wo Ya Qian</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_9" Language="es_ES">
+			<Text>Minamino Hiyo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_10" Language="es_ES">
+			<Text>chitkara</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_QSKTT" Language="es_ES">
+			<Text>Taoísmo Teng</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_QSKTT_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Según los registros restantes de Keluoqiya, cuando el periodista de aquella época entrevistó a Hongruici Apugai, el líder religioso del taoísmo Teng en Chisi Kuang, nos contó una leyenda de un viajero occidental. Cuenta la leyenda que un grupo de personas que se parecían mucho a ellos venían del lejano oeste, pero su piel era más rápida y blanca, decían ser de la tribu &quot;Song&quot; y la tribu &quot;Ni Peng&quot; respectivamente (se especula). (que deberían haber llegado del este en ese momento), gente de la dinastía Song china y japonesa) y trajeron conocimientos novedosos a la tribu. Aunque algunas personas se marcharon más tarde, otras optaron por quedarse. A través de repetidas integraciones culturales, nació una religión organizada que mezclaba creencias totémicas locales, taoísmo y sintoísmo. Éste fue el prototipo original del taoísmo Teng. Posteriormente, con la llegada de los europeos, esta religión se integró a la cultura cristiana.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_1" Language="es_ES">
+			<Text>Sábalo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_2" Language="es_ES">
+			<Text>Butpu</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_3" Language="es_ES">
+			<Text>Rey César</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_4" Language="es_ES">
+			<Text>Reima</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_5" Language="es_ES">
+			<Text>Ozanne</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_6" Language="es_ES">
+			<Text>maiev</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_7" Language="es_ES">
+			<Text>Nat Lee</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_8" Language="es_ES">
+			<Text>saliano</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_9" Language="es_ES">
+			<Text>Menor</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_10" Language="es_ES">
+			<Text>diagrama de casson</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_1" Language="es_ES">
+			<Text>larry</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_2" Language="es_ES">
+			<Text>Sattar</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_3" Language="es_ES">
+			<Text>Meowa Purka</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_4" Language="es_ES">
+			<Text>Solaro</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_5" Language="es_ES">
+			<Text>Panlay</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_6" Language="es_ES">
+			<Text>sereno mayo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_7" Language="es_ES">
+			<Text>aidaro</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_8" Language="es_ES">
+			<Text>jurisprudencia</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_9" Language="es_ES">
+			<Text>tal</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_10" Language="es_ES">
+			<Text>Ruish</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_1" Language="es_ES">
+			<Text>Espiga</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_2" Language="es_ES">
+			<Text>Orión</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_3" Language="es_ES">
+			<Text>Rígido</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_4" Language="es_ES">
+			<Text>tierra</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_5" Language="es_ES">
+			<Text>es viejo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_6" Language="es_ES">
+			<Text>Avisa</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_7" Language="es_ES">
+			<Text>silián</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_8" Language="es_ES">
+			<Text>Jiale</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_9" Language="es_ES">
+			<Text>reunirse</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_10" Language="es_ES">
+			<Text>hoka mintarang</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_1" Language="es_ES">
+			<Text>Modavo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_2" Language="es_ES">
+			<Text>Montmartre</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_3" Language="es_ES">
+			<Text>Sophie</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_4" Language="es_ES">
+			<Text>ashura</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_5" Language="es_ES">
+			<Text>milly</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_6" Language="es_ES">
+			<Text>Gisela Reese</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_7" Language="es_ES">
+			<Text>Amo a Yakumo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_8" Language="es_ES">
+			<Text>yuqi</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_9" Language="es_ES">
+			<Text>dalymon</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_10" Language="es_ES">
+			<Text>Vichasnaidema</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_NAME" Language="es_ES">
+			<Text>Jingkansheng</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_DESCRIPTION" Language="es_ES">
+			<Text>Legión Jingkansheng</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_DESCRIPTION_JFD_CIVILIZATION" Language="es_ES">
+			<Text>Legión Jingkansheng</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_ADJECTIVE" Language="es_ES">
+			<Text>Jingkansheng</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_JKS_BINOMIAL_NAME" Language="es_ES">
+			<Text>Conmocionado</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_NAME" Language="es_ES">
+			<Text>Río turbulento del cadáver</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_DESCRIPTION" Language="es_ES">
+			<Text>La ciudad no está cansada de la guerra y las unidades adyacentes al río tienen +4 [ICON_Strength] de fuerza de combate.
+[NEWLINE] Cada unidad militar proporciona +1 moneda de oro [ICON_Gold] a la capital. Después de desbloquear [Entrenamiento militar]/[Mercenario]/[Nacionalismo]/[Movilización], cada una proporcionará +1 moneda de oro [ICON_Gold] adicional.</Text>
+		</Replace>
+		<Replace Tag="LOC_JKS_ADJACENT_TO_RIVER_UNITS_STRENGTH" Language="es_ES">
+			<Text>+{1_num} [ICON_Strength] Fuerza de combate Río de cadáveres turbulentos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JKS_KR_NAME" Language="es_ES">
+			<Text>Hombres Locos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JKS_KR_DESCRIPTION" Language="es_ES">
+			<Text>Unidad especial de Jingkansheng: reemplaza a [Guerrero], tiene mayor movilidad [ICON_Movement] y un costo de construcción ligeramente menor.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_JKS_ZTY_NAME" Language="es_ES">
+			<Text>Campamento de soldados</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_JKS_ZTY_DESCRIPTION" Language="es_ES">
+			<Text>Área característica de Jingkansheng: reemplaza [Campamento militar] y se desbloquea con [Código]. Costo constante de 27, no se proporcionan puntos de grandeza, no forma parte del área de especialización.
+[NEWLINE]+4 [ICON_Housing] Vivienda.
+[NEWLINE]Cada unidad militar producida en la ciudad proporciona a la capital +1 [ICON_Gold] de oro.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_JKS_HY_NAME" Language="es_ES">
+			<Text>Gerry Arisu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MILITARY_TRAINING_QUOTE_3" Language="es_ES">
+			<Text>Si no puedes ser castigado por ser un niño, siempre serás un niño. [NEWLINE]——Gui Rui Ruisu</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_JKS_HY_NAME" Language="es_ES">
+			<Text>frenético</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_JKS_HY_DESCRIPTION" Language="es_ES">
+			<Text>Tiende a despejar fortalezas bárbaras, saquear y declarar la guerra por sorpresa. [NEWLINE] ¿Te gustaría limpiar pueblos y civilizaciones bárbaras en estado de guerra? Odio las civilizaciones que están en paz sin eliminar las aldeas bárbaras.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HY_REASON_ANY" Language="es_ES">
+			<Text>(Te estás desarrollando pacíficamente)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_JKS_HY_POSITIVE" Language="es_ES">
+			<Text>Razón desconocida...?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HY_REASON_ANY" Language="es_ES">
+			<Text>(Estás en guerra)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_JKS_HY_NEGATIVE" Language="es_ES">
+			<Text>Razón desconocida...?</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_JKS_HY_LOADING_INFO" Language="es_ES">
+			<Text>Te lo ruego, Señor Giri Aerisu, por favor no me captures y te sirva por el resto de mi vida. Todos sabemos lo bien que sabes cómo utilizar a las personas. Para que funcionen correctamente en la posición correcta, puedes incitar a tus matones a perseguirlos hasta el final. Cualquiera que se atreva a detenerlos estimulará su motivación para seguir adelante. ¿Qué puede ser mejor que tu castigo? ¿Es más terrible?</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_HY_NAME" Language="es_ES">
+			<Text>Élites cazadoras</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_HY_DESCRIPTION" Language="es_ES">
+			<Text>Todas las unidades militares: Después de ganar la batalla, inmediatamente recuperan la movilidad [ICON_Movement] con las unidades en la misma formación y se les permite atacar nuevamente; ganar la batalla proporciona 4 grandes puntos [ICON_GreatPerson] de todo tipo.
+[NEWLINE]Cada vez que se use [ICON_GreatPerson], la ciudad que posee tendrá +1 de salida del tipo correspondiente.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_HY_NO_REDUCTION_DAMAGE_NAME" Language="es_ES">
+			<Text>Después de ganar la batalla, la movilidad [ICON_Movement] se restaurará inmediatamente junto con las unidades en la misma formación y se les permitirá atacar nuevamente; ganar la batalla proporcionará 4 puntos de todo tipo de puntos de grandeza.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_HY_NO_REDUCTION_DAMAGE_DESCRIPTION" Language="es_ES">
+			<Text>Después de ganar la batalla, la movilidad [ICON_Movement] se restaurará inmediatamente junto con las unidades en la misma formación y se les permitirá atacar nuevamente; ganar la batalla proporcionará 4 puntos de todo tipo de puntos de grandeza.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_UNIT_YIELD_NAME" Language="es_ES">
+			<Text>Por habilidad de civilización: Proporciona [ICON_Gold] monedas de oro a la capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_UNIT_YIELD_DESCRIPTION" Language="es_ES">
+			<Text>Por habilidad de civilización: Proporciona [ICON_Gold] monedas de oro a la capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKSZTY_UNIT_YIELD_NAME" Language="es_ES">
+			<Text>Desde el área destacada: Proporciona [ICON_Gold] monedas de oro a la capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKSZTY_UNIT_YIELD_DESCRIPTION" Language="es_ES">
+			<Text>Desde el área destacada: Proporciona [ICON_Gold] monedas de oro a la capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_TITLE" Language="es_ES">
+			<Text>Temor del Señor, Jefe</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_SUBTITLE" Language="es_ES">
+			<Text>Señor malvado horrible</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_JKS_HY_QUOTE" Language="es_ES">
+			<Text>Las comidas deben comerse un bocado a la vez, por lo que solo como un bocado en cada comida; como al menos mil una comidas al día.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>El líder de Jingkansheng, conocido por su gobierno del terror y su capacidad para hacer buen uso de la gente, nació con ojos heterocromáticos.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_CAPSULE_BODY" Language="es_ES">
+			<Text>El pueblo Jingkan está tan entusiasmado con la guerra [ICON_Gold] que incluso está dispuesto a pagar impuestos para unirse al ejército. El río también puede darles fuerza.
+[NEWLINE][NEWLINE] Bajo el liderazgo de Gui Rui Eresu, las unidades militares de Jingkansheng pueden obtener acciones adicionales a través de la victoria en la batalla, lo cual es muy flexible. Al mismo tiempo, también pueden ganar puntos de gran hombre al ganar batallas y saquear, y utilizar grandes hombres para proporcionar resultados a la ciudad.
+[NEWLINE] Será mejor que aniquiles por completo a los estudiantes de Jingkan como IA, ¡son simplemente un grupo de bárbaros disfrazados de civilización!</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_DETAILED_BODY" Language="es_ES">
+			<Text>La mera presencia de las unidades militares de Jingkansheng proporcionará [ICON_Gold] a la capital, sin perder demasiado tiempo saqueando.
+[NEWLINE] Bajo el gobierno de Guirui Elesu, cada batalla y botín ganado puede proporcionar puntos a los grandes personajes para que los grandes puedan trabajar para ellos. Incluso si los grandes personajes se han retirado, Guirui puede hacer que admiren. La ciudad donde nace la ciudad proporciona el tipo correspondiente de bonificación de producción.
+[NEWLINE] En el campo de batalla, una vez que Gui Rui logra un avance y aniquila a una de tus tropas, las tropas victoriosas pueden atacar nuevamente, ¡lo cual es muy fatal en el campo de batalla decisivo!
+[NEWLINE]No puedes permitir que un imperio tan bárbaro crezca descontroladamente, y aniquilar esta civilización a toda costa será tu máxima prioridad.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>¿Déjame ver quién está aquí? Oh ~ ¿No es esta esa persona de allí? Después de todo, tío, nunca había oído hablar de tu nombre, pero hoy tienes la oportunidad de presentarte.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Espero tu visita. ¿Por qué no mostrarte el camino? adiós.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Suena como un lugar muy rico... Jaja, ¡vamos, déjame echar un vistazo!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Dígame la ubicación de su capital. En cuanto a la pequeña regla de intercambiar información sobre la ubicación de la capital, todavía estaré feliz de seguirla.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>seguir.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Eh, este favor... lo aceptaré, señor.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Oiga, señor, ¿qué tal si le doy un pequeño obsequio a cambio: una copa de vino hecha con calaveras hechas por su delegación?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>No os emocionéis, hoy estoy aquí sólo para una cosa, y es para daros un poco de dulzura...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Sí, ya conoces el panorama general.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Vaya Lang, ¿tan poderoso?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Mientras todavía estoy dispuesto a jugar contigo, ¡date prisa y asígname un terreno para construir una embajada!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Sí, ya conoces el panorama general.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Vaya Lang, ¿tan poderoso?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Jaja, hay consecuencias bajo tu propio riesgo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Vaya, este suelo es demasiado rugoso... ¿eh? ¿Acabas de decir algo?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Tío, no me importa entrar directamente a tu territorio, pero debes cumplir con algunas reglas al jugar, de lo contrario no será divertido, ¿verdad?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Hagamos esto por ahora.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Je, ji, ji... ¡eres tan valiente!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Tío, estoy aquí esta vez por una cosa: jodeme, de lo contrario quedaré bien contigo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>No está mal, muy bien informado.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Vaya Lang, ¿tan poderoso?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Tío, estoy aquí esta vez por una cosa: jodeme, de lo contrario quedaré bien contigo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Sólo recuperándose se puede crear riqueza, ¿verdad?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JKS_HY_REASON_AGENDA_ATTACKS_BARBARIANS" Language="es_ES">
+			<Text>Vale, vale, ¡genial! Guardaste toda tu riqueza, ¿verdad?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HY_NOT_WARMONGER_SUBJECT" Language="es_ES">
+			<Text>(Te estás desarrollando pacíficamente)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Oh, guerra, soy justa y no me quedaré de brazos cruzados y miraré ~</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HY_IS_WARMONGER_SUBJECT" Language="es_ES">
+			<Text>(Estás en guerra)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_JKS_HY_REASON_AGENDA_IGNORES_BARBARIANS" Language="es_ES">
+			<Text>Oye, oye, oye, es muy triste dejar que extraños te saqueen y te roben toda tu riqueza.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Tío, siempre he sido muy sensible y, a menudo, puedo detectar varias emociones en el corazón de las personas.
+[NEWLINE]Puedo detectar alegría, ira, tristeza, alegría... incluso intenciones asesinas.
+[NEWLINE]——Así que no intentes ser astuto delante de mí, Gui Rui Ruisu, ¿entiendes?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>jeje.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Promesa.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Vaya, esta lanza arrojadiza es demasiado lanza arrojadiza... ¿eh? ¿Acabas de decir algo?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>¿Te dejé hablar? [NEWLINE](te condena)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Jaja... ¿Te atreves a hacer algo? Buen chico, te aprecio.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Hoy, estoy aquí solo para dos cosas: una es pedirle que pague impuestos y la otra es comprarle productos. ¡Quiero un nuevo lote de copas de vino con forma de calavera!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Sí, entiendo la idea general, así que esta vez te dejaré ir.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Hey hey hey...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Hoy soy muy misericordioso... os recompensaré con mi presa.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Jaja…no podrás atraparme…sumérgete en el miedo de que regrese en cualquier momento…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="es_ES">
+			<Text>Jaja…no podrás atraparme…sumérgete en el miedo de que regrese en cualquier momento…</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CAPITAL" Language="es_ES">
+			<Text>jikashe</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_1" Language="es_ES">
+			<Text>reysol</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_2" Language="es_ES">
+			<Text>ashlanka</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_3" Language="es_ES">
+			<Text>mostrones</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_4" Language="es_ES">
+			<Text>pixta</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_5" Language="es_ES">
+			<Text>covinsl</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_6" Language="es_ES">
+			<Text>Chirito</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_7" Language="es_ES">
+			<Text>folsen cray</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_8" Language="es_ES">
+			<Text>Naosri</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_9" Language="es_ES">
+			<Text>serrano</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_10" Language="es_ES">
+			<Text>figura owen</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_11" Language="es_ES">
+			<Text>Deserani</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_12" Language="es_ES">
+			<Text>regla de Wright</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_13" Language="es_ES">
+			<Text>Bekánova</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_14" Language="es_ES">
+			<Text>laray</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_15" Language="es_ES">
+			<Text>aridor</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_16" Language="es_ES">
+			<Text>Colina de Srilanka</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_17" Language="es_ES">
+			<Text>Minidodia</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_18" Language="es_ES">
+			<Text>Polimicia</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_19" Language="es_ES">
+			<Text>tatam secaka</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_20" Language="es_ES">
+			<Text>Lin Slevin</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

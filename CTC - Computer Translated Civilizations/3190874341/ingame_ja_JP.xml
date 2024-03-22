@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Mar 22 23:29:40 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_QSK_NAME" Language="ja_JP">
+			<Text>キシー・クアン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_DESCRIPTION" Language="ja_JP">
+			<Text>チー・シークァン王国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_DESCRIPTION_JFD_CIVILIZATION" Language="ja_JP">
+			<Text>チー・シークァン王国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_ADJECTIVE" Language="ja_JP">
+			<Text>キシー・クアン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_BINOMIAL_NAME" Language="ja_JP">
+			<Text>キシーは狂ってる</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_LOCATION" Language="ja_JP">
+			<Text>現在の米国中南部地域は、東はテネシー州、西はテキサス州北部の一部、北はアーカンソー州まで広がっています。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_SIZE" Language="ja_JP">
+			<Text>面積は602,305平方キロメートル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_POPULATION" Language="ja_JP">
+			<Text>推定507万人</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_CAPITAL" Language="ja_JP">
+			<Text>ジカシェ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_NAME" Language="ja_JP">
+			<Text>緋色の師団会議</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_DESCRIPTION" Language="ja_JP">
+			<Text>就任した総督の[ICON_Governor]の称号効果は、[ICON_Governor]の就任した総督とともに他の都市に与えることができ、自身の就任した都市に与えられる効果は2倍になります。
+[NEWLINE]ただし、知事が就任する都市の居住性は -1 [ICON_Amenities] です。知事が保有する称号レベルごとに、知事が就任する都市の忠誠度はさらに -1 [ICON_PressureDown] になります。
+[NEWLINE] [法典]/[政治哲学]/[行政部門]からそれぞれ [ICON_Governor] 知事の称号を 1/2/3 取得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HYDP_NAME" Language="ja_JP">
+			<Text>レッドホークキャノン</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HYDP_DESCRIPTION" Language="ja_JP">
+			<Text>Qisi Kuangの特殊ユニット：[外交部門]によってロック解除された[ストーンキャノン]に代わるもの
+[NEWLINE] メンテナンスコストが低くなり、戦略的なリソースも必要ありません。ただし金貨でしか購入できない</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_NAME" Language="ja_JP">
+			<Text>邪悪なトーテム</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_DESCRIPTION" Language="ja_JP">
+			<Text>Qisi Kuang の特徴的な改善施設は各都市に 1 か所に限られています。丘陵地や森や熱帯雨林の地形のあるセルに建設する必要があります。
+[NEWLINE]+2 [ICON_Housing] ハウジング。
+[NEWLINE] 獰猛なトーテムに隣接する敵ユニットの戦闘力は-5 [ICON_Strength] です。同じセル内のユニットは駐屯しているとみなされ、防御時に +4 [ICON_Strength] の戦闘力を獲得します。
+[NEWLINE]セル +2 [ICON_Faith] 信仰と [ICON_Culture] 文化。 [神秘主義]/[神学]/[改革派教会]のロックを解除すると、[ICON_Faith]信仰値と[ICON_Culture]文化値がそれぞれ+1/+2/+3追加されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_ADJACENT_AT_WAR_MOD" Language="ja_JP">
+			<Text>隣接するモンスターのトーテム -5 [ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QSK_FY_NAME" Language="ja_JP">
+			<Text>温佩丝·齐屯宛</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_QSK_FY_NAME" Language="ja_JP">
+			<Text>森の中で目覚めるクマ</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_QSK_FY_DESCRIPTION" Language="ja_JP">
+			<Text>奇襲戦争や降伏は決して行わず、常に大軍を維持するよう努め、大規模な軍事力を持つ文明を尊重し、弱い軍事力を持つ文明を軽蔑する。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>悪くありません、悪くありません。目には楽しいです。あなたの戦士は評価に値します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_QSK_STANDING_ARMY" Language="ja_JP">
+			<Text>テンペスト チトゥンワン 強き者を敬う</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>弱い虫よ、二度と私の前に現れないでください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_QSK_STANDING_ARMY" Language="ja_JP">
+			<Text>テンペスト チトゥンワンは弱者を軽蔑する</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QSK_FY_LOADING_INFO" Language="ja_JP">
+			<Text>鉄拳で故郷ウィンペース・チトゥンワンを守りましょう。あなたの揺るぎない闘争心は、戦士たちに戦場で全力を尽くし、危険なく戦うよう促します。人々の頭上にかかる霧を打ち破ってこそ、故郷の繁栄と発展を安全に守ることができる、そのためには親しい友人たちも力を貸してくれるだろう。テンペスト、鋼鉄の愛人、私たちが常に信頼できる影。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_FY_NAME" Language="ja_JP">
+			<Text>鋼鉄の手首のミストレス</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_FY_DESCRIPTION" Language="ja_JP">
+			<Text>陸上戦闘ユニット: 丘の上にいる場合、[ICON_Strength] ダメージ デバフを無視します。攻撃時に敵を制圧すると、敵を 1 マス遠ざけることができ、退却する方法がない場合は追加のダメージが敵に追加されます。 （遠隔攻撃も有効）
+[NEWLINE]ユニークな総督[赤い魔女]ホン・ルイイチ・アプガイがいます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_FY_NO_REDUCTION_DAMAGE_NAME" Language="ja_JP">
+			<Text>丘の上にいるときは [ICON_Strength] ダメージ デバフを無視し、固定されているときは敵を払いのけます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_FY_NO_REDUCTION_DAMAGE_DESCRIPTION" Language="ja_JP">
+			<Text>丘の上にいるときは[ICON_Strength]ダメージデバフを無視し、固定されているときは敵を追放します。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QSKFY_TJX_GOVERNOR_NAME" Language="ja_JP">
+			<Text>赤色巫女</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QSKFY_TJX_GOVERNOR_DESCRIPTION" Language="ja_JP">
+			<Text>外交、戦争、建設、信仰に役立つ特別総督【赤の魔女】ホンルイチ・アプガイがいる。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_SOCIAL_MEDIA_QUOTE_3" Language="ja_JP">
+			<Text>昨日は地球平面論者、今日は不可知論者、明日は地球中心論者、明後日は環境に優しいベジタリアンになります。 [改行]——ホンルイチ・アプガイ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_TITLE" Language="ja_JP">
+			<Text>戦争の侍女、族長</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_SUBTITLE" Language="ja_JP">
+			<Text>鉄拳と鉄拳を持つヒロイン</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QSK_FY_QUOTE" Language="ja_JP">
+			<Text>え、グイ・ルイ・ルイス？彼は決して戻ってこないでしょう！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>テンペスト チトゥンワンは常に勇敢で有能な女性戦士とみなされてきました。彼女は多くの戦いに参加し、ショックを受けたゲイリ アイレスとヨーロッパの植民者の攻撃から故郷を救いました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>Chisikuang の統治者は協力するのが非常に上手で、ロック解除された称号の能力を互いに提供し合うことができます。そして、あなたの働く街ではその効果は倍増します！ただし、これにより都市の [ICON_Amenities] アメニビリティと [ICON_PressureDown] 忠誠度が低下します。これは通常致命的ではありませんが、常に攻撃されやすい脆弱性です。
+[NEWLINE][NEWLINE] テンペスト チトゥンワンは、チーシー クアンをしっかり守ることができる非常に優れたリーダーです。同時に、彼女が提供する追加の知事は、文明能力と連動して知事を持つ都市に追加の効果を提供するだけでなく、より多くの助けを提供することもできます。
+[NEWLINE] AI として、テンペストが奇襲戦争を開始する可能性は低いですが、武力を擁護する人物として、彼女は依然としてあなたにとって脅威となる可能性があります。十分な軍隊を維持することは、自己防衛のために依然として合理的な選択です。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>Qisikuang の能力は総督を中心に展開します。スパイを使って[知事を陥れ]、Qisi Kuangの作戦と戦うことを検討することもできます。
+[NEWLINE] しかし、ウィンペス・チトゥンワンの指導の下、彼らの軍事力は過小評価できません。陸上戦闘ユニットは、ポーランド軽騎兵のような近接攻撃で敵を追い払うだけでなく、長距離攻撃も可能です。敵を追い詰めると追加ダメージも！
+[NEWLINE] チジマニアの問題を力で解決したい場合は、ウィンパース・チトゥンワンにユニットが追い詰められるのを避け、ユニットが戦略に有利な位置に確実に押し戻されるようにし、スパイを使ってチジマニアを攻撃してください。能力。しかし、斉光の忠誠の問題については破壊活動を開始する方が良いだろう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>テンペスト キトゥンワン、戦争の侍女であり、キシクアンの族長があなたの前に立っていました。何か言いたいことがあれば、言ってください！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>一緒に座りたいですよね？ここまで行くと世界を見るためだけではないでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>あなたは私にあなたの言語を上手に教える必要があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>交換して決済の住所を入れますか？あなたは＿＿したいですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>えっと？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>それなら私を受け入れて、今度はお返しに贈り物をしてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>それは自分の中に留めておいてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>贈り物。私たちの代表団が皆さんにもたらすもの、そして皆さん全員にもたらされるもの。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>ご質問がございましたら、弊社の代表団にお問い合わせください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>ちくしょう、恥知らずな赤い男に渡してください...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>大使館と外交関係を確立することは非常に重要なので、慎重に検討する必要があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>それは友情のしるしだと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>これは私たちに反することですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>君を見ていると侮れないよ、行きましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>話す必要はありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>私たちを通り抜けたいなら、国境を開けてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>同意しました、ソーシャルバーのこの料理を飲みましょう、私たち。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>いや、いや、いや、言ったじゃないですか！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>この社交ワインを一緒に飲みませんか？あなたと私。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>これは素晴らしい動きです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>えっと？私をからかってるの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>あなたにとっても私にとっても、契約を結ぶことは非常に重要です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_GOSSIP_POSITIVE" Language="ja_JP">
+			<Text>（あなたの軍事力は非常に強力です）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_GOSSIP_NEGATIVE" Language="ja_JP">
+			<Text>(あなたの軍隊は弱いです)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>襲撃をしたいですか？私はすべてを見てきました、あなたの人々が撤退するか、あなたが私たちに善戦するかのどちらかです！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>……無駄。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>実行可能、取引</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>ツク…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>わざとやったのですか？遅かれ早かれ教訓を教えてやるよ、このガキ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>あなたのような昆虫がどうして故郷を守れるのでしょうか？ [NEWLINE](あなたを非難します)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>うーん、二度と戻ってこないようにしてみます！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>くだらない話はやめて、戦いを始めましょう！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>このゴミめ、今回は一時的に勘弁してやる。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>立ち去れ、武器をしっかりと構えろ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>うわー、私は本当にあなたを過小評価しています...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="ja_JP">
+			<Text>うわー、私は本当にあなたを過小評価しています...</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_NAME" Language="ja_JP">
+			<Text>ホン・ルイイチ・アプガイ</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_TITLE" Language="ja_JP">
+			<Text>赤色巫女</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_SHORT_TITLE" Language="ja_JP">
+			<Text>赤い魔女</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_DESCRIPTION" Language="ja_JP">
+			<Text>ホン・ルイチーさんは優しい顔立ちと長い時間をかけて蓄積された知恵を持っています。彼女は外交、戦争、建設、信仰に役立ちます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BZYSWS_NAME" Language="ja_JP">
+			<Text>占い、医学、魔術</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BZYSWS_DESCRIPTION" Language="ja_JP">
+			<Text>街を占拠するにはわずか 3 ターンしかかかりません。 [NEWLINE] 都市の改良工事、建物、地域は自然災害から保護されています。 [NEWLINE]都市で生み出された入植者は、[ICON_Citizen]の人口にはカウントされません。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PPFT_NAME" Language="ja_JP">
+			<Text>ププの習慣</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PPFT_DESCRIPTION" Language="ja_JP">
+			<Text>雇用都市から 10 タイル以内の味方ユニットは +2 [ICON_Movement] の移動力を獲得します。 [NEWLINE]発足都市における他の文明のスパイの攻撃レベルは-2です。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_TJX_MOVE_NAME" Language="ja_JP">
+			<Text>ホン・ルイイチのインスピレーション: +2 [ICON_Movement] 移動</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_TJX_MOVE_DESCRIPTION" Language="ja_JP">
+			<Text>ホン・ルイイチのインスピレーション: +2 [ICON_Movement] 移動</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_LJXY_NAME" Language="ja_JP">
+			<Text>凌君信義</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_LJXY_DESCRIPTION" Language="ja_JP">
+			<Text>主要文明の首都[ICON_Capital]に派遣される際、[ICON_STAT_GRIEVANCE]に不満がある場合、さらに3ポイント崩壊させます。 [NEWLINE]オーバーロードのすべての都市国家について、そのユニットの戦闘力は +4 [ICON_Strength] です (課税ユニットを含む)。</Text>
+		</Replace>
+		<Replace Tag="LOC_TJX_CITYSTATES_COMBAT_MODIFIER" Language="ja_JP">
+			<Text>+4 [ICON_Strength] リンジュン・シンイー</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RCZY_NAME" Language="ja_JP">
+			<Text>温かい願い</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RCZY_DESCRIPTION" Language="ja_JP">
+			<Text>最初の都市は、[ICON_Citizen] の人口に関係なく、追加の専門エリアを構築できます。 [NEWLINE]すべての都市の[ICON_Faith]信仰が+3されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CHXN_NAME" Language="ja_JP">
+			<Text>赤い信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CHXN_DESCRIPTION" Language="ja_JP">
+			<Text>就任都市によって生産または購入された軍事ユニット、+1 レベル [ICON_Promotion] 昇進。 [NEWLINE]聖地の建設に必要な時間が半分に短縮されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HXZM_NAME" Language="ja_JP">
+			<Text>給与計算の夢</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HXZM_DESCRIPTION" Language="ja_JP">
+			<Text>発足後は、すべての都市が[ICON_Faith]信仰を利用して民間ユニットを購入できるようになります。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CAPITAL" Language="ja_JP">
+			<Text>齐屯宛</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_1" Language="ja_JP">
+			<Text>アカシア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_2" Language="ja_JP">
+			<Text>ヒチカ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_3" Language="ja_JP">
+			<Text>ダス ジジン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_4" Language="ja_JP">
+			<Text>やすにぐ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_5" Language="ja_JP">
+			<Text>ちゃこみか</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_6" Language="ja_JP">
+			<Text>テ・ラン・クイ・イー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_7" Language="ja_JP">
+			<Text>私の愛</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_8" Language="ja_JP">
+			<Text>ゲシェイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_9" Language="ja_JP">
+			<Text>ゴセツィン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_10" Language="ja_JP">
+			<Text>杜子郎渓</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_11" Language="ja_JP">
+			<Text>タスファール</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_12" Language="ja_JP">
+			<Text>クアイン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_13" Language="ja_JP">
+			<Text>ティクワリガ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_14" Language="ja_JP">
+			<Text>ワトシ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_15" Language="ja_JP">
+			<Text>エラトニ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_16" Language="ja_JP">
+			<Text>オコネル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_17" Language="ja_JP">
+			<Text>ニコヴァルディ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_18" Language="ja_JP">
+			<Text>エラウォシ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_19" Language="ja_JP">
+			<Text>これは悪いです</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_20" Language="ja_JP">
+			<Text>タリイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_1" Language="ja_JP">
+			<Text>アトシ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_2" Language="ja_JP">
+			<Text>ダストゥ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_3" Language="ja_JP">
+			<Text>アツダ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_4" Language="ja_JP">
+			<Text>茨米</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_5" Language="ja_JP">
+			<Text>山鹿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_6" Language="ja_JP">
+			<Text>ヨナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_7" Language="ja_JP">
+			<Text>井田</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_8" Language="ja_JP">
+			<Text>トゥーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_9" Language="ja_JP">
+			<Text>ワルハリ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_10" Language="ja_JP">
+			<Text>カヌナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_1" Language="ja_JP">
+			<Text>ウレジア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_2" Language="ja_JP">
+			<Text>ヴォヤ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_3" Language="ja_JP">
+			<Text>紙</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_4" Language="ja_JP">
+			<Text>サンファ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_5" Language="ja_JP">
+			<Text>あよか</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_6" Language="ja_JP">
+			<Text>ガリラシ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_7" Language="ja_JP">
+			<Text>エノーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_8" Language="ja_JP">
+			<Text>ゴラバ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_9" Language="ja_JP">
+			<Text>キンバリー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_10" Language="ja_JP">
+			<Text>カヤ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_1" Language="ja_JP">
+			<Text>ニムロッド</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_2" Language="ja_JP">
+			<Text>フランクリン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_3" Language="ja_JP">
+			<Text>ネッド</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_4" Language="ja_JP">
+			<Text>カオヤイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_5" Language="ja_JP">
+			<Text>赤い鳥</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_6" Language="ja_JP">
+			<Text>アーフリ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_7" Language="ja_JP">
+			<Text>与那国島</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_8" Language="ja_JP">
+			<Text>鳳城夏金</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_9" Language="ja_JP">
+			<Text>オナコナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_10" Language="ja_JP">
+			<Text>チャールズ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_1" Language="ja_JP">
+			<Text>ユウナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_2" Language="ja_JP">
+			<Text>ケイト</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_3" Language="ja_JP">
+			<Text>アメリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_4" Language="ja_JP">
+			<Text>オスラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_5" Language="ja_JP">
+			<Text>ウスティナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_6" Language="ja_JP">
+			<Text>オコノストタ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_7" Language="ja_JP">
+			<Text>エノーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_8" Language="ja_JP">
+			<Text>ウォ・ヤ・チアン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_9" Language="ja_JP">
+			<Text>南乃ひよ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_10" Language="ja_JP">
+			<Text>チトカラ</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_QSKTT" Language="ja_JP">
+			<Text>滕道教</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_QSKTT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ケルオキヤに残された記録によると、当時の記者が赤紫光市の滕道教の宗教指導者ホンルイチ・アプガイにインタビューした際、彼女は西洋人旅行者の伝説を語ったという。伝説によれば、彼らによく似た一団が西の果てからやって来たが、彼らの肌はより速く、より白く、彼らはそれぞれ「宋」族と「倪鵬」族の出身であると主張した（推測されている）彼らは当時東からやって来たはずです）、中国の宋時代の人々と日本人）、そして新しい知識を部族にもたらしました。その後、去っていく人もいれば、留まる人もおり、度重なる文化統合により、地元のトーテム信仰、道教、神道が混ざり合った組織的な宗教が誕生し、これが滕道教の原型となった。その後、ヨーロッパ人の到来とともに、この宗教はキリスト教文化に統合されました。</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_1" Language="ja_JP">
+			<Text>シャッド</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_2" Language="ja_JP">
+			<Text>ブットプ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_3" Language="ja_JP">
+			<Text>シーザー・キング</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_4" Language="ja_JP">
+			<Text>レイマ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_5" Language="ja_JP">
+			<Text>オザンヌ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_6" Language="ja_JP">
+			<Text>マイエフ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_7" Language="ja_JP">
+			<Text>ネイト・リー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_8" Language="ja_JP">
+			<Text>サリアン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_9" Language="ja_JP">
+			<Text>レッサー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MALE_10" Language="ja_JP">
+			<Text>カッソン図</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_1" Language="ja_JP">
+			<Text>ラリー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_2" Language="ja_JP">
+			<Text>サタール</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_3" Language="ja_JP">
+			<Text>ニャーワ・プルカ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_4" Language="ja_JP">
+			<Text>ソラーロ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_5" Language="ja_JP">
+			<Text>パンレー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_6" Language="ja_JP">
+			<Text>セレ・メイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_7" Language="ja_JP">
+			<Text>アイダロ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_8" Language="ja_JP">
+			<Text>法学</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_9" Language="ja_JP">
+			<Text>タル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_FEMALE_10" Language="ja_JP">
+			<Text>ライシュ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_1" Language="ja_JP">
+			<Text>スパイク</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_2" Language="ja_JP">
+			<Text>オリオン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_3" Language="ja_JP">
+			<Text>スターク</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_4" Language="ja_JP">
+			<Text>テッレ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_5" Language="ja_JP">
+			<Text>古いです</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_6" Language="ja_JP">
+			<Text>アビサ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_7" Language="ja_JP">
+			<Text>シリアン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_8" Language="ja_JP">
+			<Text>ジアレ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_9" Language="ja_JP">
+			<Text>集まる</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_MALE_10" Language="ja_JP">
+			<Text>ホカ・ミンタラン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_1" Language="ja_JP">
+			<Text>モダボ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_2" Language="ja_JP">
+			<Text>モンマルトル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_3" Language="ja_JP">
+			<Text>ソフィー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_4" Language="ja_JP">
+			<Text>阿修羅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_5" Language="ja_JP">
+			<Text>ミリー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_6" Language="ja_JP">
+			<Text>ギセラ・リース</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_7" Language="ja_JP">
+			<Text>八雲恋</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_8" Language="ja_JP">
+			<Text>ユウキ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_9" Language="ja_JP">
+			<Text>デイリーモン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_JKS_MODERN_FEMALE_10" Language="ja_JP">
+			<Text>ヴィカスナイデマ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_NAME" Language="ja_JP">
+			<Text>ジンカンシェン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_DESCRIPTION" Language="ja_JP">
+			<Text>京康生軍団</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_DESCRIPTION_JFD_CIVILIZATION" Language="ja_JP">
+			<Text>京康生軍団</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_ADJECTIVE" Language="ja_JP">
+			<Text>ジンカンシェン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_JKS_BINOMIAL_NAME" Language="ja_JP">
+			<Text>ショックを受けた</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_NAME" Language="ja_JP">
+			<Text>乱流の死体の川</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_DESCRIPTION" Language="ja_JP">
+			<Text>都市には戦争による疲労はなく、川に隣接するユニットの戦闘力は+4 [ICON_Strength] です。
+[NEWLINE] 各軍事ユニットは首都に +1 [ICON_Gold] ゴールド コインを提供します。[軍事訓練]/[傭兵]/[国家主義]/[動員]のロックを解除すると、各ユニットはさらに +1 [ICON_Gold] ゴールド コインを提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_JKS_ADJACENT_TO_RIVER_UNITS_STRENGTH" Language="ja_JP">
+			<Text>+{1_num} [ICON_Strength] 戦闘力 乱流死体の川</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JKS_KR_NAME" Language="ja_JP">
+			<Text>マッド・メン</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JKS_KR_DESCRIPTION" Language="ja_JP">
+			<Text>Jingkansheng の特殊ユニット: [Warrior] に代わるもので、[ICON_Movement] の機動性が高く、建設コストがわずかに低くなります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_JKS_ZTY_NAME" Language="ja_JP">
+			<Text>兵士キャンプ</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_JKS_ZTY_DESCRIPTION" Language="ja_JP">
+			<Text>Jingkansheng の特徴的なエリア: [軍事キャンプ] を置き換え、[コード] によってロックが解除されます。コストは一定で27、偉大さポイントは提供されず、専門領域の一部ではありません。
+[NEWLINE]+4 [ICON_Housing] ハウジング。
+[NEWLINE]都市で生産される各軍事ユニットは首都に +1 [ICON_Gold] ゴールドを提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_JKS_HY_NAME" Language="ja_JP">
+			<Text>ジェリー・アリス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MILITARY_TRAINING_QUOTE_3" Language="ja_JP">
+			<Text>子供であることを罰せられなければ、あなたはいつまでも子供のままです。 [NEWLINE]——グイ・ルイ・ルイス</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_JKS_HY_NAME" Language="ja_JP">
+			<Text>狂った</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_JKS_HY_DESCRIPTION" Language="ja_JP">
+			<Text>野蛮な要塞を掃討し、略奪し、不意を突いて宣戦布告する傾向がある。 [NEWLINE] 戦争状態にある野蛮な村や文明を一掃したいですか?私は野蛮な村を一掃せずに平和な文明を憎んでいます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HY_REASON_ANY" Language="ja_JP">
+			<Text>(あなたは平和的に発展しています)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_JKS_HY_POSITIVE" Language="ja_JP">
+			<Text>原因不明…？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HY_REASON_ANY" Language="ja_JP">
+			<Text>(あなたは戦争中です)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_JKS_HY_NEGATIVE" Language="ja_JP">
+			<Text>原因不明…？</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_JKS_HY_LOADING_INFO" Language="ja_JP">
+			<Text>お願いです、ギリ・エアリス様、どうか私を捕らえずに、一生仕えてください。あなたが人を使う方法をよく知っていることは誰もが知っています。彼らが適切な位置で正しく機能するために、あなたは凶悪犯を刺激してどこまでも追いかけることができます。あえて彼らを止める者は、前進する意欲を刺激します-あなたの罰はもっとひどいものですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_HY_NAME" Language="ja_JP">
+			<Text>狩猟エリート</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_JKS_HY_DESCRIPTION" Language="ja_JP">
+			<Text>すべての軍事ユニット: 戦闘に勝利すると、同じフォーメーション内のユニットとの [ICON_Movement] 機動力がすぐに回復し、再度攻撃することが許可されます。戦闘に勝利すると、すべてのタイプの 4 [ICON_Greatperson] グレート ポイントが得られます。
+[NEWLINE] [ICON_Greatperson] が使用されるたびに、それが所有する都市の対応するタイプの出力が +1 されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_HY_NO_REDUCTION_DAMAGE_NAME" Language="ja_JP">
+			<Text>戦闘勝利後、同じ編成のユニットとともに[ICON_Movement]の機動力が即時回復し、再度攻撃可能となり、戦闘に勝利すると全種類の偉大さポイントを4ポイント獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_HY_NO_REDUCTION_DAMAGE_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘勝利後、同じ編成のユニットとともに[ICON_Movement]の機動力が即時回復し、再度攻撃可能となり、戦闘に勝利すると全種類の偉大さポイントを4ポイント獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_UNIT_YIELD_NAME" Language="ja_JP">
+			<Text>文明能力から：[ICON_Gold]金貨を首都に提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKS_UNIT_YIELD_DESCRIPTION" Language="ja_JP">
+			<Text>文明能力から：[ICON_Gold]金貨を首都に提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKSZTY_UNIT_YIELD_NAME" Language="ja_JP">
+			<Text>注目エリアから: [ICON_Gold] 金貨を首都に提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JKSZTY_UNIT_YIELD_DESCRIPTION" Language="ja_JP">
+			<Text>注目エリアから: [ICON_Gold] 金貨を首都に提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_TITLE" Language="ja_JP">
+			<Text>主を恐れよ、長官</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_SUBTITLE" Language="ja_JP">
+			<Text>恐ろしい邪悪な主</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_JKS_HY_QUOTE" Language="ja_JP">
+			<Text>食事は一度に一口ずつ食べる必要があるので、私は毎食一口しか食べません。少なくとも一日に千一食は食べます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>恐怖政治と人々をうまく利用する能力で知られる京康生の指導者は、異色の目を持って生まれました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>京漢の人々は [ICON_Gold] 戦争に熱中しており、軍隊に参加するために税金を払っても構わないと考えています。川は彼らに力をもたらしてくれます。
+[NEWLINE][NEWLINE] Gui Rui Eresu の指揮の下、Jingkansheng の軍事ユニットは戦闘で勝利することで追加のアクションを獲得でき、非常に柔軟です。同時に、戦闘に勝利したり略奪したりすることで偉人ポイントを獲得し、偉人を使って都市に生産物を提供することもできます。
+[NEWLINE] ジンカンの学生はAIとして完全に殲滅したほうがいいです。彼らは文明を装った野蛮人の集団にすぎません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JKS_HY_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>Jingkansheng の軍事部隊が存在するだけで、略奪に多くの時間を費やすことなく、首都に [ICON_Gold] を提供できます。
+[NEWLINE] ギルイ エレスの統治下では、戦いや略奪で勝利するたびに、偉人に働かせるための偉人ポイントが得られます。たとえ偉人が引退したとしても、ギルイは彼らを賞賛させることができます。都市が誕生する都市対応するタイプの出力ボーナスを提供します。
+[NEWLINE] 戦場では、Gui Rui が突破口を掴んで部隊の 1 つを全滅させると、勝利した部隊が再び攻撃できるようになります。これは決戦の場では非常に致命的です。
+[NEWLINE] このような野蛮な帝国が乱暴に成長することを許すことはできません。何としてでもこの文明を殲滅することがあなたの最優先事項となります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>誰がここにいるか見てみましょう？あ～あそこにあの人じゃないですか？結局のところ、おじさん、私はあなたの名前を聞いたことがありませんでしたが、今日は自己紹介する機会があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>あなたの訪問を楽しみにしています。道を案内してみませんか?さようなら。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>とても裕福な場所のようですね...はは、さあ、見てみましょう!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>首都の位置を教えてください。首都の位置情報を交換するという小さなルールについては、私は喜んで守ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>続ける。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>えー、このご好意は……お受けいたします、先生。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>やあ、先生、ちょっとしたお返しに、あなたの代表団が作った頭蓋骨でできたワインカップはいかがですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>興奮しないでください、私が今日ここに来たのはただ 1 つのこと、それはあなたに少しの甘さを与えるためです...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>はい、全体像はわかりますね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>わあ、ラング、そんなに強いの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>私はまだあなたたちとゲームをするつもりですが、急いで大使館を建てるために土地を割り当ててください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>はい、全体像はわかりますね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>わあ、ラング、そんなに強いの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>ハハ、結果は自己責任でお願いします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>おっと、この床は荒れすぎています…ね？今何か言いましたか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>おじさん、直接テリトリーに入ってもいいけど、ゲームをするときはルールを守らないと楽しくないよね？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>とりあえずこれをやってみましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>ふふふ…あなたはとても勇敢です！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>おじさん、今回私がここに来たのはただ一つ、セックスしてくれ、そうでなければ私があなたに似合いますよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>悪くない、とても知識が豊富。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>わあ、ラング、そんなに強いの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>おじさん、今回私がここに来たのはただ一つ、セックスしてくれ、そうでなければ私があなたに似合いますよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>回復することによってのみ、富を生み出すことができますよね？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JKS_HY_REASON_AGENDA_ATTACKS_BARBARIANS" Language="ja_JP">
+			<Text>わかった、わかった、すごい！全財産を貯めたんですよね？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HY_NOT_WARMONGER_SUBJECT" Language="ja_JP">
+			<Text>(あなたは平和的に発展しています)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>ああ、戦争よ、私は正義であり、何もせずに傍観しているつもりはありません〜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HY_IS_WARMONGER_SUBJECT" Language="ja_JP">
+			<Text>(あなたは戦争中です)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_JKS_HY_REASON_AGENDA_IGNORES_BARBARIANS" Language="ja_JP">
+			<Text>おいおい、部外者に荒らされて財産をすべて奪われてしまうのは本当に悲しいことだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>おじさん、私は昔から感受性が豊かで、人の心のさまざまな感情をよく察知してしまうんです――。
+[NEWLINE]私は喜び、怒り、悲しみ、喜び...殺意さえも感知できます。
+[改行]——だから、私の前で悪戯しようとしないでください、グイ・ルイ・ルイス、わかりますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>ふふ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>約束。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>おっと、この投槍は投槍すぎる…あれ？今何か言いましたか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>話させてもらいましたか？ [NEWLINE](あなたを非難します)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>ハハ…何かやってみませんか？いい子だよ、ありがとう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>今日、私がここに来たのは 2 つの目的だけです。1 つは税金の支払いをお願いするため、もう 1 つはあなたから商品を購入するためです。新しいドクロのワイン カップが欲しいのです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>はい、大まかな考え方はわかりましたので、今回は行かせていただきます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>よーよーよー...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>今日は慈悲深くて…ご褒美に獲物をあげます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>はは…捕まえられない…いつでも戻ってくるかもしれないという恐怖に浸ってください…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_JKS_HY_ANY" Language="ja_JP">
+			<Text>はは…捕まえられない…いつでも戻ってくるかもしれないという恐怖に浸ってください…</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CAPITAL" Language="ja_JP">
+			<Text>ジカシェ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_1" Language="ja_JP">
+			<Text>キングソル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_2" Language="ja_JP">
+			<Text>アシュランカ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_3" Language="ja_JP">
+			<Text>モストロン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_4" Language="ja_JP">
+			<Text>ピクスタ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_5" Language="ja_JP">
+			<Text>コビンスル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_6" Language="ja_JP">
+			<Text>チリト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_7" Language="ja_JP">
+			<Text>フォルセンクレイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_8" Language="ja_JP">
+			<Text>ナオスリ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_9" Language="ja_JP">
+			<Text>セラーノ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_10" Language="ja_JP">
+			<Text>フィギュア オーウェン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_11" Language="ja_JP">
+			<Text>デセラニ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_12" Language="ja_JP">
+			<Text>ライトの法則</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_13" Language="ja_JP">
+			<Text>ベカノバ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_14" Language="ja_JP">
+			<Text>ラレー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_15" Language="ja_JP">
+			<Text>アリドール</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_16" Language="ja_JP">
+			<Text>スリランカ・ヒル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_17" Language="ja_JP">
+			<Text>ミニドディア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_18" Language="ja_JP">
+			<Text>ポリミシア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_19" Language="ja_JP">
+			<Text>タタム・セカカ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JKS_CITY_20" Language="ja_JP">
+			<Text>リン・スレビン</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

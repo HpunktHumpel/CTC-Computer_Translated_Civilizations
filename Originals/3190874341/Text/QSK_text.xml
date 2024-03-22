@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Replace Tag="LOC_CIVILIZATION_QSK_NAME" Language="zh_Hans_CN">
+			<Text>绮司狂</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>绮司狂王国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_DESCRIPTION_JFD_CIVILIZATION" Language="zh_Hans_CN">
+			<Text>绮司狂王国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>绮司狂</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_BINOMIAL_NAME" Language="zh_Hans_CN">
+			<Text>绮司狂的</Text>
+		</Replace>
+		<!--相关数据-->
+		<Replace Tag="LOC_CIVINFO_QSK_LOCATION" Language="zh_Hans_CN">
+			<Text>今美国东南地区，北至北卡罗来纳，南至佛罗里达，西至阿拉巴马。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_SIZE" Language="zh_Hans_CN">
+			<Text>占地面积654,817平方公里</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_POPULATION" Language="zh_Hans_CN">
+			<Text>估约452万人</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_QSK_CAPITAL" Language="zh_Hans_CN">
+			<Text>齐屯宛</Text>
+		</Replace>
+		<!-- Civilization Trait -->
+		<Replace Tag="LOC_TRAIT_QSK_NAME" Language="zh_Hans_CN">
+			<Text>猩色司国会</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+			就职总督的 [ICON_Governor] 头衔效果可提供给其他拥有 [ICON_Governor] 总督就职的城市，并为自身就职城市提供的效果翻倍。
+				[NEWLINE]但总督就职的城市-1 [ICON_Amenities] 宜居度；总督每拥有一级头衔，就职城市额外-1 [ICON_PressureDown] 忠诚度。
+				[NEWLINE]从【法典】/【政治哲学】/【行政部门】中分别获得1/2/3个 [ICON_Governor] 总督头衔。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HYDP_NAME" Language="zh_Hans_CN">
+			<Text>红鹰大炮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HYDP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				绮司狂特色单位：替代【射石炮】，由【外交部门】解锁
+				[NEWLINE]维护费更低，不需要战略资源。但只能使用金币购买
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_NAME" Language="zh_Hans_CN">
+			<Text>凶怪图腾</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				绮司狂特色改良设施，每城限制一座。需要建造在丘陵地形或拥有树林、雨林地貌的单元格上。
+				[NEWLINE]+2 [ICON_Housing] 住房。
+				[NEWLINE]与凶怪图腾相邻的敌对单位，-5 [ICON_Strength] 战斗力。同一单元格的单位视作已驻扎，并在防御时+4 [ICON_Strength] 战斗力。
+				[NEWLINE]单元格+2 [ICON_Faith] 信仰值和 [ICON_Culture] 文化值。解锁【神秘主义】/【神学】/【归正会】分别额外获得+1/+2/+3 [ICON_Faith] 信仰值和 [ICON_Culture] 文化值。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_QSK_TT_ADJACENT_AT_WAR_MOD" Language="zh_Hans_CN">
+			<Text>-5 [ICON_Strength] 相邻凶怪图腾</Text>
+		</Replace>
+
+
+		<!--LEADER-->
+		<Replace Tag="LOC_LEADER_QSK_FY_NAME" Language="zh_Hans_CN">
+			<Text>温佩丝·齐屯宛</Text>
+		</Replace>
+		<!--Agenda-->
+		<Replace Tag="LOC_AGENDA_QSK_FY_NAME" Language="zh_Hans_CN">
+			<Text>林间醒熊</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_QSK_FY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>绝不发动突袭战争和投降，总是试图维持庞大军队，尊重军力庞大的文明，轻视军力弱小的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>(你重视军力)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_QSK_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>温佩丝·齐屯宛 尊重强者</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>(你军力弱小)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_QSK_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>温佩丝·齐屯宛 轻视弱者</Text>
+		</Replace>
+		<!--DOM-->
+		<Replace Tag="LOC_LEADER_QSK_FY_LOADING_INFO" Language="zh_Hans_CN">
+			<Text>用您的铁拳来守护你的故乡吧，温佩丝·齐屯宛。您坚定不移的战斗英姿激励着你的勇士们在战场上全力以赴、百战不殆！破开一切笼罩子民们头顶上的阴霾，而后您就能安心地呵护故乡的繁荣成长，为此，您的挚友也会助您一臂之力。温佩丝，钢腕主母，我们永远值得依赖的荫庇。</Text>
+		</Replace>
+		<!--Traits-->
+		<Replace Tag="LOC_TRAIT_QSK_FY_NAME" Language="zh_Hans_CN">
+			<Text>钢腕主母</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QSK_FY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				陆地战斗单位：位于丘陵时无视 [ICON_Strength] 受伤减益；若在进攻时压制敌人，便可以将敌人驱赶 1 个单元格，若敌人无路可退则对其追加额外伤害。（远程打击也可生效）
+				[NEWLINE]拥有特色总督【赤巫】弘瑞慈·阿普盖。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_FY_NO_REDUCTION_DAMAGE_NAME" Language="zh_Hans_CN">
+			<Text>
+				位于丘陵时无视 [ICON_Strength] 受伤减益；压制敌人时将其驱逐。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_FY_NO_REDUCTION_DAMAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				位于丘陵时无视 [ICON_Strength] 受伤减益；压制敌人时将其驱逐。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QSKFY_TJX_GOVERNOR_NAME" Language="zh_Hans_CN">
+			<Text>赤色巫女</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QSKFY_TJX_GOVERNOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				拥有特色总督【赤巫】弘瑞慈·阿普盖，她在外交、战争、建设和信仰都有帮助。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_SOCIAL_MEDIA_QUOTE_3" Language="zh_Hans_CN">
+			<Text>
+				昨天我是一个地平论者，今天我是一个不可知论者，明天我会是一个地球中心论者，后天又会是一个环保的素食主义者。[NEWLINE]——弘瑞慈·阿普盖
+			</Text>
+		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_TITLE" Language="zh_Hans_CN">
+			<Text>战争主母，酋长</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_SUBTITLE" Language="zh_Hans_CN">
+			<Text>钢拳铁腕的女杰</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QSK_FY_QUOTE" Language="zh_Hans_CN">
+			<Text>哼，瑰瑞·埃芮夙？定叫他有来无回！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>一直以来，温佩丝·齐屯宛都被认为是一个英勇善战的女战士，她曾多次参与战斗，多次从惊瞰生的瑰瑞·埃芮夙、以及欧罗巴殖民者的袭击下保全故乡的财产。</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				绮司狂的总督非常善于合作，能够在相互之间提供自己已经解锁的头衔能力。并且在自己就职的城市中效果翻倍！但是这会减少城市的 [ICON_Amenities] 宜居度和 [ICON_PressureDown] 忠诚度。通常而言这并不致命，然而这始终会成为一个容易被攻击的弱点
+				[NEWLINE][NEWLINE]温佩丝·齐屯宛是个十分善战的领袖，她可以很好地保护绮司狂。同时她所提供的额外总督既能配合文明能力为拥有总督就任的城市额外提供效果，也能为你提供更多的帮助。
+				[NEWLINE]作为AI时，温佩丝不太可能发动突袭战争，但是作为一个崇尚武力之人，她依然有可能对你产生威胁，维持足够军队总归还是一个理性的自保选择。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QSK_FY_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>
+				绮司狂的能力围绕总督进行。可以考虑使用间谍进行【陷害总督】，打击绮司狂的运作。
+				[NEWLINE]只是在温佩丝·齐屯宛的领导下，他们的军事力量也不容小觑。陆地战斗单位不仅是近战攻击能够像波兰翼骑兵那样驱逐敌人，就连远程打击也能生效。若敌人被逼至绝境，甚至会受到额外伤害！
+				[NEWLINE]若想武力解决绮司狂问题，尽量避免单位被温佩丝·齐屯宛逼至绝境、尽力确保单位被击退的方位有利于你的战略，并使用间谍打击绮司狂的能力运作。但最好还是针对绮司狂的忠诚度问题展开颠覆行动。
+			</Text>
+		</Replace>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>温佩丝·齐屯宛——战争主母，也是绮司狂的酋长，就站在你的面前。有话快说！</Text>
+		</Replace>
+		<!--AI invitation to visit nearby City-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>你有意来我们那边坐坐吧应该？走这么远不就是为了见见世面么。</Text>
+		</Replace>
+		<!--AI accepts Human invitation-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>你们的语言可就要好好教教我了。</Text>
+		</Replace>
+		<!--AI invitation to exchange Capital Information-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>交换一下，把定居点的地址？愿意么？</Text>
+		</Replace>
+		<!--GREETINGS-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>嗯？</Text>
+		</Replace>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>那就接受了我，下次回礼给你。</Text>
+		</Replace>
+		<!--AI Rejects-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>自个儿留着吧你。</Text>
+		</Replace>
+		<!--AI Requests -->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>礼物。我们代表团给你带来的，还有你们所有人的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>可以找我们的代表团，有事的话。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>啧，给脸不要脸的赤佬……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>大使馆建交，很重要的，你认真考虑。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>这是友好的象征，我相信。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>这是要和我们作对吗，所以？</Text>
+		</Replace>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>盯着你们的我绝不会掉以轻心，过去吧。</Text>
+		</Replace>
+		<!--AI rejects from human-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>没得谈。</Text>
+		</Replace>
+		<!--AI requests from human-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>要过去我们，开放边境吧。</Text>
+		</Replace>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>同意，喝下这碟交谊酒吧，我们。</Text>
+		</Replace>
+		<!--AI Rejects from human -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>不行，不行就是不行，我说的！</Text>
+		</Replace>
+		<!--AI Requests friendship from human-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>可愿一同饮下这碟交谊酒？你，和我。</Text>
+		</Replace>
+		<!--Human accepts AI requests, AI responds-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>此举绝赞。</Text>
+		</Replace>
+		<!--Human rejects AI requests, AI responds-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>嗯？开玩笑呢你？</Text>
+		</Replace>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>结缔盟约，这十分重要，对于你我都是。</Text>
+		</Replace>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>不错不错，赏心悦目啊你的勇士们，值得赞赏。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hans_CN">
+			<Text>(你的军力很强)</Text>
+		</Replace>
+		<!--AI Warnings-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>羸弱不堪的虫豸，就不要再出现在我面前了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hans_CN">
+			<Text>(你的军力孱弱)</Text>
+		</Replace>
+		<!--AI warns player for border troops-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>想搞突袭吗你？我都看见了，要么你的人滚蛋，要么痛快打一场我们！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>……废物。</Text>
+		</Replace>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>可行，成交</Text>
+		</Replace>
+		<!--AI Rejects Deal-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>啧……</Text>
+		</Replace>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>故意的你？迟早教训你，个臭小子！</Text>
+		</Replace>
+		<!--From AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>你这样的虫豸，怎能保护得了家乡？[NEWLINE](谴责你)</Text>
+		</Replace>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>哼，定叫你们有来无回！</Text>
+		</Replace>
+		<!--AI Declares War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>废话少说，开打！</Text>
+		</Replace>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>废物东西，这次就饶了你，暂时的。</Text>
+		</Replace>
+		<!--AI refuses human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>滚，给我拿稳了武器！</Text>
+		</Replace>
+		<!--AI requests from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>……</Text>
+		</Replace>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>嗛，真是小看你了……</Text>
+		</Replace>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_QSK_FY_ANY" Language="zh_Hans_CN">
+			<Text>嗛，真是小看你了……</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_NAME" Language="zh_Hans_CN">
+			<Text>弘瑞慈·阿普盖</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_TITLE" Language="zh_Hans_CN">
+			<Text>赤色巫女</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>赤巫</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_QSKFY_TJX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>弘瑞慈拥有一个慈祥的面孔，也拥有日积月累下来的智慧。她在外交、战争、建设和信仰都有帮助。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BZYSWS_NAME" Language="zh_Hans_CN">
+			<Text>卜术、医术、巫术</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BZYSWS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				就职城市仅需3回合。[NEWLINE]本城的改良设施、建筑与区域不受自然灾害侵袭。[NEWLINE]城市中生产的开拓者不计入 [ICON_Citizen] 人口。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PPFT_NAME" Language="zh_Hans_CN">
+			<Text>仆仆风土</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PPFT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				就职城市十个单元格以内的己方单位+2 [ICON_Movement] 移动力。[NEWLINE]就职城市的其他文明间谍进攻等级-2。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_TJX_MOVE_NAME" Language="zh_Hans_CN">
+			<Text>
+				弘瑞慈的激励：+2 [ICON_Movement] 移动力
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_QSK_TJX_MOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				弘瑞慈的激励：+2 [ICON_Movement] 移动力
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_LJXY_NAME" Language="zh_Hans_CN">
+			<Text>令军信义</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_LJXY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				派遣至主要文明 [ICON_Capital] 首都时，使其对你的 [ICON_STAT_GRIEVANCE] 不满额外衰退3点。[NEWLINE]对所有宗主的城邦，其单位+4 [ICON_Strength] 战斗力（包括征召单位）。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TJX_CITYSTATES_COMBAT_MODIFIER" Language="zh_Hans_CN">
+			<Text>
+				+4 [ICON_Strength] 令军信义
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RCZY_NAME" Language="zh_Hans_CN">
+			<Text>热忱祝语</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RCZY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>就职城市可以无视 [ICON_Citizen] 人口额外建造一座专业化区域。[NEWLINE]所有城市+3 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CHXN_NAME" Language="zh_Hans_CN">
+			<Text>赤红信念</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CHXN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>就职城市生产或购买的军事单位，+1级 [ICON_Promotion] 晋升。[NEWLINE]建造 圣地 的所需时间减半。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HXZM_NAME" Language="zh_Hans_CN">
+			<Text>号饷之梦</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HXZM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>就职后，所有城市可以使用 [ICON_Faith] 信仰值购买 平民单位。</Text>
+		</Replace>
+
+
+		<!-- 城市名 -->
+		<Replace Tag="LOC_CIVILIZATION_QSK_CAPITAL" Language="zh_Hans_CN">
+			<Text>齐屯宛</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_1" Language="zh_Hans_CN">
+			<Text>艾卡恰</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_2" Language="zh_Hans_CN">
+			<Text>希蒂卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_3" Language="zh_Hans_CN">
+			<Text>达丝季金</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_4" Language="zh_Hans_CN">
+			<Text>亚苏尼古</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_5" Language="zh_Hans_CN">
+			<Text>查可麦嘉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_6" Language="zh_Hans_CN">
+			<Text>特琅阙易</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_7" Language="zh_Hans_CN">
+			<Text>妙洛芙</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_8" Language="zh_Hans_CN">
+			<Text>盖什伊</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_9" Language="zh_Hans_CN">
+			<Text>狯赛茨因</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_10" Language="zh_Hans_CN">
+			<Text>杜梓朗希</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_11" Language="zh_Hans_CN">
+			<Text>塔素法尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_12" Language="zh_Hans_CN">
+			<Text>夸豪因</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_13" Language="zh_Hans_CN">
+			<Text>蒂克瓦利加</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_14" Language="zh_Hans_CN">
+			<Text>沃托西</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_15" Language="zh_Hans_CN">
+			<Text>埃拉特尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_16" Language="zh_Hans_CN">
+			<Text>奥康希</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_17" Language="zh_Hans_CN">
+			<Text>尼可瓦迪</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_18" Language="zh_Hans_CN">
+			<Text>埃拉沃西</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_19" Language="zh_Hans_CN">
+			<Text>伊特垮</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_QSK_CITY_20" Language="zh_Hans_CN">
+			<Text>塔立伊</Text>
+		</Replace>
+
+		<!-- 市民名 -->
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_1" Language="zh_Hans_CN">
+			<Text>阿托希</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_2" Language="zh_Hans_CN">
+			<Text>达斯图</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_3" Language="zh_Hans_CN">
+			<Text>阿特萨达</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_4" Language="zh_Hans_CN">
+			<Text>茨米</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_5" Language="zh_Hans_CN">
+			<Text>山加</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_6" Language="zh_Hans_CN">
+			<Text>约拿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_7" Language="zh_Hans_CN">
+			<Text>井田</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_8" Language="zh_Hans_CN">
+			<Text>图拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_9" Language="zh_Hans_CN">
+			<Text>沃哈里</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MALE_10" Language="zh_Hans_CN">
+			<Text>卡努那</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_1" Language="zh_Hans_CN">
+			<Text>乌芮嘉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_2" Language="zh_Hans_CN">
+			<Text>沃娅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_3" Language="zh_Hans_CN">
+			<Text>帕珀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_4" Language="zh_Hans_CN">
+			<Text>桑法</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_5" Language="zh_Hans_CN">
+			<Text>阿约卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_6" Language="zh_Hans_CN">
+			<Text>加利拉希子</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_7" Language="zh_Hans_CN">
+			<Text>伊诺拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_8" Language="zh_Hans_CN">
+			<Text>戈拉巴</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_9" Language="zh_Hans_CN">
+			<Text>金柏莉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_FEMALE_10" Language="zh_Hans_CN">
+			<Text>卡娅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>尼姆罗德</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>富兰克林</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>内德</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>考艾</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>雷德伯德</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>阿胡里</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>约纳古斯卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>丰城夏津</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>欧纳科那</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>查尔斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>尤娜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>凯特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>阿米莉亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>奥丝拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>乌丝蒂娜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>欧科诺丝托塔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>伊诺拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>沃雅前</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>南野希代</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_QSK_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>齐特卡拉</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_QSKTT" Language="zh_Hans_CN">
+			<Text>腾道教</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_QSKTT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>据残存的克惑奇雅文献记载，当时的记者采访绮司狂的腾道教的宗教领袖——弘瑞慈·阿普盖时，她为我们讲述了一个来自西方旅人的传说。传说中：从遥远的西方来了一群看起来跟他们很像，但皮肤更快白暂的人，他们自称分别来自于“宋”部落与“尼朋”部落（据推测，应当是当时东渡的中华宋朝人与日本人），并为部落带来了新奇的知识。尽管后来一部分人离开了，但另一部分人选择了留下，在反复的文化融合中，一种掺杂了本土图腾信仰、道教、神道教的有组织的宗教诞生了，这就是最初的腾道教的雏形。后来随着欧洲人的到来，这种宗教又融入了基督教的文化。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
