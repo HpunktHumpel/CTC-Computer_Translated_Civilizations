@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Replace Tag="LOC_CIVILIZATION_KHJY_NAME" Language="zh_Hans_CN">
+			<Text>克惑奇雅</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>克惑奇雅会议</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_DESCRIPTION_JFD_CIVILIZATION" Language="zh_Hans_CN">
+			<Text>克惑奇雅会议</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>克惑奇雅</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_KHJY_BINOMIAL_NAME" Language="zh_Hans_CN">
+			<Text>克惑奇雅的</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_JSYS_NAME" Language="zh_Hans_CN">
+			<Text>矍铄勇士</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JSYS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>【军事传统】解锁，拥有独特晋升树且初始拥有1级 [ICON_Promotion] 晋升，护送时+5[ICON_Strength]战斗力。。[NEWLINE]建造后-1 [ICON_Citizen] 人口，享受总督【马格努斯】的头衔【给养保障】，随【军事学】的解锁被淘汰。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JMQS_NAME" Language="zh_Hans_CN">
+			<Text>绝命骑士</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JMQS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>【军事学】解锁，必须用金币购买的昂贵特色骑兵。与抗骑兵单位作战时不受压制，移动速度很快，拥有独特晋升树且获得的经验值翻倍。[NEWLINE]受护送的单位获得同等 [ICON_Movement] 移动能力，护送时+5 [ICON_Strength] 战斗力[NEWLINE]随【内燃机】解锁被淘汰</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_ABILITY_SEFE_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} 豪杰</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_ABILITY_JMQS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获取的经验翻倍</Text>
+		</Replace>
+		<Replace Tag="LOC_GID_RELIGIOUS_UNIT_SPREAD_CHARGE" Language="zh_Hans_CN">
+			<Text>+{1_num} 传教次数</Text>
+		</Replace>
+		<Replace Tag="LOC_GID_RELIGIOUS_UNIT_CONVERT_BARBS" Language="zh_Hans_CN">
+			<Text>可用传教次数感化周边蛮族</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_GID_NAME" Language="zh_Hans_CN">
+			<Text>姬德</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_GID_QUOTE_1" Language="zh_Hans_CN">
+			<Text>图画将变为引人遐思的诗篇，呼唤会化作扣人心弦的歌谣，部落也终要成世人眷恋的国家。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_GID_QUOTE_2" Language="zh_Hans_CN">
+			<Text>我爱你，脱缰的马。因此我必须放任你弃我而去，去寻得你渴盼已久的自由。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_GID_LOADING_INFO" Language="zh_Hans_CN">
+			<Text>用你的远见来回应那些难缠的行政家吧，神子姬德，在你的领导下，克惑奇雅可以很方便地为之作出改变。建起理想世界，用你灵巧又广受欢迎的手指引导一切，保护你的观测皿不受污染。你终有一天会为人类献上最佳答案。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GID_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 描述你该怎么玩这个领袖-->
+			<Text>
+				克惑奇雅的专业化区域的建设可以很早进行，竣工的同时还能通过文化炸弹来获取领土，其本身也能提供灵活的施政方式，而初始赠送的建造者也能更早进行领土开发。
+				[NEWLINE][NEWLINE]当你触发了未来但目前研究不了的科技的尤里卡时，姬德就可以提取这份尤里卡提供的研究点数，投资在当前的研究上，以更早地享受这项尤里卡带来的好处，更有可能在一个回合以内解锁多项科技。这一点对于鼓舞和文化来讲也一样。
+				[NEWLINE][NEWLINE]如果触发的技术提升正是你目前研究的技术，则不会造成影响，甚至能将原本会溢出的尤里卡进度，按研究点数的形式来保留在下一个研究项目上。因此你可能常常需要花上一点时间来规划未来一段时间的研究顺序。
+				[NEWLINE]【警告：如果尤里卡提供的进度为50%，则对应科技保留10%的研究进度，如果尤里卡提供的进度为30%，则导致对应科技需要的研究成本+10%。】
+				[NEWLINE][NEWLINE]同时，姬德的所有单位具备感化周边蛮族的能力，这是利用传教次数来实现的，所以当单位使用这个能力且传教次数归0时将会消失。不过姬德的宗教单位也因此拥有额外一次传教次数。
+				[NEWLINE][NEWLINE]此外，姬德还能提供额外的通配槽，并且外来商路能对双方都带来科研与文化加成，这在克惑奇雅的特色区域【市区】影响下，姬德可以成为整个阵营的重要贸易节点。
+				[NEWLINE][NEWLINE]克惑奇雅本身既不侧重于任何一种胜利方式，也适应于任何一种胜利方式。而领袖姬德能让克惑奇雅具备在一段时间内保持技术领先的潜力，同时蛮族的侵袭对于姬德来说并非挑战而是奖励。想要很好地利用这份优势，是十分考验玩家对游戏的理解能力的。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GID_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<!-- 领袖百科信息:描述这个领袖-->
+			<Text>
+				克惑奇雅的区域建设常常伴随着文化炸弹的发生，以至于他们可以“和平”地夺取你的领土，与这样一个邻居近距离和平共处不是一个好主意。【密西西比土墩】可以维持克惑奇雅的早期经济，【市区】的存在也使得克惑奇雅可以建设拥有高加成商路、区域的高发展度城市。
+				[NEWLINE][NEWLINE]领袖姬德能以大后期的代价来提升前中期的技术发展，并且不会惧怕来自蛮族的侵袭，反而有机会从蛮族那里得到大量军力支持。
+				[NEWLINE]【警告：如果尤里卡提供的进度为50%，则对应科技保留10%的研究进度，如果尤里卡提供的进度为30%，则导致对应科技需要的研究成本+10%。】
+				[NEWLINE][NEWLINE]然而作为Ai似乎并不会运用【感化蛮族】的能力，我只好为其增添了补强效果，在议程上增添【魅力型领袖】和【军队现代化】政策卡效果与城邦开放边境的能力，且造成的不满能够更快衰退。虽然作为Ai的姬德并不太可能主动发动战争。
+				[NEWLINE][NEWLINE]此外，姬德还能提供额外的通配槽，并且外来商路能对双方都带来科研与文化加成，这在克惑奇雅的特色区域【市区】影响下，姬德可以成为整个阵营的重要贸易节点。
+			</Text>
+		</Replace>
+
+
+		<!-- Civilization Trait -->
+		<Replace Tag="LOC_TRAIT_KHJY_NAME" Language="zh_Hans_CN">
+			<Text>活体国度</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_KHJY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将一个军事政策槽、经济政策槽和外交政策槽转换为通用政策槽，每当确立 [ICON_Capital] 首都后得到一个 [ICON_Unit] 建造者。
+				[NEWLINE]城市建成 首座 [ICON_District] 专业化区域所需 [ICON_Turn] 时间减半，[ICON_District] 专业化区域可触发文化炸弹。
+				[NEWLINE]【工程】科技提前解锁【堤坝】与【运河】的建设权。
+			</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_TRAIT_GID_NAME" Language="zh_Hans_CN">
+			<Text>启蒙催化</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将 [ICON_TechBoosted] 尤里卡/ [ICON_CivicBoosted] 鼓舞转换为等量 [ICON_Science] 科技值/ [ICON_Culture] 文化值。（转换的进度值仅限为40%）
+			[NEWLINE]外来商路为双方提供额外+2 [ICON_Science] 科技值与+2 [ICON_Culture] 文化值。
+			[NEWLINE]所有单位+1传教次数并能感化邻近蛮族单位，当传教次数归0将导致单位消失。
+			[NEWLINE]解锁【行政部门】后得到一个通配政策槽。
+			</Text>
+		</Replace>
+		<!-- Unique District -->
+		<!-- Unique District -->
+		<Replace Tag="LOC_DISTRICT_GID_CAMPUS_NAME" Language="zh_Hans_CN">
+			<Text>市区</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_GID_CAMPUS_NAME" Language="zh_Hans_CN">
+			<Text>市区</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GID_CAMPUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				克惑奇雅特色区域：水渠式放置，固定提供+6 [ICON_Housing] 住房。允许放置于树林、地热裂缝的地貌上。每城仅可建造 1 座。
+				[NEWLINE]允许运行特色项目，迁都 [ICON_Capital] 至此，并获得 1 个 [ICON_Unit] 商人。
+				[NEWLINE]为城市提供 1 条[ICON_TradeRoute] 商路上限。
+				[NEWLINE]为相邻专业化区域提供 大量相邻加成，并从相邻【水渠】获得大量相邻加成的 [ICON_Food] 食物。
+			</Text>
+		</Replace>
+    <Replace Tag="LOC_PROJECT_DISTRICT_GID_CAMPUS_CAPITAL_MOVE_NAME" Language="zh_Hans_CN">
+      <Text>新立发展重心</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_DISTRICT_GID_CAMPUS_CAPITAL_MOVE_SHORT_NAME" Language="zh_Hans_CN">
+      <Text>新立发展重心</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_DISTRICT_GID_CAMPUS_CAPITAL_MOVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可在任何拥有【市区】的城市中开展的特色项目。完成时，将 [ICON_Capital] 首都迁至该城市，并在 [ICON_Capital] 首都获得 1 个 [ICON_Unit] 商人。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_GID_CAMPUS_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻市区。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_GID_CAMPUS_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻市区。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_GID_CAMPUS_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻市区。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_GID_CAMPUS_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻市区。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_GID_CAMPUS_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻市区。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_GID_CAMPUS_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻市区。</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_GID_CAMPUS_AQUEDUCT_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻水渠。</Text>
+    </Replace>
+		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市[ICON_FOOD]粮食+15%。必须建在河流旁边。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_GID_NAME" Language="zh_Hans_CN">
+			<Text>幼稚的贤师</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_GID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不太可能主动宣战。[NEWLINE]造成的不满衰退速度翻倍，拥有【军队现代化】与【魅力型领袖】政策卡效果，城邦为其开放边境。与姬德敌对的文明获得双倍厌战情绪。[NEWLINE]喜欢科技文化都很繁荣、伟人频出的快乐文明。</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GID_ANY">
+			<Text>这是我们双方都乐意看到的，谢谢。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GID_ANY">
+			<Text>我是很重视贵方的提议，然而克惑奇雅人民不会高兴的……</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GID_ANY">
+			<Text>克惑奇雅人民非常期望能和贵方建立一段稳定的友谊关系。贵方的意见是……？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_GID_ANY">
+			<Text>这是我们双方都乐意看到的，谢谢。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GID_ANY">
+			<Text>我们尊重你的选择……</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GID_ANY">
+			<Text>难道我们之间有什么不能坐下来谈的吗？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GID_ANY">
+			<Text>人民的滔天怒火已无法抑制，克惑奇雅人迫切希望能解决与贵方的冲突——是的，用有人会流血与泪的方式……</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_GID_ANY">
+			<Text>抱歉，克惑奇雅人最近排外情绪高涨，为你们的人着想，还是以后再谈。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_GID_ANY">
+			<Text>日安，我们克惑奇雅想要与贵方展开更多交流、更多地了解贵方。我们的代表团已经携带了一些有趣又有价值的礼物，还望贵方能善待他们。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>真是值得纪念的一刻，祝你们生活愉快。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>好吧，我们之后会再来的。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GID_ANY">
+			<Text>感谢你们的拜访，克惑奇雅很重视这场会面。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>日安，我们希望能在贵方的都城建立大使馆，以更好地展开双方交流，建设资金由我们来承包，我们保证这不会损害你们的主权利益。此外，这是一份表达善意与尊敬的小小心意，还请务必收下。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>感谢贵方的信任，愿我们之间的情谊恒远流长。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>好吧，我们也理解你们的心情……</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GID_ANY">
+			<Text>在这片土地之上生活着很多生命，但像你一样能令我如此失望的可不多见。[NEWLINE](谴责你)</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GID_ANY">
+			<Text>……你是谁？你何来的资格审判我们？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_GID_ANY">
+			<Text>欢迎，远道而来真是辛苦了，在克惑奇雅大家奉我为神子，但你们可以叫我姬德。你们携带的东西还真是有趣，能供我欣赏一下吗？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GID_ANY">
+			<Text>要在这里歇息一下吗？我们会去准备干净的住宿与温暖的洗澡水，洗浴过后还有热奶可以喝，保证能洗條掉一天的劳累。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GID_ANY">
+			<Text>我们对于新认识的国度很感兴趣，我们很乐意拜访一下、体略你们幸福的生活方式。当然，人各有所异，有人不习惯是正常的。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GID_ANY">
+			<Text>要和我们交换城市所在位置吗？这会方便我们双方后续的交流。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_GID_ANY">
+			<Text>您说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>（您的技术点数很高，或者伟人很多，国民幸福）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GID_GREAT_PEOPLE_ADVOCATE_KUDO" Language="zh_Hans_CN">
+			<Text>你的文明培养出了很多伟人</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GID_ANY">
+			<Text>(您的技术点数很低，或者伟人稀少，国民苦痛)</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GID_GREAT_PEOPLE_ADVOCATE_WARNING">
+			<Text>你的文明留不住任何人才</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_GID_HIGH_HAPPINESS" Language="zh_Hans_CN">
+			<Text>您真是一位爱民如子的领袖，令人敬佩。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_GID_LOW_HAPPINESS" Language="zh_Hans_CN">
+			<Text>善待你的子民，人民的怒嚎我站在这里都能听见。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_GID_AGENDA_GREAT_PERSON_ADVOCATE" Language="zh_Hans_CN">
+			<Text>为何这么久都没有能力的人出现呢？你们的教育落后了吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ANY_GID_AGENDA_GREAT_PERSON_ADVOCATE" Language="zh_Hans_CN">
+			<Text>一个人杰地灵的国度是充满希望的，干的不错。</Text>
+		</Replace>
+		<!--尊敬列索-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_GID_LIKE_LS_ANY" Language="zh_Hans_CN">
+			<Text>我很多时候都不知道自己应该怎么办，太想八面玲珑，却始终跳不出成为某人人生中的恶棍这一现象……要是我像你一样能下定决心就好了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_MODIFIER_AGENDA_GID_LIKE_LS" Language="zh_Hans_CN">
+			<Text>敬爱的长辈，憧憬的意志</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_GID_ANY">
+			<Text>是时候该将这份提案放在桌面上了——就让我们建立起一段能带来更多效益的同盟吧。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_GID_ANY">
+			<Text>我想，我们都没有理由再作战了。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_GID_ANY">
+			<Text>别说是你我了，死在战场上的人们、他们的亲友们，没有一个人会选择答应。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_GID_ANY">
+			<Text>热血已经澈凉，眼泪已经涸竭，而你……满意了吗？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GID_ANY">
+			<Text>您军事部队的活动引发了克惑奇雅人不小的争论，大家都想知道你们的意图是否仅仅如此。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>那样的话就太好了……不过我们都会将你的一举一动都看在眼里。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GID_ANY">
+			<Text>真是恭喜，你赢了，现在是不是该进入反思、反战的环节了？跟大家忏悔一下自己扼杀了多少人的幸福、希望、梦想，然后宣布再次进入战争状态？嗛……你只会直接开战，能忏悔才怪。</Text>
+		</Replace>
+		<!--据说是热座模式能看到的“人类玩家被击败时的AI语录”，但我自己测试与在原版文本里翻了翻，结果好像并没有这回事，只是普通的“AI被玩家被击败的AI语录”-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>真是恭喜，你赢了，现在是不是该进入反思、反战的环节了？跟大家忏悔一下自己扼杀了多少人的幸福、希望、梦想，然后宣布再次进入战争状态？嗛……你只会直接开战，能忏悔才怪。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GID_ANY">
+			<Text>希望下次能达成让我们双方都满意的交易。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GID_ANY">
+			<Text>谢谢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>已经安排好了，只要你们别随便乱逛，就不会有麻烦。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>克惑奇雅的人民不会高兴的……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>日安，我方期望贵方能够准许我们的部队通过贵方的土地，我们保证不会为贵方带来麻烦。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>尽管有点失望，但我们还会再来的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>我认为这份帐单会更容易接受。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>“天行健，君子当自强不息”，请贵方自重，不要再做一个国际乞丐了，你可以用其他的方式来获得你想要的，比如【交易】。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>……唉，下不为例。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>很抱歉向你提出这种条件，其实你大可拒绝，但在此我以个人的名义向依然提供这一切的您表达感谢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>嗯，我明白了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>贵方在这附近的拓展，在克惑奇雅内发生了巨大的争议，有大量的人声称你们抢占了我们的土地……这方面的事情我尚且可以压下，但请贵方配合暂停拓展活动，以免刺激人们的紧张情绪……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>感谢您的配合。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>唉，工作量又增加了……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>……我知道了，我只能说我会尽力引导移民们去远离贵方的土地，但最后他们的选择也是他们自己作出的决定，我在这里提前为未来的冒犯而道歉。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>克惑奇雅人以自由不羁而著名，我实在无法作出不可能达成的承诺。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>我替那些莽撞的家伙向你道歉，也感谢你能通知我这件事……但愿他们会冷静下来听我的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>我试过劝阻那些鲁莽的家伙了，然而显然他们都在气头上……你千万要做好备战准备，我担心这会演变成激烈冲突。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>好吧，信息上的优势，我就暂且放在贵方那边吧……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>抱歉，我不能在这里让步，信息的优势，是国家存亡的关键所在。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>贵安，今天我们好好谈谈关于私密信息的事……算了，我们还是打开天窗说亮话吧——我们已经有了贵方在我方展开间谍活动的证据。你我都知道这不是好事，还请您在此事上三思。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>原来如此，我会配合贵方的，只是这些已经发掘出来的文物，恐怕克惑奇雅人不会轻易同意送还。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>原来如此，看来那些文物属于不义之财，然而打击走私我恐怕力不从心，恕我无法作出承诺，此外那些文物，克惑奇雅人也不会轻易同意送还……我个人的话可能没用，但还是向您道歉。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>了解，我会去准备制止这些非法传教活动，真是抱歉为贵方添麻烦了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_GID_ANY" Language="zh_Hans_CN">
+			<Text>抱歉，我已经力不从心了，有更多重要的事情需要我优先解决。这边我只能给出一点建议……您怎么走了？</Text>
+		</Replace>
+		<!-- 城市名 -->
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CAPITAL" Language="zh_Hans_CN">
+			<Text>克惑奇雅</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_1" Language="zh_Hans_CN">
+			<Text>踏甲刻岚</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_2" Language="zh_Hans_CN">
+			<Text>塔麻萝芽</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_3" Language="zh_Hans_CN">
+			<Text>刊司佳希亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_4" Language="zh_Hans_CN">
+			<Text>奇途丸</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_5" Language="zh_Hans_CN">
+			<Text>田纳希</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_6" Language="zh_Hans_CN">
+			<Text>奥内荣加</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_7" Language="zh_Hans_CN">
+			<Text>密歇里</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_8" Language="zh_Hans_CN">
+			<Text>密苏根</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_9" Language="zh_Hans_CN">
+			<Text>皮奥肖安</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_10" Language="zh_Hans_CN">
+			<Text>义理诺毅</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_11" Language="zh_Hans_CN">
+			<Text>义理力维昂</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_12" Language="zh_Hans_CN">
+			<Text>爱维佳庆昂</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_13" Language="zh_Hans_CN">
+			<Text>法顿明</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_14" Language="zh_Hans_CN">
+			<Text>坎西卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_15" Language="zh_Hans_CN">
+			<Text>马姆科</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_16" Language="zh_Hans_CN">
+			<Text>麦安鸣</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_17" Language="zh_Hans_CN">
+			<Text>福贺齐</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_18" Language="zh_Hans_CN">
+			<Text>丘马什</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_19" Language="zh_Hans_CN">
+			<Text>塞姆勒</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_20" Language="zh_Hans_CN">
+			<Text>斯普瓦利林</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_21" Language="zh_Hans_CN">
+			<Text>奥雪来嘉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_22" Language="zh_Hans_CN">
+			<Text>施遐歌</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_23" Language="zh_Hans_CN">
+			<Text>奥尼尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_24" Language="zh_Hans_CN">
+			<Text>布庐弥登</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KHJY_CITY_25" Language="zh_Hans_CN">
+			<Text>密沃尔基</Text>
+		</Replace>
+
+		<!-- 市民名 -->
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_1" Language="zh_Hans_CN">
+			<Text>白鸦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_2" Language="zh_Hans_CN">
+			<Text>牛角</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_3" Language="zh_Hans_CN">
+			<Text>卧虎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_4" Language="zh_Hans_CN">
+			<Text>勾月</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_5" Language="zh_Hans_CN">
+			<Text>挽歌</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_6" Language="zh_Hans_CN">
+			<Text>早安</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_7" Language="zh_Hans_CN">
+			<Text>海狸</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_8" Language="zh_Hans_CN">
+			<Text>寒雪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_9" Language="zh_Hans_CN">
+			<Text>苏帕菲伊亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MALE_10" Language="zh_Hans_CN">
+			<Text>利阿玛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_1" Language="zh_Hans_CN">
+			<Text>树根</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_2" Language="zh_Hans_CN">
+			<Text>风狼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_3" Language="zh_Hans_CN">
+			<Text>水川</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_4" Language="zh_Hans_CN">
+			<Text>雀歌</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_5" Language="zh_Hans_CN">
+			<Text>天际杏</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_6" Language="zh_Hans_CN">
+			<Text>爆米花</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_7" Language="zh_Hans_CN">
+			<Text>昆莉洛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_8" Language="zh_Hans_CN">
+			<Text>苏洛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_9" Language="zh_Hans_CN">
+			<Text>向日葵</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_FEMALE_10" Language="zh_Hans_CN">
+			<Text>风语</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>似水流年</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>一叶知秋</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>浮云过影</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>静水微澜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>光辉岁月</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>金色枫叶</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>望月追忆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>厚德载物</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>云雨飘零</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>天道酬勤</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>夕阳无限好</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>旧巷故人</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>雾里看花</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>怡然似梦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>春时花宴</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>沁水百合</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>清爽伊人</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>快乐天使</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>魂牵梦萦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KHJY_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>暗香袭人</Text>
+		</Replace>
+		<!--  对随机议程的赞誉对话 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_SAILOR_FLIRTATIOUS_POSITIVE" Language="zh_Hans_CN">
+			<Text>有时候在我快顶不住压力时，不知为何我总能想起你的面孔。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_SAILOR_CURMUDGEON_POSITIVE" Language="zh_Hans_CN">
+			<Text>谢谢你能不在某些事情上打扰我，作为领袖我们都应该去做更重要的事。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_SAILOR_FLIRTATIOUS_NEGATIVE" Language="zh_Hans_CN">
+			<Text>你还真是令人烦恼，成为我压力的一大来源……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_SAILOR_CURMUDGEON_NEGATIVE" Language="zh_Hans_CN">
+			<Text>以后没有必要的话，请不要再出现在我的面前。我很累。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_HIGH_INCOME" Language="zh_Hans_CN">
+			<Text>有钱确实好办事，别忘记花掉哟。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_INCOME" Language="zh_Hans_CN">
+			<Text>低下的收入意味着施政不灵活，你该重视一下了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_HIGH_INDUSTRY" Language="zh_Hans_CN">
+			<Text>贵方真的非常重视工业呢，勤勉是好事，也别忘记休息哟。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_INDUSTRY" Language="zh_Hans_CN">
+			<Text>勤勉时不要忘记休息，但怠惰可就不好了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_HIGH_POPULATION" Language="zh_Hans_CN">
+			<Text>照顾庞大人群是一门繁杂的艺术，愿你能从中寻得快乐。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_POPULATION" Language="zh_Hans_CN">
+			<Text>如果人们不生育，要么是物资匮乏、要么是环境不利。你是否过多忽视了？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>威慑力不是万能的，但没有威慑力是万万不能的。你的国民一定感到很安全吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hans_CN">
+			<Text>和平主义是很好，可是没有保护自己的能力，你们又如何维护属于自己的公道呢？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>您能为那些弱小的城邦出头，真是令人钦佩不已。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>把矛头指向弱小的城邦？我应该教你这是可耻的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="zh_Hans_CN">
+			<Text>您真的将很好地保护了你的臣属，如此强烈的责任心真是令人感叹。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="zh_Hans_CN">
+			<Text>我劝告你莫要如此麻木不仁，全世界都在注视你的一举一动。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>感谢您能把那些歹人绳之以法，那一带应该会得到一段时间的安宁。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="zh_Hans_CN">
+			<Text>放任那些为非作歹的恶人们真的好吗？你应当为此担忧吧？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>文化，是作为一个文明社会存在过的证明，而你的文明成为了相当耀眼的存在。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>文化，是作为一个文明社会存在过的证明，而你的文明却默默无籍。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>技术的发展意味着一个文明能走得多远，很高兴能看到你的文明茁壮成长。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>技术的发展意味着一个文明能走得多远，可你的文明我很难看到其未来。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>看来你很清楚，土地是最宝贵的资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_EXPANSIONIST" Language="zh_Hans_CN">
+			<Text>土地有限，不会再生，你若置之不顾，自有他人摄取。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>海权是与世界联系的重要力量，看来你很重视这一切。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_GREAT_WHITE_FLEET" Language="zh_Hans_CN">
+			<Text>海权是与世界联系的重要力量，莫要轻视这一切。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_FAVOR" Language="zh_Hans_CN">
+			<Text>毋须竞较，有我在，便会为大家谋福。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_HIGH_FAVOR" Language="zh_Hans_CN">
+			<Text>毋须竞较，我会为你们点明前路，何必自挣烦恼？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_TOURISM" Language="zh_Hans_CN">
+			<Text>若是没有令人印象深刻的文化，依附于我们的文化可太自然了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hans_CN">
+			<Text>人们都在向你们的城市涌去……是我哪里做错了吧？我们的文化竟连自己人都留不下？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_LOW_DIPLOVP" Language="zh_Hans_CN">
+			<Text>你大可说我们桀笃不驯，可人的意志犹如人的双手一样，该是自由、该是去实现自我的理想的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_HIGH_DIPLOVP" Language="zh_Hans_CN">
+			<Text>你就在那抱着你那所谓议程说个够，我可不会听你的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>我相当敬佩第一个站出来保卫祖国的人民，希望你不要辜负他们。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_TURTLER" Language="zh_Hans_CN">
+			<Text>我相当敬佩第一个站出来保卫祖国的人民，而身为侵略者的你可莫要忘记。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_HIGH_AIRPOWER" Language="zh_Hans_CN">
+			<Text>空军力量的重要性不低于任何力量的重要性，看来您对此深得要领。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_LOW_AIRPOWER" Language="zh_Hans_CN">
+			<Text>空军力量的重要性不低于任何力量的重要性，您该注重这一点了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>啊，人类历史上的一颗璀璨明珠，毫无疑问，此时此刻这毋庸置疑。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="zh_Hans_CN">
+			<Text>在迷茫之中挣扎是一件苦事，而这就是你与你人民将要面临的……这最好不是你有意为之的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="zh_Hans_CN">
+			<Text>理想被连绵山浪越推越远，你是否迷茫、感到悲伤？莫怕，你与我们一直走在一起。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>啊，人类历史上的一颗璀璨明珠，却恕我无礼的冒昧——攀至山顶意味着你要走下坡路了。你可要时刻警醒。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_GID_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hans_CN">
+			<Text>是啊，有些事情即便再怎么否认也存在于那儿，也因为存在所以必须去了解，否则我们如何处理那些事物带来的问题呢？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_GID_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hans_CN">
+			<Text>闭门不出也有可能会被未知的问题纠缠上，来吧，与世界建立更多联系、在世界建立更多的情报网吧。</Text>
+		</Replace>
+		
+		
+	</LocalizedText>
+</GameData>

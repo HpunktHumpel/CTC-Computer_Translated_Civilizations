@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5c814d2d-a839-4629-8691-b36450c10238" version="1">
+  <Properties>
+    <Name>FHB_KHJY_NAME</Name>
+    <Description>FHB_KHJY_DES</Description>
+    <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
+    <Created>1703678376</Created>
+    <Teaser>FHB_KHJY_TEASER</Teaser>
+    <Authors>飞花密染天地、Ophidy</Authors>
+    <SpecialThanks>河野姬若、Pen</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="Active_Mod_GA">
+      <!--启用黄金时代·美丽新世界模组-->
+      <ModInUse>236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+    </Criteria>
+    <Criteria id="Disable_Mod_GA">
+      <!--禁用黄金时代·美丽新世界模组-->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+    </Criteria>
+    <Criteria id="Active_Rulers_Of_China">
+      <!--启用中国领袖包-->
+      <ModInUse>7D27831B-BAA6-4A8B-A39C-94243BAD3F47</ModInUse>
+    </Criteria>
+    <Criteria id="Disable_Rulers_Of_China">
+      <!--禁用中国领袖包-->
+      <ModInUse inverse="1">7D27831B-BAA6-4A8B-A39C-94243BAD3F47</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="KHJY_UpdateDatabase_FE">
+      <File>Config/KHJY_Config.xml</File>
+      <File>InGame/GID_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="KHJY_UpdateDatabase_FE">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>Active_Rulers_Of_China</Criteria>
+      <File>InGame/QIN_FHB_NEW_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="KHJY_UpdateColors_FE">
+      <File>Color/KHJY_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="KHJY_UpdateIcons_FE">
+      <File>Texture/KHJY_Icons.xml</File>
+    </UpdateIcons>
+    <ImportFiles id="FHB_ImportFiles">
+      <File>Texture/MOMENT_DISTRICT_GID_CAMPUS.dds</File>
+      <File>Texture/MOMENT_UNIT_JMQS.dds</File>
+      <File>Texture/MOMENT_UNIT_JSYS.dds</File>
+      <File>Texture/KHJY_MOUND.dds</File>
+    </ImportFiles>
+    <UpdateText id="KHJY_UpdateText_FE">
+      <Properties>
+        <LoadOrder>20001</LoadOrder>
+      </Properties>
+      <File>Text/Localization_en.xml</File>
+      <File>Text/Localization_zh.xml</File>
+      <File>Text/LS_TEXT.xml</File>
+      <File>Text/CivilopediaDiplomacy_zh.xml</File>
+      <File>Text/Promotions_text.xml</File>
+    </UpdateText>
+    <UpdateText id="HJSD_TEXT">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>Active_Rulers_Of_China</Criteria>
+      <File>Text/WQ_UP.xml</File>
+    </UpdateText>
+    <UpdateArt id="KHJY_UpdateArt_FE">
+      <File>Kahotkia.dep</File>
+    </UpdateArt>
+		<ImportFiles>
+			<File>Platforms/Android/Audio/GID_Quote.ini</File>
+			<File>Platforms/Android/Audio/850818895.wem</File>
+			<File>Platforms/Android/Audio/SoundBank_GID_Quote.bnk</File>
+			<File>Platforms/Android/Audio/SoundBank_GID_Quote.txt</File>
+			<File>Platforms/Android/Audio/SoundbanksInfo.xml</File>
+			<File>Platforms/MacOS/Audio/GID_Quote.ini</File>
+			<File>Platforms/MacOS/Audio/PluginInfo.xml</File>
+			<File>Platforms/MacOS/Audio/850818895.wem</File>
+			<File>Platforms/MacOS/Audio/SoundBank_GID_Quote.bnk</File>
+			<File>Platforms/MacOS/Audio/SoundBank_GID_Quote.txt</File>
+			<File>Platforms/MacOS/Audio/SoundbanksInfo.xml</File>
+			<File>Platforms/Windows/Audio/GID_Quote.ini</File>
+			<File>Platforms/Windows/Audio/PluginInfo.xml</File>
+			<File>Platforms/Windows/Audio/850818895.wem</File>
+			<File>Platforms/Windows/Audio/SoundBank_GID_Quote.bnk</File>
+			<File>Platforms/Windows/Audio/SoundBank_GID_Quote.txt</File>
+			<File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+		</ImportFiles>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="KHJY_UpdateDatabase">
+      <Properties>
+        <LoadOrder>20001</LoadOrder>
+      </Properties>
+      <File>InGame/GID_Districts.xml</File>
+      <File>InGame/GID_Leaders.xml</File>
+      <File>InGame/KHJY_Civilization.xml</File>
+      <File>InGame/KHJY_UnitPromotions.xml</File>
+      <File>InGame/KHJY_Units.xml</File>
+      <File>InGame/LS_Leader.xml</File>
+      <File>InGame/KHJY_GP.xml</File>
+      <File>InGame/Specialty_modifier.sql</File>
+      <File>InGame/Leader_Like.sql</File>
+      <File>InGame/creek.sql</File>
+      <File>InGame/GID_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="HJSD_DATA">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>Active_Rulers_Of_China</Criteria>
+      <File>InGame/WQ_UP.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="KHJY_UpdateColors">
+      <File>Color/KHJY_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="KHJY_UpdateIcons">
+      <File>Texture/KHJY_Icons.xml</File>
+    </UpdateIcons>
+    <ImportFiles id="FHB_ImportFiles">
+      <File>Texture/MOMENT_DISTRICT_GID_CAMPUS.dds</File>
+      <File>Texture/MOMENT_UNIT_JMQS.dds</File>
+      <File>Texture/MOMENT_UNIT_JSYS.dds</File>
+      <File>Texture/KHJY_MOUND.dds</File>
+    </ImportFiles>
+    <UpdateText id="KHJY_UpdateText">
+      <Properties>
+        <LoadOrder>20001</LoadOrder>
+      </Properties>
+      <File>Text/CivilopediaDiplomacy_zh.xml</File>
+      <File>Text/Localization_en.xml</File>
+      <File>Text/Localization_zh.xml</File>
+      <File>Text/LS_TEXT.xml</File>
+      <File>Text/Promotions_text.xml</File>
+    </UpdateText>
+    <UpdateText id="HJSD_TEXT">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>Active_Rulers_Of_China</Criteria>
+      <File>Text/WQ_UP.xml</File>
+    </UpdateText>
+    <UpdateArt id="KHJY_UpdateArt">
+      <File>Kahotkia.dep</File>
+    </UpdateArt>
+		<UpdateAudio id="GidQuote">
+			<File>Platforms/Android/Audio/GID_Quote.ini</File>
+			<File>Platforms/Android/Audio/850818895.wem</File>
+			<File>Platforms/Android/Audio/SoundBank_GID_Quote.bnk</File>
+			<File>Platforms/Android/Audio/SoundBank_GID_Quote.txt</File>
+			<File>Platforms/Android/Audio/SoundbanksInfo.xml</File>
+			<File>Platforms/MacOS/Audio/GID_Quote.ini</File>
+			<File>Platforms/MacOS/Audio/PluginInfo.xml</File>
+			<File>Platforms/MacOS/Audio/850818895.wem</File>
+			<File>Platforms/MacOS/Audio/SoundBank_GID_Quote.bnk</File>
+			<File>Platforms/MacOS/Audio/SoundBank_GID_Quote.txt</File>
+			<File>Platforms/MacOS/Audio/SoundbanksInfo.xml</File>
+			<File>Platforms/Windows/Audio/GID_Quote.ini</File>
+			<File>Platforms/Windows/Audio/PluginInfo.xml</File>
+			<File>Platforms/Windows/Audio/850818895.wem</File>
+			<File>Platforms/Windows/Audio/SoundBank_GID_Quote.bnk</File>
+			<File>Platforms/Windows/Audio/SoundBank_GID_Quote.txt</File>
+			<File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+		</UpdateAudio>
+    <AddGameplayScripts id="KHJY_AddGameplayScripts">
+      <File>Script/GID.lua</File>
+      <File>Script/LS.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Building.artdef</File>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Cultures.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Artdefs/Overlay.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Color/KHJY_Colors.xml</File>
+    <File>Config/KHJY_Config.xml</File>
+    <File>InGame/creek.sql</File>
+    <File>InGame/GID_Districts.xml</File>
+    <File>InGame/GID_Leaders.xml</File>
+    <File>InGame/KHJY_Civilization.xml</File>
+    <File>InGame/KHJY_UnitPromotions.xml</File>
+    <File>InGame/KHJY_Units.xml</File>
+    <File>InGame/LS_Leader.xml</File>
+    <File>InGame/GID_ModSupport.sql</File>
+    <File>InGame/Specialty_modifier.sql</File>
+    <File>InGame/Leader_Like.sql</File>
+    <File>InGame/KHJY_GP.xml</File>
+    <File>InGame/WQ_UP.sql</File>
+    <File>InGame/QIN_FHB_NEW_Config.xml</File>
+    <File>GoldAge/HJSD.sql</File>
+    <File>GoldAge/HJSD_Config.sql</File>
+    <File>GoldAge/DELETE_Config.sql</File>
+    <File>GoldAge/HJSD_text.sql</File>
+    <File>Kahotkia.dep</File>
+	<File>Platforms/Android/Audio/GID_Quote.ini</File>
+	<File>Platforms/Android/Audio/850818895.wem</File>
+	<File>Platforms/Android/Audio/PluginInfo.xml</File>
+	<File>Platforms/Android/Audio/SoundBank_GID_Quote.bnk</File>
+	<File>Platforms/Android/Audio/SoundBank_GID_Quote.txt</File>
+	<File>Platforms/Android/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/MacOS/Audio/GID_Quote.ini</File>
+	<File>Platforms/MacOS/Audio/PluginInfo.xml</File>
+	<File>Platforms/MacOS/Audio/850818895.wem</File>
+	<File>Platforms/MacOS/Audio/SoundBank_GID_Quote.bnk</File>
+	<File>Platforms/MacOS/Audio/SoundBank_GID_Quote.txt</File>
+	<File>Platforms/MacOS/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/MacOS/BLPs/KHJY_Textures.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_KHJY</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_KHJY</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/Audio/GID_Quote.ini</File>
+	<File>Platforms/Windows/Audio/PluginInfo.xml</File>
+	<File>Platforms/Windows/Audio/850818895.wem</File>
+	<File>Platforms/Windows/Audio/SoundBank_GID_Quote.bnk</File>
+	<File>Platforms/Windows/Audio/SoundBank_GID_Quote.txt</File>
+	<File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/KHJY_Textures.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_KHJY</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_KHJY</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Script/GID.lua</File>
+    <File>Script/LS.lua</File>
+    <File>Texture/KHJY_Icons.xml</File>
+    <File>Texture/MOMENT_DISTRICT_GID_CAMPUS.dds</File>
+    <File>Texture/MOMENT_UNIT_JMQS.dds</File>
+    <File>Texture/MOMENT_UNIT_JSYS.dds</File>
+    <File>Texture/KHJY_MOUND.dds</File>
+    <File>Text/CivilopediaDiplomacy_zh.xml</File>
+    <File>Text/Localization_en.xml</File>
+    <File>Text/Localization_zh.xml</File>
+    <File>Text/LS_TEXT.xml</File>
+    <File>Text/Promotions_text.xml</File>
+    <File>Text/WQ_UP.xml</File>
+    <File>XLPs/KHJY_Textures.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UILensAsset.xlp</File>
+  </Files>
+	<LocalizedText>
+		<Text id="FHB_KHJY_NAME">
+			<en_US>Kahotkia</en_US>
+			<zh_Hans_CN>克惑奇雅文明</zh_Hans_CN>
+		</Text>
+		<Text id="FHB_KHJY_DES">
+			<en_US>A new civilization, two new leaders.[NEWLINE]Modified the city-state of Cahokia to be the city-state of Creek, and modified the suzerainty bonus to be: purchase of land parcels - 30% gold spent.And increased the number of uses of General "Budeca".[NEWLINE]Qin (Unifier)Additional added effect: +1 labor count for melee units and allows the construction of farmland.</en_US>
+			<zh_Hans_CN>一个新的文明、两个新领袖。[NEWLINE]修改了卡霍基亚城邦为克里克城邦，修改宗主国加成为：购买单元格-30%金币花费。并增加了大将军“布狄卡”的使用次数。[NEWLINE]秦始皇（大一统）额外增加效果：近战单位+1劳动次数，并允许建造农田。</zh_Hans_CN>
+		</Text>
+		<Text id="FHB_KHJY_TEASER">
+			<en_US>From a novel written by myself</en_US>
+			<zh_Hans_CN>来自自己写的小说</zh_Hans_CN>
+		</Text>			
+	</LocalizedText>	
+</Mod>
