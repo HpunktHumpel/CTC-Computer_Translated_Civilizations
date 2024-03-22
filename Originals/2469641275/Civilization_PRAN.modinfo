@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f06a48d9-e574-4b3c-a2a5-af9896bf167b" version="1">
+  <Properties>
+    <Name>!Azur Lane Dragon Empery</Name>
+    <Description>Add a Dragon Empery civilization</Description>
+    <Created>1619687371</Created>
+    <Teaser>Add a Dragon Empery civilization</Teaser>
+    <Authors>无言Infinite</Authors>
+    <SpecialThanks>KuRMiiii</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Civilization_PRAN_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Civilization_PRAN_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Civilization_PRAN_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Civilization_PRAN_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!Azur Lane Dragon Empery.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Civilization_PRAN_Building.xml</File>
+      <File>Civilization_PRAN_Civilization.xml</File>
+      <File>Civilization_PRAN_District.xml</File>
+      <File>Civilization_PRAN_Modifers.sql</File>
+      <File>Civilization_PRAN_UnitAbility.xml</File>
+      <File>Civilization_RPAN_Leader.xml</File>
+      <File>Civilization_RPAN_Unit.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Civilization_PRAN_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Civilization_PRAN_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Civilization_PRAN_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!Azur Lane Dragon Empery.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>!Azur Lane Dragon Empery.dep</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Civilization_PRAN_Building.xml</File>
+    <File>Civilization_PRAN_Civilization.xml</File>
+    <File>Civilization_PRAN_Color.xml</File>
+    <File>Civilization_PRAN_Config.xml</File>
+    <File>Civilization_PRAN_District.xml</File>
+    <File>Civilization_PRAN_Icon.xml</File>
+    <File>Civilization_PRAN_Modifers.sql</File>
+    <File>Civilization_PRAN_Script.lua</File>
+    <File>Civilization_PRAN_Text.xml</File>
+    <File>Civilization_PRAN_UnitAbility.xml</File>
+    <File>Civilization_RPAN_Leader.xml</File>
+    <File>Civilization_RPAN_Resource.xml</File>
+    <File>Civilization_RPAN_Unit.xml</File>
+    <File>Platforms/MacOS/BLPs/Civilization_PRANdds.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Civilization_PRANdds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+  </Files>
+</Mod>
