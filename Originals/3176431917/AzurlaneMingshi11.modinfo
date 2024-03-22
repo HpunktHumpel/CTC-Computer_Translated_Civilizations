@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="67454c20-6103-450d-99e5-35ff3b5d2122" version="1">
+  <Properties>
+    <Name>AzurlaneMing</Name>
+    <Description>碧蓝航线明石mod
+azurlanemod</Description>
+    <Created>1710032344</Created>
+    <Teaser>azurlanemod</Teaser>
+    <Authors>antiXTower</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="ALPFrontActionDatabase">
+      <File>ALPORTCITY_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ALPFrontActionText">
+      <File>ALPORTCITY_LOC.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ALPFrontActionIcon">
+      <File>ALPORTCITY_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>AzurlaneMing.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>ALPORTCITY_COLORS.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="ALPORTCITYdataAction">
+      <File>CIVILIZATION_ALPORTCITY.xml</File>
+      <File>ALPORTCITY_LEADER.xml</File>
+      <File>ALPORTCITY_MODIFIERS.xml</File>
+      <File>ALPORTCITY_DISTRICTS.xml</File>
+      <File>ALPORTCITY_UNIT_ABILITIES.xml</File>
+      <File>ALPORTCITY_BUILDINGS.xml</File>
+      <File>ALPORTCITY_MODIFIERS.sql</File>
+      <File>ALPORTCITY_UNITS.xml</File>
+      <File>ALPORTCITY_IMPROMENTS.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ALPORTCITYtextAction">
+      <File>ALPORTCITY_LOC.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ALPORTCITYiconAction">
+      <File>ALPORTCITY_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>AzurlaneMing.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>ALPORTCITY_COLORS.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ALPORTCITY_BUILDINGS.xml</File>
+    <File>ALPORTCITY_COLORS.xml</File>
+    <File>ALPORTCITY_CONFIG.xml</File>
+    <File>ALPORTCITY_DISTRICTS.xml</File>
+    <File>ALPORTCITY_ICON.xml</File>
+    <File>ALPORTCITY_IMPROMENTS.xml</File>
+    <File>ALPORTCITY_LEADER.xml</File>
+    <File>ALPORTCITY_LOC.xml</File>
+    <File>ALPORTCITY_MODIFIERS.sql</File>
+    <File>ALPORTCITY_MODIFIERS.xml</File>
+    <File>ALPORTCITY_UNITS.xml</File>
+    <File>ALPORTCITY_UNIT_ABILITIES.xml</File>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>AzurlaneMing.dep</File>
+    <File>AzurlaneMingshi11.Art.xml</File>
+    <File>CIVILIZATION_ALPORTCITY.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/mingdds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/mingdds.blp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/mingdds.xlp</File>
+  </Files>
+</Mod>
