@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bfe787cf-26a4-46ab-b458-9e66f05a9ef0" version="1">
+  <Properties>
+    <Name>!FFNF自由鸢尾</Name>
+    <Description>Added a Free Iris civilization led by Richelieu</Description>
+    <Created>1619504332</Created>
+    <Teaser>Added a Free Iris civilization led by Richelieu</Teaser>
+    <Authors>无言Infinite</Authors>
+    <SpecialThanks>KuRUMiiii</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Cvilizaiton_FFNF_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Cvilizaiton_FFNF_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Cvilizaiton_FFNF_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Cvilizaiton_FFNF_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!FFNF自由鸢尾.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Cvilizaiton_FFNF_Agenda.xml</File>
+      <File>Cvilizaiton_FFNF_Civilization.xml</File>
+      <File>Cvilizaiton_FFNF_District.xml</File>
+      <File>Cvilizaiton_FFNF_Improvement.xml</File>
+      <File>Cvilizaiton_FFNF_Leader.xml</File>
+      <File>Cvilizaiton_FFNF_Modifiers.sql</File>
+      <File>Cvilizaiton_FFNF_NamedPlaces.xml</File>
+      <File>Cvilizaiton_FFNF_Unit.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Cvilizaiton_FFNF_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Cvilizaiton_FFNF_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Cvilizaiton_FFNF_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!FFNF自由鸢尾.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>!FFNF自由鸢尾.dep</File>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Cultures.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Cvilizaiton_FFNF_Agenda.xml</File>
+    <File>Cvilizaiton_FFNF_Civilization.xml</File>
+    <File>Cvilizaiton_FFNF_Color.xml</File>
+    <File>Cvilizaiton_FFNF_Config.xml</File>
+    <File>Cvilizaiton_FFNF_District.xml</File>
+    <File>Cvilizaiton_FFNF_Icon.xml</File>
+    <File>Cvilizaiton_FFNF_Improvement.xml</File>
+    <File>Cvilizaiton_FFNF_Leader.xml</File>
+    <File>Cvilizaiton_FFNF_Modifier.xml</File>
+    <File>Cvilizaiton_FFNF_Modifiers.sql</File>
+    <File>Cvilizaiton_FFNF_NamedPlaces.xml</File>
+    <File>Cvilizaiton_FFNF_Text.xml</File>
+    <File>Cvilizaiton_FFNF_Unit.xml</File>
+    <File>Platforms/MacOS/BLPs/Civilization_FFNFdds.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Civilization_FFNFdds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+  </Files>
+</Mod>

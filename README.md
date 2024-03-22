@@ -33,6 +33,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2172515402](https://steamcommunity.com/sharedfiles/filedetails/?id=2172515402) | 中国文明的新领袖【始皇帝】 | The new leader of Chinese civilization [Shi Huangdi] |
 | [2217426255](https://steamcommunity.com/sharedfiles/filedetails/?id=2217426255) | 三界至尊 九天之主 玉皇大帝 | Supreme of the Three Realms, Lord of Nine Heavens, Jade Emperor |
 | [2441408205](https://steamcommunity.com/sharedfiles/filedetails/?id=2441408205) | AzurLane Iron Blood | AzurLane Iron Blood |
+| [2449181115](https://steamcommunity.com/sharedfiles/filedetails/?id=2449181115) | !Azur Lane Iris Libre | !Azur Lane Iris Libre |
 | [2469641275](https://steamcommunity.com/sharedfiles/filedetails/?id=2469641275) | !Azur Lane Dragon Empery | !Azur Lane Dragon Empery |
 | [2607726862](https://steamcommunity.com/sharedfiles/filedetails/?id=2607726862) | TOKISAKI KURUMI | TOKISAKI KURUMI |
 | [2608473096](https://steamcommunity.com/sharedfiles/filedetails/?id=2608473096) | LEADER_QUEEN | LEADER_QUEEN |
