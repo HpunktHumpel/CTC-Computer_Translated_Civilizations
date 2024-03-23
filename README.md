@@ -169,6 +169,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3131003232](https://steamcommunity.com/sharedfiles/filedetails/?id=3131003232) | 少女前线 边境调查团 SVD | Girls Frontline Border Investigation SVD |
 | [3131006758](https://steamcommunity.com/sharedfiles/filedetails/?id=3131006758) | 少女前线 边境调查团 HS.50 | Girls Frontline Border Investigation Team HS.50 |
 | [3132957493](https://steamcommunity.com/sharedfiles/filedetails/?id=3132957493) | 丝碧涅和璐契儿领导的天空城文明 | Sky City Civilization led by Sibinie and Lucier |
+| [3135354770](https://steamcommunity.com/sharedfiles/filedetails/?id=3135354770) | 少女前线 边境调查团 M870 | Girls Frontline Border Investigation Team M870 |
 | [3138123347](https://steamcommunity.com/sharedfiles/filedetails/?id=3138123347) | 少女前线 前线战备队 ART556 | Girls Frontline Frontline Ready Team ART556 |
 | [3144014604](https://steamcommunity.com/sharedfiles/filedetails/?id=3144014604) | 克惑奇雅文明  Kahotkia Civilizations | Kahotkia Civilizations |
 | [3148130637](https://steamcommunity.com/sharedfiles/filedetails/?id=3148130637) | 深空之眼 小困·俄尼里伊 | Eye of Deep Space Xiaokeng Oniliyi |
