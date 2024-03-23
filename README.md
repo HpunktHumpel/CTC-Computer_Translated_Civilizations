@@ -171,6 +171,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3132957493](https://steamcommunity.com/sharedfiles/filedetails/?id=3132957493) | 丝碧涅和璐契儿领导的天空城文明 | Sky City Civilization led by Sibinie and Lucier |
 | [3144014604](https://steamcommunity.com/sharedfiles/filedetails/?id=3144014604) | 克惑奇雅文明  Kahotkia Civilizations | Kahotkia Civilizations |
 | [3150894522](https://steamcommunity.com/sharedfiles/filedetails/?id=3150894522) | 少女前线 核心代码 | Girls Frontline core code |
+| [3150899575](https://steamcommunity.com/sharedfiles/filedetails/?id=3150899575) | 深空之眼 重置版核心代码 | Eye of Deep Space Reset Core Code |
 | [3150943003](https://steamcommunity.com/sharedfiles/filedetails/?id=3150943003) | 克惑奇雅文明-新领袖拓展  Kahotkia Civilization-New Leader Expansion Pack | Kahotkia Civilization-New Leader Expansion Pack |
 | [3176431917](https://steamcommunity.com/sharedfiles/filedetails/?id=3176431917) | Azurlane AKashi | Azurlane Akashi |
 | [3177679279](https://steamcommunity.com/sharedfiles/filedetails/?id=3177679279) | 碧蓝航线：铁血公国 | Azur Lane: The Iron-Blooded Principality |
