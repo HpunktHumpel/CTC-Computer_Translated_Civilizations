@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="069b1703-e7d7-490d-b9fa-4f1da3ecd0f2" version="1">
+  <Properties>
+    <Name>AZURE LANE CHESTER Mod</Name>
+    <Description>碧蓝航线柴郡mod，猫猫担心你打不过神级电脑，所以来帮你了。
+仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻。
+！！！！！！！强度严重超模警告！！！！
+！！！！！！！强度严重超模警告！！！！
+！！！！！！！强度严重超模警告！！！！</Description>
+    <Created>1642775091</Created>
+    <Teaser>AAAAAAA A</Teaser>
+    <Authors>Fluoes</Authors>
+    <SpecialThanks>h佬和群友们以及各位mod前辈</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="CONFIG">
+      <File>TEST_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TEXT">
+      <File>TEST_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICONS">
+      <File>TEST_ICONS.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ART">
+      <File>TEST CHESTER Mod.dep</File>
+    </UpdateArt>
+    <UpdateColors id="COLO">
+      <File>GameData_color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DATABASE">
+      <File>TEST_CIVILIZATION.xml</File>
+      <File>TEST_LEADER.xml</File>
+      <File>TEST_DOCKYARD.xml</File>
+      <File>TEST_unit.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TEXTIN">
+      <File>TEST_TEXT.xml</File>
+    </UpdateText>
+    <UpdateArt id="ARTIN">
+      <File>TEST CHESTER Mod.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="ICONIN">
+      <File>TEST_ICONS.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="COLO">
+      <File>GameData_color.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>GameData1.sql</File>
+    <File>GameData_color.xml</File>
+    <File>Platforms/MacOS/BLPs/BACKGROUND_CHESTER.blp</File>
+    <File>Platforms/MacOS/BLPs/GREAT.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/testdds1.blp</File>
+    <File>Platforms/MacOS/BLPs/UILEADERS.blp</File>
+    <File>Platforms/Windows/BLPs/BACKGROUND_CHESTER.blp</File>
+    <File>Platforms/Windows/BLPs/GREAT.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/testdds1.blp</File>
+    <File>Platforms/Windows/BLPs/UILEADERS.blp</File>
+    <File>TEST CHESTER Mod.dep</File>
+    <File>TEST_CIVILIZATION.xml</File>
+    <File>TEST_CONFIG.xml</File>
+    <File>TEST_DOCKYARD.xml</File>
+    <File>TEST_ICONS.xml</File>
+    <File>TEST_LEADER.xml</File>
+    <File>TEST_TEXT.xml</File>
+    <File>TEST_unit.xml</File>
+    <File>XLPs/BACKGROUND_CHESTER.xlp</File>
+    <File>XLPs/GREAT.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/testdds1.xlp</File>
+    <File>XLPs/UILEADER.xlp</File>
+  </Files>
+</Mod>
