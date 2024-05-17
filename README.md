@@ -133,6 +133,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3006084699](https://steamcommunity.com/sharedfiles/filedetails/?id=3006084699) | 玛纳利亚文明与结社 安 | Manalia Civilization and Association Ann |
 | [3008449728](https://steamcommunity.com/sharedfiles/filedetails/?id=3008449728) | ブルーアーカイブ トリニティ総合学園 (Blue Archive - Trinity) | Blue Archive Trinity General Academy (Blue Archive - Trinity) |
 | [3009154026](https://steamcommunity.com/sharedfiles/filedetails/?id=3009154026) | &lt;CN_lang&gt; [Blue Achieve] Trinity Nagisa | &lt;CN_lang&gt; [Blue Achieve] Trinity Nagisa |
+| [3009937225](https://steamcommunity.com/sharedfiles/filedetails/?id=3009937225) | 쿠와카미 카호의 백귀야행 연합학원 | Kuwakami Kaho's Hundred Demons Allied Academy |
 | [3009951610](https://steamcommunity.com/sharedfiles/filedetails/?id=3009951610) | 量子之海·希儿·芙乐艾 | Sea of ​​Quantum, Seele Fleur |
 | [3011191968](https://steamcommunity.com/sharedfiles/filedetails/?id=3011191968) | 空洞骑士圣巢文明 HollowNest Civilization | Hollow Knight HollowNest Civilization |
 | [3012114409](https://steamcommunity.com/sharedfiles/filedetails/?id=3012114409) | ブルーアーカイブ ミレニアムサイエンススクール (Blue Archive - Millennium) | Blue Archive - Millennium Science School |
