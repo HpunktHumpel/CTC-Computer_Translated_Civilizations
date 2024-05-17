@@ -51,6 +51,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2691736551](https://steamcommunity.com/sharedfiles/filedetails/?id=2691736551) | 魔法纪录系列：时女一族 | Magical Records Series: Time Ladies |
 | [2724414725](https://steamcommunity.com/sharedfiles/filedetails/?id=2724414725) | Ophidy's Luxure 精灵国度拉克修尔 | Ophidy's Luxure |
 | [2726448710](https://steamcommunity.com/sharedfiles/filedetails/?id=2726448710) | 碧蓝航线柴郡mod AZURE LANE CHESTER Mod | AZURE LANE CHESTER MOD AZURE LANE CHESTER MOD |
+| [2731102180](https://steamcommunity.com/sharedfiles/filedetails/?id=2731102180) | 碧蓝航线可爱柴郡mod AZURE LANE CUTE CHESTER | AZURE LANE CUTE CHESTER mod AZURE LANE CUTE CHESTER |
 | [2759607299](https://steamcommunity.com/sharedfiles/filedetails/?id=2759607299) | 碧蓝档案——阿拜多斯文明包（附BGM）（BUG修复版） | Azure Archives - Abydos Civilization Pack (with BGM) (BUG Repair Version) |
 | [2765468058](https://steamcommunity.com/sharedfiles/filedetails/?id=2765468058) | 碧蓝档案——千年学院文明包 | Azure Archives - Millennium Academy Civilization Pack |
 | [2778172988](https://steamcommunity.com/sharedfiles/filedetails/?id=2778172988) | 楠芽吹是勇者 | Nan Mebuki is a brave man |

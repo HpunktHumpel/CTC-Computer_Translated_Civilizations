@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="074f3c9b-f4d2-4c65-b5f2-74f2f31628c0" version="1">
+  <Properties>
+    <Name>AZURELANE CUTE CHESTER!!</Name>
+    <Description>碧蓝航线可爱猫猫mod，强度比原版文明略强
+仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻，仅支持风云变幻。</Description>
+    <Created>1643201929</Created>
+    <Teaser>碧蓝航线可爱猫猫mod</Teaser>
+    <Authors>FLUOES</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="CONFIG">
+      <File>N_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="COLOR">
+      <File>N_color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="ICON">
+      <File>N_ICONS.xml</File>
+    </UpdateIcons>
+    <UpdateText id="TEXT">
+      <File>N_TEXT.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>AZURELANE CUTE CHESTER!!.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DATA">
+      <File>N_CIVILIZATION.xml</File>
+      <File>N_unit.xml</File>
+      <File>N_LEADER.xml</File>
+      <File>N_DOCKYARD.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TEXT">
+      <File>N_TEXT.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="COLOR">
+      <File>N_color.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="ICON">
+      <File>N_ICONS.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>AZURELANE CUTE CHESTER!!.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>AZURELANE CUTE CHESTER!!.dep</File>
+    <File>N_CIVILIZATION.xml</File>
+    <File>N_color.xml</File>
+    <File>N_CONFIG.xml</File>
+    <File>N_DOCKYARD.xml</File>
+    <File>N_ICONS.xml</File>
+    <File>N_LEADER.xml</File>
+    <File>N_TEXT.xml</File>
+    <File>N_unit.xml</File>
+    <File>Platforms/MacOS/BLPs/BACKGROUND_CHESTER_N.blp</File>
+    <File>Platforms/MacOS/BLPs/CHESTER_NDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/GREAT_N.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILEADER.blp</File>
+    <File>Platforms/Windows/BLPs/BACKGROUND_CHESTER_N.blp</File>
+    <File>Platforms/Windows/BLPs/CHESTER_NDDS.blp</File>
+    <File>Platforms/Windows/BLPs/GREAT_N.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILEADER.blp</File>
+    <File>XLPs/BACKGROUND_CHESTER_N.xlp</File>
+    <File>XLPs/CHESTER_NDDS.xlp</File>
+    <File>XLPs/GREAT_N.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UILEADER.xlp</File>
+  </Files>
+</Mod>
