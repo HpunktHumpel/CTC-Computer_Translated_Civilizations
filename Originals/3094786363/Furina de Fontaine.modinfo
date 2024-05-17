@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eabba913-f671-4ef0-9af5-c191a10d6c58" version="1">
+  <Properties>
+    <Name>尘世七执政·芙宁娜·德·枫丹</Name>
+    <Description>芙芙，芙芙，我的芙芙，没有你我可怎么活啊！</Description>
+    <Created>1704860392</Created>
+    <Teaser>芙芙</Teaser>
+    <Authors>ZZZ太卜司摸鱼侠</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="FuFuFrontDate">
+      <File>Furina de Fontaine Base/Furina de Fontaine Config.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="FuFuFrontColor">
+      <File>Furina de Fontaine Base/Furina de Fontaine Color.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Color.xml</File>
+    </UpdateColors>
+    <UpdateText id="FuFuFrontText">
+      <File>Furina de Fontaine Base/Furina de Fontaine Text.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="FuFuFrontIcon">
+      <File>Furina de Fontaine Base/Furina de Fontaine Icon.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="FuFuFrontArt">
+      <File>伟大芙宁娜·德·枫丹女士！.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="FuFuDate">
+      <File>Furina de Fontaine Base/Furina de Fontaine Agenda.xml</File>
+      <File>Furina de Fontaine Base/Furina de Fontaine Modifier.xml</File>
+      <File>Furina de Fontaine Base/Furina de Fontaine Require.xml</File>
+      <File>Furina de Fontaine Base/Furina de Fontaine Trait.xml</File>
+      <File>Furina de Fontaine Base/Furina de Fontaine.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Modifier.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Require.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Trait.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="FuFuColor">
+      <File>Furina de Fontaine Base/Furina de Fontaine Color.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Color.xml</File>
+    </UpdateColors>
+    <UpdateText id="FuFuText">
+      <File>Furina de Fontaine Base/Furina de Fontaine Text.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="FuFuIcon">
+      <File>Furina de Fontaine Base/Furina de Fontaine Icon.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Icon.xml</File>
+    </UpdateIcons>
+    <AddUserInterfaces id="FuFuUI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>Furina de Fontaine Build City/Furina de Fontaine Build UI.xml</File>
+      <File>Furina de Fontaine Base/Furina de Fontaine UI.xml</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateArt id="FuFuArt">
+      <File>伟大芙宁娜·德·枫丹女士！.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="FuFuLua">
+      <File>Furina de Fontaine Base/Furina de Fontaine Gameplay.lua</File>
+      <File>Furina de Fontaine Base/Furina de Fontaine Modifier.lua</File>
+      <File>Furina de Fontaine Build City/Furina de Fontaine Build Gameplay.lua</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Gameplay.lua</File>
+      <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Modifier.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="FuFuMusic">
+      <File>Platforms/Windows/Audio/Furina_de_Fontaine.bnk</File>
+      <File>Platforms/Windows/Audio/Furina_de_Fontaine.ini</File>
+      <File>Platforms/Windows/Audio/Furina_de_Fontaine.txt</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Agenda.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Color.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Config.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Gameplay.lua</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Icon.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Modifier.lua</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Modifier.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Require.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Text.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine Trait.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine UI.lua</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine UI.xml</File>
+    <File>Furina de Fontaine Base/Furina de Fontaine.xml</File>
+    <File>Furina de Fontaine Build City/Furina de Fontaine Build Gameplay.lua</File>
+    <File>Furina de Fontaine Build City/Furina de Fontaine Build UI.lua</File>
+    <File>Furina de Fontaine Build City/Furina de Fontaine Build UI.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Color.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Config.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Gameplay.lua</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Icon.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Modifier.lua</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Modifier.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Require.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Text.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely Trait.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely UI.lua</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely UI.xml</File>
+    <File>Furina de Fontaine Lonely/Furina de Fontaine Lonely.xml</File>
+    <File>Furina de Fontaine Unused..xml</File>
+    <File>Furina de Fontaine.Art.xml</File>
+    <File>Platforms/MacOS/BLPs/CIVILIZATION_FUFU_FONTAINE_MODES.blp</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_FUFU.blp</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_LONELY_FUFU.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Grounds_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RBAL_Base_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RSWD_Palace_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Gray_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TER_Desert_Stone_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Bld_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RE_BaseA_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Desert_Stone_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Desert_Stone_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Desert_Stone_N1</File>
+    <File>Platforms/Windows/Audio/17029257.wem</File>
+    <File>Platforms/Windows/Audio/257949678.wem</File>
+    <File>Platforms/Windows/Audio/606121353.wem</File>
+    <File>Platforms/Windows/Audio/637576585.wem</File>
+    <File>Platforms/Windows/Audio/746202620.wem</File>
+    <File>Platforms/Windows/Audio/93488687.wem</File>
+    <File>Platforms/Windows/Audio/954307055.wem</File>
+    <File>Platforms/Windows/Audio/Furina_de_Fontaine.bnk</File>
+    <File>Platforms/Windows/Audio/Furina_de_Fontaine.ini</File>
+    <File>Platforms/Windows/Audio/Furina_de_Fontaine.txt</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/CIVILIZATION_FUFU_FONTAINE_MODES.blp</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_FUFU.blp</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_LONELY_FUFU.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Grounds_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RBAL_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_RSWD_Palace_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Gray_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TER_Desert_Stone_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RBAL_Bld_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RE_BaseA_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RSWD_Palace_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Desert_Stone_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Desert_Stone_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Desert_Stone_N1</File>
+    <File>XLPs/ICON_FOR_FUFU.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/MODE_FOR_FONTAINE.xlp</File>
+    <File>伟大芙宁娜·德·枫丹女士！.dep</File>
+  </Files>
+</Mod>

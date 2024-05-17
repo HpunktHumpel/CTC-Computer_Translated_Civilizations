@@ -166,6 +166,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3089791148](https://steamcommunity.com/sharedfiles/filedetails/?id=3089791148) | 少女前线 前线战备队 Kar98k | Girls Frontline Front Line Kar98k |
 | [3093864870](https://steamcommunity.com/sharedfiles/filedetails/?id=3093864870) | 少女前线 前线战备队 FN-57 | Girls Frontline Frontline Ready Team FN-57 |
 | [3093871819](https://steamcommunity.com/sharedfiles/filedetails/?id=3093871819) | 少女前线 前线战备队 FN-57（游轮女王） | Girls Frontline Front Line FN-57 (Cruise Queen) |
+| [3094786363](https://steamcommunity.com/sharedfiles/filedetails/?id=3094786363) | 尘世七执政·芙宁娜·德·枫丹 | The Seven Consuls of the World · Fonina de Fontaine |
 | [3099588208](https://steamcommunity.com/sharedfiles/filedetails/?id=3099588208) | 스나오오카미 시로코의 아비도스 고등학교 | Abydos High School by Shiroko Sunaookami |
 | [3102682740](https://steamcommunity.com/sharedfiles/filedetails/?id=3102682740) | 深空之眼 灵猫·芭丝特 | Eye of Deep Space Civet Bastet |
 | [3104997803](https://steamcommunity.com/sharedfiles/filedetails/?id=3104997803) | 소라사키 히나의 게헨나 학원 | Hina Sorasaki's Gehenna Academy |
