@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eabee417-d8a8-4147-b66a-22a35076c1a6" version="1">
+  <Properties>
+    <Name>「盛会之星」匹诺康尼</Name>
+    <Description>一切献给知更鸟！</Description>
+    <Created>1715495004</Created>
+    <Teaser>一切献给知更鸟！</Teaser>
+    <Authors>知更鸟的老公</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Front_Robin_Data">
+      <File>HSR_ROBIN_CONFIG.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Front_Robin_Icon">
+      <File>HSR_ROBIN_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Front_Robin_Text">
+      <File>HSR_ROBIN_TEXT.xml</File>
+    </UpdateText>
+    <UpdateColors id="Front_Robin_Color">
+      <File>HSR_ROBIN_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateArt id="Front_Robin_Art">
+      <File>「盛会之星」匹诺康尼.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="In_Robin_Data">
+      <File>HSR_ROBIN.xml</File>
+      <File>HSR_ROBIN_TRAIT.xml</File>
+      <File>HSR_ROBIN_DLC1.xml</File>
+      <File>HSR_ROBIN_DLC1_MODIFIER.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="In_Robin_Color">
+      <File>HSR_ROBIN_COLOR.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="In_Robin_Icon">
+      <File>HSR_ROBIN_ICON.xml</File>
+    </UpdateIcons>
+    <UpdateText id="In_Robin_Text">
+      <File>HSR_ROBIN_TEXT.xml</File>
+      <File>HSR_ROBIN_DLC1_TEXT.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="In_Robin_Lua">
+      <File>HSR_ROBIN.lua</File>
+      <File>HSR_ROBIN_DLC1.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="In_Robin_Art">
+      <File>「盛会之星」匹诺康尼.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="In_Robin_Music">
+      <File>Platforms/Windows/Audio/RobinSoundBack.bnk</File>
+      <File>Platforms/Windows/Audio/RobinSoundBack.ini</File>
+      <File>Platforms/Windows/Audio/RobinSoundBack.txt</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>HSR_ROBIN.lua</File>
+    <File>HSR_ROBIN.xml</File>
+    <File>HSR_ROBIN_COLOR.xml</File>
+    <File>HSR_ROBIN_CONFIG.xml</File>
+    <File>HSR_ROBIN_DLC1.lua</File>
+    <File>HSR_ROBIN_DLC1.xml</File>
+    <File>HSR_ROBIN_DLC1_MODIFIER.xml</File>
+    <File>HSR_ROBIN_DLC1_TEXT.xml</File>
+    <File>HSR_ROBIN_ICON.xml</File>
+    <File>HSR_ROBIN_TEXT.xml</File>
+    <File>HSR_ROBIN_TRAIT.xml</File>
+    <File>HSR_ROBIN_UNUSED.xml</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_ROBIN.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MODE_FOR_ROBIN.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT1_ICON_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT2_ICON_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT3_ICON_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT4_ICON_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT5_ICON_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ROBIN_IMPROVEMENT1_METAL</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ROBIN_IMPROVEMENT2_METAL</File>
+    <File>Platforms/Windows/Audio/1018381294.wem</File>
+    <File>Platforms/Windows/Audio/138010926.wem</File>
+    <File>Platforms/Windows/Audio/159086637.wem</File>
+    <File>Platforms/Windows/Audio/183917338.wem</File>
+    <File>Platforms/Windows/Audio/19822779.wem</File>
+    <File>Platforms/Windows/Audio/202662638.wem</File>
+    <File>Platforms/Windows/Audio/204790251.wem</File>
+    <File>Platforms/Windows/Audio/23771564.wem</File>
+    <File>Platforms/Windows/Audio/23842872.wem</File>
+    <File>Platforms/Windows/Audio/253399822.wem</File>
+    <File>Platforms/Windows/Audio/257045748.wem</File>
+    <File>Platforms/Windows/Audio/286914198.wem</File>
+    <File>Platforms/Windows/Audio/307621637.wem</File>
+    <File>Platforms/Windows/Audio/311050094.wem</File>
+    <File>Platforms/Windows/Audio/346038228.wem</File>
+    <File>Platforms/Windows/Audio/387963024.wem</File>
+    <File>Platforms/Windows/Audio/474641222.wem</File>
+    <File>Platforms/Windows/Audio/506854453.wem</File>
+    <File>Platforms/Windows/Audio/730039286.wem</File>
+    <File>Platforms/Windows/Audio/807674269.wem</File>
+    <File>Platforms/Windows/Audio/826510914.wem</File>
+    <File>Platforms/Windows/Audio/884185186.wem</File>
+    <File>Platforms/Windows/Audio/957047265.wem</File>
+    <File>Platforms/Windows/Audio/964837071.wem</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/RobinSoundBack.bnk</File>
+    <File>Platforms/Windows/Audio/RobinSoundBack.ini</File>
+    <File>Platforms/Windows/Audio/RobinSoundBack.txt</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_ROBIN.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MODE_FOR_ROBIN.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT1_ICON_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT2_ICON_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT3_ICON_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT4_ICON_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ROBIN_IMPROVEMENT5_ICON_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ROBIN_IMPROVEMENT1_METAL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ROBIN_IMPROVEMENT2_METAL</File>
+    <File>XLPs/ICON_FOR_ROBIN.xlp</File>
+    <File>「盛会之星」匹诺康尼.dep</File>
+  </Files>
+</Mod>

@@ -186,6 +186,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3186005733](https://steamcommunity.com/sharedfiles/filedetails/?id=3186005733) | Moon领导的快乐王国 | The happy kingdom led by Moon |
 | [3190874341](https://steamcommunity.com/sharedfiles/filedetails/?id=3190874341) | 绮司狂与惊瞰生 文明 | Qisi Kuang and Jingkansheng Civilization |
 | [3234295206](https://steamcommunity.com/sharedfiles/filedetails/?id=3234295206) | 剌喀坦文明  Lakatan civilization | Lakatan civilization Lakatan civilization |
+| [3241314555](https://steamcommunity.com/sharedfiles/filedetails/?id=3241314555) | 「盛会之星」匹诺康尼·鸢尾花家系·知更鸟 | "Star of the Gala" Pinocchio·Iris Family·Robin |
 
 ##How to use this mod?
 1. install this mod
