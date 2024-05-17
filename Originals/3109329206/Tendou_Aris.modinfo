@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f4d256e6-769e-418a-9fd5-3e83b3f1cb2f" version="1">
+  <Properties>
+    <Name>텐도 아리스의 밀레니엄 사이언스 스쿨</Name>
+    <Description>일러스트의 저작권은 넥슨에 있습니다.</Description>
+    <Created>1702110812</Created>
+    <Teaser>일러스트의 저작권은 넥슨에 있습니다.</Teaser>
+    <Authors>DC 홍명보센세</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="6b8f52bd-4262-4cc6-b21f-ecdbcf3dbc56" title="" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Data/BA_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Data/BA_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Data/BA_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Tendou_Aris.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>Data/BA_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Data/BA_Aris.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Data/BA_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Data/BA_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Tendou_Aris.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>Data/BA_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/BA_Aris.xml</File>
+    <File>Data/BA_Colors.xml</File>
+    <File>Data/BA_Config.xml</File>
+    <File>Data/BA_ConfigText.xml</File>
+    <File>Data/BA_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Tendou_Aris.Art.xml</File>
+    <File>Tendou_Aris.dep</File>
+    <File>Textures/BA_TENDOU_ARIS_NEUTRAL.png</File>
+    <File>Textures/FALLBACK_BA_TENDOU_ARIS.png</File>
+    <File>Textures/LeaderAris256.png</File>
+    <File>Textures/LeaderAris32.png</File>
+    <File>Textures/LeaderAris45.png</File>
+    <File>Textures/LeaderAris50.png</File>
+    <File>Textures/LeaderAris55.png</File>
+    <File>Textures/LeaderAris64.png</File>
+    <File>Textures/LeaderAris80.png</File>
+  </Files>
+</Mod>
