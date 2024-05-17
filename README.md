@@ -180,6 +180,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3150943003](https://steamcommunity.com/sharedfiles/filedetails/?id=3150943003) | 克惑奇雅文明-新领袖拓展  Kahotkia Civilization-New Leader Expansion Pack | Kahotkia Civilization-New Leader Expansion Pack |
 | [3155097470](https://steamcommunity.com/sharedfiles/filedetails/?id=3155097470) | 少女前线 前线战备队 C-MS | Girls Frontline Frontline Combat Team C-MS |
 | [3161714280](https://steamcommunity.com/sharedfiles/filedetails/?id=3161714280) | 深空之眼 百解·禄良 | Eye of Deep Space Baijie Luliang |
+| [3168733134](https://steamcommunity.com/sharedfiles/filedetails/?id=3168733134) | 亚特兰蒂斯（Atlantis） | Atlantis |
 | [3176431917](https://steamcommunity.com/sharedfiles/filedetails/?id=3176431917) | Azurlane AKashi | Azurlane Akashi |
 | [3177679279](https://steamcommunity.com/sharedfiles/filedetails/?id=3177679279) | 碧蓝航线：铁血公国 | Azur Lane: The Iron-Blooded Principality |
 | [3186005733](https://steamcommunity.com/sharedfiles/filedetails/?id=3186005733) | Moon领导的快乐王国 | The happy kingdom led by Moon |

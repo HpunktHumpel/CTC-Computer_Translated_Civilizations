@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c1eb586e-bf4b-445a-af0f-1b1ca599bee9" version="1">
+  <Properties>
+    <Name>LOC_PEN_ATLANTIS_NAME</Name>
+    <Description>LOC_PEN_ATLANTIS_DESCRIPTION</Description>
+    <Created>1708918032</Created>
+    <Teaser>LOC_PEN_ATLANTIS_TEASER</Teaser>
+    <Authors>Pen</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <LocalizedText>
+    <Text id="LOC_PEN_ATLANTIS_NAME">
+      <en_US>Atlantis</en_US>
+	  <zh_Hans_CN>亚特兰蒂斯</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_PEN_ATLANTIS_TEASER">
+      <en_US>Atlantis</en_US>
+	  <zh_Hans_CN>作者：Pen</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_PEN_ATLANTIS_DESCRIPTION">
+      <en_US>Atlantis</en_US>
+	  <zh_Hans_CN>由悬城D委托制作。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <Properties>
+        <LoadOeder>1000</LoadOeder>
+      </Properties>
+      <File>Data/Atlantis_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/Atlantis_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Data/Atlantis_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color">
+      <File>Data/Atlantis_Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>Atlantis.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <File>Data/Atlantis_Building.sql</File>
+      <File>Data/Atlantis_Civilization.sql</File>
+      <File>Data/Atlantis_District.sql</File>
+      <File>Data/Atlantis_Improvement.sql</File>
+      <File>Data/Atlantis_Leader.sql</File>
+      <File>Data/Atlantis_Moment.sql</File>
+      <File>Data/Atlantis_Unit.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="core">
+      <Properties>
+        <LoadOrder>1999</LoadOrder>
+      </Properties>
+      <File>Data/Atlantis_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Data/Atlantis_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>Data/Atlantis_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Text/Atlantis_Text_CN.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="lua">
+      <File>Scripts/Atlantis_GamePlay.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="audio">
+      <File>Platforms/MacOS/Audio/Atlantis_SoundBank.bnk</File>
+      <File>Platforms/MacOS/Audio/AtlantisBanks.ini</File>
+      <File>Platforms/MacOS/Audio/SoundbanksInfo.xml</File>
+      <File>Platforms/Windows/Audio/Atlantis_SoundBank.bnk</File>
+      <File>Platforms/Windows/Audio/AtlantisBanks.ini</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+    <UpdateArt id="art">
+      <File>Atlantis.dep</File>
+    </UpdateArt>
+    <AddUserInterfaces id="UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/Atlantis_UI.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Atlantis.dep</File>
+    <File>Data/Atlantis_Building.sql</File>
+    <File>Data/Atlantis_Civilization.sql</File>
+    <File>Data/Atlantis_Color.xml</File>
+    <File>Data/Atlantis_Config.xml</File>
+    <File>Data/Atlantis_Core.sql</File>
+    <File>Data/Atlantis_District.sql</File>
+    <File>Data/Atlantis_Icon.xml</File>
+    <File>Data/Atlantis_Improvement.sql</File>
+    <File>Data/Atlantis_Leader.sql</File>
+    <File>Data/Atlantis_Moment.sql</File>
+    <File>Data/Atlantis_Unit.sql</File>
+    <File>Platforms/MacOS/Audio/242942258.wem</File>
+    <File>Platforms/MacOS/Audio/275128827.wem</File>
+    <File>Platforms/MacOS/Audio/36244812.wem</File>
+    <File>Platforms/MacOS/Audio/571267699.wem</File>
+    <File>Platforms/MacOS/Audio/762888225.wem</File>
+    <File>Platforms/MacOS/Audio/814052439.wem</File>
+    <File>Platforms/MacOS/Audio/AtlantisBanks.ini</File>
+    <File>Platforms/MacOS/Audio/Atlantis_SoundBank.bnk</File>
+    <File>Platforms/MacOS/Audio/Atlantis_SoundBank.txt</File>
+    <File>Platforms/MacOS/Audio/PluginInfo.xml</File>
+    <File>Platforms/MacOS/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/MacOS/BLPs/Atlantis.blp</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Platforms/Windows/Audio/242942258.wem</File>
+    <File>Platforms/Windows/Audio/275128827.wem</File>
+    <File>Platforms/Windows/Audio/36244812.wem</File>
+    <File>Platforms/Windows/Audio/571267699.wem</File>
+    <File>Platforms/Windows/Audio/762888225.wem</File>
+    <File>Platforms/Windows/Audio/814052439.wem</File>
+    <File>Platforms/Windows/Audio/AtlantisBanks.ini</File>
+    <File>Platforms/Windows/Audio/Atlantis_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/Atlantis_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/Atlantis.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_02_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_02_B_null</File>
+    <File>Scripts/Atlantis_GamePlay.lua</File>
+    <File>Text/Atlantis_Text_CN.xml</File>
+    <File>UI/Atlantis_UI.lua</File>
+    <File>UI/Atlantis_UI.xml</File>
+  </Files>
+</Mod>
