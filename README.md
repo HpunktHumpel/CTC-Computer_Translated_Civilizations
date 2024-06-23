@@ -201,6 +201,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3241314555](https://steamcommunity.com/sharedfiles/filedetails/?id=3241314555) | 「盛会之星」匹诺康尼·鸢尾花家系·知更鸟 | "Star of the Gala" Pinocchio·Iris Family·Robin |
 | [3265835007](https://steamcommunity.com/sharedfiles/filedetails/?id=3265835007) | 深空之眼 暗星·海拉 重置版 | Eyes of the Deep Sky Dark Star Hela Remastered |
 | [3265872722](https://steamcommunity.com/sharedfiles/filedetails/?id=3265872722) | 深空之眼 重置版核心代码 | Eye of the Deep Sky Remastered Core Code |
+| [3266948316](https://steamcommunity.com/sharedfiles/filedetails/?id=3266948316) | 深空之眼 旧誓·薇儿丹蒂 重置版 | Eyes of the Deep Sky: Old Vow: Verdandy Remastered |
 | [3267331156](https://steamcommunity.com/sharedfiles/filedetails/?id=3267331156) | 深空之眼 镇魂乐章·海拉 重置版 | Eyes of the Deep Sky: Soul-Calming Symphony Hela Remastered |
 | [3267347192](https://steamcommunity.com/sharedfiles/filedetails/?id=3267347192) | 深空之眼 斩浪·丝卡蒂 重置版 | Eye of the Deep Space Zanlang·Skadi Remastered |
 | [3270719186](https://steamcommunity.com/sharedfiles/filedetails/?id=3270719186) | 深空之眼 轰雷·托尔 重置版 | Eyes of the Deep Sky: Thunderbolt Remastered |

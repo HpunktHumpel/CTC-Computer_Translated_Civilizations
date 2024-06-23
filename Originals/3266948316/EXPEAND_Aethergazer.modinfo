@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bcf7bbcb-e52b-4856-9dbc-116238c043ce" version="3">
+  <Properties>
+    <Name>深空之眼 旧誓·薇儿丹蒂领袖包 重置版</Name>
+    <Description>深空之眼 旧誓·薇儿丹蒂领袖包 重置版，需要重置版核心代码，不兼容旧版深空之眼</Description>
+    <Created>1718325489</Created>
+    <Teaser>深空之眼 旧誓·薇儿丹蒂领袖包 重置版</Teaser>
+    <Authors>HK433</Authors>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="ac469d2f-8066-4990-82a7-984befd1dece" title="深空之眼 重置版核心代码" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="EX1">
+      <File>CONFIG_AETHERGAZER_EXPANSION_I.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="exsda1">
+      <File>COLOR_AETHERGAZER_EXPANSION_I.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="iCONS SSS">
+      <File>ICON_AETHERGAZER_EXPANSION_I.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>EXPEAND_Aethergazer.dep</File>
+    </UpdateArt>
+    <UpdateText id="TEXT">
+      <File>TEXT_AETHERGAZER_EXPANSION_I.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateIcons id="IconSIII">
+      <File>ICON_AETHERGAZER_EXPANSION_I.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ATRY">
+      <File>EXPEAND_Aethergazer.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="DATA2015">
+      <File>CIVILIZATION_AETHERGAZER_EXPANSION_I.sql</File>
+      <File>LEADER_AETHERGAZER_EXPANSION_I.sql</File>
+      <File>MOMENTS_AETHERGAZER_EXPANSION_I.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="wdys">
+      <File>COLOR_AETHERGAZER_EXPANSION_I.xml</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_I.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>CIVILIZATION_AETHERGAZER_EXPANSION_I.sql</File>
+    <File>COLOR_AETHERGAZER_EXPANSION_I.xml</File>
+    <File>CONFIG_AETHERGAZER_EXPANSION_I.sql</File>
+    <File>EXPEAND_Aethergazer.dep</File>
+    <File>ICON_AETHERGAZER_EXPANSION_I.xml</File>
+    <File>LEADER_AETHERGAZER_EXPANSION_I.sql</File>
+    <File>MOMENTS_AETHERGAZER_EXPANSION_I.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/WEIERDANDIDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/WEIERDANDIDDS.blp</File>
+    <File>TEXT_AETHERGAZER_EXPANSION_I.sql</File>
+  </Files>
+</Mod>
