@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c18b39ba-c689-43e7-87ad-280960b7c699" version="1">
+  <Properties>
+    <Name>LOC_MOD_SIESTA_NAME</Name>
+    <Description>It's a mod about Arknights.</Description>
+    <Created>1583557779</Created>
+    <Teaser>It's a mod about Arknights.</Teaser>
+    <Authors>Jyuuichi</Authors>
+    <SpecialThanks>Hemmelfort, 八云寺幽幽紫、幽冥楼阁の亡霊少女、Watcher9S、鹰角网络</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Siesta_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="ConfigIcon">
+      <File>Siesta_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="ConfigText">
+      <File>Siesta_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateArt id="ConfigArt">
+      <File>Siesta Mod.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Siesta_Ceylon.xml</File>
+      <File>Siesta_Civilization.xml</File>
+      <File>Siesta_Ceylon_Ability.sql</File>
+      <File>Siesta_Civilization_Ability.sql</File>
+      <File>Siesta_Districts.xml</File>
+      <File>Siesta_Districts.sql</File>
+      <File>Siesta_Districts_2.sql</File>
+      <File>Siesta_Building.xml</File>
+      <File>Siesta_Building.sql</File>
+      <File>Siesta_Moment.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icon">
+      <File>Siesta_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Siesta_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>Siesta Mod.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Platforms/Windows/BLPs/LEADER_CEYLON.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Siesta Mod.dep</File>
+    <File>Siesta_Building.sql</File>
+    <File>Siesta_Building.xml</File>
+    <File>Siesta_Ceylon.xml</File>
+    <File>Siesta_Ceylon_Ability.sql</File>
+    <File>Siesta_Civilization.xml</File>
+    <File>Siesta_Civilization_Ability.sql</File>
+    <File>Siesta_Config.xml</File>
+    <File>Siesta_ConfigText.xml</File>
+    <File>Siesta_Districts.sql</File>
+    <File>Siesta_Districts.xml</File>
+    <File>Siesta_Districts_2.sql</File>
+    <File>Siesta_Icons.xml</File>
+    <File>Siesta_Moment.xml</File>
+    <File>Siesta_Text.xml</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_128.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_128.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_200.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_200.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_22.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_22.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_256.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_256.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_30.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_30.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_32.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_32.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_36.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_36.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_44.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_44.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_48.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_48.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_50.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_50.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_64.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_64.tex</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_80.dds</File>
+    <File>Textures/ICON_CIVILIZATION_SIESTA_80.tex</File>
+    <File>Textures/ICON_LEADER_CEYLON_256.dds</File>
+    <File>Textures/ICON_LEADER_CEYLON_256.tex</File>
+    <File>Textures/ICON_LEADER_CEYLON_32.dds</File>
+    <File>Textures/ICON_LEADER_CEYLON_32.tex</File>
+    <File>Textures/ICON_LEADER_CEYLON_45.dds</File>
+    <File>Textures/ICON_LEADER_CEYLON_45.tex</File>
+    <File>Textures/ICON_LEADER_CEYLON_48.dds</File>
+    <File>Textures/ICON_LEADER_CEYLON_48.tex</File>
+    <File>Textures/ICON_LEADER_CEYLON_50.dds</File>
+    <File>Textures/ICON_LEADER_CEYLON_50.tex</File>
+    <File>Textures/ICON_LEADER_CEYLON_55.dds</File>
+    <File>Textures/ICON_LEADER_CEYLON_55.tex</File>
+    <File>Textures/ICON_LEADER_CEYLON_64.dds</File>
+    <File>Textures/ICON_LEADER_CEYLON_64.tex</File>
+    <File>Textures/ICON_LEADER_CEYLON_80.dds</File>
+    <File>Textures/ICON_LEADER_CEYLON_80.tex</File>
+    <File>Textures/IMG_SELECTION_FOREGROUND_CEYLON.dds</File>
+    <File>Textures/IMG_SELECTION_FOREGROUND_CEYLON.tex</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+  
+  <LocalizedText>
+		<Text id="LOC_MOD_SIESTA_NAME">
+			<en_US>Arknights Siesta</en_US>
+			<zh_Hans_CN>明日方舟 汐斯塔</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+</Mod>
