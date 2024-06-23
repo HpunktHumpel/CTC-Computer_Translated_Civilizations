@@ -26,6 +26,7 @@ Auto-generated translations for the following mods are currently included in thi
 
 | ID  | Name  | English  |
 |-----|-------|----------|
+| [2007611290](https://steamcommunity.com/sharedfiles/filedetails/?id=2007611290) | RhodesIsland | RhodesIsland |
 | [2007640634](https://steamcommunity.com/sharedfiles/filedetails/?id=2007640634) | Atelier Ryza Mod | Atelier Ryza Mod |
 | [2013408578](https://steamcommunity.com/sharedfiles/filedetails/?id=2013408578) | HonKai3 Fuhua | HonKai3 Fuhua |
 | [2014906545](https://steamcommunity.com/sharedfiles/filedetails/?id=2014906545) | Arknights Siesta | Arknights Siesta |
