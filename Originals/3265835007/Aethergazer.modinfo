@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="84a6871f-1f07-4aa3-8d18-d84c7aa2836f" version="4">
+  <Properties>
+    <Name>深空之眼 暗星·海拉 重置版</Name>
+    <Description>本mod包含一个领袖[NEWLINE]需要深空之眼 重置版核心代码才能使用 无法使用深空之眼 经典版核心代码游玩</Description>
+    <Created>1718326212</Created>
+    <Teaser>深空之眼 暗星·海拉 重置版</Teaser>
+    <Authors>HK433</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="ac469d2f-8066-4990-82a7-984befd1dece" title="深空之眼 重置版核心代码" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="art">
+      <File>Aethergazer.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>COLOR_AETHERGAZER.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="config">
+      <File>CONFIG_AETHERGAZER.xml</File>
+      <File>CONFIG_AETHERGAZER.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>TEXT_AETHERGAZER.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>ICON_AETHERGAZER.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="art">
+      <File>Aethergazer.dep</File>
+    </UpdateArt>
+    <UpdateColors id="colors">
+      <File>COLOR_AETHERGAZER.xml</File>
+    </UpdateColors>
+    <UpdateText id="text">
+      <File>TEXT_AETHERGAZER.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="data">
+      <File>CIVILIZATION_AETHERGAZER.sql</File>
+      <File>ICON_AETHERGAZER.xml</File>
+      <File>LEADER_AETHERGAZER.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icons">
+      <File>ICON_AETHERGAZER.xml</File>
+    </UpdateIcons>
+    <UpdateAudio id="SSS">
+      <File>Platforms/Windows/Audio/music_ready.bnk</File>
+      <File>Platforms/Windows/Audio/music_ready.ini</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>Aethergazer.dep</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>CIVILIZATION_AETHERGAZER.sql</File>
+    <File>COLOR_AETHERGAZER.xml</File>
+    <File>CONFIG_AETHERGAZER.sql</File>
+    <File>ICON_AETHERGAZER.xml</File>
+    <File>LEADER_AETHERGAZER.sql</File>
+    <File>Platforms/MacOS/BLPs/HAILADDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/HAILADDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>TEXT_AETHERGAZER.sql</File>
+  </Files>
+</Mod>
