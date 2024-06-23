@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2df5a312-bcbf-4735-a08f-6885cd62e757" version="1">
+  <Properties>
+    <Name>斯蒂优领导的洛维尼亚起义军</Name>
+    <Description>本MOD为手机游戏《世界征服者4》的MOD“荒凉的希望”的延伸MOD，也是作者本人第一次尝试制作的文明6MOD，请多包涵。</Description>
+    <Created>1717114689</Created>
+    <Teaser>本MOD为手机游戏《世界征服者4》的MOD“荒凉的希望”的延伸MOD</Teaser>
+    <Authors>佩姆卡Pemka</Authors>
+    <SpecialThanks>摸鱼的雅木（原MOD作者）</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>LoviniaRebels_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>LoviniaRebels_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>LoviniaRebels_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Icon">
+      <File>LoviniaRebels_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>斯蒂优领导的洛维尼亚起义军.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="ingame">
+      <File>LoviniaRebels_Stiyo_Civilization.xml</File>
+      <File>LoviniaRebels_Leaders.xml</File>
+      <File>LoviniaRebels_Units.xml</File>
+      <File>LoviniaRebels_Bulidings.xml</File>
+      <File>LoviniaRebels_Projects.xml</File>
+      <File>LoviniaRebels_Agendas.xml</File>
+      <File>LoviniaRebels_Districts.xml</File>
+      <File>LoviniaRebels_Projects.xml</File>
+      <File>LoviniaRebels_UnitPromotions.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>LoviniaRebels_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>LoviniaRebels_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>斯蒂优领导的洛维尼亚起义军.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>LoviniaRebels_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>LoviniaRebels_Agendas.xml</File>
+    <File>LoviniaRebels_Bulidings.xml</File>
+    <File>LoviniaRebels_Colors.xml</File>
+    <File>LoviniaRebels_Config.xml</File>
+    <File>LoviniaRebels_Diplomacy_Text.xml</File>
+    <File>LoviniaRebels_Districts.xml</File>
+    <File>LoviniaRebels_Icons.xml</File>
+    <File>LoviniaRebels_Leaders.xml</File>
+    <File>LoviniaRebels_Projects.xml</File>
+    <File>LoviniaRebels_Stiyo_Civilization.xml</File>
+    <File>LoviniaRebels_Text.xml</File>
+    <File>LoviniaRebels_UnitPromotions.xml</File>
+    <File>LoviniaRebels_Units.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/LoviniaRebels_Texture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LoviniaRebels_Texture.blp</File>
+    <File>斯蒂优领导的洛维尼亚起义军.dep</File>
+  </Files>
+</Mod>

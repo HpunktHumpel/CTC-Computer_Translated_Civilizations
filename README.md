@@ -173,6 +173,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3102682740](https://steamcommunity.com/sharedfiles/filedetails/?id=3102682740) | 深空之眼 灵猫·芭丝特 | Eye of Deep Space Civet Bastet |
 | [3104997803](https://steamcommunity.com/sharedfiles/filedetails/?id=3104997803) | 소라사키 히나의 게헨나 학원 | Hina Sorasaki's Gehenna Academy |
 | [3109329206](https://steamcommunity.com/sharedfiles/filedetails/?id=3109329206) | 텐도 아리스의 밀레니엄 사이언스 스쿨 | Millennium Science School at Tendo Aris |
+| [3112256077](https://steamcommunity.com/sharedfiles/filedetails/?id=3112256077) | The Lovinian rebellion led by Stiyo | The Lovinian rebellion led by Stiyo |
 | [3113847826](https://steamcommunity.com/sharedfiles/filedetails/?id=3113847826) | 少女前线 前线战备队 TMP（喵棱镜威力） | Girls Frontline Frontline Ready Team TMP (Meow Prism Power) |
 | [3122354514](https://steamcommunity.com/sharedfiles/filedetails/?id=3122354514) | 시모에 코하루의 트리니티 종합학원 | Koharu Shimoe's Trinity General Academy |
 | [3127361862](https://steamcommunity.com/sharedfiles/filedetails/?id=3127361862) | LeaderAnQing | LeaderAnQing |
