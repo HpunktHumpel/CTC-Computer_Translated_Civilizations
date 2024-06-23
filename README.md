@@ -200,6 +200,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3238588525](https://steamcommunity.com/sharedfiles/filedetails/?id=3238588525) | 쿠로다테 하루나의 게헨나 학원 | Kurodate Haruna's Gehenna Academy |
 | [3241314555](https://steamcommunity.com/sharedfiles/filedetails/?id=3241314555) | 「盛会之星」匹诺康尼·鸢尾花家系·知更鸟 | "Star of the Gala" Pinocchio·Iris Family·Robin |
 | [3265872722](https://steamcommunity.com/sharedfiles/filedetails/?id=3265872722) | 深空之眼 重置版核心代码 | Eye of the Deep Sky Remastered Core Code |
+| [3272604234](https://steamcommunity.com/sharedfiles/filedetails/?id=3272604234) | 深空之眼 启明·海姆达尔 重置版 | Eyes of the Deep Sky: Qiming Heimdall Remastered |
 
 ##How to use this mod?
 1. install this mod
