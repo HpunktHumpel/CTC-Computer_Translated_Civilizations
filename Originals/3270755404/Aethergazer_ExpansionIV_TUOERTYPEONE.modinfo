@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cd7777f3-c577-4f38-b949-c51436a613ab" version="1">
+  <Properties>
+    <Name>深空之眼 喧哗颂歌·托尔 重置版</Name>
+    <Description>深空之眼 喧哗颂歌·托尔，需要重置版核心代码才能游玩</Description>
+    <Created>1718775273</Created>
+    <Teaser>深空之眼 喧哗颂歌·托尔，需要重置版核心代码才能游玩</Teaser>
+    <Authors>HK433</Authors>
+    <SpecialThanks>深空之眼 喧哗颂歌·托尔 重置版</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="ac469d2f-8066-4990-82a7-984befd1dece" title="深空之眼 重置版核心代码" />
+    <Mod id="466465b5-9cef-413f-926c-01558f417e51" title="深空之眼 轰雷·托尔 重置版" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_ExpansionIV_TUOERTYPEONE.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="NewAction">
+      <File>CONFIG_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_ExpansionIV_TUOERTYPEONE.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>CIVILIZATION_AETHERGAZER_IV_TUOERTYPEONE.sql</File>
+      <File>LEADER_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.sql</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Aethergazer_ExpansionIV_TUOERTYPEONE.dep</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>CIVILIZATION_AETHERGAZER_IV_TUOERTYPEONE.sql</File>
+    <File>COLOR_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.xml</File>
+    <File>CONFIG_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.sql</File>
+    <File>ICON_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.xml</File>
+    <File>LEADER_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/TUOERTYPEONEDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/TUOERTYPEONEDDS.blp</File>
+    <File>TEXT_AETHERGAZER_EXPANSION_IV_TUOER_TYPEONE.sql</File>
+  </Files>
+</Mod>
