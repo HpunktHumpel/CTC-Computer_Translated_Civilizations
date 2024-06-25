@@ -202,6 +202,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3265835007](https://steamcommunity.com/sharedfiles/filedetails/?id=3265835007) | 深空之眼 暗星·海拉 重置版 | Eyes of the Deep Sky Dark Star Hela Remastered |
 | [3265872722](https://steamcommunity.com/sharedfiles/filedetails/?id=3265872722) | 深空之眼 重置版核心代码 | Eye of the Deep Sky Remastered Core Code |
 | [3266127799](https://steamcommunity.com/sharedfiles/filedetails/?id=3266127799) | 深空之眼 巡天·英招 | Eyes of the Deep Sky Survey Yingzhao |
+| [3266271327](https://steamcommunity.com/sharedfiles/filedetails/?id=3266271327) | 屈原（仿三国杀逆天离骚版） QuYuan(Language Chinese Only) | Qu Yuan (Language Chinese Only) |
 | [3266696982](https://steamcommunity.com/sharedfiles/filedetails/?id=3266696982) | 深空之眼 寒霜之牙·维达尔 重置版 | Eye of the Deep Sky Frostfang Vidal Remastered |
 | [3266948316](https://steamcommunity.com/sharedfiles/filedetails/?id=3266948316) | 深空之眼 旧誓·薇儿丹蒂 重置版 | Eyes of the Deep Sky: Old Vow: Verdandy Remastered |
 | [3267331156](https://steamcommunity.com/sharedfiles/filedetails/?id=3267331156) | 深空之眼 镇魂乐章·海拉 重置版 | Eyes of the Deep Sky: Soul-Calming Symphony Hela Remastered |
