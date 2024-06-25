@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="55199753-e72d-4c3d-9552-4e27436f17fb" version="4">
+  <Properties>
+    <Name>屈原（仿三国杀逆天版）QuYuan</Name>
+    <Description>屈原（仿三国杀逆天版）
+屈原（仿三国杀逆天版）
+屈原（仿三国杀逆天版）</Description>
+    <Created>1719053378</Created>
+    <Teaser>屈原（仿三国杀逆天版）</Teaser>
+    <Authors>StarsWhisper</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Leader_Sanguosha_Qu_Yuan_Cfg.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Text_Leader_Sanguosha_Qu_Yuan.xml</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>Icon_Leader_Sanguosha_Qu_Yuan.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="NewAction">
+      <File>Color_Leader_Sanguosha_Qu_Yuan.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="db">
+      <File>Leader_Sanguosha_Qu_Yuan.sql</File>
+      <File>Leader_Sanguosha_Qu_Yuan_Agenda.sql</File>
+      <File>Leader_Sanguosha_Qu_Yuan_Ai.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="script">
+      <File>Leader_Sanguosha_Qu_Yuan.lua</File>
+    </AddGameplayScripts>
+    <UpdateText id="text">
+      <File>Text_Leader_Sanguosha_Qu_Yuan_LiSao.xml</File>
+      <File>Text_Leader_Sanguosha_Qu_Yuan.xml</File>
+      <File>Text_Leader_Sanguosha_Qu_Yuan_Diplo.xml</File>
+      <File>Text_Leader_Sanguosha_Qu_Yuan_Pedia.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>Leader_Sanguosha_Qu_Yuan.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="icon">
+      <File>Icon_Leader_Sanguosha_Qu_Yuan.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color">
+      <File>Color_Leader_Sanguosha_Qu_Yuan.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>Color_Leader_Sanguosha_Qu_Yuan.xml</File>
+    <File>Icon_Leader_Sanguosha_Qu_Yuan.xml</File>
+    <File>Leader_Sanguosha_Qu_Yuan.dep</File>
+    <File>Leader_Sanguosha_Qu_Yuan.lua</File>
+    <File>Leader_Sanguosha_Qu_Yuan.sql</File>
+    <File>Leader_Sanguosha_Qu_Yuan_Agenda.sql</File>
+    <File>Leader_Sanguosha_Qu_Yuan_Ai.sql</File>
+    <File>Leader_Sanguosha_Qu_Yuan_Cfg.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/Leader_Sanguosha_Qu_YuanXLP.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Leader_Sanguosha_Qu_YuanXLP.blp</File>
+    <File>Text_Leader_Sanguosha_Qu_Yuan.xml</File>
+    <File>Text_Leader_Sanguosha_Qu_Yuan_Agenda.xml</File>
+    <File>Text_Leader_Sanguosha_Qu_Yuan_Diplo.xml</File>
+    <File>Text_Leader_Sanguosha_Qu_Yuan_LiSao.xml</File>
+    <File>Text_Leader_Sanguosha_Qu_Yuan_Pedia.xml</File>
+  </Files>
+</Mod>

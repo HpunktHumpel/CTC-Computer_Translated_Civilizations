@@ -209,6 +209,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3270719186](https://steamcommunity.com/sharedfiles/filedetails/?id=3270719186) | 深空之眼 轰雷·托尔 重置版 | Eyes of the Deep Sky: Thunderbolt Remastered |
 | [3270755404](https://steamcommunity.com/sharedfiles/filedetails/?id=3270755404) | 深空之眼 喧哗颂歌·托尔 重置版 | Eyes of the Deep Sky: Thor: Remastered |
 | [3272604234](https://steamcommunity.com/sharedfiles/filedetails/?id=3272604234) | 深空之眼 启明·海姆达尔 重置版 | Eyes of the Deep Sky: Qiming Heimdall Remastered |
+| [3274391399](https://steamcommunity.com/sharedfiles/filedetails/?id=3274391399) | 深空之眼 夜之寄生·霍德尔 重置版 | Eyes of the Deep Sky Night Parasite Hodel Remastered |
 
 ##How to use this mod?
 1. install this mod
