@@ -180,6 +180,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3122354514](https://steamcommunity.com/sharedfiles/filedetails/?id=3122354514) | 시모에 코하루의 트리니티 종합학원 | Koharu Shimoe's Trinity General Academy |
 | [3127147732](https://steamcommunity.com/sharedfiles/filedetails/?id=3127147732) | Theresa Apocalypse | Theresa Apocalypse |
 | [3127361862](https://steamcommunity.com/sharedfiles/filedetails/?id=3127361862) | LeaderAnQing | LeaderAnQing |
+| [3128032515](https://steamcommunity.com/sharedfiles/filedetails/?id=3128032515) | Arknight Kjerag PVP Balance Patch | Arknight Kjerag PVP Balance Patch |
 | [3131003232](https://steamcommunity.com/sharedfiles/filedetails/?id=3131003232) | 少女前线 边境调查团 SVD | Girls Frontline Border Investigation SVD |
 | [3131006758](https://steamcommunity.com/sharedfiles/filedetails/?id=3131006758) | 少女前线 边境调查团 HS.50 | Girls Frontline Border Investigation Team HS.50 |
 | [3132957493](https://steamcommunity.com/sharedfiles/filedetails/?id=3132957493) | 丝碧涅和璐契儿领导的天空城文明 | Sky City Civilization led by Sibinie and Lucier |
