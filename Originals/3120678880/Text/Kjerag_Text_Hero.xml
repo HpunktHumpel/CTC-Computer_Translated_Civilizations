@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kjerag_Text -->
+<!-- Author: pen-->
+<!-- DateCreated: 2023/4/5 10:03:24 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_GREATWORKOBJECT_HERO" Language="zh_Hans_CN">
+			<Text>[ICON_GreatWork_Relic] 英雄遗物</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORKOBJECT_HERO" Language="zh_Hant_HK">
+		  <Text>[ICON_GreatWork_Relic] 英雄遺物</Text>
+		</Replace>
+	</LocalizedText>
+	<EnglishText>
+		<Row Tag="LOC_GREATWORKOBJECT_HERO">
+			<Text>[ICON_GreatWork_Relic] Heroic Relic</Text>
+		</Row>
+	</EnglishText>
+</GameData>
+
+	<!--Criteria id="inverseHeroes_Mode">
+		<ConfigurationValueMatches inverse = "1">
+			<Group>Game</Group>
+			<ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+			<Value>1</Value>
+		</ConfigurationValueMatches>
+	</Criteria>
+	<UpdateText id="text">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+	  <Criteria>inverseHeroes_Mode</Criteria>
+      <File>Text/Kjerag_Text_Hero.xml</File>
+    </UpdateText>
+	
+	<ImportFiles id="Heroes_Files">
+		<Criteria>inverseHeroes_Mode</Criteria>
+		<File>UI/Replacements/GreatWorkShowcase_Heroes.lua</File>
+		<File>UI/Replacements/GreatWorksOverview_Heroes.lua</File>
+	</ImportFiles>
+	<UpdateDatabase id="Heroes_Mode">
+      <Criteria>inverseHeroes_Mode</Criteria>
+      <File>Data/Kjerag_Hero.sql</File>
+    </UpdateDatabase-->

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f167afeb-d66e-4a71-a1f3-6c48cb3fb946" version="1">
+  <Properties>
+    <Name>LOC_ARKNIGHTS_KJERAG_NAME</Name>
+    <Description>LOC_ARKNIGHTS_KJERAG_DESCRIPTION</Description>
+    <Created>1720511149</Created>
+    <Teaser>LOC_ARKNIGHTS_KJERAG_TEASER</Teaser>
+    <Authors>Pen IthildinX</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_ARKNIGHTS_KJERAG_NAME">
+      <en_US>Arknight Kjerag</en_US>
+	  <zh_Hant_HK>明日方舟-謝拉格文明</zh_Hant_HK>
+      <zh_Hans_CN>明日方舟-谢拉格文明</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_ARKNIGHTS_KJERAG_TEASER">
+      <en_US>Author: Pen, IthildinX</en_US>
+	  <zh_Hant_HK>作者：Pen, IthildinX</zh_Hant_HK>
+      <zh_Hans_CN>作者：Pen, IthildinX</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_ARKNIGHTS_KJERAG_DESCRIPTION">
+      <en_US>Added civilization: Kjerag, and its leader: SilverAsh, Pramanix, Gnosis.</en_US>
+	  <zh_Hant_HK>添加文明：謝拉格，以及領袖：銀灰、初雪、靈知</zh_Hant_HK>
+      <zh_Hans_CN>添加文明：谢拉格，以及领袖：银灰、初雪、灵知</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+    <Criteria id="Arknights">
+      <!--启用方舟基础寻访包模组-->
+      <ModInUse>9fbf1365-0c19-41fd-ac10-a89167fd4d4d</ModInUse>
+    </Criteria>
+    <Criteria id="inverseHeroes_Mode">
+      <ConfigurationValueMatches inverse="1">
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="database">
+      <File>Data/Kjerag_Config.sql</File>
+      <File>Data/Kjerag_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <File>Data/Kjerag_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Text/Kjerag_Text_CN.xml</File>
+      <File>Text/Kjerag_Text_US.xml</File>
+      <File>Text/Kjerag_Text_HK.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>Data/Kjerag_Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>Arknights Kjerag.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Data/Kjerag_Civilization.sql</File>
+      <File>Data/Kjerag_District.sql</File>
+      <File>Data/Kjerag_Leaders.sql</File>
+      <File>Data/Kjerag_Unit.sql</File>
+      <File>Data/Kjerag_Moment.sql</File>
+      <File>Data/Kjerag_Buildings.sql</File>
+      <File>Data/Kjerag_Religion.xml</File>
+      <File>Data/Kjerag_Improvements.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Data/Kjerag_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Text/Kjerag_Text_CN.xml</File>
+      <File>Text/Kjerag_Text_US.xml</File>
+      <File>Text/Kjerag_Text_HK.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>Data/Kjerag_Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>Arknights Kjerag.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="audio">
+      <File>Platforms/Windows/Audio/KjeragBanks.ini</File>
+      <File>Platforms/Windows/Audio/SoundBank_Kjerag.bnk</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+    <UpdateDatabase id="enhanced">
+      <Properties>
+        <LoadOrder>1002</LoadOrder>
+      </Properties>
+      <File>Data/Kjerag_Enhance.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="core">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Data/Kjerag_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="arknights">
+	  <Properties>
+        <LoadOrder>1002</LoadOrder>
+      </Properties>
+      <Criteria>Arknights</Criteria>
+      <File>Data/Kjerag_Arknights.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="GP">
+      <File>Scripts/Kjerag_GamePlay.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/Kjerag_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateDatabase id="HD">
+      <Properties>
+        <LoadOrder>300000</LoadOrder>
+      </Properties>
+      <File>Data/Kjerag_HD.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Heroes_Mode">
+      <Criteria>inverseHeroes_Mode</Criteria>
+      <File>Data/Kjerag_Hero.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <Criteria>inverseHeroes_Mode</Criteria>
+      <File>Text/Kjerag_Text_Hero.xml</File>
+    </UpdateText>
+    <ImportFiles id="Heroes_Files">
+      <Criteria>inverseHeroes_Mode</Criteria>
+      <File>UI/Replacements/GreatWorkShowcase_Heroes.lua</File>
+      <File>UI/Replacements/GreatWorksOverview_Heroes.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Data/Kjerag_Arknights.sql</File>
+    <File>Data/Kjerag_Buildings.sql</File>
+    <File>Data/Kjerag_Civilization.sql</File>
+    <File>Data/Kjerag_Color.xml</File>
+    <File>Data/Kjerag_Config.sql</File>
+    <File>Data/Kjerag_Config.xml</File>
+    <File>Data/Kjerag_Core.sql</File>
+    <File>Data/Kjerag_District.sql</File>
+    <File>Data/Kjerag_Enhance.sql</File>
+    <File>Data/Kjerag_HD.sql</File>
+    <File>Data/Kjerag_Hero.sql</File>
+    <File>Data/Kjerag_Icons.xml</File>
+    <File>Data/Kjerag_Improvements.sql</File>
+    <File>Data/Kjerag_Leaders.sql</File>
+    <File>Data/Kjerag_Moment.sql</File>
+    <File>Data/Kjerag_Religion.xml</File>
+    <File>Data/Kjerag_Unit.sql</File>
+    <File>Arknights Kjerag.dep</File>
+    <File>Platforms/MacOS/Audio/503270909.wem</File>
+    <File>Platforms/MacOS/Audio/525797389.wem</File>
+    <File>Platforms/MacOS/Audio/735270470.wem</File>
+    <File>Platforms/MacOS/Audio/896315820.wem</File>
+    <File>Platforms/MacOS/Audio/90148409.wem</File>
+    <File>Platforms/MacOS/Audio/Chinese(PRC)/Kjerag_SoundBank.bnk</File>
+    <File>Platforms/MacOS/Audio/Chinese(PRC)/Kjerag_SoundBank.txt</File>
+    <File>Platforms/MacOS/Audio/Chinese(Taiwan)/Kjerag_SoundBank.bnk</File>
+    <File>Platforms/MacOS/Audio/Chinese(Taiwan)/Kjerag_SoundBank.txt</File>
+    <File>Platforms/MacOS/Audio/English(US)/Kjerag_SoundBank.bnk</File>
+    <File>Platforms/MacOS/Audio/English(US)/Kjerag_SoundBank.txt</File>
+    <File>Platforms/MacOS/Audio/Japanese/Kjerag_SoundBank.bnk</File>
+    <File>Platforms/MacOS/Audio/Japanese/Kjerag_SoundBank.txt</File>
+    <File>Platforms/MacOS/Audio/KjeragBanks.ini</File>
+    <File>Platforms/MacOS/Audio/PluginInfo.xml</File>
+    <File>Platforms/MacOS/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/MacOS/BLPs/Kjerag.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cliff_Tile_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cliff_Tile_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cliff_Tile_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cliff_Tile_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Cliff_Tile_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TamStatue_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Construction_props_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Cristo_Redentor_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_Brick_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_Wall_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TamStatue_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TamStatue_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_L</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_N1</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/Audio/503270909.wem</File>
+    <File>Platforms/Windows/Audio/525797389.wem</File>
+    <File>Platforms/Windows/Audio/735270470.wem</File>
+    <File>Platforms/Windows/Audio/896315820.wem</File>
+    <File>Platforms/Windows/Audio/90148409.wem</File>
+    <File>Platforms/Windows/Audio/Chinese(PRC)/Kjerag_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/Chinese(PRC)/Kjerag_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/Chinese(Taiwan)/Kjerag_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/Chinese(Taiwan)/Kjerag_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/English(US)/Kjerag_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/English(US)/Kjerag_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/Japanese/Kjerag_SoundBank.bnk</File>
+    <File>Platforms/Windows/Audio/Japanese/Kjerag_SoundBank.txt</File>
+    <File>Platforms/Windows/Audio/KjeragBanks.ini</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/Kjerag.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cliff_Tile_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cliff_Tile_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cliff_Tile_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cliff_Tile_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Cliff_Tile_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TamStatue_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Construction_props_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Cristo_Redentor_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_Brick_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Movie_Wall_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TamStatue_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TamStatue_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Construction_props_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_L</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Cristo_Redentor_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Brick_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_Movie_Wall_N1</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Scripts/Kjerag_GamePlay.lua</File>
+    <File>Text/Kjerag_Text_CN.xml</File>
+    <File>Text/Kjerag_Text_Hero.xml</File>
+    <File>Text/Kjerag_Text_HK.xml</File>
+    <File>Text/Kjerag_Text_US.xml</File>
+    <File>UI/Kjerag_UI.lua</File>
+    <File>UI/Kjerag_UI.xml</File>
+    <File>UI/Replacements/GreatWorkShowcase_Heroes.lua</File>
+    <File>UI/Replacements/GreatWorksOverview_Heroes.lua</File>
+  </Files>
+</Mod>

@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kjerag_Text -->
+<!-- Author: pen-->
+<!-- DateCreated: 2023/4/5 10:03:24 -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_POWER_OF_YELAGAND_NAME" Language="zh_Hans_CN">
+			<Text>耶拉冈德的伟力</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_POWER_OF_YELAGAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				允许在冻土上建造营地。解锁“启蒙运动”后，即可在雪地上建造营地。位于冻土或雪地的营地+2 [ICON_PRODUCTION] 生产力，若位于丘陵则额外+1 [ICON_FAITH] 信仰。营地为相邻区域提供+1 [ICON_FOOD] 食物。
+				[NEWLINE]首次建立城市时立刻获得伟人“耶拉冈德”和英雄遗物“耶拉冈德之石”，耶拉冈德在 25 [ICON_TURN] 回合后将自动隐退（标准速度下）。研究“神秘主义”后获得干员“初雪”。
+				[NEWLINE]单位不会收到暴风雪的伤害。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_KJERAG_DISTRICT_CAMP_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_FOOD] 食物来自相邻营地改良设施</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_YELAGANDSTONE_NAME" Language="zh_Hans_CN">
+			<Text>耶拉冈德之石</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GREAT_YELAGAND_NAME" Language="zh_Hans_CN">
+			<Text>耶拉冈德</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_YELAGAND_NAME" Language="zh_Hans_CN">
+			<Text>谢拉格之神</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GREAT_YELAGAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>谢拉格之神</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_YELA_NAME" Language="zh_Hans_CN">
+			<Text>耶拉冈德</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KJERAG_YELAGAND_STONE_NAME" Language="zh_Hans_CN">
+			<Text>耶拉冈德之石</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KJERAG_YELAGAND_STONE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>存放耶拉冈德之石的地方</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_KJERAG_YELAGAND_STATUE_NAME" Language="zh_Hans_CN">
+			<Text>耶拉冈德像</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_KJERAG_YELAGAND_STATUE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>谢拉格特色奇观，取代救世基督像。[NEWLINE][ICON_GREATWORK_RELIC] 遗物和圣城的 [ICON_TOURISM] 旅游业绩产值不会被其他研究了“启蒙运动”市政的文明削弱。位于冻土的区域获得等同于相邻产出的 [ICON_TOURISM] 旅游业绩（金币减半），若区域连接有铁路，区域相邻产出+100%。位于冻土且连接有铁路的城市 [ICON_TOURISM] 宗教旅游业绩+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KJERAG_YELAGAND_STATUE_NAME" Language="zh_Hans_CN">
+			<Text>耶拉冈德像</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KJERAG_YELAGAND_STATUE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_GREATWORK_RELIC] 遗物和圣城的 [ICON_TOURISM] 旅游业绩产值不会被其他研究了“启蒙运动”市政的文明削弱。位于冻土的区域获得等同于相邻产出的 [ICON_TOURISM] 旅游业绩（金币减半），若区域连接有铁路，区域相邻产出+100%。位于冻土且连接有铁路的城市 [ICON_TOURISM] 宗教旅游业绩+100%。[NEWLINE][NEWLINE]必须建造在位于冻土城市内的湖泊上。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_COURIER_NAME" Language="zh_Hans_CN">
+			<Text>讯使</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_COURIER_NAME" Language="zh_Hans_CN">
+			<Text>讯使</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_COURIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>谢拉格特色单位，代替侦察兵，具有更高的战斗力、移动力和视野，容易获得更多经验。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_COURIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>谢拉格特色单位，代替侦察兵，具有更高的战斗力、移动力和视野，容易获得更多经验。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COURIER_XP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位获得经验增加200%</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KJERAG" Language="zh_Hans_CN">
+			<Text>谢拉格</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_1" Language="zh_Hans_CN">
+			<Text>喀兰峰</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_2" Language="zh_Hans_CN">
+			<Text>角峰</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_3" Language="zh_Hans_CN">
+			<Text>少女峰</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_4" Language="zh_Hans_CN">
+			<Text>图里卡姆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_5" Language="zh_Hans_CN">
+			<Text>马特洪峰</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_6" Language="zh_Hans_CN">
+			<Text>佩尔罗契</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_7" Language="zh_Hans_CN">
+			<Text>布朗陶</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_8" Language="zh_Hans_CN">
+			<Text>希瓦艾什</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_9" Language="zh_Hans_CN">
+			<Text>埃德怀斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_10" Language="zh_Hans_CN">
+			<Text>伯尔尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_KJERAG_NAME_11" Language="zh_Hans_CN">
+			<Text>银心湖</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KJERAG_NAME" Language="zh_Hans_CN">
+			<Text>谢拉格</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KJERAG_ADJECTIVE" Language="zh_Hans_CN" >
+			<Text>谢拉格</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KJERAG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>谢拉格</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_1" Language="zh_Hans_CN">
+			<Text>恩希亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_2" Language="zh_Hans_CN">
+			<Text>讯使</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_3" Language="zh_Hans_CN">
+			<Text>角峰</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_4" Language="zh_Hans_CN">
+			<Text>魏斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_5" Language="zh_Hans_CN">
+			<Text>莫希</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_6" Language="zh_Hans_CN">
+			<Text>阿克托斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_7" Language="zh_Hans_CN">
+			<Text>古罗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_8" Language="zh_Hans_CN">
+			<Text>诺希斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_9" Language="zh_Hans_CN">
+			<Text>切斯特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MALE_10" Language="zh_Hans_CN">
+			<Text>佐尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_1" Language="zh_Hans_CN">
+			<Text>崖心</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_2" Language="zh_Hans_CN">
+			<Text>极光</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_3" Language="zh_Hans_CN">
+			<Text>休露丝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_4" Language="zh_Hans_CN">
+			<Text>菈塔托丝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_5" Language="zh_Hans_CN">
+			<Text>尤卡坦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_6" Language="zh_Hans_CN">
+			<Text>恩雅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_7" Language="zh_Hans_CN">
+			<Text>雅儿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_8" Language="zh_Hans_CN">
+			<Text>锏</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_9" Language="zh_Hans_CN">
+			<Text>瓦莱丝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_FEMALE_10" Language="zh_Hans_CN">
+			<Text>耶拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>恩希亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>讯使</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>角峰</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>魏斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>莫希</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>阿克托斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>古罗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>诺希斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>切斯特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>佐尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>崖心</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>极光</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>休露丝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>菈塔托丝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>尤卡坦</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>恩雅</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>雅儿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>锏</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>瓦莱丝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_KJERAG_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>耶拉</Text>
+		</Replace>
+		
+		<!-- SILVERASH -->
+		<Replace Tag="LOC_LEADER_SILVERASH_NAME" Language="zh_Hans_CN">
+			<Text>银灰</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SILVERASH" Language="zh_Hans_CN">
+			<Text>喀兰之主银灰</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LORD_OF_KARLAN_NAME" Language="zh_Hans_CN">
+			<Text>喀兰之主</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_SILVERASH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>银灰，谢拉格军阀，喀兰贸易公司董事长，希瓦艾什家族现任族长。幼年的经历让你明白，耶拉冈德或许能带领文明走出蒙昧，但残余的守旧派并不能给谢拉格带来光明。于维多利亚求学后，你返回了故乡并创办了喀兰贸易，现在，喀兰贸易的影响已经深入谢拉格的方方面面，三族议会摇摇欲坠，守旧或者革新，谢拉格的未来掌握在你的手中。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LORD_OF_KARLAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				国际贸易路线起始城市的每个区域提供区域商路加成，从贸易路线获得三倍的同盟点数。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_KARLAN_NAME" Language="zh_Hans_CN">
+			<Text>喀兰贸易</Text>
+		</Replace>	
+		<Replace Tag="LOC_TRAIT_LEADER_KARLAN_NAME" Language="zh_Hans_CN">
+			<Text>喀兰贸易</Text>
+		</Replace>	
+		<Replace Tag="LOC_TRAIT_LEADER_KARLAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有喀兰贸易所有领袖能力（需要开启相应mod）</Text>
+		</Replace>		
+		
+		<Replace Tag="LOC_ABILITY_KJERAG_FEATURES_NAME" Language="zh_Hans_CN">
+			<Text>领袖</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_FEATURES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于冻土时移动力+1</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_KARLAN_TRADE_NAME" Language="zh_Hans_CN">
+			<Text>喀兰贸易站</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_KARLAN_TRADE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				喀兰贸易在谢拉格各地设立的贸易站，生产力花费更低。购买单位获得20%折扣。从相邻冻土获得标准加成，从相邻军营获得+2金币的同时向军营提供+2生产力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KARLAN_TRADE_NAME" Language="zh_Hans_CN">
+			<Text>喀兰贸易站</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KARLAN_TRADE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				生产力花费更低，购买单位获得20%折扣，提供两倍的区域商路加成。从相邻冻土获得标准加成，从相邻军营获得+2金币的同时向军营提供+2生产力。
+				[NEWLINE]启蒙运动后解锁“圣山事变”项目。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_KARLAN_TUNDRA_GOLD_DSCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_GOLD] 金币来自相邻冻土单元格</Text>
+		</Replace>
+		<Replace Tag="LOC_KARLAN_TUNDRA_HILLS_GOLD_DSCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_GOLD] 金币来自相邻冻土丘陵单元格</Text>
+		</Replace>
+		<Replace Tag="LOC_KARLAN_ENCAMPMENT_GOLD_DSCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_GOLD] 金币来自相邻军营</Text>
+		</Replace>
+		<Replace Tag="LOC_KARLAN_ENCAMPMENT_PRODUCTION_DSCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻喀兰贸易站</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_SILVERASH_INCIDENT_ON_HOLY_MOUNTAIN_NAME" Language="zh_Hans_CN">
+			<Text>圣山事变</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_SILVERASH_INCIDENT_ON_HOLY_MOUNTAIN_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>圣山事变</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_SILVERASH_INCIDENT_ON_HOLY_MOUNTAIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				随着与外界的贸易，先进的思想传入谢拉格，加强交流、反对三族议会的声音越发高涨。维多利亚归来后你一直在等待一个时机，现在似乎是时候了。
+				[NEWLINE][NEWLINE]项目完成后将掀起反对三族议会的浪潮，所有城市承受大量忠诚度压力，直到终结三族议会的统治。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_SILVERASH_END_OF_PARLIAMENT_NAME" Language="zh_Hans_CN">
+			<Text>三族议会的末路</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_SILVERASH_END_OF_PARLIAMENT_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>三族议会的末路</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_SILVERASH_END_OF_PARLIAMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				三族议会封闭谢拉格的时间已经够久了，从今往后，谢拉格将走向世界的舞台。
+				[NEWLINE][NEWLINE]项目进行时所在城市受到大量忠诚度压力，直到项目完成。项目结束后，贸易路线经过的每个国外贸易站提供+3 [ICON_GOLD] 金币，目的城市每个区域+1 [ICON_SCIENCE] 科技+1 [ICON_CULTURE] 文化。
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNIT_SHANXUEGUI_NAME" Language="zh_Hans_CN">
+			<Text>山雪鬼</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_SHANXUEGUI_NAME" Language="zh_Hans_CN">
+			<Text>山雪鬼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SHANXUEGUI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>银灰特色单位，代替披甲战士，具有更高的战斗力和移动力，能够进行远程攻击。攻击受伤单位时+5 [ICON_STRENGTH] 战斗力，攻击位于冻土的单位时+10 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_SHANXUEGUI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>银灰特色单位，代替披甲战士，具有更高的战斗力和移动力，能够进行远程攻击。攻击受伤单位时+5 [ICON_STRENGTH] 战斗力，攻击位于冻土的单位时+10 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SHANXUEGUI_WOUNDED_UNITS_NAME" Language="zh_Hans_CN">
+			<Text>脆弱</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SHANXUEGUI_WOUNDED_UNITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击受伤单位时+5 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SHANXUEGUI_WOUNDED_UNITS_STR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_STRENGTH] 战斗力来自攻击受伤单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SHANXUEGUI_TUNDRA_ATTACK_NAME" Language="zh_Hans_CN">
+			<Text>降雪</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SHANXUEGUI_TUNDRA_ATTACK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击位于冻土的敌人时+10 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SHANXUEGUI_TUNDRA_ATTACK_STR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_STRENGTH] 战斗力来自位于冻土。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNIT_GANYUAN_PRAMANIX_NAME" Language="zh_Hans_CN">
+			<Text>初雪</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_GANYUAN_PRAMANIX_NAME" Language="zh_Hans_CN">
+			<Text>干员初雪</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_GANYUAN_PRAMANIX_NAME" Language="zh_Hans_CN">
+			<Text>干员初雪</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GANYUAN_PRAMANIX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>干员初雪，研究市政“神秘主义”后解锁，研究“神学”和“归正会”后获得晋升。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_GANYUAN_PRAMANIX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>干员初雪，研究市政“神秘主义”后解锁，研究“神学”和“归正会”后获得晋升。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PRAMANIX_HEAL_PER_TURN_NAME" Language="zh_Hans_CN">
+			<Text>治愈铃音</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PRAMANIX_HEAL_PER_TURN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文明所拥有的所有单位每回合额外回复5点 [ICON_DAMAGED] 生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PRAMANIX_HEAL_PER_TURN_NAME" Language="zh_Hans_CN">
+			<Text>治愈铃音</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PRAMANIX_HEAL_PER_TURN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文明所拥有的所有受伤单位每回合额外回复5点 [ICON_DAMAGED] 生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PRAMANIX_RELIC_ENHANCE_YIELD_NAME" Language="zh_Hans_CN">
+			<Text>传道铃音</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PRAMANIX_RELIC_ENHANCE_YIELD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所拥有 [ICON_GREATWORK_RELIC] 遗物和英雄遗物提供的 [ICON_PRODUCTION] 生产力+2、 [ICON_FAITH] 信仰值+2、 [ICON_CULTURE] 文化值+2。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PRAMANIX_NATURAL_DETERRENT_NAME" Language="zh_Hans_CN">
+			<Text>自然震慑</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PRAMANIX_NATURAL_DETERRENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>周围两格的敌方单位-5 [ICON_STRENGTH] 战斗力，-1 [ICON_MOVEMENT] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_PRAMANIX_NATURAL_DETERRENT_STR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{1_num} 来自自然震慑（初雪）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_PRAMANIX_WEAK_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>自然震慑1</Text>
+		</Replace><!-- NEW -->
+		<Replace Tag="LOC_ABILITY_KJERAG_PRAMANIX_WEAK_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初雪周围两格的敌方单位-5 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_PRAMANIX_WEAK_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>自然震慑2</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_PRAMANIX_WEAK_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初雪周围两格的敌方单位-1 [ICON_MOVEMENT] 移动力。</Text>
+		</Replace><!-- NEW -->
+		
+		<Replace Tag="LOC_CITY_NAME_REINCARNATION" Language="zh_Hans_CN">
+			<Text>谢拉格</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_KJERAG_LOCATION" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_KJERAG_SIZE" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_KJERAG_POPULATION" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_KJERAG_CAPITAL" Language="zh_Hans_CN">
+			<Text>谢拉格</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_KJERAG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>谢拉格，或称雪境，是位于泰拉大陆中偏北的宗教国家。几乎不受天灾影响，地势险峻，封闭保守。北接卡西米尔，西邻哥伦比亚，东接维多利亚。因终年落雪，谢拉格人自称国度为雪境，这往往比国名更广为人知。
+			[NEWLINE]谢拉格三族议会掌控着谢拉格政治事务，在之前谢拉格境内还算相安无事。耶拉冈德成为谢拉格的第一位国王，正是祂为这片雪境命名为“谢拉格”，引领人们在雪境生存。而后耶拉冈德在几百年前神秘消失。
+			</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SILVERASH_QUOTE" Language="zh_Hans_CN">
+			<Text>雪崩会掩埋整个谢拉格，包括它所隐瞒的阴谋和发生过的一切。[NEWLINE]       ————银灰</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SILVERASH_TITLE" Language="zh_Hans_CN">
+			<Text>银灰</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SILVERASH_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>愿意为雪境之主身先士卒的人有许多，但这并不意味着雪境之主不会战斗。相反，当他拿起武器时，他的敌人应当颤抖。
+			[NEWLINE]卑劣的偷袭在他面前毫无意义，而面对妄图用数量取胜的愚者，要做的事也十分简单——为他争取时间。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SILVERASH_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>银灰，谢拉格军阀，喀兰贸易公司董事长，希瓦艾什家族现任族长。在经济贸易、国际政治、外交手腕与战术策划上有独到见解。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SILVERASH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+			[NEWLINE][NEWLINE]【体细胞与源石融合率】0%
+			[NEWLINE]受试对象没有被源石感染的迹象。
+			[NEWLINE][NEWLINE]【血液源石结晶密度】0.12u/L
+			[NEWLINE]受试对象的数值趋近正常，并无检查必要。
+			</Text>
+		</Replace>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SILVERASH_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>喀兰贸易公司是一家从事对外贸易的国营企业，位于被称作“雪境”的宗教化小国，谢拉格。
+			[NEWLINE]因为地势的原因，谢拉格很少受到天灾侵袭，这使得谢拉格的居民不依靠移动城邦也能安居乐业，相应的，险峻的地势也使谢拉格的发展十分缓慢。
+			[NEWLINE]而喀兰贸易公司的名称，大概来源于谢拉格的宗教信徒们对其宗教圣山的称呼。
+			[NEWLINE]由银灰一手操办的喀兰贸易公司，现在已经成为了封闭保守的谢拉格唯一的对外窗口，同时，这家贸易公司也不可避免地改变了谢拉格。
+			[NEWLINE]拥有如此程度的远见与执行力，银灰究竟有着怎么样的经历，值得进一步审查。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SILVERASH_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>喜爱文学与艺术，热衷狩猎和收藏，甚至十分擅长传统谢拉格剑技，银灰的做派中有许多传统贵族的影子。
+			[NEWLINE]然而，银灰的思维与行事方式又与传统背道而驰，充满了现代教育赋予的进步情结与激烈。
+			[NEWLINE]这样的喀兰贸易公司总裁银灰，是个颇有争议的人物。
+			[NEWLINE]无论如何，政客们都有一个共识：银灰并非能够被轻易调遣与掌控的人。
+			[NEWLINE]银灰与他的雇员们和盟友之间的合作十分紧密，但合作时，相互间也不存在等级关系。
+			[NEWLINE]无论是战略策划还是战术指挥，多数干员都会为银灰的实力所折服，而比大多数干员更多虑、更熟悉阴谋与政治手段的另一些干员，则都对银灰的目的感到怀疑。
+			[NEWLINE]虽然银灰确实很关心自己正在接受医治的感染者妹妹，崖心——不过，这并不能成为他信任盟友，或者是盟友足以信任他的理由。
+			[NEWLINE]也许正如传言所说，银灰真正感兴趣的，就只有盟友本身的价值，以及被他当作旗鼓相当的对手......
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SILVERASH_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>据传言，银灰的父母在银灰少年时意外身亡，现场证据更是指向银灰-希瓦艾什家族的政敌。
+			[NEWLINE]然而，也许是因为希瓦艾什家族的没落太过迅速，这件事竟然不了了之。
+			[NEWLINE]事故对年少的银灰必然造成了巨大影响，而银灰也并非软弱的富家子弟，他没有陷入自怨自艾的境地，而是继续抚养两位胞妹，直到她们能够自理为止。
+			[NEWLINE]之后，银灰离开了谢拉格，前往维多利亚接受现代化教育，任由政敌们瓜分希瓦艾什家族的政治遗产。谢拉格三族议会名存实亡。
+			[NEWLINE]这一状况持续到银灰归国为止。回国之后，银灰重新担负起了振兴家族的重任。
+			[NEWLINE]当然，据崖心的证词，归来的银灰已经不再是当年那个和善早熟，咬着牙忍耐一切的银灰少爷。
+			[NEWLINE]之后，喀兰贸易公司迅速崛起，垄断了原本被谢拉格禁止开发的多项现代产业，向其它国家大量出口商品与原料，并进口现代工业产品，于短时间内积累了巨额资本，而希瓦艾什家族也因为企业的成功，重新取回了自己在三族议会中的地位。
+			[NEWLINE]也许是因为另一场政治阴谋，银灰的两位妹妹都各自遭遇了会对希瓦艾什家族产生巨大影响的事件：长妹初雪在宗教仪式中被选作喀兰圣女，幺妹崖心感染了矿石病。
+			[NEWLINE]部分史学家倾向于这是一种政治对抗的举措，但崖心认为，这一切都再一次催化了银灰的意志。
+			[NEWLINE]现在，没人知道银灰会采取什么手段，正如没人知道他与盟友的合作究竟源于何种目的。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_KJERAG_SILVERASH_NAME" Language="zh_Hans_CN">
+			<Text>雪境生存法则</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_KJERAG_SILVERASH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢愿意结盟的文明。讨厌谴责或进攻自己朋友或盟友的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SILVERASH_REASON_ANY" Language="zh_Hans_CN">
+			<Text>(您与喀兰是朋友)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_KJERAG_SILVERASH_DECLARED_FRIEND" Language="zh_Hans_CN">
+			<Text>银灰喜欢宣布友好</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SILVERASH_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您谴责了喀兰的某位朋友。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_KJERAG_SILVERASH_DENOUNCED_FRIEND" Language="zh_Hans_CN">
+			<Text>银灰讨厌您谴责他的朋友</Text>
+		</Row>
+		
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SILVERASH_ANY">
+			<Text>喀兰贸易公司与贵国之联盟的稳固程度，完全取决于你我的想法。看来还是要好好相处呀，我的盟友？</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SILVERASH_ANY">
+			<Text>
+				这样发展下去，你我互相博弈的那一天，迟早会到来。
+				[NEWLINE]但是我，看上去很高兴？
+				[NEWLINE]也许吧，毕竟我很期待和你交手，也会珍惜那一天到来前的时光。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SILVERASH_ANY">
+			<Text>
+				银灰，你的盟友，前来助力。你不会让我失望的，对吗。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SILVERASH_ANY">
+			<Text>
+				客随主便，按你的想法安排就好。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SILVERASH_ANY">
+			<Text>
+				“——天空似乎暗了下来，要下雪了——”
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SILVERASH_ANY">
+			<Text>
+				竟然邀请我参与战斗，你确实很有胆识——作为回敬，就让你见识下银灰的手段——！
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SILVERASH_ANY">
+			<Text>
+				拿出你们全部的实力——这样至少能让我尽兴。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_SILVERASH_ANY">
+			<Text>银灰，喀兰贸易公司董事长。你不会让我失望的，对吗。</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SILVERASH_ANY">
+			<Text>
+				“你为何来到这里——”
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SILVERASH_ANY">
+			<Text>
+				作为落脚之处而言，挺不错。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SILVERASH_ANY">
+			<Text>
+				路途凶险，经验是必不可少的。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_SILVERASH_ANY">
+			<Text>
+				不错的战斗，即使是我都能感到心潮澎湃。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SILVERASH_ANY">
+			<Text>
+				虚礼虽不嫌多，但你也知道，我更看重其中有几分是信任。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SILVERASH_ANY">
+			<Text>
+				没什么变化啊，我的盟友。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SILVERASH_ANY">
+			<Text>
+				虚礼虽不嫌多，但你也知道，我更看重其中有几分是信任。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SILVERASH_ANY">
+			<Text>
+				“当他们耀武扬威时，无人知晓......”
+				“......当他们哀嚎求饶时，无人应答。”
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SILVERASH_ANY">
+			<Text>
+				“——天空似乎暗了下来，要下雪了——”
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SILVERASH_ANY">
+			<Text>
+				你应该有更高的目标。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SILVERASH_ANY">
+			<Text>
+				我当然明白这合约是对我的戏弄，可是这又如何呢，银灰愿意签署这份不平等的合同——因为你值得银灰这么做。
+			</Text>
+		</Replace>
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SILVERASH_ANY">
+			<Text>
+				让你的军队远离，谢拉格的主权不可侵犯。
+			</Text>
+		</Replace>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>过于疲劳了，抱歉。让我稍微休息一下。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>过于疲劳了，抱歉。让我稍微休息一下。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>
+				我当然明白这合约是对我的戏弄，可是这又如何呢，银灰愿意签署这份不平等的合同——因为你值得银灰这么做。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>
+				有什么想法？
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>不错的战斗，即使是我都能感到心潮澎湃。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>我的仇敌，我的玩物？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>
+				立刻撤退。现在还来得及。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>
+				当然，谢拉格欢迎所有人来。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>
+				抱歉，现在是圣山大典，谢拉格不允许外国人进入。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SILVERASH_ANY" Language="zh_Hans_CN">
+			<Text>
+				喀兰贸易希望能与你进一步合作。
+			</Text>
+		</Row>
+		
+		<!-- PRAMANIX -->
+		<Replace Tag="LOC_CITY_NAME_KJERAG_1" Language="zh_Hans_CN">
+			<Text>蔓珠峰</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_PRAMANIX_NAME" Language="zh_Hans_CN">
+			<Text>初雪</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PRAMANIX" Language="zh_Hans_CN">
+			<Text>喀兰圣女初雪</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SAINT_OF_KARLAN_NAME" Language="zh_Hans_CN">
+			<Text>喀兰圣女</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_PRAMANIX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣山铃响，风雪将至。当平时略显慵懒的初雪踏上战场，千年肃然屹立冰雪之中的群山的威压，便被她柔声的祷告唤来。严寒庇护着它顽强的子民，而脆弱的入侵者终将倒下。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SAINT_OF_KARLAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				利用宗教单位使城市首次改变信仰时，该城市每拥有1点 [ICON_CITIZEN] 人口，则提供25点 [ICON_CULTURE] 文化，50点 [ICON_FAITH] 信仰（标准速度下）。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_HOLY_WEAK_NAME" Language="zh_Hans_CN">
+			<Text>虚弱化</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_HOLY_WEAK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>上师附近的敌对单位-5 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_HOLY_WEAK_STR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{1_num} 来自相邻上师（虚弱化）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_APOSTLE_SPREAD_RELIC_NAME" Language="zh_Hans_CN">
+			<Text>传道圣铃</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_APOSTLE_SPREAD_RELIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使徒传教次数消耗完后生成一个遗物。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_RELIGION_YELAGAND" Language="zh_Hans_CN">
+			<Text>耶拉冈德</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_DISTRICT_MANZHU_NAME" Language="zh_Hans_CN">
+			<Text>蔓珠院</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_MANZHU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				谢拉格的宗教组织，信仰耶拉冈德。
+				[NEWLINE]区域生产力花费更低。拥有蔓珠院的城市生产的宗教单位+2 [ICON_RELIGION] 传教次数，+5 [ICON_STRENGTH] 宗教战斗力，上师使附近的敌对单位-5 [ICON_STRENGTH] 战斗力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MANZHU_NAME" Language="zh_Hans_CN">
+			<Text>蔓珠院</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MANZHU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				区域生产力花费更低，拥有蔓珠院的城市生产的宗教单位+2 [ICON_RELIGION] 传教次数，+5 [ICON_STRENGTH] 宗教战斗力，上师使附近的敌对单位-5 [ICON_STRENGTH] 战斗力。
+				[NEWLINE]归正会后解锁项目“圣山大典”。
+			</Text>
+		</Replace>
+		<!--Replace Tag="LOC_KARLAN_TUNDRA_FAITH_DSCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_FAITH] 信仰来自相邻冻土单元格</Text>
+		</Replace>
+		<Replace Tag="LOC_KARLAN_TUNDRA_HILLS_FAITH_DSCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_FAITH] 信仰来自相邻冻土丘陵单元格</Text>
+		</Replace-->
+		<Replace Tag="LOC_ABILITY_MANZHU_SPREAD_CHARGES_NAME" Language="zh_Hans_CN">
+			<Text>圣女指引</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MANZHU_SPREAD_CHARGES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>宗教单位+2传教次数</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MANZHU_INCREASED_COMBAT_NAME" Language="zh_Hans_CN">
+			<Text>圣女赐福</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MANZHU_INCREASED_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>宗教单位+5 [ICON_STRENGTH] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MANZHU_INCREASED_COMBAT_STR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_num} 来自圣女赐福。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_BUILDING_KJERAG_BELL_ROOM_NAME" Language="zh_Hans_CN">
+			<Text>圣铃室</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BUILDING_KJERAG_BELL_ROOM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>蔓珠院存放圣铃的地方。拥有两处 [ICON_GREATWORK_RELIC] 遗物槽位，槽位填满时自动获得主题化。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KJERAG_BELL_ROOM_NAME" Language="zh_Hans_CN">
+			<Text>圣铃室</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KJERAG_BELL_ROOM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>蔓珠院存放圣铃的地方。据说圣铃含有耶拉冈德的力量。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_PRAMANIX_CORONATION_NAME" Language="zh_Hans_CN">
+			<Text>圣山大典</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_PRAMANIX_CORONATION_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>圣山大典</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_PRAMANIX_CORONATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				尽管饱受争议，但自成为圣女以来，圣女的所作所为已经令所有人心服口服。在恩希欧迪斯的提议下，圣女将接管三族议会的权力，成为谢拉格真正的统治者。从此，圣女的声音将贯彻谢拉格。
+				[NEWLINE][NEWLINE]项目完成后，允许用信仰购买所有区域内建筑（包括市中心）。位于境外的使徒消耗完传教次数后生成一个 [ICON_GREATWORK_RELIC] 遗物。
+			</Text>
+		</Replace>
+		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_QUOTE" Language="zh_Hans_CN">
+			<Text>愿耶拉冈德赐福于你。[NEWLINE]       ————初雪</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_TITLE" Language="zh_Hans_CN">
+			<Text>初雪</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+			初雪，谢拉格出身，喀兰圣女，全谢拉格的宗教领袖。运用神赐的圣铃，呼唤风雪的力量。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>
+			初雪的铃，乃是神赐的圣铃，根据传说，铃音能够召唤冰雪熄灭火焰，冷却整个世界。现实中虽然没有这样夸张，但作为武器仍旧比普通法杖要强上不少。需要注意的是，摇动圣铃时必须配上相应的祷词，如果摇铃不发声，持铃人会被冻成冰块，若是乱念一气，法术就会实打实作用在持铃人自己身上，可以说，除了初雪，别人根本无法使用。
+			</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+			[NEWLINE][NEWLINE]【体细胞与源石融合率】0%
+			[NEWLINE]干员初雪没有被源石感染的迹象。
+			[NEWLINE][NEWLINE]【血液源石结晶密度】0.11u/L
+			[NEWLINE]干员初雪很少在源石多生地带活动。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+			喀兰圣女、神启者、应被称颂者......这样那样的称号，都只属于初雪一人。作为整个谢拉格地方宗教至高无上的权首，她拥有着一系列特权，即使是她的哥哥，谢拉格名义上的最高长官银灰，在公开场合见到她时也必须合掌行礼。她是那样的尊贵，她是那样的完美，她是那样的神圣，整个谢拉格，皆因她的存在而荣耀。可是，她心中的苦痛，又有谁知道呢？
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>
+			选拔圣女的仪式，无疑是神圣而残酷的。当前代圣女驾崩后，当年适龄的少女将要全数进入选圣祠，只有被当日祠中第一滴融化的雪水击中，才有成为圣女的资格。在那之后，受选者要拿着试炼铃从选圣祠出发，沿着天路前往山上的神居，直到把试炼铃挂在铃架上才算结束，途中，一定要遵守三步一颔首五步一摇铃的准则，违者将失去成为圣女的资格，新的受选者则从第二日的融雪中产生。由于天路漫漫，整个选拔其实极为严苛，一些人直接放弃，另一些则倒在了天路两旁，只有体质优良，精力充沛，信仰虔诚且受到神灵眷顾的人，才有机会成为圣女。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>
+			除了蔓珠院的长老团外，初雪还要应付教团的日常俗事，前来会面的政治人物，各式各样的会议祭典与无穷无尽的经文解读。太多太多的事务，压得她喘不过气来。也正因如此，她会想法设法放松自己，到那时，她会卸下身上的重担，显露出自己真正的本性。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PRAMANIX_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>
+			如果没有成为圣女，她或许会留在希瓦艾什家的老宅中，摆弄自己喜爱的织物，抿一口香茶，然后看上一下午的书。但是，她的哥哥作出了那样的决定，她妥协了，两人也从此决裂了，即使是血亲，也无法弥补她对银灰的失望。从那以后，除了公众场合的问候外，两人再也没有一句交谈。
+			</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_KJERAG_PRAMANIX_NAME" Language="zh_Hans_CN">
+			<Text>传音回响</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_KJERAG_PRAMANIX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢相同信仰的文明。讨厌企图向谢拉格传播其他宗教的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_PRAMANIX_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您与喀兰共同信仰耶拉冈德）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAME_RELIGION_YELAGAND" Language="zh_Hans_CN">
+			<Text>初雪因与您共同信仰耶拉冈德而感到非常高兴。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_PRAMANIX_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您正把自己的宗教传播到谢拉格的城市。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ENCROACHING_RELIGION_YELAGAND" Language="zh_Hans_CN">
+			<Text>谢拉格属于耶拉冈德，不容许其他宗教的玷污。</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>出来玩耍就要尽兴，别把那些条条框框套在我身上呀。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				我要把你的脚趾冻上
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				难得的小憩呢。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				喀兰圣女，初雪，向你献上至洁的祝福。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				循着铃音，你定能找到正确的方向。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				不洁之物理应被净化。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				圣铃既响，坚甲不再。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>呣？想要祈祷吗？抱歉，暂时没空哦。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				难得的小憩呢。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				愿喀兰圣山与我们同在。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				这力量乃是圣山的馈赠。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				祝福你。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				让我为你向群山献上祈祷吧。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				祝福你。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				什么时候你也需要祝福啦......能稍等一会吗，我准备一下。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				不洁之物理应被净化。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				不洁之物理应被净化。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				回去吧。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN" >
+			<Text>
+				“汝等终将胜利”——此乃喀兰之允诺，亦是我所祈求。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				回去吧。
+			</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>若是不流血就能取得胜利......不，忘了我说的吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>若是不流血就能取得胜利......不，忘了我说的吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				祝福你。
+			</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				呣？
+			</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>喀兰的光芒照耀在我们身上。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>如有神助，正是此般。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				铃声已至，风雪缠足。
+			</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				当然，谢拉格欢迎所有人来。
+			</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				抱歉，现在是圣山大典，谢拉格不允许外国人进入。
+			</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_PRAMANIX_ANY" Language="zh_Hans_CN">
+			<Text>
+				闭上眼，让我带你去个新的地方......一定要闭眼哦。
+			</Text>
+		</Row>
+		
+		<!-- GNOSIS -->
+		<Replace Tag="LOC_CITY_NAME_KJERAG_2" Language="zh_Hans_CN">
+			<Text>谢拉格议会</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_GNOSIS_NAME" Language="zh_Hans_CN">
+			<Text>灵知</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GNOSIS" Language="zh_Hans_CN">
+			<Text>喀兰议长灵知</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SPEAKER_OF_KARLAN_NAME" Language="zh_Hans_CN">
+			<Text>喀兰议长</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_GNOSIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				随着谢拉格的名声逐渐传开，谢拉格的雪山也逐渐为人所知。其中，永远不会融化的源石冰晶，作为一种诚挚的象征更是成了一些人的追捧对象。他在雪山事变结束后，毫无特殊意义的这一日，孤身踏入雪山只为了一件事——他要将这块冰晶打造成一柄剑送给自己。冰晶象征着不变的忠诚，他过去从未对恩希欧迪斯表示过忠诚，将来也不会，他只会对自己的选择忠诚。而他的选择——
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SPEAKER_OF_KARLAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				[ICON_TECHBOOSTED] 尤里卡额外提升20%。随着科技的提升，谢拉格科研院将解锁一系列科研项目。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_KJERAG_REASEARCH_INSTITUTE_NAME" Language="zh_Hans_CN">
+			<Text>谢拉格科研院</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_KJERAG_REASEARCH_INSTITUTE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				生产力花费更低。建成后随机奖励一个远古至中世纪的 [ICON_TECHBOOSTED] 尤里卡。
+				[NEWLINE]能够从冻土山脉和雪地山脉获得额外的标准相邻加成。
+				[NEWLINE]能够从相邻工业区获得大量相邻加成，向工业区提供大量相邻加成。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KJERAG_REASEARCH_INSTITUTE_NAME" Language="zh_Hans_CN">
+			<Text>谢拉格科研院</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KJERAG_REASEARCH_INSTITUTE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				生产力花费更低。建成后随机奖励一个远古至中世纪的 [ICON_TECHBOOSTED] 尤里卡。
+				[NEWLINE]能够从冻土山脉和雪地山脉获得额外的标准相邻加成。
+				[NEWLINE]能够从相邻工业区获得大量相邻加成，向工业区提供大量相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_KJERAG_RESEARCH_STATIONS_NAME" Language="zh_Hans_CN">
+			<Text>谢拉格科考站</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_IMPROVEMENT_KJERAG_RESEARCH_STATIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				若位于冻土则相邻单元格+1 [ICON_SCIENCE] 科技，+1 [ICON_PRODUCTION] 生产力。相邻学院、工业区的每个建筑为科考站提供额外的科技或生产力加成。
+				[NEWLINE]为相邻学院、工业区提供标准相邻加成。
+				[NEWLINE]相邻保护区的每个建筑为科考站提供大量食物和文化加成。
+				[NEWLINE]周围单元格魅力+1。所处单元格无法安排人口，无法与另一处谢拉格科考站相邻。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KJERAG_RESEARCH_STATIONS_NAME" Language="zh_Hans_CN">
+			<Text>谢拉格科考站</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KJERAG_RESEARCH_STATIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				若位于冻土则相邻单元格+1 [ICON_SCIENCE] 科技，+1 [ICON_PRODUCTION] 生产力。相邻学院、工业区的每个建筑为科考站提供额外的科技或生产力加成。
+				[NEWLINE]为相邻学院、工业区提供标准相邻加成。
+				[NEWLINE]相邻保护区的每个建筑为科考站提供大量食物和文化加成。
+				[NEWLINE]周围单元格魅力+1。所处单元格无法安排人口，无法与另一处谢拉格科考站相邻。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KJERAG_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻谢拉格科考站</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KJERAG_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_SCIENCE] 科技来自相邻谢拉格科考站</Text>
+		</Replace>
+		<Replace Tag="LOC_KJERAG_INDUSTRIAL_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_PRODUCTION] 生产力来自相邻谢拉格科研院</Text>
+		</Replace>
+		<Replace Tag="LOC_KJERAG_INDUSTRIAL_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_SCIENCE] 科技来自相邻工业区</Text>
+		</Replace>
+		<Replace Tag="LOC_KJERAG_TUNDRA_MOUNTAINS_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_SCIENCE] 科技来自相邻冻土山脉</Text>
+		</Replace>
+		<Replace Tag="LOC_KJERAG_SNOW_MOUNTAINS_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_SCIENCE] 科技来自相邻雪地山脉</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_BUILD_RAILROAD_NAME" Language="zh_Hans_CN">
+			<Text>修路专家</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KJERAG_BUILD_RAILROAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>军事工程师路过的地方将自动修建道路，如果拥有煤铁资源，将自动修建铁路</Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_TUNDRA_FARMS_NAME" Language="zh_Hans_CN">
+			<Text>引进耐寒农作物种子</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_TUNDRA_FARMS_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>引进耐寒农作物种子</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_TUNDRA_FARMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				由于气候寒冷，农作物难以存活，谢拉格千百年来农业一直处于原始的阶段，如果能够引进维多利亚耐寒的作物种子，我们的农业将蓬勃发展
+				[NEWLINE][NEWLINE]项目完成后允许在冻土、冻土丘陵、雪地和雪地丘陵修建农场。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_DISTRICT_INDUSTRIAL_ZONE_NAME" Language="zh_Hans_CN">
+			<Text>引进维多利亚工业生产线</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_DISTRICT_INDUSTRIAL_ZONE_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>引进维多利亚工业生产线</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				目前，谢拉格的生产还是以农业为主，工业生产百废待兴，据说维多利亚政府有意出售一条落后的生产线，或许我们可以将其买下并学习他们的技术，但是代价高昂。
+				[NEWLINE][NEWLINE]项目完成后能够提前解锁工业区。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE1_NAME" Language="zh_Hans_CN">
+			<Text>扫盲教育</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE1_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>扫盲教育</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				过去图书馆被把控在三族议会的统治之下，导致谢拉格的识字率并不高，现在我们将开放图书馆，所有人都应有步入知识的殿堂的权力。
+				[NEWLINE][NEWLINE]项目完成后城市中每个人口额外提供0.3 [ICON_SCIENCE] 科技。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE2_NAME" Language="zh_Hans_CN">
+			<Text>十二年义务教育</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE2_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>十二年义务教育</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				许多的家庭宁愿让孩子早早进入农田和工厂劳作以贴补家用，也不愿让孩子进入学校学习，但这对未来并没有好处。义务教育法将打消家长的顾虑，让所有孩子能够进入校园学习。
+				[NEWLINE][NEWLINE]项目完成后城市中每个人口额外提供0.3 [ICON_SCIENCE] 科技。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE3_NAME" Language="zh_Hans_CN">
+			<Text>扩招科研人员</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE3_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>扩招科研人员</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_POPULATION_SCIENCE3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				学习和研究本就是一体的，我们应鼓励大学生更多的参与科研工作。
+				[NEWLINE][NEWLINE]项目完成后城市中每个人口额外提供0.4 [ICON_SCIENCE] 科技。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_PROJECT_PROMOTION_NAME" Language="zh_Hans_CN">
+			<Text>重建行政机构</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_PROJECT_PROMOTION_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>重建行政机构</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_PROJECT_PROMOTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				尽管我们推翻了三族议会的统治，但其下的官僚机构仍然留存，我们可以沿用过去的机构，又或者，重新建立一个科学的进步的行政机构。
+				[NEWLINE][NEWLINE]项目完成后所有城市进行项目时+50% [ICON_PRODUCTION] 生产力。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_SCIENCE_PROMOTION_NAME" Language="zh_Hans_CN">
+			<Text>派遣外国留学生</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_SCIENCE_PROMOTION_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>派遣外国留学生</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_SCIENCE_PROMOTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				闭门造车无益于科研，向国外派遣留学生，我们将看到世界的进步和更多的可能。
+				[NEWLINE][NEWLINE]项目完成后所有城市+20% [ICON_SCIENCE] 科技值。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_DISTRICT_PROMOTION_NAME" Language="zh_Hans_CN">
+			<Text>促进区域融合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_DISTRICT_PROMOTION_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>促进区域融合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_DISTRICT_PROMOTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				一直以来，科研院和工业区就紧密协作不分彼此，或许人为的将他们划分是个错误，现在我们将打造产学研结合的全新融合区域。
+				[NEWLINE][NEWLINE]项目完成后学院相邻加成同时提供生产力，工业区相邻加成同时提供科技值。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_RAILROAD_NAME" Language="zh_Hans_CN">
+			<Text>铁路修建计划</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_RAILROAD_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>铁路修建计划</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_KJERAG_GNOSIS_RAILROAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				尽管过去群山保护谢拉格人民免受战火，但现在我们的商品同样被阻挡在群山之下。来吧，将铁路修到群山之外，拉近我们和其他文明的距离。
+				[NEWLINE][NEWLINE]项目完成后所在城市2环范围获得铁路并获得3个军事工程师，军事工程师获得能力“修路专家”。
+			</Text>
+		</Replace>
+		
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GNOSIS_QUOTE" Language="zh_Hans_CN">
+			<Text>“我与他约好了未来再见？......怎么可能。只不过，即使他没有来，我也会回去。”[NEWLINE]——灵知</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GNOSIS_TITLE" Language="zh_Hans_CN">
+			<Text>灵知</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GNOSIS_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				主导了喀兰贸易众多核心技术的开发以及工业设施的设计，同时在喀兰贸易时期就已对源石有相当深入的研究。现作为主要研究室的一员，活跃于科研一线。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GNOSIS_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>灵知，前喀兰贸易首席技术执行官，现谢拉格议会议长，对技术以外的事毫不关心。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GNOSIS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+				[NEWLINE][NEWLINE]【体细胞与源石融合率】0%
+				[NEWLINE]干员灵知没有被源石感染的迹象。
+				[NEWLINE][NEWLINE]【血液源石结晶密度】0.14u/L
+				[NEWLINE]干员灵知的血液源石结晶密度在谢拉格的非感染者中处于较高的状态，这可能与他在谢拉格时就对源石有所研究有关。不过他本人显然十分了解在研究时要如何防护，因此目前没有什么担心的必要。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GNOSIS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				据说，灵知这个代号的来源，是他的本名，诺希斯，意为知识、洞察。而他本人也如同这个名字的含义一般，极具洞察力，并且对于知识有着无穷的渴望。
+				[NEWLINE]灵知某种意义上十分符合他人对于科研工作者的刻板印象，不近人情，言语刻薄。
+				[NEWLINE]而他的这份冷漠，即使在面对银灰时，也没有丝毫变化，让人难以想象，他竟然是喀兰贸易的另一个创始人，银灰的合作伙伴。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GNOSIS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				从谢拉格有史可载开始，灵知的家族——埃德怀斯家就为整个地区保管着珍贵卷宗与先民记录，因此，整个家族代代的使命便是维护、撰写、管理这些资料。
+				[NEWLINE]灵知对于研究的热衷正是来自这种家学渊源。
+				[NEWLINE]作为研究者来说，灵知可以说是十分理想的类型。
+				[NEWLINE]他几乎没有物欲，对于研究之外的事物几乎不抱有兴趣。他具备将自己的想法转化为现实的行动力与能力，当他缺少某种没有的材料或工具时，他会选择亲自带队去获得它。而一旦他将精神集中到研究之上时，他就会化身成一台精密的仪器——在他参与过的诸多实验中，他从没有犯过一点错误。
+				[NEWLINE]同时，他对于生命和道德也颇为淡漠。我们很难说这是一项优点，但不可否认，有一部分科学家拥有异于常人的道德观，而这类科学家中的佼佼者，往往在自己的领域会有一些惊人但不被一般道德认可的突破。罗德岛并不承认越过某条底线的思维方式对科学有着促进作用，但也无法否认，越是纯粹的科学家，反而可能在道德问题上出现偏差，在感染者相关的问题上，更是如此。
+				[NEWLINE]灵知的这方面问题，在他加入之初，曾是上层重点考察的对象，因为灵知无疑是一名罗德岛需要的研究者，但如果他无法认同罗德岛对于感染者的看法，不愿意遵循罗德岛的方针进行研究，那我们必须与他告别。
+				[NEWLINE]灵知并没有令我们失望，甚至，他在这方面表现出了一些令人惊喜的倾向——他愿意依照罗德岛的方式进行有关感染者的研究。
+				[NEWLINE]事实上，在我们提出这个要求时，他毫不意外。这应当并不是因为他本身对于感染者有什么额外的看法，而是他也已经习惯在某些约束下进行研究了吧。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GNOSIS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				希瓦艾什家与埃德怀斯家向来交好，两家后代通常都会一起长大，共同接受教育，银灰与灵知也不例外。
+				[NEWLINE]不同于银灰建立喀兰贸易后实行的诸多较为激进的方针，他的父亲——奥拉维尔·希瓦艾什在试图为谢拉格奠定最初的工业基础时，采取的方针相当温和，因此，当时在谢拉格实行的各种工业化事实上并没有因谢拉格整体的保守而遭到反对。因为果断的性格与干练的手腕，奥拉维尔颇受爱戴，与银灰后来在谢拉格的处境截然不同。当然，现在我们已经知道银灰有他不得不做的理由。
+				[NEWLINE]总而言之，奥拉维尔夫妇，虽然在一些顽固的谢拉格人眼中是玷污谢拉格的恶魔，但在大部分谢拉格人眼中，他们始终是一对为领民着想的模范夫妇。
+				[NEWLINE]这对夫妇的死虽然在一开始被认为是灵知的父亲所策划，但最终被归因为意外，这使得埃德怀斯家并没有受到直接的审判。但是，死亡发生在他们领地内的事实还是为他们招致了诸多流言蜚语，在谢拉格这样一个封闭的环境中，一个微小的错误都会被铭记许久，更遑论陷害一大家族族长的罪名，埃德怀斯一家上下不堪其扰，最终选择了离开。
+				[NEWLINE]“你们想要尽可能了解手下的人，我并不反对这种做法，所以我愿意告诉你们有关我家族的历史。但这并不意味着我需要告诉你们我离开谢拉格时的想法。”
+				[NEWLINE]“我与他约好了未来再见？”
+				[NEWLINE]“......怎么可能。”
+				[NEWLINE]“只不过，即使他没有来，我也会回去。”
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_KJERAG_GNOSIS_NAME" Language="zh_Hans_CN">
+			<Text>失温症</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_KJERAG_GNOSIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设法获得 [ICON_SCIENCE] 科技值，喜欢同样专注于科技的文明。不喜欢科技值低的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_GNOSIS_REASON_ANY" Language="zh_Hans_CN">
+			<Text>(您和喀兰一样追求科技)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_KJERAG_GNOSIS_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>灵知喜欢聪明人</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_GNOSIS_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的科技值很低）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_KJERAG_GNOSIS_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>灵知讨厌没脑子的人</Text>
+		</Row>
+		
+		<!--同意声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GNOSIS_ANY">
+			<Text>在下一场实验开始前，我可以与你做一些讨论。</Text>
+		</Replace>
+		<!--拒绝声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_GNOSIS_ANY">
+			<Text>
+				你把太多时间放在了与研究无关的杂务上，这只会阻碍你前进的脚步。
+			</Text>
+		</Replace>
+		<!--请求声明友谊-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_GNOSIS_ANY">
+			<Text>
+				久仰大名，你可以叫我灵知，自从你与喀兰建立起关系后我一直想要见一见你。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被接受-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_GNOSIS_ANY">
+			<Text>
+				不错的选择。
+			</Text>
+		</Replace>
+		<!--请求声明友谊被拒绝-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_GNOSIS_ANY">
+			<Text>
+				看来你对自己身体的管理有所欠缺。
+			</Text>
+		</Replace>
+		<!--被宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_GNOSIS_ANY">
+			<Text>
+				速战速决吧。
+			</Text>
+		</Replace>
+		<!--主动宣战-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_GNOSIS_ANY">
+			<Text>
+				战斗只是手段，不过，既然有更有效率的方式，我并不介意学习。
+			</Text>
+		</Replace>
+		<!--初次见面-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_GNOSIS_ANY">
+			<Text>将被源石感染后的表现简单地定义为疾病，仅仅思考如何去“抑制”和“治疗”它，这是无知的人才会做的事，不要告诉我你也是这么想的。</Text>
+		</Replace>
+		<!--初次见面，提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_GNOSIS_ANY">
+			<Text>
+				我有一个想法。
+			</Text>
+		</Replace>
+		<!--初次见面，玩家提供最近城市位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_GNOSIS_ANY">
+			<Text>
+				如我所料。
+			</Text>
+		</Replace>
+		<!--初次见面，请求交换首都位置-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_GNOSIS_ANY">
+			<Text>
+				获得我信任的最好方法，就是拿出你的真材实料，希望你明白这一点。
+			</Text>
+		</Replace>
+		<!--表示欢迎-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_GNOSIS_ANY">
+			<Text>
+				你运气很好，我刚做完实验。
+			</Text>
+		</Replace>
+		<!--接受使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_GNOSIS_ANY">
+			<Text>
+				嗯。
+			</Text>
+		</Replace>
+		<!--拒绝使节派遣-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_GNOSIS_ANY">
+			<Text>
+				他们太吵了。
+			</Text>
+		</Replace>
+		<!--请求派遣使节-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_GNOSIS_ANY">
+			<Text>
+				我有些新的想法。
+			</Text>
+		</Replace>
+		<!--被谴责-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_GNOSIS_ANY">
+			<Text>
+				如果你足够了解银灰，就会知道他并不冷酷，从我的角度来说，他甚至有些优柔寡断......并且，这也是你的弱点。
+			</Text>
+		</Replace>
+		<!--谴责玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_GNOSIS_ANY">
+			<Text>
+				你应该更好地利用时间。
+			</Text>
+		</Replace>
+		<!--领袖敌视玩家-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_GNOSIS_ANY">
+			<Text>
+				你把太多时间放在了与研究无关的杂务上，你应该明白，这只会阻碍你前进的脚步。
+			</Text>
+		</Replace>
+		<!--请求结盟-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_GNOSIS_ANY">
+			<Text>
+				如果你们愿意抛弃一些底线，必然会获得远超现在的成果......不过，有银灰在前，我也并非不理解坚持的意义。呵，就让我也来助你们一臂之力吧。
+			</Text>
+		</Replace>
+		<!--要求移开边境军队-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_GNOSIS_ANY">
+			<Text>
+				你们太吵了。
+			</Text>
+		</Replace>
+		<!--战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>不可控的变量太多了吗......</Text>
+		</Row>
+		<!--玩家战败-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>不可控的变量太多了吗......</Text>
+		</Row>
+		<!--同意交易-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>
+				希望这次任务不是在浪费我的时间。
+			</Text>
+		</Row>
+		<!--拒绝交易-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>
+				浪费时间。
+			</Text>
+		</Row>
+		<!--接受停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>有些时候，发生意外反而会有所收获。</Text>
+		</Row>
+		<!--拒绝停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>不要打扰我思考。</Text>
+		</Row>
+		<!--要求停战-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>
+				不要打扰我思考。
+			</Text>
+		</Row>
+		<!--开放边界-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>
+				当然，谢拉格欢迎所有人来。
+			</Text>
+		</Row>
+		<!--拒绝开放边界-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>
+				抱歉，现在是圣山大典，谢拉格不允许外国人进入。
+			</Text>
+		</Row>
+		<!--请求开放边界-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_GNOSIS_ANY" Language="zh_Hans_CN">
+			<Text>
+				喀兰希望能与你进一步合作。
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
