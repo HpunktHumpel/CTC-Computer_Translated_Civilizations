@@ -188,6 +188,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3150894522](https://steamcommunity.com/sharedfiles/filedetails/?id=3150894522) | 少女前线 核心代码 | Girls Frontline core code |
 | [3150899575](https://steamcommunity.com/sharedfiles/filedetails/?id=3150899575) | 深空之眼 重置版核心代码 | Eye of Deep Space Reset Core Code |
 | [3150943003](https://steamcommunity.com/sharedfiles/filedetails/?id=3150943003) | 克惑奇雅文明-新领袖拓展  Kahotkia Civilization-New Leader Expansion Pack | Kahotkia Civilization-New Leader Expansion Pack |
+| [3151632661](https://steamcommunity.com/sharedfiles/filedetails/?id=3151632661) | Arknight Siracusa PVP Balance Patch | Arknight Siracusa PVP Balance Patch |
 | [3155097470](https://steamcommunity.com/sharedfiles/filedetails/?id=3155097470) | 少女前线 前线战备队 C-MS | Girls Frontline Frontline Combat Team C-MS |
 | [3161714280](https://steamcommunity.com/sharedfiles/filedetails/?id=3161714280) | 深空之眼 百解·禄良 | Eye of Deep Space Baijie Luliang |
 | [3168733134](https://steamcommunity.com/sharedfiles/filedetails/?id=3168733134) | 亚特兰蒂斯（Atlantis） | Atlantis |
