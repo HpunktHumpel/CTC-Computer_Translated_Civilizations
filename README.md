@@ -20,6 +20,27 @@ This is what google.translate returns as translation.
 
 Again: this is what google.translate returns as translation. Nothing more, nothing less.
 
+## How to use this mod?
+1. install this mod
+2. install any of the auto-translated mods (see above)
+3. enjoy auto-translated texts
+
+**How does it work?**
+I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports[^1] a request for translation is send to google.translate. These translations are collected and supplied in this mod.
+
+Civ VI uses two file formats for modding and localization (translations): XML and SQL.
+Parsing XML is pretty staight forward and - more or less - easy to do.
+SQL files can be much less structured and much harder to parse and offer many different ways to insert and alter texts.
+So not every Civ VI civilization mod can be translated by this python script.
+
+**What does NOT work?**
+This mod can only translate texts that support Civ VI's translation system. Unfortunately, most mods do not use translatable texts for their name, description and teaser in the modinfo file (sad but true). So these information (the name of the mod, its description and its teaser) will be displayed as given in the modinfo file (most likely as "squares") and cannot be translated (as far as I know und understand). And this information (the name of the mod, its description and its teaser) is displayed in "Addition Contents" -> "Mods".
+All other (translatable) texts should be displayed in the language of your choice (if officially supported), like in the game setup and in game.
+
+[^1] Officially known and supported languages by Civilization VI:
+en_US, fr_FR, de_DE, it_IT, es_ES, ja_JP, ru_RU, pl_PL, ko_KR, zh_Hans_CN, zh_Hant_HK
+
+---
 
 ## Auto-translated mods
 Auto-generated translations for the following mods are currently included in this mod:
@@ -215,23 +236,4 @@ Auto-generated translations for the following mods are currently included in thi
 | [3270755404](https://steamcommunity.com/sharedfiles/filedetails/?id=3270755404) | 深空之眼 喧哗颂歌·托尔 重置版 | Eyes of the Deep Sky: Thor: Remastered |
 | [3272604234](https://steamcommunity.com/sharedfiles/filedetails/?id=3272604234) | 深空之眼 启明·海姆达尔 重置版 | Eyes of the Deep Sky: Qiming Heimdall Remastered |
 | [3274391399](https://steamcommunity.com/sharedfiles/filedetails/?id=3274391399) | 深空之眼 夜之寄生·霍德尔 重置版 | Eyes of the Deep Sky Night Parasite Hodel Remastered |
-
-##How to use this mod?
-1. install this mod
-2. install any of the auto-translated mods (see above)
-3. enjoy auto-translated texts
-
-##How does it work?
-I wrote a python script that parses the modinfo file of a mod to find the text defintions files. These text definition files are read in. For every entry found without a translation for any of the 11 languages that Civ VI officially knows and supports* a request for translation is send to google.translate. These translations are collected and supplied in this mod.
-
-Civ VI uses two file formats for modding and localization (translations): XML and SQL.
-Parsing XML is pretty staight forward and - more or less - easy to do.
-SQL files can be much less structured and much harder to parse and offer many different ways to insert and alter texts.
-So not every Civ VI civilization mod can be translated by this python script.
-
-##What does NOT work?
-This mod can only translate texts that support Civ VI's translation system. Unfortunately, most mods do not use translatable texts for their name, description and teaser in the modinfo file (sad but true). So these information (the name of the mod, its description and its teaser) will be displayed as given in the modinfo file (most likely as "squares") and cannot be translated (as far as I know und understand). And this information (the name of the mod, its description and its teaser) is displayed in "Addition Contents" -> "Mods".
-All other (translatable) texts should be displayed in the language of your choice (if officially supported), like in the game setup and in game.
-
-[*] Officially known and supported languages by Civilization VI:
-en_US, fr_FR, de_DE, it_IT, es_ES, ja_JP, ru_RU, pl_PL, ko_KR, zh_Hans_CN, zh_Hant_HK
+| [3289149620](https://steamcommunity.com/sharedfiles/filedetails/?id=3289149620) | 이오치 마리의 트리니티 종합학원 | Mari Iochi's Trinity General Academy |
