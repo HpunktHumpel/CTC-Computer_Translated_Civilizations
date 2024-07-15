@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Mon Jul 15 15:40:33 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_PANDORA_NAME" Language="fr_FR">
+			<Text>Rassembler la lumière</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PANDORA_DESCRIPTION" Language="fr_FR">
+			<Text>Rassembler la lumière</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ENORA_NAME" Language="fr_FR">
+			<Text>Noël</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORA_DAWN_NAME" Language="fr_FR">
+			<Text>Puissance condensée</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORA_DAWN_DESCRIPTION" Language="fr_FR">
+			<Text>Lorsque vous débloquerez la première technologie de la nouvelle ère, vous recevrez une valeur technologique de [ICON_SCIENCE] deux fois supérieure à la valeur technologique totale requise pour débloquer la technologie correspondante. Chaque niveau de bâtiments de l'académie offre +2 [ICON_PRODUCTION] de productivité.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORA_GATHER_NAME" Language="fr_FR">
+			<Text>magie libérée</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORA_GATHER_DESCRIPTION" Language="fr_FR">
+			<Text>Lorsque vous aurez terminé le bâtiment de l'académie, vous recevrez une grande quantité de valeur technologique [ICON_SCIENCE] (10*X) proportionnelle aux progrès de l'ère. (X est la population carrée de la ville)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ENOR_NAME" Language="fr_FR">
+			<Text>Noël Blanc</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENOR_DAWN_NAME" Language="fr_FR">
+			<Text>Puissance condensée-Blanc</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENOR_DAWN_DESCRIPTION" Language="fr_FR">
+			<Text>Obtenez [ICON_Gold] pièces d'or équivalentes à 3 % du trésor à chaque tour. [NEWLINE]En tant que suzerain, chaque cité-état sous votre juridiction vous donnera [ICON_Gold] pièces d'or + 7 %.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENOR_GATHER_NAME" Language="fr_FR">
+			<Text>Libération magique-blanc</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENOR_GATHER_DESCRIPTION" Language="fr_FR">
+			<Text>Lorsque vous achetez avec des pièces d'or [ICON_Gold], vous pouvez bénéficier d'une réduction de X %, et vice versa en cas de guerre. (X est le nombre cumulé de tours)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ENORB_NAME" Language="fr_FR">
+			<Text>Noël-Noir</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORB_DAWN_NAME" Language="fr_FR">
+			<Text>Puissance condensée-Noir</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORB_DAWN_DESCRIPTION" Language="fr_FR">
+			<Text>Le temps de construction des bâtiments dans les zones industrielles est réduit de moitié. [NEWLINE]Chaque zone industrielle et ses bâtiments offrent à la ville +10 % de productivité [ICON_Production].</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORB_GATHER_NAME" Language="fr_FR">
+			<Text>Libération magique-noir</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORB_GATHER_DESCRIPTION" Language="fr_FR">
+			<Text>Lorsqu'une unité, un bâtiment ou une merveille non civile est construit, il gagnera une valeur culturelle [ICON_Culture] égale à X % du coût. (X est le nombre cumulé de tours)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ENORW_NAME" Language="fr_FR">
+			<Text>Noël - Ange de Lumière</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORW_DAWN_NAME" Language="fr_FR">
+			<Text>Pouvoir de la Lumière Sainte</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORW_DAWN_DESCRIPTION" Language="fr_FR">
+			<Text>Lors de l’acquisition d’un grand scientifique, gagnez 1 Eureka [ICON_TechBoosted] aléatoire. Lorsque [ICON_TechBoosted] Eureka est déclenché, la progression de la production de [ICON_Production] de toutes les villes sera de +20 %.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORW_GATHER_NAME" Language="fr_FR">
+			<Text>Sortie magique - Ultime</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORW_GATHER_DESCRIPTION" Language="fr_FR">
+			<Text>Les unités civiles acquièrent la capacité « Recherche financée ». Lorsque [ICON_TechBoosted] Eureka est déclenché, vous recevrez immédiatement 50 % de pièces d'or [ICON_Gold] de la valeur technologique totale requise pour débloquer la technologie correspondante.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_D_NAME" Language="fr_FR">
+			<Text>récipient magique</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_D_DESCRIPTION" Language="fr_FR">
+			<Text>Remplace l'Académie et est moins chère à construire. Si elle a un bonus de contiguïté d'au moins +4, la ville aura +15 % de valeur scientifique [ICON_SCIENCE].</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_A_NAME" Language="fr_FR">
+			<Text>Conteneur magique-blanc</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_A_DESCRIPTION" Language="fr_FR">
+			<Text>Comme alternative au centre commercial, le déblocage municipal &quot;Commerce extérieur&quot; est moins cher. S'il a au moins +4 bonus adjacents, vous obtiendrez [ICON_Gold] pièces d'or équivalentes à 1% du trésor à chaque tour.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_B_NAME" Language="fr_FR">
+			<Text>Conteneur Magique-Noir</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_B_DESCRIPTION" Language="fr_FR">
+			<Text>Une alternative à la zone industrielle, qui est moins chère à construire Si elle a au moins un bonus de contiguïté de +4, le bonus de contiguïté de productivité de [ICON_Production] de la ville fournit également une valeur culturelle de [ICON_Culture] et le bâtiment de la zone industrielle fournit une culture de +3 [ICON_Culture]. valeur.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_C_NAME" Language="fr_FR">
+			<Text>Conteneur de puissance magique-Tokyo</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_C_DESCRIPTION" Language="fr_FR">
+			<Text>Au lieu de la zone industrielle, la technologie &quot;monnaie&quot; est débloquée et le coût de construction est inférieur. S'il a au moins +4 bonus adjacents, tous les constructeurs produits dans la ville recevront un nombre supplémentaire de +1 [ICON_Charges] de temps de construction. [NEWLINE][COLOR:Red]Mais il s'exclut mutuellement avec le centre commercial et ne peut pas être construit dans la même ville que le centre commercial. [COULEUR DE FIN]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PANDORA_NAME" Language="fr_FR">
+			<Text>elfe magique</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PANDORA_DESCRIPTION" Language="fr_FR">
+			<Text>Remplace le Scout par une mobilité plus élevée et un mouvement [ICON_Movement] plus rapide dans les collines, les bois, les forêts tropicales et les terrains plats.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_PANDORA_DESCRIPTION" Language="fr_FR">
+			<Text>Mouvement [ICON_Movement] plus rapide dans les collines, les bois, les forêts tropicales et les terrains plats</Text>
+		</Replace>
+		<Replace Tag="LOC_ENOR_AQUEDUCT_GOLD" Language="fr_FR">
+			<Text>+{1_num} [ICON_Gold] La productivité provient des canaux d'eau adjacents.</Text>
+		</Replace>
+		<Replace Tag="LOC_ENOR_RIVER_PRODUCTION" Language="fr_FR">
+			<Text>+{1_num} [ICON_Production] Production des rivières adjacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_ENOR_HARBOR_PRODUCTION" Language="fr_FR">
+			<Text>+{1_num} [ICON_Production] Production à partir des ports adjacents.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PANDORA" Language="fr_FR">
+			<Text>Rassembler la lumière</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_OPERATION_TOOLTIP" Language="fr_FR">
+			<Text>[COLOR:Civ6Yellow]Utilisez des pièces d'or pour construire une ville[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_OPERATION_YIELD_TOOLTIP" Language="fr_FR">
+			<Text>Créer une ville dans cette cellule</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_NO_GOLD_TOOLTIP" Language="fr_FR">
+			<Text>Le trésor n'a pas assez de pièces d'or (nécessite {1_Str} pièces d'or, moins de {2_Str})</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_CITY_TOOLTIP" Language="fr_FR">
+			<Text>[COLOR_RED]Trop proche d'autres villes[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_TERRAIN_TOOLTIP" Language="fr_FR">
+			<Text>[COLOR_RED]Le terrain actuel ne peut pas être réglé[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_FEATURE_TOOLTIP" Language="fr_FR">
+			<Text>[COLOR_RED]Le paysage actuel est inhabitable[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_DISTRICT_TOOLTIP" Language="fr_FR">
+			<Text>[COLOR_RED]Cette opération ne peut pas être effectuée sur la zone[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_IMPROVEMENT_TOOLTIP" Language="fr_FR">
+			<Text>[COLOR_RED]Cette opération ne peut pas être effectuée sur les améliorations[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_OTHER_TERRITORY_TOOLTIP" Language="fr_FR">
+			<Text>[COLOR_RED]Cette action ne peut pas être effectuée sur le territoire d'un autre joueur[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_OPERATION_TOOLTIP" Language="fr_FR">
+			<Text>Financement de la recherche</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_OPERATION_YIELD_TOOLTIP" Language="fr_FR">
+			<Text>Construire des zones, des bâtiments et des merveilles fournit une productivité de [ICON_PRODUCTION], jusqu'à la moitié des réserves de trésorerie actuelles, moins [ICON_GOLD] d'or pour acheter deux fois plus de productivité.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_OPERATION_YIELD_DETAILS_TOOLTIP" Language="fr_FR">
+			<Text>Détails : Dépensez {1_Num} [ICON_GOLD] pièces d'or et ajoutez {3_Num} [ICON_PRODUCTION] productivité à {2_str}.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_DISABLED_NO_GOLD_TOOLTIP" Language="fr_FR">
+			<Text>La trésorerie est négative !</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_DISABLED_OTHER_TERRITORY_TOOLTIP" Language="fr_FR">
+			<Text>Cette action ne peut pas être effectuée sur le territoire d'un autre joueur</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_DISABLED_NOT_CITYCENTER_TOOLTIP" Language="fr_FR">
+			<Text>Doit être au centre-ville</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_DISABLED_NOT_BUILDING_BUILDING_OR_DISTRICT_TOOLTIP" Language="fr_FR">
+			<Text>Doit être utilisé pour une zone, un bâtiment ou une merveille</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ANGEL_LIGHT_NAME" Language="fr_FR">
+			<Text>voix d'ange</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ANGEL_LIGHT_DESCRIPTION" Language="fr_FR">
+			<Text>Une civilisation qui aime annoncer des relations amicales et maintenir la paix. Déteste les civilisations qui condamnent ou attaquent leurs amis ou alliés.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_ANGEL_LIGHT_FRIEND" Language="fr_FR">
+			<Text>(comme annoncer amical)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_ANGEL_LIGHT_DENOUNCED_FRIEND" Language="fr_FR">
+			<Text>(déteste ton amie qui la condamne)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_ANGEL_LIGHT_DENOUNCED_FRIEND" Language="fr_FR">
+			<Text>(Tu as condamné son amie)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENOR_QUOTE" Language="fr_FR">
+			<Text>Sauveur, tu as le potentiel d’être infiniment puissant !</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENORA_QUOTE" Language="fr_FR">
+			<Text>Sauveur, tu as le potentiel d’être infiniment puissant !</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENORB_QUOTE" Language="fr_FR">
+			<Text>Sauveur, tu as le potentiel d’être infiniment puissant !</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENORW_QUOTE" Language="fr_FR">
+			<Text>Sauveur, tu as le potentiel d’être infiniment puissant !</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ENOR" Language="fr_FR">
+			<Text>Sainte lumière ! Ô âme ardente ! Sainte puissance, accorde-moi des miracles... et ensuite... punis le mal !!</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ENORA" Language="fr_FR">
+			<Text>Sainte lumière ! Ô âme ardente ! Sainte puissance, accorde-moi des miracles... et ensuite... punis le mal !!</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ENORB" Language="fr_FR">
+			<Text>Sainte lumière ! Ô âme ardente ! Sainte puissance, accorde-moi des miracles... et ensuite... punis le mal !!</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ENORW" Language="fr_FR">
+			<Text>Sainte lumière ! Ô âme ardente ! Sainte puissance, accorde-moi des miracles... et ensuite... punis le mal !!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Lorsque nous nous sommes rencontrés pour la première fois, je m'appelais Noel. A partir de maintenant, donnez-moi vos conseils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Vos actions sont trop mauvaises, je vous punirai avec le pouvoir divin ! Cela n’inclut pas la gentillesse envers l’ennemi.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Mener une guerre diabolique contre moi est impardonnable ! J'utiliserai le pouvoir divin pour vaincre le mal dans votre cœur !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>(Vous avez suivi l'agenda de Noël)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>(Vous violez l'agenda de Noel)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Ah... toux,... désolé, pouvoir sacré. Le pouvoir que tu m'as donné... gaspillé... !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Ah... toux,... désolé, pouvoir sacré. Le pouvoir que tu m'as donné... gaspillé... !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Comme symbole de notre amitié... hehe... s'il vous plaît, profitez de ce gâteau ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Peut-être que je ne pourrai pas être ton ami cette fois. Quand tu deviendras plus juste, rejoins-moi pour punir le mal.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Vous voulez faire passer notre relation au niveau supérieur ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>… Super, s'il te plaît, donne-moi quelques conseils, mon nouvel ami !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Eh bien, oubliez ça.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Merci.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Je suis trop épuisé par les récents combats pour accueillir votre délégation, désolé...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>C'est mon gâteau préféré. Je vous l'offre en cadeau, j'espère que vous pourrez l'accepter.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Est-il possible pour une personne de prononcer des paroles aussi sales et vicieuses ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>(te condamner)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>accueillir……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>visite? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Rendons-nous visite ? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Bonjour? Cela ne semble pas si fiable... Je n'y peux rien, je m'appelle Noel. Ce n'est pas grave si je n'ai plus besoin de conseils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Dans des domaines aussi importants, il faut suivre son propre cœur. Alors je suis ici maintenant, et toi ? ~</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>D'accord……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>je rejette</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Cette guerre maléfique dure depuis trop longtemps. J'espère qu'aucun sacrifice ne sera fait pour le bien des innocents.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Oui, mais ne vous attardez pas s'il vous plaît…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Désolé, afin de nous prémunir contre l'intrusion des forces du mal, nous ne pouvons pas vous laisser passer...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Désolé, nous voulons parcourir votre territoire à la recherche de traces du mal. Êtes-vous d'accord ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Pourriez-vous s'il vous plaît déplacer les troupes ? J'ai peur que cela panique les gens.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Ça ne marche pas...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ENOR_ANY" Language="fr_FR">
+			<Text>Je suis d'accord avec votre proposition.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Lorsque nous nous sommes rencontrés pour la première fois, je m'appelais Noel. A partir de maintenant, donnez-moi vos conseils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Vos actions sont trop mauvaises, je vous punirai avec le pouvoir divin ! Cela n’inclut pas la gentillesse envers l’ennemi.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Mener une guerre diabolique contre moi est impardonnable ! J'utiliserai le pouvoir divin pour vaincre le mal dans votre cœur !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>(Vous avez suivi l'agenda de Noël)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>(Vous violez l'agenda de Noel)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Ah... toux,... désolé, pouvoir sacré. Le pouvoir que tu m'as donné... gaspillé... !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Ah... toux,... désolé, pouvoir sacré. Le pouvoir que tu m'as donné... gaspillé... !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Comme symbole de notre amitié... hehe... s'il vous plaît, profitez de ce gâteau ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Peut-être que je ne pourrai pas être ton ami cette fois. Quand tu deviendras plus juste, rejoins-moi pour punir le mal.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Vous voulez faire passer notre relation au niveau supérieur ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>… Super, s'il te plaît, donne-moi quelques conseils, mon nouvel ami !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Eh bien, oubliez ça.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Merci.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Je suis trop épuisé par les récents combats pour accueillir votre délégation, désolé...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>C'est mon gâteau préféré. Je vous l'offre en cadeau, j'espère que vous pourrez l'accepter.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Est-il possible pour une personne de prononcer des paroles aussi sales et vicieuses ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>(te condamner)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>accueillir……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>visite? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Rendons-nous visite ? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Bonjour? Cela ne semble pas si fiable... Je n'y peux rien, je m'appelle Noel. Ce n'est pas grave si je n'ai plus besoin de conseils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Dans des domaines aussi importants, il faut suivre son propre cœur. Alors je suis là maintenant, et toi ? ~</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>D'accord……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>je rejette</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Cette guerre maléfique dure depuis trop longtemps. J'espère qu'aucun sacrifice ne sera fait pour le bien des innocents.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Oui, mais ne vous attardez pas s'il vous plaît…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Désolé, afin de nous prémunir contre l'intrusion des forces du mal, nous ne pouvons pas vous laisser passer...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Désolé, nous voulons parcourir votre territoire à la recherche de traces du mal. Êtes-vous d'accord ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Pourriez-vous s'il vous plaît déplacer les troupes ? J'ai peur que cela panique les gens.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Ça ne marche pas...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ENORA_ANY" Language="fr_FR">
+			<Text>Je suis d'accord avec votre proposition.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Lorsque nous nous sommes rencontrés pour la première fois, je m'appelais Noel. A partir de maintenant, donnez-moi vos conseils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Vos actions sont trop mauvaises, je vous punirai avec le pouvoir divin ! Cela n’inclut pas la gentillesse envers l’ennemi.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Mener une guerre diabolique contre moi est impardonnable ! J'utiliserai le pouvoir divin pour vaincre le mal dans votre cœur !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>(Vous avez suivi l'agenda de Noël)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>(Vous violez l'agenda de Noel)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Ah... toux,... désolé, pouvoir sacré. Le pouvoir que tu m'as donné... gaspillé... !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Ah... toux,... désolé, pouvoir sacré. Le pouvoir que tu m'as donné... gaspillé... !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Comme symbole de notre amitié... hehe... s'il vous plaît, profitez de ce gâteau ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Peut-être que je ne pourrai pas être ton ami cette fois. Quand tu deviendras plus juste, rejoins-moi pour punir le mal.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Vous voulez faire passer notre relation au niveau supérieur ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>… Super, s'il te plaît, donne-moi quelques conseils, mon nouvel ami !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Eh bien, oubliez ça.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Merci.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Je suis trop épuisé par la récente bataille pour accueillir votre délégation, désolé...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>C'est mon gâteau préféré. Je vous l'offre en cadeau, j'espère que vous pourrez l'accepter.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Est-il possible pour une personne de prononcer des paroles aussi sales et vicieuses ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>(te condamner)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>accueillir……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>visite? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Rendons-nous visite ? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Bonjour? Cela ne semble pas si fiable... Je n'y peux rien, je m'appelle Noel. Ce n'est pas grave si je n'ai plus besoin de conseils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Dans des domaines aussi importants, il faut suivre son propre cœur. Alors je suis là maintenant, et toi ? ~</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>D'accord……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>je rejette</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Cette guerre maléfique dure depuis trop longtemps. J'espère qu'aucun sacrifice ne sera fait pour le bien des innocents.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Oui, mais ne vous attardez pas s'il vous plaît…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Désolé, afin de nous prémunir contre l'intrusion des forces du mal, nous ne pouvons pas vous laisser passer...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Désolé, nous voulons parcourir votre territoire à la recherche de traces du mal. Êtes-vous d'accord ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Pourriez-vous s'il vous plaît déplacer les troupes ? J'ai peur que cela panique les gens.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Ça ne marche pas...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ENORB_ANY" Language="fr_FR">
+			<Text>Je suis d'accord avec votre proposition.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Lorsque nous nous sommes rencontrés pour la première fois, je m'appelais Noel. A partir de maintenant, donnez-moi vos conseils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Vos actions sont trop mauvaises, je vous punirai avec le pouvoir divin ! Cela n’inclut pas la gentillesse envers l’ennemi.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Mener une guerre diabolique contre moi est impardonnable ! J'utiliserai le pouvoir divin pour vaincre le mal dans votre cœur !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>(Vous avez suivi l'agenda de Noël)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>(Vous violez l'agenda de Noel)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Même si vous m’avez vaincu maintenant, un plus grand malheur vous arrivera !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Comme symbole de notre amitié... hehe... s'il vous plaît, profitez de ce gâteau ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Peut-être que je ne pourrai pas être ton ami cette fois. Quand tu deviendras plus juste, rejoins-moi pour punir le mal.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Vous voulez faire passer notre relation au niveau supérieur ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>… Super, s'il te plaît, donne-moi quelques conseils, mon nouvel ami !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Eh bien, oubliez ça.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Merci.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Je suis trop épuisé par les récents combats pour accueillir votre délégation, désolé...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>C'est mon gâteau préféré. Je vous l'offre en cadeau, j'espère que vous pourrez l'accepter.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Des paroles aussi sales et vicieuses peuvent être prononcées par une seule personne ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>(te condamner)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>accueillir……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>visite? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Rendons-nous visite ? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Bonjour? Cela ne semble pas si fiable... Je n'y peux rien, je m'appelle Noel. Ce n'est pas grave si je n'ai plus besoin de conseils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Dans des domaines aussi importants, il faut suivre son propre cœur. Alors je suis là maintenant, et toi ? ~</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>D'accord……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>je rejette</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Cette guerre maléfique dure depuis trop longtemps. J'espère qu'aucun sacrifice ne sera fait pour le bien des innocents.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Oui, mais ne vous attardez pas s'il vous plaît…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Désolé, afin de nous prémunir contre l'intrusion des forces du mal, nous ne pouvons pas vous laisser passer...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Désolé, nous voulons parcourir votre territoire à la recherche de traces du mal. Êtes-vous d'accord ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Pourriez-vous s'il vous plaît déplacer les troupes ? J'ai peur que cela panique les gens.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Ça ne marche pas...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ENORW_ANY" Language="fr_FR">
+			<Text>Je suis d'accord avec votre proposition.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

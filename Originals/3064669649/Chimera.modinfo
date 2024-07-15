@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0c43ff6e-55c8-4ea8-a7ef-22e13065b12e" version="1">
+  <Properties>
+    <Name>屑海豚の领袖包(废案能力集)</Name>
+    <Description>能力和美术素材没有任何关系，都是废案能力。</Description>
+    <Created>1698493995</Created>
+    <Teaser>屑海豚的废案能力集</Teaser>
+    <Authors>UFO300 PPK Maple-Leaves</Authors>
+    <SpecialThanks>Hemmelfort IthildinX 姥鲨 猭音</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Chimera_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="Colors">
+      <File>Chimera_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Icons">
+      <File>Chimera_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Chimera_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>屑海豚的废案能力集.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Chimera_Civilizations.xml</File>
+      <File>Chimera_Data.xml</File>
+      <File>Chimera_Leader.xml</File>
+      <File>Chimera/Chimera_Data.sql</File>
+      <File>Chimera/Gold_Data.xml</File>
+      <File>Chimera/Power_Data.xml</File>
+      <File>Chimera/Time_Data.xml</File>
+      <File>Chimera_Districts.xml</File>
+      <File>Chimera_Mouments.xml</File>
+      <File>Chimera_Units.xml</File>
+      <File>Chimera_Agenda.xml</File>
+      <File priority="-5">Chimera/Chimera_PPK.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="Colors">
+      <File>Chimera_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Icons">
+      <File>Chimera_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Chimera_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>屑海豚的废案能力集.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <Properties>
+        <LoadOrder>99999</LoadOrder>
+      </Properties>
+      <File>Chimera/Chimera_Data.lua</File>
+      <File>Chimera/Chimera_PPK.lua</File>
+      <File>Scripts/LeaderTraits_Gameplay.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="Audio">
+      <File>Platforms/Windows/Audio/Pandora_Music_Bank.ini</File>
+    </UpdateAudio>
+    <AddUserInterfaces id="AddUserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/Additions/LeaderTraits_UI.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Culture.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Chimera/Chimera_Data.lua</File>
+    <File>Chimera/Chimera_Data.sql</File>
+    <File>Chimera/Chimera_PPK.lua</File>
+    <File>Chimera/Chimera_PPK.sql</File>
+    <File>Chimera/Gold_Data.xml</File>
+    <File>Chimera/Power_Data.xml</File>
+    <File>Chimera/Time_Data.xml</File>
+    <File>Chimera_Agenda.xml</File>
+    <File>Chimera_Civilizations.xml</File>
+    <File>Chimera_Colors.xml</File>
+    <File>Chimera_Config.xml</File>
+    <File>Chimera_Data.xml</File>
+    <File>Chimera_Districts.xml</File>
+    <File>Chimera_Icons.xml</File>
+    <File>Chimera_Leader.xml</File>
+    <File>Chimera_Mouments.xml</File>
+    <File>Chimera_Text_CN.xml</File>
+    <File>Chimera_Units.xml</File>
+    <File>Platforms/MacOS/BLPs/ENORDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/Audio/Pandora_Music_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/Pandora_Music_Bank.ini</File>
+    <File>Platforms/Windows/BLPs/ENORDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Scripts/LeaderTraits_Gameplay.lua</File>
+    <File>Scripts/UGC_Gameplay.lua</File>
+    <File>UI/Additions/LeaderTraits_UI.lua</File>
+    <File>UI/Additions/LeaderTraits_UI.xml</File>
+    <File>UI/Additions/UGC_Button_UI.lua</File>
+    <File>UI/Additions/UGC_Button_UI.xml</File>
+    <File>XLPs/ENORDDS.xlp</File>
+    <File>屑海豚的废案能力集.dep</File>
+  </Files>
+</Mod>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Mon Jul 15 15:40:33 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_PANDORA_NAME" Language="ja_JP">
+			<Text>光を集めて</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PANDORA_DESCRIPTION" Language="ja_JP">
+			<Text>光を集めて</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ENORA_NAME" Language="ja_JP">
+			<Text>ノエル</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORA_DAWN_NAME" Language="ja_JP">
+			<Text>凝縮されたパワー</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORA_DAWN_DESCRIPTION" Language="ja_JP">
+			<Text>新時代の最初のテクノロジーをアンロックすると、対応するテクノロジーのアンロックに必要なテクノロジー値の合計の2倍の[ICON_SCIENCE]テクノロジー値を受け取ります。アカデミーの建物の各レベルでは、+2 [ICON_PRODUCTION] の生産性が得られます。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORA_GATHER_NAME" Language="ja_JP">
+			<Text>魔法が解放されました</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORA_GATHER_DESCRIPTION" Language="ja_JP">
+			<Text>アカデミーの建物を完成すると、時代の進歩に比例して大量の[ICON_SCIENCE]技術値(10*X)を獲得できます。 (X は都市の平方人口です)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ENOR_NAME" Language="ja_JP">
+			<Text>ノエル・ホワイト</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENOR_DAWN_NAME" Language="ja_JP">
+			<Text>コンデンスパワーホワイト</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENOR_DAWN_DESCRIPTION" Language="ja_JP">
+			<Text>ラウンドごとに財務省の 3% に相当する [ICON_Gold] 個の金貨を獲得します。 [NEWLINE]宗主国として、管轄下の各都市国家から [ICON_Gold] 金貨 +7% が与えられます。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENOR_GATHER_NAME" Language="ja_JP">
+			<Text>マジックリリース-ホワイト</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENOR_GATHER_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Gold] 金貨で購入すると X% 割引が受けられ、戦争状態ではその逆も同様です。 (Xは累積ラウンド数)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ENORB_NAME" Language="ja_JP">
+			<Text>ノエル・ブラック</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORB_DAWN_NAME" Language="ja_JP">
+			<Text>凝縮されたパワー-ブラック</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORB_DAWN_DESCRIPTION" Language="ja_JP">
+			<Text>工業地帯での建築時間は半分になります。 [NEWLINE]各工業地域とその建物は、都市に +10% [ICON_Production] の生産性をもたらします。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORB_GATHER_NAME" Language="ja_JP">
+			<Text>マジックリリース-ブラック</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORB_GATHER_DESCRIPTION" Language="ja_JP">
+			<Text>非民間のユニット、建物、または驚異が建設されると、コストの X% に等しい [ICON_Culture] 文化的価値を獲得します。 (Xは累積ラウンド数)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ENORW_NAME" Language="ja_JP">
+			<Text>ノエル - 光の天使</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORW_DAWN_NAME" Language="ja_JP">
+			<Text>聖なる光の力</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORW_DAWN_DESCRIPTION" Language="ja_JP">
+			<Text>偉大な科学者を獲得すると、[ICON_TechBoosted] エウレカをランダムで 1 つ獲得します。 [ICON_TechBoosted]エウレカが発動すると、すべての都市の[ICON_Production]生産進捗率が+20%になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORW_GATHER_NAME" Language="ja_JP">
+			<Text>マジックリリース - アルティメット</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ENORW_GATHER_DESCRIPTION" Language="ja_JP">
+			<Text>民間ユニットは「資金提供された研究」能力を獲得します。 [ICON_TechBoosted] エウレカがトリガーされると、対応するテクノロジーのロックを解除するために必要な合計テクノロジー値の 50% [ICON_Gold] ゴールド コインをすぐに受け取ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_D_NAME" Language="ja_JP">
+			<Text>魔力容器</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_D_DESCRIPTION" Language="ja_JP">
+			<Text>アカデミーの代わりとなり、建設コストが安くなります。少なくとも +4 の隣接ボーナスがある場合、都市の科学値は +15% になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_A_NAME" Language="ja_JP">
+			<Text>魔力容器-白</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_A_DESCRIPTION" Language="ja_JP">
+			<Text>商業センターの代わりに、「外国貿易」自治体アンロックの方が安くなります。隣接ボーナスが +4 以上ある場合、ラウンドごとに国庫の 1% に相当する [ICON_Gold] ゴールド コインを獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_B_NAME" Language="ja_JP">
+			<Text>マジックコンテナ-ブラック</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_B_DESCRIPTION" Language="ja_JP">
+			<Text>建設コストが安い工業地域の代替施設。隣接ボーナスが少なくとも +4 ある場合、都市の [ICON_Production] 生産性隣接ボーナスは [ICON_Culture] 文化値も提供し、工業地域の建物は +3 [ICON_Culture] 文化を提供します。価値。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_C_NAME" Language="ja_JP">
+			<Text>魔力容器-至臻</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENOR_C_DESCRIPTION" Language="ja_JP">
+			<Text>工業地帯の代わりに、「通貨」テクノロジーがアンロックされ、少なくとも +4 の隣接ボーナスがある場合、都市で生産されるすべての建設業者は追加の +1 [ICON_Charges] 回数の建設を受け取ります。 [NEWLINE][COLOR:Red]ただし、商業センターとは相互に排他的であり、商業センターと同じ都市に建設することはできません。 [エンドカラー]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PANDORA_NAME" Language="ja_JP">
+			<Text>マジックエルフ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PANDORA_DESCRIPTION" Language="ja_JP">
+			<Text>スカウトをより高い機動性と、丘、森、熱帯雨林、平らな地形でのより速い[ICON_Movement]移動に置き換えます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_PANDORA_DESCRIPTION" Language="ja_JP">
+			<Text>丘、森、熱帯雨林、平らな地形での[ICON_Movement]の移動が速くなりました</Text>
+		</Replace>
+		<Replace Tag="LOC_ENOR_AQUEDUCT_GOLD" Language="ja_JP">
+			<Text>+{1_num} [ICON_Gold] 隣接する水路から生産性が生まれます。</Text>
+		</Replace>
+		<Replace Tag="LOC_ENOR_RIVER_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接する川からの生産量。</Text>
+		</Replace>
+		<Replace Tag="LOC_ENOR_HARBOR_PRODUCTION" Language="ja_JP">
+			<Text>+{1_num} [ICON_Production] 隣接するポートからの生産。</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PANDORA" Language="ja_JP">
+			<Text>光を集めて</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_OPERATION_TOOLTIP" Language="ja_JP">
+			<Text>[COLOR:Civ6Yellow]金貨を使って都市を建設する[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_OPERATION_YIELD_TOOLTIP" Language="ja_JP">
+			<Text>このセルに都市を作成します</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_NO_GOLD_TOOLTIP" Language="ja_JP">
+			<Text>財務省に十分な金貨がありません ({1_Str} 枚の金貨が必要です。{2_Str} 未満です)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_CITY_TOOLTIP" Language="ja_JP">
+			<Text>[COLOR_RED]他の都市に近すぎます[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_TERRAIN_TOOLTIP" Language="ja_JP">
+			<Text>[COLOR_RED]現在の地形は定住できません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_FEATURE_TOOLTIP" Language="ja_JP">
+			<Text>[COLOR_RED]現在の風景は居住不可能です[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_DISTRICT_TOOLTIP" Language="ja_JP">
+			<Text>[COLOR_RED]この操作はゾーンでは実行できません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_IMPROVEMENT_TOOLTIP" Language="ja_JP">
+			<Text>[COLOR_RED]この操作は改善のために実行できません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITS_SETTLE_WITH_GOLD_DISABLED_OTHER_TERRITORY_TOOLTIP" Language="ja_JP">
+			<Text>[COLOR_RED]このアクションは他のプレイヤーの領土では実行できません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_OPERATION_TOOLTIP" Language="ja_JP">
+			<Text>研究に資金を提供する</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_OPERATION_YIELD_TOOLTIP" Language="ja_JP">
+			<Text>エリア、建物、驚異の建設により、現在の国庫埋蔵量の最大半分である [ICON_PRODUCTION] の生産性が得られ、生産性の 2 倍を購入するための [ICON_GOLD] ゴールドが差し引かれます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_OPERATION_YIELD_DETAILS_TOOLTIP" Language="ja_JP">
+			<Text>詳細: {1_Num} [ICON_GOLD] の金貨を使用して、{3_Num} [ICON_PRODUCTION] の生産性を {2_str} に追加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_DISABLED_NO_GOLD_TOOLTIP" Language="ja_JP">
+			<Text>財務省はマイナスです！</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_DISABLED_OTHER_TERRITORY_TOOLTIP" Language="ja_JP">
+			<Text>このアクションは他のプレイヤーの領域では実行できません</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_DISABLED_NOT_CITYCENTER_TOOLTIP" Language="ja_JP">
+			<Text>市内中心部にあるはずです</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELP_RESEARCH_DISABLED_NOT_BUILDING_BUILDING_OR_DISTRICT_TOOLTIP" Language="ja_JP">
+			<Text>地域、建物、または不思議な場所に使用する必要があります</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ANGEL_LIGHT_NAME" Language="ja_JP">
+			<Text>天使の声</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ANGEL_LIGHT_DESCRIPTION" Language="ja_JP">
+			<Text>友好関係を宣言し、平和を維持することを好む文明。友人や同盟国を非難したり攻撃したりする文明を憎みます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_ANGEL_LIGHT_FRIEND" Language="ja_JP">
+			<Text>（友好的なアナウンスをするような）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_ANGEL_LIGHT_DENOUNCED_FRIEND" Language="ja_JP">
+			<Text>（彼女を非難するあなたの友人が嫌いです）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_ANGEL_LIGHT_DENOUNCED_FRIEND" Language="ja_JP">
+			<Text>（あなたは彼女の友人を非難しました）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENOR_QUOTE" Language="ja_JP">
+			<Text>救世主よ、あなたには無限に力を発揮する可能性があります！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENORA_QUOTE" Language="ja_JP">
+			<Text>救世主よ、あなたには無限に力を発揮する可能性があります！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENORB_QUOTE" Language="ja_JP">
+			<Text>救世主よ、あなたには無限に力を発揮する可能性があります！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENORW_QUOTE" Language="ja_JP">
+			<Text>救世主よ、あなたには無限の力を得る可能性があります！</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ENOR" Language="ja_JP">
+			<Text>聖なる光よ、聖なる力よ、私に奇跡を与えてください...そして...悪を懲らしめてください!!</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ENORA" Language="ja_JP">
+			<Text>聖なる光よ、聖なる力よ、私に奇跡を与えてください...そして...悪を懲らしめてください!!</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ENORB" Language="ja_JP">
+			<Text>聖なる光よ、聖なる力よ、私に奇跡を与えてください...そして...悪を懲らしめてください!!</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ENORW" Language="ja_JP">
+			<Text>聖なる光よ、聖なる力よ、私に奇跡を与えてください...そして...悪を懲らしめてください!!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>初めて会ったとき、私の名前はノエルでした。これからもアドバイスをお願いします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>貴様の行いはあまりにも悪すぎる、神の力で懲らしめてやる！これには敵に対する優しさは含まれません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>私に対して邪悪な戦争を仕掛けるのは許されない！神の力を借りて、あなたの心の中の悪を倒します！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>(あなたはノエルの計画に従いました)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>(あなたはノエルの計画に違反しています)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>ああ...咳、...ごめんなさい、聖なる力。君からもらった力が…無駄になってしまった…！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>ああ...咳、...ごめんなさい、聖なる力。君からもらった力が…無駄になってしまった…！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>私たちの友情の象徴として...ふふ...このケーキを召し上がってください?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>今度は私はあなたの友達にはなれないかもしれない、あなたがもっと正義になったら、私と一緒に悪を懲らしめてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>私たちの関係を次のレベルに引き上げたいですか?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>…なるほど、新しい友達よ、アドバイスをお願いします！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>まあ、忘れてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>ありがとう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>最近の戦いで疲れ果てていて、代表団をお迎えする気にはなれません、申し訳ありません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>これは私のお気に入りのケーキです。あなたが受け取ってくれることを願っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>人はそのような汚くて卑劣な言葉を言うことができますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>（あなたを非難します）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>いらっしゃいませ……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>訪問？ …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>お互いに訪問しましょう? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>こんにちは？それはあまり信頼できないようです...私はノエルです、これ以上アドバイスは必要ありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>このような重要な事柄においては、人は自分の心に従わなければなりません。それで私は今ここに立っているけど、あなたはどうですか？ ～</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>よし……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>お断りします</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>この邪悪な戦争はあまりにも長く続いているので、罪のない人々のためにこれ以上の犠牲が払われないよう願っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>はい、でも長居しないでください…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、悪の勢力の侵入を防ぐため、あなたを通過させることはできません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、悪の痕跡を探すためにあなたの領域を探索したいのですが、同意しますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>軍隊を移動させてもらえませんか？これでは人々がパニックになるのではないかと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>うまくいきません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ENOR_ANY" Language="ja_JP">
+			<Text>私はあなたの提案に同意します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>初めて会ったとき、私の名前はノエルでした。これからもアドバイスをお願いします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>貴様の行いはあまりにも悪すぎる、神の力で懲らしめてやる！これには敵に対する優しさは含まれません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>私に対して邪悪な戦争を仕掛けるのは許されない！神の力を借りて、あなたの心の中の悪を倒します！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>(あなたはノエルの計画に従いました)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>(あなたはノエルの計画に違反しています)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>ああ...咳、...ごめんなさい、聖なる力。君からもらった力が…無駄になってしまった…！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>ああ...咳、...ごめんなさい、聖なる力。君からもらった力が…無駄になってしまった…！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>私たちの友情の象徴として...ふふ...このケーキを召し上がってください?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>今度は私はあなたの友達にはなれないかもしれない。あなたがもっと正義になったら、私と一緒に悪を懲らしめてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>私たちの関係を次のレベルに引き上げたいですか?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>…すごい、アドバイスをください、新しい友達！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>まあ、忘れてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>ありがとう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>最近の戦いで疲れきっていて、代表団をお迎えする気にはなれません、申し訳ありません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>これは私のお気に入りのケーキです。あなたが受け取ってくれることを願っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>人はそのような汚くて卑劣な言葉を言うことができますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>（あなたを非難します）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>いらっしゃいませ……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>訪問？ …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>お互いに訪問しましょう? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>こんにちは？それはあまり信頼できないようです...私はノエルです、これ以上アドバイスは必要ありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>このような重要な事柄においては、人は自分の心に従わなければなりません。それで私は今ここに立っているけど、あなたはどうですか？ ～</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>よし……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>お断りします</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>この邪悪な戦争はあまりにも長く続いているので、罪のない人々のためにこれ以上の犠牲が払われないよう願っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>はい、でも長居しないでください…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、悪の勢力の侵入を防ぐため、あなたを通過させることはできません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、悪の痕跡を探すためにあなたの領域を探索したいのですが、同意しますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>軍隊を移動させてもらえませんか？これでは人々がパニックになるのではないかと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>うまくいきません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ENORA_ANY" Language="ja_JP">
+			<Text>私はあなたの提案に同意します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>初めて会ったとき、私の名前はノエルでした。これからもアドバイスをお願いします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>貴様の行いはあまりにも悪すぎる、神の力で懲らしめてやる！これには敵に対する優しさは含まれません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>私に対して邪悪な戦争を仕掛けるのは許されない！神の力を借りて、あなたの心の中の悪を倒します！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>(あなたはノエルの計画に従いました)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>(あなたはノエルの計画に違反しています)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>ああ...咳、...ごめんなさい、聖なる力。君からもらった力が…無駄になってしまった…！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>ああ...咳、...ごめんなさい、聖なる力。君からもらった力が…無駄になってしまった…！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>私たちの友情の象徴として...ふふ...このケーキを召し上がってください?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>今度は私はあなたの友達にはなれないかもしれない。あなたがもっと正義になったら、私と一緒に悪を懲らしめてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>私たちの関係を次のレベルに引き上げたいですか?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>…なるほど、新しい友達よ、アドバイスをお願いします！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>まあ、忘れてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>ありがとう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>最近の戦いで疲れきっていて、代表団をお迎えする気にはなれません、申し訳ありません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>これは私のお気に入りのケーキです。あなたが受け取ってくれることを願っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>こんな汚くて卑劣な言葉が一人で言えるのか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>（あなたを非難します）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>いらっしゃいませ……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>訪問？ …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>お互いに訪問しましょう? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>こんにちは？それはあまり信頼できないようです...私はノエルです、これ以上アドバイスは必要ありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>このような重要な事柄においては、人は自分の心に従わなければなりません。それで私は今ここに立っているけど、あなたはどうですか？ ～</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>よし……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>お断りします</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>この邪悪な戦争はあまりにも長く続いているので、罪のない人々のためにこれ以上の犠牲が払われないよう願っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>はい、でも長居しないでください…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、悪の勢力の侵入を防ぐため、あなたを通過させることはできません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、悪の痕跡を探すためにあなたの領域を探索したいのですが、同意しますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>軍隊を移動させてもらえませんか？これでは人々がパニックになるのではないかと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>うまくいきません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ENORB_ANY" Language="ja_JP">
+			<Text>私はあなたの提案に同意します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>初めて会ったとき、私の名前はノエルでした。これからもアドバイスをお願いします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>貴様の行いはあまりにも悪すぎる、神の力で懲らしめてやる！これには敵に対する優しさは含まれません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>私に対して邪悪な戦争を仕掛けるのは許されない！神の力を使って、あなたの心の中の悪を倒します！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>(あなたはノエルの計画に従いました)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>(あなたはノエルの計画に違反しています)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>今は私を倒しましたが、さらなる不幸があなたに降りかかるでしょう！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>私たちの友情の象徴として...ふふ...このケーキを召し上がってください?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>今度は私はあなたの友達にはなれないかもしれない。あなたがもっと正義になったら、私と一緒に悪を懲らしめてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>私たちの関係を次のレベルに引き上げたいですか?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>…すごい、アドバイスをください、新しい友達！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>まあ、忘れてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>ありがとう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>最近の戦いで疲れきっていて、代表団をお迎えする気にはなれません、申し訳ありません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>これは私のお気に入りのケーキです。あなたが受け取ってくれることを願っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>人はそのような汚くて卑劣な言葉を言うことができますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>（あなたを非難します）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>いらっしゃいませ……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>訪問？ …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>お互いに訪問しましょう? …</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>こんにちは？それはあまり信頼できないようです...私はノエルです、これ以上アドバイスは必要ありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>このような重要な事柄においては、人は自分の心に従わなければなりません。それで私は今ここに立っているけど、あなたはどうですか？ ～</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>よし……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>お断りします</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>この邪悪な戦争はあまりにも長く続いているので、罪のない人々のためにこれ以上の犠牲が払われないよう願っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>はい、でも長居しないでください…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、悪の勢力の侵入を防ぐため、あなたを通過させることはできません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、悪の痕跡を探すためにあなたの領域を探索したいのですが、同意しますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>軍隊を移動させてもらえませんか？これでは人々がパニックになるのではないかと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>うまくいきません...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ENORW_ANY" Language="ja_JP">
+			<Text>私はあなたの提案に同意します。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

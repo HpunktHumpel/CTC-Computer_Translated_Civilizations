@@ -186,6 +186,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3051035869](https://steamcommunity.com/sharedfiles/filedetails/?id=3051035869) | 深空之眼 乌手中十曜终结你的恶行 | The Eye of Deep Space, the ten rays in the black hand put an end to your evil deeds |
 | [3058578823](https://steamcommunity.com/sharedfiles/filedetails/?id=3058578823) | 37 1999 | 37 1999 |
 | [3059867478](https://steamcommunity.com/sharedfiles/filedetails/?id=3059867478) | 深空之眼 雏心·奥西里斯 | Eye of Deep Space Hinaxin Osiris |
+| [3064669649](https://steamcommunity.com/sharedfiles/filedetails/?id=3064669649) | 屑海豚の领袖包(废案能力集) | Dolphin Leader Pack (Abandoned Ability Collection) |
 | [3067212408](https://steamcommunity.com/sharedfiles/filedetails/?id=3067212408) | 深空之眼 少啰嗦不需要你来教我 | Eye of Deep Space, don’t be too verbose. I don’t need you to teach me. |
 | [3089791148](https://steamcommunity.com/sharedfiles/filedetails/?id=3089791148) | 少女前线 前线战备队 Kar98k | Girls Frontline Front Line Kar98k |
 | [3093864870](https://steamcommunity.com/sharedfiles/filedetails/?id=3093864870) | 少女前线 前线战备队 FN-57 | Girls Frontline Frontline Ready Team FN-57 |
