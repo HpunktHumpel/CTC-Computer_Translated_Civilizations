@@ -236,4 +236,5 @@ Auto-generated translations for the following mods are currently included in thi
 | [3270755404](https://steamcommunity.com/sharedfiles/filedetails/?id=3270755404) | 深空之眼 喧哗颂歌·托尔 重置版 | Eyes of the Deep Sky: Thor: Remastered |
 | [3272604234](https://steamcommunity.com/sharedfiles/filedetails/?id=3272604234) | 深空之眼 启明·海姆达尔 重置版 | Eyes of the Deep Sky: Qiming Heimdall Remastered |
 | [3274391399](https://steamcommunity.com/sharedfiles/filedetails/?id=3274391399) | 深空之眼 夜之寄生·霍德尔 重置版 | Eyes of the Deep Sky Night Parasite Hodel Remastered |
+| [3287961690](https://steamcommunity.com/sharedfiles/filedetails/?id=3287961690) | 오마가리 하레의 밀레니엄 사이언스 스쿨 | Omagari Hare's Millennium Science School |
 | [3289149620](https://steamcommunity.com/sharedfiles/filedetails/?id=3289149620) | 이오치 마리의 트리니티 종합학원 | Mari Iochi's Trinity General Academy |
