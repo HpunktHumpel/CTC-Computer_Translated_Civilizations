@@ -236,6 +236,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3270755404](https://steamcommunity.com/sharedfiles/filedetails/?id=3270755404) | 深空之眼 喧哗颂歌·托尔 重置版 | Eyes of the Deep Sky: Thor: Remastered |
 | [3272604234](https://steamcommunity.com/sharedfiles/filedetails/?id=3272604234) | 深空之眼 启明·海姆达尔 重置版 | Eyes of the Deep Sky: Qiming Heimdall Remastered |
 | [3274391399](https://steamcommunity.com/sharedfiles/filedetails/?id=3274391399) | 深空之眼 夜之寄生·霍德尔 重置版 | Eyes of the Deep Sky Night Parasite Hodel Remastered |
+| [3275807693](https://steamcommunity.com/sharedfiles/filedetails/?id=3275807693) | 深空之眼 圣歌精灵·薇儿丹蒂 | Eyes of the Deep Space - Anthem Elf Verdandy |
 | [3277747394](https://steamcommunity.com/sharedfiles/filedetails/?id=3277747394) | 深空之眼 玄机·执明 | Eyes of the Deep Space Mystery and Wisdom |
 | [3287961690](https://steamcommunity.com/sharedfiles/filedetails/?id=3287961690) | 오마가리 하레의 밀레니엄 사이언스 스쿨 | Omagari Hare's Millennium Science School |
 | [3287994608](https://steamcommunity.com/sharedfiles/filedetails/?id=3287994608) | 深空之眼 重置版核心代码 | Eye of the Deep Sky Remastered Core Code |
