@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3cd316ed-7533-49a5-a8dc-21aeb41b7b54" version="2">
+  <Properties>
+    <Name>深空之眼 小困·俄尼里伊 重置版</Name>
+    <Description>深空之眼 小困·俄尼里伊 重置版 需要深空之眼 重置版核心代码才能使用</Description>
+    <Created>1721357198</Created>
+    <Teaser>深空之眼 小困·俄尼里伊 重置版 需要深空之眼 重置版核心代码才能使用</Teaser>
+    <Authors>HK433</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="ac469d2f-8066-4990-82a7-984befd1dece" title="深空之眼 重置版核心代码" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="IX">
+      <File>Aethergazer_ExpansionIX.dep</File>
+    </UpdateArt>
+    <UpdateColors id="IX">
+      <File>COLOR_GIRLFRONTLINE_EXPANSION_IX.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="IX">
+      <File>CONFIG_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="IX">
+      <File>ICON_GIRLFRONTLINE_EXPANSION_IX.xml</File>
+    </UpdateIcons>
+    <UpdateText id="IX">
+      <File>TEXT_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="IX">
+      <File>Aethergazer_ExpansionIX.dep</File>
+    </UpdateArt>
+    <UpdateColors id="IX">
+      <File>COLOR_GIRLFRONTLINE_EXPANSION_IX.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="IX">
+      <File>LEADER_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+      <File>CIVILIZATION_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="IX">
+      <File>ICON_GIRLFRONTLINE_EXPANSION_IX.xml</File>
+    </UpdateIcons>
+    <UpdateText id="IX">
+      <File>TEXT_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Aethergazer_ExpansionIX.dep</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>CIVILIZATION_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+    <File>COLOR_GIRLFRONTLINE_EXPANSION_IX.xml</File>
+    <File>CONFIG_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+    <File>ICON_GIRLFRONTLINE_EXPANSION_IX.xml</File>
+    <File>LEADER_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+    <File>Platforms/MacOS/BLPs/ENILIYIDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ENILIYIDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>TEXT_GIRLFRONTLINE_EXPANSION_IX.sql</File>
+  </Files>
+</Mod>
