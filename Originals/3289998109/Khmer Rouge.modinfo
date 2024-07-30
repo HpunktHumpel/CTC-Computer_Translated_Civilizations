@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="499cf339-df94-43f1-8451-ea9164d0132e" version="1">
+  <Properties>
+    <Name>浅间小石房</Name>
+    <Description>emmmmmmmmmmmmmmmmm..</Description>
+    <Created>1721090290</Created>
+    <Authors>r奶白的雪子</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Data/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="colors">
+      <File>Data/Colors.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="icons">
+      <File>Data/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Text/KhmerRougeText_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>Khmer Rouge.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Data/KhmerRouge_Data.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icons">
+      <File>Data/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="colors">
+      <File>Data/Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="text">
+      <File>Text/KhmerRougeText_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>Khmer Rouge.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="scripts">
+      <File>Scripts/DeUrbanizationMovement.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Data/Colors.sql</File>
+    <File>Data/Config.sql</File>
+    <File>Data/Icons.xml</File>
+    <File>Data/KhmerRouge_Data.sql</File>
+    <File>Khmer Rouge.Art.xml</File>
+    <File>Khmer Rouge.dep</File>
+    <File>Platforms/Windows/BLPs/KhmerRouge.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Scripts/DeUrbanizationMovement.lua</File>
+    <File>Text/KhmerRougeText_zh_Hans_CN.xml</File>
+  </Files>
+</Mod>
