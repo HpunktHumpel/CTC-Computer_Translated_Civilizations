@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b258eadb-b5d3-4c50-aaf7-4e4105e72d63" version="1">
+  <Properties>
+    <Name>Dian Cang Yun Shang</Name>
+    <Description>我是......叶云裳的狗！</Description>
+    <Created>1719758459</Created>
+    <Teaser>点苍派·叶云裳</Teaser>
+    <Authors>Elysia</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="YunShang_Front_Data">
+      <File>Ye Yun Shang Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="YunShang_Front_Color">
+      <File>Ye Yun Shang Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="YunShang_Front_Icon">
+      <File>Ye Yun Shang Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="YunShang_Front_Text">
+      <File>Ye Yun Shang Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="YunShang_Front_Art">
+      <File>Dian Cang Yun Shang.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="YunShang_In_Data">
+      <File>Ye Yun Shang Modifer.xml</File>
+      <File>Ye Yun Shang Trait.xml</File>
+      <File>Ye Yun Shang.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="YunShang_In_Color">
+      <File>Ye Yun Shang Color.xml</File>
+    </UpdateColors>
+    <UpdateText id="YunShang_In_Text">
+      <File>Ye Yun Shang Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="YunShang_In_Lua">
+      <File>Ye Yun Shang Trait.lua</File>
+    </AddGameplayScripts>
+    <UpdateIcons id="YunShang_In_Icon">
+      <File>Ye Yun Shang Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="YunShang_In_Art">
+      <File>Dian Cang Yun Shang.dep</File>
+    </UpdateArt>
+    <UpdateAudio id="YunShang_In_Music">
+      <File>Platforms/Windows/Audio/HXZ_DIANCANG.bnk</File>
+      <File>Platforms/Windows/Audio/HXZ_DIANCANG.ini</File>
+      <File>Platforms/Windows/Audio/HXZ_DIANCANG.txt</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmraks.artdef</File>
+    <File>ArtDefs/Resources.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Dian Cang Yun Shang.dep</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_YUNSHANG.blp</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_YUNSHANG_FOW.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/Audio/102375137.wem</File>
+    <File>Platforms/Windows/Audio/1048772315.wem</File>
+    <File>Platforms/Windows/Audio/1072188726.wem</File>
+    <File>Platforms/Windows/Audio/150675174.wem</File>
+    <File>Platforms/Windows/Audio/169294326.wem</File>
+    <File>Platforms/Windows/Audio/198707492.wem</File>
+    <File>Platforms/Windows/Audio/252155361.wem</File>
+    <File>Platforms/Windows/Audio/263483504.wem</File>
+    <File>Platforms/Windows/Audio/29405634.wem</File>
+    <File>Platforms/Windows/Audio/438096979.wem</File>
+    <File>Platforms/Windows/Audio/458305187.wem</File>
+    <File>Platforms/Windows/Audio/5301664.wem</File>
+    <File>Platforms/Windows/Audio/54282235.wem</File>
+    <File>Platforms/Windows/Audio/555773179.wem</File>
+    <File>Platforms/Windows/Audio/572480956.wem</File>
+    <File>Platforms/Windows/Audio/707747213.wem</File>
+    <File>Platforms/Windows/Audio/714906593.wem</File>
+    <File>Platforms/Windows/Audio/732710201.wem</File>
+    <File>Platforms/Windows/Audio/800948072.wem</File>
+    <File>Platforms/Windows/Audio/852306038.wem</File>
+    <File>Platforms/Windows/Audio/858183571.wem</File>
+    <File>Platforms/Windows/Audio/886845200.wem</File>
+    <File>Platforms/Windows/Audio/HXZ_DIANCANG.bnk</File>
+    <File>Platforms/Windows/Audio/HXZ_DIANCANG.ini</File>
+    <File>Platforms/Windows/Audio/HXZ_DIANCANG.txt</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_YUNSHANG.blp</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_YUNSHANG_FOW.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Ye Yun Shang Color.xml</File>
+    <File>Ye Yun Shang Config.xml</File>
+    <File>Ye Yun Shang Icon.xml</File>
+    <File>Ye Yun Shang Modifer.xml</File>
+    <File>Ye Yun Shang Text.xml</File>
+    <File>Ye Yun Shang Trait.lua</File>
+    <File>Ye Yun Shang Trait.xml</File>
+    <File>Ye Yun Shang.xml</File>
+  </Files>
+</Mod>

@@ -240,6 +240,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3275807693](https://steamcommunity.com/sharedfiles/filedetails/?id=3275807693) | 深空之眼 圣歌精灵·薇儿丹蒂 | Eyes of the Deep Space - Anthem Elf Verdandy |
 | [3276958950](https://steamcommunity.com/sharedfiles/filedetails/?id=3276958950) | 深空之眼 十曜·金乌 重置版 | Eye of the Deep Sky: Ten Stars: Golden Crow Remastered |
 | [3277747394](https://steamcommunity.com/sharedfiles/filedetails/?id=3277747394) | 深空之眼 玄机·执明 | Eyes of the Deep Space Mystery and Wisdom |
+| [3278617240](https://steamcommunity.com/sharedfiles/filedetails/?id=3278617240) | 点苍派·点苍明珠·叶云裳 | Dian Cang Sect·Dian Cang Pearl·Ye Yunshang |
 | [3278966858](https://steamcommunity.com/sharedfiles/filedetails/?id=3278966858) | 深空之眼 百解·禄良 重置版 | Eyes of the Deep Sky - Baijie·Luliang Remastered |
 | [3282160342](https://steamcommunity.com/sharedfiles/filedetails/?id=3282160342) | 深空之眼 太一·庚辰 | Eyes of the Deep Space Taiyi Gengchen |
 | [3285368763](https://steamcommunity.com/sharedfiles/filedetails/?id=3285368763) | 深空之眼 澄心·陵光 重置版 | Eyes of the Deep Sky: Clear Heart and Ling Guang Remastered |
