@@ -242,6 +242,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3277747394](https://steamcommunity.com/sharedfiles/filedetails/?id=3277747394) | 深空之眼 玄机·执明 | Eyes of the Deep Space Mystery and Wisdom |
 | [3278966858](https://steamcommunity.com/sharedfiles/filedetails/?id=3278966858) | 深空之眼 百解·禄良 重置版 | Eyes of the Deep Sky - Baijie·Luliang Remastered |
 | [3282160342](https://steamcommunity.com/sharedfiles/filedetails/?id=3282160342) | 深空之眼 太一·庚辰 | Eyes of the Deep Space Taiyi Gengchen |
+| [3285368763](https://steamcommunity.com/sharedfiles/filedetails/?id=3285368763) | 深空之眼 澄心·陵光 重置版 | Eyes of the Deep Sky: Clear Heart and Ling Guang Remastered |
 | [3287961690](https://steamcommunity.com/sharedfiles/filedetails/?id=3287961690) | 오마가리 하레의 밀레니엄 사이언스 스쿨 | Omagari Hare's Millennium Science School |
 | [3287994608](https://steamcommunity.com/sharedfiles/filedetails/?id=3287994608) | 深空之眼 重置版核心代码 | Eye of the Deep Sky Remastered Core Code |
 | [3289149620](https://steamcommunity.com/sharedfiles/filedetails/?id=3289149620) | 이오치 마리의 트리니티 종합학원 | Mari Iochi's Trinity General Academy |
