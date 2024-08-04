@@ -249,4 +249,5 @@ Auto-generated translations for the following mods are currently included in thi
 | [3289091404](https://steamcommunity.com/sharedfiles/filedetails/?id=3289091404) | 深空之眼 小困·俄尼里伊 重置版 | Eyes of the Deep Space Xiaokun·Onili Remastered |
 | [3289149620](https://steamcommunity.com/sharedfiles/filedetails/?id=3289149620) | 이오치 마리의 트리니티 종합학원 | Mari Iochi's Trinity General Academy |
 | [3289998109](https://steamcommunity.com/sharedfiles/filedetails/?id=3289998109) | 浅间·小石房 | Asama Small Stone Room |
+| [3291652535](https://steamcommunity.com/sharedfiles/filedetails/?id=3291652535) | Fubayashi Kirishima | Fubayashi Kirishima |
 | [3292202570](https://steamcommunity.com/sharedfiles/filedetails/?id=3292202570) | 深空之眼 九司·陆吾 | Eyes of Deep Space Jiusi·Luwu |

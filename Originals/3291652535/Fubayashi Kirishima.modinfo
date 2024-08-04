@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6a12e2e9-0377-466e-9131-d5c9484792d3" version="1">
+  <Properties>
+    <Name>Fubayashi Kirishima</Name>
+    <Description>包含强力文明和领袖，带给玩家好玩的体验！</Description>
+    <Created>1721279738</Created>
+    <Authors>r</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Data/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/KirishimaText_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icons">
+      <File>Data/Icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="colors">
+      <File>Data/Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>Fubayashi Kirishima.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Data/Kirishima_Data.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/KirishimaText_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icons">
+      <File>Data/Icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="colors">
+      <File>Data/Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>Fubayashi Kirishima.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Data/Colors.sql</File>
+    <File>Data/Config.sql</File>
+    <File>Data/Icon.xml</File>
+    <File>Data/Kirishima_Data.sql</File>
+    <File>Fubayashi Kirishima.dep</File>
+    <File>Platforms/Windows/BLPs/Kirishima.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text/KirishimaText_zh_Hans_CN.xml</File>
+  </Files>
+</Mod>
