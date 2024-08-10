@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1f24b0ce-be42-4eb3-9753-d7abc19ed9f8" version="1">
+  <Properties>
+    <Name>Yukari</Name>
+    <Description>this is a mod for touhou Yukari.have fun.</Description>
+    <Created>1715836898</Created>
+    <Authors>penglai</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>leader_icon.xml</File>
+      <File>civilization_icon.xml</File>
+      <File>improvement_icon.xml</File>
+      <File>governor_icon.xml</File>
+      <File>unit_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Yukari.dep</File>
+    </UpdateArt>
+    <UpdateColors id="COLOR">
+      <File>color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>leader.xml</File>
+      <File>leader_modifiers.xml</File>
+      <File>civilization.xml</File>
+      <File>civilization_modifiers.xml</File>
+      <File>improvement.xml</File>
+      <File>governor.xml</File>
+      <File>improvement_modifiers.sql</File>
+      <File>leader_ai.xml</File>
+      <File>unit_chen.xml</File>
+      <File>policies.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>civilization_icon.xml</File>
+      <File>leader_icon.xml</File>
+      <File>improvement_icon.xml</File>
+      <File>governor_icon.xml</File>
+      <File>unit_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Yukari.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>color.xml</File>
+    </UpdateColors>
+    <AddGameplayScripts id="script">
+      <File>civilization.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>civilization.lua</File>
+    <File>civilization.xml</File>
+    <File>civilization_icon.xml</File>
+    <File>civilization_modifiers.xml</File>
+    <File>color.xml</File>
+    <File>config.xml</File>
+    <File>governor.xml</File>
+    <File>governor_icon.xml</File>
+    <File>improvement.xml</File>
+    <File>improvement_icon.xml</File>
+    <File>improvement_modifiers.sql</File>
+    <File>leader.xml</File>
+    <File>leader_ai.xml</File>
+    <File>leader_icon.xml</File>
+    <File>leader_modifiers.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>policies.xml</File>
+    <File>text.xml</File>
+    <File>unit_chen.xml</File>
+    <File>unit_icon.xml</File>
+    <File>Yukari.dep</File>
+  </Files>
+</Mod>
