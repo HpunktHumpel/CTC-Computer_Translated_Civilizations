@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fd674ea6-fe31-42dd-8cd4-35f673165953" version="1">
+  <Properties>
+    <Name>Touhou Mokou</Name>
+    <Description>This is a mod for touhou mokou</Description>
+    <Created>1716385722</Created>
+    <Teaser>This is a mod for touhou mokou</Teaser>
+    <Authors>Penglai</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateColors id="color">
+      <File>color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>Touhou Mokou.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateIcons id="icon">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="color">
+      <File>color.xml</File>
+    </UpdateColors>
+    <UpdateText id="text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="gameplay">
+      <File>civilization.xml</File>
+      <File>leader.xml</File>
+      <File>modifiers.xml</File>
+      <File>unit.xml</File>
+      <File>district.xml</File>
+      <File>agenda.xml</File>
+      <File>building.xml</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="script">
+      <File>civilization.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="art">
+      <File>Touhou Mokou.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>agenda.xml</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>building.xml</File>
+    <File>civilization.lua</File>
+    <File>civilization.xml</File>
+    <File>color.xml</File>
+    <File>config.xml</File>
+    <File>district.xml</File>
+    <File>icon.xml</File>
+    <File>leader.xml</File>
+    <File>modifiers.xml</File>
+    <File>mokou.Art.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UIleaders.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UIleaders.blp</File>
+    <File>text.xml</File>
+    <File>Touhou Mokou.dep</File>
+    <File>unit.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UIleaders.xlp</File>
+  </Files>
+</Mod>
