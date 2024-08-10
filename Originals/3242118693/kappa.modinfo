@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="96c1d340-d306-4005-b860-fb40cc6c4708" version="1">
+  <Properties>
+    <Name>TouHou Kappa</Name>
+    <Description>this is a mod for touhou kappa.</Description>
+    <Created>1718889230</Created>
+    <Teaser>this is a mod for touhou kappa.</Teaser>
+    <Authors>penglai</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <File>Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="COLOR">
+      <File>Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="ART">
+      <File>TouHou Kappa.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateIcons id="ICON">
+      <File>Icon.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="COLOR">
+      <File>Color.xml</File>
+    </UpdateColors>
+    <UpdateText id="TEXT">
+      <File>Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="ART">
+      <File>TouHou Kappa.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="GAMEPLAY">
+      <File>Leader.xml</File>
+      <File>Civilization.xml</File>
+      <File>Civilization_modifiers.xml</File>
+      <File>Leader_modifiers.xml</File>
+      <File>Districts.xml</File>
+      <File>Buildings.xml</File>
+      <File>Agenda.xml</File>
+      <File>Units.xml</File>
+      <File>Project.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Agenda.xml</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Buildings.xml</File>
+    <File>Civilization.xml</File>
+    <File>Civilization_modifiers.xml</File>
+    <File>Color.xml</File>
+    <File>Config.xml</File>
+    <File>Districts.xml</File>
+    <File>Icon.xml</File>
+    <File>Leader.xml</File>
+    <File>Leader_modifiers.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UIleaders.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UIleaders.blp</File>
+    <File>Project.xml</File>
+    <File>Text.xml</File>
+    <File>TouHou Kappa.dep</File>
+    <File>Units.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UIleaders.xlp</File>
+  </Files>
+</Mod>
