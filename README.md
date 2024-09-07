@@ -256,6 +256,8 @@ Auto-generated translations for the following mods are currently included in thi
 | [3291652535](https://steamcommunity.com/sharedfiles/filedetails/?id=3291652535) | Fubayashi Kirishima | Fubayashi Kirishima |
 | [3292202570](https://steamcommunity.com/sharedfiles/filedetails/?id=3292202570) | 深空之眼 九司·陆吾 | Eyes of Deep Space Jiusi·Luwu |
 | [3302614081](https://steamcommunity.com/sharedfiles/filedetails/?id=3302614081) | 猫耳少女① | Cat ear girl① |
+| [3310095227](https://steamcommunity.com/sharedfiles/filedetails/?id=3310095227) | 真恋寄语枫秋文明 | True love message Feng Qiu Wenming |
+| [3320899466](https://steamcommunity.com/sharedfiles/filedetails/?id=3320899466) | 隐居者扩展包 | The Hermit Expansion Pack |
 | [3321887651](https://steamcommunity.com/sharedfiles/filedetails/?id=3321887651) | ☆魔法少女小圆☆ by Tanshou | ☆Magical Girl Madoka Magica☆ by Tanshou |
 | [3322910329](https://steamcommunity.com/sharedfiles/filedetails/?id=3322910329) | Lu's Arknight: Wisadel | Lu's Arknight: Wisadel |
 | [3324790850](https://steamcommunity.com/sharedfiles/filedetails/?id=3324790850) | SOS团扩展包 | SOS Mission Expansion Pack |

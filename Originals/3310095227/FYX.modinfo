@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d3a695bb-51d8-41ab-aae7-aa38d4788c5f" version="1">
+  <Properties>
+    <Name>FYX Mod</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1724476866</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>Administrator</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="FYXWM">
+      <File>FYX_Config_xml.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TEXT">
+      <File>FYX_Text_WB.xml</File>
+      <File>WJWB.xml</File>
+      <File>WJWB1.xml</File>
+      <File>WJWB2.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON">
+      <File>FYXIcons TBTJ.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ART">
+      <File>My Custom Mod.dep</File>
+    </UpdateArt>
+    <UpdateColors id="COLOR">
+      <File>GJYS.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="databess">
+      <File>FYX_Civilization.xml</File>
+      <File>Leader_LX.xml</File>
+      <File>FYX_UNITS_DW.xml</File>
+      <File>FYX_Building_JZ.xml</File>
+      <File>FYX_Agenda.xml</File>
+      <File>FYXDistrict_QY.xml</File>
+      <File>FYX_Improvement_GL.xml</File>
+      <File>LeaderAdility.xml</File>
+      <File>FYXLEADERABILITY_SQL.sql</File>
+      <File>YHTHY_UNIT.xml</File>
+      <File>FYX_UnitAbilits_DYNL.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TEXT">
+      <File>FYX_Text_WB.xml</File>
+      <File>WJWB.xml</File>
+      <File>WJWB1.xml</File>
+      <File>WJWB2.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ICON">
+      <File>FYXIcons TBTJ.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ART">
+      <File>My Custom Mod.dep</File>
+    </UpdateArt>
+    <UpdateColors id="COLOR">
+      <File>GJYS.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>CivilizationAbility.xml</File>
+    <File>Color_TBYS.xml</File>
+    <File>FYXDistrict_QY.xml</File>
+    <File>FYXIcons TBTJ.xml</File>
+    <File>FYXLEADERABILITY_SQL.sql</File>
+    <File>FYX_Agenda.xml</File>
+    <File>FYX_Building_JZ.xml</File>
+    <File>FYX_Civilization.xml</File>
+    <File>FYX_Config_xml.xml</File>
+    <File>FYX_Improvement_GL.xml</File>
+    <File>FYX_Text_WB.xml</File>
+    <File>FYX_UnitAbilits_DYNL.xml</File>
+    <File>FYX_UNITS_DW.xml</File>
+    <File>GJYS.sql</File>
+    <File>LeaderAdility.xml</File>
+    <File>Leader_LX.xml</File>
+    <File>My Custom Mod.dep</File>
+    <File>Platforms/MacOS/BLPs/FYX_Textures.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/FYX_Textures.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>WJWB.xml</File>
+    <File>WJWB1.xml</File>
+    <File>WJWB2.xml</File>
+    <File>XLPs/FYX_Textures.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>YHTHY_UNIT.xml</File>
+  </Files>
+</Mod>
