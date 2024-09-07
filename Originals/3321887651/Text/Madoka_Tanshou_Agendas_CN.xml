@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: asus -->
+<!-- DateCreated: 8/13/2024 2:08:09 PM -->
+<GameData>
+	<LocalizedText>
+	<!-- 议程 -->
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_MADOKA_NAME" Language="zh_Hans_CN">
+		<Text>救济魔法少女</Text>
+	</Replace>
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_MADOKA_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>相信并终会拯救所有人。</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_MADOKA_TANSHOU_MADOKA_YES" Language="zh_Hans_CN">
+		<Text>鹿目圆相信并终会拯救所有人</Text>
+	</Replace>
+
+
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_KYOUKO_NAME" Language="zh_Hans_CN">
+		<Text>武旦魔法少女</Text>
+	</Replace>
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_KYOUKO_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>喜爱守护他人的文明，讨厌乐于毁灭制造混乱的文明。</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_MADOKA_TANSHOU_KYOUKO_YES" Language="zh_Hans_CN">
+		<Text>在佐仓杏子所在的大陆上保持了和平</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_MADOKA_TANSHOU_KYOUKO_NO" Language="zh_Hans_CN">
+		<Text>在佐仓杏子所在的大陆上制造了混乱</Text>
+	</Replace>
+
+	
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_HOMURA_NAME" Language="zh_Hans_CN">
+		<Text>来自过去与未来</Text>
+	</Replace>
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_HOMURA_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>对故事中不重要的人并不会太在意。</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_MADOKA_TANSHOU_HOMURA_YES" Language="zh_Hans_CN">
+		<Text>你对于她是特别的存在</Text>
+	</Replace>
+
+
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_MAMI_NAME" Language="zh_Hans_CN">
+		<Text>秀色魔法少女</Text>
+	</Replace>
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_MAMI_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>希望其他文明与自己的距离足够近。</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_MADOKA_TANSHOU_MAMI_YES" Language="zh_Hans_CN">
+		<Text>城市与其距离足够近</Text>
+	</Replace>
+
+
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_NAGISA_NAME" Language="zh_Hans_CN">
+		<Text>零食魔法少女</Text>
+	</Replace>
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_NAGISA_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>希望成立宗教并传播到自己国内的文明。</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_MADOKA_TANSHOU_NAGISA_YES" Language="zh_Hans_CN">
+		<Text>在其境内传播了宗教</Text>
+	</Replace>
+
+
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_SAYAKA_NAME" Language="zh_Hans_CN">
+		<Text>人鱼魔法少女</Text>
+	</Replace>
+	<Replace Tag="LOC_AGENDA_MADOKA_TANSHOU_SAYAKA_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>喜欢文化产出高的文明。</Text>
+	</Replace>
+	<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AGENDA_MADOKA_TANSHOU_SAYAKA_YES" Language="zh_Hans_CN">
+		<Text>高文化产出</Text>
+	</Replace>
+		<!--外交文本-->
+		<!--鹿目圆-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>这样就能…帮助更多人了吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>暂时还不可以的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>这样就能…帮助更多人了吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>这样就能…帮助更多人了吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>暂时还不可以的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>一定要，保护好大家！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>一定要，保护好大家！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>一起吃便当吧！今天是…鸡蛋烧和炸物还有蔬菜！嚼嚼…嗯～好好吃～♪啊，炸物味道怎么样？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>暂时还不可以的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>一起吃便当吧！今天是…鸡蛋烧和炸物还有蔬菜！嚼嚼…嗯～好好吃～♪啊，炸物味道怎么样？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>太过分了…怎么会有这种事…（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>太过分了…怎么会有这种事…（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>我是鹿目圆。叫我小圆就可以啦！虽然不久前才成为魔法少女，有点不知道该干什么…不管怎么说，我会加油的！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>一起吃便当吧！今天是…鸡蛋烧和炸物还有蔬菜！嚼嚼…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>嗯嗯，感觉很棒呢！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>来，该做明天的预习了！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>太好了！见面了呢～</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>果然，实际上和魔女战斗的时候好恐怖…平静不下来呢，可是一想到我是为了某人而战斗，就能提起劲儿了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>一起吃便当吧！今天是…鸡蛋烧和炸物还有蔬菜！嚼嚼…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>即使只是说不定的事，但如果未来遇上了非常强大的魔女，我能不能…好好去战斗呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>太过分了…一定要，保护好大家！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>即使只是说不定的事，但如果未来遇上了非常强大的魔女，我能不能…好好去战斗呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>边境已经开放，欢迎你的到来。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>暂时还不可以的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>我们不过是刚刚好路过而已。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>即使只是说不定的事，但如果未来遇上了非常强大的魔女，我能不能…好好去战斗呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>不好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>这样嘛，不好意思，那我们先离开了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>太过分了…怎么会有这种事…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>不太好吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_MADOKA_ANY" Language="zh_Hans_CN">
+			<Text>嗯嗯，感觉很棒呢！</Text>
+		</Replace>
+		<!--佐仓杏子-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>嗯，马马虎虎还行啦。就按这个节奏来吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>我不想这样。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>嗯，马马虎虎还行啦。就按这个节奏来吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>嗯，马马虎虎还行啦。就按这个节奏来吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>我不想这样。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>这边二十四小时准备作战啦，所以嘛有啥事儿都没问题。不管从哪里来都尽管放马过来吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>这边二十四小时准备作战啦，所以嘛有啥事儿都没问题。不管从哪里来都尽管放马过来吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>好了，既然都走到这里，就该考虑下一步的事情了吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>我不想这样。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>好了，既然都走到这里，就该考虑下一步的事情了吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>你这是什么意思。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>你这是什么意思。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>我是佐仓杏子。请多指教！想跟我一起作战的话，晚饭你得请我吧～开玩笑的。午饭就行了！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>要不要稍微闹腾一番呢～</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>嗯，马马虎虎还行啦。就按这个节奏来吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>要不要稍微闹腾一番呢～</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>啊～困啊～你还真是打早上起就老精神的啊。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>万事大吉！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>每个人都有自己的故事。所以这，就是我的故事。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>不坏啊这个感觉，要不要稍微闹腾一番呢～</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>就这样到此为止吗。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>我不想这样，不知为啥感觉状态挺好的。找着手感了吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>就这样到此为止吗。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>边境已经开放，欢迎你的到来。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>暂时还不可以的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>我们不过是刚刚好路过而已。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>你这是什么意思。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>不好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>这样嘛，不好意思，那我们先离开了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>独自一人的话，一定很孤单吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>我不想这样。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_KYOUKO_ANY" Language="zh_Hans_CN">
+			<Text>嗯，马马虎虎还行啦。就按这个节奏来吧！</Text>
+		</Replace>
+		<!--晓美焰-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我不认为这便是终点。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>拒绝。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我不认为这便是终点。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我不认为这便是终点。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>拒绝。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我们魔法少女战斗的理由唯有一个。那就是，为了我们自己的祈祷。就算那是多么孤独的事情…也是如此呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我们魔法少女战斗的理由唯有一个。那就是，为了我们自己的祈祷。就算那是多么孤独的事情…也是如此呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>嗯，预见一下总不坏。能看到必须前往的前方了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>拒绝。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>嗯，预见一下总不坏。能看到必须前往的前方了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>似乎来了。我只不过是在做，我必须做的事情。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>似乎来了。我只不过是在做，我必须做的事情。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我履行着自己的使命。而为此，我不断地战斗着。现在如此，过去亦如此。我是晓美焰，一名魔法少女。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>嗯，预见一下总不坏。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>走吧，去你那里。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>早。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我必定会找到终点给你看...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>嗯，预见一下总不坏。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>你们捡了一条命呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我会反抗、再反抗，彻底击溃你的计划。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>你们捡了一条命呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>暂时就这样吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>拒绝。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>路过而已。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>黑夜将世界包裹在内，换一种说法，也就是黑暗伸展开来。你最好小心一些。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>拒绝。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我们走了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>我不会倒在这种地方的。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>拒绝。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_HOMURA_ANY" Language="zh_Hans_CN">
+			<Text>就这样吧。</Text>
+		</Replace>
+		<!--巴麻美-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>我感受到了和你的羁绊。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>暂时不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>我感受到了和你的羁绊。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>我感受到了和你的羁绊。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>暂时不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>呼…真可惜。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>呼…真可惜。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>适合早餐的红茶，大概是英伦早餐茶吧。水正好也要烧开了。你要喝一杯吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>暂时不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>适合早餐的红茶，大概是英伦早餐茶吧。水正好也要烧开了。你要喝一杯吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>有点过分了。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>有点过分了。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>我是巴麻美。见泷原中学的三年级学生，同时是与丘比签订了契约的魔法少女。请多指教！那我们就出发吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>我感受到了和你的羁绊，心想你是不是快要来了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>嗯嗯！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>下午茶…虽然也说不上是这种时间了，但感受着平静流逝的日子，喝上一杯红茶也相当不错。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>终于见面了呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>我喜欢草本茶。放松的时候喝上一杯洋甘菊茶，能让身心都舒缓下来。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>一个人的力量是薄弱的，但许多人聚集起来就能汇聚成一股强大的力量。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>接下来，去喝杯茶吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>不好意思，暂时还没有停下的想法。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>接下来，去喝杯茶吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>不错呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>暂时不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>我们不过是刚刚好路过而已。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>这里有一股非常违和的感觉，说不出来。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>不好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>这样嘛，不好意思，那我们先离开了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>呼…真可惜。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>不太好吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_MAMI_ANY" Language="zh_Hans_CN">
+			<Text>这样就可以了。</Text>
+		</Replace>
+		<!--百江渚-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>享受这最～强的美味吧！的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>不可以的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>享受这最～强的美味吧！的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>享受这最～强的美味吧！的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>不可以的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>真是的！怎么就变成这样了的说呢！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>真是的！怎么就变成这样了的说呢！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>啊！你想听听奶酪的故事的说吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>不可以的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>啊！你想听听奶酪的故事的说吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>过分的说！（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>过分的说！（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>啊——呜……嗯～！这个就比较…嗯！？喔…哇！呃…我是百江渚的说！诶？你问我…在吃什么的说？呵～呵～呵…是奶酪的说喔！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>清爽的心情…与此同时袭来的饥饿的说…！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>嗯嗯！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>来吧！我们走的说！然后吃奶酪的说吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>啊！你来了的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>对现在的小渚来说最能治愈心灵的…就是拉克雷特奶酪慢慢地融化的瞬间。这个可以一直一直看下去的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>这样就能好好品味奶酪了的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>马上就结束的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>不可以就这样完结的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>马上就结束的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>不错的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>不可以的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>我们不过是刚刚好路过而已的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>嗯嗯！？这个似乎…是威胁的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>不可以的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>这样嘛，不好意思，那我们先离开的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>嗯…！差不多到点心时间了的说！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>不可以的说。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_NAGISA_ANY" Language="zh_Hans_CN">
+			<Text>这样就不错的说。</Text>
+		</Replace>
+		<!--沙耶香-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>这样我们的团体就又多了一个人呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我觉得不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>这样我们的团体就又多了一个人呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>这样我们的团体就又多了一个人呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我觉得不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>你感觉到危机的来临了吗。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>你感觉到危机的来临了吗。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>诶—呀！ 久违的好心情~！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我觉得不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>诶—呀！ 久违的好心情~！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>真是过分啊。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>真是过分啊。（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我来啦，正义的魔法少女沙耶香现在就在你的面前！就当是坐上了大船，多多依赖我吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>诶—呀！ 久违的好心情~！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我没意见。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>该去好好玩一次了呢！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>你好啊，又见面了呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>好！今天就让我们全力以赴吧~！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>诶—呀！ 久违的好心情~！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>你觉得这样算是结束了吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>还没有结束，还没有。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>你觉得这样算是结束了吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>你们可不能乱来嗷。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我觉得不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我们不过是刚刚好路过而已。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我会用这种力量来保护我所爱的人。如果有人比魔女更糟糕，我一样也会战斗。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我觉得不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>这样嘛，不好意思，那我们先离开了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我可真是个笨蛋。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我觉得不行。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANSHOU_SAYAKA_ANY" Language="zh_Hans_CN">
+			<Text>我没意见。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
