@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="be25a8a8-761f-4533-a22c-9418e54fb6b7" version="1">
+  <Properties>
+    <Name>Lu's Arknight: Wisadel</Name>
+    <Description>卡兹戴尔是《明日方舟》及其衍生作品中登场的一个架空的国家地区。卡兹戴尔最多的军事力量为不计其数的萨卡兹雇佣兵。大部分是感染者，平时以接受包括同类相残在内的委托及劫掠萨科塔商队等为业，内战时则划分阵营汇聚在王旗之下。</Description>
+    <Created>1725252744</Created>
+    <Teaser>卡兹戴尔</Teaser>
+    <Authors>Lu ica</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>W_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>W_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>W_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Leader Wisadel.dep</File>
+      <File>W.Art.xml</File>
+      <File>Artdefs/FallbackLeaders.artdef</File>
+      <File>Artdefs/Units.artdef</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>W_Color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>W_Civilization.xml</File>
+      <File>W_Leaders.xml</File>
+      <File>W_Units.xml</File>
+      <File>W_Abiliyies.xml</File>
+      <File>Modfier/UnitAbilities.sql</File>
+      <File>Modfier/CvilizationAbilities.sql</File>
+      <File>Modfier/LeaderAbilities.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>W_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>W_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Leader Wisadel.dep</File>
+      <File>W.Art.xml</File>
+      <File>Artdefs/FallbackLeaders.artdef</File>
+      <File>Artdefs/Units.artdef</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>W_Color.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Leader Wisadel.dep</File>
+    <File>Modfier/CvilizationAbilities.sql</File>
+    <File>Modfier/LeaderAbilities.sql</File>
+    <File>Modfier/UnitAbilities.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/WDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/WDDS.blp</File>
+    <File>W.Art.xml</File>
+    <File>W_Abiliyies.xml</File>
+    <File>W_Civilization.xml</File>
+    <File>W_Color.xml</File>
+    <File>W_Config.xml</File>
+    <File>W_Icons.xml</File>
+    <File>W_Leaders.xml</File>
+    <File>W_Text.xml</File>
+    <File>W_Units.xml</File>
+  </Files>
+</Mod>
