@@ -256,4 +256,5 @@ Auto-generated translations for the following mods are currently included in thi
 | [3291652535](https://steamcommunity.com/sharedfiles/filedetails/?id=3291652535) | Fubayashi Kirishima | Fubayashi Kirishima |
 | [3292202570](https://steamcommunity.com/sharedfiles/filedetails/?id=3292202570) | 深空之眼 九司·陆吾 | Eyes of Deep Space Jiusi·Luwu |
 | [3302614081](https://steamcommunity.com/sharedfiles/filedetails/?id=3302614081) | 猫耳少女① | Cat ear girl① |
+| [3324790850](https://steamcommunity.com/sharedfiles/filedetails/?id=3324790850) | SOS团扩展包 | SOS Mission Expansion Pack |
 | [3325489080](https://steamcommunity.com/sharedfiles/filedetails/?id=3325489080) | BEIWEIXIAOLING | BEIWEIXIAOLING |
