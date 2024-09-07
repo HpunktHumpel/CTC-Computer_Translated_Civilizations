@@ -256,3 +256,4 @@ Auto-generated translations for the following mods are currently included in thi
 | [3291652535](https://steamcommunity.com/sharedfiles/filedetails/?id=3291652535) | Fubayashi Kirishima | Fubayashi Kirishima |
 | [3292202570](https://steamcommunity.com/sharedfiles/filedetails/?id=3292202570) | 深空之眼 九司·陆吾 | Eyes of Deep Space Jiusi·Luwu |
 | [3302614081](https://steamcommunity.com/sharedfiles/filedetails/?id=3302614081) | 猫耳少女① | Cat ear girl① |
+| [3325489080](https://steamcommunity.com/sharedfiles/filedetails/?id=3325489080) | BEIWEIXIAOLING | BEIWEIXIAOLING |
