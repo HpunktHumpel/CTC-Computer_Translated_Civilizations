@@ -256,6 +256,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3291652535](https://steamcommunity.com/sharedfiles/filedetails/?id=3291652535) | Fubayashi Kirishima | Fubayashi Kirishima |
 | [3292202570](https://steamcommunity.com/sharedfiles/filedetails/?id=3292202570) | 深空之眼 九司·陆吾 | Eyes of Deep Space Jiusi·Luwu |
 | [3302614081](https://steamcommunity.com/sharedfiles/filedetails/?id=3302614081) | 猫耳少女① | Cat ear girl① |
+| [3308891052](https://steamcommunity.com/sharedfiles/filedetails/?id=3308891052) | 战国七雄之【秦国——秦惠王】 | The Seven Kingdoms of the Warring States Period: [Qin State - King Huiwen of Qin] |
 | [3310095227](https://steamcommunity.com/sharedfiles/filedetails/?id=3310095227) | 真恋寄语枫秋文明 | True love message Feng Qiu Wenming |
 | [3320899466](https://steamcommunity.com/sharedfiles/filedetails/?id=3320899466) | 隐居者扩展包 | The Hermit Expansion Pack |
 | [3321887651](https://steamcommunity.com/sharedfiles/filedetails/?id=3321887651) | ☆魔法少女小圆☆ by Tanshou | ☆Magical Girl Madoka Magica☆ by Tanshou |
