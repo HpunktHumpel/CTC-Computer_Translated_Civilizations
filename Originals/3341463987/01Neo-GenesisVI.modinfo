@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f5a91c3d-4e2e-42b6-9677-d4a6ec83cf3f" version="1">
+  <Properties>
+    <Name>01Neo-GenesisVI</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1728052370</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>01NGVI</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Front_01NGVI_Data">
+      <File>01 Neo-Genesis VI Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Front_01NGVI_Text">
+      <File>01 Neo-Genesis VI Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="Front_01NGVI_Color">
+      <File>01 Neo-Genesis VI Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Front_01NGVI_Icon">
+      <File>01 Neo-Genesis VI Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Front_01NGVI_Art">
+      <File>01Neo-GenesisVI.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="InGame_01NGVI_Data">
+      <File>01 Neo-Genesis VI Modifier.xml</File>
+      <File>01 Neo-Genesis VI Trait.xml</File>
+      <File>01 Neo-Genesis VI.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="InGame_01NGVI_Icon">
+      <File>01 Neo-Genesis VI Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="InGame_01NGVI_Text">
+      <File>01 Neo-Genesis VI Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="InGame_01NGVI_Art">
+      <File>01Neo-GenesisVI.dep</File>
+    </UpdateArt>
+    <UpdateColors id="InGame_01NGVI_Color">
+      <File>01 Neo-Genesis VI Color.xml</File>
+    </UpdateColors>
+    <AddGameplayScripts id="InGame_01NGVI_Gameplay">
+      <File>01 Neo-Genesis VI.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="InGame_01NGVI_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI UI.xml</File>
+      <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI POPUP.xml</File>
+      <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI Unit UI.xml</File>
+      <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI MV.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="InGame_01NGVI_Files">
+      <File>01 Neo-GenesisiVI bk2/QINGYIEX1.bk2</File>
+      <File>01 Neo-GenesisiVI bk2/QINGYIEX2.bk2</File>
+    </ImportFiles>
+    <UpdateAudio id="InGame_01NGVI_Music">
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/QINGYI.bnk</File>
+      <File>Platforms/Windows/Audio/QINGYI.ini</File>
+      <File>Platforms/Windows/Audio/QINGYI.txt</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>01 Neo-GenesisiVI bk2/QINGYIEX1.bk2</File>
+    <File>01 Neo-GenesisiVI bk2/QINGYIEX2.bk2</File>
+    <File>01Neo-GenesisVI.Art.xml</File>
+    <File>01Neo-GenesisVI.dep</File>
+    <File>01 Neo-Genesis VI Color.xml</File>
+    <File>01 Neo-Genesis VI Config.xml</File>
+    <File>01 Neo-Genesis VI Icon.xml</File>
+    <File>01 Neo-Genesis VI Modifier.xml</File>
+    <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI MV.lua</File>
+    <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI MV.xml</File>
+    <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI POPUP.lua</File>
+    <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI POPUP.xml</File>
+    <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI UI.lua</File>
+    <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI UI.xml</File>
+    <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI Unit UI.lua</File>
+    <File>01 Neo-Genesis VI SPECIAL/01 Neo-Genesis VI Unit UI.xml</File>
+    <File>01 Neo-Genesis VI Text.xml</File>
+    <File>01 Neo-Genesis VI Trait.xml</File>
+    <File>01 Neo-Genesis VI.lua</File>
+    <File>01 Neo-Genesis VI.xml</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_01NGVI.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MODE_FOR_01NGVI.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_QingYiWeaponBaseColor_null</File>
+    <File>Platforms/Windows/Audio/21394901.wem</File>
+    <File>Platforms/Windows/Audio/378588019.wem</File>
+    <File>Platforms/Windows/Audio/396473825.wem</File>
+    <File>Platforms/Windows/Audio/421613457.wem</File>
+    <File>Platforms/Windows/Audio/439126715.wem</File>
+    <File>Platforms/Windows/Audio/450702880.wem</File>
+    <File>Platforms/Windows/Audio/513733835.wem</File>
+    <File>Platforms/Windows/Audio/552576389.wem</File>
+    <File>Platforms/Windows/Audio/603257650.wem</File>
+    <File>Platforms/Windows/Audio/645713859.wem</File>
+    <File>Platforms/Windows/Audio/652605155.wem</File>
+    <File>Platforms/Windows/Audio/674382846.wem</File>
+    <File>Platforms/Windows/Audio/684055060.wem</File>
+    <File>Platforms/Windows/Audio/690752477.wem</File>
+    <File>Platforms/Windows/Audio/691280912.wem</File>
+    <File>Platforms/Windows/Audio/705735895.wem</File>
+    <File>Platforms/Windows/Audio/71135328.wem</File>
+    <File>Platforms/Windows/Audio/750415094.wem</File>
+    <File>Platforms/Windows/Audio/77671304.wem</File>
+    <File>Platforms/Windows/Audio/927425824.wem</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/QINGYI.bnk</File>
+    <File>Platforms/Windows/Audio/QINGYI.ini</File>
+    <File>Platforms/Windows/Audio/QINGYI.txt</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_01NGVI.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MODE_FOR_01NGVI.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_QingYiWeaponBaseColor_null</File>
+    <File>XLPs/ICON_FOR_01NGVI.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>
