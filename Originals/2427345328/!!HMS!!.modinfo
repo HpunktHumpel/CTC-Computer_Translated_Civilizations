@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4620d9e1-3ab7-442a-be44-263765c8b5a8" version="1">
+  <Properties>
+    <Name>!!!皇家海军HMS</Name>
+    <Description>添加了由伊丽莎白以及欧若拉领导的皇家海军文明</Description>
+    <Created>1619502805</Created>
+    <Authors>无言Infinite</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>HMS_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>HMS_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>HMS_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>HMS_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!!!皇家海军HMS.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>HMS_Building.xml</File>
+      <File>HMS_Civilization.xml</File>
+      <File>HMS_District.xml</File>
+      <File>HMS_Improvement.xml</File>
+      <File>HMS_Leader.xml</File>
+      <File>HMS_Unit.xml</File>
+      <File>HMS_UnitAbility.xml</File>
+      <File>HMS_Modifier.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>HMS_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>HMS_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>HMS_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!!!皇家海军HMS.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>!!!皇家海军HMS.dep</File>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>HMS_Building.xml</File>
+    <File>HMS_Civilization.xml</File>
+    <File>HMS_Color.xml</File>
+    <File>HMS_Config.xml</File>
+    <File>HMS_District.xml</File>
+    <File>HMS_Icon.xml</File>
+    <File>HMS_Improvement.xml</File>
+    <File>HMS_Leader.xml</File>
+    <File>HMS_Modifier.sql</File>
+    <File>HMS_Text.xml</File>
+    <File>HMS_Unit.xml</File>
+    <File>HMS_UnitAbility.xml</File>
+    <File>Platforms/MacOS/BLPs/HMSdds.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/Modles.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/HMSdds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Modles.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>XLPs/HMSdds.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/Modles.xlp</File>
+  </Files>
+</Mod>

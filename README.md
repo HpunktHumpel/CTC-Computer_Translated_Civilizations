@@ -55,6 +55,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | Arknights W |
 | [2172515402](https://steamcommunity.com/sharedfiles/filedetails/?id=2172515402) | 中国文明的新领袖【始皇帝】 | The new leader of Chinese civilization [Shi Huangdi] |
 | [2217426255](https://steamcommunity.com/sharedfiles/filedetails/?id=2217426255) | 三界至尊 九天之主 玉皇大帝 | Supreme of the Three Realms, Lord of Nine Heavens, Jade Emperor |
+| [2427345328](https://steamcommunity.com/sharedfiles/filedetails/?id=2427345328) | !HMS | !HMS |
 | [2434236908](https://steamcommunity.com/sharedfiles/filedetails/?id=2434236908) | !Azur lane Northern Parliament | !Azur lane Northern Parliament |
 | [2439483980](https://steamcommunity.com/sharedfiles/filedetails/?id=2439483980) | !RN | !RN |
 | [2441408205](https://steamcommunity.com/sharedfiles/filedetails/?id=2441408205) | AzurLane Iron Blood | AzurLane Iron Blood |
