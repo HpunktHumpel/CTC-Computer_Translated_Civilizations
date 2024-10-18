@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f2e10d5c-a5b8-4bd0-a05c-8afa647fba94" version="1">
+  <Properties>
+    <Name>!维希教廷MNF</Name>
+    <Description>添加了一个由加斯科涅领导的维希教廷文明</Description>
+    <Created>1616755950</Created>
+    <Teaser>添加了一个由加斯科涅领导的维希教廷文明</Teaser>
+    <Authors>无言Infinite</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>MNF_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>MNF_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>MNF_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>MNF_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!维希教廷MNF.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>MNF_Civilization.xml</File>
+      <File>MNF_Building.xml</File>
+      <File>MNF_District.xml</File>
+      <File>MNF_Unit.xml</File>
+      <File>MNF_UnitAbility.xml</File>
+      <File>MNF_UnitPromotions.xml</File>
+      <File>MNF_Leader.xml</File>
+      <File>MNF_Modifier.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="script">
+      <File>MNF_Script.lua</File>
+    </AddGameplayScripts>
+    <UpdateColors id="color">
+      <File>MNF_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>MNF_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>MNF_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!维希教廷MNF.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>!维希教廷MNF.dep</File>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>MNF_Building.xml</File>
+    <File>MNF_Civilization.xml</File>
+    <File>MNF_Color.xml</File>
+    <File>MNF_Config.xml</File>
+    <File>MNF_District.xml</File>
+    <File>MNF_Icon.xml</File>
+    <File>MNF_Leader.xml</File>
+    <File>MNF_Modifier.sql</File>
+    <File>MNF_Script.lua</File>
+    <File>MNF_Text.xml</File>
+    <File>MNF_Unit.xml</File>
+    <File>MNF_UnitAbility.xml</File>
+    <File>MNF_UnitPromotions.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/MNFdds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/MNFdds.blp</File>
+  </Files>
+</Mod>
