@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Fri Oct 18 13:11:08 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_LEADER_URSUS_SONYA_LEADER_NAME" Language="ru_RU">
+			<Text>Зима</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UAB_NAME" Language="ru_RU">
+			<Text>Студенческое самоуправление Урсуса</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UAB_HIDE_ON_LOAD_NAME" Language="ru_RU">
+			<Text>Студенческое самоуправление Урсуса</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UAB_HIDE_ON_LOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет каждому члену студенческого самоуправления Урсуса дополнительную черту лидера.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UA_UAB_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет Зиме дополнительную черту лидера: «{LOC_TRAIT_LEADER_URSUS_SONYA_UA_A_NAME}»: {LOC_TRAIT_LEADER_URSUS_SONYA_UA_A_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_SONYA_UA_A_NAME" Language="ru_RU">
+			<Text>Генерал Винтер</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_SONYA_UA_A_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый тип правительства получает дополнительный слот военной политики, и все ваши города имеют +2 [ICON_Amenities] к обитаемости. [NEWLINE] Все плитки тундры и снежных полей дают +1 [ICON_Food] еды и +1 [ICON_Production] производительности, а плитки холмов на мерзлой почве и снежные поля дают дополнительный +1 к [ICON_Production] производительности. [NEWLINE] После разблокировки «Математики»: +10% технологии [ICON_Science] для всех городов после разблокировки «Печатания» и «Астрономии»: внутри территории Ресурсные ячейки на территории + 1 [ICON_Culture] Культура и +1 [ICON_Science] Технологии после разблокировки «Силы»: ресурсные ячейки на территории +2 [ICON_Production] к производительности и обеспечивают 5 очков [ICON_Power] электроэнергии всем городам [NEWLINE] После разблокировки «Военных» Тренировка» и «Оборонительная тактика»: +10% [ICON_Production] производительности и [ICON_Food] еды для всех городов; после разблокировки «Гуманизма»: +1 [ICON_Culture] культуры для мерзлой почвы и клеток снежных полей; разблокировка «После «мобилизации»; клетки замерзшей почвы и снежных полей +2 к производительности [ICON_Production], а города производят наземные отряды ближнего боя +50% к производительности [ICON_Production]</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_SONYA_UA_NAME" Language="ru_RU">
+			<Text>Боевой клич Урсуса</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_SONYA_UA_DESCRIPTION" Language="ru_RU">
+			<Text>Все отряды имеют +12 боевой мощи [ICON_Strength]; убивший отряд получит технологию [ICON_Science] и ценность культуры [ICON_Culture], равную боевой силе убитого отряда (в стандартном режиме). [NEWLINE] Предоставляет специального губернатора: [NEWLINE] ] Уса Чжэнь Чжэнь, член Лиги студенческого самоуправления Шри-Ланки (в книге фигурирует Ян Рую)</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_URSUS_NAME" Language="ru_RU">
+			<Text>Студенческое самоуправление Урсуса</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_URSUS_DESCRIPTION" Language="ru_RU">
+			<Text>Студенческое самоуправление Урсуса</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UB_NAME" Language="ru_RU">
+			<Text>Доска объявлений клуба</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UB_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный предмет мебели, принадлежащий студенческой комнате Урсуса [NEWLINE], который дает +2 [ICON_Science] Технологии, +2 [ICON_Culture] Культура, +1 [ICON_Food] Еда, +1 [ICON_Amenities] Удобства, +1 [ICON_Housing] ] Жилье, +1 слот для граждан [ICON_Citizen] [NEWLINE] (висит доска объявлений студенческого клуба. Большинство из них представляют собой незначительные объекты, которые может видеть каждый)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UBA_NAME" Language="ru_RU">
+			<Text>напольная книжная полка</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UBA_DESCRIPTION" Language="ru_RU">
+			<Text>Своего рода особая мебель, принадлежащая студенческой комнате Урсуса [NEWLINE]. После завершения строительства она дает [ICON_RESOURCE_BOOK_LIST] список книг истины. Эксклюзивный ресурс роскоши [NEWLINE] дает +2 [ICON_Culture] к культуре, +. 1 [ICON_Amenities] Жилье, +1 жилье [ICON_Housing], +1 место для граждан [ICON_Citizen] [NEWLINE] и +3 места для письма [NEWLINE] (книжные полки от пола до потолка, полные объявлений и лозунгов. Чтобы исправить мнение каждого вредные привычки, за вывеской размещены некоторые популярные книги)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UBB_NAME" Language="ru_RU">
+			<Text>портативная печь для пикника</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UBB_DESCRIPTION" Language="ru_RU">
+			<Text>Своего рода особая мебель из студенческой комнаты Урсуса [NEWLINE]. После завершения строительства [ICON_RESOURCE_HONEY_PIE] будет подарен подарочный набор с медовым пирогом. Эксклюзивный роскошный ресурс [NEWLINE] обеспечит +3 [ICON_Food]. , +2 [ICON_Production] ]Производительность, +1[ICON_Amenities] жилость, +1[ICON_Housing] жилье, +1[ICON_Citizen] слот для граждан[NEWLINE](Печь для пикника, которую можно использовать в любое время, обратите внимание на безопасность при использовании использование Гуми в помещении используется только для небольших печей, брать взаймы строго запрещено)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UD_NAME" Language="ru_RU">
+			<Text>Комната студенческой деятельности Ursus</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UD_DESCRIPTION" Language="ru_RU">
+			<Text>Запасные казармы, изначально разблокированные, можно построить рядом с центром города [NEWLINE] База обеспечивает +5 [ICON_Housing] жилья, +3 [ICON_Food] еды, каждое из эксклюзивных зданий дает +2 [ICON_Science] технологии [NEWLINE] каждое с единицей Если зона является соседней, +1[ICON_Culture] культура и +1[ICON_Production] производительность и получают различные бонусы в зависимости от типа территории[NEWLINE]В то же время ячейки, прилегающие к комнате для занятий студентами Ursus +1[; ICON_Culture]культура[ NEWLINE] +1 балл за раунд для [ICON_GreatGeneral] великого полководца, [ICON_GreatWriter] великого писателя, [ICON_GreatArtist] великого художника и [ICON_GreatMusician] великого музыканта [NEWLINE] (Комната для занятий куплена пятью студентами Урсуса на их зарплату , рукопожатие это только начало дружбы)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_URSUS_ROSTOVA_LEADER_NAME" Language="ru_RU">
+			<Text>Ранняя роса</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_URSUS_UA_UAB_DESCRIPTION_XP1" Language="ru_RU">
+			<Text>Предоставляет дополнительную черту лидера для Early Dew: «{LOC_TRAIT_LEADER_URSUS_ROSTOVA_UA_A_XP1_NAME}»: {LOC_TRAIT_LEADER_URSUS_ROSTOVA_UA_A_XP1_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_ROSTOVA_UA_A_XP1_NAME" Language="ru_RU">
+			<Text>Президент студенческого союза</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_ROSTOVA_UA_A_XP1_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Gold] золотых монеты для всех стратегических и роскошных ресурсов, а также снижение стоимости на 25 % при покупке зданий за золотые монеты. [NEWLINE] После разблокировки политической философии вы получите дополнительный дипломатический слот, а также дополнительный 5 очков [ICON_GRANT_INFLUENCE_TOKEN] влияют на каждый раунд. Очки силы.[NEWLINE]Ваши международные торговые пути дают +3[ICON_Gold] золотых монет, +1 [ICON_Science] к технологии, а каждая область специализации в пункте назначения дает дополнительно +1[ICON_Science]. технологии, +2[ICON_Gold] золотых монет[NEWLINE ] +2 [ICON_Food] еды, +1 [ICON_Culture] культуры на ваших внутренних торговых путях, а каждая область специализации в пункте назначения дает дополнительно +1 [ICON_Culture] культуры, +1 [ICON_Gold] золотая монета [NEWLINE] при покупке у торговцев. Снизьте стоимость на 25 % и разблокируйте функции «Внешняя торговля», «Гильдия», «Меркантилизм», «Валюта», «Банковское дело» и «Экономика», чтобы получить дополнительную [ICON_VIEW_TRADE] торговый путь</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_ROSTOVA_UA_NAME" Language="ru_RU">
+			<Text>Снег падает в утреннее сердце</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_ROSTOVA_UA_DESCRIPTION" Language="ru_RU">
+			<Text>Эта функция будет иметь больший эффект с развитием технологий. [NEWLINE] Глубоко в костном мозге (начальная версия): [NEWLINE] Дополнительный +6 [ICON_Strength] к боевой мощи при сражении с городами, осадными отрядами, отрядами тяжелой кавалерии и всеми отрядами дальнего боя. одновременно атакует городские стены. Наносит полный урон и не снижает силу атаки при атаке на большие расстояния по городам. [NEWLINE] Split Shot (получивается после открытия разделов «Машиностроение» и «Военная инженерия»): [NEWLINE] +3 [ICON_Strength] боевая сила для всех юнитов. Все юниты дальнего боя могут [ICON_Range] атаковать дополнительным [NEWLINE] Лавинным ударом (полученным после разблокировки «Литье металла»): [NEWLINE] дает всем юнитам дальнего боя дополнительный +6 [ICON_Strength] к бою. сила, +1 дальность и +1 обзор, а также позволяет всем юнитам дальнего боя научиться контролировать зону.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_ROSTOVA_UAA_NAME" Language="ru_RU">
+			<Text>Президент студенческого союза</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_URSUS_ROSTOVA_UAA_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Gold] золотых монеты для всех стратегических и роскошных ресурсов, а также снижение стоимости на 25 % при покупке зданий за золотые монеты. [NEWLINE] После разблокировки политической философии вы получите дополнительный дипломатический слот, а также дополнительный 5 очков [ICON_GRANT_INFLUENCE_TOKEN] влияют на каждый раунд. Очки силы.[NEWLINE]Ваши международные торговые пути дают +3[ICON_Gold] золотых монет, +1 [ICON_Science] к технологии, а каждая область специализации в пункте назначения дает дополнительно +1[ICON_Science]. технологии, +2[ICON_Gold] золотых монет[NEWLINE ] +2 [ICON_Food] еды, +1 [ICON_Culture] культуры на ваших внутренних торговых путях, а каждая область специализации в пункте назначения дает дополнительно +1 [ICON_Culture] культуры, +1 [ICON_Gold] золотая монета [NEWLINE] при покупке у торговцев. Снизьте стоимость на 25 % и разблокируйте функции «Внешняя торговля», «Гильдия», «Меркантилизм», «Валюта», «Банковское дело» и «Экономика», чтобы получить дополнительную [ICON_VIEW_TRADE] торговый путь</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>В Лигу студенческого самоуправления Урсуса входят пять членов, все они — учащиеся местной средней школы в Цичэне. Во время падения Чернобога и чистки всего города, устроенной интеграционным движением, Винтер собрала нескольких выживших студентов для проведения операций по самообороне, помощи и побегу от имени «Студенческой автономной группы». Пережив ряд приключений и споров, эта группа студенческого самоуправления перебралась в Род-Айленд.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>До Чернобога этот большой город на Урсусе собирал большую часть талантов Империи Урсуса, и здесь было множество академий. Будь то «полезные таланты», которые помогут империи выжить в будущем, или «повстанцы», которые обновят империю, большинство из них собираются здесь.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Линь Донг — лидер учащихся средней школы в городе Цичэн. После уничтожения всех клубов вокруг кампуса его престиж значительно возрос. Он известен как «Генерал Линь Донг» и известен всем в городе Цичэн.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>Его рано разоблачили. До Чернобогского инцидента он учился в средней школе в Цичэне и был президентом школьного совета. В то же время его род, род Ростовых, был одним из новых аристократов, возникших после великого мятежа. Первоначально они были просто последователями определенного графа, и им досталось все, что первоначально принадлежало графу, а затем обосновалось. Чернобыль Ге Ге ведет бизнес открыто или тайно.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_5" Language="ru_RU">
+			<Text>Мобильные города-государства, такие как Чернобог, часто получают ранние предупреждения о стихийных бедствиях, но это не снижает энтузиазма студентов Чернобога и даже Урсуса в отношении битвы и будущего.
+Однако чего эти студенты не ожидали, так это того, что такой большой передвижной город, как Чернобог, был разрушен не стихийными бедствиями, а техногенными катастрофами.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_6" Language="ru_RU">
+			<Text>Главный персонаж этого модуля взят из игры «Arknights», созданной Eagle Point Network, и использованы некоторые художественные материалы игры.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_URSUS_LOCATION" Language="ru_RU">
+			<Text>США</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_URSUS_SIZE" Language="ru_RU">
+			<Text>Малое студенческое самоуправление</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_URSUS_POPULATION" Language="ru_RU">
+			<Text>пять человек</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_URSUS_CAPITAL" Language="ru_RU">
+			<Text>Чернобог</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_URSUS_SONYA_LEADER" Language="ru_RU">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_SUBTITLE}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Хорошо, я здесь, чтобы помочь, скажи мне, с кем мне драться дальше?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Тебе было что сказать сейчас? Я был в наушниках и не услышал</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Лин Донг, лидер Лиги студенческого самоуправления Урсуса. Неважно, что со мной произойдет, но теперь моим спутникам нужно жилье или помощь.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Неплохо, мне все равно, капитан это или член команды</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Почему я смотрю на тебя весь день? Я просто хочу посмотреть, что ты делаешь каждый день</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Если ты торопишься умереть, приходи ко мне. Здесь не нужно стоять в очереди.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>сила и честь!победа или смерть!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Хм...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Хорошо? ...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Неплохо</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>беда</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Ты главный, да? Не говори слишком много, просто пойди со мной погулять.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Что делать? Что-то не так?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Как вам не стыдно, немедленно уходите с поля боя! [NEWLINE](осудить тебя)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Лин Донг, лидер Лиги студенческого самоуправления Урсуса.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Ты довольно хорош</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Кажется, мы недалеко друг от друга</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Скучно, поехали</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>хорошие результаты</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_URSUS_SONYA_LEADER_REASON_ANY" Language="ru_RU">
+			<Text>(Благоприятное впечатление Линь Дуна о вас усилилось)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>трус</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_URSUS_SONYA_LEADER_REASON_ANY" Language="ru_RU">
+			<Text>(Благосклонность Линь Дуна к вам уменьшилась)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Приходите и сражайтесь вместе</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>фыркай!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Чего ты боишься! Продолжайте сражаться!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Это не имеет значения</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Это не имеет значения</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Эта территория теперь наша, даже не думай об этом</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Заимствованный</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Это все, что ты можешь сделать?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Ладно, найди мне работу, я знаю, что жизнь здесь не бесплатна.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Что делать? Как дела?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_URSUS_SONYA_LEADER_ANY" Language="ru_RU">
+			<Text>Чернобог? Кто захочет вернуться в город без надежды? Почему бы не обсудить свой родной город? [NEWLINE] (Поменять столицу местами)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_TITLE" Language="ru_RU">
+			<Text>Зима</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_SUBTITLE" Language="ru_RU">
+			<Text>В середине зимы, перед Чернобогским инцидентом, он учился в средней школе в Чиченге. В школьные годы он уже проявил свою страсть к боям и нападениям. [NEWLINE] В ходе многочисленных испытаний он продемонстрировал врожденную силу и крепкое телосложение народа Урсус и теперь служит оператором авангарда и лидером боевой группы. [NEWLINE] Оператор Винтер отличается от популярного мнения о раздражительных и чувствительных людях Урсуса. Она говорит свои слова прямо, но не игнорирует воздействия того, что говорит.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_QUOTE" Language="ru_RU">
+			<Text>Полоска ткани, оторванная от красного флага. Почему-то мне невольно становится грустно, когда я повязываю его на руку.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>В середине зимы, перед Чернобогским инцидентом, он учился в средней школе в Чиченге. В школьные годы он уже проявил свою страсть к боям и нападениям. Врожденная сила и крепкое телосложение урсанов были продемонстрированы во многих тестах.
+Сейчас в качестве оператора авангарда он выполняет функции лидера боевой группы.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Оператор Винтер отличается от популярного мнения о раздражительных и чувствительных людях Урсуса. Она говорит прямо, но не игнорирует воздействия того, что говорит. Несомненно то, что слова, сказанные Линь Доном, и действия, которые он предпринял, были результатом его суждения как «осуществимого». Но даже в этом случае, как только Линь Донг подумает, что с его партнерами поступили несправедливо и издевались, он встанет на их защиту независимо от причины.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Поэтому не рекомендуется расценивать некоторые высказывания оператора Линь Донг как молодежные шутки. К молодым операторам следует относиться гибко.
+В настоящее время можно судить о том, что замечания оператора Джинри окажут определенное сдерживающее воздействие на Линь Дуна. Общение с истиной следует поддерживать, одновременно заставляя Уинтер чувствовать согласованность взаимных интересов между ней и Род-Айлендом.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>Лингдонг родился в городе Чернобог в Империи Урсус. В отчете о наблюдении отмечается, что студенческие самоорганизующиеся объединения являются организационной формой, которая в последние годы стала популярной среди молодежи Урсуса. Под влиянием «новой культуры», импортированной из Виктории, Колумбии и других стран, они целыми днями были погружены в рок-музыку, пиво и групповые драки.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_5" Language="ru_RU">
+			<Text>У лидера каждого студенческого клуба есть свое прозвище. Первоначальное прозвище Винтер было «Зима», которое дал ей лидер клуба Восточного кампуса, который она победила, в то время как люди из другого клуба называли ее «Генерал» (тайно дразнящее прозвище, в шутке Урсуса, «генерал» является синонимом с некомпетентностью и обманом). Но после того, как Винтер уничтожила все студенческие клубы вокруг кампуса, люди начали объединять два прозвища и называть ее «Генерал Мороз» (на общеязыковом языке это означает «Генерал Зима»).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_6" Language="ru_RU">
+			<Text>Очевидно, что студенты Урсуса, пережившие Чернобогский инцидент, в настоящее время собраны в разрозненную группу «Студенческое самоуправление Урсуса», сосредоточенную вокруг Винтер. По описаниям, предоставленным некоторыми операторами, студенты Урсуса часто используют комнату общежития оператора Мари как место сбора, которое называется «класс» (в просторечии означает «класс», или «класс»). В целях обеспечения внутренней стабильности Род-Айленда рекомендуется проводить регулярное наблюдение за повседневными действиями группы.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+			<Text>Зима может получить преимущество в бою и использовать свои характеристики для подавления других. В то же время Правда может дать и некоторые рекомендательные мнения, и ее слова нельзя игнорировать.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_DETAILED_BODY" Language="ru_RU">
+			<Text>Полностью используя боевой клич зимы Урсуса, все воинские части будут усилены. Победа над врагом на ранней стадии позволит быстро развить технологии [ICON_Science] и [ICON_Culture] муниципальное управление.
+В то же время, как политический комиссар (зачеркнуто), Истина может дать большое количество [ICON_Culture] культурных бонусов и предоставить большое количество бонусов городу.
+Воспользуйтесь преимуществами огромного количества жилья и продукции, доступной в студенческой комнате Урсуса, и спланируйте стратегии, чтобы победить своих противников и добиться победы.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_URSUS_SONYA_LEADER_QUOTE" Language="ru_RU">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_QUOTE}</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_URSUS_SONYA_NAME" Language="ru_RU">
+			<Text>лидер клуба</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_URSUS_SONYA_DESCRIPTION" Language="ru_RU">
+			<Text>Как только Линь Донг подумает, что с его друзьями поступили несправедливо и издевались, он встанет на их защиту независимо от причины.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEADER_URSUS_SONYA_UA" Language="ru_RU">
+			<Text>+12 Боевой клич Урсуса</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_URSUS_ROSTOVA_LEADER" Language="ru_RU">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_SUBTITLE}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Для меня большая честь помочь вам</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>пожалей</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Неважно, что это за работа, пожалуйста, оставьте ее мне и попробуйте. Я также прошу вас уделять больше внимания Линь Донгу и их... психическому состоянию.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Хорошо, позвольте мне выразить вам мою благодарность.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Уф, расслабься, расслабься.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Раннее разоблачение, верьте в себя, вы сможете это сделать.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Хотя у нас нет ни обид, ни обид...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Эй, что-то не так? Ага!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Док, извини, если я старался сильнее...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>так рад познакомиться с тобой</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Спасибо, но сейчас мы не можем им воспользоваться.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Есть еще много вещей, которые я в себе не понимаю. Чем больше я об этом думаю, тем больше я не понимаю. Итак, я хотел бы попросить у вас совета</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Э? !</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>(осудить тебя)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>В Гуйане группа студенческого самоуправления Урсус появилась рано.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Ты довольно хорош</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Тогда мы «соседи»</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Гуйань</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>еще раз спасибо</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_URSUS_ROSTOVA_LEADER_REASON_ANY" Language="ru_RU">
+			<Text>(Утреннее воздействие делает вас более благоприятным)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Хм?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_URSUS_ROSTOVA_LEADER_REASON_ANY" Language="ru_RU">
+			<Text>(Преждевременное воздействие менее благоприятно для вас)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Кажется, опыт, накопленный мной в студенческом союзе, до сих пор применим в работе взрослых, и это действительно хорошо.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Война не нужна</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Я думаю о том времени... пусть война закончится</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>конечно</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>конечно</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Можешь побыть немного от меня подальше? Спасибо</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Можете ли вы позволить мне пройти здесь?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Можешь побыть немного от меня подальше? Спасибо</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Всем, не забывайте совершать покупки по плану</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Раньше, если я чего-то хотел, я мог это получить, но теперь я понимаю, что некоторые вещи невозможно получить несмотря ни на что.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="ru_RU">
+			<Text>Я не знаю, есть ли такое место, как салон. [NEWLINE]
+(Поменять местами столицу)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEADER_URSUS_ROSTOVA_UA_A" Language="ru_RU">
+			<Text>+6 Глубоко в костный мозг</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEADER_URSUS_ROSTOVA_UA_AA" Language="ru_RU">
+			<Text>+6 Глубоко в костный мозг</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEADER_URSUS_ROSTOVA_UA_ACA" Language="ru_RU">
+			<Text>+3 Разделенный выстрел</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEADER_URSUS_ROSTOVA_UA_AEA" Language="ru_RU">
+			<Text>+6 Лавинный удар</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_TITLE" Language="ru_RU">
+			<Text>Ранняя роса</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_SUBTITLE" Language="ru_RU">
+			<Text>Его рано разоблачили. До Чернобогского инцидента он учился в средней школе в Чиченге и был президентом школьного совета (чистокровная дама из падшей аристократии). [NEWLINE] После инцидента он присоединился к Род-Айленду и стал его филиалом. с отделом логистики за время работы имел отличную репутацию. Теперь по моему заявлению меня переведут на передовую в качестве снайпера-оператора. [NEWLINE] Заолу быстро влилась в жизнь Род-Айленда. Личность кажется ей наименее важной вещью. В глазах большинства операторов она просто вежливая девушка. [NEWLINE]Но как на работе, так и в обществе, она демонстрирует зрелость, не соответствующую ее возрасту. [NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_QUOTE" Language="ru_RU">
+			<Text>Нож для бумаги. Она торжественно вручила его тебе, но ты не знал почему.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>В прошлом великие дворяне могли наслаждаться стабильным процветанием, опираясь на свою родословную. Однако с приходом современности их статус был поставлен под сомнение возникающей деловой и политической элитой.
+В некоторых странах, например в Колумбии, статус известных компаний почти равен кровному статусу всех в других странах. Конечно, мелкий дворянин не так богат, как генеральный директор колумбийской компании. Промышленность и торговля продолжаются. развиваться, и многие дальновидные дворяне пытаются превратить вашу землю и последователей в капитал.
+Однако в таких более классических странах, как Урсус, такие изменения были медленными и болезненными. По крайней мере, до великого восстания большая часть голоса все еще принадлежала великой знати. Если бы не этот несчастный случай, политическая структура Урсуса могла бы измениться. Возможно, изменений вообще не будет.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>По описанию Заолу, род Ростовых, к которому она принадлежала, был одним из новых аристократов, возникших после великого восстания. Первоначально они были просто последователями некоего графа и получили все, что первоначально принадлежало графу.
+Мэр Чернобога, граф Борис, также является одним из новых богатых людей. Две семьи поладили и ведут в Чернобоге явный или тайный бизнес. Это дает ее семье высокое положение в Чернобоге.
+Разумеется, с уничтожением Чернобога все это сошло на нет.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>После побега из школы во время инцидента в Чернобоге они довольно долго боролись за выживание в Чернобоге, который стал полузаброшенным городом, пока Род-Айленд не спас их благодаря гуманитарной спасательной операции, выигранной Амией.
+Эти вещи звучат настолько устрашающе, что люди сразу же сомневаются в подлинности ее слов, однако в ее описании есть несколько ключевых моментов:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>Они были заключены в среднюю школу Петерхайма через два дня после того, как Интеграционное движение практически полностью взяло под свой контроль Чернобог. Эта дата совпадает со временем, когда Интеграционное движение начало действовать в связи с известным инцидентом в Чернобоге;
+Мефистофель вообще не вмешивался в действия учеников, когда контролировал школу, но не позволял ученикам покидать школу. С точки зрения стороннего наблюдателя, его цель, очевидно, заключалась в том, чтобы вызвать беспорядки среди учеников. Эта плохая практика была последовательной. с нашими знаниями о нем;</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_5" Language="ru_RU">
+			<Text>Время, когда Движение Интеграции ослабило контроль над школой, также совпадает со временем, когда Амия столкнулась с Мефистофелем во время спасения доктора. Считается, что Мефистофель ушел после получения информации из Род-Айленда на полпути и из-за трагедии, произошедшей в это время. Остановить его уже было невозможно, он видел то, что хотел увидеть, поэтому имело смысл ослабить контроль над школой;</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_6" Language="ru_RU">
+			<Text>А упомянутая ею средняя школа Петерхайма действительно существует в Чернобоге и находится недалеко от того места, где их спасли. Они оба находятся в районах, не пострадавших напрямую от стихийных бедствий.
+Подожди, подожди.
+Принимая во внимание всевозможные факторы, мы можем только верить, что такое событие, как авария в Чернобоге, которое можно назвать трагедией, действительно содержит такую ​​сцену.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_7" Language="ru_RU">
+			<Text>Что касается опыта других членов самоуправления в этой трагедии, Заолу сказала, что, поскольку она присоединилась к самоуправлению относительно поздно, она мало что знала об этом. Что касается той части, о которой она знала, то она дала понять, что. она не сказала бы этого из своих уст. Она возьмет на себя инициативу рассказать об этом опыте, с одной стороны, это является отражением ее доверия к Род-Айленду и врачу, а с другой стороны, поскольку она считает, что в автономной группе она, вероятно, наиболее подходящая человек стать «предателем» и рассказать такие вещи. Надеюсь, Доктору предстоит сделать единственное, что она не может сделать, - помочь своим товарищам.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_CAPSULE_BODY" Language="ru_RU">
+			<Text>Как президент студенческого совета и член семьи Ростовых, Заолу очень рано узнал кое-что о взрослом обществе. Он использует превосходные дипломатические и деловые навыки Заолу, чтобы получить больше преимуществ в конкуренции городов-государств и коммерческих войнах. При этом после прохождения обучения в Род-Айленде его действия на поле боя стали еще лучше. Используйте торговые пробелы и города-государства, чтобы получить [ICON_Science] технологию или [ICON_Culture] культурную победу. При необходимости используйте силу, чтобы добиться завоевания.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_DETAILED_BODY" Language="ru_RU">
+			<Text>Ранняя роса может позволить некоторым ресурсам получить больше золотых монет [ICON_Gold], а на покупку зданий действуют скидки, что позволяет городу сосредоточиться на строительных площадках и проектах. В то же время, основываясь на опыте Заолу в качестве президента студенческого союза Заолу, у Заолу также есть определенные средства в дипломатии, которые могут быстро завоевать доверие городов-государств. В то же время, благодаря исследованиям и разработкам [ICON_Science]. технологии и [ICON_Culture] муниципальное управление, он сможет получить больше [ICON_VIEW_TRADE] торговых путей. В то же время Early Dew также может предоставить большое количество бонусов дальнобойным юнитам. Благодаря этому вы можете сначала открыть торговые пути, а затем использовать дальность и дальнобойность. единицы дальности, чтобы полностью контролировать поле боя.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_URSUS_ROSTOVA_LEADER_QUOTE" Language="ru_RU">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_QUOTE}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_Production_Extra1" Language="ru_RU">
+			<Text>+2[ICON_Culture] Культура из каждой соседней ячейки области</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_Production_Extra2" Language="ru_RU">
+			<Text>+1[ICON_Production]Производство из каждой соседней ячейки области</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CITY_CENTER" Language="ru_RU">
+			<Text>+2[ICON_Food] еды из каждого прилегающего центра города</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_CAMPUS" Language="ru_RU">
+			<Text>+1[ICON_Science]Технология с каждого соседнего тайла колледжа</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_THEATER" Language="ru_RU">
+			<Text>+1[ICON_Culture] Культура с каждой соседней клетки Театральной площади.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_COMMERCIAL_HUB" Language="ru_RU">
+			<Text>+2[ICON_Gold] золотых монеты с каждой соседней клетки бизнес-центра</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_HARBOR" Language="ru_RU">
+			<Text>+2[ICON_Gold] золота с каждой соседней клетки порта</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_INDUSTRIAL_ZONE" Language="ru_RU">
+			<Text>+1[ICON_Production]Производство на каждой соседней плитке промышленной зоны</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_GOVERNMENT_SCIENCE" Language="ru_RU">
+			<Text>+1[ICON_Culture] Культура с соседнего тайла Городской площади</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_GOVERNMENT_CULTURE" Language="ru_RU">
+			<Text>+1[ICON_Science]Технология на соседнем участке Городской площади</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_ENTERTAINMENT_COMPLEX" Language="ru_RU">
+			<Text>+1[ICON_Culture] Культура каждой соседней клетки Развлекательного центра</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_WATER_ENTERTAINMENT_COMPLEX" Language="ru_RU">
+			<Text>+1[ICON_Culture] Культура с каждой соседней клетки Центра водных развлечений.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_SPACEPORT" Language="ru_RU">
+			<Text>+3[ICON_Science]Технологии на каждой соседней плитке Космического центра</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_AQUEDUCT" Language="ru_RU">
+			<Text>+1[ICON_Production] производства с каждого соседнего тайла водного канала</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_CANAL" Language="ru_RU">
+			<Text>+1[ICON_Production] продукции из каждой соседней ячейки канала</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_URSUS_UD_CLOSE_DAM" Language="ru_RU">
+			<Text>+1[ICON_Production] добычи из каждой соседней ячейки дамбы</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_HONEY_PIE_NAME" Language="ru_RU">
+			<Text>Подарочный набор «Медовый пирог»</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_BOOK_LIST_NAME" Language="ru_RU">
+			<Text>книга список истины</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_ISTINA_NAME" Language="ru_RU">
+			<Text>правда</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_ISTINA_TITLE" Language="ru_RU">
+			<Text>искатель</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_ISTINA_SHORT_TITLE" Language="ru_RU">
+			<Text>искатель</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_ISTINA_DESCRIPTION" Language="ru_RU">
+			<Text>По правде говоря, до инцидента в Чернобоге он учился в средней школе в Цичэне. Во время учебы он писал много статей для журналов Originium, посвященных технологиям. Области знаний: произведения известных писателей, аналитическая литература, социологические журналы.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_0_NAME" Language="ru_RU">
+			<Text>искатель</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_0_DESCRIPTION" Language="ru_RU">
+			<Text>Для вступления в должность требуется 3 хода. Культурная ценность [ICON_Culture], создаваемая городом в каждом раунде, составляет +20%.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_1_NAME" Language="ru_RU">
+			<Text>сконцентрироваться</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_1_DESCRIPTION" Language="ru_RU">
+			<Text>Обеспечивает +50% [ICON_Production] производительности городского производства городских проектов и чудес.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_2_NAME" Language="ru_RU">
+			<Text>литературный шторм</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_2_DESCRIPTION" Language="ru_RU">
+			<Text>Очки великого писателя [ICON_GreatWriter], великого художника [ICON_GreatArtist] и великого музыканта [ICON_GreatMusician], производимые городом в каждом раунде, +100%, а очки великого писателя [ICON_GreatWriter] дополнительно +100%.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_3_NAME" Language="ru_RU">
+			<Text>Убийство в Восточном экспрессе</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_3_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый житель города может принести +0,5[ICON_Science] ценности технологии, +0,5[ICON_Culture] ценности культуры, +1[ICON_Food] еды, +2[ICON_Gold] золотых монет и +1[ICON_Production] производительности за ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_4_NAME" Language="ru_RU">
+			<Text>четыре демона</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_4_DESCRIPTION" Language="ru_RU">
+			<Text>Если в городе есть хотя бы четыре специализированных зоны, каждая из них дает городу +2% технологической ценности [ICON_Science], +2% культурной ценности [ICON_Culture], +2% еды [ICON_Food], +2% [ICON_Gold] золотых монет. и +2% производительности [ICON_Production]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_5_NAME" Language="ru_RU">
+			<Text>пять поросят</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_5_DESCRIPTION" Language="ru_RU">
+			<Text>Каждое найм великого человека [ICON_GreatPerson] обеспечит +2% [ICON_Culture] культурного результата страны[NEWLINE]
+(Этот поросенок остался дома.)</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_CHERNOBOG" Language="ru_RU">
+			<Text>Чернобог</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_1" Language="ru_RU">
+			<Text>Кабина жизненного цикла № 12</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_2" Language="ru_RU">
+			<Text>репетиционный зал современной музыки</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_3" Language="ru_RU">
+			<Text>Герметичная кабина химической защиты</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_4" Language="ru_RU">
+			<Text>Мастерская в Род-Айленде</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_5" Language="ru_RU">
+			<Text>Управление персонала Род-Айленда</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_6" Language="ru_RU">
+			<Text>белая пустыня</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_7" Language="ru_RU">
+			<Text>Медитационный суд</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_8" Language="ru_RU">
+			<Text>Даньцин Павильон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_9" Language="ru_RU">
+			<Text>Офис экспертной группы по первой помощи</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_10" Language="ru_RU">
+			<Text>Летания Ночь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_URSUS_NAME_1" Language="ru_RU">
+			<Text>Зима</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_URSUS_NAME_2" Language="ru_RU">
+			<Text>правда</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_URSUS_NAME_3" Language="ru_RU">
+			<Text>старый рис</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_URSUS_NAME_4" Language="ru_RU">
+			<Text>Ранняя роса</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_URSUS_NAME_5" Language="ru_RU">
+			<Text>Жестокое лето</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_URSUS_NAME_6" Language="ru_RU">
+			<Text>Охотничья пчела</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

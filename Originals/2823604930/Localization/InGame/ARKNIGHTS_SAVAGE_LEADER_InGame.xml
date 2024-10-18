@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Asacb -->
+<!-- DateCreated: 6/15/2022 5:08:07 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- 文明百科 -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>乌萨斯学生自治团成员共有五人，均为切城当地某中学就读的学生。在切尔诺伯格城陷落，整合运动对整个城市展开大清洗期间，凛冬聚集了部分生还学生，以“学生自治团”的名义进行自卫、援助和逃亡行动。在经历了一系列冒险和纷争后，这支学生自治团投奔了罗德岛。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在切尔诺伯格事件前，乌萨斯的这座大型城市，汇聚了乌萨斯帝国的大部分人才，学院林立。无论是未来对帝国存续的“有用人才”，还是会将帝国翻新的“叛逆之徒”，都大多汇聚于此。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>凛冬是切城某中学的学生领袖，在荡平了校园周边所有社团之后，其威望也因此大大提升，人称“凛冬将军”，切城范围内人尽皆知。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>早露，切尔诺伯格事变前于切城某中学就读，并担任学生会长。同时其家族————罗斯托夫家族正是大叛乱后兴起的新贵族中的一员，原本只是某位伯爵的扈从的他们得到了原本属于伯爵的一切，并在此后于切尔诺伯格经营着或明或暗的生意。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>
+				像是切尔诺伯格这样的移动城邦，经常会有天灾袭击的预警，但这并不能消除切尔诺伯格乃至整个乌萨斯的学生们对于战斗和未来的热情。
+				然而让这些学生们想不到的是，切尔诺伯格这样一个大型移动城市，不是毁于天灾，而是被人祸所毁灭。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_URSUS_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>本模组的领袖角色来自鹰角网络制作的游戏《明日方舟》的角色，并使用了游戏的部分美术素材。</Text>
+		</Row>
+
+		<!-- 文明百科-标签 -->
+		<Row Tag="LOC_CIVINFO_URSUS_LOCATION" Language="zh_Hans_CN">
+			<Text>乌萨斯</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_URSUS_SIZE" Language="zh_Hans_CN">
+			<Text>小型学生自治联合社团</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_URSUS_POPULATION" Language="zh_Hans_CN">
+			<Text>五人</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_URSUS_CAPITAL" Language="zh_Hans_CN">
+			<Text>切尔诺伯格</Text>
+		</Row>
+
+
+
+
+
+
+
+		<!-- 凛冬 -->
+		-<Row  Tag="LOC_LOADING_INFO_LEADER_URSUS_SONYA_LEADER" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_SUBTITLE} </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+			<Text>好，我来帮忙了，说吧，接下来要打谁？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+			<Text>你刚才有话要说吗？我戴着耳机没听见</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+			<Text>凛冬，乌萨斯学生自治团团长。我自己怎么样无所谓，但现在我的同伴需要一个安身之处或是一些帮助</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+			<Text>不赖，无论队长还是队员，我都无所谓</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+			<Text>为什么我成天盯着你？我就是想看看，看看你这家伙每天都在做什么</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你对这个AI宣战？ -->
+			<Text>急着送命就来找我，我这里不需要排队</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当这个AI向你宣战？ -->
+			<Text>сила и честь!победа или смерть!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI被其他AI击败会说这些话？ -->
+			<Text>唔......</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你击败AI他会说这些话？-->
+			<Text>呃？......</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI同意你的代表团-->
+			<Text>也不错</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+			<Text>麻烦</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<Text>你就是管事的吧?别说太多，总之快跟我一起出门走走</Text>
+			<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你公开指责AI-->
+			<Text>干什么？有事？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI公开指责你-->
+			<Text>丢人，你马上给我退出战场！[NEWLINE]（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI-->
+			<Text>凛冬，乌萨斯学生自治团团长。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI并且他对你有好感的时候？（分享首都位置）-->
+			<Text>你还蛮不赖的</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI并且他离你比较近的时候？（玩家提供最近城市位置？）-->
+			<Text>看来我们相邻不远</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 一般打招呼用（理论上是玩家发起外交时使用的，但实际上从未被使用过？）-->
+			<Text>无趣，走了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+			<Text>不错的成果</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_URSUS_SONYA_LEADER_REASON_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+			<Text>（凛冬对您的好感增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+			<Text>胆小鬼</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_URSUS_SONYA_LEADER_REASON_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+			<Text>（凛冬对您的好感减少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI允许你同盟-->
+			<Text>来吧，一起战斗</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI答应你和平的请求（理论上是同意求和，但从未被使用过？）-->
+			<Text>哼！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI拒绝你和平的请求（理论上是拒绝求和，但从未被使用过？）-->
+			<Text>怕什么！接着打啊！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI主动提出和平的请求-->
+			<Text>.......</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI答应你通过他的领地-->
+			<Text>无所谓</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>无所谓</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI拒绝你通过他的领地（理论上是拒绝开放边界，但从未被使用过？）-->
+			<Text>这地盘现在是我们的，别想</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+			<Text>借过</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI说你军队差劲（要求移开边境军队）-->
+			<Text>就这点能耐？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI他提出一个交易？-->
+			<Text>好了，快给我安排些工作，我知道在这里生活不是免费的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI他拒绝你的一个交易？-->
+			<Text>干什么？有事吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_URSUS_SONYA_LEADER_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>切尔诺伯格？谁要回一个没有希望的城市？不如讨论一下你的家乡吧。[NEWLINE]（交换首都位置）</Text>
+		</Row>
+
+
+
+
+		<!-- 领袖百科信息-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_TITLE" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 名字-->
+			<Text>凛冬</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_SUBTITLE" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 描述-->
+			<Text>凛冬，切尔诺伯格事变前于切城某中学就读，在校期间已表现出对战斗与突击行为的热情。[NEWLINE]在多项测试中表现出乌萨斯人与生俱来的强健力量和坚实体质，现作为先锋干员担任作战小队队长。[NEWLINE]干员凛冬与一般印象中暴躁、敏感的乌萨斯人不同，她有话直说，但并非不会考虑自己所说的话能造成的某些影响。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_QUOTE" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 一段有语音的词，单独被展示出来-->
+			<Text>从红色的旗帜上撕下的布条。不知为何，将它系在臂膀上时，会不自主地感到悲伤。</Text>
+		</Row>
+
+
+		<!-- 领袖百科-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				凛冬，切尔诺伯格事变前于切城某中学就读，在校期间已表现出对战斗与突击行为的热情。在多项测试中表现出乌萨斯人与生俱来的强健力量和坚实体质。
+				现作为先锋干员担任作战小队队长。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>干员凛冬与一般印象中暴躁、敏感的乌萨斯人不同，她有话直说，但并非不会考虑自己所说的话能造成的某些影响。可以确定的是，凛冬所说出的话，所作出的行为，均是其判断“可行”的结果。但即使如此，一旦凛冬认为其伙伴承受委屈受到欺负，会不问缘由地去为她们出头。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				因此，针对干员凛冬的一些言论，不推荐视之为年轻人的玩笑。对于年轻干员的处理，理应以灵活的态度进行。
+				目前可以判断的是，干员真理的言论将对凛冬起到一定抑制作用。应保持与真理的沟通，同时使凛冬感到罗德岛与她相互利益的一致性。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>凛冬出生于乌萨斯帝国切尔诺伯格市。观察报告指出，学生自结社团是近年来流行于乌萨斯年轻群体中的组织形式。受维多利亚，哥伦比亚等国流入的“新文化”影响，他们终日沉浸于摇滚、啤酒和群体斗殴中。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>每一个学生社团的头领均有自己的绰号。凛冬最初的绰号是“冬天”，是被她击败的东校区社团首领所赠，而另一伙社团的人则称呼她“将军”（一个暗自揶揄的绰号，在乌萨斯人的笑话中，“将军”等同于无能与欺骗）。但在凛冬陆续剿灭了校园周边所有的学生社团后，人们开始将这两个绰号合并，称呼她为“Генерал Мороз”（通用语意为“凛冬将军”）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>显而易见的，自切尔诺伯格事变中生存的乌萨斯学生，目前以凛冬为中心集结为松散团体“乌萨斯学生自治团”。根据部分干员提供的描述，乌萨斯学生常以干员真理的宿舍房间为集合地，称之为“класс”（通用语意为“班级”，或“阶级”）。鉴于对罗德岛内部稳定的管理的考虑，建议对该团体的日常行动进行定期的观察。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<!-- 领袖百科信息:描述你怎么玩这个领袖-->
+			<Text>凛冬能在战斗中取得优势，活用特性，压制性的击败其他人。同时真理也能给出一些参考意见，不可忽视她的话语。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 描述你该怎么玩这个领袖（详细）-->
+			<Text>
+				活用凛冬的乌萨斯战吼，所有军事单位都会得到强化，在前期击败敌人能快速发展[ICON_Science]科技与[ICON_Culture]市政，
+				同时，作为政委（划掉）的真理，能给予大量[ICON_Culture]文化加成，并为一座城市提供大量加成，
+				利用乌萨斯学生活动室提供的大量住房与产出，规划战略以击败对手，获得胜利。
+			</Text>
+		</Row>
+		<!-- 领袖信息结束-->
+
+
+
+		<Row Tag="LOC_LEADER_URSUS_SONYA_LEADER_QUOTE" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 一段有语音的词，单独被展示出来，这是来自Leader_Data的信息-->
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_SONYA_LEADER_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_URSUS_SONYA_NAME" Language="zh_Hans_CN">
+			<!-- 领袖议程名称：单独被展示出来，这是来自Leader_Data的信息-->
+			<Text>社团头领</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_URSUS_SONYA_DESCRIPTION" Language="zh_Hans_CN">
+			<!-- 领袖议程说明: 单独被展示出来，这是来自Leader_Data的信息-->
+			<Text>一旦凛冬认为其伙伴承受委屈受到欺负，会不问缘由地去为她们出头。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_LEADER_URSUS_SONYA_UA" Language="zh_Hans_CN">
+			<!-- 特性加成-->
+			<Text>+12 乌萨斯战吼</Text>
+		</Row>
+
+
+
+
+
+
+		<!-- 早露 -->
+		-<Row  Tag="LOC_LOADING_INFO_LEADER_URSUS_ROSTOVA_LEADER" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_SUBTITLE} </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+			<Text>能帮助到你是我的荣幸</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+			<Text>抱歉</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+			<Text>无论是什么样的工作都请交给我试一试吧，也要请你多关照一下凛冬她们的......精神状况</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+			<Text>好的，请允许我向你表达谢意</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+			<Text>呼，放轻松，放轻松。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你对这个AI宣战？ -->
+			<Text>早露，相信自己，你可以的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当这个AI向你宣战？ -->
+			<Text>虽然我们无冤无仇......</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI被其他AI击败会说这些话？ -->
+			<Text>咦，难道出故障了？呀啊！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你击败AI他会说这些话？-->
+			<Text>博士，抱歉，如果我再努力一些......</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI同意你的代表团-->
+			<Text>见到你真高兴</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+			<Text>谢谢，但我们暂时用不上</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<Text>有关我自己，我还有许多不明白的地方，想得越多，不明白的就越多。所以，我想像你请教一下</Text>
+			<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你公开指责AI-->
+			<Text>诶诶？！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI公开指责你-->
+			<Text>（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI-->
+			<Text>贵安，乌萨斯学生自治团早露。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI并且他对你有好感的时候？（分享首都位置）-->
+			<Text>你还蛮不赖的</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI并且他离你比较近的时候？（玩家提供最近城市位置？）-->
+			<Text>那么，我们就是“邻居”了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 一般打招呼用（理论上是玩家发起外交时使用的，但实际上从未被使用过？）-->
+			<Text>贵安</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+			<Text>再次向你表达谢意</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_URSUS_ROSTOVA_LEADER_REASON_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+			<Text>（早露对您的好感增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+			<Text>咦？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_URSUS_ROSTOVA_LEADER_REASON_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+			<Text>（早露对您的好感减少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI允许你同盟-->
+			<Text>看来我在学生会中累积的经验在大人的工作中依然适用，这真是再好不过了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI答应你和平的请求（理论上是同意求和，但从未被使用过？）-->
+			<Text>战争是没有必要的</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI拒绝你和平的请求（理论上是拒绝求和，但从未被使用过？）-->
+			<Text>......</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI主动提出和平的请求-->
+			<Text>我想起了那段时光......还是让战争结束吧</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI答应你通过他的领地-->
+			<Text>当然</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>当然</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI拒绝你通过他的领地（理论上是拒绝开放边界，但从未被使用过？）-->
+			<Text>可以稍微离我远一些吗？谢谢</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+			<Text>能让我从这里经过吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI说你军队差劲（要求移开边境军队）-->
+			<Text>可以稍微离我远一些吗？谢谢</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI他提出一个交易？-->
+			<Text>各位，记得按照计划置办</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI他拒绝你的一个交易？-->
+			<Text>以前如果我想要得到什么，就是可以得到，但现在我明白有些事物是无论如何也无法获得的</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_URSUS_ROSTOVA_LEADER_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>
+				不知道有没有沙龙一样的地方呢。[NEWLINE]
+				（交换首都位置）
+			</Text>
+		</Row>
+
+
+		<Row Tag="LOC_ABILITY_LEADER_URSUS_ROSTOVA_UA_A" Language="zh_Hans_CN">
+			<!-- 特性加成-->
+			<Text>+6 深入骨髓</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_URSUS_ROSTOVA_UA_AA" Language="zh_Hans_CN">
+			<!-- 特性加成-->
+			<Text>+6 深入骨髓</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_URSUS_ROSTOVA_UA_ACA" Language="zh_Hans_CN">
+			<!-- 特性加成-->
+			<Text>+3 分裂射击</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_URSUS_ROSTOVA_UA_AEA" Language="zh_Hans_CN">
+			<!-- 特性加成-->
+			<Text>+6 雪崩击</Text>
+		</Row>
+		
+
+
+
+
+		<!-- 领袖百科信息-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_TITLE" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 名字-->
+			<Text>早露</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_SUBTITLE" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 描述-->
+			<Text>早露，切尔诺伯格事变前于切城某中学就读，并担任学生会长(血统纯正的没落贵族小姐)[NEWLINE]事变后加入罗德岛，隶属后勤部门，工作期间风评极佳。现经本人申请，作为狙击干员转入前线。[NEWLINE]早露迅速融入了罗德岛的生活中，对她来说，身份似乎是最无所谓的东西，在大部分干员看来，她只是一个有礼貌的女孩。[NEWLINE]但无论是工作还是社交场合，她都展现出了与年龄不符的成熟。[NEWLINE]</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_QUOTE" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 一段有语音的词，单独被展示出来-->
+			<Text>一把裁纸刀。她郑重其事地交给你，但你不知缘由。</Text>
+		</Row>
+
+
+		<!-- 领袖百科-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				曾经的大贵族们依靠血脉就能拥有稳固的繁荣，但步入近代后，他们的地位受到了新兴的商业、政治精英们的挑战。
+				在某些国家，比如哥伦比亚，知名企业的地位几乎等同于其他国家的大家血脉，一个小贵族当然不如一家哥伦比亚公司的总经理来的富有，工业和商业持续发展，许多富有远见的贵族们都在尝试将自己的土地与扈从转化成资本。
+				不过在那些更为古典的国家，例如乌萨斯，这样的转变缓慢而痛苦，至少在大叛乱前，大贵族依然掌握着绝大部分话语权，如若不是那一次意外，乌萨斯的政治格局也许根本不会发生变化。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>
+				根据早露的描述，她身在的罗斯托夫家族正是大叛乱后兴起的新贵族中的一员，原本只是某位伯爵的扈从的他们得到了原本属于伯爵的一切。
+				切尔诺伯格市的市长鲍里斯伯爵也是新贵之一，两家一拍即合，在切尔诺伯格经营着或明或暗的生意，这让她的家族在切尔诺伯格有着很高地位。
+				当然，这一切都随着切尔诺伯格的覆灭化为乌有。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>
+				切尔诺伯格市事件中逃离学校后，她们在已经成为半座废城的切尔诺伯格中努力生存了相当一段时间，直到罗德岛在阿米娅争取来的人道救援中营救到她们。
+				这些事听起来实在有些骇人听闻，以至于令人第一时间怀疑她所说的真实性，但在她的描述中有一些关键点：
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>
+				她们是在整合运动基本已经完全控制切尔诺伯格的两天后被关进彼得海姆中学的，日期上与已知的切尔诺伯格事件中整合运动开始有所动作的时间吻合；
+				梅菲斯特在控制学校期间完全没有干涉学生们的行动，只是不允许任何学生离开学校，从旁观者的角度来看，他的目的显然是希望酝酿学生们的不安情绪，这种恶劣的做法与我们对他的认知相符；
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>而整合运动放松对学校控制的时间，也与阿米娅在营救博士过程中遭遇梅菲斯特的时间符合，认为梅菲斯特中途接到罗德岛的情报而离开，并且由于此时惨剧已经无法阻止，他看到了他想看的东西，于是顺势放松了对学校的控制是合理的；</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>
+				而她口中的彼得海姆中学在切尔诺伯格中也确实存在，并且与她们获救的地方相近，都处在没有被天灾直击的区块中。
+				等等等等。
+				综合种种因素，我们只能相信，在切尔诺伯格事件这样一场足以被称为惨剧的事件中，竟然还包含着这样的一幕。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>
+				而关于自治团其他成员在这场惨剧中的经历，早露表示由于自己加入自治团时间较晚，自己也不甚了解，而有关她了解的部分，她则明确表示不会从她的口中说出。她会主动讲述这些经历，一方面是对罗德岛以及博士信任的体现，另一方面，是因为她认为在自治团中，她恐怕是最适合成为“叛徒”来说出这些的人，她希望能由博士来做她无法做到的一件事——帮助她的同伴们。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<!-- 领袖百科信息:描述你怎么玩这个领袖-->
+			<Text>早露作为学生会长并且是罗斯托夫家族的一员很早就了解了一些成人社会的东西，利用早露出色的外交能力与经营能力，在城邦竞争与商业战争中获得更多优势。同时在经历罗德岛的训练后，早露在战场的表现也愈发出色。利用贸易差距和城邦获得[ICON_Science]科技或[ICON_Culture]文化胜利，必要时，使用武力获得征服胜利。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 描述你该怎么玩这个领袖（详细）-->
+			<Text>
+				早露能使部分资源获得更多[ICON_Gold]金币，并且购买建筑有优惠，让城市可以专注与建设区域与项目。同时得以于早露学生会会长的经历，早露在外交方面也有一定手段，能更快速取得城邦的信任，同时随着[ICON_Science]科技与[ICON_Culture]市政的研发，能获得更多[ICON_VIEW_TRADE]商路。同时，早露也可以为远程单位提供大量加成，得益于此，征服胜利也成了一个可选选项，你可以先打通商路，然后利用远程单位的射程与视野，完全掌控战场。
+			</Text>
+		</Row>
+		<!-- 领袖信息结束-->
+
+
+
+		<Row Tag="LOC_LEADER_URSUS_ROSTOVA_LEADER_QUOTE" Language="zh_Hans_CN">
+			<!-- 领袖百科信息: 一段有语音的词，单独被展示出来，这是来自Leader_Data的信息-->
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_URSUS_ROSTOVA_LEADER_QUOTE}</Text>
+		</Row>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<Row Tag="LOC_DISTRICT_URSUS_UD_Production_Extra1" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+2[ICON_Culture]文化，来自每个相邻的区域单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_Production_Extra2" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Production]生产力，来自每个相邻的区域单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CITY_CENTER" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+2[ICON_Food]食物，来自每个相邻的市中心</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_CAMPUS" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Science]科技，来自每个相邻的学院单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_THEATER" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Culture]文化，来自每个相邻的剧院广场单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_COMMERCIAL_HUB" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+2[ICON_Gold]金币，来自每个相邻的商业中心单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_HARBOR" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+2[ICON_Gold]金币，来自每个相邻的港口单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_INDUSTRIAL_ZONE" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Production]生产力，来自每个相邻的工业区单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_GOVERNMENT_SCIENCE" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Culture]文化，来自相邻的市政广场单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_GOVERNMENT_CULTURE" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Science]科技，来自相邻的市政广场单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_ENTERTAINMENT_COMPLEX" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Culture]文化，来自每个相邻的娱乐中心单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_WATER_ENTERTAINMENT_COMPLEX" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Culture]文化，来自每个相邻的水上娱乐中心单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_SPACEPORT" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+3[ICON_Science]科技，来自每个相邻的宇航中心单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_AQUEDUCT" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Production]生产力，来自每个相邻的水渠单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_CANAL" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Production]生产力，来自每个相邻的运河单元格</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_URSUS_UD_CLOSE_DAM" Language="zh_Hans_CN">
+			<!-- 区域加成-->
+			<Text>+1[ICON_Production]生产力，来自每个相邻的堤坝单元格</Text>
+		</Row>
+		
+		
+
+		<Row Tag="LOC_RESOURCE_HONEY_PIE_NAME" Language="zh_Hans_CN">
+			<!-- 资源-->
+			<Text>蜜糖馅饼礼包</Text>
+		</Row>
+		<Row Tag="LOC_RESOURCE_BOOK_LIST_NAME" Language="zh_Hans_CN">
+			<!-- 资源-->
+			<Text>真理的书单</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_GOVERNOR_ISTINA_NAME" Language="zh_Hans_CN">
+			<!-- 总督界面名字-->
+			<Text>真理</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_ISTINA_TITLE" Language="zh_Hans_CN">
+			<!-- 总督界面头衔-->
+			<Text>探知者</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_ISTINA_SHORT_TITLE" Language="zh_Hans_CN">
+			<!-- 百科界面总督后缀-->
+			<Text>探知者</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_ISTINA_DESCRIPTION" Language="zh_Hans_CN">
+			<!-- 总督界面描述-->
+			<Text>真理，切尔诺伯格事变前于切城某中学就读，在校期间多次向源石技艺相关杂志撰稿。知识领域：名家著作、推理文学、社会学期刊。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_0_NAME" Language="zh_Hans_CN">
+			<!-- 总督技能名称-->
+			<Text>探知者</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_0_DESCRIPTION" Language="zh_Hans_CN">
+			<!-- 总督技能描述-->
+			<Text>就职需要3回合。城市每回合产出的[ICON_Culture]文化值+20%。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_1_NAME" Language="zh_Hans_CN">
+			<!-- 总督技能名称-->
+			<Text>专心致志</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_1_DESCRIPTION" Language="zh_Hans_CN">
+			<!-- 总督技能描述-->
+			<Text>为该城生产城区项目与奇观提供+50%[ICON_Production]生产力</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_2_NAME" Language="zh_Hans_CN">
+			<!-- 总督技能名称-->
+			<Text>文学风暴</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_2_DESCRIPTION" Language="zh_Hans_CN">
+			<!-- 总督技能描述-->
+			<Text>城市每回合产出的[ICON_GreatWriter]大作家、[ICON_GreatArtist]大艺术家、[ICON_GreatMusician]大音乐家点数+100%，[ICON_GreatWriter]大作家额外+100%</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_3_NAME" Language="zh_Hans_CN">
+			<!-- 总督技能名称-->
+			<Text>东方快车谋杀案</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_3_DESCRIPTION" Language="zh_Hans_CN">
+			<!-- 总督技能描述-->
+			<Text>城市中每位公民每回合可带来 +0.5[ICON_Science]科技值、+0.5[ICON_Culture]文化值、+1[ICON_Food]食物、+2[ICON_Gold]金币以及 +1[ICON_Production]生产力</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_4_NAME" Language="zh_Hans_CN">
+			<!-- 总督技能名称-->
+			<Text>四大魔头</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_4_DESCRIPTION" Language="zh_Hans_CN">
+			<!-- 总督技能描述-->
+			<Text>若本城市至少有四个专业化区域，则每个区域为城市提供+2%[ICON_Science]科技值、+2%[ICON_Culture]文化值、+2%[ICON_Food]食物、+2%[ICON_Gold]金币以及 +2%[ICON_Production]生产力</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_5_NAME" Language="zh_Hans_CN">
+			<!-- 总督技能名称-->
+			<Text>五只小猪</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_5_DESCRIPTION" Language="zh_Hans_CN">
+			<!-- 总督技能描述-->
+			<Text>
+				每招募一名[ICON_GreatPerson]伟人，为全国提供+2%[ICON_Culture]文化产出[NEWLINE]
+				（This Little Pig stayed at Home.）
+			</Text>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_CHERNOBOG" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>切尔诺伯格</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_1" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>12号生命循环舱</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_2" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>现代音乐排练室</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_3" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>气密防化安全舱</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_4" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>罗德岛工作间</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_5" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>罗德岛人事办公室</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_6" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>白色旷野</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_7" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>凝思庭</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_8" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>丹青阁</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_9" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>急救专家组办公室</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CIVILIZATION_URSUS_NAME_10" Language="zh_Hans_CN">
+			<!-- 城市名字-->
+			<Text>莱塔尼亚之夜</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CITIZEN_URSUS_NAME_1" Language="zh_Hans_CN">
+			<!-- 居民名字-->
+			<Text>凛冬</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_URSUS_NAME_2" Language="zh_Hans_CN">
+			<!-- 居民名字-->
+			<Text>真理</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_URSUS_NAME_3" Language="zh_Hans_CN">
+			<!-- 居民名字-->
+			<Text>古米</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_URSUS_NAME_4" Language="zh_Hans_CN">
+			<!-- 居民名字-->
+			<Text>早露</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_URSUS_NAME_5" Language="zh_Hans_CN">
+			<!-- 居民名字-->
+			<Text>烈夏</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_URSUS_NAME_6" Language="zh_Hans_CN">
+			<!-- 居民名字-->
+			<Text>猎蜂</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
