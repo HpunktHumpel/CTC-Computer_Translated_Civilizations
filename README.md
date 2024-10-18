@@ -264,3 +264,4 @@ Auto-generated translations for the following mods are currently included in thi
 | [3322910329](https://steamcommunity.com/sharedfiles/filedetails/?id=3322910329) | Lu's Arknight: Wisadel | Lu's Arknight: Wisadel |
 | [3324790850](https://steamcommunity.com/sharedfiles/filedetails/?id=3324790850) | SOS团扩展包 | SOS Mission Expansion Pack |
 | [3325489080](https://steamcommunity.com/sharedfiles/filedetails/?id=3325489080) | BEIWEIXIAOLING | BEIWEIXIAOLING |
+| [3348632766](https://steamcommunity.com/sharedfiles/filedetails/?id=3348632766) | 碧蓝航线：飓风 | Azur Lane: Hurricane |
