@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="286e74a3-59ac-4106-a53e-faf5d1b11bee" version="1">
+  <Properties>
+    <Name>[大理寺日志]领袖武明空</Name>
+    <Description>这是本人第一次制作MOD，还原不足，能力缝合，乱给数值，制作不佳，请各位见谅。
+
+武明空，女，漫画《大理寺日志》及其衍生作品中的角色。原型为中国历史上的女皇帝武则天。
+
+武明空，前唐天后转大周帝王，年六十八而貌若少女，皆因少时奇遇，吞食怪盗一枝花之指，获不老之躯，需定时续血维系。其貌倾城，却因不老而获妖后之名，性情张扬，蔑视李唐，视叛乱与暗杀为等闲。
+
+需要DLC:风云变幻、迭起兴衰。
+
+该MOD添加了一个新领袖“武明空”与新文明“唐”。另外该MOD并没有为武明空设置特色议程，但对武明空的文本进行了部分替换。
+
+
+文明能力：天俾万国
+游戏开始时，解锁"灌溉科技"。农场与种植园+1文化值，并且可触发文化炸弹。著作巨作获得旅游业绩加300%。每本著作额外提供+4文化值与+5 生产力。神社、图书馆与大学获得额外的著作巨作槽位。每位使者+1文化值，每成为一位城邦的宗主国便+15%文化值与5%金币。
+
+领袖能力：大周帝王
+所有单位+5战斗力，击杀单位后获得大将军点数与大作家点数，并获得击杀单位战斗力50%的文化与[ICON_Gold]金币，进入黄金时代后该数值乘2。每招募一位伟人，将随机获得1个尤里卡时刻，并使文化值与科技值+4%。
+
+特色区域：大理寺
+唐朝的特色区域，掌刑狱案件审理，更早解锁，造价更低，取代市政广场。与区域相临时互相获得大量加成。给予该城少量贸易加成。提供2点大作家点数和大将军点数。建造完成后，额外获得1个 总督头衔与商人单位。
+
+特色单位：玄甲军
+唐朝中世纪特色单位，取代骑士。拥有更高的移动力和攻击力，单位视野额外加1。初始拥有一次免费升级。击杀单位后获得 大作家点数和大将军点数。
+
+
+十分感谢711403691文明6MOD制作群里各位大佬的指导。
+该mod的图片出自动漫[大理寺日志]，武明空介绍文本来自于百度百科。
+
+该MOD的领袖技能制作借鉴了神羅大帝大佬的[NFP2024]中国文明扩展领袖：圣神皇帝武曌与醉星晨大佬的[复刻]文明5中国领袖武则天[Repeated engraving]Sid Meier's Civilization 5 Wuzetian，他们的MOD制作精良，技能设计独特且富有深度，让我深受启发。最后，我想向这两位大佬表示诚挚的感谢。他们的作品让我在制作MOD的过程中受益匪浅。
+
+还原不足，能力缝合，乱给数值。</Description>
+    <Created>1729224970</Created>
+    <Authors>仓敷琉璃</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>config.xml</File>
+      <File>Colors.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>ICON_LEADER.xml</File>
+      <File>Icon_Dis.xml</File>
+      <File>Icon_unit.xml</File>
+      <File>Icon_unit_Portraits.xml</File>
+      <File>Icon_Tang.Xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>wumingkong.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>config.xml</File>
+      <File>Dis.xml</File>
+      <File>Leader.xml</File>
+      <File>unit.xml</File>
+      <File>UnitsAli.xml</File>
+      <File>Civilizations.xml</File>
+      <File>Colors.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>Icon_unit.xml</File>
+      <File>Icon_unit_Portraits.xml</File>
+      <File>ICON_LEADER.xml</File>
+      <File>Icon_Dis.xml</File>
+      <File>Icon_Tang.Xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>wumingkong.dep</File>
+    </UpdateArt>
+    <UpdateText id="Text">
+      <File>Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Civilizations.xml</File>
+    <File>Colors.xml</File>
+    <File>config.xml</File>
+    <File>Dis.xml</File>
+    <File>Icon_Dis.xml</File>
+    <File>ICON_LEADER.xml</File>
+    <File>Icon_Tang.Xml</File>
+    <File>Icon_unit.xml</File>
+    <File>Icon_unit_Portraits.xml</File>
+    <File>Leader.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/WU.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/WU.blp</File>
+    <File>Text.xml</File>
+    <File>unit.xml</File>
+    <File>UnitsAli.xml</File>
+    <File>wumingkong.dep</File>
+  </Files>
+</Mod>
