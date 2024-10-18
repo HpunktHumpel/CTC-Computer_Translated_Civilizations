@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="610464a6-d914-49da-bc6d-c3113853bf6e" version="1">
+  <Properties>
+    <Name>!!萨丁帝国RN</Name>
+    <Description>添加了一个由加斯科涅领导的萨丁帝国文明</Description>
+    <Created>1617011094</Created>
+    <Teaser>添加了一个由加斯科涅领导的萨丁帝国文明</Teaser>
+    <Authors>无言Infinite</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>RN_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>RN_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>RN_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>RN_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!!萨丁帝国RN.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="data">
+      <File>RN_Civilization.xml</File>
+      <File>RN_District.xml</File>
+      <File>RN_Improvement.xml</File>
+      <File>RN_Leader.xml</File>
+      <File>RN_Modifiers.sql</File>
+      <File>RN_Unit.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>RN_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>RN_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>RN_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!!萨丁帝国RN.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>!!萨丁帝国RN.dep</File>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Cultures.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/RNdds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/RNdds.blp</File>
+    <File>RN_Civilization.xml</File>
+    <File>RN_Color.xml</File>
+    <File>RN_Config.xml</File>
+    <File>RN_District.xml</File>
+    <File>RN_Icon.xml</File>
+    <File>RN_Improvement.xml</File>
+    <File>RN_Leader.xml</File>
+    <File>RN_Modifiers.sql</File>
+    <File>RN_Text.xml</File>
+    <File>RN_Unit.xml</File>
+  </Files>
+</Mod>
