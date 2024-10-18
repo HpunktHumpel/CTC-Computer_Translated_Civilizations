@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ba45bc96-de8b-4f5b-bc02-32d2c20fe75a" version="1">
+  <Properties>
+    <Name>!白鹰联邦USS</Name>
+    <Description>添加了一个由埃塞克斯领导的白鹰联邦文明</Description>
+    <Created>1616863442</Created>
+    <Teaser>添加了一个由埃塞克斯领导的白鹰联邦文明</Teaser>
+    <Authors>无言Infinite</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>USS_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>USS_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>USS_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>USS_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!白鹰联邦USS.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>USS_Civilization.xml</File>
+      <File>USS_Building.xml</File>
+      <File>USS_Leader.xml</File>
+      <File>USS_District.xml</File>
+      <File>USS_Modifier.sql</File>
+      <File>USS_Unit.xml</File>
+      <File>USS_UnitAbility.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>USS_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>USS_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>USS_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>!白鹰联邦USS.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>!白鹰联邦USS.dep</File>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/USSdds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/USSdds.blp</File>
+    <File>USS_Building.xml</File>
+    <File>USS_Civilization.xml</File>
+    <File>USS_Color.xml</File>
+    <File>USS_Config.xml</File>
+    <File>USS_District.xml</File>
+    <File>USS_Icon.xml</File>
+    <File>USS_Leader.xml</File>
+    <File>USS_Modifier.sql</File>
+    <File>USS_Text.xml</File>
+    <File>USS_Unit.xml</File>
+    <File>USS_UnitAbility.xml</File>
+  </Files>
+</Mod>
