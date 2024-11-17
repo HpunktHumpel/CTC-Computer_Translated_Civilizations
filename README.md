@@ -272,3 +272,4 @@ Auto-generated translations for the following mods are currently included in thi
 | [3341463987](https://steamcommunity.com/sharedfiles/filedetails/?id=3341463987) | 新艾利都治安局·刑侦特勤组·青衣 | New Elido Police Station·Criminal Investigation Special Service Unit·Tsing Yi |
 | [3348632766](https://steamcommunity.com/sharedfiles/filedetails/?id=3348632766) | 碧蓝航线：飓风 | Azur Lane: Hurricane |
 | [3350339109](https://steamcommunity.com/sharedfiles/filedetails/?id=3350339109) | [大理寺日志]领袖武明空 | [Dali Temple Log] Leader Wu Mingkong |
+| [3359329039](https://steamcommunity.com/sharedfiles/filedetails/?id=3359329039) | 新艾利都·外环·卡吕冬之子 | New Eridu, Outer Ring, Son of Calydon |
