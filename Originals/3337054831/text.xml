@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- text -->
+<!-- Author: a1287 -->
+<!-- DateCreated: 9/24/2024 2:40:15 PM -->
+<GameData>
+	<LocalizedText>
+		<!--LEADER-->
+		<Replace Tag="LOC_LEADER_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>芙兰朵露·斯卡雷特</Text>
+		</Replace>
+		<Replace Tag="LOC_FLANDRE_QUOTE" Language="zh_Hans_CN">
+			<Text>你好</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>四重存在</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FLANDRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建立首都后获得三名开拓者，但是无法生产或购买开拓者。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_FLANDRE" Language="zh_Hans_CN">
+			<Text>
+				芙兰朵露拥有将一切悉数破坏程度的能力。她能够将“目”（事物最重要的部分）移动到自己的手中，并且一握拳就能将手中的“目”破坏，甚至不用触摸到事物本体就能破坏事物。
+			</Text>
+		</Replace>
+		<!--civilization-->
+		<Replace Tag="LOC_CIVILIZATION_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>红魔馆</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FLANDRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>红魔馆</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FLANDRE_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>红魔馆的</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>笼女游戏</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FLANDRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>新建立或占领的城市获得495%的[ICON_Production]生产力、[ICON_Science]科技值、[ICON_Culture]文化值、[ICON_Faith]信仰值、[ICON_Gold]金币的加成，但每回合将减少36%的[ICON_Production]生产力、[ICON_Science]科技值、[ICON_Culture]文化值、[ICON_Faith]信仰值、[ICON_Gold]金币（表现为第一回合减少36%，第二回合减少72%……第两百回合减少7200%，以此类推）</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CAPITAL" Language="zh_Hans_CN">
+			<Text>红魔馆</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>荆棘王冠</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLANDRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>红魔馆的特色建筑，+4[ICON_Production]生产力、+4[ICON_Science]科技值、+4[ICON_Culture]文化值、+4[ICON_Faith]信仰值、+8[ICON_Gold]金币，每座城市只能修建一个。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>血奴</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FLANDRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>只可用信仰值购买，造价会随着购买数量增加而增加。战斗力等于最高近战攻击力，无视单位受损减益，击杀单位后回复至满血。</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY1" Language="zh_Hans_CN">
+			<Text>红莓陷阱</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY2" Language="zh_Hans_CN">
+			<Text>莱瓦汀</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY3" Language="zh_Hans_CN">
+			<Text>笼中鸟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY4" Language="zh_Hans_CN">
+			<Text>恋之迷宫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY5" Language="zh_Hans_CN">
+			<Text>星弧破碎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY6" Language="zh_Hans_CN">
+			<Text>折反射</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY7" Language="zh_Hans_CN">
+			<Text>495年的波纹</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY8" Language="zh_Hans_CN">
+			<Text>刻着过去的钟表</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY9" Language="zh_Hans_CN">
+			<Text>被禁止的游戏</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLANDRE_CITY10" Language="zh_Hans_CN">
+			<Text>之后就一个人都没有了吗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_FLANDRE_FEMALE1" Language="zh_Hans_CN">
+			<Text>小恶魔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_FLANDRE_FEMALE2" Language="zh_Hans_CN">
+			<Text>女仆妖精</Text>
+		</Replace>
+		<!--unit-->
+		<Replace Tag="LOC_ABILITY_FLANDRE_REDUCTION_FOR_DAMAGE_NAME" Language="zh_Hans_CN">
+			<Text>血之狂暴</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FLANDRE_REDUCTION_FOR_DAMAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视单位受损减益，击杀单位后回复至满血。</Text>
+		</Replace>
+		<!--外交-->
+		<Replace Tag="LOC_TRAIT_AGENDA_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>芙兰的玩伴</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AGENDA_FLANDRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>芙兰会尝试和靠近她的人进行危险的游戏。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_FLANDRE_NAME" Language="zh_Hans_CN">
+			<Text>芙兰的玩伴</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_FLANDRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>芙兰会尝试和靠近她的人进行危险的游戏。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_FLANDRE_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>您的帝国靠近红魔馆，芙兰朵露对你颇感兴趣。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<Text>来玩游戏吧~</Text>
+		</Replace>
+		<!-- Leader Dialog -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>好哦好哦</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>
+				才不要呢
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>
+				能和芙兰成为朋友吗
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>好棒好棒</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>呜呜</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--AI被玩家宣战-->
+			<Text>
+				想和芙兰玩游戏吗？
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--AI主动宣战-->
+			<Text>
+				一起来玩游戏吧~
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--接受玩家派遣大使-->
+			<Text>
+				欢迎
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>
+				不可以
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>
+				我能过来玩吗？
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>嗯嗯嗯……</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>
+				你真是太坏了
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>你好啊，这里是芙兰哦</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--初次见面，向玩家提供最近城市位置-->
+			<Text>
+				想来玩玩吗？
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--初次见面，要求玩家提供最近城市位置-->
+			<Text>你住在哪里呢</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>交换下情报可以吗</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>芙兰喜欢你</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>欸~</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>和芙兰成为盟友吧</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>可以把你的军队移开吗</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--被击败-->
+			<Text>
+				失败了啦~
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--玩家同意交易-->
+			<Text>
+				好耶
+			</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FLANDRE_ANY" Language="zh_Hans_CN">
+			<!--玩家拒绝交易-->
+			<Text>
+				真可惜
+			</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -270,6 +270,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3324790850](https://steamcommunity.com/sharedfiles/filedetails/?id=3324790850) | SOS团扩展包 | SOS Mission Expansion Pack |
 | [3325489080](https://steamcommunity.com/sharedfiles/filedetails/?id=3325489080) | BEIWEIXIAOLING | BEIWEIXIAOLING |
 | [3331269689](https://steamcommunity.com/sharedfiles/filedetails/?id=3331269689) | [TouHou] Nitori (remake ver) | [TouHou] Because (remake ver.) |
+| [3337054831](https://steamcommunity.com/sharedfiles/filedetails/?id=3337054831) | [Touhou] Flandre | [Desire] Flanders |
 | [3341463987](https://steamcommunity.com/sharedfiles/filedetails/?id=3341463987) | 新艾利都治安局·刑侦特勤组·青衣 | New Elido Police Station·Criminal Investigation Special Service Unit·Tsing Yi |
 | [3348632766](https://steamcommunity.com/sharedfiles/filedetails/?id=3348632766) | 碧蓝航线：飓风 | Azur Lane: Hurricane |
 | [3350339109](https://steamcommunity.com/sharedfiles/filedetails/?id=3350339109) | [大理寺日志]领袖武明空 | [Dali Temple Log] Leader Wu Mingkong |

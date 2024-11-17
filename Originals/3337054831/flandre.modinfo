@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7a7c5a83-ce71-416a-9515-ca62c53f7600" version="1">
+  <Properties>
+    <Name>[Touhou] Flandre</Name>
+    <Description>touhou flandre</Description>
+    <Created>1727187479</Created>
+    <Teaser>touhou flandre</Teaser>
+    <Authors>penglai</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateColors id="color">
+      <File>color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="config">
+      <File>config.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="art">
+      <File>[Touhou] Flandre.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="color">
+      <File>color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="gameplay">
+      <File>leader.xml</File>
+      <File>civilization.xml</File>
+      <File>civilization_modifiers.xml</File>
+      <File>leader_modifiers.xml</File>
+      <File>building.xml</File>
+      <File>unit.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="art">
+      <File>[Touhou] Flandre.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>building.xml</File>
+    <File>civilization.xml</File>
+    <File>civilization_modifiers.xml</File>
+    <File>color.xml</File>
+    <File>config.xml</File>
+    <File>icon.xml</File>
+    <File>leader.xml</File>
+    <File>leader_modifiers.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UIleaders.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UIleaders.blp</File>
+    <File>text.xml</File>
+    <File>unit.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UIleaders.xlp</File>
+    <File>[Touhou] Flandre.dep</File>
+  </Files>
+</Mod>
