@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7c1c5efc-8c3f-4a92-8afc-1caab564670f" version="1">
+  <Properties>
+    <Name>卡吕冬之子·露西亚娜·德·蒙特夫</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1730067706</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>阿砖</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateColors id="LUCY_COLOR">
+      <File>Luciana De Mentefio Color.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="LUCY_DATA">
+      <File>Luciana De Mentefio Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="LUCY_TEXT">
+      <File>Luciana De Mentefio Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="LUCY_ICON">
+      <File>Luciana De Mentefio Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="LUCY_ART">
+      <File>卡吕冬之子·露西亚娜·德·蒙特夫.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="LUCY_IN_COLOR">
+      <File>Luciana De Mentefio Color.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="LUCY_IN_DATA">
+      <File>Luciana De Mentefio.xml</File>
+      <File>Luciana De Mentefio Trait.xml</File>
+      <File>Luciana De Mentefio Modifier.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="LUCY_IN_TEXT">
+      <File>Luciana De Mentefio Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="LUCY_IN_ICON">
+      <File>Luciana De Mentefio Icon.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="LUCY_IN_LUA">
+      <File>Luciana De Mentefio.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="LUCY_IN_UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>Luciana De Mentefio Special/Luciana De Mentefio UI.xml</File>
+      <File>Luciana De Mentefio Special/Luciana De Mentefio POPUP.xml</File>
+    </AddUserInterfaces>
+    <UpdateArt id="LUCY_IN_ART">
+      <File>卡吕冬之子·露西亚娜·德·蒙特夫.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>Luciana De Mentefio Color.xml</File>
+    <File>Luciana De Mentefio Config.xml</File>
+    <File>Luciana De Mentefio Icon.xml</File>
+    <File>Luciana De Mentefio Modifier.xml</File>
+    <File>Luciana De Mentefio Special/Luciana De Mentefio POPUP.lua</File>
+    <File>Luciana De Mentefio Special/Luciana De Mentefio POPUP.xml</File>
+    <File>Luciana De Mentefio Special/Luciana De Mentefio UI.lua</File>
+    <File>Luciana De Mentefio Special/Luciana De Mentefio UI.xml</File>
+    <File>Luciana De Mentefio Text.xml</File>
+    <File>Luciana De Mentefio Trait.xml</File>
+    <File>Luciana De Mentefio.Art.xml</File>
+    <File>Luciana De Mentefio.lua</File>
+    <File>Luciana De Mentefio.xml</File>
+    <File>Platforms/MacOS/BLPs/ICON_FOR_LUCIANA.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ICON_FOR_LUCIANA.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>卡吕冬之子·露西亚娜·德·蒙特夫.dep</File>
+  </Files>
+</Mod>
