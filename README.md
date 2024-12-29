@@ -279,6 +279,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3357523800](https://steamcommunity.com/sharedfiles/filedetails/?id=3357523800) | 深空之眼 灵猫·芭丝特 重置版 | Eyes of the Deep Sky: Civet Cat Bastet Remastered |
 | [3359329039](https://steamcommunity.com/sharedfiles/filedetails/?id=3359329039) | 新艾利都·外环·卡吕冬之子 | New Eridu, Outer Ring, Son of Calydon |
 | [3359336896](https://steamcommunity.com/sharedfiles/filedetails/?id=3359336896) | 卡吕冬之子·露西亚娜·德·蒙特夫 | Luciana de Montefranco, son of Calydon |
+| [3366083521](https://steamcommunity.com/sharedfiles/filedetails/?id=3366083521) | Arknights Laterano | Arknights Laterano |
 | [3367030257](https://steamcommunity.com/sharedfiles/filedetails/?id=3367030257) | Re:从零开始的异世界生活-王选篇领袖 | Re: Life in a Different World from Zero - Leader of the King's Selection |
 | [3372309034](https://steamcommunity.com/sharedfiles/filedetails/?id=3372309034) | 《Kenshi》 - 领导联合城的天狗皇帝 | Kenshi - The Tengu Emperor Leading the United Cities |
 | [3380692510](https://steamcommunity.com/sharedfiles/filedetails/?id=3380692510) | 埃萨衲秦 | Essanaqin |
