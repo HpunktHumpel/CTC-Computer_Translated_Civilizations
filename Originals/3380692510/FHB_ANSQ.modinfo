@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0af52f1c-8f4e-4f0c-94fc-bbfeb1a58114" version="1">
+  <Properties>
+    <Name>LOC_FHB_ANSQ_NAME</Name>
+    <Description>LOC_FHB_ANSQ_DESCRIPTION</Description>
+    <Created>1733842727</Created>
+    <Teaser>LOC_FHB_ANSQ_DESCRIPTION</Teaser>
+    <Authors>飞花白、Moling</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Code/FHB_ASNQ_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Code/FHB_CIV_ANSQ_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>Code/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="Color">
+      <File>Code/FHB_ANSQ_Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="Art">
+      <File>LOC_FHB_ANSQ_NAME.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>Code/FHB_ANSQ_Leader_KT_KLS.sql</File>
+      <File>Code/FHB_ANSQ_Leader_KT_KLS.xml</File>
+      <File>Code/FHB_CIV_ANSQ.xml</File>
+      <File>Code/FHB_CIV_ANSQ_Improvement.xml</File>
+      <File>Code/FHB_CIV_ANSQ_UNITS.xml</File>
+      <File>Code/FHB_ANSQ_Wonder.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="Art">
+      <File>LOC_FHB_ANSQ_NAME.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>Code/FHB_ANSQ_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="Text">
+      <File>Code/FHB_CIV_ANSQ_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icon">
+      <File>Code/Icons.xml</File>
+    </UpdateIcons>
+    <ImportFiles id="FHB_ImportFiles">
+      <File>Texture/MOMENT_BUILDING_FHB_ASNQ_1551.dds</File>
+      <File>Texture/MOMENT_IMPROVEMENT_FHB_ASNQ_QXMH.dds</File>
+      <File>Texture/MOMENT_UNIT_FHB_ASNQ_TTST.dds</File>
+    </ImportFiles>
+    <AddUserInterfaces id="NewAction">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>Script/GFW_Modifier_UI.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Code/FHB_ANSQ_Colors.sql</File>
+    <File>Code/FHB_ANSQ_Leader_KT_KLS.sql</File>
+    <File>Code/FHB_ANSQ_Leader_KT_KLS.xml</File>
+    <File>Code/FHB_ANSQ_Wonder.xml</File>
+    <File>Code/FHB_ASNQ_Config.xml</File>
+    <File>Code/FHB_CIV_ANSQ.xml</File>
+    <File>Code/FHB_CIV_ANSQ_Improvement.xml</File>
+    <File>Code/FHB_CIV_ANSQ_Text.xml</File>
+    <File>Code/FHB_CIV_ANSQ_UNITS.xml</File>
+    <File>Code/GFW_Modifier_UI.lua</File>
+    <File>Code/GFW_Modifier_UI.xml</File>
+    <File>Code/Icons.xml</File>
+    <File>Texture/MOMENT_BUILDING_FHB_ASNQ_1551.dds</File>
+    <File>Texture/MOMENT_IMPROVEMENT_FHB_ASNQ_QXMH.dds</File>
+    <File>Texture/MOMENT_UNIT_FHB_ASNQ_TTST.dds</File>
+    <File>Script/GFW_Modifier_UI.lua</File>
+    <File>Script/GFW_Modifier_UI.xml</File>
+    <File>LOC_FHB_ANSQ_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/FHB_ASNQ_Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/FHB_Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/FHB_ASNQ_Icons.blp</File>
+    <File>Platforms/Windows/BLPs/FHB_Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+  </Files>
+	<LocalizedText>
+		<Text id="LOC_FHB_ANSQ_NAME">
+			<en_US>Isanaqin</en_US>
+			<zh_Hans_CN>埃萨衲秦</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_FHB_ANSQ_DESCRIPTION">
+			<en_US>Add a new civilisation and a leader to the game, including a new featured wonder.</en_US>
+			<zh_Hans_CN>为游戏加入一个新文明和一个领袖，包括一个新的特色奇观。</zh_Hans_CN>
+		</Text>	
+	</LocalizedText>
+</Mod>
