@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="09ec8f70-7ebb-458e-aee9-22248e9e3951" version="1">
+  <Properties>
+    <Name>LOC_RED_WINTER_NAME</Name>
+    <Description>LOC_RED_WINTER_DESCRIPTION</Description>
+    <Created>1735053477</Created>
+    <Teaser>LOC_RED_WINTER_TEASER</Teaser>
+    <Authors>MALIANG_RUIVO</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+
+  <LocalizedText>
+    <Text id="LOC_RED_WINTER_NAME">
+      <zh_Hans_CN>[COLOR_FLOAT_GOLD]安守实梨[ENDCOLOR]领导的[COLOR_RED]红冬联邦学院[ENDCOLOR]</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_RED_WINTER_DESCRIPTION">
+      <zh_Hans_CN>请输入文字</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_RED_WINTER_TEASER">
+      <zh_Hans_CN>此模组加入了1个冻土二次元文明和领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+
+  <FrontEndActions>
+    <UpdateDatabase id="cfg">
+      <File>RED_WINTER_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="colors">
+      <File>RED_WINTER_Colors.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="icons">
+      <File>RED_WINTER_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File>Text/RED_WINTER_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File>LOC_RED_WINTER_NAME.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="data">
+      <File>Data/CIVILIZATION_Data.sql</File>
+      <File>Data/YASUMORI_MINORI_Districts.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>RED_WINTER_Colors.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="icon">
+      <File>RED_WINTER_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="texts">
+      <File>Text/RED_WINTER_Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="lua">
+      <File>Scripts/RED_WINTER_EFFECT.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="art">
+      <File>LOC_RED_WINTER_NAME.dep</File>
+    </UpdateArt>
+    <AddUserInterfaces id="UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/RED_WINTER_EFFECT_UserInterface.xml</File>
+    </AddUserInterfaces>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>Data/CIVILIZATION_Data.sql</File>
+    <File>Data/YASUMORI_MINORI_Districts.xml</File>
+    <File>LOC_RED_WINTER_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/Atlas.blp</File>
+    <File>Platforms/MacOS/BLPs/ICON_DISTRICT_ENGINEER_CAMPUS.blp</File>
+    <File>Platforms/MacOS/BLPs/IMG_UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/MINORI_LeaderFallback.blp</File>
+    <File>Platforms/Windows/BLPs/Atlas.blp</File>
+    <File>Platforms/Windows/BLPs/ICON_DISTRICT_ENGINEER_CAMPUS.blp</File>
+    <File>Platforms/Windows/BLPs/IMG_UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/MINORI_LeaderFallback.blp</File>
+    <File>RED_WINTER_Colors.sql</File>
+    <File>RED_WINTER_Config.sql</File>
+    <File>RED_WINTER_Icons.xml</File>
+    <File>Scripts/RED_WINTER_EFFECT.lua</File>
+    <File>Text/RED_WINTER_Text.xml</File>
+    <File>UI/RED_WINTER_EFFECT_UserInterface.lua</File>
+    <File>UI/RED_WINTER_EFFECT_UserInterface.xml</File>
+    <File>XLPs/Atlas.xlp</File>
+    <File>XLPs/ICON_DISTRICT_ENGINEER_CAMPUS.xlp</File>
+    <File>XLPs/IMG_UITexture.xlp</File>
+    <File>XLPs/MINORI_LeaderFallback.xlp</File>
+  </Files>
+</Mod>
