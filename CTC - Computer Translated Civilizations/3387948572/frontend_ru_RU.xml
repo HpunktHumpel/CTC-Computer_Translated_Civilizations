@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 13:15:32 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_NAME" Language="ru_RU">
+			<Text>Тайнаньская империя</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_Description" Language="ru_RU">
+			<Text>Империя Тайсё</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_S" Language="ru_RU">
+			<Text>Стар Свирл'с</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDEMPIRE_ADJECTIVE" Language="ru_RU">
+			<Text>Стар Свирл'с</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_StarXingxuan_Name" Language="ru_RU">
+			<Text>Звездный вихрь</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_StarXingxuan" Language="ru_RU">
+			<Text>Никто не знает вашего прошлого и будущего. Некоторые говорят, что ты бог, другие говорят, что ты просто шарлатан, а третьи говорят, что ты проклятая чума.
+Твоя девчачья внешность делает тебя похожей на обычную соседскую девушку. Но сколько тебе лет? Никто не знает.
+В неведомом уголке древней земли вы ниспослали оракула и написали древние реликвии. Эти слова таят в себе бесконечные тайны.
+Затем он случайно взглянул на него, и счастливое древнее племя подобрало его. Это создало великую империю Тай Цан.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_StarXingxuan_QUOTE" Language="ru_RU">
+			<Text>Время как песня, длинная река.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Интересный малыш, ты не против, если я зайду к тебе на чашечку чая?</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_StarX_NAME" Language="ru_RU">
+			<Text>оракул</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_StarX_DESCRIPTION" Language="ru_RU">
+			<Text>[COLOR:ResCultureLabelCS]Oracle·Frenzy[ENDCOLOR]: боевая мощь отряда не будет уменьшена на [ICON_Strength] после ранения. И увеличьте до 33 [ICON_Strength] боевую силу в зависимости от степени травмы и +10 [ICON_Movement] силу передвижения для всех юнитов. Улучшение отряда не завершает его ход.
+[NEWLINE][COLOR:ResCultureLabelCS]Oracle·Glory[ENDCOLOR]: после успешного убийства юнита вся подвижность восстанавливается, а боевая мощь навсегда увеличивается на 1[ICON_Strength]
+[NEWLINE][COLOR:ResCultureLabelCS]Оракул·Небесное око[ENDCOLOR]: дипломатическая видимость +3, дальность действия юнитов дальнего боя +3, дальность [ICON_Range], обзор +3.
+[NEWLINE][COLOR:ResCultureLabelCS]Oracle·Immortality[ENDCOLOR]: (необходимо включить героический режим) Продолжительность жизни героя [ICON_Lifespan] составляет +500%.</Text>
+		</Replace>
+		<Replace Tag="LOC_StarX_SOURCE_TRAIT" Language="ru_RU">
+			<Text>Глаз оракула Star Swirl</Text>
+		</Replace>
+		<Replace Tag="LOC_StarX_SOURCE_ACTION_TRAIT" Language="ru_RU">
+			<Text>Используйте Звездный Вихрь.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_StarX_SOURCE_TRAIT" Language="ru_RU">
+			<Text>Ваш оракул и небесное око наблюдали</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_StarX_UNITS_INJURED_ADJUST_COMBAT_STRENGTH" Language="ru_RU">
+			<Text>+{Свойство}Оракул·Безумие</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_StarXAddATC_UNITS_INJURED_ADJUST_COMBAT_STRENGTH" Language="ru_RU">
+			<Text>+{Свойство} Оракул·Слава</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_StarX_EXTRA_MOVEMENT_NAME" Language="ru_RU">
+			<Text>Оракул · Фанатик</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_StarX_EXTRA_MOVEMENT_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Movement] Движение (Оракул·Безумие)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FLAC_StarX_NAME" Language="ru_RU">
+			<Text>Оракул · Око Небес</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FLAC_StarX_DESCRIPTION" Language="ru_RU">
+			<Text>+3 дальности [ICON_Range] (Оракул · Око Неба)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_StarX_SEE_EXTRA_SIGHT_NAME" Language="ru_RU">
+			<Text>Оракул Небесный Глаз</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_StarX_SEE_EXTRA_SIGHT_DESCRIPTION" Language="ru_RU">
+			<Text>+3 зрение (оракул·глаз неба)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TC_NAME" Language="ru_RU">
+			<Text>Реликвии Чангу</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TC_DESCRIPTION" Language="ru_RU">
+			<Text>Добавлен 1 слот военной политики и слот дикой политики, города могут строить территории без ограничений по численности населения.
+[NEWLINE]Скорость строительства строителей +5, миссионерская деятельность религиозных организаций +5 раз
+[NEWLINE]Каждый [ICON_Citizen] дополнительно дает +1[ICON_Food] еды, +1[ICON_Production] производительности и +1[ICON_Gold] золота.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_Skill" Language="ru_RU">
+			<Text>Реликвии Чангу</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_Skill_Description" Language="ru_RU">
+			<Text>Добавлен 1 слот военной политики и слот дикой политики, города могут строить территории без ограничений по численности населения.
+[NEWLINE]Скорость строительства строителей +5, миссионерская деятельность религиозных организаций +5 раз
+[NEWLINE]Каждый [ICON_Citizen] дополнительно дает +1[ICON_Food] еды, +1[ICON_Production] производительности и +1[ICON_Gold] золота.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_StarXingxuan_Skill" Language="ru_RU">
+			<Text>оракул</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_StarXingxuan_Skill_Description" Language="ru_RU">
+			<Text>[COLOR:ResCultureLabelCS]Oracle·Frenzy[ENDCOLOR]: боевая мощь отряда не будет уменьшена на [ICON_Strength] после ранения. И увеличьте до 33 [ICON_Strength] боевую силу в зависимости от степени травмы и +10 [ICON_Movement] силу передвижения для всех юнитов. Улучшение отряда не завершает его ход.
+[NEWLINE][COLOR:ResCultureLabelCS]Oracle·Glory[ENDCOLOR]: после успешного убийства юнита вся подвижность восстанавливается, а боевая мощь навсегда увеличивается на 1[ICON_Strength]
+[NEWLINE][COLOR:ResCultureLabelCS]Оракул·Небесное око[ENDCOLOR]: дипломатическая видимость +3, дальность действия юнитов дальнего боя +3, дальность [ICON_Range], обзор +3.
+[NEWLINE][COLOR:ResCultureLabelCS]Oracle·Immortality[ENDCOLOR]: (необходимо включить героический режим) Продолжительность жизни героя [ICON_Lifespan] составляет +500%.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_GODtower_NAME" Language="ru_RU">
+			<Text>Маяк Оракула</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_GODtower_DESCRIPTION" Language="ru_RU">
+			<Text>Характерное здание Империи Тай Цан, которое направляет силу пустоты для преобразования города; постройка этого здания может обеспечить городу +60 [ICON_Housing] жилья, +60 [ICON_Amenities] пригодности для жизни,
++5[ICON_CultureLarge] ценность культуры, +5[ICON_Science] ценность технологии, +4[ICON_Faith] вера, +15[ICON_Production] производительность, +10[ICON_Food] еда.
+[NEWLINE] Также предоставляет +9 слотов для шедевров (любой шедевр можно сохранить). Предоставляет большое количество очков великого человека [ICON_GreatPerson].
+[NEWLINE] Каждое из этих зданий увеличивает вероятность успеха шпиона, а эффекты суммируются. При этом значительно снижается уровень шпионских операций противника.
+[NEWLINE]Дополнительная лояльность и давление на лояльность для каждого гражданина [ICON_Citizen]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GODtower_NAME" Language="ru_RU">
+			<Text>Маяк Оракула</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GODtower_DESCRIPTION" Language="ru_RU">
+			<Text>Характерное здание Империи Тай Цан, которое направляет силу пустоты для преобразования города; постройка этого здания может обеспечить городу +60 [ICON_Housing] жилья, +60 [ICON_Amenities] пригодности для жизни,
++5[ICON_CultureLarge] ценность культуры, +5[ICON_Science] ценность технологии, +4[ICON_Faith] вера, +15[ICON_Production] производительность, +10[ICON_Food] еда.
+[NEWLINE] Также предоставляет +9 слотов для шедевров (любой шедевр можно сохранить). Предоставляет большое количество очков великого человека [ICON_GreatPerson].
+[NEWLINE] Каждое из этих зданий увеличивает вероятность успеха шпиона, а эффекты суммируются. При этом значительно снижается уровень шпионских операций противника.
+[NEWLINE]Дополнительная лояльность и давление на лояльность для каждого гражданина [ICON_Citizen]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_XX_NAME" Language="ru_RU">
+			<Text>Beacon Trade·Интеграция ресурсов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_XX_DESCRIPTION" Language="ru_RU">
+			<Text>Эксклюзивный проект для империи Тай Цан. По мере того, как технологии открывают больше проектов, проекты будут потреблять [ICON_Production] производительность и производить регулярные ресурсы, такие как [ICON_Food] еда, [ICON_Gold] золотые монеты и [ICON_Faith] вера в соответствии с определенной пропорцией.
+Или стратегические ресурсы, такие как [ICON_RESOURCE_HORSES] лошади, [ICON_RESOURCE_IRON] железо, [ICON_RESOURCE_NITER] селитра, [ICON_RESOURCE_COAL] уголь, [ICON_RESOURCE_OIL] нефть, [ICON_RESOURCE_ALUMINUM] алюминий, [ICON_RESOURCE_URANIUM] уран.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X1_NAME" Language="ru_RU">
+			<Text>Beacon Trade·Интеграция ресурсов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X1_DESCRIPTION" Language="ru_RU">
+			<Text>Торговля маяками и интеграция ресурсов, в течение срока действия проекта производительность [ICON_Production] будет конвертирована в [ICON_Gold] золотые монеты (40%), [ICON_Food] еду (40%), [ICON_Faith] веру (10%) в соответствии с определенной пропорцией. .</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X2_NAME" Language="ru_RU">
+			<Text>Торговля маяками · Интеграция ресурсов [ICON_RESOURCE_HORSES] Лошадь</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X2_DESCRIPTION" Language="ru_RU">
+			<Text>В течение периода реализации проекта 10% производительности [ICON_Production] будут конвертированы в [ICON_Gold] золотые монеты и такое же количество [ICON_Food] По завершении проекта вы получите +6 [ICON_RESOURCE_HORSES] лошадей.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X3_NAME" Language="ru_RU">
+			<Text>Торговля маяками · Интеграция ресурсов [ICON_RESOURCE_IRON] Железо</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X3_DESCRIPTION" Language="ru_RU">
+			<Text>В период действия проекта 10% производительности [ICON_Production] конвертируется в [ICON_Gold] золотые монеты и такое же количество [ICON_Food] еды. По завершении проекта вы можете получить +6 [ICON_RESOURCE_IRON] железа.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X4_NAME" Language="ru_RU">
+			<Text>Beacon Trade·Интеграция ресурсов[ICON_RESOURCE_NITER] Селитра</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X4_DESCRIPTION" Language="ru_RU">
+			<Text>В течение периода реализации проекта 10% производительности [ICON_Production] будут конвертированы в [ICON_Gold] золотые монеты и такое же количество [ICON_Food] еды. По завершении проекта вы получите +6 [ICON_RESOURCE_NITER] селитры.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X5_NAME" Language="ru_RU">
+			<Text>Beacon Trading·Интеграция ресурсов[ICON_RESOURCE_COAL]Уголь</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X5_DESCRIPTION" Language="ru_RU">
+			<Text>В течение периода реализации проекта 10% производительности [ICON_Production] будут конвертированы в [ICON_Gold] золотые монеты и такое же количество [ICON_Food] еды. По завершении проекта вы получите +6 [ICON_RESOURCE_COAL] угля.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X6_NAME" Language="ru_RU">
+			<Text>Beacon Trading·Интеграция ресурсов[ICON_RESOURCE_OIL]Нефть</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X6_DESCRIPTION" Language="ru_RU">
+			<Text>В течение периода реализации проекта 10% производительности [ICON_Production] будут конвертированы в [ICON_Gold] золотые монеты и такое же количество [ICON_Food] еды. По завершении проекта вы получите +6 [ICON_RESOURCE_OIL] нефти.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X7_NAME" Language="ru_RU">
+			<Text>Beacon Trading·Интеграция ресурсов[ICON_RESOURCE_ALUMINUM]Алюминий</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X7_DESCRIPTION" Language="ru_RU">
+			<Text>В период действия проекта 10% производительности [ICON_Production] конвертируется в [ICON_Gold] золотые монеты и такое же количество [ICON_Food] еды. По завершении проекта вы можете получить +6 [ICON_RESOURCE_ALUMINUM] алюминия.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X8_NAME" Language="ru_RU">
+			<Text>Торговля маяками·Интеграция ресурсов[ICON_RESOURCE_URANIUM]Уран</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X8_DESCRIPTION" Language="ru_RU">
+			<Text>В течение периода проекта 10% производительности [ICON_Production] конвертируется в [ICON_Gold] золотые монеты и такое же количество [ICON_Food] еды. По завершении проекта вы можете получить +6 [ICON_RESOURCE_URANIUM] урана.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DHLcity" Language="ru_RU">
+			<Text>имперская столица</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_1" Language="ru_RU">
+			<Text>Тоо Кан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_2" Language="ru_RU">
+			<Text>Молитесь за Луну</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_3" Language="ru_RU">
+			<Text>Тендзё</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_4" Language="ru_RU">
+			<Text>Аид</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_5" Language="ru_RU">
+			<Text>Фуруан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_6" Language="ru_RU">
+			<Text>Место, где упали боги</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_7" Language="ru_RU">
+			<Text>Южно-Синьцзянский разлом</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_8" Language="ru_RU">
+			<Text>Городок Тяньхуан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_9" Language="ru_RU">
+			<Text>Столица мира</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_10" Language="ru_RU">
+			<Text>Сосендани</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_11" Language="ru_RU">
+			<Text>Hearthfire</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_12" Language="ru_RU">
+			<Text>Тяньян</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_13" Language="ru_RU">
+			<Text>Духовная трансформация</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_14" Language="ru_RU">
+			<Text>массив для гадания</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_15" Language="ru_RU">
+			<Text>Девять Тюрьма Мира Преисподней</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_16" Language="ru_RU">
+			<Text>Небесный суд</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_1" Language="ru_RU">
+			<Text>Лексингтон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_2" Language="ru_RU">
+			<Text>Саратога</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_3" Language="ru_RU">
+			<Text>Мули</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_4" Language="ru_RU">
+			<Text>Юзе</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_5" Language="ru_RU">
+			<Text>глубокий</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_6" Language="ru_RU">
+			<Text>летящая тень</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_7" Language="ru_RU">
+			<Text>Лан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_8" Language="ru_RU">
+			<Text>светлячок</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_9" Language="ru_RU">
+			<Text>метель</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_10" Language="ru_RU">
+			<Text>белый снег</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_11" Language="ru_RU">
+			<Text>нефритовое стекло</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_12" Language="ru_RU">
+			<Text>Лилия</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_13" Language="ru_RU">
+			<Text>Шио</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_14" Language="ru_RU">
+			<Text>клен</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_15" Language="ru_RU">
+			<Text>гардения</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_16" Language="ru_RU">
+			<Text>Азуса</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_StarX_NAME" Language="ru_RU">
+			<Text>оракул</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_StarX_DESCRIPTION" Language="ru_RU">
+			<Text>Расстояние распространения религии увеличено на 100%.
+[NEWLINE]Давление на соседние города с целью распространения религии возрастает на 40%. Как только печать будет разработана, увеличьте до 70%.
+[NEWLINE]Религиозные отряды игнорируют [ICON_Movement] стоимость передвижения местности и форм рельефа.
+[NEWLINE]Ваш религиозный стресс не уменьшится, если вы проиграете теологическую битву.
+[NEWLINE]После того, как игрок, для которого эта религия является основной, построит город, в городе изначально будет присутствовать эта религия.
+[NEWLINE]Каждый храм и храм дают +3 [ICON_FOOD] еды и +2 [ICON_HOUSING] жилья.
+[NEWLINE]Здания в районах Академии и Театральной площади можно приобрести за [ICON_Faith] Вера.
+[NEWLINE] Каждый представитель этой религии в городе увеличит производительность [ICON_Production] на 1%.
+[NEWLINE] Боевые юниты получают +5 [ICON_Strength] к боевой мощи, находясь в дружественных городах этой религии.
+[NEWLINE] Боевые отряды получают +10 [ICON_Strength] к боевой мощи, если находятся в чужом городе, исповедующем эту религию.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_StarX01_GODDESS_NAME" Language="ru_RU">
+			<Text>Лорд Звездного моря</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_StarX01_GODDESS_DESCRIPTION" Language="ru_RU">
+			<Text>Ячейки Очаровательного или выше имеют +1 [ICON_Faith] Веры.
+Скорость расширения границ увеличена на 15%. Скорость развития городов увеличивается на 10%.
+[ICON_Food] еда и [ICON_Production] производительность, обеспечиваемая лагерем +1.
+Улучшенные стратегические ресурсы дают +1 к [ICON_Production] Производство и [ICON_Faith] Вере.
+Болота, оазисы и поймы пустыни дают +2 [ICON_Production] производства.
+Значение культуры [ICON_Culture], обеспечиваемое плантацией, равно +1.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_StarXingxuan_NAME" Language="ru_RU">
+			<Text>Игровой мир</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_StarXingxuan_DESCRIPTION" Language="ru_RU">
+			<Text>Мало кто может догадаться, о чем она думает, но у нее должны быть принципы.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Привет, странная цивилизация, первая встреча, я Синсюань.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Интересный малыш, не хочешь посидеть с нами немного?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Встречайте гостей издалека</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Извините, в данный момент недоступен</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Это небольшой подарок, а не знак уважения.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Очень хорошо, пусть дружба длится вечно</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Извините, возможно, еще нет</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Завести друга?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>мудрое решение</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Как жаль</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Твое поведение меня смешит</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Ну я понял, продолжайте~</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Отлично, если это ваш выбор, то~ как пожелаете!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Не удивляйтесь, вы этого ожидали, не так ли?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Ну, сделай перерыв</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Ни за что</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Усталый. . . Вы обманываете?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Ты обманываешь? Забудь, ты выиграл, поздравляю!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Какой беспорядок</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Нехорошо совершать мелкие трюки.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>Приятного сотрудничества</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_StarXingxuan_ANY" Language="ru_RU">
+			<Text>А как насчет того, чтобы пересмотреть свое решение?</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d6af03a6-d353-4949-860f-b9c9c6d689b5" version="1">
+  <Properties>
+    <Name>鹿乃的小鹿王国 mod for kano</Name>
+    <Description>以鹿乃为背景的模组，新手初次制作文明，欢迎大家在创意工坊和bilibili提出修改意见</Description>
+    <Created>1735300167</Created>
+    <Teaser>This is a civilization mod for kano.</Teaser>
+    <Authors>kilig &amp;&amp; THE_BANGEST</Authors>
+    <SpecialThanks>kano</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Kano_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Kano_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Kano_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>鹿乃的小鹿王国 mod for kano.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="database">
+      <File>Kano_Civilization.xml</File>
+      <File>Kano_Leaders.xml</File>
+      <File>Kano_Units.xml</File>
+      <File>Kano_District.xml</File>
+      <File>Kano_Improvements.xml</File>
+      <File>Kano_Buildings.xml</File>
+      <File>Kano_Moments.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Kano_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>Kano_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>鹿乃的小鹿王国 mod for kano.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="demo">
+      <File>Deer_Add.lua</File>
+      <File>Era.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="audio">
+      <File>Platforms/Windows/audio/SB_Test.bnk</File>
+      <File>Platforms/Windows/audio/SB_Test.txt</File>
+      <File>Platforms/Windows/audio/SoundBanks.ini</File>
+      <File>Platforms/Windows/audio/Kano_Music_Ingame.xml</File>
+      <File>Platforms/Windows/audio/Kano_Loading.bnk</File>
+      <File>Platforms/Windows/audio/Kano_Loading.txt</File>
+      <File>Platforms/Windows/audio/Kano_Loading.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Deer_Add.lua</File>
+    <File>Era.lua</File>
+    <File>Kano_Buildings.xml</File>
+    <File>Kano_Civilization.xml</File>
+    <File>Kano_Config.xml</File>
+    <File>Kano_District.xml</File>
+    <File>Kano_Icons.xml</File>
+    <File>Kano_Improvements.xml</File>
+    <File>Kano_Leaders.xml</File>
+    <File>Kano_Moments.xml</File>
+    <File>Kano_Text.xml</File>
+    <File>Kano_Units.xml</File>
+    <File>Platforms/MacOS/BLPs/KanoDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/audio/1030449160.wem</File>
+    <File>Platforms/Windows/audio/198448121.wem</File>
+    <File>Platforms/Windows/audio/309913465.wem</File>
+    <File>Platforms/Windows/audio/495591971.wem</File>
+    <File>Platforms/Windows/audio/584893848.wem</File>
+    <File>Platforms/Windows/audio/677060143.wem</File>
+    <File>Platforms/Windows/audio/679274035.wem</File>
+    <File>Platforms/Windows/audio/Kano_Loading.bnk</File>
+    <File>Platforms/Windows/audio/Kano_Loading.txt</File>
+    <File>Platforms/Windows/audio/Kano_Loading.xml</File>
+    <File>Platforms/Windows/audio/Kano_Music_Ingame.xml</File>
+    <File>Platforms/Windows/audio/SB_Test.bnk</File>
+    <File>Platforms/Windows/audio/SB_Test.txt</File>
+    <File>Platforms/Windows/audio/SoundBanks.ini</File>
+    <File>Platforms/Windows/BLPs/KanoDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>鹿乃的小鹿王国 mod for kano.dep</File>
+  </Files>
+</Mod>

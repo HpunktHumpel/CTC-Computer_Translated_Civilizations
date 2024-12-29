@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 13:15:32 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_NAME" Language="ja_JP">
+			<Text>太苍帝国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_Description" Language="ja_JP">
+			<Text>太苍帝国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_S" Language="ja_JP">
+			<Text>スタースワールさん</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDEMPIRE_ADJECTIVE" Language="ja_JP">
+			<Text>スタースワールさん</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_StarXingxuan_Name" Language="ja_JP">
+			<Text>スタースワール</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_StarXingxuan" Language="ja_JP">
+			<Text>あなたの過去と未来を知る人は誰もいません。あなたは神だと言う人もいれば、詐欺師だと言う人もいれば、呪われた疫病だと言う人もいます。
+あなたは少女のような外見をしているので、近所に住む普通の女の子のように見えます。でも、あなたは何歳ですか？誰も知らない。
+古代の地、知られざる片隅に、あなたは神託を授け、古代の遺物を書き記しました。その言葉には無限の謎が込められています。
+その後、幸運な古代部族によって拾われました。これにより偉大な太倉帝国が誕生しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_StarXingxuan_QUOTE" Language="ja_JP">
+			<Text>時間は歌のようなもの、長い川のようなものです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>面白い子ですね、お茶を飲みにあなたの家に来てもよろしいでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_StarX_NAME" Language="ja_JP">
+			<Text>オラクル</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_StarX_DESCRIPTION" Language="ja_JP">
+			<Text>[COLOR:ResCultureLabelCS]オラクル・フレンジー[ENDCOLOR]:ユニットの戦闘力は負傷後も[ICON_Strength]減少しません。ダメージの程度に応じて戦闘力が最大33 [ICON_Strength] 増加し、全ユニットの移動力が +10 [ICON_Movement] 増加します。ユニットをアップグレードしても、そのユニットのターンは終了しません。
+[NEWLINE][COLOR:ResCultureLabelCS]Oracle·Glory[ENDCOLOR]: ユニットを倒すと、すべてのアクションが回復し、戦闘力が永久に 1 増加します[ICON_Strength]
+[NEWLINE][COLOR:ResCultureLabelCS]オラクル·スカイアイ[ENDCOLOR]: 外交視認性 +3、遠距離ユニット [ICON_Range] 範囲 +3、視野 +3。
+[NEWLINE][COLOR:ResCultureLabelCS]Oracle·Longevity[ENDCOLOR]: (ヒーロー モードが必要) ヒーローの [ICON_Lifespan] 寿命が 500% 増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_StarX_SOURCE_TRAIT" Language="ja_JP">
+			<Text>スタースワールのオラクルアイ</Text>
+		</Replace>
+		<Replace Tag="LOC_StarX_SOURCE_ACTION_TRAIT" Language="ja_JP">
+			<Text>スタースワールを使用します。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_StarX_SOURCE_TRAIT" Language="ja_JP">
+			<Text>あなたの神託と天の目が観察されました</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_StarX_UNITS_INJURED_ADJUST_COMBAT_STRENGTH" Language="ja_JP">
+			<Text>+{プロパティ}オラクル・フレンジー</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_StarXAddATC_UNITS_INJURED_ADJUST_COMBAT_STRENGTH" Language="ja_JP">
+			<Text>+{プロパティ} オラクル・グローリー</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_StarX_EXTRA_MOVEMENT_NAME" Language="ja_JP">
+			<Text>オラクルフレンジー</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_StarX_EXTRA_MOVEMENT_DESCRIPTION" Language="ja_JP">
+			<Text>+10 [ICON_Movement] 移動(オラクル・フレンジー)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FLAC_StarX_NAME" Language="ja_JP">
+			<Text>オラクル・アイ・オブ・ヘブン</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FLAC_StarX_DESCRIPTION" Language="ja_JP">
+			<Text>+3 [ICON_Range] 射程 (オラクル・アイ・オブ・ザ・スカイ)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_StarX_SEE_EXTRA_SIGHT_NAME" Language="ja_JP">
+			<Text>オラクルスカイアイ</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_StarX_SEE_EXTRA_SIGHT_DESCRIPTION" Language="ja_JP">
+			<Text>+3 ビジョン (神託・天空の目)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TC_NAME" Language="ja_JP">
+			<Text>チャングー遺跡</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TC_DESCRIPTION" Language="ja_JP">
+			<Text>軍事政策スロットと野生政策スロットが 1 つ追加され、都市は人口制限なしでエリアを構築できるようになりました
+[NEWLINE]ビルダーの建設時間+5、宗教ユニットの宣教時間+5
+[NEWLINE]各 [ICON_Citizen] はさらに、+1[ICON_Food] の食料、+1[ICON_Production] の生産性、+1[ICON_Gold] のゴールドを提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_Skill" Language="ja_JP">
+			<Text>チャングー遺跡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_COLDempire_Skill_Description" Language="ja_JP">
+			<Text>軍事政策スロットと野生政策スロットが 1 つ追加され、都市は人口制限なしでエリアを構築できるようになりました
+[NEWLINE]ビルダーの建設時間+5、宗教ユニットの宣教時間+5
+[NEWLINE]各 [ICON_Citizen] はさらに、+1[ICON_Food] の食料、+1[ICON_Production] の生産性、+1[ICON_Gold] のゴールドを提供します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_StarXingxuan_Skill" Language="ja_JP">
+			<Text>オラクル</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_StarXingxuan_Skill_Description" Language="ja_JP">
+			<Text>[COLOR:ResCultureLabelCS]オラクル・フレンジー[ENDCOLOR]: ユニットの戦闘力は負傷しても[ICON_Strength]減少しません。そして、負傷の程度に応じて戦闘力が最大 33 [ICON_Strength] 増加し、すべてのユニットの移動力が +10 [ICON_Movement] 増加します。ユニットをアップグレードしてもターンは終了しません。
+[NEWLINE][COLOR:ResCultureLabelCS]オラクル・グローリー[ENDCOLOR]: ユニットの殺​​害に成功すると、すべての機動性が回復し、戦闘力が永続的に 1 増加します[ICON_Strength]
+[NEWLINE][COLOR:ResCultureLabelCS]オラクル・アイ・オブ・ザ・スカイ[ENDCOLOR]: 外交視界 +3、遠距離ユニット +3 [ICON_Range] 射程、視界 +3。
+[NEWLINE][COLOR:ResCultureLabelCS]Oracle·Immortality[ENDCOLOR]: (ヒーローモードをオンにする必要があります) ヒーローの [ICON_Lifespan] の寿命は +500% です。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_GODtower_NAME" Language="ja_JP">
+			<Text>オラクルビーコン</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_GODtower_DESCRIPTION" Language="ja_JP">
+			<Text>大倉帝国の特徴的な建物で、虚空の力を導き都市を変革します。この建物を建設すると、都市に +60 [ICON_Housing] の住宅、+60 [ICON_Amenities] の居住性を提供できます。
++5[ICON_CultureLarge]文化価値、+5[ICON_Science]技術価値、+4[ICON_Faith]信仰、+15[ICON_Production]生産性、+10[ICON_Food]食品。
+[NEWLINE] +9 個の傑作スロットも提供します (任意の傑作を保存できます)。さまざまな [ICON_Greatperson] の偉人ポイントを提供します。
+[NEWLINE] これらの各建物はスパイの成功率を高め、効果は累積されます。同時に、敵のスパイ活動のレベルは大幅に低下します。
+[NEWLINE]各 [ICON_Citizen] 国民に対する追加の忠誠心と忠誠心へのプレッシャー</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GODtower_NAME" Language="ja_JP">
+			<Text>オラクルビーコン</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GODtower_DESCRIPTION" Language="ja_JP">
+			<Text>大倉帝国の特徴的な建物で、虚空の力を導き都市を変革します。この建物を建設すると、都市に +60 [ICON_Housing] の住宅、+60 [ICON_Amenities] の居住性を提供できます。
++5[ICON_CultureLarge]文化価値、+5[ICON_Science]技術価値、+4[ICON_Faith]信仰、+15[ICON_Production]生産性、+10[ICON_Food]食品。
+[NEWLINE] +9 個の傑作スロットも提供します (任意の傑作を保存できます)。さまざまな [ICON_Greatperson] の偉人ポイントを提供します。
+[NEWLINE] これらの各建物はスパイの成功率を高め、効果は累積されます。同時に、敵のスパイ活動のレベルは大幅に低下します。
+[NEWLINE]各 [ICON_Citizen] 国民に対する追加の忠誠心と忠誠心へのプレッシャー</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_XX_NAME" Language="ja_JP">
+			<Text>ビーコン貿易・資源統合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_XX_DESCRIPTION" Language="ja_JP">
+			<Text>大倉帝国の独占プロジェクト。テクノロジーがより多くのプロジェクトのロックを解除すると、プロジェクトは [ICON_Production] 生産性を消費し、一定の割合に応じて [ICON_Food] 食料、[ICON_Gold] 金貨、[ICON_Faith] 信仰などの定期的なリソースを生産します。
+または、[ICON_RESOURCE_HORSES] 馬、[ICON_RESOURCE_IRON] 鉄、[ICON_RESOURCE_NITER] 硝石、[ICON_RESOURCE_COAL] 石炭、[ICON_RESOURCE_OIL] 石油、[ICON_RESOURCE_ALUMINIUM] アルミニウム、[ICON_RESOURCE_URANIUM] ウランなどの戦略的資源。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X1_NAME" Language="ja_JP">
+			<Text>ビーコン貿易・資源統合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X1_DESCRIPTION" Language="ja_JP">
+			<Text>ビーコン貿易と資源の統合では、プロジェクト期間中、[ICON_Production] 生産性が一定の割合に応じて [ICON_Gold] 金貨 (40%)、[ICON_Food] 食料 (40%)、[ICON_Faith] 信仰 (10%) に変換されます。 。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X2_NAME" Language="ja_JP">
+			<Text>ビーコン貿易 · リソース統合 [ICON_RESOURCE_HORSES] 馬</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X2_DESCRIPTION" Language="ja_JP">
+			<Text>プロジェクト期間中、[ICON_Production] 生産性の 10% が [ICON_Gold] 金貨と同量の [ICON_Food] 食料に変換されます。プロジェクトが完了すると、+6 頭の [ICON_RESOURCE_HORSES] 馬を入手できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X3_NAME" Language="ja_JP">
+			<Text>ビーコン取引リソース統合 [ICON_RESOURCE_IRON] 鉄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X3_DESCRIPTION" Language="ja_JP">
+			<Text>プロジェクト期間中、[ICON_Production] の生産性の 10% が [ICON_Gold] 金貨と同量の [ICON_Food] の食料に変換され、プロジェクト完了時に +6 [ICON_RESOURCE_IRON] の鉄を獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X4_NAME" Language="ja_JP">
+			<Text>ビーコン貿易・資源統合[ICON_RESOURCE_NITER] 硝石</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X4_DESCRIPTION" Language="ja_JP">
+			<Text>プロジェクト期間中、[ICON_Production] 生産性の 10% が [ICON_Gold] 金貨と同量の [ICON_Food] 食料に変換され、プロジェクト完了時に +6 [ICON_RESOURCE_NITER] 硝石を受け取ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X5_NAME" Language="ja_JP">
+			<Text>ビーコン取引·資源統合[ICON_RESOURCE_COAL]石炭</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X5_DESCRIPTION" Language="ja_JP">
+			<Text>プロジェクト期間中、[ICON_Production] の生産性の 10% が [ICON_Gold] 金貨と同量の [ICON_Food] の食料に変換され、プロジェクト完了時に +6 [ICON_RESOURCE_COAL] の石炭を受け取ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X6_NAME" Language="ja_JP">
+			<Text>ビーコン取引・資源統合[ICON_RESOURCE_OIL]石油</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X6_DESCRIPTION" Language="ja_JP">
+			<Text>プロジェクト期間中、[ICON_Production] の生産性の 10% が [ICON_Gold] 金貨と同量の [ICON_Food] の食料に変換され、プロジェクト完了時に +6 [ICON_RESOURCE_OIL] のオイルを受け取ります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X7_NAME" Language="ja_JP">
+			<Text>ビーコン取引·リソース統合[ICON_RESOURCE_ALUMINIUM]アルミニウム</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X7_DESCRIPTION" Language="ja_JP">
+			<Text>プロジェクト期間中、[ICON_Production] 生産性の 10% が [ICON_Gold] 金貨と同量の [ICON_Food] 食料に変換され、プロジェクト完了時に +6 [ICON_RESOURCE_ALUMINIUM] アルミニウムを獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X8_NAME" Language="ja_JP">
+			<Text>ビーコン取引·リソース統合[ICON_RESOURCE_URANIUM]ウラン</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRADE_X8_DESCRIPTION" Language="ja_JP">
+			<Text>プロジェクト期間中、[ICON_Production] の生産性の 10% が [ICON_Gold] 金貨と同量の [ICON_Food] の食料に変換され、プロジェクト完了時に +6 [ICON_RESOURCE_URANIUM] のウランを獲得できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DHLcity" Language="ja_JP">
+			<Text>帝都</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_1" Language="ja_JP">
+			<Text>トゥー・カン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_2" Language="ja_JP">
+			<Text>月に祈りなさい</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_3" Language="ja_JP">
+			<Text>天殇</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_4" Language="ja_JP">
+			<Text>ハデス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_5" Language="ja_JP">
+			<Text>フルアン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_6" Language="ja_JP">
+			<Text>神々が堕ちた場所</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_7" Language="ja_JP">
+			<Text>新疆南部断層</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_8" Language="ja_JP">
+			<Text>天皇鎮</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_9" Language="ja_JP">
+			<Text>世界の首都</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_10" Language="ja_JP">
+			<Text>葬仙谷</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_11" Language="ja_JP">
+			<Text>ハースファイアシティ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_12" Language="ja_JP">
+			<Text>天岩</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_13" Language="ja_JP">
+			<Text>精神的な変容</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_14" Language="ja_JP">
+			<Text>占い配列</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_15" Language="ja_JP">
+			<Text>九つの冥界監獄</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_16" Language="ja_JP">
+			<Text>ジャッジメントヘブン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_1" Language="ja_JP">
+			<Text>レキシントン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_2" Language="ja_JP">
+			<Text>サラトガ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_3" Language="ja_JP">
+			<Text>ムリ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_4" Language="ja_JP">
+			<Text>湯瀬</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_5" Language="ja_JP">
+			<Text>深い</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_6" Language="ja_JP">
+			<Text>飛ぶ影</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_7" Language="ja_JP">
+			<Text>ラン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_8" Language="ja_JP">
+			<Text>ホタル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_9" Language="ja_JP">
+			<Text>吹雪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_10" Language="ja_JP">
+			<Text>白い雪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_11" Language="ja_JP">
+			<Text>翡翠のガラス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_12" Language="ja_JP">
+			<Text>リリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_13" Language="ja_JP">
+			<Text>汐</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_14" Language="ja_JP">
+			<Text>メープル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_15" Language="ja_JP">
+			<Text>クチナシ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_NAME_16" Language="ja_JP">
+			<Text>梓</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_StarX_NAME" Language="ja_JP">
+			<Text>オラクル</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_StarX_DESCRIPTION" Language="ja_JP">
+			<Text>宗教の伝播距離が 100% 増加
+[NEWLINE]近隣都市に対する宗教を広めるよう圧力が 40% 増加しています。印刷が発達したら70％まで上げます。
+[NEWLINE]宗教ユニットは地形と地形の[ICON_Movement]移動コストを無視します。
+[NEWLINE]神学的な戦いに負けたからといって、あなたの宗教的ストレスが軽減されるわけではありません。
+[NEWLINE]これを主流の宗教とするプレイヤーが都市を建設すると、その都市は最初からこの宗教を持つことになります。
+[NEWLINE]各神社と寺院は +3 [ICON_FOOD] の食料と +2 [ICON_HOUSING] の住居を提供します。
+[NEWLINE]アカデミーおよびシアタースクエアエリアの建物は、[ICON_Faith]信仰を使用して購入できます。
+[NEWLINE] 市内のこの宗教の住民はそれぞれ、[ICON_Production] の生産性を 1% 向上させます。
+[NEWLINE] この宗教の友好都市にいる場合、戦闘ユニットは戦闘力 +5 [ICON_Strength] を獲得します。
+[NEWLINE] この宗教を信奉する外国の都市にいる場合、戦闘ユニットは戦闘力 +10 [ICON_Strength] を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_StarX01_GODDESS_NAME" Language="ja_JP">
+			<Text>星の海の主</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_StarX01_GODDESS_DESCRIPTION" Language="ja_JP">
+			<Text>Charming 以上のセルは +1 [ICON_Faith] 信仰を持ちます。
+国境拡張速度が15%増加しました。都市開発速度が10%増加します。
+キャンプによって提供される食料 [ICON_Food] と生産性 [ICON_Production] +1。
+戦略的リソースの改善により、[ICON_Production] 生産と [ICON_Faith] 信仰が +1 されます。
+沼地、オアシス、砂漠の氾濫原では、+2 [ICON_Production] の生産力が得られます。
+農園が提供する[ICON_Culture]文化値は+1です。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_StarXingxuan_NAME" Language="ja_JP">
+			<Text>ゲームの世界</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_StarXingxuan_DESCRIPTION" Language="ja_JP">
+			<Text>彼女が何を考えているのか推測できる人はほとんどいないが、彼女には信念があるはずだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>こんにちは、奇妙な文明、初めて会いました、私はXingxuanです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>面白い子ですね、ちょっと一緒に座りませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>遠方からのお客様も大歓迎です</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、現在利用できません</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>小さな贈り物は失​​礼ではありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>とてもよかったです、友情が永遠に続きますように</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、まだかもしれません</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>友達を作りますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>賢明な決断</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>お気の毒に</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>あなたの行動は私を笑わせます</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>まあ、わかりました、続けてください〜</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>いいですね、これがあなたの選択なら、あとは～お望み通りに！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>驚かないでください、あなたはそれを予想していましたよね？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>さて、休憩してください</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>とんでもない</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>疲れた。 。 。浮気してるの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>不正行為をしていますか？気にしないでください、あなたの勝ちです、おめでとうございます!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>なんて混乱だ</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>ちょっとした悪ふざけをするのはよくない</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>幸せな協力</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_StarXingxuan_ANY" Language="ja_JP">
+			<Text>そうでない場合は、もう一度考えてみませんか?</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

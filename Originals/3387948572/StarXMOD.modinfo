@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c227f823-8641-4167-9c40-175e01fcddae" version="1">
+  <Properties>
+    <Name>太苍文明【自学MOD练手】</Name>
+    <Description>新文明：太苍文明
+[NEWLINE]新领袖：星璇
+[NEWLINE]领袖技能：神谕
+[NEWLINE][COLOR:ResCultureLabelCS]神谕·狂热[ENDCOLOR]：单位受伤后不减[ICON_Strength]战斗力。并根据受伤程度增加至多33[ICON_Strength]战斗力，所有单位+10 [ICON_Movement] 移动力。升级单位不会结束其回合。
+[NEWLINE][COLOR:ResCultureLabelCS]神谕·荣耀[ENDCOLOR]：成功击杀单位后恢复全部行动力，并且永久增加1[ICON_Strength]战斗力
+[NEWLINE][COLOR:ResCultureLabelCS]神谕·天眼[ENDCOLOR]：外交能见度+3，远程单位+3 [ICON_Range] 射程，+3视野。
+[NEWLINE][COLOR:ResCultureLabelCS]神谕·长生[ENDCOLOR]：（需开启英雄模式）英雄的 [ICON_Lifespan] 寿命+500%。
+[NEWLINE]文明技能：苍古遗箓
+[NEWLINE]增加1个军事政策槽和通配政策槽，城市可不受人口限制建造区域
+[NEWLINE]建造者建造次数+5,宗教单位传教次数+5
+[NEWLINE]每个 [ICON_Citizen] 公民额外提供+1[ICON_Food]食物、+1[ICON_Production]生产力、+1[ICON_Gold]金币
+[NEWLINE]文明特色建筑：神谕信标
+[NEWLINE]太苍帝国特色建筑，引导虚空的力量以改造城市；建造此建筑可以给城市提供+60[ICON_Housing]住房、+60[ICON_Amenities]宜居度、+5[ICON_CultureLarge]文化值、+5[ICON_Science] 科技值、+4[ICON_Faith]信仰、+15[ICON_Production] 生产力、+10[ICON_Food]食物。
+[NEWLINE]同时提供+9个巨作槽位（可保存任意巨作）。提供大量的各种[ICON_GreatPerson] 伟人点数。
+[NEWLINE]每个该建筑都会提高间谍的成功率，效果可叠加。同时大幅降低本诚敌方间谍行动等级。
+[NEWLINE]每个 [ICON_Citizen] 公民额外获得的忠诚度与忠诚度压力
+[NEWLINE]文明特色项目：信标贸易·资源整合
+[NEWLINE]太苍帝国专属项目。随着科技解锁更多项目，项目会消耗[ICON_Production] 生产力按照一定比例产出[ICON_Food]食物、[ICON_Gold] 金币和[ICON_Faith]信仰等常规资源或者[ICON_RESOURCE_HORSES]马、[ICON_RESOURCE_IRON]铁、[ICON_RESOURCE_NITER]硝石、[ICON_RESOURCE_COAL]煤、[ICON_RESOURCE_OIL]石油、[ICON_RESOURCE_ALUMINUM]铝、[ICON_RESOURCE_URANIUM]铀等战略资源。</Description>
+    <Created>1734711440</Created>
+    <Teaser>新文明：太苍文明</Teaser>
+    <Authors>Master_K</Authors>
+    <SpecialThanks>感谢B站@Hemmelfort大佬的教学视频[NEWLINE]感谢文明MOD制作讨论群里的Phantagonist大佬答疑解惑</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>StarX_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>StarX_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>StarXMOD.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icon">
+      <File>StarX_Icons.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>StarX_Civilization.xml</File>
+      <File>StarX_Buildings.xml</File>
+      <File>StarX_Leaders.xml</File>
+      <File>StarX_Units.xml</File>
+      <File>StarX_Modifiers.xml</File>
+      <File>StarX_Projects.xml</File>
+      <File>StarX_Beliefs.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>StarX_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>StarXMOD.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icon">
+      <File>StarX_Icons.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="lua">
+      <File>StarX_MOD.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/BaseDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/BaseDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>StarXMOD.Art.xml</File>
+    <File>StarXMOD.dep</File>
+    <File>StarX_Beliefs.xml</File>
+    <File>StarX_Buildings.xml</File>
+    <File>StarX_Civilization.xml</File>
+    <File>StarX_Config.xml</File>
+    <File>StarX_Icons.xml</File>
+    <File>StarX_Leaders.xml</File>
+    <File>StarX_MOD.lua</File>
+    <File>StarX_Modifiers.xml</File>
+    <File>StarX_Projects.xml</File>
+    <File>StarX_Text.xml</File>
+    <File>StarX_Units.xml</File>
+    <File>备份（废案）.xml</File>
+  </Files>
+</Mod>
