@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="12d21ba1-5841-48a5-8229-b6e9b1923b09" version="1">
+  <Properties>
+    <Name>MOD_FHB_UNITED_CITIES_NAME</Name>
+    <Description>MOD_FHB_UNITED_CITIES_DESC</Description>
+    <Created>1732429839</Created>
+    <Teaser>MOD_FHB_UNITED_CITIES_DESC</Teaser>
+    <Authors>飞花白、Ophidy</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="Active_Babylon">
+      <!--启用巴比伦包-->
+      <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>Database/Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="UpdateColors">
+      <File>Database/Colors.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="UpdateIcons">
+      <File>Database/Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Text/FHB_UNITED_CITIES_text.xml</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>MOD_FHB_UNITED_CITIES_NAME.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Active_Babylon">
+      <Properties>
+        <LoadOrder>12</LoadOrder>
+      </Properties>
+      <Criteria>Active_Babylon</Criteria>
+      <File>Database/Config_UP.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>Database/CIVILIZATION_FHB_UNITED_CITIES.xml</File>
+      <File>Database/LEADER_FHB_EMPEROR_TENGU.xml</File>
+      <File>Database/Traders_Edge_Districts.sql</File>
+      <File>Database/Traders_Edge_Districts.xml</File>
+      <File>Database/Unit_Imperial_Lords.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="UpdateColors">
+      <File>Database/Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="UpdateText">
+      <File>Text/FHB_UNITED_CITIES_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateIcons">
+      <File>Database/Icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="UpdateArt">
+      <File>MOD_FHB_UNITED_CITIES_NAME.dep</File>
+    </UpdateArt>
+    <ImportFiles id="FHB_ImportFiles">
+      <File>Texture/FHB_EMPEROR_TENGU_BJ.dds</File>
+    </ImportFiles>
+    <UpdateDatabase id="Active_Babylon">
+      <Properties>
+        <LoadOrder>12</LoadOrder>
+      </Properties>
+      <Criteria>Active_Babylon</Criteria>
+      <File>Database/Unit_Imperial_Lords_UP.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Database/Config.xml</File>
+    <File>Database/Colors.sql</File>
+    <File>Database/Icon.xml</File>
+    <File>Database/CIVILIZATION_FHB_UNITED_CITIES.xml</File>
+    <File>Database/LEADER_FHB_EMPEROR_TENGU.xml</File>
+    <File>Database/Traders_Edge_Districts.sql</File>
+    <File>Database/Traders_Edge_Districts.xml</File>
+    <File>Database/Unit_Imperial_Lords.xml</File>
+    <File>Database/Config_UP.xml</File>
+    <File>Database/Unit_Imperial_Lords_UP.xml</File>
+    <File>MOD_FHB_UNITED_CITIES_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/FHB_UnitedCitiesTexture.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/FHB_UnitedCitiesTexture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text/FHB_UNITED_CITIES_text.xml</File>
+    <File>Texture/FHB_EMPEROR_TENGU_BJ.dds</File>
+  </Files>
+	<LocalizedText>
+		<Text id="MOD_FHB_UNITED_CITIES_NAME">
+			<zh_Hans_CN>Kenshi-天狗领导的联合城</zh_Hans_CN>
+		</Text>
+		<Text id="MOD_FHB_UNITED_CITIES_DESC">
+			<zh_Hans_CN>为游戏加入一个天狗皇帝领导的联合城帝国，来自Kenshi。</zh_Hans_CN>
+		</Text>	
+	</LocalizedText>
+</Mod>

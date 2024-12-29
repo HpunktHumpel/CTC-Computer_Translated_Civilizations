@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_NAME" Language="zh_Hans_CN">
+			<Text>联合城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>联合城帝国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_DESCRIPTION_JFD_CIVILIZATION" Language="zh_Hans_CN">
+			<Text>联合城帝国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>联合城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_FHB_UNITED_CITIES_BINOMIAL_NAME" Language="zh_Hans_CN">
+			<Text>联合城的</Text>
+		</Replace>
+		<!--相关数据-->
+		<Replace Tag="LOC_CIVINFO_FHB_UNITED_CITIES_LOCATION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_FHB_UNITED_CITIES_SIZE" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_FHB_UNITED_CITIES_POPULATION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_FHB_UNITED_CITIES_CAPITAL" Language="zh_Hans_CN">
+			<Text>赫夫特城</Text>
+		</Replace>
+		<!-- Civilization Trait -->
+		<Replace Tag="LOC_TRAIT_FHB_UNITED_CITIES_NAME" Language="zh_Hans_CN">
+			<Text>奴隶经济</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FHB_UNITED_CITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				战斗胜利时，获得同等于对手战斗力的 [ICON_Gold] 金币。战胜非蛮族单位时，有概率将其俘获为建造者。购买建造者-30%所需成本。
+				[NEWLINE]建造者-1 [ICON_Movement] 移动力，当所处的境内单元格拥有资源或改良设施时，分别提供+1 [ICON_Production] 生产力和+2 [ICON_Gold] 金币的产出；处于农场将额外提供+1 [ICON_Food] 食物。
+				[NEWLINE]农田可以建造在沙漠与沙漠丘陵。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_IMPERIAL_LORDS_NAME" Language="zh_Hans_CN">
+			<Text>
+				与国境相邻时+5 [ICON_Strength] 战斗力。无视受伤带来战斗力损耗。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_IMPERIAL_LORDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				与国境相邻时+5 [ICON_Strength] 战斗力。无视受伤带来战斗力损耗。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMPERIAL_LORDS_NAME" Language="zh_Hans_CN">
+			<Text>帝国贵族卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMPERIAL_LORDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				联合城特色近战单位，与国境相邻时+5 [ICON_Strength] 战斗力。无视受伤带来战斗力损耗。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMPERIAL_LORDS_UP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				联合城特色近战单位，替代 “披甲战士” 。
+				[NEWLINE]与国境相邻时+5 [ICON_Strength] 战斗力。无视受伤带来战斗力损耗。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TRADERS_EDGE_NAME" Language="zh_Hans_CN">
+			<Text>商人行会</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TRADERS_EDGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				联合城特色区域：替代 “商业中心” ，建造成本更低，享受城墙防御。
+				[NEWLINE]额外从相邻资源中获得大量 [ICON_Gold] 金币加成和标准 [ICON_Production] 生产力加成。且可以用 [ICON_Gold] 金币和 [ICON_Faith] 信仰值购买区域、建筑和单位，-20%所需花费。
+				[NEWLINE]建成后立即提供一个建造者。
+			</Text>
+		</Replace>
+
+
+		<!--LEADER-->
+		<Replace Tag="LOC_LEADER_FHB_EMPEROR_TENGU_NAME" Language="zh_Hans_CN">
+			<Text>天狗皇帝</Text>
+		</Replace>
+		<!--Agenda-->
+		<Replace Tag="LOC_AGENDA_FHB_EMPEROR_TENGU_NAME" Language="zh_Hans_CN">
+			<Text>红色叛乱</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_FHB_EMPEROR_TENGU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢持有相同奢侈品的文明，特别是金币收入高的文明。[NEWLINE]讨厌持有不同奢侈品的文明，特别是金币收入低的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_FHB_EMPEROR_TENGU_REASON_ANY" Language="zh_Hans_CN">
+			<Text>在联合城，贫穷就是罪行。你有那个资格成为我的盟友。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_FHB_EMPEROR_TENGU_HAS_DESIRED_LUXURY" Language="zh_Hans_CN">
+			<Text>喜欢持有相同奢侈品的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_FHB_EMPEROR_TENGU_REASON_ANY" Language="zh_Hans_CN">
+			<Text>在联合城，贫穷就是罪行。你不配与我联系！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_FHB_EMPEROR_TENGU_HAS_NO_DESIRED_LUXURY" Language="zh_Hans_CN">
+			<Text>讨厌持有不同奢侈品的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_FHB_EMPEROR_TENGU_HIGH_INCOME" Language="zh_Hans_CN">
+			<Text>在联合城，贫穷就是罪行。你有那个资格成为我的盟友。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_FHB_EMPEROR_TENGU_LOW_INCOME" Language="zh_Hans_CN">
+			<Text>在联合城，贫穷就是罪行。你不配与我联系！</Text>
+		</Replace>
+		<!--DOM-->
+		<Replace Tag="LOC_LEADER_FHB_EMPEROR_TENGU_LOADING_INFO" Language="zh_Hans_CN">
+			<Text>对，就是这样，伟大的天狗皇帝只需要在那里享受就好，收集奢侈品，抓捕奴隶，这样就整个帝国繁荣起来，何乐而不为呢？</Text>
+		</Replace>
+		<!--Traits-->
+		<Replace Tag="LOC_TRAIT_L_FHB_EMPEROR_TENGU_NAME" Language="zh_Hans_CN">
+			<Text>联合贵族内阁</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_L_FHB_EMPEROR_TENGU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奢侈品可以向所有城市提供 [ICON_AMENITIES] 宜居度。幸福度为“快乐”的城市额外提供+15% [ICON_Gold] 金币产出，在幸福度为“欣喜若狂”的城市则翻倍。
+			</Text>
+		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FHB_EMPEROR_TENGU_TITLE" Language="zh_Hans_CN">
+			<Text>天狗皇帝</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FHB_EMPEROR_TENGU_SUBTITLE" Language="zh_Hans_CN">
+			<Text>联合城的皇帝</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FHB_EMPEROR_TENGU_QUOTE" Language="zh_Hans_CN">
+			<Text>卫兵！我要来点儿清酒！
+				[NEWLINE]再来点儿干肉！我饿了！
+				[NEWLINE]再来头利维坦！给我驯头利维坦！
+				[NEWLINE]明天我们去蹂躏点儿平民，哦嚯嚯嚯！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FHB_EMPEROR_TENGU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>不要把他和贵族搞混，不要看他，不要靠近他呼吸……除非你想和其他叛乱分子一起进入天狗的地牢。
+				[NEWLINE]——农民[NEWLINE][NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FHB_EMPEROR_TENGU_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>“红色叛乱”后，一位新领袖被选出：天狗皇帝，比起前领袖明显更缺乏常识，更冲动。按照传统，天狗可以挑选四个残忍、强大、高贵的贵族组成“内阁”。市民们都非常害怕皇帝和他的内阁，特别是底层阶级的市民，还有大量的谣言在煽风点火，特别是“天狗的地牢”的传说，据称那里关押着许许多多乱敌和叛贼。[NEWLINE][NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FHB_EMPEROR_TENGU_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>事实上，虽然天狗地位显赫，但他战斗力并不高。天狗和贵族们一样，喜欢奢侈品和异域奇珍，追求时尚，依靠他们著名的保镖来保护自己，随身携带精致昂贵的剑作为地位的象征。</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FHB_EMPEROR_TENGU_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>联合城擅长获取建造者，并通过建造者提升单元格产出。天狗皇帝则能利用奢侈品提供的宜居度改善帝国的经济。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FHB_EMPEROR_TENGU_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>联合城擅长获取建造者，并通过建造者提升单元格产出。天狗皇帝则能利用奢侈品提供的宜居度改善帝国的经济。
+			</Text>
+		</Replace>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>我，天狗皇帝！看在你也是一方势力的领袖份上，我就勉强原谅你闯到我面前的罪行。</Text>
+		</Replace>
+		<!--AI invitation to visit nearby City-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>我会大发慈悲，叫你在我附近的城市休息。</Text>
+		</Replace>
+		<!--AI accepts Human invitation-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>我就勉强接受吧。</Text>
+		</Replace>
+		<!--AI invitation to exchange Capital Information-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>身为一方势力的领袖，我们好歹也该知道彼此首都在哪里。</Text>
+		</Replace>
+		<!--GREETINGS-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>哈？</Text>
+		</Replace>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>既然是你送来的，那么这些东西勉强可以留在我的垃圾桶。</Text>
+		</Replace>
+		<!--AI Rejects-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>哈哈哈，就这等垃圾也配送我当礼物？</Text>
+		</Replace>
+		<!--AI Requests -->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>请你收下这份印章，带着它找到骨人向导科朗克纳德·斯潘纳，它会为你调制神力灵药，帮助你战胜哀伤幽魂。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>噗哈哈哈哈哈，你收了！你收了！！！我看好你呀，大英雄！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>这样就太无趣了。</Text>
+		</Replace>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>看在你为联合城作出那么多的份上，就承认你是我们的盟友吧。</Text>
+		</Replace>
+		<!--AI Rejects from human -->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>去去去，一边去。</Text>
+		</Replace>
+		<!--AI Requests friendship from human-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>你用实际行动证明你会是联合城的好盟友，为什么不公开承认呢？</Text>
+		</Replace>
+		<!--Human accepts AI requests, AI responds-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>现在全世界都会拿你当做是联合城的一员。</Text>
+		</Replace>
+		<!--Human rejects AI requests, AI responds-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>这样就太无趣了。</Text>
+		</Replace>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>你用实际行动证明你会是联合城的好盟友，为什么不公开承认呢？</Text>
+		</Replace>
+		<!--AI warns player for border troops-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>把你那可笑的打手们撤走，别以为这样就能吓倒伟大的天狗皇帝！</Text>
+		</Replace>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>没问题。</Text>
+		</Replace>
+		<!--AI Rejects Deal-->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>我运行像地狱！</Text>
+		</Replace>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>哼？又一个自以为是的蠢蛋。</Text>
+		</Replace>
+		<!--From AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>蠢病是无药可救的。[NEWLINE](谴责你)</Text>
+		</Replace>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>该……该死的！卫兵！！！</Text>
+		</Replace>
+		<!--AI Declares War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>真有趣，是什么让你觉得我们之间不会有战事的？</Text>
+		</Replace>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>唉噫！放过我吧！我只是一个傀儡，傀儡可以轻而易举地换掉。.饶了我这个无足轻重的人吧！</Text>
+		</Replace>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FHB_EMPEROR_TENGU_ANY" Language="zh_Hans_CN">
+			<Text>唉噫！放过我吧！我只是一个傀儡，傀儡可以轻而易举地换掉。.饶了我这个无足轻重的人吧！</Text>
+		</Replace>
+
+
+
+
+		<!-- 城市名 -->
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CAPITAL" Language="zh_Hans_CN">
+			<Text>赫夫特城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_1" Language="zh_Hans_CN">
+			<Text>巴克镇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_2" Language="zh_Hans_CN">
+			<Text>小巴泰镇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_3" Language="zh_Hans_CN">
+			<Text>白鼬镇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_4" Language="zh_Hans_CN">
+			<Text>恒城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_5" Language="zh_Hans_CN">
+			<Text>边缘城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_6" Language="zh_Hans_CN">
+			<Text>开顿城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_7" Language="zh_Hans_CN">
+			<Text>科隆斯城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_8" Language="zh_Hans_CN">
+			<Text>漂泊终地</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_9" Language="zh_Hans_CN">
+			<Text>德林镇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_10" Language="zh_Hans_CN">
+			<Text>巴斯特城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_11" Language="zh_Hans_CN">
+			<Text>终结城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_12" Language="zh_Hans_CN">
+			<Text>自由定居</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_13" Language="zh_Hans_CN">
+			<Text>哀矿镇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FHB_UNITED_CITIES_CITY_14" Language="zh_Hans_CN">
+			<Text>耕作村庄</Text>
+		</Replace>
+		
+		<!-- 地名 -->
+		<Replace Tag="LOC_NAMED_DESERT_CIVILIZATION_FHB_UNITED_CITIES_1_NAME" Language="zh_Hans_CN">
+			<Text>恒</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_DESERT_CIVILIZATION_FHB_UNITED_CITIES_2_NAME" Language="zh_Hans_CN">
+			<Text>大沙漠</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_SEA_CIVILIZATION_FHB_UNITED_CITIES_1_NAME" Language="zh_Hans_CN">
+			<Text>风暴口海岸</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_SEA_CIVILIZATION_FHB_UNITED_CITIES_2_NAME" Language="zh_Hans_CN">
+			<Text>钩子海岸</Text>
+		</Replace>
+
+		<!-- 市民名 -->
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_1" Language="zh_Hans_CN">
+			<Text>埃尓斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_2" Language="zh_Hans_CN">
+			<Text>阿猫</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_3" Language="zh_Hans_CN">
+			<Text>哈姆特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_4" Language="zh_Hans_CN">
+			<Text>霍布斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_5" Language="zh_Hans_CN">
+			<Text>嘉利特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_6" Language="zh_Hans_CN">
+			<Text>卢金</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_7" Language="zh_Hans_CN">
+			<Text>久留佐贺</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_8" Language="zh_Hans_CN">
+			<Text>辛克莱德</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_9" Language="zh_Hans_CN">
+			<Text>伊斯法</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MALE_10" Language="zh_Hans_CN">
+			<Text>霍布斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_1" Language="zh_Hans_CN">
+			<Text>海克斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_2" Language="zh_Hans_CN">
+			<Text>喵喵</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_3" Language="zh_Hans_CN">
+			<Text>猎头者</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_4" Language="zh_Hans_CN">
+			<Text>赤色</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_5" Language="zh_Hans_CN">
+			<Text>和泉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_6" Language="zh_Hans_CN">
+			<Text>酒鬼吧飞</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_7" Language="zh_Hans_CN">
+			<Text>雷德里</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_8" Language="zh_Hans_CN">
+			<Text>梭曼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_9" Language="zh_Hans_CN">
+			<Text>珠儿</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_FEMALE_10" Language="zh_Hans_CN">
+			<Text>美羽</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>太田</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>稻羽</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>永吉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>四郎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>柯英</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>格莱德</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>哈加</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>瓦达</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>琼恩</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>永田</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>格蕾丝</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>莲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>鲁宾</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>三田</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>佳奈</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>哈莫托娥</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>津义</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>梅林</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>塔娜卡</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FHB_UNITED_CITIES_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>无面</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
