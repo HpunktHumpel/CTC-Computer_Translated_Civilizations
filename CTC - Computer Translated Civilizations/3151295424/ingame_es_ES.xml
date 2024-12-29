@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 18:54:23 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_OP_IBERIA_NAME" Language="es_ES">
+			<Text>ibérica</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_OP_IBERIA_DESCRIPTION" Language="es_ES">
+			<Text>reino de iberia</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_OP_IBERIA_ADJECTIVE" Language="es_ES">
+			<Text>ibérico</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_CARMEN_NAME" Language="es_ES">
+			<Text>carmen</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_OP_CARMEN" Language="es_ES">
+			<Text>Único santo vivo en Iberia, tiene más edad de lo normal. Los secretos de Iberia que le prolongan la vida no son gratuitos, pero incluso si pierde la cabeza, todavía recuerda su deber y a sus enemigos.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_CARMEN_QUOTE" Language="es_ES">
+			<Text>Este país lleva este nombre. Quizás sea un poco presuntuoso, pero espero que podamos soportar este peso. También espero que yo, Carmen e Iberia, podamos asumir esa responsabilidad.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_IRENE_NAME" Language="es_ES">
+			<Text>elini</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_OP_IRENE" Language="es_ES">
+			<Text>De Saltwind a Glenfalot y Rhode Island. Elini aceptó apresuradamente el cambio y crecimiento de su identidad. La figura familiar que una vez se interpuso en el camino ha desaparecido, y Elini confirmará el paisaje en el camino con sus propios ojos.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_IRENE_QUOTE" Language="es_ES">
+			<Text>La espada afilada atraviesa la oscuridad y la linterna ilumina el camino a seguir.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_LUMEN_NAME" Language="es_ES">
+			<Text>luz</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_OP_LUMEN" Language="es_ES">
+			<Text>Incluso si realmente no puede ayudar debido a sus habilidades limitadas, Lumen está muy feliz de ser un amable compañero. Lo que es aún más raro es que no se da cuenta en absoluto de lo valiosa que es su actitud de llevarse bien con los demás.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_OP_LUMEN_QUOTE" Language="es_ES">
+			<Text>En comparación con trabajar en la Inquisición, tiene aún más confianza a la hora de cuidar de los demás.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OP_IBERIA_0" Language="es_ES">
+			<Text>Perdoni</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OP_IBERIA_1" Language="es_ES">
+			<Text>Glenfalot</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OP_IBERIA_2" Language="es_ES">
+			<Text>brisa salada</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OP_IBERIA_3" Language="es_ES">
+			<Text>bahía de roca</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OP_IBERIA_4" Language="es_ES">
+			<Text>Primavera</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OP_IBERIA_5" Language="es_ES">
+			<Text>rocamarea</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OP_IBERIA_6" Language="es_ES">
+			<Text>estutophila</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OP_IBERIA_7" Language="es_ES">
+			<Text>ambrosio</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_1" Language="es_ES">
+			<Text>Alfonso</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_2" Language="es_ES">
+			<Text>thiago</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_3" Language="es_ES">
+			<Text>Darío</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_4" Language="es_ES">
+			<Text>Aulo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_5" Language="es_ES">
+			<Text>Clément Dubois</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_6" Language="es_ES">
+			<Text>anita</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_7" Language="es_ES">
+			<Text>Arya</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_8" Language="es_ES">
+			<Text>Glauco</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_9" Language="es_ES">
+			<Text>petra</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_OP_IBERIA_NAME_10" Language="es_ES">
+			<Text>Ma Lin</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ELDORADO_NAME" Language="es_ES">
+			<Text>reino dorado</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ELDORADO_DESCRIPTION" Language="es_ES">
+			<Text>Células de agua +1 [ICON_SCIENCE] Ciencia, +2 [ICON_GOLD] Oro, +1 [ICON_PRODUCTION] Productividad, células costeras +1 [ICON_CULTURE] Cultura, +2 [ICON_FAITH] Fe, +1 [ICON_FOOD] Comida. [NEWLINE]El enfoque de Edad de Oro [ICON_GLORY_GOLDEN_AGE] que selecciones será permanente en todas las Edades de Oro. [NEWLINE]Las unidades navales pueden gastar [ICON_GOLD] de oro para construir ciudades en bloques válidos adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ETERNAL_WRATH_NAME" Language="es_ES">
+			<Text>descanso eterno</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ETERNAL_WRATH_DESCRIPTION" Language="es_ES">
+			<Text>Después de construir el santuario y el edificio de sacrificios, obtendrás una unidad cuerpo a cuerpo y una unidad a distancia, que obtendrán +2 [ICON_MOVEMENT] de movimiento y +5 [ICON_STRENGTH] de poder de combate. [NEWLINE] Las unidades cuerpo a cuerpo y a distancia propagan automáticamente tu religión principal a las ciudades circundantes después de matar enemigos. [NEWLINE]Al atacar una ciudad con la misma religión que Iberia, las unidades cuerpo a cuerpo y a distancia infligirán daño total, y las unidades a distancia no sufrirán daño de combate.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_OF_CASTIGATION_NAME" Language="es_ES">
+			<Text>fuego del juicio</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_OF_CASTIGATION_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades religiosas obtienen +1 de uso. Los inquisidores pueden ingresar a países extranjeros independientemente del cierre de fronteras. [NEWLINE]Al comienzo de cada turno, recibe valor tecnológico [ICON_SCIENCE], valor cultural [ICON_CULTURE] y monedas de oro [ICON_GOLD] equivalentes al 100 % de la producción de su turno de cada ciudad extranjera que se adhiera a tu religión, y proporciona todo tus ciudades Proporciona [ICON_PRODUCTION] productividad del 20% del valor total anterior. [NEWLINE]Si estás en un país extranjero que profesa tu propia religión principal, las unidades religiosas recibirán +5 [ICON_RELIGION] de poder de combate religioso, y los inquisidores recibirán +30 [ICON_RELIGION] de poder de combate religioso adicional.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LANTERN_UNDYING_NAME" Language="es_ES">
+			<Text>Las luces nunca se apagan</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LANTERN_UNDYING_DESCRIPTION" Language="es_ES">
+			<Text>Si una unidad de combate tiene menos de 50 [ICON_DAMAGED] de salud, recuperará salud al final del turno, incluso si ha actuado. [NEWLINE]Cuando completes la construcción de un puerto, recibirás [ICON_GREATENGINEER] puntos de gran ingeniero y [ICON_GREATSCIENTIST] puntos de gran científico equivalentes al 50 % de su costo de productividad. [NEWLINE] Cada vez que reclutes a un Gran Hombre, proporciona a todas tus ciudades una productividad [ICON_PRODUCTION] equivalente al 50 % de los puntos requeridos según la Era del Gran Hombre.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EYE_OF_IBERIA_NAME" Language="es_ES">
+			<Text>ojo ibérico</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EYE_OF_IBERIA_DESCRIPTION" Language="es_ES">
+			<Text>Edificio característico íbero, en sustitución del faro. [NEWLINE]Todas las unidades navales entrenadas en esta ciudad reciben +25 % de experiencia de combate. Todas las células costeras de esta ciudad obtienen +1 [ICON_FOOD] de comida. Si la ciudad aún no tiene mercado, +1 capacidad de ruta comercial [ICON_TradeRoute]. [NEWLINE]Activa una bomba cultural cuando se construye. Otorga a todas las células de agua dentro de 6 casillas +2 [ICON_PRODUCTION] productividad y +2 [ICON_FOOD] comida. +2 [ICON_MOVEMENT] movimiento para unidades navales y marítimas dentro de 10 casillas.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_IBERIAN_CHURCH_NAME" Language="es_ES">
+			<Text>iglesia ibérica</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_IBERIAN_CHURCH_DESCRIPTION" Language="es_ES">
+			<Text>Zona característica ibérica, alternativa a Tierra Santa. Es más barato de construir y permite a la ciudad construir un área adicional una vez finalizada. La ciudad tiene +100% de productividad [ICON_PRODUCTION] al construir el área del puerto y sus edificios. [NEWLINE] Obtén importantes bonificaciones adyacentes de las casillas de orillas o lagos adyacentes. Permite a la ciudad comprar edificios en el centro, santuarios y puertos usando la fe [ICON_FAITH].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GOLDEN_FLAGSHIP_NAME" Language="es_ES">
+			<Text>buque insignia de oro</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GOLDEN_FLAGSHIP_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad naval ibérica única con una alta eficacia de combate con bombardeo [ICON_BOMBARD] y capaz de saquear las costas. [NEWLINE]Tus unidades terrestres pueden teletransportarse directamente al mosaico donde se encuentra el buque insignia dorado.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PENAL_BATTALION_NAME" Language="es_ES">
+			<Text>ejercito disciplinario</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PENAL_BATTALION_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades cuerpo a cuerpo ibéricas, desbloqueadas por el evento Gran Silencio, solo se pueden comprar con puntos de fe y hay hasta 3 tropas disciplinarias. El poder de combate es igual al poder de combate de la unidad más fuerte que jamás hayas producido. [NEWLINE]+20 [ICON_STRENGTH] poder de combate contra bárbaros y puede limpiar ciudades afectadas por el Gran Silencio.</Text>
+		</Replace>
+		<Replace Tag="LOC_IB_CHURCH_FAITH" Language="es_ES">
+			<Text>+{1_Num} [ICON_FAITH] Fe de la costa o lago adyacente</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IBERIA_NAVAL_SETTLE" Language="es_ES">
+			<Text>Capaz de construir ciudades en celdas válidas adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CARMEN_HOLY_SITE_BONUS" Language="es_ES">
+			<Text>Entrenado en Tierra Santa, +2 [ICON_MOVEMENT] Movimiento, +5 [ICON_STRENGTH] Fuerza de combate ({LOC_TRAIT_LEADER_ETERNAL_WRATH_NAME})</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EOI_MOVEMENT" Language="es_ES">
+			<Text>+2 [ICON_MOVEMENT] Poder de movimiento ({LOC_BUILDING_EYE_OF_IBERIA_NAME})</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_CARMEN_HOLY_SITE_AOE_BONUS_STRENGTH_PREVIEW" Language="es_ES">
+			<Text>+{Cantidad} {LOC_TRAIT_LEADER_ETERNAL_WRATH_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_ETERNAL_WRATH_RELIGIOUS_AOE_BUFF_TRANS_PREVIEW" Language="es_ES">
+			<Text>+{Propiedad} de unidad religiosa ({LOC_TRAIT_LEADER_ETERNAL_WRATH_NAME})</Text>
+		</Replace>
+		<Replace Tag="LOC_MODIFIER_FIRE_OF_CASTIGATION_RELIGIOUS_STRENGTH_TRANS_PREVIEW" Language="es_ES">
+			<Text>+{Propiedad} {LOC_RASGO_LÍDER_FUEGO_DE_CASTIGACIÓN_NOMBRE}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_PROFOUND_SILENCE" Language="es_ES">
+			<Text>Estás en compañía del heredero.</Text>
+		</Replace>
+		<Replace Tag="LOC_STATEMENT_KEY_PROFOUND_SILENCE" Language="es_ES">
+			<Text>Estás en compañía del heredero.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_ABILITY_PENAL_BATTALION_STRENGTH" Language="es_ES">
+			<Text>+{Cantidad} Elimina a los bárbaros</Text>
+		</Replace>
+		<Replace Tag="LOC_TIP_IBERIA_NAVAL_SETTLE_COULD_NOT_AFFORD" Language="es_ES">
+			<Text>{LOC_TRAIT_CIVILIZATION_ELDORADO_NAME}[NEWLINE][NEWLINE]No se puede pagar: se requiere {1_Amount} [ICON_GOLD] oro</Text>
+		</Replace>
+		<Replace Tag="LOC_TIP_IBERIA_NAVAL_SETTLE_DETAIL" Language="es_ES">
+			<Text>{LOC_TRAIT_CIVILIZATION_ELDORADO_NAME}[NEWLINE][NEWLINE]Construir una ciudad en una celda legal adyacente[NEWLINE] consume {1_Amount} [ICON_GOLD] monedas de oro</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_ARRANGECREW_DESCRIPTION" Language="es_ES">
+			<Text>abordar el barco</Text>
+		</Replace>
+		<Replace Tag="LOC_IRENE_TURN_TRANS_YIELD" Language="es_ES">
+			<Text>Has recibido de ciudades extranjeras que creen en tu religión principal: [NEWLINE]{1_Amount} [ICON_SCIENCE] Valor tecnológico[NEWLINE]{2_Amount} [ICON_CULTURE] Valor cultural[NEWLINE]{3_Amount} [ICON_GOLD] Monedas de oro[NEWLINE]{ 4_Cantidad } [ICON_PRODUCTION] Productividad</Text>
+		</Replace>
+		<Replace Tag="LOC_IBERIA_TOOL_TIP_EL_DORADO" Language="es_ES">
+			<Text>Este enfoque de la Edad de Oro se ha vuelto permanente gracias a las habilidades de su civilización.</Text>
+		</Replace>
+		<Replace Tag="LOC_IBERIA_TOOL_TIP_ERAPROGRESSPANEL_SHORTTITLE" Language="es_ES">
+			<Text>¡Debido a tu habilidad de civilización, el enfoque de la Edad de Oro [ICON_GLORY_GOLDEN_AGE] que has elegido tendrá efecto permanentemente!</Text>
+		</Replace>
+		<Replace Tag="LOC_PENAL_BATTALION_UNITOPERATION_CLEANSING_DESCRIPTION" Language="es_ES">
+			<Text>purificar</Text>
+		</Replace>
+		<Replace Tag="LOC_OPH_EVENT_AVAILABLE_TITLE" Language="es_ES">
+			<Text>Evento</Text>
+		</Replace>
+		<Replace Tag="LOC_OPH_EVENT_AVAILABLE_SUMM" Language="es_ES">
+			<Text>Hay un evento especial en este momento, haga su selección.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_CARMEN_NAME" Language="es_ES">
+			<Text>santa iberia</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_CARMEN_DESCRIPTION" Language="es_ES">
+			<Text>Prefieren civilizaciones que creen en la misma religión. Odia las civilizaciones cuyas religiones dominantes son diferentes a ellas.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_IRENE_NAME" Language="es_ES">
+			<Text>Espada de purificación</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_IRENE_DESCRIPTION" Language="es_ES">
+			<Text>Odio a los bárbaros. Civilizaciones a las que les gusta despejar puestos de avanzada bárbaros. Odia las civilizaciones que hacen la vista gorda ante los puestos de avanzada bárbaros.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_LUMEN_NAME" Language="es_ES">
+			<Text>deseo mortal</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_OP_LUMEN_DESCRIPTION" Language="es_ES">
+			<Text>No perderá tiempo en reclutar una gran cantidad de [ICON_GREATPERSON] personas excelentes y le gustan las civilizaciones que también reclutan una gran cantidad de [ICON_GREATPERSON] personas excelentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_OP_IBERIA_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Iberia es un país costero situado en el extremo sur del continente Terra. Es conservador y cerrado por la influencia de la religión. Es uno de los pocos países costeros del continente Terra. En el pasado, a menudo se lo asociaba con el entusiasmo, la vitalidad, el lujo y el sol que llenaba la costa. poco a poco se ha vuelto silencioso.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_OP_IBERIA_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>Con la ayuda del pueblo Agor conocido como los &quot;isleños&quot;, la tecnología de Iberia continuó desarrollándose y se convirtió en un país importante en el continente de Terra. Posteriormente, Iberia siguió desarrollándose hacia el océano, y decenas de miles de barcos formaron una enorme flota y vagaron por el mar. Dormir bajo esa ciudad dorada. Los recursos marinos también se explotaron mediante perforaciones, e incluso se construyeron muchos fuertes en el mar para este propósito. Miles de faros en la orilla del mar se utilizaron para guiar a los barcos cada noche. Para fortalecer Iberia, los Argors capturaron a un gran número de personas de la tierra, y muchas de ellas terminaron quedándose allí para siempre.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_OP_IBERIA_CHAPTER_HISTORY_PARA_3" Language="es_ES">
+			<Text>El poder nacional de Iberia siguió creciendo y conquistó a Bolívar, entrando gradualmente en una edad de oro. Pero los buenos tiempos de la época dorada no duraron. En 1038, estalló la &quot;Gran Tranquilidad&quot; en Iberia. El océano ha caído en una calma sin precedentes y la costa está extraña. El violento reflujo y las olas irregulares anuncian la llegada del desastre.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_OP_IBERIA_CHAPTER_HISTORY_PARA_4" Language="es_ES">
+			<Text>Con la llegada de la &quot;Gran Silencio&quot;, las ciudades costeras de Iberia sufrieron enormes daños, provocando un desfase tecnológico y el abandono de la mayoría de productos tecnológicos. La destrucción del sistema energético hace imposible que esos faros se enciendan de forma anormal. Ahora Iberia ha endurecido las restricciones a la entrada de extranjeros y ha tomado medidas severas contra los &quot;isleños&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_OP_IBERIA_CHAPTER_HISTORY_PARA_5" Language="es_ES">
+			<Text>Iberia implementó un sistema de unidad de gobierno y religión para fortalecer el control religioso sobre el pueblo. La religión ibérica se adhiere a las enseñanzas de Letrán y muchos obispos llevan a cabo actividades misioneras en todo el país. A menudo se ha hablado de Iberia en conjunto debido a sus conexiones religiosas históricas con Letrán. La religión ibérica alguna vez estuvo directamente bajo la autoridad del Papa de Letrán, pero gradualmente se fue separando, y finalmente se estableció la &quot;Iglesia Estatal Ibérica&quot; ​​por sí sola.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_OP_IBERIA_CHAPTER_HISTORY_PARA_6" Language="es_ES">
+			<Text>Andorn, un Sakota que vivía en Tidestone Town en Iberia, estaba profundamente decepcionado por la inacción de Letrán ante el desastre ibérico, por lo que fundó la organización herética &quot;Los Conquistadores&quot;. Después del “Gran Silencio”, la Iglesia Estatal evolucionó gradualmente hacia la Inquisición, transformándose en una herramienta de pura opresión religiosa. Algunos miembros de la Iglesia del Mar Profundo también se disfrazaron de obispos bajo la apariencia de una religión estatal y se infiltraron secretamente en las ideas de los &quot;Herederos del Mar&quot; para asimilarse con los &quot;Herederos del Mar&quot; y expandir la base de la organización.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_CARMEN_TITLE" Language="es_ES">
+			<Text>carmen</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_CARMEN_SUBTITLE" Language="es_ES">
+			<Text>carmen</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_CARMEN_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>El nombre completo es &quot;Carmen y Iberia&quot;, maestra de Darío, uno de los nueve santos del Tribunal de Iberia, el único santo vivo actualmente, y su edad es muy avanzada.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_CARMEN_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>Los ex funcionarios de alto nivel de la Iglesia Anglicana Ibérica rechazaron el estatus papal otorgado por la familia real ibérica después de que la Gran Silencio arrasó Iberia. Luego llevaron a 12 personas relacionadas a transformar la Iglesia Anglicana en un tribunal, incluidos los nueve principales presentes en la iglesia. mesa, Carmen Los miembros fueron canonizados como &quot;santos&quot; y todos cambiaron sus apellidos a &quot;La Inquisición&quot;. También se ha convertido en la máxima autoridad en representación de Iberia; a través de la mediación de Kelsey, ella y Gladia, que representa a Agor, dejaron de lado temporalmente sus prejuicios y participaron conjuntamente en el reinicio del Ojo de Iberia y la búsqueda de Stutifela (es decir, el Loco). ) Después de la acción, él y Gladia expresaron su situación y cooperación entre sí y aceptaron a Jodi como aprendiz.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_CARMEN_CHAPTER_HISTORY_PARA_3" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_CARMEN_CHAPTER_HISTORY_PARA_4" Language="es_ES">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_IRENE_TITLE" Language="es_ES">
+			<Text>elini</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_IRENE_SUBTITLE" Language="es_ES">
+			<Text>elini</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_IRENE_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Elini, ex Inquisidora Ibérica y alumna del Gran Inquisidor Daario. Muy conocedores de la historia ibérica, el derecho, la geografía humana, etc. Después del incidente del &quot;Loco&quot;, renunció como Inquisidor. Después de la recomendación personal de Kelsey, ahora firmó un acuerdo de cooperación con Rhode Island como mensajero de la Inquisición para prepararse para las amenazas del océano.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_IRENE_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>Ex miembro del Tribunal Ibérico, estudió con el Gran Inquisidor Daario. Conoce de memoria las escrituras y las leyes de Iberia y domina el manejo rápido de la espada. Si la conocieras en Iberia, definitivamente estaría orgullosa. Preséntate con orgullo así.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_IRENE_CHAPTER_HISTORY_PARA_3" Language="es_ES">
+			<Text>Después de que Elini llegó a Rhode Island, nunca tomó la iniciativa de hablar sobre su identidad pasada. En otras palabras, pareció aceptar rápidamente el cambio de identidad.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_IRENE_CHAPTER_HISTORY_PARA_4" Language="es_ES">
+			<Text>Todos los archivos de Elini fueron manejados por Kelsey, y Elini quedó registrada como operadora de Rhode Island sin pasar por pasos complicados. Posteriormente, Elini fue destinado al Grupo Ibérico de Operaciones Especiales y dejó temporalmente de participar en tareas generales. Pero aparte del trabajo, Elini comerá y vivirá normalmente con otros operadores, tomará la iniciativa de aprender habilidades de combate que aún no domina, cumplirá las reglas y regulaciones de Rhode Island de manera más estricta que otros y pasará todo su tiempo libre en la biblioteca. . adentro. Elini ocasionalmente lamentaba que esto le recordara sus días como aprendiz en la Inquisición. Los esfuerzos de Elini han dado sus frutos. Después de que ella vino a Rhode Island por un período de tiempo, independientemente del conocimiento internalizado, la mejora en las habilidades de combate y los resultados integrales de las pruebas de aptitud física fueron suficientes para que los instructores y operadores preparatorios al mismo tiempo la consideraran con especial atención.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_IRENE_CHAPTER_HISTORY_PARA_5" Language="es_ES">
+			<Text>Todo lo que hace Elini es practicar lo que ella misma dijo: &quot;La identidad no determina quién soy, es lo que hago lo que determina mi capacidad&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_IRENE_CHAPTER_HISTORY_PARA_6" Language="es_ES">
+			<Text>También fue después de un período no tan corto de tiempo que la mayoría de los operadores en Rhode Island finalmente se dieron cuenta de que aunque ella siempre parecía muy estricta y seria, Elini definitivamente no era una persona que rechazaría la amistad de los demás. Seguro que echa una mano a quien le pide ayuda y recomienda generosamente la música del Siglo de Oro Ibérico a los amantes de la música. En varias ocasiones, algunas personas notaron que en algunas ocasiones felices, Elini observaba bailar a Gladia desde la distancia, con una leve expresión de entusiasmo en su rostro.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_LUMEN_TITLE" Language="es_ES">
+			<Text>luz</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_LUMEN_SUBTITLE" Language="es_ES">
+			<Text>luz</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_LUMEN_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Lumen, recomendado por Jiji y Kelsey, ahora actúa como operador de Rhode Island en Iberia, ayudando a Rhode Island a realizar trabajos de rescate médico para personas infectadas en Iberia. Al mismo tiempo, Lumen también asistirá a una serie de reuniones entre la Isla de Rodas, Agor y la Inquisición, hará sugerencias basadas en su propia perspectiva y trabajará con todas las partes para encontrar una manera de colaborar y afrontar el futuro.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_LUMEN_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>El operador Lumen, cuyo nombre real es Jody Fontanarossa, nació en un pueblo en decadencia de Iberia llamado Granfalo, y ha sido durante mucho tiempo el cuidador de la capilla local. Quizás porque la persona que lo cuidaba era el alcalde de esta ciudad, el estatus de Lumen como isleño de Argor no le causó ningún problema real durante mucho tiempo. Las áreas bajo control central son muy raras.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_LUMEN_CHAPTER_HISTORY_PARA_3" Language="es_ES">
+			<Text>Pero es más probable que la vida pacífica de Lumen se le atribuya a él mismo. Independientemente de su estatus profesional, este operador tiene una afinidad innata: prestará especial atención a las necesidades de todos los que lo rodean y se acercará en el momento adecuado. Incluso si realmente no puede ayudar debido a sus habilidades limitadas, Lumen está muy feliz de ser un amable compañero. Lo que es aún más raro es que no se da cuenta en absoluto de lo valiosa que es su actitud de llevarse bien con los demás.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OP_LUMEN_CHAPTER_HISTORY_PARA_4" Language="es_ES">
+			<Text>Deberíamos estar agradecidos de que una cualidad así pueda nacer en Iberia, donde la vida puede considerarse dura.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Así que levantemos una copa por nuestra amistad.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Me niego hasta que vea tu verdadero rostro.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>¿Aceptarás nuestra amistad?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Muy honrado.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>lástima.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Esta será tu o mi última batalla.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Sonaron las campanas de la Inquisición.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Fui negligente en mi deber.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Has ganado el título de civilización. Ja, ¿cuánto tiempo puede durar tu victoria?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Gracias por visitarnos, Iberia intentará entretenerlos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>No, la Inquisición no puede correr ese riesgo todavía.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Los jueces han traído especialidades ibéricas, algo de vino y marisco, y espero que podáis aceptarlos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Desde el Gran Silencio, nada nos sacudirá.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Eres sólo un villano en nombre de la civilización, no diferente de los isleños. [NEWLINE](te condena)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Carmen y Iberia, líder de la Inquisición y del Último Santo. Erradicaremos todas las amenazas de los herederos del mar, por favor no se unan a ellos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Ahora que estás aquí, ¿por qué no echas un vistazo a nuestros pueblos? Aunque el pasado ya no está ahí, quizás todavía puedas ver restos de la época dorada.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Gracias por compartir.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Comparta con nosotros la ubicación de su ciudad capital, será una situación estratégica en la que todos ganarán.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Discurso.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Sigue estrictamente las enseñanzas para que las amenazas no se aprovechen de ti. Estás haciendo lo correcto.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_OP_CARMEN_REASON_ANY" Language="es_ES">
+			<Text>(Sigues sus creencias).</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>La amenaza es inminente y debes buscar sustento en tu fe.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_OP_CARMEN_REASON_ANY" Language="es_ES">
+			<Text>(Estás violando sus enseñanzas).</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Alianza con la Inquisición y juntos destruiremos el mal.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Eso es todo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>No hay paz entre nosotros.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Dejemos de lado nuestras diferencias y afrontemos nuestra crisis común.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Por favor.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Necesitas la confianza de la Inquisición para poner un pie en Iberia.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>El Ejército de Castigo necesita pasar por vuestro país. ¿Lo permitís?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Retira tus tropas y no nos obligues a volver nuestras espadas contra ti.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>muy bien.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_OP_CARMEN_ANY" Language="es_ES">
+			<Text>Lo siento mucho por esto.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_CARMEN_POSITIVE" Language="es_ES">
+			<Text>Carmen está feliz de que practiques su religión.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_CARMEN_NEGATIVE" Language="es_ES">
+			<Text>Carmen no está contenta de que hayas violado sus creencias.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>¿Eh? ! Es tan repentino. Entonces, ¿te gustaría bailar conmigo?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>En medio de una crisis, no hay tiempo para discutir esto.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Sigue mi luz, evitaré la marea y la niebla del mar por ti, por favor acepta mi amistad.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Muchas gracias.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Bueno, está bien.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>No importa si Iberia está a punto de enfrentarse a enormes olas o tormentas violentas, ¡no retrocederé y mi espada nunca más flaqueará!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Por la supervivencia del mundo, me uniré a la Inquisición para destruirte. ¡Saca tu espada!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Lo siento profesora, Elini falló.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>¡El Inquisidor no puede soportar dar marcha atrás ante los espíritus malignos! Sin embargo, le prometí a la maestra que Elini no puede morir aquí todavía...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Lo que necesito es fuerza colectiva, no elogios. Ah, este regalo es bastante bonito... Entonces me lo quedaré.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Tengo cosas más importantes que afrontar.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Mi delegación llegará pronto a su país. Perdóneme por no poder encontrar un regalo decente en Iberia después del Gran Silencio.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>¿Todos ustedes tienen este tipo de virtud?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Comparado contigo, el pueblo de Argor puede ser llamado noble y amigable, e incluso los herederos no pueden compararse con tu desvergüenza. [NEWLINE](te condena)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>El correo de la Inquisición Ibérica, Elini, fue enseñado por el Gran Inquisidor Darío. ¿Serás enemigo o aliado de la Inquisición?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Ven a visitarnos a una ciudad cercana. Si lo deseas, también puedo llevarte a Gold Coast.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Sí, muchas gracias amigo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>El último gran faro se encuentra cerca de la Inquisición de Glenfalot. Si pudieras contarme sobre tu ciudad capital, me encantaría compartir más contigo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Hola.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Por el bien de la limpieza y la virtud del mundo, es vuestro deber y el mío eliminar a estos bárbaros, y habéis hecho un buen trabajo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_OP_IRENE_REASON_ANY" Language="es_ES">
+			<Text>(Has limpiado el campamento bárbaro).</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>¿Cómo puedes asociarte con esas criaturas bárbaras?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_OP_IRENE_REASON_ANY" Language="es_ES">
+			<Text>(Usted tolera la destrucción de los bárbaros).</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>La Biblia dice que lo que arroja la linterna del juez es la luz de la fe en nuestros corazones. ¿Tomarás mi linterna y te convertirás en nuestro aliado?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Entonces la guerra termina aquí.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Mi deber es erradicarte sin piedad.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Después de darme cuenta de que la esencia de esta guerra es que ambas partes sufrirán pérdidas, tal vez la paz sea lo que hemos estado buscando. ¿Qué piensas?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Haz lo que quieras, pero ten cuidado de no esconderte en las sombras.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>El enemigo más peligroso es a menudo el que mejor sabe disfrazarse.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Mis inquisidores desean pasar por vuestro territorio. ¿Confiaréis en mí?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>Tu ejército es bastante poderoso, pero todavía no es tan bueno como el de los jueces ibéricos. Te aconsejo que te retires lo antes posible.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_OP_IRENE_ANY}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_OP_IRENE_ANY" Language="es_ES">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_OP_IRENE_ANY}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_IRENE_POSITIVE" Language="es_ES">
+			<Text>Elini aprueba tu limpieza de los bárbaros.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_IRENE_NEGATIVE" Language="es_ES">
+			<Text>Aelini te odia por permitir que los bárbaros hagan lo que quieran.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Amigo... Bueno, mientras no te desagrade, estoy dispuesto a aceptar tu amistad.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Lo que estoy tratando de hacer es un poco complicado y no hay nada bueno que hacer con ello.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>¿Aceptarás mi amistad? Sería un honor estar con usted.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>¡Muchas gracias!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Bueno, me pondré mejor.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Aunque tengo miedo del campo de batalla, por el bien del futuro de todos, definitivamente te derrotaré.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Parece que no hay posibilidad de dudar y empezar a actuar.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Si todo va bien, ¿qué motivación tenemos para seguir trabajando duro y llegar más lejos?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Si mi fracaso puede traer más posibilidades al futuro de todos, entonces...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Gracias por su delegación y les deseo... paz y felicidad.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>No, por favor regresa.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Nuestra delegación no puede preparar ningún regalo particularmente caro para usted... Por favor, acéptelo. Este es el sonido de las olas en mi ciudad natal. Si tiene problemas, simplemente escúchelo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Nosotros... necesitamos un pequeño cambio.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Tus malas acciones serán conocidas y tarde o temprano la Inquisición presidirá tu juicio. [NEWLINE](te condena)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Lumen, Jody Fontanarossa, miembro de la Inquisición Ibérica y alumna de Monseñor Carmen, es un placer conocerte.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>La Inquisición de Glenfalot no está muy lejos. ¿Te gustaría tomarte un descanso para poder experimentar mis habilidades de fisioterapia?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Gracias por compartir tu información.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>El último faro se encuentra en Glenfarlo. ¿Cómo es tu capital? ¿Puedes contarme un poco sobre ella?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Es un honor.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Sólo somos gente humilde en el mundo, y la sabiduría de los sabios logrará nuestros grandes logros. Tú lo sabes bien.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_OP_LUMEN_REASON_ANY" Language="es_ES">
+			<Text>(Reclutas gente estupenda).</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>No te quejes de tus defectos, aprende de las experiencias de esas personas importantes. Si las cosas permanecen sin cambios, no habrá futuro.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_OP_LUMEN_REASON_ANY" Language="es_ES">
+			<Text>(No estás reclutando gente estupenda).</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>¿Me aceptarás como aliado? Incluso si sólo puedo proporcionarte una luz tenue, haré lo mejor que pueda.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>La guerra es algo muy difícil y la paz es el mejor resultado.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Anhelo un tiempo de paz, pero creo firmemente que sólo destruyéndoos se podrá lograr la paz.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>¿Estás dispuesto a detener la guerra? La guerra siempre es tan aterradora y peligrosa. Nosotros... necesitamos un cambio.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Por favor, sírvete tú mismo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>No, no puedo aceptar eso.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>¿Estás dispuesto a permitir que nuestras tropas pasen por tu territorio?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>Por favor, saquen sus tropas de aquí, nos están volviendo… opresivos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_OP_LUMEN_ANY}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_OP_LUMEN_ANY" Language="es_ES">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_OP_LUMEN_ANY}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LUMEN_POSITIVE" Language="es_ES">
+			<Text>Lumen se alegra de haber reclutado a gente estupenda</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LUMEN_NEGATIVE" Language="es_ES">
+			<Text>Lumen no se conforma con que ignores la importancia de los grandes hombres</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
