@@ -224,6 +224,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3151632661](https://steamcommunity.com/sharedfiles/filedetails/?id=3151632661) | Arknight Siracusa PVP Balance Patch | Arknight Siracusa PVP Balance Patch |
 | [3155097470](https://steamcommunity.com/sharedfiles/filedetails/?id=3155097470) | 少女前线 前线战备队 C-MS | Girls Frontline Frontline Combat Team C-MS |
 | [3161714280](https://steamcommunity.com/sharedfiles/filedetails/?id=3161714280) | 深空之眼 百解·禄良 | Eye of Deep Space Baijie Luliang |
+| [3167487272](https://steamcommunity.com/sharedfiles/filedetails/?id=3167487272) | Arknights Leithanien | Arknights Leithanien |
 | [3168733134](https://steamcommunity.com/sharedfiles/filedetails/?id=3168733134) | 亚特兰蒂斯（Atlantis） | Atlantis |
 | [3176431917](https://steamcommunity.com/sharedfiles/filedetails/?id=3176431917) | Azurlane AKashi | Azurlane Akashi |
 | [3177679279](https://steamcommunity.com/sharedfiles/filedetails/?id=3177679279) | 碧蓝航线：铁血公国 | Azur Lane: The Iron-Blooded Principality |
