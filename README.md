@@ -280,6 +280,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3359329039](https://steamcommunity.com/sharedfiles/filedetails/?id=3359329039) | 新艾利都·外环·卡吕冬之子 | New Eridu, Outer Ring, Son of Calydon |
 | [3359336896](https://steamcommunity.com/sharedfiles/filedetails/?id=3359336896) | 卡吕冬之子·露西亚娜·德·蒙特夫 | Luciana de Montefranco, son of Calydon |
 | [3367030257](https://steamcommunity.com/sharedfiles/filedetails/?id=3367030257) | Re:从零开始的异世界生活-王选篇领袖 | Re: Life in a Different World from Zero - Leader of the King's Selection |
+| [3381320614](https://steamcommunity.com/sharedfiles/filedetails/?id=3381320614) | 奥地利帝国：欧根亲王与IWS2000 | Austrian Empire: Prince Eugene and IWS2000 |
 | [3387945787](https://steamcommunity.com/sharedfiles/filedetails/?id=3387945787) | [崩坏：星穹铁道] 自灭者黄泉 Self-Annihilator Acheron | [Honkai Impact 3rd] Self-Annihilator Acheron |
 | [3387948572](https://steamcommunity.com/sharedfiles/filedetails/?id=3387948572) | 太苍文明【自学MOD练手】 | Taicang Civilization [Self-study MOD practice] |
 | [3390674887](https://steamcommunity.com/sharedfiles/filedetails/?id=3390674887) | 鹿乃的小鹿王国---Mod for Kano | Mod for Kano |

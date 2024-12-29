@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ecc3421b-d098-42f2-ad16-09ab7924505c" version="1">
+  <Properties>
+    <Name>MOD_AUSTRIA_NAME</Name>
+    <Description>MOD_AUSTRIA_DESC</Description>
+    <Created>1733408204</Created>
+    <Teaser>MOD_AUSTRIA_DESC</Teaser>
+    <Authors>Ophidy</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="MOD_AUSTRIA_NAME">
+      <zh_Hans_CN>IWS2000与欧根亲王的奥地利帝国</zh_Hans_CN>
+    </Text>
+    <Text id="MOD_AUSTRIA_DESC">
+      <zh_Hans_CN>IWS2000与欧根亲王的奥地利帝国</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+    <Criteria id="Suk_Selection">
+      <ModInUse>60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse>
+    </Criteria>
+    <Criteria id="No_Suk_Selection">
+      <ModInUse inverse="1">60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase" criteria="Suk_Selection">
+      <File>Database/Austria_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="UpdateColors">
+      <File>Database/Austria_Color.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="UpdateIcons">
+      <File>Database/Austria_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Text/Austria_Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>MOD_AUSTRIA_NAME.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="UpdateDatabase_Vanilla" criteria="No_Suk_Selection">
+      <File>Database/Austria_Config_Vanilla.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Database/Austria_Building.sql</File>
+      <File>Database/Austria_Civilization.sql</File>
+      <File>Database/Austria_District.sql</File>
+      <File>Database/Austria_Leader.sql</File>
+      <File>Database/Austria_Unit.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="UpdateColors">
+      <File>Database/Austria_Color.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="UpdateIcons">
+      <File>Database/Austria_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Text/Austria_Text_zh_Hans_CN.xml</File>
+      <File>Text/Austria_Diplo_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>MOD_AUSTRIA_NAME.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <File>Script/Austria_Script.lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="UpdateDatabase_Late">
+      <Properties>
+        <LoadOrder>20000</LoadOrder>
+      </Properties>
+      <File>Database/Austria_Modifier.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Database/Austria_Building.sql</File>
+    <File>Database/Austria_Civilization.sql</File>
+    <File>Database/Austria_Color.sql</File>
+    <File>Database/Austria_Config.sql</File>
+    <File>Database/Austria_Config_Vanilla.sql</File>
+    <File>Database/Austria_District.sql</File>
+    <File>Database/Austria_Leader.sql</File>
+    <File>Database/Austria_Modifier.sql</File>
+    <File>Database/Austria_Texture.xml</File>
+    <File>Database/Austria_Unit.sql</File>
+    <File>MOD_AUSTRIA_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/IWS_AustriaTexture.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_IWS_Austria</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_IWS_Austria</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/BLPs/IWS_AustriaTexture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_IWS_Austria</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_IWS_Austria</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Script/Austria_Script.lua</File>
+    <File>Text/Austria_Diplo_zh_Hans_CN.xml</File>
+    <File>Text/Austria_Text_zh_Hans_CN.xml</File>
+  </Files>
+</Mod>
