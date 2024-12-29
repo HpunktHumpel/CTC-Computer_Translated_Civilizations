@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 14:16:28 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_DESCRIPTION" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_ADJECTIVE" Language="ja_JP">
+			<Text>虚空から</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_NAME" Language="ja_JP">
+			<Text>形のない眠り</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_DESCRIPTION" Language="ja_JP">
+			<Text>ボイドモードが必要です。
+                [NEWLINE]選択した文明で都市を建設すると、疑惑レベルが 30 レベル上昇します。最低でも 10 レベルです。 「疑惑」層の数に関係なく、ボイドユニットを生成できます。
+                [NEWLINE]選択した文明が都市を失うと、すべての都市の疑惑が +30 増加します。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ACHERON_NAME" Language="ja_JP">
+			<Text>黄泉</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_NAME" Language="ja_JP">
+			<Text>冥界の監視者</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_DESCRIPTION" Language="ja_JP">
+			<Text>各都市の人口は2 [ICON_PRODUCTION]の生産性と1 [ICON_FOOD]の食料を提供し、選択された文明の平均「疑惑」レベルはこの効果を-0.5%増加させ、選択されていない文明の平均「疑惑」レベルはこの効果を-0.5%増加させます。効果-0.5%。
+                [NEWLINE]特別なボイドユニット「黄泉」により、すべてのボイドユニットは初期状態でレベル 1 に昇格します。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION" Language="ja_JP">
+			<Text>容疑者</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DESC" Language="ja_JP">
+			<Text>「疑惑」のレベルが上がるごとに、[ICON_CULTURE] 文化が 1%、[ICON_SCIENCE] 科学が 1%、[ICON_PRODUCTION] 生産性が 1%、[ICON_Tourism] 観光が 1%、[ICON_FOOD] 食料が 1.5% 減少します。 [ICON_FAITH] 信仰、1.5% [ICON_GOLD] ゴールド。
+                [NEWLINE]「疑惑」が 20 層を超えるごとに、その都市タイルのユニットに少なくとも 1 レベルの「自爆」が付与されます。この効果に必要な層の数は、社会制度「政治哲学」を研究すると半分になります。
+                [NEWLINE]「疑惑」のレベルが 20 上がるごとに、居住性が [ICON_AMENITIES] 1 減少し、忠誠心が 1 減少します。自治体の「啓蒙」を研究すると、必要なレベル数が半分になります。
+                [NEWLINE] 「疑惑」が30層になるごとに、9マス以内の近隣都市に「疑惑」が1層広がり、マスごとに「疑惑」が1層弱まります。技術「印刷」を研究した後、エフェクトに必要なレイヤー数が半分になります。「ラジオ」後の減衰に必要なバーの数は 2 倍になります。 「疑惑」がレベル 99 に達すると、技術を研究しても都市の伝播効果は変化しなくなります。
+                [NEWLINE]「疑惑」レベルが 50 上がるごとに、ターンごとに時代ポイントが 1 減少します。市の「ソーシャル メディア」を研究すると、効果が 2 倍になります。
+                [NEWLINE][ICON_AMENITIES] アメニティが 0 未満の各パーツについては、「疑惑」に +1 を追加し、アメニティが 3 を超える各パーツについては、「疑惑」に -1 を追加します。自治体の「イデオロギー」を研究すると、効果が 2 倍になります。 「」。 「疑惑」の上限は99で、1ラウンドあたり最大15層の「疑惑」を獲得できます。
+                [NEWLINE]都市が包囲されているとき、「疑惑」はターンごとに-5減少します。市政「ヒューマニズム」を研究すると効果が2倍になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR" Language="ja_JP">
+			<Text>自爆する</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR_DESC" Language="ja_JP">
+			<Text>「自滅」レベルごとに戦闘力が[ICON_STRENGTH]-1されます。
+            [NEWLINE]「Self-Destruction」がレベル20以上の場合、「Self-Destruction」の各レベルのHPは-1[ICON_Damages]になります。
+            [NEWLINE]「Self-Destruction」の 8 レベルごとに、[ICON_MOVEMENT] 移動が 1 回減少します。
+            [NEWLINE] 各ラウンドで「自己破壊」+1。
+            [NEWLINE] 「自滅」を持つユニットが消滅すると、それはユニット *自滅*: 周囲の +2 都市 +5 「疑惑」とみなされ、25% の確率でバーバリアンに変身します。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CIVI_AVERAGE_SUSPICION" Language="ja_JP">
+			<Text>母国における平均的な「疑惑」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_FORE_AVERAGE_SUSPICION" Language="ja_JP">
+			<Text>外国人の平均は「怪しい」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_AMENITIES" Language="ja_JP">
+			<Text>[ICON_AMENITIES] の「Doubt」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_NEARBY_CITY" Language="ja_JP">
+			<Text>近隣都市からの「疑惑」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DECREASING_FROM_BESIEGED" Language="ja_JP">
+			<Text>「疑惑」は包囲から生まれる</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE" Language="ja_JP">
+			<Text>州</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE_ROUND" Language="ja_JP">
+			<Text>ラウンド</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING" Language="ja_JP">
+			<Text>&quot;キンキンに目が覚めた&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING_DESC" Language="ja_JP">
+			<Text>都市は「不審」の蔓延の影響を受けない</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_LZUMO" Language="ja_JP">
+			<Text>出雲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_TRUTH" Language="ja_JP">
+			<Text>本物</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_SKY" Language="ja_JP">
+			<Text>空</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_HOWL" Language="ja_JP">
+			<Text>明</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MIST" Language="ja_JP">
+			<Text>ラン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FROST" Language="ja_JP">
+			<Text>霜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FATE" Language="ja_JP">
+			<Text>命</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FLARE" Language="ja_JP">
+			<Text>強い</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_THOUGHT" Language="ja_JP">
+			<Text>寝る</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_ROOT" Language="ja_JP">
+			<Text>財団</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_RORM" Language="ja_JP">
+			<Text>千</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_BIND" Language="ja_JP">
+			<Text>バンドル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MAW" Language="ja_JP">
+			<Text>喰</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_1" Language="ja_JP">
+			<Text>丹西</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_2" Language="ja_JP">
+			<Text>マックス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_3" Language="ja_JP">
+			<Text>ウールジー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_4" Language="ja_JP">
+			<Text>キーナン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_5" Language="ja_JP">
+			<Text>ハリバートン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_1" Language="ja_JP">
+			<Text>ココナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_2" Language="ja_JP">
+			<Text>銭克東</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_3" Language="ja_JP">
+			<Text>ウマ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_4" Language="ja_JP">
+			<Text>阿蘭</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_5" Language="ja_JP">
+			<Text>フルラ</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_NAME" Language="ja_JP">
+			<Text>虚無ウォーカー</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_DESCRIPTION" Language="ja_JP">
+			<Text>「キュア」回数を消費すると「疑惑」が軽減され、関係が改善されます。相手の文明の「怪しさ」が5層減るごとに関係性が1ずつ増えていきます。ユニットの「キュア」が「ダウト」を増加させると、その割合で関係性が減少します。
+                [NEWLINE]最初は少なくともレベル 1 の「Self-Destruction」を所有し、「Self-Destruction」の [ICON_MOVEMENT] 移動力と [ICON_STRENGTH] 戦闘力デバフを無視します。
+                [NEWLINE]ボイド以外のユニットの「自爆」効果を変更できる場合、その効果は都市の「不審」効果を軽減するのと同じです。
+                [NEWLINE]エリアコントロールを無視し、略奪できません。ユニットを攻撃すると「回復」時間を消費したとみなされ、防御時にはその文明が作成した最高戦闘力ユニット[ICON_STRENGTH]と同じ戦闘力が得られます。
+                [NEWLINE] 経験値は獲得できません。自治体の「政治哲学」「啓蒙思想」「思想」を研究すると、今後生産されるユニットに有効な強化アップグレードが与えられます。
+                [NEWLINE]以下の[COLOR:128,128,128,200] * 演出提案[ENDCOLOR]は初期状態に適用されます。プロモーションに応じて調整してください</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ACHERON" Language="ja_JP">
+			<Text>「レンジャー」を名乗る旅人で、本名は不明。長剣を携え、一人で天の川を旅する。
+                [改行]
+                [NEWLINE] 無関心で無口で、剣の速さは紫の稲妻のように速いが、常に鞘だけを使って戦い、発砲せずに構えている。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_NAME" Language="ja_JP">
+			<Text>黄泉</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_DESCRIPTION" Language="ja_JP">
+			<Text>注目のボイドユニット、ステルス、基本戦闘力[ICON_STRENGTH]は、選択した文明が生産する最高戦闘力ユニットと同じで、「回復」時間を消費して自身と周囲の細胞都市を-20「怪しい」にする。昇進ツリーと致命的なダメージを受けると撤退します。
+                [NEWLINE] 作成時にレベル 99 の「自己破壊」を持ちますが、「自己破壊」の効果は無視されます。
+                [NEWLINE] 黄泉を獲得した後、選択した文明は攻撃するたびに黄泉の「残夢」を1層蓄積し、生成時に6層獲得し、最大12層蓄積されます。
+                [NEWLINE] 「レムナント ドリーム」が 9 レベルに達すると、「レムナント ドリーム インフュージョン、一刀で斬る」状態に入ることができ、ユニットの移動力は +4 [ICON_MOVEMENT]、戦闘力は +10 [ICON_STRENGTH]です。 「治癒」4回、視力+2。
+                [NEWLINE] 「治癒」の回数がなくなると「レムナントドリーム」を9層消費し、「レムナントドリームドレイン、ワンナイフブレイク」を3回繰り返すごとに「レムナントドリームドレイン、ワンナイフブレイク」が終了します。 「」がリリースされると、黄泉は強化されたアップグレードを受けます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="ja_JP">
+			<Text>夜警</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」が0より大きい場合にロックが解除されるボイドユニットは、「治癒」回数を消費して、自身と周囲のセルの「疑惑」を-3します。
+                [NEWLINE]都市に「Listening」ステータスを与える：5ターンの間、[ICON_AMENITIES]の居住性による都市の「Doubt」の成長を半分にします。
+                [NEWLINE]削除は*自己破壊*とみなされません
+                [NEWLINE][COLOR:128,128,128,200]* ネガティブな居住性[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="ja_JP">
+			<Text>平凡な人々</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_DESCRIPTION" Language="ja_JP">
+			<Text>ボイドユニットは、「疑惑」が0より大きい場合にロックが解除されます。「治癒」回数を消費して、自身と周囲の細胞都市の「疑惑」を-3します。
+                [NEWLINE]「疑惑」を軽減すると、外交関係は2倍になります。
+                [NEWLINE]削除は*自己破壊*とみなされません
+                [NEWLINE][COLOR:128,128,128,200]* 外国に対する「不審さ」を少なくする必要がある[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_NAME" Language="ja_JP">
+			<Text>落雷</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_DESCRIPTION" Language="ja_JP">
+			<Text>特殊能力：ロックバンドは設立時に「自滅」を持ち、歌うと自身と周囲の2つの細胞都市の「不審度」が-10され、ロックバンドの各レベルが+1と-5にアップグレードされます。 「疑惑」。
+                [NEWLINE]+3 [ICON_MOVEMENT] 移動。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="ja_JP">
+			<Text>自己のない道化師</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_DESCRIPTION" Language="ja_JP">
+			<Text>ボイドユニットは30以上の「ダウト」でロックが解除されます。ユニットは「治癒」回数を消費して、自分自身と周囲のセルの「ダウト」を-3します。
+                [NEWLINE]「疑い」が 20 を超える都市にステータス「幸福」を与えます: +1 [ICON_AMENITIES] 5 ターンの間、都市に快適さを与えます。
+                [NEWLINE]削除は*自己破壊*とみなされません。
+                [NEWLINE][COLOR:128,128,128,200]* ネガティブな居住性[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="ja_JP">
+			<Text>自己認証協会</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」が 30 以上になるとロック解除されるボイド ユニットは、「回復」時間を消費して、自身と周囲のセル シティの「疑惑」を -5 減少させます。
+                [NEWLINE]「疑惑」が 20 を超えると、都市は「自己証明」ステータスを獲得します: 都市の科学値 +5% [ICON_SCIENCE]、生産量 +5% [ICON_PRODUCTION]、5 ターン持続します。
+                [NEWLINE]削除は*自己破壊*とはみなされません。
+                [NEWLINE][COLOR:128,128,128,200]* 生産性が高く、より高い生産性/技術価値が必要です[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_NAME" Language="ja_JP">
+			<Text>救助者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_DESCRIPTION" Language="ja_JP">
+			<Text>無効なユニット、ロック解除するには「ダウト」が 30 以上です、生産は [ICON_Citizen] 人口を 1 つ消費します、「自己破壊」を増加させることができます、1 ラウンドの生産後にすべての [ICON_MOVEMENT] 移動力を失います、自身を回復するために「ヒーリング」時間を消費しますとその周囲のセル 都市 [ICON_Citizen] 人口 -1、「疑い」+10。
+                [NEWLINE] 「疑惑」が増大すると、外交関係は2倍減少します。
+                [NEWLINE]文明内のすべての都市に「恐怖」ステータスを与えます: 都市の居住性 -1 [ICON_AMENITIES] (5 ターン継続)。
+                [NEWLINE]「治癒」していない場合、削除は「治癒」したものとみなされます。ユニットの「治癒」効果は、[ICON_Damated] の体力にも影響します。
+                [NEWLINE][COLOR:128,128,128,200]* 制作には推奨されません[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="ja_JP">
+			<Text>死者を拒絶する</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」が0より大きい場合にロックが解除されるボイドユニットは、「治癒」回数を消費して、自身と周囲のセルの「疑惑」を-3します。
+                [NEWLINE]「容疑者」を 40 都市 + [ICON_Citizen] 人口以上にする。
+                [NEWLINE] 除去は*自己破壊*とみなされず、「治癒」時間の消耗は*治癒*とみなされます:自身および周囲の細胞都市-5「容疑者」。
+                [NEWLINE][COLOR:128,128,128,200]* 「容疑者」が多く、人口が少ない[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="ja_JP">
+			<Text>カオスドクター</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」が0より大きいときにロック解除されるボイドユニットは、「自滅」を軽減し、「回復」の数を消費して自身と周囲のセルを50％の確率で-5「疑惑」、25％の確率で行うことができます「疑惑」-15、「疑惑」25%の確率+5。
+                [NEWLINE][COLOR:128,128,128,200]*「容疑者」高[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_NAME" Language="ja_JP">
+			<Text>冤仇代行</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」が0より大きいときにロック解除されるボイドユニットは「自爆」を増加させることができ、都市を包囲する際に戦闘力を-20[ICON_STRENGTH]し、「治癒」回数を消費した後は「疑惑」を+1します。それ自体と周囲の細胞都市。
+                [NEWLINE]攻撃されたユニットごとに +10 [ICON_GOLD] ゴールドを獲得します。
+                [NEWLINE][COLOR:128,128,128,200]* 資金は十分です[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="ja_JP">
+			<Text>相対トレーサー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」が50以上のときにロック解除されるボイドユニットは、「自滅」を増加させることができ、「治療」カウントは1のみで、自身と周囲のセルに+20の「疑惑」を与えます。
+                [NEWLINE] 文明内のすべての都市にステータス「カオス」を与えます。居住可能性が 0 より大きい都市 [ICON_AMENITIES] の部分は、5 ラウンドの間「疑わしい」状態になります。
+                [NEWLINE]「回復」されていない場合、除去は「回復」とみなされ、ユニットの「回復」効果は[ICON_Damagged]の体力にも影響します。
+                [NEWLINE][COLOR:128,128,128,200]* 戦争は不利な状況にあります[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_ACHERON_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_NAME" Language="ja_JP">
+			<Text>雷も太鼓も静まり、風も止んだ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_DESCRIPTION" Language="ja_JP">
+			<Text>+2 [ICON_MOVEMENT] 移動、+5 「治癒」効果</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_NAME" Language="ja_JP">
+			<Text>通り過ぎる岸辺を歩いて</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘「Can Meng」+1、すべての文明はユニット「Can Meng」+1を生産または購入します</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_NAME" Language="ja_JP">
+			<Text>空から降る本当の言葉の始まり</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_DESCRIPTION" Language="ja_JP">
+			<Text>敵対的な都市に近づくと都市を包囲し、攻撃を受けた後に攻撃者を殺します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_NAME" Language="ja_JP">
+			<Text>燃え盛る炎が鏡の中の人を見つめる</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」範囲+2、「自爆」を軽減可能</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_NAME" Language="ja_JP">
+			<Text>4つのフェーズが私を遮断した</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_DESCRIPTION" Language="ja_JP">
+			<Text>この文明に[ICON_STAT_GRIEVANCE]不満を持っていない文明ユニットを攻撃すると、攻撃後に移動することができ、文明ユニットは即座に破壊され、すべての[ICON_Damated]体力、[ICON_MOVEMENT]移動力、攻撃回数が回復します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_NAME" Language="ja_JP">
+			<Text>災害と罪悪感が足かせを解く</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_DESCRIPTION" Language="ja_JP">
+			<Text>選択した文明のすべてのエーテルユニットは+10 [ICON_STRENGTH]の戦闘力と+2 [ICON_MOVEMENT]の移動力を持ちます。
+                [NEWLINE] ユニットが都市の「怪しい」の 30% 未満の「怪しい」を解除できれば、直接都市の 30% の「怪しい」を解除でき、「自滅」もクリアできます。
+                [NEWLINE] 都市は「覚醒」ステータスを獲得します。都市は「不審」の蔓延の影響を受けず、これは 5 ラウンド持続します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_NAME" Language="ja_JP">
+			<Text>人生</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_DESCRIPTION" Language="ja_JP">
+			<Text>範囲内のユニットの[ICON_STRENGTH]戦闘力と[ICON_MOVEMENT]移動力は「自爆」の影響を受けて半分になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_NAME" Language="ja_JP">
+			<Text>広める</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」範囲+1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_NAME" Language="ja_JP">
+			<Text>反対方向</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットの「自爆」を軽減し、「治癒」効果を+5できる</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_NAME" Language="ja_JP">
+			<Text>存在する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」効果+5</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_NAME" Language="ja_JP">
+			<Text>見守る</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_DESCRIPTION" Language="ja_JP">
+			<Text>都市のステータスを「リッスン中」にします: 5 ターンの間、[ICON_AMENITIES] の居住可能性が増加するため、都市は「不審」ではなくなります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_NAME" Language="ja_JP">
+			<Text>コミュニケーター</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_DESCRIPTION" Language="ja_JP">
+			<Text>敵の文明都市に対する+5「治癒」効果、治癒した敵文明都市ごとに+1「自爆」効果</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_NAME" Language="ja_JP">
+			<Text>友情</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_DESCRIPTION" Language="ja_JP">
+			<Text>敵文明都市の「治癒」効果が2倍になる</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_NAME" Language="ja_JP">
+			<Text>検索</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_DESCRIPTION" Language="ja_JP">
+			<Text>+3 [ICON_MOVEMENT] 移動</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_NAME" Language="ja_JP">
+			<Text>困惑した</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」範囲+2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_NAME" Language="ja_JP">
+			<Text>疑い</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_DESCRIPTION" Language="ja_JP">
+			<Text>敵の文明都市に対する「治癒」効果+5、防御時の戦闘力+20 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_NAME" Language="ja_JP">
+			<Text>ピエロ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」効果+5</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_NAME" Language="ja_JP">
+			<Text>不条理な</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_DESCRIPTION" Language="ja_JP">
+			<Text>+5「Cure」効果、「Doubt」が20を超える都市にステータス「Happiness」を獲得：都市+2 [ICON_AMENITIES]居住性、5ラウンド持続</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_NAME" Language="ja_JP">
+			<Text>素晴らしいパフォーマンス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」範囲+2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_NAME" Language="ja_JP">
+			<Text>喜び</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_DESCRIPTION" Language="ja_JP">
+			<Text>「自己破壊」を軽減し、範囲内の都市に「幸福」ステータスを獲得させることができます: 都市の居住性 +2 [ICON_AMENITIES]、5 ラウンド継続</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_NAME" Language="ja_JP">
+			<Text>自爆する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_DESCRIPTION" Language="ja_JP">
+			<Text>範囲内の居住性がマイナスの都市を「幸福」ステータスにします: 都市の居住性+5 [ICON_AMENITIES]、5ラウンド継続、除去は*自己破壊*とみなされます</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_NAME" Language="ja_JP">
+			<Text>パズル</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」効果+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_NAME" Language="ja_JP">
+			<Text>答え</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」効果範囲+1、範囲内のユニットの戦闘力[ICON_STRENGTH]と移動力[ICON_MOVEMENT]が「自爆」により半減します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_NAME" Language="ja_JP">
+			<Text>勤勉</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」を20以上にすると、都市はステータス「自己証明」を獲得します。都市の[ICON_SCIENCE]テクノロジー値が+5%、[ICON_PRODUCTION]生産性が+10%となり、5ターン持続します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_NAME" Language="ja_JP">
+			<Text>抵抗する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_DESCRIPTION" Language="ja_JP">
+			<Text>「自滅」を軽減できる</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_NAME" Language="ja_JP">
+			<Text>作成する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」を 20 より大きくすると、都市は「自己認定」ステータスを獲得します: +10% [ICON_SCIENCE] 技術価値、+10% [ICON_PRODUCTION] 生産性、5 ラウンド継続</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RESCUER_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_NAME" Language="ja_JP">
+			<Text>破壊する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」範囲+2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_NAME" Language="ja_JP">
+			<Text>一瞬</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_DESCRIPTION" Language="ja_JP">
+			<Text>+2 [ICON_MOVEMENT] 移動</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_NAME" Language="ja_JP">
+			<Text>銃口</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_DESCRIPTION" Language="ja_JP">
+			<Text>自身と周囲のセルシティの「治療」範囲 +2、「治療」体力 -10 [ICON_Damages]、および -3 [ICON_Citizen] 人口</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_NAME" Language="ja_JP">
+			<Text>拷問</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_DESCRIPTION" Language="ja_JP">
+			<Text>「治療」はすべての健康ポイントを回復し、文明内のすべての都市にステータス「恐怖」を与えます: 都市の居住可能性 -3 [ICON_AMENITIES] (5 ラウンド継続)</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_NAME" Language="ja_JP">
+			<Text>償還</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_DESCRIPTION" Language="ja_JP">
+			<Text>文明内のすべての都市にステータス「恐怖」を与える：都市の [ICON_Citizen] 人ごとに居住性 [ICON_AMENITIES] が -1 (5 ターン継続)</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="ja_JP">
+			<Text>無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_NAME" Language="ja_JP">
+			<Text>病院のベッド</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_DESCRIPTION" Language="ja_JP">
+			<Text>範囲内のユニットの[ICON_STRENGTH]戦闘力と[ICON_MOVEMENT]移動力は「自爆」の影響を受けて半分になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_NAME" Language="ja_JP">
+			<Text>頭足類</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」範囲+2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_NAME" Language="ja_JP">
+			<Text>ファインティング</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」効果+5</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_NAME" Language="ja_JP">
+			<Text>医学</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_DESCRIPTION" Language="ja_JP">
+			<Text>「自滅」を軽減し、「疑惑」を20以上にすることができます。都市はステータス「身体検査」を取得します：都市+15％[ICON_FOOD]食料、5ラウンド持続。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_NAME" Language="ja_JP">
+			<Text>初勝利</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_DESCRIPTION" Language="ja_JP">
+			<Text>「自滅」を減少させ、「疑い」を40以上にし、都市[ICON_Citizen]の人口を+3することができます</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_NAME" Language="ja_JP">
+			<Text>カオスメディスンキット</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」効果は2倍になり、ユニットの「治癒」効果は[ICON_Damagged]の体力にも影響します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_NAME" Language="ja_JP">
+			<Text>カオス・ユンジ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_DESCRIPTION" Language="ja_JP">
+			<Text>「ヒーリング」効果+5、「ヒーリング」範囲+1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_NAME" Language="ja_JP">
+			<Text>カオス特殊効果エリクサー</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_DESCRIPTION" Language="ja_JP">
+			<Text>「ヒーリング」効果+2、「ヒーリング」範囲+2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_NAME" Language="ja_JP">
+			<Text>ボイドファイアペイント</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」範囲+2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_NAME" Language="ja_JP">
+			<Text>絶対的な失敗へのレシピ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_DESCRIPTION" Language="ja_JP">
+			<Text>範囲内のバーバリアンを破壊する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_EXECUTOR_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_NAME" Language="ja_JP">
+			<Text>銃口</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_DESCRIPTION" Language="ja_JP">
+			<Text>+10 [ICON_GOLD] メンテナンス、+10 [ICON_STRENGTH] 戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_NAME" Language="ja_JP">
+			<Text>報酬</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_DESCRIPTION" Language="ja_JP">
+			<Text>+30 [ICON_GOLD] 金貨をゲット</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_NAME" Language="ja_JP">
+			<Text>理解する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_DESCRIPTION" Language="ja_JP">
+			<Text>+3 [ICON_MOVEMENT] 移動</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_NAME" Language="ja_JP">
+			<Text>成し遂げる</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_DESCRIPTION" Language="ja_JP">
+			<Text>+20 [ICON_GOLD] メンテナンス料、+20 [ICON_STRENGTH] 戦闘力、+2 &quot;自爆&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_NAME" Language="ja_JP">
+			<Text>キラー</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_DESCRIPTION" Language="ja_JP">
+			<Text>+30 [ICON_GOLD] メンテナンス料、+30 [ICON_STRENGTH] 戦闘力、+3「自爆」、+30 [ICON_GOLD] ゴールド コイン獲得</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="ja_JP">
+			<Text>虚無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_NAME" Language="ja_JP">
+			<Text>説明する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_DESCRIPTION" Language="ja_JP">
+			<Text>敵の文明都市ユニットへの回復効果が2倍になります</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_NAME" Language="ja_JP">
+			<Text>戦争はありません</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_DESCRIPTION" Language="ja_JP">
+			<Text>「治癒」効果-10</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_NAME" Language="ja_JP">
+			<Text>説明する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_DESCRIPTION" Language="ja_JP">
+			<Text>-2 [ICON_MOVEMENT] 移動、+3 回復範囲</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_NAME" Language="ja_JP">
+			<Text>幻想</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_DESCRIPTION" Language="ja_JP">
+			<Text>この文明に都市が 1 つしかない場合、範囲内のユニットは即死します。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_NAME" Language="ja_JP">
+			<Text>スノードーム</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_DESCRIPTION" Language="ja_JP">
+			<Text>+4 &quot;Healing&quot; 範囲、*自爆* 効果は次のように変更されます: この文明に都市が 1 つしかない場合、過去に建設されたすべての都市 +99 &quot;Doubt&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_NAME" Language="ja_JP">
+			<Text>疑いが大きくなる</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_TOOLTIP" Language="ja_JP">
+			<Text>プロット上で推定される成長率を表示する</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_TOOLTIP" Language="ja_JP">
+			<Text>残された夢</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC" Language="ja_JP">
+			<Text>「レムナント・ドリーム」の攻撃力+1、最大12スタック。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC_WITH_PROMOTION" Language="ja_JP">
+			<Text>攻撃力+2「レムナント・ドリーム」、文明で生産または購入した全ユニット「レムナント・ドリーム」+1、合計12層まで。 （「過ぎゆく岸辺を歩く」アップグレードによる）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP" Language="ja_JP">
+			<Text>「治る」回</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_RANGE" Language="ja_JP">
+			<Text>範囲</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_EFFECT" Language="ja_JP">
+			<Text>効果</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_PROBABILITY" Language="ja_JP">
+			<Text>確率</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DECREASE" Language="ja_JP">
+			<Text>減らす</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_INCREASE" Language="ja_JP">
+			<Text>上昇</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT" Language="ja_JP">
+			<Text>「自滅」を軽減できる</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT_MAX" Language="ja_JP">
+			<Text>「自滅」をクリアできる</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SUSPICION" Language="ja_JP">
+			<Text>&quot;容疑者&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_TOOLTIP" Language="ja_JP">
+			<Text>「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_WORLDVIEW_TEXT" Language="ja_JP">
+			<Text>&quot;容疑者&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_WORLDVIEW_TEXT" Language="ja_JP">
+			<Text>「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DESC" Language="ja_JP">
+			<Text>「キュア」回数を消費すると「疑惑」が軽減され、関係が改善されます。相手の文明の「怪しさ」が5層減るごとに関係性が1ずつ増えていきます。ユニットの「キュア」が「ダウト」を増加させると、その割合で関係性が減少します。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SELF_ANNIHILATOR" Language="ja_JP">
+			<Text>攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_SELF_ANNIHILATOR" Language="ja_JP">
+			<Text>「自滅」は変えられる</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CLEAN_SELF_ANNIHILATOR" Language="ja_JP">
+			<Text>「自滅」をクリアできる</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_KILL_SIN_THIRSTER" Language="ja_JP">
+			<Text>野蛮人を滅ぼす</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_HEAL_USE_UP_REGARD_AS_RECOVERY" Language="ja_JP">
+			<Text>「癒し」の回数がなくなると「癒し」としてカウントされます</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_NOT_REGARD_AS_SELF_ANNIHILATOR" Language="ja_JP">
+			<Text>削除は*自己破壊*とみなされません</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_REGARD_AS_HEAL" Language="ja_JP">
+			<Text>「硬化」していない場合、削除は「硬化」したものとみなされます。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_DAMAGE" Language="ja_JP">
+			<Text>「ヒール」効果は[ICON_Damages]の体力に適用されます</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_DAMAGE" Language="ja_JP">
+			<Text>[ICON_Damated] の健康状態</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_SET_DAMAGE" Language="ja_JP">
+			<Text>[ICON_Damagged] の体力を回復します</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT" Language="ja_JP">
+			<Text>「癒し」の好感度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT_2" Language="ja_JP">
+			<Text>倍</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_HALF_SELF_ANNIHILATOR_EFFECT" Language="ja_JP">
+			<Text>「自滅」戦闘力[ICON_STRENGTH]と移動力[ICON_STRENGTH]効果を半分にする</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_ATTACKER" Language="ja_JP">
+			<Text>攻撃者を殺す</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT_WHEN_JUSTICE_WAR" Language="ja_JP">
+			<Text>特定の状況下では、ユニットを即座に殺し、すべてのヘルスポイントを回復します。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_FOR_ALL" Language="ja_JP">
+			<Text>すべての都市</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL" Language="ja_JP">
+			<Text>「癒される」とき</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_UNIT" Language="ja_JP">
+			<Text>ユニットを「回復」するとき</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_ATTACK" Language="ja_JP">
+			<Text>攻撃</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF" Language="ja_JP">
+			<Text>のように</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_OR" Language="ja_JP">
+			<Text>または</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_IS_ENEMY" Language="ja_JP">
+			<Text>敵です</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_SUSPICION_GT" Language="ja_JP">
+			<Text>疑いはより大きい</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_NAGETIVE_AMENITY" Language="ja_JP">
+			<Text>マイナスの居住性</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_ONLY_ONE_CITY" Language="ja_JP">
+			<Text>たった一つの都市</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_AWARENESS_6" Language="ja_JP">
+			<Text>ステータス「覚醒」を獲得（「ダウト」の蔓延の影響を受けない）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_0" Language="ja_JP">
+			<Text>ステータス「Listening」を獲得（[ICON_AMENITIES]の居住性増加「Doubtful」により半分）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_HEAL_EFFECT" Language="ja_JP">
+			<Text>「癒し」効果</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_5" Language="ja_JP">
+			<Text>「聞き込み中」ステータスを獲得する（[ICON_AMENITIES]アメニティ増加により「疑わしい」ステータスにはなりません）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_SELF_SELF_ANIHILATOR" Language="ja_JP">
+			<Text>「自滅」の変化</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_MULTIPLY_HEAL_EFFECT" Language="ja_JP">
+			<Text>「癒し」効果</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_0" Language="ja_JP">
+			<Text>ステータス「ハピネス」を獲得（都市+1 [ICON_AMENITIES]アメニビリティ）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_2" Language="ja_JP">
+			<Text>ステータス「ハピネス」を獲得（都市+2 [ICON_AMENITIES]アメニビリティ）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_4" Language="ja_JP">
+			<Text>ステータス「ハピネス」を獲得（都市+2 [ICON_AMENITIES]アメニビリティ）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_5" Language="ja_JP">
+			<Text>ステータス「ハピネス」を獲得（都市+5 [ICON_AMENITIES]アメニビリティ）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_0" Language="ja_JP">
+			<Text>「自己認定」ステータスを取得 (都市 +5% [ICON_SCIENCE] テクノロジー価値、+5% [ICON_PRODUCTION] 生産性)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_3" Language="ja_JP">
+			<Text>「自己認定」ステータスを取得 (都市 +5% [ICON_SCIENCE] テクノロジー価値、+10% [ICON_PRODUCTION] 生産性)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_5" Language="ja_JP">
+			<Text>「自己認定」ステータスを取得 (都市 +10% [ICON_SCIENCE] テクノロジー価値、+10% [ICON_PRODUCTION] 生産性)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_0" Language="ja_JP">
+			<Text>ステータス「ひどい」を獲得（都市 -1 [ICON_AMENITIES] アメニティ）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_POPULATION" Language="ja_JP">
+			<Text>[ICON_Citizen] 人口</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_4" Language="ja_JP">
+			<Text>ステータス「Terror」を取得（都市-3 [ICON_AMENITIES]の居住性）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_5" Language="ja_JP">
+			<Text>ステータス「Terror」を取得（都市 -5 [ICON_AMENITIES] 居住性）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HEALTH_EXAM_4" Language="ja_JP">
+			<Text>「健康チェック」ステータスを獲得しました（都市 +15% [ICON_FOOD] 食料）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_GOLD" Language="ja_JP">
+			<Text>[ICON_GOLD] 金貨</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_DERANGED_0" Language="ja_JP">
+			<Text>ステータス「カオス」を獲得（都市[ICON_AMENITIES]の居住性が0以上の部分は「怪しさ」が追加される）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DESTORY_BUILT_CITY" Language="ja_JP">
+			<Text>自滅効果：この文明に都市が一つしかない場合、過去に建設された全ての都市の「疑い」が+99される</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT" Language="ja_JP">
+			<Text>キルユニット</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_LOSS_ALL_MOVEMENT" Language="ja_JP">
+			<Text>[ICON_MOVEMENT] の移動性をすべて失います</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_RECOVERY_WORLDVIEW_TEXT" Language="ja_JP">
+			<Text>よくなる</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_SELF_ANNIHILATE_WORLDVIEW_TEXT" Language="ja_JP">
+			<Text>自爆する</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_TURNS" Language="ja_JP">
+			<Text>ラウンド</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_NAME" Language="ja_JP">
+			<Text>キンキンに目が覚めた</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_DESCRIPTION" Language="ja_JP">
+			<Text>「疑惑」の蔓延に影響されない</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_NAME" Language="ja_JP">
+			<Text>聞く</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_AMENITIES]により居住性の伸びが半減「疑い」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_NAME" Language="ja_JP">
+			<Text>聞く</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_AMENITIES] の居住性向上による「疑い」はない</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_NAME" Language="ja_JP">
+			<Text>喜び</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_DESCRIPTION" Language="ja_JP">
+			<Text>都市 +1 [ICON_AMENITIES] 住みやすさ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_NAME" Language="ja_JP">
+			<Text>喜び</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_DESCRIPTION" Language="ja_JP">
+			<Text>都市 +2 [ICON_AMENITIES] アメニティ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_NAME" Language="ja_JP">
+			<Text>喜び</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_DESCRIPTION" Language="ja_JP">
+			<Text>都市 +2 [ICON_AMENITIES] アメニティ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_NAME" Language="ja_JP">
+			<Text>喜び</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_DESCRIPTION" Language="ja_JP">
+			<Text>都市 +5 [ICON_AMENITIES] アメニティ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_NAME" Language="ja_JP">
+			<Text>自己認証</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_DESCRIPTION" Language="ja_JP">
+			<Text>都市 +5% [ICON_SCIENCE] 科学、+5% [ICON_PRODUCTION] 生産性</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_NAME" Language="ja_JP">
+			<Text>自己認証</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_DESCRIPTION" Language="ja_JP">
+			<Text>都市 +5% [ICON_SCIENCE] 科学、+10% [ICON_PRODUCTION] 生産性</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_NAME" Language="ja_JP">
+			<Text>自己認証</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_DESCRIPTION" Language="ja_JP">
+			<Text>都市 +10% [ICON_SCIENCE] 科学、+10% [ICON_PRODUCTION] 生産性</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_NAME" Language="ja_JP">
+			<Text>恐れ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_DESCRIPTION" Language="ja_JP">
+			<Text>都市 -1 [ICON_AMENITIES] アメニティ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_NAME" Language="ja_JP">
+			<Text>恐れ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_DESCRIPTION" Language="ja_JP">
+			<Text>都市 -3 [ICON_AMENITIES] アメニティ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_NAME" Language="ja_JP">
+			<Text>恐れ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_DESCRIPTION" Language="ja_JP">
+			<Text>都市 -5 [ICON_AMENITIES] アメニティ</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_NAME" Language="ja_JP">
+			<Text>身体検査</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_DESCRIPTION" Language="ja_JP">
+			<Text>都市 +15% [ICON_FOOD] 食品</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_NAME" Language="ja_JP">
+			<Text>混乱</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_DESCRIPTION" Language="ja_JP">
+			<Text>都市 [ICON_AMENITIES] は居住性が 0 を超える部分に「不審さ」を追加します</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DECREASE_SUSPICION" Language="ja_JP">
+			<Text>相手の文明の「怪しさ」を軽減します</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_INCREASE_SUSPICION" Language="ja_JP">
+			<Text>他の文明の「疑惑」を増大させた</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY" Language="ja_JP">
+			<Text>振り返らないで</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="ja_JP">
+			<Text>勝利を目前に控えた文明のように</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY" Language="ja_JP">
+			<Text>振り返るな、後戻りはできない。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="ja_JP">
+			<Text>勝利しようとしている文明のように</Text>
+		</Replace>
+		<Replace Tag="LOC_ACHERON_QUOTE" Language="ja_JP">
+			<Text>「黄泉」…借りた名前ですが、あなたは私が誰なのか知っていますし、その後私が何をしたか覚えていますか…私は黄泉です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>塵は…やがて土に還る…。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>塵は…土に還る…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>友達と喜びを分かち合うことを忘れないでください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>おそらく正解は複数あるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>また血の借金が。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>もう少し一緒に歩ませてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>ナイフを持っている場合は、何かを切るために常にそれを使用する必要があります。私が剣を抜く理由はただ一つ…これまでも、今も、これからも。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>思い出が残された場所には、触れるたびに棘のある花が咲きます...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>どこに行くの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>紅葉から落ち、傘に滴る雨の音を聞きながら、ひとときの安らぎを得る…。</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_NAME" Language="ja_JP">
+			<Text>ボイドモード</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_DESC" Language="ja_JP">
+			<Text>文明は「疑い」を獲得することができる。街の[ICON_AMENITIES]アメニティに注目してください！</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_NAME" Language="ja_JP">
+			<Text>冥界に限ったものは何もない</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_DESC" Language="ja_JP">
+			<Text>自滅する黄泉文明だけが「疑念」を獲得できる</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_NAME" Language="ja_JP">
+			<Text>ネザーモードの最適化</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_DESC" Language="ja_JP">
+			<Text>実際の仕組みを変えるのではなく、表示効果を変える</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>それはあなたです...私たちは皆、お互いに持つ時間を大切にすべきです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>あなたがここに来たのは...それとも運命の意志ですか?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>出発の時間です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>「同じ川に二度入る」…難しいことではありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>この悔しさはどうしようもないので、放っておいてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>関係ないのでここで終わりにしましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>天の川を一人で旅する人々には、先人の痕跡を見つけたい、そして自分の道を見つけたいという2つの願いがあります。しかし、彼らの視線の下では...後者はほとんど前者に止まりました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>雨が降っています…一緒に散歩しませんか？さあ、傘を持っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>向こう側から目が覚めると、海の向こうではまだ雷が鳴り響き、空からは血の雨が降っていたばかりでした。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>遠くの景色ははっきり見えませんが…きっと美しいのでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>人は運命の道を歩み、探究し、悟り、そして存在する。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>過去が今の私たちを作っているのです。思い出すのが難しいこともあれば、忘れるのが難しいこともあります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>また会ったね、また踊りませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>オール・オア・ナッシング…わかります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>この命は雨のように過ぎ去り、やがて大地に還ります、また会う時は晴れますように。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>私の正体を知った後でも、そのような悪意を示すのはあなたが最初ではありませんし、最後でもないでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>あなたの目的が何であれ…私には一つの結末しか見えません。その未来は、すべての世界が彼の影に沈むのと同じように、「無」です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>別れを告げる時間はあまり残されていません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>ブラックホールは壮観でも悲劇的でもなく、とても静かで、あなたと私を見つめる孤独な視線のように...そして静かにすべてを飲み込み、冷たく静かに抱きしめます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ACHERON_ANY" Language="ja_JP">
+			<Text>大雨が降っています。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

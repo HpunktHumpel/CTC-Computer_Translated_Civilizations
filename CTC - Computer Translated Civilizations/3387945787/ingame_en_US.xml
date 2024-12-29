@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 14:16:28 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_DESCRIPTION" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_ADJECTIVE" Language="en_US">
+			<Text>From the void</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_NAME" Language="en_US">
+			<Text>Sleeping without form</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_DESCRIPTION" Language="en_US">
+			<Text>Requires Void Mode.
+[NEWLINE] Gain 30 layers of Suspicion when the selected civilization builds a city, with a minimum of 10 layers. Can produce Void units regardless of Suspicion layers.
+[NEWLINE] When the selected civilization loses a city, all cities gain +30 Suspicion.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ACHERON_NAME" Language="en_US">
+			<Text>Huangquan</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_NAME" Language="en_US">
+			<Text>The Watcher of the Underworld</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_DESCRIPTION" Language="en_US">
+			<Text>Each city population provides 2 [ICON_PRODUCTION] productivity, 1 [ICON_FOOD] food, the average &quot;suspicion&quot; level of the selected civilization city reduces this effect by 0.5%, and the average &quot;suspicion&quot; level of the non-selected civilization city reduces this effect by 0.5%.
+[NEWLINE] It has a special void unit Huangquan, and all void units initially have 1 level promotion.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION" Language="en_US">
+			<Text>Suspect</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DESC" Language="en_US">
+			<Text>Each layer of &quot;Suspicion&quot; reduces 1% [ICON_CULTURE] culture, 1% [ICON_SCIENCE] science, 1% [ICON_PRODUCTION] productivity, 1% [ICON_Tourism] tourism, 1% great person points, 1.5% [ICON_FOOD] food, 1.5% [ICON_FAITH] faith, 1.5% [ICON_GOLD] gold.
+[NEWLINE]Every 10 layers of &quot;Suspicion&quot; above 20 layers make the units on the city cell have at least 1 level of &quot;self-destruction&quot;. After researching the municipal &quot;Political Philosophy&quot;, the required number of layers of the effect is halved.
+[NEWLINE]Every 20 layers of &quot;Suspicion&quot; reduce 1 [ICON_AMENITIES] habitability and 1 loyalty. After researching the municipal &quot;Enlightenment&quot;, the required number of layers is halved.
+[NEWLINE]Every 30 layers of &quot;Suspicion&quot; will spread 1 layer of &quot;Suspicion&quot; to the neighboring cities within 9 grids, and 1 layer of &quot;Suspicion&quot; will be attenuated for each grid. After researching the technology &quot;Printing&quot;, the number of layers required for the effect is halved, and after researching the technology &quot;Radio&quot;, the number of grids required for attenuation is doubled. When &quot;Suspicion&quot; reaches 99 layers, researching technology will no longer change the spread effect of the city.
+[NEWLINE]Every 50 layers of &quot;Suspicion&quot; will reduce 1 era point per turn, and the effect will be doubled after researching the municipal &quot;Social Media&quot;.
+[NEWLINE][ICON_AMENITIES] For each part with a habitability less than 0, &quot;Suspicion&quot; +1, for each part greater than 3, &quot;Suspicion&quot; -1, and the effect will be doubled after researching the municipal &quot;Ideology&quot;. The maximum number of &quot;Suspicion&quot; is 99, and a maximum of 15 layers of &quot;Suspicion&quot; can be obtained per turn.
+[NEWLINE]When the city is surrounded, &quot;Suspicion&quot; will be -5 per turn, and the effect will be doubled after researching the municipal &quot;Humanism&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR" Language="en_US">
+			<Text>Self-destruction</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR_DESC" Language="en_US">
+			<Text>-1 [ICON_STRENGTH] Combat Strength per level of &quot;Self-Destruction&quot;.
+[NEWLINE] -1 [ICON_Damaged] Health per level of &quot;Self-Destruction&quot; when &quot;Self-Destruction&quot; is 20 or higher.
+[NEWLINE] -1 [ICON_MOVEMENT] Movement per 8 levels of &quot;Self-Destruction&quot;.
+[NEWLINE] +1 &quot;Self-Destruction&quot; per turn.
+[NEWLINE] After a unit with &quot;Self-Destruction&quot; disappears, it is considered a *Self-Destruction* unit: +2 cities around it, +5 &quot;Suspicion&quot;, and 25% chance to turn into a Barbarian.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CIVI_AVERAGE_SUSPICION" Language="en_US">
+			<Text>Average &quot;suspicion&quot; in the country</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_FORE_AVERAGE_SUSPICION" Language="en_US">
+			<Text>Foreign average &quot;suspicion&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_AMENITIES" Language="en_US">
+			<Text>&quot;Suspicion&quot; comes from [ICON_AMENITIES] livability</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_NEARBY_CITY" Language="en_US">
+			<Text>Suspicion comes from neighboring cities</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DECREASING_FROM_BESIEGED" Language="en_US">
+			<Text>Suspicion comes from being surrounded</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE" Language="en_US">
+			<Text>state</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE_ROUND" Language="en_US">
+			<Text>round</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING" Language="en_US">
+			<Text>&quot;wide awake&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING_DESC" Language="en_US">
+			<Text>Cities are not affected by the spread of &quot;doubt&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_LZUMO" Language="en_US">
+			<Text>Izumo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_TRUTH" Language="en_US">
+			<Text>real</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_SKY" Language="en_US">
+			<Text>sky</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_HOWL" Language="en_US">
+			<Text>Ming</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MIST" Language="en_US">
+			<Text>Lan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FROST" Language="en_US">
+			<Text>frost</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FATE" Language="en_US">
+			<Text>life</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FLARE" Language="en_US">
+			<Text>strong</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_THOUGHT" Language="en_US">
+			<Text>Sleep</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_ROOT" Language="en_US">
+			<Text>foundation</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_RORM" Language="en_US">
+			<Text>thousand</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_BIND" Language="en_US">
+			<Text>bundle</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MAW" Language="en_US">
+			<Text>Eat</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_1" Language="en_US">
+			<Text>Tansei</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_2" Language="en_US">
+			<Text>Max</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_3" Language="en_US">
+			<Text>Woolsey</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_4" Language="en_US">
+			<Text>Keenan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_5" Language="en_US">
+			<Text>Halliburton</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_1" Language="en_US">
+			<Text>Kokona</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_2" Language="en_US">
+			<Text>Qian Ketong</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_3" Language="en_US">
+			<Text>Uma</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_4" Language="en_US">
+			<Text>Aran</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_5" Language="en_US">
+			<Text>Furla</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_NAME" Language="en_US">
+			<Text>Void Walker</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_DESCRIPTION" Language="en_US">
+			<Text>Consume &quot;Heal&quot; to reduce &quot;Suspicion&quot; and improve relations. Every 5 layers of &quot;Suspicion&quot; reduced by the other civilization increases 1 relationship. If a unit &quot;Heal&quot; increases &quot;Suspicion&quot;, the relationship is reduced in the same proportion.
+[NEWLINE] Initially has at least 1 level of &quot;Self-Destruction&quot;, ignoring the [ICON_MOVEMENT] movement and [ICON_STRENGTH] combat strength reduction of &quot;Self-Destruction&quot;.
+[NEWLINE] If the &quot;Self-Destruction&quot; effect of non-empty units can be changed, its effect is the same as reducing the &quot;Suspicion&quot; effect of the city.
+[NEWLINE] Ignores area control and cannot be looted. Attacking units are considered to consume &quot;Heal&quot; times, and when defending, they gain the same combat strength as the highest combat strength unit [ICON_STRENGTH] created by the civilization, and the same bonus to air defense.
+[NEWLINE] Cannot gain experience, and after researching the municipal &quot;Political Philosophy&quot;, &quot;Enlightenment&quot;, and &quot;Ideology&quot;, they gain a reinforcement upgrade, which is effective for units produced in the future.
+[NEWLINE]The following [COLOR:128,128,128,200] * Production suggestions [ENDCOLOR] are applicable to the initial situation, please adjust according to the promotion</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ACHERON" Language="en_US">
+			<Text>A traveler who calls himself &quot;Sea Patrolman&quot;, whose real name is unknown. He wears a long sword and travels alone in the Milky Way.
+[NEWLINE]
+[NEWLINE]He is indifferent and taciturn, and his sword strikes as fast as lightning, but he has always fought with the scabbard, never using it.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_NAME" Language="en_US">
+			<Text>Huangquan</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_DESCRIPTION" Language="en_US">
+			<Text>Features: Void unit, invisible, basic [ICON_STRENGTH] combat power is the same as the highest combat power unit produced by the selected civilization, consumes &quot;healing&quot; times to make itself and surrounding cell cities -20 &quot;doubt&quot;, has a unique promotion tree, retreats after receiving fatal damage.
+[NEWLINE] Has level 99 &quot;self-destruction&quot; when created, &quot;self-destruction&quot; will not increase, ignores &quot;self-destruction&quot; effects, and removal is not considered *self-destruction*.
+[NEWLINE] After obtaining Huangquan, the selected civilization accumulates 1 layer of &quot;residual dream&quot; for Huangquan every time it attacks, 6 layers are obtained when created, and the maximum cumulative layer is 12 layers.
+[NEWLINE] &quot;Residual dream&quot; reaches 9 layers to enter the &quot;residual dream soaked, one knife cuts off&quot; state, unit +4 [ICON_MOVEMENT] movement, +10 [ICON_STRENGTH] combat power, +4 &quot;healing&quot; times, +2 field of view.
+[NEWLINE]After the number of &quot;Healing&quot; is exhausted, 9 layers of &quot;Remnant Dream&quot; will be consumed, and &quot;Remnant Dream Immerse, One Sword Cut Off&quot; will be exited. Every 3 times &quot;Remnant Dream Immerse, One Sword Cut Off&quot; is released, Huang Quan can gain a strengthening upgrade.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="en_US">
+			<Text>Night Watch</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is greater than 0, consumes &quot;Heal&quot; times to make itself and surrounding cells -3 &quot;Suspicion&quot;.
+[NEWLINE]Gives the city the status &quot;Listen&quot;: The city's &quot;Suspicion&quot; growth caused by [ICON_AMENITIES] Habitability is halved, lasting 5 rounds.
+[NEWLINE]Removal is not considered *self-destruction*
+[NEWLINE][COLOR:128,128,128,200]* Negative Habitability [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="en_US">
+			<Text>Mediocre people</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is greater than 0, consumes &quot;healing&quot; times to reduce &quot;Suspicion&quot; of itself and surrounding cells by 3.
+[NEWLINE] Doubles the diplomatic relations boost from reducing &quot;Suspicion&quot;.
+[NEWLINE] Removal is not considered *self-destruction*
+[NEWLINE][COLOR:128,128,128,200]* Requires reducing &quot;Suspicion&quot; of foreign countries [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_NAME" Language="en_US">
+			<Text>Thunder</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_DESCRIPTION" Language="en_US">
+			<Text>Special ability: &quot;Self-destruction&quot; is granted when the rock band is founded. Singing makes the band and the surrounding 2-tile cities -10 &quot;Suspicion&quot;. +1 range and -5 &quot;Suspicion&quot; for each level of the rock band.
+[NEWLINE]+3 [ICON_MOVEMENT] Movement.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="en_US">
+			<Text>No Self Clown</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is not less than 30, consumes &quot;Cure&quot; times to make itself and surrounding cells -3 &quot;Suspicion&quot;.
+[NEWLINE] Make &quot;Suspicion&quot; greater than 20 cities gain the state &quot;Happy&quot;: City +1 [ICON_AMENITIES] Habitability, lasts for 5 turns.
+[NEWLINE] Removal does not count as *self-destruction*.
+[NEWLINE][COLOR:128,128,128,200]* Negative Habitability[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="en_US">
+			<Text>Self-Evidence Society</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is not less than 30, consumes &quot;Cure&quot; times to make itself and surrounding cell cities -5 &quot;Suspicion&quot;.
+[NEWLINE]When &quot;Suspicion&quot; is greater than 20, the city gains the status &quot;Self-Proof&quot;: City +5% [ICON_SCIENCE] Science value, +5% [ICON_PRODUCTION] Production value, lasts for 5 turns.
+[NEWLINE]Removal does not count as *self-destruction*.
+[NEWLINE][COLOR:128,128,128,200]* has high productivity and needs higher productivity/science value[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_NAME" Language="en_US">
+			<Text>Rescuer</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is not less than 30, consumes 1 [ICON_Citizen] population to produce, can increase &quot;self-destruction&quot;, loses all [ICON_MOVEMENT] movement after one round of production, consumes &quot;healing&quot; times to make itself and surrounding cell cities -1 [ICON_Citizen] population, +10 &quot;Suspicion&quot;.
+[NEWLINE] Raising &quot;Suspicion&quot; doubles the reduction in diplomatic relations.
+[NEWLINE] Makes all cities of the civilization gain the status &quot;terrible&quot;: city -1 [ICON_AMENITIES] habitability, lasts for 5 rounds.
+[NEWLINE] If it has not been &quot;healed&quot;, removal is considered &quot;healed&quot;. The &quot;healing&quot; effect on the unit also affects the [ICON_Damaged] health value.
+[NEWLINE][COLOR:128,128,128,200]* Not recommended for production [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="en_US">
+			<Text>Death Rejection</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is greater than 0, consumes &quot;Cure&quot; times to make itself and surrounding cell cities -3 &quot;Suspicion&quot;.
+[NEWLINE] Make &quot;Suspicion&quot; greater than 40 cities +1 [ICON_Citizen] population.
+[NEWLINE] Removal is not considered *self-destruction*, and exhaustion of &quot;Cure&quot; times is considered *cured*: self and surrounding cell cities -5 &quot;Suspicion&quot;.
+[NEWLINE][COLOR:128,128,128,200]* &quot;Suspicion&quot; is high and population is low [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="en_US">
+			<Text>Chaos Doctor</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is greater than 0, can reduce &quot;self-destruction&quot;, consume &quot;healing&quot; times to make itself and surrounding cell cities have a 50% chance of -5 &quot;Suspicion&quot;, a 25% chance of -15 &quot;Suspicion&quot;, and a 25% chance of +5 &quot;Suspicion&quot;.
+[NEWLINE][COLOR:128,128,128,200]* &quot;Suspicion&quot; high[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_NAME" Language="en_US">
+			<Text>Vengeance Agent</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is greater than 0, can increase &quot;Self-Destruction&quot;, -20 [ICON_STRENGTH] Combat Strength when attacking a city, and +1 &quot;Suspicion&quot; for itself and surrounding cells after consuming &quot;Heal&quot;.
+[NEWLINE]Each attack unit gains +10 [ICON_GOLD] gold.
+[NEWLINE][COLOR:128,128,128,200]* Sufficient Funds[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="en_US">
+			<Text>Relative Descender</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_DESCRIPTION" Language="en_US">
+			<Text>Void unit, unlocked when &quot;Suspicion&quot; is not less than 50, can increase &quot;Self-Destruction&quot;, has only 1 &quot;Cure&quot; time, and increases &quot;Suspicion&quot; of itself and surrounding cells by +20.
+[NEWLINE]Gives all cities of civilization the status &quot;Insanity&quot;: Increase &quot;Suspicion&quot; for parts of cities [ICON_AMENITIES] with a habitability greater than 0, lasting 5 turns.
+[NEWLINE]If not &quot;cured&quot;, removal is considered &quot;cured&quot;, and the &quot;Cure&quot; effect on units also applies to [ICON_Damaged] health.
+[NEWLINE][COLOR:128,128,128,200]* War is at a disadvantage [ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_ACHERON_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_NAME" Language="en_US">
+			<Text>The thunder and drums are silent, and the harp wind has also stopped.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_MOVEMENT] Movement, +5 &quot;Healing&quot; effect</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_NAME" Language="en_US">
+			<Text>Walking on the passing shore</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_DESCRIPTION" Language="en_US">
+			<Text>Battle &quot;Remnant Dream&quot; +1, all civilizations produce or purchase units &quot;Remnant Dream&quot; +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_NAME" Language="en_US">
+			<Text>The true words of the high sky begin</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_DESCRIPTION" Language="en_US">
+			<Text>When approaching a hostile city, the city will be placed under siege, and the attacker will be killed after being attacked.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_NAME" Language="en_US">
+			<Text>The flames of eternity shine on the person in the mirror</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_DESCRIPTION" Language="en_US">
+			<Text>+2 &quot;Heal&quot; range, can reduce &quot;Self-Destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_NAME" Language="en_US">
+			<Text>Four phases cut me off</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_DESCRIPTION" Language="en_US">
+			<Text>After attacking, you can move. When attacking a civilization unit that is not [ICON_STAT_GRIEVANCE] dissatisfied with your civilization, you will immediately kill the civilization unit and restore all [ICON_Damaged] health points, [ICON_MOVEMENT] movement power and number of attacks.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_NAME" Language="en_US">
+			<Text>Disasters and calamities freed us from shackles</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_STRENGTH] Combat Strength, +2 [ICON_MOVEMENT] Movement for all ethereal units of the selected civilization.
+[NEWLINE]If the unit can clear less than 30% of the city's &quot;Suspicion&quot;, directly clear 30% of the city's &quot;Suspicion&quot;, and can clear &quot;Self-Destruction&quot;.
+[NEWLINE]The city gains the status &quot;Awake&quot;: The city is not affected by the spread of &quot;Suspicion&quot;, which lasts for 5 rounds.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_NAME" Language="en_US">
+			<Text>life</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_DESCRIPTION" Language="en_US">
+			<Text>The combat strength and movement of units in the range are halved by &quot;Self-Destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_NAME" Language="en_US">
+			<Text>spread</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_DESCRIPTION" Language="en_US">
+			<Text>Healing Range +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_NAME" Language="en_US">
+			<Text>The other direction</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_DESCRIPTION" Language="en_US">
+			<Text>Can reduce &quot;self-destruction&quot;, +5 &quot;healing&quot; effect on units</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_NAME" Language="en_US">
+			<Text>exist</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_DESCRIPTION" Language="en_US">
+			<Text>+5 &quot;Healing&quot; effect</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_NAME" Language="en_US">
+			<Text>Overwatch</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_DESCRIPTION" Language="en_US">
+			<Text>Gives the city the &quot;Listening&quot; status: The city will not &quot;doubt&quot; the increase in [ICON_AMENITIES] amenity for 5 turns</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_NAME" Language="en_US">
+			<Text>Communicator</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_DESCRIPTION" Language="en_US">
+			<Text>+5 &quot;Healing&quot; effect on enemy civilized cities, +1 &quot;Self-Destruction&quot; for each enemy civilized city healed</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_NAME" Language="en_US">
+			<Text>friendship</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_DESCRIPTION" Language="en_US">
+			<Text>The healing effect is doubled for enemy civilized cities</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_NAME" Language="en_US">
+			<Text>Search</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_MOVEMENT] Movement</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_NAME" Language="en_US">
+			<Text>Puzzled</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_DESCRIPTION" Language="en_US">
+			<Text>+2 Healing range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_NAME" Language="en_US">
+			<Text>doubt</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_DESCRIPTION" Language="en_US">
+			<Text>+5 &quot;Healing&quot; effect on enemy civilized cities, +20 [ICON_STRENGTH] combat strength when defending</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_NAME" Language="en_US">
+			<Text>clown</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_DESCRIPTION" Language="en_US">
+			<Text>+5 &quot;Healing&quot; effect</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_NAME" Language="en_US">
+			<Text>absurd</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_DESCRIPTION" Language="en_US">
+			<Text>+5 &quot;Healing&quot; effect, make &quot;Suspicion&quot; greater than 20 City gains the &quot;Happy&quot; status: City +2 [ICON_AMENITIES] Amenity, lasts for 5 turns</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_NAME" Language="en_US">
+			<Text>Amazing performance</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_DESCRIPTION" Language="en_US">
+			<Text>+2 Healing range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_NAME" Language="en_US">
+			<Text>Joy</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_DESCRIPTION" Language="en_US">
+			<Text>Can reduce &quot;self-destruction&quot; and make cities in range gain the &quot;happy&quot; status: City +2 [ICON_AMENITIES] Amenity, lasts for 5 turns</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_NAME" Language="en_US">
+			<Text>Self-destruct</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_DESCRIPTION" Language="en_US">
+			<Text>Gives the city with negative amenity in range the status &quot;Happy&quot;: +5 [ICON_AMENITIES] amenity for the city, lasts for 5 turns, removal is considered *self-destruction*</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_NAME" Language="en_US">
+			<Text>Puzzles</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_DESCRIPTION" Language="en_US">
+			<Text>+5 Healing effect.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_NAME" Language="en_US">
+			<Text>answer</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_DESCRIPTION" Language="en_US">
+			<Text>+1 to the healing effect area. Units within the area have their [ICON_STRENGTH] combat strength and [ICON_MOVEMENT] movement reduced by half by [Self-Destruction].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_NAME" Language="en_US">
+			<Text>diligence</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_DESCRIPTION" Language="en_US">
+			<Text>If &quot;Suspicion&quot; is greater than 20, the city gains the status &quot;Self-Proof&quot;: +5% [ICON_SCIENCE] Science value, +10% [ICON_PRODUCTION] Productivity, lasts for 5 turns</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_NAME" Language="en_US">
+			<Text>Resistance</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_DESCRIPTION" Language="en_US">
+			<Text>Can reduce &quot;self-destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_NAME" Language="en_US">
+			<Text>create</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_DESCRIPTION" Language="en_US">
+			<Text>If &quot;Suspicion&quot; is greater than 20, the city gains the status &quot;Self-Proof&quot;: +10% [ICON_SCIENCE] Science value, +10% [ICON_PRODUCTION] Productivity, lasts for 5 turns</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RESCUER_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_NAME" Language="en_US">
+			<Text>destroy</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_DESCRIPTION" Language="en_US">
+			<Text>+2 Healing range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_NAME" Language="en_US">
+			<Text>moment</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_MOVEMENT] Movement</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_NAME" Language="en_US">
+			<Text>Muzzle</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_DESCRIPTION" Language="en_US">
+			<Text>+2 &quot;Heal&quot; range, &quot;Heal&quot; -10 [ICON_Damaged] health points, and -3 [ICON_Citizen] population for itself and surrounding cities</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_NAME" Language="en_US">
+			<Text>Torture</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_DESCRIPTION" Language="en_US">
+			<Text>&quot;Heal&quot; restores all health points, and gives all cities of the civilization the status &quot;Terrible&quot;: City -3 [ICON_AMENITIES] Habitability, lasts for 5 turns</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_NAME" Language="en_US">
+			<Text>Redemption</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_DESCRIPTION" Language="en_US">
+			<Text>Give all cities of this civilization the &quot;Terrible&quot; status: -1 [ICON_AMENITIES] Amenity per [ICON_Citizen] population in the city, for 5 turns</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_NAME" Language="en_US">
+			<Text>Hospital Beds</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_DESCRIPTION" Language="en_US">
+			<Text>The [ICON_STRENGTH] combat strength and [ICON_MOVEMENT] movement of units within the range are halved by the effect of &quot;Self-Destruction&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_NAME" Language="en_US">
+			<Text>Cephalopoda</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_DESCRIPTION" Language="en_US">
+			<Text>+2 Healing range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_NAME" Language="en_US">
+			<Text>fighting</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_DESCRIPTION" Language="en_US">
+			<Text>+5 &quot;Healing&quot; effect</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_NAME" Language="en_US">
+			<Text>Medical</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_DESCRIPTION" Language="en_US">
+			<Text>Can reduce &quot;Self-Destruction&quot; and make &quot;Suspicion&quot; greater than 20. The city gains the status &quot;Health Check&quot;: City +15% [ICON_FOOD] Food for 5 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_NAME" Language="en_US">
+			<Text>First victory</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_DESCRIPTION" Language="en_US">
+			<Text>Can reduce &quot;Self-Destruction&quot; and make &quot;Suspicion&quot; greater than 40, city +3 [ICON_Citizen] population</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_NAME" Language="en_US">
+			<Text>Chaos Medicine Box</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_DESCRIPTION" Language="en_US">
+			<Text>The &quot;Healing&quot; effect is doubled. The &quot;Healing&quot; effect on the unit also applies to the health of [ICON_Damaged]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_NAME" Language="en_US">
+			<Text>Chaos Versicolor</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_DESCRIPTION" Language="en_US">
+			<Text>+5 &quot;Healing&quot; effect, +1 &quot;Healing&quot; range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_NAME" Language="en_US">
+			<Text>Chaos Elixir</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_DESCRIPTION" Language="en_US">
+			<Text>+2 &quot;Healing&quot; effect, +2 &quot;Healing&quot; range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_NAME" Language="en_US">
+			<Text>Void wax</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_DESCRIPTION" Language="en_US">
+			<Text>+2 Healing range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_NAME" Language="en_US">
+			<Text>Absolute prescription for failure</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_DESCRIPTION" Language="en_US">
+			<Text>Eliminate barbarians in range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_EXECUTOR_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_NAME" Language="en_US">
+			<Text>muzzle</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_GOLD] maintenance cost, +10 [ICON_STRENGTH] combat strength</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_NAME" Language="en_US">
+			<Text>remuneration</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_DESCRIPTION" Language="en_US">
+			<Text>+30 [ICON_GOLD] Get gold coins</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_NAME" Language="en_US">
+			<Text>understand</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_MOVEMENT] Movement</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_NAME" Language="en_US">
+			<Text>accomplish</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_DESCRIPTION" Language="en_US">
+			<Text>+20 [ICON_GOLD] Maintenance, +20 [ICON_STRENGTH] Combat Strength, +2 &quot;Self-Destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_NAME" Language="en_US">
+			<Text>Killer</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_DESCRIPTION" Language="en_US">
+			<Text>+30 [ICON_GOLD] Maintenance, +30 [ICON_STRENGTH] Combat Strength, +3 &quot;Self-Destruction&quot;, +30 [ICON_GOLD] Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="en_US">
+			<Text>nothingness</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_NAME" Language="en_US">
+			<Text>describe</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_DESCRIPTION" Language="en_US">
+			<Text>Doubles the healing effect on enemy civilized city units</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_NAME" Language="en_US">
+			<Text>No war</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_DESCRIPTION" Language="en_US">
+			<Text>-10 &quot;Healing&quot; effect</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_NAME" Language="en_US">
+			<Text>explain</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_DESCRIPTION" Language="en_US">
+			<Text>-2 [ICON_MOVEMENT] Movement, +3 Healing Range</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_NAME" Language="en_US">
+			<Text>illusion</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_DESCRIPTION" Language="en_US">
+			<Text>If this civilization has only one city, units in range will die immediately</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_NAME" Language="en_US">
+			<Text>Snow Globe</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_DESCRIPTION" Language="en_US">
+			<Text>+4 &quot;Heal&quot; range, *Self-Destruction* effect changed to: If this civilization has only one city, all cities built in the past +99 &quot;Suspicion&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_NAME" Language="en_US">
+			<Text>Suspicion of growth</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_TOOLTIP" Language="en_US">
+			<Text>View the suspected growth rate on this plot</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_TOOLTIP" Language="en_US">
+			<Text>Remnant Dream</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC" Language="en_US">
+			<Text>Attack +1 &quot;Remnant Dream&quot;, up to 12 layers.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC_WITH_PROMOTION" Language="en_US">
+			<Text>Attack +2 &quot;Remnant Dream&quot;, all civilizations produce or purchase units +1 &quot;Remnant Dream&quot;, up to 12 layers. (Due to upgrading &quot;Walking on the Passing Shore&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP" Language="en_US">
+			<Text>Number of cures</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_RANGE" Language="en_US">
+			<Text>scope</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_EFFECT" Language="en_US">
+			<Text>Effect</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_PROBABILITY" Language="en_US">
+			<Text>Probability</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DECREASE" Language="en_US">
+			<Text>reduce</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_INCREASE" Language="en_US">
+			<Text>Elevated</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT" Language="en_US">
+			<Text>Can reduce &quot;self-destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT_MAX" Language="en_US">
+			<Text>Able to clear &quot;self-destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SUSPICION" Language="en_US">
+			<Text>&quot;Suspect&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_TOOLTIP" Language="en_US">
+			<Text>&quot;Self-destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_WORLDVIEW_TEXT" Language="en_US">
+			<Text>&quot;Suspect&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_WORLDVIEW_TEXT" Language="en_US">
+			<Text>&quot;Self-destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DESC" Language="en_US">
+			<Text>Consume &quot;Heal&quot; to reduce &quot;Suspicion&quot; and improve relations. Every 5 layers of &quot;Suspicion&quot; reduced by the other civilization will increase 1 relationship. If a unit &quot;Heals&quot; to increase &quot;Suspicion&quot;, the relationship is reduced in the same proportion.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SELF_ANNIHILATOR" Language="en_US">
+			<Text>attack</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_SELF_ANNIHILATOR" Language="en_US">
+			<Text>Ability to change &quot;self-destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CLEAN_SELF_ANNIHILATOR" Language="en_US">
+			<Text>Able to clear &quot;self-destruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_KILL_SIN_THIRSTER" Language="en_US">
+			<Text>Eliminate the Barbarians</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_HEAL_USE_UP_REGARD_AS_RECOVERY" Language="en_US">
+			<Text>Once the number of &quot;healing&quot; times is exhausted, it is considered as *cured*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_NOT_REGARD_AS_SELF_ANNIHILATOR" Language="en_US">
+			<Text>Removal is not considered *self-destruction*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_REGARD_AS_HEAL" Language="en_US">
+			<Text>If not &quot;cured&quot;, removal is considered &quot;cured&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_DAMAGE" Language="en_US">
+			<Text>The &quot;Heal&quot; effect acts on [ICON_Damaged] health</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_DAMAGE" Language="en_US">
+			<Text>[ICON_Damaged] Health</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_SET_DAMAGE" Language="en_US">
+			<Text>Restores [ICON_Damaged] health to</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT" Language="en_US">
+			<Text>&quot;Healing&quot; Favorability</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT_2" Language="en_US">
+			<Text>Double</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_HALF_SELF_ANNIHILATOR_EFFECT" Language="en_US">
+			<Text>Halve the effect of [ICON_STRENGTH] combat strength and [ICON_STRENGTH] movement strength of [self-destruction]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_ATTACKER" Language="en_US">
+			<Text>Kill the attacker</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT_WHEN_JUSTICE_WAR" Language="en_US">
+			<Text>In certain situations, the unit will be killed instantly and all health points will be restored.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_FOR_ALL" Language="en_US">
+			<Text>All cities</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL" Language="en_US">
+			<Text>When &quot;Healing&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_UNIT" Language="en_US">
+			<Text>When healing a unit</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_ATTACK" Language="en_US">
+			<Text>Attack</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF" Language="en_US">
+			<Text>like</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_OR" Language="en_US">
+			<Text>or</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_IS_ENEMY" Language="en_US">
+			<Text>It's the enemy</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_SUSPICION_GT" Language="en_US">
+			<Text>Doubt is greater than</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_NAGETIVE_AMENITY" Language="en_US">
+			<Text>Negative livability</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_ONLY_ONE_CITY" Language="en_US">
+			<Text>Only one city</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_AWARENESS_6" Language="en_US">
+			<Text>Gain status &quot;Clear&quot; (not affected by the spread of &quot;Suspicion&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_0" Language="en_US">
+			<Text>Gain the &quot;Listening&quot; status (due to [ICON_AMENITIES] Amenity increase &quot;Suspicion&quot; halved)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_HEAL_EFFECT" Language="en_US">
+			<Text>&quot;Healing&quot; effect</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_5" Language="en_US">
+			<Text>Gain the &quot;Listening&quot; status (will not become &quot;Suspicious&quot; due to [ICON_AMENITIES] amenity increase)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_SELF_SELF_ANIHILATOR" Language="en_US">
+			<Text>Self-destruction change</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_MULTIPLY_HEAL_EFFECT" Language="en_US">
+			<Text>&quot;Healing&quot; effect</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_0" Language="en_US">
+			<Text>Gain the status &quot;Happy&quot; (city +1 [ICON_AMENITIES] Amenity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_2" Language="en_US">
+			<Text>Gain the status &quot;Happy&quot; (city +2 [ICON_AMENITIES] Amenity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_4" Language="en_US">
+			<Text>Gain the status &quot;Happy&quot; (city +2 [ICON_AMENITIES] Amenity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_5" Language="en_US">
+			<Text>Gain the status &quot;Happy&quot; (city +5 [ICON_AMENITIES] Amenity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_0" Language="en_US">
+			<Text>Gain the status &quot;Self-certification&quot; (city +5% [ICON_SCIENCE] science value, +5% [ICON_PRODUCTION] productivity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_3" Language="en_US">
+			<Text>Gain the status &quot;Self-certification&quot; (city +5% [ICON_SCIENCE] science value, +10% [ICON_PRODUCTION] productivity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_5" Language="en_US">
+			<Text>Gain the status &quot;Self-certification&quot; (city +10% [ICON_SCIENCE] science value, +10% [ICON_PRODUCTION] productivity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_0" Language="en_US">
+			<Text>Gain status &quot;Terrible&quot; (city -1 [ICON_AMENITIES] Amenity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_POPULATION" Language="en_US">
+			<Text>[ICON_Citizen] Population</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_4" Language="en_US">
+			<Text>Gain status &quot;Terrible&quot; (city -3 [ICON_AMENITIES] Amenity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_5" Language="en_US">
+			<Text>Gain status &quot;Terrible&quot; (city -5 [ICON_AMENITIES] amenity)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HEALTH_EXAM_4" Language="en_US">
+			<Text>Gained the &quot;Health Check&quot; status (city +15% [ICON_FOOD] food)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_GOLD" Language="en_US">
+			<Text>[ICON_GOLD] Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_DERANGED_0" Language="en_US">
+			<Text>Gain the status &quot;Insanity&quot; (add &quot;Suspicion&quot; to the part of the city [ICON_AMENITIES] where the livability is greater than 0)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DESTORY_BUILT_CITY" Language="en_US">
+			<Text>Self-destruction effect: If this civilization has only one city, all cities built in the past will receive +99 &quot;Suspicion&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT" Language="en_US">
+			<Text>Killing Units</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_LOSS_ALL_MOVEMENT" Language="en_US">
+			<Text>Lose all [ICON_MOVEMENT] movement</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_RECOVERY_WORLDVIEW_TEXT" Language="en_US">
+			<Text>get well</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_SELF_ANNIHILATE_WORLDVIEW_TEXT" Language="en_US">
+			<Text>Self-destruction</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_TURNS" Language="en_US">
+			<Text>round</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_NAME" Language="en_US">
+			<Text>wide awake</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_DESCRIPTION" Language="en_US">
+			<Text>Not affected by the spread of suspicion</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_NAME" Language="en_US">
+			<Text>Listen</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_DESCRIPTION" Language="en_US">
+			<Text>Due to [ICON_AMENITIES] the growth of livability is &quot;suspected&quot; to be halved</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_NAME" Language="en_US">
+			<Text>Listen</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_DESCRIPTION" Language="en_US">
+			<Text>I won't be &quot;suspicious&quot; about the increase in [ICON_AMENITIES] livability</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_NAME" Language="en_US">
+			<Text>Joy</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_DESCRIPTION" Language="en_US">
+			<Text>City +1 [ICON_AMENITIES] Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_NAME" Language="en_US">
+			<Text>Joy</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_DESCRIPTION" Language="en_US">
+			<Text>City +2 [ICON_AMENITIES] Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_NAME" Language="en_US">
+			<Text>Joy</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_DESCRIPTION" Language="en_US">
+			<Text>City +2 [ICON_AMENITIES] Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_NAME" Language="en_US">
+			<Text>Joy</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_DESCRIPTION" Language="en_US">
+			<Text>City +5 [ICON_AMENITIES] Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_NAME" Language="en_US">
+			<Text>Self-certification</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_DESCRIPTION" Language="en_US">
+			<Text>City +5% [ICON_SCIENCE] Science, +5% [ICON_PRODUCTION] Production</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_NAME" Language="en_US">
+			<Text>Self-certification</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_DESCRIPTION" Language="en_US">
+			<Text>City +5% [ICON_SCIENCE] Science, +10% [ICON_PRODUCTION] Production</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_NAME" Language="en_US">
+			<Text>Self-certification</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_DESCRIPTION" Language="en_US">
+			<Text>City +10% [ICON_SCIENCE] Science, +10% [ICON_PRODUCTION] Production</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_NAME" Language="en_US">
+			<Text>fear</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_DESCRIPTION" Language="en_US">
+			<Text>City -1 [ICON_AMENITIES] Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_NAME" Language="en_US">
+			<Text>fear</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_DESCRIPTION" Language="en_US">
+			<Text>City -3 [ICON_AMENITIES] Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_NAME" Language="en_US">
+			<Text>fear</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_DESCRIPTION" Language="en_US">
+			<Text>City -5 [ICON_AMENITIES] Amenity</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_NAME" Language="en_US">
+			<Text>Physical examination</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_DESCRIPTION" Language="en_US">
+			<Text>City +15% [ICON_FOOD] Food</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_NAME" Language="en_US">
+			<Text>Confusion</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_DESCRIPTION" Language="en_US">
+			<Text>City [ICON_AMENITIES] Added &quot;Suspicion&quot; to parts where the livability is greater than 0</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DECREASE_SUSPICION" Language="en_US">
+			<Text>You have reduced the other civilization's &quot;suspicion&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_INCREASE_SUSPICION" Language="en_US">
+			<Text>You have increased the other civilization's &quot;suspicion&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY" Language="en_US">
+			<Text>Don't look back</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="en_US">
+			<Text>Like the civilization that is about to win</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY" Language="en_US">
+			<Text>Don't look back, there is no way back.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="en_US">
+			<Text>Like the civilization that is about to win</Text>
+		</Replace>
+		<Replace Tag="LOC_ACHERON_QUOTE" Language="en_US">
+			<Text>&quot;Huang Quan&quot;...Although it is just a borrowed name, you know who I am and remember what I have done. From now on...I am Huang Quan.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Dust... returns to earth...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Dust... returns to earth...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Don't forget to share the joy with your friends.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Perhaps there is more than one correct answer.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Another blood debt.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Let me walk with you a little longer.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>If you have a sword, you have to cut something with it. There is only one reason why I draw my sword...in the past, now, and in the future.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Where memories are left, wherever you touch, they are all flowers with thorns...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Where are you going?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Listening to the sound of rain falling from the red leaves and dripping onto the umbrella, I get a moment of peace from it.</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_NAME" Language="en_US">
+			<Text>Void Mode</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_DESC" Language="en_US">
+			<Text>Civilizations can gain &quot;doubt&quot;. Pay attention to the [ICON_AMENITIES] amenity of the city!</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_NAME" Language="en_US">
+			<Text>Nothingness is limited to Huangquan</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_DESC" Language="en_US">
+			<Text>Only the self-destructing Huangquan civilization can obtain &quot;doubt&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_NAME" Language="en_US">
+			<Text>Void Mode Optimization</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_DESC" Language="en_US">
+			<Text>Does not change the actual mechanism, but changes the display effect</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>It's you...We should all cherish the time we have with each other.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Is it you... or destiny's will that brought you here?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>It's time for us to set off.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>&quot;Stepping into the same river twice&quot;...is not difficult.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>There is nothing we can do about this regret, so just let it go.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>No problem, let’s end it here.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Those who travel alone in the Milky Way have only two desires: to find the footsteps of their predecessors and to find their own path. But under their watchful eyes, the latter mostly ends at the former.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>It's raining...Want to walk together? Come on, I have an umbrella.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>When I woke up from the other side, there was still thunder at the end of the sea and blood rain was falling from the sky.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>The scenery in the distance is not clear...but it must be beautiful.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Man walks on the path of destiny...then seeks, then realizes, and then exists.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Our past makes us who we are today. Some things are hard to remember, and some are hard to forget.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Nice to meet you again. Do you want to dance again?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>All or nothing…I’ll wait and see.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>This life passes by like rain, and eventually returns to the earth. I hope that when we meet again... the sky will be clear.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>You are not the first person, nor will you be the last, who can show such maliciousness after knowing my identity.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Whatever your purpose is... I can only see one outcome: its future is &quot;nothingness&quot;, just like all the worlds drowning in its shadow.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>There is not much time left to say goodbye.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>A black hole is neither spectacular nor tragic. It is very quiet, like a lonely line of sight, looking at you and me... and then quietly swallowing everything in a cold, silent embrace.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ACHERON_ANY" Language="en_US">
+			<Text>Heavy rain is coming.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

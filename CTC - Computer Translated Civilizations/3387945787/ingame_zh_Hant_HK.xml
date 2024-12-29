@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 14:16:28 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>來自虛無的</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_NAME" Language="zh_Hant_HK">
+			<Text>沉眠無相</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>需要“虛無模式”。
+                [NEWLINE]所選文明建立城市獲得30層「懷疑」，且最低為10層。可無視「懷疑」層數生產虛無單位。
+                [NEWLINE]所選文明失去城市時為所有城市 +30「懷疑」。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ACHERON_NAME" Language="zh_Hant_HK">
+			<Text>黃泉</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_NAME" Language="zh_Hant_HK">
+			<Text>黃泉守望者</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市每人口提供2 [ICON_PRODUCTION] 生產力, 1 [ICON_FOOD]食物，所選文明城市平均「懷疑」層數每層使該效果-0.5%, 非所選文明城市平均「懷疑」層數每層使該效果-0.5%.
+                [NEWLINE]具有特殊虛無單位黃泉，所有虛無單位初始都有1級晉升。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION" Language="zh_Hant_HK">
+			<Text>懷疑</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DESC" Language="zh_Hant_HK">
+			<Text>每層「懷疑」降低1% [ICON_CULTURE] 文化值、1% [ICON_SCIENCE] 科技值、1% [ICON_PRODUCTION] 生產力、1% [ICON_Tourism] 旅遊績效、1% 偉人點數、1.5% [ICON_FOOD] 食物、1.5 % [ICON_FAITH] 信仰值、1.5% [ICON_GOLD] 金幣。
+                [NEWLINE]大於20層的每10層「懷疑」使該城單元格上單位至少具有1級「自滅」效果，研究市政「政治哲學」後效果所需層數減半。
+                [NEWLINE]每20層「懷疑」降低 1 [ICON_AMENITIES] 宜居度、1 忠誠度，研究市政「啟蒙運動」後所需層數減半。
+                [NEWLINE]每30層「懷疑」會向臨近9格內的城市傳播1層「懷疑」，每格衰減1層「懷疑」，研究科技「印刷術」後效果所需層數減半，研究科技「無線電」後衰減所需格數翻倍。 「懷疑」達到99樓時，研究科技不再改變該城市傳播效果。
+                [NEWLINE]每50層「懷疑」每回合降低 1 時代分，研究市政「社群媒體」後效果翻倍。
+                [NEWLINE][ICON_AMENITIES] 宜居度小於0的每部分，「懷疑」 +1, 大於3的每部分，「懷疑」 -1, 研究市政「意識形態」後效果翻倍。 「懷疑」最大為 99 層，每回合最多獲得 15 層「懷疑」。
+                [NEWLINE]城市被包圍時，「懷疑」每回合-5，研究市政「人文主義」後效果翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR" Language="zh_Hant_HK">
+			<Text>自滅</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR_DESC" Language="zh_Hant_HK">
+			<Text>每級「自滅」-1 [ICON_STRENGTH] 戰鬥力。
+            [NEWLINE]「自滅」不小於 20 級時，每等級「自滅」-1 [ICON_Damaged] 生命值。
+            [NEWLINE]每8級「自滅」 -1 [ICON_MOVEMENT] 移動力。
+            [NEWLINE]每回合 +1「自滅」。
+            [NEWLINE]具有「自滅」的單位消失後視為單位*自滅*：周圍 +2 格城市 +5「懷疑」，有 25% 的機率轉變為野蠻人。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CIVI_AVERAGE_SUSPICION" Language="zh_Hant_HK">
+			<Text>本國平均「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_FORE_AVERAGE_SUSPICION" Language="zh_Hant_HK">
+			<Text>外國平均「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_AMENITIES" Language="zh_Hant_HK">
+			<Text>「懷疑」來自 [ICON_AMENITIES] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_NEARBY_CITY" Language="zh_Hant_HK">
+			<Text>「懷疑」來自臨近城市</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DECREASING_FROM_BESIEGED" Language="zh_Hant_HK">
+			<Text>「懷疑」來自包圍</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE" Language="zh_Hant_HK">
+			<Text>狀態</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE_ROUND" Language="zh_Hant_HK">
+			<Text>回合</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING" Language="zh_Hant_HK">
+			<Text>「清醒」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING_DESC" Language="zh_Hant_HK">
+			<Text>城市不受「懷疑」傳播影響</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_LZUMO" Language="zh_Hant_HK">
+			<Text>出雲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_TRUTH" Language="zh_Hant_HK">
+			<Text>真</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_SKY" Language="zh_Hant_HK">
+			<Text>天</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_HOWL" Language="zh_Hant_HK">
+			<Text>鳴</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MIST" Language="zh_Hant_HK">
+			<Text>嵐</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FROST" Language="zh_Hant_HK">
+			<Text>霜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FATE" Language="zh_Hant_HK">
+			<Text>生活</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FLARE" Language="zh_Hant_HK">
+			<Text>烈</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_THOUGHT" Language="zh_Hant_HK">
+			<Text>覺</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_ROOT" Language="zh_Hant_HK">
+			<Text>末期</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_RORM" Language="zh_Hant_HK">
+			<Text>千</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_BIND" Language="zh_Hant_HK">
+			<Text>束</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MAW" Language="zh_Hant_HK">
+			<Text>吃</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_1" Language="zh_Hant_HK">
+			<Text>淡青</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_2" Language="zh_Hant_HK">
+			<Text>麥克斯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_3" Language="zh_Hant_HK">
+			<Text>伍爾西</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_4" Language="zh_Hant_HK">
+			<Text>基南</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_5" Language="zh_Hant_HK">
+			<Text>哈利伯頓</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_1" Language="zh_Hant_HK">
+			<Text>柯柯娜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_2" Language="zh_Hant_HK">
+			<Text>錢可通</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_3" Language="zh_Hant_HK">
+			<Text>烏瑪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_4" Language="zh_Hant_HK">
+			<Text>阿然</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_5" Language="zh_Hant_HK">
+			<Text>芙拉</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_NAME" Language="zh_Hant_HK">
+			<Text>虛無行者</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>消耗「治癒」次數降低「懷疑」並提升關係。每降低對方文明 5 層「懷疑」提升1關係。若單位「治癒」提升「懷疑」，降低的關係具有相同比例。
+                [NEWLINE]初始擁有至少1級「自滅」，無視「自滅」的 [ICON_MOVEMENT] 移動力與[ICON_STRENGTH] 戰鬥力減益。
+                [NEWLINE]若能改變非虛無單位「自滅」效果，則其效果與降低城市「懷疑」效果相同。
+                [NEWLINE]無視區域控制，無法掠奪。攻擊單位視為消耗「治癒」次數，防禦時獲得與文明創造的最高戰鬥力單位 [ICON_STRENGTH] 戰鬥力相同的戰鬥力，防空獲得同樣加成。
+                [NEWLINE]無法獲得經驗，研究市政「政治哲學」，「啟蒙思想」，「意識形態」後獲得一次強化升級，對未來生產的單位有效。
+                [NEWLINE]下列[COLOR:128,128,128,200] * 生產建議[ENDCOLOR]適用於初期情況，請依升遷調整</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ACHERON" Language="zh_Hant_HK">
+			<Text>自稱「巡海遊俠」的旅人，本名不詳。身佩一柄長刀，獨行銀河。
+                [NEWLINE]
+                [NEWLINE]淡漠寡言，劍出如紫電般迅猛，卻從來只以刀鞘戰鬥，收而不發。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_NAME" Language="zh_Hant_HK">
+			<Text>黃泉</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>特色虛無單位，隱身，基礎[ICON_STRENGTH]戰鬥力與所選文明生產的最高戰鬥力單位相同，消耗“治愈”次數使自身及週邊單元格城市-20“懷疑”，具有獨特晉升樹，受到致命傷害後撤退。
+                [NEWLINE]創建時具有99級「自滅」，「自滅」不會增加，無視「自滅」效果，移除不視為*自滅*。
+                [NEWLINE]獲得黃泉後所選文明每攻擊一次為黃泉累計1層「殘夢」，創建時獲得6層，最多累計12層。
+                [NEWLINE]「殘夢」達到9層可進入「殘夢浸染，一刀繚斷」狀態，單位 +4 [ICON_MOVEMENT] 移動力，+10 [ICON_STRENGTH]戰鬥力, +4 「治癒」次數，+2 視野。
+                [NEWLINE]「治癒」次數耗儘後消耗9層「殘夢」，並退出「殘夢浸染，一刀繚斷」，每釋放3次「殘夢浸染，一刀繚斷」可使黃泉獲得一次強化升級。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="zh_Hant_HK">
+			<Text>守夜人</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」大於 0 解鎖，消耗「治癒」次數使自身及週邊單元格城市 -3「懷疑」。
+                [NEWLINE]使城市獲得狀態「聆聽」：城市因 [ICON_AMENITIES] 宜居度造成的「懷疑」增長減半，持續 5 回合。
+                [NEWLINE]移除不視為*自滅*
+                [NEWLINE][COLOR:128,128,128,200]* 負宜居[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="zh_Hant_HK">
+			<Text>庸夫凡眾</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」大於0解鎖，消耗「治癒」次數使自身及週邊單元格城市 -3「懷疑」。
+                [NEWLINE]降低「懷疑」提升的外交關係翻倍。
+                [NEWLINE]移除不視為*自滅*
+                [NEWLINE][COLOR:128,128,128,200]* 需要對外國減少「懷疑」[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_NAME" Language="zh_Hant_HK">
+			<Text>激雷樂隊</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>特殊能力，搖滾樂團創始時有「自滅」獲得，演唱使自身及週邊 2 單元格城市 -10「懷疑」，搖滾樂團每有一級升級 +1 範圍，-5「懷疑」。
+                [NEWLINE]+3 [ICON_MOVEMENT] 移動力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="zh_Hant_HK">
+			<Text>無我丑角</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」不小於30解鎖，消耗「治癒」次數使自身及週邊單元格城市 -3「懷疑」。
+                [NEWLINE]讓「懷疑」大於 20 城市獲得狀態「快樂」：城市 +1 [ICON_AMENITIES] 宜居度，持續 5 回合。
+                [NEWLINE]移除不視為*自滅*。
+                [NEWLINE][COLOR:128,128,128,200]* 負宜居[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="zh_Hant_HK">
+			<Text>自證學社</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」不小於30解鎖，消耗「治癒」次數使自身及週邊單元格城市 -5「懷疑」。
+                [NEWLINE]使「懷疑」大於 20 城市獲得狀態「自證」：城市 +5% [ICON_SCIENCE] 科技值，+5% [ICON_PRODUCTION] 生產力，持續 5 回合。
+                [NEWLINE]移除不視為*自滅*。
+                [NEWLINE][COLOR:128,128,128,200]* 有高生產力且需更高生產力/科技值[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_NAME" Language="zh_Hant_HK">
+			<Text>救援者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」不小於30解鎖，生產消耗1 [ICON_Citizen] 人口，能夠升高「自滅」，生產一回合後失去所有[ICON_MOVEMENT] 移動力，消耗「治癒」次數使自身及週邊單元格城市-1 [ICON_Citizen] 人口，+10「懷疑」。
+                [NEWLINE]升高「懷疑」降低的外交關係翻倍。
+                [NEWLINE]使文明所有城市獲得狀態「恐怖」：城市 -1 [ICON_AMENITIES] 宜居度，持續 5 回合。
+                [NEWLINE]若未曾「治癒」，將視為「治癒」。對單位「治癒」效果同樣作用於 [ICON_Damaged] 生命值。
+                [NEWLINE][COLOR:128,128,128,200]* 不建議生產[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="zh_Hant_HK">
+			<Text>拒絕死者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」大於 0 解鎖，消耗「治癒」次數使自身及週邊單元格城市 -3「懷疑」。
+                [NEWLINE]使「懷疑」大於 40 城市 +1 [ICON_Citizen] 人口。
+                [NEWLINE]移除不被視為*自滅*，「治癒」次數耗盡視為*痊癒*: 自身及週邊單元格城市 -5「懷疑」。
+                [NEWLINE][COLOR:128,128,128,200]* 「懷疑」高且人口低[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="zh_Hant_HK">
+			<Text>混沌醫師</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」大於0 解鎖，能夠降低「自滅」，消耗「治癒」次數使自身及週邊單元格城市有50% 機率-5「懷疑」，25% 機率-15「懷疑」，25%機率+5“懷疑”。
+                [NEWLINE][COLOR:128,128,128,200]* 「高懷疑」[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_NAME" Language="zh_Hant_HK">
+			<Text>扮演罪犯</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」大於 0 解鎖，能夠升高「自滅」，攻城時 -20 [ICON_STRENGTH] 戰鬥力，消耗「治癒」次數後使自身及週邊單元格城市 +1「懷疑」。
+                [NEWLINE]每一次攻擊單位獲得 +10 [ICON_GOLD] 金幣。
+                [NEWLINE][COLOR:128,128,128,200]* 經費充足[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="zh_Hant_HK">
+			<Text>相對描摹者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>虛無單位，「懷疑」不小於 50 解鎖，能夠升高「自滅」，只有 1「治癒」次數，使自身及週邊單元格城市 +20 「懷疑」。
+                [NEWLINE]使文明所有城市獲得狀態「錯亂」：城市 [ICON_AMENITIES] 宜居度大於0的部分增加“懷疑”，持續 5 回合。
+                [NEWLINE]若未曾「治癒」，移除視為「治癒」，對單位「治癒」效果同樣作用於 [ICON_Damaged] 生命值。
+                [NEWLINE][COLOR:128,128,128,200]* 戰爭處於劣勢[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_ACHERON_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_NAME" Language="zh_Hant_HK">
+			<Text>霆鼓俱寂，瑟風亦止</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2 [ICON_MOVEMENT] 移動力, +5「治癒」效果</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_NAME" Language="zh_Hant_HK">
+			<Text>行於流逝的岸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>戰鬥「殘夢」+1，所有文明生產或購買單位「殘夢」+1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_NAME" Language="zh_Hant_HK">
+			<Text>高天寥落真言始</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>靠近敵對城市時使城市陷入圍攻狀態，受到攻擊後殺死攻擊者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_NAME" Language="zh_Hant_HK">
+			<Text>亙焰燎照鏡中人</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2「治癒」範圍，能夠降低「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_NAME" Language="zh_Hant_HK">
+			<Text>四相斷我</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>攻擊後可移動，向對本文明無[ICON_STAT_GRIEVANCE]不滿文明單位攻擊時立即殺死該文明單位並恢復全部 [ICON_Damaged] 生命值，[ICON_MOVEMENT] 移動力與攻擊次數</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_NAME" Language="zh_Hant_HK">
+			<Text>災咎解桎梏</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所選文明所有虛無單位 +10 [ICON_STRENGTH] 戰鬥力，+2 [ICON_MOVEMENT] 移動力。
+                [NEWLINE]若單位可清除「懷疑」小於城市30%「懷疑」 ，直接清除城市30%「懷疑」，能夠清除「自滅」。
+                [NEWLINE]城市獲得狀態「清醒」：城市不受「懷疑」傳播影響，持續5回合。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_NAME" Language="zh_Hant_HK">
+			<Text>生命</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>範圍內單位 [ICON_STRENGTH] 戰鬥力與[ICON_MOVEMENT] 移動力 受「自滅」影響減半</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_NAME" Language="zh_Hant_HK">
+			<Text>傳播</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>「治癒」範圍 +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_NAME" Language="zh_Hant_HK">
+			<Text>另一方向</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>能夠降低「自滅」，+5 對單位「治癒」效果</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_NAME" Language="zh_Hant_HK">
+			<Text>存在</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5「治癒」效果</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_NAME" Language="zh_Hant_HK">
+			<Text>守望</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>使城市獲得狀態「聆聽」：城市不會因 [ICON_AMENITIES] 宜居度增長“懷疑”，持續 5 回合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_NAME" Language="zh_Hant_HK">
+			<Text>溝通者</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>對敵方文明城市 +5「療癒」效果，每治癒一座敵方文明城市 +1「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_NAME" Language="zh_Hant_HK">
+			<Text>友誼</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>「治癒」效果對敵方文明城市翻倍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_NAME" Language="zh_Hant_HK">
+			<Text>尋找</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+3 [ICON_MOVEMENT] 移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_NAME" Language="zh_Hant_HK">
+			<Text>困惑</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2「治癒」範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_NAME" Language="zh_Hant_HK">
+			<Text>疑問</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>對敵方文明城市 +5「療癒」效果，防禦時 +20 [ICON_STRENGTH] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_NAME" Language="zh_Hant_HK">
+			<Text>小丑</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5「治癒」效果</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_NAME" Language="zh_Hant_HK">
+			<Text>荒唐</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5「療癒」效果，讓「懷疑」大於 20 城市獲得狀態「快樂」：城市 +2 [ICON_AMENITIES] 宜居度，持續 5 回合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_NAME" Language="zh_Hant_HK">
+			<Text>驚人表演</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2「治癒」範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_NAME" Language="zh_Hant_HK">
+			<Text>歡愉</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>能降低「自滅」，使範圍內城市獲得狀態「快樂」：城市 +2 [ICON_AMENITIES] 宜居度，持續 5 回合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_NAME" Language="zh_Hant_HK">
+			<Text>自毀</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>使範圍內負宜居度城市獲得狀態「快樂」：城市 +5 [ICON_AMENITIES] 宜居度，持續 5 回合，移除視為*自滅*</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_NAME" Language="zh_Hant_HK">
+			<Text>謎題</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5「治癒」效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_NAME" Language="zh_Hant_HK">
+			<Text>解答</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1「治癒」效果範圍，範圍內單位 [ICON_STRENGTH] 戰鬥力與[ICON_MOVEMENT] 移動力 受「自滅」影響減半。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_NAME" Language="zh_Hant_HK">
+			<Text>勤勉</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>讓「懷疑」大於 20 城市獲得狀態「自證」：城市 +5% [ICON_SCIENCE] 科技價值，+10% [ICON_PRODUCTION] 生產力，持續 5 回合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_NAME" Language="zh_Hant_HK">
+			<Text>反抗</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>能夠降低「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_NAME" Language="zh_Hant_HK">
+			<Text>創造</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>讓「懷疑」大於 20 城市獲得狀態「自證」：城市 +10% [ICON_SCIENCE] 科技價值，+10% [ICON_PRODUCTION] 生產力，持續 5 回合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RESCUER_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_NAME" Language="zh_Hant_HK">
+			<Text>毀滅</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2「治癒」範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_NAME" Language="zh_Hant_HK">
+			<Text>瞬間</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2 [ICON_MOVEMENT] 移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_NAME" Language="zh_Hant_HK">
+			<Text>砲口</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2「治癒」範圍，「治癒」-10 [ICON_Damaged] 生命值，使自身及週邊單元格城市 -3 [ICON_Citizen] 人口</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_NAME" Language="zh_Hant_HK">
+			<Text>折磨</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>「治癒」恢復全部生命值，使文明所有城市獲得狀態「恐怖」：城市 -3 [ICON_AMENITIES] 宜居度，持續 5 回合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_NAME" Language="zh_Hant_HK">
+			<Text>救贖</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>使文明所有城市獲得狀態「恐怖」：城市每[ICON_Citizen] 人口 -1 [ICON_AMENITIES] 宜居度，持續 5 回合</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_NAME" Language="zh_Hant_HK">
+			<Text>病床</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>範圍內單位 [ICON_STRENGTH] 戰鬥力與[ICON_MOVEMENT] 移動力 受「自滅」影響減半。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_NAME" Language="zh_Hant_HK">
+			<Text>頭足綱</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2「治癒」範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_NAME" Language="zh_Hant_HK">
+			<Text>戰鬥</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5「治癒」效果</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_NAME" Language="zh_Hant_HK">
+			<Text>醫療</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>能夠降低「自滅」，使「懷疑」大於 20 城市獲得狀態「體檢」：城市 +15% [ICON_FOOD] 食物，持續 5 回合。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_NAME" Language="zh_Hant_HK">
+			<Text>第一場勝利</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>能夠降低「自滅」，使「懷疑」大於 40, 城市 +3 [ICON_Citizen] 人口</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_NAME" Language="zh_Hant_HK">
+			<Text>混沌藥箱</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>「治癒」效果翻倍，對單位「治癒」效果同樣作用於 [ICON_Damaged] 生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_NAME" Language="zh_Hant_HK">
+			<Text>混沌雲芝</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5「治癒」效果，+1「治癒」範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_NAME" Language="zh_Hant_HK">
+			<Text>混沌特效靈藥</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2「治癒」效果，+2「治癒」範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_NAME" Language="zh_Hant_HK">
+			<Text>虛無火漆</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+2「治癒」範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_NAME" Language="zh_Hant_HK">
+			<Text>絕對失敗處方</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>消滅範圍內野蠻人</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_EXECUTOR_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_NAME" Language="zh_Hant_HK">
+			<Text>槍口</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+10 [ICON_GOLD] 維修費，+10 [ICON_STRENGTH] 戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_NAME" Language="zh_Hant_HK">
+			<Text>報酬</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+30 [ICON_GOLD] 獲得金幣</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_NAME" Language="zh_Hant_HK">
+			<Text>理解</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+3 [ICON_MOVEMENT] 移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_NAME" Language="zh_Hant_HK">
+			<Text>實現</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+20 [ICON_GOLD] 維修費，+20 [ICON_STRENGTH] 戰鬥力，+2 「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_NAME" Language="zh_Hant_HK">
+			<Text>殺手</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+30 [ICON_GOLD] 維護費，+30 [ICON_STRENGTH] 戰鬥力，+3 “自滅”，+30 [ICON_GOLD] 獲得金幣</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="zh_Hant_HK">
+			<Text>虛無</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_NAME" Language="zh_Hant_HK">
+			<Text>描摹</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>對敵方文明城市單位「治癒」效果翻倍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_NAME" Language="zh_Hant_HK">
+			<Text>沒有戰爭</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>-10「治癒」效果</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_NAME" Language="zh_Hant_HK">
+			<Text>解釋</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>-2 [ICON_MOVEMENT] 移動力，+3「治癒」範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_NAME" Language="zh_Hant_HK">
+			<Text>錯覺</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>若本文明只有一座城市，使範圍內單位立即死亡</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_NAME" Language="zh_Hant_HK">
+			<Text>雪景球</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+4「治癒」範圍，*自滅*效果轉為：若本文明只有一座城市，過去建立的所有城市+99「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_NAME" Language="zh_Hant_HK">
+			<Text>懷疑增長</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_TOOLTIP" Language="zh_Hant_HK">
+			<Text>查看該地塊上的懷疑增長速率</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_TOOLTIP" Language="zh_Hant_HK">
+			<Text>殘夢</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC" Language="zh_Hant_HK">
+			<Text>攻擊 +1“殘夢”，最多累計12層。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC_WITH_PROMOTION" Language="zh_Hant_HK">
+			<Text>攻擊 +2“殘夢”，所有文明生產或購買單位 +1“殘夢”，最多累計12層。 ( 因升級「行於流逝的岸 )</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP" Language="zh_Hant_HK">
+			<Text>「治癒」次數</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_RANGE" Language="zh_Hant_HK">
+			<Text>範圍</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_EFFECT" Language="zh_Hant_HK">
+			<Text>效果</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_PROBABILITY" Language="zh_Hant_HK">
+			<Text>機率</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DECREASE" Language="zh_Hant_HK">
+			<Text>降低</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_INCREASE" Language="zh_Hant_HK">
+			<Text>升高</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT" Language="zh_Hant_HK">
+			<Text>能夠降低「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT_MAX" Language="zh_Hant_HK">
+			<Text>能夠清除「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SUSPICION" Language="zh_Hant_HK">
+			<Text>「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_TOOLTIP" Language="zh_Hant_HK">
+			<Text>「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_WORLDVIEW_TEXT" Language="zh_Hant_HK">
+			<Text>「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_WORLDVIEW_TEXT" Language="zh_Hant_HK">
+			<Text>「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DESC" Language="zh_Hant_HK">
+			<Text>消耗「治癒」次數降低「懷疑」並提升關係。每降低對方文明 5 層「懷疑」提升1關係。若單位「治癒」提升「懷疑」，降低的關係具有相同比例。</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SELF_ANNIHILATOR" Language="zh_Hant_HK">
+			<Text>攻擊</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_SELF_ANNIHILATOR" Language="zh_Hant_HK">
+			<Text>能夠改變「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CLEAN_SELF_ANNIHILATOR" Language="zh_Hant_HK">
+			<Text>能夠清除「自滅」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_KILL_SIN_THIRSTER" Language="zh_Hant_HK">
+			<Text>消滅野蠻人</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_HEAL_USE_UP_REGARD_AS_RECOVERY" Language="zh_Hant_HK">
+			<Text>「治癒」次數耗盡視為*痊癒*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_NOT_REGARD_AS_SELF_ANNIHILATOR" Language="zh_Hant_HK">
+			<Text>移除不視為*自滅*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_REGARD_AS_HEAL" Language="zh_Hant_HK">
+			<Text>若未曾「治癒」，移除視為「治癒」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_DAMAGE" Language="zh_Hant_HK">
+			<Text>「治癒」效果作用於 [ICON_Damaged] 生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_DAMAGE" Language="zh_Hant_HK">
+			<Text>[ICON_Damaged] 生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_SET_DAMAGE" Language="zh_Hant_HK">
+			<Text>恢復[ICON_Damaged]生命至</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT" Language="zh_Hant_HK">
+			<Text>「療癒」好感</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT_2" Language="zh_Hant_HK">
+			<Text>次</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_HALF_SELF_ANNIHILATOR_EFFECT" Language="zh_Hant_HK">
+			<Text>減半「自滅」[ICON_STRENGTH] 戰鬥力與[ICON_STRENGTH] 移動力效果</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_ATTACKER" Language="zh_Hant_HK">
+			<Text>殺死攻擊者</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT_WHEN_JUSTICE_WAR" Language="zh_Hant_HK">
+			<Text>特定情況秒殺單位並恢復全部生命值</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_FOR_ALL" Language="zh_Hant_HK">
+			<Text>所有城市</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL" Language="zh_Hant_HK">
+			<Text>「治癒」時</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_UNIT" Language="zh_Hant_HK">
+			<Text>「治癒」單位時</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_ATTACK" Language="zh_Hant_HK">
+			<Text>攻擊時</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF" Language="zh_Hant_HK">
+			<Text>若</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_OR" Language="zh_Hant_HK">
+			<Text>或</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_IS_ENEMY" Language="zh_Hant_HK">
+			<Text>是敵人</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_SUSPICION_GT" Language="zh_Hant_HK">
+			<Text>「懷疑」大於</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_NAGETIVE_AMENITY" Language="zh_Hant_HK">
+			<Text>負宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_ONLY_ONE_CITY" Language="zh_Hant_HK">
+			<Text>只有一座城市</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_AWARENESS_6" Language="zh_Hant_HK">
+			<Text>獲得狀態「清醒」（不受「懷疑」傳播影響）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_0" Language="zh_Hant_HK">
+			<Text>獲得狀態「聆聽」（因 [ICON_AMENITIES] 宜居度成長「懷疑」而減半）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_HEAL_EFFECT" Language="zh_Hant_HK">
+			<Text>「治癒」效果</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_5" Language="zh_Hant_HK">
+			<Text>獲得狀態「聆聽」（不會因 [ICON_AMENITIES] 宜居度增長而「懷疑」）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_SELF_SELF_ANIHILATOR" Language="zh_Hant_HK">
+			<Text>「自滅」改變</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_MULTIPLY_HEAL_EFFECT" Language="zh_Hant_HK">
+			<Text>「治癒」效果</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_0" Language="zh_Hant_HK">
+			<Text>獲得狀態「快樂」（城市 +1 [ICON_AMENITIES] 宜居度）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_2" Language="zh_Hant_HK">
+			<Text>獲得狀態「快樂」（城市 +2 [ICON_AMENITIES] 宜居度）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_4" Language="zh_Hant_HK">
+			<Text>獲得狀態「快樂」（城市 +2 [ICON_AMENITIES] 宜居度）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_5" Language="zh_Hant_HK">
+			<Text>獲得狀態「快樂」（城市 +5 [ICON_AMENITIES] 宜居度）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_0" Language="zh_Hant_HK">
+			<Text>取得狀態「自證」（城市 +5% [ICON_SCIENCE] 科技價值，+5% [ICON_PRODUCTION] 生產力）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_3" Language="zh_Hant_HK">
+			<Text>取得狀態「自證」（城市 +5% [ICON_SCIENCE] 科技價值，+10% [ICON_PRODUCTION] 生產力）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_5" Language="zh_Hant_HK">
+			<Text>取得狀態「自證」（城市 +10% [ICON_SCIENCE] 科技價值，+10% [ICON_PRODUCTION] 生產力）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_0" Language="zh_Hant_HK">
+			<Text>獲得狀態「恐怖」（城市 -1 [ICON_AMENITIES] 宜居度）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_POPULATION" Language="zh_Hant_HK">
+			<Text>[ICON_Citizen] 人口</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_4" Language="zh_Hant_HK">
+			<Text>獲得狀態「恐怖」（城市 -3 [ICON_AMENITIES] 宜居度）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_5" Language="zh_Hant_HK">
+			<Text>獲得狀態「恐怖」（城市 -5 [ICON_AMENITIES] 宜居度）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HEALTH_EXAM_4" Language="zh_Hant_HK">
+			<Text>獲得狀態「體檢」（城市 +15% [ICON_FOOD] 食物）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_GOLD" Language="zh_Hant_HK">
+			<Text>[ICON_GOLD] 金幣</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_DERANGED_0" Language="zh_Hant_HK">
+			<Text>獲得狀態「錯亂」（城市 [ICON_AMENITIES] 宜居度大於0的部分增加「懷疑」）</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DESTORY_BUILT_CITY" Language="zh_Hant_HK">
+			<Text>自滅效果：若本文明只有一座城市，過去建立的所有城市+99「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT" Language="zh_Hant_HK">
+			<Text>殺死單位</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_LOSS_ALL_MOVEMENT" Language="zh_Hant_HK">
+			<Text>失去所有[ICON_MOVEMENT] 移動力</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_RECOVERY_WORLDVIEW_TEXT" Language="zh_Hant_HK">
+			<Text>痊癒</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_SELF_ANNIHILATE_WORLDVIEW_TEXT" Language="zh_Hant_HK">
+			<Text>自滅</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_TURNS" Language="zh_Hant_HK">
+			<Text>回合</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_NAME" Language="zh_Hant_HK">
+			<Text>清醒</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>不受「懷疑」傳播影響</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_NAME" Language="zh_Hant_HK">
+			<Text>聆聽</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>因 [ICON_AMENITIES] 宜居度成長「懷疑」減半</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_NAME" Language="zh_Hant_HK">
+			<Text>聆聽</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>不會因 [ICON_AMENITIES] 宜居度增長而“懷疑”</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_NAME" Language="zh_Hant_HK">
+			<Text>歡愉</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 +1 [ICON_AMENITIES] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_NAME" Language="zh_Hant_HK">
+			<Text>歡愉</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 +2 [ICON_AMENITIES] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_NAME" Language="zh_Hant_HK">
+			<Text>歡愉</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 +2 [ICON_AMENITIES] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_NAME" Language="zh_Hant_HK">
+			<Text>歡愉</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 +5 [ICON_AMENITIES] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_NAME" Language="zh_Hant_HK">
+			<Text>自證</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 +5% [ICON_SCIENCE] 科技值，+5% [ICON_PRODUCTION] 生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_NAME" Language="zh_Hant_HK">
+			<Text>自證</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 +5% [ICON_SCIENCE] 科技值，+10% [ICON_PRODUCTION] 生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_NAME" Language="zh_Hant_HK">
+			<Text>自證</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 +10% [ICON_SCIENCE] 科技值，+10% [ICON_PRODUCTION] 生產力</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_NAME" Language="zh_Hant_HK">
+			<Text>恐怖</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 -1 [ICON_AMENITIES] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_NAME" Language="zh_Hant_HK">
+			<Text>恐怖</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 -3 [ICON_AMENITIES] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_NAME" Language="zh_Hant_HK">
+			<Text>恐怖</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 -5 [ICON_AMENITIES] 宜居度</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_NAME" Language="zh_Hant_HK">
+			<Text>體檢</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 +15% [ICON_FOOD] 食物</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_NAME" Language="zh_Hant_HK">
+			<Text>錯亂</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>城市 [ICON_AMENITIES] 宜居度大於0的部分增加「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DECREASE_SUSPICION" Language="zh_Hant_HK">
+			<Text>您降低了對方文明「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_INCREASE_SUSPICION" Language="zh_Hant_HK">
+			<Text>您提升了對方文明「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY" Language="zh_Hant_HK">
+			<Text>切勿回頭</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡即將勝利的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY" Language="zh_Hant_HK">
+			<Text>切勿回頭，來處無路可走。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡即將勝利的文明</Text>
+		</Replace>
+		<Replace Tag="LOC_ACHERON_QUOTE" Language="zh_Hant_HK">
+			<Text>「黃泉」...雖然只是藉來的名字，但你知道我是怎樣的人，記得我做過怎樣的事，如此之後...我便是黃泉。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>塵埃...終歸大地......</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>塵埃...終歸大地......</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>別忘了和夥伴們分享喜悅。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>也許，正確的回答不只一種。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>又多了一份血債。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>再陪你走一段吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>如果身配一柄刀，總要用它斬下些什麼。我拔刀的理由...從前、如今、往後，只有一個。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>留下回憶之處，觸著碰著，都是帶刺的花......</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>你要去哪裡？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>聽雨從紅葉跌落，滴在傘上的聲響蕭蕭索索，從中…我得到片刻寧靜。</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_NAME" Language="zh_Hant_HK">
+			<Text>虛無模式</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_DESC" Language="zh_Hant_HK">
+			<Text>文明能夠獲得「懷疑」。注意城市的[ICON_AMENITIES]宜居度！</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_NAME" Language="zh_Hant_HK">
+			<Text>虛無僅限於黃泉</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_DESC" Language="zh_Hant_HK">
+			<Text>只有自滅者黃泉文明能夠獲得「懷疑」</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_NAME" Language="zh_Hant_HK">
+			<Text>虛無模式優化</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_DESC" Language="zh_Hant_HK">
+			<Text>不改變實際機制，改變顯示效果</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>是你呀...我們都應當珍惜彼此存在的時光。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>來到此處，是你...還是命途的意願？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>我們該啟程了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>「二度踏入同一條河流」…並不困難。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>這種遺憾無可奈何，便由它去吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>無妨，就在此了結。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>獨行銀河的人，無非兩種渴求：找到前人的行跡、尋得自己的道路。但在祂們的注視下……後者大多止於前者。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>下雨了...，要一起走段路嗎？來吧，我有一把傘。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>從彼岸醒來時，海的盡頭殘存雷鳴，漫天血雨剛好飄落。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>遠方的風景看不真切…但一定很美。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>人行於命途之上…而後尋索，而後頓悟，而後存在。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>往事造就如今的我們，有些事很難記得，有些事很難忘卻。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>又見面了，要再跳一支舞麼。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>所有或一無所有…我會拭目以待。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>此世如雨而逝，終歸大地，希望再見時…已是天晴。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>在知曉我身分後仍能流露出如此惡意的人，你不是第一個，也不會是最後一個。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>無論你們的目的是什麼...我只能看見一種結局：它的未來是一片「虛無」，就和所有溺亡在祂陰影中的世界一樣。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>能用來告別的時間，本來就不多了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>黑洞並不壯觀，也不慘烈，它很安靜，像一道孤零零的視線，看著你我……然後靜靜吞沒所有，予以冰冷、沉默的擁抱。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ACHERON_ANY" Language="zh_Hant_HK">
+			<Text>暴雨將至。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 14:16:28 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_DESCRIPTION" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_ADJECTIVE" Language="ko_KR">
+			<Text>무에서</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_NAME" Language="ko_KR">
+			<Text>형태 없이 잠을 자다</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;네더 모드&quot;가 필요합니다.
+                [NEWLINE]선택한 문명이 건설한 도시는 '의심' 레이어 30개를 획득하며 최소 레이어는 10개입니다. 보이드 유닛은 &quot;의심&quot; 레이어와 상관없이 생성될 수 있습니다.
+                [NEWLINE]선택한 문명이 도시를 잃으면 모든 도시에 &quot;의심&quot;이 +30 부여됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ACHERON_NAME" Language="ko_KR">
+			<Text>황취안</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_NAME" Language="ko_KR">
+			<Text>지하세계의 감시자</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_DESCRIPTION" Language="ko_KR">
+			<Text>도시는 인구당 생산성 2 [ICON_PRODUCTION], 식량 1 [ICON_FOOD]를 제공합니다. 선택한 문명 도시의 평균 &quot;의심&quot; 레이어 수는 선택하지 않은 도시의 평균 &quot;의심&quot; 레이어 수를 0.5% 감소시킵니다. 문명 도시는 이 효과를 0.5% 감소시킵니다. 효과 -0.5%.
+                [NEWLINE] 특별한 공허 유닛인 황취안(Huangquan)이 있으며 모든 공허 유닛은 처음에 레벨 1로 승격됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION" Language="ko_KR">
+			<Text>의심하다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DESC" Language="ko_KR">
+			<Text>&quot;의심&quot; 레벨당 1% [ICON_CULTURE] 문화적 가치, 1% [ICON_SCIENCE] 기술 가치, 1% [ICON_PRODUCTION] 생산성, 1% [ICON_Tourism] 관광 성과, 1% 위인 포인트, 1.5% [ICON_FOOD] 음식이 감소합니다. , 1.5% [ICON_FAITH] 신앙, 1.5% [ICON_GOLD] 금.
+                [NEWLINE] 20개 이상의 &quot;의심&quot; 레이어 10개마다 도시 셀의 유닛이 최소 1레벨의 &quot;자멸&quot; 효과를 갖게 됩니다. 효과에 필요한 레이어 수는 도시 &quot;정치&quot;를 연구한 후 절반으로 줄어듭니다. 철학&quot;.
+                [NEWLINE] &quot;의심&quot; 레벨 20마다 거주 가능성 1 [ICON_AMENITIES]과 충성도 1이 감소합니다. 도시 &quot;계몽&quot; 연구 후에 필요한 레벨 수가 절반으로 줄어듭니다.
+                [NEWLINE] &quot;의심&quot; 레이어 30개마다 &quot;의심&quot; 1레이어가 9블록 내 도시에 확산되고, 각 블록은 &quot;인쇄&quot; 기술을 연구한 후 필요한 레이어 수만큼 &quot;의심&quot; 1레이어를 약화시킵니다. 기술을 연구하면 &quot;라디오&quot; 이후에 필요한 감쇠 블록 수가 두 배가 됩니다. &quot;의심&quot; 레벨이 99에 도달하면 기술 연구로 인해 더 이상 도시의 통신 효과가 변경되지 않습니다.
+                [NEWLINE] &quot;의심&quot; 레벨 50마다 라운드당 시대 포인트가 1씩 감소하고, 도시 &quot;소셜 미디어&quot;를 연구하면 효과가 두 배로 늘어납니다.
+                [NEWLINE][ICON_AMENITIES] 거주 가능성이 0 미만인 각 부분에 대해 &quot;의심&quot; +1, 3 이상의 각 부분에 대해 &quot;의심&quot; -1, 도시 &quot;이데올로기&quot;를 연구하면 효과가 두 배가 됩니다. '의심' 레이어의 최대 개수는 99개이며, 라운드당 최대 15개의 '의심' 레이어를 획득할 수 있습니다.
+                [NEWLINE] 도시가 포위되면 라운드당 &quot;의심&quot;이 -5가 되며, 도시 행정에서 &quot;인문주의&quot;를 연구하면 효과가 두 배가 됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR" Language="ko_KR">
+			<Text>자폭하다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR_DESC" Language="ko_KR">
+			<Text>&quot;자멸&quot; 레벨당 전투력이 1 [ICON_STRENGTH] 감소합니다.
+            [NEWLINE]'자폭'이 레벨 20 이상이면 '자폭' 레벨당 HP가 -1 [ICON_Damaged]됩니다.
+            [NEWLINE]'자멸' 레벨이 8레벨마다 -1 [ICON_MOVEMENT] 이동합니다.
+            [NEWLINE] 매 라운드마다 &quot;자멸&quot;이 1씩 증가합니다.
+            [NEWLINE] &quot;자멸&quot; 유닛이 사라지면 해당 유닛은 *자폭* 유닛으로 간주됩니다. 주변 도시 +2개 + &quot;의심&quot; 5개, 25% 확률로 야만인으로 변신합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CIVI_AVERAGE_SUSPICION" Language="ko_KR">
+			<Text>본국의 평균 &quot;의심&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_FORE_AVERAGE_SUSPICION" Language="ko_KR">
+			<Text>외국인 평균 '의심'</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_AMENITIES" Language="ko_KR">
+			<Text>[ICON_AMENITIES] 거주 적합성의 &quot;의심&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_NEARBY_CITY" Language="ko_KR">
+			<Text>인근 도시에서 '의심' 온다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DECREASING_FROM_BESIEGED" Language="ko_KR">
+			<Text>&quot;의심&quot;은 포위 공격에서 비롯됩니다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE" Language="ko_KR">
+			<Text>상태</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE_ROUND" Language="ko_KR">
+			<Text>둥근</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING" Language="ko_KR">
+			<Text>&quot;완전히 깨어 있어&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING_DESC" Language="ko_KR">
+			<Text>도시는 '의심' 확산에 영향을 받지 않는다</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_LZUMO" Language="ko_KR">
+			<Text>이즈모</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_TRUTH" Language="ko_KR">
+			<Text>진짜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_SKY" Language="ko_KR">
+			<Text>하늘</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_HOWL" Language="ko_KR">
+			<Text>명나라</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MIST" Language="ko_KR">
+			<Text>란</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FROST" Language="ko_KR">
+			<Text>서리</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FATE" Language="ko_KR">
+			<Text>생명</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FLARE" Language="ko_KR">
+			<Text>강한</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_THOUGHT" Language="ko_KR">
+			<Text>잠</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_ROOT" Language="ko_KR">
+			<Text>기반</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_RORM" Language="ko_KR">
+			<Text>천</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_BIND" Language="ko_KR">
+			<Text>묶음</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MAW" Language="ko_KR">
+			<Text>먹다</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_1" Language="ko_KR">
+			<Text>단서</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_2" Language="ko_KR">
+			<Text>맥스</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_3" Language="ko_KR">
+			<Text>울시</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_4" Language="ko_KR">
+			<Text>케난</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_5" Language="ko_KR">
+			<Text>핼리버튼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_1" Language="ko_KR">
+			<Text>코코나</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_2" Language="ko_KR">
+			<Text>치안 케통</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_3" Language="ko_KR">
+			<Text>우마</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_4" Language="ko_KR">
+			<Text>아란</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_5" Language="ko_KR">
+			<Text>훌라</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_NAME" Language="ko_KR">
+			<Text>무(無) 워커</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;의심&quot;을 줄이고 관계를 개선하려면 &quot;치료&quot; 시간을 소비하세요. 상대 문명의 '의심'이 5단계 감소할 때마다 관계도가 1씩 증가합니다. 유닛의 &quot;치료&quot;가 &quot;의심&quot;을 증가시키면 같은 비율로 관계가 감소합니다.
+                [NEWLINE]처음에는 &quot;자폭&quot;의 [ICON_MOVEMENT] 이동성과 [ICON_STRENGTH] 전투력 디버프를 무시하고 최소 1레벨의 &quot;자폭&quot;을 보유합니다.
+                [NEWLINE]비공허 유닛의 '자폭' 효과를 변경할 수 있다면 그 효과는 도시의 '의심스러운' 효과를 줄이는 것과 같습니다.
+                [NEWLINE]지역 통제를 무시하고 약탈할 수 없습니다. 유닛을 공격하는 것은 방어 시 해당 문명이 생성한 전투력이 가장 높은 유닛 [ICON_STRENGTH]과 동일한 전투력을 얻는 것으로 간주됩니다.
+                [NEWLINE] 경험치를 얻을 수 없습니다. 시립 &quot;정치 철학&quot;, &quot;계몽 사상&quot;, &quot;이념&quot;을 연구한 후에는 향후 생산되는 유닛에 효과적인 강화된 업그레이드를 받게 됩니다.
+                [NEWLINE]다음 [COLOR:128,128,128,200] * 제작 제안 [ENDCOLOR]은 초기 상황에 적용 가능합니다. 프로모션에 따라 조정하세요.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ACHERON" Language="ko_KR">
+			<Text>자신을 '레인저'라고 부르는 여행자. 본명은 불명. 장검을 들고 홀로 은하수를 여행한다.
+                [NEWLINE]
+                [NEWLINE] 그는 무관심하고 과묵하며 그의 검은 보라색 번개처럼 빠르지만, 항상 칼집만으로 싸우며 발사하지 않고 칼집을 붙잡고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_NAME" Language="ko_KR">
+			<Text>황취안</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_DESCRIPTION" Language="ko_KR">
+			<Text>주요 보이드 유닛, 스텔스, 기본 [ICON_STRENGTH] 전투력은 선택한 문명이 생산하는 최고 전투력 유닛과 동일하며, 자신과 주변 셀 시티를 &quot;의심스러운&quot; 상태로 만들기 위해 &quot;치유&quot; 시간을 소비하는 고유한 특성을 가지고 있습니다. 승격 트리를 잡고 치명적인 피해를 입은 후 퇴각합니다.
+                [NEWLINE] 생성되면 &quot;자멸&quot; 레벨이 99가 됩니다. &quot;자폭&quot; 효과는 무시됩니다. *자폭*으로 간주되지 않습니다.
+                [NEWLINE] 황취안을 획득한 후 선택한 문명은 공격할 때마다 황취안의 'Remnant Dream' 레이어를 1개씩 축적하며, 생성 시에는 6레이어를 획득하며 최대 12레이어까지 누적됩니다.
+                [NEWLINE] &quot;Remnant Dream&quot;이 9레벨에 도달하면 &quot;Remnant Dream Infusion, One Sword&quot; 상태로 들어갈 수 있습니다. 유닛의 이동력은 +4 [ICON_MOVEMENT], +10 [ICON_STRENGTH] 전투력, + &quot;치유&quot; 횟수 4회, 시력 +2.
+                [NEWLINE] '치유' 횟수가 소진되면 '남은 꿈' 9겹이 소모되며, '남은 꿈 염색, 칼 하나 부러뜨림'이 3회마다 종료됩니다. &quot;가 출시되면 Huang Quan은 향상된 업그레이드를 받게 됩니다. .</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="ko_KR">
+			<Text>야간 경비원</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;의심&quot;이 0보다 클 때 잠금 해제된 공허 유닛은 &quot;치유&quot; 시간을 소비하여 자신과 주변 세포의 &quot;의심&quot;을 -3으로 만듭니다.
+                [NEWLINE]도시에 '듣기' 상태를 부여합니다: 5턴 동안 [ICON_AMENITIES] 거주 가능성으로 인한 도시의 '의심' 성장이 절반으로 줄어듭니다.
+                [NEWLINE]제거는 *자멸*로 간주되지 않습니다.
+                [NEWLINE][COLOR:128,128,128,200]* 부정적인 거주 적합성[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="ko_KR">
+			<Text>평범한 사람들</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_DESCRIPTION" Language="ko_KR">
+			<Text>공허 유닛은 &quot;의심&quot;이 0보다 클 때 잠금 해제됩니다. &quot;치유&quot; 시간을 소비하여 자신과 주변 세포 도시에 -3의 &quot;의심&quot;을 갖게 합니다.
+                [NEWLINE]'의심'을 줄이면 외교 관계가 두 배로 늘어납니다.
+                [NEWLINE]제거는 *자멸*로 간주되지 않습니다.
+                [NEWLINE][COLOR:128,128,128,200]* 외국에 대해 덜 '의심'해야 합니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_NAME" Language="ko_KR">
+			<Text>벼락</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_DESCRIPTION" Language="ko_KR">
+			<Text>특수 능력: 록 밴드는 결성 시 &quot;자멸&quot;을 가지며, 록 밴드의 각 레벨은 +1 범위와 -5로 업그레이드됩니다. &quot;수상&quot;.
+                [NEWLINE]+3 [ICON_MOVEMENT] 이동.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="ko_KR">
+			<Text>사심 없는 어릿광대</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;의심&quot;이 30 이상일 때 잠금 해제되는 공허 유닛은 &quot;치유&quot; 시간을 소모하여 자신과 주변 셀 도시에 대한 &quot;의심&quot;을 3만큼 감소시킵니다.
+                [NEWLINE] &quot;의심&quot;이 20보다 크면 도시가 &quot;행복&quot; 상태를 얻습니다. 도시는 5턴 동안 +1 [ICON_AMENITIES]의 편의성을 얻습니다.
+                [NEWLINE]제거는 *자기파괴*로 간주되지 않습니다.
+                [NEWLINE][COLOR:128,128,128,200]* 부정적인 거주 가능성[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="ko_KR">
+			<Text>자기인증협회</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_DESCRIPTION" Language="ko_KR">
+			<Text>보이드 유닛은 &quot;의심&quot;이 30 이상인 상태로 잠금 해제됩니다. 이 유닛은 &quot;치유&quot; 시간을 소비하여 자신과 주변 세포의 &quot;의심&quot;을 -5로 만듭니다.
+                [NEWLINE] &quot;의심&quot;이 20보다 큰 도시를 &quot;자체 인증&quot; 상태로 만듭니다. 도시의 기술 가치는 +5% [ICON_SCIENCE], +5% [ICON_PRODUCTION] 생산성을 가지며 5턴 동안 지속됩니다.
+                [NEWLINE]제거는 *자멸*로 간주되지 않습니다.
+                [NEWLINE][COLOR:128,128,128,200]* 생산성이 높으며 더 높은 생산성/기술 가치가 필요합니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_NAME" Language="ko_KR">
+			<Text>구조자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_DESCRIPTION" Language="ko_KR">
+			<Text>공허 유닛 &quot;의심&quot;은 잠금 해제 시 30 이상, 생산은 인구 1 [ICON_Citizen] 소비, &quot;자멸&quot; 증가 가능, 생산 1라운드 후 모든 [ICON_MOVEMENT] 이동성을 잃음, 스스로 치유하기 위해 &quot;치유&quot; 시간 소비 및 주변 셀 도시 -1 [ICON_Citizen] 인구, +10 &quot;의심&quot;.
+                [NEWLINE] '의심'이 증가하면 외교 관계가 두 배로 감소합니다.
+                [NEWLINE]문명의 모든 도시에 '테러' 상태를 부여합니다: 해당 도시의 거주 가능성이 -1 [ICON_AMENITIES], 5턴 동안 지속됩니다.
+                [NEWLINE]'치료'되지 않은 경우 제거는 '치료'된 것으로 간주됩니다. 유닛에 대한 &quot;치유&quot; 효과는 [ICON_Damaged] 체력에도 영향을 미칩니다.
+                [NEWLINE][COLOR:128,128,128,200]* 제작에는 권장되지 않음[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="ko_KR">
+			<Text>죽은 사람을 거부하다</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;의심&quot;이 0보다 클 때 잠금 해제된 공허 유닛은 &quot;치유&quot; 시간을 소비하여 자신과 주변 세포의 &quot;의심&quot;을 -3으로 만듭니다.
+                [NEWLINE]'용의자'를 도시 40개 + 인구 [ICON_Citizen] 1개 이상으로 만듭니다.
+                [NEWLINE] 제거는 *자기 파괴*로 간주되지 않으며 &quot;치유&quot; 시간의 소진은 *치유*로 간주됩니다. 자체 및 주변 셀 도시 -5 &quot;의심&quot;.
+                [NEWLINE][COLOR:128,128,128,200]* '용의자' 비율은 높고 인구는 낮음[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="ko_KR">
+			<Text>카오스닥터</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_DESCRIPTION" Language="ko_KR">
+			<Text>'의심'이 0보다 클 때 잠금 해제된 보이드 유닛은 '자멸'을 감소시킬 수 있으며, '치유' 횟수를 소모하여 자신과 주변 셀을 -5의 '의심' 50% 확률, 25% 확률로 만듭니다. -15 &quot;의심&quot;, 25% 확률 +5 &quot;의심&quot;.
+                [NEWLINE][COLOR:128,128,128,200]* '의심' 높음[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_NAME" Language="ko_KR">
+			<Text>冤仇代行</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;의심&quot;이 0보다 클 때 잠금 해제된 공허 유닛은 도시를 포위할 때 &quot;자멸&quot;을 증가시키고 전투력을 -20 [ICON_STRENGTH]하며 &quot;치유&quot; 시간을 소비한 후 다음의 &quot;의심&quot;을 +1합니다. 자체와 주변 셀 도시.
+                [NEWLINE]공격한 유닛 하나당 +10 [ICON_GOLD] 골드를 획득합니다.
+                [NEWLINE][COLOR:128,128,128,200]* 충분한 자금[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="ko_KR">
+			<Text>상대 추적자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;의심&quot;이 50 이상일 때 잠금 해제된 공허 유닛은 &quot;자멸&quot;을 증가시킬 수 있으며, &quot;치료&quot; 횟수는 1밖에 없어 자신과 주변 세포에 &quot;의심&quot;이 +20 부여됩니다.
+                [NEWLINE] 문명의 모든 도시에 &quot;카오스&quot; 상태를 부여합니다. 거주 가능성이 0보다 큰 도시 [ICON_AMENITIES] 부분은 5라운드 동안 &quot;의심&quot; 상태가 됩니다.
+                [NEWLINE]'치유'되지 않은 경우 제거는 '치유'로 간주되며 유닛에 대한 '치유' 효과는 [ICON_Damaged] 체력에도 영향을 미칩니다.
+                [NEWLINE][COLOR:128,128,128,200]* 전쟁은 불리합니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_ACHERON_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_NAME" Language="ko_KR">
+			<Text>천둥과 북소리가 그치고 바람이 그쳤습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_DESCRIPTION" Language="ko_KR">
+			<Text>+2 [ICON_MOVEMENT] 이동, +5 &quot;치유&quot; 효과</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_NAME" Language="ko_KR">
+			<Text>지나가는 해안을 걷는다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_DESCRIPTION" Language="ko_KR">
+			<Text>전투 &quot;Can Meng&quot; +1, 모든 문명이 &quot;Can Meng&quot; 유닛 생산 또는 구매 +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_NAME" Language="ko_KR">
+			<Text>하늘에서 내리는 진실한 말의 시작</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_DESCRIPTION" Language="ko_KR">
+			<Text>적대적인 도시에 접근하면 도시를 포위하고, 공격을 받은 후에는 공격자를 죽입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_NAME" Language="ko_KR">
+			<Text>타오르는 불꽃은 거울 속의 사람을 바라본다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;치유&quot; 범위 +2, &quot;자멸&quot; 감소 가능</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_NAME" Language="ko_KR">
+			<Text>4단계가 날 방해해</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_DESCRIPTION" Language="ko_KR">
+			<Text>공격 후 이동할 수 있습니다. 이 문명에 불만이 있는 [ICON_STAT_GRIEVANCE]가 아닌 문명 유닛을 공격하면 해당 문명 유닛이 즉시 처치되고 [ICON_Damaged] 체력, [ICON_MOVEMENT] 이동성 및 공격 횟수가 모두 회복됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_NAME" Language="ko_KR">
+			<Text>재난과 죄책감을 풀어주는 족쇄</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_DESCRIPTION" Language="ko_KR">
+			<Text>선택한 문명의 모든 에테리얼 유닛은 전투력 +10[ICON_STRENGTH], 이동력 +2[ICON_MOVEMENT]를 얻습니다.
+                [NEWLINE] 유닛의 '의심' 해소 능력이 도시의 '의심'의 30% 미만일 경우, 도시의 '의심'의 30%를 직접 해소하면 '자폭'을 해소할 수 있다.
+                [NEWLINE] 도시가 &quot;클리어&quot; 상태를 얻습니다. 도시는 5턴 동안 &quot;의심&quot; 확산에 영향을 받지 않습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_NAME" Language="ko_KR">
+			<Text>삶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_DESCRIPTION" Language="ko_KR">
+			<Text>범위 내 유닛의 [ICON_STRENGTH] 전투력과 [ICON_MOVEMENT] 이동력이 &quot;자멸&quot;의 영향을 받아 절반으로 줄어듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_NAME" Language="ko_KR">
+			<Text>확산</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;치유&quot; 범위 +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_NAME" Language="ko_KR">
+			<Text>다른 방향</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_DESCRIPTION" Language="ko_KR">
+			<Text>유닛에 대한 &quot;자멸&quot; 및 +5 &quot;치유&quot; 효과를 줄일 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_NAME" Language="ko_KR">
+			<Text>존재하다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_DESCRIPTION" Language="ko_KR">
+			<Text>+5 &quot;치유&quot; 효과</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_NAME" Language="ko_KR">
+			<Text>계속 지켜보다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_DESCRIPTION" Language="ko_KR">
+			<Text>도시에 &quot;듣기&quot; 상태를 부여합니다. 도시는 5턴 동안 [ICON_AMENITIES] 거주 가능성 증가로 인해 &quot;의심&quot;하지 않습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_NAME" Language="ko_KR">
+			<Text>전달자</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_DESCRIPTION" Language="ko_KR">
+			<Text>적 문명 도시에 대한 &quot;치유&quot; 효과 +5, 치유된 적 문명 도시 하나당 &quot;자멸&quot; 효과 +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_NAME" Language="ko_KR">
+			<Text>우정</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_DESCRIPTION" Language="ko_KR">
+			<Text>적 문명 도시의 '치유' 효과가 2배로 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_NAME" Language="ko_KR">
+			<Text>찾다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_DESCRIPTION" Language="ko_KR">
+			<Text>+3 [ICON_MOVEMENT] 이동</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_NAME" Language="ko_KR">
+			<Text>어찌할 바를 모르는</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_DESCRIPTION" Language="ko_KR">
+			<Text>+2 &quot;치유&quot; 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_NAME" Language="ko_KR">
+			<Text>의심</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_DESCRIPTION" Language="ko_KR">
+			<Text>적 문명 도시에 대한 &quot;치유&quot; 효과 +5, 방어 시 전투력 +20 [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_NAME" Language="ko_KR">
+			<Text>시골뜨기</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_DESCRIPTION" Language="ko_KR">
+			<Text>+5 &quot;치유&quot; 효과</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_NAME" Language="ko_KR">
+			<Text>터무니없는</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_DESCRIPTION" Language="ko_KR">
+			<Text>+5 &quot;치유&quot; 효과, &quot;의심&quot;을 20 이상으로 만듭니다. 도시는 &quot;행복&quot; 상태를 얻습니다: 도시 +2 [ICON_AMENITIES] 편의 시설, 5턴 동안 지속됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_NAME" Language="ko_KR">
+			<Text>놀라운 성능</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_DESCRIPTION" Language="ko_KR">
+			<Text>+2 &quot;치유&quot; 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_NAME" Language="ko_KR">
+			<Text>기쁨</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;자멸&quot;을 줄이고 범위 내의 도시를 &quot;행복&quot; 상태로 만들 수 있습니다. 도시의 거주 가능성이 +2 [ICON_AMENITIES], 5라운드 지속됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_NAME" Language="ko_KR">
+			<Text>자폭</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_DESCRIPTION" Language="ko_KR">
+			<Text>범위 내의 거주 가능성이 부정적인 도시를 &quot;행복&quot; 상태로 만듭니다. 도시는 거주 가능성 +5 [ICON_AMENITIES], 5라운드 동안 지속되고 제거는 *자멸*로 간주됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_NAME" Language="ko_KR">
+			<Text>퍼즐</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_DESCRIPTION" Language="ko_KR">
+			<Text>+5 &quot;치유&quot; 효과.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_NAME" Language="ko_KR">
+			<Text>답변</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;치유&quot; 효과 영역 +1, 범위 내 유닛의 전투력 [ICON_STRENGTH] 및 이동력 [ICON_MOVEMENT]이 &quot;자멸&quot;에 의해 절반으로 줄어듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_NAME" Language="ko_KR">
+			<Text>근민</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;의심&quot;을 20보다 크게 만들면 도시는 &quot;자체 증명&quot; 상태를 얻습니다. 도시는 +5% [ICON_SCIENCE] 기술 가치, +10% [ICON_PRODUCTION] 생산성을 가지며 5턴 동안 지속됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_NAME" Language="ko_KR">
+			<Text>저항하다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;자멸&quot;을 줄일 수 있습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_NAME" Language="ko_KR">
+			<Text>만들다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;의심&quot;을 20보다 크게 만들면 도시는 &quot;자체 인증&quot; 상태를 얻습니다: +10% [ICON_SCIENCE] 기술 가치, +10% [ICON_PRODUCTION] 생산성, 5라운드 지속</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RESCUER_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_NAME" Language="ko_KR">
+			<Text>파괴하다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_DESCRIPTION" Language="ko_KR">
+			<Text>+2 &quot;치유&quot; 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_NAME" Language="ko_KR">
+			<Text>순간</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_DESCRIPTION" Language="ko_KR">
+			<Text>+2 [ICON_MOVEMENT] 이동</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_NAME" Language="ko_KR">
+			<Text>포구</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_DESCRIPTION" Language="ko_KR">
+			<Text>자신과 주변 세포 도시의 &quot;치료&quot; 범위 +2, &quot;치료&quot; -10 [ICON_Damaged] 건강, -3 [ICON_Citizen] 인구</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_NAME" Language="ko_KR">
+			<Text>고문</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;치료&quot;는 모든 체력을 회복하고 문명의 모든 도시에 &quot;공포&quot; 상태를 부여합니다. 도시 거주 가능성 -3 [ICON_AMENITIES], 5라운드 지속</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_NAME" Language="ko_KR">
+			<Text>구원</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_DESCRIPTION" Language="ko_KR">
+			<Text>문명의 모든 도시에 &quot;공포&quot; 상태를 부여합니다. 도시의 모든 [ICON_Citizen] 인구에 대해 거주 가능성 -1 [ICON_AMENITIES], 5턴 지속</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_NAME" Language="ko_KR">
+			<Text>병원 침대</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;자폭&quot; 효과로 인해 범위 내 유닛의 전투력 [ICON_STRENGTH]과 이동력 [ICON_MOVEMENT]이 절반으로 줄어듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_NAME" Language="ko_KR">
+			<Text>두 족류 동물</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_DESCRIPTION" Language="ko_KR">
+			<Text>+2 &quot;치유&quot; 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_NAME" Language="ko_KR">
+			<Text>화이팅</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_DESCRIPTION" Language="ko_KR">
+			<Text>+5 &quot;치유&quot; 효과</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_NAME" Language="ko_KR">
+			<Text>의료</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;자살&quot;을 줄이고 &quot;의심&quot;을 20보다 크게 만들 수 있습니다. 도시는 &quot;신체 검사&quot; 상태를 얻습니다. 도시 +15% [ICON_FOOD] 식량, 5라운드 지속.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_NAME" Language="ko_KR">
+			<Text>첫 승리</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_DESCRIPTION" Language="ko_KR">
+			<Text>&quot;자멸&quot;을 줄일 수 있고, &quot;의심&quot;을 40보다 크게 만들 수 있으며, 도시 +3 [ICON_Citizen] 인구가 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_NAME" Language="ko_KR">
+			<Text>카오스 메디슨 키트</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_DESCRIPTION" Language="ko_KR">
+			<Text>'치유' 효과가 두 배로 증가하고, 유닛에 대한 '치유' 효과는 [ICON_Damaged] 체력에도 영향을 미칩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_NAME" Language="ko_KR">
+			<Text>카오스 윤지</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_DESCRIPTION" Language="ko_KR">
+			<Text>+5 &quot;치유&quot; 효과, +1 &quot;치유&quot; 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_NAME" Language="ko_KR">
+			<Text>카오스 특수 효과 비약</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_DESCRIPTION" Language="ko_KR">
+			<Text>+2 &quot;치유&quot; 효과, +2 &quot;치유&quot; 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_NAME" Language="ko_KR">
+			<Text>공허의 불 페인트</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_DESCRIPTION" Language="ko_KR">
+			<Text>+2 &quot;치유&quot; 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_NAME" Language="ko_KR">
+			<Text>실패에 대한 절대적인 처방</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_DESCRIPTION" Language="ko_KR">
+			<Text>범위 내의 야만인 ​​제거</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_EXECUTOR_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_NAME" Language="ko_KR">
+			<Text>포구</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_DESCRIPTION" Language="ko_KR">
+			<Text>+10 [ICON_GOLD] 유지 관리, +10 [ICON_STRENGTH] 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_NAME" Language="ko_KR">
+			<Text>보수</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_DESCRIPTION" Language="ko_KR">
+			<Text>+30 [ICON_GOLD] 금화 획득</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_NAME" Language="ko_KR">
+			<Text>이해하다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_DESCRIPTION" Language="ko_KR">
+			<Text>+3 [ICON_MOVEMENT] 이동</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_NAME" Language="ko_KR">
+			<Text>성취하다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_DESCRIPTION" Language="ko_KR">
+			<Text>+20 [ICON_GOLD] 유지비, +20 [ICON_STRENGTH] 전투력, +2 &quot;자폭&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_NAME" Language="ko_KR">
+			<Text>살인자</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_DESCRIPTION" Language="ko_KR">
+			<Text>유지비 +30 [ICON_GOLD], 전투력 +30 [ICON_STRENGTH], &quot;자멸&quot; +3, 금화 획득 +30 [ICON_GOLD]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="ko_KR">
+			<Text>무</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_NAME" Language="ko_KR">
+			<Text>설명하다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_DESCRIPTION" Language="ko_KR">
+			<Text>적 문명 도시 유닛에 대한 '치유' 효과가 두 배로 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_NAME" Language="ko_KR">
+			<Text>전쟁 없음</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_DESCRIPTION" Language="ko_KR">
+			<Text>-10 &quot;치유&quot; 효과</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_NAME" Language="ko_KR">
+			<Text>설명하다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_DESCRIPTION" Language="ko_KR">
+			<Text>-2 [ICON_MOVEMENT] 이동, +3 치유 범위</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_NAME" Language="ko_KR">
+			<Text>환각</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_DESCRIPTION" Language="ko_KR">
+			<Text>이 문명에 도시가 하나만 있으면 범위 내의 유닛은 즉시 죽습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_NAME" Language="ko_KR">
+			<Text>스노우 글로브</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_DESCRIPTION" Language="ko_KR">
+			<Text>+4 &quot;치유&quot; 범위, *자폭* 효과가 다음으로 변경됩니다. 이 문명에 도시가 하나만 있는 경우 과거에 건설된 모든 도시 +99 &quot;의심&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_NAME" Language="ko_KR">
+			<Text>의심이 커진다</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_TOOLTIP" Language="ko_KR">
+			<Text>플롯에서 의심되는 성장률 보기</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_TOOLTIP" Language="ko_KR">
+			<Text>잔여 꿈</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC" Language="ko_KR">
+			<Text>'Remnant Dream' 공격 +1, 최대 12중첩.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC_WITH_PROMOTION" Language="ko_KR">
+			<Text>공격 +2 &quot;렘넌트 드림&quot;, 문명이 생산하거나 구매한 모든 유닛에 +1 &quot;렘넌트 드림&quot;, 총 12겹까지 가능합니다. ('지나가는 해안을 걷다' 업그레이드로 인해)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP" Language="ko_KR">
+			<Text>&quot;치료&quot; 시간</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_RANGE" Language="ko_KR">
+			<Text>범위</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_EFFECT" Language="ko_KR">
+			<Text>효과</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_PROBABILITY" Language="ko_KR">
+			<Text>개연성</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DECREASE" Language="ko_KR">
+			<Text>줄이다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_INCREASE" Language="ko_KR">
+			<Text>증가</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT" Language="ko_KR">
+			<Text>&quot;자멸&quot;을 줄일 수 있습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT_MAX" Language="ko_KR">
+			<Text>&quot;자기파괴&quot;를 클리어 할 수 있다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SUSPICION" Language="ko_KR">
+			<Text>&quot;의심하다&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_TOOLTIP" Language="ko_KR">
+			<Text>&quot;자멸&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_WORLDVIEW_TEXT" Language="ko_KR">
+			<Text>&quot;의심하다&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_WORLDVIEW_TEXT" Language="ko_KR">
+			<Text>&quot;자멸&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DESC" Language="ko_KR">
+			<Text>&quot;의심&quot;을 줄이고 관계를 개선하려면 &quot;치료&quot; 시간을 소비하세요. 상대 문명의 '의심'이 5단계 감소할 때마다 관계도가 1씩 증가합니다. 유닛의 &quot;치료&quot;가 &quot;의심&quot;을 증가시키면 같은 비율로 관계가 감소합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SELF_ANNIHILATOR" Language="ko_KR">
+			<Text>공격</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_SELF_ANNIHILATOR" Language="ko_KR">
+			<Text>&quot;자멸&quot;을 변경할 수 있습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CLEAN_SELF_ANNIHILATOR" Language="ko_KR">
+			<Text>&quot;자멸&quot;을 클리어할 수 있다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_KILL_SIN_THIRSTER" Language="ko_KR">
+			<Text>야만인들을 파괴하세요</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_HEAL_USE_UP_REGARD_AS_RECOVERY" Language="ko_KR">
+			<Text>&quot;치유&quot; 횟수가 소진되면 *치유*로 간주됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_NOT_REGARD_AS_SELF_ANNIHILATOR" Language="ko_KR">
+			<Text>제거는 *자기 파괴*로 간주되지 않습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_REGARD_AS_HEAL" Language="ko_KR">
+			<Text>&quot;치료&quot;되지 않은 경우 제거는 &quot;치료&quot;된 것으로 간주됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_DAMAGE" Language="ko_KR">
+			<Text>[ICON_Damaged] 체력에 &quot;치유&quot; 효과가 적용됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_DAMAGE" Language="ko_KR">
+			<Text>[ICON_Damaged] 건강</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_SET_DAMAGE" Language="ko_KR">
+			<Text>[ICON_Damaged] 체력을 회복합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT" Language="ko_KR">
+			<Text>&quot;치유&quot; 호감도</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT_2" Language="ko_KR">
+			<Text>두 배</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_HALF_SELF_ANNIHILATOR_EFFECT" Language="ko_KR">
+			<Text>&quot;자멸&quot; [ICON_STRENGTH] 전투력 및 [ICON_STRENGTH] 이동성 효과를 절반으로 줄입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_ATTACKER" Language="ko_KR">
+			<Text>공격자를 죽여라</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT_WHEN_JUSTICE_WAR" Language="ko_KR">
+			<Text>특정 상황에서는 유닛을 즉시 처치하고 모든 체력을 회복합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_FOR_ALL" Language="ko_KR">
+			<Text>모든 도시</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL" Language="ko_KR">
+			<Text>'힐링'할 때</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_UNIT" Language="ko_KR">
+			<Text>유닛을 &quot;치료&quot;할 때</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_ATTACK" Language="ko_KR">
+			<Text>공격할 때</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF" Language="ko_KR">
+			<Text>좋다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_OR" Language="ko_KR">
+			<Text>또는</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_IS_ENEMY" Language="ko_KR">
+			<Text>적이다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_SUSPICION_GT" Language="ko_KR">
+			<Text>&quot;의심&quot;이 더 크다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_NAGETIVE_AMENITY" Language="ko_KR">
+			<Text>부정적인 거주 가능성</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_ONLY_ONE_CITY" Language="ko_KR">
+			<Text>단 하나의 도시</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_AWARENESS_6" Language="ko_KR">
+			<Text>'각성' 상태를 획득한다('의심' 확산에 영향을 받지 않음)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_0" Language="ko_KR">
+			<Text>&quot;듣고 있음&quot; 상태 획득([ICON_AMENITIES] 거주 가능성 증가 &quot;의심스러움&quot;으로 인해 절반)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_HEAL_EFFECT" Language="ko_KR">
+			<Text>&quot;힐링&quot; 효과</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_5" Language="ko_KR">
+			<Text>&quot;듣기&quot; 상태 획득([ICON_AMENITIES] 거주 가능성 증가로 인해 &quot;의심&quot; 아님)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_SELF_SELF_ANIHILATOR" Language="ko_KR">
+			<Text>자기파괴 변화</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_MULTIPLY_HEAL_EFFECT" Language="ko_KR">
+			<Text>&quot;힐링&quot; 효과</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_0" Language="ko_KR">
+			<Text>&quot;행복&quot; 상태 획득(도시 +1 [ICON_AMENITIES] 편의 시설)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_2" Language="ko_KR">
+			<Text>&quot;행복&quot; 상태 획득(도시 +2 [ICON_AMENITIES] 편의 시설)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_4" Language="ko_KR">
+			<Text>&quot;행복&quot; 상태 획득(도시 +2 [ICON_AMENITIES] 편의 시설)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_5" Language="ko_KR">
+			<Text>&quot;행복&quot; 상태 획득(도시 +5 [ICON_AMENITIES] 편의 시설)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_0" Language="ko_KR">
+			<Text>&quot;자체 인증&quot; 상태 획득(도시 +5% [ICON_SCIENCE] 기술 가치, +5% [ICON_PRODUCTION] 생산성)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_3" Language="ko_KR">
+			<Text>&quot;자체 인증&quot; 상태 획득(도시 +5% [ICON_SCIENCE] 기술 가치, +10% [ICON_PRODUCTION] 생산성)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_5" Language="ko_KR">
+			<Text>&quot;자체 인증&quot; 상태 획득(도시 +10% [ICON_SCIENCE] 기술 가치, +10% [ICON_PRODUCTION] 생산성)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_0" Language="ko_KR">
+			<Text>&quot;공포&quot; 상태 획득(도시 -1 [ICON_AMENITIES] 거주 가능성)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_POPULATION" Language="ko_KR">
+			<Text>[ICON_시민] 인구</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_4" Language="ko_KR">
+			<Text>&quot;공포&quot; 상태 획득(도시 -3 [ICON_AMENITIES] 거주 가능성)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_5" Language="ko_KR">
+			<Text>&quot;공포&quot; 상태 획득(도시 -5 [ICON_AMENITIES] 거주 가능성)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HEALTH_EXAM_4" Language="ko_KR">
+			<Text>&quot;건강 검진&quot; 상태 획득(도시 +15% [ICON_FOOD] 식량)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_GOLD" Language="ko_KR">
+			<Text>[ICON_GOLD] 골드</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_DERANGED_0" Language="ko_KR">
+			<Text>&quot;카오스&quot; 상태를 획득했습니다(거주 가능성이 0보다 큰 도시 [ICON_AMENITIES] 부분에 &quot;의심&quot;이 추가됨)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DESTORY_BUILT_CITY" Language="ko_KR">
+			<Text>자폭 효과: 이 문명에 도시가 하나만 있으면 과거에 건설된 모든 도시는 &quot;의심&quot; +99</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT" Language="ko_KR">
+			<Text>유닛을 죽여라</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_LOSS_ALL_MOVEMENT" Language="ko_KR">
+			<Text>모든 [ICON_MOVEMENT] 이동성을 잃습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_RECOVERY_WORLDVIEW_TEXT" Language="ko_KR">
+			<Text>낫다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_SELF_ANNIHILATE_WORLDVIEW_TEXT" Language="ko_KR">
+			<Text>자폭하다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_TURNS" Language="ko_KR">
+			<Text>둥근</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_NAME" Language="ko_KR">
+			<Text>완전히 깨어</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_DESCRIPTION" Language="ko_KR">
+			<Text>'의심' 확산에 영향 받지 않아</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_NAME" Language="ko_KR">
+			<Text>듣다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_AMENITIES]로 인해 거주 적합성 증가가 '의심' 절반으로 감소했습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_NAME" Language="ko_KR">
+			<Text>듣다</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_DESCRIPTION" Language="ko_KR">
+			<Text>[ICON_AMENITIES] 거주 적합성 증가로 '의심'되지 않음</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_NAME" Language="ko_KR">
+			<Text>기쁨</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_DESCRIPTION" Language="ko_KR">
+			<Text>도시 +1 [ICON_AMENITIES] 거주 적합성</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_NAME" Language="ko_KR">
+			<Text>기쁨</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_DESCRIPTION" Language="ko_KR">
+			<Text>도시 +2 [ICON_AMENITIES] 편의시설</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_NAME" Language="ko_KR">
+			<Text>기쁨</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_DESCRIPTION" Language="ko_KR">
+			<Text>도시 +2 [ICON_AMENITIES] 편의시설</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_NAME" Language="ko_KR">
+			<Text>기쁨</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_DESCRIPTION" Language="ko_KR">
+			<Text>도시 +5 [ICON_AMENITIES] 편의시설</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_NAME" Language="ko_KR">
+			<Text>자기인증</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_DESCRIPTION" Language="ko_KR">
+			<Text>도시 +5% [ICON_SCIENCE] 과학, +5% [ICON_PRODUCTION] 생산성</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_NAME" Language="ko_KR">
+			<Text>자기인증</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_DESCRIPTION" Language="ko_KR">
+			<Text>도시 +5% [ICON_SCIENCE] 과학, +10% [ICON_PRODUCTION] 생산성</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_NAME" Language="ko_KR">
+			<Text>자기인증</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_DESCRIPTION" Language="ko_KR">
+			<Text>도시 +10% [ICON_SCIENCE] 과학, +10% [ICON_PRODUCTION] 생산성</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_NAME" Language="ko_KR">
+			<Text>두려움</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_DESCRIPTION" Language="ko_KR">
+			<Text>도시 -1 [ICON_AMENITIES] 편의시설</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_NAME" Language="ko_KR">
+			<Text>두려움</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_DESCRIPTION" Language="ko_KR">
+			<Text>도시 -3 [ICON_AMENITIES] 편의시설</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_NAME" Language="ko_KR">
+			<Text>두려움</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_DESCRIPTION" Language="ko_KR">
+			<Text>도시 -5 [ICON_AMENITIES] 편의 시설</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_NAME" Language="ko_KR">
+			<Text>신체검사</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_DESCRIPTION" Language="ko_KR">
+			<Text>도시 +15% [ICON_FOOD] 음식</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_NAME" Language="ko_KR">
+			<Text>착란</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_DESCRIPTION" Language="ko_KR">
+			<Text>도시 [ICON_AMENITIES]는 거주 적합성이 0보다 큰 부분에 '의심'을 추가합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DECREASE_SUSPICION" Language="ko_KR">
+			<Text>상대방 문명의 '의심'을 감소시킵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_INCREASE_SUSPICION" Language="ko_KR">
+			<Text>상대방 문명의 '의심'을 높였습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY" Language="ko_KR">
+			<Text>뒤돌아보지 마세요</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="ko_KR">
+			<Text>곧 승리할 문명처럼</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY" Language="ko_KR">
+			<Text>뒤돌아보지 마세요. 돌아갈 길은 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="ko_KR">
+			<Text>곧 승리할 문명처럼</Text>
+		</Replace>
+		<Replace Tag="LOC_ACHERON_QUOTE" Language="ko_KR">
+			<Text>&quot;황권&quot;... 비록 빌린 이름일 뿐이지만 당신은 내가 누구인지 알고 그 후에 내가 한 일을 기억합니다... 나는 황권입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>먼지는...언젠가는 흙으로 돌아가겠죠...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>먼지는...언젠가는 흙으로 돌아가겠죠...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>친구들과 기쁨을 나누는 것도 잊지 마세요.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>아마도 하나 이상의 정답이 있을 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>또 다른 혈액 빚.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>좀 더 오랫동안 당신과 함께 걷게 해주세요.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>칼이 있다면 항상 무언가를 자르는 데 사용해야 합니다. 내가 검을 뽑는 이유는 이전에도, 현재에도, 미래에도 단 하나다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>추억이 남겨진 곳마다 손길 하나하나가 가시꽃이다...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>어디 가세요?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>붉은 나뭇잎에서 떨어지는 빗소리, 우산에 떨어지는 빗소리를 들으며 잠시나마 마음의 평화를 얻었습니다...</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_NAME" Language="ko_KR">
+			<Text>보이드 모드</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_DESC" Language="ko_KR">
+			<Text>문명은 '의심'을 획득할 수 있습니다. 도시의 [ICON_AMENITIES] 거주 적합성에 주목하세요!</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_NAME" Language="ko_KR">
+			<Text>무(無)는 지하세계에만 국한된다</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_DESC" Language="ko_KR">
+			<Text>자멸적인 황취안 문명만이 '의심'을 얻을 수 있다</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_NAME" Language="ko_KR">
+			<Text>네더 모드 최적화</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_DESC" Language="ko_KR">
+			<Text>실제 메커니즘을 변경하지 말고 디스플레이 효과를 변경하십시오.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>바로 당신입니다... 우리 모두는 서로 함께하는 시간을 소중히 여겨야 합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>여기까지 오셨나요... 아니면 운명의 뜻이었나요?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>이제 출발할 시간입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>&quot;같은 강에 두 번 발을 담그는 것&quot;... 어렵지 않습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>이 후회에 대해 당신이 할 수 있는 일은 아무것도 없으니, 놓아버리세요.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>상관없으니 여기서 끝내자.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>혼자서 은하수를 여행하는 사람들에게는 두 가지 욕구가 있습니다. 선배의 흔적을 찾는 것과 자신의 길을 찾는 것입니다. 하지만 그들의 시선 아래서... 후자는 대부분 전자에 머물렀다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>비가 오네요... 같이 산책하실래요? 자, 나한테 우산이 있어요.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>내가 반대편에서 깨어났을 때, 바다 끝에서는 여전히 천둥소리가 들리고 있었고, 하늘에서는 방금 피비가 내렸습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>멀리 보이는 풍경은 선명하지 않지만...아름다울 것 같아요.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>인간은 운명의 길을 걷고 있다...찾고 깨달음을 얻고 존재한다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>과거는 오늘날의 우리를 만듭니다. 어떤 것들은 기억하기 어렵고 어떤 것들은 잊기 어렵습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>우리 또 만나요, 또 춤추실래요?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>전부 아니면 전무... 두고 볼게요.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>이 생명은 비처럼 지나가고 결국 땅으로 돌아가게 될 것입니다. 우리가 다시 만날 때... 맑음이 있기를 바랍니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>내 정체를 알고도 그런 악의를 보이는 사람은 당신이 처음도 아니고 마지막도 아닐 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>당신의 목적이 무엇이든... 나는 오직 하나의 결말만을 볼 수 있습니다. 그 미래는 마치 모든 세계가 그분의 그림자 속에 익사하는 것처럼 &quot;무&quot;입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>작별인사를 할 시간이 얼마 남지 않았습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>블랙홀은 화려하지도 비극적이지도 않은, 마치 당신과 나를 바라보는 고독한 시선처럼... 조용히 모든 것을 삼켜버리고 차갑게 말없이 포옹합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ACHERON_ANY" Language="ko_KR">
+			<Text>폭우가 오고 있습니다.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

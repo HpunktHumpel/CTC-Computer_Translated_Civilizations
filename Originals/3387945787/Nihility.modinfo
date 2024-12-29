@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cbebd5c1-22b7-4e58-b7ae-33097477af08" version="1">
+  <Properties>
+    <Name>自灭者黄泉 Self-Annihilator Acheron</Name>
+    <Description>自称「巡海游侠」的旅人，本名不详。身佩一柄长刀，独行银河。
+
+
+淡漠寡言，剑出如紫电般迅猛，却从来只以刀鞘战斗，收而不发。</Description>
+    <Created>1735193207</Created>
+    <Teaser>自灭者黄泉模组</Teaser>
+    <Authors>0x80mem</Authors>
+    <SpecialThanks>Hoyoverse, Infixo, yamada, FinalFreak16, MiniRagnarok and GreenEigenlicht, aall1, Windfly, Sukritact,  Félix Dion-Robidoux, Tremualin, Aristos, wltk, DeepLogic, JamieNyanchi, Firstborn, ASUS, Jay Chou, Clear8Sky, Konomi, Administrator, sunohara, C1sen, admin, 黑猫, 今天是普罗米修斯厨, nea_bahaja,千古歌,夕墨岚,Phantagonist,皮皮凯,BUG,ZZZ太卜司摸鱼侠, 环己烷,Ophidy,Lazire,Elysia,Pen,知更鸟的老公,kana_,夏凉凉凉，夕墨岚,whoward69,astog,Infixo</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Nihility_Config">
+      <File>Database/Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Nihility_Text">
+      <File>Database/Text.xml</File>
+      <File>Database/Text_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Nihility_Icons">
+      <File>Database/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="Nihility_Colors">
+      <File>Database/Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="Nihility_Art">
+      <File>Nihility.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Nihility_Database">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Database/Civilization.xml</File>
+      <File>Database/Leaders.xml</File>
+      <File>Dynamic/Suspicion.sql</File>
+      <File>Dynamic/Acheron.sql</File>
+      <File>Dynamic/AcheronUnit.sql</File>
+      <File>Dynamic/NihilityUnit.sql</File>
+      <File>Dynamic/NihilityCityState.sql</File>
+      <File>Database/Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Nihility_Text">
+      <File>Database/Text.xml</File>
+      <File>Database/Text_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Nihility_Icons">
+      <File>Database/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="Nihility_Colors">
+      <File>Database/Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="Nihility_Art">
+      <File>Nihility.dep</File>
+    </UpdateArt>
+    <AddUserInterfaces id="Nihility_Interfaces">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/Suspicion.xml</File>
+      <File>UI/NihilityUnit.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="Nihility_Scripts">
+      <File>Scripts/Suspicion.lua</File>
+      <File>Scripts/NihilityUnit.lua</File>
+      <File>Scripts/AcheronUnit.lua</File>
+    </AddGameplayScripts>
+    <ImportFiles id="Nihility_Utils">
+      <Properties>
+        <LoadOrder>99</LoadOrder>
+        <Context>InGame</Context>
+      </Properties>
+      <File>Scripts/NihilityPlotSupport.lua</File>
+      <File>Scripts/NihilityUtils.lua</File>
+      <File>Platforms/Windows/Audio/1020854665.wem</File>
+      <File>Platforms/Windows/Audio/237349518.wem</File>
+      <File>Platforms/Windows/Audio/344949556.wem</File>
+      <File>Platforms/Windows/Audio/471967579.wem</File>
+      <File>Platforms/Windows/Audio/583669883.wem</File>
+      <File>Platforms/Windows/Audio/6165935.wem</File>
+      <File>Platforms/Windows/Audio/765723291.wem</File>
+      <File>Platforms/Windows/Audio/789014164.wem</File>
+      <File>Platforms/Windows/Audio/85049227.wem</File>
+      <File>Platforms/Windows/Audio/917350931.wem</File>
+      <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+      <File>Platforms/Windows/Audio/SB_NIHILITY.txt</File>
+    </ImportFiles>
+    <UpdateAudio id="Nihility_Audio">
+      <File>Platforms/Windows/Audio/NihilityAcheronBanks.ini</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+      <File>Platforms/Windows/Audio/SB_NIHILITY.bnk</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>Database/Civilization.xml</File>
+    <File>Database/Color.xml</File>
+    <File>Database/Config.xml</File>
+    <File>Database/Icons.xml</File>
+    <File>Database/Leaders.xml</File>
+    <File>Database/Text.xml</File>
+    <File>Database/Text_CN.xml</File>
+    <File>Database/Units.xml</File>
+    <File>Dynamic/Acheron.sql</File>
+    <File>Dynamic/AcheronUnit.sql</File>
+    <File>Dynamic/NihilityCityState.sql</File>
+    <File>Dynamic/NihilityUnit.sql</File>
+    <File>Dynamic/Suspicion.sql</File>
+    <File>Nihility.dep</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/Nihility.blp</File>
+    <File>Platforms/Windows/Audio/1020854665.wem</File>
+    <File>Platforms/Windows/Audio/237349518.wem</File>
+    <File>Platforms/Windows/Audio/344949556.wem</File>
+    <File>Platforms/Windows/Audio/471967579.wem</File>
+    <File>Platforms/Windows/Audio/583669883.wem</File>
+    <File>Platforms/Windows/Audio/6165935.wem</File>
+    <File>Platforms/Windows/Audio/765723291.wem</File>
+    <File>Platforms/Windows/Audio/789014164.wem</File>
+    <File>Platforms/Windows/Audio/85049227.wem</File>
+    <File>Platforms/Windows/Audio/917350931.wem</File>
+    <File>Platforms/Windows/Audio/NihilityAcheronBanks.ini</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SB_NIHILITY.bnk</File>
+    <File>Platforms/Windows/Audio/SB_NIHILITY.txt</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Nihility.blp</File>
+    <File>Scripts/AcheronUnit.lua</File>
+    <File>Scripts/NihilityPlotSupport.lua</File>
+    <File>Scripts/NihilityUnit.lua</File>
+    <File>Scripts/NihilityUtils.lua</File>
+    <File>Scripts/Suspicion.lua</File>
+    <File>UI/NihilityUnit.lua</File>
+    <File>UI/NihilityUnit.xml</File>
+    <File>UI/Suspicion.lua</File>
+    <File>UI/Suspicion.xml</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/Nihility.xlp</File>
+  </Files>
+</Mod>

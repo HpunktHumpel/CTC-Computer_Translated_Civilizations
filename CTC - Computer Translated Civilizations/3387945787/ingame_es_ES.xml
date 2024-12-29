@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 14:16:28 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_DESCRIPTION" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_ADJECTIVE" Language="es_ES">
+			<Text>de la nada</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_NAME" Language="es_ES">
+			<Text>Dormir sin forma</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_DESCRIPTION" Language="es_ES">
+			<Text>Se requiere el &quot;modo inferior&quot;.
+                [NEWLINE]La ciudad establecida por la civilización seleccionada obtendrá 30 capas de &quot;Duda&quot;, y el mínimo es 10 capas. Las unidades vacías se pueden producir independientemente de las capas &quot;dudas&quot;.
+                [NEWLINE]Cuando la civilización seleccionada pierde una ciudad, se otorgará +30 &quot;Duda&quot; a todas las ciudades.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ACHERON_NAME" Language="es_ES">
+			<Text>Huang Quan</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_NAME" Language="es_ES">
+			<Text>Vigilante del inframundo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_DESCRIPTION" Language="es_ES">
+			<Text>La ciudad proporciona 2 [ICON_PRODUCTION] de productividad, 1 [ICON_FOOD] de alimentos por población. El número promedio de capas de &quot;Duda&quot; en la ciudad civilizada seleccionada reduce este efecto en un 0,5%. La cantidad promedio de capas de &quot;Duda&quot; en la no seleccionada. ciudad civilizada reduce este efecto en un 0,5% Efecto -0,5%.
+                [NEWLINE] Tiene una unidad del vacío especial, Huangquan, y todas las unidades del vacío ascienden inicialmente al nivel 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION" Language="es_ES">
+			<Text>Sospechar</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DESC" Language="es_ES">
+			<Text>Cada nivel de &quot;Sospecha&quot; reduce 1% [ICON_CULTURE] Cultura, 1% [ICON_SCIENCE] Ciencia, 1% [ICON_PRODUCTION] Productividad, 1% [ICON_Tourism] Turismo, 1% Puntos de Gran Persona, 1.5% [ICON_FOOD] Comida, 1.5 % [ICON_FAITH] Fe, 1,5% [ICON_GOLD] Oro.
+                [NEWLINE]Cada 10 capas de &quot;Sospecha&quot; por encima de las 20 capas otorga a las unidades en esa casilla de ciudad al menos 1 nivel de &quot;Autodestrucción&quot;. La cantidad de capas necesarias para este efecto se reduce a la mitad después de investigar el principio &quot;Filosofía política&quot;.
+                [NEWLINE]Cada 20 niveles de &quot;Sospecha&quot; se reduce 1 [ICON_AMENITIES] de habitabilidad y 1 de lealtad. Después de investigar la &quot;Ilustración&quot; municipal, la cantidad de niveles necesarios se reduce a la mitad.
+                [NEWLINE] Cada 30 capas de &quot;Sospecha&quot; propagarán 1 capa de &quot;Sospecha&quot; a las ciudades vecinas dentro de 9 cuadrículas, y se atenuará 1 capa de &quot;Sospecha&quot; por cada cuadrícula. Después de investigar la tecnología &quot;Impresión&quot;, el número El número de capas necesarias para el efecto se reduce a la mitad. El número de barras necesarias para la atenuación después de &quot;Radio&quot; se duplica. Cuando &quot;Sospecha&quot; alcanza el nivel 99, investigar tecnología ya no cambiará los efectos de propagación de la ciudad.
+                [NEWLINE]Cada 50 niveles de &quot;Sospecha&quot; reducirán 1 punto de era por turno. El efecto se duplicará después de investigar la &quot;Red social&quot; municipal.
+                [NEWLINE][ICON_AMENITIES] Por cada parte con amenidad menor a 0, agrega +1 a &quot;Sospecha&quot;, por cada parte con amenidad mayor a 3, agrega -1 a &quot;Sospecha&quot;, el efecto se duplica después de investigar la &quot;Ideología&quot; municipal. &quot;. El número máximo de &quot;Sospecha&quot; es 99, y puedes obtener hasta 15 capas de &quot;Sospecha&quot; por ronda.
+                [NEWLINE]Cuando la ciudad está rodeada, &quot;Sospecha&quot; disminuye en -5 por turno. El efecto se duplica después de investigar la administración municipal &quot;Humanismo&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR" Language="es_ES">
+			<Text>autodestrucción</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR_DESC" Language="es_ES">
+			<Text>Cada nivel de &quot;Autodestrucción&quot; -1 [ICON_STRENGTH] fuerza de combate.
+            [NEWLINE]Cuando &quot;Autodestrucción&quot; no sea inferior al nivel 20, cada nivel de &quot;Autodestrucción&quot; tendrá -1 HP [ICON_Damaged].
+            [NEWLINE]Cada 8 niveles de &quot;Autodestrucción&quot; -1 movimiento [ICON_MOVEMENT].
+            [NEWLINE] +1 &quot;Autodestrucción&quot; en cada ronda.
+            [NEWLINE] Cuando una unidad con &quot;Autodestrucción&quot; desaparece, se considera una unidad *Autodestrucción*: +2 ciudades a su alrededor +5 &quot;Sospecha&quot;, con un 25% de probabilidad de transformarse en un bárbaro.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CIVI_AVERAGE_SUSPICION" Language="es_ES">
+			<Text>&quot;Duda&quot; promedio en el país de origen</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_FORE_AVERAGE_SUSPICION" Language="es_ES">
+			<Text>Media extranjera &quot;sospechosa&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_AMENITIES" Language="es_ES">
+			<Text>&quot;Duda&quot; de [ICON_AMENITIES] Habitabilidad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_NEARBY_CITY" Language="es_ES">
+			<Text>La &quot;sospecha&quot; proviene de las ciudades vecinas</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DECREASING_FROM_BESIEGED" Language="es_ES">
+			<Text>La &quot;duda&quot; surge del asedio</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE" Language="es_ES">
+			<Text>estado</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE_ROUND" Language="es_ES">
+			<Text>redondo</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING" Language="es_ES">
+			<Text>&quot;despierto por completo&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING_DESC" Language="es_ES">
+			<Text>Las ciudades no se ven afectadas por la propagación de la “suspicacia”</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_LZUMO" Language="es_ES">
+			<Text>Izumo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_TRUTH" Language="es_ES">
+			<Text>real</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_SKY" Language="es_ES">
+			<Text>cielo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_HOWL" Language="es_ES">
+			<Text>Ming</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MIST" Language="es_ES">
+			<Text>Lan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FROST" Language="es_ES">
+			<Text>helada</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FATE" Language="es_ES">
+			<Text>vida</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FLARE" Language="es_ES">
+			<Text>fuerte</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_THOUGHT" Language="es_ES">
+			<Text>Dormir</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_ROOT" Language="es_ES">
+			<Text>base</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_RORM" Language="es_ES">
+			<Text>mil</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_BIND" Language="es_ES">
+			<Text>manojo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MAW" Language="es_ES">
+			<Text>Comer</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_1" Language="es_ES">
+			<Text>Tansei</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_2" Language="es_ES">
+			<Text>máx.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_3" Language="es_ES">
+			<Text>lanasey</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_4" Language="es_ES">
+			<Text>Keenan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_5" Language="es_ES">
+			<Text>haliburton</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_1" Language="es_ES">
+			<Text>kokona</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_2" Language="es_ES">
+			<Text>Ketong Qian</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_3" Language="es_ES">
+			<Text>uma</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_4" Language="es_ES">
+			<Text>Un corrió</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_5" Language="es_ES">
+			<Text>Furla</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_NAME" Language="es_ES">
+			<Text>Caminante de la nada</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_DESCRIPTION" Language="es_ES">
+			<Text>Consuma tiempos de &quot;Cura&quot; para reducir la &quot;Sospecha&quot; y mejorar las relaciones. Cada vez que la civilización del oponente reduce 5 capas de &quot;sospecha&quot;, la relación aumentará en 1. Si la &quot;Cura&quot; de una unidad aumenta su &quot;Duda&quot;, la relación se reducirá en la misma proporción.
+                [NEWLINE]Inicialmente posee al menos el nivel 1 de &quot;Autodestrucción&quot;, ignorando la movilidad [ICON_MOVEMENT] y las desventajas de poder de combate de [ICON_STRENGTH] de &quot;Autodestrucción&quot;.
+                [NEWLINE]Si puedes cambiar el efecto de &quot;autodestrucción&quot; de las unidades no vacías, el efecto es el mismo que reducir el efecto &quot;sospechoso&quot; de la ciudad.
+                [NEWLINE]Ignora el control del área y no puedes saquear. Se considera que atacar a una unidad consume tiempos de &quot;curación&quot;. Al defenderse, obtendrá el mismo poder de combate que la unidad de mayor poder de combate [ICON_STRENGTH] creada por la civilización.
+                [NEWLINE] No se puede ganar experiencia. Después de investigar &quot;Filosofía política&quot;, &quot;Pensamiento de la Ilustración&quot; e &quot;Ideología&quot; municipales, recibirás una mejora mejorada, que será efectiva para las unidades producidas en el futuro.
+                [NEWLINE]Las siguientes [COLOR:128,128,128,200] * Las sugerencias de producción [ENDCOLOR] son ​​aplicables a la situación inicial; ajústelas según la promoción</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ACHERON" Language="es_ES">
+			<Text>Un viajero que se hace llamar &quot;Patrullero Marino&quot; cuyo nombre real es desconocido. Llevando una espada larga, viaja solo por la Vía Láctea.
+                [NEWLINE]
+                [NEWLINE]Es indiferente y taciturno. Su espada ataca con la rapidez del rayo, pero siempre lucha con la vaina en la mano, sin usarla jamás.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_NAME" Language="es_ES">
+			<Text>Huang Quan</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de vacío destacada, sigilo, poder de combate básico [ICON_STRENGTH] es el mismo que el de la unidad de mayor poder de combate producida por la civilización seleccionada. Consume tiempos de &quot;curación&quot; para volverse &quot;sospechoso&quot; a sí mismo y a las ciudades celulares circundantes -20. Árbol de promoción y retiradas después de recibir daño fatal.
+                [NEWLINE] Tiene nivel 99 de &quot;Autodestrucción&quot; cuando se crea. La &quot;Autodestrucción&quot; no aumentará. Ignora el efecto de &quot;Autodestrucción&quot;. La eliminación no se considera *autodestrucción*.
+                [NEWLINE] Después de obtener Huangquan, la civilización seleccionada acumulará 1 capa de &quot;Remnant Dream&quot; para Huangquan cada vez que ataque, y se obtendrán 6 capas cuando se cree, con un máximo de 12 capas acumuladas.
+                [NEWLINE] Cuando &quot;Remnant Dream&quot; alcanza el nivel 9, puede entrar en el estado de &quot;Remnant Dream Infusion, Cutting with One Sword&quot;. La unidad tiene +4 [ICON_MOVEMENT] de poder de movimiento, +10 [ICON_STRENGTH] de poder de combate, +. 4 tiempos de &quot;curación&quot; y +2 de visión.
+                [NEWLINE] Después de que se agote el número de &quot;Curación&quot;, se consumirán 9 capas de &quot;Remnant Dream&quot; y se saldrá de &quot;Remnant Dream Dyeing, One Knife Breaks&quot; cada 3 veces de &quot;Remnant Dream Draining, One Knife Breaking&quot;. &quot;, Huang Quan recibirá una actualización mejorada.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="es_ES">
+			<Text>sereno</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad vacía, desbloqueada cuando la &quot;Sospecha&quot; es mayor que 0, consume tiempos de &quot;Curación&quot; para hacer que ella misma y las células circundantes tengan -3 &quot;Sospecha&quot;.
+                [NEWLINE]Otorga a la ciudad el estado &quot;Escucha&quot;: Reduce a la mitad el crecimiento de &quot;Duda&quot; de la ciudad debido a la habitabilidad de [ICON_AMENITIES] durante 5 turnos.
+                [NEWLINE]La eliminación no se considera *autodestrucción*
+                [NEWLINE][COLOR:128,128,128,200]* Habitabilidad negativa[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="es_ES">
+			<Text>gente mediocre</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad vacía se desbloquea cuando la &quot;Sospecha&quot; es mayor que 0. Consume tiempos de &quot;Curación&quot; para hacer que ella misma y las ciudades celulares circundantes tengan -3 &quot;Sospecha&quot;.
+                [NEWLINE]Reducir la &quot;sospecha&quot; aumenta el doble las relaciones diplomáticas.
+                [NEWLINE]La eliminación no se considera *autodestrucción*
+                [NEWLINE][COLOR:128,128,128,200]* Necesitamos ser menos &quot;sospechosos&quot; de los países extranjeros[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_NAME" Language="es_ES">
+			<Text>Rayo</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_DESCRIPTION" Language="es_ES">
+			<Text>Habilidad especial: la banda de rock tiene &quot;autodestrucción&quot; cuando se funda. Cantar hará que ella y las 2 ciudades celulares circundantes tengan -10 &quot;suspicacia&quot;. Cada nivel de la banda de rock se actualiza a +1 rango y -5. &quot;recelo&quot;.
+                [NEWLINE]+3 [ICON_MOVEMENT] Movimiento.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="es_ES">
+			<Text>bufón desinteresado</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad vacía se desbloquea con &quot;Duda&quot; no menos de 30. Consume tiempos de &quot;Curación&quot; para hacer que ella misma y las células circundantes tengan -3 &quot;Duda&quot;.
+                [NEWLINE]Otorga a las ciudades con &quot;Duda&quot; mayor a 20 el estado &quot;Felicidad&quot;: +1 [ICON_AMENITIES] Comodidad para la ciudad durante 5 turnos.
+                [NEWLINE]La eliminación no se considera *autodestrucción*.
+                [NEWLINE][COLOR:128,128,128,200]* Habitabilidad negativa[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="es_ES">
+			<Text>Sociedad de autocertificación</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad vacía se desbloquea con &quot;Duda&quot; no menos de 30. Consume tiempos de &quot;Curación&quot; para hacer que ella misma y las células circundantes tengan -5 &quot;Duda&quot;.
+                [NEWLINE] Haz que la ciudad con &quot;suspicacia&quot; superior a 20 obtenga el estado de &quot;autocertificación&quot;: la ciudad tiene +5 % de valor tecnológico [ICON_SCIENCE], +5 % de productividad [ICON_PRODUCTION] y dura 5 turnos.
+                [NEWLINE]La eliminación no se considera *autodestrucción*.
+                [NEWLINE][COLOR:128,128,128,200]* Tiene una alta productividad y requiere mayor productividad/valor tecnológico[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_NAME" Language="es_ES">
+			<Text>Salvador</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad vacía, &quot;Duda&quot; no tiene menos de 30 para desbloquear, la producción consume 1 población [ICON_Citizen], puede aumentar la &quot;Autodestrucción&quot;, pierde toda la movilidad de [ICON_MOVEMENT] después de una ronda de producción, consume tiempos de &quot;Curación&quot; para curarse a sí mismo. y celdas circundantes Ciudad -1 población [ICON_Citizen], +10 &quot;Duda&quot;.
+                [NEWLINE] El aumento de la &quot;sospecha&quot; reduce las relaciones diplomáticas al doble.
+                [NEWLINE]Otorga a todas las ciudades de la civilización el estado &quot;Terror&quot;: -1 [ICON_AMENITIES] habitabilidad para la ciudad, con una duración de 5 turnos.
+                [NEWLINE]Si no se ha &quot;solucionado&quot;, la eliminación se considera &quot;solucionada&quot;. El efecto de &quot;curación&quot; en la unidad también afecta la salud de [ICON_Damaged].
+                [NEWLINE][COLOR:128,128,128,200]* No recomendado para producción[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="es_ES">
+			<Text>rechazar a los muertos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad vacía, desbloqueada cuando la &quot;Sospecha&quot; es mayor que 0, consume tiempos de &quot;Curación&quot; para hacer que ella misma y las células circundantes tengan -3 &quot;Sospecha&quot;.
+                [NEWLINE]Convierte en &quot;sospechosos&quot; a más de 40 ciudades +1 población [ICON_Citizen].
+                [NEWLINE] La eliminación no se considera *autodestrucción*, y el agotamiento de los tiempos de &quot;curación&quot; se considera *curación*: ciudades celulares propias y circundantes -5 &quot;sospechosas&quot;.
+                [NEWLINE][COLOR:128,128,128,200]* Alto número de &quot;sospechosos&quot; y baja población[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="es_ES">
+			<Text>Doctor del Caos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad vacía, desbloqueada cuando la &quot;Sospecha&quot; es mayor que 0, puede reducir la &quot;Autodestrucción&quot;, consumir la cantidad de &quot;Curación&quot; para que ella misma y las células circundantes tengan un 50% de probabilidad de -5 &quot;Sospecha&quot;, un 25% de probabilidad. de -15 &quot;Sospecha&quot;, 25% Probabilidad +5 &quot;Duda&quot;.
+                [NEWLINE][COLOR:128,128,128,200]* &quot;sospechoso&quot; alto[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_NAME" Language="es_ES">
+			<Text>Actuando como un criminal</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad del vacío, desbloqueada cuando la &quot;Sospecha&quot; es mayor que 0, puede aumentar la &quot;Autodestrucción&quot;, -20 [ICON_STRENGTH] poder de combate al asediar una ciudad, y después de consumir tiempos de &quot;Curación&quot;, obtendrá +1 &quot;Sospecha&quot; por y las ciudades celulares circundantes.
+                [NEWLINE]Gana +10 [ICON_GOLD] de oro por cada unidad atacada.
+                [NEWLINE][COLOR:128,128,128,200]* Fondos suficientes[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="es_ES">
+			<Text>Descendiente relativo</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_DESCRIPTION" Language="es_ES">
+			<Text>Una unidad vacía, desbloqueada cuando la &quot;Sospecha&quot; no es inferior a 50, puede aumentar la &quot;Autodestrucción&quot; y solo tiene 1 cuenta de &quot;Cura&quot;, lo que le otorga a sí misma y a las células circundantes +20 &quot;Sospecha&quot;.
+                [NEWLINE] Dale a todas las ciudades de la civilización el estado &quot;Caos&quot;: las partes de la ciudad [ICON_AMENITIES] con una habitabilidad mayor que 0 serán &quot;sospechosas&quot; durante 5 rondas.
+                [NEWLINE]Si no se ha &quot;curado&quot;, la eliminación se considera &quot;curación&quot; y el efecto de &quot;curación&quot; en la unidad también afecta la salud de [ICON_Damaged].
+                [NEWLINE][COLOR:128,128,128,200]* La guerra está en desventaja[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_ACHERON_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_NAME" Language="es_ES">
+			<Text>Los truenos y los tambores callan y el viento ha cesado.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_DESCRIPTION" Language="es_ES">
+			<Text>+2 [ICON_MOVEMENT] Movimiento, +5 Efecto curativo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_NAME" Language="es_ES">
+			<Text>Caminando por la orilla que pasa</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_DESCRIPTION" Language="es_ES">
+			<Text>Combate &quot;Can Meng&quot; +1, todas las civilizaciones producen o compran unidades &quot;Can Meng&quot; +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_NAME" Language="es_ES">
+			<Text>El comienzo de las verdaderas palabras que caen del cielo.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_DESCRIPTION" Language="es_ES">
+			<Text>Pon la ciudad bajo asedio cuando te acerques a una ciudad hostil y mata al atacante después de ser atacado.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_NAME" Language="es_ES">
+			<Text>La llama ardiente mira a la persona en el espejo.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_DESCRIPTION" Language="es_ES">
+			<Text>+2 rango de &quot;curación&quot;, puede reducir la &quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_NAME" Language="es_ES">
+			<Text>Cuatro fases me cortan</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_DESCRIPTION" Language="es_ES">
+			<Text>Puedes moverte después de atacar. Cuando atacas a una unidad civilizada que no está [ICON_STAT_GRIEVANCE] insatisfecha con esta civilización, matará inmediatamente a la unidad civilizada y restaurará toda la salud [ICON_Damaged], la movilidad [ICON_MOVEMENT] y la cantidad de ataques.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_NAME" Language="es_ES">
+			<Text>Grilletes de liberación del desastre y la culpa</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_DESCRIPTION" Language="es_ES">
+			<Text>Todas las unidades etéreas de la civilización seleccionada tienen +10 [ICON_STRENGTH] fuerza de combate y +2 [ICON_MOVEMENT] fuerza de movimiento.
+                [NEWLINE] Si la unidad puede eliminar las &quot;suspicacias&quot; de menos del 30% de las &quot;suspicacias&quot; de la ciudad, puede eliminar directamente el 30% de las &quot;suspicacias&quot; de la ciudad y puede eliminar la &quot;autodestrucción&quot;.
+                [NEWLINE] La ciudad adquiere el estado &quot;Despierta&quot;: la ciudad no se ve afectada por la propagación de la &quot;suspicacia&quot; y dura 5 rondas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_NAME" Language="es_ES">
+			<Text>vida</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_DESCRIPTION" Language="es_ES">
+			<Text>El poder de combate [ICON_STRENGTH] y el poder de movimiento [ICON_MOVEMENT] de las unidades dentro del alcance se ven afectados por la &quot;autodestrucción&quot; y se reducen a la mitad.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_NAME" Language="es_ES">
+			<Text>desparramar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_DESCRIPTION" Language="es_ES">
+			<Text>Rango de &quot;curación&quot; +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_NAME" Language="es_ES">
+			<Text>la otra dirección</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_DESCRIPTION" Language="es_ES">
+			<Text>Puede reducir el efecto de &quot;autodestrucción&quot; y +5 de &quot;curación&quot; en las unidades.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_NAME" Language="es_ES">
+			<Text>existir</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_DESCRIPTION" Language="es_ES">
+			<Text>+5 efecto &quot;curación&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_NAME" Language="es_ES">
+			<Text>vigilar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_DESCRIPTION" Language="es_ES">
+			<Text>Le da a la ciudad el estado &quot;Escuchando&quot;: la ciudad no será &quot;sospechosa&quot; debido al aumento de habitabilidad de [ICON_AMENITIES] durante 5 turnos.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_NAME" Language="es_ES">
+			<Text>comunicador</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_DESCRIPTION" Language="es_ES">
+			<Text>+5 efecto de &quot;curación&quot; en ciudades civilizadas enemigas, +1 &quot;autodestrucción&quot; por cada ciudad civilizada enemiga curada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_NAME" Language="es_ES">
+			<Text>amistad</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_DESCRIPTION" Language="es_ES">
+			<Text>El efecto curativo se duplica para las ciudades civilizadas enemigas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_NAME" Language="es_ES">
+			<Text>Buscar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_DESCRIPTION" Language="es_ES">
+			<Text>+3 [ICON_MOVEMENT] Movimiento</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_NAME" Language="es_ES">
+			<Text>Perplejo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_DESCRIPTION" Language="es_ES">
+			<Text>+2 rango de &quot;curación&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_NAME" Language="es_ES">
+			<Text>duda</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_DESCRIPTION" Language="es_ES">
+			<Text>+5 efecto de &quot;curación&quot; en ciudades civilizadas enemigas, +20 [ICON_STRENGTH] poder de combate al defender</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_NAME" Language="es_ES">
+			<Text>payaso</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_DESCRIPTION" Language="es_ES">
+			<Text>+5 efecto &quot;curativo&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_NAME" Language="es_ES">
+			<Text>absurdo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_DESCRIPTION" Language="es_ES">
+			<Text>+5 efecto &quot;Cura&quot;, haciendo que la ciudad con &quot;Duda&quot; mayor a 20 gane el estado &quot;Felicidad&quot;: la ciudad +2 [ICON_AMENITIES] Habitabilidad, dura 5 rondas</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_NAME" Language="es_ES">
+			<Text>Rendimiento increíble</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_DESCRIPTION" Language="es_ES">
+			<Text>+2 rango de &quot;curación&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_NAME" Language="es_ES">
+			<Text>alegría</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_DESCRIPTION" Language="es_ES">
+			<Text>Puede reducir la &quot;autodestrucción&quot; y hacer que las ciudades dentro del alcance obtengan el estado &quot;Felicidad&quot;: la ciudad +2 [ICON_AMENITIES] habitabilidad, con una duración de 5 rondas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_NAME" Language="es_ES">
+			<Text>autodestrucción</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_DESCRIPTION" Language="es_ES">
+			<Text>Hacer que las ciudades con habitabilidad negativa dentro del rango obtengan el estado &quot;Felicidad&quot;: la ciudad +5 [ICON_AMENITIES] habitabilidad, con una duración de 5 rondas, la eliminación se considera *autodestrucción*</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_NAME" Language="es_ES">
+			<Text>rompecabezas</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_DESCRIPTION" Language="es_ES">
+			<Text>+5 efecto &quot;curativo&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_NAME" Language="es_ES">
+			<Text>respuesta</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_DESCRIPTION" Language="es_ES">
+			<Text>+1 área de efecto de &quot;curación&quot;, el poder de combate [ICON_STRENGTH] y el poder de movimiento [ICON_MOVEMENT] de las unidades dentro del alcance se reducen a la mitad por &quot;Autodestrucción&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_NAME" Language="es_ES">
+			<Text>diligencia</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_DESCRIPTION" Language="es_ES">
+			<Text>Haz que la &quot;Sospecha&quot; sea mayor que 20 y la ciudad obtiene el estado &quot;Autoprueba&quot;: la ciudad tiene +5% de valor tecnológico [ICON_SCIENCE], +10% de productividad [ICON_PRODUCTION], con una duración de 5 turnos.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_NAME" Language="es_ES">
+			<Text>resistir</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_DESCRIPTION" Language="es_ES">
+			<Text>Puede reducir la &quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_NAME" Language="es_ES">
+			<Text>crear</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_DESCRIPTION" Language="es_ES">
+			<Text>Haz que la &quot;Sospecha&quot; sea superior a 20 y la ciudad obtendrá el estado &quot;Autocertificada&quot;: +10 % del valor de la tecnología [ICON_SCIENCE], +10 % de la productividad [ICON_PRODUCTION], con una duración de 5 rondas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RESCUER_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_NAME" Language="es_ES">
+			<Text>destruir</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_DESCRIPTION" Language="es_ES">
+			<Text>+2 rango de &quot;curación&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_NAME" Language="es_ES">
+			<Text>momento</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_DESCRIPTION" Language="es_ES">
+			<Text>+2 [ICON_MOVEMENT] Movimiento</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_NAME" Language="es_ES">
+			<Text>bozal</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_DESCRIPTION" Language="es_ES">
+			<Text>+2 rango de &quot;Cura&quot;, &quot;Cura&quot; -10 salud [ICON_Damaged] y -3 población [ICON_Citizen] para uno mismo y las ciudades celulares circundantes</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_NAME" Language="es_ES">
+			<Text>tortura</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_DESCRIPTION" Language="es_ES">
+			<Text>&quot;Cura&quot; restaura todos los puntos de salud y otorga a todas las ciudades de la civilización el estado &quot;Terror&quot;: -3 [ICON_AMENITIES] habitabilidad para la ciudad, con una duración de 5 rondas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_NAME" Language="es_ES">
+			<Text>redención</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_DESCRIPTION" Language="es_ES">
+			<Text>Otorga a todas las ciudades de la civilización el estado &quot;Terror&quot;: -1 [ICON_AMENITIES] habitabilidad por cada [ICON_Citizen] población de la ciudad, con una duración de 5 turnos.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_NAME" Language="es_ES">
+			<Text>cama de hospital</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_DESCRIPTION" Language="es_ES">
+			<Text>El poder de combate [ICON_STRENGTH] y el poder de movimiento [ICON_MOVEMENT] de las unidades dentro del alcance se ven afectados por la &quot;autodestrucción&quot; y se reducen a la mitad.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_NAME" Language="es_ES">
+			<Text>Cefalópodo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_DESCRIPTION" Language="es_ES">
+			<Text>+2 rango de &quot;curación&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_NAME" Language="es_ES">
+			<Text>lucha</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_DESCRIPTION" Language="es_ES">
+			<Text>+5 efecto &quot;curativo&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_NAME" Language="es_ES">
+			<Text>médico</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_DESCRIPTION" Language="es_ES">
+			<Text>Capaz de reducir la &quot;Autodestrucción&quot; y hacer que la &quot;Sospecha&quot; sea mayor a 20. La ciudad obtiene el estatus &quot;Examen físico&quot;: Ciudad +15% [ICON_FOOD] comida, con una duración de 5 rondas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_NAME" Language="es_ES">
+			<Text>primera victoria</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_DESCRIPTION" Language="es_ES">
+			<Text>Puede reducir la &quot;autodestrucción&quot;, hacer que la &quot;duda&quot; sea mayor que 40, ciudad +3 población [ICON_Citizen]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_NAME" Language="es_ES">
+			<Text>Botiquín del Caos</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_DESCRIPTION" Language="es_ES">
+			<Text>El efecto de &quot;curación&quot; se duplica y el efecto de &quot;curación&quot; en la unidad también afecta la salud de [ICON_Damaged].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_NAME" Language="es_ES">
+			<Text>Caos Versicolor</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_DESCRIPTION" Language="es_ES">
+			<Text>+5 efecto de &quot;curación&quot;, +1 alcance de &quot;curación&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_NAME" Language="es_ES">
+			<Text>Elixir de efectos especiales del caos</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_DESCRIPTION" Language="es_ES">
+			<Text>+2 efecto de &quot;curación&quot;, +2 alcance de &quot;curación&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_NAME" Language="es_ES">
+			<Text>Cera vacía</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_DESCRIPTION" Language="es_ES">
+			<Text>+2 rango de &quot;curación&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_NAME" Language="es_ES">
+			<Text>Una receta para el fracaso absoluto</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_DESCRIPTION" Language="es_ES">
+			<Text>Destruye a los bárbaros dentro del alcance.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_EXECUTOR_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_NAME" Language="es_ES">
+			<Text>bozal</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_DESCRIPTION" Language="es_ES">
+			<Text>+10 [ICON_GOLD] Mantenimiento, +10 [ICON_STRENGTH] Fuerza de combate</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_NAME" Language="es_ES">
+			<Text>remuneración</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_DESCRIPTION" Language="es_ES">
+			<Text>+30 [ICON_GOLD] Consigue monedas de oro</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_NAME" Language="es_ES">
+			<Text>entender</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_DESCRIPTION" Language="es_ES">
+			<Text>+3 [ICON_MOVEMENT] Movimiento</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_NAME" Language="es_ES">
+			<Text>lograr</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_DESCRIPTION" Language="es_ES">
+			<Text>+20 [ICON_GOLD] tarifa de mantenimiento, +20 [ICON_STRENGTH] poder de combate, +2 &quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_NAME" Language="es_ES">
+			<Text>asesino</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_DESCRIPTION" Language="es_ES">
+			<Text>+30 [ICON_GOLD] tarifa de mantenimiento, +30 [ICON_STRENGTH] poder de combate, +3 &quot;autodestrucción&quot;, +30 [ICON_GOLD] monedas de oro obtenidas</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="es_ES">
+			<Text>nada</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_NAME" Language="es_ES">
+			<Text>describir</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_DESCRIPTION" Language="es_ES">
+			<Text>El efecto &quot;curativo&quot; sobre las unidades enemigas de ciudades civilizadas se duplica.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_NAME" Language="es_ES">
+			<Text>sin guerra</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_DESCRIPTION" Language="es_ES">
+			<Text>-10 efecto &quot;curativo&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_NAME" Language="es_ES">
+			<Text>explicar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_DESCRIPTION" Language="es_ES">
+			<Text>-2 [ICON_MOVEMENT] Movimiento, +3 Rango de curación</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_NAME" Language="es_ES">
+			<Text>espejismo</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_DESCRIPTION" Language="es_ES">
+			<Text>Si esta civilización tiene sólo una ciudad, las unidades dentro del alcance morirán inmediatamente.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_NAME" Language="es_ES">
+			<Text>globo de nieve</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_DESCRIPTION" Language="es_ES">
+			<Text>+4 rango de &quot;curación&quot;, el efecto de *autodestrucción* cambia a: Si esta civilización tiene solo una ciudad, todas las ciudades construidas en el pasado +99 &quot;Duda&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_NAME" Language="es_ES">
+			<Text>La duda crece</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_TOOLTIP" Language="es_ES">
+			<Text>Vea la tasa de crecimiento sospechada en el gráfico.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_TOOLTIP" Language="es_ES">
+			<Text>sueño residual</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC" Language="es_ES">
+			<Text>Ataque +1 &quot;Remnant Dream&quot;, con un máximo de 12 acumulaciones.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC_WITH_PROMOTION" Language="es_ES">
+			<Text>Ataque +2 &quot;Remnant Dream&quot;, todas las unidades producidas o compradas por civilización +1 &quot;Remnant Dream&quot;, hasta 12 capas en total. (Debido a la actualización &quot;Caminando por la orilla que pasa&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP" Language="es_ES">
+			<Text>Tiempos de &quot;cura&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_RANGE" Language="es_ES">
+			<Text>alcance</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_EFFECT" Language="es_ES">
+			<Text>Efecto</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_PROBABILITY" Language="es_ES">
+			<Text>Probabilidad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DECREASE" Language="es_ES">
+			<Text>reducir</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_INCREASE" Language="es_ES">
+			<Text>elevar</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT" Language="es_ES">
+			<Text>Puede reducir la &quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT_MAX" Language="es_ES">
+			<Text>Capaz de borrar la &quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SUSPICION" Language="es_ES">
+			<Text>&quot;Sospechar&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_TOOLTIP" Language="es_ES">
+			<Text>&quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_WORLDVIEW_TEXT" Language="es_ES">
+			<Text>&quot;Sospechar&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_WORLDVIEW_TEXT" Language="es_ES">
+			<Text>&quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DESC" Language="es_ES">
+			<Text>Consuma tiempos de &quot;Cura&quot; para reducir la &quot;Sospecha&quot; y mejorar las relaciones. Cada vez que la civilización del oponente reduce 5 capas de &quot;sospecha&quot;, la relación aumentará en 1. Si la &quot;Cura&quot; de una unidad aumenta su &quot;Duda&quot;, la relación se reducirá en la misma proporción.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SELF_ANNIHILATOR" Language="es_ES">
+			<Text>ataque</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_SELF_ANNIHILATOR" Language="es_ES">
+			<Text>Puede cambiar la &quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CLEAN_SELF_ANNIHILATOR" Language="es_ES">
+			<Text>Capaz de borrar la &quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_KILL_SIN_THIRSTER" Language="es_ES">
+			<Text>Destruye a los bárbaros</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_HEAL_USE_UP_REGARD_AS_RECOVERY" Language="es_ES">
+			<Text>El agotamiento del número de &quot;curación&quot; cuenta como *curación*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_NOT_REGARD_AS_SELF_ANNIHILATOR" Language="es_ES">
+			<Text>La eliminación no se considera *autodestrucción*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_REGARD_AS_HEAL" Language="es_ES">
+			<Text>Si no se ha &quot;curado&quot;, la eliminación se considera &quot;curada&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_DAMAGE" Language="es_ES">
+			<Text>El efecto &quot;Curación&quot; se aplica a la salud de [ICON_Damaged].</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_DAMAGE" Language="es_ES">
+			<Text>[ICON_Damaged] salud</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_SET_DAMAGE" Language="es_ES">
+			<Text>Restaura la salud de [ICON_Damaged] a</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT" Language="es_ES">
+			<Text>Favorabilidad &quot;curativa&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT_2" Language="es_ES">
+			<Text>veces</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_HALF_SELF_ANNIHILATOR_EFFECT" Language="es_ES">
+			<Text>Reducir a la mitad el poder de combate [ICON_STRENGTH] de &quot;autodestrucción&quot; y los efectos de movilidad [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_ATTACKER" Language="es_ES">
+			<Text>matar al atacante</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT_WHEN_JUSTICE_WAR" Language="es_ES">
+			<Text>En determinadas circunstancias, mata instantáneamente a la unidad y restaura todos los puntos de salud.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_FOR_ALL" Language="es_ES">
+			<Text>Todas las ciudades</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL" Language="es_ES">
+			<Text>Cuando &quot;cura&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_UNIT" Language="es_ES">
+			<Text>Al &quot;curar&quot; una unidad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_ATTACK" Language="es_ES">
+			<Text>Ataque</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF" Language="es_ES">
+			<Text>como</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_OR" Language="es_ES">
+			<Text>o</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_IS_ENEMY" Language="es_ES">
+			<Text>es el enemigo</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_SUSPICION_GT" Language="es_ES">
+			<Text>La &quot;duda&quot; es mayor que</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_NAGETIVE_AMENITY" Language="es_ES">
+			<Text>Habitabilidad negativa</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_ONLY_ONE_CITY" Language="es_ES">
+			<Text>solo una ciudad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_AWARENESS_6" Language="es_ES">
+			<Text>Obtén el estado &quot;Despierto&quot; (no afectado por la propagación de &quot;Duda&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_0" Language="es_ES">
+			<Text>Se obtuvo el estado &quot;Escuchando&quot; (se reduce a la mitad debido al aumento de habitabilidad de [ICON_AMENITIES] &quot;Dudoso&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_HEAL_EFFECT" Language="es_ES">
+			<Text>Efecto &quot;curativo&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_5" Language="es_ES">
+			<Text>Obtiene el estado &quot;Escuchando&quot; (no &quot;sospechoso&quot; debido al aumento de habitabilidad de [ICON_AMENITIES])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_SELF_SELF_ANIHILATOR" Language="es_ES">
+			<Text>Cambio de &quot;autodestrucción&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_MULTIPLY_HEAL_EFFECT" Language="es_ES">
+			<Text>Efecto &quot;curativo&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_0" Language="es_ES">
+			<Text>Obtiene el estado &quot;Felicidad&quot; (ciudad +1 [ICON_AMENITIES] Amabilidad)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_2" Language="es_ES">
+			<Text>Obtiene el estado &quot;Felicidad&quot; (ciudad +2 [ICON_AMENITIES] Amabilidad)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_4" Language="es_ES">
+			<Text>Obtén el estado &quot;Feliz&quot; (ciudad +2 [ICON_AMENITIES] Amenidad)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_5" Language="es_ES">
+			<Text>Obtiene el estado &quot;Felicidad&quot; (ciudad +5 [ICON_AMENITIES] Amabilidad)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_0" Language="es_ES">
+			<Text>Obtener el estado &quot;Autocertificado&quot; (ciudad +5% valor tecnológico [ICON_SCIENCE], +5% productividad [ICON_PRODUCTION])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_3" Language="es_ES">
+			<Text>Obtener el estado &quot;Autocertificado&quot; (ciudad +5% valor tecnológico [ICON_SCIENCE], +10% productividad [ICON_PRODUCTION])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_5" Language="es_ES">
+			<Text>Obtener el estado &quot;Autocertificado&quot; (ciudad +10% valor tecnológico [ICON_SCIENCE], +10% productividad [ICON_PRODUCTION])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_0" Language="es_ES">
+			<Text>Adquiera el estado &quot;Terrible&quot; (ciudad -1 [ICON_AMENITIES] Amenidad)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_POPULATION" Language="es_ES">
+			<Text>[ICON_Citizen] Población</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_4" Language="es_ES">
+			<Text>Adquirir el estado &quot;Terror&quot; (ciudad -3 [ICON_AMENITIES] habitabilidad)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_5" Language="es_ES">
+			<Text>Adquirir estado &quot;Terror&quot; (ciudad -5 [ICON_AMENITIES] habitabilidad)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HEALTH_EXAM_4" Language="es_ES">
+			<Text>Obtuvo el estado &quot;Control de salud&quot; (ciudad +15% [ICON_FOOD] comida)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_GOLD" Language="es_ES">
+			<Text>[ICON_GOLD] monedas de oro</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_DERANGED_0" Language="es_ES">
+			<Text>Obtuvo el estado &quot;Caos&quot; (la parte de la ciudad [ICON_AMENITIES] con una habitabilidad mayor que 0 añade &quot;suspicacia&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DESTORY_BUILT_CITY" Language="es_ES">
+			<Text>Efecto de autodestrucción: si esta civilización tiene solo una ciudad, todas las ciudades construidas en el pasado tendrán +99 &quot;Duda&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT" Language="es_ES">
+			<Text>matar unidad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_LOSS_ALL_MOVEMENT" Language="es_ES">
+			<Text>Pierde toda la movilidad de [ICON_MOVEMENT]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_RECOVERY_WORLDVIEW_TEXT" Language="es_ES">
+			<Text>reponerse</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_SELF_ANNIHILATE_WORLDVIEW_TEXT" Language="es_ES">
+			<Text>autodestrucción</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_TURNS" Language="es_ES">
+			<Text>redondo</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_NAME" Language="es_ES">
+			<Text>despierto por completo</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_DESCRIPTION" Language="es_ES">
+			<Text>No se ve afectado por la propagación de la &quot;sospecha&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_NAME" Language="es_ES">
+			<Text>escuchar</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_DESCRIPTION" Language="es_ES">
+			<Text>Se &quot;sospecha&quot; que el crecimiento de la habitabilidad se redujo a la mitad debido a [ICON_AMENITIES]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_NAME" Language="es_ES">
+			<Text>escuchar</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_DESCRIPTION" Language="es_ES">
+			<Text>No &quot;sospechoso&quot; por el aumento de habitabilidad de [ICON_AMENITIES]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_NAME" Language="es_ES">
+			<Text>alegría</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad +1 [ICON_AMENITIES] Habitabilidad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_NAME" Language="es_ES">
+			<Text>alegría</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad +2 [ICON_AMENITIES] Servicios</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_NAME" Language="es_ES">
+			<Text>alegría</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad +2 [ICON_AMENITIES] Amenidad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_NAME" Language="es_ES">
+			<Text>alegría</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad +5 [ICON_AMENITIES] Servicios</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_NAME" Language="es_ES">
+			<Text>autocertificación</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad +5% [ICON_SCIENCE] Ciencia, +5% [ICON_PRODUCTION] Productividad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_NAME" Language="es_ES">
+			<Text>autocertificación</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad +5% [ICON_SCIENCE] Ciencia, +10% [ICON_PRODUCTION] Producción</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_NAME" Language="es_ES">
+			<Text>autocertificación</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad +10% [ICON_SCIENCE] Ciencia, +10% [ICON_PRODUCTION] Productividad</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_NAME" Language="es_ES">
+			<Text>miedo</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad -1 [ICON_AMENITIES] Servicios</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_NAME" Language="es_ES">
+			<Text>miedo</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad -3 [ICON_AMENITIES] Servicios</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_NAME" Language="es_ES">
+			<Text>miedo</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad -5 [ICON_AMENITIES] Servicios</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_NAME" Language="es_ES">
+			<Text>Examen físico</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad +15% [ICON_FOOD] Comida</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_NAME" Language="es_ES">
+			<Text>Confusión</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_DESCRIPTION" Language="es_ES">
+			<Text>La ciudad [ICON_AMENITIES] añade &quot;suspicacia&quot; a las partes con habitabilidad mayor que 0</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DECREASE_SUSPICION" Language="es_ES">
+			<Text>Reduces la &quot;suspicacia&quot; de la civilización de la otra parte.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_INCREASE_SUSPICION" Language="es_ES">
+			<Text>Has planteado la &quot;sospecha&quot; de la civilización de la otra parte.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY" Language="es_ES">
+			<Text>nunca mirar hacia atrás</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="es_ES">
+			<Text>Como una civilización que está a punto de ganar</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY" Language="es_ES">
+			<Text>No mires atrás, no hay vuelta atrás.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="es_ES">
+			<Text>Como una civilización que está a punto de ganar</Text>
+		</Replace>
+		<Replace Tag="LOC_ACHERON_QUOTE" Language="es_ES">
+			<Text>&quot;Huang Quan&quot;... Aunque es sólo un nombre prestado, sabes quién soy y recuerdas lo que he hecho. Después de eso... Soy Huang Quan.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>El polvo... eventualmente regresará a la tierra...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>El polvo... eventualmente regresará a la tierra...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>No olvides compartir la alegría con tus amigos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Quizás haya más de una respuesta correcta.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Otra deuda de sangre.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Déjame caminar contigo un rato más.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Si tienes un cuchillo, siempre debes usarlo para cortar algo. Sólo hay una razón para desenvainar mi espada... antes, ahora y en el futuro.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Dondequiera que quedan recuerdos, cada toque es una flor con espinas...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>¿Adónde vas?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Al escuchar el sonido de la lluvia cayendo de las hojas rojas y goteando sobre el paraguas, tuve un momento de paz...</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_NAME" Language="es_ES">
+			<Text>Modo vacío</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_DESC" Language="es_ES">
+			<Text>La civilización puede adquirir &quot;duda&quot;. ¡Presta atención a la habitabilidad de [ICON_AMENITIES] de tu ciudad!</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_NAME" Language="es_ES">
+			<Text>La nada se limita al inframundo.</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_DESC" Language="es_ES">
+			<Text>Sólo la autodestructiva civilización Huangquan puede obtener &quot;Duda&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_NAME" Language="es_ES">
+			<Text>Optimización del modo inferior</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_DESC" Language="es_ES">
+			<Text>No cambie el mecanismo real, pero cambie el efecto de visualización.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Eres tú... Todos deberíamos valorar el tiempo que pasamos juntos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>¿Viniste aquí... o fue voluntad del destino?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Es hora de que partamos.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>&quot;Entrar dos veces en el mismo río&quot;... no es difícil.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>No hay nada que puedas hacer ante este arrepentimiento, así que déjalo ir.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>No importa, terminemos aquí.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Las personas que viajan solas por la Vía Láctea tienen dos deseos: encontrar las huellas de sus predecesores y encontrar su propio camino. Pero bajo su mirada... estos últimos se detuvieron principalmente en los primeros.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Está lloviendo... ¿Quieres dar un paseo juntos? Vamos, tengo un paraguas.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Cuando desperté del otro lado, todavía había truenos al final del mar y una lluvia de sangre acababa de caer del cielo.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>El paisaje a lo lejos no es claro... pero debe ser hermoso.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>La gente camina por el camino del destino... luego busca, luego obtiene la iluminación y luego existe.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>El pasado nos convierte en quienes somos hoy. Algunas cosas son difíciles de recordar y otras son difíciles de olvidar.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Nos volvemos a encontrar, ¿quieres volver a bailar?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Todo o nada... ya veré.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Esta vida pasa como la lluvia, y eventualmente regresará a la tierra. Espero que cuando nos volvamos a encontrar... haga sol.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>No eres la primera persona que muestra tal malicia incluso después de conocer mi identidad, y no serás la última.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>No importa cuál sea tu propósito... sólo puedo ver un final: su futuro es la &quot;nada&quot;, al igual que todos los mundos que se ahogan en Su sombra.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>No queda mucho tiempo para decir adiós.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>El agujero negro no es ni espectacular ni trágico. Es muy silencioso, como una línea de visión solitaria, mirándonos a ti y a mí... y luego tragándolo todo silenciosamente, dándole un abrazo frío y silencioso.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ACHERON_ANY" Language="es_ES">
+			<Text>Se avecinan fuertes lluvias.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

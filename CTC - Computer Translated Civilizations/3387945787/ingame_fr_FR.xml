@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 14:16:28 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_DESCRIPTION" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_ADJECTIVE" Language="fr_FR">
+			<Text>du néant</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_NAME" Language="fr_FR">
+			<Text>Dormir sans forme</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_DESCRIPTION" Language="fr_FR">
+			<Text>Le « Mode Nether » est requis.
+                [NEWLINE]La ville établie par la civilisation sélectionnée gagnera 30 couches de « Doute », et le minimum est de 10 couches. Les unités vides peuvent être produites indépendamment des couches « Doute ».
+                [NEWLINE]Lorsque la civilisation sélectionnée perd une ville, +30 &quot;Doute&quot; sera accordé à toutes les villes.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ACHERON_NAME" Language="fr_FR">
+			<Text>Huangquan</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_NAME" Language="fr_FR">
+			<Text>Le gardien des enfers</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_DESCRIPTION" Language="fr_FR">
+			<Text>La ville fournit 2 [ICON_PRODUCTION] productivité, 1 [ICON_FOOD] nourriture par population. Le nombre moyen de couches « Doute » dans la ville civilisée sélectionnée réduit cet effet de 0,5 %. une ville civilisée réduit cet effet de 0,5%. Effet -0,5%.
+                [NEWLINE] Possède une unité vide spéciale, Huangquan, et toutes les unités vides sont initialement promues au niveau 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION" Language="fr_FR">
+			<Text>Suspect</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DESC" Language="fr_FR">
+			<Text>Chaque niveau de « Doute » réduit 1 % de la valeur culturelle [ICON_CULTURE], 1 % de la valeur technologique [ICON_SCIENCE], 1 % de la productivité [ICON_PRODUCTION], 1 % des performances touristiques [ICON_Tourism], 1 % des points de personne formidable, 1,5 % de la nourriture [ICON_FOOD] , 1,5 % [ICON_FAITH] Foi, 1,5 % [ICON_GOLD] Or.
+                [NEWLINE] Toutes les 10 couches de &quot;Suspicion&quot; supérieures à 20 couches, les unités de la cellule de la ville auront au moins un effet &quot;Autodestruction&quot; de niveau 1. Le nombre de couches requis pour l'effet sera réduit de moitié après la recherche &quot;Politique&quot; municipale. Philosophie&quot;.
+                [NEWLINE] Tous les 20 niveaux de « Doute » réduit de 1 [ICON_AMENITIES] Habitabilité et 1 de Loyauté. Le nombre de niveaux requis après la recherche des « Lumières » municipales est réduit de moitié.
+                [NEWLINE] Toutes les 30 couches de « Doute » propageront 1 couche de « Doute » dans la ville dans un rayon de 9 blocs, et chaque bloc atténuera 1 couche de « Doute ». Après avoir recherché la technologie « Impression », le nombre de couches requis. car l'effet sera réduit de moitié. Recherche sur la technologie Le nombre de blocs d'atténuation requis après &quot;Radio&quot; est doublé. Lorsque « Suspicion » atteint le niveau 99, la recherche technologique ne modifiera plus l'effet de communication de la ville.
+                [NEWLINE] Tous les 50 niveaux de &quot;Suspicion&quot; réduit 1 point d'ère par tour, et l'effet est doublé après une recherche sur les &quot;médias sociaux&quot; municipaux.
+                [NEWLINE][ICON_AMENITIES] Pour chaque partie avec une habitabilité inférieure à 0, &quot;Suspicion&quot; +1, pour chaque partie supérieure à 3, &quot;Suspicion&quot; -1, et l'effet est doublé après étude de &quot;l'idéologie&quot; municipale. Le nombre maximum de couches « Doute » est de 99, et un maximum de 15 couches de « Doute » peuvent être obtenues à chaque tour.
+                [NEWLINE] Lorsque la ville est encerclée, le &quot;Doute&quot; est de -5 à chaque tour, et l'effet est doublé après la recherche de &quot;l'Humanisme&quot; dans l'administration municipale.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR" Language="fr_FR">
+			<Text>s'autodétruire</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR_DESC" Language="fr_FR">
+			<Text>Chaque niveau d'« Autodestruction » -1 [ICON_STRENGTH] force de combat.
+            [NEWLINE]Lorsque « Autodestruction » n'est pas inférieur au niveau 20, chaque niveau de « Autodestruction » aura -1 [ICON_Damaged] HP.
+            [NEWLINE]Tous les 8 niveaux d'&quot;Autodestruction&quot; -1 mouvement [ICON_MOVEMENT].
+            [NEWLINE] +1 &quot;Autodestruction&quot; à chaque tour.
+            [NEWLINE] Lorsqu'une unité avec &quot;Autodestruction&quot; disparaît, elle est considérée comme une unité *Autodestruction* : +2 villes autour d'elle +5 &quot;Suspicion&quot;, avec une probabilité de 25% de se transformer en barbare.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CIVI_AVERAGE_SUSPICION" Language="fr_FR">
+			<Text>« Soupçon » moyen dans le pays</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_FORE_AVERAGE_SUSPICION" Language="fr_FR">
+			<Text>Moyenne étrangère « suspecte »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_AMENITIES" Language="fr_FR">
+			<Text>&quot;Doute&quot; de [ICON_AMENITIES] Habitabilité</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_NEARBY_CITY" Language="fr_FR">
+			<Text>Les « soupçons » viennent des villes voisines</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DECREASING_FROM_BESIEGED" Language="fr_FR">
+			<Text>Le doute naît du fait d'être entouré</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE" Language="fr_FR">
+			<Text>État</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE_ROUND" Language="fr_FR">
+			<Text>rond</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING" Language="fr_FR">
+			<Text>&quot;bien éveillé&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING_DESC" Language="fr_FR">
+			<Text>Les villes ne sont pas concernées par la propagation de la « suspicion »</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_LZUMO" Language="fr_FR">
+			<Text>Izumo</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_TRUTH" Language="fr_FR">
+			<Text>réel</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_SKY" Language="fr_FR">
+			<Text>ciel</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_HOWL" Language="fr_FR">
+			<Text>Ming</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MIST" Language="fr_FR">
+			<Text>Réseau local</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FROST" Language="fr_FR">
+			<Text>gel</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FATE" Language="fr_FR">
+			<Text>vie</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FLARE" Language="fr_FR">
+			<Text>fort</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_THOUGHT" Language="fr_FR">
+			<Text>Dormir</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_ROOT" Language="fr_FR">
+			<Text>fondation</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_RORM" Language="fr_FR">
+			<Text>mille</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_BIND" Language="fr_FR">
+			<Text>paquet</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MAW" Language="fr_FR">
+			<Text>Manger</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_1" Language="fr_FR">
+			<Text>Tansei</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_2" Language="fr_FR">
+			<Text>Max.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_3" Language="fr_FR">
+			<Text>lainesey</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_4" Language="fr_FR">
+			<Text>Keenan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_5" Language="fr_FR">
+			<Text>Halliburton</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_1" Language="fr_FR">
+			<Text>Kokona</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_2" Language="fr_FR">
+			<Text>Qian Ketong</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_3" Language="fr_FR">
+			<Text>Ouma</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_4" Language="fr_FR">
+			<Text>Aran</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_5" Language="fr_FR">
+			<Text>Furla</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_NAME" Language="fr_FR">
+			<Text>Marcheur du vide</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_DESCRIPTION" Language="fr_FR">
+			<Text>Consommez des temps de « guérison » pour réduire les « soupçons » et améliorer les relations. Chaque fois que la civilisation adverse réduit 5 niveaux de « méfiance », la relation augmentera de 1. Si le « Remède » d'une unité augmente son « Doute », la relation sera réduite dans la même proportion.
+                [NEWLINE]Posséder initialement au moins le niveau 1 d'&quot;Autodestruction&quot;, en ignorant la mobilité [ICON_MOVEMENT] et les affaiblissements de puissance de combat de &quot;ICON_STRENGTH&quot;.
+                [NEWLINE]Si vous pouvez modifier l'effet « d'autodestruction » des unités non vides, l'effet est le même que la réduction de l'effet « suspect » de la ville.
+                [NEWLINE]Ignorez le contrôle de zone et ne pouvez pas piller. Attaquer une unité est considéré comme consommant du temps de « guérison ». Lors de la défense, elle gagnera la même puissance de combat que l'unité de puissance de combat la plus élevée [ICON_STRENGTH] créée par la civilisation recevra le même bonus.
+                [NEWLINE] L'expérience ne peut pas être acquise. Après avoir effectué des recherches sur la « Philosophie politique », la « Pensée des Lumières » et l'« Idéologie », vous recevrez une mise à niveau améliorée, qui sera efficace pour les unités produites à l'avenir.
+                [NEWLINE]Les [COLOR:128,128,128,200] * Les suggestions de production [ENDCOLOR] sont applicables à la situation initiale, veuillez les ajuster en fonction de la promotion</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ACHERON" Language="fr_FR">
+			<Text>Un voyageur qui se fait appeler « Sea Patrolman » dont le vrai nom est inconnu. Portant une longue épée, il voyage seul dans la Voie Lactée.
+                [NEWLINE]
+                [NEWLINE]Il est indifférent et taciturne. Son épée frappe aussi vite que l'éclair, mais il se bat toujours avec le fourreau à la main, sans jamais l'utiliser.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_NAME" Language="fr_FR">
+			<Text>Huangquan</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_DESCRIPTION" Language="fr_FR">
+			<Text>L'unité vide en vedette, furtive, la puissance de combat de base [ICON_STRENGTH] est la même que celle de l'unité de puissance de combat la plus élevée produite par la civilisation sélectionnée. Elle consomme du temps de « guérison » pour se rendre elle-même et les villes cellulaires environnantes -20 « suspectes ». arbre de promotion et se retire après avoir subi des dégâts mortels.
+                [NEWLINE] Il a le niveau 99 &quot;Autodestruction&quot; une fois créé. &quot;Autodestruction&quot; n'augmentera pas. Il ignore l'effet &quot;Autodestruction&quot; et n'est pas considéré comme de l'*autodestruction*.
+                [NEWLINE] Après avoir obtenu Huangquan, la civilisation sélectionnée accumulera 1 couche de &quot;Remnant Dream&quot; pour Huangquan à chaque fois qu'elle attaquera, et 6 couches seront obtenues lors de sa création, avec un maximum de 12 couches accumulées.
+                [NEWLINE] Lorsque &quot;Remnant Dream&quot; atteint le niveau 9, il peut entrer dans l'état &quot;Remnant Dream Infusion, Cutting with One Sword&quot;. L'unité a +4 [ICON_MOVEMENT] en puissance de mouvement, +10 [ICON_STRENGTH] en puissance de combat, + 4 temps de « Guérison » et +2 vision.
+                [NEWLINE] Une fois le nombre de « Guérison » épuisé, 9 couches de « Remnant Dream » seront consommées et « Remnant Dream Dyeing, One Knife Breaks » sera quitté toutes les 3 fois de « Remnant Dream Draining, One Knife Breaking ». &quot; est publié, Huang Quan recevra une mise à niveau améliorée. .</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="fr_FR">
+			<Text>veilleur de nuit</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité vide, déverrouillée lorsque « Suspicion » est supérieur à 0, consomme du temps de « Guérison » pour lui-même et les cellules environnantes avoir -3 « Suspicion ».
+                [NEWLINE]Donne à la ville le statut « À l'écoute » : réduit de moitié la croissance du « Doute » de la ville en raison de l'[ICON_AMENITIES] habitabilité pendant 5 tours.
+                [NEWLINE]La suppression n'est pas considérée comme de l'*autodestruction*
+                [NEWLINE][COLOR:128,128,128,200]* Habitabilité négative[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="fr_FR">
+			<Text>des gens médiocres</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité vide est déverrouillée lorsque « Suspicion » est supérieur à 0. Elle consomme du temps de « Guérison » pour lui-même et les villes cellulaires environnantes avoir -3 « Suspicion ».
+                [NEWLINE]Réduire les « soupçons » augmente les relations diplomatiques deux fois plus.
+                [NEWLINE]La suppression n'est pas considérée comme de l'*autodestruction*
+                [NEWLINE][COLOR:128,128,128,200]* Il faut être moins « méfiant » à l'égard des pays étrangers[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_NAME" Language="fr_FR">
+			<Text>Coup de tonnerre</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_DESCRIPTION" Language="fr_FR">
+			<Text>Capacité spéciale : le groupe de rock a une « autodestruction » lorsqu'il est fondé. Le chant fera en sorte que lui-même et les 2 villes cellulaires environnantes aient -10 de « méfiance ». Chaque niveau du groupe de rock est amélioré à +1 de portée et à -5. « suspect ».
+                [NEWLINE]+3 [ICON_MOVEMENT] Mouvement.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="fr_FR">
+			<Text>bouffon altruiste</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité vide est déverrouillée avec un &quot;Doute&quot; d'au moins 30. Elle consomme du temps de &quot;Guérison&quot; pour lui-même et les cellules environnantes avoir -3 &quot;Doute&quot;.
+                [NEWLINE]Donne aux villes avec un &quot;Doute&quot; supérieur à 20 le statut &quot;Bonheur&quot; : +1 [ICON_AMENITIES] Agrément à la ville pendant 5 tours.
+                [NEWLINE]La suppression n'est pas considérée comme une *autodestruction*.
+                [NEWLINE][COLOR:128,128,128,200]* Habitabilité négative[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="fr_FR">
+			<Text>Société d'autocertification</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité vide est déverrouillée avec un &quot;Doute&quot; d'au moins 30. Elle consomme du temps de &quot;Guérison&quot; pour lui-même et les cellules environnantes avoir -5 &quot;Doute&quot;.
+                [NEWLINE] Faire en sorte que la ville avec une &quot;suspection&quot; supérieure à 20 obtienne le statut &quot;d'autocertification&quot; : la ville a +5 % de valeur technologique [ICON_SCIENCE], +5 % de productivité [ICON_PRODUCTION], pendant 5 tours.
+                [NEWLINE]La suppression n'est pas considérée comme une *autodestruction*.
+                [NEWLINE][COLOR:128,128,128,200]* A une productivité élevée et nécessite une productivité/une valeur technologique plus élevée[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_NAME" Language="fr_FR">
+			<Text>sauveteur</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_DESCRIPTION" Language="fr_FR">
+			<Text>Unité vide, &quot;Doute&quot; n'est pas inférieur à 30 à débloquer, la production consomme 1 population [ICON_Citizen], peut augmenter &quot;l'autodestruction&quot;, perd toute mobilité [ICON_MOVEMENT] après un tour de production, consomme du temps de &quot;guérison&quot; pour se soigner et cellules environnantes Ville -1 population [ICON_Citizen], +10 &quot;Doute&quot;.
+                [NEWLINE] L'augmentation des « soupçons » réduit les relations diplomatiques deux fois plus.
+                [NEWLINE]Donne à toutes les villes de la civilisation le statut « Terreur » : -1 [ICON_AMENITIES] d'habitabilité pour la ville, pendant 5 tours.
+                [NEWLINE]S'il n'a pas été « guéri », le retrait est considéré comme « guéri ». L'effet de « guérison » sur l'unité affecte également la santé de [ICON_Damaged].
+                [NEWLINE][COLOR:128,128,128,200]* Non recommandé pour la production[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="fr_FR">
+			<Text>rejeter les morts</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité vide, déverrouillée lorsque « Suspicion » est supérieur à 0, consomme des temps de « guérison » pour lui-même et les cellules environnantes avoir -3 « Suspicion ».
+                [NEWLINE]Rendre &quot;suspect&quot; supérieur à 40 villes + 1 population [ICON_Citizen].
+                [NEWLINE] Le retrait n'est pas considéré comme une *autodestruction*, et l'épuisement des temps de « guérison » est considéré comme une *guérison* : les villes cellulaires propres et environnantes -5 &quot;suspectes&quot;.
+                [NEWLINE][COLOR:128,128,128,200]* Fort &quot;suspect&quot; et faible population[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="fr_FR">
+			<Text>Docteur du Chaos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité vide, débloquée lorsque &quot;Suspicion&quot; est supérieur à 0, peut réduire &quot;Auto-Destruction&quot;, consommer le nombre de &quot;Guérison&quot; pour se faire ainsi que les cellules environnantes avoir une probabilité de 50% de -5 &quot;Suspicion&quot;, 25% de probabilité de -15 &quot;Suspicion&quot;, 25% Probabilité +5 &quot;Doute&quot;.
+                [NEWLINE][COLOR:128,128,128,200]* &quot;suspect&quot; élevé[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_NAME" Language="fr_FR">
+			<Text>Agir comme un criminel</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité vide, débloquée lorsque &quot;Suspicion&quot; est supérieur à 0, peut augmenter &quot;Autodestruction&quot;, -20 [ICON_STRENGTH] puissance de combat lors du siège d'une ville, et après avoir consommé du temps de &quot;Guérison&quot;, elle aura +1 &quot;Suspicion&quot; pour lui-même et les villes cellulaires environnantes.
+                [NEWLINE]Gagnez +10 [ICON_GOLD] or pour chaque unité attaquée.
+                [NEWLINE][COLOR:128,128,128,200]* Fonds suffisants[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="fr_FR">
+			<Text>Descendant relatif</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité vide, débloquée lorsque &quot;Suspicion&quot; est d'au moins 50, peut augmenter &quot;Autodestruction&quot; et n'a qu'un seul compte de &quot;Cure&quot;, se donnant ainsi qu'aux cellules environnantes +20 &quot;Suspicion&quot;.
+                [NEWLINE] Donnez à toutes les villes de la civilisation le statut &quot;Chaos&quot; : les parties de la ville [ICON_AMENITIES] avec une habitabilité supérieure à 0 seront &quot;suspectes&quot; pendant 5 tours.
+                [NEWLINE]Si elle n'a pas été « soignée », la suppression est considérée comme une « guérison » et l'effet de « guérison » sur l'unité affecte également la santé de [ICON_Damaged].
+                [NEWLINE][COLOR:128,128,128,200]* La guerre est désavantagée[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_ACHERON_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_NAME" Language="fr_FR">
+			<Text>Le tonnerre et les tambours sont silencieux et le vent s'est arrêté</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_DESCRIPTION" Language="fr_FR">
+			<Text>+2 [ICON_MOVEMENT] Mouvement, +5 Effet de guérison</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_NAME" Language="fr_FR">
+			<Text>Marcher sur le rivage qui passe</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_DESCRIPTION" Language="fr_FR">
+			<Text>Combattez &quot;Can Meng&quot; +1, toutes les civilisations produisent ou achètent des unités &quot;Can Meng&quot; +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_NAME" Language="fr_FR">
+			<Text>Le début des vrais mots tombant du ciel</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_DESCRIPTION" Language="fr_FR">
+			<Text>À l'approche d'une ville hostile, celle-ci sera assiégée. Après avoir été attaqué, l'attaquant sera tué.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_NAME" Language="fr_FR">
+			<Text>La flamme brûlante regarde la personne dans le miroir</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_DESCRIPTION" Language="fr_FR">
+			<Text>Portée de &quot;guérison&quot; +2, peut réduire &quot;l'autodestruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_NAME" Language="fr_FR">
+			<Text>Quatre phases m'ont coupé la route</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_DESCRIPTION" Language="fr_FR">
+			<Text>Vous pouvez vous déplacer après avoir attaqué. Lorsque vous attaquez une unité civilisée qui n'est pas [ICON_STAT_GRIEVANCE] insatisfaite de cette civilisation, elle tuera immédiatement l'unité civilisée et restaurera toute sa santé [ICON_Damaged], sa mobilité [ICON_MOVEMENT] et son nombre d'attaques.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_NAME" Language="fr_FR">
+			<Text>Chaînes de libération des catastrophes et de la culpabilité</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_DESCRIPTION" Language="fr_FR">
+			<Text>Toutes les unités éthérées de la civilisation sélectionnée ont +10 [ICON_STRENGTH] en force de combat et +2 [ICON_MOVEMENT] en force de mouvement.
+                [NEWLINE] Si l'unité peut éliminer la « suspicion » de moins de 30 % de la « suspicion » de la ville, elle peut directement éliminer 30 % de la « suspicion » de la ville et peut éliminer « l'autodestruction ».
+                [NEWLINE] La ville acquiert le statut « Éveillée » : la ville n'est pas affectée par la propagation de la « suspicion » et dure 5 rounds.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_NAME" Language="fr_FR">
+			<Text>vie</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_DESCRIPTION" Language="fr_FR">
+			<Text>La puissance de combat [ICON_STRENGTH] et la puissance de mouvement [ICON_MOVEMENT] des unités à portée sont affectées par « l'autodestruction » et sont réduites de moitié.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_NAME" Language="fr_FR">
+			<Text>propagé</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_DESCRIPTION" Language="fr_FR">
+			<Text>Portée &quot;Guérison&quot; +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_NAME" Language="fr_FR">
+			<Text>l'autre sens</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_DESCRIPTION" Language="fr_FR">
+			<Text>Peut réduire l'effet &quot;d'autodestruction&quot; et +5 de &quot;guérison&quot; sur les unités</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_NAME" Language="fr_FR">
+			<Text>exister</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_DESCRIPTION" Language="fr_FR">
+			<Text>+5 effet &quot;guérison&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_NAME" Language="fr_FR">
+			<Text>surveiller</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_DESCRIPTION" Language="fr_FR">
+			<Text>Donne à la ville le statut &quot;À l'écoute&quot; : la ville ne sera pas &quot;suspecte&quot; grâce à l'augmentation de l'habitabilité de [ICON_AMENITIES] pendant 5 tours</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_NAME" Language="fr_FR">
+			<Text>communicateur</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_DESCRIPTION" Language="fr_FR">
+			<Text>+5 effet « Guérison » sur les villes civilisées ennemies, +1 « Autodestruction » pour chaque ville civilisée ennemie soignée</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_NAME" Language="fr_FR">
+			<Text>amitié</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_DESCRIPTION" Language="fr_FR">
+			<Text>L'effet de « guérison » est doublé pour les villes civilisées ennemies.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_NAME" Language="fr_FR">
+			<Text>recherche</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_DESCRIPTION" Language="fr_FR">
+			<Text>+3 [ICON_MOVEMENT] Mouvement</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_NAME" Language="fr_FR">
+			<Text>Perplexe</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_DESCRIPTION" Language="fr_FR">
+			<Text>+2 portée &quot;Soins&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_NAME" Language="fr_FR">
+			<Text>doute</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_DESCRIPTION" Language="fr_FR">
+			<Text>+5 effet de « guérison » sur les villes civilisées ennemies, +20 [ICON_STRENGTH] puissance de combat en défense</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_NAME" Language="fr_FR">
+			<Text>clown</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_DESCRIPTION" Language="fr_FR">
+			<Text>+5 effet &quot;guérison&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_NAME" Language="fr_FR">
+			<Text>absurde</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_DESCRIPTION" Language="fr_FR">
+			<Text>+5 Effet &quot;Cure&quot;, faisant que la ville avec &quot;Doute&quot; supérieur à 20 acquière le statut &quot;Bonheur&quot; : la ville +2 [ICON_AMENITIES] Habitabilité, dure 5 rounds</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_NAME" Language="fr_FR">
+			<Text>Des performances étonnantes</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_DESCRIPTION" Language="fr_FR">
+			<Text>+2 portée &quot;Soins&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_NAME" Language="fr_FR">
+			<Text>joie</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_DESCRIPTION" Language="fr_FR">
+			<Text>Peut réduire &quot;l'autodestruction&quot; et faire en sorte que les villes à portée obtiennent le statut &quot;Bonheur&quot; : la ville +2 [ICON_AMENITIES] d'habitabilité, pendant 5 rounds</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_NAME" Language="fr_FR">
+			<Text>s'autodétruire</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_DESCRIPTION" Language="fr_FR">
+			<Text>Faire en sorte que les villes avec une habitabilité négative dans la portée obtiennent le statut &quot;Bonheur&quot; : la ville +5 [ICON_AMENITIES] d'habitabilité, pendant 5 rounds, la suppression est considérée comme de l'*autodestruction*</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_NAME" Language="fr_FR">
+			<Text>puzzle</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_DESCRIPTION" Language="fr_FR">
+			<Text>+5 effet &quot;guérison&quot;.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_NAME" Language="fr_FR">
+			<Text>répondre</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_DESCRIPTION" Language="fr_FR">
+			<Text>+1 zone d'effet « Guérison », la puissance de combat [ICON_STRENGTH] et la puissance de mouvement [ICON_MOVEMENT] des unités à portée sont réduites de moitié par « Autodestruction ».</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_NAME" Language="fr_FR">
+			<Text>diligence</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_DESCRIPTION" Language="fr_FR">
+			<Text>Rendez &quot;Suspicion&quot; supérieur à 20 et la ville obtient le statut &quot;Auto-Preuve&quot; : la ville a +5% de valeur technologique [ICON_SCIENCE], +10% de productivité [ICON_PRODUCTION], pendant 5 tours.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_NAME" Language="fr_FR">
+			<Text>Résistance</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_DESCRIPTION" Language="fr_FR">
+			<Text>Peut réduire « l’autodestruction »</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_NAME" Language="fr_FR">
+			<Text>créer</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_DESCRIPTION" Language="fr_FR">
+			<Text>Si &quot;Suspicion&quot; est supérieur à 20, la ville obtient le statut &quot;Auto-certifié&quot; : +10 % de valeur technologique [ICON_SCIENCE], +10 % de productivité [ICON_PRODUCTION], pendant 5 tours.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RESCUER_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_NAME" Language="fr_FR">
+			<Text>détruire</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_DESCRIPTION" Language="fr_FR">
+			<Text>+2 portée &quot;Soins&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_NAME" Language="fr_FR">
+			<Text>moment</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_DESCRIPTION" Language="fr_FR">
+			<Text>+2 [ICON_MOVEMENT] Mouvement</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_NAME" Language="fr_FR">
+			<Text>museau</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_DESCRIPTION" Language="fr_FR">
+			<Text>+2 portée &quot;Cure&quot;, &quot;Cure&quot; -10 [ICON_Damaged] santé et -3 [ICON_Citizen] population pour soi et les villes cellulaires environnantes</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_NAME" Language="fr_FR">
+			<Text>Torture</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_DESCRIPTION" Language="fr_FR">
+			<Text>&quot;Cure&quot; restaure tous les points de vie et donne à toutes les villes de la civilisation le statut &quot;Terreur&quot; : -3 [ICON_AMENITIES] d'habitabilité pour la ville, durant 5 rounds</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_NAME" Language="fr_FR">
+			<Text>rachat</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_DESCRIPTION" Language="fr_FR">
+			<Text>Donnez à toutes les villes de cette civilisation le statut « Terrible » : -1 [ICON_AMENITIES] Aménagement par [ICON_Citizen] population de la ville, pendant 5 tours</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_NAME" Language="fr_FR">
+			<Text>lit d'hôpital</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_DESCRIPTION" Language="fr_FR">
+			<Text>La puissance de combat [ICON_STRENGTH] et la puissance de mouvement [ICON_MOVEMENT] des unités à portée sont affectées par « l'autodestruction » et sont réduites de moitié.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_NAME" Language="fr_FR">
+			<Text>Céphalopode</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_DESCRIPTION" Language="fr_FR">
+			<Text>+2 portée &quot;Soins&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_NAME" Language="fr_FR">
+			<Text>lutte</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_DESCRIPTION" Language="fr_FR">
+			<Text>+5 effet &quot;guérison&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_NAME" Language="fr_FR">
+			<Text>médical</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_DESCRIPTION" Language="fr_FR">
+			<Text>Capable de réduire &quot;l'Autodestruction&quot; et de rendre la &quot;Suspicion&quot; supérieure à 20. La ville obtient le statut &quot;Examen Physique&quot; : Ville +15% [ICON_FOOD] nourriture, durée 5 rounds.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_NAME" Language="fr_FR">
+			<Text>première victoire</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_DESCRIPTION" Language="fr_FR">
+			<Text>Peut réduire « Autodestruction » et rendre « Soupçon » supérieur à 40, ville +3 [ICON_Citizen] population</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_NAME" Language="fr_FR">
+			<Text>Boîte de médecine du chaos</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_DESCRIPTION" Language="fr_FR">
+			<Text>L'effet de « guérison » est doublé et l'effet de « guérison » sur l'unité affecte également la santé de [ICON_Damaged].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_NAME" Language="fr_FR">
+			<Text>Chaos Yunzhi</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_DESCRIPTION" Language="fr_FR">
+			<Text>+5 effet « Guérison », +1 portée « Guérison »</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_NAME" Language="fr_FR">
+			<Text>Élixir d'effets spéciaux du chaos</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_DESCRIPTION" Language="fr_FR">
+			<Text>+2 effet « Guérison », +2 portée « Guérison »</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_NAME" Language="fr_FR">
+			<Text>Peinture anti-feu vide</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_DESCRIPTION" Language="fr_FR">
+			<Text>+2 portée &quot;Soins&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_NAME" Language="fr_FR">
+			<Text>Une recette pour un échec absolu</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_DESCRIPTION" Language="fr_FR">
+			<Text>Détruisez les barbares à portée</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_EXECUTOR_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_NAME" Language="fr_FR">
+			<Text>museau</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_DESCRIPTION" Language="fr_FR">
+			<Text>+10 [ICON_GOLD] Entretien, +10 [ICON_STRENGTH] Force de combat</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_NAME" Language="fr_FR">
+			<Text>rémunération</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_DESCRIPTION" Language="fr_FR">
+			<Text>+30 [ICON_GOLD] Obtenez des pièces d'or</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_NAME" Language="fr_FR">
+			<Text>comprendre</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_DESCRIPTION" Language="fr_FR">
+			<Text>+3 [ICON_MOVEMENT] Mouvement</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_NAME" Language="fr_FR">
+			<Text>accomplir</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_DESCRIPTION" Language="fr_FR">
+			<Text>+20 [ICON_GOLD] frais de maintenance, +20 [ICON_STRENGTH] puissance de combat, +2 &quot;autodestruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_NAME" Language="fr_FR">
+			<Text>Tueur</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_DESCRIPTION" Language="fr_FR">
+			<Text>+30 [ICON_GOLD] frais de maintenance, +30 [ICON_STRENGTH] puissance de combat, +3 &quot;autodestruction&quot;, +30 [ICON_GOLD] pièces d'or obtenues</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="fr_FR">
+			<Text>néant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_NAME" Language="fr_FR">
+			<Text>décrire</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_DESCRIPTION" Language="fr_FR">
+			<Text>L'effet de « guérison » sur les unités ennemies de la ville civilisée est doublé.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_NAME" Language="fr_FR">
+			<Text>pas de guerre</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_DESCRIPTION" Language="fr_FR">
+			<Text>-10 Effet « Guérison »</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_NAME" Language="fr_FR">
+			<Text>expliquer</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_DESCRIPTION" Language="fr_FR">
+			<Text>-2 [ICON_MOVEMENT] Mouvement, +3 Portée de Guérison</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_NAME" Language="fr_FR">
+			<Text>illusion</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_DESCRIPTION" Language="fr_FR">
+			<Text>Si cette civilisation ne possède qu’une seule ville, les unités à portée mourront immédiatement.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_NAME" Language="fr_FR">
+			<Text>boule à neige</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_DESCRIPTION" Language="fr_FR">
+			<Text>+4 portée &quot;Guérison&quot;, l'effet *autodestruction* devient : Si cette civilisation n'a qu'une seule ville, toutes les villes construites dans le passé +99 &quot;Doute&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_NAME" Language="fr_FR">
+			<Text>Le doute grandit</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_TOOLTIP" Language="fr_FR">
+			<Text>Visualisez le taux de croissance suspecté sur cette parcelle</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_TOOLTIP" Language="fr_FR">
+			<Text>rêve résiduel</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC" Language="fr_FR">
+			<Text>Attaque +1 &quot;Remnant Dream&quot;, avec un maximum de 12 cumuls.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC_WITH_PROMOTION" Language="fr_FR">
+			<Text>Attaque +2 &quot;Remnant Dream&quot;, toutes les unités produites ou achetées par la civilisation +1 &quot;Remnant Dream&quot;, jusqu'à 12 couches au total. (En raison de la mise à niveau &quot;Marcher sur le rivage qui passe&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP" Language="fr_FR">
+			<Text>Temps de « guérison »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_RANGE" Language="fr_FR">
+			<Text>portée</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_EFFECT" Language="fr_FR">
+			<Text>Effet</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_PROBABILITY" Language="fr_FR">
+			<Text>Probabilité</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DECREASE" Language="fr_FR">
+			<Text>réduire</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_INCREASE" Language="fr_FR">
+			<Text>augmenter</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT" Language="fr_FR">
+			<Text>Peut réduire « l’autodestruction »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT_MAX" Language="fr_FR">
+			<Text>Capable d'effacer &quot;l'autodestruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SUSPICION" Language="fr_FR">
+			<Text>&quot;Suspect&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_TOOLTIP" Language="fr_FR">
+			<Text>&quot;autodestruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_WORLDVIEW_TEXT" Language="fr_FR">
+			<Text>&quot;Suspect&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_WORLDVIEW_TEXT" Language="fr_FR">
+			<Text>&quot;autodestruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DESC" Language="fr_FR">
+			<Text>Consommez des temps de « guérison » pour réduire les « soupçons » et améliorer les relations. Chaque fois que la civilisation adverse réduit 5 niveaux de « méfiance », la relation augmentera de 1. Si le « Remède » d'une unité augmente son « Doute », la relation sera réduite dans la même proportion.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SELF_ANNIHILATOR" Language="fr_FR">
+			<Text>attaque</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_SELF_ANNIHILATOR" Language="fr_FR">
+			<Text>Peut changer &quot;l'autodestruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CLEAN_SELF_ANNIHILATOR" Language="fr_FR">
+			<Text>Capable d'effacer &quot;l'autodestruction&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_KILL_SIN_THIRSTER" Language="fr_FR">
+			<Text>Détruisez les barbares</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_HEAL_USE_UP_REGARD_AS_RECOVERY" Language="fr_FR">
+			<Text>L'épuisement du nombre de &quot;guérisons&quot; compte comme une *guérison*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_NOT_REGARD_AS_SELF_ANNIHILATOR" Language="fr_FR">
+			<Text>Le retrait n’est pas considéré comme de l’*autodestruction*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_REGARD_AS_HEAL" Language="fr_FR">
+			<Text>S'il n'a pas été « guéri », le retrait est considéré comme « guéri ».</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_DAMAGE" Language="fr_FR">
+			<Text>L'effet &quot;Heal&quot; est appliqué à la santé de [ICON_Damaged]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_DAMAGE" Language="fr_FR">
+			<Text>Santé de [ICON_Damaged]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_SET_DAMAGE" Language="fr_FR">
+			<Text>Restaure la santé de [ICON_Damaged]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT" Language="fr_FR">
+			<Text>Favorisation de la « guérison »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT_2" Language="fr_FR">
+			<Text>fois</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_HALF_SELF_ANNIHILATOR_EFFECT" Language="fr_FR">
+			<Text>Réduisez de moitié la puissance de combat &quot;d'autodestruction&quot; de [ICON_STRENGTH] et les effets de mobilité de [ICON_STRENGTH]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_ATTACKER" Language="fr_FR">
+			<Text>tuer l'attaquant</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT_WHEN_JUSTICE_WAR" Language="fr_FR">
+			<Text>Dans certaines circonstances, tuez instantanément l'unité et restaurez tous les points de vie.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_FOR_ALL" Language="fr_FR">
+			<Text>Toutes les villes</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL" Language="fr_FR">
+			<Text>Lors de la « guérison »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_UNIT" Language="fr_FR">
+			<Text>Lors de la « guérison » d'une unité</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_ATTACK" Language="fr_FR">
+			<Text>En attaquant</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF" Language="fr_FR">
+			<Text>comme</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_OR" Language="fr_FR">
+			<Text>ou</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_IS_ENEMY" Language="fr_FR">
+			<Text>C'est l'ennemi</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_SUSPICION_GT" Language="fr_FR">
+			<Text>Le « doute » est plus grand que</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_NAGETIVE_AMENITY" Language="fr_FR">
+			<Text>Habitabilité négative</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_ONLY_ONE_CITY" Language="fr_FR">
+			<Text>une seule ville</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_AWARENESS_6" Language="fr_FR">
+			<Text>Obtenir le statut « Éveillé » (non affecté par la propagation du « Doute »)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_0" Language="fr_FR">
+			<Text>Statut obtenu &quot;À l'écoute&quot; (diminué par [ICON_AMENITIES] augmentation de l'habitabilité &quot;Douteux&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_HEAL_EFFECT" Language="fr_FR">
+			<Text>Effet « guérison »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_5" Language="fr_FR">
+			<Text>Obtenez le statut &quot;À l'écoute&quot; (et non &quot;suspect&quot; en raison de l'augmentation de l'habitabilité de [ICON_AMENITIES])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_SELF_SELF_ANIHILATOR" Language="fr_FR">
+			<Text>Changement « autodestruction »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_MULTIPLY_HEAL_EFFECT" Language="fr_FR">
+			<Text>Effet « guérison »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_0" Language="fr_FR">
+			<Text>Obtenez le statut « Heureux » (ville +1 [ICON_AMENITIES] Agrément)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_2" Language="fr_FR">
+			<Text>Obtenez le statut &quot;Bonheur&quot; (ville +2 [ICON_AMENITIES] Amenability)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_4" Language="fr_FR">
+			<Text>Obtenez le statut &quot;Bonheur&quot; (ville +2 [ICON_AMENITIES] Amenability)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_5" Language="fr_FR">
+			<Text>Obtenez le statut &quot;Bonheur&quot; (ville +5 [ICON_AMENITIES] Amenability)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_0" Language="fr_FR">
+			<Text>Obtenir le statut &quot;Auto-certifié&quot; (ville +5 % de valeur technologique [ICON_SCIENCE], +5 % de productivité [ICON_PRODUCTION])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_3" Language="fr_FR">
+			<Text>Obtenir le statut &quot;Auto-certifié&quot; (ville +5 % de valeur technologique [ICON_SCIENCE], +10 % de productivité [ICON_PRODUCTION])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_5" Language="fr_FR">
+			<Text>Obtenez le statut « Auto-certification » (ville +10% [ICON_SCIENCE] valeur scientifique, +10% [ICON_PRODUCTION] productivité)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_0" Language="fr_FR">
+			<Text>Acquérir le statut &quot;Terreur&quot; (ville -1 [ICON_AMENITIES] habitabilité)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_POPULATION" Language="fr_FR">
+			<Text>[ICON_Citizen] Population</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_4" Language="fr_FR">
+			<Text>Acquérir le statut &quot;Terreur&quot; (ville -3 [ICON_AMENITIES] habitabilité)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_5" Language="fr_FR">
+			<Text>Acquérir le statut &quot;Terreur&quot; (ville -5 [ICON_AMENITIES] habitabilité)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HEALTH_EXAM_4" Language="fr_FR">
+			<Text>Obtenir le statut « Examen physique » (ville +15 % de nourriture [ICON_FOOD])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_GOLD" Language="fr_FR">
+			<Text>[ICON_GOLD] pièces d'or</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_DERANGED_0" Language="fr_FR">
+			<Text>Obtention du statut &quot;Chaos&quot; (la partie de la ville [ICON_AMENITIES] avec une habitabilité supérieure à 0 ajoute &quot;la méfiance&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DESTORY_BUILT_CITY" Language="fr_FR">
+			<Text>Effet d'autodestruction : si cette civilisation n'a qu'une seule ville, toutes les villes construites dans le passé auront +99 &quot;Doute&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT" Language="fr_FR">
+			<Text>tuer l'unité</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_LOSS_ALL_MOVEMENT" Language="fr_FR">
+			<Text>Perdre toute mobilité de [ICON_MOVEMENT]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_RECOVERY_WORLDVIEW_TEXT" Language="fr_FR">
+			<Text>guéris</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_SELF_ANNIHILATE_WORLDVIEW_TEXT" Language="fr_FR">
+			<Text>s'autodétruire</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_TURNS" Language="fr_FR">
+			<Text>rond</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_NAME" Language="fr_FR">
+			<Text>bien éveillé</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_DESCRIPTION" Language="fr_FR">
+			<Text>Non concerné par la propagation des « soupçons »</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_NAME" Language="fr_FR">
+			<Text>écouter</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_DESCRIPTION" Language="fr_FR">
+			<Text>La croissance de la qualité de vie est « suspectée » réduite de moitié en raison de [ICON_AMENITIES]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_NAME" Language="fr_FR">
+			<Text>écouter</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_DESCRIPTION" Language="fr_FR">
+			<Text>Non &quot;soupçonné&quot; par l'augmentation de l'habitabilité de [ICON_AMENITIES]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_NAME" Language="fr_FR">
+			<Text>joie</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_DESCRIPTION" Language="fr_FR">
+			<Text>Ville +1 [ICON_AMENITIES] Habitabilité</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_NAME" Language="fr_FR">
+			<Text>joie</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_DESCRIPTION" Language="fr_FR">
+			<Text>Ville +2 [ICON_AMENITIES] Agrément</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_NAME" Language="fr_FR">
+			<Text>joie</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_DESCRIPTION" Language="fr_FR">
+			<Text>Ville +2 [ICON_AMENITIES] Équipement</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_NAME" Language="fr_FR">
+			<Text>Joie</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_DESCRIPTION" Language="fr_FR">
+			<Text>Ville +5 [ICON_AMENITIES] Équipement</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_NAME" Language="fr_FR">
+			<Text>autocertification</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_DESCRIPTION" Language="fr_FR">
+			<Text>Ville +5 % [ICON_SCIENCE] Science, +5 % [ICON_PRODUCTION] Productivité</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_NAME" Language="fr_FR">
+			<Text>autocertification</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_DESCRIPTION" Language="fr_FR">
+			<Text>Ville +5 % [ICON_SCIENCE] Science, +10 % [ICON_PRODUCTION] Productivité</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_NAME" Language="fr_FR">
+			<Text>autocertification</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_DESCRIPTION" Language="fr_FR">
+			<Text>Ville +10 % [ICON_SCIENCE] Science, +10 % [ICON_PRODUCTION] Productivité</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_NAME" Language="fr_FR">
+			<Text>peur</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_DESCRIPTION" Language="fr_FR">
+			<Text>Ville -1 [ICON_AMENITIES] Équipement</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_NAME" Language="fr_FR">
+			<Text>peur</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_DESCRIPTION" Language="fr_FR">
+			<Text>Ville -3 [ICON_AMENITIES] Équipement</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_NAME" Language="fr_FR">
+			<Text>peur</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_DESCRIPTION" Language="fr_FR">
+			<Text>Ville -5 [ICON_AMENITIES] Équipement</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_NAME" Language="fr_FR">
+			<Text>Examen physique</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_DESCRIPTION" Language="fr_FR">
+			<Text>Ville +15 % [ICON_FOOD] Nourriture</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_NAME" Language="fr_FR">
+			<Text>confusion</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_DESCRIPTION" Language="fr_FR">
+			<Text>La ville [ICON_AMENITIES] ajoute un caractère &quot;suspect&quot; aux parties dont l'habitabilité est supérieure à 0.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DECREASE_SUSPICION" Language="fr_FR">
+			<Text>Vous réduisez la « méfiance » de la civilisation de l'autre partie</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_INCREASE_SUSPICION" Language="fr_FR">
+			<Text>Vous avez soulevé la « méfiance » de la civilisation de l'autre partie</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY" Language="fr_FR">
+			<Text>ne jamais regarder en arrière</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="fr_FR">
+			<Text>Comme la civilisation qui est sur le point de gagner</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY" Language="fr_FR">
+			<Text>Ne regarde pas en arrière, il n'y a pas de retour en arrière.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="fr_FR">
+			<Text>Comme une civilisation sur le point de gagner</Text>
+		</Replace>
+		<Replace Tag="LOC_ACHERON_QUOTE" Language="fr_FR">
+			<Text>&quot;Huang Quan&quot;... Bien que ce ne soit qu'un nom emprunté, vous savez qui je suis et rappelez-vous ce que j'ai fait... Après cela... je suis Huang Quan.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>La poussière... finira par revenir sur terre...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>La poussière... retourne sur terre...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>N'oubliez pas de partager la joie avec vos amis.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Il y a peut-être plus d’une bonne réponse.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Une autre dette de sang.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Laisse-moi marcher avec toi encore un moment.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Si vous avez un couteau, vous devez toujours l'utiliser pour couper quelque chose. Il n'y a qu'une seule raison pour moi de dégainer mon épée... avant, maintenant et dans le futur.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Partout où subsistent des souvenirs, chaque contact est une fleur avec des épines...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Où vas-tu?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>En écoutant le bruit de la pluie tombant des feuilles rouges et dégoulinant sur le parapluie, j'en ai profité pour un moment de paix...</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_NAME" Language="fr_FR">
+			<Text>mode vide</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_DESC" Language="fr_FR">
+			<Text>La civilisation peut acquérir le « doute ». Faites attention à l'habitabilité [ICON_AMENITIES] de votre ville !</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_NAME" Language="fr_FR">
+			<Text>Le néant est limité aux enfers</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_DESC" Language="fr_FR">
+			<Text>Seule la civilisation autodestructrice Huangquan peut obtenir le « Doute »</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_NAME" Language="fr_FR">
+			<Text>Optimisation du mode vide</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_DESC" Language="fr_FR">
+			<Text>Ne changez pas le mécanisme réel, mais changez l'effet d'affichage</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>C'est toi... Nous devrions tous chérir le temps que nous passons ensemble.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Êtes-vous venu ici... ou était-ce la volonté du destin ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Il est temps pour nous de partir.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>&quot;Entrer deux fois dans la même rivière&quot;... n'est pas difficile.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Vous ne pouvez rien faire contre ce regret, alors laissez tomber.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Ce n’est pas grave, finissons-en ici.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Les personnes qui parcourent seules la Voie Lactée ont deux envies : retrouver les traces de leurs prédécesseurs et trouver leur propre chemin. Mais sous leur regard... ces derniers s'arrêtaient surtout aux premiers.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Il pleut... Vous souhaitez faire une promenade ensemble ? Allez, j'ai un parapluie.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Quand je me suis réveillé de l'autre côté, il y avait encore du tonnerre au bout de la mer, et une pluie de sang venait de tomber du ciel.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Le paysage au loin n'est pas clair... mais il doit être magnifique.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Les gens marchent sur le chemin du destin... puis recherchent, puis atteignent l'illumination, et enfin existent.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Le passé fait de nous ce que nous sommes aujourd’hui. Certaines choses sont difficiles à retenir et d’autres difficiles à oublier.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>On se retrouve, tu as envie de danser à nouveau ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Tout ou rien... je verrai.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Cette vie passe comme la pluie, et finira par revenir sur terre. J'espère que lorsque nous nous reverrons... il fera beau.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Vous n’êtes pas la première personne à faire preuve d’une telle méchanceté même après avoir connu mon identité, et vous ne serez pas la dernière.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Quel que soit votre objectif... Je ne vois qu'une seule fin : son avenir est le « néant », tout comme tous les mondes se noient dans son ombre.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Il ne reste plus beaucoup de temps pour se dire au revoir.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>Le trou noir n'est ni spectaculaire ni tragique. Il est très calme, comme une ligne de mire solitaire, nous regardant vous et moi... puis avalant tout tranquillement, lui donnant une étreinte froide et silencieuse.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ACHERON_ANY" Language="fr_FR">
+			<Text>De fortes pluies arrivent.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

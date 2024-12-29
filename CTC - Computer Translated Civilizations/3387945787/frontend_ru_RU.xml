@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Automatically translated with the help of google translate.-->
+<!-- Sun Dec 29 14:16:28 2024-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_DESCRIPTION" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIHILITY_ADJECTIVE" Language="ru_RU">
+			<Text>из небытия</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_NAME" Language="ru_RU">
+			<Text>Сон без формы</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NIHILITY_DESCRIPTION" Language="ru_RU">
+			<Text>Требуется «Режим Нижнего мира».
+                [NEWLINE]Город, основанный выбранной цивилизацией, получит 30 слоев «Сомнение», минимум — 10 слоев. Юниты Пустоты могут производиться независимо от слоев «Сомнение».
+                [NEWLINE]Когда выбранная цивилизация теряет город, всем городам будет присвоено +30 «Сомнений».</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ACHERON_NAME" Language="ru_RU">
+			<Text>Хуан Цюань</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_NAME" Language="ru_RU">
+			<Text>Наблюдатель подземного мира</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ACHERON_DESCRIPTION" Language="ru_RU">
+			<Text>Город обеспечивает 2 [ICON_PRODUCTION] производительности, 1 [ICON_FOOD] еды на население. Среднее количество слоев «Сомнение» в выбранном цивилизованном городе снижает этот эффект на 0,5%. Среднее количество слоев «Сомнение» в невыбранном. Цивилизованный город снижает этот эффект на 0,5%. Эффект -0,5%.
+                [NEWLINE] Имеет специальный отряд пустоты, Хуанцюань, и все отряды пустоты изначально повышаются до уровня 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION" Language="ru_RU">
+			<Text>Подозревать</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DESC" Language="ru_RU">
+			<Text>Каждый уровень «Сомнения» снижает 1% [ICON_CULTURE] культурную ценность, 1% [ICON_SCIENCE] ценность технологии, 1% [ICON_PRODUCTION] продуктивности, 1% [ICON_Tourism] туристическую результативность, 1% очков выдающихся людей, 1,5% [ICON_FOOD] еды. , 1,5 % [ICON_FAITH] Вера, 1,5 % [ICON_GOLD] Золото.
+                [NEWLINE] Каждые 10 слоев «Подозрение», превышающие 20 слоев, приведут к тому, что юниты в городской ячейке будут иметь эффект «Самоуничтожение» как минимум 1 уровня. Количество слоев, необходимых для эффекта, будет уменьшено вдвое после исследования Муниципального «Политического». Философия».
+                [NEWLINE] Каждые 20 уровней «Сомнения» уменьшают 1 [ICON_AMENITIES] Обитаемость и 1 Верность. Количество уровней, необходимых после исследования Муниципального «Просвещения», уменьшается вдвое.
+                [NEWLINE] Каждые 30 слоев «Сомнения» распространят 1 слой «Сомнения» на город в пределах 9 блоков, и каждый блок ослабит 1 слой «Сомнения». После исследования технологии «Печать» определите необходимое количество слоев. ибо эффект уменьшится вдвое. Исследование технологии Количество блоков ослабления, необходимых после «Радио», увеличено вдвое. Когда «Подозрение» достигнет уровня 99, исследование технологий больше не будет изменять коммуникационный эффект города.
+                [NEWLINE] Каждые 50 уровней «Подозрительности» уменьшают 1 очко эпохи за раунд, а эффект удваивается после исследования муниципальных «Социальных сетей».
+                [NEWLINE][ICON_AMENITIES] За каждую часть с живучестью меньше 0 «Подозрение» +1, за каждую часть выше 3 «Подозрение» -1, а после изучения муниципальной «идеологии» эффект удваивается. Максимальное количество слоев «Сомнение» — 99, а в каждом раунде можно получить максимум 15 слоев «Сомнение».
+                [NEWLINE] Когда город окружен, «Сомнение» равняется -5 за каждый раунд, а эффект удваивается после исследования «Гуманизма» в муниципальном управлении.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR" Language="ru_RU">
+			<Text>самоуничтожиться</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SELF_ANNIHILATOR_DESC" Language="ru_RU">
+			<Text>Каждый уровень «Самоуничтожения» -1 [ICON_STRENGTH] боевая сила.
+            [NEWLINE]Если уровень «Самоуничтожения» не ниже 20, каждый уровень «Самоуничтожения» будет иметь -1 [ICON_Damaged] HP.
+            [NEWLINE]Каждые 8 ​​уровней «Самоуничтожения» -1 [ICON_MOVEMENT] движения.
+            [NEWLINE] +1 «Самоуничтожение» за каждый раунд.
+            [NEWLINE] Когда юнит с «Самоуничтожением» исчезает, он считается юнитом *Самоуничтожение*: +2 города вокруг него +5 «Подозрительность», с 25% вероятностью превращения в варвара.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CIVI_AVERAGE_SUSPICION" Language="ru_RU">
+			<Text>Среднее «сомнение» в родной стране</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_FORE_AVERAGE_SUSPICION" Language="ru_RU">
+			<Text>Иностранный среднестатистический «подозрительный»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_AMENITIES" Language="ru_RU">
+			<Text>«Сомнение» из [ICON_AMENITIES] Жизнеспособность</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_INCREASING_FROM_NEARBY_CITY" Language="ru_RU">
+			<Text>«Подозрение» исходит из соседних городов</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SUSPICION_DECREASING_FROM_BESIEGED" Language="ru_RU">
+			<Text>«Сомнение» приходит от осады</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE" Language="ru_RU">
+			<Text>состояние</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_STATE_ROUND" Language="ru_RU">
+			<Text>круглый</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING" Language="ru_RU">
+			<Text>&quot;проснулся&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_WAKING_DESC" Language="ru_RU">
+			<Text>Города не затронуты распространением «подозрительности»</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_LZUMO" Language="ru_RU">
+			<Text>Идзумо</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_TRUTH" Language="ru_RU">
+			<Text>настоящий</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_SKY" Language="ru_RU">
+			<Text>небо</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_HOWL" Language="ru_RU">
+			<Text>Мин</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MIST" Language="ru_RU">
+			<Text>Лан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FROST" Language="ru_RU">
+			<Text>мороз</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FATE" Language="ru_RU">
+			<Text>жизнь</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_FLARE" Language="ru_RU">
+			<Text>сильный</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_THOUGHT" Language="ru_RU">
+			<Text>Спать</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_ROOT" Language="ru_RU">
+			<Text>фундамент</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_RORM" Language="ru_RU">
+			<Text>тысяча</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_BIND" Language="ru_RU">
+			<Text>пучок</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIHILITY_MAW" Language="ru_RU">
+			<Text>Есть</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_1" Language="ru_RU">
+			<Text>Тансей</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_2" Language="ru_RU">
+			<Text>Макс</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_3" Language="ru_RU">
+			<Text>Вулси</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_4" Language="ru_RU">
+			<Text>Кинан</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_MALE_NIHILITY_5" Language="ru_RU">
+			<Text>Халибертон</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_1" Language="ru_RU">
+			<Text>Кокона</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_2" Language="ru_RU">
+			<Text>Цянь Кетонг</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_3" Language="ru_RU">
+			<Text>Ума</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_4" Language="ru_RU">
+			<Text>Ран</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FEMALE_NIHILITY_5" Language="ru_RU">
+			<Text>Фурла</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_NAME" Language="ru_RU">
+			<Text>Небытие Уокер</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_NIHILITY_DESCRIPTION" Language="ru_RU">
+			<Text>Используйте «Лекарство» несколько раз, чтобы уменьшить «Подозрение» и улучшить отношения. Каждый раз, когда цивилизация противника снижает 5 слоев «подозрительности», отношения увеличиваются на 1. Если «Лекарство» отряда увеличивает его «Сомнение», отношения уменьшатся в той же пропорции.
+                [NEWLINE]Изначально у вас должен быть хотя бы 1 уровень «Самоуничтожения», игнорируя [ICON_MOVEMENT] подвижность «Самоуничтожения» и [ICON_STRENGTH] отрицательные эффекты боевой мощи.
+                [NEWLINE]Если вы можете изменить эффект «самоуничтожения» непустотных юнитов, эффект будет таким же, как и уменьшение «подозрительного» эффекта города.
+                [NEWLINE]Игнорируйте контроль над территорией и не можете грабить. Атака отряда считается затратой времени «исцеления». При защите он получит ту же боевую мощь, что и отряд с наивысшей боевой мощью [ICON_STRENGTH], созданный цивилизацией.
+                [NEWLINE] Опыт невозможно получить. После изучения муниципальных «Политической философии», «Мысли Просвещения» и «Идеологии» вы получите улучшенное улучшение, которое будет эффективно для юнитов, производимых в будущем.
+                [NEWLINE]Следующее [COLOR:128,128,128,200] * Предложения по производству [ENDCOLOR] применимы к исходной ситуации, скорректируйте их в соответствии с рекламной акцией.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ACHERON" Language="ru_RU">
+			<Text>Путешественник, называющий себя «Морским патрульным», настоящее имя которого неизвестно. Вооружившись длинным мечом, он в одиночку путешествует по Млечному Пути.
+                [НОВАЯ СТРОКА]
+                [NEWLINE]Он равнодушен и молчалив. Его меч бьет так же быстро, как молния, но он всегда сражается с ножнами в руке, никогда не используя их.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_NAME" Language="ru_RU">
+			<Text>Хуанцюань</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_ACHERON_DESCRIPTION" Language="ru_RU">
+			<Text>Рекомендуемый пустотный юнит, скрытность, базовая [ICON_STRENGTH] боевая мощь такая же, как и у юнита с наивысшей боевой мощью, созданного выбранной цивилизацией. Он тратит время «исцеления», чтобы сделать себя и окружающие клеточные города -20 «подозрительными». дерево продвижения и отступает после получения смертельного урона.
+                [NEWLINE] При создании он имеет уровень «Самоуничтожение». «Самоуничтожение» не увеличивается. Эффект «Самоуничтожения» игнорируется.
+                [NEWLINE] После получения Хуанцюань выбранная цивилизация будет накапливать 1 слой «Остатка мечты» для Хуанцюань каждый раз, когда она атакует, а при ее создании будет получено 6 слоев, при этом может быть накоплено максимум 12 слоев.
+                [NEWLINE] Когда «Remnant Dream» достигает 9-го уровня, он может перейти в состояние «Remnant Dream Infusion, Cuting One Sword». Отряд имеет +4 [ICON_MOVEMENT] к силе передвижения, +10 [ICON_STRENGTH] к боевой мощи, + 4 раза «Исцеления» и +2 зрения.
+                [NEWLINE] После того, как количество «Исцеления» будет исчерпано, 9 слоев «Остатка мечты» будут израсходованы, а «Окрашивание остатков мечты, один сломанный нож» будет завершен каждые 3 раза «Осушение остатков мечты, один сломанный нож». » выпущен, Хуан Цюань получит улучшенное обновление.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="ru_RU">
+			<Text>ночной сторож</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_NIGHT_WATCH_DESCRIPTION" Language="ru_RU">
+			<Text>Пустотный юнит, разблокируемый, когда «Подозрение» больше 0, потребляет время «Исцеления», чтобы у себя и окружающих клеток было -3 «Подозрение».
+                [NEWLINE]Придает городу статус «Слушающий»: вдвое уменьшите рост «Сомнений» города из-за [ICON_AMENITIES] обитаемости на 5 ходов.
+                [NEWLINE]Удаление не считается *самоуничтожением*
+                [NEWLINE][COLOR:128,128,128,200]* Отрицательная пригодность для жизни[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="ru_RU">
+			<Text>посредственные люди</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_COMMON_MORTAL_DESCRIPTION" Language="ru_RU">
+			<Text>Пустотный юнит разблокируется, когда «Подозрение» больше 0. Он тратит время «Исцеления», чтобы у себя и окружающих клеточных городов было -3 «Подозрения».
+                [NEWLINE]Уменьшение «подозрений» увеличивает дипломатические отношения в два раза.
+                [NEWLINE]Удаление не считается *самоуничтожением*
+                [NEWLINE][COLOR:128,128,128,200]* Надо быть менее «подозрительным» к зарубежным странам[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_NAME" Language="ru_RU">
+			<Text>Удар молнии</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NIHILITY_SIZZLING_THUNDER_DESCRIPTION" Language="ru_RU">
+			<Text>Особая способность: рок-группа имеет «самоуничтожение» при ее создании. Пение приведет к тому, что она и окружающие 2 клеточных города получат -10 «подозрительность». Каждый уровень рок-группы повышается до +1 дальности и -5. «подозрительность».
+                [NEWLINE]+3 [ICON_MOVEMENT] Движение.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="ru_RU">
+			<Text>самоотверженный шут</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_JESTER_OF_ANATTA_DESCRIPTION" Language="ru_RU">
+			<Text>Пустотный отряд разблокируется с «Сомнением» не менее 30. Он тратит время «Исцеления», чтобы у себя и окружающих клеток было -3 «Сомнения».
+                [NEWLINE]Дает городам с показателем «Сомнение» выше 20 статус «Счастье»: +1 [ICON_AMENITIES] Благоприятность для города на 5 ходов.
+                [NEWLINE]Удаление не считается *самоуничтожением*.
+                [NEWLINE][COLOR:128,128,128,200]* Отрицательная пригодность для жизни[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="ru_RU">
+			<Text>Общество самосертификации</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_DESCRIPTION" Language="ru_RU">
+			<Text>Пустотный отряд разблокируется с «Сомнением» не менее 30. Он тратит время «Исцеления», чтобы у себя и окружающих клеток было -5 «Сомнений».
+                [NEWLINE] Сделайте так, чтобы город с «подозрительностью» выше 20 получил статус «самосертификация»: город имеет +5% ценности технологии [ICON_SCIENCE], +5% производительности [ICON_PRODUCTION] на 5 ходов.
+                [NEWLINE]Удаление не считается *самоуничтожением*.
+                [NEWLINE][COLOR:128,128,128,200]* Имеет высокую производительность и требует более высокой производительности и технологической ценности[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_NAME" Language="ru_RU">
+			<Text>спасатель</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RESCUER_DESCRIPTION" Language="ru_RU">
+			<Text>Отряд Пустоты, «Сомнение» необходимо не менее 30 для разблокировки, производство потребляет 1 население [ICON_Citizen], может увеличить «Самоуничтожение», теряет всю [ICON_MOVEMENT] подвижность после одного раунда производства, тратит время «Исцеления», чтобы исцелить себя и окружающие клетки Город -1 [ICON_Citizen] население, +10 «Сомнение».
+                [NEWLINE] Повышение уровня «Подозрительность» снижает дипломатические отношения вдвое.
+                [NEWLINE]Придает всем городам цивилизации статус «Ужас»: -1 [ICON_AMENITIES] обитаемости города на 5 ходов.
+                [NEWLINE]Если проблема не была «вылечена», удаление считается «вылеченным». Эффект «исцеления» юнита также влияет на здоровье [ICON_Damaged].
+                [NEWLINE][COLOR:128,128,128,200]* Не рекомендуется для производства[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="ru_RU">
+			<Text>отвергать мертвых</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DEATH_DENIER_DESCRIPTION" Language="ru_RU">
+			<Text>Пустотный юнит, разблокируемый, когда «Подозрение» больше 0, потребляет время «Исцеления», чтобы у себя и окружающих клеток было -3 «Подозрение».
+                [NEWLINE]Сделайте «подозреваемым» более 40 городов +1 население [ICON_Citizen].
+                [NEWLINE] Удаление не рассматривается как *самоуничтожение*, а истощение времени «исцеления» рассматривается как *исцеление*: собственные и окружающие ячейки городов -5 «подозреваемых».
+                [NEWLINE][COLOR:128,128,128,200]* Высокий уровень «подозрительных» и низкая численность населения[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="ru_RU">
+			<Text>Доктор Хаоса</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_DOCTOR_OF_CHAOS_DESCRIPTION" Language="ru_RU">
+			<Text>Пустотный юнит, разблокируемый, когда «Подозрение» больше 0, может уменьшить «Самоуничтожение», потреблять количество «Исцеления», чтобы сделать себя и окружающие клетки иметь 50% вероятность -5 «Подозрение», вероятность 25%. -15 «Подозрение», 25% Вероятность +5 «Сомнение».
+                [NEWLINE][COLOR:128,128,128,200]* «подозрительный» высокий уровень[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_NAME" Language="ru_RU">
+			<Text>Агент мести</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_EXECUTOR_DESCRIPTION" Language="ru_RU">
+			<Text>Пустотный отряд, разблокируемый, когда «Подозрение» больше 0, может увеличить «Самоуничтожение», -20 [ICON_STRENGTH] боевой мощи при осаде города, а после потребления времени «Исцеления» он увеличит «Подозрение» на +1 себя и окружающие клеточные города.
+                [NEWLINE]Заработайте +10 [ICON_GOLD] золота за каждого атакованного отряда.
+                [NEWLINE][COLOR:128,128,128,200]* Достаточно средств[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="ru_RU">
+			<Text>относительный индикатор</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NIHILITY_RELATIVE_TRACER_DESCRIPTION" Language="ru_RU">
+			<Text>Пустотный юнит, разблокируемый, когда «Подозрение» не ниже 50, может увеличить «Самоуничтожение» и имеет только 1 счетчик «Лечения», что дает себе и окружающим клеткам +20 «Подозрительности».
+                [NEWLINE] Присвойте всем городам цивилизации статус «Хаос»: части города [ICON_AMENITIES] с обитаемостью выше 0 будут «подозрительными» в течение 5 раундов.
+                [NEWLINE]Если он не был «исцелен», удаление считается «исцелением», а эффект «исцеления» на отряде также влияет на [ICON_Damaged] здоровья.
+                [NEWLINE][COLOR:128,128,128,200]* Война в невыгодном положении[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_ACHERON_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_NAME" Language="ru_RU">
+			<Text>Гром и барабаны умолкли, и ветер утих.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_1_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_MOVEMENT] Движение, +5 Исцеляющий эффект</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_NAME" Language="ru_RU">
+			<Text>Прогулка по проходящему берегу</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_2_DESCRIPTION" Language="ru_RU">
+			<Text>Бой «Кан Мэн» +1, все цивилизации производят или покупают юниты «Кан Мэн» +1.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_NAME" Language="ru_RU">
+			<Text>Начало истинных слов, падающих с неба</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_3_DESCRIPTION" Language="ru_RU">
+			<Text>Осадите город при приближении к враждебному городу и убейте нападавшего после нападения.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_NAME" Language="ru_RU">
+			<Text>Горящее пламя смотрит на человека в зеркало</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_4_DESCRIPTION" Language="ru_RU">
+			<Text>+2 дальность «исцеления», может уменьшить «самоуничтожение».</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_NAME" Language="ru_RU">
+			<Text>Четыре фазы отрезали меня</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_5_DESCRIPTION" Language="ru_RU">
+			<Text>Вы можете двигаться после атаки. При атаке цивилизованного юнита, который не [ICON_STAT_GRIEVANCE] недоволен этой цивилизацией, он немедленно убьет цивилизованный юнит и восстановит все [ICON_Damaged] здоровья, [ICON_MOVEMENT] подвижность и количество атак.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_NAME" Language="ru_RU">
+			<Text>Оковы катастрофы и вины снимаются</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_ACHERON_6_DESCRIPTION" Language="ru_RU">
+			<Text>Все эфирные юниты выбранной цивилизации имеют +10 [ICON_STRENGTH] к боевой силе и +2 [ICON_MOVEMENT] к силе передвижения.
+                [NEWLINE] Если подразделение может устранить «подозрительность» менее 30% «подозрительности» города, оно может напрямую устранить 30% «подозрительности» города и может устранить «самоуничтожение».
+                [NEWLINE] Город приобретает статус «Пробуждение»: на город не влияет распространение «подозрительности» и длится 5 раундов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_NIGHT_WATCH_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_NAME" Language="ru_RU">
+			<Text>жизнь</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_1_DESCRIPTION" Language="ru_RU">
+			<Text>На [ICON_STRENGTH] боевую мощь и [ICON_MOVEMENT] силу передвижения юнитов в радиусе действия влияет «самоуничтожение» и они уменьшаются вдвое.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_NAME" Language="ru_RU">
+			<Text>распространение</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_2_DESCRIPTION" Language="ru_RU">
+			<Text>Дальность «Исцеления» +1</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_NAME" Language="ru_RU">
+			<Text>Другое направление</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_3_DESCRIPTION" Language="ru_RU">
+			<Text>Может уменьшить эффект «самоуничтожения», +5 «исцеляющий» эффект на юниты</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_NAME" Language="ru_RU">
+			<Text>существовать</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_4_DESCRIPTION" Language="ru_RU">
+			<Text>+5 «исцеляющий» эффект</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_NAME" Language="ru_RU">
+			<Text>следить</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_NIGHT_WATCH_5_DESCRIPTION" Language="ru_RU">
+			<Text>Придает городу статус «Прослушивание»: город не будет «подозрительным» из-за увеличения [ICON_AMENITIES] обитаемости на 5 ходов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_COMMON_MORTAL_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_NAME" Language="ru_RU">
+			<Text>коммуникатор</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_1_DESCRIPTION" Language="ru_RU">
+			<Text>+5 «исцеляющий» эффект на вражеские цивилизованные города, +1 «самоуничтожение» за каждый исцеленный вражеский цивилизованный город.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_NAME" Language="ru_RU">
+			<Text>дружба</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_2_DESCRIPTION" Language="ru_RU">
+			<Text>Эффект «исцеления» увеличен вдвое для вражеских цивилизованных городов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_NAME" Language="ru_RU">
+			<Text>поиск</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_3_DESCRIPTION" Language="ru_RU">
+			<Text>+3 [ICON_MOVEMENT] Движение</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_NAME" Language="ru_RU">
+			<Text>озадаченный</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_4_DESCRIPTION" Language="ru_RU">
+			<Text>+2 к радиусу исцеления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_NAME" Language="ru_RU">
+			<Text>сомневаться</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_COMMON_MORTAL_5_DESCRIPTION" Language="ru_RU">
+			<Text>+5 «исцеляющий» эффект на вражеские цивилизованные города, +20 [ICON_STRENGTH] боевая мощь при защите</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_JESTER_OF_ANATTA_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_NAME" Language="ru_RU">
+			<Text>клоун</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_1_DESCRIPTION" Language="ru_RU">
+			<Text>+5 «исцеляющий» эффект</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_NAME" Language="ru_RU">
+			<Text>абсурдный</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_2_DESCRIPTION" Language="ru_RU">
+			<Text>+5 эффект «Лечение», благодаря чему город с «Сомнением» больше 20 получает статус «Счастье»: город +2 [ICON_AMENITIES] Обитаемость, длительностью 5 раундов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_NAME" Language="ru_RU">
+			<Text>Потрясающая производительность</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_3_DESCRIPTION" Language="ru_RU">
+			<Text>+2 дальности «Исцеления»</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_NAME" Language="ru_RU">
+			<Text>радость</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_4_DESCRIPTION" Language="ru_RU">
+			<Text>Может уменьшить «самоуничтожение» и заставить города в радиусе действия получить статус «Счастье»: город +2 [ICON_AMENITIES] обитаемости, длительностью 5 раундов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_NAME" Language="ru_RU">
+			<Text>самоуничтожиться</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_JESTER_OF_ANATTA_5_DESCRIPTION" Language="ru_RU">
+			<Text>Заставить города с отрицательной обитаемостью в пределах диапазона получить статус «Счастье»: город +5 [ICON_AMENITIES] обитаемости, длительностью 5 раундов, удаление расценивается как *самоуничтожение*</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_SELF_PROOF_INSTITUTE_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_NAME" Language="ru_RU">
+			<Text>Пазлы</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_1_DESCRIPTION" Language="ru_RU">
+			<Text>+5 «исцеляющий» эффект.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_NAME" Language="ru_RU">
+			<Text>отвечать</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_2_DESCRIPTION" Language="ru_RU">
+			<Text>+1 область эффекта «Исцеления», боевая мощь [ICON_STRENGTH] и сила передвижения юнитов в радиусе действия [ICON_MOVEMENT] уменьшаются вдвое за счет «Самоуничтожения».</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_NAME" Language="ru_RU">
+			<Text>усердие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_3_DESCRIPTION" Language="ru_RU">
+			<Text>Сделайте «Подозрение» больше 20, и город получит статус «Самозащитный»: город имеет +5% [ICON_SCIENCE] технологическую ценность, +10% [ICON_PRODUCTION] производительность, длительностью 5 ходов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_NAME" Language="ru_RU">
+			<Text>сопротивляться</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_4_DESCRIPTION" Language="ru_RU">
+			<Text>Может уменьшить «саморазрушение»</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_NAME" Language="ru_RU">
+			<Text>создавать</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_SELF_PROOF_INSTITUTE_5_DESCRIPTION" Language="ru_RU">
+			<Text>Сделайте «Подозрение» выше 20, и город получит статус «Самосертифицированный»: +10% ценности технологии [ICON_SCIENCE], +10% производительности [ICON_PRODUCTION], длительностью 5 раундов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RESCUER_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_NAME" Language="ru_RU">
+			<Text>разрушать</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_1_DESCRIPTION" Language="ru_RU">
+			<Text>+2 к радиусу исцеления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_NAME" Language="ru_RU">
+			<Text>момент</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_2_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_MOVEMENT] Движение</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_NAME" Language="ru_RU">
+			<Text>морда</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_3_DESCRIPTION" Language="ru_RU">
+			<Text>+2 дальности «Лечения», «Лечение» -10 [ICON_Damaged] здоровья и -3 [ICON_Citizen] населения для себя и окружающих сотовых городов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_NAME" Language="ru_RU">
+			<Text>пытка</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_4_DESCRIPTION" Language="ru_RU">
+			<Text>«Лекарство» восстанавливает все очки здоровья и дает всем городам цивилизации статус «Ужас»: -3 [ICON_AMENITIES] обитаемости города, длительностью 5 раундов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_NAME" Language="ru_RU">
+			<Text>искупление</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RESCUER_5_DESCRIPTION" Language="ru_RU">
+			<Text>Присвойте всем городам цивилизации статус «Террор»: -1 [ICON_AMENITIES] обитаемости за каждое [ICON_Citizen] население города, длительностью 5 ходов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DEATH_DENIER_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_NAME" Language="ru_RU">
+			<Text>Больничные койки</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_1_DESCRIPTION" Language="ru_RU">
+			<Text>На [ICON_STRENGTH] боевую мощь и [ICON_MOVEMENT] силу передвижения юнитов в радиусе действия влияет «самоуничтожение» и они уменьшаются вдвое.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_NAME" Language="ru_RU">
+			<Text>Головоногие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_2_DESCRIPTION" Language="ru_RU">
+			<Text>+2 дальности «Исцеления»</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_NAME" Language="ru_RU">
+			<Text>борьба</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_3_DESCRIPTION" Language="ru_RU">
+			<Text>+5 «исцеляющий» эффект</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_NAME" Language="ru_RU">
+			<Text>Медицинский</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_4_DESCRIPTION" Language="ru_RU">
+			<Text>Способен снизить «Самоуничтожение» и сделать «Подозрение» больше 20. Город получает статус «Физическое обследование»: Город +15% [ICON_FOOD] еды, длительностью 5 раундов.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_NAME" Language="ru_RU">
+			<Text>первая победа</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DEATH_DENIER_5_DESCRIPTION" Language="ru_RU">
+			<Text>Может уменьшить «самоуничтожение», сделать «сомнение» выше 40, население города +3 [ICON_Citizen]</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_DOCTOR_OF_CHAOS_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_NAME" Language="ru_RU">
+			<Text>Аптечка Хаоса</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_1_DESCRIPTION" Language="ru_RU">
+			<Text>Эффект «исцеления» удваивается, а эффект «исцеления» на юните также влияет на [ICON_Damaged] здоровья.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_NAME" Language="ru_RU">
+			<Text>Хаос Версиколор</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_2_DESCRIPTION" Language="ru_RU">
+			<Text>+5 эффект «Исцеления», +1 дальность «Исцеления».</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_NAME" Language="ru_RU">
+			<Text>Эликсир спецэффектов хаоса</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_3_DESCRIPTION" Language="ru_RU">
+			<Text>+2 эффекта «Исцеления», +2 дальности «Исцеления».</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_NAME" Language="ru_RU">
+			<Text>Пустой воск</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_4_DESCRIPTION" Language="ru_RU">
+			<Text>+2 к радиусу исцеления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_NAME" Language="ru_RU">
+			<Text>Рецепт абсолютного провала</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_DOCTOR_OF_CHAOS_5_DESCRIPTION" Language="ru_RU">
+			<Text>Уничтожайте варваров в радиусе действия</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_EXECUTOR_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_NAME" Language="ru_RU">
+			<Text>морда</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_1_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_GOLD] Техническое обслуживание, +10 [ICON_STRENGTH] Боевая мощь</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_NAME" Language="ru_RU">
+			<Text>вознаграждение</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_2_DESCRIPTION" Language="ru_RU">
+			<Text>+30 [ICON_GOLD] Получите золотые монеты</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_NAME" Language="ru_RU">
+			<Text>понимать</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_3_DESCRIPTION" Language="ru_RU">
+			<Text>+3 [ICON_MOVEMENT] Движение</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_NAME" Language="ru_RU">
+			<Text>выполнить</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_4_DESCRIPTION" Language="ru_RU">
+			<Text>+20 [ICON_GOLD] плата за обслуживание, +20 [ICON_STRENGTH] боевая мощь, +2 «самоуничтожение»</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_NAME" Language="ru_RU">
+			<Text>Убийца</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_EXECUTOR_5_DESCRIPTION" Language="ru_RU">
+			<Text>+30 [ICON_GOLD] плата за обслуживание, +30 [ICON_STRENGTH] боевая мощь, +3 «самоуничтожение», +30 полученных золотых монет [ICON_GOLD].</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UNIT_NIHILITY_RELATIVE_TRACER_NAME" Language="ru_RU">
+			<Text>небытие</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_NAME" Language="ru_RU">
+			<Text>описывать</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_1_DESCRIPTION" Language="ru_RU">
+			<Text>«Исцеляющий» эффект на вражеские цивилизованные городские юниты увеличен вдвое.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_NAME" Language="ru_RU">
+			<Text>нет войны</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_2_DESCRIPTION" Language="ru_RU">
+			<Text>-10 «исцеляющий» эффект</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_NAME" Language="ru_RU">
+			<Text>объяснять</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_3_DESCRIPTION" Language="ru_RU">
+			<Text>-2 [ICON_MOVEMENT] Движение, +3 дальность лечения</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_NAME" Language="ru_RU">
+			<Text>иллюзия</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_4_DESCRIPTION" Language="ru_RU">
+			<Text>Если у этой цивилизации есть только один город, юниты в радиусе действия немедленно погибнут.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_NAME" Language="ru_RU">
+			<Text>снежный шар</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_NIHILITY_RELATIVE_TRACER_5_DESCRIPTION" Language="ru_RU">
+			<Text>+4 дальность «Исцеления», эффект *самоуничтожения* меняется на: Если в этой цивилизации есть только один город, все города, построенные в прошлом, +99 «Сомнение».</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_NAME" Language="ru_RU">
+			<Text>Сомнение растет</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUSPICION_LENS_TOOLTIP" Language="ru_RU">
+			<Text>Просмотр предполагаемой скорости роста на графике</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_TOOLTIP" Language="ru_RU">
+			<Text>остаточный сон</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC" Language="ru_RU">
+			<Text>Атака +1 «Остаток мечты», максимум 12 стаков.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_SLASHED_DREAM_DESC_WITH_PROMOTION" Language="ru_RU">
+			<Text>Атака +2 «Остаток мечты», все юниты, произведенные или приобретенные цивилизацией +1 «Остаток мечты», всего до 12 слоев. (В связи с обновлением &quot;Прогулка по попутному берегу&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP" Language="ru_RU">
+			<Text>«Лечить» времена</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_RANGE" Language="ru_RU">
+			<Text>объем</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_EFFECT" Language="ru_RU">
+			<Text>Эффект</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_PROBABILITY" Language="ru_RU">
+			<Text>Вероятность</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DECREASE" Language="ru_RU">
+			<Text>уменьшать</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_INCREASE" Language="ru_RU">
+			<Text>рост</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT" Language="ru_RU">
+			<Text>Может уменьшить «саморазрушение»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_HEAL_UNIT_EFFECT_MAX" Language="ru_RU">
+			<Text>Способен очистить «самоуничтожение»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SUSPICION" Language="ru_RU">
+			<Text>&quot;Подозревать&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_TOOLTIP" Language="ru_RU">
+			<Text>«самоуничтожение»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_WORLDVIEW_TEXT" Language="ru_RU">
+			<Text>&quot;Подозревать&quot;</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SELF_ANNIHILATOR_WORLDVIEW_TEXT" Language="ru_RU">
+			<Text>«самоуничтожение»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_DESC" Language="ru_RU">
+			<Text>Используйте «Лекарство» несколько раз, чтобы уменьшить «Подозрение» и улучшить отношения. Каждый раз, когда цивилизация противника снижает 5 слоев «подозрительности», отношения увеличиваются на 1. Если «Лекарство» отряда увеличивает его «Сомнение», отношения уменьшатся в той же пропорции.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_SUSPICION_TOOLTIP_SELF_ANNIHILATOR" Language="ru_RU">
+			<Text>атаковать</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_SELF_ANNIHILATOR" Language="ru_RU">
+			<Text>Может изменить «самоуничтожение»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CLEAN_SELF_ANNIHILATOR" Language="ru_RU">
+			<Text>Способен очистить «самоуничтожение»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_KILL_SIN_THIRSTER" Language="ru_RU">
+			<Text>Уничтожить варваров</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_HEAL_USE_UP_REGARD_AS_RECOVERY" Language="ru_RU">
+			<Text>Исчерпание количества «исцелений» считается *исцелением*.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_NOT_REGARD_AS_SELF_ANNIHILATOR" Language="ru_RU">
+			<Text>Удаление не считается *самоуничтожением*</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DISAPPAER_REGARD_AS_HEAL" Language="ru_RU">
+			<Text>Если не «вылечено», удаление считается «вылеченным».</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_CHANGE_DAMAGE" Language="ru_RU">
+			<Text>Эффект «Исцеление» применяется к [ICON_Damaged] здоровью.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_DAMAGE" Language="ru_RU">
+			<Text>[ICON_Damaged] здоровья</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_SET_DAMAGE" Language="ru_RU">
+			<Text>Восстанавливает [ICON_Damaged] здоровья</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT" Language="ru_RU">
+			<Text>«Исцеляющая» Благоприятность</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_MULTIPLY_DIPLO_SUSPICION_EFFECT_2" Language="ru_RU">
+			<Text>раз</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CAN_HALF_SELF_ANNIHILATOR_EFFECT" Language="ru_RU">
+			<Text>Уменьшите вдвое боевую мощь «самоуничтожения» [ICON_STRENGTH] и эффекты мобильности [ICON_STRENGTH].</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_ATTACKER" Language="ru_RU">
+			<Text>убить нападавшего</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT_WHEN_JUSTICE_WAR" Language="ru_RU">
+			<Text>При определенных обстоятельствах мгновенно убейте отряд и восстановите все очки здоровья.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_FOR_ALL" Language="ru_RU">
+			<Text>Все города</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL" Language="ru_RU">
+			<Text>При «исцелении»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_HEAL_UNIT" Language="ru_RU">
+			<Text>При «исцелении» юнита</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_WHEN_ATTACK" Language="ru_RU">
+			<Text>При атаке</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF" Language="ru_RU">
+			<Text>нравиться</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_OR" Language="ru_RU">
+			<Text>или</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_IS_ENEMY" Language="ru_RU">
+			<Text>это враг</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_SUSPICION_GT" Language="ru_RU">
+			<Text>«Сомнение» больше, чем</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_HAS_NAGETIVE_AMENITY" Language="ru_RU">
+			<Text>Отрицательная обитаемость</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_IF_ONLY_ONE_CITY" Language="ru_RU">
+			<Text>Только один город</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_AWARENESS_6" Language="ru_RU">
+			<Text>Получить статус «Пробужден» (на него не влияет распространение «Сомнения»).</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_0" Language="ru_RU">
+			<Text>Получите статус «Прослушивание» (из-за [ICON_AMENITIES] Увеличение льгот «Подозрение» уменьшено вдвое)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_HEAL_EFFECT" Language="ru_RU">
+			<Text>«Лечебный» эффект</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_LISTENING_5" Language="ru_RU">
+			<Text>Получить статус «Прослушивание» (не «подозрительно» из-за увеличения обитаемости [ICON_AMENITIES])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_SELF_SELF_ANIHILATOR" Language="ru_RU">
+			<Text>Изменение самоуничтожения</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_MULTIPLY_HEAL_EFFECT" Language="ru_RU">
+			<Text>«Лечебный» эффект</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_0" Language="ru_RU">
+			<Text>Получить статус &quot;Счастье&quot; (город +1 [ICON_AMENITIES] Благоприятность)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_2" Language="ru_RU">
+			<Text>Получить статус &quot;Счастье&quot; (город +2 [ICON_AMENITIES] Благоприятность)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_4" Language="ru_RU">
+			<Text>Получить статус &quot;Счастье&quot; (город +2 [ICON_AMENITIES] Благоприятность)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_ELATION_5" Language="ru_RU">
+			<Text>Получить статус &quot;Счастье&quot; (город +5 [ICON_AMENITIES] Благоприятность)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_0" Language="ru_RU">
+			<Text>Получите статус «Самосертифицированный» (город +5% ценности технологий [ICON_SCIENCE], +5% производительности [ICON_PRODUCTION])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_3" Language="ru_RU">
+			<Text>Получите статус «Самосертифицированный» (город +5% ценности технологии [ICON_SCIENCE], +10% производительности [ICON_PRODUCTION])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_SELF_PROOF_5" Language="ru_RU">
+			<Text>Получите статус «Самосертифицированный» (город +10% ценности технологий [ICON_SCIENCE], +10% производительности [ICON_PRODUCTION])</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_0" Language="ru_RU">
+			<Text>Получить статус «Террор» (город -1 [ICON_AMENITIES] обитаемость)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_POPULATION" Language="ru_RU">
+			<Text>[ICON_Citizen] Население</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_4" Language="ru_RU">
+			<Text>Получить статус «Террор» (город -3 [ICON_AMENITIES] обитаемости)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HORROR_5" Language="ru_RU">
+			<Text>Получить статус «Террор» (-5 [ICON_AMENITIES] обитаемости города)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_HEALTH_EXAM_4" Language="ru_RU">
+			<Text>Получил статус «Проверка здоровья» (город +15% [ICON_FOOD] еда)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CHANGE_GOLD" Language="ru_RU">
+			<Text>[ICON_GOLD] золотые монеты</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_CITY_STATE_DERANGED_0" Language="ru_RU">
+			<Text>Получен статус &quot;Хаос&quot; (часть города [ICON_AMENITIES] с живучестью больше 0 добавляет &quot;подозрительность&quot;)</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_DESTORY_BUILT_CITY" Language="ru_RU">
+			<Text>Эффект самоуничтожения: если в этой цивилизации есть только один город, все города, построенные в прошлом, получат +99 «Сомнения».</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_KILL_UNIT" Language="ru_RU">
+			<Text>убить отряд</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_HEAL_UNIT_ABILITY_LOSS_ALL_MOVEMENT" Language="ru_RU">
+			<Text>Потерять всю [ICON_MOVEMENT] мобильность.</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_RECOVERY_WORLDVIEW_TEXT" Language="ru_RU">
+			<Text>поправляйся</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_UNIT_DEATH_WHISPER_SELF_ANNIHILATE_WORLDVIEW_TEXT" Language="ru_RU">
+			<Text>самоуничтожиться</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_TURNS" Language="ru_RU">
+			<Text>круглый</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_NAME" Language="ru_RU">
+			<Text>проснулся</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_AWARENESS_6_DESCRIPTION" Language="ru_RU">
+			<Text>Не затронут распространением «подозрительности»</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_NAME" Language="ru_RU">
+			<Text>слушать</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_0_DESCRIPTION" Language="ru_RU">
+			<Text>Предполагаемый рост комфортности жизни сократился вдвое из-за [ICON_AMENITIES]</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_NAME" Language="ru_RU">
+			<Text>слушать</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_LISTENING_5_DESCRIPTION" Language="ru_RU">
+			<Text>Не &quot;подозревается&quot; в [ICON_AMENITIES] увеличении пригодности для жизни</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_NAME" Language="ru_RU">
+			<Text>радость</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_0_DESCRIPTION" Language="ru_RU">
+			<Text>Город +1 [ICON_AMENITIES] Удобства</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_NAME" Language="ru_RU">
+			<Text>радость</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_2_DESCRIPTION" Language="ru_RU">
+			<Text>Город +2 [ICON_AMENITIES] Удобства</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_NAME" Language="ru_RU">
+			<Text>радость</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_4_DESCRIPTION" Language="ru_RU">
+			<Text>Город +2 [ICON_AMENITIES] Удобства</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_NAME" Language="ru_RU">
+			<Text>радость</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_ELATION_5_DESCRIPTION" Language="ru_RU">
+			<Text>Город +5 [ICON_AMENITIES] Удобства</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_NAME" Language="ru_RU">
+			<Text>самосертификация</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_0_DESCRIPTION" Language="ru_RU">
+			<Text>Город +5% [ICON_SCIENCE] Наука, +5% [ICON_PRODUCTION] Производительность</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_NAME" Language="ru_RU">
+			<Text>самосертификация</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_3_DESCRIPTION" Language="ru_RU">
+			<Text>Город +5% [ICON_SCIENCE] Наука, +10% [ICON_PRODUCTION] Производство</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_NAME" Language="ru_RU">
+			<Text>самосертификация</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_SELF_PROOF_5_DESCRIPTION" Language="ru_RU">
+			<Text>Город +10% [ICON_SCIENCE] Наука, +10% [ICON_PRODUCTION] Производительность</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_NAME" Language="ru_RU">
+			<Text>страх</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_0_DESCRIPTION" Language="ru_RU">
+			<Text>Город -1 [ICON_AMENITIES] Удобства</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_NAME" Language="ru_RU">
+			<Text>страх</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_4_DESCRIPTION" Language="ru_RU">
+			<Text>Город -3 [ICON_AMENITIES] Удобства</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_NAME" Language="ru_RU">
+			<Text>страх</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HORROR_5_DESCRIPTION" Language="ru_RU">
+			<Text>Город -5 [ICON_AMENITIES] Удобства</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_NAME" Language="ru_RU">
+			<Text>Физический осмотр</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_HEALTH_EXAM_4_DESCRIPTION" Language="ru_RU">
+			<Text>Город +15% [ICON_FOOD] Еда</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_NAME" Language="ru_RU">
+			<Text>Путаница</Text>
+		</Replace>
+		<Replace Tag="LOC_NIHILITY_CITY_STATE_DERANGED_0_DESCRIPTION" Language="ru_RU">
+			<Text>Город [ICON_AMENITIES] добавляет «подозрительность» частям с пригодностью для жизни выше 0.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_DECREASE_SUSPICION" Language="ru_RU">
+			<Text>Вы снижаете «подозрительность» цивилизации собеседника</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_INCREASE_SUSPICION" Language="ru_RU">
+			<Text>Вы подняли &quot;подозрительность&quot; цивилизации другой стороны</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY" Language="ru_RU">
+			<Text>никогда не оглядывайся назад</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="ru_RU">
+			<Text>Как цивилизация, которая вот-вот победит</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY" Language="ru_RU">
+			<Text>Не оглядывайся назад, пути назад нет.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MODIFIER_ACHERON_FIND_CLOSE_TO_VICTORY_DESCRIPTION" Language="ru_RU">
+			<Text>Как цивилизация, которая вот-вот победит</Text>
+		</Replace>
+		<Replace Tag="LOC_ACHERON_QUOTE" Language="ru_RU">
+			<Text>«Хуан Цюань»… Хотя это всего лишь заимствованное имя, ты знаешь, кто я, и помнишь, что я сделал. После этого… Я — Хуан Цюань.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Пыль... в конце концов вернется на землю...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Пыль... в конце концов вернется на землю...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Не забудьте поделиться радостью с друзьями.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Возможно, существует более одного правильного ответа.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Еще один кровавый долг.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Позвольте мне пройтись с вами еще немного.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Если у вас есть нож, вы всегда должны использовать его, чтобы что-то разрезать. У меня есть только одна причина обнажить меч... раньше, сейчас и в будущем.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Там, где остались воспоминания, каждое прикосновение — цветок с шипами...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Куда ты идешь?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Слушая шум дождя, падающего с красных листьев и капающего на зонтик, я получила от этого момент покоя...</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_NAME" Language="ru_RU">
+			<Text>недействительный режим</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_DESC" Language="ru_RU">
+			<Text>Цивилизация может приобрести «сомнение». Обратите внимание на [ICON_AMENITIES] благоустроенность вашего города!</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_NAME" Language="ru_RU">
+			<Text>Ничто ограничено подземным миром</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_APPLY_TO_ACHERON_DESC" Language="ru_RU">
+			<Text>Только саморазрушительная цивилизация Хуанцюань может обрести «Сомнение».</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_NAME" Language="ru_RU">
+			<Text>Оптимизация режима Нижнего мира</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEMODE_NIHILITY_OPTIM_DESC" Language="ru_RU">
+			<Text>Не меняйте фактический механизм, но измените эффект отображения</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Это ты... Мы все должны ценить время, проведенное друг с другом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Ты пришел сюда... или это была воля судьбы?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Нам пора отправляться в путь.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>«Войти в одну реку дважды»… несложно.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Вы ничего не можете поделать с этим сожалением, так что оставьте его.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Это не имеет значения, давайте закончим на этом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>У людей, путешествующих по Млечному Пути в одиночку, есть два желания: найти следы своих предшественников и найти свой собственный путь. Но под их взглядом... последние по большей части останавливались на первых.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Идет дождь... Хочешь прогуляться вместе? Давай, у меня есть зонтик.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Когда я очнулся с другой стороны, на краю моря все еще гремел гром, а с неба только что падал кровавый дождь.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Пейзаж вдалеке нечеткий... но он должен быть красивым.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Люди идут по пути судьбы... потом ищут, затем обретают просветление и затем существуют.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Прошлое делает нас такими, какие мы есть сегодня. Некоторые вещи трудно запомнить, а некоторые трудно забыть.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Мы встретимся снова, хочешь еще раз потанцевать?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Все или ничего... Я посмотрю.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Эта жизнь проходит, как дождь, и в конце концов вернется на землю. Я надеюсь, что когда мы встретимся снова... будет солнечно.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Вы не первый человек, проявивший такую ​​злобу, даже после того, как узнали мою личность, и не последний.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Неважно, какова твоя цель... Я вижу только один конец: его будущее — «ничто», как и все миры, утопающие в Его тени.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Времени, чтобы попрощаться, осталось не так уж и много.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Черная дыра не впечатляет и не трагична. Она очень тиха, как одинокий взгляд, смотрящий на нас с вами... а затем тихо поглощающий все, холодный и молчаливый объятий.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ACHERON_ANY" Language="ru_RU">
+			<Text>Надвигается сильный дождь.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
