@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5ac007c1-a2cb-4492-994d-1e5464a86202" version="1">
+  <Properties>
+    <Name>civ 5 new leaders</Name>
+    <Description>This mod only supports Chinese,thank Rosenthorn for providing art about Suppiluliuma I.</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1738498972</Created>
+    <Teaser>添加了2个新文明、6位新领袖、3种新单位与2类新建筑。</Teaser>
+    <Authors>xeloo</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="Art">
+      <File priority="3000002">civ 5 new leaders.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File priority="3000002">new_leaders_color.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="Config">
+      <File priority="3000002">new_leaders_config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File priority="3000002">new_leaders_icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File priority="3000002">new_leaders_text.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="Art">
+      <File priority="3000002">civ 5 new leaders.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File priority="3000002">new_leaders_color.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="Database">
+      <File priority="3000002">new_leaders_leader.xml</File>
+      <File priority="3000002">bbl_maya_ger.xml</File>
+      <File priority="3000002">unit.xml</File>
+      <File priority="3000002">northern_lion.xml</File>
+      <File priority="3000002">project.xml</File>
+      <File priority="3000002">heti_civ.xml</File>
+      <File priority="3000002">heti_leader.xml</File>
+      <File priority="3000002">building.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File priority="3000002">new_leaders_icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File priority="3000002">new_leaders_text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>bbl_maya_ger.xml</File>
+    <File>building.xml</File>
+    <File>civ 5 new leaders.dep</File>
+    <File>heti_civ.xml</File>
+    <File>heti_leader.xml</File>
+    <File>new_leaders_color.xml</File>
+    <File>new_leaders_config.xml</File>
+    <File>new_leaders_icon.xml</File>
+    <File>new_leaders_leader.xml</File>
+    <File>new_leaders_text.xml</File>
+    <File>northern_lion.xml</File>
+    <File>Platforms/MacOS/BLPs/Augustus_and_Darius.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Augustus_and_Darius.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>project.xml</File>
+    <File>unit.xml</File>
+  </Files>
+</Mod>

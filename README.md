@@ -292,3 +292,4 @@ Auto-generated translations for the following mods are currently included in thi
 | [3387948572](https://steamcommunity.com/sharedfiles/filedetails/?id=3387948572) | 太苍文明【自学MOD练手】 | Taicang Civilization [Self-study MOD practice] |
 | [3390674887](https://steamcommunity.com/sharedfiles/filedetails/?id=3390674887) | 鹿乃的小鹿王国---Mod for Kano | Mod for Kano |
 | [3390751111](https://steamcommunity.com/sharedfiles/filedetails/?id=3390751111) | 碧蓝档案：安守实梨领导的红冬联邦学院 | Azure Files: Red Winter Federation College under the leadership of Minori Yasumaru |
+| [3432664839](https://steamcommunity.com/sharedfiles/filedetails/?id=3432664839) | civ 5 new leaders | civ 5 new leaders |
