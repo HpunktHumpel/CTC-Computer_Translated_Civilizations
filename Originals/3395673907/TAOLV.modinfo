@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="22d6ca1f-7957-48bf-9de0-b0023200bd8c" version="1">
+  <Properties>
+    <Name>【碧蓝档案】才羽桃井领导的游戏开发部</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1739025238</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>tanuox</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File priority="-1">Tao_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="configicon">
+      <File>ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="configArt">
+      <File>【碧蓝档案】才羽桃井领导的游戏开发部.dep</File>
+    </UpdateArt>
+    <UpdateText id="configtext">
+      <File>Tao_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="configColors">
+      <File>Tao_Color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateIcons id="ICON">
+      <File>ICON.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>【碧蓝档案】才羽桃井领导的游戏开发部.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>Tao_Color.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="database">
+      <File>Tao_Leaders.xml</File>
+      <File>Tao_Civilization.xml</File>
+      <File>Get_UZ.lua</File>
+      <File>Leader_Ability.lua</File>
+      <File>Leader_Ability.sql</File>
+      <File>Tao_Civilization.sql</File>
+      <File>Tao_District.xml</File>
+      <File>Tao_Governor.sql</File>
+      <File>Tao_Governor.xml</File>
+      <File>Tao_Greatworks.xml</File>
+      <File>Tao_Resources.xml</File>
+      <File>Unit_Ability.xml</File>
+      <File>Tao_Moment.sql</File>
+      <File>Tao_Unit.xml</File>
+      <File>Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Tao_Text.xml</File>
+      <File>Tao_Leader_Fallback.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <File>Get_UZ.lua</File>
+      <File>Leader_Ability.lua</File>
+      <File>Get_RESOURCE.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="Music">
+      <File>Platforms/Windows/audio/TAO.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Get_UZ.lua</File>
+    <File>ICON.xml</File>
+    <File>Leader_Ability.lua</File>
+    <File>Leader_Ability.sql</File>
+    <File>Platforms/MacOS/BLPs/Leaderfallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/TAO.blp</File>
+    <File>Platforms/Windows/audio/1063829518.wem</File>
+    <File>Platforms/Windows/audio/144013171.wem</File>
+    <File>Platforms/Windows/audio/231950090.wem</File>
+    <File>Platforms/Windows/audio/67400357.wem</File>
+    <File>Platforms/Windows/audio/702755492.wem</File>
+    <File>Platforms/Windows/audio/706341798.wem</File>
+    <File>Platforms/Windows/audio/792888514.wem</File>
+    <File>Platforms/Windows/audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/audio/SB_TAO.bnk</File>
+    <File>Platforms/Windows/audio/SB_TAO.txt</File>
+    <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/audio/TAO.ini</File>
+    <File>Platforms/Windows/BLPs/Leaderfallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/TAO.blp</File>
+    <File>TAOLV.Art.xml</File>
+    <File>Tao_Civilization.sql</File>
+    <File>Tao_Civilization.xml</File>
+    <File>Tao_Color.xml</File>
+    <File>Tao_Config.xml</File>
+    <File>Tao_District.xml</File>
+    <File>Tao_Governor.sql</File>
+    <File>Tao_Governor.xml</File>
+    <File>Tao_Greatworks.xml</File>
+    <File>Tao_Leaders.xml</File>
+    <File>Tao_Leader_Fallback.xml</File>
+    <File>Tao_Moment.sql</File>
+    <File>Tao_Resources.xml</File>
+    <File>Tao_Text.xml</File>
+    <File>Units.xml</File>
+    <File>Unit_Ability.xml</File>
+    <File>【碧蓝档案】才羽桃井领导的游戏开发部.dep</File>
+  </Files>
+</Mod>
