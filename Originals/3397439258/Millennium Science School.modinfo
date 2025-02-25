@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="45ab18b0-950d-4f8e-98d5-3b19919ff85b" version="1">
+  <Properties>
+    <Name>밀레니엄 사이언스 스쿨</Name>
+    <Description>칸페키~~~~</Description>
+    <Created>1740223549</Created>
+    <Authors>밀레니엄 세미나</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>ML_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>ML_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Millennium_Science_School.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>ML_COLORS.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>ML_Civilizations.xml</File>
+      <File>ML_District.xml</File>
+      <File>ML_Leader.xml</File>
+      <File>ML_Unit.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>ML_Text.xml</File>
+      <File>NOA_Dialogue.xml</File>
+      <File>YK_Dialogue.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Millennium_Science_School.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>ML_COLORS.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Icons/Icons.xml</File>
+    <File>Millennium Science School.Art.xml</File>
+    <File>Millennium_Science_School.dep</File>
+    <File>ML_Civilizations.xml</File>
+    <File>ML_COLORS.xml</File>
+    <File>ML_Config.xml</File>
+    <File>ML_District.xml</File>
+    <File>ML_Leader.xml</File>
+    <File>ML_Text.xml</File>
+    <File>ML_Unit.xml</File>
+    <File>NOA_Dialogue.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Textures/ICON_LEADER_RIO_256.png</File>
+    <File>Textures/ICON_LEADER_RIO_32.png</File>
+    <File>Textures/ICON_LEADER_RIO_45.png</File>
+    <File>Textures/ICON_LEADER_RIO_50.png</File>
+    <File>Textures/ICON_LEADER_RIO_55.png</File>
+    <File>Textures/ICON_LEADER_RIO_64.png</File>
+    <File>Textures/ICON_LEADER_RIO_80.png</File>
+    <File>Textures/ICON_LEADER_YUUKA_256.png</File>
+    <File>Textures/ICON_LEADER_YUUKA_32.png</File>
+    <File>Textures/ICON_LEADER_YUUKA_45.png</File>
+    <File>Textures/ICON_LEADER_YUUKA_50.png</File>
+    <File>Xlps/Atlas.xlp</File>
+    <File>Xlps/LeaderFallbacks.xlp</File>
+    <File>Xlps/UILeaders.xlp</File>
+    <File>YK_Dialogue.xml</File>
+  </Files>
+</Mod>
