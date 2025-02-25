@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="61774a0d-147b-4162-bb4b-4402ee6fa706" version="1">
+  <Properties>
+    <Name>MOD_AKIE_NAME</Name>
+    <Description>MOD_AKIE_DESCRIPTION</Description>
+    <Created>1706616190</Created>
+    <Teaser>MOD_AKIE_TEASER</Teaser>
+    <Authors>Ophidy</Authors>
+    <SpecialThanks>UK</SpecialThanks>
+    <Homepage>https://space.bilibili.com/4176573</Homepage>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="MOD_AKIE_NAME">
+      <zh_Hans_CN>Ophidy's [COLOR:229,120,91,199]观星者[ENDCOLOR]</zh_Hans_CN>
+    </Text>
+    <Text id="MOD_AKIE_DESCRIPTION">
+      <zh_Hans_CN>[COLOR:229,120,91,199]Akie秋绘领导的观星者[ENDCOLOR][NEWLINE]</zh_Hans_CN>
+    </Text>
+    <Text id="MOD_AKIE_TEASER">
+      <zh_Hans_CN>观星者</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateDatabase id="AKIE_UpdateDatabase_FE">
+      <File>InGame/Akie_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="AKIE_UpdateColors_FE">
+      <File>InGame/Akie_Color.xml</File>
+    </UpdateColors>
+    <UpdateText id="AKIE_UpdateText_FE">
+      <File>Text/Akie_Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="AKIE_UpdateIcons_FE">
+      <File>InGame/Akie_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="AKIE_UpdateArt_FE">
+      <File>MOD_AKIE_NAME.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="AKIE_UpdateDatabase">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>InGame/Akie_Building.sql</File>
+      <File>InGame/Akie_Civilization.sql</File>
+      <File>InGame/Akie_Leader.sql</File>
+      <File>InGame/Akie_Unit.sql</File>
+      <File>InGame/Akie_Modifier.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="AKIE_UpdateColors">
+      <File>InGame/Akie_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="AKIE_UpdateIcons">
+      <File>InGame/Akie_Texture.xml</File>
+    </UpdateIcons>
+    <UpdateText id="AKIE_UpdateText">
+      <File>Text/Akie_Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="AKIE_UpdateArt">
+      <File>MOD_AKIE_NAME.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="AKIE_AddGameplayScripts">
+      <File>Script/Akie_Script.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="AKIE_UpdateAudio">
+      <File>Platforms/Windows/audio/Akie_Audio.ini</File>
+      <File>Platforms/Windows/audio/Akie_SoundBank.bnk</File>
+      <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>InGame/Akie_Building.sql</File>
+    <File>InGame/Akie_Civilization.sql</File>
+    <File>InGame/Akie_Color.xml</File>
+    <File>InGame/Akie_Config.sql</File>
+    <File>InGame/Akie_Leader.sql</File>
+    <File>InGame/Akie_Modifier.sql</File>
+    <File>InGame/Akie_Texture.xml</File>
+    <File>InGame/Akie_Unit.sql</File>
+    <File>MOD_AKIE_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/AkieTexture.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Stargazer</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Stargazer</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/audio/1061063229.wem</File>
+    <File>Platforms/Windows/audio/192124311.wem</File>
+    <File>Platforms/Windows/audio/320681183.wem</File>
+    <File>Platforms/Windows/audio/697879503.wem</File>
+    <File>Platforms/Windows/audio/922857425.wem</File>
+    <File>Platforms/Windows/audio/Akie_Audio.ini</File>
+    <File>Platforms/Windows/audio/Akie_SoundBank.bnk</File>
+    <File>Platforms/Windows/audio/Akie_SoundBank.txt</File>
+    <File>Platforms/Windows/audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/AkieTexture.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Stargazer</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Stargazer</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Script/Akie_Script.lua</File>
+    <File>Text/Akie_Text_en_US.xml</File>
+    <File>Text/Akie_Text_zh_Hans_CN.xml</File>
+  </Files>
+</Mod>

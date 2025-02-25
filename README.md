@@ -216,6 +216,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3135354770](https://steamcommunity.com/sharedfiles/filedetails/?id=3135354770) | 少女前线 边境调查团 M870 | Girls Frontline Border Investigation Team M870 |
 | [3138123347](https://steamcommunity.com/sharedfiles/filedetails/?id=3138123347) | 少女前线 前线战备队 ART556 | Girls Frontline Frontline Ready Team ART556 |
 | [3144014604](https://steamcommunity.com/sharedfiles/filedetails/?id=3144014604) | 克惑奇雅文明  Kahotkia Civilizations | Kahotkia Civilizations |
+| [3145722860](https://steamcommunity.com/sharedfiles/filedetails/?id=3145722860) | Akie秋绘领导的观星者文明 | Akie Akie's civilization |
 | [3148130637](https://steamcommunity.com/sharedfiles/filedetails/?id=3148130637) | 深空之眼 小困·俄尼里伊 | Eye of Deep Space Xiaokeng Oniliyi |
 | [3150894522](https://steamcommunity.com/sharedfiles/filedetails/?id=3150894522) | 少女前线 核心代码 | Girls Frontline core code |
 | [3150899575](https://steamcommunity.com/sharedfiles/filedetails/?id=3150899575) | 深空之眼 重置版核心代码 | Eye of Deep Space Reset Core Code |
