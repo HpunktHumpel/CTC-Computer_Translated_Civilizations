@@ -296,4 +296,5 @@ Auto-generated translations for the following mods are currently included in thi
 | [3397439258](https://steamcommunity.com/sharedfiles/filedetails/?id=3397439258) | millenium science school | millenium science school |
 | [3422770620](https://steamcommunity.com/sharedfiles/filedetails/?id=3422770620) | 杨雨晴领导的雾之本境白鹿渊文明 | The White Deer Yuan Civilization of the Origin of the Mist Leadered by Yang Yuqing |
 | [3430263772](https://steamcommunity.com/sharedfiles/filedetails/?id=3430263772) | 트리니티 종합 학원 | Trinity General Academy |
+| [3431967473](https://steamcommunity.com/sharedfiles/filedetails/?id=3431967473) | 아비도스 고등학교 | Abidos High School |
 | [3432664839](https://steamcommunity.com/sharedfiles/filedetails/?id=3432664839) | civ 5 new leaders | civ 5 new leaders |

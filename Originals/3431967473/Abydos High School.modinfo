@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="648b920f-eeba-4d93-a635-66cf86a25e35" version="1">
+  <Properties>
+    <Name>Abydos High School</Name>
+    <Description>으헤 사막에서 말라 죽을거 같아~~</Description>
+    <Created>1740290151</Created>
+    <Teaser>으헤 사막에서 말라 죽을거 같아~~</Teaser>
+    <Authors>2or4ex72qh1i</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Core/AD_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Text/AD_Text.xml</File>
+      <File>Text/HOSHINO_Dialogue.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/AD_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>EmptyMod1.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>Core/AD_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Core/AD_Agenda.xml</File>
+      <File>Core/AD_Civiliizations.xml</File>
+      <File>Core/AD_District.xml</File>
+      <File>Core/AD_Leaders.xml</File>
+      <File>Core/AD_Unit.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Text/AD_Text.xml</File>
+      <File>Text/HOSHINO_Dialogue.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>EmptyMod1.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <File>Icons/AD_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="Colors">
+      <File>Core/AD_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Core/AD_Agenda.xml</File>
+    <File>Core/AD_Civiliizations.xml</File>
+    <File>Core/AD_Colors.xml</File>
+    <File>Core/AD_Config.xml</File>
+    <File>Core/AD_District.xml</File>
+    <File>Core/AD_Leaders.xml</File>
+    <File>Core/AD_Unit.xml</File>
+    <File>EmptyMod1.dep</File>
+    <File>Icons/AD_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Text/AD_Text.xml</File>
+    <File>Text/HOSHINO_Dialogue.xml</File>
+  </Files>
+</Mod>
