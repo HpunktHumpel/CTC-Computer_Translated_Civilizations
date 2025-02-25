@@ -287,6 +287,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3366083521](https://steamcommunity.com/sharedfiles/filedetails/?id=3366083521) | Arknights Laterano | Arknights Laterano |
 | [3367030257](https://steamcommunity.com/sharedfiles/filedetails/?id=3367030257) | Re:从零开始的异世界生活-王选篇领袖 | Re: Life in a Different World from Zero - Leader of the King's Selection |
 | [3372309034](https://steamcommunity.com/sharedfiles/filedetails/?id=3372309034) | 《Kenshi》 - 领导联合城的天狗皇帝 | Kenshi - The Tengu Emperor Leading the United Cities |
+| [3379270016](https://steamcommunity.com/sharedfiles/filedetails/?id=3379270016) | 香草味MyGO!!!!!领袖包 | Vanilla flavor MyGO!!! Leader pack |
 | [3380692510](https://steamcommunity.com/sharedfiles/filedetails/?id=3380692510) | 埃萨衲秦 | Essanaqin |
 | [3381320614](https://steamcommunity.com/sharedfiles/filedetails/?id=3381320614) | 奥地利帝国：欧根亲王与IWS2000 | Austrian Empire: Prince Eugene and IWS2000 |
 | [3387945787](https://steamcommunity.com/sharedfiles/filedetails/?id=3387945787) | [崩坏：星穹铁道] 自灭者黄泉 Self-Annihilator Acheron | [Honkai Impact 3rd] Self-Annihilator Acheron |

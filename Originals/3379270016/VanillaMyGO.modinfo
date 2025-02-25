@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="879cda6c-1c8e-4714-8faf-28e71562de17" version="8">
+  <Properties>
+    <Name>Vanilla_MyGO_Leaders</Name>
+    <Description>香草味MyGO!!!!!领袖包，包含1个新文明（MYGO）及5位领袖。</Description>
+    <Created>1740323792</Created>
+    <Teaser>Vanilla MyGO Leaders Pack.</Teaser>
+    <Authors>zhoudaya</Authors>
+    <SpecialThanks>Tomorin</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </References>
+  <FrontEndActions>
+    <UpdateDatabase id="VMYGO_Config">
+      <File>VanillaMyGO_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="VMYGO_Text">
+      <File>VanillaMyGO_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="VMYGO_Icon">
+      <File priority="-1">VanillaMyGO_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="VMYGO_Art">
+      <File>VanillaMyGO.dep</File>
+    </UpdateArt>
+    <UpdateColors id="color">
+      <File>VanillaMyGO_PlayerColors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="VMYGO_INGAME_CONFIG">
+      <File>VanillaMyGO_Civilization.xml</File>
+      <File>VanillaMyGO_Leaders.xml</File>
+      <File>VanillaMyGO_Units.xml</File>
+      <File>VanillaMyGO_Buildings.xml</File>
+      <File>VanillaMyGO_Modifiers.xml</File>
+      <File>VanillaMyGO_Improvement.xml</File>
+      <File>VanillaMyGO_Projects.xml</File>
+      <File>VanillaMyGO_Moments.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="VMYGO_INGAME_TEXT">
+      <File>VanillaMyGO_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="VMYGO_INGAME_ICON">
+      <File priority="-1">VanillaMyGO_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="VMYGO_INGAME_ART">
+      <File>VanillaMyGO.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>VanillaMyGO_PlayerColors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/vanillaMygo001.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/vanillaMygo001.blp</File>
+    <File>VanillaMyGO.dep</File>
+    <File>VanillaMyGO_Buildings.xml</File>
+    <File>VanillaMyGO_Civilization.xml</File>
+    <File>VanillaMyGO_Config.xml</File>
+    <File>VanillaMyGO_Icons.xml</File>
+    <File>VanillaMyGO_Improvement.xml</File>
+    <File>VanillaMyGO_Leaders.xml</File>
+    <File>VanillaMyGO_Modifiers.xml</File>
+    <File>VanillaMyGO_Moments.xml</File>
+    <File>VanillaMyGO_PlayerColors.xml</File>
+    <File>VanillaMyGO_Projects.xml</File>
+    <File>VanillaMyGO_Text.xml</File>
+    <File>VanillaMyGO_Tomori_Modifiers.xml</File>
+    <File>VanillaMyGO_Units.xml</File>
+  </Files>
+</Mod>

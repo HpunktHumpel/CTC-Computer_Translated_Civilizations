@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VanillaMyGO_Text -->
+<!-- Author: zhoudaya -->
+<!-- DateCreated: 11/30/2024 11:20:48 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- The name of the unit. -->
+		<Row Tag="LOC_UNIT_GIRLSBAND_NAME" Language="zh_Hans_CN">
+			<Text>迷子风格乐队</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NORANEKO_NAME" Language="zh_Hans_CN">
+			<Text>野猫军团</Text>
+		</Row>
+
+		<!-- It's description. -->
+		<Row Tag="LOC_UNIT_GIRLSBAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>MyGO特色乐队单位，替代摇滚乐队，解锁市政提前至“大众媒体”。 [ICON_Movement] 移动力更强。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GIRLSBAND_DESCRIPTION_FULL" Language="zh_Hans_CN">
+			<Text>MyGO特色乐队单位，替代摇滚乐队，解锁市政提前至“大众媒体”。 [ICON_Movement] 移动力更强。必须使用 [ICON_Faith] 信仰值购买。完成“文化霸权”市政后可选择任意升级类型。可在有效地点举办摇滚音乐会，表演能力与摇滚乐队相同。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NORANEKO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>领袖要乐奈的特色远古时代近战单位，造价随生产数量递增。其 [ICON_Strength] 战斗力跟随已建造过的最强单位增长，被击败时自动返回首都。击杀单位时获得20 [ICON_GreatMusician] 大音乐家点数。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NEKO_MUSICIAN_POINTS_KILL_NAME" Language="zh_Hans_CN">
+			<Text>即兴演奏</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NEKO_MUSICIAN_POINTS_KILL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>击杀单位时，获得20点 [ICON_GreatMusician] 大音乐家点数</Text>
+		</Row>
+		<!-- The name of the unit. -->
+		<Row Tag="LOC_UNIT_NORANEKO_NAME" Language="en_US">
+			<Text>NORANEKO</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NORANEKO_DESCRIPTION" Language="en_US">
+			<Text>Rana's Unique Scout.</Text>
+		</Row>
+
+		<!-- BUILDINGS. -->
+		<Row Tag="LOC_BUILDING_ASTROCLUB_NAME" Language="zh_Hans_CN">
+			<Text>天文部</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ASTROCLUB_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>高松灯作为领袖时的MyGO特色学院建筑，替代图书馆，但解锁科技为“占星术”。[NEWLINE][NEWLINE]额外提供+2 [ICON_Faith] 信仰产出与+1 [ICON_GreatWriter] 大作家点数。提供1个 [ICON_GreatWork_Writing] 著作槽位。首次建成时，立即完成“天文导航”和“天文学”科技。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_VEGERIN_NAME" Language="zh_Hans_CN">
+			<Text>素食廪</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_VEGERIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>长崎爽世作为领袖时的MyGO特色市中心建筑，替代粮仓，造价昂贵。[NEWLINE][NEWLINE]+1 [ICON_Food]食物、+1 [ICON_Culture] 文化、+3 [ICON_Housing] 住房，但需要 1 [ICON_Gold] 金币维护。[NEWLINE][NEWLINE]为城市发展加速15%。[NEWLINE][NEWLINE]首次建成时解锁能力（全国范围生效）：城市中每个已建成的特色区域为通往该城市的国内 [ICON_TradeRoute] 贸易路线提供+1 [ICON_Food] 食物、+1 [ICON_Faith] 信仰、+1 [ICON_Culture] 文化 。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CLOTHFA_NAME" Language="zh_Hans_CN">
+			<Text>服装厂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CLOTHFA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>千早爱音作为领袖时的MyGO特色工业区建筑，替代工厂，造价更低，且无需维护费。[NEWLINE][NEWLINE]6个单元格内的所有市中心+3 [ICON_Production] 生产力、+2 [ICON_Gold] 金币、+1 [ICON_Culture] 文化，此加成仅限应用到城市1次。[NEWLINE][NEWLINE]为所在城市解锁“AnonTokyo服装设计”项目:[NEWLINE][NEWLINE]{LOC_PROJECT_ANONTOKYO_DESCRIPTION}</Text>
+		</Row>
+		<!-- IMPROVE. -->
+		<Row Tag="LOC_IMPROVEMENT_PANDAZOO_NAME" Language="zh_Hans_CN">
+			<Text>熊猫园</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PANDAZOO_DESCRIPTION_SIMPLE" Language="zh_Hans_CN">
+			<Text>椎名立希作为领袖时的MyGO特色改良设施，“畜牧业”解锁，不可修建在另一座熊猫园旁。+1 [ICON_Culture] 文化值，“保护地球”后额外 +1 [ICON_Culture] 文化值。每相邻1个区域 +1 [ICON_Culture] 文化值。相邻多种建筑时提供各类额外产出。为邻近单元格+1魅力。研究“飞行”科技后按 [ICON_Culture] 文化值提供 [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]如果与至少一个神社相邻，+2 [ICON_Faith] 信仰。[NEWLINE]如果与至少一个市场相邻，+2 [ICON_Gold] 金币。[NEWLINE]如果与至少一个大学相邻，+2 [ICON_Science] 科技值。[NEWLINE]如果与至少一个动物园相邻，+3 [ICON_Culture] 文化值。[NEWLINE]如果与至少一个古树林相邻，+2 [ICON_Food] 食物 +2 [ICON_Faith] 信仰。[NEWLINE]如果与至少一个避难所相邻，+2 [ICON_Production] 生产力 +2 [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PANDAZOO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				椎名立希作为领袖时的MyGO特色改良设施，“畜牧业”解锁。不可修建在另一座熊猫园旁。为邻近单元格+1魅力。研究“飞行”科技后按 [ICON_Culture] 文化值提供 [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]如果与至少一个神社相邻，+2 [ICON_Faith] 信仰。[NEWLINE]如果与至少一个市场相邻，+2 [ICON_Gold] 金币。[NEWLINE]如果与至少一个大学相邻，+2 [ICON_Science] 科技值。[NEWLINE]如果与至少一个动物园相邻，+3 [ICON_Culture] 文化值。[NEWLINE]如果与至少一个古树林相邻，+2 [ICON_Food] 食物 +2 [ICON_Faith] 信仰。[NEWLINE]如果与至少一个避难所相邻，+2 [ICON_Production] 生产力 +2 [ICON_Gold] 金币。
+			</Text>
+		</Row>
+		<!-- PROJ -->
+		<Row Tag="LOC_PROJECT_ANONTOKYO_NAME" Language="zh_Hans_CN">
+			<Text>ANONTOKYO服装设计</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ANONTOKYO_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>ANONTOKYO服装设计</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ANONTOKYO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由“服装厂”建筑解锁的特色项目，每回合提供少量 [ICON_Gold] 金币。[NEWLINE][NEWLINE]每次完成时，帝国境内所有（包括未来建成的）商业中心永久 +1 [ICON_Culture] 文化值、+1 [ICON_Tourism] 旅游业绩产出。</Text>
+		</Row>
+
+
+		<!-- mygo civ. -->
+		<Row Tag="LOC_CIVILIZATION_MYGO_NAME" Language="zh_Hans_CN">
+			<Text>MyGO</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MYGO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>MyGO!!!!!</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MYGODEMOSUSUMU_NAME" Language="zh_Hans_CN">
+			<Text>迷路也要前进</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MYGODEMOSUSUMU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位+1 [ICON_Movement] 移动力，所有非平民单位-1视野范围。拥有“天文学”科技后所有单位+1视野范围。</Text>
+		</Row>
+
+		<!-- mygo leader. -->
+		<Row Tag="LOC_LEADER_TOMORI_NAME" Language="zh_Hans_CN">
+			<Text>高松灯</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_TOMORI" Language="zh_Hans_CN">
+			<Text>高松灯的加载界面描述</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOMORI_NAME" Language="zh_Hans_CN">
+			<Text>羽丘的不思议酱</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TOMORI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成“写作”科技后，每回合+1 [ICON_GreatWriter] 大作家点数。 [NEWLINE][NEWLINE]石头和大理石资源+1 [ICON_Culture] 文化值。[NEWLINE]允许在任意丘陵地貌上建造采石场。采石场与采集奢侈品资源的矿山 +1 [ICON_Faith] 信仰 +1 [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SOYO_NAME" Language="zh_Hans_CN">
+			<Text>长崎爽世</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_SOYO" Language="zh_Hans_CN">
+			<Text>长崎爽世的加载界面描述</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SOYO_NAME" Language="zh_Hans_CN">
+			<Text>两面性</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SOYO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首次进入 [ICON_GLORY_DARK_AGE] 黑暗时代，免费获得2个间谍及间谍容量。[NEWLINE]首次进入 [ICON_GLORY_GOLDEN_AGE] 黄金或英雄时代，免费获得2个商人及 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]处于 [ICON_GLORY_DARK_AGE] 黑暗时代时，间谍建立与进攻性行动时间-50%，厌战情绪获取-50%。[NEWLINE]处于 [ICON_GLORY_GOLDEN_AGE] 黄金或英雄时代时，起点城市从 [ICON_TradeRoute] 贸易路线中获取的 [ICON_Culture] 文化和 [ICON_GOLD] 金币+50%，从有 [ICON_TradeRoute] 贸易路线交流的文明+50% [ICON_Tourism] 旅游业绩。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TAKI_NAME" Language="zh_Hans_CN">
+			<Text>椎名立希</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_TAKI" Language="zh_Hans_CN">
+			<Text>椎名立希的加载界面描述</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TAKI_NAME" Language="zh_Hans_CN">
+			<Text>劣等感/保护者</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TAKI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>存在胜利分数高于己方的队伍或文明时，立希的所有城市+10% [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]战斗发生时，如果附近1格范围内存在己方开拓者或建造者，单位 [ICON_Strength] 近战攻击力+5。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TAKI_PROTECTER_COMBAT_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>附近存在己方开拓者或建造者时+5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ANON_NAME" Language="zh_Hans_CN">
+			<Text>千早爱音</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_ANON" Language="zh_Hans_CN">
+			<Text>千早爱音的加载界面描述</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ANON_NAME" Language="zh_Hans_CN">
+			<Text>爱慕虚荣的交际花/最后一棒</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ANON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个派遣至城邦的 [ICON_Envoy] 使者为爱音提供+1 [ICON_Culture] 文化值。[NEWLINE][NEWLINE]领事馆建筑提供所有类型产出+1，外交办建筑提供所有类型产出+2。[NEWLINE][NEWLINE]侦察单位的 [ICON_Movement] 移动力+1。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_RANA_NAME" Language="zh_Hans_CN">
+			<Text>要乐奈</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_RANA" Language="zh_Hans_CN">
+			<Text>要乐奈的加载界面描述</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_RANA_NAME" Language="zh_Hans_CN">
+			<Text>拨弄琴弦的猫</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_RANA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个 [ICON_District] 区域（包括市中心）提供+1 [ICON_GreatMusician] 大音乐家点数。[NEWLINE][NEWLINE]海军和陆地军事单位相邻己方大音乐家或摇滚乐队时 +5 [ICON_Strength] 战斗力，+1 [ICON_Movement] 移动力。[NEWLINE][NEWLINE]在除冻土和沙漠之外的地形上建造的种植园 -1 [ICON_FOOD] 食物 +1 [ICON_CULTURE] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GREAT_MUSICIAN_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>大音乐家或摇滚乐队的 [ICON_Strength] 战斗加成+5 (拨弄琴弦的猫)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GREAT_MUSICIAN_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>大音乐家或摇滚乐队的 [ICON_Movement] 移动力加成+1 (拨弄琴弦的猫)</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_MUSICIAN_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>大音乐家或摇滚乐队的 [ICON_Strength] 战斗加成+5 (拨弄琴弦的猫)</Text>
+		</Row>
+
+		<!-- mygo cities. -->
+		<Row Tag="LOC_CITY_NAME_MYGO01" Language="zh_Hans_CN">
+			<Text>迷星堡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO02" Language="zh_Hans_CN">
+			<Text>名無镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO03" Language="zh_Hans_CN">
+			<Text>影色乡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO04" Language="zh_Hans_CN">
+			<Text>無路市</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO05" Language="zh_Hans_CN">
+			<Text>碧天邦</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO06" Language="zh_Hans_CN">
+			<Text>壱雫乡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO07" Language="zh_Hans_CN">
+			<Text>轮符城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO08" Language="zh_Hans_CN">
+			<Text>処救村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO09" Language="zh_Hans_CN">
+			<Text>焚音堡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO10" Language="zh_Hans_CN">
+			<Text>歌鸣城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO11" Language="zh_Hans_CN">
+			<Text>端程山</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO12" Language="zh_Hans_CN">
+			<Text>诗超邦</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO13" Language="zh_Hans_CN">
+			<Text>明弦村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO14" Language="zh_Hans_CN">
+			<Text>砂寸市</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO15" Language="zh_Hans_CN">
+			<Text>迷路镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO16" Language="zh_Hans_CN">
+			<Text>步拾道</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO17" Language="zh_Hans_CN">
+			<Text>過惰镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO18" Language="zh_Hans_CN">
+			<Text>夜隐村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO19" Language="zh_Hans_CN">
+			<Text>潜在城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO20" Language="zh_Hans_CN">
+			<Text>回层堡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO21" Language="zh_Hans_CN">
+			<Text>孤坏城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO22" Language="zh_Hans_CN">
+			<Text>雾周城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO23" Language="zh_Hans_CN">
+			<Text>音一会</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO24" Language="zh_Hans_CN">
+			<Text>栞之城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO101" Language="zh_Hans_CN">
+			<Text>新迷星堡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO102" Language="zh_Hans_CN">
+			<Text>新名無镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO103" Language="zh_Hans_CN">
+			<Text>新影色乡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO104" Language="zh_Hans_CN">
+			<Text>新無路市</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO105" Language="zh_Hans_CN">
+			<Text>新碧天邦</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO106" Language="zh_Hans_CN">
+			<Text>新壱雫乡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO107" Language="zh_Hans_CN">
+			<Text>新轮符城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO108" Language="zh_Hans_CN">
+			<Text>新処救村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO109" Language="zh_Hans_CN">
+			<Text>新焚音堡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO110" Language="zh_Hans_CN">
+			<Text>新歌鸣城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO111" Language="zh_Hans_CN">
+			<Text>新端程山</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO112" Language="zh_Hans_CN">
+			<Text>新诗超邦</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO113" Language="zh_Hans_CN">
+			<Text>新明弦村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO114" Language="zh_Hans_CN">
+			<Text>新砂寸市</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO115" Language="zh_Hans_CN">
+			<Text>新迷路镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO116" Language="zh_Hans_CN">
+			<Text>新步拾道</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO117" Language="zh_Hans_CN">
+			<Text>新過惰镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO118" Language="zh_Hans_CN">
+			<Text>新夜隐村</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO119" Language="zh_Hans_CN">
+			<Text>新潜在城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO120" Language="zh_Hans_CN">
+			<Text>新回层堡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO121" Language="zh_Hans_CN">
+			<Text>新孤坏城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO122" Language="zh_Hans_CN">
+			<Text>新雾周城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO123" Language="zh_Hans_CN">
+			<Text>新音一会</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYGO124" Language="zh_Hans_CN">
+			<Text>新栞之城</Text>
+		</Row>
+
+
+
+		<!-- mygo citizens. -->
+		<Row Tag="LOC_CITIZEN_MYGO_MALE_1" Language="zh_Hans_CN">
+			<Text>由司</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_MALE_2" Language="zh_Hans_CN">
+			<Text>毅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_1" Language="zh_Hans_CN">
+			<Text>美绪</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_2" Language="zh_Hans_CN">
+			<Text>绘里</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_3" Language="zh_Hans_CN">
+			<Text>舞</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_4" Language="zh_Hans_CN">
+			<Text>加奈子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_5" Language="zh_Hans_CN">
+			<Text>由仁子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_6" Language="zh_Hans_CN">
+			<Text>妃那</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_7" Language="zh_Hans_CN">
+			<Text>美香</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_8" Language="zh_Hans_CN">
+			<Text>鼓子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_9" Language="zh_Hans_CN">
+			<Text>凛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYGO_FEMALE_10" Language="zh_Hans_CN">
+			<Text>阳菜</Text>
+		</Row>
+		<!-- mygo quote. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYGO_TOMORI_QUOTE" Language="zh_Hans_CN">
+			<Text>那……能和我组一辈子乐队吗？</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYGO_SOYO_QUOTE" Language="zh_Hans_CN">
+			<Text>既然这样，就由我来把它结束掉。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYGO_TAKI_QUOTE" Language="zh_Hans_CN">
+			<Text>我发誓，和灯一起的话，一辈子也可以！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYGO_ANON_QUOTE" Language="zh_Hans_CN">
+			<Text>那我不就成了空气了吗！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYGO_RANA_QUOTE" Language="zh_Hans_CN">
+			<Text>玩乐队结束了吗，拜拜</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
