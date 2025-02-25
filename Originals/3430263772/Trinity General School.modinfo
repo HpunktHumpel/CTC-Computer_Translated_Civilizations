@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3bc737a0-5a75-40f4-a0ce-a83d8766f844" version="1">
+  <Properties>
+    <Name>트리니티 종합 학원</Name>
+    <Description>롤케익 먹고 싶다</Description>
+    <Created>1740290887</Created>
+    <Authors>트리니티 티파티</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateIcons id="Icons">
+      <File>Icons/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Trinity_General_School.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Config">
+      <File>Core/TR_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Text/TR_Text.xml</File>
+      <File>Text/MIKA_Dialogue.xml</File>
+      <File>Text/SEIA_Dialogue.xml</File>
+      <File>Text/NAGISA_Dialogue.xml</File>
+    </UpdateText>
+    <UpdateColors id="Colors">
+      <File>Core/TR_Color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Core/TR_Leader.xml</File>
+      <File>Core/TR_Civilizations.xml</File>
+      <File>Core/TR_Unit.xml</File>
+      <File>Core/TR_District.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Text/TR_Text.xml</File>
+      <File>Text/SEIA_Dialogue.xml</File>
+      <File>Text/MIKA_Dialogue.xml</File>
+      <File>Text/NAGISA_Dialogue.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Trinity_General_School.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <File>Core/TR_Color.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Core/TR_Civilizations.xml</File>
+    <File>Core/TR_Color.xml</File>
+    <File>Core/TR_Config.xml</File>
+    <File>Core/TR_District.xml</File>
+    <File>Core/TR_Leader.xml</File>
+    <File>Core/TR_Unit.xml</File>
+    <File>Icons/Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Text/MIKA_Dialogue.xml</File>
+    <File>Text/NAGISA_Dialogue.xml</File>
+    <File>Text/SEIA_Dialogue.xml</File>
+    <File>Text/TR_Text.xml</File>
+    <File>Trinity_General_School.dep</File>
+    <File>Xlps/Atlas.xlp</File>
+    <File>Xlps/LeaderFallbacks.xlp</File>
+    <File>Xlps/UILeaders.xlp</File>
+  </Files>
+</Mod>
