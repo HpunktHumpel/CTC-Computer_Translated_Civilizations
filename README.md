@@ -300,3 +300,4 @@ Auto-generated translations for the following mods are currently included in thi
 | [3430263772](https://steamcommunity.com/sharedfiles/filedetails/?id=3430263772) | 트리니티 종합 학원 | Trinity General Academy |
 | [3431967473](https://steamcommunity.com/sharedfiles/filedetails/?id=3431967473) | 아비도스 고등학교 | Abidos High School |
 | [3432664839](https://steamcommunity.com/sharedfiles/filedetails/?id=3432664839) | civ 5 new leaders | civ 5 new leaders |
+| [3436967452](https://steamcommunity.com/sharedfiles/filedetails/?id=3436967452) | 게헨나 학원 | Gehenna Academy |
