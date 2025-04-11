@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5c6de9e5-10ae-479c-9a91-b29ac1470223" version="5">
+  <Properties>
+    <Name>[COLOR:Civ6Yellow]【崩坏：星穹铁道】[ENDCOLOR]翁法罗斯文明包</Name>
+    <Description>添加了以星穹铁道世界观为背景的翁法罗斯文明。
+-- 本MOD强度属于工坊T2水准，后续会出平衡模组。
+-- 加强模组已经上线工坊，欢迎订阅！</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1743914427</Created>
+    <Teaser>星穹铁道：翁法罗斯</Teaser>
+    <Authors>Nwflower</Authors>
+    <SpecialThanks>Hemmelfort，Ophidy</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Amphoreus_LOADING">
+      <File priority="2000">Database/Amphoreus_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Amphoreus_Text">
+      <File priority="2000">Text/Amphoreus_Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateColors id="Amphoreus_Color">
+      <File priority="2000">Database/Amphoreus_Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="Amphoreus_Art">
+      <File priority="20000">【崩坏：星穹铁道】翁法罗斯缇宝领袖包.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Amphoreus_Icon">
+      <File priority="2000">Database/Amphoreus_Icons.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Amphoreus_Gameplay">
+      <File priority="2000">Database/Amphoreus_Civilization.sql</File>
+      <File priority="2000">Database/Amphoreus_Leaders.sql</File>
+      <File priority="2000">Database/Amphoreus_Unit.sql</File>
+      <File priority="2000">Database/Amphoreus_District.sql</File>
+      <File priority="2000">Database/Amphoreus_Modifier.sql</File>
+      <File priority="2000">Database/Amphoreus_Buildings.sql</File>
+      <File priority="2000">Database/Amphoreus_Projects.sql</File>
+      <File priority="2000">Database/Amphoreus_Core.sql</File>
+      <File priority="2000">Database/Amphoreus_Improvement.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Amphoreus_Text">
+      <File priority="2000">Text/Amphoreus_Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+    <UpdateArt id="Amphoreus_Art">
+      <File priority="2000">【崩坏：星穹铁道】翁法罗斯缇宝领袖包.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="Amphoreus_Script">
+      <File priority="2000">Script/Amphoreus_Script.lua</File>
+    </AddGameplayScripts>
+    <UpdateColors id="Amphoreus_Colors">
+      <File priority="2000">Database/Amphoreus_Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Amphoreus_Icons">
+      <File priority="2000">Database/Amphoreus_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateAudio id="Amphoreus_Audios">
+      <File priority="2000">Platforms/Windows/audio/Amphoreus_Audio.ini</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Database/Amphoreus_Buildings.sql</File>
+    <File>Database/Amphoreus_Civilization.sql</File>
+    <File>Database/Amphoreus_Color.xml</File>
+    <File>Database/Amphoreus_Config.xml</File>
+    <File>Database/Amphoreus_Core.sql</File>
+    <File>Database/Amphoreus_District.sql</File>
+    <File>Database/Amphoreus_Icons.xml</File>
+    <File>Database/Amphoreus_Improvement.sql</File>
+    <File>Database/Amphoreus_Leaders.sql</File>
+    <File>Database/Amphoreus_Modifier.sql</File>
+    <File>Database/Amphoreus_Projects.sql</File>
+    <File>Database/Amphoreus_Unit.sql</File>
+    <File>Platforms/Windows/audio/1031413140.wem</File>
+    <File>Platforms/Windows/audio/1065035989.wem</File>
+    <File>Platforms/Windows/audio/124205358.wem</File>
+    <File>Platforms/Windows/audio/327151276.wem</File>
+    <File>Platforms/Windows/audio/454483944.wem</File>
+    <File>Platforms/Windows/audio/501764030.wem</File>
+    <File>Platforms/Windows/audio/579139778.wem</File>
+    <File>Platforms/Windows/audio/757466955.wem</File>
+    <File>Platforms/Windows/audio/834375862.wem</File>
+    <File>Platforms/Windows/audio/879644912.wem</File>
+    <File>Platforms/Windows/audio/930627502.wem</File>
+    <File>Platforms/Windows/audio/Amphoreus_Audio.ini</File>
+    <File>Platforms/Windows/audio/Amphoreus_Music_Bank.bnk</File>
+    <File>Platforms/Windows/audio/Amphoreus_Music_Bank.txt</File>
+    <File>Platforms/Windows/audio/Amphoreus_Music_Bank.xml</File>
+    <File>Platforms/Windows/audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/ICON_CIVILIZATION_NW_AMPHOREUS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Script/Amphoreus_Script.lua</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_128.dds</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_128.tex</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_256.dds</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_256.tex</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_32.dds</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_32.tex</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_38.dds</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_38.tex</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_50.dds</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_50.tex</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_80.dds</File>
+    <File>Textures/ICON_BUILDING_NW_JIYI_80.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_128.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_128.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_256.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_256.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_32.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_32.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_38.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_38.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_50.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_50.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_80.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHISHI_80.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_128.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_128.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_256.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_256.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_32.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_32.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_38.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_38.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_50.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_50.tex</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_80.dds</File>
+    <File>Textures/ICON_BUILDING_NW_ZHONGMO_80.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_128.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_128.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_200.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_200.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_22.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_22.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_256.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_256.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_30.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_30.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_32.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_32.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_36.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_36.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_44.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_44.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_45.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_45.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_48.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_48.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_50.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_50.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_64.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_64.tex</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_80.dds</File>
+    <File>Textures/ICON_CIVILIZATION_NW_AMPHOREUS_80.tex</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_256.dds</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_256.tex</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_32.dds</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_32.tex</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_45.dds</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_45.tex</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_48.dds</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_48.tex</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_50.dds</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_50.tex</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_55.dds</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_55.tex</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_64.dds</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_64.tex</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_80.dds</File>
+    <File>Textures/ICON_LEADER_NW_AGELAIYA_80.tex</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_256.dds</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_256.tex</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_32.dds</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_32.tex</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_45.dds</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_45.tex</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_48.dds</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_48.tex</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_50.dds</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_50.tex</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_55.dds</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_55.tex</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_64.dds</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_64.tex</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_80.dds</File>
+    <File>Textures/ICON_LEADER_NW_NAKEXIA_80.tex</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_256.dds</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_256.tex</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_32.dds</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_32.tex</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_45.dds</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_45.tex</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_48.dds</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_48.tex</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_50.dds</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_50.tex</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_55.dds</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_55.tex</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_64.dds</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_64.tex</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_80.dds</File>
+    <File>Textures/ICON_LEADER_NW_TIBAO_80.tex</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_22.dds</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_22.tex</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_256.dds</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_256.tex</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_32.dds</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_32.tex</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_38.dds</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_38.tex</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_50.dds</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_50.tex</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_80.dds</File>
+    <File>Textures/ICON_UNIT_GOLD_SON_80.tex</File>
+    <File>Textures/IMG_FALLBACK_LEADER_NW_AGELAIYA.dds</File>
+    <File>Textures/IMG_FALLBACK_LEADER_NW_AGELAIYA.tex</File>
+    <File>Textures/IMG_FALLBACK_LEADER_NW_NAKEXIA.dds</File>
+    <File>Textures/IMG_FALLBACK_LEADER_NW_NAKEXIA.tex</File>
+    <File>Textures/IMG_FALLBACK_LEADER_NW_TIBAO.dds</File>
+    <File>Textures/IMG_FALLBACK_LEADER_NW_TIBAO.tex</File>
+    <File>Textures/IMG_FALLBACK_LEADER_NW_WANDI.dds</File>
+    <File>Textures/IMG_FALLBACK_LEADER_NW_WANDI.tex</File>
+    <File>Textures/IMG_LEADER_WANDI256.dds</File>
+    <File>Textures/IMG_LEADER_WANDI256.tex</File>
+    <File>Textures/IMG_LEADER_WANDI32.dds</File>
+    <File>Textures/IMG_LEADER_WANDI32.tex</File>
+    <File>Textures/IMG_LEADER_WANDI45.dds</File>
+    <File>Textures/IMG_LEADER_WANDI45.tex</File>
+    <File>Textures/IMG_LEADER_WANDI48.dds</File>
+    <File>Textures/IMG_LEADER_WANDI48.tex</File>
+    <File>Textures/IMG_LEADER_WANDI50.dds</File>
+    <File>Textures/IMG_LEADER_WANDI50.tex</File>
+    <File>Textures/IMG_LEADER_WANDI55.dds</File>
+    <File>Textures/IMG_LEADER_WANDI55.tex</File>
+    <File>Textures/IMG_LEADER_WANDI64.dds</File>
+    <File>Textures/IMG_LEADER_WANDI64.tex</File>
+    <File>Textures/IMG_LEADER_WANDI80.dds</File>
+    <File>Textures/IMG_LEADER_WANDI80.tex</File>
+    <File>Textures/IMG_PNG_LEADER_AGELAIYA.dds</File>
+    <File>Textures/IMG_PNG_LEADER_AGELAIYA.tex</File>
+    <File>Textures/IMG_PNG_LEADER_NAKEXIA.dds</File>
+    <File>Textures/IMG_PNG_LEADER_NAKEXIA.tex</File>
+    <File>Textures/IMG_PNG_LEADER_TIBAO.dds</File>
+    <File>Textures/IMG_PNG_LEADER_TIBAO.tex</File>
+    <File>Textures/IMG_PNG_LEADER_WANDI.dds</File>
+    <File>Textures/IMG_PNG_LEADER_WANDI.tex</File>
+    <File>Text/Amphoreus_Text_zh_Hans_CN.xml</File>
+    <File>UI/Amphoreus_GetData.lua</File>
+    <File>UI/Amphoreus_GetData.xml</File>
+    <File>XLPs/ICON_CIVILIZATION_NW_AMPHOREUS.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>【崩坏：星穹铁道】翁法罗斯缇宝领袖包.dep</File>
+  </Files>
+</Mod>
