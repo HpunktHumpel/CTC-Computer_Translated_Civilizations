@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AMPHOREUS_Text_zh_Hans_CN -->
+<!-- Author: Nwflower -->
+<!-- DateCreated: 3/12/2024 7:57:23 PM -->
+<GameData>
+	<LocalizedText>
+
+		<!--Leader-->
+		<Replace Tag="LOC_LEADER_NW_TIBAO_NAME" Language="zh_Hans_CN">
+			<Text>缇宝（半神）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_WANDI_NAME" Language="zh_Hans_CN">
+			<Text>万敌（半神）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_AGELAIYA_NAME" Language="zh_Hans_CN">
+			<Text>阿格莱雅（半神）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_NAKEXIA_NAME" Language="zh_Hans_CN">
+			<Text>那刻夏（半神）</Text>
+		</Replace>
+
+		<!--Building-->
+		<Replace Tag="LOC_BUILDING_NW_JIYI_NAME" Language="zh_Hans_CN">
+			<Text>记忆</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_JIYI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>翁法罗斯的特色建筑，只能修建一座，不能与智识和终末同时修建。建成后，文明的所有 [ICON_District] 区域从其他相邻加成中获得 [ICON_Culture] 文化值。区域、市中心和奇观+1大作家、大艺术家和大音乐家 [ICON_GreatPerson] 点数，并获得一定的 [ICON_Tourism] 旅游业绩。所有区域一级建筑额外提供3个巨作槽位，可以容纳任意类型巨作。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_ZHISHI_NAME" Language="zh_Hans_CN">
+			<Text>智识</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_ZHISHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>翁法罗斯的特色建筑，只能修建一座，不能与记忆和终末同时修建。建成后，文明的所有 [ICON_District] 区域、市中心和奇观的其他相邻加成也提供 [ICON_Science] 科技值和 [ICON_Faith] 信仰值，且+1大科学家、大预言家和大工程师 [ICON_GreatPerson] 点数。建立新城市、招募伟人或建成奇观时，当前正在研究的科技将立即解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_ZHONGMO_NAME" Language="zh_Hans_CN">
+			<Text>终末</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NW_ZHONGMO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>翁法罗斯的特色建筑，只能修建一座，不能与记忆和智识同时修建。建成后，文明的所有 [ICON_District] 区域的其他相邻加成也提供 [ICON_Food] 粮食、 [ICON_Production] 生产力。每个区域、市中心和奇观单元格+1 [ICON_Amenities] 宜居度、+2 [ICON_Housing] 住房，且+1大将军、海军提督和大商人 [ICON_GreatPerson] 点数。所有单位无需维护费。</Text>
+		</Replace>
+
+		<!--Trait-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_NAME" Language="zh_Hans_CN">
+			<Text>记忆、智识与终末的循环</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁“法典”市政后，允许在首都建造三种文明特色建筑。若拥有任意一种文明特色建筑或处于黄金时代时，所有城市产出+12%。建成文明特色建筑后，所有区域的相邻加成也提供 [ICON_Gold] 金币。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_STEAL_THE_DOOR_NAME" Language="zh_Hans_CN">
+			<Text>「门径」之半神</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_STEAL_THE_DOOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始解锁「占星术」科技。信奉您 [ICON_Religion] 主流宗教的城市将对外释放额外的忠诚度压力，且每 [ICON_Citizen] 人口提供1点全部产出。[NEWLINE] 您创立的且建成「刻法勒广场」的城市解锁区域项目： [ICON_Turn] 「逐火之旅」。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_DISPUTE_NAME" Language="zh_Hans_CN">
+			<Text>「纷争」之半神</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_DISPUTE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始解锁「采矿业」和「铸铜术」科技。 当解锁陆地军事单位的科技完成后，所有城市免费获得一个该单位。 [NEWLINE] 区域的 [ICON_Production] 生产力相邻加成+100% [NEWLINE] 拥有驻军的城市永久忠诚，忠诚的城市+5 [ICON_Amenities] 宜居度， [ICON_Production] 生产力提高30%。 [NEWLINE] 回合开始时，当前所有陆地单位的战斗力得到提升，提升值为当前所有城市 [ICON_Amenities] 宜居度之和；若当其在中立单元格上耗尽移动力时，立刻恢复其所有移动力。 [NEWLINE]  所有陆地单位+2移动力、驻扎一回合即可回复全额生命值，且能对城市输出全额伤害。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_ROMANCE_NAME" Language="zh_Hans_CN">
+			<Text>「浪漫」之半神</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_ROMANCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始解锁「灌溉」科技。改良设施单元格+2 [ICON_Culture] 文化+2 [ICON_Food] 食物，并提供额外的 [ICON_Housing] 住房和 [ICON_Amenities] 宜居度。[NEWLINE] 已改良奢侈品为所有城市提供 [ICON_Amenities] 宜居度，而不是通常的4个。[NEWLINE] 已拥有的单元格不降低相邻单元格魅力，区域获得不超过20的等同于单元格魅力值的产出。[NEWLINE] 任意玩家招募 [ICON_GreatPerson] 伟人时，基于招募该 [ICON_GreatPerson] 伟人所需点数的3%，增加您的所有 [ICON_GreatPerson] 伟人点数。建成 [ICON_DISTRICT_BATH] 云石天宫时，获得一名黄金裔。[NEWLINE] 城市从专业化区域获得20%的对应产出，15 [ICON_Citizen] 人口以上的城市，该效果翻倍。帝国中的每个 [ICON_Citizen] 人口提高1%所有产出。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_REASON_NAME" Language="zh_Hans_CN">
+			<Text>「理性」之半神</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_REASON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始解锁「写作」科技。解锁 [ICON_Science] 科技时，也随机解锁一个同时代 [ICON_Science] 科技。专业化区域小于三个的城市， [ICON_Production] 建造专业化区域所需的时间大幅缩短。移除地貌的收益+50%，同时解锁建造者栽种天然林的能力。</Text>
+		</Replace>
+		
+		<!--District-->
+		<Replace Tag="LOC_DISTRICT_KEFALEPLAZA_NAME" Language="zh_Hans_CN">
+			<Text>刻法勒广场</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_KEFALEPLAZA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>缇里西庇俄丝的特色区域，替代 [ICON_DISTRICT_HOLYSITE] 圣地，建造费用更低，建成时对相邻单元格释放文化炸弹，初始拥有+3相邻加成，并额外继承圣地的相邻加成。[NEWLINE] 建成后，允许使用 [ICON_Faith] 信仰值购买建筑，本城购买建筑时享受50%折扣。[NEWLINE] 从相邻的平坦地形单元格获得+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FIGHTING_CAMP_NAME" Language="zh_Hans_CN">
+			<Text>悬锋斗技场</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FIGHTING_CAMP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>万敌的特色区域，替代军营，建造费用更低，建成时对相邻单元格释放文化炸弹，允许在城市一环修建，不降低相邻单元格的魅力，建成时获得一名黄金裔。[NEWLINE] 该区域中的每个建筑为城市提供2点 [ICON_Housing] 住房。该区域从相邻的矿山和采石场获得生产力，每个已建成的悬锋斗技场为所有单位+2战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MARBLE_NAME" Language="zh_Hans_CN">
+			<Text>云石天宫</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MARBLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由灌溉解锁的阿格莱雅特色区域，替代水渠，建造费用更低且能提供更多 [ICON_Housing] 住房，具有 [ICON_Gold] 金币相邻加成，能为相邻单元格增加魅力和相邻加成。[NEWLINE] 建成时赠送一名黄金裔。建成后，该城市 [ICON_Citizen] 人口立刻填充到[ICON_Housing] 住房上限，本城种植园改良设施+1 [ICON_Food] 食物、+2 [ICON_Production] 生产力。[NEWLINE] 每个云石天宫为建造区域+20% [ICON_Production] 生产力，且与云石天宫相邻的区域相邻加成+100%。场上每有一个云石天宫，[NEWLINE] 所有云石天宫便能额外产出1 [ICON_Amenities] 宜居度、1 [ICON_Housing] 住房、2点 [ICON_Food] 食物和2点 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TREE_COURT_NAME" Language="zh_Hans_CN">
+			<Text>树庭</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TREE_COURT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>那刻夏的特色区域，替代学院，建造费用更高但基础产出也较高，拥有 [ICON_Culture] 文化值相邻加成，而非通常的 [ICON_Science] 科技值。建成时，获得1名黄金裔、对相邻单元格释放文化炸弹并在本城建成城墙。建成时，本城市二环以内的单元格会生成天然林。建成后，新训练的建造者+1使用次数。该区域内的建筑+2住房，该区域地基和建筑为本城中的树林+1科技值+1生产力，雨林+1文化值+2金币，并赠送一项随机 [ICON_Science] 科技。</Text>
+		</Replace>
+
+		<!--Project-->
+		<Replace Tag="LOC_PROJECT_A_JOURNEY_BY_FIRE_NAME" Language="zh_Hans_CN">
+			<Text>逐火之旅</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_A_JOURNEY_BY_FIRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提里西庇俄丝的特色项目，需要区域「刻法勒广场」。[NEWLINE]执行项目期间，该城每回合对外释放大量 [ICON_Religion] 宗教压力，并提供4倍于“圣地祷告者”的 [ICON_Faith] 信仰值和大预言家点数。[NEWLINE]完成项目后，提里西庇俄丝的宗教将会传播到所有城市，本城对外输出压力提高400%。[NEWLINE]完成项目后，所有「刻法勒广场」+2 [ICON_Faith] 信仰值和+2 [ICON_Tourism] 旅游业绩，并获得1名黄金裔（若可以获得）。</Text>
+		</Replace>
+
+		<!--Ability-->
+		<Replace Tag="LOC_NW_WANDI_COMBAT_STRENGTH_FOR_ALL_UNIT_DESC" Language="zh_Hans_CN">
+			<Text>+{Property} 来自城市宜居度</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

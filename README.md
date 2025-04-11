@@ -304,4 +304,5 @@ Auto-generated translations for the following mods are currently included in thi
 | [3440390953](https://steamcommunity.com/sharedfiles/filedetails/?id=3440390953) | civ 5 new leaders | civ 5 new leaders |
 | [3447024901](https://steamcommunity.com/sharedfiles/filedetails/?id=3447024901) | KiloWhite's MOD | KiloWhite's MOD |
 | [3451186356](https://steamcommunity.com/sharedfiles/filedetails/?id=3451186356) | [HONKAI:STAR RAIL] AMPHOREUS PACK | [HONKAI:STAR RAIL] AMPHOREUS PACK |
+| [3455609077](https://steamcommunity.com/sharedfiles/filedetails/?id=3455609077) | [HONKAI:STAR RAIL] AMPHOREUS PLUS PACK | [HONKAI:STAR RAIL] AMPHOREUS PLUS PACK |
 | [3458385576](https://steamcommunity.com/sharedfiles/filedetails/?id=3458385576) | 백귀야행 연합학원 | Backwi Nocturnal Academy |
