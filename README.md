@@ -305,6 +305,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3447024901](https://steamcommunity.com/sharedfiles/filedetails/?id=3447024901) | KiloWhite's MOD | KiloWhite's MOD |
 | [3448635771](https://steamcommunity.com/sharedfiles/filedetails/?id=3448635771) | 深空之眼 核心代码 阶段2 | Eye of Deep Space Core Code Stage 2 |
 | [3448638278](https://steamcommunity.com/sharedfiles/filedetails/?id=3448638278) | 深空之眼 苍鹭·托特 | Eye of the Deep Space Heron Tot |
+| [3448642415](https://steamcommunity.com/sharedfiles/filedetails/?id=3448642415) | 深空之眼 绘夜之诗·托特 | Eye of the Deep Sky Poem of the Night · Tot |
 | [3451186356](https://steamcommunity.com/sharedfiles/filedetails/?id=3451186356) | [HONKAI:STAR RAIL] AMPHOREUS PACK | [HONKAI:STAR RAIL] AMPHOREUS PACK |
 | [3455609077](https://steamcommunity.com/sharedfiles/filedetails/?id=3455609077) | [HONKAI:STAR RAIL] AMPHOREUS PLUS PACK | [HONKAI:STAR RAIL] AMPHOREUS PLUS PACK |
 | [3458385576](https://steamcommunity.com/sharedfiles/filedetails/?id=3458385576) | 백귀야행 연합학원 | Backwi Nocturnal Academy |
