@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Sat Apr 12 12:27:15 2025-->
+<!-- Mon Jun  9 13:15:38 2025-->
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_NAME" Language="fr_FR">
+			<Text>Piste légère</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_DESCRIPTION" Language="fr_FR">
+			<Text>Zone en vedette, remplacer {loc_district_aerodrome_name}, par un coût inférieur. Une fois terminé, la ville aura une productivité supplémentaire de + 5% [icon_production]. Une fois terminé, la ville aura une productivité supplémentaire de + 5% [icon_production]. Une fois terminé, la ville aura une productivité supplémentaire de + 5% [icon_production]. Une fois terminé, la ville aura une productivité supplémentaire de + 5% [icon_production].</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="fr_FR">
 			<Text>Domaine de Dieu saint arbre</Text>
 		</Replace>
@@ -22,31 +28,37 @@
 			<Text>Organisation de réviseur</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>[Couleur: ResmilitaryLabelcs] ne peut pas construire toutes les unités militaires [Endcolor], mais peut construire des révisionnistes et des unités de soutien, et peut toujours utiliser la foi [icon_faith] pour acheter des constructeurs, des espions et des unités de soutien.</Text>
+			<Text>[Couleur: ResmilitaryLabelcs] ne peut pas construire toutes les unités militaires [Endcolor], mais peut construire des révisionnistes, toujours en mesure d'utiliser la foi [icon_faith] pour acheter des constructeurs, des espions et des unités de soutien.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_NAME" Language="fr_FR">
+			<Text>Coordonnée</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_DESCRIPTION" Language="fr_FR">
+			<Text>Les modificateurs de co-ajustement remplacent tous les modificateurs et leur puissance de combat est plus élevée. Si la puissance de mouvement [icon_movement] permet, +1 attaque supplémentaire par tour, vous pouvez vous déplacer après l'attaque et vous ne souffrerez pas de débuffes de pouvoir de combat après une blessure. [Couleur: ResmilitaryLabelcs], mais c'est très cher [Endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="fr_FR">
-			<Text>Système MIMIEL</Text>
+			<Text>Melande</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Le domaine du domaine divin Holy Tree est initialement déverrouillé, avec des coûts plus faibles et sans augmentation de prix, et peut être construit quels que soient les besoins de la population. Une fois terminé, les cellules environnantes seront +2 [icon_food] aliments +2 [icon_production] Productivité +2 [icon_gold] Gold Coins. Les cellules améliorées apprécieront également les effets ci-dessus.</Text>
+			<Text>Le domaine du domaine divin Holy Tree est initialement déverrouillé, avec des coûts plus faibles et sans augmentation de prix, et peut être construit quels que soient les besoins de la population. Une fois terminé, les cellules environnantes seront +2 [icon_food] aliments +2 [icon_production] Productivité +2 [icon_gold] Gold Coins</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_NAME" Language="fr_FR">
-			<Text>Centre informatique</Text>
+			<Text>Librairie &quot;Moon Country&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_DESCRIPTION" Language="fr_FR">
-			<Text>Recherche sur les cellules environnantes +2 [icon_production] Productivité +2 [icon_faith] foi +2 [icon_science], les cellules améliorées jouissent également des effets ci-dessus</Text>
+			<Text>Recherche sur les cellules environnantes +2 [icon_production] Productivité +2 [icon_faith] foi +2 [icon_science]</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_NAME" Language="fr_FR">
-			<Text>Périphérique de stockage</Text>
+			<Text>Centre médical de Hagia Sophia</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_DESCRIPTION" Language="fr_FR">
-			<Text>Recherche sur les cellules environnantes +2 [icon_food] aliments +2 [icon_production] Productivité +2 [icon_science], les cellules améliorées apprécient également les effets ci-dessus</Text>
+			<Text>Recherche sur les cellules environnantes +2 [icon_food] aliments +2 [icon_production] Productivité +2 [icon_science]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="fr_FR">
-			<Text>Gérer la salle de miaulement</Text>
+			<Text>Université de la ville de la côte ouest</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Le domaine du domaine divin Holy Tree, au lieu de {loc_district_theater_name, est initialement déverrouillé, construit gratuitement et n'augmentera pas les prix et peut être construit quels que soient les besoins de la population. Avec la culture [icon_culture] unique et la croyance [icon_faith] bonus adjacent</Text>
+			<Text>Le domaine divin Holy Tree comportait une zone, remplaçant {loc_district_theater_name}, initialement déverrouillé, libre de construire sans augmentation de prix et peut être construite quels que soient les besoins de la population. Avec la culture [icon_culture] unique et la croyance [icon_faith] bonus adjacent</Text>
 		</Replace>
 		<Replace Tag="LOC_WONDER_CULTURE_HALF_DESCRIPTION" Language="fr_FR">
 			<Text>+ {1_num} [icon_culture] La culture provient de merveilles artificielles voisines</Text>
@@ -64,10 +76,187 @@
 			<Text>À clé de</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAOCONG_RECON_DESCRIPTION" Language="fr_FR">
-			<Text>Les premières unités de reconnaissance, après avoir recherché {loc_tech_the_wheel_name}, ils peuvent être mis à niveau pour réinstaller la correction de la mêlée [newline] - sera restreinte par toutes les unités</Text>
+			<Text>Les premières unités de reconnaissance, après avoir recherché {loc_tech_the_wheel_name}, ils peuvent être mis à niveau vers la correction de la mêlée de réinstallation précoce [newline] - sera restreinte par toutes les unités</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_NAME" Language="fr_FR">
+			<Text>Clé avancée de</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_DESCRIPTION" Language="fr_FR">
+			<Text>Les premières unités de reconnaissance, après avoir recherché {loc_tech_the_wheel_name}, ils peuvent être mis à niveau vers la correction de réinstallation de réinstallation précoce [newline] - sera restreinte par toutes les unités de toutes les unités</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_NAME" Language="fr_FR">
+			<Text>Mystère de production massive</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_DESCRIPTION" Language="fr_FR">
+			<Text>L'unité de support spéciale, qui effectue une imitation à grande échelle basée sur les clés des clés prononcées, a une puissance de combat à longue portée, et toutes les unités de formation ont obtenu la puissance de mobilité de l'unité [Newline] [Couleur: ResmilitaryLabelcs] L'unité a des coûts de maintenance extrêmement élevés, veuillez construire avec prudence! [Endcolor] [newline] Research {loc_tech_stirrups_name}, {loc_tech_bollisticstic Gens</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_NAME" Language="fr_FR">
+			<Text>Correction de mêlée cotillante pionnière</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de mêlée forte avec une bonne létalité [Newline] + bonne pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_NAME" Language="fr_FR">
+			<Text>Correction de mêlée de co-réglage précoce</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de mêlée forte avec une bonne létalité [Newline] + bonne pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_NAME" Language="fr_FR">
+			<Text>Coordonner la correction de la mêlée</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de mêlée forte avec une bonne létalité [Newline] + bonne pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_NAME" Language="fr_FR">
+			<Text>Correcteur de mêlée de coturier difficile</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de mêlée forte avec une bonne létalité [Newline] + bonne pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_NAME" Language="fr_FR">
+			<Text>Correcteur de mêlée coturiétique expérimenté</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de mêlée forte avec une bonne létalité [Newline] + bonne pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_NAME" Language="fr_FR">
+			<Text>Correcteur de mêlée de coturification glorieux</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de mêlée forte avec une bonne létalité [Newline] + bonne pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_NAME" Language="fr_FR">
+			<Text>Correcteur de mêlée co-réglante de l'élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de mêlée forte avec une bonne létalité [Newline] + bonne pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_NAME" Language="fr_FR">
+			<Text>Corrections à distance de co-réglage précoce</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_DESCRIPTION" Language="fr_FR">
+			<Text>Une forte unité à longue portée, adaptée à la mise à mort à longue portée d'ennemis [Newline] + à longue portée [Newline] + bonne pour lutter contre les unités de mêlée [Newline] - Low Melee Combat Power [Newline] - Low Movement Power [Newline] sera restreinte par les unités de cavalerie</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_NAME" Language="fr_FR">
+			<Text>Correction de télécommande de coturier</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_DESCRIPTION" Language="fr_FR">
+			<Text>Une forte unité à longue portée, adaptée à la mise à mort à longue portée d'ennemis [Newline] + à longue portée [Newline] + bonne pour lutter contre les unités de mêlée [Newline] - Low Melee Combat Power [Newline] - Low Movement Power [Newline] sera restreinte par les unités de cavalerie</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_NAME" Language="fr_FR">
+			<Text>Correction à distance de co-réglage expérimentée</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_DESCRIPTION" Language="fr_FR">
+			<Text>Une forte unité à longue portée, adaptée à la mise à mort à longue portée d'ennemis [Newline] + à longue portée [Newline] + bonne pour lutter contre les unités de mêlée [Newline] - Low Melee Combat Power [Newline] - Low Movement Power [Newline] sera restreinte par les unités de cavalerie</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_NAME" Language="fr_FR">
+			<Text>Correction à distance de co-réglage de l'élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_DESCRIPTION" Language="fr_FR">
+			<Text>Une forte unité à longue portée, adaptée à la mise à mort à longue portée d'ennemis [Newline] + à longue portée [Newline] + bonne pour lutter contre les unités de mêlée [Newline] - Low Melee Combat Power [Newline] - Low Movement Power [Newline] sera restreinte par les unités de cavalerie</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_NAME" Language="fr_FR">
+			<Text>Correction des armes légères coordonnées</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="fr_FR">
+			<Text>Une puissante unité de siège adaptée à la lutte contre les zones et peut se battre dans les eaux [Newline] Research {loc_tech_stirrups_name}, {loc_tech_bolsticstics_name}, {loc_tech_combustion_name} et {loc_tech_synthetic_materials_name} peut permettre l'efficacité du combat de l'efficacité de l'unité de l'unité [ICON_STRERGHT] Research {loc_tech_computers_name} peut augmenter la plage de l'unité [icon_range] [newline] + à longue portée [newline] + mobilité élevée [newline] + bonne zone [newline] + combats dans les eaux [newline] - champ de vision [newline] -low melee combat Power [newline] - sera restreint par cavalry units Unets</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_NAME" Language="fr_FR">
+			<Text>Correction de l'arme légère co-tun d'élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="fr_FR">
+			<Text>Une unité de siège forte, adaptée à la lutte contre les zones, capable de combattre dans les eaux [newline] + longue portée [newline] + mobilité élevée [newline] + bien pour combiner les zones [newline] + capable de combattre dans les eaux [newline] - un champ de vision bas [newline] - Low Melee Combat Power [Newline] - sera restreint par des unités de cavalrie</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_NAME" Language="fr_FR">
+			<Text>Correction des opérations spéciales co-ajustées précoces</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_DESCRIPTION" Language="fr_FR">
+			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_NAME" Language="fr_FR">
+			<Text>Correction des opérations spéciales coordonnées</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_DESCRIPTION" Language="fr_FR">
+			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_NAME" Language="fr_FR">
+			<Text>Correction des opérations spéciales difficiles et coturiques</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_DESCRIPTION" Language="fr_FR">
+			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + la haute mobilité [newline] + bien dans les zones de combat [newline] + bien pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_NAME" Language="fr_FR">
+			<Text>Correction des opérations spéciales expérimentées</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_DESCRIPTION" Language="fr_FR">
+			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_NAME" Language="fr_FR">
+			<Text>CODUNATION DE COLAGE SPÉCIAL COTUN</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_DESCRIPTION" Language="fr_FR">
+			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_NAME" Language="fr_FR">
+			<Text>Correction des armes coordonnées</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de siège à longue portée très puissante avec une forte puissance de combat de mêlée, qui est très adaptée à la lutte contre les zones [Newline] Research {loc_tech_stirrups_name}, {loc_tech_bollisticstics_name}, {loc_tech_combustion_name} et {loc_tech_synthetic_materials_name} [Icon_strength] [ne wline] Research {loc_tech_computers_name} peut augmenter la plage de l'unité [icon_range] [newline] + grande gamme [newline] + puissance de combat de mêlée élevée [newline] + zone [newline] + bonne zone de combat [newline] + bon unité de combat [newline] + peut combattre sur l'eau [newline] -Le champ de vision de la vision de la vision [newline] + La mobilité [Newline] sera retenue par des unités anti-cavalerie</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_NAME" Language="fr_FR">
+			<Text>CODURE CODURE D'ARMES ÉLITE</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="fr_FR">
+			<Text>Unité de siège à longue portée très puissante avec une forte puissance de combat de mêlée, très adapté à la gestion des zones [Newline] + à longue portée [Newline] + une puissance de combat de mêlée élevée [Newline] + Good dans les zones de combat [Newline] + Good in Fighting Cavalry Units [Newline] + Newline)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_NAME" Language="fr_FR">
+			<Text>Correction de réinstallation de co-réglage précoce</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_DESCRIPTION" Language="fr_FR">
+			<Text>L'unité de cavalerie de mêlée avec une vitesse de déplacement élevée a une super létalité et peut endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [newline] + bien dans les zones de combat [Newline] - sera restreinte par les unités anti-cartouques</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_NAME" Language="fr_FR">
+			<Text>Coordonner la réinstallation du correcteur de mêlée</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_DESCRIPTION" Language="fr_FR">
+			<Text>L'unité de cavalerie de mêlée avec une vitesse de déplacement élevée a une super létalité et peut endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [newline] + bien dans les zones de combat [Newline] - sera restreinte par les unités anti-cartouques</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_NAME" Language="fr_FR">
+			<Text>Correcteur de mêlée de réinstallation difficile</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_DESCRIPTION" Language="fr_FR">
+			<Text>L'unité de cavalerie de mêlée avec une vitesse de déplacement élevée a une super létalité et peut endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [newline] + bien dans les zones de combat [Newline] - sera restreinte par les unités anti-cartouques</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_NAME" Language="fr_FR">
+			<Text>Correcteur de mêlée de réinstallation expérimenté</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_DESCRIPTION" Language="fr_FR">
+			<Text>L'unité de cavalerie de mêlée avec une vitesse de déplacement élevée a une super létalité et peut endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [newline] + bien dans les zones de combat [Newline] - sera restreinte par les unités anti-cartouques</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_NAME" Language="fr_FR">
+			<Text>Correcteur de réinstallation de co-réglage de l'élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_DESCRIPTION" Language="fr_FR">
+			<Text>L'unité de cavalerie de mêlée avec une vitesse de déplacement élevée a une super létalité et peut endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [newline] + bien dans les zones de combat [Newline] - sera restreinte par les unités anti-cartouques</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_NAME" Language="fr_FR">
+			<Text>Coordonner la réinstallation du fixateur à distance</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_DESCRIPTION" Language="fr_FR">
+			<Text>Des unités spéciales à distance, seules certains des dirigeants révisionnistes peuvent construire, peuvent facilement résister aux attaques des unités de mêlée et des unités à distance. Avec la mise à niveau de la technologie, la gamme est également plus éloignée que celle des correcteurs à longue portée ordinaires [Newline] Research {loc_tech_stirrups_name}, {loc_tech_bollisticstics_name}, {loc_tech_combustion_name} et {loc_tech_synthetic_materials_name} peut permettre un unit [ICIO de la puissance de combat [newline] {loc_tech_flight_name}, {loc_tech_computers_name} peut augmenter la gamme de l'unité [icon_range] [newline] + puissance de combat de mêlée élevée [newline] + bon à combattre les unités de médule [newline] + bien dans la gamme de combats Units [newline] -low moility [newline] -vré</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_NAME" Language="fr_FR">
+			<Text>Co-réglage et réinstallation de la correction à distance</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_DESCRIPTION" Language="fr_FR">
+			<Text>Des unités à distance spéciales, seuls certains chefs de file de la révision peuvent construire, peuvent facilement résister aux attaques des unités de mêlée et des unités à distance, et conviennent également aux zones. La plage est également plus éloignée que les corrections à longue distance d'élite ordinaires [newline] + puissance de combat de mêlée élevée [newline] + high gamme [newline] + bien pour lutter</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_NAME" Language="fr_FR">
+			<Text>Raffinage</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_NAME" Language="fr_FR">
-			<Text>Correctionniste de mêlée pionnière</Text>
+			<Text>Correction de la mêlée pionnière</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="fr_FR">
 			<Text>Unité de mêlée de base avec une bonne létalité [Newline] + bonne pour lutter</Text>
@@ -136,7 +325,7 @@
 			<Text>Correctionniste d'armes légères</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Les unités de siège de base, adaptées à la lutte contre les zones, peuvent se battre dans les eaux [newline] Research {loc_tech_stirrups_name}, {loc_tech_bollisticstics_name}, {loc_tech_combustion_name} et {loc_tech_synthetic_materials_name} peuvent améliorer l'efficacité du combat de l'efficacité de l'unité de l'unité [naire]] {Loc_tech_flight_name}, {loc_tech_computers_name} peut augmenter la plage de l'unité [icon_Range] [newline] + haute mobilité [newline] + bon domaine [newline] + peut combattre sur les eaux [newline] -low champ de vision de la vision [newline] -low melee combat Power [newline] -vré être restreint par Cavalry UNITS Power [Newline] -Will être réduit par Cavalre</Text>
+			<Text>Basic siege units, suitable for combating areas, can fight in waters [NEWLINE] Research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can improve the combat effectiveness of the unit [ICON_Strength][NE WLINE]Research {Loc_tech_flight_name}, {loc_tech_computers_name} peut augmenter la plage de l'unité [icon_Range] [newline] + haute mobilité [newline] + bon domaine [newline] + peut combattre sur les eaux [newline] -low champ de vision de la vision [newline] -low melee combat Power [newline] -vré être restreint par Cavalry UNITS Power [Newline] -Will être réduit par Cavalre</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_RELOAD_NAME" Language="fr_FR">
 			<Text>Correction d'armes légères d'élite</Text>
@@ -145,34 +334,40 @@
 			<Text>L'unité de siège de base, adaptée à la lutte contre les zones, capable de combattre dans les eaux [newline] + haute mobilité [newline] + bien pour lutter contre les zones [Newline] + capable de combattre dans les eaux [Newline] - Low Field of Vision [Newline] - Low Melee Combat Power [Newline] - sera restreint par des unités de cavalerie</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_NAME" Language="fr_FR">
-			<Text>Correctionniste des opérations spéciales</Text>
+			<Text>Correctionniste des opérations spéciales précoces</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
+			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + la haute mobilité [newline] + bien dans les zones de combat [newline] + bien pour lutter</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_NAME" Language="fr_FR">
-			<Text>Correctionniste des opérations spéciales difficiles</Text>
+			<Text>Correctionniste des opérations spéciales</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="fr_FR">
 			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_NAME" Language="fr_FR">
-			<Text>Correctionniste des opérations spéciales expérimentées</Text>
+			<Text>Correctionniste des opérations spéciales difficiles</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
+			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + la haute mobilité [newline] + bien dans les zones de combat [newline] + bien pour lutter</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_NAME" Language="fr_FR">
-			<Text>Correctionniste des opérations spéciales d'élite</Text>
+			<Text>Correctionniste des opérations spéciales expérimentées</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="fr_FR">
+			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_NAME" Language="fr_FR">
+			<Text>Correctionniste des opérations spéciales d'élite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="fr_FR">
 			<Text>Les unités capables de se battre dans les eaux, avec la bombardement de la puissance de combat avec la gamme 1 [Newline] + High Mobility [Newline] + Good dans les zones de combat [Newline] + Good to Fighting Naval Units [Newline] + Can Fight in Waters [Newline] - Les zones portuaires seront conçues [Newline] - pas bon pour lutter contre les unités anti-cavalières [Newline] - seront restreintes par des unités et des Units anti-cavaliers [Newline]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_NAME" Language="fr_FR">
 			<Text>Correctionniste d'armes lourdes</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>L'unité de siège à longue portée terrifiante, seuls certains des dirigeants des corrections peuvent être formés, possède une forte puissance de combat de mêlée, qui est très adaptée à la lutte contre les zones [Newline] Research {LOC_TECH_STIRRUPS_NAME}, {loc_tech_bollisticstics_name}, {LOC_TECH_MEMERION_NAME} et {loc_tech_systhetic_Materials_Name} et {loc_tech_syNhetic_Materials_Name} et {loc_tech_systhetic_Materials_Name} et {LOC_TECH_SYNTETITIQUE Améliorer la puissance de combat de l'unité [icon_strength] [n ewline] Research {loc_tech_flight_name}, {loc_tech_computers_name} Vision Range [Newline] -Low Mouvement Power [Newline] - sera restreinte par les unités anti-cavalerie</Text>
+			<Text>L'unité de siège à longue portée terrifiante, seuls certains des dirigeants des corrections peuvent être formés, possède une forte puissance de combat de mêlée, qui est très adaptée à la lutte contre les zones [Newline] Research {LOC_TECH_STIRRUPS_NAME}, {loc_tech_bollisticstics_name}, {LOC_TECH_MEMERION_NAME} et {loc_tech_systhetic_Materials_Name} et {loc_tech_syNhetic_Materials_Name} et {loc_tech_systhetic_Materials_Name} et {LOC_TECH_SYNTETITIQUE Améliorer la puissance de combat de l'unité [icon_strength] [n ewline] Research {loc_tech_flight_name}, {loc_tech_computers_name} peut augmenter la gamme de l'unité [icon_range] [newline] + High Melee Combat Power [Newline] + Good at Counter-Attack [Newline] + Good AT COMPUT-TATTAP gamme [newline] -lower motion power [newline] - sera restreinte par les unités anti-cavalry</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_RELOAD_NAME" Language="fr_FR">
 			<Text>Correction des armes lourdes d'élite</Text>
@@ -190,19 +385,19 @@
 			<Text>Réinstaller le correcteur de mêlée</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Les unités de cavalerie de mêlée à grande vitesse de déplacement ne sont que quelques-uns des dirigeants correcteurs qui peuvent s'entraîner. Ils ont une super létalité et peuvent endommager pleinement les murs de la ville [newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [Newline] + Good dans les zones de combat [Newline] - seront restreintes par les unités anti-cavalerie</Text>
+			<Text>Les unités de cavalerie de mêlée avec une vitesse de mouvement élevée ne sont que quelques-unes des leaders des corrections, et ont une super létalité et peuvent endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [Newline] + Good dans les zones de combat [Newline] - sera retenue par les unités anti-cavalry</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_NAME" Language="fr_FR">
-			<Text>Correcteur de mêlée de réinstallation expérimenté</Text>
+			<Text>RÉCLAPTION DU CORRECTIVE MELEE</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Les unités de cavalerie de mêlée à grande vitesse de déplacement ne sont que quelques-uns des dirigeants correcteurs qui peuvent s'entraîner. Ils ont une super létalité et peuvent endommager pleinement les murs de la ville [newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [Newline] + Good dans les zones de combat [Newline] - seront restreintes par les unités anti-cavalerie</Text>
+			<Text>Les unités de cavalerie de mêlée avec une vitesse de mouvement élevée ne sont que quelques-unes des leaders des corrections, et ont une super létalité et peuvent endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [Newline] + Good dans les zones de combat [Newline] - sera retenue par les unités anti-cavalry</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_NAME" Language="fr_FR">
-			<Text>Réinstallation avancée correctionniste de mêlée</Text>
+			<Text>Correcteur de mêlée de réinstallation expérimenté</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Les unités de cavalerie de mêlée à grande vitesse de déplacement ne sont que quelques-uns des dirigeants correcteurs qui peuvent s'entraîner. Ils ont une super létalité et peuvent endommager pleinement les murs de la ville [newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [Newline] + Good dans les zones de combat [Newline] - seront restreintes par les unités anti-cavalerie</Text>
+			<Text>Les unités de cavalerie de mêlée avec une vitesse de mouvement élevée ne sont que quelques-unes des leaders des corrections, et ont une super létalité et peuvent endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [Newline] + Good dans les zones de combat [Newline] - sera retenue par les unités anti-cavalry</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_RELOAD_NAME" Language="fr_FR">
 			<Text>Élite réinstalle le correcteur de la mêlée</Text>
@@ -210,14 +405,11 @@
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="fr_FR">
 			<Text>Les unités de cavalerie de mêlée avec une vitesse de mouvement élevée ne sont que quelques-unes des leaders des corrections, et ont une super létalité et peuvent endommager pleinement les murs de la ville [Newline] + une puissance de combat de mêlée élevée [Newline] + une puissance élevée de mouvement [Newline] + Good dans les zones de combat [Newline] - sera retenue par les unités anti-cavalry</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_REFINING_NAME" Language="fr_FR">
-			<Text>Raffinage</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_NAME" Language="fr_FR">
 			<Text>Réinstaller un fixateur à distance</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Des unités à distance spéciales, seules certains des dirigeants révisionnistes peuvent construire, peuvent facilement résister aux attaques des unités de mêlée et des unités à distance. Avec la mise à niveau de la technologie, la gamme est également plus éloignée que celle des correcteurs à longue portée ordinaires [Newline] Research {loc_tech_stirrups_name}, {loc_tech_bollisticstics_name}, {loc_tech_combustion_name} et {loc_tech_synthetic_materials_name} peut permettre un unit [ICIO de la puissance de combat [newline] {loc_tech_flight_name}, {loc_tech_computers_name} peut augmenter la plage de l'unité [icon_range] [newline] + puissance de combat de mêlée élevée [newline] + bon à combattre les unités de mêlée [newline] + bien à la plage de combats Unités [newline] -Low moility [newline] -vré</Text>
+			<Text>Des unités spéciales à distance, seules certains des dirigeants révisionnistes peuvent construire, peuvent facilement résister aux attaques des unités de mêlée et des unités à distance. Avec la mise à niveau de la technologie, la gamme est également plus éloignée que celle des correcteurs à longue portée ordinaires [Newline] Research {loc_tech_stirrups_name}, {loc_tech_bollisticstics_name}, {loc_tech_combustion_name} et {loc_tech_synthetic_materials_name} peut permettre un unit [ICIO de la puissance de combat [newline] {loc_tech_flight_name}, {loc_tech_computers_name} peut augmenter la gamme de l'unité [icon_range] [newline] + puissance de combat de mêlée élevée [newline] + bon à combattre les unités de médule [newline] + bien dans la gamme de combats Units [newline] -low moility [newline] -vré</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_RELOAD_NAME" Language="fr_FR">
 			<Text>Réinstallation d'élite Fixer à distance</Text>
@@ -610,13 +802,19 @@
 			<Text>L'anneau de raison</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="fr_FR">
-			<Text>Unités de support spéciales, ils ont une puissance de combat et toutes les unités de formation ont obtenu la puissance de mobilité de l'unité [Newline] [Couleur: ResmilitaryLabelcs] L'unité a des coûts de maintenance extrêmement élevés, veuillez construire avec prudence! [Endcolor] [newline] Research {loc_tech_stirrups_name}, {loc_tech_bollistics_name}, {loc_tech_combustion_name}, {loc_tech_synthetic_materials_name] peut améliorer l'efficacité du combat de l'unité [icon_stringth] [ne wline] Research] {Loc_tech_flight_name}, {loc_tech_computers_name} peut augmenter la gamme et le champ de vision de l'unité [icon_range] [newline] + mobilité élevée [newline] + puissance de combat à longue portée [newline] + Formation capable avec toutes les unités militaires [newline] - Frais de maintenance à longue portée [Newline] -vré être contenus par les unités militaires [Newline] - Frais de maintenance à long terme [Newline] -vré être contenus par les unités militaires [Newline] - Frais de maintenance à long terme [Newline] -vré être contenus par les unités militaires [Newline] - Frais de maintenance à longue portée [Newline] -vré être contenus par les unités militaires [NewLine] -High Tawentenance [Newline] -v.</Text>
+			<Text>L'unité de support spéciale, basée sur la clé de Heimdal, a sa propre puissance de combat, et toutes les unités de formation ont obtenu la mobilité de l'unité [Newline] [Couleur: ResmilitaryLabelcs] Les frais de maintenance de cette unité sont extrêmement élevés, veuillez le construire avec prudence! [Endcolor] [newline] Research {loc_tech_stirrups_name}, {loc_tech_bollistics_name}, {loc_tech_combustion_name}, {loc_tech_synthetic_materials_name] peut améliorer l'efficacité du combat de l'unité [icon_stringth] [ne wline] Research] {Loc_tech_flight_name}, {loc_tech_computers_name} peut augmenter la gamme et le champ de vision de l'unité [icon_range] [newline] + mobilité élevée [newline] + puissance de combat à longue portée [newline] + Formation capable avec toutes les unités militaires [newline] - Frais de maintenance à longue portée [Newline] -vré être contenus par les unités militaires [Newline] - Frais de maintenance à long terme [Newline] -vré être contenus par les unités militaires [Newline] - Frais de maintenance à long terme [Newline] -vré être contenus par les unités militaires [NewLine] -High Tawtenance [Newline] -Will être contente par toutes</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="fr_FR">
 			<Text>Hela</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_DESCRIPTION" Language="fr_FR">
 			<Text>Les filles qui n'aiment pas communiquer avec les autres regardent toujours le ciel nocturne tranquillement seul, comme si elles avaient une expérience de l'enfance sombre.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_NAME" Language="fr_FR">
+			<Text>Lin Yu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_DESCRIPTION" Language="fr_FR">
+			<Text>Le disciple de Zhiming à la Sifang Academy est également son assistante. Il est intelligent et studieux et a de grandes réalisations dans les compétences institutionnelles. Avant l'éveil, je dépendais de ma sœur Yingzhao à vie, j'ai été témoin des difficultés que ma sœur a vécues pour se protéger et a toujours voulu faire ses preuves et réduire le fardeau de sa sœur.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_NAME" Language="fr_FR">
 			<Text>Mae Onibo Tengu</Text>
@@ -628,6 +826,9 @@
 			<Text>Osiris</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_DESCRIPTION" Language="fr_FR">
+			<Text>Le révisionniste le plus populaire du siège social s'appelle affectueusement &quot;Little Osiris&quot;. Après avoir découvert les problèmes de vos compagnons, vous ferez de votre mieux pour leur donner de l'aide et toujours mettre les affaires de vos compagnons en premier.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_AOXILISI_EXPANSION2_DESCRIPTION" Language="fr_FR">
 			<Text>Le révisionniste le plus populaire du siège social s'appelle affectueusement &quot;Little Osiris&quot;. Après avoir découvert les problèmes de vos compagnons, vous ferez de votre mieux pour leur donner de l'aide et toujours mettre les affaires de vos compagnons en premier.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_NAME" Language="fr_FR">
@@ -957,6 +1158,12 @@
 		<Replace Tag="LOC_IMPROVEMENT_MAOYIJIEDIAN_DESCRIPTION" Language="fr_FR">
 			<Text>Des installations d'amélioration spéciales, seuls certains chefs de file de la révision peuvent les construire, +5 [icon_gold] Gold Coins, et plus de résultats seront obtenus après les recherches sur les technologies connexes. Fournir +1 [icon_gold] Gold Coins +1 [icon_production] Productivité pour les routes commerciales internationales et nationales de la ville, et d'autres routes commerciales civilisées connectées à la ville fournissent +1 [icon_gold] Gold Coins +1 [icon_production] Productivité à la ville, et fournissent +1 [icon_gold] Coins d'or [icon_production] pour la productivité pour les pièces d'or [icon_ connecté à la ville et ne peut être construit que sur des cellules plates et vallonnées sans ressources bonus.</Text>
 		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_NAME" Language="fr_FR">
+			<Text>Mines écologiques</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_DESCRIPTION" Language="fr_FR">
+			<Text>Installations d'amélioration spéciales, seuls certains leaders de révision peuvent les construire, +1 [icon_food] aliments +1 [icon_production] productivité, et plus de résultats seront obtenus après les recherches sur les technologies connexes. Pour les cellules environnantes +1 charme, les installations améliorées peuvent obtenir une sortie de monnaie d'or de 100% supplémentaire [icon_gold] en fonction de la valeur de charme cellulaire. Après avoir recherché {loc_tech_industrialization_name}, les installations améliorées peuvent obtenir des performances touristiques de 25% [icon_tourism] basées sur la sortie de la pièce d'or.</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="fr_FR">
 			<Text>Amagaki Shinto Area</Text>
 		</Replace>
@@ -973,13 +1180,13 @@
 			<Text>Commerce de Tianlu</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>La zone de royaume divine de Tianyuan, remplace {loc_district_commercial_hub_name}, initialement débloqué, le coût est plus bas et le prix n'augmentera pas et peut être construit indépendamment des besoins de la population. Il a une pièce d'or unique [icon_gold] adjacente, et après la fin, il reçoit 2 routes commerciales [icon_traderoute] et 2 marchands. La ville que vous avez créée par vous, Tianlu Trade [icon_gold] Gold Coin Adjacent Bunus fournit également la valeur technologique [icon_science]</Text>
+			<Text>La zone de royaume divine de Tianyuan remplace {loc_district_commercial_hub_name}, qui est initialement déverrouillée, avec un coût inférieur et aucune augmentation de prix, et peut être construit indépendamment des besoins de la population. Il a une pièce d'or unique [icon_gold] adjacente, et après la fin, il reçoit 2 routes commerciales [icon_traderoute] et 2 marchands. La ville que vous avez créée par vous, Tianlu Trade [icon_gold] Gold Coin Adjacent Bunus fournit également la valeur technologique [icon_science]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Sifangyuan</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Tianyuan Divine Domain a présenté une zone, remplacer {loc_district_holy_site_name}, initialement déverrouillé, libre de construire sans augmentation de prix et peut être construite quels que soient les besoins de la population. Il a un bonus d'adjacence de nourriture [icon_food] unique, qui fournit également la foi [icon_faith]. La ville que vous avez créée par vous, le bonus d'adjacence de Sifangyuan [icon_food] fournit également la valeur culturelle [icon_culture]</Text>
+			<Text>La zone de royaume divine de Tianyuan remplace {loc_district_holy_site_name}, initialement déverrouillé, libre de construire sans augmentation de prix et peut être construite quels que soient les besoins de la population. Il a un bonus d'adjacence de nourriture [icon_food] unique, qui fournit également la foi [icon_faith]. La ville que vous avez créée par vous, le bonus d'adjacence de Sifangyuan [icon_food] fournit également la valeur culturelle [icon_culture]</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="fr_FR">
 			<Text>+ {1_num} [icon_food] La nourriture provient des zones adjacentes</Text>
@@ -1015,7 +1222,7 @@
 			<Text>+ {1_num} [icon_gold] Les pièces d'or proviennent des eaux adjacentes</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_IMPROVEMENT_GREY_WORKSTATION_ADD_1_GOLD_DESCRIPTION" Language="fr_FR">
-			<Text>+ {1_num} [icon_gold] Gold de {loc_improvement_grey_workstation_name}</Text>
+			<Text>+ {1_num} [icon_gold] L'or provient de {loc_improvementation_grey_workstation_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FAITH_DESCRIPTION" Language="fr_FR">
 			<Text>+ {1_num} [icon_faith] La foi provient de zones adjacentes</Text>
@@ -1093,22 +1300,22 @@
 			<Text>L'agent de l'hôpital de Sifang South Island, un médecin, est bien conscient des souffrances du peuple. Elle a installé le &quot;Chichi Hall&quot; à Nanjiaotong et a ouvert de nombreuses branches pour résoudre les maladies. Ling Guang est souvent assis à la clinique en personne pour traiter les patients qui viennent chercher un traitement médical et écouter leurs trivialités dans la vie.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="fr_FR">
-			<Text>Salle d'icône du cœur</Text>
+			<Text>Le dédale de cœur</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="fr_FR">
-			<Text>Nil Divine Domain a présenté la zone, remplacer {loc_district_holy_site_name}, déverrouillage initial, moindre coût et aucune augmentation de prix, peut être construit quels que soient les besoins de la population, +3 [icon_houting] le logement, sans bonus adjacent, après termes, chaque [icon_citizen] citoyen dans la ville +2 [icon_faith] foi [icon_citizen] dans la ville +2 [icon_faith] foi [icon_citizen] dans la ville +2 [icon_faith] foi [icon_citizen</Text>
+			<Text>Nil Divine Domain a présenté une zone, en remplaçant {loc_district_holy_site_name}, un déverrouillage initial, un coût inférieur et aucune augmentation de prix, peut être construit quels que soient les besoins de la population, +3 [icon_housing] le logement, sans aucun bonus adjacent, après l'achèvement, chaque [icon_citizen] citoyen dans la ville +2 [icon_faith] foi [icon_cizen]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Industrie lourde de Neuhansa</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Nil Divine Domain a présenté la zone, remplacer {loc_district_industrial_zone_name}, déverrouillage initial, construction gratuite sans augmentation de prix, peut être construite quels que soient les besoins de la population, +3 [icon_housing] le logement, sans aucun bonus adjacent, après l'achèvement, chaque [icon_citizen] citoyen dans la ville +2 [icon_production] productivité</Text>
+			<Text>Nil Divine Domain a présenté une zone, en remplaçant {loc_district_industrial_zone_name}, déverrouillage initial, construction gratuite sans augmentation de prix, peut être construite quels que soient les besoins de la population, +3 [icon_housing] le logement, sans bonus adjacent, après terminement, chaque [icon_citizen] citoyen dans la ville +2 [icon_production] productivité)</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Plantation technologique</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Installations d'amélioration spéciales, seul le leader du royaume du Nil peut les construire, +1 [icon_food] aliments +1 [icon_production] performance +4 [icon_housing] logement +2 [icon_amenities] vivant, plus de production peut être obtenue après la recherche de technologies connexes, permettant la construction sur les plaines inondables, l'OASIS et les marécages sans ressources, ce qui</Text>
+			<Text>Installations d'amélioration spéciales, seul le leader du royaume du Nil peut les construire, +1 [icon_food] aliments +1 [icon_production] performance +4 [icon_hounging] logement +2 [icon_amenities] vivant, plus de production peut être obtenue après avoir recherché des technologies connexes, permettant la construction sur les plaines inondables, l'OASIS et les émeutes sans ressources,</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="fr_FR">
 			<Text>Domaine du Nil</Text>
@@ -1123,7 +1330,7 @@
 			<Text>Royaume divin-nilo</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="fr_FR">
-			<Text>Desert Plains and Desert Hills +3 [icon_food] aliments +3 [icon_production] performance +1 [icon_science] Valeur technologique, plaine d'inondation des prairies +1 [icon_food] aliment +3 [icon_production] Performance +3 Charm, plaine d'inondation +2 [icon_food] aliment +2 [icon_production] Productivité de performance +3 Charme, désert, inondation de déserte +2 [icon_production] Performance Productivity +3 Charm, désert Plain Flood +2 [ICON_PRODUCTION] Performance Productivity +3 Charm, désert Plain Flood +2 [ICON_PRODUCTION] Performance Productivity +3 Charm, désert Plain Flood +2 [ICON_PRODUCTION] Performance Productivity +3 Charm, Desert Flood Plain +2. Desert Flood Plain, Swamp et Oasis +3 Charm, Forest and Rainforest -3 Charm, permettez aux terres agricoles d'être construites sur les plaines du désert, toutes les cellules de la ville que vous créez +1 [icon_science] Valeur technologique, étudiez {loc_tech_scientific_theory_name} +1 [icon_science] valeur technologique Valeur technologique</Text>
+			<Text>Desert Plains and Desert Hills +3 [icon_food] Aliments +3 [icon_production] Productivité +1 [icon_science] Valeur technologique, plaine d'inondation de la grasse +1 [icon_food] aliment +3 [icon_production] Productivité, plaine d'inondation ordinaire +2 [icon_food] Alimentation +2 [icon_production] Productivité, conjoncture desser Coins, plaines inondables de prairies, plaines inondables simples, plaines inondables du désert, marécages et oasis sont les cellules environnantes du territoire +3 charmes, les forêts et les forêts tropicales sont les cellules environnantes dans le territoire -3 charmes, permettant aux terres agricoles d'être construites sur les plaines désertiques, toutes les cellules pas toutes les villes que vous créez +1 [icon_science] Valeur technologique, étudiez {loc_tech_cientique +1 [icon_science] Valeur technologique</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BASITE_NAME" Language="fr_FR">
 			<Text>Basse</Text>
@@ -1156,13 +1363,13 @@
 			<Text>Muse Society</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_TYPEONE_DESCRIPTION" Language="fr_FR">
-			<Text>Aoshan Shenyu Special Area, remplaçant {loc_district_theater_name}, initialement déverrouillé, avec un coût inférieur et aucune augmentation de prix, peut être construit indépendamment des besoins de la population, avec un bonus adjacent unique, et il est produit pour les cellules montagneuses entourant +1 [icon_food] [icon_production] [icon_gold] [icon_faith] [icon_science] [icon_gold] [icon_faith</Text>
+			<Text>Aoshan Shenyu Special Area, en remplaçant {loc_district_theater_name}, initialement déverrouillé, avec un coût inférieur et aucune augmentation de prix, peut être construit indépendamment des besoins de la population, avec un bonus adjacent unique, et il sera produit pour les cellules de montagne entourant +1 [icon_food] [icon_production] [icon_gold] [icon_faith] [icon_science] [icon_gold] [icon_faith</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Académie mille étoile</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Aoshan Shenyu special area, replaces {LOC_DISTRICT_CAMPUS_NAME}, initial unlock, free to build without price increase, can be built regardless of population needs, has a unique adjacent bonus, and it is produced for surrounding mountain cells +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture]</Text>
+			<Text>Aoshan Shenyu Special Area, remplaçant {loc_district_campus_name}, initialement déverrouillé, libre pour construire sans augmentation de prix, peut être construit indépendamment des besoins de la population, a un bonus adjacent unique, et il est produit pour les cellules montagneuses environnantes +1 [icon_food] [icon_production] [icon_gold] [icon_faith</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ENILIYI_NAME" Language="fr_FR">
 			<Text>Oniri</Text>
@@ -1282,7 +1489,7 @@
 			<Text>Cobines d'origine</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Les zones en vedette, le déverrouillage initial, libre de construire sans augmentation de prix, peuvent être construites quels que soient les besoins de population, et chaque joueur ne peut en construire qu'un. Une fois la civilisation entre {loc_era_classical_name}, {loc_era_renaisance_name} et {loc_era_modern_name}, les nouveaux bâtiments monument seront débloqués.</Text>
+			<Text>Les zones en vedette, initialement déverrouillées, construites gratuitement et n'augmenteront pas les prix. Ils peuvent être construits quels que soient les besoins de population. Ils ne peuvent pas être construits près du centre-ville. Chaque joueur ne peut en construire qu'un. Une fois la civilisation entre {loc_era_classical_name}, {loc_era_renaisance_name} et {loc_era_modern_name}, les nouveaux bâtiments monument seront débloqués.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AIYINSUOFEISHENGTAIYUAN_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Parc écologique Ain Sophie</Text>
@@ -1300,7 +1507,7 @@
 			<Text>Département de logistique oculaire de l'espace profond</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHENKONGZHIYANHOUQINBU_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Holy Tree God Realm {LOC_ERA_MODERN_NAME} Bâtiment de monnaie, déverrouillé après l'entrée de la civilisation {LOC_ERA_MODERN_NAME}, constructeur +4 Times de construction, Achat Trail Blazer [icon_gold] Coût -95%, cellule avec ressources stratégiques +6 [ICON_PRODUCDUCTION] Productivité, Horse, Iron et Salppeter +2 [ICON_SCIENCE VALOGIE +2 [ICICE) Culture, charbon, pétrole, aluminium et uranium +4 [icon_food] Alimentation</Text>
+			<Text>Holy Tree God Realm {LOC_ERA_MODERN_NAME} Bâtiment de monnaie, déverrouillé après l'entrée de la civilisation {LOC_ERA_MODERN_NAME}, constructeur +4 Times de construction, achat de frais de pionnier -95%. Aluminium et uranium +4 [icon_food] Aliments</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MUYUANQU_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Cimetière Ain Sophie</Text>
@@ -1330,7 +1537,7 @@
 			<Text>Phare de Yokur</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUEKUERDENGTA_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Sikati {loc_era_classical_name} Buildarm Landmark, déverrouillé après que la civilisation entre {loc_era_classical_name}, après l'achèvement, les unités de transport en eau +4 [icon_movement] Force de mobilité, toutes les unités ignorent le terrain et le [icon_movament] le mouvement du mouvement à travers les rivières, et obtiennent immédiatement la conduite de navigation et le [icon_Movement] le mouvement de la pénalité et d'obtenir immédiatement des cultures de navigation et de la cartographie et le cartographie. Chaque bâtiment dans la zone du collège +1 [icon_traderoute] et chaque bâtiment peut être achevé et un homme d'affaires peut être obtenu. Le coût de l'achat du bâtiment de la région du collège [icon_gold] est de -100%, et le coût de ce point de repère est réduit de moitié.</Text>
+			<Text>Sikati {loc_era_classical_name} Buildarm Landmark, déverrouillé après que la civilisation entre {loc_era_classical_name}, après l'achèvement, les unités de transport en eau +4 [icon_movement] Force de mobilité, toutes les unités ignorent le terrain et le [icon_movament] le mouvement du mouvement à travers les rivières, et obtiennent immédiatement la conduite de navigation et le [icon_Movement] le mouvement de la pénalité et d'obtenir immédiatement des cultures de navigation et de la cartographie et le cartographie. Chaque bâtiment dans la zone du collège +1 [icon_traderoute] et chaque bâtiment peut être achevé et un homme d'affaires peut être obtenu. Le coût de l'achat de la zone collégiale est de -100% et le coût de ce point de repère est réduit de moitié.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TALIELANGDIANWANCHENG_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Talleyrand Video Game City</Text>
@@ -1342,7 +1549,7 @@
 			<Text>Matrice de données MIMIEL</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHUJUJUZHENG_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Heimdal {loc_era_classical_name} Bâtiment de monnaie, déverrouillé après l'entrée de la civilisation {loc_era_classical_name}, et après l'achèvement, le coût de l'achat du bâtiment régional du système Mimier [icon_gold] est -100%. Le centre informatique est le tracé environnant +2 [icon_culture] Valeur culturelle, et le dispositif de stockage est la valeur culturelle de tracé environnant +2 [icon_culture]. Après avoir remporté la bataille, vous obtiendrez une valeur de culture [icon_culture] équivalente à la puissance de combat de l'unité tuée [icon_strengh] (à une vitesse standard)</Text>
+			<Text>Heimdal {loc_era_classical_name} Le bâtiment Landmark est déverrouillé après l'entrée de la civilisation {loc_era_classical_name}. Après l'achèvement, le coût de l'achat de la zone de Meland est de -100%. La librairie &quot;Moon Country&quot; est l'intrigue environnante +2 [ICON_CULTURE] Valeur culturelle, et le Hagia Sophia Medical Center est l'intrigue environnante +2 [icon_culture] Valeur culturelle. Après avoir remporté la bataille, vous obtiendrez une valeur de culture [icon_culture] équivalente à la puissance de combat de l'unité tuée [icon_strengh] (à une vitesse standard)</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBAITANG_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Chapelle Ain Sophie</Text>
@@ -1374,6 +1581,12 @@
 		<Replace Tag="LOC_BUILDING_MINGDUSHENDIAN_AETHERGAZER_DESCRIPTION" Language="fr_FR">
 			<Text>Osiris {loc_era_classical_name} Bâtiment de monnaie, déverrouillé après que la civilisation entre {loc_era_classical_name}, après l'achèvement, toutes les villes + 15% [icon_science] Valeur technologique. Après avoir remporté la bataille, ils obtiendront la valeur de la technologie [icon_science] équivalent à la puissance de combat de l'unité tuée [icon_strength] (sous vitesse standard)</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_NAME" Language="fr_FR">
+			<Text>Statue du signe de la mort</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_DESCRIPTION" Language="fr_FR">
+			<Text>Osiris (Soul Feather) {loc_era_classical_name} Bâtiment de monnaie, déverrouillé lorsque la civilisation entre {loc_era_classical_name}. Après l'achèvement, toutes les unités peuvent restaurer tous les points de santé en détruisant les unités ennemies sans avoir à stationner au début du tour. L'armée peut être formée plus tôt (les municipalités nationalistes sont nécessaires) et la ville n'a pas besoin d'une académie militaire, de sorte que l'armée peut être directement formée. Les coûts de formation de la Légion et de l'armée sont réduits de 50%. Après avoir remporté la bataille, vous obtiendrez une valeur de culture [icon_culture] équivalente à la puissance de combat de l'unité tuée [icon_strengh] (à une vitesse standard)</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_GOUWUGUANGCHANG_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Talleyrand Shopping Plaza</Text>
 		</Replace>
@@ -1384,7 +1597,7 @@
 			<Text>Commande temporaire de Colgey</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_KEERGAILINSHIZHIHUIBU_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Le bâtiment monument de TOTTE {loc_era_classical_name} est déverrouillé après que la civilisation entre {loc_era_classical_name}. Une fois terminé, il obtiendra 3 espions (et augmentera la capacité des espions), et l'effet de l'incitation aux émeutes et de l'encadrement des opérations d'espionnage du gouverneur sera augmenté de 100 niveaux. Si un espion est arrêté lors de l'exécution d'une mission, il y a une forte probabilité de s'échapper (niveau +100). L'anneau de raison +4 [icon_movement] et l'achat de [icon_gold] coûte -100%. Correctionniste des armes lourdes et correctionniste d'armes légères +10 [icon_strength] Power de combat +1 [icon_range] Range et plage Attack Land Units +17 [icon_strength] Cought Power, Special Operations Correctionist +10 [icon_streng</Text>
+			<Text>Le bâtiment monument de TOTTE {loc_era_classical_name} est déverrouillé après que la civilisation entre {loc_era_classical_name}. Une fois terminé, il obtiendra 3 espions (et augmentera la capacité des espions), et l'effet de l'incitation aux émeutes et de l'encadrement des opérations d'espionnage du gouverneur sera augmenté de 100 niveaux. Si un espion est arrêté lors de l'exécution d'une mission, il y a une forte probabilité de s'échapper (niveau +100). Le cycle de la logique +4 [icon_movement] puissance mobile et coût d'achat -100%. Correctionniste des armes lourdes et correctionniste d'armes légères +10 [icon_strength] Power de combat +1 [icon_range] Range et plage Attack Land Units +17 [icon_strength] Cought Power, Special Operations Correctionist +10 [icon_streng</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_OUMOFEISIZIRANGONGYUAN_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Parc naturel d'Oofs</Text>
@@ -1402,7 +1615,7 @@
 			<Text>Département de logistique du Parlement de Xinghong</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_XINGHONGYIHUIYANFAZHONGXIN_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Aoshan Shenyu {LOC_ERA_MODERN_NAME} Buildarm Landmark, déverrouillé après que la civilisation entre {LOC_ERA_MODERN_NAME}, les cellules avec des ressources stratégiques +6 [icon_production] Productivité, Horse, Iron et Salpet +2 [ICON_SCIENCE] Valeur technologique +2 [icon_culture] avec des cellules avec des cellules de luxe +10 [ICON_GOLD] Ressources +5 [icon_gold] Coins d'or et ressources de récolte + 400%</Text>
+			<Text>Aoshan Shenyu {LOC_ERA_MODERN_NAME} Buildarm Landmark, déverrouillé après que la civilisation entre {LOC_ERA_MODERN_NAME}, les cellules avec des ressources stratégiques +6 [ICON_PRODUCTION] Productivité, Horse, Iron et Salpet +2 [ICON_SCIENCE] Valeur technologique +2 [icon_culture] avec des cellules avec des cellules de luxe +10 [ICON_GOLD] Ressources +5 [icon_gold] Coins d'or et ressources de récolte + 400%</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TIANMIMENGJING_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Pays de rêve doux</Text>
@@ -1432,7 +1645,13 @@
 			<Text>Musée Xuheng</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_DESCRIPTION" Language="fr_FR">
-			<Text>Tianyuan Divine Realm {LOC_ERA_MODERN_NAME} Bâtiment de monnaie, déverrouillé après l'entrée de la civilisation {loc_era_modern_name}. Après l'achèvement, chaque système politique recevra 2 créneaux universels supplémentaires. [Icon_greatwork_writing] œuvres, toutes [icon_greatwork_sculpture] [icon_greatwork_portrait] [icon_greatwork_landscape] [icon_greatwork_religious] Type illustres, [icon_Greatwork_religious] La musique fournit des performances touristiques triples [icon_tourisme]</Text>
+			<Text>Tianyuan Divine Realm {LOC_ERA_MODERN_NAME} Bâtiment de monnaie, déverrouillé après l'entrée de la civilisation {loc_era_modern_name}. Après l'achèvement, chaque système politique recevra 2 créneaux universels supplémentaires. [Icon_greatwork_writing] œuvres, toutes [icon_greatwork_sculpture] [icon_greatwork_portrait] [icon_greatwork_landscape] [icon_greatwork_religious]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_NAME" Language="fr_FR">
+			<Text>Phare de Port Tsutong</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_DESCRIPTION" Language="fr_FR">
+			<Text>Linyu {loc_era_classical_name} Buildary Landmark, déverrouillé après que la civilisation entre {loc_era_classical_name}, après l'achèvement, toutes les villes +5 [icon_amenities] Livabilité, cellules d'eau +2 [icon_food] aliment +2 [icon_production] productivité. Pour chaque cellule que vous passez par votre route commerciale [icon_traderoute], il fournit des pièces d'or [icon_gold] +2 [icon_science] Valeur technologique +2 [icon_production] Productivité +2, sifangyuan +2 [icon_traderoute] La capacité commerciale, les frais d'achat de marchand sont -50%.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DIZHIKANTANYINGDI_AETHERGAZER_NAME" Language="fr_FR">
 			<Text>Camp d'exploration géologique de Xuheng</Text>
@@ -1528,10 +1747,10 @@
 			<Text>Ain Sophie Ecologic Park Special Project, Une fois le projet terminé, chaque zone +3 [icon_food] aliment +3 [icon_production] La productivité ne peut être terminée qu'une fois</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_NAME" Language="fr_FR">
-			<Text>Équilibre écologique géomorphologique</Text>
+			<Text>Équilibre écologique des reliefs</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_SHORTNAME" Language="fr_FR">
-			<Text>Équilibre écologique géomorphologique</Text>
+			<Text>Équilibre écologique des reliefs</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_DESCRIPTION" Language="fr_FR">
 			<Text>Ain Sophie Ecologic Park Special Project, Une fois le projet terminé, Swamp + 3 [icon_production] Productivité, Geothermal Crack + 2 [icon_food] Food + 2 [icon_production] Productivité + 1 [icon_science] Valeur technologique, Oasis + 3 [icon_production] Productivité + 4 [icon_gold] Gold Coins, Uniquement une fois</Text>

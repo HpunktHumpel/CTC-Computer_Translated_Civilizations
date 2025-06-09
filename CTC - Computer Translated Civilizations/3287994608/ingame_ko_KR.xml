@@ -1,616 +1,838 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Mon Jul 15 13:46:30 2024-->
+<!-- Mon Jun  9 14:26:38 2025-->
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>라이트 트랙</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>추천 영역, {loc_district_aerodrome_name}을 저렴한 비용으로 교체하십시오. 완료 후, 도시는 추가 +5% [icon_production] 생산성을 갖습니다. 완료 후, 도시는 추가 +5% [icon_production] 생산성을 갖습니다. 완료 후, 도시는 추가 +5% [icon_production] 생산성을 갖습니다. 완료 후, 도시는 추가 +5% [icon_production] 생산성을 갖습니다.</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ko_KR">
-			<Text>신성한 나무 도메인</Text>
+			<Text>거룩한 나무 신 영역</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ko_KR">
-			<Text>신성한 영역-신성한 나무</Text>
+			<Text>신성한 영역-홀리 나무</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ko_KR">
-			<Text>+1[ICON_Production]생산 +2[ICON_Food]도시 타일 내 숲을 위한 식량, +2[ICON_Production]생산 +1[ICON_Food]우림을 위한 식량, +3내장 보호 지역 내 영토 타일 내 숲과 열대 우림을 위한 카리스마 + 건물 생산성 300% [ICON_Production]</Text>
+			<Text>도시 세포의 산림 +2 +2 [icon_production] 생산성 +2 [icon_food] 음식, 열대 우림 +3 [icon_production] 생산성 +1 [icon_food] 음식, 숲 및 열대 우림은 영토 내에서 세포를 둘러싸고 있습니다 +3 Charm</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ko_KR">
-			<Text>신성한 나무 도메인</Text>
+			<Text>거룩한 나무 신 영역</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_ADJECTIVE" Language="ko_KR">
-			<Text>신성한 나무 영역</Text>
+			<Text>거룩한 나무 신성한 영역</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_NAME" Language="ko_KR">
-			<Text>교정자 조직</Text>
+			<Text>개정기 조직</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>[COLOR:ResMilitaryLabelCS]모든 군사 유닛을 건설할 수는 없지만[ENDCOLOR] 수정자와 지원 유닛을 건설할 수 있습니다. 건설자, 스파이, 지원 유닛은 항상 [ICON_Faith] 신앙으로 구매할 수 있습니다.</Text>
+			<Text>[색상 : ResmilitaryLabelcs]는 모든 군사 유닛 [endcolor]을 건설 할 수는 없지만 개정 주의자를 구축 할 수 있으며 항상 [icon_faith] 믿음을 사용하여 건축업자, 스파이 및 지원 단위를 구매할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_NAME" Language="ko_KR">
+			<Text>조정 보정</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_DESCRIPTION" Language="ko_KR">
+			<Text>공동 조정 수정자는 모든 수정자를 대체하고 전투력이 더 높습니다. [icon_movement]의 이동 전력이 턴당 +1 추가 공격을 허용하면 공격 후 움직일 수 있으며 부상 후 전투 전력 디버프를 겪지 않습니다. [색상 : ResmilitaryLabelcs], 그러나 매우 비싸다 [EndColor]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>미미르 시스템</Text>
+			<Text>멜란데</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_DISTRICT_PRESERVE_NAME}을 대체하는 성수 도메인의 특징적인 영역은 초기에 잠금 해제되어 비용이 저렴하고 가격이 오르지 않으며 인구 수요와 관계없이 건설할 수 있습니다. 완료 후 주변 셀은 +2[ICON_Food]음식 +2[ICON_Production]생산성 +2[ICON_Gold]금화[NEWLINE]{LOC_BUILDING_GROVE_NAME}완료 후 주변 셀은 +2[ICON_Production]생산 +2[ICON_Faith ]신앙 +2[ICON_Science]과학 연구[NEWLINE]{LOC_BUILDING_SANCUARY_NAME}이 건설된 후 주변 세포는 +2[ICON_Food]음식 +2[ICON_Production]생산성 +2[ICON_Science]과학 연구[NEWLINE]개선된 세포도 즐길 수 있습니다 위의 효과.</Text>
+			<Text>Holy Tree Divine Domain Featured Area는 처음에는 잠금 해제되어 비용이 저렴하고 가격 인상이 없으며 인구 요구에 관계없이 건설 할 수 있습니다. 완료 후 주변 셀은 +2 [icon_food] Food +2 [icon_production] 생산성 +2 [icon_gold] 골드 코인이됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_NAME" Language="ko_KR">
+			<Text>&quot;문 국가&quot;서점</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_DESCRIPTION" Language="ko_KR">
+			<Text>주변 세포에 대한 연구 +2 [icon_production] 생산성 +2 [icon_faith] 믿음 +2 [icon_science]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_NAME" Language="ko_KR">
+			<Text>Hagia Sophia Medical Center</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_DESCRIPTION" Language="ko_KR">
+			<Text>주변 세포에 대한 연구 +2 [icon_food] 음식 +2 [icon_production] 생산성 +2 [icon_science]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>고양이방 관리</Text>
+			<Text>웨스트 코스트 시티 대학교</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_DISTRICT_THEATER_NAME}을 대체하는 성수 도메인의 특징적인 영역은 초기에 잠금 해제되어 건설이 자유롭고 가격이 오르지 않으며 인구 수요와 관계없이 건설할 수 있습니다. 고유한 [ICON_Culture] 문화와 [ICON_Faith] 인접 보너스가 있습니다.</Text>
+			<Text>{loc_district_theater_name}을 대체하는 Holy Tree Divine Domain은 처음에 잠금 해제되었으며 가격 인상없이 무료로 구축 할 수 있으며 인구 요구에 관계없이 구축 할 수 있습니다. 독특한 [icon_culture] 문화와 [icon_faith] 신념 인접 보너스와 함께</Text>
 		</Replace>
 		<Replace Tag="LOC_WONDER_CULTURE_HALF_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Culture] 문화는 인접한 인공 불가사의에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_culture] 문화는 인접한 인공 경이로움에서 비롯됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_WONDER_FAITH_HALF_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Faith] 인접한 인공 불가사의의 신앙</Text>
+			<Text>+{1_num} [icon_faith] 믿음은 이웃 인공 경이로움에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CULTURE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Culture] 문화는 인접 지역에서 유래함</Text>
+			<Text>+{1_num} [icon_culture] 문화는 인접한 영역에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CULTURE_FAITH_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Faith] 신앙은 인접 지역에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_faith] 믿음은 인접한 지역에서 나옵니다</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_NAME" Language="ko_KR">
+			<Text>키</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_DESCRIPTION" Language="ko_KR">
+			<Text>초기 정찰 장치는 {loc_tech_the_wheel_name}을 조사한 후, 근접 교정 [Newline]을 조기 재설치로 업그레이드 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_NAME" Language="ko_KR">
+			<Text>고급 키</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_DESCRIPTION" Language="ko_KR">
+			<Text>초기 정찰 장치는 {loc_tech_the_wheel_name}을 조사한 후, 초기 공동 조정 근접 수정 [Newline]으로 업그레이드 될 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_NAME" Language="ko_KR">
+			<Text>대규모 제작 미스터리</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_DESCRIPTION" Language="ko_KR">
+			<Text>뚜렷한 열쇠의 열쇠를 기반으로 대규모 모방을 수행하고 장거리 전투력이 있으며 모든 형성 장치는 장치의 이동성 전력 [Newline] [Color : ResmilitaryLabelcs]을 얻었습니다. [endColor] [Newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name}, {loc_tech_synthetic_materials_name} [icon_streng th] instreng the wentanced residge를 활성화 할 수 있습니다. {loc_tech_computers_name}는 장치 [icon_range] [Newline]+높은 이동성 [Newline]+높은 장거리 전투 전력 [Newline]+군용 단위로 형성을 형성 할 수있는 유닛의 비전 범위와 필드를 증가시킬 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_NAME" Language="ko_KR">
+			<Text>선구자 공동 조정 근접 교정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_DESCRIPTION" Language="ko_KR">
+			<Text>치명적이 좋은 강력한 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_NAME" Language="ko_KR">
+			<Text>초기 공동 조정 근접 교정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_DESCRIPTION" Language="ko_KR">
+			<Text>치명적이 좋은 강력한 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_NAME" Language="ko_KR">
+			<Text>근접 교정을 조정하십시오</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_DESCRIPTION" Language="ko_KR">
+			<Text>치명적이 좋은 강력한 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_NAME" Language="ko_KR">
+			<Text>거친 근접 조정기</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_DESCRIPTION" Language="ko_KR">
+			<Text>치명적이 좋은 강력한 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_NAME" Language="ko_KR">
+			<Text>경험이 풍부한 근접 교정기</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_DESCRIPTION" Language="ko_KR">
+			<Text>치명적이 좋은 강력한 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_NAME" Language="ko_KR">
+			<Text>영광스러운 공동 조정 근접 교정기</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_DESCRIPTION" Language="ko_KR">
+			<Text>치명적이 좋은 강력한 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_NAME" Language="ko_KR">
+			<Text>엘리트 공동 조정 근접 교정기</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_DESCRIPTION" Language="ko_KR">
+			<Text>치명적이 좋은 강력한 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_NAME" Language="ko_KR">
+			<Text>초기 공동 조정 원격 수정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_DESCRIPTION" Language="ko_KR">
+			<Text>적의 장거리 살해에 적합한 강력한 장거리 장치 [Newline] + 장거리 [Newline] + 근접 유닛과 싸우는 데 좋습니다 [Newline] - 낮은 근접 전투 전력 [Newline] - 낮은 이동 전력 [Newline] - 기병대에 의해 제한됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_NAME" Language="ko_KR">
+			<Text>원격 수정을 공동 조정하십시오</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_DESCRIPTION" Language="ko_KR">
+			<Text>적의 장거리 살해에 적합한 강력한 장거리 유닛 [Newline] + 장거리 [Newline] + 근접 유닛과 싸우는 데 능숙합니다 [Newline] - 낮은 근접 전투 전력 [Newline] - 낮은 이동 전력 [Newline] - 기병대에 의해 제한됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_NAME" Language="ko_KR">
+			<Text>경험이 풍부한 원격 수정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_DESCRIPTION" Language="ko_KR">
+			<Text>적의 장거리 살해에 적합한 강력한 장거리 장치 [Newline] + 장거리 [Newline] + 근접 유닛과 싸우는 데 좋습니다 [Newline] - 낮은 근접 전투 전력 [Newline] - 낮은 이동 전력 [Newline] - 기병대에 의해 제한됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_NAME" Language="ko_KR">
+			<Text>엘리트 공동 조정 원격 교정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_DESCRIPTION" Language="ko_KR">
+			<Text>적의 장거리 살해에 적합한 강력한 장거리 장치 [Newline] + 장거리 [Newline] + 근접 유닛과 싸우는 데 좋습니다 [Newline] - 낮은 근접 전투 전력 [Newline] - 낮은 이동 전력 [Newline] - 기병대에 의해 제한됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_NAME" Language="ko_KR">
+			<Text>조정 된 가벼운 무기 교정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="ko_KR">
+			<Text>지역 전투에 적합한 강력한 포위 유닛은 물 [Newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} 및 {loc_tech_synthetic_materials_name} [icon_strenge] [icon_strength]를 활성화 할 수 있습니다. 연구 {loc_tech_computers_name}는 [icon_range] [Newline]+장거리 [Newline]+높은 이동성 [Newline]+좋은 지역 [Newline]+Waters에서의 싸움 [Newline]-시력의 전망 [Newline]-동문 근접전 [Newline]-Cavalry Units에 의해 제한 될 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_NAME" Language="ko_KR">
+			<Text>엘리트 공동 조정 라이트 무기 교정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="ko_KR">
+			<Text>강력한 포위 유닛, 지역과 싸우는 데 적합한 강력한 포위 유닛, 물에서 싸울 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_NAME" Language="ko_KR">
+			<Text>초기 공동 조정 특수 작전 수정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_DESCRIPTION" Language="ko_KR">
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_NAME" Language="ko_KR">
+			<Text>조정 된 특수 작전 수정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_DESCRIPTION" Language="ko_KR">
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_NAME" Language="ko_KR">
+			<Text>강력하고 공동 조정 특수 운영 수정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_DESCRIPTION" Language="ko_KR">
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_NAME" Language="ko_KR">
+			<Text>경험이 풍부한 특수 운영 수정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_DESCRIPTION" Language="ko_KR">
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_NAME" Language="ko_KR">
+			<Text>엘리트 공동 조정 특별 전투 교정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_DESCRIPTION" Language="ko_KR">
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_NAME" Language="ko_KR">
+			<Text>조정 된 무기 교정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="ko_KR">
+			<Text>강력한 근접전 전투 파워가있는 매우 강력한 장거리 포위 유닛, [Newline] 연구 {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} 및 {loc_tech_synthetic_materials_name}}}}} [icon_strength] [ne wline] research {loc_tech_computers_name}는 장치의 범위를 증가시킬 수 있습니다 [icon_range] [newline]+넓은 범위 [Newline]+High Melee Combat Power [newline]+좋은 지역 [Newline]+좋은 전투 단위 [Newline]+Water에서 싸울 수 있습니다. Mobility [Newline]-반사 방지 장치에 의해 구속 될 것입니다</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_NAME" Language="ko_KR">
+			<Text>엘리트 공동 조정 중장기 교정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="ko_KR">
+			<Text>강력한 근접전 전투원을 갖춘 매우 강력한 장거리 포위 유닛, [Newline] + Long Range [Newline] + High Melee Combat Power [Newline] + 전투 영역 [Newline] + 기병대와 싸우는 데 능숙합니다 [Newline] + Waters [Newline] - 낮은 움직임 [Newline] - 항에 의해 제한 될 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_NAME" Language="ko_KR">
+			<Text>초기 공동 조정 재사용 근접 수정</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_DESCRIPTION" Language="ko_KR">
+			<Text>이동 속도가 높은 근접 기병대 유닛은 매우 치명적이며 도시 벽에 완전히 손상 될 수 있습니다 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 지역 [Newline] - 안티 카발 유닛에 의해 제한됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_NAME" Language="ko_KR">
+			<Text>근접 교정기를 다시 설치하십시오</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_DESCRIPTION" Language="ko_KR">
+			<Text>이동 속도가 높은 근접 기병대 유닛은 매우 치명적이며 도시 벽에 완전히 손상 될 수 있습니다 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 지역 [Newline] - 안티 카발 유닛에 의해 제한됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_NAME" Language="ko_KR">
+			<Text>거친 조정기를 다시 설치하십시오</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_DESCRIPTION" Language="ko_KR">
+			<Text>이동 속도가 높은 근접 기병대 유닛은 매우 치명적이며 도시 벽에 완전히 손상 될 수 있습니다 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 지역 [Newline] - 안티 카발 유닛에 의해 제한됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_NAME" Language="ko_KR">
+			<Text>경험이 풍부한 공동 조정 재사용 근접 교정기</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_DESCRIPTION" Language="ko_KR">
+			<Text>이동 속도가 높은 근접 기병대 유닛은 매우 치명적이며 도시 벽에 완전히 손상 될 수 있습니다 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 지역 [Newline] - 안티 카발 유닛에 의해 제한됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_NAME" Language="ko_KR">
+			<Text>엘리트 공동 튜닝 재사용 근접 조정기</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_DESCRIPTION" Language="ko_KR">
+			<Text>움직임 속도가 높은 근접 기병대 장치는 매우 치명적이며 도시 벽에 완전히 손상 될 수 있습니다 [Newline]+High Melee Combat Power [Newline]+높은 이동성 전력 [Newline]+카운터 어택 영역에서 양호합니다 [Newline]-안식품 단위로 제한 될 것입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_NAME" Language="ko_KR">
+			<Text>원격 고정 장치를 다시 설치하십시오</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_DESCRIPTION" Language="ko_KR">
+			<Text>특수 원거리 유닛, 수정주의 리더 중 일부만이 구축 할 수 있으며 근접 유닛과 원거리 유닛의 공격을 쉽게 견딜 수 있습니다. 기술의 업그레이드를 통해 범위는 일반적인 장거리 교정기 [Newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} 및 {loc_tech_synthetic_name}의 범위보다 더 멀다. 전투 파워 [Newline] {loc_tech_flight_name}, {loc_tech_computers_name}는 단위의 범위를 증가시킬 수 있습니다 [icon_range] [Newline]+High Melee Combat Power [Newline]+전투에서 좋은 전투 범위 [Newline]-LOW Mobility [Newline]-Cavalry United에 의해 구속됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_NAME" Language="ko_KR">
+			<Text>엘리트 공동 조정 및 원격 수정을 다시 설치합니다</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_DESCRIPTION" Language="ko_KR">
+			<Text>특수 원거리 유닛, 일부 개정 리더 만 건설 할 수 있으며 근접 장치 및 원거리 장치의 공격을 쉽게 견딜 수 있으며 지역에도 적합합니다. 범위는 평범한 엘리트 장거리 수정 [Newline]+High Melee Combat Power [Newline]+High Range [Newline]+근접 유닛 [Newline]+전투 범위 유닛 [Newline]+전투 영역에서 양호한 [Newline]-모빌리티에 능숙합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_NAME" Language="ko_KR">
+			<Text>정제</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_NAME" Language="ko_KR">
-			<Text>초기 근접 수정치</Text>
+			<Text>선구자 근접 교정 자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>높은 살상력을 갖춘 기본 근접 유닛 [NEWLINE] + 대기병 유닛과의 전투에 능숙함 [NEWLINE] - 낮은 기동성</Text>
+			<Text>치명적이 좋은 기본 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_RELOAD_NAME" Language="ko_KR">
-			<Text>근접 수정자</Text>
+			<Text>초기 근접 교정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>높은 살상력을 갖춘 기본 근접 유닛 [NEWLINE] + 대기병 유닛과의 전투에 능숙함 [NEWLINE] - 낮은 기동성</Text>
+			<Text>치명적이 좋은 기본 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_RELOAD_NAME" Language="ko_KR">
-			<Text>터프한 근접 수정자</Text>
+			<Text>근접 픽처</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>높은 살상력을 갖춘 기본 근접 유닛 [NEWLINE] + 대기병 유닛과의 전투에 능숙함 [NEWLINE] - 낮은 기동성</Text>
+			<Text>치명적이 좋은 기본 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_RELOAD_NAME" Language="ko_KR">
-			<Text>두려움 없는 근접 수정자</Text>
+			<Text>거친 근접 교정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>높은 살상력을 갖춘 기본 근접 유닛 [NEWLINE] + 대기병 유닛과의 전투에 능숙함 [NEWLINE] - 낮은 기동성</Text>
+			<Text>치명적이 좋은 기본 근접 유닛 [Newline] + 반사 방지 유닛과 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_RELOAD_NAME" Language="ko_KR">
-			<Text>영광스러운 근접 수정치</Text>
+			<Text>경험이 풍부한 근접 교정기</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>높은 살상력을 갖춘 기본 근접 유닛 [NEWLINE] + 대기병 유닛과의 전투에 능숙함 [NEWLINE] - 낮은 기동성</Text>
+			<Text>치명적이 좋은 기본 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_RELOAD_NAME" Language="ko_KR">
-			<Text>고급 근접 수정자</Text>
+			<Text>영광스러운 근접 교정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>높은 살상력을 갖춘 기본 근접 유닛 [NEWLINE] + 대기병 유닛과의 전투에 능숙함 [NEWLINE] - 낮은 기동성</Text>
+			<Text>치명적이 좋은 기본 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_RELOAD_NAME" Language="ko_KR">
-			<Text>엘리트 근접 수정치</Text>
+			<Text>엘리트 근접 교정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>높은 살상력을 갖춘 기본 근접 유닛 [NEWLINE] + 대기병 유닛과의 전투에 능숙함 [NEWLINE] - 낮은 기동성</Text>
+			<Text>치명적이 좋은 기본 근접 유닛 [Newline] + 반사 방지 장치와 싸우는 데 능숙합니다 [Newline] - 낮은 이동성</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_RELOAD_NAME" Language="ko_KR">
-			<Text>초기 원격 교정기</Text>
+			<Text>초기 원격 수정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>원거리에서 적을 죽이는 데 적합한 기본 장거리 유닛 [NEWLINE] + 근접 유닛과의 싸움에 능숙함 [NEWLINE] - 근접 전투 효율성이 낮음 [NEWLINE] - 기동성이 낮음 [NEWLINE] - 기병 유닛에 의해 제지됨</Text>
+			<Text>기본 원거리 유닛, 장거리 살해 적 적을 죽이는 데 적합한 기본 원거리 [Newline]+ 근접 유닛과 싸우는 데 능숙합니다 [Newline] -Low Melee Combat Power [Newline] -Low Mobility Power [Newline]-기병대에 의해 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_RELOAD_NAME" Language="ko_KR">
-			<Text>원격 교정기</Text>
+			<Text>원격 교정 주의자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>원거리에서 적을 죽이는 데 적합한 기본 장거리 유닛 [NEWLINE] + 근접 유닛과의 싸움에 능숙함 [NEWLINE] - 근접 전투 효율성이 낮음 [NEWLINE] - 기동성이 낮음 [NEWLINE] - 기병 유닛에 의해 제지됨</Text>
+			<Text>기본 원거리 유닛, 장거리 살해 적 적을 죽이는 데 적합한 기본 원거리 [Newline]+ 근접 유닛과 싸우는 데 능숙합니다 [Newline] -Low Melee Combat Power [Newline] -Low Mobility Power [Newline]-기병대에 의해 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_RELOAD_NAME" Language="ko_KR">
-			<Text>경험이 풍부한 원격 교정자</Text>
+			<Text>경험이 풍부한 원격 수정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>원거리에서 적을 죽이는 데 적합한 기본 장거리 유닛 [NEWLINE] + 근접 유닛과의 싸움에 능숙함 [NEWLINE] - 근접 전투 효율성이 낮음 [NEWLINE] - 기동성이 낮음 [NEWLINE] - 기병 유닛에 의해 제지됨</Text>
+			<Text>기본 원거리 유닛, 장거리 살해 적 적을 죽이는 데 적합한 기본 원거리 [Newline]+ 근접 유닛과 싸우는 데 능숙합니다 [Newline] -Low Melee Combat Power [Newline] -Low Mobility Power [Newline]-기병대에 의해 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_RELOAD_NAME" Language="ko_KR">
-			<Text>엘리트 리모트 코렉터</Text>
+			<Text>엘리트 원격 수정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>원거리에서 적을 죽이는 데 적합한 기본 장거리 유닛 [NEWLINE] + 근접 유닛과의 싸움에 능숙함 [NEWLINE] - 근접 전투 효율성이 낮음 [NEWLINE] - 기동성이 낮음 [NEWLINE] - 기병 유닛에 의해 제지됨</Text>
+			<Text>기본 원거리 유닛, 장거리 살해 적 적을 죽이는 데 적합한 기본 원거리 [Newline]+ 근접 유닛과 싸우는 데 능숙합니다 [Newline] -Low Melee Combat Power [Newline] -Low Mobility Power [Newline]-기병대에 의해 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_RELOAD_NAME" Language="ko_KR">
-			<Text>소형 무기 수정자</Text>
+			<Text>가벼운 무기 교정 주의자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>지역 대처에 적합한 기본 공성 유닛은 물 위에서 싸울 수 있습니다. [NEWLINE] 유닛의 [ICON_Strength] 전투 효율성을 높일 수 있는 {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME}, {LOC_TECH_SYNTHETIC_MATERIALS_NAME} 연구를 수행하세요.[NEWLINE] {LOC_TECH_FLIGHT_NAME 연구 }, {LOC_TECH_COMPUTERS_NAME}은 유닛의 범위를 늘릴 수 있습니다. [ICON_Range][NEWLINE]+높은 기동성[NEWLINE]+전투 지역에 능숙[NEWLINE]+수상 전투 가능[NEWLINE]-낮은 시야 범위[NEWLINE]-낮은 근접 공격 전투 효율성[NEWLINE] ]-기병 부대에 의해 제한됩니다.</Text>
+			<Text>지역과 싸우는 데 적합한 기본 포위 유닛은 Waters [Newline] Research에서 싸울 수 있습니다. {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} 및 {loc_tech_synthetic_materials_name} [icon_strenge] {loc_tech_flight_name}, {loc_tech_computers_name} [icon_range] [newline]+높은 이동성 [Newline]+좋은 지역 [Newline]+Waters에서 싸울 수 있습니다 [Newline]-Low Low Melee Combat Power [Newline]-Cavalry Units Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be Be.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_RELOAD_NAME" Language="ko_KR">
-			<Text>엘리트 소형 무기 수정자</Text>
+			<Text>엘리트 가벼운 무기 교정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>기본 공성 유닛으로 지역 상대에 적합하며 물 위에서 싸울 수 있음 [NEWLINE] + 높은 기동성 [NEWLINE] + 지역 전투에 능숙함 [NEWLINE] + 물 위에서 싸울 수 있음 [NEWLINE] - 낮은 시야 범위 [NEWLINE] - 근접 전투 낮은 전투 효율성[NEWLINE] - 기병 부대에 의해 억제됩니다.</Text>
+			<Text>지역과 싸우는 데 적합한 기본 포위 유닛, [Newline] + High Mobility [Newline] + 지역과 싸우는 데 좋은 곳 [Newline] + Waters에서 싸울 수 있습니다 [Newline] - 낮은 시력 [Newline] - 근접전 전투 전력 [Newline] - 기병대에 의해 구속 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_NAME" Language="ko_KR">
-			<Text>초기 특수 작전 수정자</Text>
+			<Text>초기 특수 작전 교정 주의자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>물 위에서 싸울 수 있는 유닛은 사거리가 1인 폭격 전투력을 갖습니다. [NEWLINE] + 높은 기동성 [NEWLINE] + 지역 전투에 능숙함 [NEWLINE] + 해군 유닛과의 전투에 능숙함 [NEWLINE] + 물 위에서 싸울 수 있음 [ NEWLINE] - 건설하려면 항구 지역이 필요합니다. [NEWLINE] - 대기병 유닛과의 전투에는 좋지 않습니다. [NEWLINE] - 원거리 유닛과 공성 유닛에 의해 제지됩니다.</Text>
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_NAME" Language="ko_KR">
-			<Text>특수 작전 수정자</Text>
+			<Text>특수 작전 교정 주의자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>물 위에서 싸울 수 있는 유닛은 사거리가 1인 폭격 전투력을 갖습니다. [NEWLINE] + 높은 기동성 [NEWLINE] + 지역 전투에 능숙함 [NEWLINE] + 해군 유닛과의 전투에 능숙함 [NEWLINE] + 물 위에서 싸울 수 있음 [ NEWLINE] - 건설하려면 항구 지역이 필요합니다. [NEWLINE] - 대기병 유닛과의 전투에는 좋지 않습니다. [NEWLINE] - 원거리 유닛과 공성 유닛에 의해 제지됩니다.</Text>
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_NAME" Language="ko_KR">
-			<Text>숙련된 특수 작전 수정자</Text>
+			<Text>힘든 특수 작전 교정 주의자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>물 위에서 싸울 수 있는 유닛은 사거리가 1인 폭격 전투력을 갖습니다. [NEWLINE] + 높은 기동성 [NEWLINE] + 지역 전투에 능숙함 [NEWLINE] + 해군 유닛과의 전투에 능숙함 [NEWLINE] + 물 위에서 싸울 수 있음 [ NEWLINE] - 건설하려면 항구 지역이 필요합니다. [NEWLINE] - 대기병 유닛과의 전투에는 좋지 않습니다. [NEWLINE] - 원거리 유닛과 공성 유닛에 의해 제지됩니다.</Text>
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_NAME" Language="ko_KR">
-			<Text>엘리트 특수 작전 수정자</Text>
+			<Text>경험이 풍부한 특수 작전 교정 자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>물 위에서 싸울 수 있는 유닛은 사거리가 1인 폭격 전투력을 갖습니다. [NEWLINE] + 높은 기동성 [NEWLINE] + 지역 전투에 능숙함 [NEWLINE] + 해군 유닛과의 전투에 능숙함 [NEWLINE] + 물 위에서 싸울 수 있음 [ NEWLINE] - 건설하려면 항구 지역이 필요합니다. [NEWLINE] - 대기병 유닛과의 전투에는 좋지 않습니다. [NEWLINE] - 원거리 유닛과 공성 유닛에 의해 제지됩니다.</Text>
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_NAME" Language="ko_KR">
+			<Text>엘리트 특수 작전 교정 주의자</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="ko_KR">
+			<Text>범위 1 [Newline] + High Mobility [Newline] + 전투 지역 [Newline] + 해군 부대와 싸우는 데 능숙한 [Newline] + Waters [Newline]와 싸우는 데 능숙합니다 [Newline] [Newline] [Newline] -Cavalry Units [Newline]와 싸울 필요가 없습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_NAME" Language="ko_KR">
-			<Text>중무기 수정자</Text>
+			<Text>무거운 무기 교정 주의자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>일부 수정자 리더만이 훈련할 수 있는 끔찍한 장거리 공성 유닛입니다. 강력한 근접 전투 효율성을 갖추고 있으며 [NEWLINE] {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME}, {LOC_TECH_SYNTHETIC_MATERIALS_NAME} 연구에 적합합니다. 유닛을 [ ICON_Strength] 전투 효율성 증가[NEWLINE] {LOC_TECH_FLIGHT_NAME} 및 {LOC_TECH_COMPUTERS_NAME} 연구를 통해 유닛의 범위를 늘릴 수 있습니다[ICON_Range][NEWLINE]+높은 근접 전투 효율성[NEWLINE]+지역 전투에 능숙함[NEWLINE] +기병 유닛과의 전투에 능숙함[NEWLINE]+수상 전투 가능[NEWLINE]-낮은 시야 범위[NEWLINE]-낮은 기동성[NEWLINE]-대기병 유닛에 의해 제지됨</Text>
+			<Text>끔찍한 장거리 포위 유닛, 수정의 리더들만 훈련 될 수 있으며, 근접전 전투력을 강력한 근접 전투 전력을 가지고 있으며, 이는 영역을 싸우는 데 매우 적합합니다. {loc_tech_synthetic_materials_name}는 장치의 전투력을 향상시킬 수 있습니다 [icon_strength] [n ewline] research {loc_tech_flight_name}, {loc_tech_computers_name} [newon_range] [newon_range] [newline] [newline]+good at coun 반격 장치 [Newline]+Water에서 싸울 수 있습니다 [Newline]-Low Vision Range [Newline] -Low Movement Power [Newline]-반사 방지 장치에 의해 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_RELOAD_NAME" Language="ko_KR">
-			<Text>엘리트 중무기 수정자</Text>
+			<Text>엘리트 중장기 교정</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>일부 Modifier 리더만이 훈련할 수 있는 무서운 장거리 공성 유닛입니다. 강력한 근접 전투 효율성을 갖추고 있어 지역 상대에 매우 적합합니다. [NEWLINE] + 높은 근접 전투 효율성 [NEWLINE] + 지역 전투에 능숙합니다. [NEWLINE] + 기병 유닛과의 전투에 능숙함 [ NEWLINE]+물 위에서 싸울 수 있음[NEWLINE]-낮은 시야 범위[NEWLINE]-낮은 기동성[NEWLINE]-대기병 유닛에 의해 제지 가능</Text>
+			<Text>끔찍한 장거리 포위 유닛, 교정의 리더 중 일부만 훈련 될 수 있으며, 지역 [Newline] + High Melee Combat Power [Newline] + 전투 영역에서 좋은 지역을 다루는 데 매우 적합한 강력한 근접 전투원을 가질 수 있습니다. 반사 방지 장치</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_RELOAD_NAME" Language="ko_KR">
-			<Text>조기 재장전 근접 수정자</Text>
+			<Text>근접 교정기를 초기 재설치하십시오</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>이동 속도가 빠른 강력한 근접 기병 유닛입니다. 일부 수정자 리더만 훈련할 수 있습니다. 매우 치명적인 피해를 입히고 성벽에 완전한 피해를 입힐 수 있습니다. [NEWLINE] + 높은 근접 전투 효율성 [NEWLINE] + 높은 이동력 [NEWLINE] +좋음 전투 지역에서[NEWLINE]-대기병 부대에 의해 제지됩니다.</Text>
+			<Text>이동 속도가 높은 근접 기병대 유닛은 수정의 리더 중 일부일 뿐이며 매우 치명적이며 도시 벽에 완전히 손상 될 수 있으며 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 영역에서 양호한 [Newline] - 안티 가공 유닛으로 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_RELOAD_NAME" Language="ko_KR">
-			<Text>재장전된 근접 수정자</Text>
+			<Text>근접 교정기를 다시 설치하십시오</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>이동 속도가 빠른 강력한 근접 기병 유닛입니다. 일부 수정자 리더만 훈련할 수 있습니다. 매우 치명적인 피해를 입히고 성벽에 완전한 피해를 입힐 수 있습니다. [NEWLINE] + 높은 근접 전투 효율성 [NEWLINE] + 높은 이동력 [NEWLINE] +좋음 전투 지역에서[NEWLINE]-대기병 부대에 의해 제지됩니다.</Text>
+			<Text>이동 속도가 높은 근접 기병대 유닛은 교정의 리더 중 일부일 뿐이며 매우 치명적이며 도시 벽에 완전히 손상 될 수 있으며 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 영역에서 양호한 [Newline] - 안티 가공 유닛에 의해 구속 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_NAME" Language="ko_KR">
-			<Text>경험이 풍부한 Heavy Melee Modifier</Text>
+			<Text>근접 교정 주의자</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>이동 속도가 빠른 강력한 근접 기병 유닛입니다. 일부 수정자 리더만 훈련할 수 있습니다. 매우 치명적인 피해를 입히고 성벽에 완전한 피해를 입힐 수 있습니다. [NEWLINE] + 높은 근접 전투 효율성 [NEWLINE] + 높은 이동력 [NEWLINE] +좋음 전투 지역에서[NEWLINE]-대기병 부대에 의해 제지됩니다.</Text>
+			<Text>이동 속도가 높은 근접 기병대 유닛은 수정의 리더 중 일부일 뿐이며 매우 치명적이며 도시 벽에 완전히 손상 될 수 있으며 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 영역에서 양호한 [Newline] - 안티 가공 유닛으로 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_NAME" Language="ko_KR">
-			<Text>고급 헤비 근접 수정자</Text>
+			<Text>근접 교정기를 재설치했습니다</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>이동 속도가 빠른 강력한 근접 기병 유닛입니다. 일부 수정자 리더만 훈련할 수 있습니다. 매우 치명적인 피해를 입히고 성벽에 완전한 피해를 입힐 수 있습니다. [NEWLINE] + 높은 근접 전투 효율성 [NEWLINE] + 높은 이동력 [NEWLINE] +좋음 전투 지역에서[NEWLINE]-대기병 부대에 의해 제지됩니다.</Text>
+			<Text>이동 속도가 높은 근접 기병대 유닛은 수정의 리더 중 일부일 뿐이며 매우 치명적이며 도시 벽에 완전히 손상 될 수 있으며 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 영역에서 양호한 [Newline] - 안티 가공 유닛으로 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_RELOAD_NAME" Language="ko_KR">
-			<Text>엘리트 헤비 근접 수정자</Text>
+			<Text>엘리트는 근접 교정기를 다시 설치합니다</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>이동 속도가 빠른 강력한 근접 기병 유닛입니다. 일부 수정자 리더만 훈련할 수 있습니다. 매우 치명적인 피해를 입히고 성벽에 완전한 피해를 입힐 수 있습니다. [NEWLINE] + 높은 근접 전투 효율성 [NEWLINE] + 높은 이동력 [NEWLINE] +좋음 전투 지역에서[NEWLINE]-대기병 부대에 의해 제지됩니다.</Text>
+			<Text>이동 속도가 높은 근접 기병대 유닛은 수정의 리더 중 일부일 뿐이며 매우 치명적이며 도시 벽에 완전히 손상 될 수 있으며 [Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + 전투 영역에서 양호한 [Newline] - 안티 가공 유닛으로 제한 될 것입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_NAME" Language="ko_KR">
-			<Text>기갑 원격 수정자</Text>
+			<Text>원격 고정 장치를 다시 설치하십시오</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>일부 수정자 리더에게만 제공되는 특수 원거리 유닛은 근접 유닛과 원거리 유닛 모두의 공격을 쉽게 방어할 수 있습니다. 기술의 업그레이드를 통해 범위는 {loc_tech_iron_working_name}, {loc_tech_gunpowder_name}, {loc_tech_military_name}를 연구하는 일반적인 원격 교정기 [Newline]의 범위보다 훨씬 더입니다 on_strength] 전투 효과 [Newline ] {LOC_TECH_FLIGHT_NAME} 및 {LOC_TECH_COMPUTERS_NAME}을(를) 연구하면 유닛의 범위를 늘릴 수 있습니다. [ICON_Range][NEWLINE]+높은 근접 전투력[NEWLINE]+근접 유닛과의 싸움에 능숙[NEWLINE]+장거리 유닛과의 싸움에 능숙[ NEWLINE] - 낮은 기동성[NEWLINE] - 기병 유닛에 의해 제지 가능</Text>
+			<Text>특수 원거리 유닛, 수정주의 리더 중 일부만이 구축 할 수 있으며 근접 유닛과 원거리 유닛의 공격을 쉽게 견딜 수 있습니다. 기술의 업그레이드를 통해 범위는 일반적인 장거리 교정기 [Newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} 및 {loc_tech_synthetic_name}의 범위보다 더 멀다. 전투 파워 [Newline] {loc_tech_flight_name}, {loc_tech_computers_name}는 단위의 범위를 증가시킬 수 있습니다 [icon_range] [Newline]+High Melee Combat Power [Newline]+전투에서 좋은 전투 범위 [Newline]-LOW Mobility [Newline]-Cavalry United에 의해 구속됩니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_RELOAD_NAME" Language="ko_KR">
-			<Text>엘리트 장갑 원격 수정자</Text>
+			<Text>엘리트 원격 고정 장치를 다시 설치하십시오</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>일부 수정자 리더만이 구성할 수 있는 특수 원거리 유닛은 근접 및 원거리 유닛의 공격을 쉽게 견딜 수 있으며 지역을 처리하는 데에도 적합합니다. 사거리도 일반 엘리트 장거리 교정기보다 깁니다. [NEWLINE] + 높은 근접 전투 효율 [NEWLINE] + 높은 사거리 [NEWLINE] + 근접 유닛과의 싸움에 능숙합니다. [NEWLINE] + 장거리 유닛과의 싸움에 능숙합니다. [NEWLINE] + 지역 전투에 능숙함 [NEWLINE] - 낮은 기동성[NEWLINE] - 기병 부대에 의해 제지됨</Text>
+			<Text>특수 원거리 유닛, 일부 개정 리더 만 건설 할 수 있으며 근접 장치 및 원거리 장치의 공격을 쉽게 견딜 수 있으며 지역에도 적합합니다. 범위는 평범한 엘리트 장거리 수정 [Newline]+High Melee Combat Power [Newline]+High Range [Newline]+근접 유닛 [Newline]+전투 범위 유닛 [Newline]+전투 영역에서 양호한 [Newline]-모빌리티에 능숙합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PPROMOTION_CLASS_SWORD_MODIFIER_RELOAD_NAME" Language="ko_KR">
 			<Text>난투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_RANGED_MODIFIER_RELOAD_NAME" Language="ko_KR">
-			<Text>원격 공격</Text>
+			<Text>원거리 공격</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_ARMORRANGED_FIXER_RELOAD_NAME" Language="ko_KR">
-			<Text>원격 공격</Text>
+			<Text>원거리 공격</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_WEAPON_MODIFIER_RELOAD_NAME" Language="ko_KR">
-			<Text>경기병</Text>
+			<Text>가벼운 기병대</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_SPECIALCOMBAT_MODIFIER_RELOAD_NAME" Language="ko_KR">
-			<Text>해군 근접 전투</Text>
+			<Text>해군 근접</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_ARMORSWORD_MODIFIER_RELOAD_NAME" Language="ko_KR">
-			<Text>중기병</Text>
+			<Text>무거운 기병</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_A_NAME" Language="ko_KR">
-			<Text>대응기본훈련</Text>
+			<Text>기본 대책 교육</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 [ICON_Strength] 전투력 +5, 바다나 강에서 공격 시 [ICON_Strength] 전투력 및 [ICON_Movement] 이동 디버프 면제</Text>
+			<Text>+5 [icon_strength] 방어 할 때 전투 전투를하고 [icon_strength] 전투 파워와 [icon_movement] 이동성 디버프를 피하십시오.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_A_NAME" Language="ko_KR">
-			<Text>대응강화훈련</Text>
+			<Text>대응 및 집중적 인 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +10[ICON_Strength], 약탈 시 이동력 1만 소모</Text>
+			<Text>+10 [icon_strength] 방어시 전투 전투, 약탈은 단지 1 운동 전력 만 소비합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_A_NAME" Language="ko_KR">
-			<Text>대응 고도화 훈련</Text>
+			<Text>고급 대책 교육</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_A_DESCRIPTION" Language="ko_KR">
-			<Text>범람원과 늪지 방어 시 전투력 +20 [ICON_Strength]</Text>
+			<Text>+20 [icon_strength] 홍수 평원과 늪 방어의 전투력</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_B_NAME" Language="ko_KR">
-			<Text>기초체력훈련</Text>
+			<Text>기본 신체 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛의 이동력이 +2 [ICON_Movement]이고, 시야 범위가 +1이며, 지형을 무시하고 강 건너편에서 [ICON_Movement]의 이동 페널티를 받습니다.</Text>
+			<Text>Unit +2 [icon_movement] 이동력, +1 시야, 지형을 무시하고 [icon_movement] 강을 가로 지르는 이동 페널티</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_B_NAME" Language="ko_KR">
-			<Text>체력 강화 훈련</Text>
+			<Text>물리적 집중 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2 [ICON_Movement] 이동, 시야 범위 +1, 시야가 지형과 지형을 통과할 수 있음</Text>
+			<Text>단위 +2 [icon_movement] 이동력, +1 시야, 시야는 지형과 지형을 통과 할 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_B_NAME" Language="ko_KR">
 			<Text>고급 신체 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2[ICON_Movement] 이동, 시야 범위 +2</Text>
+			<Text>단위 +2 [icon_movement] 이동력, +2 시야</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_C_NAME" Language="ko_KR">
-			<Text>전투기본훈련</Text>
+			<Text>기본 전투 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_C_DESCRIPTION" Language="ko_KR">
-			<Text>공격 시 전투력 +7[ICON_Strength], 원격 유닛 및 공성 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
+			<Text>+7 [icon_strength] 공격시 전투 전투, +10 [icon_strength] 범위 유닛을 공격 할 때 전투 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_C_NAME" Language="ko_KR">
-			<Text>전투 집중 훈련</Text>
+			<Text>집중 교육 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_C_DESCRIPTION" Language="ko_KR">
-			<Text>공격 시 전투력 +3[ICON_Strength], 기병 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
+			<Text>+3 [icon_strength] 공격시 전투 전투, +10 [icon_strength] 포위 유닛을 공격 할 때 전투 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_C_NAME" Language="ko_KR">
 			<Text>고급 전투 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_C_DESCRIPTION" Language="ko_KR">
-			<Text>공격 시 전투력 +5[ICON_Strength], 공격 후 이동 가능</Text>
+			<Text>+5 [icon_strength] 공격시 전투 전투, +10 [icon_strength] 기병대를 공격 할 때 전투 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_4_NAME" Language="ko_KR">
-			<Text>키 동기화 업그레이드</Text>
+			<Text>주요 공동 조정 업그레이드</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_4_DESCRIPTION" Language="ko_KR">
-			<Text>유닛이 공격하면 +7 [ICON_Strength] 전투력과 +2 [ICON_Movement] 이동력을 얻습니다. 대형에 있는 모든 유닛은 동반 유닛의 이동력을 얻습니다. 유닛은 생명력을 회복하기 위해 주둔할 필요가 없습니다. 라운드 시작.</Text>
+			<Text>장치가 공격하면 Combat Power +7 [icon_strength]가 사용되고 Movement Power +2 [icon_movement]가 사용됩니다. 형성의 모든 단위는 장치의 이동 전력을 얻습니다. 생명을 회복하기 위해 라운드가 시작될 때 주둔 할 필요가 없습니다. [icon_movement] 이동력이 허용하는 경우 턴당 +1 추가 공격. 공격 후 이동할 수 있습니다</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_A_NAME" Language="ko_KR">
-			<Text>비상기본훈련</Text>
+			<Text>비상 기본 교육</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +5[ICON_Strength], 근접 유닛 공격 방어 시 전투력 +7[ICON_Strength]</Text>
+			<Text>+3 [icon_strength] 방어시 전투 전투, +5 [icon_strength] 근접 유닛을 방어 할 때 전투 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_A_NAME" Language="ko_KR">
-			<Text>비상집중훈련</Text>
+			<Text>비상 집중 교육</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +3[ICON_Strength], 기병 유닛 공격 방어 시 전투력 +12[ICON_Strength]</Text>
+			<Text>+5 [icon_strength] 방어시 전투 전투, +5 [icon_strength] 기병대 공격을 방어 할 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_A_NAME" Language="ko_KR">
 			<Text>고급 비상 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +2[ICON_Strength], 공중 유닛 공격으로부터 방어 시 전투력 +10[ICON_Strength], 해당 유닛은 지형을 무시하고 강 건너편의 이동 페널티 [ICON_Movement]</Text>
+			<Text>+7 [icon_strength] 방어시 전투 전투, +10 [icon_strength] 공기 장치 공격을 방어 할 때 전투 전투, 유닛은 지형을 무시하고 강을 가로 지른다 [icon_movement] 운동 처벌</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_B_NAME" Language="ko_KR">
-			<Text>해상공격대응훈련</Text>
+			<Text>바다 공격 대책 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_B_DESCRIPTION" Language="ko_KR">
-			<Text>해군 유닛과 싸울 때 전투력 +10 [ICON_Strength], 시야 범위 +1</Text>
+			<Text>+10 [icon_strength] 해군 유닛과 싸울 때 전투원, +1 시야</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_B_NAME" Language="ko_KR">
-			<Text>도시방어대책훈련</Text>
+			<Text>도시 방어 대책 교육</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_B_DESCRIPTION" Language="ko_KR">
-			<Text>전투 지역에서 전투력 +17 [ICON_Strength], 시야 범위 +1 및 시야 범위 내의 투명 유닛 공개</Text>
+			<Text>+17 [icon_strength] 지역과 싸울 때 전투 전투, 시야 내에서 +1 시야 및 디스플레이 보이지 않는 장치</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_B_NAME" Language="ko_KR">
-			<Text>공습대책훈련</Text>
+			<Text>공습 대책 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_B_DESCRIPTION" Language="ko_KR">
-			<Text>공중 유닛 공격을 방어할 때 전투력이 10 증가합니다. 인접한 적 유닛만 이 유닛을 발견할 수 있습니다.</Text>
+			<Text>+10 [icon_strength] 전투원 공기 장치를 방어 할 때 인접한 적 유닛 만 장치를 감지 할 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_C_NAME" Language="ko_KR">
-			<Text>총기 기본 훈련</Text>
+			<Text>기본 총기 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_C_DESCRIPTION" Language="ko_KR">
-			<Text>공격 시 전투력 +7[ICON_Strength], 원격 유닛 공격 시 전투력 +5[ICON_Strength]</Text>
+			<Text>+3 [icon_strength] 공격 할 때 전투 전투, +10 [icon_strength] 반사 방지 장치를 공격 할 때 전투 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_C_NAME" Language="ko_KR">
-			<Text>집중적인 총기 훈련</Text>
+			<Text>집중적 인 총기 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_C_DESCRIPTION" Language="ko_KR">
-			<Text>공격 시 전투력 +3[ICON_Strength], 해상 근접 유닛 공격 시 전투력 +8[ICON_Strength]</Text>
+			<Text>+5 [icon_strength] 공격시 전투 전력, +5 [icon_strength] 근접 유닛을 공격 할 때 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_C_NAME" Language="ko_KR">
-			<Text>고급 총기 훈련</Text>
+			<Text>고급 총 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_C_DESCRIPTION" Language="ko_KR">
-			<Text>공격 시 [ICON_Strength] 전투력이 +5. [ICON_Movement] 이동이 허용되면 라운드당 추가 공격이 1 증가합니다. 공격 후 이동이 가능합니다.</Text>
+			<Text>+7 [icon_strength] 공격 할 때 전투 전투, +12 [icon_strength] 해군 유닛을 공격 할 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_4_NAME" Language="ko_KR">
-			<Text>키 동기화 업그레이드</Text>
+			<Text>주요 공동 조정 업그레이드</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_4_DESCRIPTION" Language="ko_KR">
-			<Text>유닛이 공격하면 +7 [ICON_Strength] 전투력과 +2 [ICON_Movement] 이동력을 얻습니다. 대형에 있는 모든 유닛은 동반 유닛의 이동력을 얻습니다. 유닛은 생명력을 회복하기 위해 주둔할 필요가 없습니다. 라운드 시작.</Text>
+			<Text>장치가 공격하면 Combat Power +7 [icon_strength]가 사용되고 Movement Power +2 [icon_movement]가 사용됩니다. 형성의 모든 단위는 장치의 이동 전력을 얻습니다. 생명을 회복하기 위해 라운드가 시작될 때 주둔 할 필요가 없습니다. [icon_movement] 이동력이 허용하는 경우 턴당 +1 추가 공격. 공격 후 이동할 수 있습니다</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_A_NAME" Language="ko_KR">
-			<Text>방어구방어대책Ⅰ</Text>
+			<Text>갑옷 방어 대책 i</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +5[ICON_Strength], 공중 유닛 공격 방어 시 전투력 +15[ICON_Strength]</Text>
+			<Text>+7 [icon_strength] 방어시 전투 전투, +10 [icon_strength] 기병대를 방어 할 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_A_NAME" Language="ko_KR">
-			<Text>방어구방어대책 II</Text>
+			<Text>갑옷 방어 대책 II</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +3[ICON_Strength], 기병 유닛 공격 방어 시 전투력 +15[ICON_Strength]</Text>
+			<Text>+5 [icon_strength] 방어시 전투 전투, +10 [icon_strength] 해군 유닛을 방어 할 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_A_NAME" Language="ko_KR">
-			<Text>방어구방어대책 III</Text>
+			<Text>갑옷 방어 대책 III</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +7[ICON_Strength], 해상 유닛 공격 방어 시 전투력 +15[ICON_Strength]</Text>
+			<Text>+3 [icon_strength] 방어시 전투 파워, +15 [icon_strength] 항공 장치를 방어 할 때 전투 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_B_NAME" Language="ko_KR">
-			<Text>포병기본훈련</Text>
+			<Text>기본 포격 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 공격 시 전투력 +3[ICON_Strength], 기병 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
+			<Text>단위 +3 [icon_strength] 전투 전력, +10 [icon_strength] 기병대를 공격 할 때 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_B_NAME" Language="ko_KR">
-			<Text>집중 포병 훈련</Text>
+			<Text>폭격 집약적 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 전투력 +5[ICON_Strength], 대기병 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
+			<Text>Unit +5 [icon_strength] 전투 전력, +10 [icon_strength] 해군 단위를 공격 할 때 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_B_NAME" Language="ko_KR">
-			<Text>고급 포병 훈련</Text>
+			<Text>고급 포격 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 전투력 +7[ICON_Strength], 원격 유닛 및 공성 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
+			<Text>Unit +7 [icon_strength] 전투 전력, +10 [icon_strength] 범위 유닛 및 포위 유닛을 공격 할 때 전투 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_C_NAME" Language="ko_KR">
-			<Text>요새화 대책Ⅰ</Text>
+			<Text>강화 대책 i</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_C_DESCRIPTION" Language="ko_KR">
-			<Text>전투 지역에서 전투력 +17 [ICON_Strength] 전투력, 시야 범위 +1</Text>
+			<Text>+17 [icon_strength] 지역과 싸울 때 전투원, 약탈은 단지 1 운동 전력 만 소비합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_C_NAME" Language="ko_KR">
-			<Text>요새 대책 II</Text>
+			<Text>강화 대책 II</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_C_DESCRIPTION" Language="ko_KR">
-			<Text>전투 지역에서 전투력 +17 [ICON_Strength] 전투력, 시야 범위 +2</Text>
+			<Text>+17 [icon_strength] 지역과 싸울 때 전투 전투, +1 시야.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_C_NAME" Language="ko_KR">
-			<Text>요새 대책 III</Text>
+			<Text>강화 대책 III</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_C_DESCRIPTION" Language="ko_KR">
-			<Text>지역 전투 시 [ICON_Strength] 전투력이 +3, [ICON_Movement] 이동이 허용되면 라운드당 추가 공격이 +1됩니다. 공격 후 이동이 가능합니다.</Text>
+			<Text>+17 [icon_strength] 전투 파워, +2 시야</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_4_NAME" Language="ko_KR">
-			<Text>키 동기화 업그레이드</Text>
+			<Text>주요 공동 조정 업그레이드</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_4_DESCRIPTION" Language="ko_KR">
-			<Text>유닛이 공격하면 +7 [ICON_Strength] 전투력과 +2 [ICON_Movement] 이동력을 얻습니다. 대형에 있는 모든 유닛은 동반 유닛의 이동력을 얻습니다. 유닛은 생명력을 회복하기 위해 주둔할 필요가 없습니다. 라운드 시작.</Text>
+			<Text>장치가 공격하면 Combat Power +7 [icon_strength]가 사용되고 Movement Power +2 [icon_movement]가 사용됩니다. 형성의 모든 단위는 장치의 이동 전력을 얻습니다. 생명을 회복하기 위해 라운드가 시작될 때 주둔 할 필요가 없습니다. [icon_movement] 이동력이 허용하는 경우 턴당 +1 추가 공격. 공격 후 이동할 수 있습니다</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_A_NAME" Language="ko_KR">
-			<Text>공격 기본 훈련</Text>
+			<Text>공격을위한 기본 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_A_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 공격 시 전투력 +3[ICON_Strength], 기병 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
+			<Text>단위 +3 [icon_strength] 전투 전력, +10 [icon_strength] 기병대를 공격 할 때 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_A_NAME" Language="ko_KR">
-			<Text>폭행 집중 훈련</Text>
+			<Text>강력한 공격 집중 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_A_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 전투력 +5[ICON_Strength], 대기병 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
+			<Text>Unit +5 [icon_strength] 전투 전력, +10 [icon_strength] 전투 방지 장치를 공격 할 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_A_NAME" Language="ko_KR">
-			<Text>폭행 고급 훈련</Text>
+			<Text>공격을위한 고급 교육</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_A_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 전투력 +7[ICON_Strength], 원격 유닛 및 공성 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
+			<Text>Unit +7 [icon_strength] 전투 전력, +10 [icon_strength] 범위 유닛 및 포위 유닛을 공격 할 때 전투 전투</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_B_NAME" Language="ko_KR">
-			<Text>기초체력훈련</Text>
+			<Text>기본 신체 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛의 이동력이 +2 [ICON_Movement]이고, 시야 범위가 +1이며, 지형을 무시하고 강 건너편에서 [ICON_Movement]의 이동 페널티를 받습니다.</Text>
+			<Text>Unit +2 [icon_movement] 이동력, +1 시야, 지형을 무시하고 [icon_movement] 강을 가로 지르는 이동 페널티</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_B_NAME" Language="ko_KR">
-			<Text>체력 강화 훈련</Text>
+			<Text>물리적 집중 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2 [ICON_Movement] 이동, 시야 범위 +1, 시야가 지형과 지형을 통과할 수 있음</Text>
+			<Text>단위 +2 [icon_movement] 이동력, +1 시야, 시야는 지형과 지형을 통과 할 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_B_NAME" Language="ko_KR">
 			<Text>고급 신체 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2[ICON_Movement] 이동, 시야 범위 +2</Text>
+			<Text>단위 +2 [icon_movement] 이동력, +2 시야</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_C_NAME" Language="ko_KR">
-			<Text>길거리 싸움 기본 훈련</Text>
+			<Text>기본 거리 전투 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_C_DESCRIPTION" Language="ko_KR">
-			<Text>지역 전투 시 전투력 +17[ICON_Strength], 방어 시 전투력 +5[ICON_Strength]</Text>
+			<Text>+17 [icon_strength] 지역과 싸울 때 전투 전투. 바다 나 강에서 공격 할 때 [icon_strength] 전투 전력 및 [icon_movement] Mobility Power Debuff가 면제됩니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_C_NAME" Language="ko_KR">
-			<Text>집중적인 시가전 훈련</Text>
+			<Text>거리 전투 집약적 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_C_DESCRIPTION" Language="ko_KR">
-			<Text>지역 전투 시 전투력 +17[ICON_Strength], 약탈 시 이동력 1만 소모</Text>
+			<Text>+17 [icon_strength] 지역과 싸울 때 전투원, 약탈은 단지 1 운동 전력 만 소비합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_C_NAME" Language="ko_KR">
-			<Text>집중적인 시가전 훈련</Text>
+			<Text>고급 스트리트 전투 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_C_DESCRIPTION" Language="ko_KR">
-			<Text>전투 지역에서 [ICON_Strength] 전투력이 +3, [ICON_Movement] 이동이 허용되면 라운드당 추가 공격이 +1됩니다. 공격 후 이동이 가능합니다.</Text>
+			<Text>+17 [icon_strength] 지역과 싸울 때 전투 전투, +5 [icon_strength] 지역과 싸울 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_4_NAME" Language="ko_KR">
-			<Text>키 동기화 업그레이드</Text>
+			<Text>주요 공동 조정 업그레이드</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_4_DESCRIPTION" Language="ko_KR">
-			<Text>유닛이 공격하면 +7 [ICON_Strength] 전투력과 +2 [ICON_Movement] 이동력을 얻습니다. 대형에 있는 모든 유닛은 동반 유닛의 이동력을 얻습니다. 유닛은 생명력을 회복하기 위해 주둔할 필요가 없습니다. 라운드 시작.</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_A_NAME" Language="ko_KR">
-			<Text>기갑 대공 방어 전술</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +3[ICON_Strength], 공중 유닛 공격 방어 시 전투력 +15[ICON_Strength]</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_A_NAME" Language="ko_KR">
-			<Text>무장 약탈 전술</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +5[ICON_Strength], 약탈 시 이동력 1만 소모</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_A_NAME" Language="ko_KR">
-			<Text>기갑해상공격대책</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_A_DESCRIPTION" Language="ko_KR">
-			<Text>방어 시 전투력 +7[ICON_Strength], 해상 유닛 공격 방어 시 전투력 +15[ICON_Strength]</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_B_NAME" Language="ko_KR">
-			<Text>기초체력훈련</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛의 이동력이 +2 [ICON_Movement]이고, 시야 범위가 +1이며, 지형을 무시하고 강 건너편에서 [ICON_Movement]의 이동 페널티를 받습니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_B_NAME" Language="ko_KR">
-			<Text>체력 강화 훈련</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2 [ICON_Movement] 이동, 시야 범위 +1, 시야가 지형과 지형을 통과할 수 있음</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_B_NAME" Language="ko_KR">
-			<Text>고급 신체 훈련</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2[ICON_Movement] 이동, 시야 범위 +2</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_C_NAME" Language="ko_KR">
-			<Text>진압 사격 훈련</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_C_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 공격 시 전투력 +3[ICON_Strength], 원격 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_NAME" Language="ko_KR">
-			<Text>정밀사격훈련</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 전투력 +5[ICON_Strength], 대기병 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_C_NAME" Language="ko_KR">
-			<Text>게릴라전 훈련</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_C_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 전투력 +7[ICON_Strength], 경기병 유닛 공격 시 전투력 +10[ICON_Strength]</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_4_NAME" Language="ko_KR">
-			<Text>키 동기화 업그레이드</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_4_DESCRIPTION" Language="ko_KR">
-			<Text>유닛이 공격하면 +7 [ICON_Strength] 전투력과 +2 [ICON_Movement] 이동력을 얻습니다. 대형에 있는 모든 유닛은 동반 유닛의 이동력을 얻습니다. 유닛은 생명력을 회복하기 위해 주둔할 필요가 없습니다. 라운드 시작.</Text>
+			<Text>장치가 공격하면 Combat Power +7 [icon_strength]가 사용되고 Movement Power +2 [icon_movement]가 사용됩니다. 형성의 모든 단위는 장치의 이동 전력을 얻습니다. 생명을 회복하기 위해 라운드가 시작될 때 주둔 할 필요가 없습니다. [icon_movement] 이동력이 허용하는 경우 턴당 +1 추가 공격. 공격 후 이동할 수 있습니다</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_A_NAME" Language="ko_KR">
-			<Text>상륙전 훈련</Text>
+			<Text>수륙 양용 전투 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_A_DESCRIPTION" Language="ko_KR">
-			<Text>유닛의 전투력은 +5[ICON_Strength]이고, 해상 근접 유닛과 싸울 때 전투력은 +5[ICON_Strength]입니다.</Text>
+			<Text>Unit +3 [icon_strength] 전투 전력, +5 [icon_strength] 해군 근접 장치와 싸울 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_A_NAME" Language="ko_KR">
 			<Text>얕은 바다 전투 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_A_DESCRIPTION" Language="ko_KR">
-			<Text>유닛의 전투력 +3[ICON_Strength], 해상 원거리 유닛과 싸울 때 전투력 +10[ICON_Strength]</Text>
+			<Text>Unit +5 [icon_strength] Combat Power, +10 [icon_strength] 해군 범위 단위와 싸울 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_A_NAME" Language="ko_KR">
-			<Text>심해전투훈련</Text>
+			<Text>심해 전투 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_A_DESCRIPTION" Language="ko_KR">
-			<Text>유닛의 전투력 +7 [ICON_Strength], 해군 수송 유닛과 싸울 때 전투력 +20 [ICON_Strength]</Text>
+			<Text>Unit +7 [icon_strength] Combat Power, +20 [icon_strength] 해군 교통 장치와 싸울 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_B_NAME" Language="ko_KR">
-			<Text>기초체력훈련</Text>
+			<Text>기본 신체 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛의 이동력이 +2 [ICON_Movement]이고, 시야 범위가 +1이며, 지형을 무시하고 강 건너편에서 [ICON_Movement]의 이동 페널티를 받습니다.</Text>
+			<Text>Unit +2 [icon_movement] 이동력, +1 시야, 지형을 무시하고 [icon_movement] 강을 가로 지르는 이동 페널티</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_B_NAME" Language="ko_KR">
-			<Text>체력 강화 훈련</Text>
+			<Text>물리적 집중 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2 [ICON_Movement] 이동, 시야 범위 +1, 시야가 지형과 지형을 통과할 수 있음</Text>
+			<Text>단위 +2 [icon_movement] 이동력, +1 시야, 시야는 지형과 지형을 통과 할 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_B_NAME" Language="ko_KR">
 			<Text>고급 신체 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_B_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2[ICON_Movement] 이동, 시야 범위 +2</Text>
+			<Text>단위 +2 [icon_movement] 이동력, +2 시야</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_C_NAME" Language="ko_KR">
-			<Text>해상공격대응훈련</Text>
+			<Text>바다 공격 대책 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_C_DESCRIPTION" Language="ko_KR">
-			<Text>해군 유닛과 싸울 때 전투력 +10 [ICON_Strength], 시야 범위 +1</Text>
+			<Text>+10 [icon_strength] 해군 유닛과 싸울 때 전투원, +1 시야</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_C_NAME" Language="ko_KR">
-			<Text>도시방어대책훈련</Text>
+			<Text>도시 방어 대책 교육</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_C_DESCRIPTION" Language="ko_KR">
-			<Text>전투 지역에서 전투력 +17 [ICON_Strength], 시야 범위 +1 및 시야 범위 내의 투명 유닛 공개</Text>
+			<Text>+17 [icon_strength] 지역과 싸울 때 전투 전투, 시야 내에서 +1 시야 및 디스플레이 보이지 않는 장치</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_C_NAME" Language="ko_KR">
-			<Text>공습대책훈련</Text>
+			<Text>공습 대책 훈련</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_C_DESCRIPTION" Language="ko_KR">
-			<Text>공중 유닛 공격을 방어할 때 전투력이 10 증가합니다. 인접한 적 유닛만 이 유닛을 발견할 수 있습니다.</Text>
+			<Text>+10 [icon_strength] 전투원 공기 장치를 방어 할 때 인접한 적 유닛 만 장치를 감지 할 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_4_NAME" Language="ko_KR">
-			<Text>키 동기화 업그레이드</Text>
+			<Text>주요 공동 조정 업그레이드</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_4_DESCRIPTION" Language="ko_KR">
-			<Text>유닛이 공격하면 +7 [ICON_Strength] 전투력과 +2 [ICON_Movement] 이동력을 얻습니다. 대형에 있는 모든 유닛은 동반 유닛의 이동력을 얻습니다. 유닛은 생명력을 회복하기 위해 주둔할 필요가 없습니다. 라운드 시작.</Text>
+			<Text>장치가 공격하면 Combat Power +7 [icon_strength]가 사용되고 Movement Power +2 [icon_movement]가 사용됩니다. 형성의 모든 단위는 장치의 이동 전력을 얻습니다. 생명을 회복하기 위해 라운드가 시작될 때 주둔 할 필요가 없습니다. [icon_movement] 이동력이 허용하는 경우 턴당 +1 추가 공격. 공격 후 이동할 수 있습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_A_NAME" Language="ko_KR">
+			<Text>기갑 해안 방어 전술</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_A_DESCRIPTION" Language="ko_KR">
+			<Text>+3 [icon_strength] 방어시 전투 전투, +10 [icon_strength] 해군 유닛을 방어 할 때 전투원</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_A_NAME" Language="ko_KR">
+			<Text>갑옷 약탈 전술</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_A_DESCRIPTION" Language="ko_KR">
+			<Text>+5 [icon_strength] 방어 할 때 전투력, 약탈은 단지 1 움직임 전력을 소비합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_A_NAME" Language="ko_KR">
+			<Text>장갑 항공 방어 전술</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_A_DESCRIPTION" Language="ko_KR">
+			<Text>+7 [icon_strength] 방어시 전투 파워, +15 [icon_strength] 공기 장치를 방어 할 때 전투 전투</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_B_NAME" Language="ko_KR">
+			<Text>기본 신체 훈련</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_B_DESCRIPTION" Language="ko_KR">
+			<Text>Unit +2 [icon_movement] 이동력, +1 시야, 지형을 무시하고 [icon_movement] 강을 가로 지르는 이동 페널티</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_B_NAME" Language="ko_KR">
+			<Text>물리적 집중 훈련</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_B_DESCRIPTION" Language="ko_KR">
+			<Text>단위 +2 [icon_movement] 이동력, +1 시야, 시야는 지형과 지형을 통과 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_B_NAME" Language="ko_KR">
+			<Text>고급 신체 훈련</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_B_DESCRIPTION" Language="ko_KR">
+			<Text>단위 +2 [icon_movement] 이동력, +2 시야</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_C_NAME" Language="ko_KR">
+			<Text>화력 억제 훈련</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_C_DESCRIPTION" Language="ko_KR">
+			<Text>Unit +3 [icon_strength] 전투 전력, +10 [icon_strength] 범위 단위를 공격 할 때 전투원</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_NAME" Language="ko_KR">
+			<Text>정확한 촬영 훈련</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_DESCRIPTION" Language="ko_KR">
+			<Text>Unit +5 [icon_strength] 전투 전력, +10 [icon_strength] 전투 방지 장치를 공격 할 때 전투원</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_C_NAME" Language="ko_KR">
+			<Text>게릴라 전투 훈련</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_C_DESCRIPTION" Language="ko_KR">
+			<Text>Unit +7 [icon_strength] 전투 전력, +10 [icon_strength] 가벼운 기병대를 공격 할 때 전투원</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_4_NAME" Language="ko_KR">
+			<Text>주요 공동 조정 업그레이드</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_4_DESCRIPTION" Language="ko_KR">
+			<Text>장치가 공격하면 Combat Power +7 [icon_strength]가 사용되고 Movement Power +2 [icon_movement]가 사용됩니다. 형성의 모든 단위는 장치의 이동 전력을 얻습니다. 생명을 회복하기 위해 라운드가 시작될 때 주둔 할 필요가 없습니다. [icon_movement] 이동력이 허용하는 경우 턴당 +1 추가 공격. 공격 후 이동할 수 있습니다</Text>
 		</Replace>
 		<Replace Tag="LOC_ATK_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 업그레이드로 인한 +{1_Amount}[ICON_Strength] 전투력</Text>
+			<Text>+{1_amount} [icon_strength] 전투 전력, 단위 업그레이드</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="ko_KR">
-			<Text>논리의 순환</Text>
+			<Text>이성의 고리</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>자체 전투 효율성을 갖춘 특수 지원 유닛입니다. 대형에 있는 모든 유닛은 이 유닛의 기동성을 얻습니다. [NEWLINE][COLOR:ResMilitaryLabelCS] 이 유닛은 유지비가 매우 높으므로 주의해서 구축하세요! [ENDCOLOR][NEWLINE]{LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME}, {LOC_TECH_SYNTHETIC_MATERIALS_NAME}을(를) 연구하면 유닛의 [ICON_Strength] 전투 효율성을 높일 수 있습니다.[NEWLINE]{LOC_TECH_FLIGHT_NAME} 연구, {LOC_TECH_COMPUTERS_N AME}는 단위 [ICON_Range] 범위를 활성화하고 시야 증가된 사거리[NEWLINE]+높은 기동성[NEWLINE]+높은 장거리 전투 효율[NEWLINE]+군사 유닛으로 대형을 구성하는 능력[NEWLINE]-높은 유지 비용[NEWLINE]-모든 유닛에 의해 제한됩니다.</Text>
+			<Text>Heimdal의 열쇠를 기반으로 한 특별 지원 부서에는 자체 전투력이 있으며 모든 형성 장치는 장치의 이동성 [Newline] [Color : ResmilitaryLabelcs]을 얻었습니다.이 장치의 유지 보수 수수료는 매우 높습니다.주의해서 구축하십시오! [endColor] [Newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name}, {loc_tech_synthetic_materials_name} [icon_strength] [Newlingrength] Research의 전투 효과를 향상시킬 수 있습니다. {loc_tech_flight_name}, {loc_tech_computers_name}이 장치의 비전 범위와 필드를 증가시킬 수 있습니다 [icon_range] [Newon] [Newline]+높은 이동성 [Newline]+높은 장거리 전투 전력 [Newline]+High High Maintenance Very [Newline]-모든 Units가 제한합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="ko_KR">
-			<Text>도대체</Text>
+			<Text>헬라</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>남들과 소통하기를 싫어하고 늘 혼자 조용히 밤하늘을 바라보는 소녀는 어두웠던 어린 시절의 경험을 갖고 있었던 것 같다.</Text>
+			<Text>다른 사람들과 의사 소통하는 것을 좋아하지 않는 소녀들은 마치 어두운 어린 시절의 경험이있는 것처럼 밤하늘을 조용히 혼자서 보았습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_NAME" Language="ko_KR">
+			<Text>Lin Yu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_DESCRIPTION" Language="ko_KR">
+			<Text>시안 아카데미에서 Zhiming의 제자도 그녀의 조수입니다. 그는 똑똑하고 연구하며 제도적 기술에서 큰 성과를 거두고 있습니다. 깨어나 기 전에 나는 언니 Yingzhao에 의존하고, 언니가 자신을 보호하기 위해 경험 한 어려움을 목격했으며, 항상 자신을 증명하고 언니의 짐을 줄이고 싶었습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_NAME" Language="ko_KR">
-			<Text>전 오니보 텐구</Text>
+			<Text>마이 오니보 겐두</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>활기차고 태평한 전직 오니보(Onibo)는 아이 오브 딥 스페이스(Eye of Deep Space)의 가장 큰 말썽꾸러기입니다. 그녀는 장난에 온 힘을 쏟았고, &quot;호귀&quot;라는 공중 친구가 있다고 주장했지만, 호귀의 존재가 사실인지 아닌지는 아무도 알지 못했다.</Text>
+			<Text>활기차고 평온한 전 유령 집은 깊은 하늘의 눈에서 가장 큰 성가신 정신입니다. 그녀는 장난에 과도한 에너지를 보냈고 &quot;hougui&quot;라는 공중 친구가 있다고 주장했지만 아무도 Hougui의 존재를 알지 못했습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_NAME" Language="ko_KR">
 			<Text>오시리스</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>본부에서 가장 인기 있는 교정자는 모두에게 &quot;리틀 오시리스&quot;라는 애칭으로 불립니다. 동료들의 고민을 알아낸 후, 최선을 다해 조용히 도움을 제공하고 항상 동료들의 일을 최우선으로 생각합니다.</Text>
+			<Text>본사에서 가장 인기있는 개정 주의자는 애정 적으로 &quot;Little Osiris&quot;라고 불립니다. 동료의 문제를 발견 한 후에는 그들에게 도움을주고 항상 동료의 업무를 최우선으로 생각합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_AOXILISI_EXPANSION2_DESCRIPTION" Language="ko_KR">
+			<Text>본사에서 가장 인기있는 개정 주의자는 애정 적으로 &quot;Little Osiris&quot;라고 불립니다. 동료의 문제를 발견 한 후에는 그들에게 도움을주고 항상 동료의 업무를 최우선으로 생각합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_NAME" Language="ko_KR">
-			<Text>베르단테</Text>
+			<Text>Weier Danti</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_DESCRIPTION" Language="ko_KR">
 			<Text></Text>
@@ -619,619 +841,595 @@
 			<Text>거대한</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIWEITAN_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>매일 에너지가 넘치는 리바이어던은 가끔 혼란스러워하는 귀여운 소년입니다. 천진하고 발랄한 성격이지만, 그녀 앞에서는 비달에게 너무 친밀한 모습을 보여주지 마세요.</Text>
+			<Text>매일 에너지로 가득 찬 Leviathan은 때때로 혼란스러워하는 작은 귀여운 귀염둥이입니다. 그녀는 결백하고 활기차고 있지만, 그녀는 예기치 않게 조금 질투합니다. 그녀 앞에서 비달에 너무 가까이 행동하지 마십시오.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_NAME" Language="ko_KR">
 			<Text>비달</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>수식어는 얼어붙은 원시 지역에서 데려왔다. 장기간의 고독한 생활로 인해 그녀는 조금 차갑고 외로워 보였고, 대인관계에도 그다지 능숙하지 않은 것 같았다.</Text>
+			<Text>얼어 붙은 원자재 지역에서 돌아온 교정 주의자는 일년 내내 혼자있는 삶의 삶이 그녀를 조금 추워서 철회 한 것처럼 보이게했으며, 대인 관계의 의사 소통에 능숙하지 않은 것처럼 보였습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SIKADI_RELOAD_NAME" Language="ko_KR">
-			<Text>스카디</Text>
+			<Text>스카티</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SIKADI_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>Skadi는 Xio의 명령을 직접적으로 받아들이는 9부에서 몇 안 되는 현장 교정관 중 한 명이며, 특히 해양 지역에서 눈에 보이는 잔해 활동의 징후를 조사하는 일을 담당하고 있습니다. 겉으로는 태평해 보이지만 중요한 순간에는 언제나 선장다운 용기를 보여줍니다.</Text>
+			<Text>Sikati는 휴의 지휘하에있는 아홉 번째 부서의 몇 안되는 현장 수정 중 하나이며, 특히 해양 지역에서 시각적 뼈 활동의 징후를 조사 할 책임이 있습니다. 그녀는 표면에서 평온한 것처럼 보이지만, 중요한 순간에있어서, 그녀는 항상 선장이 가져야 할 용기를 보여줄 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_NAME" Language="ko_KR">
-			<Text>대국주</Text>
+			<Text>오쿠닌</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>'자유로운 연구와 발명을 수행한다'는 조건으로 아이 오브 딥 스페이스에 합류한 소녀는 현재 미확인동물학팀에서 일하고 있다. 그러나 그는 고용되어 있음에도 불구하고 시체와의 전투에는 거의 참여하지 않으며 발명품과 타로 카드에만 관심이 있는 것 같습니다.</Text>
+			<Text>&quot;무료 연구 및 발명품&quot;조건에 따라 깊은 우주 눈에 합류 한 소녀는 현재 숨겨진 과학 그룹에 있습니다. 그러나 그는 자신이 사무실에 있다고 말했다. 그러나 그는 거의 동시 몸 전투에 참여하지 않았으며 발명품과 타로 카드에만 관심이있는 것처럼 보였다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_NAME" Language="ko_KR">
-			<Text>헤임달</Text>
+			<Text>Heimdal</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>Hidden Science Team의 주요 리더 중 한 명인 그는 &quot;Mimir System&quot;을 포함하여 Eye of Deep Space의 AI 시스템 대부분을 개발했습니다. 시각적인 뼈대를 완전히 없애는 것을 목표로 우리가 하는 모든 일에서 정확성과 효율성을 추구합니다.</Text>
+			<Text>숨겨진 과학 그룹의 주요 리더 중 한 명이 &quot;Mimir 시스템&quot;을 포함하여 Deep Space Eye에서 대부분의 AI 시스템을 개발했습니다. 우리는 신체를 완전히 제거하고 모든 것에서 정확성과 효율성을 추구하는 것을 목표로합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_NAME" Language="ko_KR">
 			<Text>호델</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>정보부 소속인 호델과 그의 여동생 바드르는 쌍둥이다. 밝고 활달한 언니의 성격과 달리 호델은 묵묵히 언니의 빛을 따르며, 자신의 모습을 너무 많이 드러내지 않는다.</Text>
+			<Text>정보 부서의 회원 인 Hoddle은 여동생의 쌍둥이와 쌍둥이입니다. 그녀의 여동생의 활기차고 관대 한 성격과는 달리, Hodel은 언니의 빛을 조용히 따랐으며 자신을 너무 많이 드러내지 않았습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHAOXILISI_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>외모는 오시리스와 똑같지만, 내면의 지배적인 성격은 미친 '명왕성'이다. 그는 엄청난 힘을 갖고 있으며 다른 수식어들과의 협력을 경멸한다.</Text>
+			<Text>그는 오시리스와 정확히 같은 모습을 보였지만 그의 내면의 지배적 인 성격은 미친 &quot;명왕성&quot;이며, 다른 개정 주의자들과 협력 할 수있는 강력한 힘과 경멸이 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TUOER_RELOAD_NAME" Language="ko_KR">
 			<Text>토르</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TUOER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>Deep Sky Eye의 &quot;Thunder Squad&quot;의 대장이자 조직 내에서 가장 강력한 전투원입니다. 팀의 다양한 행동에 있어서 실수가 끊임없이 나오더라도 결국 그녀의 힘에 의지하면 끝까지 해낼 수 있다. 토르는 정의감이 뛰어나지만 그의 거친 싸움 스타일에 맞춰 일을 처리하는 데 종종 충동적입니다.</Text>
+			<Text>Deep Sky Eye &quot;Thunder Squad&quot;의 선장은 조직에서 가장 강력한 전투력을 가지고 있습니다. 팀의 다양한 행동에서, 계속 엉망이 되더라도, 결국 그녀의 힘으로 항상 완료해야합니다. Thor는 매우 의롭지 만, 야생의 싸움 스타일에 서신하면서 종종 물건을 다루는 데 충동됩니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_CIVIC_NATIONALISM_NAME}: 유닛 +7[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -3[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+			<Text>{loc_civic_nationalism_name} : Unit +7 [icon_strength] Combat Power, [컬러 : resmilitaryLabelcs] -3 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: 유닛 +10[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -3[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+			<Text>{loc_civic_mobilization_name} : init +10 [icon_strength] 전투 전력, [색상 : resmilitaryLabelcs] -3 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_IRON_WORKING_NAME}: 유닛 +16[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+			<Text>{loc_tech_iron_working_name} : Unit +16 [icon_strength] Combat Power, [Color : ResmilitaryLabelcs] -1 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: 유닛 +9[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+			<Text>{LOC_TECH_APPRENTICSHIP_NAME} : UNIT +9 [icon_strength] Combat Power, [색상 : ResmilitaryLabelcs] -1 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_GUNPOWDER_NAME}: 유닛 +10[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+			<Text>{LOC_TECH_GUNPOWDER_NAME} : Unit +10 [icon_strength] Combat Power, [색상 : ResmilitaryLabelcs] -1 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: 유닛 +10[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+			<Text>{loc_tech_military_science_name} : Unit +10 [icon_strength] Combat Power, [Color : ResmilitaryLabelcs] -1 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: 유닛 +10[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -2[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_STIRRUPS_NAME}: 유닛 +20 [ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -1 [ICON_Gold] 금화(유지비) [ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_BALLISTICS_NAME}: 유닛 +14[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -2[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_COMBUSTION_NAME}: 유닛 +21[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -2[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_SYNTHETIC_MATERIALS_NAME}: 유닛 +1[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -2[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+		<Replace Tag="LOC_ABILITY_TECH_REFINING_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>{loc_tech_refining_name} : Unit +10 [icon_strength] Combat Power, [컬러 : resmilitaryLabelcs] -2 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_STIRRUPS_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_STIRRUPS_NAME}: 유닛 +20[ICON_Strength] 전투력, [COLOR:ResMilitaryLabelCS] 턴당 -2[ICON_Gold] 금화(유지비)[ENDCOLOR]</Text>
+			<Text>{loc_tech_stirrups_name} : init +20 [icon_strength] 전투 전력, [색상 : resmilitaryLabelcs] -1 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>{loc_tech_ballistics_name} : Unit +14 [icon_strength] Combat Power, [색상 : ResmilitaryLabelcs] -2 [icon_gold] 금화 (유지 보수 비용) [endcolor]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>{loc_tech_combustion_name} : init +21 [icon_strength] 전투 전력, [색상 : resmilitaryLabelcs] -2 [icon_gold] 골드 코인 (유지 보수 비용) [endcolor]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>{loc_tech_synthetic_materials_name} : unit +1 [icon_strength] 전투 전력, [색상 : resmilitaryLabelcs] -2 [icon_gold] 골드 코인 (유지 보수 수수료) [endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_IRON_WORKING_NAME}: 유닛 +16 [ICON_AntiAir_Large] 대공 전투력</Text>
+			<Text>{loc_tech_iron_working_name} : Unit +16 [icon_antiair_large] 항공 방어 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: 유닛 +9[ICON_AntiAir_Large] 대공 전투력</Text>
+			<Text>{loc_tech_Apprenticeship_name} : Unit +9 [icon_antiair_large] 항공 방어 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_GUNPOWDER_NAME}: 유닛 +10 [ICON_AntiAir_Large] 대공 전투력</Text>
+			<Text>{LOC_TECH_GUNPOWDER_NAME} : Unit +10 [icon_antiair_large] 항공 방어 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{TECH_MILITARY_SCIENCE}: 유닛 +10[ICON_AntiAir_Large] 대공 전투력</Text>
+			<Text>{loc_tech_military_science_name} : Unit +10 [icon_antiair_large] 항공 방어 전투 전력</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: 유닛 +10[ICON_AntiAir_Large] 대공 전투력</Text>
+		<Replace Tag="LOC_ABILITY_TECH_REFINING_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>{loc_tech_refining_name} : Unit +10 [icon_antiair_large] 항공 방어 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_COMPOSITES_NAME}: 유닛 +10[ICON_Strength] 전투력</Text>
+			<Text>{loc_tech_composites_name} : Unit +10 [icon_strength] Combat Power, [색상 : ResmilitaryLabelcs] -3 [icon_gold] 금화 (유지 보수 비용) [endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_ANTI_AIR_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_COMPOSITES_NAME}: 유닛 +10[ICON_AntiAir_Large] 대공 전투력</Text>
+			<Text>{loc_tech_composites_name} : Unit +10 [icon_antiair_large] 항공 방어 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_FLIGHT_ADD_1_RANGE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_FLIGHT_NAME}: 유닛 +1[ICON_Range] 범위</Text>
+			<Text>{loc_tech_flight_name} : init +1 [icon_range] 범위</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPUTERS_ADD_2_RANGE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_COMPUTERS_NAME}: 장치 + 2 [ICON_Range] 범위</Text>
+			<Text>{loc_tech_computers_name} : init +2 [icon_range] 범위</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_FLIGHT_ADD_1_SIGHT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_FLIGHT_NAME}: 유닛 +1 시야 범위, +4 [ICON_Movement] 이동</Text>
+			<Text>{loc_tech_flight_name} : init +1 시야 필드, +4 [icon_movement] Movement Force</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPUTERS_ADD_2_SIGHT_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_COMPUTERS_NAME}: 유닛 +2 시야 범위, +4 [ICON_Movement] 이동</Text>
+			<Text>{loc_tech_computers_name} : Unit +2 시야 필드, +4 [icon_movement] Movement Force</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_CIVIC_NATIONALISM_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_civic_nationalism_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_CIVIC_MOBILIZATION_NAME}의 전투력 +{1_Amount}</Text>
+			<Text>+{1_amount} {loc_civic_mobilization_name}에서 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_IRON_WORKING_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_iron_working_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_APPRENTICESHIP_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_particeship_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_GUNPOWDER_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_gunpowder_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_military_science_name}</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}의 +{1_Amount} 전투력</Text>
+		<Replace Tag="LOC_ABILITY_TECH_REFINING_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} 전투 전력, {loc_tech_refining_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_CASTLES_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_castles_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_BALLISTICS_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_ballistics_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_COMBUSTION_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_combustion_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_SYNTHETIC_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_synthetic_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_STIRRUPS_ADD_20_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_STIRRUPS_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_stirrups_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TECH_COMPOSITES_NAME}의 +{1_Amount} 전투력</Text>
+			<Text>+{1_amount} 전투 전력, {loc_tech_composites_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SWORD_FIXER_ADD_10_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ko_KR">
-			<Text>대기병 유닛과 싸울 때 전투력 +10 [ICON_Strength]</Text>
+			<Text>+10 [icon_strength] 반사 방지 장치와 싸울 때 전투원</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SWORD_FIXER_ADD_10_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>중무기 수정치에 대한 전투력 +10 [ICON_Strength]</Text>
+			<Text>무거운 무기 교정과 싸우십시오 +10 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="ko_KR">
-			<Text>중기병 유닛에 대한 전투력 -20[ICON_Strength]</Text>
+			<Text>무거운 기병대와 싸우십시오 -20 [icon_strength] 전투력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_LIGHT_CAVALRY_DESCRIPTION" Language="ko_KR">
-			<Text>경기병 유닛에 대한 전투력 -20[ICON_Strength]</Text>
+			<Text>가벼운 기병대와 싸우십시오 -20 [icon_strength] 전투력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ko_KR">
-			<Text>원거리 유닛에 대한 전투력 -20[ICON_Strength]</Text>
+			<Text>Ranged Unit-20 [icon_strength] 전투력과의 싸움</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="ko_KR">
-			<Text>중기병 유닛에 대한 전투력 +35[ICON_Strength]</Text>
+			<Text>무거운 기병대와 싸우십시오 +35 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_LIGHT_CAVALRY_DESCRIPTION" Language="ko_KR">
-			<Text>경기병 유닛에 대한 전투력 +35[ICON_Strength]</Text>
+			<Text>가벼운 기병대와 싸우십시오 +35 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>중무기 수정치에 대한 전투력 +35[ICON_Strength]</Text>
+			<Text>무거운 무기 교정과 싸우십시오 +35 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_MELEE_DESCRIPTION" Language="ko_KR">
-			<Text>근접 유닛에 대한 전투력 -10[ICON_Strength]</Text>
+			<Text>근접 유닛 -10 [icon_strength] 전투 파워와 싸우십시오</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ko_KR">
-			<Text>원거리 유닛에 대한 전투력 -10[ICON_Strength]</Text>
+			<Text>원거리 단위 -10 [icon_strength] 전투력과의 싸움</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_ADD_10_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ko_KR">
-			<Text>원거리 유닛에 대한 전투력 +10[ICON_Strength]</Text>
+			<Text>원거리 단위 +10 [icon_strength] 전투 전력과 싸우십시오</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_ADD_20_COMBAT_VS_CLASS_RANGED_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>원거리 수정치에 대한 전투력 +20 [ICON_Strength]</Text>
+			<Text>원거리 교정기 +20 [icon_strength] 전투력과 싸우십시오</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_REDUCE_35_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ko_KR">
-			<Text>-30 [ICON_Strength] 대기병 유닛과 싸울 때 전투력</Text>
+			<Text>반사 방지 장치와 싸울 때 -30 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_DEF_REDUCE_30_VS_CLASS_MELEE_DESCRIPTION" Language="ko_KR">
-			<Text>근접 유닛 공격 방어 시 전투력 -30 [ICON_Strength]</Text>
+			<Text>근접 장치 공격에 대해 방어 할 때 -30 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMORSWORD_FIXER_DEF_REDUCE_30_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ko_KR">
-			<Text>기병 유닛의 공격 방어 시 전투력 -30 [ICON_Strength]</Text>
+			<Text>기병대를 방어 할 때 -30 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMORSWORD_FIXER_DEF_REDUCE_30_VS_CLASS_ANTIFIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>-30 [ICON_Strength] 대전차 수정치의 공격을 방어할 때 전투력이 증가합니다.</Text>
+			<Text>방어 방지 안티 탱크 수정 자 공격 -30 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_DEF_REDUCE_20_VS_CLASS_SIEGE_DESCRIPTION" Language="ko_KR">
-			<Text>공성 유닛의 공격 방어 시 전투력 -20 [ICON_Strength]</Text>
+			<Text>포위 유닛에 대한 방어 공격 -20 [icon_strength] 전투 파워</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_DEF_REDUCE_20_VS_DISTRICTS_DESCRIPTION" Language="ko_KR">
-			<Text>광역 공격 방어 시 전투력 -20[ICON_Strength]</Text>
+			<Text>방어 지역 공격 -20 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SPECIALCOMBAT_FIXER_DEF_REDUCE_10_VS_CLASS_SIEGE_DESCRIPTION" Language="ko_KR">
-			<Text>공성 유닛의 공격 방어 시 전투력 -10 [ICON_Strength]</Text>
+			<Text>포위 유닛에 대한 방어 공격 -10 [icon_strength] 전투 파워</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SPECIALCOMBAT_FIXER_DEF_REDUCE_10_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>-10[ICON_Strength] 방어 중무기 수정치로 공격 시 전투력</Text>
+			<Text>방어 중장기 교정기 공격 -10 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_AFTER_ATTACK_KEEP_MOVEING_DESCRIPTION" Language="ko_KR">
-			<Text>유닛은 공격 후 계속 [ICON_Movement] 이동할 수 있습니다.</Text>
+			<Text>장치 공격 후에도 계속 움직일 수 있습니다 [icon_movement]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 [ICON_Movement]는 이동할 때 지형 및 강 건너기 페널티를 받지 않습니다.</Text>
+			<Text>Unit [icon_movement]는 움직일 때 지형이나 강을 건너지 않습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ATTACK_AGAIN_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 [ICON_Turn] 공격 +1</Text>
+			<Text>Unit [icon_turn] 공격 +1</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_AMPHIBIOUS_DESCRIPTION" Language="ko_KR">
-			<Text>유닛은 물 속에서도 싸울 수 있습니다.</Text>
+			<Text>유닛은 물에서 싸울 수 있습니다</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_DESCRIPTION" Language="ko_KR">
-			<Text>해당 유닛은 도시 방어에 완전한 피해를 입힙니다.</Text>
+			<Text>이 장치는 도시 방어에 완전히 손상을줍니다</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_DESCRIPTION" Language="ko_KR">
-			<Text>유닛은 [ICON_Strength] 근접 공격을 사용할 수 없습니다.</Text>
+			<Text>장치는 [icon_strength] 근접 공격을 사용할 수 없습니다</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ESCORT_MOBILITY_SHARED_MOVEMENT_DESCRIPTION" Language="ko_KR">
-			<Text>대형에 있는 모든 유닛은 이 유닛의 [ICON_Movement] 이동력을 얻습니다.</Text>
+			<Text>모든 형성 단위는 장치의 이동력을 얻었습니다 [icon_movement]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_MEELE_DESCRIPTION" Language="ko_KR">
-			<Text>유닛이 해당 지역에 전체 피해를 입힙니다.</Text>
+			<Text>유닛은 해당 지역에 완전히 손상됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_XUNLIZHIHUAN_RELOAD_NAME" Language="ko_KR">
-			<Text>포위 도시</Text>
+			<Text>도시를 포위하십시오</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_2_COMBAT_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2[ICON_Strength] 전투력</Text>
+			<Text>단위 +2 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_1_MOVENENT_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +1[ICON_Movement] 이동</Text>
+			<Text>단위 +1 [icon_movement] 이동력</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_4_1_ESCORT_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>유닛은 +4 [ICON_Strength] 전투력, +1 [ICON_Movement] 이동력을 가지며, 모든 대형 유닛은 동반 유닛 [ICON_Movement] 이동력을 얻습니다.</Text>
+			<Text>Unit +4 [icon_strength] 전투 전력, +1 [icon_movement] 이동성 전력, 모든 형성 장치는 동행 장치 [icon_movement] Mobility Power를 얻었습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_3_COMBAT_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +3[ICON_Strength] 전투력</Text>
+			<Text>단위 +3 [icon_strength] 전투 전력</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_2_MOVENENT_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>유닛 +2[ICON_Movement] 이동</Text>
+			<Text>단위 +2 [icon_movement] 이동력</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_7_4_ESCORT_RELOAD_DESCRIPTION" Language="ko_KR">
-			<Text>해당 유닛은 +7 [ICON_Strength] 전투력, +4 [ICON_Movement] 이동력을 가지며, 모든 대형 유닛은 동반 유닛의 [ICON_Movement] 이동력을 얻습니다.</Text>
+			<Text>Unit +7 [icon_strength] 전투 전력, +4 [icon_movement] 이동성, 모든 형성 장치는 첨부 된 단위 [icon_movement] Mobility Power를 얻었습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_NAME" Language="ko_KR">
-			<Text>생태학적 재목장</Text>
+			<Text>생태 벌목 농장</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_DESCRIPTION" Language="ko_KR">
-			<Text>특별 개선 시설, 일부 수식어 리더만 건설 가능, [ICON_Production] 생산성 +2, 주변 셀 매력 +1, 개선 시설은 셀 매력 가치에 따라 추가로 100% [ICON_Gold] 금화 생산량을 얻을 수 있습니다. 연구 { LOC_TECH_INDUSTRIALIZATION_NAME} 개선 시설은 금화 생산량을 기준으로 [ICON_Tourism] 관광 성과를 25% 얻을 수 있으며, 숲이나 열대 우림이 있는 셀에만 건설할 수 있습니다.</Text>
+			<Text>특수 개선 시설, 일부 개정 리더만이 구축 할 수있는 +2 [icon_production] 생산성, 주변 셀의 +1 매력, 개선 시설은 셀 매력 값을 기반으로 추가 100% [icon_gold] 골드 코인 출력을 얻을 수 있습니다. {loc_tech_industrialization_name}을 연구 한 후, 개선 시설은 금화 출력을 기반으로 25% [icon_tourism] 관광 공연을 얻을 수 있으며 숲이나 열대 우림이있는 세포에만 구축 될 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_NAME" Language="ko_KR">
-			<Text>극지 과학 연구 워크스테이션</Text>
+			<Text>극지 과학 원정 워크 스테이션</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설은 일부 수정자 리더만 건설할 수 있습니다. {LOC_TECH_MINING_NAME}, +1 [ICON_Science] 연구를 통해 다양한 인접 지형 및 개선 시설을 연구하면 더 많은 [ICON_Science] ]과학적인 성과를 얻을 수 있습니다. 연구, [ICON_Food] 식량, [ICON_Gold] 금화, [ICON_Production] 생산성은 눈 덮인 언덕에만 지을 수 있습니다.</Text>
+			<Text>특수 개선 시설, 일부 개정 리더만이 구축 할 수 있습니다. {loc_tech_mining_name} 잠금 해제, +1 [icon_science] 과학적 연구, 다른 인접한 지형 및 개선 시설은 추가 출력을 얻을 수 있으며 관련 기술을 연구 한 후 [icon_science] 과학 연구, [icon_gold, [icon_gold], [icon_gold, [icon_gold] 스노우 힐스에만 건축 할 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="ko_KR">
-			<Text>극지 과학 연구 생활 공간</Text>
+			<Text>극지 과학 시험 거실</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개량 시설, 일부 수식어 리더만 지을 수 있음, +1 [ICON_Culture] 문화 +1 [ICON_Production] 생산성, 다양한 인접 지형 및 개량 시설은 추가 생산량을 얻을 수 있으며 관련 기술을 연구하면 더 많은 [ICON_Food] 식량을 얻을 수 있습니다. , [ICON_Gold] 금화 및 [ICON_Production] 생산성은 얼어붙은 땅, 얼어붙은 흙 언덕, 눈에만 건설할 수 있습니다.</Text>
+			<Text>특수 개선 시설, 일부 개정 주의자만이 이들을 구축 할 수 있습니다. +1 [icon_culture] 문화 +1 [icon_production] 생산성, 인접한 다른 지형 및 개선 시설은 추가적인 생산량을 얻을 수 있으며 관련 기술을 연구 한 후 [icon_food] 음식, [icon_gold] 금 코인 및 [icon_production] 생산성만으로도 내리명 및 Frozen hals and frozen hals and frozen hals and frozen hals and frozen hals and frozen hals and frozen hals and alloz.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="ko_KR">
-			<Text>대형 과학 연구 선박</Text>
+			<Text>대규모 과학 연구 선</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설, 일부 수정자 리더만 건설 가능, {LOC_TECH_SHIPBUILDING_NAME}으로 잠금 해제, +2[ICON_Food] 음식 +1[ICON_Culture] 문화, 다양한 인접 개선 시설에서 추가 출력을 얻을 수 있으며 관련 기술을 연구한 후 얻을 수 있음 더 많은 출력 .</Text>
+			<Text>특수 개선 시설, 일부 개정 리더만이 구축 할 수 있습니다. {loc_tech_shipbuilding_name} 잠금 해제, +2 [icon_food] Food +1 [icon_culture] 문화, 다른 인접 개선 시설은 추가 출력을 얻을 수 있으며 관련 기술을 연구 한 후 더 많은 출력을 얻을 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_NAME" Language="ko_KR">
-			<Text>해양과학연구 플랫폼</Text>
+			<Text>해양 과학 연구 플랫폼</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설, 일부 수정자 리더만 건설 가능, {LOC_TECH_SHIPBUILDING_NAME}로 잠금 해제, +2[ICON_Production] 생산성 +1[ICON_Science] 연구, 다양한 인접 개선 시설에서 추가 출력을 얻을 수 있으며 관련 기술을 연구한 후 얻을 수 있음 더 많은 출력 .</Text>
+			<Text>특별 개선 시설, 일부 개정 리더만이 구축 할 수 있습니다. {loc_tech_shipbuilding_name} 잠금 해제, +2 [icon_production] 생산성 +1 [icon_science] 과학적 연구, 다른 인접 개선 시설은 추가 출력을 얻을 수 있으며 관련 기술을 연구 한 후 더 많은 출력을 얻을 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GREY_WORKSTATION_NAME" Language="ko_KR">
-			<Text>쉬헝 광산</Text>
+			<Text>Xuheng Mine</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GREY_WORKSTATION_DESCRIPTION" Language="ko_KR">
-			<Text>천원신계 수식어 지도자만이 건설할 수 있는 특수 시설, [ICON_음식] 음식 + 2 [ICON_생산] 생산성 + 2 [ICON_신앙] 관련 기술을 연구하면 [ICON_생산] 생산성이 더 높아집니다.</Text>
+			<Text>특별 개선 시설, Tianyuan Divine 영역의 리더만이 그들을 구축 할 수 있습니다. +3 [icon_food] Food +2 [icon_production] 생산성 +2 [icon_faith] 신념, 관련 기술을 연구 한 후 더 많은 [icon_production] 생산성을 얻게됩니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SLEEPSHEEP_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>잠자는 양들의 천국</Text>
+			<Text>잠자는 양 낙원</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SLEEPSHEEP_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설, 일부 수정자 리더만 지을 수 있음, +1[ICON_Food]음식 +2[ICON_Housing] 주택 +1[ICON_Amenities] 거주 가능성, +1[ICON_Food]음식 +1[ICON_Production] 주변 토지 생산성 +1 [ICON_Gold ] 금화 +1 [ICON_Faith] 신앙 관련 기술을 연구하면 더 많은 [ICON_생산] 생산성을 얻을 수 있습니다. 자원 없이 초원, 초원 언덕, 초원 범람원, 평원, 평원 언덕, 평원 범람원 등에 있을 수 있습니다. 사막, 사막 언덕, 사막 범람원, 오아시스 및 늪지대에 건설하세요.</Text>
+			<Text>특수 개선 시설, 일부 개정 주의자만이 구축 할 수 있습니다. +1 [icon_food] Food +2 [icon_gold] 금화 +1 [icon_housing] 주택 +1 +1 [icon_amenities] Liveaility, 주변 플롯 +1 [icon_food] 음식 +2 [icon_pood] foodtivity, more -outputies를 얻을 수 있습니다. 초원, 초원 언덕, 초원 홍수 평원, 평원, 평원, 평원 홍수 평원, 사막, 사막 언덕, 사막 홍수 평원, 오아시스 및 자원이없는 늪에 건설 허용</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUNTAINPARK_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>피크파크</Text>
+			<Text>피크 파크</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUNTAINPARK_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>특수개량시설은 오쿠야마 신권의 수식어 리더만 지을 수 있으며, +1 [ICON_Food] 음식 +1 [ICON_Production] 생산성 +1 [ICON_Gold] 금화 +1 [ICON_Faith] 신앙 +1 [ICON_Science] 기술가치 +1 [ICON_Culture] ] 문화 가치 +1 [ICON_Amenities] 거주 가능성, +1 [ICON_Food] 음식 +1 [ICON_Production] 생산성 +1 [ICON_Gold] 금화 +1 [ICON_Faith] 주변 산 셀에 대한 신앙은 산에서만 건설할 수 있습니다. 유닛은 [ICON_Movement] 이동 포인트 2점을 소모하여 한 지점에서 진입한 후 다른 지점에서 나갈 수 있습니다.</Text>
+			<Text>특별 개선 시설은 놀라운 신성한 영역의 지도자들에 의해서만 건설 될 수 있습니다. +1 [icon_food] [icon_production] [icon_gold] [icon_faith] [icon_science] [icon_culture] 모든 출력 +1 [icon_amenities] 살기 가능성, 관련 기술을 연구 한 후에는 더 많은 출력을 얻게됩니다. 주변 세포 +1 [icon_food] Food +1 [icon_production] 생산성 +1 [icon_gold] 금화 +1 [icon_faith] 믿음의 경우, 산에만 건설 할 수 있습니다. 장치는 2 점 [icon_movement] 이동력이 한 지점에서 들어간 다음 다른 지점에서 나옵니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HYPESPACENOTE_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>초공간 노드</Text>
+			<Text>초 공간 노드</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HYPESPACENOTE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설, 일부 수정자 리더만 지을 수 있음, +1 [ICON_Science] 기술 가치 +2 [ICON_Housing] 주택 +1 [ICON_Amenities] 거주 가능성, +1 [ICON_Food] 지형이 없는 주변 세포에 대한 식량 +1 [ICON_Production] 생산성, 관련 기술을 연구한 후에 더 많은 출력을 얻을 수 있으며, 다른 초공간 노드 옆에 건설할 수 없습니다. 초공간 노드의 1개 셀 내에 있는 유닛은 이제 제국의 초공간 노드 중 하나 근처의 모든 셀로 순간이동할 수 있습니다.</Text>
+			<Text>특수 개선 시설, 일부 개정 리더만이 이들을 구축 할 수 있습니다. +1 [icon_science] 기술 가치 +2 [icon_housing] 주택 +1 [icon_amenities] 살기 가능성, 산림 및 열대 우림은 +1 +1 [icon_food] 음식 +1 [icon_production] 생산성, 관련 기술을 연구 한 후, 더 많은 양육을 구축 할 수없고, 다음과 같이 구축 될 수 없습니다. Hyperspace 노드의 셀 1 범위의 단위는 이제 Empire의 Hyperspace 노드 중 하나 근처의 모든 셀로 순간 이동할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CANDYWORKSHOP_NAME" Language="ko_KR">
+			<Text>캔디 워크숍</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CANDYWORKSHOP_DESCRIPTION" Language="ko_KR">
+			<Text>특별 개선 시설, 일부 개정 리더만이이를 구축 할 수 있습니다. +1 [icon_production] 생산성 +1 [icon_science] 기술 가치 +1 [icon_culture] 문화 가치 +2 [icon_housing] 주택 +1 [icon_amenities] 살기 +1 [icon_menities] 살기 +1 [icon_food] [icon_food]와 관련이있을 것입니다. 기술. 캔디 워크숍의 셀 1 범위의 유닛은 이제 제국의 사탕 워크샵 중 하나 근처의 모든 셀로 순간 이동할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAOYIJIEDIAN_NAME" Language="ko_KR">
+			<Text>무역 노드</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAOYIJIEDIAN_DESCRIPTION" Language="ko_KR">
+			<Text>특별 개선 시설, 일부 개정 리더만이이를 구축 할 수 있으며 +5 [icon_gold] 금화가 있으며 관련 기술을 연구 한 후에는 더 많은 출력이 얻어 질 것입니다. +1 [icon_gold] 골드 코인 +1 +1 [icon_production] 도시의 국제 및 국내 무역 경로에 대한 생산성 및 도시와 연결된 기타 문명 무역 경로는 +1 [icon_gold] 골드 코인 +1 [icon_production] 도시에 생산성을 제공하고 +1 [icon_gold] 골드 코인을 제공합니다. 도시에, 보너스 리소스가없는 평평하고 언덕이 많은 세포에만 건축 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_NAME" Language="ko_KR">
+			<Text>생태 광산</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_DESCRIPTION" Language="ko_KR">
+			<Text>특별 개선 시설, 일부 개정 리더만이이를 구축 할 수 있습니다. +1 [icon_food] Food +1 [icon_production] 생산성 및 관련 기술을 연구 한 후 더 많은 출력이 얻어 질 것입니다. 주변 셀 +1 매력의 경우, 개선 된 시설은 셀 매력 값을 기반으로 100% [icon_gold] 골드 코인 출력을 얻을 수 있습니다. {loc_tech_industrialization_name}을 연구 한 후, 개선 된 시설은 금화 생산량을 기반으로 25% [icon_tourism] 관광 성과를 얻을 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ko_KR">
-			<Text>천원신계</Text>
+			<Text>아마가키 신토 지역</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ko_KR">
-			<Text>천원신계</Text>
+			<Text>아마가키 신토 지역</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_ADJECTIVE" Language="ko_KR">
-			<Text>천원신계</Text>
+			<Text>Tianyuan 신성한 영역</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ko_KR">
-			<Text>신성한 영역-천원</Text>
+			<Text>신들의 신 -Amagaki</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>천루무역</Text>
+			<Text>Tianlu 거래</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Tianyuan Divine Realm의 특징적인 영역은 {LOC_DISTRICT_COMMERCIAL_HUB_NAME}을 대체하며 초기에 잠금 해제되며 비용이 더 낮고 인구 수요에 관계없이 건설할 수 없습니다. 고유한 [ICON_Gold] 금화 인접 보너스가 있습니다. 완료 후 2개의 [ICON_TradeRoute] 무역 경로와 2개의 상인을 얻게 됩니다. 당신이 만든 도시, Tianlu Trade [ICON_Gold] 금화 인접 보너스도 [ICON_Science] 기술 가치를 제공합니다.</Text>
+			<Text>Tianyuan Divine 영역은 {loc_district_commercial_hub_name}을 대체합니다. {loc_district_commercial_hub_name}은 처음에 잠금 해제되고 비용이 저렴하고 가격 인상이 없으며 인구 요구에 관계없이 건설 할 수 있습니다. 독특한 [icon_gold] 골드 코인 인접 보너스가 있으며, 완료 후 2 개의 [icon_traderoute] 무역 경로와 2 명의 가맹점을받습니다. 당신이 만든 도시, Tianlu Trade [icon_gold] 골드 코인 인접 보너스도 [icon_science] 기술 가치를 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>쓰팡위안</Text>
+			<Text>시파 냐</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_DISTRICT_HOLY_SITE_NAME}을 대체하는 Tianyuan Divine Realm 특별 지역은 처음에 잠금 해제되어 있으며 건설이 무료이고 가격이 오르지 않으며 인구 수요에 관계없이 건설할 수 있습니다. 고유한 [ICON_Food] 음식 인접 보너스를 특징으로 하는 [ICON_Food] 음식 인접 보너스는 [ICON_Faith] 신앙도 제공합니다. 자신이 만든 도시의 경우 쿼드의 [ICON_Food] 음식 인접 보너스로 [ICON_Culture] 문화 가치도 제공합니다.</Text>
+			<Text>Tianyuan Divine Realm은 {loc_district_holy_site_name}을 대체하고, 처음에는 잠금 해제, 가격 인상없이 무료로 구축 할 수 있으며 인구 요구에 관계없이 구축 할 수 있습니다. 독특한 [icon_faith] 믿음을 제공하는 독특한 [icon_food] 음식 인접 보너스가 있습니다. 당신이 만든 도시, sifangyuan [icon_food] 음식 인접 보너스도 [icon_culture] 문화적 가치도 제공합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Food] 음식은 인접한 지역에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_food] 음식은 인접한 지역에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_FOOD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Food] 음식은 인접한 산에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_food] 음식은 인접한 산에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_FOOD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Food] 음식은 인접한 자원에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_food] 음식은 인접한 자원에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_FOOD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Food] 인간이 만든 경이로운 음식</Text>
+			<Text>+{1_num} [icon_food] 음식은 인공 경이로움에서 비롯됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_FOOD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Food] 음식은 인접한 물에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_food] 음식은 인접한 물에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_IMPROVEMENT_GREY_WORKSTATION_ADD_1_FOOD_DESCRIPTION" Language="ko_KR">
-			<Text>+ {LOC_IMPROVEMENT_GREY_WORKSTATION_NAME}의 음식 {1_num}개 [ICON_Food]개</Text>
+			<Text>+{1_num} [icon_food] 음식에서 {loc_improvement_grey_workstation_name}.</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_GOLD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Gold] 인접 지역의 금화</Text>
+			<Text>+{1_num} [icon_gold] 금화는 인접한 지역에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_GOLD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Gold] 인접한 산의 금화</Text>
+			<Text>+{1_num} [icon_gold] 금화는 인접한 산에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_GOLD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Gold] 인접 자원의 금화</Text>
+			<Text>+{1_num} [icon_gold] 금화는 인접한 자원에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_GOLD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Gold] 인공 불가사의의 금화</Text>
+			<Text>+{1_num} [icon_gold] 금화는 인공 경이로움에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_GOLD_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Gold] 인접 해역의 금화</Text>
+			<Text>+{1_num} [icon_gold] 금화는 인접한 물에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_IMPROVEMENT_GREY_WORKSTATION_ADD_1_GOLD_DESCRIPTION" Language="ko_KR">
-			<Text>+ {LOC_IMPROVEMENT_GREY_WORKSTATION_NAME}의 골드 {1_num}개 [ICON_Gold]개</Text>
+			<Text>+{1_num} [icon_gold] 골드는 {loc_improvement_grey_workstation_name}에서 나옵니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FAITH_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Faith] 신앙은 인접 지역에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_faith] 믿음은 인접한 지역에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_FAITH_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Faith] 신앙은 인접한 산에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_faith] 믿음은 인접한 산에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_FAITH_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Faith] 신앙은 인접한 자원에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_faith] 믿음은 인접한 자원에서 비롯됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_FAITH_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Faith] 믿음은 인간이 만든 경이로움에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_faith] 믿음은 인공적인 불가사의에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_FAITH_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Faith] 신앙은 인접한 물에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_faith] 믿음은 인접한 물에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_CULTURE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Culture] 문화 가치는 인접한 지역에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_culture] 문화 가치는 인접한 영역에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_CULTURE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Culture] 문화 가치는 인접한 산에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_culture] 문화적 가치는 인접한 산에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_CULTURE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Culture] 문화 값은 인접한 리소스에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_culture] 문화 가치는 인접한 자원에서 비롯됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_CULTURE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Culture] 문화 가치는 인간이 만든 경이로움에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_culture] 문화적 가치는 인공 경이로움에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_CULTURE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Culture] 인접 해역의 문화 가치</Text>
+			<Text>+{1_num} [icon_culture] 문화적 가치는 인접한 물에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_SCIENCE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Science] 과학 값은 인접한 영역에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_science] 기술 값은 인접한 영역에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_SCIENCE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Science] 과학 가치는 인접한 산에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_science] 기술 가치는 인접한 산에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_SCIENCE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Science] 과학 값은 인접한 리소스에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_science] 기술 값은 인접한 리소스에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_SCIENCE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Science] 과학과 기술의 가치는 인간이 만든 경이로움에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_science] 기술 가치는 인공 경이로움에서 비롯됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_SCIENCE_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Science] 과학 가치는 인접한 물에서 나옵니다.</Text>
+			<Text>+{1_num} [icon_science] 기술 가치는 인접한 해역에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_PRODUCTION_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Production] 인접 지역의 생산</Text>
+			<Text>+{1_num} [icon_production] 생산성은 인접한 영역에서 비롯됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_PRODUCTION_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Production] 인접 산에서 생산</Text>
+			<Text>+{1_num} [icon_production] 생산성은 인접한 산에서 발생합니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_PRODUCTION_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Production] 인접한 리소스에서 생산이 이루어집니다.</Text>
+			<Text>+{1_num} [icon_production] 생산성은 인접한 자원에서 비롯됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_PRODUCTION_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Production] 생산성은 인간이 만든 경이로움에서 비롯됩니다</Text>
+			<Text>+{1_num} [icon_production] 생산성은 인공 경이로움에서 비롯됩니다</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_PRODUCTION_DESCRIPTION" Language="ko_KR">
-			<Text>+{1_num} [ICON_Production] 인접 해역에서의 생산</Text>
+			<Text>+{1_num} [icon_production] 생산성은 인접한 물에서 나옵니다</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ko_KR">
-			<Text>도시를 건설하면 거대한 영토를 얻을 수 있고, 언덕 +2 [ICON_Food] 식량 +2 [ICON_Production] 생산성을 얻을 수 있으며, [ICON_Culture] 문화적 가치를 통해 도시 경계를 확장할 수 없습니다.</Text>
+			<Text>거대한 영토를 얻기 위해 도시를 짓고, 언덕 +2 [icon_food] 음식 +2 [icon_production] 생산성, [icon_culture] 문화적 가치를 통해 도시 경계를 확장 할 수 없습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="ko_KR">
-			<Text>황금까마귀</Text>
+			<Text>골든 우</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_DESCRIPTION" Language="ko_KR">
-			<Text>서항(Xuheng)에서 태어나 어렸을 때부터 스승인 서화(Xihe)를 따라 난자오도(Nanjiao Island) 약목궁(Ruomu Palace)에서 천통술(Tiantong Technique)을 수행했습니다. 그는 정의롭고 정직하지만 어떤 이유에서인지 이차적인 문제가 있습니다. 저는 선생님의 지시에 따라 현재 하산 연습을 하고 있습니다.</Text>
+			<Text>Xu Heng은 어린 시절부터 Nanjiao Island의 Ruomu Palace에서 Tiantong 기술을 연습하기 위해 그의 교사 Xihe를 따라 태어났습니다. 그는 의롭고 의로운이지만 어떤 이유로 그는 2 학년에 문제가 있습니다. 선생님의 지시에 따라 나는 현재 산을 따라 여행하고 연습하고 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LINGGUANG_NAME" Language="ko_KR">
-			<Text>링광</Text>
+			<Text>료코</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LINGGUANG_DESCRIPTION" Language="ko_KR">
-			<Text>Sifangyuan Nandao의 대리인은 의사이며 사람들의 고통을 잘 알고 있습니다. 그녀는 난자오에 진료소 &quot;Chiqi Tang&quot;을 설립하고 많은 지점을 열어 질병의 증상과 해결책을 전파했습니다. Lingguang은 진료를 받으러 오는 환자들을 치료하기 위해 직접 진료소를 자주 방문하고 그들의 소소한 생활 이야기를 들었습니다.</Text>
+			<Text>의사 인 Sifang Hospital South Island의 요원은 사람들의 고통을 잘 알고 있습니다. 그녀는 Nanjiaotong에 &quot;Chichi Hall&quot;을 설립하고 질병을 해결하기 위해 많은 지점을 열었습니다. Ling Guang은 종종 클리닉에 직접 앉아 치료를 받고 인생의 사소한 말을 듣는 환자를 치료합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="ko_KR">
-			<Text>정신영상실</Text>
+			<Text>마음의 미로</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_DISTRICT_HOLY_SITE_NAME}을 대체하는 나일 신의 영역의 특징적인 영역은 처음에 잠금 해제되고 비용이 더 낮으며 가격이 인상되지 않으며 인구 수요에 관계없이 건설 가능하며 인접 보너스 없이 +3 [ICON_Housing] 주택이 있습니다. , 완료 후 도시 내 모든 사람 [ ICON_Citizen] 시민 +2 [ICON_Faith] 신앙</Text>
+			<Text>{loc_district_holy_site_name}, 초기 잠금 해제, 저렴한 비용 및 가격 인상, 인구 요구에 관계없이 +3 [icon_housing] 주택을 구축 할 수있는 나일 신성 도메인 특집 영역, +3 [icon_housing] 주택, 완료 후, 모든 [icon_citizen] 시민 [icon_faith]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>느한사중공업</Text>
+			<Text>Neuhansa 중공업</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}을 대체하는 나일 신의 특징적인 지역은 처음에 잠금 해제되어 무료로 건설할 수 있으며 가격이 인상되지 않으며 인구 수요에 관계없이 건설 가능합니다. +3 [ICON_Housing] 주택, 인접한 보너스 없이 완료 후 모든 [ICON_Citizen in 도시 ]시민 +2[ICON_생산]생산성</Text>
+			<Text>{loc_district_industrial_zone_name}, 초기 잠금 해제, 가격 인상, 무료 건설, 인구 요구에 관계없이 +3 [icon_housing] 주택, 완료 후, 도시의 모든 [icon_citizen] 시민 [icon_production] 생산성을 대체 할 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="ko_KR">
 			<Text>기술 농장</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>특수 개선 시설은 나일 신 영역의 수식어 리더만 지을 수 있습니다. +1 [ICON_Food] 식량 +1 [ICON_Production] 생산성 +4 [ICON_Housing] Housing +2 [ICON_Amenities] 거주 가능성은 관련 기술을 연구한 후 더 많이 얻을 수 있습니다. 생산성이 높아 자원 없이도 범람원, 오아시스, 늪지에 건설이 가능합니다.</Text>
+			<Text>특별 개선 시설, 나일 영역의 리더만이 이들을 구축 할 수 있습니다. +1 [icon_food] Food +1 [icon_production] 성능 +4 [icon_housing] 주택 +2 [icon_amenities] 관련 기술을 연구 한 후에는 홍수 평화, 오아시스 및 Smaps를 설립 한 후 더 많은 출력을 얻을 수 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ko_KR">
-			<Text>나일 신의 영역</Text>
+			<Text>나일 도메인</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ko_KR">
-			<Text>나일 신의 영역</Text>
+			<Text>나일 도메인</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="ko_KR">
-			<Text>나일 신의 영역</Text>
+			<Text>나일의 신성한 영역</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ko_KR">
-			<Text>신의 영역-나일</Text>
+			<Text>신성한 영역-나일로</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ko_KR">
-			<Text>사막 평원 및 사막 언덕 +2 [ICON_Food] 식량 +2 [ICON_생산] 생산성 +1 [ICON_Science] 연구, 초원 범람원 +2 [ICON_생산] 생산성 +3 카리스마, 평원 범람원 +1 [ICON_Food] 식량 +1 [ICON_생산 ] 생산성 +3 카리스마, 사막 범람원, 늪 및 오아시스 +3 카리스마, 숲 및 열대 우림 -3 카리스마, 사막 평원에 허용되는 농지, 시민 [ICON_Citizen]당 +1 [ICON_Gold] 골드</Text>
+			<Text>사막 평원과 사막 언덕 +3 [icon_food] 음식 +3 [icon_production] 생산성 +1 [icon_science] 기술 가치, 초원 홍수 평원 +1 [icon_food] 음식 +3 [icon_production] 생산성, 일반 홍수 평원 +2 [icon_food] 음식 +2 [icon_production] 생산성, Desert +2 [icon_pruction _g] 동전, 초원 홍수 평원, 평범한 홍수 평원, 사막 홍수 평원, 늪지대 및 오아시스는 영토 주변의 세포 +3 매력, 숲 및 열대 우림 주변의 세포입니다. -3 매력 -3 매력으로 농지가 사막 평원에 건축 될 수있게합니다. +1 [icon_science] 기술 가치</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BASITE_NAME" Language="ko_KR">
-			<Text>바스테트</Text>
+			<Text>바스타</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BASITE_DESCRIPTION" Language="ko_KR">
-			<Text>코르가이 중대범죄대책과의 작전 전문가는 코드네임 '캣'이지만, 아직 인턴 단계에 머물고 있어 팀 동료들 사이에서는 '고양이'라는 애칭으로 불린다. 현재 아누비스와 함께 다양한 업무를 수행하며 '선배'라고 부른다.</Text>
+			<Text>Colege Major Crime Count 현재 그는 Anubis를 따라 다양한 작업을 수행하여 상대방을 &quot;선임&quot;이라고 부릅니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GUOCHANGLI_NAME" Language="ko_KR">
-			<Text>궈창리</Text>
+			<Text>국가적 지위</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GUOCHANGLI_DESCRIPTION" Language="ko_KR">
-			<Text>약간 냉소적인 외모와 젊은 사람들을 놀리는 것을 좋아하는 백발의 스토커, 그녀를 가장 많이 발견할 수 있는 곳은 북적거리는 축제장이다.</Text>
+			<Text>그녀는 약간 냉소적으로 보이고 젊은 세대를 놀리는 것을 좋아합니다. 그녀가 그녀를 찾을 가능성이 가장 높은 곳은 활기찬 축제입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_BULE_NAME" Language="ko_KR">
-			<Text>오쿠야마 신역</Text>
+			<Text>오쿠야마 신사</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_BULE_DESCRIPTION" Language="ko_KR">
-			<Text>오쿠야마 신역</Text>
+			<Text>오쿠야마 신사</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_BULE_ADJECTIVE" Language="ko_KR">
-			<Text>오쿠야마 신역적</Text>
+			<Text>오쿠야마 신토 지역</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_BULE_NAME" Language="ko_KR">
-			<Text>신역-오쿠야마</Text>
+			<Text>신 지역 - 오쿠야마</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_BULE_DESCRIPTION" Language="ko_KR">
-			<Text>시민은 산 타일을 개선할 수 있으며 구매 비용이 70% 감소하고 평면 타일 구매 비용이 30% 감소합니다. 산 +1[ICON_Food]식량 +1[ICON_Production]생산성 +1[ICON_Gold]금화 +1 [ICON_Faith]신앙 +1[ ICON_Science]기술 가치 +1[ICON_Culture]문화 가치</Text>
+			<Text>시민들은 산 세포를 개선하고 구매 비용을 70%, 구매 비용을 30%줄일 수 있습니다. Mountain +1 [icon_food] [icon_production] [icon_gold] [icon_faith] [icon_science] [icon_culture]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_TYPEONE_NAME" Language="ko_KR">
-			<Text>뮤즈 협회</Text>
+			<Text>뮤즈 사회</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_TYPEONE_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_DISTRICT_THEATER_NAME}을 대체하는 Okuyama Divine Domain의 특징적인 지역은 처음에 잠금 해제되어 있으며 비용이 더 낮고 가격이 증가하지 않습니다. 주변 산에 +1을 추가하는 고유한 인접 보너스가 있습니다. 세포 [ICON_Food] 식품 +1 [ICON_생산] 생산성 +1 [ICON_Gold] 금화 +1 [ICON_Faith] 신앙 +1 [ICON_Science] 기술 가치 +1 [ICON_Culture] 문화 가치</Text>
+			<Text>{loc_district_theater_name}을 대체하는 Aoshan Shenyu Special Area는 처음에 더 낮은 비용과 가격 인상으로 잠금 해제 된 인구 요구에 관계없이 구축 할 수 있으며, 주변 산 세포를 위해 생산 될 수 있으며 [icon_food] [icon_gold] [icon_science]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>천 개의 별 아카데미</Text>
+			<Text>천 스타 아카데미</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Okuyama Divine Domain의 특징 영역은 {LOC_DISTRICT_CAMPUS_NAME}을 대체하고 처음에 잠금 해제되어 있으며 건설이 자유롭고 가격이 오르지 않으며 인구 수요에 관계없이 건설할 수 있으며 고유한 인접 보너스가 있으며 주변 산 셀에 +1이 있습니다. [ICON_Food]Food +1[ ICON_Production] 생산성 +1 [ICON_Gold] 금화 +1 [ICON_Faith] 신앙 +1 [ICON_Science] 기술 가치 +1 [ICON_Culture] 문화 가치</Text>
+			<Text>{loc_district_campus_name}을 대체하는 Aoshan Shenyu Special Area}, 처음에는 잠금 해제, 가격 인상없이 무료로 구축 할 수 있으며 인구 요구에 관계없이 구축 할 수 있으며, 인접한 인접한 보너스를 가지고 있으며, 주변 산 셀 +1 [icon_food] [icon_gold] [icon_science]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ENILIYI_NAME" Language="ko_KR">
-			<Text>오니리이</Text>
+			<Text>오니</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ENILIYI_DESCRIPTION" Language="ko_KR">
-			<Text>꿈에 들어가 다른 사람을 꿈으로 초대하는 능력을 지닌 수식어. 하지만 이 능력을 잘 제어하지 못하기 때문에 이제 그녀는 뮤즈 소사이어티의 하데스에게 입양되고 하데스의 두 꼭두각시 메이드들에게 보살핌을 받습니다.</Text>
+			<Text>꿈에 들어가서 다른 사람들을 꿈에 초대 할 수있는 교정자. 그러나 그녀는 자신 이이 능력을 잘 통제 할 수 없기 때문에, 그녀는 이제 뮤즈 사회에서 하데스에 의해 입양되었으며 하데스의 두 명의 꼭두각시 하녀에 의해 돌보고 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_ENILIYI_NAME" Language="ko_KR">
+			<Text>오니</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_ENILIYI_DESCRIPTION" Language="ko_KR">
+			<Text>꿈에 들어가서 다른 사람들을 꿈에 초대 할 수있는 교정자. 그러나 그녀는 자신 이이 능력을 잘 통제 할 수 없기 때문에, 그녀는 현재 뮤즈 사회에서 하데스에 의해 입양되었으며 하데스의 두 명의 꼭두각시 하녀에 의해 돌보고 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HADISI_NAME" Language="ko_KR">
 			<Text>명도</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HADISI_DESCRIPTION" Language="ko_KR">
-			<Text>뮤즈협회의 각종 사업활동을 조정하고 관리하는 교정자로서 뮤즈협회의 실질적인 수장으로, 30년 동안 변함없는 무서운 성격과 외모로 인해 의회에서 존경을 받고 있다. &quot;늙지 않는 사람&quot;.</Text>
+			<Text>Muse Society의 다양한 비즈니스 활동을 개정 주의자로서의 실제 관리자는 의회에서 끔찍한 성격과 30 년 동안 변하지 않은 모습으로 경외심을 불러 일으켰으며 &quot;Ageless Witch&quot;라고 불렀습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LULIANG_NAME" Language="ko_KR">
-			<Text>루량</Text>
+			<Text>루 리앙</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LULIANG_DESCRIPTION" Language="ko_KR">
-			<Text>외부인들은 믿기 어렵겠지만, 실제로 Luliang은 Tianlu Trading의 현 사장입니다. Tianlu Trading이 현재의 위치에 오른 것은 바로 그녀의 뛰어난 사업 능력 때문입니다. 또한 그녀는 Xuheng District Modifier Organization의 리더 중 한 명이기도 합니다.</Text>
+			<Text>외부 세계 사람들이 믿기가 어렵지만 Lu Liang은 실제로 Tianlu Trading의 현재 회장입니다. Tianlu Trading이 현재 상태를 얻은 것은 그녀의 뛰어난 비즈니스 능력 때문입니다. 또한, 그녀는 Xuheng District 개정 조직의 수장 중 하나입니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YINGZHAO_NAME" Language="ko_KR">
-			<Text>잉자오</Text>
+			<Text>영어 트릭</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_S_WEIERDANDI_DESCRIPTION" Language="ko_KR">
-			<Text>초공간 실험을 통해 베르단디는 자신의 비밀과 과거를 알게 되었고, 자신을 보호하려는 신념을 더욱 굳건히 했으며, 신성력과 골격력이라는 두 가지 힘을 동시에 터득해 새로운 태도를 보였다.</Text>
+			<Text>Hyperspace 실험에서 Weier Danti는 그녀의 비밀과 과거에 대해 배웠고 자신을 보호하는 것에 대한 믿음을 강화했으며, 그녀가 보여준 새로운 자세를 마스터했습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YINGZHAO_DESCRIPTION" Language="ko_KR">
-			<Text>천로상사의 인사담당자는 무뚝뚝한 외모지만 날카로운 마음을 갖고 있으며, 모든 일에서 효율성을 중시한다. 깨어나기 전 그와 그의 여동생 린위는 서로 의지하며 많은 어려움을 겪었다. 개인적으로 그는 혼자 여행하는 것을 좋아하며 알려지지 않은 용도에 대한 많은 부수적 지식을 축적했습니다.</Text>
+			<Text>Tianlu Trade의 인적 자원부 장관은 둔한 사람이지만 날카로운 마음은 모든 것에 대한 효율성을 옹호합니다. 깨어나기 전에, 나는 언니 린 유에 의존하고 많은 어려움을 겪었습니다. 사적으로, 나는 혼자 여행하고 알려지지 않은 목적에 대한 많은 비 전문 지식을 축적하는 것을 좋아합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_S_HELA_NAME" Language="ko_KR">
 			<Text>헤라</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_S_HELA_DESCRIPTION" Language="ko_KR">
-			<Text>뮤즈 협회에 소속된 교정자 헤라는 유모르피스 지역에서도 유명한 맏언니이다. 아름다운 외모와 고급스러운 기질, 우아한 미모로 인해 연예인들 사이에서도 잘 알려져 있다.</Text>
+			<Text>Muse Society의 개정 된 회원 인 Hera는 또한 Omofes Original 지역의 유명한 여성입니다. 아름다운 외관, 고급스러운 기질 및 우아한 미학으로 인해 유명인들 사이에서 잘 알려져 있습니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AETHERGAZER_ZHIMING_NAME" Language="ko_KR">
-			<Text>정신을 차리세요</Text>
+			<Text>Zhiming</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AETHERGAZER_ZHIMING_DESCRIPTION" Language="ko_KR">
-			<Text>Xuheng의 주요 학자이자 연구원 인 Sifangyuan의 Shuofang 요원. 그는 또한 Tiantong 엔진 제조업체 중 한 명이며 후속 유지 관리 작업을 담당하고 있습니다.</Text>
+			<Text>Xuheng의 주요 학자 및 과학 연구원 인 Sifang Academy의 대리인. 동시에, 그는 Tiantong Engine의 제조업체 중 하나이며 후속 유지 보수를 담당합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AETHERGAZER_GENCHEN_NAME" Language="ko_KR">
-			<Text>겡첸</Text>
+			<Text>gengchen</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AETHERGAZER_GENCHEN_DESCRIPTION" Language="ko_KR">
-			<Text>Sifangyuan의 창립자는 Xu Heng을 오랫동안 보호해 왔습니다. 일이 크든 작든 Gengchen은 스스로 일을 처리하고 자신의 방식으로 Xuheng의 안정을 유지할 것입니다. 요원부터 일반인까지 모두가 그녀를 사랑한다.</Text>
+			<Text>Sifang Academy의 창립자는 Xuheng을 오랫동안 보호 해 왔습니다. 평일에 Gengchen은 직접 수행하고 Xuheng의 안정성을 유지하기 위해 그녀의 방법을 사용합니다. 모든 당사자에서 평범한 사람들에 이르기까지 그들은 모두 그녀를 매우 사랑합니다.</Text>
 		</Replace>
-		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>원래 지역 랜드마크</Text>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_TUOTE_NAME" Language="ko_KR">
+			<Text>더하다</Text>
 		</Replace>
-		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>처음에 잠금 해제된 주요 지역은 무료로 건설할 수 있으며 인구 수요에 관계없이 건설할 수 있습니다. 각 플레이어는 하나만 건설할 수 있습니다. 문명이 {LOC_ERA_CLASSICAL_NAME}, {LOC_ERA_RENAISSANCE_NAME} 및 {LOC_ERA_MODERN_NAME}에 진입하면 새로운 랜드마크가 잠금 해제됩니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGGONGCHENGXUEYUAN_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>쉬헝 공과대학</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGGONGCHENGXUEYUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Gengchen {LOC_ERA_CLASSICAL_NAME}의 특징적인 랜드마크 건물은 문명에 {LOC_ERA_CLASSICAL_NAME}에 진입한 후 잠금 해제됩니다. 완료 후 건축업자는 건설 시간이 2배 증가하고 수확 자원이 150% 증가합니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_TIANLUMAOYIZHONGZHUANZHAN_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>티안루 무역 환승역</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_TIANLUMAOYIZHONGZHUANZHAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Tianyuan Divine Realm {LOC_ERA_CLASSICAL_NAME} 랜드마크 건물은 문명에서 {LOC_ERA_CLASSICAL_NAME}에 진입한 후 잠금 해제됩니다. 완료 후 [ICON_TradeRoute] 무역로 용량이 +10되고 상인이 3명 늘어납니다. 각 무역로가 +2 [ICON_Food] 식량 +2 [ICON_Production] 생산성 + 17 [ICON_Gold] 금화, 상인 약탈 불가</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_YUANZHIQUJIANCEZHONGXIN_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>원지역감시센터</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_YUANZHIQUJIANCEZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Gengchen {LOC_ERA_RENAISSANCE_NAME}의 특징적인 랜드마크 건물, 문명이 {LOC_ERA_RENAISSANCE_NAME}에 들어갈 때 잠금 해제됨, 완료 후 즉시 {LOC_TECH_ROCKETRY_NAME} 연구, 우주 센터 건설 시 생산성 +2000% [ICON_Production], 우주 프로젝트 실행 시 +2000% [ICON_Production] 생산성 , 모든 도시 [ICON_Science] 기술 가치 20% 증가</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGWUQIGONGCHANG_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>쉬헝 무기 공장</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGWUQIGONGCHANG_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Tianyuan Divine Realm {LOC_ERA_RENAISSANCE_NAME} 랜드마크 건물은 문명에서 {LOC_ERA_RENAISSANCE_NAME}에 진입한 후 잠금 해제됩니다. 완료 후 도시는 이제 지상 유닛 구매 비용이 -50%입니다. {LOC_BUILDING_MILITARY_ACADEMY_NAME}. 군단 및 군대 훈련 비용이 20% 감소합니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>쉬헝 박물관</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Tianyuan Divine Realm {LOC_ERA_MODERN_NAME} 랜드마크 건물은 문명에 {LOC_ERA_MODERN_NAME}에 진입한 후 잠금 해제됩니다. 완료 후 각 정치 시스템은 추가로 일반 슬롯 2개를 받습니다. [ICON_GreatWork_Writing] 작품, 모든 [ICON_GreatWork_Sculpture][ICON_GreatWork_Portrait][ICON_GreatWork_Landscape][ICON_GreatWork_Religious] 유형 삽화, [ICON_GreatWork_Music] 음악은 3배의 [ICON_Tourism] 여행 결과를 제공합니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>쓰팡위안 전략 센터</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>Gengchen {LOC_ERA_MODERN_NAME}의 특징적인 랜드마크 건물은 완료 후 3개의 엘리트 원격 수정자를 즉시 ​​획득합니다. 업그레이드하는 유닛은 턴을 종료하지 않습니다. [ICON_Movement] 이동 지형 및 강 건너기 [ICON_Movement] 이동 페널티를 무시합니다.</Text>
-		</Replace>
-		<Replace Tag="LOC_GET_5_COMBAT_BUILDING_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_NAME}의 +{1_Amount} [ICON_Strength] 전투력</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENTLAND_AETHERGAZER_NAME" Language="ko_KR">
-			<Text>삼림지대 공간</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENTLAND_AETHERGAZER_DESCRIPTION" Language="ko_KR">
-			<Text>성수 도메인의 모디파이어 리더만 건설할 수 있는 특수 시설. [ICON_생산] 생산성이 증가하며, 관련 기술을 연구한 후에는 숲이나 열대우림이 있는 셀에만 건설할 수 있습니다.</Text>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_TUOTE_DESCRIPTION" Language="ko_KR">
+			<Text>Colgee Major Crime Countmeasures Department의 운영 팀 책임자는 우수한 인텔리전스 획득 능력을 가지고 있습니다. 정보 전쟁을 통해 범죄자와의 직접적인 화재 교환을 피하고, Colgee의 정보 부서의 높은 수준의 권위를 유지함으로써 전투 [Newline]을 통해 민간인의 피해를 최소화하면 모든 사람의 비밀이 잘 알고있는 것 같습니다. 누군가가 사명을 위협하면 Tott는 이러한 비밀을 사용하여 불명예스러운 수단을 사용하더라도 자비없이 이러한 장애물을 제거합니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_1" Language="ko_KR">
-			<Text>쓰쿠요미</Text>
+			<Text>월별 읽기</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_2" Language="ko_KR">
 			<Text>헤라</Text>
@@ -1246,22 +1444,394 @@
 			<Text>헤르메스</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_6" Language="ko_KR">
-			<Text>겡첸</Text>
+			<Text>gengchen</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_7" Language="ko_KR">
-			<Text>세크메트</Text>
+			<Text>Sachmet</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_8" Language="ko_KR">
 			<Text>아테나</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_9" Language="ko_KR">
-			<Text>토트</Text>
+			<Text>더하다</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_10" Language="ko_KR">
-			<Text>카구츠치</Text>
+			<Text>카게투</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENTLAND_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>삼림 공간</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENTLAND_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>특집 개선 시설, Holy Tree 도메인의 교정 리더만이 구축 할 수 있습니다. +2 [icon_production] 생산성, 관련 기술을 연구 한 후 더 많은 출력이 얻어지며 산림이나 열대 우림이있는 셀에만 구축 될 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LUWU_NAME" Language="ko_KR">
+			<Text>루 우</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LUWU_DESCRIPTION" Language="ko_KR">
+			<Text>Tianlu Trade Security Team의 구성원은 일반적으로 Xuheng 외부의 원래 영역에서 작업을 수행합니다. 그는 의롭고 유쾌하며 보안 팀에서 높은 기대치를 가지고 있습니다. 그는 솔직하고 솔직하게 말했다. 그리고 그의 눈의 불의를 수용 할 수 없었다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YISHUGUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>천 스타 아트 박물관</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHOUCANGGUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>컬렉션 협회</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZHIXIESHENGCHANCHANG_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>지능형 기계 제조 공장</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XINXIANGSHENKAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>심장 코끼리 신사</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_2_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Sifang Academy Strategy Center에서 전투력</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>원래 지역 랜드 마크</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>초기에 잠금 해제 된 주요 지역은 무료로 구축되며 가격을 인상하지 못할 것입니다. 인구 요구에 관계없이 건축 할 수 있습니다. 그들은 도심 근처에 지을 수 없습니다. 각 플레이어는 하나만 빌드 할 수 있습니다. 문명이 {loc_era_classical_name}, {loc_era_renaissance_name} 및 {loc_era_modern_name}에 들어가면 새로운 랜드 마크 건물이 잠금 해제됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIYINSUOFEISHENGTAIYUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>아인 소피 생태 공원</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIYINSUOFEISHENGTAIYUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_classical_name}에 들어간 후 거룩한 나무 신의 영역 {loc_era_classical_name}의 획기적인 건물은 잠금 해제됩니다. 완료 후, 프로젝트는 &quot;Frozen Ecological Balance&quot;, &quot;Grassland and Plains Ecological Balance&quot;, &quot;Snow and Desert Ecological Balance&quot;, &quot;Urban Region Ecological Balance&quot;및 &quot;Geomorphological Ecological Balance&quot;. 이 프로젝트는 [Newline] 각 프로젝트의 자세한 내용을 문명 백과 사전에서 찾을 수있는 후에 만 ​​완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISIZHENCANGGUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>OMOFES 컬렉션</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISIZHENCANGGUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>거룩한 트리 god realm {loc_era_renaissance_name} 랜드 마크 건물, 문명 입력 후 잠금 해제 {loc_era_renaissance_name}, 완료 후, 럭셔리 리소스가있는 셀 +10 [icon_gold] 골드 코인, 보너스 리소스가있는 셀 +5 [icon_gold] 골드 코인, 모든 시티 +10%[icon _gold] Gold Coins.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHENKONGZHIYANHOUQINBU_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>딥 스페이스 안과 물류 부서</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHENKONGZHIYANHOUQINBU_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Holy Tree God Realm {loc_era_modern_name} 문명 입력 후 잠금 해제 {loc_era_modern_name}, Builder +4 건축 시간, 구매 개척 수수료 -95%, 전략적 자원이있는 셀 +6 [icon_production] 생산성, 말 및 소금 세터 +2 [icon_science] values ​​+2 [icon_cience] 및 우라늄 +4 [icon_food] 음식</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUYUANQU_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>아인 소피 묘지</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUYUANQU_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>hela {loc_era_classical_name} 랜드 마크 빌딩, {loc_era_classical_name}을 입력 한 후 잠금 해제, 완료 후, 무거운 무기 수정 +2 [icon_movement] movement +1 [icon_range] 범위. 전투에서 승리 한 후, 당신은 [icon_gold] 골드 코인과 [icon_faith] 신념을 살해 된 유닛의 전투력과 동등한 신념을 얻게됩니다 [icon_strength] (표준 속도).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHANGYEJIE_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>아인 소피 스트리트</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHANGYEJIE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Hela {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}에 들어간 후 잠금 해제, 완료 후 코드를 공부 한 후 나무를 심을 수 있습니다. 모든 도시 +30% [icon_gold] 골드 코인 및 [icon_faith] 신념, +2 [icon_amenities] 살기 가능성</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHOUHUZHESHENGDIAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>가디언의 성전</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHOUHUZHESHENGDIAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Weier Danti {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}에 들어올 때 잠금 해제되고, 완료 후 3 개의 건축업자를 얻을 수 있습니다. 방어 전술을 공부 한 후에는 나무를 심을 수 있습니다. 모든 장치가 +10 [icon_strength]를 방어 할 때, 단위가 적의 단위를 제거하면 모든 건강 지점을 복원 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEKUERBINANSUO_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>요 쿠르 성소</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEKUERBINANSUO_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Vidal {loc_era_classical_name} 랜드 마크 빌딩, 문명이 완료된 후 {loc_era_classical_name}, 3 개의 건축업자, 빌더 +2 건축 시간, +500% [icon_production] 생산성, 모든 프로젝트가 실행 될 때 생산성, 목재 값 +1 [icon_culture] 생산성.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEKUERDENGTA_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>요 쿠르 등대</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEKUERDENGTA_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Sikati {loc_era_classical_name} 문명이 {loc_era_classical_name}에 들어간 후 잠금 해제 된 랜드 마크 건물, 완료 후, 물 운송 단위 +4 [icon_movement] 이동성 힘, 모든 유닛은 강의를 가로 지르는 [ICON_MOVEMENT] Mobility Force +4 [icon_movement] 이동성 힘을 통해 즉시 선박 및 만족을 얻습니다. 대학 지역의 각 건물 +1 [ICON_TRADEROUTE] 거래 능력 및 각 건물을 완성 할 수 있으며 한 명의 사업가를 얻을 수 있습니다. 대학 지역 구매 비용은 -100%이며이 랜드 마크의 비용은 절반으로 줄어 듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TALIELANGDIANWANCHENG_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>탈리 란드 비디오 게임 도시</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TALIELANGDIANWANCHENG_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Thor {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}에 들어간 후 잠금 해제, 완료 후 모든 도시 +5 [icon_amenities]에 살기 좋을 것입니다. [icon_resource_cosmetics] 화장품 고급 자원 각각, 삼림 공간 +1 [icon_science] 기술 가치</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHUJUJUZHENG_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Mimiel 데이터 매트릭스</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHUJUJUZHENG_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Heimdal {loc_era_classical_name} 랜드 마크 건물은 문명 항목 {loc_era_classical_name} 후에 잠금 해제됩니다. 완료 후 Meland 지역 구매 비용은 -100%입니다. &quot;문 국가&quot;서점은 주변 플롯 +2 [icon_culture] 문화적 가치이며, Hagia Sophia Medical Center는 주변 플롯 +2 [icon_culture] 문화적 가치입니다. 전투에서 승리 한 후, 당신은 죽인 유닛의 전투력과 동등한 [icon_culture] 문화 가치를 얻게됩니다 [icon_strength] (표준 속도).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LIBAITANG_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Ain Sophie Chapel</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LIBAITANG_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>hodel {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}, 완료 후, 모든 도시 +100% [icon_faith] faith +2 [icon_amenities] 생명, 모든 세포 +2 [icon_faith] 신앙 +5 예를 묘사 할 때 잠금 해제.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LINGBUJIANZHIZAOCHANG_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Neuhansea 부품 제조 공장</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LINGBUJIANZHIZAOCHANG_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_classical_name}에 들어가면 나일 도메인 {loc_era_classical_name}의 획기적인 건물이 잠금 해제됩니다. 완료 후 모든 도시는 +20% [icon_production] 생산성을 갖습니다. [icon_glory_golden_age]의 황금 시대에있을 때는 추가 +20% [icon_production] 생산성입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YOULEYUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Ain Sophie Amusement Park</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YOULEYUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>나일 신성한 영역 {loc_era_renaissance_name} 랜드 마크 건물, 문명 입력 후 잠금 해제 {loc_era_renaissance_name} 완료 후 모든 도시에 살기 좋은 +3 [icon_amenities]가 생길 수 있습니다. 도시에 기념비가있는 경우 각 도시마다 추가 +2 [icon_amenities]가 살 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIYINSUOFEIGAODENGXUEYUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Ain Sophie College</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIYINSUOFEIGAODENGXUEYUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_modern_name}에 들어가면 나일 도메인 {loc_era_modern_name}의 획기적인 건물이 잠금 해제됩니다. 완료 후, &quot;Tungsten Core Bullet&quot;, &quot;Ion Cannon&quot;, &quot;New Lightweight Macter&quot;, &quot;Intelligent Intelligent Machinery&quot;및 &quot;Selseded Architecture&quot;프로젝트. 이 프로젝트는 [Newline] 각 프로젝트의 자세한 내용을 문명 백과 사전에서 찾을 수있는 후에 만 ​​완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINGDUSHENDIAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>영의 삶의 성전</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINGDUSHENDIAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Osiris {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}에 들어간 후 잠금 해제, 완료 후 모든 도시 +15% [icon_science] 기술 값. 전투에서 승리 한 후, 그들은 죽인 유닛의 전투력과 동등한 [icon_science] 기술 값을 얻게됩니다 [icon_strength] (표준 속도).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>죽음의 동상</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Osiris (Soul Feather) {loc_era_classical_name} 랜드 마크 건물, 문명이 {loc_era_classical_name}에 들어올 때 잠금 해제되었습니다. 완료 후, 모든 부대는 턴이 시작될 때 스테이션을하지 않고 적의 유닛을 파괴하여 모든 건강 지점을 복원 할 수 있습니다. 군대는 일찍 형성 될 수 있으며 (민족주의 지방 자치 단체가 필요하다) 도시에는 군사 아카데미가 필요하지 않으므로 군대는 직접 훈련 될 수 있습니다. 군단 및 육군 훈련 비용은 50%감소합니다. 전투에서 승리 한 후, 당신은 죽인 유닛의 전투력과 동등한 [icon_culture] 문화 가치를 얻게됩니다 [icon_strength] (표준 속도).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOUWUGUANGCHANG_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>탈리 란드 쇼핑 플라자</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOUWUGUANGCHANG_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Bassette {loc_era_classical_name} Landmark Building, 문명이 {loc_era_classical_name}에 들어올 때 잠금 해제됩니다. 완료 후 보너스 리소스는 사치품 자원과 같습니다. 각 유형의 자원은 4 가지 [icon_amenities] 생명을 제공하며 각각의 고급 상품 자원 2 부를 얻습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KEERGAILINSHIZHIHUIBU_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Colgey 임시 명령</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KEERGAILINSHIZHIHUIBU_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_classical_name}에 들어간 후 Totte {loc_era_classical_name}의 획기적인 건물이 잠금 해제됩니다. 완료 후 3 개의 스파이 (및 3 개의 스파이 용량을 늘리면) 폭동을 유발하고 주지사의 스파이 운영을 프레임하는 효과가 100 수준으로 증가 할 것입니다. 미션을 수행하는 동안 스파이가 체포되면 탈출 가능성이 높습니다 (+100 레벨). 논리의주기 +4 [icon_movement] 모바일 전력 및 구매 비용 -100%. 중무 무기 교정 론자 및 경비 교정 주의자 +10 [icon_strength] Combat Power +1 [icon_range] 범위 및 범위 공격 랜드 단위 +17 [icon_strength] 전투 전력, 특수 운영 교정 +10 [icon_strength] 전투 전력 및 범위 공격 지문 +17 [icon_strength]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISIZIRANGONGYUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>자연 파크</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISIZIRANGONGYUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_classical_name}에 들어간 후 Aoshan Shenyu {loc_era_classical_name}의 획기적인 건물은 잠금 해제됩니다. 완료 후 인접한 언덕이 많은 셀 +1 [icon_food] [icon_production] [icon_gold] [icon_faith] [icon_science] [icon_science] [icon_culture]는 모두 생성됩니다 (한 번만 적용). 모든 도시 +100% [icon_faith] 믿음</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISITIANWENTAI_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Omofes Observatory</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISITIANWENTAI_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_renaissance_name}에 들어가면 Aoshan Shenyu {loc_era_renaissance_name}의 획기적인 건물이 잠금 해제됩니다. 완료 후 모든 도시는 우주 프로젝트를 실행할 때 +15% [icon_science] 기술 가치와 +300% [icon_production] 생산성을 갖습니다. 문명이 현대에 들어간 후, 모든 도시 +50% [icon_production] 생산성을 즉시 {loc_tech_rocketry_name}, {loc_tech_nanotechnology_name}, {loc_tech_offworld_mission_name}, {loc_tech_satellites_name}, {loc_tech_smart_materials_name}}}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XINGHONGYIHUIYANFAZHONGXIN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Xinghong Parliament Logistics Department</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XINGHONGYIHUIYANFAZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>aoshan shenyu {loc_era_modern_name} 랜드 마크 빌딩, 문명이 {loc_era_modern_name}에 들어간 후 잠금 해제, 전략적 자원 +6 [icon_production] 생산성, 말, 철분 및 소금 +2 [icon_science] 기술 가치 +2 [icon_culture] 셀, 세포, 세포, 셀, 셀, 셀, 셀, 셀 커스 + +5 [icon_gold] 금화 및 수확 자원 +400%</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANMIMENGJING_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>달콤한 드림 랜드</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANMIMENGJING_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_classical_name}에 들어가면 oniriyi {loc_era_classical_name}의 획기적인 건물이 잠금 해제됩니다. Houmian Sheep Paradise는 주변 음모 +1 [icon_food] food +1 [icon_faith] 믿음 +1 [icon_gold] 골드 코인으로 만들어졌으며 2 개의 스파이를 얻고 2 개의 스파이 용량을 늘립니다. 적 도시의 스파이 배치는 소비하는 데 시간이 필요하지 않으며, 모든 작업을 완료 할 시간은 100%감소하며, 폭동을 유발하고 기술 스파이를 훔치는 효과는 100 수준으로 증가합니다. 임무를 수행하는 동안 체포되면 탈출 가능성이 높습니다 (+100 레벨). 공격적인 스파이 미션이 성공하면 대상 도시 의이 라운드에서 [icon_science] 기술 가치의 1000%와 [icon_faith] 신념 가치를 얻게됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANMENGWU_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>달콤한 꿈의 집</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANMENGWU_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Oniriyi {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}에 들어간 후 잠금 해제되고, 완료 후, 근접 수정 +2 [icon_movement] movement +5 [icon_strength] 전투력. 건축업자는 이제 주변 세포를위한 사탕 워크숍 +2 [icon_food] Food +1 [icon_faith] faith +1 [icon_gold] 골드 코인과 함께 잠자는 가든의 개선 시설을 건설 할 수 있습니다. 전투에서 승리 한 후, 당신은 죽인 유닛의 전투력에 해당하는 [icon_gold] 골드 코인을 얻게됩니다 [icon_strength] (표준 속도).</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANLUMAOYIZHONGZHUANZHAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Tianlu 무역 양도 스테이션</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANLUMAOYIZHONGZHUANZHAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Tianyuan Divine Realm {loc_era_classical_name} 랜드 마크 빌딩, 문명이 완료된 후 {loc_era_classical_name}, +10 [icon_traderoute] 거래 경로 용량을 획득 한 후 {loc_era_classical_name}을 잠금 해제하고 3 개의 상인, 각 트레이드 루트 +2 [icon_food] food +2 [icon_proction] [icon_gold] 약탈 할 수 없습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGWUQIGONGCHANG_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Xuheng 무기 공장</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGWUQIGONGCHANG_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Tianyuan Divine Realm {loc_era_renaissance_name} 랜드 마크 건물, 문명 입력 후 잠금 해제 {loc_era_renaissance_name}. 완료 후, 당신의 도시는 이제 무거운 무기 교정을 생산할 수 있습니다. 토지 단위의 구매 비용은 -50%입니다. 이 도시는 {loc_building_military_academy_name}없이 군단과 군대를 직접 훈련시킬 수 있습니다. 군단 및 육군 훈련 비용이 20% 감소했습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Xuheng 박물관</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>tianyuan 신성한 영역 {loc_era_modern_name} 랜드 마크 건물, 문명 입력 후 잠금 해제 {loc_era_modern_name}. 완료 후, 각 정치 시스템은 2 개의 추가 보편적 인 슬롯을 받게됩니다. [icon_greatwork_writing] Works, 모든 [icon_greatwork_sculpture] [icon_greatwork_portrait] [icon_greatwork_landscape] [icon_greatwork_religious] 유형 아트 워크, [icon_greatwork_reatious] 음악은 트리플 [icon_tourism]을 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Tsutong 항구 등대</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Linyu {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}에 들어간 후 잠금 해제, 완료 후 모든 도시 +5 [icon_amenities] 생생함 +2 [icon_food] food +2 [icon_production] 생산성. [icon_traderoute] 거래 경로를 통과하는 모든 셀에 대해 [icon_gold] 골드 코인 +2 [icon_science] 기술 값 +2 [icon_production] 생산성 +2, sifangyuan +2 [icon_traderoute] 거래 용량은 -50%입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DIZHIKANTANYINGDI_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Xuheng 지질 탐사 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DIZHIKANTANYINGDI_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>jinwu {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}, 빌더 +2 건축 시간 완료 후에 구축 할 때 잠금 해제, 각 Xuheng 광산은 +2 [icon_gold] 골드 코인에 대한 개선 된 시설을 갖춘 언덕이 많은 셀입니다. 셀에 어떤 유형의 리소스가 있으면 추가 +1 [icon_production] 생산성이 추가됩니다. 셀이 산에 인접 해 있다면 +1 [icon_science] 기술 가치가 있고 인접한 강은 +1 [icon_culture] 문화적 가치가됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WENHUAYANJIUYUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Sifang Academy Culture Research Institute</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WENHUAYANJIUYUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Lingguang {loc_era_classical_name} 랜드 마크 빌딩, 문명이 들어올 때 잠금 해제 {loc_era_classical_name}, 빌더 +2 건축 시간 완료 후, 각 xuheng mine은 주변 강의 +2 [icon_culture] 문화적 가치 +3 [icon_gold] 금화입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANLUMAOYIFENBU_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Tianlu Trade Branch</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANLUMAOYIFENBU_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>lu liang {loc_era_classical_name} 랜드 마크 빌딩, 초기 잠금 해제, 완료 후, 모든 단위 +2 +2 [icon_movement] 이동성, 완료 후 +20 [icon_traderoute] 거래 경로 용량, 각 거래 경로 +2 [icon_production] 생산성, 상인의 비용은 반으로 줄어 듭니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGTUSHUGUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Xuheng 도서관</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGTUSHUGUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_classical_name}에 들어간 후 {loc_era_classical_name}의 획기적인 건물이 잠금 해제됩니다. 완료 후, 두 개 이상의 [icon_greatwork_sculpture] 걸작 슬롯의 경이로움과 건물은 자동으로 [icon_themebonus_active]에 적용됩니다. 전투에서 승리 한 후, 당신은 [icon_greatwriter] Great Writer 포인트를 죽인 유닛 [icon_strength]의 전투력에 해당합니다. {loc_district_campus_name} area, {loc_building_library_name}, {loc_building_university_name} 및 {loc_building_research_lab_name}는 주변 셀 +1 [icon_science] 기술 영역이며 생산성 +999% [icon_prome +999%]입니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZIYUANKAIFAJIDI_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Xuheng 자원 개발 캠프</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZIYUANKAIFAJIDI_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>yingzhao {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}에 들어간 후 잠금 해제, 완료 후 모든 전략적 자원을 발견 할 수 있습니다. 건축업자 + 4 건축 시간</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JINGBEICHU_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Sifang Court Security Office</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JINGBEICHU_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>Luwu {loc_era_classical_name} 문명이 {loc_era_classical_name}에 들어가면 랜드 ​​마크 건물이 잠금 해제됩니다. 완료 후, 군대는 더 일찍 형성 될 수있다 (민족주의 지방 자치 단체가 필요하다). 도시에는 군사 아카데미가 필요하지 않으며 군대는 직접 훈련 될 수 있습니다. 군단과 육군 훈련 비용은 25%감소했습니다. 모든 군사 단위 + 300% 전투 경험, 전략적 자원 보호 구역 + 1000</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGGONGCHENGXUEYUAN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>Xuheng Engineering College</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGGONGCHENGXUEYUAN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>gengchen {loc_era_classical_name} 랜드 마크 빌딩, 문명이 {loc_era_classical_name}에 들어간 후 잠금 해제되고, 완료된 후에는 빌더, 빌더 +2 건축 시간 및 수확 자원 +150%를 얻게됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUANZHIQUJIANCEZHONGXIN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>원시 물질 모니터링 센터</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUANZHIQUJIANCEZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>gengchen {loc_era_renaissance_name} 랜드 마크 빌딩, 문명이 {loc_era_renaissance_name}에 들어올 때 잠금 해제, 완료 후 {loc_tech_rocketry_name}, 우주 센터를 구축 할 때 +2000% [icon_production] 생산성, +2000% [icon_pruction] [icon_pruction] [icon_production] 모든 도시의 가치</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_NAME" Language="ko_KR">
+			<Text>시낭 아카데미 전략 센터</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>문명이 {loc_era_modern_name}에 들어간 후 잠금 해제 된 gengchen {loc_era_modern_name} Landmark Building은 완료 후 즉시 3 개의 엘리트 원격 수정을 얻습니다. 업그레이드 된 장치는 턴을 끝내지 않습니다. 모든 단위 +5 +5 [icon_strength] 전투 전력 +2 [icon_movement] 이동력 및 지형 및 교차 강 무시 [icon_movement] 운동 처벌</Text>
+		</Replace>
+		<Replace Tag="LOC_GET_5_COMBAT_BUILDING_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Combat Power는 {loc_building_sifangyuancelvezhongxin_aethergazer_name}에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_TUNDRA_ECOLOGICAL_EQUILIBRIUM_NAME" Language="ko_KR">
+			<Text>냉동 토양 생태 균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_TUNDRA_ECOLOGICAL_EQUILIBRIUM_SHORTNAME" Language="ko_KR">
+			<Text>냉동 토양 생태 균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_TUNDRA_ECOLOGICAL_EQUILIBRIUM_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie Ecological Park Special Project, 프로젝트가 완료된 후, 지형 영구 동토층 +2 [icon_food] Food +3 [icon_production] 생산성, 냉동 언덕 +2 [icon_food] 음식 +2 [icon_production] 생산성은 없습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_GRASS_AND_TERRAIN_PLAINS_ECOLOGICAL_EQUILIBRIUM_NAME" Language="ko_KR">
+			<Text>초원과 평원 사이의 생태 학적 균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_GRASS_AND_TERRAIN_PLAINS_ECOLOGICAL_EQUILIBRIUM_SHORTNAME" Language="ko_KR">
+			<Text>초원과 평원 사이의 생태 학적 균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_GRASS_AND_TERRAIN_PLAINS_ECOLOGICAL_EQUILIBRIUM_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie Ecological Park 특수 프로젝트, 프로젝트가 완료된 후, 지형 +1 [icon_food] 음식 +3 [icon_production] 생산성, 초원 힐즈 +1 [icon_food] 음식 +2 [icon_production] 생산성, 평원 +2 [icon_food] 음식 +2 [icon_production 생산성, 평범한 힐즈 +2 [icon_food] 생산성. +1 [icon_production] 생산성은 한 번만 완료 할 수 있습니다</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_SNOW_AND_TERRAIN_DESERT_ECOLOGICAL_EQUILIBRIUM_NAME" Language="ko_KR">
+			<Text>눈과 사막의 생태 학적 균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_SNOW_AND_TERRAIN_DESERT_ECOLOGICAL_EQUILIBRIUM_SHORTNAME" Language="ko_KR">
+			<Text>눈과 사막의 생태 학적 균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_SNOW_AND_TERRAIN_DESERT_ECOLOGICAL_EQUILIBRIUM_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie Ecological Park 특수 프로젝트, 프로젝트가 완료된 후, 지형 눈과 사막 +3 [icon_food] 음식 +3 [icon_production] 생산성, 스노우 언덕 및 사막 언덕 +3 [icon_food] 음식 +2 [icon_production] 생산성, 한 번만 완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DISTRICTS_ECOLOGICAL_EQUILIBRIUM_NAME" Language="ko_KR">
+			<Text>도시 지역 생태 ​​균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DISTRICTS_ECOLOGICAL_EQUILIBRIUM_SHORTNAME" Language="ko_KR">
+			<Text>도시 지역 생태 ​​균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DISTRICTS_ECOLOGICAL_EQUILIBRIUM_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie Ecological Park 특별 프로젝트, 프로젝트가 완료된 후 각 영역 +3 [icon_food] Food +3 [icon_production] 생산성을 한 번만 완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_NAME" Language="ko_KR">
+			<Text>지형의 생태 학적 균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_SHORTNAME" Language="ko_KR">
+			<Text>지형의 생태 학적 균형</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie Ecological Park 특수 프로젝트, 프로젝트가 완료된 후, Swamp + 3 [icon_production] 생산성, 생산성 + 2 [icon_food] Food + 2 [icon_production] 생산성 + 1 [icon_science] 기술 가치, OASIS + 3 [icon_production] 생산성 + 4 [icon_gold] 골드 코인, 한 번만.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_WUXINDAN_NAME" Language="ko_KR">
+			<Text>텅스텐 코어 총알</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_WUXINDAN_SHORTNAME" Language="ko_KR">
+			<Text>텅스텐 코어 총알</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_WUXINDAN_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie College의 특별 프로젝트, 프로젝트가 완료된 후 원격 교정기와 재설치 원격 교정기 +10 [icon_strength] 전투 전력을 한 번만 완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIZIPAO_NAME" Language="ko_KR">
+			<Text>이온 대포</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIZIPAO_SHORTNAME" Language="ko_KR">
+			<Text>이온 대포</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIZIPAO_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie College의 특별 프로젝트, 프로젝트가 완료된 후 가벼운 무기와 중장기 전투력 +10 [icon_strength]는 한 번만 완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XINXINGQINGBIANCAILIAO_NAME" Language="ko_KR">
+			<Text>새로운 가벼운 재료</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XINXINGQINGBIANCAILIAO_SHORTNAME" Language="ko_KR">
+			<Text>새로운 가벼운 재료</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XINXINGQINGBIANCAILIAO_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie College의 특별 프로젝트, 프로젝트가 완료된 후 근접 및 원격 수정 +2 [icon_movement] 이동성 힘을 한 번만 완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HONGWAIXIANCHENGXIANGYI_NAME" Language="ko_KR">
+			<Text>적외선 이미지</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HONGWAIXIANCHENGXIANGYI_SHORTNAME" Language="ko_KR">
+			<Text>적외선 이미지</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HONGWAIXIANCHENGXIANGYI_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie College의 특별 프로젝트, 프로젝트가 완료된 후 특별한 근접 교정 +1 [icon_range] 범위는 한 번만 완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZHINENGZHIXIE_NAME" Language="ko_KR">
+			<Text>고급 지능형 및 기계 공동 작업 시스템</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZHINENGZHIXIE_SHORTNAME" Language="ko_KR">
+			<Text>고급 지능형 및 기계 공동 작업 시스템</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZHINENGZHIXIE_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie College의 특별 프로젝트, 빌더 + 프로젝트가 완료된 후 3 번 건설 시간, 한 번만 완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XUANFUJIANZHUXUE_NAME" Language="ko_KR">
+			<Text>정지 된 건축</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XUANFUJIANZHUXUE_SHORTNAME" Language="ko_KR">
+			<Text>정지 된 건축</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XUANFUJIANZHUXUE_DESCRIPTION" Language="ko_KR">
+			<Text>Ain Sophie College의 특별 프로젝트, 프로젝트가 완료된 후 도시 [icon_strength] Defense +10, City [icon_ranged] 원거리 공격력 +10은 한 번만 완료 할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LANDMARK_LINSHIZHIHUIBU_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Combat Power는 {loc_building_keergailinshizhihuibu_aethergazer_name}에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_FOR_RANGED_MODIFIER_AND_ARMORRANGED_MODIFIER_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Combat Power는 {loc_project_wuxindan_name}에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_FOR_LIGHTWEAPON_MODIFIER_AND_HEVAYWEAPON_MODIFIER_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Combat Power는 {loc_project_lizipao_name}에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_GET_5_COMBAT_TO_CLASS_SWORD_FIXER_RELOAD_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Combat Power는 {loc_building_tianmengwu_aethergazer_name}에서 비롯됩니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIES_ADJUST_5_OUTER_DEFENSE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Combat Power는 {loc_project_xuanfujianzhuxue_name}에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIES_ADJUST_5_RANGED_STRIKE_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Combat Power는 {loc_project_xuanfujianzhuxue_name}에서 나옵니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_DEF_FOR_LANDMARK_AETHERGAZER_DESCRIPTION" Language="ko_KR">
+			<Text>+{1_amount} [icon_strength] Combat Power는 {loc_building_shouzheshengdian_aethergazer_name}에서 나옵니다.</Text>
 		</Replace>
 		<Replace Tag="LOC_" Language="ko_KR">
-			<Text>_CITY_NAME_9',,'순환의 바다 Oceanus' FROM CivilizationsAethergazer WHERE CivilizationType LIKE</Text>
+			<Text>_city_name_9 ','문명 유형이 좋아하는 문명에서 나오는 Oshenus의 바다 '</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

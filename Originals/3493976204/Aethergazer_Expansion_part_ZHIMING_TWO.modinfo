@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2bda27b3-7494-462c-b6a3-af92a307eb9a" version="2">
+  <Properties>
+    <Name>深空之眼 绵暖冬意·执明</Name>
+    <Description>详细介绍内容请查阅steam创意工坊页面</Description>
+    <Created>1749400248</Created>
+    <Teaser>详细介绍内容请查阅steam创意工坊页面</Teaser>
+    <Authors>HK433</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="ac469d2f-8066-4990-82a7-984befd1dece" title="深空之眼 核心代码 阶段2" />
+    <Mod id="0f4a8054-86ee-44cf-a56a-360762b36a33" title="深空之眼 玄机·执明" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_Expansion_part_ZHIMING_TWO.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>CONFIG_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="NewAction">
+      <File>Aethergazer_Expansion_part_ZHIMING_TWO.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>COLOR_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>LEADER_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+      <File>CIVILIZATION_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>ICON_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>TEXT_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Aethergazer_Expansion_part_ZHIMING_TWO.dep</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>CIVILIZATION_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+    <File>COLOR_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.xml</File>
+    <File>CONFIG_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+    <File>ICON_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.xml</File>
+    <File>LEADER_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/ZHIMINGTWODDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/ZHIMINGTWODDS.blp</File>
+    <File>TEXT_AETHERGAZER_EXPANSION_PART_ZHIMING_TWO.sql</File>
+  </Files>
+</Mod>

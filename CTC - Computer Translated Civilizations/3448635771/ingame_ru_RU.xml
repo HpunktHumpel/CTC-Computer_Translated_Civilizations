@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Sat Apr 12 12:27:15 2025-->
+<!-- Mon Jun  9 13:15:38 2025-->
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_NAME" Language="ru_RU">
+			<Text>Легкий трек</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>Избранная область, замените {loc_district_aerodrome_name}, с более низкой стоимостью. После завершения город будет иметь дополнительную производительность +5% [ICON_PORDUCTION]. После завершения город будет иметь дополнительную производительность +5% [ICON_PORDUCTION]. После завершения город будет иметь дополнительную производительность +5% [ICON_PORDUCTION]. После завершения город будет иметь дополнительную производительность +5% [ICON_PORDUCTION].</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ru_RU">
 			<Text>Святой Дерево Домен Бога</Text>
 		</Replace>
@@ -22,31 +28,37 @@
 			<Text>Организация ревизера</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>[Color: ResmilitaryLabelcs] не может построить все военные единицы [EndColor], но могут создавать ревизионистов и подпорки и всегда могут использовать веру [ICON_FAITH] для покупки строителей, шпионов и поддержки.</Text>
+			<Text>[Color: RemilitaryLabelcs] не может построить все военные единицы [EndColor], но может создавать ревизионистов, всегда иметь возможность использовать веру [icon_faith], чтобы покупать строителей, шпионы и поддержки.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_NAME" Language="ru_RU">
+			<Text>Координатная коррекция</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_DESCRIPTION" Language="ru_RU">
+			<Text>Совместные модификаторы заменяют все модификаторы, а их боевая мощность выше. Если мощность движения [ICON_Movement], +1 дополнительная атака за ход, вы можете двигаться после атаки, и вы не будете страдать от дебаффам боевых действий после травмы. [Color: remilitaryLabelcs], но это очень дорого [EndColor]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="ru_RU">
-			<Text>Система Мимиэля</Text>
+			<Text>Меланде</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Район Священного Дерева Божественного Божественного Домена изначально разблокирована, с более низкой стоимостью и отсутствием цены, и может быть построена независимо от потребностей населения. После завершения окружающие ячейки будут +2 [icon_food] еда +2 [icon_production] Продуктивность +2 [icon_gold] золотые монеты. Улучшенные ячейки также будут наслаждаться вышеуказанными эффектами.</Text>
+			<Text>Район Священного Дерева Божественного Божественного Домена изначально разблокирована, с более низкой стоимостью и отсутствием цены, и может быть построена независимо от потребностей населения. После завершения окружающие ячейки будут +2 [icon_food] еда +2 [icon_production] Производительность +2 [icon_gold] золотые монеты</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_NAME" Language="ru_RU">
-			<Text>Вычислительный центр</Text>
+			<Text>Книжный магазин &quot;Moon Country&quot;</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_DESCRIPTION" Language="ru_RU">
-			<Text>Исследование окружающих ячеек +2 [icon_production] Продуктивность +2 [icon_faith] Вера +2 [icon_science], улучшенные ячейки также наслаждаются вышеупомянутыми эффектами</Text>
+			<Text>Исследование окружающих ячеек +2 [ICON_PORDUCTION] Продуктивность +2 [ICON_FAITH] Вера +2 [ICON_SCIENCE]</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_NAME" Language="ru_RU">
-			<Text>Устройство хранения</Text>
+			<Text>Медицинский центр Hagia Sophia</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_DESCRIPTION" Language="ru_RU">
-			<Text>Исследование окружающих клеток +2 [icon_food] пища +2 [icon_production] Продуктивность +2 [icon_science], улучшенные ячейки также наслаждаются вышеупомянутыми эффектами</Text>
+			<Text>Исследование окружающих ячеек +2 [icon_food] еда +2 [icon_production] Производительность +2 [icon_science]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="ru_RU">
-			<Text>Управляйте мяу -комнатой</Text>
+			<Text>Городской университет Западного побережья</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Обладаемая область священного дерева, вместо {loc_district_theater_name}, первоначально разблокирована, построена бесплатно и не будет повышать цены и может быть построена независимо от потребностей населения. С уникальной [icon_culture] культура и [icon_faith] вера прилегающего бонуса</Text>
+			<Text>Обладаемая область священного дерева, заменяющая {loc_district_theater_name}, первоначально разблокированная, свободная для строительства без повышения цен и может быть построена независимо от потребностей населения. С уникальной [icon_culture] культура и [icon_faith] вера прилегающего бонуса</Text>
 		</Replace>
 		<Replace Tag="LOC_WONDER_CULTURE_HALF_DESCRIPTION" Language="ru_RU">
 			<Text>+{1_num} [icon_culture] культура происходит от соседних искусственных чудес</Text>
@@ -64,10 +76,187 @@
 			<Text>Ключ от</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAOCONG_RECON_DESCRIPTION" Language="ru_RU">
-			<Text>Ранние разведывательные единицы, после исследования {loc_tech_the_wheel_name}, их можно обновить, чтобы переустановить коррекцию ближнего боя [Newline]-будут ограничены всеми единицами</Text>
+			<Text>Ранние разведывательные единицы, после исследования {loc_tech_the_wheel_name}, их можно обновить до ранней переустановки возрождения ближнего боя [newline]-будут ограничены всеми единицами</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_NAME" Language="ru_RU">
+			<Text>Продвинутый ключ от</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_DESCRIPTION" Language="ru_RU">
+			<Text>Ранние разведывательные единицы, после исследования {loc_tech_the_wheel_name}, их можно обновить до раннего переустановки в ближнем бою [newline]-будут ограничены всеми единицами</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_NAME" Language="ru_RU">
+			<Text>Массовая загадка производства</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_DESCRIPTION" Language="ru_RU">
+			<Text>Специальная поддержка, которая выполняет крупномасштабную имитацию на основе ключей ярко выраженных клавиш, имеет дальнюю боевую мощность, и все единицы формирования получили мощность мобильности подразделения [Newline] [Color: ResmilitaryLabelcs] Устройство имеет чрезвычайно высокие затраты на техническое обслуживание, пожалуйста, создайте с осторожностью! [Endcolor] [newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name}, {loc_tech_synthetic_materials_name} может включить подразделение [ICON_STRENG TH] {Loc_tech_computers_name} может увеличить диапазон и поле зрения единицы [icon_range] [newline]+высокая мобильность [newline]+высокая дальняя боевая мощность [newline]+способна формировать формирование с военными единицами [newline]-высокая плата за обслуживание</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_NAME" Language="ru_RU">
+			<Text>Pioneer Co-Unning Correction Bleee Correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный подразделение ближнего боя с хорошей летальностью [Newline] + хорошо борьбу с антикавальскими подразделениями [Newline] - Низкая мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_NAME" Language="ru_RU">
+			<Text>Ранняя коррекция в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный подразделение ближнего боя с хорошей летальностью [Newline] + хорошо борьбу с антикавальскими подразделениями [Newline] - Низкая мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_NAME" Language="ru_RU">
+			<Text>Координировать коррекцию ближнего боя</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный подразделение ближнего боя с хорошей летальностью [Newline] + хорошо борьбу с антикавальскими подразделениями [Newline] - Низкая мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_NAME" Language="ru_RU">
+			<Text>Course Co-Tune Melee Corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный подразделение ближнего боя с хорошей летальностью [Newline] + хорошо борьбу с антикавальскими подразделениями [Newline] - Низкая мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_NAME" Language="ru_RU">
+			<Text>Опытный корректор ближнего моря</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный подразделение ближнего боя с хорошей летальностью [Newline] + хорошо борьбу с антикавальскими подразделениями [Newline] - Низкая мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_NAME" Language="ru_RU">
+			<Text>Славный корректор ближнего моря</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный подразделение ближнего боя с хорошей летальностью [Newline] + хорошо борьбу с антикавальскими подразделениями [Newline] - Низкая мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_NAME" Language="ru_RU">
+			<Text>Elite Co-Conting Corrector Bleee Corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный подразделение ближнего боя с хорошей летальностью [Newline] + хорошо борьбу с антикавальскими подразделениями [Newline] - Низкая мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_NAME" Language="ru_RU">
+			<Text>Ранняя совместная настройка удаленных исправлений</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный дальний блок, подходящий для убийства врагов на дальний расстояние.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_NAME" Language="ru_RU">
+			<Text>Сообщение удаленной коррекции</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный дальний блок, подходящий для убийства врагов на дальний расстояние.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_NAME" Language="ru_RU">
+			<Text>Опытная дистанционная коррекция совместной настройки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный дальний блок, подходящий для убийства врагов на дальний расстояние.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_NAME" Language="ru_RU">
+			<Text>Элитная совместная настройка удаленной коррекции</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильный дальний блок, подходящий для убийства врагов на дальний расстояние.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_NAME" Language="ru_RU">
+			<Text>Скоординированная коррекция светового оружия</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="ru_RU">
+			<Text>Мощная осадная единица, подходящая для борьбы с областями и может сражаться в водах [Newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} и {loc_tech_synthetic_materials_name). Research {loc_tech_computers_name} может увеличить диапазон блока [icon_range] [newline]+большой диапазон [newline]+высокая мобильность [newline]+хорошая область [newline]+боевые действия в водах [newline] -low</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_NAME" Language="ru_RU">
+			<Text>Элитная коррекция светового оружия элита</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="ru_RU">
+			<Text>Сильная осадная единица, подходящая для борьбы с областями, способными сражаться в водах [Newline] + Long Drange [newline] + высокая мобильность [Newline] + хорошо борьба с областями [Newline] + способность сражаться в водах [Newline] - Низкое поле зрения [Newline] - Низкая боевая сила ближнего</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_NAME" Language="ru_RU">
+			<Text>Ранняя скорректированная специальная коррекция специальных операций</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_DESCRIPTION" Language="ru_RU">
+			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_NAME" Language="ru_RU">
+			<Text>Координированная коррекция специальных операций</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_DESCRIPTION" Language="ru_RU">
+			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_NAME" Language="ru_RU">
+			<Text>Жесткая и совместная коррекция специальных операций</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_DESCRIPTION" Language="ru_RU">
+			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_NAME" Language="ru_RU">
+			<Text>Опытная коррекция специальных операций совместной настройки</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_DESCRIPTION" Language="ru_RU">
+			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_NAME" Language="ru_RU">
+			<Text>Элитная совместная настройка специальная коррекция боя</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_DESCRIPTION" Language="ru_RU">
+			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_NAME" Language="ru_RU">
+			<Text>Координированная коррекция оружия</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="ru_RU">
+			<Text>Очень мощный осадный блок с большим давлением с сильной боевой боевой мощностью, который очень подходит для борьбы с областями [newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} и {loc_tech_shitetic_maters_name. [Icon_strength] [ne wline] Research {loc_tech_computers_name} может увеличить диапазон блока [icon_range] [newline]+большой диапазон [newline]+высокий бой борьбы с ближним боем [Newline]+Хорошая область [newline]+Good Combat [Newline]+Good Combat [Newline]+CAN CAN ON WATERLINE]- Мобильность [Newline]-будет ограничена антикавальщиками</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_NAME" Language="ru_RU">
+			<Text>Элитная коррекция тяжелого оружия элита</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="ru_RU">
+			<Text>Очень мощный осадный блок на большие расстояния с сильной боевой силой ближнего боя, очень подходящая для работы с областями [Newline] + длительный [Newline] + Высокий боевой боевой мощность [Newline] + хорошо в боевых областях [Newline] + хорошо сражается с кавалерийскими единицами [Newline].</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_NAME" Language="ru_RU">
+			<Text>Ранняя коррекция в ближнем бою</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_DESCRIPTION" Language="ru_RU">
+			<Text>Блок кавалерии ближнего боя с высокой скоростью движения имеет суперэтальность и может нанести полный ущерб городским стенам [Newline] + высокая боевая мощность возвышения [Newline] + высокая мощность движения [Newline] + хорошо в боевых районах [Newline] - будет ограничена антигавальными единицами</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_NAME" Language="ru_RU">
+			<Text>Координировать корректор ближнего возмещения</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_DESCRIPTION" Language="ru_RU">
+			<Text>Блок кавалерии ближнего боя с высокой скоростью движения имеет суперэтальность и может нанести полный ущерб городским стенам [Newline] + высокая боевая мощность возвышения [Newline] + высокая мощность движения [Newline] + хорошо в боевых районах [Newline] - будет ограничена антигавальными единицами</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_NAME" Language="ru_RU">
+			<Text>Корректор READERE REDEE CO-TUNE REVESTALL</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_DESCRIPTION" Language="ru_RU">
+			<Text>Блок кавалерии ближнего боя с высокой скоростью движения имеет суперэтальность и может нанести полный ущерб городским стенам [Newline] + высокая боевая мощность возвышения [Newline] + высокая мощность движения [Newline] + хорошо в боевых районах [Newline] - будет ограничена антигавальными единицами</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_NAME" Language="ru_RU">
+			<Text>Опытный корректор рукопашного смены</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_DESCRIPTION" Language="ru_RU">
+			<Text>Блок кавалерии ближнего боя с высокой скоростью движения имеет суперэтальность и может нанести полный ущерб городским стенам [Newline] + высокая боевая мощность возвышения [Newline] + высокая мощность движения [Newline] + хорошо в боевых районах [Newline] - будет ограничена антигавальными единицами</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_NAME" Language="ru_RU">
+			<Text>Elite Co-Tuning Revenseall Corrector Mlee</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_DESCRIPTION" Language="ru_RU">
+			<Text>Блок кавалерии ближнего боя с высокой скоростью движения имеет суперэтальность и может нанести полный ущерб городским стенам [Newline] + высокая боевая мощность возвышения [Newline] + высокая мощность движения [Newline] + хорошо в боевых районах [Newline] - будет ограничена антигавальными единицами</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_NAME" Language="ru_RU">
+			<Text>Координировать переустановку удаленного фиксатора</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_DESCRIPTION" Language="ru_RU">
+			<Text>Специальные подразделения, только некоторые из ревизионистских лидеров могут построить, могут легко противостоять атакам от подразделений ближнего боя и диапазонов. С обновлением технологии диапазон также является дальше, чем у обычных корректоров дальнего диапазона [newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} и {loc_tech_synthetic_maters_name Боевая мощность [newline] {loc_tech_flight_name}, {loc_tech_computers_name} может увеличить диапазон блока [icon_range] [newline]+высокий боевой боевой мощность [Newline]+Good at Fighting Bere Multe [newline]+Good at range antists [newline] -low Мобильность</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_NAME" Language="ru_RU">
+			<Text>Элитная совместная настройка и переустановка удаленной коррекции</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_DESCRIPTION" Language="ru_RU">
+			<Text>Специальные подразделения, только некоторые ревизионные лидеры могут построить, могут легко противостоять атакам от подразделений ближнего боя и диапазонов, а также подходят для областей. Диапазон также дальше, чем обычные элитные поправки на дальние дальности [Newline]+высокая боевая боевая мощность [Newline]+высокий диапазон [Newline]+хорошо борьба с единицами ближнего боя [Newline]+хорошо борьба с диапазонами [Newline]+хорошо сражается в районах.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_NAME" Language="ru_RU">
+			<Text>Переработка</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_NAME" Language="ru_RU">
-			<Text>Pioneer Alee Correctionist</Text>
+			<Text>Pioneer Bleee Correction</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ru_RU">
 			<Text>Основное подразделение ближнего боя с хорошей летальностью [Newline] + хорошо борьбу с антикавальщиками [Newline] - Низкая мобильность</Text>
@@ -130,7 +319,7 @@
 			<Text>Элитная удаленная коррекция</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>Основные единицы дальнего боя, подходящие для убийства врагов на расстоянии [Newline]+ хорошо борьба с подразделениями ближнего боя [Newline]-Боевая боевая мощность в ближнем бою [Newline]-По мощности</Text>
+			<Text>Основные единицы дальнего боя, подходящие для убийства врагов на расстоянии [Newline]+ хорошо борьба с подразделениями ближнего боя [Newline]-Боевая боевая мощность возвышения [Newline]-По мощности.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_RELOAD_NAME" Language="ru_RU">
 			<Text>Световое оружие исправительна</Text>
@@ -145,34 +334,40 @@
 			<Text>Основная осадная единица, подходящая для борьбы с областями, способными сражаться в водах [Newline] + высокая мобильность [Newline] + хорошо в борьбе с областями [Newline] +, способные сражаться в водах [Newline] - Низкое поле зрения [Newline] - Низкая боевая мощность воздействия [Newline] - будет ограничена кавалерийными подразделениями.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_NAME" Language="ru_RU">
-			<Text>Специальные операции исправительны</Text>
+			<Text>Ранние специальные операции исправительны</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ru_RU">
 			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_NAME" Language="ru_RU">
-			<Text>Жесткие специальные операции исправительны</Text>
+			<Text>Специальные операции исправительны</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ru_RU">
 			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_NAME" Language="ru_RU">
-			<Text>Опытный специальный корректионист</Text>
+			<Text>Жесткие специальные операции исправительны</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ru_RU">
 			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_NAME" Language="ru_RU">
-			<Text>Элита специальная операция исправительна</Text>
+			<Text>Опытный специальный корректионист</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_NAME" Language="ru_RU">
+			<Text>Элита специальная операция исправительна</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="ru_RU">
 			<Text>Единицы, способные бороться в водах, с бомбардировкой борьбы с диапазоном 1 [Newline] + Высокая мобильность [Newline] + хорошо в боевых областях [Newline] + хорошо в боевых военно -морских единицах [Newline] + может сражаться в водах [Newline] - требует, чтобы области портов были построены [Newline] - не хорошо в борьбе с кавальными подразделениями.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_NAME" Language="ru_RU">
 			<Text>Коррекция с тяжелым оружием</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>Страшная осадная единица на большем диапазоне, только некоторые из лидеров исправлений могут быть обучены, обладает сильной боевой силой ближнего боя, которая очень подходит для борьбы с областями [Newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} и {loctech_mater_mater_mater_mater_mater_mater_mater_mater Улучшение боевой мощности блока [icon_strength] [n ewline] Research {loc_tech_flight_name}, {loc_tech_computers_name} может увеличить диапазон блока [icon_range] [newline]+Высокая боевая сила в ближнемей [Newline]+Good at newline]. Диапазон зрения [Newline] -low Movement Power [Newline]-будет ограничена антикавальщиками подразделения</Text>
+			<Text>Страшная осадная единица на большем диапазоне, только некоторые из лидеров исправлений могут быть обучены, обладает сильной боевой силой ближнего боя, которая очень подходит для борьбы с областями [Newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} и {loctech_mater_mater_mater_mater_mater_mater_mater_mater Улучшить боевую мощность устройства [icon_strength] [n ewline] Research {loc_tech_flight_name}, {loc_tech_computers_name} может увеличить диапазон блока [icon_range] [newline]+Высокая боевая сила в ближнемей [новая линия]+Good at Newline [Newline]+Good at Attact attack [newline]. Диапазон [Newline] -low Движение Power [newline]-будет ограничена антикавальщиками подразделений</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_RELOAD_NAME" Language="ru_RU">
 			<Text>Элитная коррекция тяжелого оружия</Text>
@@ -190,16 +385,16 @@
 			<Text>Переустановите корректор ближнего боя</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>Крайственные подразделения ближнего боя с высокой скоростью движения - это лишь некоторые из лидеров корректоров, которые могут тренироваться. Они обладают суперэтальностью и могут нанести полный ущерб городским стенам [Newline] + Высокая боевая мощность ближнего боя [Newline] + высокая движущаяся мощность [Newline] + хорошо в боевых районах [Newline] - будут ограничены антикавальщиками.</Text>
+			<Text>КАВАЛЕРИЧЕСКИЕ КАВАЛЛИЧЕСКИЕ КАВАЛЛИЧЕСКИЕ БОЛЬШЕ С ВАМАЯ СКОРОСТИ ДВИЖЕНИЯ - это лишь некоторые из лидеров исправлений, имеют сверхветальность и могут нанести полный ущерб городским стенам.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_NAME" Language="ru_RU">
-			<Text>Опытный корректор возрождения рукописного возрождения</Text>
+			<Text>Жесткий переустановка для коррекции в ближнем бою</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>Крайственные подразделения ближнего боя с высокой скоростью движения - это лишь некоторые из лидеров корректоров, которые могут тренироваться. Они обладают суперэтальностью и могут нанести полный ущерб городским стенам [Newline] + Высокая боевая мощность ближнего боя [Newline] + высокая движущаяся мощность [Newline] + хорошо в боевых районах [Newline] - будут ограничены антикавальщиками.</Text>
+			<Text>КАВАЛЕРИЧЕСКИЕ КАВАЛЛИЧЕСКИЕ КАВАЛЛИЧЕСКИЕ БОЛЬШЕ С ВАМАЯ СКОРОСТИ ДВИЖЕНИЯ - это лишь некоторые из лидеров исправлений, имеют сверхветальность и могут нанести полный ущерб городским стенам.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_NAME" Language="ru_RU">
-			<Text>Усовершенствованный переустановка для коррекции в ближнем бою</Text>
+			<Text>Опытный корректор возрождения рукописного возрождения</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ru_RU">
 			<Text>КАВАЛЕРИЧЕСКИЕ КАВАЛЛИЧЕСКИЕ КАВАЛЛИЧЕСКИЕ БОЛЬШЕ С ВАМАЯ СКОРОСТИ ДВИЖЕНИЯ - это лишь некоторые из лидеров исправлений, имеют сверхветальность и могут нанести полный ущерб городским стенам.</Text>
@@ -208,16 +403,13 @@
 			<Text>Elite Revessall Corrector Corrector</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>Крайственные подразделения ближнего боя с высокой скоростью движения - это лишь некоторые из лидеров корректоров, которые могут тренироваться. Они обладают суперэтальностью и могут нанести полный ущерб городским стенам [Newline] + Высокая боевая мощность ближнего боя [Newline] + высокая движущаяся мощность [Newline] + хорошо в боевых районах [Newline] - будут ограничены антикавальщиками.</Text>
-		</Replace>
-		<Replace Tag="LOC_TECH_REFINING_NAME" Language="ru_RU">
-			<Text>Переработка</Text>
+			<Text>КАВАЛЕРИЧЕСКИЕ КАВАЛЛИЧЕСКИЕ КАВАЛЛИЧЕСКИЕ БОЛЬШЕ С ВАМАЯ СКОРОСТИ ДВИЖЕНИЯ - это лишь некоторые из лидеров исправлений, имеют сверхветальность и могут нанести полный ущерб городским стенам.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_NAME" Language="ru_RU">
 			<Text>Переустановите удаленный фиксатор</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>Специальные подразделения, только некоторые из ревизионистских лидеров могут построить, могут легко противостоять атакам от подразделений ближнего боя и диапазонов. С обновлением технологии диапазон также является дальше, чем у обычных корректоров дальнего диапазона [newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} и {loc_tech_synthetic_maters_name Боевая мощность [newline] {loc_tech_flight_name}, {loc_tech_computers_name} может увеличить диапазон блока [icon_range] [newline]+высокий бой борьбы с борьбой с воздействием [Newline]+Хороший в борьбе с подразделениями воздействия.</Text>
+			<Text>Специальные подразделения, только некоторые из ревизионистских лидеров могут построить, могут легко противостоять атакам от подразделений ближнего боя и диапазонов. С обновлением технологии диапазон также является дальше, чем у обычных корректоров дальнего диапазона [newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name} и {loc_tech_synthetic_maters_name Боевая мощность [newline] {loc_tech_flight_name}, {loc_tech_computers_name} может увеличить диапазон блока [icon_range] [newline]+высокая боевая боевая мощность в ближнем бою [Newline]+Good at Fighting Resee Lite [Newline]+Good at arge arge ange [newline] -low Мобильность</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_RELOAD_NAME" Language="ru_RU">
 			<Text>Элитный переустановка удаленного фиксатора</Text>
@@ -610,13 +802,19 @@
 			<Text>Кольцо разума</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>Специальные поддержки, они обладают боевой мощностью, и все подразделения по формированию получили мощность мобильности подразделения [Newline] [Color: ResmilitaryLabelcs] Устройство имеет чрезвычайно высокие затраты на техническое обслуживание, пожалуйста, создайте с осторожностью! [EndColor] [newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name}, {loc_tech_synthetic_materials_name} может повысить эффективность борьбы с подразделкой [ICON_STRIDE] [ne wine]. {Loc_tech_flight_name}, {loc_tech_computers_name} может увеличить диапазон и поле зрения единицы [icon_range] [newline]+высокая мобильность [newline]+высокая боевая сила с высокой дальностью</Text>
+			<Text>Специальная поддержка, основанная на ключе Хеймдала, обладает собственной боевой силой, и все подразделения по формированию получили подвижность подразделения [Newline] [Color: RemilitaryLabelcs] плата за техническое обслуживание этого подразделения чрезвычайно высока, пожалуйста, создайте его с осторожностью! [EndColor] [newline] Research {loc_tech_stirrups_name}, {loc_tech_ballistics_name}, {loc_tech_combustion_name}, {loc_tech_synthetic_materials_name} может повысить эффективность борьбы с подразделкой [ICON_STRIDE] [ne wine]. {Loc_tech_flight_name}, {loc_tech_computers_name} может увеличить диапазон и поле зрения единицы [icon_range] [newline]+высокая мобильность [newline]+высокая боевая сила с высокой дальностью</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="ru_RU">
 			<Text>Хела</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_DESCRIPTION" Language="ru_RU">
 			<Text>Девочки, которые не любят общаться с другими, всегда смотрят на ночное небо тихо в одиночестве, как будто у них был темный детский опыт.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_NAME" Language="ru_RU">
+			<Text>Лин Ю.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_DESCRIPTION" Language="ru_RU">
+			<Text>Ученик Жиминг в Академии Сифанга также является ее помощником. Он умный и прилежный, и обладает большими достижениями в институциональных навыках. Перед пробуждением я зависел от своей сестры Йингхао на всю жизнь, стал свидетелем трудностей, с которыми сталкивалась моя сестра, чтобы защитить себя, и всегда хотела проявить себя и уменьшить бремя на свою сестру.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_NAME" Language="ru_RU">
 			<Text>MAE ONIBO TENGU</Text>
@@ -628,6 +826,9 @@
 			<Text>Осирис</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_DESCRIPTION" Language="ru_RU">
+			<Text>Самым популярным ревизионистом в штаб -квартире ласково называется «Маленьким Осирисом». После того, как вы обнаружите проблемы ваших компаньонов, вы сделаете все возможное, чтобы оказать им помощь и всегда поставить свои спутники на первое место.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_AOXILISI_EXPANSION2_DESCRIPTION" Language="ru_RU">
 			<Text>Самым популярным ревизионистом в штаб -квартире ласково называется «Маленьким Осирисом». После того, как вы обнаружите проблемы ваших компаньонов, вы сделаете все возможное, чтобы оказать им помощь и всегда поставить свои спутники на первое место.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_NAME" Language="ru_RU">
@@ -832,7 +1033,7 @@
 			<Text>При защите от кавалерийских единиц атака -30 [icon_strength] боевая сила</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMORSWORD_FIXER_DEF_REDUCE_30_VS_CLASS_ANTIFIXER_RELOAD_DESCRIPTION" Language="ru_RU">
-			<Text>Оборонительная антикавальская антитанковая атака-модификатор -30 [icon_strength] боевая власть</Text>
+			<Text>Оборонительная антикавальская атака модификатора-модификатора -30</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_DEF_REDUCE_20_VS_CLASS_SIEGE_DESCRIPTION" Language="ru_RU">
 			<Text>Оборонительные атаки против осадных единиц -20 [icon_strength] боевая сила</Text>
@@ -957,6 +1158,12 @@
 		<Replace Tag="LOC_IMPROVEMENT_MAOYIJIEDIAN_DESCRIPTION" Language="ru_RU">
 			<Text>Специальные средства улучшения, только некоторые лидеры ревизии могут построить их, +5 [ICON_GOLD] золотые монеты, и после исследования связанных технологий будет получено больше продукции. Предоставьте +1 [icon_gold] золотые монеты +1 [icon_production] производительность для международных и внутренних торговых путей города, а также другие цивилизованные торговые пути, связанные с городом в город, и может быть построен только на плоских и холмистых клетках без бонусных ресурсов.</Text>
 		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_NAME" Language="ru_RU">
+			<Text>Экологические шахты</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_DESCRIPTION" Language="ru_RU">
+			<Text>Специальные объекты улучшения, только некоторые лидеры ревизии могут построить их, +1 [icon_food] еда +1 [ICON_PORDUCTION] Продуктивность, и после исследования связанных технологий будет получено больше продукции. Для окружающих ячеек +1 чар улучшенные объекты могут получить дополнительную 100% [ICON_GOLD] вывод монет золотой монеты на основе значения очарования ячейки. После исследования {loc_tech_industrialization_name} улучшенные объекты могут получить 25% [ICON_TOURISM] Туристические показатели на основе вывода золотой монеты.</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ru_RU">
 			<Text>Amagaki Shinto Area</Text>
 		</Replace>
@@ -973,13 +1180,13 @@
 			<Text>ТИАНЛУ ТОРГОВЛЯ</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Божественная область Tianyuan Divine, заменяющая {loc_district_commercial_hub_name}, первоначально разблокированная, стоимость ниже, а цена не будет увеличиваться и может быть построена независимо от потребностей населения. У него есть уникальный золотая монетная монета, и после завершения, он получает 2 [icon_traderoute] торговые маршруты и 2 торговца. Город, который вы создали вами, Tianlu Trade [ICON_GOLD] Золотая монетная монета также предоставляет значение технологии [ICON_SCIENCE]</Text>
+			<Text>Область Tianyuan Divine Please заменяет {loc_district_commercial_hub_name}, которая первоначально разблокирована, с более низкими затратами и отсутствием повышения цен и может быть построена независимо от потребностей населения. У него есть уникальный золотая монетная монета, и после завершения, он получает 2 [icon_traderoute] торговые маршруты и 2 торговца. Город, который вы создали вами, Tianlu Trade [ICON_GOLD] Золотая монетная монета также предоставляет значение технологии [ICON_SCIENCE]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Sifangyuan</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Tianyuan Divine Domain, представленная областью, замените {loc_district_holy_site_name}, первоначально разблокирован, бесплатно для построения без повышения цен и может быть построена независимо от потребностей населения. У него есть уникальный бонус по прилеганию к пище, который также обеспечивает веру [icon_faith]. Город, который вы создали вами, Sifangyuan [icon_food] Бонус по соседству с едой также предоставляет [icon_culture] Культурная ценность</Text>
+			<Text>Божественная область Tianyuan Divine, представленная заменяет {loc_district_holy_site_name}, изначально разблокированная, свободная для строительства без повышения цен и может быть построена независимо от потребностей населения. У него есть уникальный бонус по прилеганию к пище, который также обеспечивает веру [icon_faith]. Город, который вы создали вами, Sifangyuan [icon_food] Бонус по соседству с едой также предоставляет [icon_culture] Культурная ценность</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="ru_RU">
 			<Text>+{1_num} [icon_food] еда поступает из соседних областей</Text>
@@ -1093,22 +1300,22 @@
 			<Text>Агент больницы Сифанга Южный остров, врач, хорошо осведомлен о страданиях людей. Она установила «Чичи Холл» в Нанджиатонге и открыла много ветвей для решения болезней. Линг Гуан часто лично сидит в клинике, чтобы лечить пациентов, которые приходят, чтобы обратиться за медицинским лечением и прислушиваться к своей тривиальности в жизни.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="ru_RU">
-			<Text>Сердце икона комната</Text>
+			<Text>Лабиринт сердца</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="ru_RU">
-			<Text>Nile Divine Domain Используется область, замените {loc_district_holy_site_name}, начальное разблокировка, более низкая стоимость и отсутствие цены, может быть построено независимо от потребностей населения, +3 [Icon_housing] Жилье, без какого -либо соседнего бонуса, после завершения, все [icon_citizen] гражданин в городе +2 [Icon_faith] верный] вевер</Text>
+			<Text>Nile Divine Domain, избранная область, заменяющая {loc_district_holy_site_name}, начальная разблокировка, более низкая стоимость и отсутствие цены, может быть построена независимо от потребностей населения, +3 [Icon_housing] Жилье без какого -либо соседнего бонуса, после завершения, все [icon_citizen] в городе +2 [icon_faith] верный] вевер</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Neuhansa тяжелая промышленность</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Nile Divine Domain, представленная областью, замените {loc_district_industrial_zone_name}, начальное разблокировка, бесплатное строительство без повышения цен, может быть построено независимо от потребностей населения, +3 [icon_housing] Жилье без какого -либо смежного бонуса, после завершения, все [icon_citizen] гражданин в городе +2 [Icon_production].</Text>
+			<Text>Nile Divine Domain, представленная областью, заменяющая {loc_district_industrial_zone_name}, начальное разблокировка, бесплатное строительство без повышения цен, может быть построено независимо от потребностей населения, +3 [ICON_HOUSIN</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Технологическая плантация</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Специальные объекты улучшения, только лидер царства Нила может построить их, +1 [ICON_FOOD] еда +1 [ICON_PORDUCTION] Производительность +4 [ICON_HOUSING] Жилье +2 [ICON_AMENITION</Text>
+			<Text>Специальные объекты улучшения, только лидер домена Нила может построить их, +1 [ICON_FOOD] еда +1 [ICON_PORDUCTION] Производительность +4 [ICON_HOUSING] Жилье +2 [ICON_AMENITIONS], больше возможностей для изучения связанных технологий, позволяя строить наводнские равнины, оазис и мочели без ресурсов.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ru_RU">
 			<Text>Нильский домен</Text>
@@ -1123,7 +1330,7 @@
 			<Text>Божественное царство-нило</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ru_RU">
-			<Text>Пустынные равнины и пустынные холмы +3 [icon_food] еда +3 [icon_production] Производительность +1 [icon_science] Технологическое значение, пастбищной поймы +1 [icon_food] еда +3 [icon_production] Производительность +3 Очарование, простая наводка +2 [icon_food] еда +2 [Icon_production] Performancy +3 writemold +2 Plain_ Flaygold +2. Монеты, пустынная пойма, болота и оазиса +3 очарования, леса и тропического леса -3, позволяют строить сельскохозяйственные угодья на пустынных равнинах, все ячейки города, которые вы создаете +1 [icon_science] Техническое значение {loc_tech_scientific_theory_name} +1 [icon_science] Tech</Text>
+			<Text>Desert Plains и Desert Hills +3 [icon_food] еда +3 [icon_production] Продуктивность +1 [icon_science] Технологическое значение, пастбищная штопора +1 [icon_food] еда +3 [icon_production] Продуктивность, продюсер, продуцируемость. Монеты, паводковые равнины, простые наводнения, пустынные наводнения, болоты и оазис являются окружающими клетками на территории +3 Заклинания, леса и тропические +1 [icon_science] Технологическое значение</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BASITE_NAME" Language="ru_RU">
 			<Text>Бахтер</Text>
@@ -1162,7 +1369,7 @@
 			<Text>Тысяча Звездная Академия</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Специальная область Aoshan Shenyu, заменяет {loc_district_campus_name}, начальный разблокировка, свободный для построения без повышения цен, может быть построен независимо от потребностей населения, имеет уникальный соседний бонус и создается для окружающих горных клеток +1 [ICON_FOOD] [ICON_PRODUCTION] [ICON_GOLD] [ICON_SCULE] [ICON_CLICE]</Text>
+			<Text>Специальная область Aoshan Shenyu, замена {loc_district_campus_name}, первоначально разблокированная, свободная для построения без повышения цен может быть построена независимо от потребностей популяции, имеет уникальный соседний бонус и создается для окружающих горных клеток +1 [ICON_FOOD] [ICON_PRODUCTION] [ICON_GOLD] [ICON_FAINT] [ICON_COLIGE] [ICON_COLIGE]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ENILIYI_NAME" Language="ru_RU">
 			<Text>Онири</Text>
@@ -1282,7 +1489,7 @@
 			<Text>Оригинальные достопримечательности</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Избранные области, первоначальная разблокировка, бесплатная для построения без повышения цен могут быть построены независимо от потребностей населения, и каждый игрок может построить только один. После того, как цивилизация входит {loc_era_classical_name}, {loc_era_renaissance_name} и {loc_era_modern_name}, новые знаменитые здания будут разблокированы.</Text>
+			<Text>Известные области, первоначально разблокированные, построенные бесплатно и не будут повышать цены. Они могут быть построены независимо от потребностей населения. Они не могут быть построены возле центра города. Каждый игрок может построить только один. После того, как цивилизация входит {loc_era_classical_name}, {loc_era_renaissance_name} и {loc_era_modern_name}, новые знаменитые здания будут разблокированы.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AIYINSUOFEISHENGTAIYUAN_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Экологический парк Айн Софи</Text>
@@ -1300,7 +1507,7 @@
 			<Text>Отдел логистики глубокого космоса</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHENKONGZHIYANHOUQINBU_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Домен священного дерева {loc_era_modern_name} Landmark Building, разблокировать после цивилизации ввода {loc_era_modern_name}, строительство +4 время строительства, покупка трассы Blazer [icon_gold] стоимость -95%, клетка с стратегическими ресурсами +6 [icon_production] Продуктивность, кошачье, железо и солене +2 уголь, нефть, алюминий и уран +4 [icon_food] еда</Text>
+			<Text>Святое дерево Боже Рилм {loc_era_modern_name} Знаковое здание, разблокированное после цивилизации {loc_era_modern_name}, строительство +4 время строительства, покупка пионера -95%, клетки с стратегическими ресурсами +6 [icon_production] Продуктивность, лошадь, железо и соля алюминий и уран +4 [icon_food] еда</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MUYUANQU_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Айн Софи кладбище</Text>
@@ -1330,7 +1537,7 @@
 			<Text>Йокур Маяк</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUEKUERDENGTA_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Sikati {loc_era_classical_name} Landmark Building, разблокированное после того, как цивилизация входит {loc_era_classical_name}, после завершения единицы транспорта воды +4 [ICON_Movement] Сила мобильности, все единицы игнорируют местность и кариографию [ICON_MOVEMEMEMEMEMENT] ПУНКТИЯ ДВИГАТЕЛЯ через реки и сразу же приобретают судоводные и кариографию. Каждое здание в зоне колледжа +1 [icon_traderoute] Торговая мощность, и каждое здание может быть завершено, и можно получить один бизнесмен. Стоимость покупки здания колледжа [ICON_GOLD] составляет -100%, а стоимость этого ориентира снижается вдвое.</Text>
+			<Text>Sikati {loc_era_classical_name} Landmark Building, разблокированное после того, как цивилизация входит {loc_era_classical_name}, после завершения единицы транспорта воды +4 [ICON_Movement] Сила мобильности, все единицы игнорируют местность и кариографию [ICON_MOVEMEMEMEMEMENT] ПУНКТИЯ ДВИГАТЕЛЯ через реки и сразу же приобретают судоводные и кариографию. Каждое здание в зоне колледжа +1 [icon_traderoute] Торговая мощность, и каждое здание может быть завершено, и можно получить один бизнесмен. Стоимость покупки площади колледжа составляет -100%, а стоимость этого ориентира снижается вдвое.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TALIELANGDIANWANCHENG_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Talleyrand видеоигра города</Text>
@@ -1342,7 +1549,7 @@
 			<Text>Mimiel Data Matrix</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHUJUJUZHENG_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Heimdal {loc_era_classical_name} Landmark Building, разблокированное после записи цивилизации {loc_era_classical_name}, и после завершения стоимость покупки регионального здания системы Mimier [icon_gold] составляет -100%. Вычислительный центр является окружающим участком +2 [ICON_CULTURE] Культурная ценность, а устройство хранения - это окружающий участок +2 [ICON_CULTURE] Культурная ценность. После победы в битве вы получите значение культуры [ICON_CULTURE], эквивалентное боевой мощности убитого подразделения [ICON_STRENTY] (на стандартной скорости)</Text>
+			<Text>Heimdal {loc_era_classical_name} Landmark Building разблокируется после записи цивилизации {loc_era_classical_name}. После завершения стоимость покупки зоны Меланда составляет -100%. Книжный магазин «Луна» - это окружающий участок +2 [ICON_CULTURE] Культурная ценность, а медицинский центр Хагии Софии - это окружающий участок +2 [ICON_CULTURE] Культурная ценность. После победы в битве вы получите значение культуры [ICON_CULTURE], эквивалентное боевой мощности убитого подразделения [ICON_STRENTY] (на стандартной скорости)</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBAITANG_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Айн Софи часовня</Text>
@@ -1360,7 +1567,7 @@
 			<Text>Парк развлечений Айн Софи</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YOULEYUAN_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Nile Divine Realm {LOC_ERA_RENAISSANCE_NAME} Landmark Building, разблокированное после цивилизации {loc_era_renaissance_name}, после завершения он будет +3 [ICON_AMENITY] для всех городов. Если в городе есть памятник, дополнительно +2 [icon_amenity] для каждого города.</Text>
+			<Text>Nile Divine Realm {LOC_ERA_RENAISSANCE_NAME} Landmark Building, разблокированное после цивилизации {loc_era_renaissance_name}, после завершения он будет +3 [ICON_AMENITY] для всех городов. Если в городе есть памятник, дополнительно +2 [icon_amenity] пригодный для каждого города.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AIYINSUOFEIGAODENGXUEYUAN_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Колледж Айн Софи</Text>
@@ -1374,6 +1581,12 @@
 		<Replace Tag="LOC_BUILDING_MINGDUSHENDIAN_AETHERGAZER_DESCRIPTION" Language="ru_RU">
 			<Text>Osiris {loc_era_classical_name} Landmark Building, разблокированное после цивилизации {loc_era_classical_name}, после завершения все города +15% [icon_science] технологическое значение. После победы в битве они получат значение технологии [icon_science], эквивалентное боевой мощности убитого подразделения [ICON_STRENTY] (под стандартной скоростью)</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_NAME" Language="ru_RU">
+			<Text>Статуя знака смерти</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>Osiris (Soul Feather) {loc_era_classical_name} Landmark Building, разблокированное, когда цивилизация входит {loc_era_classical_name}. После завершения все подразделения могут восстановить все очки здоровья, разрушая вражеские подразделения без необходимости установить в начале хода. Армия может быть сформирована ранее (националистические муниципалитеты требуются), и городу не нужна военная академия, поэтому армия может быть непосредственно обучена. Затраты на обучение легиона и армии сокращаются на 50%. После победы в битве вы получите значение культуры [ICON_CULTURE], эквивалентное боевой мощности убитого подразделения [ICON_STRENTY] (на стандартной скорости)</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_GOUWUGUANGCHANG_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Talleyrand Shopping Plaza</Text>
 		</Replace>
@@ -1384,7 +1597,7 @@
 			<Text>Колджи Временная команда</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_KEERGAILINSHIZHIHUIBU_AETHERGAZER_DESCRIPTION" Language="ru_RU">
-			<Text>Знаковое здание Totte {loc_era_classical_name} разблокировано после того, как цивилизация входит {loc_era_classical_name}. После завершения он получит 3 шпиона (и увеличит емкость 3 шпионов), а влияние подстрекательства к беспорядкам и создания шпионских операций губернатора будет увеличено на 100 уровней. Если шпион арестован во время выполнения миссии, существует высокая вероятность сбега (+100 уровня). Кольцо разума +4 [icon_movement] и покупка [icon_gold] стоит -100%. Коррекционистское оружие и корректионист из светового оружия +10 [icon_strength] боевая мощность +1 [icon_range] диапазон и диапазон атакую</Text>
+			<Text>Знаковое здание Totte {loc_era_classical_name} разблокировано после того, как цивилизация входит {loc_era_classical_name}. После завершения он получит 3 шпиона (и увеличит емкость 3 шпионов), а влияние подстрекательства к беспорядкам и создания шпионских операций губернатора будет увеличено на 100 уровней. Если шпион арестован во время выполнения миссии, существует высокая вероятность сбега (+100 уровня). Цикл логики +4 [ICON_MOVEMENT] Мобильная мощность и стоимость покупки -100%. Коррекционистское оружие и корректионист из светового оружия +10 [icon_strength] боевая мощность +1 [icon_range] диапазон и диапазон атакую</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_OUMOFEISIZIRANGONGYUAN_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Природный парк Omofes</Text>
@@ -1433,6 +1646,12 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_DESCRIPTION" Language="ru_RU">
 			<Text>Tianyuan Divine Realm {LOC_ERA_MODERN_NAME} Landmark Building, разблокированное после записи цивилизации {loc_era_modern_name}. После завершения каждая политическая система получит 2 дополнительных универсальных слотов. [Icon_greatwork_writing] Works, All [icon_greatwork_sculpture] [icon_greatwork_portrait] [icon_greatwork_landscape] [icon_greatwork_religious] тип искусства, [icon_greatwork_religious] Music обеспечивает Triple [Icon_tourism]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_NAME" Language="ru_RU">
+			<Text>Tsutong Port Lighthouse</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_DESCRIPTION" Language="ru_RU">
+			<Text>Linyu {loc_era_classical_name} Знаковое здание, разблокированное после цивилизации {loc_era_classical_name}, после завершения все города +5 [icon_amenities], водные ячейки +2 [icon_food] еда +2 [icon_production] Продуктивность. Для каждой ячейки вы проходите через свой торговый маршрут [icon_traderoute], она предоставляет [icon_gold] золотые монеты +2 [icon_science] Технологическое значение +2 [icon_production] Производительность +2, Sifangyuan +2 [icon_traderoute] Торговая способность торговой платы за покупку --50%</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DIZHIKANTANYINGDI_AETHERGAZER_NAME" Language="ru_RU">
 			<Text>Геологический лагерь xuheng</Text>
@@ -1528,10 +1747,10 @@
 			<Text>Специальный проект Ecological Park Ain Sophie, после завершения проекта, каждая область +3 [icon_food] еда +3 [icon_production] Производительность может быть завершена только один раз.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_NAME" Language="ru_RU">
-			<Text>Геоморфологический экологический баланс</Text>
+			<Text>Экологический баланс рельефа</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_SHORTNAME" Language="ru_RU">
-			<Text>Геоморфологический экологический баланс</Text>
+			<Text>Экологический баланс рельефа</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_DESCRIPTION" Language="ru_RU">
 			<Text>Ain Sophie Ecological Park Special Project, после завершения проекта, болото + 3 [ICON_PORDUCTION] Производительность, геотермальная трещина + 2 [ICON_FOOD] Food + 2 [ICON_PORDUCTION] Производительность + 1 [ICON_SCIENC</Text>

@@ -309,4 +309,5 @@ Auto-generated translations for the following mods are currently included in thi
 | [3451186356](https://steamcommunity.com/sharedfiles/filedetails/?id=3451186356) | [HONKAI:STAR RAIL] AMPHOREUS PACK | [HONKAI:STAR RAIL] AMPHOREUS PACK |
 | [3455609077](https://steamcommunity.com/sharedfiles/filedetails/?id=3455609077) | [HONKAI:STAR RAIL] AMPHOREUS PLUS PACK | [HONKAI:STAR RAIL] AMPHOREUS PLUS PACK |
 | [3458385576](https://steamcommunity.com/sharedfiles/filedetails/?id=3458385576) | 백귀야행 연합학원 | Backwi Nocturnal Academy |
+| [3493976204](https://steamcommunity.com/sharedfiles/filedetails/?id=3493976204) | 深空之眼 绵暖冬意·执明 | The Eye of Deep Space Warm Winter Idea · Enlightenment |
 | [3494704467](https://steamcommunity.com/sharedfiles/filedetails/?id=3494704467) | 明日方舟：缪尔赛思 | Ark of Tomorrow: Muirsse |

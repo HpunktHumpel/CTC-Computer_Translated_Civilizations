@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Sat Apr 12 12:27:15 2025-->
+<!-- Mon Jun  9 13:15:38 2025-->
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_NAME" Language="en_US">
+			<Text>Light track</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_DESCRIPTION" Language="en_US">
+			<Text>Featured area, replace {LOC_DISTRICT_AERODROME_NAME}, with a lower cost. After completion, the city will have an additional +5% [ICON_Production] productivity. After completion, the city will have an additional +5% [ICON_Production] productivity. After completion, the city will have an additional +5% [ICON_Production] productivity. After completion, the city will have an additional +5% [ICON_Production] productivity.</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="en_US">
 			<Text>Holy Tree God Domain</Text>
 		</Replace>
@@ -22,31 +28,37 @@
 			<Text>Reviser Organization</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>[COLOR:ResMilitaryLabelCS] cannot build all military units [ENDCOLOR], but can build revisionists and support units, and can always use the [ICON_Faith] faith to purchase builders, spies and support units.</Text>
+			<Text>[COLOR:ResMilitaryLabelCS] Cannot build all military units [ENDCOLOR], but can build revisionists, always be able to use the [ICON_Faith] faith to buy builders, spies and support units.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_NAME" Language="en_US">
+			<Text>Coordinate correction</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_DESCRIPTION" Language="en_US">
+			<Text>The co-adjusting modifiers replace all modifiers, and their combat power is higher. If the movement power of [ICON_Movement] allows, +1 additional attack per turn, you can move after attack, and you will not suffer combat power debuffs after injury. [COLOR:ResMilitaryLabelCS], but it is very expensive [ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="en_US">
-			<Text>Mimiel system</Text>
+			<Text>Melande</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>The Holy Tree Divine Domain featured area is initially unlocked, with lower cost and no price increase, and can be built regardless of population needs. After completion, the surrounding cells will be +2[ICON_Food]food +2[ICON_Production]productivity +2[ICON_Gold] gold coins. The improved cells will also enjoy the above effects.</Text>
+			<Text>The Holy Tree Divine Domain featured area is initially unlocked, with lower cost and no price increase, and can be built regardless of population needs. After completion, the surrounding cells will be +2[ICON_Food]food +2[ICON_Production]productivity +2[ICON_Gold] gold coins</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_NAME" Language="en_US">
-			<Text>Computing Center</Text>
+			<Text>&quot;Moon Country&quot; Bookstore</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_DESCRIPTION" Language="en_US">
-			<Text>Research on surrounding cells +2[ICON_Production] productivity +2[ICON_Faith] faith +2[ICON_Science], the improved cells also enjoy the above effects</Text>
+			<Text>Research on surrounding cells +2[ICON_Production] productivity +2[ICON_Faith] faith +2[ICON_Science]</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_NAME" Language="en_US">
-			<Text>Storage device</Text>
+			<Text>Hagia Sophia Medical Center</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_DESCRIPTION" Language="en_US">
-			<Text>Research on surrounding cells +2[ICON_Food]food +2[ICON_Production]productivity +2[ICON_Science], the improved cells also enjoy the above effects</Text>
+			<Text>Research on surrounding cells +2[ICON_Food]food +2[ICON_Production]productivity +2[ICON_Science]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="en_US">
-			<Text>Manage Meow Room</Text>
+			<Text>West Coast City University</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>The Holy Tree Divine Domain featured area, instead of {LOC_DISTRICT_THEATER_NAME}, is initially unlocked, built for free and will not increase in price, and can be built regardless of population needs. With unique [ICON_Culture] culture and [ICON_Faith] belief adjacent bonus</Text>
+			<Text>The Holy Tree Divine Domain featured area, replacing {LOC_DISTRICT_THEATER_NAME}, initially unlocked, free to build without price increases, and can be built regardless of population needs. With unique [ICON_Culture] culture and [ICON_Faith] belief adjacent bonus</Text>
 		</Replace>
 		<Replace Tag="LOC_WONDER_CULTURE_HALF_DESCRIPTION" Language="en_US">
 			<Text>+{1_num} [ICON_Culture] Culture comes from neighboring artificial wonders</Text>
@@ -64,7 +76,184 @@
 			<Text>Key from</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAOCONG_RECON_DESCRIPTION" Language="en_US">
-			<Text>Early reconnaissance units, after researching {LOC_TECH_THE_WHEEL_NAME}, they can be upgraded to reinstall melee correction [NEWLINE]-will be restrained by all units</Text>
+			<Text>Early reconnaissance units, after researching {LOC_TECH_THE_WHEEL_NAME}, they can be upgraded to early reinstall melee correction [NEWLINE]-will be restrained by all units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_NAME" Language="en_US">
+			<Text>Advanced Key from</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_DESCRIPTION" Language="en_US">
+			<Text>Early reconnaissance units, after researching {LOC_TECH_THE_WHEEL_NAME}, they can be upgraded to early co-tune reinstall melee correction [NEWLINE]-will be restrained by all units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_NAME" Language="en_US">
+			<Text>Massive production mystery</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_DESCRIPTION" Language="en_US">
+			<Text>The special support unit, which performs large-scale imitation based on the keys of the pronounced keys, has long-range combat power, and all formation units have obtained the unit's mobility power [NEWLINE][COLOR:ResMilitaryLabelCS] The unit has extremely high maintenance costs, please build with caution! [ENDCOLOR][NEWLINE] Research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME}, {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can enable the unit [ICON_Streng th]Enhanced combat power [NEWLINE] Research {LOC_TECH_COMPUTERS_NAME} can increase the range and field of vision of the unit [ICON_Range][NEWLINE]+high mobility [NEWLINE]+high long-range combat power [NEWLINE]+able to form formations with military units [NEWLINE]-high maintenance fee [NEWLINE]-will be restrained by all units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_NAME" Language="en_US">
+			<Text>Pioneer co-tuning melee correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_DESCRIPTION" Language="en_US">
+			<Text>Strong melee unit with good lethality [NEWLINE] + good at fighting anti-cavalry units [NEWLINE] - low mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_NAME" Language="en_US">
+			<Text>Early co-tuning melee correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_DESCRIPTION" Language="en_US">
+			<Text>Strong melee unit with good lethality [NEWLINE] + good at fighting anti-cavalry units [NEWLINE] - low mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_NAME" Language="en_US">
+			<Text>Coordinate melee correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_DESCRIPTION" Language="en_US">
+			<Text>Strong melee unit with good lethality [NEWLINE] + good at fighting anti-cavalry units [NEWLINE] - low mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_NAME" Language="en_US">
+			<Text>Tough co-tune melee corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_DESCRIPTION" Language="en_US">
+			<Text>Strong melee unit with good lethality [NEWLINE] + good at fighting anti-cavalry units [NEWLINE] - low mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_NAME" Language="en_US">
+			<Text>Experienced co-tune melee corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_DESCRIPTION" Language="en_US">
+			<Text>Strong melee unit with good lethality [NEWLINE] + good at fighting anti-cavalry units [NEWLINE] - low mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_NAME" Language="en_US">
+			<Text>Glorious co-tune melee corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_DESCRIPTION" Language="en_US">
+			<Text>Strong melee unit with good lethality [NEWLINE] + good at fighting anti-cavalry units [NEWLINE] - low mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_NAME" Language="en_US">
+			<Text>Elite co-tuning melee corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_DESCRIPTION" Language="en_US">
+			<Text>Strong melee unit with good lethality [NEWLINE] + good at fighting anti-cavalry units [NEWLINE] - low mobility</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_NAME" Language="en_US">
+			<Text>Early co-tuning remote corrections</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_DESCRIPTION" Language="en_US">
+			<Text>Strong long-range unit, suitable for long-range killing of enemies [NEWLINE] + long range [NEWLINE] + good at fighting melee units [NEWLINE] - low melee combat power [NEWLINE] - low movement power [NEWLINE] - will be restrained by cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_NAME" Language="en_US">
+			<Text>Co-tune remote correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_DESCRIPTION" Language="en_US">
+			<Text>Strong long-range unit, suitable for long-range killing of enemies [NEWLINE] + long range [NEWLINE] + good at fighting melee units [NEWLINE] - low melee combat power [NEWLINE] - low movement power [NEWLINE] - will be restrained by cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_NAME" Language="en_US">
+			<Text>Experienced co-tuning remote correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_DESCRIPTION" Language="en_US">
+			<Text>Strong long-range unit, suitable for long-range killing of enemies [NEWLINE] + long range [NEWLINE] + good at fighting melee units [NEWLINE] - low melee combat power [NEWLINE] - low movement power [NEWLINE] - will be restrained by cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_NAME" Language="en_US">
+			<Text>Elite co-tuning remote correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_DESCRIPTION" Language="en_US">
+			<Text>Strong long-range unit, suitable for long-range killing of enemies [NEWLINE] + long range [NEWLINE] + good at fighting melee units [NEWLINE] - low melee combat power [NEWLINE] - low movement power [NEWLINE] - will be restrained by cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_NAME" Language="en_US">
+			<Text>Coordinated light weapons correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="en_US">
+			<Text>A powerful siege unit suitable for combating areas and can fight in waters [NEWLINE] Research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can enable the combat effectiveness of the unit [ICON_Strength] Improvement [NEWLINE] Research{LOC_TECH_COMPUTERS_NAME} can increase the range of the unit [ICON_Range][NEWLINE]+Large range[NEWLINE]+High mobility[NEWLINE]+Good area[NEWLINE]+Fighting in waters[NEWLINE]-Low field of vision[NEWLINE]-Low melee combat power[NEWLINE]-Will be restrained by cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_NAME" Language="en_US">
+			<Text>Elite co-tuning light weapon correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="en_US">
+			<Text>Strong siege unit, suitable for combating areas, able to fight in waters [NEWLINE] + long range [NEWLINE] + high mobility [NEWLINE] + good at combating areas [NEWLINE] + able to fight in waters [NEWLINE] - low field of vision [NEWLINE] - low melee combat power [NEWLINE] - will be restrained by cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_NAME" Language="en_US">
+			<Text>Early co-adjusted special operations correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_DESCRIPTION" Language="en_US">
+			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_NAME" Language="en_US">
+			<Text>Coordinated special operations correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_DESCRIPTION" Language="en_US">
+			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_NAME" Language="en_US">
+			<Text>Tough and co-tune special operations correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_DESCRIPTION" Language="en_US">
+			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_NAME" Language="en_US">
+			<Text>Experienced co-tuning special operations correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_DESCRIPTION" Language="en_US">
+			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_NAME" Language="en_US">
+			<Text>Elite co-tuning special combat correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_DESCRIPTION" Language="en_US">
+			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_NAME" Language="en_US">
+			<Text>Coordinated weapon correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="en_US">
+			<Text>Very powerful long-range siege unit with strong melee combat power, which is very suitable for combating areas [NEWLINE] research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can improve the combat power of the unit [ICON_Strength][NE WLINE]Research{LOC_TECH_COMPUTERS_NAME} can increase the range of the unit [ICON_Range][NEWLINE]+Large range[NEWLINE]+High melee combat power[NEWLINE]+Good area[NEWLINE]+Good combat area[NEWLINE]+Good combat unit[NEWLINE]+Can fight on water[NEWLINE]-Low field of vision[NEWLINE]-low mobility[NEWLINE]-will be restrained by anti-cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_NAME" Language="en_US">
+			<Text>Elite co-tuning heavy weapon correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="en_US">
+			<Text>Very powerful long-range siege unit with strong melee combat power, very suitable for dealing with areas [NEWLINE] + long range [NEWLINE] + high melee combat power [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting cavalry units [NEWLINE] + can fight on waters [NEWLINE] - low field of vision [NEWLINE] - low movement power [NEWLINE] - will be restrained by anti-cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_NAME" Language="en_US">
+			<Text>Early co-tuning reinstall melee correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_DESCRIPTION" Language="en_US">
+			<Text>Melee cavalry unit with high movement speed has super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - Will be restrained by anti-cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_NAME" Language="en_US">
+			<Text>Coordinate reinstall melee corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_DESCRIPTION" Language="en_US">
+			<Text>Melee cavalry unit with high movement speed has super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - Will be restrained by anti-cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_NAME" Language="en_US">
+			<Text>Tough co-tune reinstall melee corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_DESCRIPTION" Language="en_US">
+			<Text>Melee cavalry unit with high movement speed has super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - Will be restrained by anti-cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_NAME" Language="en_US">
+			<Text>Experienced co-tune reinstall melee corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_DESCRIPTION" Language="en_US">
+			<Text>Melee cavalry unit with high movement speed has super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - Will be restrained by anti-cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_NAME" Language="en_US">
+			<Text>Elite co-tuning reinstall melee corrector</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_DESCRIPTION" Language="en_US">
+			<Text>Melee cavalry unit with high movement speed has super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - Will be restrained by anti-cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_NAME" Language="en_US">
+			<Text>Coordinate reinstall remote fixer</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_DESCRIPTION" Language="en_US">
+			<Text>Special ranged units, only some of the revisionist leaders can build, can easily withstand attacks from melee units and ranged units. With the upgrade of technology, the range is also farther than that of ordinary long-range correctors [NEWLINE] Research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can enable units [ICON_Strength] to fight Research on the improvement of combat power [NEWLINE]{LOC_TECH_FLIGHT_NAME}, {LOC_TECH_COMPUTERS_NAME} can increase the range of unit [ICON_Range][NEWLINE]+high melee combat power [NEWLINE]+good at fighting melee units [NEWLINE]+good at fighting range units [NEWLINE]-low mobility [NEWLINE]-will be restrained by cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_NAME" Language="en_US">
+			<Text>Elite co-tuning and reinstall remote correction</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_DESCRIPTION" Language="en_US">
+			<Text>Special ranged units, only some revision leaders can build, can easily withstand attacks from melee units and ranged units, and are also suitable for areas. Range is also farther than ordinary elite long-range corrections [NEWLINE]+high melee combat power [NEWLINE]+high range [NEWLINE]+good at fighting melee units [NEWLINE]+good at fighting range units [NEWLINE]+good at fighting areas [NEWLINE]-low mobility [NEWLINE]-will be restrained by cavalry units</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_NAME" Language="en_US">
+			<Text>Refining</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_NAME" Language="en_US">
 			<Text>Pioneer Melee Correction</Text>
@@ -145,34 +334,40 @@
 			<Text>Basic siege unit, suitable for combating areas, able to fight in waters [NEWLINE] + high mobility [NEWLINE] + good at combating areas [NEWLINE] + able to fight in waters [NEWLINE] - low field of vision [NEWLINE] - low melee combat power [NEWLINE] - will be restrained by cavalry units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_NAME" Language="en_US">
-			<Text>Special Operations Correctionist</Text>
+			<Text>Early Special Operations Correctionist</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_NAME" Language="en_US">
-			<Text>Tough Special Operations Correctionist</Text>
+			<Text>Special Operations Correctionist</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_NAME" Language="en_US">
-			<Text>Experienced Special Operations Correctionist</Text>
+			<Text>Tough Special Operations Correctionist</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_NAME" Language="en_US">
-			<Text>Elite Special Operations Correctionist</Text>
+			<Text>Experienced Special Operations Correctionist</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="en_US">
+			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_NAME" Language="en_US">
+			<Text>Elite Special Operations Correctionist</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>Units capable of fighting in waters, with bombing combat power with range 1 [NEWLINE] + high mobility [NEWLINE] + good at fighting areas [NEWLINE] + good at fighting naval units [NEWLINE] + can fight in waters [NEWLINE] - requires port areas to be built [NEWLINE] - not good at fighting anti-cavalry units [NEWLINE] - will be restrained by ranged units and siege units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_NAME" Language="en_US">
 			<Text>Heavy Weapon Correctionist</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>The terrifying long-range siege unit, only some of the leaders of the corrections can be trained, has strong melee combat power, which is very suitable for combating areas [NEWLINE] research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can improve the combat power of the unit [ICON_Strength][N EWLINE]Research {LOC_TECH_FLIGHT_NAME}, {LOC_TECH_COMPUTERS_NAME} can increase the range of the unit [ICON_Range][NEWLINE]+high melee combat power[NEWLINE]+good at combat area[NEWLINE]+good at combat cavalry units[NEWLINE]+can fight on waters[NEWLINE]-low vision range[NEWLINE]-low movement power[NEWLINE]-will be restrained by anti-cavalry units</Text>
+			<Text>The terrifying long-range siege unit, only some of the leaders of the corrections can be trained, has strong melee combat power, which is very suitable for combating areas [NEWLINE] research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can improve the combat power of the unit [ICON_Strength][N EWLINE]Research {LOC_TECH_FLIGHT_NAME}, {LOC_TECH_COMPUTERS_NAME} can increase the range of the unit [ICON_Range][NEWLINE]+high melee combat power[NEWLINE]+good at counter-attack area[NEWLINE]+good at counter-attack unit[NEWLINE]+can fight on water[NEWLINE]-low vision range[NEWLINE]-low movement power[NEWLINE]-will be restrained by anti-cavalry units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_RELOAD_NAME" Language="en_US">
 			<Text>Elite heavy weapon correction</Text>
@@ -184,22 +379,22 @@
 			<Text>Early reinstall melee corrector</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>Melee cavalry units with high movement speed are only some of the corrector leaders who can train. They have super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - Will be restrained by anti-cavalry units</Text>
+			<Text>Melee cavalry units with high movement speed are only some of the leaders of the corrections, and have super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - will be restrained by anti-cavalry units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_RELOAD_NAME" Language="en_US">
 			<Text>Reinstall melee corrector</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>Melee cavalry units with high movement speed are only some of the corrector leaders who can train. They have super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - Will be restrained by anti-cavalry units</Text>
+			<Text>Melee cavalry units with high movement speed are only some of the leaders of the corrections, and have super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - will be restrained by anti-cavalry units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_NAME" Language="en_US">
-			<Text>Experienced reinstall melee corrector</Text>
+			<Text>Tough Reinstall Melee Correctionist</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>Melee cavalry units with high movement speed are only some of the corrector leaders who can train. They have super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - Will be restrained by anti-cavalry units</Text>
+			<Text>Melee cavalry units with high movement speed are only some of the leaders of the corrections, and have super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - will be restrained by anti-cavalry units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_NAME" Language="en_US">
-			<Text>Advanced Reinstall Melee Correctionist</Text>
+			<Text>Experienced reinstall melee corrector</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>Melee cavalry units with high movement speed are only some of the leaders of the corrections, and have super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - will be restrained by anti-cavalry units</Text>
@@ -210,14 +405,11 @@
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>Melee cavalry units with high movement speed are only some of the leaders of the corrections, and have super lethality and can cause full damage to the city walls [NEWLINE] + high melee combat power [NEWLINE] + high movement power [NEWLINE] + good at fighting areas [NEWLINE] - will be restrained by anti-cavalry units</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_REFINING_NAME" Language="en_US">
-			<Text>Refining</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_NAME" Language="en_US">
 			<Text>Reinstall remote fixer</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>Special ranged units, only some of the revisionist leaders can build, can easily withstand attacks from melee units and ranged units.随着科技的升级，射程也比普通的远程修正者更远[NEWLINE]研究{LOC_TECH_STIRRUPS_NAME}、{LOC_TECH_BALLISTICS_NAME}、{LOC_TECH_COMBUSTION_NAME}和{LOC_TECH_SYNTHETIC_MATERIALS_NAME}能使单位[ICON_Strength]战斗力提升[NEWLINE]研究{LOC_TECH_FLIGHT_NAME}、{LOC_TECH_COMPUTERS_NAME}能使单位[ICON_Range]射程提升[NEWLINE]+高近战战斗力[NEWLINE]+擅长对抗近战单位[NEWLINE]+擅长对抗远程单位[NEWLINE]-移动力较低[NEWLINE]-会受骑兵单位克制</Text>
+			<Text>Special ranged units, only some of the revisionist leaders can build, can easily withstand attacks from melee units and ranged units. With the upgrade of technology, the range is also farther than that of ordinary long-range correctors [NEWLINE] Research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can enable units [ICON_Strength] to fight Research on the improvement of combat power [NEWLINE]{LOC_TECH_FLIGHT_NAME}, {LOC_TECH_COMPUTERS_NAME} can increase the range of the unit [ICON_Range][NEWLINE]+high melee combat power [NEWLINE]+good at fighting melee units [NEWLINE]+good at fighting range units [NEWLINE]-low mobility [NEWLINE]-will be restrained by cavalry units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_RELOAD_NAME" Language="en_US">
 			<Text>Elite reinstall remote fixer</Text>
@@ -586,7 +778,7 @@
 			<Text>Unit +3[ICON_Strength] combat power, +10[ICON_Strength] combat power when attacking ranged units</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_NAME" Language="en_US">
-			<Text>Precision shooting training</Text>
+			<Text>Precise shooting training</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_DESCRIPTION" Language="en_US">
 			<Text>Unit +5[ICON_Strength] combat power, +10[ICON_Strength] combat power when attacking anti-cavalry units</Text>
@@ -610,13 +802,19 @@
 			<Text>The Ring of Reason</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="en_US">
-			<Text>Special support units, they have combat power, and all formation units have obtained the unit's mobility power [NEWLINE][COLOR:ResMilitaryLabelCS] The unit has extremely high maintenance costs, please build with caution! [ENDCOLOR][NEWLINE] Research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME}, {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can improve the combat effectiveness of the unit [ICON_Strength][NE WLINE] Research {LOC_TECH_FLIGHT_NAME}, {LOC_TECH_COMPUTERS_NAME} can increase the range and field of vision of the unit [ICON_Range][NEWLINE]+high mobility [NEWLINE]+high long-range combat power [NEWLINE]+able formation with military units [NEWLINE]-high maintenance fee [NEWLINE]-will be restrained by all units</Text>
+			<Text>The special support unit, based on Heimdal's key, has its own combat power, and all formation units have obtained the unit's mobility [NEWLINE][COLOR:ResMilitaryLabelCS] The maintenance fee of this unit is extremely high, please build it with caution! [ENDCOLOR][NEWLINE] Research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME}, {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can improve the combat effectiveness of the unit [ICON_Strength][NE WLINE] Research {LOC_TECH_FLIGHT_NAME}, {LOC_TECH_COMPUTERS_NAME} can increase the range and field of vision of the unit [ICON_Range][NEWLINE]+high mobility [NEWLINE]+high long-range combat power [NEWLINE]+able formation with military units [NEWLINE]-high maintenance fee [NEWLINE]-will be restrained by all units</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="en_US">
 			<Text>Hela</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_DESCRIPTION" Language="en_US">
 			<Text>Girls who don’t like to communicate with others always look at the night sky quietly alone, as if they have had a dark childhood experience.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_NAME" Language="en_US">
+			<Text>Lin Yu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_DESCRIPTION" Language="en_US">
+			<Text>Zhiming's disciple in Sifang Academy is also her assistant. He is smart and studious, and has great achievements in institutional skills. Before awakening, I depended on my sister Yingzhao for life, witnessed the hardships my sister experienced to protect herself, and always wanted to prove herself and reduce the burden on her sister.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_NAME" Language="en_US">
 			<Text>Mae Onibo Tengu</Text>
@@ -628,6 +826,9 @@
 			<Text>Osiris</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_DESCRIPTION" Language="en_US">
+			<Text>The most popular revisionist in the headquarters is affectionately called &quot;Little Osiris&quot;. After discovering the troubles of your companions, you will do your best to give them help and always put your companions' affairs first.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_AOXILISI_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>The most popular revisionist in the headquarters is affectionately called &quot;Little Osiris&quot;. After discovering the troubles of your companions, you will do your best to give them help and always put your companions' affairs first.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_NAME" Language="en_US">
@@ -799,7 +1000,7 @@
 			<Text>Fight against Light Cavalry Unit-20[ICON_Strength] Combat Power</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="en_US">
-			<Text>Fight against ranged units-20[ICON_Strength] combat power</Text>
+			<Text>Fight against ranged units-20[ICON_Strength] Combat Power</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="en_US">
 			<Text>Fight against heavy cavalry units +35[ICON_Strength] combat power</Text>
@@ -898,7 +1099,7 @@
 			<Text>Special improvement facilities, only some revision leaders can build, +2[ICON_Production] productivity, +1 charm for surrounding cells, the improvement facilities can obtain an additional 100% [ICON_Gold] gold coin output based on cell charm value. After researching {LOC_TECH_INDUSTRIALIZATION_NAME}, the improvement facilities can obtain 25% [ICON_Tourism] tourism performance based on gold coin output, and can only be built on cells with forests or rainforests.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_NAME" Language="en_US">
-			<Text>Polar Science Expedition Workstation</Text>
+			<Text>Polar Science and Technology Workstation</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="en_US">
 			<Text>Special improvement facilities, only some revision leaders can build, {LOC_TECH_MINING_NAME} unlock, +1[ICON_Science] scientific research, different adjacent landforms and improvement facilities can obtain additional output, and after researching related technologies, you can obtain more [ICON_Science] scientific research, [ICON_Food] food, [ICON_Gold] gold coins and [ICON_Production] productivity, can only be built on snow hills.</Text>
@@ -937,7 +1138,7 @@
 			<Text>Peak Park</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUNTAINPARK_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>The special improvement facilities can only be built by the leaders of the Amazing Divine Realm. +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture]all output +1[ICON_Amenities] livability, and after researching related technologies, you will get more output. For the surrounding cells +1[ICON_Food]food +1[ICON_Production]productivity +1[ICON_Gold]gold coins +1[ICON_Faith]faith, you can only build on mountains. The unit can consume 2 points [ICON_Movement] moving force enters from one point and then walks out from another point.</Text>
+			<Text>The special improvement facilities can only be built by the leaders of the Amazing Divine Realm. +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture]all output +1[ICON_Amenities] livability, and after researching related technologies, you will get more output. For the surrounding cells +1[ICON_Food]food +1[ICON_Production]productivity +1[ICON_Gold]gold coins +1[ICON_Faith]faith, you can only build on mountains. The unit can consume 2 points [ICON_Movement] moving force enters from one point and then walks out from another point</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HYPESPACENOTE_AETHERGAZER_NAME" Language="en_US">
 			<Text>Hyperspace node</Text>
@@ -955,7 +1156,13 @@
 			<Text>Trade node</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MAOYIJIEDIAN_DESCRIPTION" Language="en_US">
-			<Text>Special improvement facilities, only some revision leaders can build them, +5[ICON_Gold] gold coins, and more output will be obtained after researching related technologies. Provide +1[ICON_Gold] gold coins +1[ICON_Production] productivity for the city's international and domestic trade routes, and other civilized trade routes connected to the city provide +1[ICON_Gold] gold coins +1[ICON_Production] productivity to the city, and provide +1[ICON_Gold] gold coins +1[ICON_Production] productivity for each [ICON_TradeRoute] trade route connected to the city, and can only be built on flat and hilly cells without bonus resources.</Text>
+			<Text>Special improvement facilities can only be built by some revisionists. +5[ICON_Gold] gold coins, and more output will be obtained after researching related technologies. Provide +1[ICON_Gold] gold coins +1[ICON_Production] productivity for the city's international and domestic trade routes, and other civilized trade routes connected to the city provide +1[ICON_Gold] gold coins +1[ICON_Production] productivity to the city, and provide +1[ICON_Gold] gold coins +1[ICON_Production] productivity for each [ICON_TradeRoute] trade route connected to the city, and can only be built on flat and hilly cells without bonus resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_NAME" Language="en_US">
+			<Text>Ecological mines</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_DESCRIPTION" Language="en_US">
+			<Text>Special improvement facilities, only some revision leaders can build them, +1[ICON_Food]food +1[ICON_Production] productivity, and more output will be obtained after researching related technologies. For surrounding cells +1 charm, the improved facilities can obtain an additional 100% [ICON_Gold] gold coin output based on cell charm value. After researching {LOC_TECH_INDUSTRIALIZATION_NAME}, the improved facilities can obtain 25% [ICON_Tourism] tourism performance based on gold coin output.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="en_US">
 			<Text>Amagaki Shinto area</Text>
@@ -973,13 +1180,13 @@
 			<Text>Tianlu Trade</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>The Tianyuan Divine Realm featured area, replaces {LOC_DISTRICT_COMMERCIAL_HUB_NAME}, initially unlocked, the cost is lower and the price will not increase, and can be built regardless of population needs. It has a unique [ICON_Gold] gold coin adjacent bonus, and after completion, it receives 2 [ICON_TradeRoute] trade routes and 2 merchants. The city you created by you, Tianlu Trade [ICON_Gold] gold coin adjacent bonus also provides [ICON_Science] technology value</Text>
+			<Text>The Tianyuan Divine Realm featured area replaces {LOC_DISTRICT_COMMERCIAL_HUB_NAME}, which is initially unlocked, with lower cost and no price increase, and can be built regardless of population needs. It has a unique [ICON_Gold] gold coin adjacent bonus, and after completion, it receives 2 [ICON_TradeRoute] trade routes and 2 merchants. The city you created by you, Tianlu Trade [ICON_Gold] gold coin adjacent bonus also provides [ICON_Science] technology value</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_NAME" Language="en_US">
 			<Text>Sifangyuan</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>Tianyuan Divine Domain featured area, replace {LOC_DISTRICT_HOLY_SITE_NAME}, initially unlocked, free to build without price increases, and can be built regardless of population needs. It has a unique [ICON_Food] food adjacency bonus, which also provides [ICON_Faith] faith. The city you created by you, the Sifangyuan [ICON_Food] food adjacency bonus also provides [ICON_Culture] cultural value</Text>
+			<Text>The Tianyuan Divine Realm featured area replaces {LOC_DISTRICT_HOLY_SITE_NAME}, initially unlocked, free to build without price increases, and can be built regardless of population needs. It has a unique [ICON_Food] food adjacency bonus, which also provides [ICON_Faith] faith. The city you created by you, the Sifangyuan [ICON_Food] food adjacency bonus also provides [ICON_Culture] cultural value</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="en_US">
 			<Text>+{1_num} [ICON_Food] Food comes from adjacent areas</Text>
@@ -1093,16 +1300,16 @@
 			<Text>The agent of Sifang Hospital South Island, a doctor, is well aware of the sufferings of the people. She set up the &quot;Chichi Hall&quot; in Nanjiaotong and opened many branches to solve diseases. Ling Guang often sits in the clinic in person to treat patients who come to seek medical treatment and listen to their trivialities in life.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="en_US">
-			<Text>Heart icon room</Text>
+			<Text>The Maze of Heart</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="en_US">
-			<Text>Nile Divine Domain featured area, replace {LOC_DISTRICT_HOLY_SITE_NAME}, initial unlock, lower cost and no price increase, can be built regardless of population needs, +3[ICON_Housing] housing, without any adjacent bonus, after completion, every [ICON_Citizen] citizen in the city +2[ICON_Faith] faith</Text>
+			<Text>Nile Divine Domain featured area, replacing {LOC_DISTRICT_HOLY_SITE_NAME}, initial unlock, lower cost and no price increase, can be built regardless of population needs, +3[ICON_Housing] housing, without any adjacent bonus, after completion, every [ICON_Citizen] citizen in the city +2[ICON_Faith] faith</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="en_US">
 			<Text>Neuhansa Heavy Industry</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>Nile Divine Domain featured area, replace {LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}, initial unlock, free construction without price increase, can be built regardless of population needs, +3[ICON_Housing] housing, without any adjacent bonus, after completion, every [ICON_Citizen] citizen in the city +2[ICON_Production] productivity</Text>
+			<Text>Nile Divine Domain featured area, replacing {LOC_DISTRICT_INDUSTRIAL_ZONE_NAME}, initial unlock, free construction without price increase, can be built regardless of population needs, +3[ICON_Housing] housing, without any adjacent bonus, after completion, every [ICON_Citizen] citizen in the city +2[ICON_Production] productivity</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="en_US">
 			<Text>Technology Plantation</Text>
@@ -1123,7 +1330,7 @@
 			<Text>Divine Realm-Nilo</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="en_US">
-			<Text>Desert plains and desert hills +3[ICON_Food]Food +3[ICON_Production]Performance +1[ICON_Science]Technology value, Grassland flood plain +1[ICON_Food]Food +3[ICON_Production]Performance +3 Charm, Plain flood plain +2[ICON_Food]Food +2[ICON_Production]Performance Productivity +3 Charm, Desert Flood Plain +2[ICON_Gold] Gold Coins, Desert Flood Plain, Swamp and Oasis +3 Charm, Forest and Rainforest -3 Charm, allow farmland to be built on desert plains, all cells of the city you create +1[ICON_Science] Tech value, study {LOC_TECH_SCIENTIFIC_THEORY_NAME} +1[ICON_Science] Tech value</Text>
+			<Text>Desert plains and desert hills +3[ICON_Food]food +3[ICON_Production]productivity +1[ICON_Science]tech value, grassland flood plain +1[ICON_Food]food +3[ICON_Production]productivity, plain flood plain +2[ICON_Food]food +2[ICON_Production]productivity, desert flood plain +2[ICON_Production]productivity _Gold] Gold coins, grassland flood plains, plain flood plains, desert flood plains, swamps and oasis are the surrounding cells within the territory +3 charms, forests and rainforests are the surrounding cells within the territory -3 charms, allowing farmland to be built on desert plains, all cells not all cities you create +1[ICON_Science] technology value, study {LOC_TECH_SCIENTIFIC_THEORY_NAME} +1[ICON_Science] technology value</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BASITE_NAME" Language="en_US">
 			<Text>Basther</Text>
@@ -1156,13 +1363,13 @@
 			<Text>Muse Society</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_TYPEONE_DESCRIPTION" Language="en_US">
-			<Text>Aoshan Shenyu special area, replacing {LOC_DISTRICT_THEATER_NAME}, initially unlocked, with lower cost and no price increase, can be built regardless of population needs, with a unique adjacent bonus, and it is produced for surrounding mountain cells +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture]</Text>
+			<Text>Aoshan Shenyu special area, replacing {LOC_DISTRICT_THEATER_NAME}, initially unlocked, with lower cost and no price increase, can be built regardless of population needs, with a unique adjacent bonus, and it will be produced for surrounding mountain cells +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_NAME" Language="en_US">
 			<Text>Thousand Star Academy</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>Aoshan Shenyu special area, replaces {LOC_DISTRICT_CAMPUS_NAME}, initial unlock, free to build without price increase, can be built regardless of population needs, has a unique adjacent bonus, and it is produced for surrounding mountain cells +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture]</Text>
+			<Text>Aoshan Shenyu special area, replacing {LOC_DISTRICT_CAMPUS_NAME}, initially unlocked, free to build without price increase, can be built regardless of population needs, has a unique adjacent bonus, and it is produced for surrounding mountain cells +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ENILIYI_NAME" Language="en_US">
 			<Text>Oniri</Text>
@@ -1195,7 +1402,7 @@
 			<Text>In the hyperspace experiment, Weier Danti learned about her secrets and past, strengthened her belief in protecting herself, and mastered the new posture she showed.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YINGZHAO_DESCRIPTION" Language="en_US">
-			<Text>The Human Resources Minister of Tianlu Trade is a dull person but a sharp mind and advocates efficiency in everything. Before awakening, I depended on my sister Lin Yu for life and experienced many hardships. In private, I like to travel around alone and accumulate many non-special knowledge of unknown purpose.</Text>
+			<Text>The Human Resources Minister of Tianlu Trade is a dull person but a sharp mind and advocates efficiency in everything. Before awakening, I depended on my sister Lin Yu for life and experienced many hardships. In private, I like to travel around alone and accumulate many non-disciplined knowledge of unknown uses.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_S_HELA_NAME" Language="en_US">
 			<Text>Hera</Text>
@@ -1282,7 +1489,7 @@
 			<Text>Original area landmarks</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>Featured areas, initial unlock, free to build without price increases, can be built regardless of population needs, and can only build one per player. After civilization enters {LOC_ERA_CLASSICAL_NAME}, {LOC_ERA_RENAISSANCE_NAME} and {LOC_ERA_MODERN_NAME}, new landmark buildings will be unlocked.</Text>
+			<Text>Featured areas, initially unlocked, built for free and will not increase prices. They can be built regardless of population needs. They cannot be built near the city center. Each player can only build one. After civilization enters {LOC_ERA_CLASSICAL_NAME}, {LOC_ERA_RENAISSANCE_NAME} and {LOC_ERA_MODERN_NAME}, new landmark buildings will be unlocked.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AIYINSUOFEISHENGTAIYUAN_AETHERGAZER_NAME" Language="en_US">
 			<Text>Ain Sophie Ecological Park</Text>
@@ -1300,7 +1507,7 @@
 			<Text>Deep Space Eye Logistics Department</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHENKONGZHIYANHOUQINBU_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>Holy Tree God Realm{LOC_ERA_MODERN_NAME} landmark building, unlocked after civilization entry{LOC_ERA_MODERN_NAME}, builder +4 construction times, purchase Trail Blazer [ICON_Gold] cost -95%, cell with strategic resources +6 [ICON_Production] productivity, horse, iron and saltpeter +2 [ICON_Science] technology value +2 [ICON_Culture] culture, coal, oil, aluminum and uranium +4 [ICON_Food] food</Text>
+			<Text>Holy Tree God Realm{LOC_ERA_MODERN_NAME} landmark building, unlocked after civilization entry{LOC_ERA_MODERN_NAME}, builder +4 construction times, purchase pioneer fee -95%, cell with strategic resources +6[ICON_Production] productivity, horse, iron and saltpeter +2[ICON_Science] technology value +2[ICON_Culture] culture, coal, oil, aluminum and uranium +4[ICON_Food] food</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MUYUANQU_AETHERGAZER_NAME" Language="en_US">
 			<Text>Ain Sophie Cemetery</Text>
@@ -1330,7 +1537,7 @@
 			<Text>Yokur Lighthouse</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YUEKUERDENGTA_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>Sikati{LOC_ERA_CLASSICAL_NAME} landmark building, unlocked after civilization enters {LOC_ERA_CLASSICAL_NAME}, after completion, water transport units +4[ICON_Movement] mobility force, all units ignore the terrain and the [ICON_Movement] movement penalty across rivers, and immediately obtain shipbuilding and cartography. Each building in the college area +1[ICON_TradeRoute] trade capacity and each building can be completed and one businessman can be obtained. The cost of purchasing the college area building [ICON_Gold] is -100%, and the cost of this landmark is reduced by half.</Text>
+			<Text>Sikati{LOC_ERA_CLASSICAL_NAME} landmark building, unlocked after civilization enters {LOC_ERA_CLASSICAL_NAME}, after completion, water transport units +4[ICON_Movement] mobility force, all units ignore the terrain and the [ICON_Movement] movement penalty across rivers, and immediately obtain shipbuilding and cartography. Each building in the college area +1[ICON_TradeRoute] trade capacity and each building can be completed and one businessman can be obtained. The cost of purchasing the college area is -100%, and the cost of this landmark is reduced by half.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TALIELANGDIANWANCHENG_AETHERGAZER_NAME" Language="en_US">
 			<Text>Talleyrand Video Game City</Text>
@@ -1342,7 +1549,7 @@
 			<Text>Mimiel data matrix</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHUJUJUZHENG_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>Heimdal {LOC_ERA_CLASSICAL_NAME} landmark building, unlocked after civilization entry {LOC_ERA_CLASSICAL_NAME}, and after completion, the cost of purchasing the Mimier system regional building [ICON_Gold] is -100%. The computing center is the surrounding plot +2[ICON_Culture] cultural value, and the storage device is the surrounding plot +2[ICON_Culture] cultural value. After winning the battle, you will get a [ICON_Culture] culture value equivalent to the combat power of the killed unit [ICON_Strength] (at standard speed)</Text>
+			<Text>Heimdal {LOC_ERA_CLASSICAL_NAME} landmark building is unlocked after civilization entry {LOC_ERA_CLASSICAL_NAME}. After completion, the cost of purchasing the Meland area is -100%. The &quot;Moon Country&quot; bookstore is the surrounding plot +2[ICON_Culture] cultural value, and the Hagia Sophia Medical Center is the surrounding plot +2[ICON_Culture] cultural value. After winning the battle, you will get a [ICON_Culture] culture value equivalent to the combat power of the killed unit [ICON_Strength] (at standard speed)</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBAITANG_AETHERGAZER_NAME" Language="en_US">
 			<Text>Ain Sophie Chapel</Text>
@@ -1374,6 +1581,12 @@
 		<Replace Tag="LOC_BUILDING_MINGDUSHENDIAN_AETHERGAZER_DESCRIPTION" Language="en_US">
 			<Text>Osiris{LOC_ERA_CLASSICAL_NAME} landmark building, unlocked after civilization enters {LOC_ERA_CLASSICAL_NAME}, after completion, all cities +15% [ICON_Science] technology value. After winning the battle, they will obtain the [ICON_Science] technology value equivalent to the combat power of the killed unit [ICON_Strength] (under standard speed)</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_NAME" Language="en_US">
+			<Text>Statue of the Death Sign</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_DESCRIPTION" Language="en_US">
+			<Text>Osiris (Soul Feather) {LOC_ERA_CLASSICAL_NAME} landmark building, unlocked when civilization enters {LOC_ERA_CLASSICAL_NAME}. After completion, all units can restore all health points by destroying enemy units without having to station at the beginning of the turn. Army can be formed earlier (nationalist municipalities are required) and the city does not need a military academy, so the army can be directly trained. Legion and army training costs are reduced by 50%. After winning the battle, you will get a [ICON_Culture] culture value equivalent to the combat power of the killed unit [ICON_Strength] (at standard speed)</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_GOUWUGUANGCHANG_AETHERGAZER_NAME" Language="en_US">
 			<Text>Talleyrand Shopping Plaza</Text>
 		</Replace>
@@ -1384,13 +1597,13 @@
 			<Text>Colgey temporary command</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_KEERGAILINSHIZHIHUIBU_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>The landmark building of Totte {LOC_ERA_CLASSICAL_NAME} is unlocked after the civilization enters {LOC_ERA_CLASSICAL_NAME}. After completion, it will obtain 3 spies (and increase 3 spies capacity), and the effect of inciting riots and framing the Governor's spy operations will be increased by 100 levels. If a spy is arrested while performing a mission, there is a high probability of escaping (+100 level). The Ring of Reason +4[ICON_Movement] and the purchase of [ICON_Gold] costs -100%. Heavy Weapon Correctionist and Light Weapon Correctionist +10[ICON_Strength] Combat Power +1[ICON_Range] Range and range attack land units +17[ICON_Strength] Combat Power, Special Operations Correctionist +10[ICON_Strength] Combat Power and range attack land units +17[ICON_Strength] Combat Power</Text>
+			<Text>The landmark building of Totte {LOC_ERA_CLASSICAL_NAME} is unlocked after the civilization enters {LOC_ERA_CLASSICAL_NAME}. After completion, it will obtain 3 spies (and increase 3 spies capacity), and the effect of inciting riots and framing the Governor's spy operations will be increased by 100 levels. If a spy is arrested while performing a mission, there is a high probability of escaping (+100 level). The cycle of the logic +4[ICON_Movement] mobile power and purchase cost -100%. Heavy Weapon Correctionist and Light Weapon Correctionist +10[ICON_Strength] Combat Power +1[ICON_Range] Range and range attack land units +17[ICON_Strength] Combat Power, Special Operations Correctionist +10[ICON_Strength] Combat Power and range attack land units +17[ICON_Strength] Combat Power</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_OUMOFEISIZIRANGONGYUAN_AETHERGAZER_NAME" Language="en_US">
 			<Text>Omofes Nature Park</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_OUMOFEISIZIRANGONGYUAN_AETHERGAZER_DESCRIPTION" Language="en_US">
-			<Text>The landmark building of Aoshan Shenyu{LOC_ERA_CLASSICAL_NAME} is unlocked after the civilization enters {LOC_ERA_CLASSICAL_NAME}. After completion, the adjacent hilly cells +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture] are all produced (only applied once). All cities +100% [ICON_Faith] faith</Text>
+			<Text>The landmark building of Aoshan Shenyu{LOC_ERA_CLASSICAL_NAME} is unlocked after the civilization enters {LOC_ERA_CLASSICAL_NAME}. After completion, the adjacent hilly cells +1[ICON_Food][ICON_Production][ICON_Gold][ICON_Faith][ICON_Science][ICON_Culture] are all produced (only applied once). All cities +100%[ICON_Faith] Faith</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_OUMOFEISITIANWENTAI_AETHERGAZER_NAME" Language="en_US">
 			<Text>Omofes Observatory</Text>
@@ -1433,6 +1646,12 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_DESCRIPTION" Language="en_US">
 			<Text>Tianyuan Divine Realm{LOC_ERA_MODERN_NAME} landmark building, unlocked after civilization entry {LOC_ERA_MODERN_NAME}. After completion, each political system will receive 2 additional universal slots. [ICON_GreatWork_Writing] works, all [ICON_GreatWork_Sculpture][ICON_GreatWork_Portrait][ICON_GreatWork_Landscape][ICON_GreatWork_Religious] type artwork, [ICON_GreatWork_Religious] music provides triple [ICON_Tourism] tourism performance</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_NAME" Language="en_US">
+			<Text>Tsutong Port Lighthouse</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_DESCRIPTION" Language="en_US">
+			<Text>Linyu{LOC_ERA_CLASSICAL_NAME} landmark building, unlocked after civilization enters {LOC_ERA_CLASSICAL_NAME}, after completion, all cities +5[ICON_Amenities] livability, water cells +2[ICON_Food] food +2[ICON_Production] productivity. For every cell you pass through your [ICON_TradeRoute] trade route, it provides [ICON_Gold] gold coins +2 [ICON_Science] technology value +2 [ICON_Production] productivity +2, Sifangyuan +2 [ICON_TradeRoute] trade capacity, the merchant purchase fee is -50%</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DIZHIKANTANYINGDI_AETHERGAZER_NAME" Language="en_US">
 			<Text>Xuheng Geological Exploration Camp</Text>
@@ -1543,7 +1762,7 @@
 			<Text>Tungsten core bullet</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_WUXINDAN_DESCRIPTION" Language="en_US">
-			<Text>Ain Sophie College's special project, after the project is completed, the remote corrector and the reinstalled remote corrector +10 [ICON_Strength] combat power can only be completed once</Text>
+			<Text>Ain Sophie College's special project, after the project is completed, the remote corrector and the reinstalled remote corrector +10[ICON_Strength] combat power can only be completed once</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_LIZIPAO_NAME" Language="en_US">
 			<Text>Ion cannon</Text>

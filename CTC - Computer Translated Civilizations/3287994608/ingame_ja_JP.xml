@@ -1,211 +1,424 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Mon Jul 15 13:46:30 2024-->
+<!-- Mon Jun  9 14:26:38 2025-->
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>ライトトラック</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AERODROME_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>注目のエリア、{loc_district_aerodrome_name}を置き換えて、コストが低くなります。完了後、市には追加の +5％[icon_production]生産性があります。完了後、市には追加の +5％[icon_production]生産性があります。完了後、市には追加の +5％[icon_production]生産性があります。完了後、市には追加の +5％[icon_production]生産性があります。</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ja_JP">
-			<Text>聖樹の領域</Text>
+			<Text>聖なる木の神の領域</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_NAME" Language="ja_JP">
-			<Text>神域・聖樹</Text>
+			<Text>神の領域とホリの木</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ja_JP">
-			<Text>+1[ICON_Production]生産 +2[ICON_Food]都市タイル内の森林の食料、+2[ICON_Production]生産 +1[ICON_Food]熱帯雨林の食料、+3領土タイル内、内蔵保護区内の森林および熱帯雨林のカリスマ +建物の [ICON_Production] 生産性 300%</Text>
+			<Text>都市細胞の森林の場合+2 [icon_production]生産性+2 [icon_food]食品、熱帯雨林+3 [icon_production]生産性+1 [icon_food]食品、森林、熱帯雨林は領土+3魅力の周囲の細胞です</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_DESCRIPTION" Language="ja_JP">
-			<Text>聖樹の領域</Text>
+			<Text>聖なる木の神の領域</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREEN_ADJECTIVE" Language="ja_JP">
-			<Text>聖樹の王国</Text>
+			<Text>聖なる木の神の領域</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_NAME" Language="ja_JP">
-			<Text>コレクター組織</Text>
+			<Text>改革団体</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>[COLOR:ResMilitaryLabelCS]すべての軍事ユニットを構築することはできません[ENDCOLOR]が、ビルダー、スパイ、サポートユニットは[ICON_Faith]信仰でいつでも購入できます。</Text>
+			<Text>[Color：ResmilitaryLabelcs]すべての軍事部隊[エンドカラー]を構築することはできませんが、修正主義者を構築することができ、[icon_faith]信仰を常に使用してビルダー、スパイ、サポートユニットを購入することができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_NAME" Language="ja_JP">
+			<Text>補正を調整します</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AETHERGAZER_FIXER_UNITS_T_DESCRIPTION" Language="ja_JP">
+			<Text>共調整修飾子はすべての修飾子を置き換え、その戦闘力は高くなります。 [icon_movement]の動きのパワーがターンあたり+1の追加攻撃を許可する場合、攻撃後に移動することができ、怪我後に戦闘力のデバフに苦しむことはありません。 [色：ResmilitaryLabelcs]、しかしそれは非常に高価です[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>ミーミルシステム</Text>
+			<Text>メランデ</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PRESERVE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_DISTRICT_PRESERVE_NAME}に代わるHoly Tree Domainの特徴的なエリアは、最初はロック解除されており、コストが低く、価格が上昇することはなく、人口需要に関係なく建設できます。完了後、周囲のセルは +2[ICON_Food]食料 +2[ICON_Production]生産性 +2[ICON_Gold]ゴールド コインを受け取ります[NEWLINE]{LOC_BUILDING_GROVE_NAME}完了後、周囲のセルは +2[ICON_Production]生産 +2[ICON_Faith] ]信仰 +2[ICON_Science]科学研究[NEWLINE]{LOC_BUILDING_SANCTUARY_NAME} が建設されると、周囲のセル +2[ICON_Food]食料 +2[ICON_Production]生産性 +2[ICON_Science]科学研究[NEWLINE]改良されたセルも楽しめます上記の効果。</Text>
+			<Text>聖なる木の神聖なドメインの特徴領域は、最初はロック解除され、コストが低く、価格の上昇はなく、人口のニーズに関係なく構築できます。完了後、周囲のセルは+2 [icon_food] food +2 [icon_production]生産性+2 [icon_gold]ゴールドコインになります</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_NAME" Language="ja_JP">
+			<Text>「ムーンカントリー」書店</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUNSUANZHONGXIN_DESCRIPTION" Language="ja_JP">
+			<Text>周囲の細胞+2の研究+2 [icon_production]生産性+2 [icon_faith]信仰+2 [icon_science]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_NAME" Language="ja_JP">
+			<Text>ハギアソフィアメディカルセンター</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CUNCHUSHEBEI_DESCRIPTION" Language="ja_JP">
+			<Text>周囲の細胞+2 [ICON_FOOD] FOOD +2 [ICON_Production]生産性+2 [ICON_SCIENCE]の研究</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>猫部屋の管理</Text>
+			<Text>西海岸シティ大学</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_DISTRICT_THEATER_NAME}に代わるホーリーツリードメインの特徴的なエリアは、最初はロック解除されており、無料で建設でき、価格は上昇せず、人口需要に関係なく建設できます。独自の [ICON_Culture] 文化と [ICON_Faith] 隣接ボーナスがあります</Text>
+			<Text>Holy Tree Divine Domainは、{loc_district_theater_name}に取って代わり、最初はロック解除され、価格上昇なしで自由に構築でき、人口のニーズに関係なく構築できます。ユニークな[icon_culture]文化と[icon_faith]信念隣接ボーナスを使用します</Text>
 		</Replace>
 		<Replace Tag="LOC_WONDER_CULTURE_HALF_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Culture] 文化は隣接する人工の驚異から生まれる</Text>
+			<Text>+{1_NUM} [ICON_CULTURE]文化は、隣接する人工不思議から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_WONDER_FAITH_HALF_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Faith] 隣接する人工の驚異からの信仰</Text>
+			<Text>+{1_num} [icon_faith]信仰は、近隣の人工的な不思議から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CULTURE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Culture] 文化は隣接する地域から来ています</Text>
+			<Text>+{1_num} [icon_culture]文化は隣接するエリアから来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CULTURE_FAITH_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Faith] 信仰は隣接する地域から生まれます</Text>
+			<Text>+{1_num} [icon_faith]信仰は隣接する地域から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_NAME" Language="ja_JP">
+			<Text>からキー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_DESCRIPTION" Language="ja_JP">
+			<Text>初期の偵察ユニット{loc_tech_the_wheel_name}を調査した後、それらをアップグレードして近接補正[Newline]  - すべてのユニットによって抑制される可能性があります</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_NAME" Language="ja_JP">
+			<Text>からの高度なキー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAOCONG_RECON_T_DESCRIPTION" Language="ja_JP">
+			<Text>早期偵察ユニット{loc_tech_the_wheel_name}を調査した後、それらは早期の再インストール近接補正[newline]にアップグレードできます - すべてのユニットによって抑制されます</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_NAME" Language="ja_JP">
+			<Text>大規模なプロダクションミステリー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TONGYONGXUANJI_DESCRIPTION" Language="ja_JP">
+			<Text>発音されたキーのキーに基づいて大規模な模倣を実行する特別なサポートユニットは、長距離戦闘力を持ち、すべてのフォーメーションユニットがユニットのモビリティパワーを取得しました[newline] [color：resmilitaryLabelcs]ユニットは非常に高いメンテナンスコストを持っています。 [endcolor] [newline] Research {loc_tech_stirrups_name}、{loc_tech_ballistics_name}、{loc_tech_combustion_name}、{loc_tech_synthetic_materials_name}は、ユニットを有効にすることができます。 {loc_tech_computers_name}は、ユニットの視力の範囲とフィールドを増やすことができます[icon_range] [newline]+高モビリティ[Newline]+High Long-Range Combat Power [Newline]+軍事ユニット[Newline] -Highメンテナンス料[Newline]  - すべての統一によって拘束される範囲を形成できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_NAME" Language="ja_JP">
+			<Text>パイオニアの共同調整近接補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_T_DESCRIPTION" Language="ja_JP">
+			<Text>良好な致死性を持つ強力な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - 低機動性</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_NAME" Language="ja_JP">
+			<Text>初期の共同順方向の近接補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_T_DESCRIPTION" Language="ja_JP">
+			<Text>良好な致死性を持つ強力な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - 低機動性</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_NAME" Language="ja_JP">
+			<Text>近接補正を調整します</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_T_DESCRIPTION" Language="ja_JP">
+			<Text>良好な致死性を持つ強力な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - 低機動性</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_NAME" Language="ja_JP">
+			<Text>タフな共同調整近接補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_T_DESCRIPTION" Language="ja_JP">
+			<Text>良好な致死性を持つ強力な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - 低機動性</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_NAME" Language="ja_JP">
+			<Text>経験豊富な共同チューン近接矯正器</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_T_DESCRIPTION" Language="ja_JP">
+			<Text>良好な致死性を持つ強力な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - 低機動性</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_NAME" Language="ja_JP">
+			<Text>輝かしい共同調整近接矯正器</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_T_DESCRIPTION" Language="ja_JP">
+			<Text>良好な致死性を持つ強力な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - 低機動性</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_NAME" Language="ja_JP">
+			<Text>エリートの共同調整近接矯正器</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_T_DESCRIPTION" Language="ja_JP">
+			<Text>良好な致死性を持つ強力な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - 低機動性</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_NAME" Language="ja_JP">
+			<Text>リモート補正の初期の共同調整</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_T_DESCRIPTION" Language="ja_JP">
+			<Text>敵の長距離殺害に適した強力な長距離ユニット[Newline] + Long Range [Newline] + Fighting Melee Units [Newline]  - 低い近接戦闘力[Newline]  - 低動きの力[Newline]  - 騎兵ユニットによって抑制されます</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_NAME" Language="ja_JP">
+			<Text>リモート修正を共同調整します</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_T_DESCRIPTION" Language="ja_JP">
+			<Text>敵の長距離殺害に適した強力な長距離ユニット[Newline] + Long Range [Newline] + Fighting Melee Units [Newline]  - 低い近接戦闘力[Newline]  - 低動きの力[Newline]  - 騎兵ユニットによって抑制されます</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_NAME" Language="ja_JP">
+			<Text>経験豊富な共同調整リモート補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_T_DESCRIPTION" Language="ja_JP">
+			<Text>敵の長距離殺害に適した強力な長距離ユニット[Newline] + Long Range [Newline] + Fighting Melee Units [Newline]  - 低い近接戦闘力[Newline]  - 低動きの力[Newline]  - 騎兵ユニットによって抑制されます</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_NAME" Language="ja_JP">
+			<Text>エリートの共同調整リモート補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_T_DESCRIPTION" Language="ja_JP">
+			<Text>敵の長距離殺害に適した強力な長距離ユニット[Newline] + Long Range [Newline] + Fighting Melee Units [Newline]  - 低い近接戦闘力[Newline]  - 低動きの力[Newline]  - 騎兵ユニットによって抑制されます</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_NAME" Language="ja_JP">
+			<Text>調整された光兵器補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="ja_JP">
+			<Text>闘いに適した強力な包囲ユニットと水域で戦うことができます[Newline] Research {loc_tech_stirrups_name}、{loc_tech_ballistics_name}、{loc_tech_combustion_name}、{loc_tech_synthetic_materials_name_name} Research {loc_tech_computers_name}は、ユニットの範囲を増やすことができます[icon_range] [newline]+long range [newline]+high Mobility [newline]+good Area [newline]+fighting in waters [newline] -low of Vision [newline]  -  low low leee combat power [Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_NAME" Language="ja_JP">
+			<Text>エリートの共同調整光武器補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="ja_JP">
+			<Text>闘いに適した強力な包囲ユニットは、水域で戦うことができ、[Newline] + Long Range [Newline] + High Mobility [Newline] +戦闘エリア[NewLine] + Waters [Newline]  - 低い視野[Newline]  - 低いメレー戦闘力[Newline]  -  Cavaly Unitsによって抑制されるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_NAME" Language="ja_JP">
+			<Text>初期の共調整された特殊作戦補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_T_DESCRIPTION" Language="ja_JP">
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力を備えた海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_NAME" Language="ja_JP">
+			<Text>調整された特殊作戦補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_T_DESCRIPTION" Language="ja_JP">
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力がある海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_NAME" Language="ja_JP">
+			<Text>特殊運用の堅調で共同調整します</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_T_DESCRIPTION" Language="ja_JP">
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力がある海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_NAME" Language="ja_JP">
+			<Text>経験豊富な共同調整特殊作戦補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_T_DESCRIPTION" Language="ja_JP">
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力を備えた海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_NAME" Language="ja_JP">
+			<Text>エリートの共同調整特別な戦闘修正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_T_DESCRIPTION" Language="ja_JP">
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力がある海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_NAME" Language="ja_JP">
+			<Text>調整された武器補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_T_DESCRIPTION" Language="ja_JP">
+			<Text>Very powerful long-range siege unit with strong melee combat power, which is very suitable for combating areas [NEWLINE] research {LOC_TECH_STIRRUPS_NAME}, {LOC_TECH_BALLISTICS_NAME}, {LOC_TECH_COMBUSTION_NAME} and {LOC_TECH_SYNTHETIC_MATERIALS_NAME} can improve the combat power of the unit [icon_strength] [ne wline] Research {loc_tech_computers_name}は、ユニットの範囲を増やすことができます[icon_range] [newline]+大範囲[Newline]+High Deele Combat Power [Newline]+Good Erage [Newline]+Good Combat Area [Newline]+Good Combat Unit [Newline]モビリティ[NewLine]  - 抗攻撃ユニットによって抑制されます</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_NAME" Language="ja_JP">
+			<Text>エリートの共同調整重い武器補正</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_T_DESCRIPTION" Language="ja_JP">
+			<Text>強力な近接戦闘力を備えた非常に強力な長距離包囲ユニット。エリア[Newline] + Long Range [Newline] + High Melee Combat Power [NewLine] +戦闘エリア[Newline] + Good At Fighting Cavalry Units [Newline] + Wate Can Wate on Waters [Newline]  - 低視野</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_NAME" Language="ja_JP">
+			<Text>早期の共同調整格闘補正を再インストールします</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_T_DESCRIPTION" Language="ja_JP">
+			<Text>移動速度が高い近接騎兵ユニットは超致死性があり、城壁[Newline]+High Melee Combat Power [Newline]+High Mobility Power [NewLine]+Counter-Attackエリア[NewLine]  - 抗カバリユニットによって抑制される格闘電力[Newline]+Good a Good a Good a Good a Good a Good a Good a Good a Good a Good a Good a Good a Good a Good</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_NAME" Language="ja_JP">
+			<Text>近接矯正器を調整します</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_T_DESCRIPTION" Language="ja_JP">
+			<Text>移動速度が高い近接騎兵ユニットは非常に致命的であり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Aging Earse [Newline]  - 抗カバリーユニットによって抑制される可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_NAME" Language="ja_JP">
+			<Text>タフな共同チューニング近接式矯正器を再インストールします</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_T_DESCRIPTION" Language="ja_JP">
+			<Text>移動速度が高い近接騎兵ユニットは非常に致命的であり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Aging Earse [Newline]  - 抗カバリーユニットによって抑制される可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_NAME" Language="ja_JP">
+			<Text>経験豊富な共同チューニング近接矯正器の再インストール</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_T_DESCRIPTION" Language="ja_JP">
+			<Text>移動速度が高い近接騎兵ユニットは非常に致命的であり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Aging Earse [Newline]  - 抗カバリーユニットによって抑制される可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_NAME" Language="ja_JP">
+			<Text>エリートの共同調整は、近接矯正器を再インストールします</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_T_DESCRIPTION" Language="ja_JP">
+			<Text>移動速度が高い近接騎兵ユニットは非常に致命的であり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Aging Earse [Newline]  - 抗カバリーユニットによって抑制される可能性があります。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_NAME" Language="ja_JP">
+			<Text>リモートフィクサーを調整します</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_T_DESCRIPTION" Language="ja_JP">
+			<Text>特別な遠隔ユニットは、修正主義者のリーダーの一部のみを構築でき、近接ユニットと遠距離ユニットからの攻撃に簡単に耐えることができます。テクノロジーのアップグレードにより、範囲は通常の長距離補正装置[Newline] Research {loc_tech_stirrups_name}、{loc_tech_ballistics_name}、{loc_tech_combustion_name}、{loc_tech_name}、{loc_tech_syntic_materials_name_materials_name}のそれよりもはるかにはありません。戦闘力の改善[Newline] {loc_tech_flight_name}、{loc_tech_computers_name}は、ユニットの範囲を増やすことができます[icon_range] [newline]+高近接戦闘力[Newline]+Good a Good At Fighting Melee Units [Newline]+Good At Fighting Range units [Newline [Newline] -low Mobilty [Newline] -will by deint bywillist</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_NAME" Language="ja_JP">
+			<Text>エリートの共同調整とリモート修正を再インストールします</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_T_DESCRIPTION" Language="ja_JP">
+			<Text>特別な遠隔ユニットは、いくつかの修正リーダーのみを構築でき、近接ユニットや遠隔ユニットからの攻撃に簡単に耐えることができ、エリアにも適しています。範囲はまた、通常のエリートの長距離補正[Newline]+High Melee Combat Power [Newline]+High Range [Newline]+Fighting Melee Units [Newline]+Fighting Range Range Unit [Newline]+Good At Fighting Ary [Newline] -low Movility [Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_NAME" Language="ja_JP">
+			<Text>精製</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_NAME" Language="ja_JP">
-			<Text>初期の近接修正</Text>
+			<Text>パイオニア近接矯正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>優れた致死性を備えた基本的な近接ユニット [NEWLINE] + 対騎兵ユニットとの戦いに優れている [NEWLINE] - 機動性が低い</Text>
+			<Text>良好な致死性を持つ基本的な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - モビリティが低い</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_RELOAD_NAME" Language="ja_JP">
-			<Text>近接モディファイア</Text>
+			<Text>初期の近接補正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>優れた致死性を備えた基本的な近接ユニット [NEWLINE] + 対騎兵ユニットとの戦いに優れている [NEWLINE] - 機動性が低い</Text>
+			<Text>良好な致死性を持つ基本的な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - モビリティが低い</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_RELOAD_NAME" Language="ja_JP">
-			<Text>タフ近接モディファイアー</Text>
+			<Text>近接フィクサー</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>優れた致死性を備えた基本的な近接ユニット [NEWLINE] + 対騎兵ユニットとの戦いに優れている [NEWLINE] - 機動性が低い</Text>
+			<Text>良好な致死性を持つ基本的な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - モビリティが低い</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_RELOAD_NAME" Language="ja_JP">
-			<Text>フィアレス近接モディファイアー</Text>
+			<Text>タフな近接矯正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>優れた致死性を備えた基本的な近接ユニット [NEWLINE] + 対騎兵ユニットとの戦いに優れている [NEWLINE] - 機動性が低い</Text>
+			<Text>良好な致死性を持つ基本的な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - モビリティが低い</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_RELOAD_NAME" Language="ja_JP">
-			<Text>栄光の近接モディファイアー</Text>
+			<Text>経験豊富な近接矯正器</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>優れた致死性を備えた基本的な近接ユニット [NEWLINE] + 対騎兵ユニットとの戦いに優れている [NEWLINE] - 機動性が低い</Text>
+			<Text>良好な致死性を持つ基本的な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - モビリティが低い</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_RELOAD_NAME" Language="ja_JP">
-			<Text>高度な近接モディファイアー</Text>
+			<Text>輝かしい近接矯正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV6_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>優れた致死性を備えた基本的な近接ユニット [NEWLINE] + 対騎兵ユニットとの戦いに優れている [NEWLINE] - 機動性が低い</Text>
+			<Text>良好な致死性を持つ基本的な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - モビリティが低い</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_RELOAD_NAME" Language="ja_JP">
-			<Text>エリート近接モディファイアー</Text>
+			<Text>エリート近接補正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SWORD_MODIFIER_LV7_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>優れた致死性を備えた基本的な近接ユニット [NEWLINE] + 対騎兵ユニットとの戦いに優れている [NEWLINE] - 機動性が低い</Text>
+			<Text>良好な致死性を持つ基本的な近接ユニット[Newline] +抗カバリーユニットとの戦いに適しています[Newline]  - モビリティが低い</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_RELOAD_NAME" Language="ja_JP">
-			<Text>初期の遠隔修正装置</Text>
+			<Text>初期のリモート補正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>基本的な長距離ユニットで、遠くから敵を倒すのに適しています [NEWLINE] + 近接ユニットとの戦いが得意 [NEWLINE] - 近接戦闘の有効性が低い [NEWLINE] - 機動力が低い [NEWLINE] - 騎兵ユニットによって拘束されます</Text>
+			<Text>長距離殺害敵に適した基本的な遠隔ユニット[Newline]+戦闘近接ユニット[Newline] -low Melee Combat Power [Newline] -low Mobility Power [Newline]  - 騎兵ユニットによって抑制される</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_RELOAD_NAME" Language="ja_JP">
-			<Text>リモートコレクタ</Text>
+			<Text>リモート補正学者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>基本的な長距離ユニットで、遠くから敵を倒すのに適しています [NEWLINE] + 近接ユニットとの戦いが得意 [NEWLINE] - 近接戦闘の有効性が低い [NEWLINE] - 機動力が低い [NEWLINE] - 騎兵ユニットによって拘束されます</Text>
+			<Text>長距離殺害敵に適した基本的な遠隔ユニット[Newline]+戦闘近接ユニット[Newline] -low Melee Combat Power [Newline] -low Mobility Power [Newline]  - 騎兵ユニットによって抑制される</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_RELOAD_NAME" Language="ja_JP">
-			<Text>経験豊富な遠隔修正者</Text>
+			<Text>経験豊富なリモート補正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>基本的な長距離ユニットで、遠くから敵を倒すのに適しています [NEWLINE] + 近接ユニットとの戦いが得意 [NEWLINE] - 近接戦闘の有効性が低い [NEWLINE] - 機動力が低い [NEWLINE] - 騎兵ユニットによって拘束されます</Text>
+			<Text>長距離殺害敵に適した基本的な遠隔ユニット[Newline]+戦闘近接ユニット[Newline] -low Melee Combat Power [Newline] -low Mobility Power [Newline]  - 騎兵ユニットによって抑制される</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_RELOAD_NAME" Language="ja_JP">
-			<Text>エリートリモートコレクター</Text>
+			<Text>エリートリモート修正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RANGED_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>基本的な長距離ユニットで、遠くから敵を倒すのに適しています [NEWLINE] + 近接ユニットとの戦いが得意 [NEWLINE] - 近接戦闘の有効性が低い [NEWLINE] - 機動力が低い [NEWLINE] - 騎兵ユニットによって拘束されます</Text>
+			<Text>長距離殺人の敵に適した基本的な遠隔ユニット[Newline]+戦闘近接ユニット[Newline] -low Melee Combat Power [Newline] -low Mobility Power [Newline]  - 騎兵ユニットによって抑制される</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_RELOAD_NAME" Language="ja_JP">
-			<Text>小型武器修正剤</Text>
+			<Text>軽い武器矯正師</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>基本的な包囲ユニットは、地域への対処に適しており、水上で戦うことができます。[NEWLINE] {LOC_TECH_STIRRUPS_NAME}、{LOC_TECH_BALLISTICS_NAME}、{LOC_TECH_COMBUSTION_NAME}、{LOC_TECH_SYNTHETIC_MATERIALS_NAME} を研究すると、ユニットの [ICON_Strength] 戦闘効率が向上します[NEWLINE] {LOC_TECH_FLIGHT_NAME を研究します}、{LOC_TECH_COMPUTERS_NAME} はユニットの射程を拡大できます [ICON_Range][NEWLINE]+高い機動性[NEWLINE]+戦闘エリアに優れています[NEWLINE]+水上でも戦闘可能[NEWLINE]-視界が狭い範囲[NEWLINE]-近接攻撃が少ない戦闘効果[NEWLINE] ] - 騎兵部隊によって抑制されます</Text>
+			<Text>闘いに適した基本的な包囲ユニットは、水域で戦うことができます[Newline] Research {loc_tech_stirrups_name}、{loc_tech_ballistics_name}、{loc_tech_combustion_name}、{loc_tech_synthetic_materialialialial}で戦うことができます。 {loc_tech_flight_name}、{loc_tech_computers_name}はユニットの範囲を増やすことができます</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_RELOAD_NAME" Language="ja_JP">
-			<Text>エリート小型武器モディファイアー</Text>
+			<Text>エリートライト武器の補正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIGHTWEAPON_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>基本的な攻城ユニット、エリアへの対処に適しており、水上で戦闘可能 [NEWLINE] + 高い機動性 [NEWLINE] + エリアでの戦闘が得意 [NEWLINE] + 水上で戦闘可能 [NEWLINE] - 低視界範囲 [NEWLINE] - 近接戦闘 戦闘効果が低い[NEWLINE] - 騎兵部隊によって拘束される</Text>
+			<Text>闘いに適した基本的な包囲ユニット、水域で戦うことができる[Newline] + High Mobility [Newline] +闘争エリア[Newline] + Waters [NewLine]  - 低い視野[Newline]  - 低い近接戦闘力[Newline]  - 騎兵ユニットによって抑制されます</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_NAME" Language="ja_JP">
-			<Text>初期の特殊作戦モディファイア</Text>
+			<Text>初期の特殊作戦矯正主義者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>水上で戦えるユニットは、射程 1 の爆撃戦闘力 [NEWLINE] + 高い機動力 [NEWLINE] + 戦闘領域に優れている [NEWLINE] + 海軍ユニットとの戦いに優れている [NEWLINE] + 水上で戦える [ NEWLINE] - 建設には港湾エリアが必要です [NEWLINE] - 対騎兵ユニットとの戦いは苦手です [NEWLINE] - 遠距離ユニットと攻城ユニットによって拘束されます</Text>
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力がある海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_NAME" Language="ja_JP">
-			<Text>特殊操作修飾子</Text>
+			<Text>特殊作戦矯正主義者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>水上で戦えるユニットは、射程 1 の爆撃戦闘力 [NEWLINE] + 高い機動力 [NEWLINE] + 戦闘領域に優れている [NEWLINE] + 海軍ユニットとの戦いに優れている [NEWLINE] + 水上で戦える [ NEWLINE] - 建設には港湾エリアが必要です [NEWLINE] - 対騎兵ユニットとの戦いは苦手です [NEWLINE] - 遠距離ユニットと攻城ユニットによって拘束されます</Text>
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力がある海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_NAME" Language="ja_JP">
-			<Text>経験豊富な特殊作戦修正者</Text>
+			<Text>厳しい特殊作戦矯正主義者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>水上で戦えるユニットは、射程 1 の爆撃戦闘力 [NEWLINE] + 高い機動力 [NEWLINE] + 戦闘領域に優れている [NEWLINE] + 海軍ユニットとの戦いに優れている [NEWLINE] + 水上で戦える [ NEWLINE] - 建設には港湾エリアが必要です [NEWLINE] - 対騎兵ユニットとの戦いは苦手です [NEWLINE] - 遠距離ユニットと攻城ユニットによって拘束されます</Text>
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力がある海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_NAME" Language="ja_JP">
-			<Text>エリート特殊作戦モディファイアー</Text>
+			<Text>経験豊富な特殊作戦矯正学者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>水上で戦えるユニットは、射程 1 の爆撃戦闘力 [NEWLINE] + 高い機動性 [NEWLINE] + 戦闘領域に優れている [NEWLINE] + 海軍ユニットとの戦いに優れている [NEWLINE] + 水上で戦える [ NEWLINE] - 建設には港湾エリアが必要です [NEWLINE] - 対騎兵ユニットとの戦いは苦手です [NEWLINE] - 遠距離ユニットと攻城ユニットによって拘束されます</Text>
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力がある海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_NAME" Language="ja_JP">
+			<Text>エリート特殊作戦矯正学者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPECIALCOMBAT_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="ja_JP">
+			<Text>レンジ1 [Newline] + High Mobility [Newline] +戦闘エリア[Newline] +戦闘に適している海軍ユニット[Newline] +の爆撃で戦闘力がある海域で戦うことができるユニット[Newline] +は、港湾領域を建設する必要があります[Newline]  - 戦いには良くない[Newline]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_NAME" Language="ja_JP">
-			<Text>重火器の修正</Text>
+			<Text>重兵器矯正剤</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>一部のモディファイアー リーダーのみが訓練できる恐るべき長距離攻城ユニットであり、強力な近接戦闘効果があり、{LOC_TECH_STIRRUPS_NAME}、{LOC_TECH_BALLISTICS_NAME}、{LOC_TECH_COMBUSTION_NAME}、{LOC_TECH_SYNTHETIC_MATERIALS_NAME} を研究するのに非常に適しています。ユニットを [ ICON_Strength ] にする 戦闘効率の向上[NEWLINE] {LOC_TECH_FLIGHT_NAME} と {LOC_TECH_COMPUTERS_NAME} を研究すると、ユニットの射程距離を広げることができます[ICON_Range][NEWLINE]+高い近接戦闘効率[NEWLINE]+エリアとの戦いに優れています[NEWLINE] +騎兵ユニットとの戦いが得意[NEWLINE]+水上で戦うことができる[NEWLINE] - 視界が狭い[NEWLINE] - 機動性が低い[NEWLINE] - 対騎兵ユニットによって拘束される</Text>
+			<Text>恐ろしい長距離包囲ユニットは、修正のリーダーの一部のみを訓練することができ、強い近接戦闘力を持っています。 {loc_tech_synthetic_materials_name}は、ユニットの戦闘力を改善できます[icon_strength] [n ewline] Research {loc_tech_flight_name}、{loc_tech_computers_name}は、ユニットの範囲を増やすことができます[icon_range] [icon_lange]+combat at comcat at combat+ Cavalry units [Newline]+は水域で戦うことができます[Newline] -low Vision Range [Newline] -low Movement Power [Newline]  - 抗カバリユニットによって抑制される</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_RELOAD_NAME" Language="ja_JP">
-			<Text>エリートヘビーウェポンモディファイアー</Text>
+			<Text>エリート重兵器補正</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HEVAYWEAPON_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>一部の Modifier リーダーのみが訓練できる恐ろしい長距離攻城ユニットです。強力な近接戦闘効果があり、エリアへの対処に非常に適しています [NEWLINE] + 高い近接戦闘効果 [NEWLINE] + エリアとの戦いに優れています。騎兵ユニットとの戦いが得意 [ NEWLINE] + 水上でも戦える [NEWLINE] - 視界が狭い[NEWLINE] - 機動性が低い[NEWLINE] - 対騎兵ユニットによる拘束が可能</Text>
+			<Text>ひどい長距離包囲ユニット、修正のリーダーの一部のみを訓練できる、強力な近接戦闘力を持つことができます。抗カバリーユニット</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_RELOAD_NAME" Language="ja_JP">
-			<Text>早期リロード近接モディファイア</Text>
+			<Text>早期に格闘矯正器を再インストールします</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>高い移動速度を備えた強力な近接騎兵ユニットです。一部のモディファイアー リーダーのみが訓練できます。非常に致死性が高く、都市の壁に完全なダメージを与えることができます。[NEWLINE] + 高い移動力 [NEWLINE] +優れています。戦闘地域では[NEWLINE] - 反騎兵部隊によって拘束されます</Text>
+			<Text>移動速度が高い近接騎兵ユニットは、補正のリーダーの一部にすぎず、超致命性があり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Fighting [Newline]  -  cavalry unitsによって抑制される可能性があります。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_RELOAD_NAME" Language="ja_JP">
-			<Text>リロードされた近接モディファイア</Text>
+			<Text>近接矯正器を再インストールします</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>高い移動速度を備えた強力な近接騎兵ユニットです。一部のモディファイアー リーダーのみが訓練できます。非常に致死性が高く、都市の壁に完全なダメージを与えることができます。[NEWLINE] + 高い移動力 [NEWLINE] +優れています。戦闘地域では[NEWLINE] - 反騎兵部隊によって拘束されます</Text>
+			<Text>移動速度が高い近接騎兵ユニットは、補正のリーダーの一部にすぎず、超致命性があり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Fighting [Newline]  -  cavalry unitsによって抑制される可能性があります。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_NAME" Language="ja_JP">
-			<Text>経験豊富な重近接モディファイアー</Text>
+			<Text>タフな再インストール近接矯正師</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV3_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>高い移動速度を備えた強力な近接騎兵ユニットです。一部のモディファイアー リーダーのみが訓練できます。非常に致死性が高く、都市の壁に完全なダメージを与えることができます。[NEWLINE] + 高い移動力 [NEWLINE] +優れています。戦闘地域では[NEWLINE] - 反騎兵部隊によって拘束されます</Text>
+			<Text>移動速度が高い近接騎兵ユニットは、補正のリーダーの一部にすぎず、超致命性があり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Fighting [Newline]  -  cavalry unitsによって抑制される可能性があります。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_NAME" Language="ja_JP">
-			<Text>高度なヘビー近接モディファイアー</Text>
+			<Text>経験豊富な格闘矯正器を再インストールします</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV4_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>高い移動速度を備えた強力な近接騎兵ユニットです。一部のモディファイアー リーダーのみが訓練できます。非常に致死性が高く、都市の壁に完全なダメージを与えることができます。[NEWLINE] + 高い移動力 [NEWLINE] +優れています。戦闘地域では[NEWLINE] - 反騎兵部隊によって拘束されます</Text>
+			<Text>移動速度が高い近接騎兵ユニットは、補正のリーダーの一部にすぎず、超致命性があり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Fighting [Newline]  -  cavalry unitsによって抑制される可能性があります。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_RELOAD_NAME" Language="ja_JP">
-			<Text>エリートヘビー近接モディファイアー</Text>
+			<Text>エリートの再インストール近接矯正器</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORSWORD_MODIFIER_LV5_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>高い移動速度を備えた強力な近接騎兵ユニットです。一部のモディファイアー リーダーのみが訓練できます。非常に致死性が高く、都市の壁に完全なダメージを与えることができます。[NEWLINE] + 高い移動力 [NEWLINE] +優れています。戦闘地域では[NEWLINE] - 反騎兵部隊によって拘束されます</Text>
+			<Text>移動速度が高い近接騎兵ユニットは、補正のリーダーの一部にすぎず、超致命性があり、城壁[Newline] + High Melee Combat Power [Newline] + High Movement Power [Newline] + Fighting At Fighting [Newline]  -  cavalry unitsによって抑制される可能性があります。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_NAME" Language="ja_JP">
-			<Text>装甲リモートモディファイアー</Text>
+			<Text>リモートフィクサーを再インストールします</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV1_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>一部のモディファイア リーダーのみが利用できる特別な遠距離ユニットは、近接ユニットと遠距離ユニットの両方からの攻撃を簡単に防御できます。テクノロジーのアップグレードにより、通常の遠隔補正装置よりも射程が長くなります[NEWLINE] {LOC_TECH_IRON_WORKING_NAME}、{LOC_TECH_APPRENTICESHIP_NAME}、{LOC_TECH_GUNPOWDER_NAME}、{LOC_TECH_MILITARY_SCIENCE_NAME}、{LOC_TECH_REPLACEABLE_PARTS_NAME}を研究すると、ユニットの[ICON_Strength]戦闘効率を向上させることができます[NEWLINE] ] {LOC_TECH_FLIGHT_NAME} と {LOC_TECH_COMPUTERS_NAME} を研究すると、ユニットの射程を延ばすことができます [ICON_Range][NEWLINE]+高い近接戦闘力[NEWLINE]+近接ユニットとの戦いに優れています[NEWLINE]+長距離ユニットとの戦いに優れています[ NEWLINE] - 機動性が低い[NEWLINE] - 騎兵ユニットによって拘束可能</Text>
+			<Text>特別な遠隔ユニットは、修正主義者のリーダーの一部のみを構築でき、近接ユニットと遠距離ユニットからの攻撃に簡単に耐えることができます。テクノロジーのアップグレードにより、範囲は通常の長距離補正装置[Newline] Research {loc_tech_stirrups_name}、{loc_tech_ballistics_name}、{loc_tech_combustion_name}、{loc_tech_name}、{loc_tech_syntic_materials_name_materials_name}のそれよりもはるかにはありません。戦闘力の改善[Newline] {loc_tech_flight_name}、{loc_tech_computers_name}は、ユニットの範囲を増やすことができます[icon_range] [newline]+高近接戦闘力[Newline]+Good a Good At Fighting Melee Units [Newline]+Good At Fighting Range units [Newline [Newline] -low Mobilty [Newline] -will by deint bywillist</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_RELOAD_NAME" Language="ja_JP">
-			<Text>エリート装甲リモートモディファイアー</Text>
+			<Text>エリートリモートフィクサーを再インストールします</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ARMORRANGED_MODIFIER_LV2_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>一部のモディファイア リーダーのみが構築した特別な遠距離ユニットは、近接ユニットや遠距離ユニットからの攻撃に容易に耐えることができ、エリアへの対処にも適しています。射程も通常のエリート遠距離コレクターよりも長い [NEWLINE] + 高い近接戦闘効果 [NEWLINE] + 高射程 [NEWLINE] + 近接ユニットとの戦いが得意 [NEWLINE] + 遠距離ユニットとの戦いが得意 [NEWLINE] ] + エリアとの戦いが得意 [NEWLINE] - 機動性が低い[NEWLINE] - 騎兵ユニットによって拘束されます</Text>
+			<Text>特別な遠隔ユニットは、いくつかの修正リーダーのみを構築でき、近接ユニットや遠隔ユニットからの攻撃に簡単に耐えることができ、エリアにも適しています。範囲はまた、通常のエリートの長距離補正[Newline]+High Melee Combat Power [Newline]+High Range [Newline]+Fighting Melee Units [Newline]+Fighting Range Range Unit [Newline]+Good At Fighting Ary [Newline] -low Movility [Newline]</Text>
 		</Replace>
 		<Replace Tag="LOC_PPROMOTION_CLASS_SWORD_MODIFIER_RELOAD_NAME" Language="ja_JP">
-			<Text>近接攻撃</Text>
+			<Text>近接</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_RANGED_MODIFIER_RELOAD_NAME" Language="ja_JP">
 			<Text>遠隔攻撃</Text>
@@ -214,403 +427,412 @@
 			<Text>遠隔攻撃</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_WEAPON_MODIFIER_RELOAD_NAME" Language="ja_JP">
-			<Text>ハッサー</Text>
+			<Text>軽い騎兵</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_SPECIALCOMBAT_MODIFIER_RELOAD_NAME" Language="ja_JP">
-			<Text>海軍の近接戦闘</Text>
+			<Text>海軍近接</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_ARMORSWORD_MODIFIER_RELOAD_NAME" Language="ja_JP">
-			<Text>重騎兵</Text>
+			<Text>重い騎兵</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_A_NAME" Language="ja_JP">
-			<Text>対策基礎訓練</Text>
+			<Text>基本的な対策トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時に [ICON_Strength] の戦闘力 +5、海または川から攻撃する際の [ICON_Strength] の戦闘力と [ICON_Movement] の移動デバフを免除</Text>
+			<Text>+5 [icon_strength]防御時に戦闘力を発揮し、海または川から攻撃するときに[icon_strength]戦闘力と[icon_movement]モビリティのデバフを避けます。</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_A_NAME" Language="ja_JP">
-			<Text>対策強化訓練</Text>
+			<Text>対策と集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時に +10[ICON_Strength] の戦闘力、略奪は 1 移動力のみを消費します</Text>
+			<Text>+10 [icon_strength]戦闘力防御時に略奪すると、1つの動きのパワーが消費されます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_A_NAME" Language="ja_JP">
-			<Text>対策高度訓練</Text>
+			<Text>高度な対策トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_A_DESCRIPTION" Language="ja_JP">
-			<Text>氾濫原と湿地を守るときの戦闘力 +20 [ICON_Strength]</Text>
+			<Text>+20 [icon_strength] flood濫原と沼地の防衛における戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_B_NAME" Language="ja_JP">
-			<Text>基礎体力トレーニング</Text>
+			<Text>基本的な身体トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットには+2 [ICON_Movement]移動、+1視界範囲、地形無視、川を渡る[ICON_Movement]移動ペナルティが与えられます。</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+1視野、地形を無視し、川を横切る[icon_movement]動きのペナルティ</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_B_NAME" Language="ja_JP">
-			<Text>体力強化トレーニング</Text>
+			<Text>物理的な集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの移動 +2 [ICON_Movement]、視界範囲 +1、視界は地形や地形を通過可能</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+1視野、視野は地形と地形を通過することができます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_B_NAME" Language="ja_JP">
-			<Text>高度なフィジカルトレーニング</Text>
+			<Text>高度な身体トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの移動 +2[ICON_Movement]、視界範囲 +2</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+2視野</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_C_NAME" Language="ja_JP">
-			<Text>戦闘基礎訓練</Text>
+			<Text>基本的な戦闘トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_1_C_DESCRIPTION" Language="ja_JP">
-			<Text>攻撃時+7[ICON_Strength]戦闘力、遠隔ユニットおよび包囲ユニット攻撃時+10[ICON_Strength]戦闘力</Text>
+			<Text>+7 [icon_strength]攻撃時の戦闘電力、+10 [icon_strength]攻撃する際の距離のユニットを攻撃するとき</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_C_NAME" Language="ja_JP">
-			<Text>戦闘集中訓練</Text>
+			<Text>戦闘集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_2_C_DESCRIPTION" Language="ja_JP">
-			<Text>攻撃時+3[ICON_Strength]戦闘力、騎兵ユニット攻撃時+10[ICON_Strength]戦闘力</Text>
+			<Text>+3 [icon_strength]攻撃時の戦闘電力、包装ユニットを攻撃するときの+10 [icon_strength]戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_C_NAME" Language="ja_JP">
-			<Text>高度な戦闘訓練</Text>
+			<Text>高度な戦闘トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_3_C_DESCRIPTION" Language="ja_JP">
-			<Text>攻撃時+5[ICON_Strength]戦闘力、攻撃後に移動可能</Text>
+			<Text>+5 [icon_strength]攻撃時の戦闘力、+10 [icon_strength]騎兵ユニットを攻撃するときの戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_4_NAME" Language="ja_JP">
-			<Text>キー同期のアップグレード</Text>
+			<Text>キーコチューニングアップグレード</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SWORD_MODIFIER_4_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットが攻撃すると、戦闘力 +7 [ICON_Strength] と移動力 +2 [ICON_Movement] を獲得します。 フォーメーション内のすべてのユニットは、ライフを回復するために配置する必要はありません。ラウンドの始まり。</Text>
+			<Text>ユニットが攻撃すると、Combat Power +7 [Icon_Strength]が使用され、動き+2 [icon_movement]が使用されます。フォーメーション内のすべてのユニットは、ユニットの移動力を取得します。ユニットは、生命を回復するためにラウンドの開始時に駐留する必要はありません。 [icon_movement]運動力が許可されている場合、ターンあたり+1追加攻撃。攻撃後に移動できます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_A_NAME" Language="ja_JP">
-			<Text>緊急基礎訓練</Text>
+			<Text>緊急基本トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時+5[ICON_Strength]戦闘力、近接ユニット攻撃から防御時+7[ICON_Strength]戦闘力</Text>
+			<Text>+3 [icon_strength]防御時の戦闘力、+5 [icon_strength]近接ユニットを防御するときの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_A_NAME" Language="ja_JP">
-			<Text>緊急集中訓練</Text>
+			<Text>緊急集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時+3[ICON_Strength]戦闘力、騎兵ユニットの攻撃防御時+12[ICON_Strength]戦闘力</Text>
+			<Text>+5 [icon_strength]防御時の戦闘力、+5 [icon_strength]騎兵ユニット攻撃の際の戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_A_NAME" Language="ja_JP">
 			<Text>高度な緊急訓練</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時+2[ICON_Strength]戦闘力、航空ユニットの攻撃から防御時+10[ICON_Strength]戦闘力、ユニットは地形と川を渡る[ICON_Movement]移動ペナルティを無視します。</Text>
+			<Text>+7 [icon_strength]防衛時の戦闘力、+10 [icon_strength]航空ユニットの攻撃を防御するとき、ユニットは地形を無視し、川を横切る[icon_movement]運動の罰</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_B_NAME" Language="ja_JP">
-			<Text>海上攻撃対策訓練</Text>
+			<Text>海の攻撃対策トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_B_DESCRIPTION" Language="ja_JP">
-			<Text>海軍ユニットと戦うときの戦闘力 +10 [ICON_Strength]、視界範囲 +1</Text>
+			<Text>+10 [icon_strength]海軍ユニットと戦うときの戦闘力、+1視界</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_B_NAME" Language="ja_JP">
-			<Text>都市防衛対策訓練</Text>
+			<Text>都市防衛対策トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_B_DESCRIPTION" Language="ja_JP">
-			<Text>ゾーンと戦うときの戦闘力 +17 [ICON_Strength]、視界範囲 +1、視界範囲内の目に見えないユニットを表示する</Text>
+			<Text>+17 [ICON_STRENGH]と戦うエリアと戦うとき、視野内の視野視野と表示される視野内に見えないユニットを表示します</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_B_NAME" Language="ja_JP">
-			<Text>空襲対策訓練</Text>
+			<Text>エアストライクカウンターメジャートレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_B_DESCRIPTION" Language="ja_JP">
-			<Text>航空ユニットの攻撃を防御する場合、+10 [ICON_Strength] の戦闘力がこのユニットを発見できます。</Text>
+			<Text>+10 [icon_strength]戦闘電力空気ユニットを防御するとき、隣接する敵ユニットのみがユニットを検出できます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_C_NAME" Language="ja_JP">
-			<Text>銃器基礎訓練</Text>
+			<Text>基本的な銃器トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_1_C_DESCRIPTION" Language="ja_JP">
-			<Text>攻撃時+7[ICON_Strength]戦闘力、遠隔ユニット攻撃時+5[ICON_Strength]戦闘力</Text>
+			<Text>+3 [icon_strength]攻撃時の戦闘電力、+10 [icon_strength]攻撃抗カバリユニットを攻撃するとき</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_C_NAME" Language="ja_JP">
-			<Text>集中的な銃器訓練</Text>
+			<Text>集中的な銃器トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_2_C_DESCRIPTION" Language="ja_JP">
-			<Text>攻撃時+3[ICON_Strength]戦闘力、海軍近接ユニット攻撃時+8[ICON_Strength]戦闘力</Text>
+			<Text>+5 [icon_strength]攻撃時の戦闘電力、+5 [icon_strength]近接ユニットを攻撃するときの戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_C_NAME" Language="ja_JP">
-			<Text>高度な銃器訓練</Text>
+			<Text>高度なガントレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_3_C_DESCRIPTION" Language="ja_JP">
-			<Text>攻撃時に [ICON_Strength] の戦闘力が +5 [ICON_Movement] の移動が許可される場合、ラウンドごとに追加攻撃力が +1 されます。攻撃後に移動可能。</Text>
+			<Text>+7 [icon_strength]攻撃時の戦闘電力、+12 [icon_strength]海軍ユニットを攻撃するときの戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_4_NAME" Language="ja_JP">
-			<Text>キー同期のアップグレード</Text>
+			<Text>キーコチューニングアップグレード</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_RANGED_MODIFIER_4_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットが攻撃すると、戦闘力 +7 [ICON_Strength] と移動力 +2 [ICON_Movement] を獲得します。 フォーメーション内のすべてのユニットは、ライフを回復するために配置する必要はありません。ラウンドの始まり。</Text>
+			<Text>ユニットが攻撃すると、Combat Power +7 [Icon_Strength]が使用され、動き+2 [icon_movement]が使用されます。フォーメーション内のすべてのユニットは、ユニットの移動力を取得します。ユニットは、生命を回復するためにラウンドの開始時に駐留する必要はありません。 [icon_movement]運動力が許可されている場合、ターンあたり+1追加攻撃。攻撃後に移動できます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_A_NAME" Language="ja_JP">
-			<Text>装甲防御対策Ⅰ</Text>
+			<Text>鎧防御対策i</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時+5[ICON_Strength]戦闘力、航空ユニットの攻撃から防御時+15[ICON_Strength]戦闘力</Text>
+			<Text>+7 [icon_strength]防御時の戦闘力、+10 [icon_strength]騎兵隊を防御するときの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_A_NAME" Language="ja_JP">
-			<Text>装甲防御対策Ⅱ</Text>
+			<Text>アーマー防衛対策II</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時+3[ICON_Strength]戦闘力、騎兵ユニットの攻撃から防御時+15[ICON_Strength]戦闘力</Text>
+			<Text>+5 [icon_strength]防衛時の戦闘力、+10 [icon_strength]海軍ユニットを防御するときの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_A_NAME" Language="ja_JP">
-			<Text>装甲防御対策Ⅲ</Text>
+			<Text>鎧防御対策III</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時+7[ICON_Strength]戦闘力、海軍ユニットの攻撃から防御時+15[ICON_Strength]戦闘力</Text>
+			<Text>+3 [icon_strength]防御時の戦闘力、+15 [icon_strength]航空ユニットを防御するときの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_B_NAME" Language="ja_JP">
-			<Text>大砲の基礎訓練</Text>
+			<Text>基本的なネリングトレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_B_DESCRIPTION" Language="ja_JP">
-			<Text>騎兵ユニットを攻撃する場合、ユニットの戦闘力 +3[ICON_Strength]、戦闘力 +10[ICON_Strength]</Text>
+			<Text>ユニット+3 [icon_strength]戦闘力、+10 [icon_strength]騎兵ユニットを攻撃するときの戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_B_NAME" Language="ja_JP">
-			<Text>集中的な砲兵訓練</Text>
+			<Text>爆撃集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +5[ICON_Strength]、反騎兵ユニットを攻撃する場合の戦闘力 +10[ICON_Strength]</Text>
+			<Text>ユニット+5 [icon_strength]戦闘力、+10 [icon_strength]海軍ユニットを攻撃する際の戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_B_NAME" Language="ja_JP">
-			<Text>高度な砲兵訓練</Text>
+			<Text>高度な砲撃トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +7[ICON_Strength]、遠隔ユニットおよび包囲ユニットを攻撃する場合の戦闘力 +10[ICON_Strength]</Text>
+			<Text>ユニット+7 [icon_strength]戦闘電力、+10 [icon_strength]距離のユニットと包囲ユニットを攻撃するときの戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_C_NAME" Language="ja_JP">
-			<Text>強化対策Ⅰ</Text>
+			<Text>要塞化対策i</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_1_C_DESCRIPTION" Language="ja_JP">
-			<Text>ゾーンと戦うときの戦闘力 +17 [ICON_Strength]、視界範囲 +1</Text>
+			<Text>+17 [icon_strength]戦闘パワーエリアと戦うとき、略奪は1つの動きのパワーのみを消費します</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_C_NAME" Language="ja_JP">
-			<Text>強化対策Ⅱ</Text>
+			<Text>要塞対策II</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_2_C_DESCRIPTION" Language="ja_JP">
-			<Text>ゾーンと戦うときの戦闘力 +17 [ICON_Strength]、視界範囲 +2</Text>
+			<Text>+17 [icon_strength]戦闘力エリアと戦うとき、+1視野視野</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_C_NAME" Language="ja_JP">
-			<Text>強化対策Ⅲ</Text>
+			<Text>要塞化対策III</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_3_C_DESCRIPTION" Language="ja_JP">
-			<Text>エリアとの戦闘時に [ICON_Strength] の戦闘力が +3 され、[ICON_Movement] の移動が許可されている場合はラウンドごとに追加攻撃力が +1 されます。攻撃後に移動可能。</Text>
+			<Text>+17 [icon_strength]戦闘力、+2視野</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_4_NAME" Language="ja_JP">
-			<Text>キー同期のアップグレード</Text>
+			<Text>キーコチューニングアップグレード</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WEAPON_MODIFIER_4_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットが攻撃すると、戦闘力 +7 [ICON_Strength] と移動力 +2 [ICON_Movement] を獲得します。 フォーメーション内のすべてのユニットは、ライフを回復するために配置する必要はありません。ラウンドの始まり。</Text>
+			<Text>ユニットが攻撃すると、Combat Power +7 [Icon_Strength]が使用され、動き+2 [icon_movement]が使用されます。フォーメーション内のすべてのユニットは、ユニットの移動力を取得します。ユニットは、生命を回復するためにラウンドの開始時に駐留する必要はありません。 [icon_movement]運動力が許可されている場合、ターンあたり+1追加攻撃。攻撃後に移動できます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_A_NAME" Language="ja_JP">
-			<Text>突撃基礎訓練</Text>
+			<Text>攻撃のための基本的なトレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_A_DESCRIPTION" Language="ja_JP">
-			<Text>騎兵ユニットを攻撃する場合、ユニットの戦闘力 +3[ICON_Strength]、戦闘力 +10[ICON_Strength]</Text>
+			<Text>ユニット+3 [icon_strength]戦闘力、+10 [icon_strength]騎兵ユニットを攻撃するときの戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_A_NAME" Language="ja_JP">
-			<Text>突撃集中訓練</Text>
+			<Text>強力な攻撃集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_A_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +5[ICON_Strength]、反騎兵ユニットを攻撃する場合の戦闘力 +10[ICON_Strength]</Text>
+			<Text>ユニット+5 [icon_strength]戦闘電力、+10 [icon_strength]戦闘力攻撃抗cavalryユニットを攻撃する</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_A_NAME" Language="ja_JP">
-			<Text>突撃上級訓練</Text>
+			<Text>攻撃のための高度なトレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_A_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +7[ICON_Strength]、遠隔ユニットおよび包囲ユニットを攻撃する場合の戦闘力 +10[ICON_Strength]</Text>
+			<Text>ユニット+7 [icon_strength]戦闘電力、+10 [icon_strength]距離のユニットと包囲ユニットを攻撃するときの戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_B_NAME" Language="ja_JP">
-			<Text>基礎体力トレーニング</Text>
+			<Text>基本的な身体トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットには+2 [ICON_Movement]移動、+1視界範囲、地形無視、および川を渡る[ICON_Movement]移動ペナルティが与えられます。</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+1視野、地形を無視し、川を横切る[icon_movement]動きのペナルティ</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_B_NAME" Language="ja_JP">
-			<Text>体力強化トレーニング</Text>
+			<Text>物理的な集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの移動 +2 [ICON_Movement]、視界範囲 +1、視界は地形や地形を通過可能</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+1視野、視野は地形と地形を通過することができます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_B_NAME" Language="ja_JP">
-			<Text>高度なフィジカルトレーニング</Text>
+			<Text>高度な身体トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの移動 +2[ICON_Movement]、視界範囲 +2</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+2視野</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_C_NAME" Language="ja_JP">
-			<Text>市街戦基礎訓練</Text>
+			<Text>基本的な路上戦闘トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_1_C_DESCRIPTION" Language="ja_JP">
-			<Text>エリア内で戦う場合は戦闘力 +17[ICON_Strength]、防御する場合は戦闘力 +5[ICON_Strength]</Text>
+			<Text>+17 [icon_strength]エリアと戦うときの戦闘力。海または川から攻撃するとき、[icon_strength]戦闘力と[icon_movement] Mobility Power Debuffは免除されます。</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_C_NAME" Language="ja_JP">
-			<Text>集中的な市街戦訓練</Text>
+			<Text>ストリート戦闘集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_2_C_DESCRIPTION" Language="ja_JP">
-			<Text>エリアと戦うときの戦闘力が +17[ICON_Strength] になり、略奪には移動力が 1 だけ消費されます</Text>
+			<Text>+17 [icon_strength]戦闘パワーエリアと戦うとき、略奪は1つの動きのパワーのみを消費します</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_C_NAME" Language="ja_JP">
-			<Text>集中的な市街戦訓練</Text>
+			<Text>高度な街路戦闘トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_3_C_DESCRIPTION" Language="ja_JP">
-			<Text>エリア内で戦闘する場合は [ICON_Strength] 戦闘力が +3 され、[ICON_Movement] 移動が許可される場合はラウンドごとに追加攻撃力が +1 されます。攻撃後に移動可能。</Text>
+			<Text>+17 [ICON_STRENGH]との戦闘パワーエリアと戦うとき、+5 [ICON_STRENGH]エリアと戦うときの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_4_NAME" Language="ja_JP">
-			<Text>キー同期のアップグレード</Text>
+			<Text>キーコチューニングアップグレード</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ARMORSWORD_MODIFIER_4_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットが攻撃すると、戦闘力 +7 [ICON_Strength] と移動力 +2 [ICON_Movement] を獲得します。 フォーメーション内のすべてのユニットは、ライフを回復するために配置する必要はありません。ラウンドの始まり。</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_A_NAME" Language="ja_JP">
-			<Text>装甲防空戦術</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時+3[ICON_Strength]戦闘力、航空ユニットの攻撃から防御時+15[ICON_Strength]戦闘力</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_A_NAME" Language="ja_JP">
-			<Text>装甲略奪戦術</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時に+5[ICON_Strength]戦闘力、略奪は1移動力のみを消費します</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_A_NAME" Language="ja_JP">
-			<Text>装甲海上攻撃対策</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_A_DESCRIPTION" Language="ja_JP">
-			<Text>防御時+7[ICON_Strength]戦闘力、海軍ユニットの攻撃から防御時+15[ICON_Strength]戦闘力</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_B_NAME" Language="ja_JP">
-			<Text>基礎体力トレーニング</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットには+2 [ICON_Movement]移動、+1視界範囲、地形無視、および川を渡る[ICON_Movement]移動ペナルティが与えられます。</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_B_NAME" Language="ja_JP">
-			<Text>体力強化トレーニング</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの移動 +2 [ICON_Movement]、視界範囲 +1、視界は地形や地形を通過可能</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_B_NAME" Language="ja_JP">
-			<Text>高度なフィジカルトレーニング</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの移動 +2[ICON_Movement]、視界範囲 +2</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_C_NAME" Language="ja_JP">
-			<Text>消火訓練</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_C_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +3[ICON_Strength]、遠隔ユニットを攻撃するときの戦闘力 +10[ICON_Strength]</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_NAME" Language="ja_JP">
-			<Text>精密射撃訓練</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +5[ICON_Strength]、反騎兵ユニットを攻撃する場合の戦闘力 +10[ICON_Strength]</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_C_NAME" Language="ja_JP">
-			<Text>ゲリラ戦訓練</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_C_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +7[ICON_Strength]、軽騎兵ユニットを攻撃するときの戦闘力 +10[ICON_Strength]</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_4_NAME" Language="ja_JP">
-			<Text>キー同期のアップグレード</Text>
-		</Replace>
-		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_4_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットが攻撃すると、戦闘力 +7 [ICON_Strength] と移動力 +2 [ICON_Movement] を獲得します。 フォーメーション内のすべてのユニットは、ライフを回復するために配置する必要はありません。ラウンドの始まり。</Text>
+			<Text>ユニットが攻撃すると、Combat Power +7 [Icon_Strength]が使用され、動き+2 [icon_movement]が使用されます。フォーメーション内のすべてのユニットは、ユニットの移動力を取得します。ユニットは、生命を回復するためにラウンドの開始時に駐留する必要はありません。 [icon_movement]運動力が許可されている場合、ターンあたり+1追加攻撃。攻撃後に移動できます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_A_NAME" Language="ja_JP">
-			<Text>水陸両用戦訓練</Text>
+			<Text>水陸両用戦闘トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_A_DESCRIPTION" Language="ja_JP">
-			<Text>海軍の近接ユニットと戦う場合、ユニットの戦闘力は +5[ICON_Strength]、戦闘力は +5[ICON_Strength] になります。</Text>
+			<Text>ユニット+3 [icon_strength]戦闘力、+5 [icon_strength]海軍の近接ユニットと戦う際の戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_A_NAME" Language="ja_JP">
-			<Text>浅海戦闘訓練</Text>
+			<Text>浅い海の戦闘トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_A_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +3[ICON_Strength]、海軍遠距離ユニットとの戦闘時の戦闘力 +10[ICON_Strength]</Text>
+			<Text>ユニット+5 [icon_strength]戦闘電力、+10 [icon_strength]海軍範囲ユニットと戦うときの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_A_NAME" Language="ja_JP">
-			<Text>深海戦闘訓練</Text>
+			<Text>深海戦闘トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_A_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +7 [ICON_Strength]、海軍輸送ユニットとの戦闘時の戦闘力 +20 [ICON_Strength]</Text>
+			<Text>ユニット+7 [icon_strength]戦闘力、+20 [icon_strength]海軍輸送ユニットと戦うときの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_B_NAME" Language="ja_JP">
-			<Text>基礎体力トレーニング</Text>
+			<Text>基本的な身体トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットには+2 [ICON_Movement]移動、+1視界範囲、地形無視、川を渡る[ICON_Movement]移動ペナルティが与えられます。</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+1視野、地形を無視し、川を横切る[icon_movement]動きのペナルティ</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_B_NAME" Language="ja_JP">
-			<Text>体力強化トレーニング</Text>
+			<Text>物理的な集中トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの移動 +2 [ICON_Movement]、視界範囲 +1、視界は地形や地形を通過可能</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+1視野、視野は地形と地形を通過することができます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_B_NAME" Language="ja_JP">
-			<Text>高度なフィジカルトレーニング</Text>
+			<Text>高度な身体トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_B_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの移動 +2[ICON_Movement]、視界範囲 +2</Text>
+			<Text>ユニット+2 [icon_movement]運動力、+2視野</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_C_NAME" Language="ja_JP">
-			<Text>海上攻撃対策訓練</Text>
+			<Text>海の攻撃対策トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_1_C_DESCRIPTION" Language="ja_JP">
-			<Text>海軍ユニットと戦うときの戦闘力 +10 [ICON_Strength]、視界範囲 +1</Text>
+			<Text>+10 [icon_strength]海軍ユニットと戦うときの戦闘力、+1視界</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_C_NAME" Language="ja_JP">
-			<Text>都市防衛対策訓練</Text>
+			<Text>都市防衛対策トレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_2_C_DESCRIPTION" Language="ja_JP">
-			<Text>ゾーンと戦うときの戦闘力 +17 [ICON_Strength]、視界範囲 +1、視界範囲内の目に見えないユニットを表示する</Text>
+			<Text>+17 [ICON_STRENGH]と戦うエリアと戦うとき、視野内の視野視野と表示される視野内に見えないユニットを表示します</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_C_NAME" Language="ja_JP">
-			<Text>空襲対策訓練</Text>
+			<Text>エアストライクカウンターメジャートレーニング</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_3_C_DESCRIPTION" Language="ja_JP">
-			<Text>航空ユニットの攻撃を防御する場合、+10 [ICON_Strength] の戦闘力がこのユニットを発見できます。</Text>
+			<Text>+10 [icon_strength]戦闘電力空気ユニットを防御するとき、隣接する敵ユニットのみがユニットを検出できます</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_4_NAME" Language="ja_JP">
-			<Text>キー同期のアップグレード</Text>
+			<Text>キーコチューニングアップグレード</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SPECIALCOMBAT_MODIFIER_4_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットが攻撃すると、戦闘力 +7 [ICON_Strength] と移動力 +2 [ICON_Movement] を獲得します。 フォーメーション内のすべてのユニットは、ライフを回復するために配置する必要はありません。ラウンドの始まり。</Text>
+			<Text>ユニットが攻撃すると、Combat Power +7 [Icon_Strength]が使用され、動き+2 [icon_movement]が使用されます。フォーメーション内のすべてのユニットは、ユニットの移動力を取得します。ユニットは、生命を回復するためにラウンドの開始時に駐留する必要はありません。 [icon_movement]運動力が許可されている場合、ターンあたり+1追加攻撃。攻撃後に移動できます</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_A_NAME" Language="ja_JP">
+			<Text>装甲沿岸防衛戦術</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_A_DESCRIPTION" Language="ja_JP">
+			<Text>+3 [icon_strength]防御時の戦闘力、+10 [icon_strength]海軍ユニットを防御するときの戦闘力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_A_NAME" Language="ja_JP">
+			<Text>鎧の略奪戦術</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_A_DESCRIPTION" Language="ja_JP">
+			<Text>+5 [icon_strength]戦闘力防御時に略奪すると、略奪は1つの動きの力を消費します</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_A_NAME" Language="ja_JP">
+			<Text>装甲防空戦術</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_A_DESCRIPTION" Language="ja_JP">
+			<Text>+7 [icon_strength]防御時の戦闘力、+15 [icon_strength]航空ユニットを防御するときの戦闘電力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_B_NAME" Language="ja_JP">
+			<Text>基本的な身体トレーニング</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_B_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット+2 [icon_movement]運動力、+1視野、地形を無視し、川を横切る[icon_movement]動きのペナルティ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_B_NAME" Language="ja_JP">
+			<Text>物理的な集中トレーニング</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_B_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット+2 [icon_movement]運動力、+1視野、視野は地形と地形を通過することができます</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_B_NAME" Language="ja_JP">
+			<Text>高度な身体トレーニング</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_B_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット+2 [icon_movement]運動力、+2視野</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_C_NAME" Language="ja_JP">
+			<Text>火力抑制トレーニング</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_1_C_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット+3 [icon_strength]戦闘電力、+10 [icon_strength]攻撃する際のユニットを攻撃する際の戦闘電力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_NAME" Language="ja_JP">
+			<Text>正確な射撃トレーニング</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_2_C_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット+5 [icon_strength]戦闘電力、+10 [icon_strength]戦闘力攻撃抗cavalryユニットを攻撃する</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_C_NAME" Language="ja_JP">
+			<Text>ゲリラ戦闘トレーニング</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_3_C_DESCRIPTION" Language="ja_JP">
+			<Text>ユニット+7 [icon_strength]戦闘力、+10 [icon_strength]攻撃する際の戦闘電力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_4_NAME" Language="ja_JP">
+			<Text>キーコチューニングアップグレード</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARMORRANGED_FIXER_4_DESCRIPTION" Language="ja_JP">
+			<Text>ユニットが攻撃すると、Combat Power +7 [Icon_Strength]が使用され、動き+2 [icon_movement]が使用されます。フォーメーション内のすべてのユニットは、ユニットの移動力を取得します。ユニットは、生命を回復するためにラウンドの開始時に駐留する必要はありません。 [icon_movement]運動力が許可されている場合、ターンあたり+1追加攻撃。攻撃後に移動できます</Text>
 		</Replace>
 		<Replace Tag="LOC_ATK_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットのアップグレードで戦闘力が {1_Amount}[ICON_Strength] 増加します</Text>
+			<Text>+{1_amount} [icon_strength]ユニットアップグレードからの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_NAME" Language="ja_JP">
-			<Text>論理の輪</Text>
+			<Text>理性のリング</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_XUNLIZHIHUAN_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>独自の戦闘効果を持つ特別な支援ユニットです。編成内のすべてのユニットがこのユニットの機動力を獲得します。[NEWLINE][COLOR:ResMilitaryLabelCS] このユニットは維持費が非常に高いため、慎重に構築してください。 [ENDCOLOR][NEWLINE]{LOC_TECH_STIRRUPS_NAME}、{LOC_TECH_BALLISTICS_NAME}、{LOC_TECH_COMBUSTION_NAME}、{LOC_TECH_SYNTHETIC_MATERIALS_NAME}を研究すると、ユニットの[ICON_Strength]戦闘効率が向上します[NEWLINE]{LOC_TECH_FLIGHT_NAME}、{LOC_TECH_COMPUTERS_N AME}を研究すると、ユニット[I]が有効になりますCON_Range] 範囲とビジョン 射程距離の増加[NEWLINE] + 高い機動力[NEWLINE] + 高い長距離戦闘効果[NEWLINE] + 軍事ユニットと編隊を形成する能力[NEWLINE] - 高額な維持費[NEWLINE] - すべてのユニットによって拘束される</Text>
+			<Text>Heimdalのキーに基づいた特別なサポートユニットには独自の戦闘力があり、すべてのフォーメーションユニットがユニットのモビリティ[Newline] [Color：ResmilitaryLabelcs]を取得しています。このユニットのメンテナンス料は非常に高いです。 [endcolor] [newline] Research {loc_tech_stirrups_name}、{loc_tech_ballistics_name}、{loc_tech_combustion_name}、{loc_tech_synthetic_materials_name} {loc_tech_flight_name}、{loc_tech_computers_name}は、ユニットの視野と視野を増やすことができます[icon_range] [newline]+高モビリティ[Newline]+High Longange Combat Power [Newline]+Military Units [Newline] -High Maintenance Fee]</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_NAME" Language="ja_JP">
 			<Text>ヘラ</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAILA_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>他人とのコミュニケーションが苦手で、いつも一人静かに夜空を眺めている少女には、幼い頃暗い経験があったようだ。</Text>
+			<Text>他の人とコミュニケーションをとりたくない女の子は、まるで暗い子供時代の経験があるかのように、常に夜空を静かに一人で見ています。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_NAME" Language="ja_JP">
+			<Text>リンユ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LINYU_DESCRIPTION" Language="ja_JP">
+			<Text>シファンアカデミーのZhimingの弟子も彼女のアシスタントです。彼は賢くて勉強しており、制度的スキルに大きな成果を収めています。目覚める前に、私は妹のYingzhaoに生涯依存し、妹が自分自身を守るために経験した苦難を目撃し、常に自分自身を証明し、妹の負担を軽減したいと考えていました。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_NAME" Language="ja_JP">
-			<Text>元鬼棒天狗</Text>
+			<Text>前鬼坊天狗</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_QIANGUIFANG_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>活発で屈託のない、元鬼坊は深宇宙の目最大のトラブルメーカーです。彼女はあり余るエネルギーをいたずらに費やし、「ホウグイ」という名のエアフレンドがいると主張していたが、ホウグイの存在が真実かどうかは誰も分からなかった。</Text>
+			<Text>活気のある屈託のない元ゴーストハウスは、深い空の目で最大の厄介な精神です。彼女はすべての過剰なエネルギーをいたずらに費やし、「hougui」という名前の空気の友人がいると主張しましたが、誰もHouguiの存在を知りませんでした。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_NAME" Language="ja_JP">
 			<Text>オシリス</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AOXILISI_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>本部で一番人気の矯正者は、皆から親しみを込めて「リトル・オシリス」と呼ばれている。仲間の悩みを察知した後は、常に仲間のことを第一に考え、静かに助けを差し伸べようとする。</Text>
+			<Text>本部で最も人気のある修正主義者は、愛情を込めて「リトルオシリス」と呼ばれています。あなたの仲間のトラブルを発見した後、あなたは彼らに助けを与えるために最善を尽くし、常にあなたの仲間の問題を最初に置きます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_AOXILISI_EXPANSION2_DESCRIPTION" Language="ja_JP">
+			<Text>本部で最も人気のある修正主義者は、愛情を込めて「リトルオシリス」と呼ばれています。あなたの仲間のトラブルを発見した後、あなたは彼らに助けを与えるために最善を尽くし、常にあなたの仲間の問題を最初に置きます。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_NAME" Language="ja_JP">
-			<Text>ヴェルダンテ</Text>
+			<Text>ワイアーダンティ</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIERDANDI_RELOAD_DESCRIPTION" Language="ja_JP">
 			<Text></Text>
@@ -619,493 +841,508 @@
 			<Text>リヴァイアサン</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LIWEITAN_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>毎日元気いっぱいのリヴァイアサンは、時々戸惑うかわいい男の子です。 無邪気で活発な性格ですが、彼女の前ではあまり親密な態度を示さないでください。</Text>
+			<Text>毎日エネルギーに満ちているレヴィアサンは、時々混乱するようになる少しかわいいキューティーです。彼女は無邪気で活気がありますが、彼女は予想外に少しjeしています。彼女の前でビダルに近づきすぎないでください。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_NAME" Language="ja_JP">
-			<Text>ビダル</Text>
+			<Text>ヴィダル</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WEIDAER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>凍てついた原始地帯から連れ戻された彼女は、孤独な生活が長く、少々冷たく孤独な印象を持ち、対人コミュニケーションがあまり得意ではないようだった。</Text>
+			<Text>凍結した原材料の領域から持ち帰られた矯正家、一年中一人でいるという彼女の人生は、彼女を少し冷たく撤退させ、彼女は対人コミュニケーションがあまり上手ではないように見えました。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SIKADI_RELOAD_NAME" Language="ja_JP">
-			<Text>スカディ</Text>
+			<Text>スカティ</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SIKADI_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>スカディは、Xio の命令を直接受け入れる第 9 部の数少ない現場修正官の 1 人であり、特に海域で目に見える残骸活動の兆候を調査する責任を負っています。表面的には飄々として見えるが、ここぞという場面では常に船長らしい勇気を見せる。</Text>
+			<Text>Sikatiは、Hughの指揮下にある9番目の部門の数少ない現場の修正の1つであり、海洋地域での視覚骨活動の兆候を調査する責任があります。彼女は表面上の気楽なように見えますが、それが重要な瞬間になると、彼女はキャプテンが持つべき勇気をいつでも見せることができます。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_NAME" Language="ja_JP">
 			<Text>大国主</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DAGUOZHU_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>「自由な研究と発明を行う」という条件で深宇宙の目に加わった少女は、現在未確認動物学チームで働いている。ただし、雇われているにもかかわらず死体との戦いにはほとんど参加せず、発明とタロットカードにしか興味がない様子。</Text>
+			<Text>「無料の研究と発明の実施」を条件に、ディープスペースの目に参加した少女は、現在隠された科学グループにいます。しかし、彼は彼が就任していると言いましたが、彼は同時の体の戦いにほとんど参加しておらず、発明とタロットカードにのみ興味があるように見えました。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_NAME" Language="ja_JP">
-			<Text>ヘイムダル</Text>
+			<Text>ハイムダル</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAIMUDAER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>隠された科学チームの主要リーダーの一人であり、「ミーミルシステム」を含む、深宇宙の目におけるAIシステムのほとんどを開発しました。視覚的な骨格を完全に排除することを目標に、あらゆる作業において正確さと効率性を追求します。</Text>
+			<Text>Hidden Science Groupの主要なリーダーの1人は、「Mimirシステム」を含む、Deep Space EyeのAIシステムのほとんどを開発しました。私たちは、体を完全に排除し、すべての精度と効率を追求することを目指しています。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_NAME" Language="ja_JP">
 			<Text>ホーデル</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HUODEER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>情報課のメンバーであるホーデルと妹のバドルは双子です。妹の明るく寛大な性格とは異なり、ホーデルは妹の光に黙って従うだけで、自分自身をあまり明らかにしません。</Text>
+			<Text>Intelligence報部門のメンバーであるHoddleは、妹のBaddleと双子です。妹の陽気で寛大な性格とは異なり、ホーデルは静かに妹の光をたどり、自分自身をあまり明らかにしませんでした。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SHAOXILISI_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>オシリスと全く同じ姿をしているが、内面の支配的な性格は狂気の「冥王星」であり、他の修飾者との協力を軽視する。</Text>
+			<Text>彼はオシリスとまったく同じ外観を持っていますが、彼の内なる支配的な性格は、他の修正主義者と協力する強力な力と軽daを持つ狂った「ut王星」です。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TUOER_RELOAD_NAME" Language="ja_JP">
-			<Text>ソー</Text>
+			<Text>トール</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TUOER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>ディープスカイアイの「雷部隊」の隊長であり、組織最強の戦闘員。チームの様々な行動は、失敗が続いても、最後は彼女の力を頼りに必ずやり遂げる。ソーは正義感に優れていますが、そのワイルドな戦闘スタイルに反して、物事に対処する際にはしばしば衝動的になります。</Text>
+			<Text>Deep Sky Eyeの「Thunder Squad」の船長は、組織で最も強力な戦闘力を持っています。チームのさまざまな行動では、たとえそれがいじりを続けていても、最終的に彼女の強さを完全に完了することを余儀なくされる可能性があります。トールは非常に正しいですが、彼の野生の戦闘スタイルに対応して、彼はしばしば物事を扱うことに衝動的です。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_CIVIC_NATIONALISM_NAME}: ユニットの戦闘力 +7[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 3[ICON_Gold] -3[ENDCOLOR]</Text>
+			<Text>{loc_civic_nationalism_name}：unit +7 [icon_strength]戦闘電力、[color：resmilitarylabelcs] -3 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_CIVIC_MOBILIZATION_NAME}: ユニットの戦闘力 +10[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 3[ICON_Gold] -3[ENDCOLOR]</Text>
+			<Text>{loc_civic_mobilization_name}：unit +10 [icon_strength] combat power、[color：resmilitarylabelcs] -3 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_IRON_WORKING_NAME}: ユニットの戦闘力 +16[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+			<Text>{loc_tech_iron_working_name}：unit +16 [icon_strength] combat power、[color：resmilitarylabelcs] -1 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: ユニットの戦闘力 +9[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+			<Text>{loc_tech_apprenticeship_name}：unit +9 [icon_strength]戦闘電力、[color：resmilatiorlabelcs] -1 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_GUNPOWDER_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -1[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
+			<Text>{loc_tech_gunpowder_name}：unit +10 [icon_strength] combat power、[color：resmilitarylabelcs] -1 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME}: ユニットの戦闘力 +10[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 -1[ICON_Gold] (維持費)[ENDCOLOR]</Text>
+			<Text>{loc_tech_military_science_name}：unit +10 [icon_strength] combat power、[color：resmilitarylabelcs] -1 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: ユニットの戦闘力 +10[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] ゴールド コイン (維持費)[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_STIRRUPS_NAME}: ユニットの戦闘力 +20 [ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンごとに [ICON_Gold] 金貨 (維持費) -1 [ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_BALLISTICS_NAME}: ユニットの戦闘力 +14[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] 金貨 (維持費)[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_COMBUSTION_NAME}: ユニットの戦闘力 +21[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 -2[ICON_Gold] (維持費)[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_SYNTHETIC_MATERIALS_NAME}: ユニットの戦闘力 +1[ICON_Strength]、ターンごとに [COLOR:ResMilitaryLabelCS] -2[ICON_Gold] ゴールド コイン (維持費)[ENDCOLOR]</Text>
+		<Replace Tag="LOC_ABILITY_TECH_REFINING_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{loc_tech_refining_name}：unit +10 [icon_strength]戦闘電力、[color：resmilitarylabelcs] -2 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_STIRRUPS_ADD_20_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_STIRRUPS_NAME}: ユニットの戦闘力 +20[ICON_Strength]、[COLOR:ResMilitaryLabelCS] 1 ターンあたり金貨 2[ICON_Gold] -2[ENDCOLOR]</Text>
+			<Text>{loc_tech_stirrups_name}：unit +20 [icon_strength]戦闘電力、[color：resmilitarylabelcs] -1 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{loc_tech_ballistics_name}：unit +14 [icon_strength]戦闘電力、[color：resmilitarylabelcs] -2 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{loc_tech_combustion_name}：unit +21 [icon_strength]戦闘電力、[color：resmilitarylabelcs] -2 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{loc_tech_synthetic_materials_name}：unit +1 [icon_strength]戦闘電力、[color：resmilitarylabelcs] -2 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_IRON_WORKING_NAME}: ユニット +16 [ICON_AntiAir_Large] 対空戦闘力</Text>
+			<Text>{loc_tech_iron_working_name}：unit +16 [icon_antiair_large]防空戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_APPRENTICESHIP_NAME}: ユニットの対空戦闘力 +9[ICON_AntiAir_Large]</Text>
+			<Text>{loc_tech_apprenticeship_name}：unit +9 [icon_antiair_large]防空戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_GUNPOWDER_NAME}: ユニット +10 [ICON_AntiAir_Large] 対空戦闘力</Text>
+			<Text>{loc_tech_gunpowder_name}：unit +10 [icon_antiair_large]防空戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{TECH_MILITARY_SCIENCE}: ユニットの対空戦闘力 +10[ICON_AntiAir_Large]</Text>
+			<Text>{loc_tech_military_science_name}：unit +10 [icon_antiair_large]防空戦闘力</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME}: ユニット +10[ICON_AntiAir_Large] 対空戦闘力</Text>
+		<Replace Tag="LOC_ABILITY_TECH_REFINING_ADD_10_ANTI_AIR_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{loc_tech_refining_name}：unit +10 [icon_antiair_large]防空戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_COMBAT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_COMPOSITES_NAME}: ユニットの戦闘力 +10[ICON_Strength]</Text>
+			<Text>{loc_tech_composites_name}：unit +10 [icon_strength]戦闘電力、[color：resmilitarylabelcs] -3 [icon_gold]ゴールドコイン（メンテナンス料）[endcolor]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_ANTI_AIR_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_COMPOSITES_NAME}: ユニットの対空戦闘力 +10[ICON_AntiAir_Large]</Text>
+			<Text>{loc_tech_composites_name}：unit +10 [icon_antiair_large]防空戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_FLIGHT_ADD_1_RANGE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_FLIGHT_NAME}: ユニット +1[ICON_Range] 範囲</Text>
+			<Text>{loc_tech_flight_name}：unit +1 [icon_range]範囲</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPUTERS_ADD_2_RANGE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_COMPUTERS_NAME}: 単位 + 2 [ICON_Range] 範囲</Text>
+			<Text>{loc_tech_computers_name}：unit +2 [icon_range]範囲</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_FLIGHT_ADD_1_SIGHT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_FLIGHT_NAME}: ユニットの視界範囲 +1、移動 [ICON_Movement] +4</Text>
+			<Text>{loc_tech_flight_name}：ユニット+1ビューフィールド、+4 [icon_movement]運動力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPUTERS_ADD_2_SIGHT_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_COMPUTERS_NAME}: ユニットの視界範囲 +2、[ICON_Movement]移動力 +4</Text>
+			<Text>{loc_tech_computers_name}：unit +2 view of View、+4 [icon_movement]運動力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_NATIONALISM_ADD_7_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_CIVIC_NATIONALISM_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_amount} {loc_civic_nationalism_name} from from from from</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CIVIC_MOBILIZATION_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_CIVIC_MOBILIZATION_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_amount} {loc_civic_mobilization_name} from}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_IRON_WORKING_ADD_16_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_IRON_WORKING_NAME} の戦闘力 + {1_Amount}</Text>
+			<Text>+{1_amount} {loc_tech_iron_working_name} from}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_APPRENTICESHIP_ADD_9_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_APPRENTICESHIP_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_amount} {loc_tech_apprenticeship_name} from}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_GUNPOWDER_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_GUNPOWDER_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_amount} {loc_tech_gunpowder_name} from}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_MILITARY_SCIENCE_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_MILITARY_SCIENCE_NAME} の戦闘力 + {1_Amount}</Text>
+			<Text>+{1_amount} {loc_tech_military_science_name} from} from}</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_TECH_REPLACEABLE_PARTS_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_REPLACEABLE_PARTS_NAME} の戦闘力 + {1_Amount}</Text>
+		<Replace Tag="LOC_ABILITY_TECH_REFINING_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} {loc_tech_refining_name} from from from from from</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_CASTLES_ADD_20_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_CASTLES_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_AMount} Combat Power、from {loc_tech_castles_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_BALLISTICS_ADD_14_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_BALLISTICS_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_AMount} Combat Power、from {loc_tech_ballistics_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMBUSTION_ADD_21_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_COMBUSTION_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_amount} {loc_tech_combustion_name} from from from from</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_SYNTHETIC_MATERIALS_ADD_1_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_SYNTHETIC_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_amount} {loc_tech_synthetic_name} from from from from</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_STIRRUPS_ADD_20_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_STIRRUPS_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_amount} {loc_tech_stirrups_name} from} from</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TECH_COMPOSITES_ADD_10_COMBAT_AETHERGAZER_COMBAT_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_TECH_COMPOSITES_NAME} の戦闘力が {1_Amount} 増加します</Text>
+			<Text>+{1_amount} from {loc_tech_composites_name}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SWORD_FIXER_ADD_10_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ja_JP">
-			<Text>対騎兵ユニットと戦うときの戦闘力 +10 [ICON_Strength]</Text>
+			<Text>+10 [icon_strength]対カバリユニットと戦うときの戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SWORD_FIXER_ADD_10_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>重火器修正値に対する戦闘力 +10 [ICON_Strength]</Text>
+			<Text>重兵器補正+10 [icon_strength]戦闘力との戦い</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="ja_JP">
-			<Text>重騎兵ユニットに対する戦闘力 -20[ICON_Strength]</Text>
+			<Text>重い騎兵ユニット-20 [icon_strength]戦闘力と戦う</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_LIGHT_CAVALRY_DESCRIPTION" Language="ja_JP">
-			<Text>-20[ICON_Strength]軽騎兵ユニットに対する戦闘力</Text>
+			<Text>軽い騎兵ユニット20 [icon_strength]戦闘力との戦い</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_REDUCE_20_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ja_JP">
-			<Text>遠距離ユニットに対する戦闘力 -20[ICON_Strength]</Text>
+			<Text>Ranged Units-20 [icon_strength]戦闘力との戦い</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="ja_JP">
-			<Text>重騎兵ユニットに対する戦闘力 +35[ICON_Strength]</Text>
+			<Text>重い騎兵ユニット+35 [icon_strength]戦闘力と戦う</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_LIGHT_CAVALRY_DESCRIPTION" Language="ja_JP">
-			<Text>軽騎兵ユニットに対する戦闘力 +35[ICON_Strength]</Text>
+			<Text>軽い騎兵ユニット+35 [icon_strength]戦闘力との戦い</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_ADD_35_COMBAT_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>重火器修正値に対する戦闘力 +35[ICON_Strength]</Text>
+			<Text>重兵器補正+35 [icon_strength]戦闘力との戦い</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_MELEE_DESCRIPTION" Language="ja_JP">
-			<Text>近接ユニットに対する戦闘力 -10[ICON_Strength]</Text>
+			<Text>近接ユニット-10 [icon_strength]戦闘力との戦い</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ANTIFIXER_REDUCE_10_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ja_JP">
-			<Text>遠距離ユニットに対する戦闘力 -10[ICON_Strength]</Text>
+			<Text>遠隔ユニット-10 [icon_strength]戦闘力と戦う</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_ADD_10_COMBAT_VS_CLASS_RANGED_DESCRIPTION" Language="ja_JP">
-			<Text>遠距離ユニットに対する戦闘力 +10[ICON_Strength]</Text>
+			<Text>遠隔ユニット+10 [icon_strength]戦闘力と戦う</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_ADD_20_COMBAT_VS_CLASS_RANGED_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>遠距離モディファイアに対する戦闘力 +20 [ICON_Strength]</Text>
+			<Text>遠隔補正剤+20 [icon_strength]戦闘力との戦い</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_REDUCE_35_COMBAT_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ja_JP">
-			<Text>対騎兵ユニットと戦うときの戦闘力 -30 [ICON_Strength]</Text>
+			<Text>反カバリーユニットと戦うとき-30 [icon_strength]戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HEVAYWEAPON_FIXER_DEF_REDUCE_30_VS_CLASS_MELEE_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの近接攻撃を防御する場合、戦闘力 -30 [ICON_Strength]</Text>
+			<Text>近接ユニットを防御するとき-30 [icon_strength]戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMORSWORD_FIXER_DEF_REDUCE_30_VS_CLASS_ANTI_CAVALRY_DESCRIPTION" Language="ja_JP">
-			<Text>騎兵ユニットからの攻撃を防御する場合、戦闘力 -30 [ICON_Strength]</Text>
+			<Text>Cavalryユニットから防御するとき-30 [icon_strength]戦闘力を攻撃します</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ARMORSWORD_FIXER_DEF_REDUCE_30_VS_CLASS_ANTIFIXER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>対騎兵および対戦車補正からの攻撃を防御する場合の戦闘力 -30 [ICON_Strength]</Text>
+			<Text>防御抗カバル抗タンク修飾子攻撃-30 [icon_strength]戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_DEF_REDUCE_20_VS_CLASS_SIEGE_DESCRIPTION" Language="ja_JP">
-			<Text>攻城部隊からの攻撃を防御する場合、戦闘力 -20 [ICON_Strength]</Text>
+			<Text>包囲ユニットに対する防御攻撃-20 [icon_strength]戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RANGED_FIXER_DEF_REDUCE_20_VS_DISTRICTS_DESCRIPTION" Language="ja_JP">
-			<Text>範囲攻撃防御時の戦闘力 -20[ICON_Strength]</Text>
+			<Text>防御エリア攻撃-20 [icon_strength]戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SPECIALCOMBAT_FIXER_DEF_REDUCE_10_VS_CLASS_SIEGE_DESCRIPTION" Language="ja_JP">
-			<Text>攻城部隊からの攻撃を防御する場合、戦闘力 -10 [ICON_Strength]</Text>
+			<Text>包囲ユニットに対する防御攻撃-10 [icon_strength]戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SPECIALCOMBAT_FIXER_DEF_REDUCE_10_VS_CLASS_HEVAYWEAPON_FIXER_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>防御重火器修正から攻撃する場合の戦闘力 -10[ICON_Strength]</Text>
+			<Text>防御的な重兵器矯正器攻撃-10 [icon_strength]戦闘力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_AFTER_ATTACK_KEEP_MOVEING_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットは攻撃後も[ICON_Movement]移動を続けることができます</Text>
+			<Text>ユニット攻撃の後、[icon_movement]を移動し続けることができます</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_NO_TERRAIN_MOVEMENT_DEBUFF_DESCRIPTION" Language="ja_JP">
-			<Text>ユニット [ICON_Movement] は移動時に地形や河川横断のペナルティを受けません。</Text>
+			<Text>ユニット[icon_movement]は、動いているときに地形や川を渡ることで罰せられません</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ATTACK_AGAIN_DESCRIPTION" Language="ja_JP">
-			<Text>ユニット[ICON_Turn]の攻撃力+1</Text>
+			<Text>ユニット[icon_turn] +1を攻撃します</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_AMPHIBIOUS_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットは水中でも戦える</Text>
+			<Text>ユニットは水域で戦うことができます</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_RANGED_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットは都市の防御に完全なダメージを与えます</Text>
+			<Text>このユニットは、都市の防衛に完全な損害を与えます</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CAN_NOT_MELEE_ATTACK_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットは [ICON_Strength] の近接攻撃を使用できません</Text>
+			<Text>ユニットは[icon_strength]近接攻撃を使用できません</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_ESCORT_MOBILITY_SHARED_MOVEMENT_DESCRIPTION" Language="ja_JP">
-			<Text>フォーメーション内のすべてのユニットはこのユニットの[ICON_Movement]の移動力を得る</Text>
+			<Text>すべてのフォーメーションユニットがユニットの動きを取得しました[icon_movement]</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_NO_DEBUFF_VS_DISTRICT_MEELE_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットはエリアにフルダメージを与える</Text>
+			<Text>ユニットは、エリアに完全な損傷を引き起こします</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_XUNLIZHIHUAN_RELOAD_NAME" Language="ja_JP">
-			<Text>包囲都市</Text>
+			<Text>街を包囲します</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_2_COMBAT_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力 +2[ICON_Strength]</Text>
+			<Text>ユニット+2 [icon_strength]戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_1_MOVENENT_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>ユニット+1[ICON_Movement]の移動</Text>
+			<Text>ユニット+1 [icon_movement]運動力</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_4_1_ESCORT_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力は +4 [ICON_Strength]、+1 [ICON_Movement] の移動力を持ち、すべての編隊ユニットは付随するユニットの [ICON_Movement] の移動力を獲得します。</Text>
+			<Text>ユニット+4 [icon_strength]戦闘電力、+1 [icon_movement]モビリティパワー、すべてのフォーメーションユニットが付随するユニット[icon_movement]モビリティパワーを取得しました</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_3_COMBAT_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力+3[ICON_Strength]</Text>
+			<Text>ユニット+3 [icon_strength]戦闘電力</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_2_MOVENENT_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>ユニット+2[ICON_Movement]の移動</Text>
+			<Text>ユニット+2 [icon_movement]運動力</Text>
 		</Replace>
 		<Replace Tag="LOC_ADD_7_4_ESCORT_RELOAD_DESCRIPTION" Language="ja_JP">
-			<Text>ユニットの戦闘力は+7 [ICON_Strength]、移動力は+4 [ICON_Movement]で、すべての編隊ユニットは随伴ユニットの[ICON_Movement]移動力を獲得します。</Text>
+			<Text>ユニット+7 [icon_strength]戦闘電力、+4 [icon_movement]モビリティ、すべてのフォーメーションユニットが付随するユニット[icon_movement]モビリティパワーを取得しました</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_NAME" Language="ja_JP">
-			<Text>生態学的な製材所</Text>
+			<Text>生態学的伐採農場</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_SAWMILL_DESCRIPTION" Language="ja_JP">
-			<Text>特別に改良された施設、一部の Modifier リーダーのみが建設可能、生産性 +2 [ICON_Production]、周囲のセルのチャーム +1、改良された施設はセル チャーム値に基づいて追加の 100% [ICON_Gold] 金貨生産量を獲得できます。研究後 { LOC_TECH_INDUSTRIALIZATION_NAME} の改良施設は、金貨の産出量に基づいて 25% [ICON_Tourism] の観光パフォーマンスを得ることができ、森林または熱帯雨林のあるセル上にのみ建設できます。</Text>
+			<Text>特別な改善施設、一部の修正リーダーのみ、+2 [icon_production]生産性、周囲のセルの+1チャームのみを構築できます。 {loc_tech_industrialization_name}を調査した後、改善施設は金コインの出力に基づいて25％[icon_tourism]観光パフォーマンスを得ることができ、森林または熱帯雨林の細胞にのみ構築できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_NAME" Language="ja_JP">
-			<Text>極地科学研究ワークステーション</Text>
+			<Text>Polar Science Expedition Workstation</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_WORKSTATION_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設。{LOC_TECH_MINING_NAME}、+1 [ICON_Science] 研究によってロック解除され、関連技術を研究した後、追加の [ICON_Science] ] 科学成果を得ることができます。研究、[ICON_Food] の食料、[ICON_Gold] の金貨、[ICON_Production] の生産性は、雪の丘にのみ建設できます。</Text>
+			<Text>特別な改善施設、いくつかのリビジョンリーダーのみが構築できる、{loc_tech_mining_name} +1 [icon_science]科学研究、さまざまな隣接する地形と改善施設は追加のアウトプットを取得できます。生産性は、スノーヒルズにのみ構築できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_NAME" Language="ja_JP">
-			<Text>極地科学研究居住区</Text>
+			<Text>極科学試験リビングエリア</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_RESEARCH_LIVING_ROOM_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設、一部の修飾リーダーのみが建設可能、+1 [ICON_Culture] 文化 +1 [ICON_Production] 生産性、さまざまな隣接する地形と改善施設は追加の生産物を得ることができ、関連技術を研究した後、より多くの [ ICON_Food] 食料を入手できます, [ICON_Gold] 金貨と [ICON_Production] 生産性は、凍土、凍土の丘、雪の上にのみ建設できます。</Text>
+			<Text>特別な改善施設、いくつかの修正主義者のみがそれらを構築できる、+1 [icon_culture] Culture +1 [icon_production]生産性、隣接する異なる地形と改善施設は追加の生産量を得ることができ、より多くの[icon_food]食品を研究した後、[icon_gold] coins、hill furing furing frued frued frued furse</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_NAME" Language="ja_JP">
-			<Text>大型科学研究船</Text>
+			<Text>大規模な科学研究船</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_HEANY_SHIP_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設。一部の Modifier リーダーのみが建設できます。{LOC_TECH_SHIPBUILDING_NAME}、+2[ICON_Food] 食品 +1[ICON_Culture] 文化によってロック解除されます。隣接する別の改善施設は追加の出力を取得できます。関連技術を研究した後に取得できます。その他の出力。</Text>
+			<Text>特別な改善施設、いくつかの改訂リーダーのみを構築できる、{loc_tech_shipbuilding_name} unlock、+2 [icon_food] food +1 [icon_culture] culture、さまざまな隣接する改善施設は追加の出力を得ることができ、関連する技術を研究した後、より多くの出力を取得できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_NAME" Language="ja_JP">
 			<Text>海事科学研究プラットフォーム</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SCIENTIFIC_OFFSHORE_PLATFORMS_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設、一部のモディファイアー リーダーのみが建設可能、{LOC_TECH_SHIPBUILDING_NAME}、生産性 +2[ICON_Production] +1[ICON_Science] 研究によってロック解除され、隣接する別の改善施設で追加の出力を取得できます。関連技術を研究した後に取得できます。さらに出力。</Text>
+			<Text>特別な改善施設、いくつかのリビジョンリーダーのみを構築できる、{loc_tech_shipbuilding_name}ロック解除、+2 [icon_production]生産性+1 [icon_science]科学研究では、さまざまな隣接する改善施設が追加の出力を得ることができ、関連技術を研究した後、より多くの出力を得ることができます。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GREY_WORKSTATION_NAME" Language="ja_JP">
-			<Text>徐恒鉱山</Text>
+			<Text>Xuheng鉱山</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GREY_WORKSTATION_DESCRIPTION" Language="ja_JP">
-			<Text>天元神界の修飾リーダーのみが建設できる特別な改善施設、+3 [ICON_Food] 食料 + 2 [ICON_Production] 生産性 + 2 [ICON_Faith] 信仰 関連技術を研究すると、より多くの [ICON_Production] 生産性を獲得できます。</Text>
+			<Text>Tianyuan Divine Realmのリーダーのみがそれらを構築できる特別な改善施設、+3 [Icon_Food] Food +2 [ICON_Production]生産性+2 [ICON_FAITH]信念、[ICON_Production]関連技術を研究した後、より多くの[icon_production]生産性を得ることができます。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SLEEPSHEEP_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>スリーピングシープパラダイス</Text>
+			<Text>眠っている羊の楽園</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SLEEPSHEEP_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設、一部の Modifier リーダーのみが建設可能、+1[ICON_Food]食料 +2[ICON_Housing]住宅 +1[ICON_Amenities]居住性、+1[ICON_Food]食料 +1[ICON_Production]周囲の土地生産性 +1 [ICON_Gold] ] 金貨 +1 [ICON_Faith] 信仰 関連技術を研究すると、より多くの [ICON_Production] 生産性を得ることができます。草原、草原の丘、草原の氾濫原、平原、平原の丘、平原の氾濫原などに存在することができます。砂漠、砂漠の丘、砂漠の氾濫原、オアシス、沼地に建設しましょう。</Text>
+			<Text>特別な改善施設、いくつかの修正主義者のみが構築できる、+1 [icon_food] food +2 [icon_gold]ゴールドコイン+1 [icon_faith]信仰+2 [icon_housing] housing +1 [icon_amenities] liveability、clots +1 [icon_food] edapting exting will will will will will edult for for plots +1 [icon_production exploduction]草原、草原の丘、草原の洪水平原、平野、プレーンヒルズ、平野の洪水平原、砂漠、砂漠の丘、砂漠の洪水平原、オアシス、沼地の建設を許可する</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUNTAINPARK_AETHERGAZER_NAME" Language="ja_JP">
 			<Text>ピークパーク</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUNTAINPARK_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>奥山神界のモディファイアリーダーのみが建設できる特別な改善施設 +1 [ICON_Food] 食料 +1 [ICON_Production] 生産性 +1 [ICON_Gold] 金貨 +1 [ICON_Faith] 信仰 +1 [ICON_Science] 技術価値+1 [ICON_Culture] ] 文化値 +1 [ICON_Amenities] 居住性、+1 [ICON_Food] 食料 +1 [ICON_Production] 生産性 +1 [ICON_Gold] 金貨 +1 [ICON_Faith] 周囲の山細胞への信仰、上でのみ構築可能山。ユニットは 2 ポイントの [ICON_Movement] 移動を消費して、あるポイントから進入し、別のポイントから退出できます。</Text>
+			<Text>特別な改善施設は、驚くべき神の領域の指導者によってのみ構築できます。 +1 [icon_food] [icon_production] [icon_gold] [icon_faith] [icon_science] [icon_culture] all output +1 [icon_amenities] livability、そして関連技術を調査した後、より多くの出力を得ることができます。周囲のセル+1 [ICON_FOOD] FOOD +1 [ICON_PRODUCTION]生産性+1 [ICON_GOLD]ゴールドコイン+1 [ICON_FAITH]信仰、山にのみ構築できます。ユニットは2ポイント[icon_movement]移動力があるポイントから入り、別のポイントから出て行くことができます</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HYPESPACENOTE_AETHERGAZER_NAME" Language="ja_JP">
 			<Text>ハイパースペースノード</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_HYPESPACENOTE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設、一部の Modifier リーダーのみが建設可能、+1 [ICON_Science] テクノロジー値 +2 [ICON_Housing] 住宅 +1 [ICON_Amenities] 居住性、+1 [ICON_Food] 地形のない周囲セルの食料 +1 [ICON_Production] 生産性、関連テクノロジーを調査した後にさらに多くの出力を取得できますが、別のハイパースペース ノードの隣に構築することはできません。ハイパースペース ノードの 1 セル内のユニットは、帝国のハイパースペース ノードの 1 つに近い任意のセルにテレポートできるようになりました。</Text>
+			<Text>特別な改善施設では、一部のリビジョンリーダーのみがそれらを構築できます。ハイパースペースノードのセル1の範囲内のユニットは、帝国のハイパースペースノードの1つの近くのセルにテレポートできるようになりました</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CANDYWORKSHOP_NAME" Language="ja_JP">
+			<Text>キャンディーワークショップ</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CANDYWORKSHOP_DESCRIPTION" Language="ja_JP">
+			<Text>特別な改善施設、いくつかの改訂リーダーのみがそれらを構築できます、+1 [icon_production]生産性+1 [icon_science]テクノロジー価値+1 [icon_culture]文化価値+2 [icon_housing]住宅+1 [icon_amenities] livability、および周囲のプロット+1 [icon_food +2 [icon_production +2 [icon_production +2]テクノロジー。キャンディーワークショップのセル1の範囲のユニットは、帝国のキャンディーワークショップの1つの近くのセルにテレポートできるようになりました。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAOYIJIEDIAN_NAME" Language="ja_JP">
+			<Text>トレードノード</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAOYIJIEDIAN_DESCRIPTION" Language="ja_JP">
+			<Text>特別な改善施設は、一部の修正主義者によってのみ構築できます。 +5 [icon_gold]ゴールドコイン、および関連技術の調査後、より多くの出力が得られます。 +1 [ICON_GOLD]ゴールドコインを提供+1 [ICON_Production]市の国際および国内貿易ルートの生産性、および都市に接続されたその他の文明化された貿易ルートは、+1 [ICON_GOLD]ゴールドコイン+1 [ICON_PRODUCTION]を提供します。都市、そしてボーナスリソースのない平らで丘陵のセルの上にのみ構築できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_NAME" Language="ja_JP">
+			<Text>生態鉱山</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENT_MINE_DESCRIPTION" Language="ja_JP">
+			<Text>特別な改善施設では、一部の修正リーダーのみがそれらを構築できます。+1 [icon_food] Food +1 [icon_production]生産性、および関連技術を調査した後、より多くの出力が得られます。周囲のセル+1チャームの場合、改良された施設は、セルチャーム値に基づいて追加の100％[icon_gold]ゴールドコイン出力を取得できます。 {loc_tech_industrialization_name}を調査した後、改善された施設は、金貨の出力に基づいて25％[icon_tourism]観光パフォーマンスを得ることができます。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ja_JP">
-			<Text>天源神界</Text>
+			<Text>天垣神域</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ja_JP">
-			<Text>天源神界</Text>
+			<Text>天垣神域</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_GREY_ADJECTIVE" Language="ja_JP">
-			<Text>天源神界</Text>
+			<Text>Tianyuan Divine Realm</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_NAME" Language="ja_JP">
-			<Text>神界・天元</Text>
+			<Text>神域-天垣</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>天鹿貿易</Text>
+			<Text>Tianlu貿易</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>Tianyuan Divine Realm の特徴的なエリアは、{LOC_DISTRICT_COMMERCIAL_HUB_NAME} に代わるもので、最初はロック解除されています。コストは低く、人口の需要に関係なく建設できます。完了すると、[ICON_Gold] の金貨隣接ボーナスが 2 つあり、[ICON_TradeRoute] 交易ルートと 2 つの商人が得られます。あなたが作成した都市、Tianlu Trade [ICON_Gold] 金貨隣接ボーナスは、[ICON_Science] 技術価値も提供します</Text>
+			<Text>Tianyuan Divine Realmは、{loc_district_commercial_hub_name}に代わって領域を備えています。これは、最初にロック解除され、コストが低く、価格の上昇がなく、人口のニーズに関係なく構築できます。ユニークな[icon_gold]ゴールドコイン隣接するボーナスがあり、完了後、2つの[icon_traderoute]トレードルートと2つの商​​人を受け取ります。あなたが作成した都市、Tianlu Trade [Icon_Gold] Gold Coin隣接ボーナスも[icon_science]テクノロジー価値を提供します</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>四方原</Text>
+			<Text>sifangyuan</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>天源神界特別エリアは、{LOC_DISTRICT_HOLY_SITE_NAME} に代わるもので、最初はロック解除されており、無料で建設でき、価格は上昇せず、人口需要に関係なく建設できます。ユニークな [ICON_Food] 食品隣接ボーナスを特徴とし、[ICON_Food] 食品隣接ボーナスは [ICON_Faith] 信仰も提供します。あなたが作成した都市の場合、クアッドの [ICON_Food] 食品隣接ボーナスにより、[ICON_Culture] 文化価値も提供されます</Text>
+			<Text>Tianyuan Divine Realmは、{loc_district_holy_site_name}に代わって領域を備えており、最初はロック解除され、価格上昇なしで自由に構築でき、人口のニーズに関係なく構築できます。ユニークな[icon_food]食品隣接ボーナスがあり、[icon_faith]信仰も提供します。あなたが作成した都市、sifangyuan [icon_food]食品隣接ボーナスも[icon_culture]文化的価値を提供します</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Food] 食料は隣接するエリアから調達されます</Text>
+			<Text>+{1_num} [icon_food]食べ物は隣接するエリアから来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Food] 食べ物は隣接する山から採れます</Text>
+			<Text>+{1_num} [icon_food]食べ物は隣接する山から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Food] 食料は隣接する資源から得られます</Text>
+			<Text>+{1_num} [icon_food]食べ物は隣接するリソースから来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Food] 人工の不思議な食べ物</Text>
+			<Text>+{1_num} [icon_food]食べ物は人工の驚異から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Food] 食料は隣接する水域から来ます</Text>
+			<Text>+{1_num} [icon_food]食べ物は隣接する水から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_IMPROVEMENT_GREY_WORKSTATION_ADD_1_FOOD_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_IMPROVEMENT_GREY_WORKSTATION_NAME} の +{1_num} 個の [ICON_Food] 食品</Text>
+			<Text>+{1_num} [icon_food] {loc_improvement_grey_workstation_name}の食べ物}</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_GOLD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Gold] 個の隣接エリアからのゴールド コイン</Text>
+			<Text>+{1_NUM} [ICON_GOLD]ゴールドコインは隣接するエリアから来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_GOLD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Gold] 枚の隣接する山からの金貨</Text>
+			<Text>+{1_num} [icon_gold]金貨は隣接する山から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_GOLD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Gold] 個の隣接するリソースからのゴールド コイン</Text>
+			<Text>+{1_NUM} [ICON_GOLD]ゴールドコインは、隣接するリソースから来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_GOLD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Gold] 人工の驚異からの金貨</Text>
+			<Text>+{1_NUM} [ICON_GOLD]ゴールドコインは、人工的な不思議から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_GOLD_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Gold] 近くの海域からの金貨</Text>
+			<Text>+{1_num} [icon_gold]金貨は隣接する水から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_IMPROVEMENT_GREY_WORKSTATION_ADD_1_GOLD_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_IMPROVEMENT_GREY_WORKSTATION_NAME} から +{1_num} [ICON_Gold] ゴールド</Text>
+			<Text>+{1_num} [icon_gold]ゴールドは{loc_improvevement_grey_workstation_name}から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_FAITH_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Faith] 信仰は隣接する地域から生まれます</Text>
+			<Text>+{1_num} [icon_faith]信仰は隣接する地域から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_FAITH_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Faith] 信仰は隣接する山から生まれます</Text>
+			<Text>+{1_num} [icon_faith]信仰は隣接する山から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_FAITH_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Faith] 信仰は隣接するリソースから得られます</Text>
+			<Text>+{1_num} [icon_faith]信仰は隣接するリソースから来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_FAITH_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Faith] 信仰は人工の驚異から生まれる</Text>
+			<Text>+{1_num} [icon_faith]信仰は人工的な驚異から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_FAITH_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Faith] 信仰は隣接する水域から生まれます</Text>
+			<Text>+{1_num} [icon_faith]信仰は隣接する水から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_CULTURE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Culture] 文化値は隣接するエリアから取得されます</Text>
+			<Text>+{1_NUM} [ICON_CULTURE]文化の価値は、隣接する領域からのものです</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_CULTURE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Culture] 文化の価値は隣接する山から生まれます</Text>
+			<Text>+{1_num} [icon_culture]文化的価値は隣接する山から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_CULTURE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Culture] 文化値は隣接するリソースから得られます</Text>
+			<Text>+{1_num} [icon_culture]文化価値は、隣接するリソースからのものです</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_CULTURE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Culture] 文化の価値は人工の驚異から生まれます</Text>
+			<Text>+{1_num} [icon_culture]文化的価値は、人工的な驚異から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_CULTURE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Culture] 隣接する水域の文化価値</Text>
+			<Text>+{1_NUM} [ICON_CULTURE]文化的価値は隣接する水から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_SCIENCE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Science] 科学値は隣接するエリアから取得されます</Text>
+			<Text>+{1_num} [icon_science]テクノロジーの値は、隣接する領域から得られます</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_SCIENCE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Science] 科学の価値は隣接する山から得られます</Text>
+			<Text>+{1_num} [icon_science]テクノロジーの価値は、隣接する山からのものです</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_SCIENCE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Science] 科学の価値は隣接するリソースから得られます</Text>
+			<Text>+{1_num} [icon_science]テクノロジーの値は、隣接するリソースから得られます</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_SCIENCE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Science] 科学技術の価値は人工の驚異から生まれます</Text>
+			<Text>+{1_num} [icon_science]テクノロジーの価値は、人工的な驚異から得られます</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_SCIENCE_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Science] 科学的価値は隣接する水域から得られます</Text>
+			<Text>+{1_num} [icon_science]テクノロジーの値は、隣接する水から得られます</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_DISTRICT_ADD_1_PRODUCTION_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Production] 隣接エリアからの生産</Text>
+			<Text>+{1_NUM} [ICON_Production]生産性は隣接するエリアから得られます</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_MOUNTAIN_ADD_1_PRODUCTION_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Production] 隣接する山からの生産</Text>
+			<Text>+{1_NUM} [ICON_Production]生産性は隣接する山から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_RESOURCE_ADD_1_PRODUCTION_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Production] 隣接するリソースから生産されます</Text>
+			<Text>+{1_NUM} [ICON_Production]生産性は隣接するリソースから得られます</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WONDER_ADD_1_PRODUCTION_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Production] 生産性は人工の驚異から生まれます</Text>
+			<Text>+{1_NUM} [ICON_Production]生産性は人工的な驚異から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_AETHERGAZER_ADJACENCY_WATER_ADD_1_PRODUCTION_DESCRIPTION" Language="ja_JP">
-			<Text>+{1_num} [ICON_Production] 隣接海域からの生産</Text>
+			<Text>+{1_NUM} [ICON_Production]生産性は隣接する水から得られます</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_GREY_DESCRIPTION" Language="ja_JP">
-			<Text>都市を建設すると広大な領土を獲得でき、丘 +2 [ICON_Food] 食料 +2 [ICON_Production] 生産性、都市の境界は [ICON_Culture] 文化的価値によって拡張できません</Text>
+			<Text>巨大な領土を獲得するために都市を建設し、Hills +2 [Icon_Food] Food +2 [ICON_Production]生産性を獲得してください。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_NAME" Language="ja_JP">
-			<Text>ゴールデンクロウ</Text>
+			<Text>ゴールデンウー</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINWU_DESCRIPTION" Language="ja_JP">
-			<Text>徐恒で生まれた彼は、子供の頃から師匠の西和に従い、南礁島の若木宮で天通術を練習していました。彼は正しく正義の人ですが、何らかの理由で二次的な問題を抱えています。先生の指導に従い、現在下山練習中です。</Text>
+			<Text>Xu Hengが生まれ、教師のXiheに続いて、幼少期からNanjiao島のRuomu宮殿でTiantong Technikeを実践しました。彼は正義で正義ですが、何らかの理由で2年生にいくつかの問題があります。教師の指示に従って、私は現在山を下って練習しています。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LINGGUANG_NAME" Language="ja_JP">
 			<Text>陵光</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LINGGUANG_DESCRIPTION" Language="ja_JP">
-			<Text>四方原の南道氏の代理人は医師であり、人民の苦しみをよく知っている。彼女は南焦に診療所「Chiqi Tang」を設立し、病気の症状と解決策を広めるために多くの支店を開設しました。霊光さんは、治療を求めてやって来た患者の治療のために診療所を頻繁に訪れ、彼らの些細な人生の話に耳を傾けた。</Text>
+			<Text>医師であるSifang Hospital South Islandのエージェントは、人々の苦しみをよく知っています。彼女はNanjiaotongに「Chichi Hall」を設立し、病気を解決するために多くの支店を開設しました。 Ling Guangは、治療を求めに来て、人生の些細なことを聞​​く患者を治療するために、しばしば診療所に座っています。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_NAME" Language="ja_JP">
-			<Text>心象室</Text>
+			<Text>心の迷路</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HOLY_SITE_AETHERGAZER_TYPEONE_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_DISTRICT_HOLY_SITE_NAME}に代わるナイル神の領域の特徴的なエリアは、最初はロック解除されており、コストが低く、価格が上昇することはありません。人口のニーズに関係なく建設でき、+3 [ICON_Housing]住宅、隣接するボーナスはありません、完了後、街のすべての人 [ ICON_Citizen ] 市民 +2 [ICON_Faith] 信仰</Text>
+			<Text>Nile Divine Domainは、{loc_district_holy_site_name}を置き換え、初期のロック解除、低コスト、価格の上昇なし、人口のニーズに関係なく、 +3 [icon_housing]住宅、完成後、すべての[icon_citizen] citizen in the City +2 [Icon_citizen] Citizenを使用することで構築できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>ノイハンザ重工業</Text>
+			<Text>Neuhansa重工業</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>ナイル川の神の特徴的なエリア、{LOC_DISTRICT_INDUSTRIAL_ZONE_NAME} に置き換わります。最初はロック解除されており、無料で建設でき、価格は上がりません。人口需要に関係なく建設可能です。+3 [ICON_Housing] 住宅、隣接するボーナスはありません。完了後、すべての [ICON_Citizen]都市]市民 +2[ICON_Production]生産性</Text>
+			<Text>Nile Divine Domainは、{loc_district_industrial_zone_name}を置き換えるエリアを備えています。{loc_district_industrial_zone_name}、初期ロック解除、価格上昇なしの無料構造は、人口ニーズに関係なく構築できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_NAME" Language="ja_JP">
 			<Text>テクノロジープランテーション</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PLANTATION_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>特別な改善施設は、ナイル神界のモディファイアリーダーのみが建設できます +1 [ICON_Food] 食料 +1 [ICON_Production] 生産性 +4 [ICON_Housing] 住宅 +2 [ICON_Amenities] 居住性 関連技術を研究するとさらに入手できます。高い出力により、資源のない氾濫原、オアシス、沼地での建設が可能になります。</Text>
+			<Text>特別な改善施設、ナイルドメインのリーダーのみがそれらを構築できます、+1 [icon_food] food +1 [icon_production]パフォーマンス+4 [icon_housing]住宅+2 [icon_amenities] livability、関連技術を研究した後、より多くの出力を取得できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ja_JP">
-			<Text>ナイル神の領域</Text>
+			<Text>ナイルドメイン</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ja_JP">
-			<Text>ナイル神の領域</Text>
+			<Text>ナイルドメイン</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_YELLOW_ADJECTIVE" Language="ja_JP">
-			<Text>ナイル神の領域</Text>
+			<Text>ナイルの神の領域</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_NAME" Language="ja_JP">
-			<Text>神の領域-ナイル</Text>
+			<Text>Divine Realm-nilo</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_YELLOW_DESCRIPTION" Language="ja_JP">
-			<Text>砂漠平原と砂漠の丘 +2 [ICON_Food] 食料 +2 [ICON_Production] 生産性 +1 [ICON_Science] 研究、草原の氾濫原 +2 [ICON_Production] 生産性 +3 カリスマ性、平原の氾濫原 +1 [ICON_Food] 食料 +1 [ICON_Production ] 生産性+3 カリスマ性、砂漠の氾濫原、沼地、オアシス +3 カリスマ性、森林および熱帯雨林 -3 カリスマ性、砂漠平原での農地許可、[ICON_Citizen] 国民あたり +1 [ICON_Gold] ゴールド</Text>
+			<Text>デザートプレーンズアンドデザートヒルズ+3 [ICON_FOOD]フード+3 [ICON_PRODUCTION]生産性+1 [ICON_SCIENCE] Tech Value、Grassland Flood Plain +1 [Icon_Food] Food +3 [Icon_Production]生産性、Plain Flood Plain +2 [Icon_Food] Food +2 [Icon_Production]生産性草原の洪水平原、プレーン洪水平野、砂漠の洪水平野、沼地、オアシスは領土内の周囲の細胞です+3魅力、森林と熱帯雨林は領土内の周囲の細胞です-3チャーム - 砂漠平原に農地を建設できるようにするすべての都市は+1 [icon_science]を作成するすべての都市ではありません。技術価値</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BASITE_NAME" Language="ja_JP">
-			<Text>バステト</Text>
+			<Text>ベーサー</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BASITE_DESCRIPTION" Language="ja_JP">
-			<Text>コルガイの重大犯罪対策部門の作戦スペシャリストはコードネーム「キャット」ですが、まだインターンシップの段階にあり、チームの同僚から愛情を込めて「子猫」と呼ばれています。現在はアヌビスを「先輩」と呼び、様々な任務をこなしている。</Text>
+			<Text>コード名の「猫」と名付けられたコルギー主要犯罪対策セクションの運用委員。現在、彼はAnubisを追いかけてさまざまなタスクを実行し、相手を「シニア」と呼んでいます。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GUOCHANGLI_NAME" Language="ja_JP">
-			<Text>郭昌麗</Text>
+			<Text>国家的地位</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GUOCHANGLI_DESCRIPTION" Language="ja_JP">
-			<Text>ちょっとひねくれていて年下をからかうのが好きな白髪のストーカー。一番よく見かける場所は賑やかなお祭り。</Text>
+			<Text>彼女は少し冷笑的に見え、若い世代をからかうのが好きです。彼女が彼女を見つける可能性が最も高い場所は、活気のある祭りです。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AETHERGAZER_BULE_NAME" Language="ja_JP">
 			<Text>奥山神域</Text>
@@ -1120,118 +1357,79 @@
 			<Text>神域-奥山</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AETHERGAZER_BULE_DESCRIPTION" Language="ja_JP">
-			<Text>住民は山タイルを改良することができ、購入コストが 70% 削減され、平らなタイルの購入コストが 30% 削減されます。 山 +1[ICON_Food]食料 +1[ICON_Production]生産性 +1[ICON_Gold]金貨 +1 [ICON_Faith]信仰+1[ICON_Science]技術値+1[ICON_Culture]文化値</Text>
+			<Text>市民は山のセルを改善し、購入コストを70％削減し、購入コストを30％削減できます。 Mountain +1 [icon_food] [icon_production] [icon_gold] [icon_faith] [icon_science] [icon_culture]</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_TYPEONE_NAME" Language="ja_JP">
-			<Text>ミューズ協会</Text>
+			<Text>ミューズソサエティ</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_AETHERGAZER_TYPEONE_DESCRIPTION" Language="ja_JP">
-			<Text>奥山神界の特別エリアは、最初はロック解除されており、人口のニーズに関係なく建設でき、[ICON_Food] が 1 つ追加されます。 [ICON_Production] 生産性 +1 [ICON_Gold] 金貨 +1 [ICON_Faith] 信仰 +1 [ICON_Science] 技術価値 +1 [ICON_Culture] 文化価値</Text>
+			<Text>Aoshan Shenyu Specialエリアは、{loc_district_theater_name}を最初にロック解除し、コストを下げて価格の上昇なしで置き換えますが、人口のニーズに関係なく構築できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>サウザンドスターズアカデミー</Text>
+			<Text>サウザンドスターアカデミー</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_CAMPUS_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>奥山神域の特徴的なエリア。{LOC_DISTRICT_CAMPUS_NAME} に置き換わります。最初はロック解除されており、無料で建設でき、価格は上昇しません。人口のニーズに関係なく建設可能です。独自の隣接ボーナスがあり、周囲の山のセルに対して +1 されます [ICON_Food]Food +1[ICON_Production] 生産性 +1 [ICON_Gold] 金貨 +1 [ICON_Faith] 信仰 +1 [ICON_Science] 技術価値 +1 [ICON_Culture] 文化価値</Text>
+			<Text>Aoshan Shenyu Specialエリアは、{loc_district_campus_name}を交換し、最初はロック解除され、価格上昇なしで自由に構築でき、人口のニーズに関係なく構築できます。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ENILIYI_NAME" Language="ja_JP">
-			<Text>オニリイ</Text>
+			<Text>オニリ</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ENILIYI_DESCRIPTION" Language="ja_JP">
-			<Text>夢に入り、他の人を夢に招待する能力を持つ修飾子。しかし、その能力をうまく制御できないため、現在はミューズ協会のハデスに引き取られ、ハデスの2人の人形メイドに世話をされている。</Text>
+			<Text>夢に入り、他の人を夢に招待する能力を備えた修正者。しかし、彼女自身がこの能力をうまくコントロールできないため、彼女は現在、ミューズ協会のハデスに採用されており、ハデスの2人の操り人形メイドによって世話されています。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_ENILIYI_NAME" Language="ja_JP">
+			<Text>オニリ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_S_ENILIYI_DESCRIPTION" Language="ja_JP">
+			<Text>夢に入り、他の人を夢に招待する能力を備えた修正者。しかし、彼女自身がこの能力をうまくコントロールできないため、彼女は現在、ミューズ協会のハデスに採用されており、ハデスの2人の操り人形メイドによって世話されています。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HADISI_NAME" Language="ja_JP">
 			<Text>ハデス</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HADISI_DESCRIPTION" Language="ja_JP">
-			<Text>ミューズ協会の実質的な当主であり、矯正者としてミューズ協会の活動全般を統括しており、30年経っても変わらないその恐るべき性格と容姿から議会内で崇められている。不老不死の「魔女」。</Text>
+			<Text>修正主義者としてのミューズ協会のさまざまなビジネス活動の調整と管理を担当するMuse Societyの実際のマネージャーは、30年間、そのひどい性格と変化のない外観で議会に敬意を表して、「Ageless Witch」と呼ばれていました。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LULIANG_NAME" Language="ja_JP">
-			<Text>鹿梁市</Text>
+			<Text>Lu Liang</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LULIANG_DESCRIPTION" Language="ja_JP">
-			<Text>部外者には信じがたいことですが、ルリャン氏はまさに天陸貿易の現社長であり、天陸貿易が現在の地位を築いたのはまさに彼女の卓越したビジネススキルのおかげです。さらに、彼女は徐恒地区修正組織のリーダーの一人でもあります。</Text>
+			<Text>外の世界の人々が信じることは困難ですが、Lu Liangは実際にTianlu取引の現在の社長です。まさに、Tianlu取引が現在の状況を獲得したのは、彼女の卓越したビジネス能力のためです。さらに、彼女はXuheng地区修正主義組織の長の一人でもあります。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YINGZHAO_NAME" Language="ja_JP">
-			<Text>映照</Text>
+			<Text>英語のトリック</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_S_WEIERDANDI_DESCRIPTION" Language="ja_JP">
-			<Text>超空間実験でヴェルダンディは自らの秘密と過去を知り、自らを守る信念を強め、神力と骸骨エネルギーという二つの力を同時に習得することで新たな姿勢を示した。</Text>
+			<Text>ハイパースペースの実験では、Weier Dantiは彼女の秘密と過去について学び、自分自身を守るという彼女の信念を強め、彼女が示した新しい姿勢を習得しました。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YINGZHAO_DESCRIPTION" Language="ja_JP">
-			<Text>天魯貿易の人事部長は、見た目は冴えないが頭脳明晰で、何事においても効率を重視する。目覚める前、彼と妹のリン・ユーはお互いに依存しており、多くの困難を経験しました。プライベートでも一人旅が好きで、知られざる活用法をたくさん蓄えている。</Text>
+			<Text>Tianlu貿易の人事大臣は退屈な人ですが、鋭い心であり、すべての効率を擁護しています。目覚める前に、私は妹のLin Yuに生涯依存し、多くの困難を経験しました。プライベートでは、私は一人で旅行し、未知の使用に関する多くの規律のない知識を蓄積するのが好きです。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_S_HELA_NAME" Language="ja_JP">
 			<Text>ヘラ</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_S_HELA_DESCRIPTION" Language="ja_JP">
-			<Text>ミューズ協会に所属する矯正者のヘラも、ユーモルフィス地域では有名な長女である。彼女の美しい容姿、贅沢な気質、エレガントな美的センスにより、彼女は著名人の間でよく知られています。</Text>
+			<Text>Muse Societyの改訂されたメンバーであるHeraは、Omofesのオリジナルエリアの有名な女性でもあります。その美しい外観、豪華な気質、エレガントな美学のために、それは有名人の間でよく知られています。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AETHERGAZER_ZHIMING_NAME" Language="ja_JP">
-			<Text>明晰な心を持ちましょう</Text>
+			<Text>Zhiming</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AETHERGAZER_ZHIMING_DESCRIPTION" Language="ja_JP">
-			<Text>四方原のエージェントShuofang、Xuhengの主要な学者および研究者。彼は天通エンジンの製造者の一人でもあり、その後のメンテナンス作業を担当しています。</Text>
+			<Text>Xuhengの主要な学者および科学研究者であるSifang Academyのエージェント。同時に、彼はTiantongエンジンのメーカーの1人でもあり、その後のメンテナンスを担当しています。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AETHERGAZER_GENCHEN_NAME" Language="ja_JP">
-			<Text>ゲンチェン</Text>
+			<Text>Gengchen</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AETHERGAZER_GENCHEN_DESCRIPTION" Language="ja_JP">
-			<Text>四方院の創始者は長年徐恒を護衛していた。事の大小に関わらず、耿晨は自分でやり遂げ、彼女なりのやり方で徐恒の安定を維持するだろう。エージェントから一般人まで、誰もが彼女を愛しています。</Text>
+			<Text>Sifang Academyの創設者は、Xuhengを長い間保護してきました。平日、Gengchenは自分でそれを行い、彼女の方法を使用してXuhengの安定性を維持します。すべての関係者のエージェントから普通の人々まで、彼らは皆彼女をとても愛しています。</Text>
 		</Replace>
-		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>元の地区のランドマーク</Text>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_TUOTE_NAME" Language="ja_JP">
+			<Text>TOT</Text>
 		</Replace>
-		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>最初はロック解除されている注目のエリアは無料で建設でき、人口の需要に関係なく建設できます。新しいランドマークは、文明が {LOC_ERA_CLASSICAL_NAME}、{LOC_ERA_RENAISSANCE_NAME}、{LOC_ERA_MODERN_NAME} に入った後にロック解除されます。</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGGONGCHENGXUEYUAN_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>徐恒工程学院</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGGONGCHENGXUEYUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>Gengchen {LOC_ERA_CLASSICAL_NAME} の特徴的なランドマークの建物は、{LOC_ERA_CLASSICAL_NAME} に入るとロック解除され、建設者の建設時間が +2 になり、収穫されるリソースが +150% になります。</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_TIANLUMAOYIZHONGZHUANZHAN_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>天鹿貿易中継所</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_TIANLUMAOYIZHONGZHUANZHAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>天源神界 {LOC_ERA_CLASSICAL_NAME} のランドマークの建物、文明に {LOC_ERA_CLASSICAL_NAME} に入った後にロック解除される[ICON_Gold] 金貨 17 枚、商人は略奪できません</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_YUANZHIQUJIANCEZHONGXIN_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>独自エリア監視センター</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_YUANZHIQUJIANCEZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>ゲンチェン {LOC_ERA_RENAISSANCE_NAME} の特徴的なランドマークの建物、文明が {LOC_ERA_RENAISSANCE_NAME} に入るとロック解除され、完成直後に {LOC_TECH_ROCKETRY_NAME} を研究、宇宙センター建設時の生産性が 2000% [ICON_Production] 増加、宇宙プロジェクトの実行時に [ICON_Production] の生産性が 2000% 増加、すべての都市 +20% [ICON_Science] テクノロジー値</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGWUQIGONGCHANG_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>徐恒兵器工場</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGWUQIGONGCHANG_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>天源神界 {LOC_ERA_RENAISSANCE_NAME} のランドマークの建物。完成後、都市は重火器修正を生産できるようになります。都市は軍団と軍隊を直接訓練できます。 {LOC_BUILDING_MILITARY_ACADEMY_NAME}。軍団と軍隊の訓練コストが 20% 削減</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>徐恒博物館</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>天源神界 {LOC_ERA_MODERN_NAME} のランドマークの建物、文明に {LOC_ERA_MODERN_NAME} に入った後にロック解除されるタイプ アートワーク、[ICON_GreatWork_Music] 音楽は [ICON_Tourism] の旅行結果を 3 倍提供します</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>四方原戦略センター</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>Gengchen {LOC_ERA_MODERN_NAME} の特徴的なランドマークの建物は、{LOC_ERA_MODERN_NAME} に入るとすぐにロック解除され、アップグレードしたユニットはターンを終了しません。すべてのユニットの戦闘力は +5 [ICON_Strength] になります。 [ICON_Movement] の移動による地形と川の横断による [ICON_Movement] のペナルティを無視します。</Text>
-		</Replace>
-		<Replace Tag="LOC_GET_5_COMBAT_BUILDING_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>{LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_NAME} の戦闘力が {1_Amount} [ICON_Strength] 増加します</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENTLAND_AETHERGAZER_NAME" Language="ja_JP">
-			<Text>森林空間</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENTLAND_AETHERGAZER_DESCRIPTION" Language="ja_JP">
-			<Text>Holy Tree Domain の Modifier Leader のみが建設できる特別な改善施設。+2 [ICON_Production] 生産性を向上させた後、森林または熱帯雨林のあるセルでのみ建設可能になります。</Text>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_TUOTE_DESCRIPTION" Language="ja_JP">
+			<Text>Colgee Major Crime Countermeasures部門の運営チームの責任者は、優れたインテリジェンス獲得機能を備えています。情報戦を通じて犯罪者との直接の火災交換を避け、コルギーのintelligence報部門の高レベルの権威を保持する戦闘[Newline]によって民間人に引き起こされた損害を最小限に抑えることは、誰もがよく知っているようです。誰かがミッションを脅かすと、トットはこれらの秘密を使用して、恥ずかしがり屋ではなく、容赦なくこれらの障害を取り除きます。</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_1" Language="ja_JP">
-			<Text>ツクヨミ</Text>
+			<Text>毎月の読書</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_2" Language="ja_JP">
 			<Text>ヘラ</Text>
@@ -1246,22 +1444,394 @@
 			<Text>エルメス</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_6" Language="ja_JP">
-			<Text>ゲンチェン</Text>
+			<Text>Gengchen</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_7" Language="ja_JP">
-			<Text>セクメト</Text>
+			<Text>サクメット</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_8" Language="ja_JP">
 			<Text>アテナ</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_9" Language="ja_JP">
-			<Text>トート</Text>
+			<Text>TOT</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_NAME_FIXER_10" Language="ja_JP">
-			<Text>カグツチ</Text>
+			<Text>カグツ</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENTLAND_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>森林スペース</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ENVIRONMENTLAND_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>特集改善施設、聖樹ドメインの修正者リーダーのみが構築できる+2 [icon_production]生産性のみが、関連する技術を研究した後、より多くの出力が得られ、森林や熱帯雨林の細胞にのみ構築できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LUWU_NAME" Language="ja_JP">
+			<Text>Lu Wu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AETHERGAZER_LUWU_DESCRIPTION" Language="ja_JP">
+			<Text>Tianlu貿易セキュリティチームのメンバーは、通常、Xuheng以外の元のエリアでタスクを実行します。彼は正義で陽気で、セキュリティチームに高い期待を持っています。彼は率直に言って率直に言って、彼の目に不正に対応することができませんでした。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YISHUGUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>サウザンドスターアート博物館</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHOUCANGGUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>コレクション協会</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZHIXIESHENGCHANCHANG_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>インテリジェントな機械製造工場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XINXIANGSHENKAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>心象神社</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_2_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力、シファンアカデミー戦略センターから</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>元のエリアランドマーク</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LANDMARK_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>最初はロック解除され、無料で構築された特徴的なエリアで、価格を上げません。それらは人口のニーズに関係なく構築できます。市内中心部の近くに建設することはできません。各プレイヤーは1つしか構築できません。文明が{loc_era_classical_name}、{loc_era_renaissance_name}、{loc_era_modern_name}に入ると、新しいランドマークの建物がロック解除されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIYINSUOFEISHENGTAIYUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Ain Sophie Ecological Park</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIYINSUOFEISHENGTAIYUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>文明が{loc_era_classical_name}に入ると、聖なる木の神の領域{loc_era_classical_name}のランドマークの建物はロック解除されます。完成後、プロジェクト「凍結生態学的バランス」、「草原と平原の生態学的バランス」、「雪と砂漠の生態学的バランス」、「都市地域の生態学的バランス」、「地形生態学的バランス」。これらのプロジェクトは、各プロジェクトの詳細なコンテンツが文明百科事典で見つけることができる[Newline]後にのみ完了することができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISIZHENCANGGUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Omofesコレクション</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISIZHENCANGGUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Holy Tree God Realm {loc_era_renaissance_name}ランドマークビル、文明のエントリの後にロック解除{loc_era_renaissance_name}、完成後、高級リソースを備えたセル+10 [icon_gold] bonus resources +5 [icon_gold]ゴールドコイン、すべてのcity +10％[icon_gold]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHENKONGZHIYANHOUQINBU_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>ディープスペースアイロジスティクス部門</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHENKONGZHIYANHOUQINBU_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Holy Tree God Realm {loc_era_modern_name}ランドマークビル、文明のエントリの後にロック解除{loc_era_modern_name}、ビルダー+4建設時間、購入パイオニア料金-95％、戦略的リソースを備えたセルオイル、アルミニウム、ウラン+4 [icon_food]食品</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUYUANQU_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Ain Sophie Cemetery</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUYUANQU_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>hela {loc_era_classical_name}ランドマークビル、{loc_era_classical_name}を入力した後、ロック解除、完了後、重兵器補正+2 [icon_movement]ムーブメント+1 [icon_range]範囲。戦いに勝った後、[ICON_GOLD]ゴールドコインと[ICON_FAITH]の信念は、殺害されたユニットの戦闘力に相当する[ICON_STRENGTE]（標準速度）を取得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHANGYEJIE_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Ain Sophie Street</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHANGYEJIE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>HeLa {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入った後にロック解除されます。完了後、コードを研究した後に木を植えることができます。すべての都市 +30％[icon_gold]ゴールドコインと[icon_faith]信念、+2 [icon_amenities]居住性</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHOUHUZHESHENGDIAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>守護者の神殿</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHOUHUZHESHENGDIAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Weier danti {loc_era_classical_name}ランドマークビルディングは、文明が{loc_era_classical_name}に入るとロック解除され、完了後、3つのビルダーを取得できます。防衛戦術を研究した後、木を植えることができます。すべてのユニットが+10 [icon_strength]を防御している場合、ユニットは敵ユニットを排除するとすべての健康ポイントを復元できます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEKUERBINANSUO_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>ヨクールサンクチュアリ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEKUERBINANSUO_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Vidal {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入るとロック解除され、完了後、3つのビルダー、ビルダー+2の建設時間、 +500％[icon_production]生産性すべてのプロジェクトが実行されるとき、ウッドランドスペース+1</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEKUERDENGTA_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>ヨクル灯台</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUEKUERDENGTA_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>sikati {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入った後ロック解除、完成後、水輸送ユニット+4 [icon_movement]モビリティフォース、すべてのユニットは地形と[icon_movement]移動を無視し、川を越えてすぐに出荷されます。カレッジエリア+1 [icon_traderoute]貿易能力と各建物の各建物を完成させ、1人のビジネスマンを取得できます。大学エリアを購入するコストは-100％であり、このランドマークのコストは半分に削減されます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TALIELANGDIANWANCHENG_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>タリーランドビデオゲームシティ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TALIELANGDIANWANCHENG_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Thor {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入った後にロック解除され、完了後、すべての都市+5 [icon_amenities]に住みやすくなり、[icon_resource_toys] toys、[icon_jeans_jeans _ usource_perce_perce_perce_perce_perce_perce_perce_jeans] [icon_resource_cosmetics]化粧品の高級リソースそれぞれ、woodland Space +1 [icon_science]テクノロジー価値</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHUJUJUZHENG_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Mimielデータマトリックス</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHUJUJUZHENG_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>heimdal {loc_era_classical_name}ランドマークビルは、文明のエントリ{loc_era_classical_name}の後にロック解除されます。完了後、Melandエリアを購入するコストは-100％です。 「ムーンカントリー」書店は、周囲のプロット+2 [icon_culture]文化的価値であり、ハギアソフィアメディカルセンターは周囲のプロット+2 [icon_culture]文化的価値です。戦いに勝った後、あなたは殺されたユニットの戦闘力に相当する[icon_culture]文化価値を取得します[icon_strength]（標準速度で）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LIBAITANG_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Ain Sophie Chapel</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LIBAITANG_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Hodel {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入るとロック解除され、完了後、すべての都市 +100％[icon_faith]信仰+2 [icon_amenities] livability、すべてのセル+2 [icon_faith]</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LINGBUJIANZHIZAOCHANG_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Neuhansea部品製造工場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LINGBUJIANZHIZAOCHANG_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>ナイルドメイン{loc_era_classical_name}のランドマークビルは、文明が{loc_era_classical_name}に入るとロック解除されます。完了後、すべての都市は +20％[icon_production]生産性を備えています。 [icon_glory_golden_age]の黄金時代にある場合、さらに +20％[icon_production]生産性。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YOULEYUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Ain Sophie Amusement Park</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YOULEYUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Nile Divine Realm {loc_era_renaissance_name} landmark Building、文明のエントリ{loc_era_renaissance_name}の後にロック解除され、完了後、すべての都市に+3 [icon_amenities]に住みます。市に記念碑がある場合、各都市にさらに+2 [icon_amenities]が住みます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIYINSUOFEIGAODENGXUEYUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Ain Sophie College</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AIYINSUOFEIGAODENGXUEYUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>ナイルドメイン{loc_era_modern_name}のランドマークビルは、文明が{loc_era_modern_name}に入るとロック解除されます。完了後、プロジェクト「タングステンコア弾丸」、「イオンキャノン」、「新しい軽量材料」、「赤外線イメージャー」、「インテリジェントインテリジェントマシン」、「吊りアーキテクチャ」。これらのプロジェクトは、各プロジェクトの詳細なコンテンツが文明百科事典で見つけることができる[Newline]後にのみ完了することができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINGDUSHENDIAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>生魂神殿</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINGDUSHENDIAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Osiris {loc_era_classical_name}ランドマークビルディングは、文明が{loc_era_classical_name}に入った後にロック解除され、完了後、すべての都市 +15％[icon_science]テクノロジー価値。戦いに勝った後、彼らは殺害されたユニットの戦闘力に相当する[icon_science]テクノロジー価値を取得します[icon_strength]（標準速度で）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>死の像の像</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIZHAOZHINVDIAOXIANG_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Osiris（Soul Feather）{loc_era_classical_name}ランドマークビルディング、文明が{loc_era_classical_name}に入るとロック解除されました。完了後、すべてのユニットは、ターンの開始時にステーションを持たずに敵ユニットを破壊することにより、すべての健康ポイントを復元できます。陸軍は以前に形成される可能性があり（民族主義の自治体が必要です）、市は軍事アカデミーを必要としないため、陸軍は直接訓練されることができます。レギオンと陸軍の訓練コストは50％削減されます。戦いに勝った後、あなたは殺されたユニットの戦闘力に相当する[icon_culture]文化価値を取得します[icon_strength]（標準速度で）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOUWUGUANGCHANG_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>タリーランドショッピングプラザ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOUWUGUANGCHANG_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Bassette {loc_era_classical_name}ランドマークビルディング、文明が{loc_era_classical_name}に入るとロック解除されました。完了後、ボーナスリソースは高級品リソースのようなものです。各タイプのリソースは、4つの[ICON_AMENITIES]の居住性を提供し、それぞれすべての高級品リソースの2つのコピーを取得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KEERGAILINSHIZHIHUIBU_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Colgey一時コマンド</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KEERGAILINSHIZHIHUIBU_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Totte {loc_era_classical_name}のランドマークビルは、文明が{loc_era_classical_name}に入るとロック解除されます。完了後、3つのスパイが得られ（および3つのスパイ容量が増加します）、暴動を扇動して知事のスパイ作戦をフレーミングする効果は100レベル増加します。ミッションの実行中にスパイが逮捕された場合、逃げる可能性が高い（+100レベル）。ロジック+4 [icon_movement]モバイル電力と購入コスト-100％のサイクル。重い武器補正剤および軽度の武器補正剤+10 [icon_strength]戦闘力+1 [icon_range]範囲および範囲攻撃土地ユニット+17 [icon_strength]戦闘電力、特殊作業補正剤+10 [icon_strength]戦闘電力および範囲攻撃ランドユニット+17 [icon_strength] combat power</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISIZIRANGONGYUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>オモフェスネイチャーパーク</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISIZIRANGONGYUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Aoshan Shenyu {loc_era_classical_name}の画期的な建物は、文明が{loc_era_classical_name}に入るとロック解除されます。完了後、隣接する丘陵セル+1 [icon_food] [icon_production] [icon_gold] [icon_faith] [icon_culture] [icon_culture]はすべて生成されます（1回のみ適用されます）。すべての都市 +100％[icon_faith]信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISITIANWENTAI_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Omofes天文台</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OUMOFEISITIANWENTAI_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Aoshan Shenyu {loc_era_renaissance_name}のランドマークビルは、文明が{loc_era_renaissance_name}に入るとロック解除されます。完了後、すべての都市は +15％[icon_science]テクノロジー価値を持ち、宇宙プロジェクトを実行する際に +300％[icon_production]の生産性を持ちます。文明が現代に入った後、すべての都市 +50％[icon_production]生産性を即座に取得し、すぐに{loc_tech_rocketry_name}、{loc_tech_nanotechnology_name}、{loc_tech_offworld_mission_name}、{loc_telelites_name}、 {loc_tech_smart_materials_name}}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XINGHONGYIHUIYANFAZHONGXIN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Xinghong議会物流部</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XINGHONGYIHUIYANFAZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Aoshan Shenyu {loc_era_modern_name}のランドマークビル、文明が{loc_era_modern_name}に入るとロック解除、戦略的リソースを備えたセル+6 [icon_production]生産性、馬、鉄、塩Peter+2 [icon_science]テクノロジー+2 [ICON_CULTURE RESOUNCE +10ボーナスリソース+5 [icon_gold]ゴールドコイン、および収穫リソース +400％</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANMIMENGJING_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>甘いドリームランド</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANMIMENGJING_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>oniriyi {loc_era_classical_name}のランドマークビルは、文明が{loc_era_classical_name}に入るとロック解除されます。 Houmian Sheep Paradiseは、周囲のPlots +1 [Icon_food] Food +1 [Icon_faith] Faith +1 [Icon_gold]ゴールドコインに建設され、2つのスパイを取得します（および2スパイ容量を増やします）。敵の都市でのスパイの展開には、消費する時間は必要ありません。すべてのタスクを完了する時間は100％減少し、暴動を扇動して技術スパイを盗むことの有効性は100レベル増加します。ミッションの実行中に逮捕された場合、逃げる可能性が高い（+100レベル）。攻撃的なスパイミッションが成功すると、ターゲット都市のこのラウンドで[icon_science]テクノロジー価値と[icon_faith]信念価値の1000％を獲得します。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANMENGWU_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>甘い夢の家</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANMENGWU_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>oniriyi {loc_era_classical_name}ランドマークビルディング、文明が{loc_era_classical_name}に入った後にロック解除され、完了後、近接補正+2 [icon_movement]ムーブメント+5 [icon_strength] combat power。建築業者は現在、眠っている庭の改善施設を建設できるようになりました。周囲のセルのキャンディーワークショップ+2 [ICON_FOOD] Food +1 [Icon_faith] Faith +1 [icon_gold]ゴールドコインがあります。戦いに勝った後、[icon_gold]殺人ユニットの戦闘力に相当する[icon_gold]ゴールドコインを取得します[icon_strength]（標準速度）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANLUMAOYIZHONGZHUANZHAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Tianlu貿易移転ステーション</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANLUMAOYIZHONGZHUANZHAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Tianyuan Divine Realm {loc_era_classical_name} landmark Building、文明が{loc_era_classical_name}に入った後、ロック解除、完了後、+10 [icon_traderoute]貿易ルート容量を取得し、各貿易ルート+2 [icon_production +2 [icon_production +2 [icon_production +2 [icon_production +2]商人は略奪することはできません</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGWUQIGONGCHANG_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Xuheng武器工場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGWUQIGONGCHANG_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Tianyuan Divine Realm {loc_era_renaissance_name} landmark Building。完成後、あなたの都市は重い武器の補正を生み出すことができます。土地ユニットの購入費用は-50％です。市は、{loc_building_military_academy_name}なしでレギオンと軍隊を直接訓練できます。レギオンと陸軍の訓練コストは20％削減されました</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Xuheng Museum</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGBOWUGUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Tianyuan Divine Realm {loc_era_modern_name} landmark Building。完了後、各政治システムは2つの追加のユニバーサルスロットを受け取ります。 [icon_greatwork_writing] works、すべて[icon_greatwork_sculpture] [icon_greatwork_portrait] [icon_greatwork_landscape] [icon_greatwork_religious]タイプアートワーク、[icon_greatwork_religious]音楽はトリプル[icon_tourism]ツーリズムパフォーマンス</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Tsutong Port Lighthouse</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITONGGANGDENGTA_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>linyu {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入った後、ロック解除、完了後、すべての都市+5 [icon_amenities] livability、水セル+2 [icon_food] food +2 [icon_production]生産性。 [icon_traderoute]トレードルートを通過するすべてのセルについて、[icon_gold]ゴールドコイン+2 [icon_science]テクノロジーバリュー+2 [icon_production]生産性+2、sifangyuan +2 [icon_traderoute]貿易能力、商人購入料は-50％です。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DIZHIKANTANYINGDI_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Xuheng Geological Exploration Camp</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DIZHIKANTANYINGDI_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Jinwu {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入るとロック解除され、完成後にビルダー+2の建設時間、各xuheng鉱山は+2の程度改善された施設を持つ丘陵地です。セルに何らかの種類のリソースがある場合、追加の+1 [icon_production]生産性が追加されます。セルが山に隣接している場合、それは+1 [icon_science]テクノロジー価値になり、隣接する川は+1 [icon_culture]文化的価値になります。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WENHUAYANJIUYUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>シファンアカデミー文化研究所</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WENHUAYANJIUYUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Lingguang {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入るとロックされています。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANLUMAOYIFENBU_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Tianlu Trade Branch</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TIANLUMAOYIFENBU_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>lu liang {loc_era_classical_name}ランドマークビル、初期ロック解除、完了後、すべてのユニット+2 [icon_movement]モビリティ、完了後、+20 [icon_traderoute]貿易ルート容量+2 [icon_production] +2 [icon_production]生産</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGTUSHUGUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Xuheng Library</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGTUSHUGUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>{loc_era_classical_name}のランドマークビルは、文明が{loc_era_classical_name}に入るとロック解除されます。完了後、2つ以上の[icon_greatwork_sculpture]の傑作の驚異と建物は、[icon_themebonus_active]に自動的にさらされます。戦いに勝った後、[ICON_GREATWRITER]の偉大な作家ポイントを獲得します。 {loc_district_campus_name}領域、{loc_building_library_name}、{loc_building_university_name}、{loc_building_university_name_lab_name}は周囲のセル+1 [icon_science]テクノロジーであり、大学エリア +999％[icon_production</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZIYUANKAIFAJIDI_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Xuheng Resource Development Camp</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZIYUANKAIFAJIDI_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>yingzhao {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入った後、ロック解除、完了後、すべての戦略的リソースを発見することができます。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JINGBEICHU_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Sifang Court Security Office</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_JINGBEICHU_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Luwu {loc_era_classical_name}ランドマークビルは、文明が{loc_era_classical_name}に入るとロック解除されます。完成後、陸軍は以前に形成することができます（民族主義の自治体が必要です）。市は軍事アカデミーを必要とせず、陸軍は直接訓練することができます。レギオンと陸軍の訓練コストは25％削減されました。すべての軍事ユニット + 300％の戦闘経験、戦略的リソースリザーブ + 1000</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGGONGCHENGXUEYUAN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>Xuheng Engineering College</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_XUHENGGONGCHENGXUEYUAN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>gengchen {loc_era_classical_name}ランドマークビル、文明が{loc_era_classical_name}に入った後のロック解除、完了後、ビルダー、ビルダー+2の建設時間、収穫リソース +150％を取得します</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUANZHIQUJIANCEZHONGXIN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>生物質監視センター</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YUANZHIQUJIANCEZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>gengchen {loc_era_renaissance_name}ランドマークビル、文明が{loc_era_renaissance_name}に入るときのロック解除、すぐに{loc_tech_rocketry_name}を完成させた後、 +2000％[icon_production]生産性を構築する際の生産性、 +2000％[ICON_Production [ICON_Production]を +2000％[ICON_Production]すべての都市のテクノロジー価値</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_NAME" Language="ja_JP">
+			<Text>シファンアカデミー戦略センター</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIFANGYUANCELVEZHONGXIN_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>Gengchen {loc_era_modern_name}ランドマークビルは、文明が{loc_era_modern_name}に入った後にロック解除され、完了後すぐに3つのエリートリモート修正を取得します。アップグレードされたユニットはターンを終了しません。すべてのユニット+5 [icon_strength]戦闘パワー+2 [icon_movement]運動力と地形と越えの川を無視する[icon_movement]運動の罰</Text>
+		</Replace>
+		<Replace Tag="LOC_GET_5_COMBAT_BUILDING_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力は{loc_building_sifangyuancelvezhongsin_aethergazer_name}から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_TUNDRA_ECOLOGICAL_EQUILIBRIUM_NAME" Language="ja_JP">
+			<Text>凍結土壌生態学的バランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_TUNDRA_ECOLOGICAL_EQUILIBRIUM_SHORTNAME" Language="ja_JP">
+			<Text>凍結土壌生態学的バランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_TUNDRA_ECOLOGICAL_EQUILIBRIUM_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Ecological Park Special Project、プロジェクトが完了した後、Landform Permafrost +2 [Icon_Food] Food +3 [Icon_Production]生産性はありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_GRASS_AND_TERRAIN_PLAINS_ECOLOGICAL_EQUILIBRIUM_NAME" Language="ja_JP">
+			<Text>草原と平原の生態学的なバランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_GRASS_AND_TERRAIN_PLAINS_ECOLOGICAL_EQUILIBRIUM_SHORTNAME" Language="ja_JP">
+			<Text>草原と平原の生態学的なバランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_GRASS_AND_TERRAIN_PLAINS_ECOLOGICAL_EQUILIBRIUM_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Ecological Park Special Project、プロジェクトが完了した後、地形のない草原+1 [Icon_Food] Food +3 [Icon_Production]生産性、草原Hills +1 [Icon_food] Food +2 [Icon_Production]生産性、Plains +2 [Icon_food] Food +2 +1 [icon_production]生産性は、1回しか完成できません</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_SNOW_AND_TERRAIN_DESERT_ECOLOGICAL_EQUILIBRIUM_NAME" Language="ja_JP">
+			<Text>雪と砂漠の生態学的なバランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_SNOW_AND_TERRAIN_DESERT_ECOLOGICAL_EQUILIBRIUM_SHORTNAME" Language="ja_JP">
+			<Text>雪と砂漠の生態学的なバランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TERRAIN_SNOW_AND_TERRAIN_DESERT_ECOLOGICAL_EQUILIBRIUM_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Ecological Park Special Project、プロジェクトが完了した後、地形の雪と砂漠+3 [icon_food] Food +3 [Icon_Production]生産性はありません。スノーヒルズとデザートヒルズ+3 [ICON_FOOD] Food +2 [ICON_Production]生産性、1回しか完成できません。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DISTRICTS_ECOLOGICAL_EQUILIBRIUM_NAME" Language="ja_JP">
+			<Text>都市の地域生態学的バランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DISTRICTS_ECOLOGICAL_EQUILIBRIUM_SHORTNAME" Language="ja_JP">
+			<Text>都市の地域生態学的バランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DISTRICTS_ECOLOGICAL_EQUILIBRIUM_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Ecological Park Special Project、プロジェクトが完了した後、各エリア+3 [ICON_FOOD] Food +3 [ICON_Production]生産性は一度だけ完了できます</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_NAME" Language="ja_JP">
+			<Text>地形の生態学的バランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_SHORTNAME" Language="ja_JP">
+			<Text>地形の生態学的バランス</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FEATURE_GEOTHERMAL_FISSURE_AND_OASIS_MARSH_EQUILIBRIUM_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Ecological Park Special Project、Projectが完了した後、Swamp + 3 [Icon_Production]生産性、地熱亀裂 + 2 [Icon_Food] Food + 2 [Icon_Production]生産性 + 1 [ICON_SCIENCE]テクノロジー価値、OASIS + 3 [ICON_Production]生産性 + 4 [ICON_GOLD] GOLD COINS、</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_WUXINDAN_NAME" Language="ja_JP">
+			<Text>タングステンコア弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_WUXINDAN_SHORTNAME" Language="ja_JP">
+			<Text>タングステンコア弾丸</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_WUXINDAN_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Collegeの特別プロジェクト、プロジェクトが完了した後、リモート補正装置と再インストールされたリモート補正+10 [icon_strength]戦闘電力は一度だけ完了できます</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIZIPAO_NAME" Language="ja_JP">
+			<Text>イオンキャノン</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIZIPAO_SHORTNAME" Language="ja_JP">
+			<Text>イオンキャノン</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIZIPAO_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Collegeの特別プロジェクトは、プロジェクトが完了した後、軽い武器と重兵器の戦闘力+10 [icon_strength]は一度しか完了できません</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XINXINGQINGBIANCAILIAO_NAME" Language="ja_JP">
+			<Text>新しい軽量素材</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XINXINGQINGBIANCAILIAO_SHORTNAME" Language="ja_JP">
+			<Text>新しい軽量素材</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XINXINGQINGBIANCAILIAO_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Collegeの特別プロジェクト、プロジェクトが完了した後、近接補正+2 [icon_movement]モビリティの力は一度しか完了できません</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HONGWAIXIANCHENGXIANGYI_NAME" Language="ja_JP">
+			<Text>赤外線イメージャー</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HONGWAIXIANCHENGXIANGYI_SHORTNAME" Language="ja_JP">
+			<Text>赤外線イメージャー</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HONGWAIXIANCHENGXIANGYI_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Collegeの特別プロジェクトは、プロジェクトが完了した後、特別な近接補正+1 [ICON_RANGE]範囲は一度しか完了できません</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZHINENGZHIXIE_NAME" Language="ja_JP">
+			<Text>高度なインテリジェントおよび機械の共同システム</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZHINENGZHIXIE_SHORTNAME" Language="ja_JP">
+			<Text>高度なインテリジェントおよび機械の共同システム</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ZHINENGZHIXIE_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie CollegeのSpecial Project、Builder + 3の建設時間はプロジェクトが完了してから1回しか完了できません</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XUANFUJIANZHUXUE_NAME" Language="ja_JP">
+			<Text>中断されたアーキテクチャ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XUANFUJIANZHUXUE_SHORTNAME" Language="ja_JP">
+			<Text>中断されたアーキテクチャ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_XUANFUJIANZHUXUE_DESCRIPTION" Language="ja_JP">
+			<Text>Ain Sophie Collegeの特別プロジェクトは、プロジェクトが完了した後、City [Icon_strength] Defense +10、City [Icon_ranged] Ranged Attack Power +10、1回しか完成できません</Text>
+		</Replace>
+		<Replace Tag="LOC_LANDMARK_LINSHIZHIHUIBU_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力は{loc_building_keergailinshizhihuibu_aethergazer_name}から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_FOR_RANGED_MODIFIER_AND_ARMORRANGED_MODIFIER_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力は{loc_project_wuxindan_name}から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_COMBAT_FOR_LIGHTWEAPON_MODIFIER_AND_HEVAYWEAPON_MODIFIER_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力は{loc_project_lizipao_name}から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_GET_5_COMBAT_TO_CLASS_SWORD_FIXER_RELOAD_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力は{loc_building_tianmengwu_aethergazer_name}から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIES_ADJUST_5_OUTER_DEFENSE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力は{loc_project_xuanfujianzhuxue_name}から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIES_ADJUST_5_RANGED_STRIKE_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力は{loc_project_xuanfujianzhuxue_name}から来ています</Text>
+		</Replace>
+		<Replace Tag="LOC_ADD_10_DEF_FOR_LANDMARK_AETHERGAZER_DESCRIPTION" Language="ja_JP">
+			<Text>+{1_amount} [icon_strength]戦闘力は{loc_building_shouhuzheshengdian_aethergazer_name}から来ています</Text>
 		</Replace>
 		<Replace Tag="LOC_" Language="ja_JP">
-			<Text>_CITY_NAME_9',,'循環の海 オケアナス' FROM 文明Aethergazer WHERE CivilizationType LIKE</Text>
+			<Text>_city_name_9 ',,'文明のような文明化型式の譲渡の海の海」</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
