@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ee91ab01-01ea-4c66-a6a5-ef8818e71c8e" version="1">
+  <Properties>
+    <Name>鲍德温四世</Name>
+    <Description>耶路撒冷新国家</Description>
+    <Created>1748926091</Created>
+    <Teaser>Anyone To Civilization</Teaser>
+    <Authors>1311445</Authors>
+    <SpecialThanks>摸鱼</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>Config_Icon_Color/Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>Text/Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="colors">
+      <File>Config_Icon_Color/Color.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Icons">
+      <File>Config_Icon_Color/Icon.xml</File>
+      <File>Config_Icon_Color/icon1.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>BALDWIN112.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="text">
+      <File>Text/Text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="database">
+      <File>Leader/Leader.xml</File>
+      <File>UNIT/unit1.xml</File>
+      <File>Leader/CIVILIZATION.xml</File>
+      <File>UNIT/DISTTICT.xml</File>
+      <File>Leader/CIVILIZATION.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="color">
+      <File>Config_Icon_Color/Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="art">
+      <File>BALDWIN112.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="icons">
+      <File>Config_Icon_Color/Icon.xml</File>
+      <File>Config_Icon_Color/icon1.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ANTONIO.Art.xml</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>BALDWIN112.dep</File>
+    <File>Config_Icon_Color/Color.xml</File>
+    <File>Config_Icon_Color/Config.xml</File>
+    <File>Config_Icon_Color/Icon.xml</File>
+    <File>Config_Icon_Color/icon1.xml</File>
+    <File>Leader/CIVILIZATION.sql</File>
+    <File>Leader/CIVILIZATION.xml</File>
+    <File>Leader/Leader.xml</File>
+    <File>Platforms/MacOS/BLPs/BALDWIN.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/BALDWIN.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Text/Text.xml</File>
+    <File>UNIT/DISTTICT.xml</File>
+    <File>UNIT/unit1.xml</File>
+    <File>XLPs/BALDWIN.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>
