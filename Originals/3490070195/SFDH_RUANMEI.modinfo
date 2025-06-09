@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="562c55a0-7963-4d17-aef2-5296f63733d0" version="1">
+  <Properties>
+    <Name>LOC_SFDH_RUANMEI_NAME</Name>
+    <Description>LOC_SFDH_RUANMEI_DESCRIPTION</Description>
+    <Created>1746012698</Created>
+    <Teaser>LOC_SFDH_RUANMEI_TEASER</Teaser>
+    <Authors>SFDH</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_SFDH_RUANMEI_NAME">
+	  <zh_Hant_HK>天才俱乐部：阮梅</zh_Hant_HK>
+      <zh_Hans_CN>天才俱乐部：阮梅</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_SFDH_RUANMEI_TEASER">
+	  <zh_Hant_HK>作者：SFDH100</zh_Hant_HK>
+      <zh_Hans_CN>作者：SFDH100</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_SFDH_RUANMEI_DESCRIPTION">
+	  <zh_Hant_HK>添加新领袖：阮梅。[NEWLINE][NEWLINE]本mod由“与君你说”定制。</zh_Hant_HK>
+      <zh_Hans_CN>添加新领袖：阮梅。[NEWLINE][NEWLINE]本mod由“与君你说“定制。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="">
+      <File>Data/SFDH_RUANMEI_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="">
+      <File>Data/SFDH_RUANMEI_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="">
+      <File>Text/SFDH_RUANMEI_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateColors id="">
+      <File>Data/SFDH_RUANMEI_Color.xml</File>
+    </UpdateColors>
+    <UpdateArt id="">
+      <File>SFDH_RUANMEI.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="">
+      <File>Data/SFDH_RUANMEI_Civilization.sql</File>
+      <File>Data/SFDH_RUANMEI_Leader.sql</File>
+      <File>Data/SFDH_RUANMEI_District.sql</File>
+      <File>Data/SFDH_RUANMEI_Project.sql</File>
+      <File>Data/SFDH_RUANMEI_Moment.sql</File>
+      <File>Data/SFDH_RUANMEI_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="">
+      <File>Data/SFDH_RUANMEI_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="">
+      <File>Text/SFDH_RUANMEI_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateColors id="">
+      <File>Data/SFDH_RUANMEI_Color.xml</File>
+    </UpdateColors>
+    <UpdateAudio id="">
+      <File>Platforms/MacOS/audio/SFDH_RUANMEI_Banks.ini</File>
+      <File>Platforms/Windows/audio/SFDH_RUANMEI_Banks.ini</File>
+    </UpdateAudio>
+    <AddGameplayScripts id="">
+      <File>Scripts/SFDH_RUANMEI_Gameplay.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/SFDH_RUANMEI_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateArt id="">
+      <File>SFDH_RUANMEI.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>Data/SFDH_RUANMEI_Civilization.sql</File>
+    <File>Data/SFDH_RUANMEI_Color.xml</File>
+    <File>Data/SFDH_RUANMEI_Config.xml</File>
+    <File>Data/SFDH_RUANMEI_Core.sql</File>
+    <File>Data/SFDH_RUANMEI_District.sql</File>
+    <File>Data/SFDH_RUANMEI_Icon.xml</File>
+    <File>Data/SFDH_RUANMEI_Leader.sql</File>
+    <File>Data/SFDH_RUANMEI_Moment.sql</File>
+    <File>Data/SFDH_RUANMEI_Project.sql</File>
+    <File>Platforms/MacOS/audio/1057403970.wem</File>
+    <File>Platforms/MacOS/audio/PluginInfo.xml</File>
+    <File>Platforms/MacOS/audio/SFDH_RUANMEI_Banks.ini</File>
+    <File>Platforms/MacOS/audio/SoundbanksInfo.xml</File>
+    <File>Platforms/MacOS/audio/SoundBank_SFDH_RUANMEI.bnk</File>
+    <File>Platforms/MacOS/audio/SoundBank_SFDH_RUANMEI.txt</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SFDH_RUANMEI.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ICON_OVERLAY_SFDH_RUANMEI</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ICON_PRESSURE_SFDH_RUANMEI</File>
+    <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
+    <File>Platforms/Windows/audio/1057403970.wem</File>
+    <File>Platforms/Windows/audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/audio/SFDH_RUANMEI_Banks.ini</File>
+    <File>Platforms/Windows/audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/audio/SoundBank_SFDH_RUANMEI.bnk</File>
+    <File>Platforms/Windows/audio/SoundBank_SFDH_RUANMEI.txt</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SFDH_RUANMEI.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ICON_OVERLAY_SFDH_RUANMEI</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ICON_PRESSURE_SFDH_RUANMEI</File>
+    <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
+    <File>Scripts/SFDH_RUANMEI_Gameplay.lua</File>
+    <File>SFDH_RUANMEI.dep</File>
+    <File>Text/SFDH_RUANMEI_Text_CN.xml</File>
+    <File>UI/SFDH_RUANMEI_UI.lua</File>
+    <File>UI/SFDH_RUANMEI_UI.xml</File>
+  </Files>
+</Mod>

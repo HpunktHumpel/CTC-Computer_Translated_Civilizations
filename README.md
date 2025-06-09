@@ -310,6 +310,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3455609077](https://steamcommunity.com/sharedfiles/filedetails/?id=3455609077) | [HONKAI:STAR RAIL] AMPHOREUS PLUS PACK | [HONKAI:STAR RAIL] AMPHOREUS PLUS PACK |
 | [3458385576](https://steamcommunity.com/sharedfiles/filedetails/?id=3458385576) | 백귀야행 연합학원 | Backwi Nocturnal Academy |
 | [3489433623](https://steamcommunity.com/sharedfiles/filedetails/?id=3489433623) | 深空之眼 魂羽·奥西里斯 | Eye of Deep Space Soul Feather Osiris |
+| [3490070195](https://steamcommunity.com/sharedfiles/filedetails/?id=3490070195) | 天才俱乐部：阮梅 | Genius Club: Ruan Mei |
 | [3490257995](https://steamcommunity.com/sharedfiles/filedetails/?id=3490257995) | 椴嶅痉娓╁洓涓? | The linden tummy spasm is ╁ tummy? |
 | [3490898673](https://steamcommunity.com/sharedfiles/filedetails/?id=3490898673) | 深空之眼 绛羽拾花·奥西里斯 | Eye of Deep Sky Crystal Flowers Osiris |
 | [3492956656](https://steamcommunity.com/sharedfiles/filedetails/?id=3492956656) | 深空之眼 巧构·麟钰 | Eye of Deep Space Clever Lin Yu |
