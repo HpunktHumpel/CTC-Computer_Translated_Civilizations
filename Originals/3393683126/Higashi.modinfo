@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9450926a-a319-4331-a18a-1011176c09c2" version="1">
+  <Properties>
+    <Name>Arknights Higashi</Name>
+    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <Created>1736305034</Created>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Authors>jidong</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>text.xml</File>
+      <File>textCN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Arknights Higashi.dep</File>
+    </UpdateArt>
+    <UpdateColors id="NewAction">
+      <File>color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>civilization.xml</File>
+      <File>district.xml</File>
+      <File>leader.xml</File>
+      <File>unit.xml</File>
+      <File>trait.xml</File>
+      <File>moment.xml</File>
+      <File>building.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>text.xml</File>
+      <File>textCN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Arknights Higashi.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="NewAction">
+      <File>Higashi_GetFaith.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="NewAction">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>HigashiToolUI.xml</File>
+    </AddUserInterfaces>
+    <UpdateColors id="NewAction">
+      <File>color.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>114514</LoadOrder>
+      </Properties>
+      <File>trait.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Arknights Higashi.dep</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>building.xml</File>
+    <File>civilization.xml</File>
+    <File>color.xml</File>
+    <File>config.xml</File>
+    <File>district.xml</File>
+    <File>HigashiToolUI.lua</File>
+    <File>HigashiToolUI.xml</File>
+    <File>Higashi_GetFaith.lua</File>
+    <File>icon.xml</File>
+    <File>improvement.xml</File>
+    <File>leader.xml</File>
+    <File>moment.xml</File>
+    <File>Platforms/MacOS/BLPs/landmark.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/landmark.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>text.xml</File>
+    <File>textCN.xml</File>
+    <File>trait.sql</File>
+    <File>trait.xml</File>
+    <File>unit.xml</File>
+    <File>XLPs/landmark.xlp</File>
+  </Files>
+</Mod>
