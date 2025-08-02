@@ -196,6 +196,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [3059867478](https://steamcommunity.com/sharedfiles/filedetails/?id=3059867478) | 深空之眼 雏心·奥西里斯 | Eye of Deep Space Hinaxin Osiris |
 | [3064669649](https://steamcommunity.com/sharedfiles/filedetails/?id=3064669649) | 屑海豚の领袖包(废案能力集) | Dolphin Leader Pack (Abandoned Ability Collection) |
 | [3067212408](https://steamcommunity.com/sharedfiles/filedetails/?id=3067212408) | 深空之眼 少啰嗦不需要你来教我 | Eye of Deep Space, don’t be too verbose. I don’t need you to teach me. |
+| [3069749693](https://steamcommunity.com/sharedfiles/filedetails/?id=3069749693) | 少女前线 前线战备队 TMP | Girls Frontline Frontline War Preparation Team TMP |
 | [3089791148](https://steamcommunity.com/sharedfiles/filedetails/?id=3089791148) | 少女前线 前线战备队 Kar98k | Girls Frontline Front Line Kar98k |
 | [3093864870](https://steamcommunity.com/sharedfiles/filedetails/?id=3093864870) | 少女前线 前线战备队 FN-57 | Girls Frontline Frontline Ready Team FN-57 |
 | [3093871819](https://steamcommunity.com/sharedfiles/filedetails/?id=3093871819) | 少女前线 前线战备队 FN-57（游轮女王） | Girls Frontline Front Line FN-57 (Cruise Queen) |
