@@ -51,6 +51,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2007640634](https://steamcommunity.com/sharedfiles/filedetails/?id=2007640634) | Atelier Ryza Mod | Atelier Ryza Mod |
 | [2013408578](https://steamcommunity.com/sharedfiles/filedetails/?id=2013408578) | HonKai3 Fuhua | HonKai3 Fuhua |
 | [2014906545](https://steamcommunity.com/sharedfiles/filedetails/?id=2014906545) | Arknights Siesta | Arknights Siesta |
+| [2035936228](https://steamcommunity.com/sharedfiles/filedetails/?id=2035936228) | [SUPPORT GS][TOUHOU PROJECT] PACHIOULI KNOWLEDGE | [SUPPORT GS][TOUHOU PROJECT] PACHIOULI KNOWLEDGE |
 | [2134034215](https://steamcommunity.com/sharedfiles/filedetails/?id=2134034215) | 《NO GAME NO LIFE》Jibril | 《NO GAME NO LIFE》Jibril |
 | [2135227579](https://steamcommunity.com/sharedfiles/filedetails/?id=2135227579) | Arknights W | Arknights W |
 | [2172515402](https://steamcommunity.com/sharedfiles/filedetails/?id=2172515402) | 中国文明的新领袖【始皇帝】 | The new leader of Chinese civilization [Shi Huangdi] |

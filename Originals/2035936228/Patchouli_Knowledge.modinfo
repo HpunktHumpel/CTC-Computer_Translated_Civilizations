@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="04e00835-3914-4eb8-9f5a-562f829cf9b3" version="1">
+	<Properties>
+		<Name>LOC_PRIMARY_LEADER_PATCHOULI_KNOWLEDGE_NAME</Name>
+		<Description>LOC_PRIMARY_LEADER_PATCHOULI_KNOWLEDGE_DESCRIPTION</Description>
+		<Created>1646633325</Created>
+		<Teaser>这个mod添加了红魔乡文明和领袖帕秋莉</Teaser>
+		<Authors>Kunsmendon</Authors>
+		<SpecialThanks>Hemmelfort/八云寺幽幽紫/黑大帅美琴/香草の黄瓜Vol.C</SpecialThanks>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	<References>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+	</References>
+	
+	<LocalizedText>
+		<Text id="LOC_PRIMARY_LEADER_PATCHOULI_KNOWLEDGE_NAME">
+			<en_US>[COLOR:255,72,200,255]TouHou Project--Patchouli Knowledge Primary ver.[ENDCOLOR]</en_US>
+			<zh_Hans_CN>[COLOR:255,72,200,255]东方project--帕秋莉·诺蕾姬-初始[ENDCOLOR]</zh_Hans_CN>
+		</Text>
+
+		<Text id="LOC_PRIMARY_LEADER_PATCHOULI_KNOWLEDGE_DESCRIPTION">
+			<en_US>[COLOR:255,72,200,255]This mod add a new Touhou character.[ENDCOLOR]</en_US>
+			<zh_Hans_CN>[COLOR:255,72,200,255]这个mod添加了 帕秋莉·诺蕾姬 这个领袖[NEWLINE]来自原作：TH06东方红魔乡--四面[NEWLINE]这是我最开始制作的一个Mod，如今看来，无论从美工和代码都是十分简陋朴素了，代码的命名特别……不具有特色，容易重复报错。[NEWLINE]我本来想整个重做的，但是，既然这些代码都能跑，那么我也不多麻烦了。本次更新主要是重制了几个图标，改了很多不太规范的文本。至于其他的，没有bug的话，暂时也不动了。--2020.3.7[ENDCOLOR]</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+	
+	<FrontEndActions>
+		<UpdateDatabase id="config">
+			<File>Patchouli_Config.xml</File>
+		</UpdateDatabase>
+		<UpdateIcons id="icon">
+			<File>Patchouli_Icon.xml</File>
+		</UpdateIcons>
+		<UpdateText id="text">
+			<File>Patchouli_Text.xml</File>
+		</UpdateText>
+		<UpdateArt id="art">
+			<File>Patchouli Knowledge.dep</File>
+		</UpdateArt>
+		<UpdateColors id="color">
+			<File>Patchouli_Color.xml</File>
+		</UpdateColors>
+	</FrontEndActions>
+	<InGameActions>
+		<UpdateDatabase id="database">
+			<File>Patchouli_Buildings.xml</File>
+			<File>Patchouli_Civilization.xml</File>
+			<File>Patchouli_Leader.xml</File>
+			<File>Patchouli_Unit.xml</File>
+			<File>Patchouli_Modifiers.sql</File>
+			<File>Patchouli_Project.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="text">
+			<File>Patchouli_Text.xml</File>
+		</UpdateText>
+		<UpdateIcons id="icon">
+			<File>Patchouli_Icon.xml</File>
+		</UpdateIcons>
+		<UpdateArt id="art">
+			<File>Patchouli Knowledge.dep</File>
+		</UpdateArt>
+		<UpdateColors id="color">
+			<File>Patchouli_Color.xml</File>
+		</UpdateColors>
+		<UpdateDatabase id="Patchouli_xp2">
+			<Properties>
+				<RuleSet>RULESET_EXPANSION_2</RuleSet>
+			</Properties>
+			<File>Patchouli_Babylon_Update.sql</File>
+			<File>Patchouli_Moments.xml</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="Patchouli_Xp1">
+			<Properties>
+				<RuleSet>RULESET_EXPANSION_1</RuleSet>
+			</Properties>
+			<File>Patchouli_Babylon_Update.sql</File>
+			<File>Patchouli_Moments.xml</File>
+		</UpdateDatabase>
+	</InGameActions>
+	<Files>
+		<File>Artdefs/Buildings.artdef</File>
+		<File>Artdefs/FallbackLeaders.artdef</File>
+		<File>Artdefs/Units.artdef</File>
+		<File>Patchouli Knowledge.dep</File>
+		<File>Patchouli_Babylon_Update.sql</File>
+		<File>Patchouli_Buildings.xml</File>
+		<File>Patchouli_Civilization.xml</File>
+		<File>Patchouli_Color.xml</File>
+		<File>Patchouli_Config.xml</File>
+		<File>Patchouli_Icon.xml</File>
+		<File>Patchouli_Knowledge.Art.xml</File>
+		<File>Patchouli_Leader.xml</File>
+		<File>Patchouli_Modifiers.sql</File>
+		<File>Patchouli_Moments.xml</File>
+		<File>Patchouli_Project.xml</File>
+		<File>Patchouli_Text.xml</File>
+		<File>Patchouli_Unit.xml</File>
+		<File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+		<File>Platforms/MacOS/BLPs/Patchouli.blp</File>
+		<File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+		<File>Platforms/Windows/BLPs/Patchouli.blp</File>
+	</Files>
+</Mod>
