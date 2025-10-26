@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Automatically translated with the help of google translate.-->
-<!-- Fri Apr 11 23:27:00 2025-->
+<!-- Sun Oct 26 16:41:24 2025-->
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_NW_AMPHOREUS_NAME" Language="zh_Hant_HK">
@@ -16,13 +16,16 @@
 			<Text>緹里西庇俄絲</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_NW_TIBAO_QUOTE" Language="zh_Hant_HK">
-			<Text>終有一日，汝將背後負創而死。</Text>
+			<Text>眾人將與一人離別，惟其人將覲見奇蹟</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_TIBAO" Language="zh_Hant_HK">
 			<Text>明天見，是世界上最偉大的預言</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_NW_WANDI_NAME" Language="zh_Hant_HK">
 			<Text>萬敵</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_WANDI_QUOTE" Language="zh_Hant_HK">
+			<Text>終有一日，汝將背後負創而死。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_WANDI" Language="zh_Hant_HK">
 			<Text>弒王成王，弒神登神</Text>
@@ -31,7 +34,7 @@
 			<Text>阿格萊雅</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_NW_AGELAIYA_QUOTE" Language="zh_Hant_HK">
-			<Text>汝將最後一次沐浴，在溫熱耀眼的黃金中。</Text>
+			<Text>汝將最​​後一次沐浴，在溫熱耀眼的黃金中。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_AGELAIYA" Language="zh_Hant_HK">
 			<Text>阿格萊雅，「浪漫」的半神，亦是逐火之旅的領導者。她身為織者，親自穿針引線，召集世間英雄再度踏上漫長的征途。</Text>
@@ -43,7 +46,16 @@
 			<Text>神悟樹庭七賢人之一，智種學派的創立者。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_NAKEXIA" Language="zh_Hant_HK">
-			<Text>神悟樹庭七賢人之一，智種學派的創立者。</Text>
+			<Text>汝將超越至純粹之終極，回歸腐敗苦黑。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_XIADIE_NAME" Language="zh_Hant_HK">
+			<Text>遐蝶</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NW_XIADIE_QUOTE" Language="zh_Hant_HK">
+			<Text>哀地里亞的督戰聖女，奧赫瑪的「入殮師」。身負名為「死亡之觸」的詛咒，指尖觸碰到的生命都會凋亡歸無。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_XIADIE" Language="zh_Hant_HK">
+			<Text>相擁之後，便是永恆的離別。</Text>
 		</Replace>
 		<Replace Tag="LOC_CITY_NAME_NW_AMPHOREUS_AOHEMA" Language="zh_Hant_HK">
 			<Text>「永恆聖城」奧赫瑪</Text>
@@ -127,10 +139,10 @@
 			<Text>布利薩</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_NAME" Language="zh_Hant_HK">
-			<Text>記憶、智識與終末的循環</Text>
+			<Text>記憶、智識與毀滅的循環</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NW_AMPHOREUS_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>「市政廣場」內可建造三種文明特色建築。擁有文明特色建築時，以及處於 [ICON_GLORY_GOLDEN_AGE] 黃金時代或 [ICON_GLORY_SUPER_GOLDEN_AGE] 英雄時代時，分別+12%所有產出。</Text>
+			<Text>「市政廣場」內可建造三種文明特色建築。擁有文明特色建築時，以及處於黃金時代或英雄時代時，分別+12%所有產出。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_STEAL_THE_DOOR_NAME" Language="zh_Hant_HK">
 			<Text>竊奪「門徑」的火種</Text>
@@ -156,6 +168,12 @@
 		<Replace Tag="LOC_TRAIT_LEADER_FIRE_REASON_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>建造者+1使用次數。 [NEWLINE]專業化區域小於三個的城市，建造區域[ICON_Production]的時間大幅縮短。 [NEWLINE]解鎖建造者栽種天然林的能力，但在市政「土木工程」前，移除地貌的收益-35%。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_DEATH_NAME" Language="zh_Hant_HK">
+			<Text>尋索「死亡」的火種</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRE_DEATH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>單位晉升後，基於生產該單位所需的[ICON_Production]生產力的50%，返還 [ICON_Gold] 金幣和[ICON_Faith] 信仰值。 [NEWLINE]單位死亡和擊殺敵方單位後，基於生產該單位所需的[ICON_Production]生產力的20%，返還 [ICON_Science] 科技值和 [ICON_Culture] 文化值，該單位9個單元格內信仰其他宗教城市將皈依遐蝶的宗教。 [NEWLINE]單位晉升不會結束其回合，並從每個晉升中獲得額外 +7 戰鬥力。 [NEWLINE]其他聖城皈依遐蝶的宗教後，遐蝶的宗教將獲得此宗教的信條。</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_KEFALEPLAZA_NAME" Language="zh_Hant_HK">
 			<Text>刻法勒廣場</Text>
 		</Replace>
@@ -180,6 +198,12 @@
 		<Replace Tag="LOC_DISTRICT_TREE_COURT_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>那刻夏的特色區域，替代學院，相鄰加成提供 [ICON_Culture] 文化值，而非 [ICON_Science] 科技值。建成時，獲得1名黃金裔、釋放文化炸彈、建成城牆並在市中心二環內的己方單元格生成樹林。該區域內的建築+2住房，該區域地基和建築為本城中的樹林+1科技值+1生產力，雨林+1文化值+2金幣，並贈送一項隨機 [ICON_Science] 科技。</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_DRAGON_SKELE_NAME" Language="zh_Hant_HK">
+			<Text>龍骸古城</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DRAGON_SKELE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>遐蝶的特色區域，替代娛樂中心，為相鄰區域提供大量加成。該區域具有其他區域的相鄰加成和偉人點數產出，初始相鄰產出+100%，並為本城項目生產速度[ICON_Production]和偉人點數+100%。建成後，獲得1名黃金裔，城市可以建造一個額外的區域，本城任意改良設施+1 [ICON_Amenities] 宜居度、+1 [ICON_Housing] 住房、+2 [ICON_Production] 生產力。競技場+1 [ICON_TradeRoute] 貿易路線容量。</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_AJOURNEYBYFIRE_READY" Language="zh_Hant_HK">
 			<Text>火種的殘骸</Text>
 		</Replace>
@@ -190,19 +214,19 @@
 			<Text>記憶</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_NW_JIYI_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>翁法羅斯的特色建築，只能修建一座，不能與智識和終末同時修建。建成後，聖地的相鄰加成也提供 [ICON_Culture] 文化值。解鎖飛行後，提供等量 [ICON_Tourism] 旅遊業績。</Text>
+			<Text>翁法羅斯的特色建築，只能修建一座，不能與智識和毀滅同時修建。建成後，聖地的相鄰加成也提供 [ICON_Culture] 文化值。解鎖飛行後，提供等量 [ICON_Tourism] 旅遊業績。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_NW_ZHISHI_NAME" Language="zh_Hant_HK">
 			<Text>智識</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_NW_ZHISHI_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>翁法羅斯的特色建築，只能修建一座，不能與記憶和終末同時修建。建成後，學院的相鄰加成也提供 [ICON_Production] 生產力，學院內建築固定產出的 [ICON_Science] 科技值也提供 [ICON_Gold] 金幣。</Text>
+			<Text>翁法羅斯的特色建築，只能修建一座，不能與記憶和毀滅同時修建。建成後，學院的相鄰加成也提供 [ICON_Production] 生產力，學院內建築固定產出的 [ICON_Science] 科技值也提供 [ICON_Gold] 金幣。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_NW_ZHONGMO_NAME" Language="zh_Hant_HK">
-			<Text>終末</Text>
+			<Text>毀滅</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_NW_ZHONGMO_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>翁法羅斯的特色建築，只能修建一座，不能與記憶和智識同時修建。建成後，商業中心和港口的相鄰加成也提供 [ICON_Food] 生產力，每個商業中心和港口為所有商路+1 [ICON_Gold] 金幣。</Text>
+			<Text>翁法羅斯的特色建築，只能修建一座，不能與記憶和智識同時修建。建成後，軍營和工業區的相鄰加成翻倍，所有奇觀+30% [ICON_Production] 生產力，並立即獲得一個大將軍。</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_A_JOURNEY_BY_FIRE_NAME" Language="zh_Hant_HK">
 			<Text>逐火之旅</Text>
@@ -215,6 +239,12 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_GOLD_SON_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>翁法羅斯特色近戰單位，無法訓練或購買，也無需維護費，只能通過觸發領袖能力獲得。 [NEWLINE]該單位總是具有和您已擁有的最高 [ICON_Strength] 攻擊力的近戰單位相同的 [ICON_Strength] 攻擊力。單個玩家最多擁有12位黃金裔。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DEATH_DRAGON_NAME" Language="zh_Hant_HK">
+			<Text>死龍•玻呂刻斯</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DEATH_DRAGON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>遐蝶特色支援單位，無法生產或購買，在擁有龍骸古城的城市中執行項目“麵包與馬戲”後獲得。 [NEWLINE]死龍可以消耗自身33生命值，為3個單元格範圍內的非死龍單位回復全部生命值，這些單位將從回復量中獲得等額經驗；和死龍處於同一單元格的單位將獲得1次隨機晉升。 [NEWLINE]若死龍因消耗生命值死亡時清除6個單元格內的敵對單位。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_NAKEXIA_FOREST_NAME" Language="zh_Hant_HK">
 			<Text>種植天然林</Text>
@@ -238,13 +268,25 @@
 			<Text>本回合已重置過移動力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_WANDI_UNIT_STRENGTH_NAME" Language="zh_Hant_HK">
-			<Text>根據宜居度總和，獲得額外戰鬥力</Text>
+			<Text>根據宜居度，獲得額外戰鬥力(紛爭)</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_WANDI_UNIT_MOVEMENT_NAME" Language="zh_Hant_HK">
-			<Text>從大將軍處或自身獲得額外的2點移動力</Text>
+			<Text>從大將軍處或自身獲得額外的2點移動力(紛爭)</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_GREAT_PERSON_CLASS_GENERAL_MOVEMENT_NAME" Language="zh_Hant_HK">
-			<Text>從自身獲得額外的4點移動力</Text>
+			<Text>從自身獲得額外的4點移動力(紛爭)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIADIE_UNIT_MOVEMENT_NAME" Language="zh_Hant_HK">
+			<Text>獲得額外移動力(來自死龍•玻呂刻斯)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_XIADIE_UNIT_STRENGTH_NAME" Language="zh_Hant_HK">
+			<Text>單位從每一晉升次數中獲得+7戰鬥力</Text>
+		</Replace>
+		<Replace Tag="LOC_NW_XIADIE_COMBAT_STRENGTH_FOR_ALL_UNIT_DESC" Language="zh_Hant_HK">
+			<Text>+{Property} 來自單位晉升次數</Text>
+		</Replace>
+		<Replace Tag="LOC_DEATH_DRAGON_ACTION_TOOLTIP" Language="zh_Hant_HK">
+			<Text>燎盡黯澤的焰息</Text>
 		</Replace>
 		<Replace Tag="LOC_Adjacency_DISTRICT_KEFALEPLAZA_SELF" Language="zh_Hant_HK">
 			<Text>+{1_Num} [ICON_FAITH] 信仰值來自區域基礎產出</Text>
@@ -295,16 +337,31 @@
 			<Text>+{1_Num} [ICON_GOLD] 金幣來自相鄰的雲石天宮</Text>
 		</Replace>
 		<Replace Tag="LOC_Adjacency_DISTRICT_MARBLE_GIVE_YIELD_SCIENCE" Language="zh_Hant_HK">
-			<Text>+{1_Num} [ICON_SCIENCE] 科技值來自云石天宮</Text>
+			<Text>+{1_Num} [ICON_SCIENCE] 科技值來自相鄰的雲石天宮</Text>
 		</Replace>
 		<Replace Tag="LOC_Adjacency_DISTRICT_MARBLE_GIVE_YIELD_FAITH" Language="zh_Hant_HK">
-			<Text>+{1_Num} [ICON_FAITH] 信仰值來自云石天宮</Text>
+			<Text>+{1_Num} [ICON_FAITH] 信仰值來自相鄰的雲石天宮</Text>
 		</Replace>
 		<Replace Tag="LOC_Adjacency_DISTRICT_MARBLE_GIVE_YIELD_CULTURE" Language="zh_Hant_HK">
-			<Text>+{1_Num} [ICON_CULTURE] 文化值來自云石天宮</Text>
+			<Text>+{1_Num} [ICON_CULTURE] 文化值來自相鄰的雲石天宮</Text>
 		</Replace>
-		<Replace Tag="LOC_Adjacency_DISTRICT_MARBLE_GIVEL_YIELD_PRODUCTION" Language="zh_Hant_HK">
-			<Text>+{1_Num} [ICON_PRODUCTION] 生產力來自云石天宮</Text>
+		<Replace Tag="LOC_Adjacency_DISTRICT_MARBLE_GIVE_YIELD_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_Num} [ICON_PRODUCTION] 生產力來自相鄰的雲石天宮</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_DRAGON_SKELE_GIVE_YIELD_GOLD" Language="zh_Hant_HK">
+			<Text>+{1_Num} [ICON_GOLD] 金幣來自相鄰的龍骸古城</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_DRAGON_SKELE_GIVE_YIELD_SCIENCE" Language="zh_Hant_HK">
+			<Text>+{1_Num} [ICON_SCIENCE] 科技值來自相鄰的龍骸古城</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_DRAGON_SKELE_GIVE_YIELD_FAITH" Language="zh_Hant_HK">
+			<Text>+{1_Num} [ICON_FAITH] 信仰值來自相鄰的龍骸古城</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_DRAGON_SKELE_GIVE_YIELD_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_Num} [ICON_CULTURE] 文化值來自相鄰的龍骸古城</Text>
+		</Replace>
+		<Replace Tag="LOC_Adjacency_DISTRICT_DRAGON_SKELE_GIVE_YIELD_PRODUCTION" Language="zh_Hant_HK">
+			<Text>+{1_Num} [ICON_PRODUCTION] 生產力來自相鄰的龍骸古城</Text>
 		</Replace>
 		<Replace Tag="LOC_Adjacency_DISTRICT_TREE_COURT_SELF" Language="zh_Hant_HK">
 			<Text>+{1_Num} [ICON_CULTURE] 文化值來自區域基礎產出</Text>
