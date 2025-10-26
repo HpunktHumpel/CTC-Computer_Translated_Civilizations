@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="97805b6b-2012-4c4f-bae0-eecd6aa8c452" version="1">
+  <Properties>
+    <Name>Umamusume</Name>
+    <Description>This is a Umamusume mod.</Description>
+    <Created>1662333285</Created>
+    <Teaser>This is a Umamusume mod.</Teaser>
+    <Authors>muyyi</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_LUDAOFU_BY_MUYYI,Players:Expansion1_Players::LEADER_LUDAOFU_BY_MUYYI,Players:Expansion2_Players::LEADER_LUDAOFU_BY_MUYYI</LeaderPlayable>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_LUDAOFU_BY_MUYYI</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="LeaderCriteria_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_LUDAOFU_BY_MUYYI</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Uma_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="ConfigColor">
+      <File>Uma_Color.sql</File>
+    </UpdateColors>
+    <UpdateText id="ConfigText">
+      <File>Uma_Text_CN.xml</File>
+      <File>Uma_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="ConfigArt">
+      <File>Umamusume.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="ConfigIcon">
+      <File>Uma_Icons.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Uma_Civ.xml</File>
+      <File>Uma_Leader.xml</File>
+      <File>Uma_Units.xml</File>
+      <File>Uma_Building.xml</File>
+      <File>Uma_Modifier.sql</File>
+      <File>Uma_Great_Persons.xml</File>
+      <File>Uma_Projects.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Uma_Text_CN.xml</File>
+      <File>Uma_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="Color">
+      <File>Uma_Color.sql</File>
+    </UpdateColors>
+    <UpdateIcons id="Icons">
+      <File>Uma_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Umamusume.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="UmaLua">
+      <File>Script/UmaAbility.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Platforms/MacOS/BLPs/Leaderfallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/Leaderfallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Script/UmaAbility.lua</File>
+    <File>Umamusume.dep</File>
+    <File>Uma_Building.xml</File>
+    <File>Uma_Civ.xml</File>
+    <File>Uma_Color.sql</File>
+    <File>Uma_Config.xml</File>
+    <File>Uma_Great_Persons.xml</File>
+    <File>Uma_Icons.xml</File>
+    <File>Uma_Leader.xml</File>
+    <File>Uma_Modifier.sql</File>
+    <File>Uma_Text.xml</File>
+    <File>Uma_Text_CN.xml</File>
+    <File>Uma_Units.xml</File>
+    <File>Uma_Projects.xml</File>
+  </Files>
+</Mod>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Leader Quotes -->
+	<LocaLizeDtext>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LUDAOFU_BY_MUYYI" Language="zh_Hans_CN">
+			<Text>特雷森学院的VR科技太牛逼啦！这次她们进入了一个名为《文明6》的世界...</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_LUDAOFU_BY_MUYYI_NAME" Language="zh_Hans_CN">
+			<Text>鲁道夫象征</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SANNVSHENXIANG_NAME" Language="zh_Hans_CN">
+			<Text>三女神像</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SANNVSHENXIANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色奇观，只能在首都建造。提高马娘的出生概率，并为每个马娘提供一项神秘特性。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SAIMACHANG_NAME" Language="zh_Hans_CN">
+			<Text>赛马场</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SAIMACHANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>同时兼顾娱乐和军事的特色建筑，只能由托雷那进行建造。本城市训练的骑兵战斗经验值+100%，战斗力永久+5，并获得1级初始晋升。工业时代后，允许通过特殊项目“有马纪念”获得马娘。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_UMA_LEADER_SKILL_NAME" Language="zh_Hans_CN">
+			<Text>一马当先</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UMA_LEADER_SKILL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有骑兵单位+1移动力。建造骑兵时额外获得25%产能。进入新时代时，获得一个特殊伟人“托雷那”。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_UMA_BY_MUYYI_NAME" Language="zh_Hans_CN">
+			<Text>特雷森学院</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_UMA_BY_MUYYI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特雷森学院</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_UMA_CIV_SKILL_NAME" Language="zh_Hans_CN">
+			<Text>马娘文化</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UMA_CIV_SKILL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				初始解锁畜牧科技。马资源+1 [icon_culture] 文化+1 [icon_faith]信仰。开发有马资源的城市+2产能和10%建筑建造。牧场触发文化炸弹，并为相邻工业区和圣地提供标准相邻加成。[NEWLINE]
+				人口增长时，一定概率获得特殊单位马娘。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_NAME" Language="zh_Hans_CN">
+			<Text>赛马娘</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色单位，只能通过人口自然增长概率获得。拥有独特的晋升树，进攻时可获得额外冲锋加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_NORMAL_NAME" Language="zh_Hans_CN">
+			<Text>普通的赛马娘</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_NORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该马娘仍有潜力等待挖掘....</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_DIWANG_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]东海帝王[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_DIWANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>东海帝王的描述</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_UMA_MANIANG_NAME" Language="zh_Hans_CN">
+			<Text>赛马娘</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_UMA_MANIANG_CHONGJI_NAME" Language="zh_Hans_CN">
+			<Text>冲击</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UMA_MANIANG_JIANTA_NAME" Language="zh_Hans_CN">
+			<Text>践踏</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UMA_RNG_MANIANG_NAME" Language="zh_Hans_CN">
+			<Text>神秘晋升</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAIMACHANG_XP_NAME" Language="zh_Hans_CN">
+			<Text>快速学习</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIWANGWUBU_NAME" Language="zh_Hans_CN">
+			<Text>帝王舞步</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_ABILITY_UMA_MANIANG_JIANTA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>践踏：进攻远程和攻城单位时+20力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UMA_MANIANG_CHONGJI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冲锋：进攻时+5战斗力（随等级提升）。击退战斗力低于你的敌人，无法被击退的单位造成额外伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UMA_RNG_MANIANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该马娘拥有一项隐藏特性！首次战斗后解锁</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAIMACHANG_XP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>100%战斗经验加成（赛马场）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIWANGWUBU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>帝王舞步：攻击后可移动，击杀敌方单位后+1移动+1攻击次数</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L1L_NAME" Language="zh_Hans_CN">
+			<Text>冲击1级</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L2L_NAME" Language="zh_Hans_CN">
+			<Text>冲击2级</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L3L_NAME" Language="zh_Hans_CN">
+			<Text>践踏</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L1R_NAME" Language="zh_Hans_CN">
+			<Text>机动1级</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L2R_NAME" Language="zh_Hans_CN">
+			<Text>机动2级</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L3R_NAME" Language="zh_Hans_CN">
+			<Text>残杀</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L4_NAME" Language="zh_Hans_CN">
+			<Text>王牌</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L1L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进攻时+8战斗力，击退后+1移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L2L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进攻时+8战斗力，对被击退单位额外再造成20伤害</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L3L_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进攻远程和攻城单位时+10力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L1R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在平坦地块（非丘陵树林丛林）作战+5力，攻击后可移动</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L2R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在平坦地块（非丘陵树林丛林）作战+5力，在平坦单位格开始回合时，+1移动力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L3R_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对受伤单位+5力，击杀单位回复20体力</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_UMA_MANIANG_L4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>移动力+1，若移动力允许，可额外攻击一次</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_UMA_BY_MUYYI" Language="zh_Hans_CN">
+			<Text>特雷森学院</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_1" Language="zh_Hans_CN">
+			<Text>东海帝王</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_2" Language="zh_Hans_CN">
+			<Text>优秀素质</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_3" Language="zh_Hans_CN">
+			<Text>目白麦昆</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_4" Language="zh_Hans_CN">
+			<Text>特别周</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_5" Language="zh_Hans_CN">
+			<Text>无声铃鹿</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_6" Language="zh_Hans_CN">
+			<Text>米浴</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_7" Language="zh_Hans_CN">
+			<Text>美浦波旁</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_8" Language="zh_Hans_CN">
+			<Text>北部玄驹</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_9" Language="zh_Hans_CN">
+			<Text>里见光钻</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_10" Language="zh_Hans_CN">
+			<Text>小栗帽</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_11" Language="zh_Hans_CN">
+			<Text>黄金船</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_12" Language="zh_Hans_CN">
+			<Text>草上飞</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_13" Language="zh_Hans_CN">
+			<Text>神鹰</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_14" Language="zh_Hans_CN">
+			<Text>大和赤骥</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_15" Language="zh_Hans_CN">
+			<Text>伏特加</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_16" Language="zh_Hans_CN">
+			<Text>星云天空</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_17" Language="zh_Hans_CN">
+			<Text>西野花</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_18" Language="zh_Hans_CN">
+			<Text>帝王光辉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_19" Language="zh_Hans_CN">
+			<Text>黄金城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_20" Language="zh_Hans_CN">
+			<Text>重炮</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_21" Language="zh_Hans_CN">
+			<Text>真机伶</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_22" Language="zh_Hans_CN">
+			<Text>超级小海湾</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_23" Language="zh_Hans_CN">
+			<Text>成田大进</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_24" Language="zh_Hans_CN">
+			<Text>醒目飞鹰</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_25" Language="zh_Hans_CN">
+			<Text>曼城茶座</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_26" Language="zh_Hans_CN">
+			<Text>爱丽数码</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_27" Language="zh_Hans_CN">
+			<Text>丸善斯基</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_28" Language="zh_Hans_CN">
+			<Text>目白多伯</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_29" Language="zh_Hans_CN">
+			<Text>目白善信</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_30" Language="zh_Hans_CN">
+			<Text>玉藻十字</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_31" Language="zh_Hans_CN">
+			<Text>美妙姿势</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_32" Language="zh_Hans_CN">
+			<Text>待兼诗歌剧</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_UMA_BY_MUYYI_CITY_33" Language="zh_Hans_CN">
+			<Text>乌拉拉</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_DAWEIWANG_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_YELLOW]大胃王[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GANGZHIYIZHI_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_GREEN]钢之意志[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HUOLIQUANKAI_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_GREEN]火力全开[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DAWEIWANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_YELLOW]大胃王[ENDCOLOR]：掠夺仅消耗1移动力，击杀敌方单位获得30回复(大胃王)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GANGZHIYIZHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_GREEN]钢之意志[ENDCOLOR]：受伤不影响战斗力，防御时+10力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HUOLIQUANKAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_GREEN]火力全开[ENDCOLOR]：进攻时+12力，防御时-5力</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_ABILITY_10_STRONG_WHEN_DEFENDING_MODIFIER" Language="zh_Hans_CN">
+			<Text>防御时+10</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_ABILITY_5_WEAK_WHEN_DEFENDING_MODIFIER" Language="zh_Hans_CN">
+			<Text>防御时-5</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_ABILITY_STRONG_WHEN_ATTACKING_MODIFIER" Language="zh_Hans_CN">
+			<Text>进攻+{1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_PROMOTION_5_STRONG_WHEN_ATTACKING_MODIFIER" Language="zh_Hans_CN">
+			<Text>进攻+{1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_PROMOTION_10_STRONG_WHEN_ATTACKING_MODIFIER" Language="zh_Hans_CN">
+			<Text>进攻+{1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_PROMOTION_JIANTA" Language="zh_Hans_CN">
+			<Text>对远程和攻城单位+{1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_PROMOTION_STRONG_WHEN_PINGTAN" Language="zh_Hans_CN">
+			<Text>位于平坦地块作战+{1_Amount}</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UMA_ABILITY_5_WEAK_SELF" Language="zh_Hans_CN">
+			<Text>米浴{1_Amount}</Text>
+		</Replace>		
+		<Replace Tag="LOC_UMA_ABILITY_10_WEAK_ADJ_FRIEND_UNIT_MODIFIER" Language="zh_Hans_CN">
+			<Text>米浴友方{1_Amount}</Text>
+		</Replace>		
+		<Replace Tag="LOC_UMA_ABILITY_5_WEAK_ADJ_FRIEND_UNIT_MODIFIER" Language="zh_Hans_CN">
+			<Text>米浴友方{1_Amount}</Text>
+		</Replace>		
+		<Replace Tag="LOC_UMA_ABILITY_10_WEAK_ADJ_UNIT_ENENY_MODIFIER" Language="zh_Hans_CN">
+			<Text>米浴敌方{1_Amount}</Text>
+		</Replace>		
+		<Replace Tag="LOC_UMA_ABILITY_MIYU_VS_WOUNDED_UNIT" Language="zh_Hans_CN">
+			<Text>米浴对受伤敌人+{1_Amount}</Text>
+		</Replace>		
+		<Replace Tag="LOC_UMA_ABILITY_MIYU_VS_GOLDEN_AGE_UNIT" Language="zh_Hans_CN">
+			<Text>米浴对黄金时代敌人+{1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_MIYU_NAME" Language="zh_Hans_CN">
+			<Text>米浴</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_MIYU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>米浴的描述</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MIYU_QIANGWEI_NAME" Language="zh_Hans_CN">
+			<Text>蓝色蔷薇</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MIYU_QIANGWEI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>蓝色蔷薇(未激发):自身和相邻单位-5战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MIYU_CIKE_NAME" Language="zh_Hans_CN">
+			<Text>黑之刺客</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MIYU_CIKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>黑之刺客：对受伤单位+10力，对黄金时代单位+10力</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_ABILITY_5_WEAK_ALL_ADJ_UNIT_MODIFIER" Language="zh_Hans_CN">
+			<Text>蓝色蔷薇(未激发):自身和相邻单位-5战斗力（米浴）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MEILI_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_YELLOW]魅力[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MEILI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_YELLOW]魅力[ENDCOLOR]战斗时-5力，击败敌人时，有33%概率将其转化为己方单位</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TONGSHUAI_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_GREEN]统帅[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TONGSHUAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_GREEN]统帅[ENDCOLOR]:和托雷那一样，为马娘和普通骑兵单位提供加成。击杀敌人获得大将军点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JIAOZAO_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]躁动不安[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_JIAOZAO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]躁动不安[ENDCOLOR]:移动力额外+1，自身-10力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WANGPAI_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_YELLOW]王牌[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WANGPAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_YELLOW]王牌[ENDCOLOR]:+1攻击次数。+10战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIXIANG_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]思乡[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIXIANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]思乡[ENDCOLOR]:在境内作战+15战斗力。在境外作战-10战斗力且每回合损失20点生命</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TONGSHUAI_AOE_NAME" Language="zh_Hans_CN">
+			<Text>统帅</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TONGSHUAI_AOE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从周围有统帅能力的单位+5力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UMA_ABILITY_JIAOZAO_5_WEAK_MODIFIER" Language="zh_Hans_CN">
+			<Text>焦躁不安{1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_ABILITY_WANGPAI_5_STRONG_MODIFIER" Language="zh_Hans_CN">
+			<Text>王牌{1_Amount}</Text>
+		</Replace>
+
+		<Replace Tag="LOC_NEW_UNIT_UMA_MSG_HEAD" Language="zh_Hans_CN">
+			<Text>你获得了新马娘</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFIER_NEW_UNIT_UMA_MSG" Language="zh_Hans_CN">
+			<Text>从城市 {1_CityName}</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_UMA_CHENGZHANG_NAME" Language="zh_Hans_CN">
+			<Text>成长</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UMA_CHENGZHANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每进入一个新时代+5战斗力</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_MAIKUN_CHANGJULI_1_NAME" Language="zh_Hans_CN">
+			<Text>长距离马</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MAIKUN_CHANGJULI_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>长距离马（未激发）：移动力+2，执行行动后仍可回复。</Text>
+		</Replace>		
+		<Replace Tag="LOC_ABILITY_MAIKUN_YIXIN_NAME" Language="zh_Hans_CN">
+			<Text>一心同体</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MAIKUN_YIXIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一心同体：编队单位继承其移动力，若编队的单位为托雷那，+10战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUDAOFU_TONGSHUAI_AOE_NAME" Language="zh_Hans_CN">
+			<Text>皇帝</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUDAOFU_TONGSHUAI_AOE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从皇帝获得+8战斗力，+1移动力。</Text>
+		</Replace>		
+		<Replace Tag="LOC_ABILITY_MAIKUN_CHANGJULI_2_NAME" Language="zh_Hans_CN">
+			<Text>天皇春马</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MAIKUN_CHANGJULI_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>天皇春马：移动力+3，执行行动后仍可回复且自然回复量+10。解锁新技能。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_MAIKUN_NAME" Language="zh_Hans_CN">
+			<Text>麦昆</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_MAIKUN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>麦昆的描述</Text>
+		</Replace>		
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_LUDAOFU_NAME" Language="zh_Hans_CN">
+			<Text>鲁道夫</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_MANIANG_LUDAOFU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>鲁道夫的描述</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_ABILITY_LUDAOFU_TONGSHUAI_AOE_MODIFIER" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 来自{LOC_ABILITY_LUDAOFU_TONGSHUAI_AOE_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_ABILITY_TONGSHUAI_5_STRONG_MODIFIER" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 来自{LOC_ABILITY_TONGSHUAI_NAME}</Text>
+		</Replace>		
+		<Replace Tag="LOC_UMA_ABILITY_MEILI_5_WEAK_MODIFIER" Language="zh_Hans_CN">
+			<Text>{1_Amount} 来自{LOC_ABILITY_MEILI_NAME}</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_LUDAOFU_TONGSHUAI_NAME" Language="zh_Hans_CN">
+			<Text>皇帝</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LUDAOFU_TONGSHUAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>皇帝：2格范围内的其它骑兵和马娘单位+8战斗力，+1移动力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_UMA_TUOLEINA_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TUOLEINA_AOE_NAME" Language="zh_Hans_CN">
+			<Text>育成</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TUOLEINA_AOE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>育成：2格范围内的其它骑兵和马娘单位+5战斗力，+1移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_TUOLEINA_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UMA_TUOLEINA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>托雷那的描述</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_GREATPERSON_TUOLEINA_BUILDING_SAIMACHANG" Language="zh_Hans_CN">
+			<Text>立即在该城市修建赛马场</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_GREATPERSON_TUOLEINA_AOE" Language="zh_Hans_CN">
+			<Text>育成：2格范围内的其它骑兵和马娘单位+5战斗力，+1移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TUOLEINA_YIXIN_MODIFIER" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 来自一心同体</Text>
+		</Replace>
+		<Replace Tag="LOC_UMA_ABILITY_TUOLEINA_AOE_MODIFIER" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 来自托雷那</Text>
+		</Replace>		
+		<Replace Tag="LOC_UMA_UB_SKILL_SAIMACHANG_STRENGTH_MODIFIER" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 来自赛马场</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_1_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_2_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_3_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_4_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_5_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_6_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_7_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_8_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_9_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_UMA_TUOLEINA_10_NAME" Language="zh_Hans_CN">
+			<Text>托雷那</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_TUOLEINA_TP_NAME" Language="zh_Hans_CN">
+			<Text>两人三脚（临时）</Text>
+		</Replace>		
+		<Replace Tag="LOC_ABILITY_TUOLEINA_TP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>两人三脚：2格范围内的其它骑兵和马娘单位+5战斗力，+1移动力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_UMA_STOP_GET_MANIANG_NAME" Language="zh_Hans_CN">
+			<Text>暂停招生</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_UMA_STOP_GET_MANIANG_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>暂停招生</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_UMA_STOP_GET_MANIANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>马娘太多了！本局游戏中不会再因为人口增长获得马娘。</Text>
+		</Replace>
+	</LocaLizeDtext>
+</GameData>

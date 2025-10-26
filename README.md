@@ -92,8 +92,9 @@ Auto-generated translations for the following mods are currently included in thi
 | [2819241021](https://steamcommunity.com/sharedfiles/filedetails/?id=2819241021) | 纰ц摑鑸嚎鍑€鍖栦翰mod AZURE LANE SIREN Mod | 簰ц恴鑸Howling鍑€鍖栦汉mod AZURE LANE SIREN Mod |
 | [2823604930](https://steamcommunity.com/sharedfiles/filedetails/?id=2823604930) | 明日方舟-乌萨斯学生自治团 | Arknights-Ursus Student Autonomous Group |
 | [2837886503](https://steamcommunity.com/sharedfiles/filedetails/?id=2837886503) | 丁真领导的理塘文明 | Litang Civilization led by Ding Zhen |
-| [2863254283](https://steamcommunity.com/sharedfiles/filedetails/?id=2863254283) | 崩坏·太虚剑派 | Collapse·Taixu Sword School |
 | [2846674998](https://steamcommunity.com/sharedfiles/filedetails/?id=2846674998) | 蔡徐坤领导的ikun帝国 | The ikun empire led by Cai Xukun |
+| [2863254283](https://steamcommunity.com/sharedfiles/filedetails/?id=2863254283) | 崩坏·太虚剑派 | Collapse·Taixu Sword School |
+| [2869371714](https://steamcommunity.com/sharedfiles/filedetails/?id=2869371714) | Umamusume（test version) | Umamusume（test version) |
 | [2872033513](https://steamcommunity.com/sharedfiles/filedetails/?id=2872033513) | 钢铁的反叛者 | rebel of steel |
 | [2888924215](https://steamcommunity.com/sharedfiles/filedetails/?id=2888924215) | [TOUHOU]东方Project领袖包———依神紫苑 | [TOUHOU] Oriental Project leader Bao ——— Yishen Aster |
 | [2899426416](https://steamcommunity.com/sharedfiles/filedetails/?id=2899426416) | Date.A.Live-Core | Date.A.Live-Core |
