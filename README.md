@@ -83,6 +83,7 @@ Auto-generated translations for the following mods are currently included in thi
 | [2731102180](https://steamcommunity.com/sharedfiles/filedetails/?id=2731102180) | 碧蓝航线可爱柴郡mod AZURE LANE CUTE CHESTER | AZURE LANE CUTE CHESTER mod AZURE LANE CUTE CHESTER |
 | [2759607299](https://steamcommunity.com/sharedfiles/filedetails/?id=2759607299) | 碧蓝档案——阿拜多斯文明包（附BGM）（BUG修复版） | Azure Archives - Abydos Civilization Pack (with BGM) (BUG Repair Version) |
 | [2765468058](https://steamcommunity.com/sharedfiles/filedetails/?id=2765468058) | 碧蓝档案——千年学院文明包 | Azure Archives - Millennium Academy Civilization Pack |
+| [2774115140](https://steamcommunity.com/sharedfiles/filedetails/?id=2774115140) | [GS] Touhou Project--Mage of Seven Elements | [GS] Touhou Project--Mage of Seven Elements |
 | [2778172988](https://steamcommunity.com/sharedfiles/filedetails/?id=2778172988) | 楠芽吹是勇者 | Nan Mebuki is a brave man |
 | [2784842660](https://steamcommunity.com/sharedfiles/filedetails/?id=2784842660) | 碧蓝档案——圣三一学院领袖拓展包 | Azure Files - Trinity College Leadership Expansion Pack |
 | [2785489483](https://steamcommunity.com/sharedfiles/filedetails/?id=2785489483) | Blue Archive----Gehenna School | Blue Archive----Gehenna School |

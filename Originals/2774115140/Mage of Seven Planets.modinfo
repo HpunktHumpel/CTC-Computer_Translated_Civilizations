@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="032378d3-360b-464a-b97d-d8a2a92a9008" version="1">
+	<Properties>
+		<Name>LOC_MAGE_OF_SEVEN_PLANETS_NAME</Name>
+		<Description>LOC_MAGE_OF_SEVEN_PLANETS_DESCRIPTION</Description>
+		<Created>1646886722</Created>
+		<Teaser>Patchouli GO!</Teaser>
+		<Authors>Kunsmendon</Authors>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	<Dependencies>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+	</Dependencies>
+	<References>
+		<Mod id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" title="LOC_ETHIOPIA_MOD_TITLE" />
+		<Mod id="A1100FC4-70F2-4129-AC27-2A65A685ED08" title="LOC_BYZANTIUM_GAUL_MOD_TITLE" />
+		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE" />
+	</References>
+	<LocalizedText>
+		<Text id="LOC_MAGE_OF_SEVEN_PLANETS_NAME">
+			<en_US>[COLOR:253,68,239,255]TouHou Project Mage of Seven Planets[ENDCOLOR]</en_US>
+			<zh_Hans_CN>[COLOR:253,68,239,255]东方project--七曜魔女[ENDCOLOR]</zh_Hans_CN>
+		</Text>
+
+		<Text id="LOC_MAGE_OF_SEVEN_PLANETS_DESCRIPTION">
+			<en_US>[COLOR:253,68,239,255]This mod add a new Touhou character. However, no Engligh text included.[ENDCOLOR]</en_US>
+			<zh_Hans_CN>[COLOR:255,255,0,255]警告：由于本MOD和“Unearthed”同时修改了GreatWorkShowCase，且不可调和，建议关闭游戏声音或者两者只开启一个进行游玩（同时开启会仅会导致ui报错：画廊中切换巨作的声音关不掉）[ENDCOLOR][NEWLINE][COLOR:253,68,239,255]来自原作：TH06东方红魔乡--EX道中。[NEWLINE]四面是隔壁那位，不是我。我要是四面，你还想见到咲夜和大小姐？[NEWLINE]内容包含：[NEWLINE]1个文明[NEWLINE]1个领袖[NEWLINE]2种改良[NEWLINE]5种资源[NEWLINE]11个建筑[NEWLINE]28个项目[NEWLINE]32个伟人[NEWLINE]47个音频[NEWLINE]72个巨作[NEWLINE]184个图标[NEWLINE]1w+字的百科（大嘘）[NEWLINE][NEWLINE]这个mod花了我无数精力和时间，我看着制作工具的使用时长一直在累加，从代码到测试，还有不计其数的美工，文本，都只有我一个人solo。当然，这么大一个项目，数值很难均衡化。于是我就不平衡了，毕竟F社也不会。我直接开明牌+大炮弹轰轰轰就完事了。[ENDCOLOR]</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+	<ActionCriteria>
+		<Criteria id="Mage_of_Seven_Planets_Criteria_SecretSocieties_Mode">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+
+		<Criteria id="Mage_of_Seven_Planets_Criteria_Dramatic_Age_Mode">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		
+		<Criteria id="Mage_of_Seven_Planets_Criteria_Random_Events_Mode">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_APOCALYPSE</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		
+		<Criteria id="Mage_of_Seven_Planets_Criteria_Base" any="1">
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		
+	</ActionCriteria>
+	<FrontEndActions>
+		<UpdateDatabase id="config">
+			<File>MAGE Patchouli Config.xml</File>
+		</UpdateDatabase>
+		<UpdateArt id="art">
+			<File>LOC_MAGE_OF_SEVEN_PLANETS_NAME.dep</File>
+		</UpdateArt>
+		<UpdateIcons id="icons">
+			<File>MAGE Patchouli Icons.xml</File>
+		</UpdateIcons>
+		<UpdateText id="text">
+			<File>MAGE Patchouli Text CN.xml</File>
+		</UpdateText>
+		<UpdateColors id="colors">
+			<File>MAGE Patchouli Colors.xml</File>
+		</UpdateColors>
+	</FrontEndActions>
+	<InGameActions>
+		<UpdateDatabase id="BaseData" criteria="Mage_of_Seven_Planets_Criteria_Base">
+			<File>MAGE Patchouli Buildings Abilities.xml</File>
+			<File>MAGE Patchouli Buildings.xml</File>
+			<File>MAGE Patchouli Civ.xml</File>
+			<File>MAGE Patchouli Great Elements.xml</File>
+			<File>MAGE Patchouli Great Works.xml</File>
+			<File>MAGE Patchouli Improvements.xml</File>
+			<File>MAGE Patchouli Leader.xml</File>
+			<File>MAGE Patchouli Moments.xml</File>
+			<File>MAGE Patchouli Normal Modifiers.sql</File>
+			<File>MAGE Patchouli Other Projects.xml</File>
+			<File>MAGE Patchouli Projects Modifiers.sql</File>
+			<File>MAGE Patchouli Projects.xml</File>
+			<File>MAGE Patchouli Resource.xml</File>
+			<File>MAGE Patchouli Unique Unit Ability.xml</File>
+			<File>MAGE Patchouli Unique Unit Promotion.xml</File>
+			<File>MAGE Patchouli Unique Unit.xml</File>
+			<File>MAGE Patchouli Units Abilities Modifiers.sql</File>
+			<File>MAGE Patchouli Yields.xml</File>
+			<File>MAGE Patchouli Projects Enable.sql</File>
+			<File>MAGE Patchouli Buildings Modifier.sql</File>
+			<File>MAGE Patchouli Project Abilities.xml</File>
+			<File>MAGE Patchouli WMD.xml</File>
+			<File>MAGE Patchouli Policy.xml</File>
+			<File>MAGE Patchouli GreatWork Modifiers.sql</File>
+		</UpdateDatabase>
+		<UpdateColors id="colors" criteria="Mage_of_Seven_Planets_Criteria_Base">
+			<File>MAGE Patchouli Colors.xml</File>
+		</UpdateColors>
+		<UpdateIcons id="icons" criteria="Mage_of_Seven_Planets_Criteria_Base">
+			<File>MAGE Patchouli Icons.xml</File>
+		</UpdateIcons>
+		<UpdateText id="text" criteria="Mage_of_Seven_Planets_Criteria_Base">
+			<File>MAGE Patchouli Text CN.xml</File>
+			<File>Extra Text/MAGE Patchouli History Context.xml</File>
+		</UpdateText>
+		<UpdateArt id="art" criteria="Mage_of_Seven_Planets_Criteria_Base">
+			<File>LOC_MAGE_OF_SEVEN_PLANETS_NAME.dep</File>
+		</UpdateArt>
+		<AddGameplayScripts id="lua" criteria="Mage_of_Seven_Planets_Criteria_Base">
+			<File>MAGE Patchouli Score.lua</File>
+			<File>Mage Patchouli GreatWork Music.lua</File>
+		</AddGameplayScripts>
+		<UpdateDatabase id="RandomEventMode" criteria="Mage_of_Seven_Planets_Criteria_Random_Events_Mode">
+			<File>MAGE Patchouli Flood Random Events Mode.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="DarkAgeMode" criteria="Mage_of_Seven_Planets_Criteria_Dramatic_Age_Mode">
+		    <File>MAGE Patchouli Dark Age.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="text2" criteria="Mage_of_Seven_Planets_Criteria_Dramatic_Age_Mode">
+			<File>Extra Text/MAGE Patchouli Dark Age Text.xml</File>
+		</UpdateText>
+		<UpdateDatabase id="SecretSocietiesMode" criteria="Mage_of_Seven_Planets_Criteria_SecretSocieties_Mode">
+			<File>MAGE Patchouli Teleport Well.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="text3" criteria="Mage_of_Seven_Planets_Criteria_SecretSocieties_Mode">
+			<File>Extra Text/MAGE Patchouli Teleport Well Text.xml</File>
+		</UpdateText>
+		
+		<ImportFiles id="ui replace" criteria="Mage_of_Seven_Planets_Criteria_Base">
+			<Properties>
+				<LoadOrder>202233</LoadOrder>
+			</Properties>
+			<File>WMDUI/CityBannerManager.xml</File>
+			<File>WMDUI/TopPanel.lua</File>
+			<File>WMDUI/TopPanel.xml</File>
+			<File>WMDUI/CityBannerManager.lua</File>
+			<File>WMDUI/GreatWorkShowcase.lua</File>
+		</ImportFiles>
+		<UpdateAudio id="audio" criteria="Mage_of_Seven_Planets_Criteria_Base">
+			<File>Platforms/Windows/Audio/MageGM_SoundBank.bnk</File>
+			<File>Platforms/Windows/Audio/MageGM_SoundBank.ini</File>
+			<File>Platforms/Windows/Audio/MageGM_SoundBank.txt</File>
+			<File>Platforms/Windows/Audio/SoundbanksInfo1.xml</File>
+		</UpdateAudio>
+	</InGameActions>
+	<Files>
+		<File>ArtDefs/Buildings.artdef</File>
+		<File>ArtDefs/Civilizations.artdef</File>
+		<File>ArtDefs/FallbackLeaders.artdef</File>
+		<File>ArtDefs/Improvements.artdef</File>
+		<File>ArtDefs/Resources.artdef</File>
+		<File>ArtDefs/Units.artdef</File>
+		<File>Extra Text/MAGE Patchouli Dark Age Text.xml</File>
+		<File>Extra Text/MAGE Patchouli History Context.xml</File>
+		<File>Extra Text/MAGE Patchouli Teleport Well Text.xml</File>
+		<File>LOC_MAGE_OF_SEVEN_PLANETS_NAME.dep</File>
+		<File>Mage of Seven Planets.Art.xml</File>
+		<File>MAGE Patchouli Buildings Abilities.xml</File>
+		<File>MAGE Patchouli Buildings Modifier.sql</File>
+		<File>MAGE Patchouli Buildings.xml</File>
+		<File>MAGE Patchouli Civ.xml</File>
+		<File>MAGE Patchouli Colors.xml</File>
+		<File>MAGE Patchouli Config.xml</File>
+		<File>MAGE Patchouli Dark Age.sql</File>
+		<File>MAGE Patchouli Great Elements.xml</File>
+		<File>MAGE Patchouli Great Works.xml</File>
+		<File>MAGE Patchouli GreatWork Modifiers.sql</File>
+		<File>MAGE Patchouli Icons.xml</File>
+		<File>MAGE Patchouli Improvements.xml</File>
+		<File>MAGE Patchouli Leader.xml</File>
+		<File>MAGE Patchouli Modinfo Copy.xml</File>
+		<File>MAGE Patchouli Moments.xml</File>
+		<File>MAGE Patchouli Normal Modifiers.sql</File>
+		<File>MAGE Patchouli Other Projects.xml</File>
+		<File>MAGE Patchouli Policy.xml</File>
+		<File>MAGE Patchouli Project Abilities.xml</File>
+		<File>MAGE Patchouli Projects Enable.sql</File>
+		<File>MAGE Patchouli Projects Modifiers.sql</File>
+		<File>MAGE Patchouli Projects.xml</File>
+		<File>MAGE Patchouli Resource.xml</File>
+		<File>MAGE Patchouli Score.lua</File>
+		<File>MAGE Patchouli Teleport Well.sql</File>
+		<File>MAGE Patchouli Text CN.xml</File>
+		<File>MAGE Patchouli Unique Unit Ability.xml</File>
+		<File>MAGE Patchouli Unique Unit Promotion.xml</File>
+		<File>MAGE Patchouli Unique Unit.xml</File>
+		<File>MAGE Patchouli Units Abilities Modifiers.sql</File>
+		<File>MAGE Patchouli WMD.xml</File>
+		<File>MAGE Patchouli Yields.xml</File>
+		<File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+		<File>Platforms/MacOS/BLPs/Mage Patchouli Knowledge.blp</File>
+		<File>Platforms/Windows/Audio/MageGM_SoundBank.bnk</File>
+		<File>Platforms/Windows/Audio/MageGM_SoundBank.ini</File>
+		<File>Platforms/Windows/Audio/MageGM_SoundBank.txt</File>
+		<File>Platforms/Windows/Audio/SoundbanksInfo1.xml</File>
+		<File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+		<File>Platforms/Windows/BLPs/Mage Patchouli Knowledge.blp</File>
+		<File>WMDUI/CityBannerManager.lua</File>
+		<File>WMDUI/CityBannerManager.xml</File>
+		<File>WMDUI/GreatWorkShowcase.lua</File>
+		<File>WMDUI/TopPanel.lua</File>
+		<File>WMDUI/TopPanel.xml</File>
+	</Files>
+</Mod>
