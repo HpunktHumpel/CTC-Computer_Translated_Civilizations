@@ -321,3 +321,4 @@ Auto-generated translations for the following mods are currently included in thi
 | [3492956656](https://steamcommunity.com/sharedfiles/filedetails/?id=3492956656) | 深空之眼 巧构·麟钰 | Eye of Deep Space Clever Lin Yu |
 | [3493976204](https://steamcommunity.com/sharedfiles/filedetails/?id=3493976204) | 深空之眼 绵暖冬意·执明 | The Eye of Deep Space Warm Winter Idea · Enlightenment |
 | [3494704467](https://steamcommunity.com/sharedfiles/filedetails/?id=3494704467) | 明日方舟：缪尔赛思 | Ark of Tomorrow: Muirsse |
+| [3549419242](https://steamcommunity.com/sharedfiles/filedetails/?id=3549419242) | 翁法罗斯：白厄领袖包 测试版 | Ompharos: Baie Leader Pack Beta |

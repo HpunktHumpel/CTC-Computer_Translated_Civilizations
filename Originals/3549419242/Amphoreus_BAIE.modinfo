@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4f6bbc3f-d74c-4a66-86af-bed26970c284" version="1">
+  <Properties>
+    <Name>LOC_AMPHOREUS_BAIE_MOD_TITLE</Name>
+    <Description>LOC_AMPHOREUS_BAIE_MOD_DESCRIPTION</Description>
+    <Created>1755614109</Created>
+    <Teaser>LOC_AMPHOREUS_BAIE_MOD_TEASER</Teaser>
+    <Authors>LOC_AMPHOREUS_BAIE_MOD_AUTHORS</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="5c6de9e5-10ae-479c-9a91-b29ac1470223" title="[COLOR:Civ6Yellow]【崩坏：星穹铁道】[ENDCOLOR]翁法罗斯文明包" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Amphoreus_Pro">
+      <ModInUse>b8bb2b90-518d-42dc-b834-dcdd6dc32932</ModInUse>
+    </Criteria>
+    <Criteria id="Amphoreus_BAIE">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_NW_PHAINON,StandardPlayers::LEADER_NW_PHAINON,Players:Expansion1_Players::LEADER_NW_PHAINON,Players:Expansion2_Players::LEADER_NW_PHAINON</LeaderPlayable>
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Amphoreus_BAIE_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_NW_PHAINON</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Amphoreus_BAIE_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_NW_PHAINON</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="SecretSocieties">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Amphoreus_BAIESettings">
+      <File>Data/Amphoreus_BAIE_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="Amphoreus_BAIESettingsArt">
+      <File>LOC_AMPHOREUS_BAIE_MOD_TITLE.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Amphoreus_BAIEColors">
+      <File>Data/Amphoreus_BAIE_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="Amphoreus_BAIESettingsText">
+      <File>Text/Amphoreus_BAIE_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Amphoreus_BAIESettingsIcons">
+      <File>Data/Amphoreus_BAIE_Icons.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <ImportFiles id="Amphoreus_BAIE_ImportFiles">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Import/NwflowerMODCore.lua</File>
+    </ImportFiles>
+    <UpdateArt id="Amphoreus_BAIEArt">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>LOC_AMPHOREUS_BAIE_MOD_TITLE.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Amphoreus_BAIEGameplay">
+      <Properties>
+        <LoadOrder>16696</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Data/Amphoreus_BAIE_Buildings.sql</File>
+      <File>Data/Amphoreus_BAIE_Civilizations.sql</File>
+      <File>Data/Amphoreus_BAIE_Distrcits.sql</File>
+      <File>Data/Amphoreus_BAIE_Improvement.sql</File>
+      <File>Data/Amphoreus_BAIE_Leaders.sql</File>
+      <File>Data/Amphoreus_BAIE_Modifier.sql</File>
+      <File>Data/Amphoreus_BAIE_Units.sql</File>
+      <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Modifier.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="Amphoreus_BAIEColors">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Data/Amphoreus_BAIE_Colors.sql</File>
+    </UpdateColors>
+    <UpdateDatabase id="Amphoreus_BAIEGameplay_XP1">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE_Expansion1</Criteria>
+      <File>Data/Amphoreus_BAIE_Expansion1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Amphoreus_BAIEGameplay_XP2">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE_Expansion2</Criteria>
+      <File>Data/Amphoreus_BAIE_Expansion2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Amphoreus_BAIE_SecretSocieties_MODE">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>SecretSocieties</Criteria>
+      <File>Data/Amphoreus_BAIE_SecretSocieties_MODE.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Amphoreus_BAIE_Text">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Text/Amphoreus_BAIE_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Amphoreus_BAIE_Icons">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Data/Amphoreus_BAIE_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateLogitechARX id="Amphoreus_BAIE_ARX">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+    </UpdateLogitechARX>
+    <UpdateAudio id="Amphoreus_BAIE_Audio">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Platforms/Windows/Audio/Amphoreus_BAIE_Banks.ini</File>
+    </UpdateAudio>
+    <AddGameplayScripts id="Amphoreus_BAIE_AddGameplayScripts">
+      <Properties>
+        <LoadOrder>16796</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Script/Amphoreus_BAIE_Script.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="NeiKos496UI">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>16800</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_POPUP.xml</File>
+      <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateIcons id="NeiKos496Icon">
+      <Properties>
+        <LoadOrder>16800</LoadOrder>
+      </Properties>
+      <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Icon.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="NeiKos496Lua">
+      <Properties>
+        <LoadOrder>16800</LoadOrder>
+      </Properties>
+      <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496.lua</File>
+    </AddGameplayScripts>
+    <ImportFiles id="ImportFiles">
+      <Properties>
+        <LoadOrder>16700</LoadOrder>
+      </Properties>
+      <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_MV/NeiKos496MovieB1.bk2</File>
+      <File>Platforms/Windows/Movies/NeiKos496MovieB2.bk2</File>
+      <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_MV/NeiKos496MovieC.bk2</File>
+      <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_MV/NeiKos496MovieA.bk2</File>
+      <File>UI/Replacements/EndGameMenu_Baie.lua</File>
+    </ImportFiles>
+    <UpdateText id="Pro_Text">
+      <Properties>
+        <LoadOrder>16900</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_Pro</Criteria>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Pro/Amphoreus_BAIE_Text_Pro.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="Pro_DB">
+      <Properties>
+        <LoadOrder>16900</LoadOrder>
+      </Properties>
+      <Criteria>Amphoreus_Pro</Criteria>
+      <Criteria>Amphoreus_BAIE</Criteria>
+      <File>Pro/Amphoreus_BAIE_Pro.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <LocalizedText>
+    <File>Text/Amphoreus_BAIE_PackageText.xml</File>
+  </LocalizedText>
+  <Files>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496.lua</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496.xml</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Color.xml</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Config.xml</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Icon.xml</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Modifier.xml</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_MV/NeiKos496MovieA.bk2</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_MV/NeiKos496MovieB1.bk2</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_MV/NeiKos496MovieC.bk2</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_POPUP.lua</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_POPUP.xml</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_UI.lua</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Special/Amphoreus_NeiKos496_UI.xml</File>
+    <File>Amphoreus_NeiKos496/Amphoreus_NeiKos496_Text.xml</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/Amphoreus_BAIE_Buildings.sql</File>
+    <File>Data/Amphoreus_BAIE_Civilizations.sql</File>
+    <File>Data/Amphoreus_BAIE_Colors.sql</File>
+    <File>Data/Amphoreus_BAIE_Config.sql</File>
+    <File>Data/Amphoreus_BAIE_Distrcits.sql</File>
+    <File>Data/Amphoreus_BAIE_Expansion1.sql</File>
+    <File>Data/Amphoreus_BAIE_Expansion2.sql</File>
+    <File>Data/Amphoreus_BAIE_Icons.xml</File>
+    <File>Data/Amphoreus_BAIE_Improvement.sql</File>
+    <File>Data/Amphoreus_BAIE_Leaders.sql</File>
+    <File>Data/Amphoreus_BAIE_Modifier.sql</File>
+    <File>Data/Amphoreus_BAIE_SecretSocieties_MODE.sql</File>
+    <File>Data/Amphoreus_BAIE_Units.sql</File>
+    <File>Import/NwflowerMODCore.lua</File>
+    <File>LOC_AMPHOREUS_BAIE_MOD_TITLE.dep</File>
+    <File>Platforms/MacOS/BLPs/NeiKos496Icon.blp</File>
+    <File>Platforms/Windows/Audio/Amphoreus_BAIE_Banks.ini</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/NeiKos496Icon.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_CivAmphoreus</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_CivAmphoreus</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_uilenses.blp</File>
+    <File>Platforms/Windows/BLPs/UILensAssets.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Shell_Loading.blp</File>
+    <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
+    <File>Platforms/Windows/Movies/NeiKos496MovieB2.bk2</File>
+    <File>Pro/Amphoreus_BAIE_Pro.sql</File>
+    <File>Pro/Amphoreus_BAIE_Text_Pro.xml</File>
+    <File>Script/Amphoreus_BAIE_Script.lua</File>
+    <File>Text/Amphoreus_BAIE_PackageText.xml</File>
+    <File>Text/Amphoreus_BAIE_Text.xml</File>
+    <File>UI/Replacements/endgamemenu.xml</File>
+    <File>UI/Replacements/EndGameMenu_Baie.lua</File>
+  </Files>
+</Mod>
